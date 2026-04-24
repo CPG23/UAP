@@ -2191,32 +2191,37 @@
     if (loadAlien && heroAlien) heroAlien.src = loadAlien.src;
     initNotifications();
 
+    // Always show alien splash for 10 seconds on startup
+    _inSplash = true;
+    document.getElementById('loading').style.display = 'flex';
+
     var cache = loadFeedCache();
+
+    // Always pre-render cached articles behind the splash (both feeds)
     if (cache.articles && cache.articles.length) {
-      // Sofort aus Cache rendern — kein Ladebildschirm
-      currentArticles = cache.articles;
-      document.getElementById('loading').style.display = 'none';
+      currentArticles = cache.articles.slice(0, 5);
       renderArticles(currentArticles);
       if (lastScanTime) {
         document.getElementById('last-scan').textContent =
           'Aktualisiert: ' + new Date(lastScanTime).toLocaleTimeString('de-AT', {hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit'});
       }
       if (cache.extArticles && cache.extArticles.length) {
-        renderExtFeed(cache.extArticles);
+        renderExtFeed(cache.extArticles.slice(0, 5));
         crossFeedMerge();
       }
-      // Im Hintergrund nachladen wenn Cache älter als 6h
-      if (cache.stale) {
-        setTimeout(function() {
-          Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
-        }, 800);
-      }
-    } else {
-      // Kein Cache — normal laden
-      setTimeout(function() {
-        Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
-      }, 300);
     }
+
+    // Always check for newer articles in background
+    setTimeout(function() {
+      Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
+    }, 300);
+
+    // End splash after 10 seconds — articles already visible underneath
+    setTimeout(function() {
+      _inSplash = false;
+      document.getElementById('loading').style.display = 'none';
+      showBgAlien();
+    }, 10000);
   });
 </script>
 </body>
