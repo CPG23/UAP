@@ -369,6 +369,28 @@
     animation: blink 1.2s step-end infinite;
   }
 
+  #articles-hint {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 20px;
+    margin: 0 0 12px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--accent);
+    border: 1px solid rgba(0,212,255,0.25);
+    background: rgba(0,212,255,0.05);
+    animation: hintFadeOut 4.5s ease-in forwards;
+  }
+  @keyframes hintFadeOut {
+    0%   { opacity: 0; }
+    15%  { opacity: 1; }
+    70%  { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
   .loading-sub {
     font-family: 'Share Tech Mono', monospace;
     font-size: 10px;
@@ -1077,6 +1099,7 @@
     <div style="margin-top:8px;font-size:10px;opacity:0.6;">Scan erneut starten oder Filter anpassen</div>
   </div>
 
+  <div id="articles-hint">&#9660; Artikel werden unterhalb angezeigt</div>
   <div id="feed"></div>
 
   <span id="ext-count" style="display:none"></span>
@@ -1539,6 +1562,8 @@
       document.getElementById('empty-state').style.display = 'block';
       return;
     }
+    var hint = document.getElementById('articles-hint');
+    if (hint) { hint.style.display = 'flex'; hint.style.animation = 'none'; void hint.offsetWidth; hint.style.animation = 'hintFadeOut 4.5s ease-in forwards'; setTimeout(function(){ hint.style.display = 'none'; }, 4500); }
     const feed = document.getElementById('feed');
     feed.innerHTML = '';
 
