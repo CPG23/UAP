@@ -1184,6 +1184,7 @@
   let _scanStart = Date.now();
   let _mainRetried = false;
   let _inSplash = false;
+  let _silentRefresh = false;
   function showBgAlien() {
     var w = document.getElementById('bg-alien-wrap');
     var img = document.getElementById('bg-alien-img');
@@ -1392,11 +1393,11 @@
     var _ldEl = document.getElementById('loading-last-dur');
     if (_ldEl) _ldEl.textContent = _lastDur ? 'LETZTER SCAN: ' + _lastDur + ' Sekunden' : '';
     var _hasArticles = currentArticles.length > 0;
-    if (!_hasArticles && !_inSplash) document.getElementById('loading').style.display = 'flex';
+    if (!_hasArticles && !_inSplash && !_silentRefresh) document.getElementById('loading').style.display = 'flex';
     var _sp = document.getElementById('search-spinner');
-    if (_hasArticles && !_inSplash) { _sp.style.display = 'flex'; setTimeout(function(){ _sp.scrollIntoView({behavior:'smooth',block:'nearest'}); }, 100); }
+    if (_hasArticles && !_inSplash && !_silentRefresh) { _sp.style.display = 'flex'; }
     else if (_sp) { _sp.style.display = 'none'; }
-    if (!_hasArticles) document.getElementById('feed').innerHTML = '';
+    if (!_hasArticles && !_silentRefresh) document.getElementById('feed').innerHTML = '';
     document.getElementById('empty-state').style.display = 'none';
     document.getElementById('error-msg').style.display = 'none';
     function setStatus(msg) { var el = document.querySelector('.loading-sub'); if (el) el.textContent = msg; }
@@ -1761,7 +1762,7 @@
     var extLoading = document.getElementById('ext-loading');
     var extFeed    = document.getElementById('ext-feed');
     extLoading.classList.add('active');
-    var _spinner = document.getElementById('search-spinner'); if (_spinner && !_inSplash) { _spinner.style.display = 'flex'; setTimeout(function(){ _spinner.scrollIntoView({behavior:'smooth',block:'nearest'}); }, 150); }
+    var _spinner = document.getElementById('search-spinner'); if (_spinner && !_inSplash && !_silentRefresh) { _spinner.style.display = 'flex'; }
     var _extScanStart = Date.now();
     var _extLastDur = localStorage.getItem('uap_last_ext_scan_dur');
     var _extDurEl = document.getElementById('ext-loading-last-dur');
@@ -2321,9 +2322,10 @@
         renderExtFeed(cache.extArticles.slice(0, 5));
         crossFeedMerge();
       }
-      // Background refresh to find newer articles
+      // Background refresh to find newer articles — silent (no spinner/scroll)
+      _silentRefresh = true;
       setTimeout(function() {
-        Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
+        Promise.all([loadNews(), loadExtendedNews()]).then(function() { _silentRefresh = false; crossFeedMerge(); });
       }, 300);
     } else {
       // No cache (first ever start) — 10s alien splash while loading
