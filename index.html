@@ -1105,24 +1105,16 @@
   <span id="live-date" style="display:none"></span>
   <span id="article-counter" style="display:none"></span>
   <div class="controls">
-    <button class="btn-scan" id="scan-btn" onclick="Promise.all([loadNews(),loadExtendedNews()]).then(function(){document.getElementById('loading').style.display='none';showBgAlien();crossFeedMerge();})">
+    <button class="btn-scan" id="scan-btn" onclick="Promise.all([loadNews(),loadExtendedNews()]).then(function(){crossFeedMerge();})">
       ▶ SCAN STARTEN
     </button>
     <div class="filter-info">
       <span style="opacity:0.6;font-size:10px">&#128197; Letzte 7 Tage</span>
     </div>
     
-    <div style="display:flex;align-items:center;gap:0">
-      <button class="btn-notif" id="notif-btn" onclick="toggleNotifications()">&#128276; PUSH AUS</button><button class="btn-notif" id="notif-test-btn" onclick="testNotification()" style="font-size:10px;padding:9px 8px;letter-spacing:1px;border-left:none;border-color:var(--accent);color:var(--accent)">TEST</button>
-    </div>
   </div>
 
-  <div id="notif-banner">
-    <button class="notif-close" onclick="document.getElementById('notif-banner').classList.remove('show')">&#10005;</button>
-    <div class="notif-title">&#128225; NEUE MELDUNGEN VIA PUSH</div>
-    <div class="notif-body" id="notif-banner-body"></div>
-    <div id="notif-banner-links"></div>
-  </div>
+
 
   <div id="error-msg"></div>
 
@@ -1489,6 +1481,10 @@
       merged = pruneFeed(merged);
       merged.sort(function(a, b) { return new Date(b.date || '1970-01-01') - new Date(a.date || '1970-01-01'); });
       merged = merged.slice(0, 5);
+      if (merged.length === 0 && currentArticles.length > 0) {
+        // Network/proxy issue — keep existing visible articles, don't clear
+        return;
+      }
       finalizeAndRender(merged);
       saveFeedCache();
 
