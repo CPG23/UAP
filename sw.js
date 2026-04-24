@@ -53,10 +53,13 @@ self.addEventListener('notificationclick', function(e) {
 async function fetchAndNotify() {
   try {
     var seenIds = [];
+    var ntfyTopic = '';
     try {
       var mc = await caches.open(META);
       var r  = await mc.match('seen-ids');
       if (r) seenIds = await r.json();
+      var tr = await mc.match('ntfy-topic');
+      if (tr) ntfyTopic = (await tr.text()).trim();
     } catch(x) {}
 
     var q     = encodeURIComponent('UAP UFO 2026');
@@ -88,14 +91,29 @@ async function fetchAndNotify() {
     var first = newArts[0];
     var count = newArts.length;
     var body  = first.title + (count > 1 ? '\n+ ' + (count - 1) + ' weitere Meldung' + (count > 2 ? 'en' : '') : '');
+    var notifTitle = 'UAP NEWS — ' + count + ' neue Meldung' + (count > 1 ? 'en' : '');
 
-    await self.registration.showNotification(
-      'UAP NEWS — ' + count + ' neue Meldung' + (count > 1 ? 'en' : ''), {
-        body: body, tag: 'uap-daily', renotify: true,
-        data: { articles: newArts, first: first },
-        icon: './', badge: './'
-      }
-    );
+    // Send via ntfy.sh (works on iOS, Android, all browsers)
+    if (ntfyTopic) {
+      try {
+        await fetch('https://ntfy.sh/' + ntfyTopic, {
+          method: 'POST',
+          headers: {
+            'Title': notifTitle,
+            'Priority': 'default',
+            'Tags': 'flying_saucer'
+          },
+          body: body
+        });
+      } catch(ntfyErr) { console.log('[SW ntfy]', ntfyErr.message); }
+    }
+
+    // Also show local Web Notification (works when app is open / Chrome Android)
+    await self.registration.showNotification(notifTitle, {
+      body: body, tag: 'uap-daily', renotify: true,
+      data: { articles: newArts, first: first },
+      icon: './', badge: './'
+    });
 
     var newIds = seenIds.concat(newArts.map(function(a) { return a.id; })).slice(-200);
     var mc2    = await caches.open(META);
