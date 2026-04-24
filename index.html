@@ -32,6 +32,7 @@
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { overscroll-behavior-y: none; }
 
   body {
     background: var(--bg);
@@ -2086,6 +2087,20 @@
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./sw.js').catch(function(e){ console.log('SW:', e); });
     }
+  })();
+
+  // Disable pull-to-refresh (CSS overscroll-behavior is not always enough)
+  (function() {
+    var lastY = 0;
+    document.addEventListener('touchstart', function(e) {
+      lastY = e.touches[0].clientY;
+    }, { passive: true });
+    document.addEventListener('touchmove', function(e) {
+      var scrollEl = document.scrollingElement || document.documentElement;
+      if (scrollEl.scrollTop === 0 && e.touches[0].clientY > lastY) {
+        e.preventDefault();
+      }
+    }, { passive: false });
   })();
 
   window.addEventListener('load', () => {
