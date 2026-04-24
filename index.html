@@ -199,6 +199,8 @@
 
   /* Controls */
   .controls {
+    position: relative;
+    z-index: 1;
     display: flex;
     align-items: center;
     gap: 14px;
@@ -370,29 +372,58 @@
   .loading-sub, #loading-last-dur, .loading-bar { display: none; }
   .loading-text {
     font-family: 'Share Tech Mono', monospace;
-    font-size: 13px;
+    font-size: 22px;
     color: var(--accent);
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     animation: blink 1.2s step-end infinite;
   }
 
-  #articles-hint {
+
+
+  #bg-alien-wrap {
     display: none;
-    align-items: center;
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
     justify-content: center;
-    gap: 8px;
-    padding: 10px 20px;
-    margin: 0 0 12px;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 2px;
-    color: var(--accent);
-    border: 1px solid rgba(0,212,255,0.25);
-    background: rgba(0,212,255,0.05);
-    animation: hintFadeOut 4.5s ease-in forwards;
+    align-items: center;
   }
-  @keyframes hintFadeOut {
-    0%   { opacity: 0; }
+  #bg-alien-wrap img {
+    height: 90vh;
+    width: auto;
+    opacity: 0.07;
+    mix-blend-mode: screen;
+    filter: brightness(0.45) saturate(0.8);
+    mask-image: radial-gradient(ellipse 80% 68% at 50% 32%, black 22%, rgba(0,0,0,0.4) 52%, transparent 74%);
+    -webkit-mask-image: radial-gradient(ellipse 80% 68% at 50% 32%, black 22%, rgba(0,0,0,0.4) 52%, transparent 74%);
+    transition: opacity 1.5s ease;
+  }
+
+  #search-spinner {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 24px 0 16px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+  }
+  #search-spinner::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(0,212,255,0.2);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    flex-shrink: 0;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
     15%  { opacity: 1; }
     70%  { opacity: 1; }
     100% { opacity: 0; }
@@ -886,6 +917,7 @@
   /* ── HERO HEADER ─────────────────────────────────────────────────────── */
   .uap-hero {
     position: relative;
+    z-index: 1;
     text-align: center;
     padding: 36px 20px 28px;
     overflow: hidden;
@@ -1074,7 +1106,7 @@
     </div>
     
     <div style="display:flex;align-items:center;gap:0">
-      <button class="btn-notif" id="notif-btn" onclick="toggleNotifications()">&#128276; PUSH AUS</button><button class="btn-notif" id="notif-test-btn" onclick="testNotification()" style="display:none;font-size:10px;padding:9px 8px;letter-spacing:1px;border-left:none;border-color:var(--accent);color:var(--accent)">&#9654;</button>
+      <button class="btn-notif" id="notif-btn" onclick="toggleNotifications()">&#128276; PUSH AUS</button><button class="btn-notif" id="notif-test-btn" onclick="testNotification()" style="font-size:10px;padding:9px 8px;letter-spacing:1px;border-left:none;border-color:var(--accent);color:var(--accent)">TEST</button>
     </div>
   </div>
 
@@ -1102,8 +1134,8 @@
     <div style="margin-top:8px;font-size:10px;opacity:0.6;">Scan erneut starten oder Filter anpassen</div>
   </div>
 
-  <div id="articles-hint">&#9660; Artikel werden unterhalb angezeigt</div>
   <div id="feed"></div>
+  <div id="search-spinner">SUCHE WEITERE MELDUNGEN</div>
 
   <span id="ext-count" style="display:none"></span>
   <div id="ext-separator" style="display:none; align-items:center; gap:16px; margin:28px 0 20px;">
@@ -1345,7 +1377,8 @@
     var _lastDur = localStorage.getItem('uap_last_scan_dur');
     var _ldEl = document.getElementById('loading-last-dur');
     if (_ldEl) _ldEl.textContent = _lastDur ? 'LETZTER SCAN: ' + _lastDur + ' Sekunden' : '';
-    document.getElementById('loading').style.display = 'flex';
+    if (!currentArticles.length) document.getElementById('loading').style.display = 'flex';
+    var _sp = document.getElementById('search-spinner'); if (_sp) _sp.style.display = 'none';
     document.getElementById('feed').innerHTML = '';
     document.getElementById('empty-state').style.display = 'none';
     document.getElementById('error-msg').style.display = 'none';
@@ -1713,6 +1746,7 @@
     var extLoading = document.getElementById('ext-loading');
     var extFeed    = document.getElementById('ext-feed');
     extLoading.classList.add('active');
+    var _spinner = document.getElementById('search-spinner'); if (_spinner) _spinner.style.display = 'flex';
     var _extScanStart = Date.now();
     var _extLastDur = localStorage.getItem('uap_last_ext_scan_dur');
     var _extDurEl = document.getElementById('ext-loading-last-dur');
@@ -1794,6 +1828,7 @@
         return;
       }
       loadExtendedNews._retried = false;
+      if (document.getElementById('search-spinner')) document.getElementById('search-spinner').style.display = 'none';
       extFeed.innerHTML = '<div style="display:flex;flex-direction:column;align-items:center;gap:12px;padding:24px 0">'
         + '<div style="font-family:\'Share Tech Mono\',monospace;font-size:11px;color:var(--text-dim);letter-spacing:2px">KEINE WEITEREN MELDUNGEN GEFUNDEN</div>'
         + '<button onclick="loadExtendedNews._retried=false;loadExtendedNews().then(function(){crossFeedMerge();})" style="font-family:Rajdhani,sans-serif;font-weight:700;font-size:12px;letter-spacing:2px;color:#030a0f;background:var(--accent3);border:none;padding:8px 20px;cursor:pointer">↺ ERNEUT VERSUCHEN</button>'
@@ -1870,6 +1905,7 @@
     seenArticleIds = Array.from(new Set(seenArticleIds.concat(mergedExt.map(function(a) { return a.id; }))));
     localStorage.setItem('uap_seen_ids', JSON.stringify(seenArticleIds.slice(-200)));
 
+    if (_spinner) _spinner.style.display = 'none';
     renderExtFeed(mergedExt);
     saveFeedCache();
   }
@@ -2051,8 +2087,7 @@
     var on = notifEnabled() && ('Notification' in window) && Notification.permission === 'granted';
     btn.innerHTML = on ? '&#128276; PUSH AN' : '&#128277; PUSH AUS';
     btn.classList.toggle('active', on);
-    var testBtn = document.getElementById('notif-test-btn');
-    if (testBtn) testBtn.style.display = on ? 'inline-block' : 'none';
+
   }
 
   async function toggleNotifications() {
@@ -2258,5 +2293,6 @@
     }
   });
 </script>
+  <div id="bg-alien-wrap"><img id="bg-alien-img" src="" alt=""></div>
 </body>
 </html>
