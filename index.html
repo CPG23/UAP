@@ -1960,7 +1960,6 @@
         alert('Notifications werden von diesem Browser nicht unterstützt.');
         return;
       }
-      // Berechtigung anfordern falls nötig (inkonsistenter PWA-Status)
       if (Notification.permission !== 'granted') {
         var p = await Notification.requestPermission();
         if (p !== 'granted') {
@@ -1970,15 +1969,21 @@
         localStorage.setItem('uap_notif_enabled', '1');
         updateNotifBtn();
       }
-      var reg = await navigator.serviceWorker.ready;
-      await reg.showNotification('UAP NEWS — Test', {
-        body: 'Push-Benachrichtigungen funktionieren! ✓',
-        tag: 'uap-test',
-        data: { articles: [], first: { title: 'Test', source: 'UAP NEWS', url: '' } }
-      });
+      // getRegistration() statt .ready — vermeidet endloses Warten bei Blob-URL SW
+      var reg = ('serviceWorker' in navigator)
+        ? await navigator.serviceWorker.getRegistration()
+        : null;
+      if (reg) {
+        await reg.showNotification('UAP NEWS — Test', {
+          body: 'Push-Benachrichtigungen funktionieren! ✓',
+          tag: 'uap-test',
+          data: { articles: [], first: { title: 'Test', source: 'UAP NEWS', url: '' } }
+        });
+      } else {
+        new Notification('UAP NEWS — Test', { body: 'Push funktioniert!' });
+      }
     } catch(e) {
-      try { new Notification('UAP NEWS — Test', { body: 'Push funktioniert!' }); }
-      catch(e2) { alert('Fehler: ' + e.message + '\n\nBitte sicherstellen dass die App als PWA installiert ist und Benachrichtigungen erlaubt sind.'); }
+      alert('Fehler: ' + e.message);
     } finally {
       if (testBtn) { testBtn.disabled = false; testBtn.innerHTML = '&#9654; TEST'; }
     }
