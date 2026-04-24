@@ -1105,7 +1105,7 @@
   <span id="live-date" style="display:none"></span>
   <span id="article-counter" style="display:none"></span>
   <div class="controls">
-    <button class="btn-scan" id="scan-btn" onclick="Promise.all([loadNews(),loadExtendedNews()]).then(function(){crossFeedMerge();})">
+    <button class="btn-scan" id="scan-btn" onclick="loadNews().then(function(){return loadExtendedNews();}).then(function(){crossFeedMerge();})">
       ▶ SCAN STARTEN
     </button>
     <div class="filter-info">
@@ -1142,11 +1142,11 @@
     <span style="font-family:'Share Tech Mono',monospace; font-size:11px; color:var(--text-dim); letter-spacing:3px; white-space:nowrap;">WEITERE ARTIKEL</span>
     <div style="flex:1; height:1px; background:var(--border);"></div>
   </div>
+  <div id="ext-feed"></div>
   <div id="ext-loading">
     <div id="ext-loading-last-dur" style="display:none"></div>
     <div class="loading-bar" style="margin-top:10px"></div>
   </div>
-  <div id="ext-feed"></div>
 </main>
 
 <footer>UAP SIGNAL v3.1 · KI-GESTÜTZTES NACHRICHTENMONITORING</footer>
@@ -1175,6 +1175,7 @@
   let currentArticles    = [];
   let _scanStart = Date.now();
   let _mainRetried = false;
+  let _inSplash = false;
   let _silentRefresh = false;
   function showBgAlien() {
     var w = document.getElementById('bg-alien-wrap');
@@ -1496,6 +1497,7 @@
         '<button onclick="Promise.all([loadNews(),loadExtendedNews()]).then(function(){document.getElementById(\'loading\').style.display=\'none\';crossFeedMerge();})" style="font-family:Rajdhani,sans-serif;font-weight:700;font-size:12px;letter-spacing:2px;color:#030a0f;background:#00d4ff;border:none;padding:8px 20px;cursor:pointer">\u21ba ERNEUT VERSUCHEN</button>';
     } finally {
       btn.disabled = false; btn.textContent = '\u25b6 SCAN STARTEN';
+      var _spFin = document.getElementById('search-spinner'); if (_spFin) _spFin.style.display = 'none';
     }
   }
 
@@ -1611,7 +1613,7 @@
       document.getElementById('empty-state').style.display = 'block';
       return;
     }
-    document.getElementById('loading').style.display = 'none'; showBgAlien();
+    if (!_inSplash) { document.getElementById('loading').style.display = 'none'; showBgAlien(); }
     const feed = document.getElementById('feed');
     feed.innerHTML = '';
 
@@ -1914,8 +1916,8 @@
     seenArticleIds = Array.from(new Set(seenArticleIds.concat(mergedExt.map(function(a) { return a.id; }))));
     localStorage.setItem('uap_seen_ids', JSON.stringify(seenArticleIds.slice(-200)));
 
-    if (_spinner) _spinner.style.display = 'none';
     renderExtFeed(mergedExt);
+    if (_spinner) _spinner.style.display = 'none';
     saveFeedCache();
   }
 
@@ -2274,12 +2276,15 @@
     if (loadAlien && heroAlien) heroAlien.src = loadAlien.src;
     initNotifications();
 
+    // Always show alien for 10 seconds on startup
+    _inSplash = true;
+    document.getElementById('loading').style.display = 'flex';
+
     var cache = loadFeedCache();
 
+    // Pre-render cached articles behind the splash
     if (cache.articles && cache.articles.length) {
-      // Show cached articles immediately
       currentArticles = cache.articles.slice(0, 5);
-      document.getElementById('loading').style.display = 'none';
       renderArticles(currentArticles);
       if (lastScanTime) {
         document.getElementById('last-scan').textContent =
@@ -2289,17 +2294,20 @@
         renderExtFeed(cache.extArticles.slice(0, 5));
         crossFeedMerge();
       }
-      // Silently refresh in background
-      _silentRefresh = true;
-      setTimeout(function() {
-        Promise.all([loadNews(), loadExtendedNews()]).then(function() { _silentRefresh = false; crossFeedMerge(); });
-      }, 300);
-    } else {
-      // No cache — load immediately, loading overlay shows until done
-      setTimeout(function() {
-        Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
-      }, 100);
     }
+
+    // Refresh runs silently behind the splash
+    _silentRefresh = true;
+    setTimeout(function() {
+      Promise.all([loadNews(), loadExtendedNews()]).then(function() { _silentRefresh = false; crossFeedMerge(); });
+    }, 300);
+
+    // After 10 seconds: hide splash, show articles + alien background
+    setTimeout(function() {
+      _inSplash = false;
+      document.getElementById('loading').style.display = 'none';
+      showBgAlien();
+    }, 10000);
   });
 </script>
   <div id="bg-alien-wrap"><img id="bg-alien-img" src="" alt=""></div>
