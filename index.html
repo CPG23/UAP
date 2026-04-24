@@ -13,7 +13,7 @@
 <link rel="manifest" id="pwa-manifest">
 <title>UAP SIGNAL — Offizielle Nachrichten</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;600;700&family=Exo+2:ital,wght@0,200;0,400;0,700;1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;600;700&family=Exo+2:ital,wght@0,200;0,400;0,700;1,300&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #030a0f;
@@ -371,11 +371,18 @@
 
   .loading-sub, #loading-last-dur, .loading-bar { display: none; }
   .loading-text {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 22px;
+    font-family: 'Orbitron', 'Share Tech Mono', monospace;
+    font-size: 18px;
+    font-weight: 700;
     color: var(--accent);
-    letter-spacing: 5px;
-    animation: blink 1.2s step-end infinite;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-shadow: 0 0 12px rgba(0,255,80,0.8), 0 0 30px rgba(0,255,80,0.4), 0 0 60px rgba(0,212,255,0.3);
+    animation: alienTextPulse 3s ease-in-out infinite;
+  }
+  @keyframes alienTextPulse {
+    0%, 100% { text-shadow: 0 0 10px rgba(0,255,80,0.7), 0 0 25px rgba(0,255,80,0.3); opacity: 0.85; }
+    50%       { text-shadow: 0 0 18px rgba(0,255,80,1.0), 0 0 45px rgba(0,255,80,0.6), 0 0 80px rgba(0,212,255,0.4); opacity: 1; }
   }
 
 
@@ -1384,10 +1391,11 @@
     var _lastDur = localStorage.getItem('uap_last_scan_dur');
     var _ldEl = document.getElementById('loading-last-dur');
     if (_ldEl) _ldEl.textContent = _lastDur ? 'LETZTER SCAN: ' + _lastDur + ' Sekunden' : '';
-    if (!currentArticles.length && !_inSplash) document.getElementById('loading').style.display = 'flex';
+    var _hasArticles = currentArticles.length > 0;
+    if (!_hasArticles && !_inSplash) document.getElementById('loading').style.display = 'flex';
     var _sp = document.getElementById('search-spinner');
-    if (_sp) _sp.style.display = (currentArticles.length && !_inSplash) ? 'flex' : 'none';
-    document.getElementById('feed').innerHTML = '';
+    if (_sp) _sp.style.display = (_hasArticles && !_inSplash) ? 'flex' : 'none';
+    if (!_hasArticles) document.getElementById('feed').innerHTML = '';
     document.getElementById('empty-state').style.display = 'none';
     document.getElementById('error-msg').style.display = 'none';
     function setStatus(msg) { var el = document.querySelector('.loading-sub'); if (el) el.textContent = msg; }
