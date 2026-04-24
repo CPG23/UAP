@@ -1104,12 +1104,102 @@
   // ── STATE ────────────────────────────────────────────────────────────────
   // Store seen article topic-fingerprints AND summary keyword-sets
   let seenArticleIds   = JSON.parse(localStorage.getItem('uap_seen_ids')   || '[]');
-  let seenSummaryWords = JSON.parse(localStorage.getItem('uap_seen_words') || '[]'); // array of keyword arrays
+  let seenSummaryWords = JSON.parse(localStorage.getItem('uap_seen_words') || '[]');
   let lastScanTime     = localStorage.getItem('uap_last_scan') || null;
   let currentArticles    = [];
   let _scanStart = Date.now();
   let _mainRetried = false;
   let currentExtArticles  = [];
+
+  // ── ARTIKEL-CACHE ──────────────────────────────────────────────────────────
+  var FEED_CACHE_TTL = 6 * 60 * 60 * 1000; // 6 Stunden
+
+  function saveFeedCache() {
+    try {
+      localStorage.setItem('uap_feed_v2', JSON.stringify(currentArticles));
+      localStorage.setItem('uap_ext_feed_v2', JSON.stringify(currentExtArticles));
+      localStorage.setItem('uap_feed_ts', Date.now().toString());
+    } catch(e) {}
+  }
+
+  function loadFeedCache() {
+    try {
+      var ts  = parseInt(localStorage.getItem('uap_feed_ts') || '0');
+      var f   = localStorage.getItem('uap_feed_v2');
+      var ext = localStorage.getItem('uap_ext_feed_v2');
+      return {
+        articles:    f   ? JSON.parse(f)   : null,
+        extArticles: ext ? JSON.parse(ext) : null,
+        stale: !ts || (Date.now() - ts > FEED_CACHE_TTL)
+      };
+    } catch(e) { return { articles: null, extArticles: null, stale: true }; }
+  }
+
+  function renderExtFeed(articles) {
+    var extFeed = document.getElementById('ext-feed');
+    var extSep  = document.getElementById('ext-separator');
+    var extCnt  = document.getElementById('ext-count');
+    if (!extFeed || !articles || !articles.length) return;
+    extFeed.innerHTML = '';
+    if (extSep) extSep.style.display = 'flex';
+    currentExtArticles = articles.slice();
+    var extNewCount = articles.filter(function(a) { return a.isNew; }).length;
+    if (extCnt) extCnt.textContent = articles.length + ' ARTIKEL' + (extNewCount > 0 ? ' \xb7 +' + extNewCount + ' NEU' : '');
+    articles.forEach(function(article, idx) {
+      var card = document.createElement('div');
+      card.className = 'ext-article-card';
+      card.id = 'ext-card-' + idx;
+      var dateFormatted = article.date
+        ? new Date(article.date + 'T12:00:00').toLocaleDateString('de-AT',{day:'2-digit',month:'2-digit',year:'numeric'})
+        : '—';
+      var summaryText = article.summary || article.description || '';
+      card.innerHTML =
+        '<div class="article-header" onclick="toggleExtCard(' + idx + ')">'
+          + '<div class="article-badges">'
+            + (article.isNew ? '<span class="badge badge-new">● NEU</span>' : '')
+            + '<span class="badge badge-source">' + escHtml(article.source) + '</span>'
+            + (article._otherSources && article._otherSources.length ? '<span class="badge multi-src-badge" style="border-color:var(--accent3);color:var(--accent3);background:rgba(255,107,53,0.06)">+Quellen</span>' : '')
+          + '</div>'
+          + '<div class="article-title">' + escHtml(article.title) + '</div>'
+          + '<div class="article-arrow ext-article-arrow">&#9658;</div>'
+          + '<div class="article-meta"><span class="meta-item"><span class="meta-icon">&#128197;</span>' + dateFormatted + '</span></div>'
+        + '</div>'
+        + '<div class="ext-article-details" id="ext-details-' + idx + '">'
+          + '<div class="details-content"><div class="summary-row">'
+            + '<div class="section-label">ZUSAMMENFASSUNG</div>'
+            + '<div class="details-text summary-text" id="ext-summary-text-' + idx + '">' + escHtml(summaryText) + '</div>'
+            + '<button class="btn-translate btn-translate-sm" id="ext-translate-btn-' + idx + '" onclick="translateExtSummary(' + idx + ')">&#127760; \xdcbersetzen</button>'
+          + '</div></div>'
+          + '<div class="details-footer">'
+            + (article.link || article.url ? '<a id="ext-link-' + idx + '" href="#" target="_blank" rel="noopener" class="link-btn" style="color:var(--accent3)">&#10548; ORIGINALQUELLE \xd6FFNEN</a>' : '<span></span>')
+          + '</div>'
+        + '</div>';
+      var primaryUrl = article.link || article.url || '';
+      if (primaryUrl) { var pLink = card.querySelector('#ext-link-' + idx); if (pLink) pLink.href = primaryUrl; }
+      if (article._otherSources && article._otherSources.length) {
+        var sumRow = card.querySelector('.summary-row');
+        var odiv = document.createElement('div');
+        odiv.className = 'other-sources';
+        odiv.style.borderColor = 'rgba(255,107,53,0.3)';
+        odiv.appendChild(document.createTextNode('AUCH GEMELDET: '));
+        article._otherSources.forEach(function(s, si) {
+          if (si > 0) odiv.appendChild(document.createTextNode(' '));
+          var osUrl = s.url || s.link || '';
+          if (osUrl) {
+            var oa = document.createElement('a');
+            oa.href = osUrl; oa.target = '_blank'; oa.rel = 'noopener';
+            oa.style.color = 'var(--accent3)'; oa.style.borderColor = 'rgba(255,107,53,0.4)';
+            oa.textContent = s.source; odiv.appendChild(oa);
+          } else {
+            var osp = document.createElement('span');
+            osp.className = 'src-nolink'; osp.textContent = s.source; odiv.appendChild(osp);
+          }
+        });
+        if (sumRow) sumRow.after(odiv);
+      }
+      extFeed.appendChild(card);
+    });
+  }
 
   // ── Content-similarity helpers ────────────────────────────────────────────
   var CONTENT_STOPWORDS = new Set([
@@ -1273,6 +1363,7 @@
           });
         }
       } catch(aiErr) { console.log('AI summary skipped:', aiErr.message); }
+      saveFeedCache();
 
     } catch(err) {
       document.getElementById('loading').style.display = 'none';
@@ -1751,6 +1842,7 @@
         });
       }
     }
+    saveFeedCache();
   }
 
   function crossFeedMerge() {
@@ -2104,16 +2196,37 @@
   })();
 
   window.addEventListener('load', () => {
-    // Copy alien src from loading indicator to hero background
     var loadAlien = document.querySelector('.alien-head');
     var heroAlien = document.getElementById('hero-alien');
     if (loadAlien && heroAlien) heroAlien.src = loadAlien.src;
-    // Initialise push notifications
     initNotifications();
-    // Toggle-Status wiederherstellen
-    setTimeout(function() {
-      Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
-    }, 300);
+
+    var cache = loadFeedCache();
+    if (cache.articles && cache.articles.length) {
+      // Sofort aus Cache rendern — kein Ladebildschirm
+      currentArticles = cache.articles;
+      document.getElementById('loading').style.display = 'none';
+      renderArticles(currentArticles);
+      if (lastScanTime) {
+        document.getElementById('last-scan').textContent =
+          'Aktualisiert: ' + new Date(lastScanTime).toLocaleTimeString('de-AT', {hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit'});
+      }
+      if (cache.extArticles && cache.extArticles.length) {
+        renderExtFeed(cache.extArticles);
+        crossFeedMerge();
+      }
+      // Im Hintergrund nachladen wenn Cache älter als 6h
+      if (cache.stale) {
+        setTimeout(function() {
+          Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
+        }, 800);
+      }
+    } else {
+      // Kein Cache — normal laden
+      setTimeout(function() {
+        Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
+      }, 300);
+    }
   });
 </script>
 </body>
