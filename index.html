@@ -1918,51 +1918,69 @@
   }
 
   async function toggleNotifications() {
+    var btn = document.getElementById('notif-btn');
     if (!('Notification' in window)) {
       alert('Push-Benachrichtigungen werden von diesem Browser nicht unterstützt.');
       return;
     }
-    if (notifEnabled() && Notification.permission === 'granted') {
-      localStorage.setItem('uap_notif_enabled', '0');
+    if (btn) { btn.disabled = true; btn.innerHTML = '&#9203; &hellip;'; }
+    try {
+      if (notifEnabled() && Notification.permission === 'granted') {
+        localStorage.setItem('uap_notif_enabled', '0');
+        updateNotifBtn();
+        return;
+      }
+      var perm = await Notification.requestPermission();
+      if (perm !== 'granted') {
+        alert('Benachrichtigungen wurden abgelehnt. Bitte in den Browser-Einstellungen aktivieren.');
+        return;
+      }
+      localStorage.setItem('uap_notif_enabled', '1');
+      if ('serviceWorker' in navigator && 'periodicSync' in navigator.serviceWorker) {
+        try {
+          var reg = await navigator.serviceWorker.ready;
+          await reg.periodicSync.register('daily-news', { minInterval: 24 * 60 * 60 * 1000 });
+        } catch(e) { console.log('[UAP] Periodic sync:', e.message); }
+      }
       updateNotifBtn();
-      return;
+      alert('Push aktiviert! Tippe auf ► TEST um die Benachrichtigung zu prüfen.');
+    } catch(e) {
+      alert('Fehler: ' + e.message);
+    } finally {
+      if (btn) btn.disabled = false;
+      updateNotifBtn();
     }
-    var perm = await Notification.requestPermission();
-    if (perm !== 'granted') {
-      alert('Benachrichtigungen wurden abgelehnt. Bitte in den Browser-Einstellungen aktivieren.');
-      return;
-    }
-    localStorage.setItem('uap_notif_enabled', '1');
-    if ('serviceWorker' in navigator && 'periodicSync' in navigator.serviceWorker) {
-      try {
-        var reg = await navigator.serviceWorker.ready;
-        await reg.periodicSync.register('daily-news', { minInterval: 24 * 60 * 60 * 1000 });
-        console.log('[UAP] Periodic sync registered (daily-news)');
-      } catch(e) { console.log('[UAP] Periodic sync:', e.message); }
-    }
-    updateNotifBtn();
   }
 
   async function testNotification() {
-    if (!('Notification' in window) || Notification.permission !== 'granted') {
-      alert('Bitte zuerst Push aktivieren.');
-      return;
-    }
-    var sampleArticle = {
-      title: 'TEST: UAP-Sichtung über dem Atlantik bestätigt',
-      source: 'UAP NEWS Test',
-      url: ''
-    };
+    var testBtn = document.getElementById('notif-test-btn');
+    if (testBtn) { testBtn.disabled = true; testBtn.innerHTML = '&#9203;'; }
     try {
+      if (!('Notification' in window)) {
+        alert('Notifications werden von diesem Browser nicht unterstützt.');
+        return;
+      }
+      // Berechtigung anfordern falls nötig (inkonsistenter PWA-Status)
+      if (Notification.permission !== 'granted') {
+        var p = await Notification.requestPermission();
+        if (p !== 'granted') {
+          alert('Bitte Push-Berechtigung erteilen.');
+          return;
+        }
+        localStorage.setItem('uap_notif_enabled', '1');
+        updateNotifBtn();
+      }
       var reg = await navigator.serviceWorker.ready;
-      reg.showNotification('UAP NEWS — 1 neue Meldung', {
-        body: sampleArticle.title,
+      await reg.showNotification('UAP NEWS — Test', {
+        body: 'Push-Benachrichtigungen funktionieren! ✓',
         tag: 'uap-test',
-        data: { articles: [sampleArticle], first: sampleArticle }
+        data: { articles: [], first: { title: 'Test', source: 'UAP NEWS', url: '' } }
       });
     } catch(e) {
-      // Fallback ohne Service Worker
-      new Notification('UAP NEWS — 1 neue Meldung', { body: sampleArticle.title });
+      try { new Notification('UAP NEWS — Test', { body: 'Push funktioniert!' }); }
+      catch(e2) { alert('Fehler: ' + e.message + '\n\nBitte sicherstellen dass die App als PWA installiert ist und Benachrichtigungen erlaubt sind.'); }
+    } finally {
+      if (testBtn) { testBtn.disabled = false; testBtn.innerHTML = '&#9654; TEST'; }
     }
   }
 
