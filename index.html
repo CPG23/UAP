@@ -1387,7 +1387,7 @@
     var _hasArticles = currentArticles.length > 0;
     if (!_hasArticles && !_silentRefresh) document.getElementById('loading').style.display = 'flex';
     var _sp = document.getElementById('search-spinner');
-    if (_hasArticles && !_silentRefresh) { _sp.style.display = 'flex'; }
+    if (!_silentRefresh && !_inSplash) { _sp.style.display = 'flex'; }
     else if (_sp) { _sp.style.display = 'none'; }
     if (!_hasArticles && !_silentRefresh) document.getElementById('feed').innerHTML = '';
     document.getElementById('empty-state').style.display = 'none';
@@ -1759,7 +1759,6 @@
     var extLoading = document.getElementById('ext-loading');
     var extFeed    = document.getElementById('ext-feed');
     extLoading.classList.add('active');
-    var _spinner = document.getElementById('search-spinner'); if (_spinner && !_silentRefresh) { _spinner.style.display = 'flex'; }
     var _extScanStart = Date.now();
     var _extLastDur = localStorage.getItem('uap_last_ext_scan_dur');
     var _extDurEl = document.getElementById('ext-loading-last-dur');
@@ -1839,7 +1838,7 @@
         return;
       }
       loadExtendedNews._retried = false;
-      if (document.getElementById('search-spinner')) document.getElementById('search-spinner').style.display = 'none';
+      extLoading.classList.remove('active');
       extFeed.innerHTML = '<div style="display:flex;flex-direction:column;align-items:center;gap:12px;padding:24px 0">'
         + '<div style="font-family:\'Share Tech Mono\',monospace;font-size:11px;color:var(--text-dim);letter-spacing:2px">KEINE WEITEREN MELDUNGEN GEFUNDEN</div>'
         + '<button onclick="loadExtendedNews._retried=false;loadExtendedNews().then(function(){crossFeedMerge();})" style="font-family:Rajdhani,sans-serif;font-weight:700;font-size:12px;letter-spacing:2px;color:#030a0f;background:var(--accent3);border:none;padding:8px 20px;cursor:pointer">↺ ERNEUT VERSUCHEN</button>'
@@ -1917,7 +1916,6 @@
     localStorage.setItem('uap_seen_ids', JSON.stringify(seenArticleIds.slice(-200)));
 
     renderExtFeed(mergedExt);
-    if (_spinner) _spinner.style.display = 'none';
     saveFeedCache();
   }
 
