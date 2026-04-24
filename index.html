@@ -1310,8 +1310,6 @@
     var _lastDur = localStorage.getItem('uap_last_scan_dur');
     var _ldEl = document.getElementById('loading-last-dur');
     if (_ldEl) _ldEl.textContent = _lastDur ? 'LETZTER SCAN: ' + _lastDur + ' Sekunden' : '';
-    document.getElementById('loading').style.display = 'flex';
-    document.getElementById('feed').innerHTML = '';
     document.getElementById('empty-state').style.display = 'none';
     document.getElementById('error-msg').style.display = 'none';
     function setStatus(msg) { var el = document.querySelector('.loading-sub'); if (el) el.textContent = msg; }
@@ -1679,9 +1677,7 @@
     var _extLastDur = localStorage.getItem('uap_last_ext_scan_dur');
     var _extDurEl = document.getElementById('ext-loading-last-dur');
     if (_extDurEl) _extDurEl.textContent = _extLastDur ? 'LETZTER SCAN: ' + _extLastDur + ' Sekunden' : '';
-    extFeed.innerHTML = '';
-    document.getElementById('ext-separator').style.display = 'none';
-    document.getElementById('ext-count').textContent = '';
+
 
     var today  = new Date();
     var cutoff = today.getTime() - 7*86400000;
