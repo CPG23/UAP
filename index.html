@@ -1907,6 +1907,20 @@
     return localStorage.getItem('uap_notif_enabled') === '1';
   }
 
+  // In-App Banner statt alert() — PWA-Modus unterdrückt alert() auf Android
+  function showNotifBanner(msg, isError) {
+    var bodyEl = document.getElementById('notif-banner-body');
+    var linksEl = document.getElementById('notif-banner-links');
+    var titleEl = document.querySelector('#notif-banner .notif-title');
+    var banner  = document.getElementById('notif-banner');
+    if (!banner || !bodyEl) return;
+    if (titleEl) titleEl.textContent = isError ? '⚠ FEHLER' : '📡 STATUS';
+    bodyEl.textContent = msg;
+    if (linksEl) linksEl.innerHTML = '';
+    banner.classList.add('show');
+    banner.scrollIntoView({ behavior: 'smooth' });
+  }
+
   function updateNotifBtn() {
     var btn = document.getElementById('notif-btn');
     if (!btn) return;
@@ -1920,10 +1934,10 @@
   async function toggleNotifications() {
     var btn = document.getElementById('notif-btn');
     if (!('Notification' in window)) {
-      alert('Push-Benachrichtigungen werden von diesem Browser nicht unterstützt.');
+      showNotifBanner('Push-Benachrichtigungen werden von diesem Browser nicht unterstützt.', true);
       return;
     }
-    if (btn) { btn.disabled = true; btn.innerHTML = '&#9203; &hellip;'; }
+    if (btn) { btn.disabled = true; btn.innerHTML = '&#9203; …'; }
     try {
       if (notifEnabled() && Notification.permission === 'granted') {
         localStorage.setItem('uap_notif_enabled', '0');
@@ -1932,20 +1946,20 @@
       }
       var perm = await Notification.requestPermission();
       if (perm !== 'granted') {
-        alert('Benachrichtigungen wurden abgelehnt. Bitte in den Browser-Einstellungen aktivieren.');
+        showNotifBanner('Benachrichtigungen abgelehnt — bitte in den Browser-Einstellungen aktivieren.', true);
         return;
       }
       localStorage.setItem('uap_notif_enabled', '1');
       if ('serviceWorker' in navigator && 'periodicSync' in navigator.serviceWorker) {
         try {
-          var reg = await navigator.serviceWorker.ready;
-          await reg.periodicSync.register('daily-news', { minInterval: 24 * 60 * 60 * 1000 });
+          var regs = await navigator.serviceWorker.getRegistrations();
+          if (regs.length > 0) await regs[0].periodicSync.register('daily-news', { minInterval: 24 * 60 * 60 * 1000 });
         } catch(e) { console.log('[UAP] Periodic sync:', e.message); }
       }
       updateNotifBtn();
-      alert('Push aktiviert! Tippe auf ► TEST um die Benachrichtigung zu prüfen.');
+      showNotifBanner('Push aktiviert! Tippe auf ► TEST um die Benachrichtigung zu prüfen.');
     } catch(e) {
-      alert('Fehler: ' + e.message);
+      showNotifBanner('Fehler: ' + e.message, true);
     } finally {
       if (btn) btn.disabled = false;
       updateNotifBtn();
@@ -1957,33 +1971,34 @@
     if (testBtn) { testBtn.disabled = true; testBtn.innerHTML = '&#9203;'; }
     try {
       if (!('Notification' in window)) {
-        alert('Notifications werden von diesem Browser nicht unterstützt.');
+        showNotifBanner('Notifications nicht unterstützt.', true);
         return;
       }
       if (Notification.permission !== 'granted') {
         var p = await Notification.requestPermission();
         if (p !== 'granted') {
-          alert('Bitte Push-Berechtigung erteilen.');
+          showNotifBanner('Berechtigung erforderlich.', true);
           return;
         }
         localStorage.setItem('uap_notif_enabled', '1');
         updateNotifBtn();
       }
-      // getRegistration() statt .ready — vermeidet endloses Warten bei Blob-URL SW
-      var reg = ('serviceWorker' in navigator)
-        ? await navigator.serviceWorker.getRegistration()
-        : null;
-      if (reg) {
-        await reg.showNotification('UAP NEWS — Test', {
+      // getRegistrations() (Plural) findet auch Blob-URL Service Worker
+      var regs = ('serviceWorker' in navigator)
+        ? await navigator.serviceWorker.getRegistrations()
+        : [];
+      if (regs.length > 0) {
+        await regs[0].showNotification('UAP NEWS — Test', {
           body: 'Push-Benachrichtigungen funktionieren! ✓',
           tag: 'uap-test',
           data: { articles: [], first: { title: 'Test', source: 'UAP NEWS', url: '' } }
         });
+        showNotifBanner('✓ Test gesendet — prüfe das Benachrichtigungs-Center deines Geräts.');
       } else {
-        new Notification('UAP NEWS — Test', { body: 'Push funktioniert!' });
+        showNotifBanner('Kein Service Worker gefunden. Bitte App schließen und neu öffnen.', true);
       }
     } catch(e) {
-      alert('Fehler: ' + e.message);
+      showNotifBanner('Fehler: ' + e.message, true);
     } finally {
       if (testBtn) { testBtn.disabled = false; testBtn.innerHTML = '&#9654; TEST'; }
     }
