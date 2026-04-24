@@ -333,16 +333,16 @@
   }
 
   .alien-head {
-    opacity: 0.28;
+    opacity: 0.45;
     mix-blend-mode: screen;
-    filter: brightness(0.32) saturate(0.9);
-    mask-image: linear-gradient(to bottom, black 45%, rgba(0,0,0,0.6) 62%, transparent 78%);
-    -webkit-mask-image: linear-gradient(to bottom, black 45%, rgba(0,0,0,0.6) 62%, transparent 78%);
+    filter: brightness(0.55) saturate(0.9);
+    mask-image: radial-gradient(ellipse 80% 68% at 50% 32%, black 22%, rgba(0,0,0,0.55) 52%, transparent 74%);
+    -webkit-mask-image: radial-gradient(ellipse 80% 68% at 50% 32%, black 22%, rgba(0,0,0,0.55) 52%, transparent 74%);
     animation: alienGlow 7s ease-in alternate infinite;
   }
 
   @keyframes alienGlow {
-    0%   { opacity: 0.28; filter: brightness(0.32) saturate(0.9) drop-shadow(0 0 4px rgba(0,255,80,0.15)); }
+    0%   { opacity: 0.45; filter: brightness(0.55) saturate(0.9) drop-shadow(0 0 6px rgba(0,255,80,0.3)); }
     65%  { opacity: 0.55; filter: brightness(0.65) saturate(1.3) drop-shadow(0 0 14px rgba(0,255,80,0.6)) drop-shadow(0 0 35px rgba(0,255,80,0.25)); }
     100% { opacity: 1.0; filter: brightness(2.2) saturate(2.5) drop-shadow(0 0 50px rgba(0,255,80,1.0)) drop-shadow(0 0 100px rgba(0,255,80,0.9)) drop-shadow(0 0 160px rgba(0,212,255,0.6)); }
   }
@@ -352,6 +352,7 @@
     50% { transform: translateY(-12px) rotate(2deg); filter: brightness(0.55) drop-shadow(0 0 35px rgba(0,255,157,1.0)) drop-shadow(0 0 70px rgba(0,255,157,0.55)); }
   }
 
+  .loading-text, .loading-sub, #loading-last-dur, .loading-bar { display: none; }
   .loading-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 13px;
@@ -1028,7 +1029,7 @@
   <span id="live-date" style="display:none"></span>
   <span id="article-counter" style="display:none"></span>
   <div class="controls">
-    <button class="btn-scan" id="scan-btn" onclick="Promise.all([loadNews(),loadExtendedNews()]).then(function(){crossFeedMerge();})">
+    <button class="btn-scan" id="scan-btn" onclick="Promise.all([loadNews(),loadExtendedNews()]).then(function(){document.getElementById('loading').style.display='none';crossFeedMerge();})">
       ▶ SCAN STARTEN
     </button>
     <div class="filter-info">
@@ -1413,7 +1414,7 @@
       var errEl = document.getElementById('error-msg');
       errEl.style.display = 'block';
       errEl.innerHTML = '<div style="margin-bottom:8px">\u26a0 ' + err.message + '</div>' +
-        '<button onclick="Promise.all([loadNews(),loadExtendedNews()]).then(function(){crossFeedMerge();})" style="font-family:Rajdhani,sans-serif;font-weight:700;font-size:12px;letter-spacing:2px;color:#030a0f;background:#00d4ff;border:none;padding:8px 20px;cursor:pointer">\u21ba ERNEUT VERSUCHEN</button>';
+        '<button onclick="Promise.all([loadNews(),loadExtendedNews()]).then(function(){document.getElementById(\'loading\').style.display=\'none\';crossFeedMerge();})" style="font-family:Rajdhani,sans-serif;font-weight:700;font-size:12px;letter-spacing:2px;color:#030a0f;background:#00d4ff;border:none;padding:8px 20px;cursor:pointer">\u21ba ERNEUT VERSUCHEN</button>';
     } finally {
       btn.disabled = false; btn.textContent = '\u25b6 SCAN STARTEN';
     }
@@ -1531,7 +1532,6 @@
       document.getElementById('empty-state').style.display = 'block';
       return;
     }
-    document.getElementById('loading').style.display = 'none';
     const feed = document.getElementById('feed');
     feed.innerHTML = '';
 
@@ -2217,7 +2217,7 @@
     } else {
       // Kein Cache — normal laden
       setTimeout(function() {
-        Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
+        Promise.all([loadNews(), loadExtendedNews()]).then(function() { document.getElementById('loading').style.display = 'none'; crossFeedMerge(); });
       }, 300);
     }
   });
