@@ -1037,6 +1037,7 @@
       NEU SEIT LETZTEM SCAN
     </div>
     <button class="btn-notif" id="notif-btn" onclick="toggleNotifications()">&#128276; PUSH AUS</button>
+    <button class="btn-notif" id="notif-test-btn" onclick="testNotification()" style="display:none;font-size:11px;padding:9px 12px;border-color:var(--accent);color:var(--accent)">&#9654; TEST</button>
   </div>
 
   <div id="notif-banner">
@@ -1902,12 +1903,18 @@
   }
 
   // ── PUSH NOTIFICATIONS ──────────────────────────────────────────────────
+  function notifEnabled() {
+    return localStorage.getItem('uap_notif_enabled') === '1';
+  }
+
   function updateNotifBtn() {
     var btn = document.getElementById('notif-btn');
     if (!btn) return;
-    var enabled = ('Notification' in window) && Notification.permission === 'granted' && localStorage.getItem('uap_notif_enabled') === '1';
-    btn.innerHTML = enabled ? '&#128276; PUSH AN' : '&#128277; PUSH AUS';
-    btn.classList.toggle('active', enabled);
+    var on = notifEnabled() && ('Notification' in window) && Notification.permission === 'granted';
+    btn.innerHTML = on ? '&#128276; PUSH AN' : '&#128277; PUSH AUS';
+    btn.classList.toggle('active', on);
+    var testBtn = document.getElementById('notif-test-btn');
+    if (testBtn) testBtn.style.display = on ? 'inline-block' : 'none';
   }
 
   async function toggleNotifications() {
@@ -1915,8 +1922,7 @@
       alert('Push-Benachrichtigungen werden von diesem Browser nicht unterstützt.');
       return;
     }
-    var enabled = Notification.permission === 'granted' && localStorage.getItem('uap_notif_enabled') === '1';
-    if (enabled) {
+    if (notifEnabled() && Notification.permission === 'granted') {
       localStorage.setItem('uap_notif_enabled', '0');
       updateNotifBtn();
       return;
@@ -1935,6 +1941,29 @@
       } catch(e) { console.log('[UAP] Periodic sync:', e.message); }
     }
     updateNotifBtn();
+  }
+
+  async function testNotification() {
+    if (!('Notification' in window) || Notification.permission !== 'granted') {
+      alert('Bitte zuerst Push aktivieren.');
+      return;
+    }
+    var sampleArticle = {
+      title: 'TEST: UAP-Sichtung über dem Atlantik bestätigt',
+      source: 'UAP NEWS Test',
+      url: ''
+    };
+    try {
+      var reg = await navigator.serviceWorker.ready;
+      reg.showNotification('UAP NEWS — 1 neue Meldung', {
+        body: sampleArticle.title,
+        tag: 'uap-test',
+        data: { articles: [sampleArticle], first: sampleArticle }
+      });
+    } catch(e) {
+      // Fallback ohne Service Worker
+      new Notification('UAP NEWS — 1 neue Meldung', { body: sampleArticle.title });
+    }
   }
 
   function handleNotificationArticle(data) {
@@ -1967,9 +1996,14 @@
   }
 
   function initNotifications() {
+    // Sync button with actual permission state on every load
+    if (('Notification' in window) && Notification.permission !== 'granted' && notifEnabled()) {
+      // Permission was revoked externally — clear our flag
+      localStorage.setItem('uap_notif_enabled', '0');
+    }
     updateNotifBtn();
-    // Re-register periodic sync if already enabled
-    if (('Notification' in window) && Notification.permission === 'granted' && localStorage.getItem('uap_notif_enabled') === '1') {
+    // Re-register periodic sync if still enabled
+    if (notifEnabled() && ('Notification' in window) && Notification.permission === 'granted') {
       if ('serviceWorker' in navigator && 'periodicSync' in navigator.serviceWorker) {
         navigator.serviceWorker.ready.then(function(reg) {
           reg.periodicSync.register('daily-news', { minInterval: 24 * 60 * 60 * 1000 }).catch(function(){});
