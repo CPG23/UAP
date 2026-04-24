@@ -1761,7 +1761,7 @@
     var extLoading = document.getElementById('ext-loading');
     var extFeed    = document.getElementById('ext-feed');
     extLoading.classList.add('active');
-    var _spinner = document.getElementById('search-spinner'); if (_spinner) { _spinner.style.display = 'flex'; setTimeout(function(){ _spinner.scrollIntoView({behavior:'smooth',block:'nearest'}); }, 150); }
+    var _spinner = document.getElementById('search-spinner'); if (_spinner && !_inSplash) { _spinner.style.display = 'flex'; setTimeout(function(){ _spinner.scrollIntoView({behavior:'smooth',block:'nearest'}); }, 150); }
     var _extScanStart = Date.now();
     var _extLastDur = localStorage.getItem('uap_last_ext_scan_dur');
     var _extDurEl = document.getElementById('ext-loading-last-dur');
@@ -2122,6 +2122,21 @@
         return;
       }
       localStorage.setItem('uap_notif_enabled', '1');
+
+      // Generate persistent ntfy.sh topic for this device
+      var ntfyTopic = localStorage.getItem('uap_ntfy_topic');
+      if (!ntfyTopic) {
+        ntfyTopic = 'uap-' + Math.random().toString(36).substring(2, 10) + Math.random().toString(36).substring(2, 6);
+        localStorage.setItem('uap_ntfy_topic', ntfyTopic);
+      }
+      // Save to SW cache so background sync can read it
+      if ('caches' in window) {
+        try {
+          var mc = await caches.open('uap-meta-v1');
+          await mc.put('ntfy-topic', new Response(ntfyTopic));
+        } catch(e) {}
+      }
+
       if ('serviceWorker' in navigator && 'periodicSync' in navigator.serviceWorker) {
         try {
           var regs = await navigator.serviceWorker.getRegistrations();
@@ -2129,7 +2144,19 @@
         } catch(e) { console.log('[UAP] Periodic sync:', e.message); }
       }
       updateNotifBtn();
-      showNotifBanner('Push aktiviert! Tippe auf ► TEST um die Benachrichtigung zu prüfen.');
+      // Show ntfy setup instructions
+      var _nb = document.getElementById('notif-banner');
+      var _nBody = document.getElementById('notif-banner-body');
+      var _nLinks = document.getElementById('notif-banner-links');
+      var _nTitle = document.querySelector('#notif-banner .notif-title');
+      if (_nb && _nBody) {
+        if (_nTitle) _nTitle.textContent = '📡 PUSH EINRICHTEN';
+        _nBody.textContent = '① Installiere die ntfy App (iOS/Android/Web)  ② Abonniere deinen Kanal:';
+        if (_nLinks) _nLinks.innerHTML = '<a href="https://ntfy.sh/' + ntfyTopic + '" target="_blank" rel="noopener" style="display:block;margin:8px 0 4px;font-family:\'Share Tech Mono\',monospace;font-size:12px;color:var(--accent);word-break:break-all">ntfy.sh/' + ntfyTopic + ' →</a>'
+          + '<div style="font-family:\'Share Tech Mono\',monospace;font-size:10px;color:var(--text-dim);line-height:1.6">③ GitHub Secret setzen:<br>NTFY_TOPIC = ' + ntfyTopic + '<br><span style="opacity:0.7">(GitHub Repo → Settings → Secrets → Actions)</span></div>';
+        _nb.classList.add('show');
+        _nb.scrollIntoView({ behavior: 'smooth' });
+      }
     } catch(e) {
       showNotifBanner('Fehler: ' + e.message, true);
     } finally {
@@ -2278,16 +2305,14 @@
     if (loadAlien && heroAlien) heroAlien.src = loadAlien.src;
     initNotifications();
 
-    // Always show alien splash for 10 seconds on startup
-    _inSplash = true;
-    document.getElementById('loading').style.display = 'flex';
-
     var cache = loadFeedCache();
 
-    // Always pre-render cached articles behind the splash (both feeds)
     if (cache.articles && cache.articles.length) {
+      // Cache exists — show articles immediately, alien as background
       currentArticles = cache.articles.slice(0, 5);
+      document.getElementById('loading').style.display = 'none';
       renderArticles(currentArticles);
+      showBgAlien();
       if (lastScanTime) {
         document.getElementById('last-scan').textContent =
           'Aktualisiert: ' + new Date(lastScanTime).toLocaleTimeString('de-AT', {hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit'});
@@ -2296,19 +2321,23 @@
         renderExtFeed(cache.extArticles.slice(0, 5));
         crossFeedMerge();
       }
+      // Background refresh to find newer articles
+      setTimeout(function() {
+        Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
+      }, 300);
+    } else {
+      // No cache (first ever start) — 10s alien splash while loading
+      _inSplash = true;
+      document.getElementById('loading').style.display = 'flex';
+      setTimeout(function() {
+        Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
+      }, 300);
+      setTimeout(function() {
+        _inSplash = false;
+        document.getElementById('loading').style.display = 'none';
+        showBgAlien();
+      }, 10000);
     }
-
-    // Always check for newer articles in background
-    setTimeout(function() {
-      Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
-    }, 300);
-
-    // End splash after 10 seconds — articles already visible underneath
-    setTimeout(function() {
-      _inSplash = false;
-      document.getElementById('loading').style.display = 'none';
-      showBgAlien();
-    }, 10000);
   });
 </script>
   <div id="bg-alien-wrap"><img id="bg-alien-img" src="" alt=""></div>
