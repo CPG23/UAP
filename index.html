@@ -1098,7 +1098,7 @@
   <span id="live-date" style="display:none"></span>
   <span id="article-counter" style="display:none"></span>
   <div class="controls">
-    <button class="btn-scan" id="scan-btn" onclick="Promise.all([loadNews(),loadExtendedNews()]).then(function(){document.getElementById('loading').style.display='none';crossFeedMerge();})">
+    <button class="btn-scan" id="scan-btn" onclick="Promise.all([loadNews(),loadExtendedNews()]).then(function(){document.getElementById('loading').style.display='none';showBgAlien();crossFeedMerge();})">
       ▶ SCAN STARTEN
     </button>
     <div class="filter-info">
@@ -1176,6 +1176,13 @@
   let currentArticles    = [];
   let _scanStart = Date.now();
   let _mainRetried = false;
+  let _inSplash = false;
+  function showBgAlien() {
+    var w = document.getElementById('bg-alien-wrap');
+    var img = document.getElementById('bg-alien-img');
+    var src = document.querySelector('.alien-head');
+    if (w && img && src) { img.src = src.src; w.style.display = 'flex'; }
+  }
   let currentExtArticles  = [];
 
   // ── ARTIKEL-CACHE ──────────────────────────────────────────────────────────
@@ -1377,8 +1384,9 @@
     var _lastDur = localStorage.getItem('uap_last_scan_dur');
     var _ldEl = document.getElementById('loading-last-dur');
     if (_ldEl) _ldEl.textContent = _lastDur ? 'LETZTER SCAN: ' + _lastDur + ' Sekunden' : '';
-    if (!currentArticles.length) document.getElementById('loading').style.display = 'flex';
-    var _sp = document.getElementById('search-spinner'); if (_sp) _sp.style.display = 'none';
+    if (!currentArticles.length && !_inSplash) document.getElementById('loading').style.display = 'flex';
+    var _sp = document.getElementById('search-spinner');
+    if (_sp) _sp.style.display = (currentArticles.length && !_inSplash) ? 'flex' : 'none';
     document.getElementById('feed').innerHTML = '';
     document.getElementById('empty-state').style.display = 'none';
     document.getElementById('error-msg').style.display = 'none';
@@ -1598,9 +1606,7 @@
       document.getElementById('empty-state').style.display = 'block';
       return;
     }
-    var hint = document.getElementById('articles-hint');
-    document.getElementById('loading').style.display = 'none';
-    if (hint) { hint.style.display = 'flex'; hint.style.animation = 'none'; void hint.offsetWidth; hint.style.animation = 'hintFadeOut 4.5s ease-in forwards'; setTimeout(function(){ hint.style.display = 'none'; }, 4500); }
+    if (!_inSplash) { document.getElementById('loading').style.display = 'none'; showBgAlien(); }
     const feed = document.getElementById('feed');
     feed.innerHTML = '';
 
@@ -2265,11 +2271,15 @@
     if (loadAlien && heroAlien) heroAlien.src = loadAlien.src;
     initNotifications();
 
+    // Always show alien splash for 10 seconds on startup
+    _inSplash = true;
+    document.getElementById('loading').style.display = 'flex';
+
     var cache = loadFeedCache();
+
+    // Pre-render cached content silently behind the splash overlay
     if (cache.articles && cache.articles.length) {
-      // Sofort aus Cache rendern — kein Ladebildschirm
       currentArticles = cache.articles.slice(0, 5);
-      document.getElementById('loading').style.display = 'none';
       renderArticles(currentArticles);
       if (lastScanTime) {
         document.getElementById('last-scan').textContent =
@@ -2279,18 +2289,22 @@
         renderExtFeed(cache.extArticles.slice(0, 5));
         crossFeedMerge();
       }
-      // Im Hintergrund nachladen wenn Cache älter als 6h
-      if (cache.stale) {
-        setTimeout(function() {
-          Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
-        }, 800);
-      }
-    } else {
-      // Kein Cache — normal laden
-      setTimeout(function() {
-        Promise.all([loadNews(), loadExtendedNews()]).then(function() { document.getElementById('loading').style.display = 'none'; crossFeedMerge(); });
-      }, 300);
     }
+
+    // Start loading in parallel (results appear immediately after splash)
+    setTimeout(function() {
+      var hasFresh = cache.articles && cache.articles.length && !cache.stale;
+      if (!hasFresh) {
+        Promise.all([loadNews(), loadExtendedNews()]).then(function() { crossFeedMerge(); });
+      }
+    }, 300);
+
+    // End splash after 10 seconds
+    setTimeout(function() {
+      _inSplash = false;
+      document.getElementById('loading').style.display = 'none';
+      showBgAlien();
+    }, 10000);
   });
 </script>
   <div id="bg-alien-wrap"><img id="bg-alien-img" src="" alt=""></div>
