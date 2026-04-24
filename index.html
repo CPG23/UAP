@@ -325,11 +325,14 @@
   /* Loading alien */
   #loading {
     display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: #030a0f;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px 0 40px;
-    gap: 16px;
+    gap: 20px;
   }
 
   .alien-head {
@@ -339,6 +342,10 @@
     mask-image: radial-gradient(ellipse 80% 68% at 50% 32%, black 22%, rgba(0,0,0,0.55) 52%, transparent 74%);
     -webkit-mask-image: radial-gradient(ellipse 80% 68% at 50% 32%, black 22%, rgba(0,0,0,0.55) 52%, transparent 74%);
     animation: alienGlow 14s linear infinite;
+    height: 72vh;
+    width: auto;
+    max-width: 100vw;
+    object-fit: contain;
   }
 
   @keyframes alienGlow {
@@ -1559,6 +1566,7 @@
       return;
     }
     var hint = document.getElementById('articles-hint');
+    document.getElementById('loading').style.display = 'none';
     if (hint) { hint.style.display = 'flex'; hint.style.animation = 'none'; void hint.offsetWidth; hint.style.animation = 'hintFadeOut 4.5s ease-in forwards'; setTimeout(function(){ hint.style.display = 'none'; }, 4500); }
     const feed = document.getElementById('feed');
     feed.innerHTML = '';
