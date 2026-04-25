@@ -32,7 +32,7 @@
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { overscroll-behavior-y: none; }
+  html { overscroll-behavior-y: none; scrollbar-gutter: stable; }
 
   body {
     background: var(--bg);
@@ -981,13 +981,14 @@
       <div style="flex:1;border:1px solid rgba(0,212,255,0.35);padding:8px 10px;background:rgba(0,212,255,0.05)">
         <div style="font-size:8px;color:var(--accent);letter-spacing:3px;margin-bottom:5px;opacity:0.8">HAUPTNACHRICHTEN</div>
         <div id="loading-status-main" style="font-size:10px;color:var(--accent);letter-spacing:1px;min-height:14px">Suche...</div>
+        <div id="loading-result-main" style="font-size:9px;color:var(--text-dim);letter-spacing:1px;margin-top:6px;min-height:12px"></div>
       </div>
       <div style="flex:1;border:1px solid rgba(255,107,53,0.35);padding:8px 10px;background:rgba(255,107,53,0.05)">
-        <div style="font-size:8px;color:var(--accent3);letter-spacing:3px;margin-bottom:5px;opacity:0.8">WEITERE NACHRICHTEN</div>
+        <div style="font-size:8px;color:var(--accent3);letter-spacing:3px;margin-bottom:5px;opacity:0.8">WEITERE</div>
         <div id="loading-status-ext"  style="font-size:10px;color:var(--accent3);letter-spacing:1px;min-height:14px">Suche...</div>
+        <div id="loading-result-ext" style="font-size:9px;color:var(--text-dim);letter-spacing:1px;margin-top:6px;min-height:12px"></div>
       </div>
     </div>
-    <div id="loading-log" style="font-family:'Share Tech Mono',monospace;font-size:10px;letter-spacing:2px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:3px;min-height:58px"></div>
     <div class="loading-bar"></div>
   </div>
 
@@ -1042,27 +1043,32 @@
     if (el) el.textContent = msg;
   }
   function setStatus(msg) { setStatusMain(msg); }
-  function addLog(msg, green) {
-    var log = document.getElementById('loading-log');
-    if (!log) return;
-    var line = document.createElement('div');
-    line.style.color = green ? 'var(--accent2)' : 'var(--text-dim)';
-    line.textContent = msg;
-    log.appendChild(line);
-    while (log.children.length > 5) log.removeChild(log.firstChild);
+  function setResultMain(msg, green) {
+    var el = document.getElementById('loading-result-main');
+    if (!el) return;
+    el.textContent = msg;
+    el.style.color = green ? 'var(--accent2)' : 'var(--text-dim)';
   }
-  function showOverlay(msg) {
+  function setResultExt(msg, green) {
+    var el = document.getElementById('loading-result-ext');
+    if (!el) return;
+    el.textContent = msg;
+    el.style.color = green ? 'var(--accent2)' : 'var(--text-dim)';
+  }
+  var _overlayScroll = 0;
+  function showOverlay() {
+    _overlayScroll = window.scrollY;
     document.body.classList.add('no-scroll');
-    var log = document.getElementById('loading-log');
-    if (log) log.innerHTML = '';
     setStatusMain('Suche...');
     setStatusExt('Suche...');
+    setResultMain('');
+    setResultExt('');
     document.getElementById('loading').style.display = 'flex';
   }
   function hideOverlay() {
     document.getElementById('loading').style.display = 'none';
     document.body.classList.remove('no-scroll');
-    // Show background alien after first hide
+    window.scrollTo({ top: _overlayScroll, behavior: 'instant' });
     var heroAlien = document.getElementById('hero-alien');
     var loadAlien = document.querySelector('.alien-head');
     if (heroAlien && loadAlien && !heroAlien.src) heroAlien.src = loadAlien.src;
@@ -1324,7 +1330,6 @@
         } catch(e) { console.log('proxy err:', e.message); }
       }
 
-      if (rssItems.length > 0) addLog('✓ ' + rssItems.length + ' Meldungen gefunden', true);
 
       if (rssItems.length === 0) {
         if (!_mainRetried) {
@@ -1378,8 +1383,7 @@
       merged.sort(function(a, b) { return new Date(b.date || '1970-01-01') - new Date(a.date || '1970-01-01'); });
       finalizeAndRender(merged);
       var _newInFeed = currentArticles.filter(function(a){ return a.isNew; }).length;
-      if (_newInFeed > 0) addLog('+ ' + _newInFeed + ' neue Meldungen im Feed', true);
-      else addLog('✓ Feed aktualisiert');
+      setResultMain(_newInFeed > 0 ? '+ ' + _newInFeed + ' NEU' : 'Aktualisiert', _newInFeed > 0);
       saveFeedCache();
 
     } catch(err) {
@@ -1719,7 +1723,6 @@
     var mainSet = new Set(currentArticles.map(function(a){ return a.title.trim().toLowerCase(); }));
     rssItems = rssItems.filter(function(a){ return !mainSet.has(a.title.trim().toLowerCase()); });
 
-    if (rssItems.length > 0) addLog('✓ ' + rssItems.length + ' weitere Meldungen', true);
 
     if (!rssItems.length) {
       if (!loadExtendedNews._retried) {
@@ -1809,8 +1812,7 @@
     renderExtFeed(mergedExt);
     var _newExt = mergedExt.filter(function(a){ return a.isNew; }).length;
     setStatusExt(_newExt > 0 ? '+ ' + _newExt + ' neue Meldungen gefunden' : 'Aktualisiert');
-    if (_newExt > 0) addLog('+ ' + _newExt + ' neue weitere Meldungen', true);
-    else addLog('✓ Weitere Quellen aktualisiert');
+    setResultExt(_newExt > 0 ? '+ ' + _newExt + ' NEU' : 'Aktualisiert', _newExt > 0);
     saveFeedCache();
   }
 
