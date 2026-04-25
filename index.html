@@ -917,6 +917,11 @@
   .btn-gist { font-family:'Share Tech Mono',monospace;font-size:18px;background:none;border:1px solid rgba(0,212,255,0.3);color:rgba(0,212,255,0.55);cursor:pointer;padding:8px 13px;margin-left:10px;line-height:1;transition:color 0.2s,border-color 0.2s;vertical-align:middle; }
   .btn-gist:hover { border-color:#00d4ff;color:#00d4ff; }
   .btn-gist.synced { color:#00ff9d;border-color:rgba(0,255,157,0.45); }
+  .btn-gist.needs-token { animation:gistNudge 2.5s ease-in-out infinite; }
+  @keyframes gistNudge {
+    0%,100% { color:rgba(255,157,0,0.6);border-color:rgba(255,157,0,0.3); }
+    50%      { color:rgba(255,157,0,1.0);border-color:rgba(255,157,0,0.7); }
+  }
 </style>
 </head>
 <body>
@@ -1069,16 +1074,20 @@
     try {
       var r = await fetch('https://api.github.com/user', { headers: { Authorization: 'Bearer ' + token }, signal: AbortSignal.timeout(8000) });
       if (!r.ok) throw new Error('unauthorized');
-      var arts = await loadFromGist();
-      if (arts && arts.length) {
+      var gd = await loadFromGist();
+      if (gd && gd.articles && gd.articles.length) {
+        if (gd.seenIds && gd.seenIds.length) {
+          seenArticleIds = Array.from(new Set(seenArticleIds.concat(gd.seenIds))).slice(-200);
+          localStorage.setItem('uap_seen_ids', JSON.stringify(seenArticleIds));
+        }
         var localArts = loadFeedCache().articles || [];
-        var merged = _mergeGistLocal(arts, localArts);
+        var merged = _mergeGistLocal(gd.articles, localArts);
         localStorage.setItem('uap_feed_v2', JSON.stringify(merged));
         localStorage.setItem('uap_feed_ts', Date.now().toString());
         currentArticles = merged.slice(0, 10);
         renderArticles(currentArticles);
       }
-      if (btn) { btn.textContent = '☁'; btn.classList.add('synced'); }
+      if (btn) { btn.textContent = '☁'; btn.classList.remove('needs-token'); btn.classList.add('synced'); btn.style.color=''; btn.style.borderColor=''; }
     } catch(e) {
       // Token saved but validation failed — mark with warning colour, keep token
       if (btn) { btn.textContent = '☁'; btn.style.color = '#ff9d00'; btn.style.borderColor = 'rgba(255,157,0,0.4)'; }
@@ -1816,17 +1825,22 @@
       if (_t) localStorage.setItem('uap_gist_token', _t);
     }
 
-    // Mark gist button if token is configured
+    // Mark gist button state
+    var gistBtn = document.getElementById('gist-btn');
     if (getGistToken()) {
-      var gistBtn = document.getElementById('gist-btn');
-      if (gistBtn) { gistBtn.style.color = ''; gistBtn.style.borderColor = ''; gistBtn.classList.add('synced'); }
+      if (gistBtn) { gistBtn.style.color = ''; gistBtn.style.borderColor = ''; gistBtn.classList.remove('needs-token'); gistBtn.classList.add('synced'); }
+    } else {
+      if (gistBtn) gistBtn.classList.add('needs-token');
     }
 
     var cache = loadFeedCache();
     var gistData = await loadFromGist();
-    if (gistData && gistData.seenIds && gistData.seenIds.length) {
-      seenArticleIds = Array.from(new Set(seenArticleIds.concat(gistData.seenIds))).slice(-200);
-      localStorage.setItem('uap_seen_ids', JSON.stringify(seenArticleIds));
+    if (gistData) {
+      if (gistBtn) { gistBtn.classList.remove('needs-token'); gistBtn.classList.add('synced'); }
+      if (gistData.seenIds && gistData.seenIds.length) {
+        seenArticleIds = Array.from(new Set(seenArticleIds.concat(gistData.seenIds))).slice(-200);
+        localStorage.setItem('uap_seen_ids', JSON.stringify(seenArticleIds));
+      }
     }
     var gistArts = gistData ? gistData.articles : null;
     var initialArts = gistArts
