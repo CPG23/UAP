@@ -1472,7 +1472,7 @@
         var sc = similarity(article, groups[gi].primary);
         if (sc > bestScore) { bestScore = sc; bestGi = gi; }
       }
-      if (bestScore >= 0.28 && bestGi >= 0) {
+      if (bestScore >= 0.48 && bestGi >= 0) {
         groups[bestGi].others.push(article);
       } else {
         groups.push({ primary: article, others: [] });
