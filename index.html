@@ -1797,44 +1797,47 @@
     var rssItems   = [];
     var seenTitles = new Set();
 
-    for (var qi = 0; qi < extQueries.length; qi++) {
-      try {
-        var rssUrl = 'https://news.google.com/rss/search?q=' + extQueries[qi] + '&hl=en-US&gl=US&ceid=US:en';
-        var proxy  = 'https://api.allorigins.win/get?url=' + encodeURIComponent(rssUrl);
-        var resp   = await fetch(proxy);
-        if (!resp.ok) continue;
-        var json   = await resp.json();
-        var doc    = new DOMParser().parseFromString(json.contents || '', 'text/xml');
-        doc.querySelectorAll('item').forEach(function(item) {
-          var d = new Date(((item.querySelector('pubDate') || {}).textContent || '').trim());
-          if (!d || isNaN(d.getTime()) || d.getTime() < cutoff) return;
-          var title = ((item.querySelector('title') || {}).textContent || '')
-            .replace(/<!\[CDATA\[|\]\]>/g, '').replace(/ [-\u2013] [^-]{2,45}$/, '').trim();
-          var src   = ((item.querySelector('source') || {}).textContent || '').trim();
-          var link = '';
-          var candidates = [];
-          var lEl = item.querySelector('link');
-          if (lEl) {
-            candidates.push(lEl.getAttribute('href') || '');
-            candidates.push(lEl.nextSibling ? (lEl.nextSibling.textContent || '') : '');
-            candidates.push(lEl.textContent || '');
-          }
-          var guidEl = item.querySelector('guid');
-          if (guidEl) candidates.push(guidEl.textContent || '');
-          for (var ci=0; ci<candidates.length; ci++) {
-            var c = candidates[ci].trim();
-            if (/^https?:\/\//.test(c)) { link = c; break; }
-          }
-          var descEl = item.querySelector('description');
-          var desc   = descEl ? descEl.textContent.replace(/<[^>]+>/g, '')
-            .replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').trim().substring(0, 500) : '';
-          if (!title || seenTitles.has(title.toLowerCase())) return;
-          seenTitles.add(title.toLowerCase());
-          rssItems.push({ title: title, link: link.trim(), source: src || 'Unbekannt',
-            date: d.toISOString().split('T')[0], description: desc });
-        });
-      } catch(e) { console.log('ext err:', e.message); }
+    function _parseExtXml(json) {
+      var doc = new DOMParser().parseFromString((json && json.contents) || '', 'text/xml');
+      doc.querySelectorAll('item').forEach(function(item) {
+        var d = new Date(((item.querySelector('pubDate') || {}).textContent || '').trim());
+        if (!d || isNaN(d.getTime()) || d.getTime() < cutoff) return;
+        var title = ((item.querySelector('title') || {}).textContent || '')
+          .replace(/<!\[CDATA\[|\]\]>/g, '').replace(/ [-\u2013] [^-]{2,45}$/, '').trim();
+        var src = ((item.querySelector('source') || {}).textContent || '').trim();
+        var link = '';
+        var candidates = [];
+        var lEl = item.querySelector('link');
+        if (lEl) {
+          candidates.push(lEl.getAttribute('href') || '');
+          candidates.push(lEl.nextSibling ? (lEl.nextSibling.textContent || '') : '');
+          candidates.push(lEl.textContent || '');
+        }
+        var guidEl = item.querySelector('guid');
+        if (guidEl) candidates.push(guidEl.textContent || '');
+        for (var ci = 0; ci < candidates.length; ci++) {
+          var c = candidates[ci].trim();
+          if (/^https?:\/\//.test(c)) { link = c; break; }
+        }
+        var descEl = item.querySelector('description');
+        var desc = descEl ? descEl.textContent.replace(/<[^>]+>/g, '')
+          .replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').trim().substring(0, 500) : '';
+        if (!title || seenTitles.has(title.toLowerCase())) return;
+        seenTitles.add(title.toLowerCase());
+        rssItems.push({ title: title, link: link.trim(), source: src || 'Unbekannt',
+          date: d.toISOString().split('T')[0], description: desc });
+      });
     }
+
+    // Fetch all queries in parallel \u2014 dramatically faster than sequential
+    var fetchResults = await Promise.all(extQueries.map(function(q) {
+      var rssUrl = 'https://news.google.com/rss/search?q=' + q + '&hl=en-US&gl=US&ceid=US:en';
+      var proxy  = 'https://api.allorigins.win/get?url=' + encodeURIComponent(rssUrl);
+      return fetch(proxy, { signal: AbortSignal.timeout(12000) })
+        .then(function(r) { return r.ok ? r.json() : null; })
+        .catch(function() { return null; });
+    }));
+    fetchResults.forEach(function(json) { if (json) _parseExtXml(json); });
 
     extLoading.classList.remove('active');
     localStorage.setItem('uap_last_ext_scan_dur', ((Date.now() - _extScanStart) / 1000).toFixed(1));
