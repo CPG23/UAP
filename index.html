@@ -408,27 +408,6 @@
     transition: opacity 1.5s ease;
   }
 
-  #search-spinner {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 24px 0 16px;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 10px;
-    color: var(--text-dim);
-    letter-spacing: 2px;
-  }
-  #search-spinner::before {
-    content: '';
-    width: 16px;
-    height: 16px;
-    border: 2px solid rgba(0,212,255,0.2);
-    border-top-color: var(--accent);
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-    flex-shrink: 0;
-  }
   @keyframes spin { to { transform: rotate(360deg); } }
 
     15%  { opacity: 1; }
@@ -1134,7 +1113,6 @@
   </div>
 
   <div id="feed"></div>
-  <div id="search-spinner">SUCHE WEITERE MELDUNGEN</div>
 
   <span id="ext-count" style="display:none"></span>
   <div id="ext-separator" style="display:none; align-items:center; gap:16px; margin:28px 0 20px;">
@@ -1176,7 +1154,6 @@
   let _scanStart = Date.now();
   let _mainRetried = false;
   let _inSplash = false;
-  let _silentRefresh = false;
   function showBgAlien() {
     var w = document.getElementById('bg-alien-wrap');
     var img = document.getElementById('bg-alien-img');
@@ -1385,11 +1362,7 @@
     var _ldEl = document.getElementById('loading-last-dur');
     if (_ldEl) _ldEl.textContent = _lastDur ? 'LETZTER SCAN: ' + _lastDur + ' Sekunden' : '';
     var _hasArticles = currentArticles.length > 0;
-    if (!_hasArticles && !_silentRefresh) document.getElementById('loading').style.display = 'flex';
-    var _sp = document.getElementById('search-spinner');
-    if (!_silentRefresh && !_inSplash) { _sp.style.display = 'flex'; }
-    else if (_sp) { _sp.style.display = 'none'; }
-    if (!_hasArticles && !_silentRefresh) document.getElementById('feed').innerHTML = '';
+    if (!_hasArticles && !_inSplash) document.getElementById('feed').innerHTML = '';
     document.getElementById('empty-state').style.display = 'none';
     document.getElementById('error-msg').style.display = 'none';
     function setStatus(msg) { var el = document.querySelector('.loading-sub'); if (el) el.textContent = msg; }
@@ -1490,14 +1463,13 @@
       saveFeedCache();
 
     } catch(err) {
-      document.getElementById('loading').style.display = 'none';
+      if (!_inSplash) document.getElementById('loading').style.display = 'none';
       var errEl = document.getElementById('error-msg');
       errEl.style.display = 'block';
       errEl.innerHTML = '<div style="margin-bottom:8px">\u26a0 ' + err.message + '</div>' +
         '<button onclick="Promise.all([loadNews(),loadExtendedNews()]).then(function(){document.getElementById(\'loading\').style.display=\'none\';crossFeedMerge();})" style="font-family:Rajdhani,sans-serif;font-weight:700;font-size:12px;letter-spacing:2px;color:#030a0f;background:#00d4ff;border:none;padding:8px 20px;cursor:pointer">\u21ba ERNEUT VERSUCHEN</button>';
     } finally {
       btn.disabled = false; btn.textContent = '\u25b6 SCAN STARTEN';
-      var _spFin = document.getElementById('search-spinner'); if (_spFin) _spFin.style.display = 'none';
     }
   }
 
@@ -2274,13 +2246,12 @@
     if (loadAlien && heroAlien) heroAlien.src = loadAlien.src;
     initNotifications();
 
-    // Always show alien for 10 seconds on startup
+    // Show overlay during startup — blocks interaction until loading is complete
     _inSplash = true;
     document.getElementById('loading').style.display = 'flex';
 
+    // Pre-render cache behind overlay so articles are ready instantly after
     var cache = loadFeedCache();
-
-    // Pre-render cached articles behind the splash
     if (cache.articles && cache.articles.length) {
       currentArticles = cache.articles.slice(0, 5);
       renderArticles(currentArticles);
@@ -2294,18 +2265,18 @@
       }
     }
 
-    // Refresh runs silently behind the splash
-    _silentRefresh = true;
-    setTimeout(function() {
-      Promise.all([loadNews(), loadExtendedNews()]).then(function() { _silentRefresh = false; crossFeedMerge(); });
-    }, 300);
-
-    // After 10 seconds: hide splash, show articles + alien background
-    setTimeout(function() {
+    // Load fresh data — main feed first, then ext feed
+    loadNews().then(function() {
+      return loadExtendedNews();
+    }).then(function() {
+      crossFeedMerge();
       _inSplash = false;
       document.getElementById('loading').style.display = 'none';
       showBgAlien();
-    }, 10000);
+      // Scroll to first new article if any were found
+      var firstNew = document.querySelector('.article-card.is-new');
+      if (firstNew) setTimeout(function() { firstNew.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 400);
+    });
   });
 </script>
   <div id="bg-alien-wrap"><img id="bg-alien-img" src="" alt=""></div>
