@@ -1596,7 +1596,7 @@
         var sc = similarity(article, groups[gi].primary);
         if (sc > bestScore) { bestScore = sc; bestGi = gi; }
       }
-      if (bestScore >= 0.28 && bestGi >= 0) {
+      if (bestScore >= 0.48 && bestGi >= 0) {
         groups[bestGi].others.push(article);
       } else {
         groups.push({ primary: article, others: [] });
@@ -1831,15 +1831,19 @@
       });
     }
 
-    // Fetch all queries in parallel \u2014 dramatically faster than sequential
-    var fetchResults = await Promise.all(extQueries.map(function(q) {
+    // Fetch in two batches of 4 to avoid proxy rate limiting while staying fast
+    function _extFetch(q) {
       var rssUrl = 'https://news.google.com/rss/search?q=' + q + '&hl=en-US&gl=US&ceid=US:en';
       var proxy  = 'https://api.allorigins.win/get?url=' + encodeURIComponent(rssUrl);
       return fetch(proxy, { signal: AbortSignal.timeout(12000) })
         .then(function(r) { return r.ok ? r.json() : null; })
         .catch(function() { return null; });
-    }));
-    fetchResults.forEach(function(json) { if (json) _parseExtXml(json); });
+    }
+    var half = Math.ceil(extQueries.length / 2);
+    var batch1 = await Promise.all(extQueries.slice(0, half).map(_extFetch));
+    await new Promise(function(r) { setTimeout(r, 300); });
+    var batch2 = await Promise.all(extQueries.slice(half).map(_extFetch));
+    batch1.concat(batch2).forEach(function(json) { if (json) _parseExtXml(json); });
 
     extLoading.classList.remove('active');
     localStorage.setItem('uap_last_ext_scan_dur', ((Date.now() - _extScanStart) / 1000).toFixed(1));
@@ -1924,7 +1928,7 @@
     var mainSet = new Set(currentArticles.map(function(a) { return a.title.trim().toLowerCase(); }));
     mergedExt = mergedExt.filter(function(a) { return !mainSet.has(a.title.trim().toLowerCase()); });
     mergedExt.sort(function(a, b) { return new Date(b.date || '1970-01-01') - new Date(a.date || '1970-01-01'); });
-    mergedExt = mergedExt.slice(0, 5);
+    mergedExt = mergedExt.slice(0, 10);
 
     // Mark new/seen state
     var prevExtIds = seenArticleIds.slice();
