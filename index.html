@@ -1329,8 +1329,7 @@
       if (rssItems.length === 0) {
         if (!_mainRetried) {
           _mainRetried = true;
-          setStatusMain('Wiederhole Abfrage...');
-          addLog('↻ Kein Ergebnis, neuer Versuch in 3s...');
+          setStatusMain('↻ Kein Ergebnis, neuer Versuch in 3s...');
           return new Promise(function(resolve) {
             setTimeout(function() { _mainRetried = false; loadNews().then(resolve).catch(resolve); }, 3000);
           });
@@ -1718,8 +1717,7 @@
     if (!rssItems.length) {
       if (!loadExtendedNews._retried) {
         loadExtendedNews._retried = true;
-        setStatusExt('Wiederhole Abfrage...');
-        addLog('↻ Kein Ergebnis, neuer Versuch in 3s...');
+        setStatusExt('↻ Kein Ergebnis, neuer Versuch in 3s...');
         return new Promise(function(resolve) {
           setTimeout(function() { loadExtendedNews._retried = false; loadExtendedNews().then(resolve).catch(resolve); }, 3000);
         });
