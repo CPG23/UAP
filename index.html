@@ -1388,11 +1388,11 @@
         try {
           setStatus('KI ERSTELLT ZUSAMMENFASSUNGEN...');
           var itemList = newRssItems.slice(0, 20).map(function(it, i) {
-            var desc = (it.description || '').substring(0, 300);
+            var desc = (it.description || '').substring(0, 500);
             return (i+1) + '. [' + it.date + '] ' + it.title + ' (' + (it.source || '?') + ')' + (desc ? '\n   ' + desc : '');
           }).join('\n');
-          var prompt = 'Today is ' + todayStr + '. For each UAP/UFO news item, write a 3-4 sentence factual summary in English covering: what happened or was reported, who is involved, and why it is significant. Include specific details so the reader understands the full story. Return ONLY a JSON array: [{"idx":0,"summary":"..."},...]. No markdown.\n\n' + itemList;
-          var raw = await callAI(prompt, 2500);
+          var prompt = 'Today is ' + todayStr + '. For each UAP/UFO news item below, write a detailed factual summary in English of at least 4-5 sentences. Cover: (1) exactly what happened or was reported, (2) who is involved and their role, (3) the broader context or background, (4) why it matters for UAP/UFO disclosure or public awareness. Do NOT write just one sentence — each summary must be a full paragraph that gives the reader a complete picture even without reading the original article. Return ONLY a JSON array: [{"idx":0,"summary":"..."},...]. No markdown.\n\n' + itemList;
+          var raw = await callAI(prompt, 3500);
           var summaries = extractJsonArticles(raw);
           if (summaries) summaries.forEach(function(s) {
             if (s && typeof s.idx === 'number' && newArticles[s.idx]) newArticles[s.idx].summary = s.summary;
@@ -1794,12 +1794,12 @@
           var itemLines2 = batch.map(function(it, i) {
             var desc = (it.summary || '').trim();
             return (i+1) + '. TITLE: ' + it.title
-              + (desc && desc !== it.title ? '\n   DESC: ' + desc.substring(0, 300) : '')
+              + (desc && desc !== it.title ? '\n   DESC: ' + desc.substring(0, 500) : '')
               + '\n   SOURCE: ' + (it.source || '?') + ' [' + it.date + ']';
           }).join('\n\n');
           var aiRaw2 = await callAI(
-            'For each UAP/UFO news item, write a 3-4 sentence factual summary in English covering: what happened or was reported, who is involved, and why it is significant. Include specific details so the reader understands the full story. Use DESC if provided, otherwise use TITLE. Return ONLY a JSON array: [{"idx":0,"summary":"..."},...]. No markdown.\n\n' + itemLines2,
-            1500
+            'For each UAP/UFO news item below, write a detailed factual summary in English of at least 4-5 sentences. Cover: (1) exactly what happened or was reported, (2) who is involved and their role, (3) the broader context or background, (4) why it matters for UAP/UFO disclosure or public awareness. Do NOT write just one sentence — each summary must be a full paragraph. Use DESC if provided, otherwise expand on TITLE. Return ONLY a JSON array: [{"idx":0,"summary":"..."},...]. No markdown.\n\n' + itemLines2,
+            2500
           );
           var s1 = aiRaw2.indexOf('['), s2 = aiRaw2.lastIndexOf(']');
           if (s1 !== -1 && s2 > s1) {
