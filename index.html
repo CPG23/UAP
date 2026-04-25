@@ -1316,9 +1316,9 @@
 
   function finalizeAndRender(articles) {
     articles.sort(function(a,b){
-      var ma = a._mentions||1, mb = b._mentions||1;
-      if (mb !== ma) return mb - ma;
-      return new Date(b.date||'1970-01-01') - new Date(a.date||'1970-01-01');
+      var dd = new Date(b.date||'1970-01-01') - new Date(a.date||'1970-01-01');
+      if (dd !== 0) return dd;
+      return (b._mentions||1) - (a._mentions||1);
     });
     var prevIds = seenArticleIds.slice();
     currentArticles = articles.map(function(a){
