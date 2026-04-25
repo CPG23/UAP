@@ -2265,18 +2265,27 @@
       }
     }
 
+    function hideSplash() {
+      if (!_inSplash) return;
+      clearTimeout(_splashTimer);
+      _inSplash = false;
+      document.getElementById('loading').style.display = 'none';
+      showBgAlien();
+    }
+
+    // Safety cap: hide overlay after 10s even if loading is still running
+    var _splashTimer = setTimeout(hideSplash, 10000);
+
     // Load fresh data — main feed first, then ext feed
     loadNews().then(function() {
       return loadExtendedNews();
     }).then(function() {
       crossFeedMerge();
-      _inSplash = false;
-      document.getElementById('loading').style.display = 'none';
-      showBgAlien();
+      hideSplash();
       // Scroll to first new article if any were found
       var firstNew = document.querySelector('.article-card.is-new');
       if (firstNew) setTimeout(function() { firstNew.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 400);
-    });
+    }).catch(hideSplash);
   });
 </script>
   <div id="bg-alien-wrap"><img id="bg-alien-img" src="" alt=""></div>
