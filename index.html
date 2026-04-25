@@ -1692,17 +1692,24 @@
     }
 
     function _extFetch(q) {
-      var rssUrl = 'https://news.google.com/rss/search?q=' + q + '&hl=en-US&gl=US&ceid=US:en';
-      var proxy  = 'https://api.allorigins.win/get?url=' + encodeURIComponent(rssUrl);
-      return fetch(proxy, { signal: AbortSignal.timeout(12000) })
+      var rssUrl  = 'https://news.google.com/rss/search?q=' + q + '&hl=en-US&gl=US&ceid=US:en';
+      var proxy1  = 'https://api.allorigins.win/get?url=' + encodeURIComponent(rssUrl);
+      var proxy2  = 'https://corsproxy.io/?' + encodeURIComponent(rssUrl);
+      return fetch(proxy1, { signal: AbortSignal.timeout(10000) })
         .then(function(r) { return r.ok ? r.json() : null; })
-        .catch(function() { return null; });
+        .catch(function() { return null; })
+        .then(function(json) {
+          if (json && json.contents) return json;
+          return fetch(proxy2, { signal: AbortSignal.timeout(10000) })
+            .then(function(r) { return r.ok ? r.text().then(function(t) { return { contents: t }; }) : null; })
+            .catch(function() { return null; });
+        });
     }
 
-    // Two batches of 4 in parallel with 300ms gap to avoid rate-limiting
+    // Two batches of 4 in parallel with 400ms gap to reduce proxy load
     var half = Math.ceil(extQueries.length / 2);
     var batch1 = await Promise.all(extQueries.slice(0, half).map(_extFetch));
-    await new Promise(function(r) { setTimeout(r, 300); });
+    await new Promise(function(r) { setTimeout(r, 400); });
     var batch2 = await Promise.all(extQueries.slice(half).map(_extFetch));
     batch1.concat(batch2).forEach(function(json) { if (json) _parseExtXml(json); });
 
