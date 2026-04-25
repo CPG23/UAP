@@ -913,6 +913,10 @@
   .apikey-save:hover { background:#00ff9d; }
   .apikey-err { font-family:'Share Tech Mono',monospace;font-size:10px;color:#ff6b35;margin-top:6px;display:none; }
   .apikey-clear { font-family:'Share Tech Mono',monospace;font-size:10px;color:#5a7a8a;background:none;border:none;cursor:pointer;margin-top:10px; }
+  #gist-overlay { position:fixed;inset:0;z-index:10000;background:rgba(3,10,15,0.97);display:none;align-items:center;justify-content:center;backdrop-filter:blur(6px); }
+  .btn-gist { font-family:'Share Tech Mono',monospace;font-size:18px;background:none;border:1px solid rgba(0,212,255,0.3);color:rgba(0,212,255,0.55);cursor:pointer;padding:8px 13px;margin-left:10px;line-height:1;transition:color 0.2s,border-color 0.2s;vertical-align:middle; }
+  .btn-gist:hover { border-color:#00d4ff;color:#00d4ff; }
+  .btn-gist.synced { color:#00ff9d;border-color:rgba(0,255,157,0.45); }
 </style>
 </head>
 <body>
@@ -961,6 +965,7 @@
     <button class="btn-scan" id="scan-btn" onclick="startScan()">
       ▶ SCAN STARTEN
     </button>
+    <button class="btn-gist" id="gist-btn" onclick="showGistSettings()" title="Cloud-Sync einrichten">☁</button>
     <div class="filter-info">
       <span style="opacity:0.6;font-size:10px">&#128197; Letzte 7 Tage</span>
     </div>
@@ -1016,6 +1021,127 @@
   function saveApiKey() {}
   function clearApiKey() {}
 
+  // ── GITHUB GIST SYNC ──────────────────────────────────────────────────────
+  var GIST_FILE = 'uap-news-cache.json';
+  function getGistToken() { return localStorage.getItem('uap_gist_token') || ''; }
+  function getGistId()    { return localStorage.getItem('uap_gist_id')    || ''; }
+
+  function showGistSettings() {
+    var inp = document.getElementById('gist-token-input');
+    if (inp) inp.value = getGistToken();
+    var err = document.getElementById('gist-err');
+    if (err) { err.style.display = 'none'; err.textContent = ''; }
+    document.getElementById('gist-overlay').style.display = 'flex';
+  }
+  function hideGistSettings() {
+    document.getElementById('gist-overlay').style.display = 'none';
+  }
+  async function saveGistToken() {
+    var token = (document.getElementById('gist-token-input').value || '').trim();
+    var errEl = document.getElementById('gist-err');
+    errEl.style.display = 'none';
+    if (!token) { errEl.textContent = '⚠ Bitte einen Token eingeben'; errEl.style.display = 'block'; return; }
+    try {
+      var r = await fetch('https://api.github.com/user', { headers: { Authorization: 'Bearer ' + token } });
+      if (!r.ok) throw new Error('unauthorized');
+      localStorage.setItem('uap_gist_token', token);
+      localStorage.removeItem('uap_gist_id');
+      hideGistSettings();
+      var btn = document.getElementById('gist-btn');
+      if (btn) { btn.textContent = '⏳'; }
+      var arts = await loadFromGist();
+      if (arts && arts.length) {
+        var localArts = loadFeedCache().articles || [];
+        var merged = _mergeGistLocal(arts, localArts);
+        localStorage.setItem('uap_feed_v2', JSON.stringify(merged));
+        localStorage.setItem('uap_feed_ts', Date.now().toString());
+        currentArticles = merged.slice(0, 10);
+        renderArticles(currentArticles);
+      }
+      if (btn) { btn.textContent = '☁'; btn.classList.add('synced'); }
+    } catch(e) {
+      errEl.textContent = '⚠ Token ungültig oder keine Gist-Berechtigung';
+      errEl.style.display = 'block';
+    }
+  }
+  function clearGistToken() {
+    localStorage.removeItem('uap_gist_token');
+    localStorage.removeItem('uap_gist_id');
+    var btn = document.getElementById('gist-btn');
+    if (btn) { btn.classList.remove('synced'); btn.textContent = '☁'; }
+    hideGistSettings();
+  }
+
+  async function _findOrCreateGist(token) {
+    var id = getGistId();
+    if (id) return id;
+    // Search existing gists
+    for (var page = 1; page <= 5; page++) {
+      var r = await fetch('https://api.github.com/gists?per_page=100&page=' + page,
+        { headers: { Authorization: 'Bearer ' + token } });
+      if (!r.ok) break;
+      var list = await r.json();
+      if (!Array.isArray(list) || !list.length) break;
+      var found = list.find(function(g) { return g.files && g.files[GIST_FILE]; });
+      if (found) { localStorage.setItem('uap_gist_id', found.id); return found.id; }
+      if (list.length < 100) break;
+    }
+    // Create new private gist
+    var r2 = await fetch('https://api.github.com/gists', {
+      method: 'POST',
+      headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ description: 'UAP News Cache', public: false,
+        files: { [GIST_FILE]: { content: JSON.stringify({ articles: [], ts: 0 }) } } })
+    });
+    if (!r2.ok) throw new Error('Gist konnte nicht erstellt werden');
+    var gist = await r2.json();
+    localStorage.setItem('uap_gist_id', gist.id);
+    return gist.id;
+  }
+
+  async function loadFromGist() {
+    var token = getGistToken();
+    if (!token) return null;
+    try {
+      var id = await _findOrCreateGist(token);
+      var r = await fetch('https://api.github.com/gists/' + id,
+        { headers: { Authorization: 'Bearer ' + token } });
+      if (!r.ok) return null;
+      var gist = await r.json();
+      var file = gist.files && gist.files[GIST_FILE];
+      if (!file || !file.content) return null;
+      var data = JSON.parse(file.content);
+      return Array.isArray(data.articles) ? data.articles : null;
+    } catch(e) { console.log('Gist load:', e.message); return null; }
+  }
+
+  async function saveToGist(articles) {
+    var token = getGistToken();
+    if (!token) return;
+    try {
+      var id = await _findOrCreateGist(token);
+      await fetch('https://api.github.com/gists/' + id, {
+        method: 'PATCH',
+        headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ files: { [GIST_FILE]: {
+          content: JSON.stringify({ articles: pruneFeed(articles), ts: Date.now() })
+        } } })
+      });
+      var btn = document.getElementById('gist-btn');
+      if (btn) btn.classList.add('synced');
+    } catch(e) { console.log('Gist save:', e.message); }
+  }
+
+  function _mergeGistLocal(gistArts, localArts) {
+    var seen = new Set();
+    var result = [];
+    (gistArts || []).concat(localArts || []).forEach(function(a) {
+      if (a && a.id && !seen.has(a.id)) { seen.add(a.id); result.push(a); }
+    });
+    result.sort(function(a,b){ return new Date(b.date||'1970-01-01') - new Date(a.date||'1970-01-01'); });
+    return pruneFeed(result);
+  }
+
   // ── OVERLAY HELPERS ───────────────────────────────────────────────────────
   function setStatus(msg) {
     var el = document.getElementById('loading-status');
@@ -1067,6 +1193,7 @@
       localStorage.setItem('uap_feed_v2', JSON.stringify(pruneFeed(currentArticles)));
       localStorage.setItem('uap_feed_ts', Date.now().toString());
     } catch(e) {}
+    saveToGist(currentArticles);
   }
 
   // Clustert neue Artikel gegen einen bestehenden Bestand anhand Summary-Keywords.
@@ -1653,17 +1780,27 @@
     }, { passive: false });
   })();
 
-  window.addEventListener('load', () => {
+  window.addEventListener('load', async () => {
     var loadAlien = document.querySelector('.alien-head');
     var heroAlien = document.getElementById('hero-alien');
     if (loadAlien && heroAlien) heroAlien.src = loadAlien.src;
     document.body.classList.add('no-scroll'); // overlay visible via CSS display:flex
 
-    var cache = loadFeedCache();
+    // Mark gist button if token is configured
+    if (getGistToken()) {
+      var gistBtn = document.getElementById('gist-btn');
+      if (gistBtn) gistBtn.classList.add('synced');
+    }
 
-    // Pre-render cached articles behind the overlay
-    if (cache.articles && cache.articles.length) {
-      currentArticles = cache.articles.slice(0, 5);
+    var cache = loadFeedCache();
+    var gistArts = await loadFromGist();
+    var initialArts = gistArts
+      ? _mergeGistLocal(gistArts, cache.articles || [])
+      : (cache.articles || []);
+
+    // Pre-render cached/gist articles behind the overlay
+    if (initialArts.length) {
+      currentArticles = initialArts.slice(0, 10);
       renderArticles(currentArticles);
       if (lastScanTime) {
         document.getElementById('last-scan').textContent =
@@ -1679,5 +1816,23 @@
     }, 300);
   });
 </script>
+
+<div id="gist-overlay">
+  <div class="apikey-box">
+    <div style="font-size:28px;margin-bottom:10px">☁</div>
+    <h2>GITHUB GIST SYNC</h2>
+    <p>Artikel werden in einem privaten GitHub Gist gespeichert und bleiben auch nach dem Leeren des Browser-Caches erhalten.</p>
+    <div class="apikey-steps">
+      1. <a href="https://github.com/settings/tokens/new?scopes=gist&description=UAP+News+Sync" target="_blank">github.com/settings/tokens</a> öffnen<br>
+      2. Scope: <strong>gist</strong> auswählen<br>
+      3. Token generieren &amp; hier einfügen
+    </div>
+    <input class="apikey-input" id="gist-token-input" type="password" placeholder="ghp_…" spellcheck="false"/>
+    <button class="apikey-save" onclick="saveGistToken()">☁ SPEICHERN &amp; SYNCHRONISIEREN</button>
+    <div class="apikey-err" id="gist-err"></div>
+    <button class="apikey-clear" onclick="clearGistToken()">✕ Sync deaktivieren</button>
+    <button class="apikey-clear" style="margin-top:4px" onclick="hideGistSettings()">↩ Abbrechen</button>
+  </div>
+</div>
 </body>
 </html>
