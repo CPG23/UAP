@@ -410,6 +410,34 @@
 
   @keyframes spin { to { transform: rotate(360deg); } }
 
+  #scan-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(3,10,15,0.82);
+    backdrop-filter: blur(3px);
+    z-index: 200;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+  #scan-overlay.active { display: flex; }
+  #scan-overlay-spinner {
+    width: 36px; height: 36px;
+    border: 2px solid rgba(0,212,255,0.2);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  #scan-overlay-status {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
     15%  { opacity: 1; }
     70%  { opacity: 1; }
     100% { opacity: 0; }
@@ -1084,7 +1112,7 @@
   <span id="live-date" style="display:none"></span>
   <span id="article-counter" style="display:none"></span>
   <div class="controls">
-    <button class="btn-scan" id="scan-btn" onclick="loadNews().then(function(){return loadExtendedNews();}).then(function(){crossFeedMerge();})">
+    <button class="btn-scan" id="scan-btn" onclick="startScan()">
       ▶ SCAN STARTEN
     </button>
     <div class="filter-info">
@@ -1365,7 +1393,10 @@
     if (!_hasArticles && !_inSplash) document.getElementById('feed').innerHTML = '';
     document.getElementById('empty-state').style.display = 'none';
     document.getElementById('error-msg').style.display = 'none';
-    function setStatus(msg) { var el = document.querySelector('.loading-sub'); if (el) el.textContent = msg; }
+    function setStatus(msg) {
+      var el = document.querySelector('.loading-sub'); if (el) el.textContent = msg;
+      var so = document.getElementById('scan-overlay-status'); if (so) so.textContent = msg;
+    }
 
     var today    = new Date();
     var todayStr = today.toISOString().split('T')[0];
@@ -1891,6 +1922,27 @@
     saveFeedCache();
   }
 
+  function startScan() {
+    var overlay = document.getElementById('scan-overlay');
+    var statusEl = document.getElementById('scan-overlay-status');
+    _inSplash = true;
+    if (statusEl) statusEl.textContent = 'SUCHE UAP-NACHRICHTEN…';
+    overlay.classList.add('active');
+    loadNews().then(function() {
+      if (statusEl) statusEl.textContent = 'SUCHE WEITERE QUELLEN…';
+      return loadExtendedNews();
+    }).then(function() {
+      crossFeedMerge();
+      _inSplash = false;
+      overlay.classList.remove('active');
+      var firstNew = document.querySelector('.article-card.is-new');
+      if (firstNew) setTimeout(function() { firstNew.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 400);
+    }).catch(function() {
+      _inSplash = false;
+      overlay.classList.remove('active');
+    });
+  }
+
   function crossFeedMerge() {
     if (!currentArticles.length || !currentExtArticles.length) return;
     var GSTOP = new Set(['a','an','the','to','of','for','in','on','at','by','with','from',
@@ -2289,5 +2341,9 @@
   });
 </script>
   <div id="bg-alien-wrap"><img id="bg-alien-img" src="" alt=""></div>
+  <div id="scan-overlay">
+    <div id="scan-overlay-spinner"></div>
+    <div id="scan-overlay-status">AKTUALISIERE FEEDS…</div>
+  </div>
 </body>
 </html>
