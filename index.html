@@ -1797,6 +1797,7 @@
 
     renderExtFeed(mergedExt);
     var _newExt = mergedExt.filter(function(a){ return a.isNew; }).length;
+    setStatusExt(_newExt > 0 ? '+ ' + _newExt + ' neue Meldungen gefunden' : 'Aktualisiert');
     if (_newExt > 0) addLog('+ ' + _newExt + ' neue weitere Meldungen', true);
     else addLog('✓ Weitere Quellen aktualisiert');
     saveFeedCache();
