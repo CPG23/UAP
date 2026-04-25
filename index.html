@@ -1496,8 +1496,15 @@
   }
 
   function toggleCard(idx) {
-    const card = document.getElementById('card-' + idx);
+    var card = document.getElementById('card-' + idx);
+    var opening = !card.classList.contains('open');
     card.classList.toggle('open');
+    if (opening && currentArticles[idx]) {
+      var views = JSON.parse(localStorage.getItem('uap_views') || '{}');
+      var id = currentArticles[idx].id;
+      views[id] = (views[id] || 0) + 1;
+      localStorage.setItem('uap_views', JSON.stringify(views));
+    }
   }
 
   async function translateSummary(idx) {
