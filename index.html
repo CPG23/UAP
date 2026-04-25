@@ -268,6 +268,8 @@
     mask-image: radial-gradient(ellipse 72% 80% at 50% 42%, black 25%, rgba(0,0,0,0.6) 55%, transparent 80%);
     -webkit-mask-image: radial-gradient(ellipse 72% 80% at 50% 42%, black 25%, rgba(0,0,0,0.6) 55%, transparent 80%);
     animation: alienGlow 4s ease-in-out infinite;
+    will-change: transform, opacity, filter;
+    transform: translateZ(0);
   }
 
   @keyframes alienGlow {
@@ -1302,35 +1304,47 @@
       setStatusMain('Suche...');
       var rssItems = [];
 
-      // Fetch Google News RSS via free allorigins.win proxy
+      // Parallel fetch; corsproxy primary for main (avoids contention with ext-feed's allorigins)
       var queries = ['UAP+UFO+2026', 'UFO+Pentagon+AARO+2026', 'UAP+disclosure+Congress+2026', 'UFO+sighting+military+2026'];
-      for (var qi = 0; qi < queries.length && rssItems.length < 5; qi++) {
-        try {
-          var rssUrl = 'https://news.google.com/rss/search?q=' + queries[qi] + '&hl=en-US&gl=US&ceid=US:en';
-          var proxy  = 'https://api.allorigins.win/get?url=' + encodeURIComponent(rssUrl);
-          var r = await fetch(proxy);
-          if (!r.ok) continue;
-          var json = await r.json();
-          var doc  = new DOMParser().parseFromString(json.contents || '', 'text/xml');
-          doc.querySelectorAll('item').forEach(function(item) {
-            var d = new Date(((item.querySelector('pubDate')||{}).textContent||'').trim());
-            if (!d || isNaN(d.getTime()) || d.getTime() < cutoff) return;
-            var title = ((item.querySelector('title')||{}).textContent||'').replace(/<!\[CDATA\[|\]\]>/g,'').replace(/ [-\u2013] [^-]{2,45}$/,'').trim();
-            var src   = ((item.querySelector('source')||{}).textContent||'').trim();
-            var lEl = item.querySelector('link');
-            var link = '', lCands = [
-              lEl ? (lEl.getAttribute('href')||'') : '',
-              lEl && lEl.nextSibling ? (lEl.nextSibling.textContent||'') : '',
-              lEl ? (lEl.textContent||'') : '',
-              ((item.querySelector('guid')||{}).textContent||'')
-            ];
-            for (var lci=0; lci<lCands.length; lci++) { var lc=lCands[lci].trim(); if (/^https?:\/\//.test(lc)){link=lc;break;} }
-            var descEl = item.querySelector('description');
-                var desc = descEl ? descEl.textContent.replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').trim().substring(0,500) : '';
-                if (title) rssItems.push({ title: title, link: link, source: src, date: d.toISOString().split('T')[0], description: desc });
+      var seenMainTitles = new Set();
+      function _mainFetch(q) {
+        var rssUrl = 'https://news.google.com/rss/search?q=' + q + '&hl=en-US&gl=US&ceid=US:en';
+        var p1 = 'https://corsproxy.io/?' + encodeURIComponent(rssUrl);
+        var p2 = 'https://api.allorigins.win/get?url=' + encodeURIComponent(rssUrl);
+        return fetch(p1, { signal: AbortSignal.timeout(10000) })
+          .then(function(r) { return r.ok ? r.text() : null; })
+          .catch(function() { return null; })
+          .then(function(xml) {
+            if (xml) return xml;
+            return fetch(p2, { signal: AbortSignal.timeout(10000) })
+              .then(function(r) { return r.ok ? r.json().then(function(j) { return j.contents || null; }) : null; })
+              .catch(function() { return null; });
           });
-        } catch(e) { console.log('proxy err:', e.message); }
       }
+      var mainResults = await Promise.all(queries.map(_mainFetch));
+      mainResults.forEach(function(xmlStr) {
+        if (!xmlStr) return;
+        var doc = new DOMParser().parseFromString(xmlStr, 'text/xml');
+        doc.querySelectorAll('item').forEach(function(item) {
+          var d = new Date(((item.querySelector('pubDate')||{}).textContent||'').trim());
+          if (!d || isNaN(d.getTime()) || d.getTime() < cutoff) return;
+          var title = ((item.querySelector('title')||{}).textContent||'').replace(/<!\[CDATA\[|\]\]>/g,'').replace(/ [-\u2013] [^-]{2,45}$/,'').trim();
+          if (!title || seenMainTitles.has(title.toLowerCase())) return;
+          seenMainTitles.add(title.toLowerCase());
+          var src   = ((item.querySelector('source')||{}).textContent||'').trim();
+          var lEl = item.querySelector('link');
+          var link = '', lCands = [
+            lEl ? (lEl.getAttribute('href')||'') : '',
+            lEl && lEl.nextSibling ? (lEl.nextSibling.textContent||'') : '',
+            lEl ? (lEl.textContent||'') : '',
+            ((item.querySelector('guid')||{}).textContent||'')
+          ];
+          for (var lci=0; lci<lCands.length; lci++) { var lc=lCands[lci].trim(); if (/^https?:\/\//.test(lc)){link=lc;break;} }
+          var descEl = item.querySelector('description');
+          var desc = descEl ? descEl.textContent.replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').trim().substring(0,500) : '';
+          rssItems.push({ title: title, link: link, source: src, date: d.toISOString().split('T')[0], description: desc });
+        });
+      });
 
 
       if (rssItems.length === 0) {
@@ -1385,7 +1399,6 @@
       merged.sort(function(a, b) { return new Date(b.date || '1970-01-01') - new Date(a.date || '1970-01-01'); });
       finalizeAndRender(merged);
       var _newInFeed = currentArticles.filter(function(a){ return a.isNew; }).length;
-      setResultMain(_newInFeed > 0 ? '+ ' + _newInFeed + ' NEU' : 'Aktualisiert', _newInFeed > 0);
       saveFeedCache();
 
     } catch(err) {
@@ -1814,7 +1827,6 @@
     renderExtFeed(mergedExt);
     var _newExt = mergedExt.filter(function(a){ return a.isNew; }).length;
     setStatusExt(_newExt > 0 ? '+ ' + _newExt + ' neue Meldungen gefunden' : 'Aktualisiert');
-    setResultExt(_newExt > 0 ? '+ ' + _newExt + ' NEU' : 'Aktualisiert', _newExt > 0);
     saveFeedCache();
   }
 
