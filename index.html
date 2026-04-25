@@ -267,7 +267,7 @@
     filter: brightness(0.5) saturate(1.1) drop-shadow(0 0 18px rgba(0,212,255,0.9)) drop-shadow(0 0 40px rgba(0,212,255,0.5));
     mask-image: radial-gradient(ellipse 72% 80% at 50% 42%, black 25%, rgba(0,0,0,0.6) 55%, transparent 80%);
     -webkit-mask-image: radial-gradient(ellipse 72% 80% at 50% 42%, black 25%, rgba(0,0,0,0.6) 55%, transparent 80%);
-    animation: alienGlow 4s ease-in-out infinite;
+    animation: alienGlow 12s ease-in-out infinite;
     will-change: transform, opacity, filter;
     transform: translateZ(0);
   }
@@ -1201,28 +1201,34 @@
         var rssUrl = 'https://news.google.com/rss/search?q=' + q + '&hl=en-US&gl=US&ceid=US:en';
         var p1 = 'https://corsproxy.io/?' + encodeURIComponent(rssUrl);
         var p2 = 'https://api.allorigins.win/get?url=' + encodeURIComponent(rssUrl);
-        return fetch(p1, { signal: AbortSignal.timeout(10000) })
-          .then(function(r) { return r.ok ? r.text() : null; })
-          .catch(function() { return null; })
-          .then(function(xml) {
-            if (xml) return xml;
-            return fetch(p2, { signal: AbortSignal.timeout(10000) })
-              .then(function(r) { return r.ok ? r.json().then(function(j) { return j.contents || null; }) : null; })
-              .catch(function() { return null; });
-          });
+        var t1 = fetch(p1, { signal: AbortSignal.timeout(10000) })
+          .then(function(r) { return r.ok ? r.text() : Promise.reject(); })
+          .catch(function() { return Promise.reject(); });
+        var t2 = fetch(p2, { signal: AbortSignal.timeout(10000) })
+          .then(function(r) { return r.ok ? r.json().then(function(j) { return (j&&j.contents) ? j.contents : Promise.reject(); }) : Promise.reject(); })
+          .catch(function() { return Promise.reject(); });
+        return Promise.any([t1, t2]).catch(function() { return null; });
       }
-      var _half = Math.ceil(queries.length / 2);
-      var _b1 = await Promise.all(queries.slice(0, _half).map(_fetch));
-      setStatus('Weitere Quellen abrufen...');
-      await new Promise(function(r) { setTimeout(r, 400); });
-      var _b2 = await Promise.all(queries.slice(_half).map(_fetch));
-      _b1.concat(_b2).forEach(function(xmlStr) {
+      var _allResults = await Promise.all(queries.map(_fetch));
+      function _ct(t) { return (t||'').replace(/<!\[CDATA\[|\]\]>/g,'').replace(/ [-\u2013] [^-]{2,45}$/,'').trim(); }
+      var mentionMap = {};
+      _allResults.forEach(function(xmlStr) {
+        if (!xmlStr) return;
+        var doc = new DOMParser().parseFromString(xmlStr, 'text/xml');
+        doc.querySelectorAll('item').forEach(function(item) {
+          var title = _ct((item.querySelector('title')||{}).textContent||'');
+          if (!title) return;
+          var tid = topicId(title);
+          mentionMap[tid] = (mentionMap[tid] || 0) + 1;
+        });
+      });
+      _allResults.forEach(function(xmlStr) {
         if (!xmlStr) return;
         var doc = new DOMParser().parseFromString(xmlStr, 'text/xml');
         doc.querySelectorAll('item').forEach(function(item) {
           var d = new Date(((item.querySelector('pubDate')||{}).textContent||'').trim());
           if (!d || isNaN(d.getTime()) || d.getTime() < cutoff) return;
-          var title = ((item.querySelector('title')||{}).textContent||'').replace(/<![\[CDATA[|\]\]>/g,'').replace(/ [-\u2013] [^-]{2,45}$/,'').trim();
+          var title = _ct((item.querySelector('title')||{}).textContent||'');
           if (!title || seenTitles.has(title.toLowerCase())) return;
           seenTitles.add(title.toLowerCase());
           var src   = ((item.querySelector('source')||{}).textContent||'').trim();
@@ -1236,9 +1242,8 @@
           for (var lci=0; lci<lCands.length; lci++) { var lc=lCands[lci].trim(); if (/^https?:\/\//.test(lc)){link=lc;break;} }
           var descEl = item.querySelector('description');
           var desc = descEl ? descEl.textContent.replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').trim().substring(0,500) : '';
-          rssItems.push({ title: title, link: link, source: src, date: d.toISOString().split('T')[0], description: desc });
+          rssItems.push({ title: title, link: link, source: src, date: d.toISOString().split('T')[0], description: desc, _mentions: mentionMap[topicId(title)] || 1 });
         });
-      });
       });
 
 
@@ -1268,7 +1273,8 @@
           date: it.date,
           summary: it.description || it.title,
           url: it.link,
-          isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(it.source + it.title)
+          isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(it.source + it.title),
+          _mentions: it._mentions || 1
         };
       });
 
@@ -1289,9 +1295,10 @@
         newArticles = mergeWithCluster(newArticles, cachedArts);
       }
 
-      var merged = cachedArts.concat(newArticles);
+      var merged = cachedArts.concat(newArticles).map(function(a) {
+        return mentionMap[a.id] ? Object.assign({}, a, { _mentions: mentionMap[a.id] }) : a;
+      });
       merged = pruneFeed(merged);
-      merged.sort(function(a, b) { return new Date(b.date || '1970-01-01') - new Date(a.date || '1970-01-01'); });
       finalizeAndRender(merged);
       var _newInFeed = currentArticles.filter(function(a){ return a.isNew; }).length;
       setStatus(_newInFeed > 0 ? '+ ' + _newInFeed + ' NEU' : 'Aktualisiert');
@@ -1308,7 +1315,11 @@
   }
 
   function finalizeAndRender(articles) {
-    articles.sort(function(a,b){ return new Date(b.date||'1970-01-01') - new Date(a.date||'1970-01-01'); });
+    articles.sort(function(a,b){
+      var ma = a._mentions||1, mb = b._mentions||1;
+      if (mb !== ma) return mb - ma;
+      return new Date(b.date||'1970-01-01') - new Date(a.date||'1970-01-01');
+    });
     var prevIds = seenArticleIds.slice();
     currentArticles = articles.map(function(a){
       return Object.assign({},a,{isNew:!prevIds.includes(a.id)&&!isContentSeen(a.summary)});
@@ -1496,15 +1507,7 @@
   }
 
   function toggleCard(idx) {
-    var card = document.getElementById('card-' + idx);
-    var opening = !card.classList.contains('open');
-    card.classList.toggle('open');
-    if (opening && currentArticles[idx]) {
-      var views = JSON.parse(localStorage.getItem('uap_views') || '{}');
-      var id = currentArticles[idx].id;
-      views[id] = (views[id] || 0) + 1;
-      localStorage.setItem('uap_views', JSON.stringify(views));
-    }
+    document.getElementById('card-' + idx).classList.toggle('open');
   }
 
   async function translateSummary(idx) {
