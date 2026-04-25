@@ -1241,7 +1241,12 @@
           ];
           for (var lci=0; lci<lCands.length; lci++) { var lc=lCands[lci].trim(); if (/^https?:\/\//.test(lc)){link=lc;break;} }
           var descEl = item.querySelector('description');
-          var desc = descEl ? descEl.textContent.replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/[\u00a0\u200b\u2009\u202f]+/g,' ').replace(/\s+/g,' ').trim().substring(0,500) : '';
+          var desc = descEl ? descEl.textContent
+            .replace(/<[^>]+>/g,'')
+            .replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&nbsp;/gi,' ').replace(/&[a-z]+;/gi,' ')
+            .replace(/[\u00a0\u200b\u2009\u202f]+/g,' ')
+            .replace(/\s{2,}[A-Z\u00c4\u00d6\u00dc][^\n]{1,60}$/, '')
+            .replace(/\s+/g,' ').trim().substring(0,500) : '';
           rssItems.push({ title: title, link: link, source: src, date: d.toISOString().split('T')[0], description: desc, _mentions: mentionMap[topicId(title)] || 1 });
         });
       });
