@@ -43,6 +43,7 @@
     cursor: default;
     overscroll-behavior-y: contain;
   }
+  body.no-scroll { overflow: hidden; touch-action: none; }
 
   /* Scanline overlay */
   body::before {
@@ -1922,24 +1923,33 @@
     saveFeedCache();
   }
 
+  function showScanOverlay(msg) {
+    document.body.classList.add('no-scroll');
+    var o = document.getElementById('scan-overlay');
+    var s = document.getElementById('scan-overlay-status');
+    if (s) s.textContent = msg || 'SUCHE UAP-NACHRICHTEN…';
+    o.classList.add('active');
+  }
+  function hideScanOverlay() {
+    document.getElementById('scan-overlay').classList.remove('active');
+    document.body.classList.remove('no-scroll');
+  }
+
   function startScan() {
-    var overlay = document.getElementById('scan-overlay');
-    var statusEl = document.getElementById('scan-overlay-status');
     _inSplash = true;
-    if (statusEl) statusEl.textContent = 'SUCHE UAP-NACHRICHTEN…';
-    overlay.classList.add('active');
+    showScanOverlay('SUCHE UAP-NACHRICHTEN…');
     loadNews().then(function() {
-      if (statusEl) statusEl.textContent = 'SUCHE WEITERE QUELLEN…';
+      document.getElementById('scan-overlay-status').textContent = 'SUCHE WEITERE QUELLEN…';
       return loadExtendedNews();
     }).then(function() {
       crossFeedMerge();
       _inSplash = false;
-      overlay.classList.remove('active');
+      hideScanOverlay();
       var firstNew = document.querySelector('.article-card.is-new');
       if (firstNew) setTimeout(function() { firstNew.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 400);
     }).catch(function() {
       _inSplash = false;
-      overlay.classList.remove('active');
+      hideScanOverlay();
     });
   }
 
@@ -2300,6 +2310,7 @@
 
     // Show overlay during startup — blocks interaction until loading is complete
     _inSplash = true;
+    document.body.classList.add('no-scroll');
     document.getElementById('loading').style.display = 'flex';
 
     // Pre-render cache behind overlay so articles are ready instantly after
@@ -2317,27 +2328,41 @@
       }
     }
 
+    var _startupDone = false;
+
     function hideSplash() {
       if (!_inSplash) return;
       clearTimeout(_splashTimer);
       _inSplash = false;
       document.getElementById('loading').style.display = 'none';
+      document.body.classList.remove('no-scroll');
       showBgAlien();
     }
 
-    // Safety cap: hide overlay after 10s even if loading is still running
-    var _splashTimer = setTimeout(hideSplash, 10000);
+    // After 10s: hide alien, switch to scan overlay if still loading
+    var _splashTimer = setTimeout(function() {
+      hideSplash();
+      if (!_startupDone) showScanOverlay('SUCHE UAP-NACHRICHTEN…');
+    }, 10000);
 
     // Load fresh data — main feed first, then ext feed
     loadNews().then(function() {
+      var s = document.getElementById('scan-overlay-status');
+      if (s) s.textContent = 'SUCHE WEITERE QUELLEN…';
       return loadExtendedNews();
     }).then(function() {
+      _startupDone = true;
       crossFeedMerge();
       hideSplash();
+      hideScanOverlay();
       // Scroll to first new article if any were found
       var firstNew = document.querySelector('.article-card.is-new');
       if (firstNew) setTimeout(function() { firstNew.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 400);
-    }).catch(hideSplash);
+    }).catch(function() {
+      _startupDone = true;
+      hideSplash();
+      hideScanOverlay();
+    });
   });
 </script>
   <div id="bg-alien-wrap"><img id="bg-alien-img" src="" alt=""></div>
