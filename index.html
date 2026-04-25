@@ -1283,19 +1283,43 @@
         };
       });
 
-      if (newArticles.length > 0) {
+      // Also re-summarize cached articles with short/bad summaries
+      function _badSummary(a) {
+        var s = (a.summary || '').trim();
+        return s.length < 200 || s === (a.title || '').trim();
+      }
+      var staleArts = cachedArts.filter(_badSummary).slice(0, 5);
+      var toSummarize = newRssItems.slice(0, 20).concat(
+        staleArts.map(function(a) { return { title: a.title, source: a.source, date: a.date, description: a.summary, _staleId: a.id }; })
+      );
+
+      if (toSummarize.length > 0) {
         try {
-          setStatus('KI erstellt Zusammenfassungen...');
-          var itemList = newRssItems.slice(0, 20).map(function(it, i) {
-            var desc = (it.description || '').substring(0, 500);
-            return (i+1) + '. [' + it.date + '] ' + it.title + ' (' + (it.source || '?') + ')' + (desc ? '\n   ' + desc : '');
-          }).join('\n');
-          var prompt = 'Today is ' + todayStr + '. For each UAP/UFO news item below, write a detailed factual summary in English of at least 7-8 sentences. Cover: (1) exactly what happened or was reported, (2) who is involved and their role/credentials, (3) key quotes or specific claims made, (4) the broader context or background, (5) any official reactions or responses, (6) why it matters for UAP/UFO disclosure or public awareness. Each summary must be a thorough paragraph that gives the reader a complete picture without needing to read the original article. Return ONLY a JSON array: [{"idx":0,"summary":"..."},...]. No markdown.\n\n' + itemList;
-          var raw = await callAI(prompt, 3500);
-          var summaries = extractJsonArticles(raw);
-          if (summaries) summaries.forEach(function(s) {
-            if (s && typeof s.idx === 'number' && newArticles[s.idx]) newArticles[s.idx].summary = s.summary;
-          });
+          var BATCH = 5;
+          var aiPrompt = 'Today is ' + todayStr + '. For each UAP/UFO news item below, write a detailed factual summary in English of at least 7-8 sentences. Cover: (1) exactly what happened or was reported, (2) who is involved and their role/credentials, (3) key quotes or specific claims made, (4) the broader context or background, (5) any official reactions or responses, (6) why it matters for UAP/UFO disclosure or public awareness. Each summary must be a thorough paragraph giving a complete picture without needing the original article. Return ONLY a JSON array: [{"idx":0,"summary":"..."},...]. No markdown.\n\n';
+          for (var _bi = 0; _bi < toSummarize.length; _bi += BATCH) {
+            var batch = toSummarize.slice(_bi, _bi + BATCH);
+            setStatus('KI: Zusammenfassungen ' + (_bi + 1) + '–' + Math.min(_bi + BATCH, toSummarize.length) + ' / ' + toSummarize.length + '...');
+            var itemList = batch.map(function(it, i) {
+              var desc = (it.description || '').substring(0, 400);
+              return (i+1) + '. [' + (it.date||'') + '] ' + it.title + ' (' + (it.source || '?') + ')' + (desc ? '\n   ' + desc : '');
+            }).join('\n');
+            var raw = await callAI(aiPrompt + itemList, 4000);
+            var summaries = extractJsonArticles(raw);
+            if (summaries) summaries.forEach(function(s) {
+              if (s && typeof s.idx === 'number') {
+                var item = batch[s.idx];
+                if (!item) return;
+                if (item._staleId) {
+                  var ca = cachedArts.find(function(a) { return a.id === item._staleId; });
+                  if (ca) ca.summary = s.summary;
+                } else {
+                  var ni = newArticles[_bi + s.idx];
+                  if (ni) ni.summary = s.summary;
+                }
+              }
+            });
+          }
         } catch(aiErr) { console.log('AI summary skipped:', aiErr.message); }
         newArticles = mergeWithCluster(newArticles, cachedArts);
       }
