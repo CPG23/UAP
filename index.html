@@ -1231,7 +1231,7 @@
           var title = _ct((item.querySelector('title')||{}).textContent||'');
           if (!title || seenTitles.has(title.toLowerCase())) return;
           seenTitles.add(title.toLowerCase());
-          var src   = ((item.querySelector('source')||{}).textContent||'').trim();
+          var src   = ((item.querySelector('source')||{}).textContent||'').replace(/[\u00a0\u200b\u2009\u202f]+/g,'').replace(/\s+/g,' ').trim();
           var lEl = item.querySelector('link');
           var link = '', lCands = [
             lEl ? (lEl.getAttribute('href')||'') : '',
@@ -1241,7 +1241,7 @@
           ];
           for (var lci=0; lci<lCands.length; lci++) { var lc=lCands[lci].trim(); if (/^https?:\/\//.test(lc)){link=lc;break;} }
           var descEl = item.querySelector('description');
-          var desc = descEl ? descEl.textContent.replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').trim().substring(0,500) : '';
+          var desc = descEl ? descEl.textContent.replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/[\u00a0\u200b\u2009\u202f]+/g,' ').replace(/\s+/g,' ').trim().substring(0,500) : '';
           rssItems.push({ title: title, link: link, source: src, date: d.toISOString().split('T')[0], description: desc, _mentions: mentionMap[topicId(title)] || 1 });
         });
       });
@@ -1285,7 +1285,7 @@
             var desc = (it.description || '').substring(0, 500);
             return (i+1) + '. [' + it.date + '] ' + it.title + ' (' + (it.source || '?') + ')' + (desc ? '\n   ' + desc : '');
           }).join('\n');
-          var prompt = 'Today is ' + todayStr + '. For each UAP/UFO news item below, write a detailed factual summary in English of at least 4-5 sentences. Cover: (1) exactly what happened or was reported, (2) who is involved and their role, (3) the broader context or background, (4) why it matters for UAP/UFO disclosure or public awareness. Do NOT write just one sentence — each summary must be a full paragraph that gives the reader a complete picture even without reading the original article. Return ONLY a JSON array: [{"idx":0,"summary":"..."},...]. No markdown.\n\n' + itemList;
+          var prompt = 'Today is ' + todayStr + '. For each UAP/UFO news item below, write a detailed factual summary in English of at least 7-8 sentences. Cover: (1) exactly what happened or was reported, (2) who is involved and their role/credentials, (3) key quotes or specific claims made, (4) the broader context or background, (5) any official reactions or responses, (6) why it matters for UAP/UFO disclosure or public awareness. Each summary must be a thorough paragraph that gives the reader a complete picture without needing to read the original article. Return ONLY a JSON array: [{"idx":0,"summary":"..."},...]. No markdown.\n\n' + itemList;
           var raw = await callAI(prompt, 3500);
           var summaries = extractJsonArticles(raw);
           if (summaries) summaries.forEach(function(s) {
