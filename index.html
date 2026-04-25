@@ -1026,6 +1026,24 @@
   function getGistToken() { return localStorage.getItem('uap_gist_token') || ''; }
   function getGistId()    { return localStorage.getItem('uap_gist_id')    || ''; }
 
+  async function _persistToken(token) {
+    localStorage.setItem('uap_gist_token', token);
+    try {
+      if ('caches' in window) {
+        var c = await caches.open('uap-meta-v1');
+        await c.put('gist-token', new Response(token, { headers: { 'Content-Type': 'text/plain' } }));
+      }
+    } catch(e) {}
+  }
+  async function _restoreTokenFromCache() {
+    try {
+      if (!('caches' in window)) return '';
+      var c = await caches.open('uap-meta-v1');
+      var r = await c.match('gist-token');
+      return r ? (await r.text()).trim() : '';
+    } catch(e) { return ''; }
+  }
+
   function showGistSettings() {
     var inp = document.getElementById('gist-token-input');
     if (inp) inp.value = getGistToken();
@@ -1042,7 +1060,7 @@
     errEl.style.display = 'none';
     if (!token) { errEl.textContent = '⚠ Bitte einen Token eingeben'; errEl.style.display = 'block'; return; }
     // Save immediately — don't wait for network validation
-    localStorage.setItem('uap_gist_token', token);
+    await _persistToken(token);
     localStorage.removeItem('uap_gist_id');
     var btn = document.getElementById('gist-btn');
     if (btn) { btn.textContent = '⏳'; btn.classList.remove('synced'); }
@@ -1067,11 +1085,14 @@
       console.log('Gist validate:', e.message);
     }
   }
-  function clearGistToken() {
+  async function clearGistToken() {
     localStorage.removeItem('uap_gist_token');
     localStorage.removeItem('uap_gist_id');
+    try {
+      if ('caches' in window) { var c = await caches.open('uap-meta-v1'); await c.delete('gist-token'); }
+    } catch(e) {}
     var btn = document.getElementById('gist-btn');
-    if (btn) { btn.classList.remove('synced'); btn.textContent = '☁'; }
+    if (btn) { btn.classList.remove('synced'); btn.style.color = ''; btn.style.borderColor = ''; btn.textContent = '☁'; }
     hideGistSettings();
   }
 
@@ -1114,7 +1135,7 @@
       var file = gist.files && gist.files[GIST_FILE];
       if (!file || !file.content) return null;
       var data = JSON.parse(file.content);
-      return Array.isArray(data.articles) ? data.articles : null;
+      return Array.isArray(data.articles) ? data : null;
     } catch(e) { console.log('Gist load:', e.message); return null; }
   }
 
@@ -1127,7 +1148,7 @@
         method: 'PATCH',
         headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' },
         body: JSON.stringify({ files: { [GIST_FILE]: {
-          content: JSON.stringify({ articles: pruneFeed(articles), ts: Date.now() })
+          content: JSON.stringify({ articles: pruneFeed(articles), ts: Date.now(), seenIds: seenArticleIds.slice(-200) })
         } } })
       });
       var btn = document.getElementById('gist-btn');
@@ -1789,6 +1810,12 @@
     if (loadAlien && heroAlien) heroAlien.src = loadAlien.src;
     document.body.classList.add('no-scroll'); // overlay visible via CSS display:flex
 
+    // Restore token from SW cache if localStorage was cleared
+    if (!getGistToken()) {
+      var _t = await _restoreTokenFromCache();
+      if (_t) localStorage.setItem('uap_gist_token', _t);
+    }
+
     // Mark gist button if token is configured
     if (getGistToken()) {
       var gistBtn = document.getElementById('gist-btn');
@@ -1796,7 +1823,12 @@
     }
 
     var cache = loadFeedCache();
-    var gistArts = await loadFromGist();
+    var gistData = await loadFromGist();
+    if (gistData && gistData.seenIds && gistData.seenIds.length) {
+      seenArticleIds = Array.from(new Set(seenArticleIds.concat(gistData.seenIds))).slice(-200);
+      localStorage.setItem('uap_seen_ids', JSON.stringify(seenArticleIds));
+    }
+    var gistArts = gistData ? gistData.articles : null;
     var initialArts = gistArts
       ? _mergeGistLocal(gistArts, cache.articles || [])
       : (cache.articles || []);
