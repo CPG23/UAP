@@ -410,6 +410,11 @@
   }
 
   @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes alienPulse {
+    0%   { transform: scale(1);    filter: drop-shadow(0 0 6px rgba(0,212,255,0.3)); }
+    50%  { transform: scale(1.18); filter: drop-shadow(0 0 18px rgba(0,212,255,0.9)); }
+    100% { transform: scale(1);    filter: drop-shadow(0 0 6px rgba(0,212,255,0.3)); }
+  }
 
   #scan-overlay {
     display: none;
@@ -429,8 +434,7 @@
     flex-shrink: 0;
   }
   .alien-spin {
-    animation: spin 1.6s linear infinite;
-    filter: drop-shadow(0 0 8px rgba(0,212,255,0.5));
+    animation: alienPulse 1.8s ease-in-out infinite;
     object-fit: contain;
   }
   #scan-overlay-status {
