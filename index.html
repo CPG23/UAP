@@ -274,7 +274,7 @@
 
   @keyframes alienGlow {
     0%, 100% { opacity: 0.55; transform: scale(1.0);  filter: brightness(0.6) saturate(1.2) drop-shadow(0 0 20px rgba(0,212,255,0.9)) drop-shadow(0 0 45px rgba(0,212,255,0.5)); }
-    50%       { opacity: 0.88; transform: scale(1.12); filter: brightness(0.85) saturate(1.5) drop-shadow(0 0 35px rgba(0,212,255,1.0)) drop-shadow(0 0 70px rgba(0,212,255,0.7)) drop-shadow(0 0 100px rgba(0,255,157,0.3)); }
+    50%       { opacity: 0.88; transform: scale(1.3); filter: brightness(0.85) saturate(1.5) drop-shadow(0 0 35px rgba(0,212,255,1.0)) drop-shadow(0 0 70px rgba(0,212,255,0.7)) drop-shadow(0 0 100px rgba(0,255,157,0.3)); }
   }
 
   @keyframes alienFloat {
@@ -1399,6 +1399,7 @@
       merged.sort(function(a, b) { return new Date(b.date || '1970-01-01') - new Date(a.date || '1970-01-01'); });
       finalizeAndRender(merged);
       var _newInFeed = currentArticles.filter(function(a){ return a.isNew; }).length;
+      setStatusMain(_newInFeed > 0 ? '+ ' + _newInFeed + ' NEU' : 'Aktualisiert');
       saveFeedCache();
 
     } catch(err) {
@@ -1826,7 +1827,7 @@
 
     renderExtFeed(mergedExt);
     var _newExt = mergedExt.filter(function(a){ return a.isNew; }).length;
-    setStatusExt(_newExt > 0 ? '+ ' + _newExt + ' neue Meldungen gefunden' : 'Aktualisiert');
+    setStatusExt(_newExt > 0 ? '+ ' + _newExt + ' NEU' : 'Aktualisiert');
     saveFeedCache();
   }
 
@@ -1936,9 +1937,10 @@
       });
       // Recalculate ext new count after removing merged articles
       var remaining = currentExtArticles.filter(function(a) { return a !== null; });
+      var extNewCount2 = remaining.filter(function(a) { return a.isNew; }).length;
       var extNewEl = document.getElementById('ext-new-count');
-      if (extNewEl) extNewEl.textContent = remaining.filter(function(a) { return a.isNew; }).length > 0
-        ? '+' + remaining.filter(function(a) { return a.isNew; }).length + ' NEU' : '';
+      if (extNewEl) extNewEl.textContent = extNewCount2 > 0 ? '+' + extNewCount2 + ' NEU' : '';
+      setStatusExt(extNewCount2 > 0 ? '+ ' + extNewCount2 + ' NEU' : 'Aktualisiert');
     }
   }
 
