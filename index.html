@@ -263,64 +263,6 @@
     animation: pulse 1.5s infinite;
   }
 
-  /* Notification button */
-  .btn-notif {
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 700;
-    font-size: 12px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--text-dim);
-    background: transparent;
-    border: 1px solid var(--border);
-    padding: 9px 16px;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-  .btn-notif:hover {
-    border-color: var(--accent2);
-    color: var(--accent2);
-  }
-  .btn-notif.active {
-    border-color: var(--accent2);
-    color: var(--accent2);
-    box-shadow: 0 0 12px rgba(0,255,157,0.2);
-  }
-  /* Notification banner */
-  #notif-banner {
-    display: none;
-    background: rgba(0,212,255,0.06);
-    border: 1px solid var(--accent);
-    padding: 14px 16px;
-    margin-bottom: 16px;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 11px;
-    position: relative;
-  }
-  #notif-banner.show { display: block; }
-  #notif-banner .notif-title {
-    color: var(--accent);
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 6px;
-  }
-  #notif-banner .notif-body {
-    color: var(--text);
-    font-size: 12px;
-    margin-bottom: 10px;
-    line-height: 1.5;
-  }
-  #notif-banner .notif-close {
-    position: absolute;
-    top: 10px;
-    right: 12px;
-    background: none;
-    border: none;
-    color: var(--text-dim);
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 1;
-  }
 
   /* Loading alien */
   #loading {
@@ -1043,16 +985,6 @@
       <div class="new-indicator"></div>
       NEU SEIT LETZTEM SCAN
     </div>
-    <div style="display:flex;align-items:center;gap:0">
-      <button class="btn-notif" id="notif-btn" onclick="toggleNotifications()">&#128276; PUSH AUS</button><button class="btn-notif" id="notif-test-btn" onclick="testNotification()" style="display:none;font-size:10px;padding:9px 8px;letter-spacing:1px;border-left:none;border-color:var(--accent);color:var(--accent)">&#9654;</button>
-    </div>
-  </div>
-
-  <div id="notif-banner">
-    <button class="notif-close" onclick="document.getElementById('notif-banner').classList.remove('show')">&#10005;</button>
-    <div class="notif-title">&#128225; NEUE MELDUNGEN VIA PUSH</div>
-    <div class="notif-body" id="notif-banner-body"></div>
-    <div id="notif-banner-links"></div>
   </div>
 
   <div id="error-msg"></div>
@@ -1426,7 +1358,6 @@
       });
 
       if (newArticles.length > 0) {
-        addLog('+ ' + newArticles.length + ' neue Meldungen', true);
         try {
           setStatus('KI erstellt Zusammenfassungen...');
           var itemList = newRssItems.slice(0, 20).map(function(it, i) {
@@ -1447,6 +1378,9 @@
       merged = pruneFeed(merged);
       merged.sort(function(a, b) { return new Date(b.date || '1970-01-01') - new Date(a.date || '1970-01-01'); });
       finalizeAndRender(merged);
+      var _newInFeed = currentArticles.filter(function(a){ return a.isNew; }).length;
+      if (_newInFeed > 0) addLog('+ ' + _newInFeed + ' neue Meldungen im Feed', true);
+      else addLog('✓ Feed aktualisiert');
       saveFeedCache();
 
     } catch(err) {
@@ -1815,7 +1749,6 @@
 
     // AI summaries in batches for new articles only
     if (newExtArticles.length > 0) {
-      addLog('+ ' + newExtArticles.length + ' neue weitere Meldungen', true);
       setStatus('KI bearbeitet weitere Quellen...');
       var batchSize = 5;
       for (var bi = 0; bi < newExtArticles.length; bi += batchSize) {
@@ -1861,6 +1794,9 @@
     localStorage.setItem('uap_seen_ids', JSON.stringify(seenArticleIds.slice(-200)));
 
     renderExtFeed(mergedExt);
+    var _newExt = mergedExt.filter(function(a){ return a.isNew; }).length;
+    if (_newExt > 0) addLog('+ ' + _newExt + ' neue weitere Meldungen', true);
+    else addLog('✓ Weitere Quellen aktualisiert');
     saveFeedCache();
   }
 
@@ -2021,160 +1957,6 @@
     card.classList.toggle('open');
   }
 
-  // ── PUSH NOTIFICATIONS ──────────────────────────────────────────────────
-  function notifEnabled() {
-    return localStorage.getItem('uap_notif_enabled') === '1';
-  }
-
-  // In-App Banner statt alert() — PWA-Modus unterdrückt alert() auf Android
-  function showNotifBanner(msg, isError) {
-    var bodyEl = document.getElementById('notif-banner-body');
-    var linksEl = document.getElementById('notif-banner-links');
-    var titleEl = document.querySelector('#notif-banner .notif-title');
-    var banner  = document.getElementById('notif-banner');
-    if (!banner || !bodyEl) return;
-    if (titleEl) titleEl.textContent = isError ? '⚠ FEHLER' : '📡 STATUS';
-    bodyEl.textContent = msg;
-    if (linksEl) linksEl.innerHTML = '';
-    banner.classList.add('show');
-    banner.scrollIntoView({ behavior: 'smooth' });
-  }
-
-  function updateNotifBtn() {
-    var btn = document.getElementById('notif-btn');
-    if (!btn) return;
-    var on = notifEnabled() && ('Notification' in window) && Notification.permission === 'granted';
-    btn.innerHTML = on ? '&#128276; PUSH AN' : '&#128277; PUSH AUS';
-    btn.classList.toggle('active', on);
-    var testBtn = document.getElementById('notif-test-btn');
-    if (testBtn) testBtn.style.display = on ? 'inline-block' : 'none';
-  }
-
-  async function toggleNotifications() {
-    var btn = document.getElementById('notif-btn');
-    if (!('Notification' in window)) {
-      showNotifBanner('Push-Benachrichtigungen werden von diesem Browser nicht unterstützt.', true);
-      return;
-    }
-    if (btn) { btn.disabled = true; btn.innerHTML = '&#9203; …'; }
-    try {
-      if (notifEnabled() && Notification.permission === 'granted') {
-        localStorage.setItem('uap_notif_enabled', '0');
-        updateNotifBtn();
-        return;
-      }
-      var perm = await Notification.requestPermission();
-      if (perm !== 'granted') {
-        showNotifBanner('Benachrichtigungen abgelehnt — bitte in den Browser-Einstellungen aktivieren.', true);
-        return;
-      }
-      localStorage.setItem('uap_notif_enabled', '1');
-      if ('serviceWorker' in navigator && 'periodicSync' in navigator.serviceWorker) {
-        try {
-          var regs = await navigator.serviceWorker.getRegistrations();
-          if (regs.length > 0) await regs[0].periodicSync.register('daily-news', { minInterval: 24 * 60 * 60 * 1000 });
-        } catch(e) { console.log('[UAP] Periodic sync:', e.message); }
-      }
-      updateNotifBtn();
-      showNotifBanner('Push aktiviert! Tippe auf ► TEST um die Benachrichtigung zu prüfen.');
-    } catch(e) {
-      showNotifBanner('Fehler: ' + e.message, true);
-    } finally {
-      if (btn) btn.disabled = false;
-      updateNotifBtn();
-    }
-  }
-
-  async function testNotification() {
-    var testBtn = document.getElementById('notif-test-btn');
-    if (testBtn) { testBtn.disabled = true; testBtn.innerHTML = '&#9203;'; }
-    try {
-      if (!('Notification' in window)) {
-        showNotifBanner('Notifications nicht unterstützt.', true);
-        return;
-      }
-      if (Notification.permission !== 'granted') {
-        var p = await Notification.requestPermission();
-        if (p !== 'granted') {
-          showNotifBanner('Berechtigung erforderlich.', true);
-          return;
-        }
-        localStorage.setItem('uap_notif_enabled', '1');
-        updateNotifBtn();
-      }
-      // getRegistrations() (Plural) findet auch Blob-URL Service Worker
-      var regs = ('serviceWorker' in navigator)
-        ? await navigator.serviceWorker.getRegistrations()
-        : [];
-      if (regs.length > 0) {
-        await regs[0].showNotification('UAP NEWS — Test', {
-          body: 'Push-Benachrichtigungen funktionieren! ✓',
-          tag: 'uap-test',
-          data: { articles: [], first: { title: 'Test', source: 'UAP NEWS', url: '' } }
-        });
-        showNotifBanner('✓ Test gesendet — prüfe das Benachrichtigungs-Center deines Geräts.');
-      } else {
-        showNotifBanner('Kein Service Worker gefunden. Bitte App schließen und neu öffnen.', true);
-      }
-    } catch(e) {
-      showNotifBanner('Fehler: ' + e.message, true);
-    } finally {
-      if (testBtn) { testBtn.disabled = false; testBtn.innerHTML = '&#9654; TEST'; }
-    }
-  }
-
-  function handleNotificationArticle(data) {
-    var articles = data && data.articles ? data.articles : (Array.isArray(data) ? data : [data.first || data]);
-    var first = (data && data.first) || articles[0] || {};
-    if (!first.title) return;
-    var count = articles.length;
-    var bodyEl = document.getElementById('notif-banner-body');
-    var linksEl = document.getElementById('notif-banner-links');
-    if (!bodyEl || !linksEl) return;
-    bodyEl.textContent = first.title + (count > 1 ? ' (+ ' + (count - 1) + ' weitere)' : '');
-    linksEl.innerHTML = '';
-    articles.slice(0, 3).forEach(function(art) {
-      if (!art.url) return;
-      var a = document.createElement('a');
-      a.className = 'link-btn';
-      a.href = art.url;
-      a.target = '_blank';
-      a.rel = 'noopener';
-      a.style.cssText = 'display:inline-block;margin-right:8px;margin-top:6px;font-size:10px';
-      a.textContent = '⤴ ' + (art.source || 'Quelle');
-      linksEl.appendChild(a);
-    });
-    var banner = document.getElementById('notif-banner');
-    if (banner) { banner.classList.add('show'); banner.scrollIntoView({ behavior: 'smooth' }); }
-    // Trigger news refresh so the article appears in the feed
-    setTimeout(function() { startScan(); }, 600);
-  }
-
-  function initNotifications() {
-    // Sync button with actual permission state on every load
-    if (('Notification' in window) && Notification.permission !== 'granted' && notifEnabled()) {
-      // Permission was revoked externally — clear our flag
-      localStorage.setItem('uap_notif_enabled', '0');
-    }
-    updateNotifBtn();
-    // Re-register periodic sync if still enabled
-    if (notifEnabled() && ('Notification' in window) && Notification.permission === 'granted') {
-      if ('serviceWorker' in navigator && 'periodicSync' in navigator.serviceWorker) {
-        navigator.serviceWorker.getRegistrations().then(function(regs) {
-          if (regs.length > 0) regs[0].periodicSync.register('daily-news', { minInterval: 24 * 60 * 60 * 1000 }).catch(function(){});
-        });
-      }
-    }
-    // Listen for messages from the service worker (notification click)
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.addEventListener('message', function(event) {
-        if (event.data && event.data.type === 'NOTIFICATION_ARTICLE') {
-          handleNotificationArticle(event.data.data || event.data);
-        }
-      });
-    }
-  }
-
   // Auto-load on start
   // ── PWA: Manifest + Service Worker ─────────────────────────────────────
   (function() {
@@ -2221,7 +2003,6 @@
     var loadAlien = document.querySelector('.alien-head');
     var heroAlien = document.getElementById('hero-alien');
     if (loadAlien && heroAlien) heroAlien.src = loadAlien.src;
-    initNotifications();
     document.body.classList.add('no-scroll'); // overlay visible via CSS display:flex
 
     var cache = loadFeedCache();
