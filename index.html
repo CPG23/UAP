@@ -1096,6 +1096,10 @@
     }
     btn.textContent = '🔔'; btn.classList.add('active');
     _syncSeenIds();
+    reg.showNotification('UAP NEWS — Benachrichtigungen aktiv 🔔', {
+      body: 'Du wirst ab jetzt 1× täglich über neue UAP-Meldungen informiert.',
+      tag: 'uap-setup', icon: './', badge: './'
+    });
   }
 
   function _syncSeenIds() {
