@@ -1161,7 +1161,7 @@
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'openai-fast',
+        model: 'openai',
         messages: [
           { role: 'system', content: 'You are a helpful assistant. Follow all instructions precisely and return only what is asked.' },
           { role: 'user', content: prompt }
@@ -1289,36 +1289,33 @@
         return s.length < 200 || s === (a.title || '').trim();
       }
       var staleArts = cachedArts.filter(_badSummary).slice(0, 5);
-      var toSummarize = newRssItems.slice(0, 20).concat(
-        staleArts.map(function(a) { return { title: a.title, source: a.source, date: a.date, description: a.summary, _staleId: a.id }; })
-      );
+      var toSummarizeNew = newArticles.slice(0, 10);
+      var toSummarizeStale = staleArts;
 
-      if (toSummarize.length > 0) {
+      var _aiSumPrompt = function(title, source, date, desc) {
+        return 'Write a factual summary in English of exactly 6-8 sentences about this UAP/UFO news article. Cover: what happened, who is involved and their credentials, any key quotes or claims, the broader context, official reactions if any, and why it matters for UAP disclosure. Return ONLY the summary text — no title, no labels, no bullet points.\n\nTitle: ' + title + '\nSource: ' + (source || '') + '\nDate: ' + (date || '') + (desc ? '\nContext: ' + desc.substring(0, 400) : '');
+      };
+
+      if (toSummarizeNew.length > 0 || toSummarizeStale.length > 0) {
         try {
-          var BATCH = 5;
-          var aiPrompt = 'Today is ' + todayStr + '. For each UAP/UFO news item below, write a detailed factual summary in English of at least 7-8 sentences. Cover: (1) exactly what happened or was reported, (2) who is involved and their role/credentials, (3) key quotes or specific claims made, (4) the broader context or background, (5) any official reactions or responses, (6) why it matters for UAP/UFO disclosure or public awareness. Each summary must be a thorough paragraph giving a complete picture without needing the original article. Return ONLY a JSON array: [{"idx":0,"summary":"..."},...]. No markdown.\n\n';
-          for (var _bi = 0; _bi < toSummarize.length; _bi += BATCH) {
-            var batch = toSummarize.slice(_bi, _bi + BATCH);
-            setStatus('KI: Zusammenfassungen ' + (_bi + 1) + '–' + Math.min(_bi + BATCH, toSummarize.length) + ' / ' + toSummarize.length + '...');
-            var itemList = batch.map(function(it, i) {
-              var desc = (it.description || '').substring(0, 400);
-              return (i+1) + '. [' + (it.date||'') + '] ' + it.title + ' (' + (it.source || '?') + ')' + (desc ? '\n   ' + desc : '');
-            }).join('\n');
-            var raw = await callAI(aiPrompt + itemList, 4000);
-            var summaries = extractJsonArticles(raw);
-            if (summaries) summaries.forEach(function(s) {
-              if (s && typeof s.idx === 'number') {
-                var item = batch[s.idx];
-                if (!item) return;
-                if (item._staleId) {
-                  var ca = cachedArts.find(function(a) { return a.id === item._staleId; });
-                  if (ca) ca.summary = s.summary;
-                } else {
-                  var ni = newArticles[_bi + s.idx];
-                  if (ni) ni.summary = s.summary;
-                }
-              }
-            });
+          var _total = toSummarizeNew.length + toSummarizeStale.length;
+          var _done = 0;
+          for (var _ni = 0; _ni < toSummarizeNew.length; _ni++) {
+            var _art = toSummarizeNew[_ni];
+            _done++;
+            setStatus('KI: Zusammenfassung ' + _done + ' / ' + _total + '...');
+            var _raw = await callAI(_aiSumPrompt(_art.title, _art.source, _art.date, _art.summary), 900);
+            if (_raw && _raw.trim().length > 150) _art.summary = _raw.trim();
+          }
+          for (var _si = 0; _si < toSummarizeStale.length; _si++) {
+            var _sa = toSummarizeStale[_si];
+            _done++;
+            setStatus('KI: Zusammenfassung ' + _done + ' / ' + _total + '...');
+            var _sraw = await callAI(_aiSumPrompt(_sa.title, _sa.source, _sa.date, _sa.summary), 900);
+            if (_sraw && _sraw.trim().length > 150) {
+              var _ca = cachedArts.find(function(a) { return a.id === _sa.id; });
+              if (_ca) _ca.summary = _sraw.trim();
+            }
           }
         } catch(aiErr) { console.log('AI summary skipped:', aiErr.message); }
         newArticles = mergeWithCluster(newArticles, cachedArts);
