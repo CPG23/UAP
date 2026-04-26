@@ -1285,49 +1285,14 @@
         };
       });
 
-      // Also re-summarize cached articles with short/bad summaries
-      function _badSummary(a) {
-        var s = (a.summary || '').trim();
-        return s.length < 200 || s === (a.title || '').trim();
-      }
-      var staleArts = cachedArts.filter(_badSummary).slice(0, 15);
-      var toSummarizeNew = newArticles.slice(0, 10);
-      var toSummarizeStale = staleArts;
-
-      var _aiSumPrompt = function(title, source, date, desc) {
-        return 'Write a factual summary in English of exactly 3-4 sentences about this UAP/UFO news article. Cover: what happened, who is involved, and why it matters. Return ONLY the summary text — no title, no labels, no bullet points.\n\nTitle: ' + title + '\nSource: ' + (source || '') + '\nDate: ' + (date || '') + (desc ? '\nContext: ' + desc.substring(0, 400) : '');
-      };
-
-      if (toSummarizeNew.length > 0 || toSummarizeStale.length > 0) {
-        try {
-          var _total = toSummarizeNew.length + toSummarizeStale.length;
-          var _done = 0;
-          for (var _ni = 0; _ni < toSummarizeNew.length; _ni++) {
-            var _art = toSummarizeNew[_ni];
-            _done++;
-            setStatus('KI analysiert Quelle ' + _done + ' von ' + _total + '...');
-            var _raw = await callAI(_aiSumPrompt(_art.title, _art.source, _art.date, _art.summary), 900);
-            if (_raw && _raw.trim().length > 150) _art.summary = _raw.trim();
-          }
-          for (var _si = 0; _si < toSummarizeStale.length; _si++) {
-            var _sa = toSummarizeStale[_si];
-            _done++;
-            setStatus('KI analysiert Quelle ' + _done + ' von ' + _total + '...');
-            var _sraw = await callAI(_aiSumPrompt(_sa.title, _sa.source, _sa.date, _sa.summary), 900);
-            if (_sraw && _sraw.trim().length > 150) {
-              var _ca = cachedArts.find(function(a) { return a.id === _sa.id; });
-              if (_ca) _ca.summary = _sraw.trim();
-            }
-          }
-        } catch(aiErr) { console.log('AI summary skipped:', aiErr.message); }
-        newArticles = mergeWithCluster(newArticles, cachedArts);
-      }
-
+      // Render immediately — articles appear without waiting for AI
+      newArticles = mergeWithCluster(newArticles, cachedArts);
       var merged = cachedArts.concat(newArticles).map(function(a) {
         return mentionMap[a.id] ? Object.assign({}, a, { _mentions: mentionMap[a.id] }) : a;
       });
       merged = pruneFeed(merged);
       finalizeAndRender(merged);
+
       var _newInFeed = currentArticles.filter(function(a){ return a.isNew; }).length;
       var _statusEl = document.getElementById('loading-status');
       if (_newInFeed > 0 && _statusEl) {
@@ -1340,6 +1305,45 @@
         setStatus('Keine neuen Artikel');
       }
       saveFeedCache();
+
+      // Background summarization — fire and forget, updates DOM as each completes
+      var _aiSumPrompt = function(title, source, date, desc) {
+        return 'Write a factual summary in English of exactly 3-4 sentences about this UAP/UFO news article. Cover: what happened, who is involved, and why it matters. Return ONLY the summary text — no title, no labels, no bullet points.\n\nTitle: ' + title + '\nSource: ' + (source || '') + '\nDate: ' + (date || '') + (desc ? '\nContext: ' + desc.substring(0, 400) : '');
+      };
+      function _badSummary(a) {
+        var s = (a.summary || '').trim();
+        return s.length < 200 || s === (a.title || '').trim();
+      }
+      (async function _bgSummarize() {
+        var _toSum = currentArticles.filter(_badSummary);
+        for (var _i = 0; _i < _toSum.length; _i++) {
+          var _a = _toSum[_i];
+          try {
+            var _raw = await callAI(_aiSumPrompt(_a.title, _a.source, _a.date, _a.summary), 900);
+            if (_raw && _raw.trim().length > 150) {
+              _a.summary = _raw.trim();
+              var _idx = currentArticles.indexOf(_a);
+              if (_idx >= 0) {
+                var _sumEl = document.getElementById('summary-text-' + _idx);
+                if (_sumEl) {
+                  _sumEl.textContent = _a.summary;
+                  _sumEl.removeAttribute('style');
+                  if (!document.getElementById('translate-sum-btn-' + _idx)) {
+                    var _btn2 = document.createElement('button');
+                    _btn2.className = 'btn-translate btn-translate-sm';
+                    _btn2.id = 'translate-sum-btn-' + _idx;
+                    _btn2.setAttribute('onclick', 'translateSummary(' + _idx + ')');
+                    _btn2.textContent = '🌐 Übersetzen';
+                    _sumEl.parentNode.insertBefore(_btn2, _sumEl.nextSibling);
+                  }
+                }
+              }
+            }
+          } catch(e) { console.log('bg summary failed:', e.message); }
+        }
+        saveFeedCache();
+      })();
+
       await new Promise(function(r) { setTimeout(r, 3000); });
 
     } catch(err) {
@@ -1502,7 +1506,7 @@
           <div class="details-content">
             <div class="summary-row">
               <div class="section-label">ZUSAMMENFASSUNG</div>
-              <div class="details-text summary-text" id="summary-text-${idx}">${(article.summary && article.summary.trim() !== (article.title || '').trim() && article.summary.trim().length > 80) ? escHtml(article.summary) : '<em style="opacity:0.5">Zusammenfassung wird beim nächsten Laden generiert...</em>'}</div>
+              <div class="details-text summary-text" id="summary-text-${idx}" ${(article.summary && article.summary.trim() !== (article.title || '').trim() && article.summary.trim().length > 80) ? '' : 'style="opacity:0.45;font-style:italic"'}>${(article.summary && article.summary.trim() !== (article.title || '').trim() && article.summary.trim().length > 80) ? escHtml(article.summary) : 'Zusammenfassung wird im Hintergrund erstellt…'}</div>
               ${(article.summary && article.summary.trim() !== (article.title || '').trim() && article.summary.trim().length > 80) ? `<button class="btn-translate btn-translate-sm" id="translate-sum-btn-${idx}" onclick="translateSummary(${idx})">🌐 Übersetzen</button>` : ''}
             </div>
           </div>
