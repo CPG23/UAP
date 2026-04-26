@@ -1552,14 +1552,24 @@
 
   async function translateText(text) {
     var prompt = 'Translate the following English text to German. Return ONLY the translated text, nothing else.\n\n' + text;
-    var lastErr = null;
-    for (var _try = 0; _try < 3; _try++) {
-      try {
-        var result = await callAI(prompt, 1200);
-        if (result && result.trim().length > 5) return result.trim();
-      } catch(e) { lastErr = e; }
+    var models = ['openai', 'openai-fast'];
+    for (var _m = 0; _m < models.length; _m++) {
+      for (var _try = 0; _try < 2; _try++) {
+        try {
+          var _r = await fetch('https://text.pollinations.ai/openai', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ model: models[_m], messages: [{ role: 'user', content: prompt }], max_tokens: 1200 })
+          });
+          if (_r.ok) {
+            var _d = await _r.json();
+            var _c = _d.choices && _d.choices[0] && _d.choices[0].message && _d.choices[0].message.content;
+            if (_c && _c.trim().length > 5) return _c.trim();
+          }
+        } catch(e) { /* retry */ }
+      }
     }
-    throw lastErr || new Error('Übersetzung fehlgeschlagen');
+    throw new Error('Übersetzung fehlgeschlagen');
   }
 
   async function translateSummary(idx) {
