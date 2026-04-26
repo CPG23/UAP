@@ -1305,14 +1305,14 @@
           for (var _ni = 0; _ni < toSummarizeNew.length; _ni++) {
             var _art = toSummarizeNew[_ni];
             _done++;
-            setStatus('KI: Zusammenfassung ' + _done + ' / ' + _total + '...');
+            setStatus('KI fasst Artikel ' + _done + ' von ' + _total + ' zusammen...');
             var _raw = await callAI(_aiSumPrompt(_art.title, _art.source, _art.date, _art.summary), 900);
             if (_raw && _raw.trim().length > 150) _art.summary = _raw.trim();
           }
           for (var _si = 0; _si < toSummarizeStale.length; _si++) {
             var _sa = toSummarizeStale[_si];
             _done++;
-            setStatus('KI: Zusammenfassung ' + _done + ' / ' + _total + '...');
+            setStatus('KI fasst Artikel ' + _done + ' von ' + _total + ' zusammen...');
             var _sraw = await callAI(_aiSumPrompt(_sa.title, _sa.source, _sa.date, _sa.summary), 900);
             if (_sraw && _sraw.trim().length > 150) {
               var _ca = cachedArts.find(function(a) { return a.id === _sa.id; });
