@@ -1029,6 +1029,8 @@
     document.getElementById('loading').style.display = 'flex';
   }
   function hideOverlay() {
+    var _st = document.getElementById('loading-status');
+    if (_st) { _st.style.fontSize = ''; _st.style.color = ''; _st.style.whiteSpace = ''; _st.style.lineHeight = ''; }
     document.getElementById('loading').style.display = 'none';
     document.body.classList.remove('no-scroll');
     window.scrollTo({ top: _overlayScroll, behavior: 'instant' });
@@ -1293,7 +1295,7 @@
       var toSummarizeStale = staleArts;
 
       var _aiSumPrompt = function(title, source, date, desc) {
-        return 'Write a factual summary in English of exactly 6-8 sentences about this UAP/UFO news article. Cover: what happened, who is involved and their credentials, any key quotes or claims, the broader context, official reactions if any, and why it matters for UAP disclosure. Return ONLY the summary text — no title, no labels, no bullet points.\n\nTitle: ' + title + '\nSource: ' + (source || '') + '\nDate: ' + (date || '') + (desc ? '\nContext: ' + desc.substring(0, 400) : '');
+        return 'Write a factual summary in English of exactly 3-4 sentences about this UAP/UFO news article. Cover: what happened, who is involved, and why it matters. Return ONLY the summary text — no title, no labels, no bullet points.\n\nTitle: ' + title + '\nSource: ' + (source || '') + '\nDate: ' + (date || '') + (desc ? '\nContext: ' + desc.substring(0, 400) : '');
       };
 
       if (toSummarizeNew.length > 0 || toSummarizeStale.length > 0) {
@@ -1327,9 +1329,16 @@
       merged = pruneFeed(merged);
       finalizeAndRender(merged);
       var _newInFeed = currentArticles.filter(function(a){ return a.isNew; }).length;
-      setStatus(_newInFeed > 0
-        ? _newInFeed + ' neue Artikel gefunden!'
-        : 'Keine neuen Artikel');
+      var _statusEl = document.getElementById('loading-status');
+      if (_newInFeed > 0 && _statusEl) {
+        _statusEl.textContent = _newInFeed + ' neue Artikel\ngefunden!';
+        _statusEl.style.fontSize = '22px';
+        _statusEl.style.color = '#4caf50';
+        _statusEl.style.whiteSpace = 'pre';
+        _statusEl.style.lineHeight = '1.5';
+      } else {
+        setStatus('Keine neuen Artikel');
+      }
       saveFeedCache();
       await new Promise(function(r) { setTimeout(r, 3000); });
 
