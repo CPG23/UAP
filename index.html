@@ -1552,11 +1552,14 @@
 
   async function translateText(text) {
     var prompt = 'Translate the following English text to German. Return ONLY the translated text, nothing else.\n\n' + text;
-    for (var _try = 0; _try < 2; _try++) {
-      var result = await callAI(prompt, 900);
-      if (result && result.trim().length > 5) return result.trim();
+    var lastErr = null;
+    for (var _try = 0; _try < 3; _try++) {
+      try {
+        var result = await callAI(prompt, 1200);
+        if (result && result.trim().length > 5) return result.trim();
+      } catch(e) { lastErr = e; }
     }
-    throw new Error('Übersetzung fehlgeschlagen');
+    throw lastErr || new Error('Übersetzung fehlgeschlagen');
   }
 
   async function translateSummary(idx) {
