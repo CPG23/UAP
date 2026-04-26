@@ -1550,6 +1550,15 @@
     document.getElementById('card-' + idx).classList.toggle('open');
   }
 
+  async function translateText(text) {
+    var prompt = 'Translate the following English text to German. Return ONLY the translated text, nothing else.\n\n' + text;
+    for (var _try = 0; _try < 2; _try++) {
+      var result = await callAI(prompt, 900);
+      if (result && result.trim().length > 5) return result.trim();
+    }
+    throw new Error('Übersetzung fehlgeschlagen');
+  }
+
   async function translateSummary(idx) {
     const btn   = document.getElementById('translate-sum-btn-' + idx);
     const sumEl = document.getElementById('summary-text-' + idx);
@@ -1578,11 +1587,10 @@
     btn.disabled = true;
     btn.innerHTML = '&#10227; ...';
     try {
-      const translated = await callAI('Translate the following English text to German. Return ONLY the translated text, nothing else.\n\n' + sourceText, 900);
-      if (!translated) throw new Error('Keine Übersetzung');
-      article._translatedSummary = translated.trim();
+      const translated = await translateText(sourceText);
+      article._translatedSummary = translated;
       article._isTranslated = true;
-      sumEl.textContent = article._translatedSummary;
+      sumEl.textContent = translated;
       sumEl.classList.add('translated-title');
       btn.innerHTML = '&#8617; Original';
     } catch (err) {
@@ -1631,11 +1639,10 @@
     }
     btn.disabled = true; btn.innerHTML = '&#10227; ...';
     try {
-      var t = await callAI('Translate the following English text to German. Return ONLY the translated text, nothing else.\n\n' + sourceText, 900);
-      if (!t) throw new Error('no result');
-      article._translatedSummary = t.trim();
+      var t = await translateText(sourceText);
+      article._translatedSummary = t;
       article._isTranslated = true;
-      sumEl.textContent = article._translatedSummary;
+      sumEl.textContent = t;
       sumEl.classList.add('translated-title');
       btn.innerHTML = '&#8617; Original';
     } catch(e) {
