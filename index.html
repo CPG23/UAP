@@ -1108,7 +1108,11 @@
     showOverlay();
     loadNews()
       .catch(function() {})
-      .finally(function() { hideOverlay(); });
+      .finally(function() {
+        hideOverlay();
+        var firstNew = document.querySelector('.article-card.is-new');
+        if (firstNew) setTimeout(function() { firstNew.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 150);
+      });
   }
 
   // ── STATE ────────────────────────────────────────────────────────────────
