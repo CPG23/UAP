@@ -235,6 +235,23 @@
     transform: none;
   }
 
+  .btn-notif {
+    background: none;
+    border: 1px solid rgba(0,212,255,0.3);
+    color: var(--accent);
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.2s, color 0.2s;
+    flex-shrink: 0;
+  }
+  .btn-notif:hover { border-color: var(--accent); }
+  .btn-notif.active { color: #4caf50; border-color: #4caf50; }
+
   .filter-info {
     font-family: 'Share Tech Mono', monospace;
     font-size: 11px;
@@ -960,10 +977,10 @@
     <button class="btn-scan" id="scan-btn" onclick="startScan()">
       ▶ SCAN STARTEN
     </button>
+    <button class="btn-notif" id="notif-btn" onclick="toggleNotifications()" title="Tägliche Benachrichtigungen">🔕</button>
     <div class="filter-info">
       <span style="opacity:0.6;font-size:10px">&#128197; Letzte 7 Tage</span>
     </div>
-    
   </div>
 
   <div id="error-msg"></div>
@@ -1038,6 +1055,55 @@
     var loadAlien = document.querySelector('.alien-head');
     if (heroAlien && loadAlien && !heroAlien.src) heroAlien.src = loadAlien.src;
   }
+  async function _updateNotifBtn(reg) {
+    var btn = document.getElementById('notif-btn');
+    if (!btn) return;
+    var granted = Notification.permission === 'granted';
+    var synced = false;
+    if (granted && reg && 'periodicSync' in reg) {
+      try { synced = (await reg.periodicSync.getTags()).includes('daily-news'); } catch(e) {}
+    }
+    btn.textContent = (granted && synced) ? '🔔' : '🔕';
+    btn.classList.toggle('active', granted && synced);
+  }
+
+  async function toggleNotifications() {
+    if (!('serviceWorker' in navigator)) return alert('Service Worker wird nicht unterstützt.');
+    var reg = await navigator.serviceWorker.ready;
+    var btn = document.getElementById('notif-btn');
+
+    // If already active → disable
+    if (Notification.permission === 'granted' && 'periodicSync' in reg) {
+      try {
+        var tags = await reg.periodicSync.getTags();
+        if (tags.includes('daily-news')) {
+          await reg.periodicSync.unregister('daily-news');
+          btn.textContent = '🔕'; btn.classList.remove('active');
+          return;
+        }
+      } catch(e) {}
+    }
+
+    // Request permission
+    var perm = Notification.permission === 'granted' ? 'granted' : await Notification.requestPermission();
+    if (perm !== 'granted') { btn.textContent = '🔕'; return; }
+
+    // Register periodic sync (requires installed PWA on Android/Chrome)
+    if ('periodicSync' in reg) {
+      try {
+        await reg.periodicSync.register('daily-news', { minInterval: 24 * 60 * 60 * 1000 });
+      } catch(e) { console.log('periodicSync:', e.message); }
+    }
+    btn.textContent = '🔔'; btn.classList.add('active');
+    _syncSeenIds();
+  }
+
+  function _syncSeenIds() {
+    if (navigator.serviceWorker && navigator.serviceWorker.controller) {
+      navigator.serviceWorker.controller.postMessage({ type: 'SYNC_SEEN_IDS', ids: seenArticleIds });
+    }
+  }
+
   function startScan() {
     showOverlay();
     loadNews()
@@ -1305,6 +1371,7 @@
         setStatus('Keine neuen Artikel');
       }
       saveFeedCache();
+      _syncSeenIds();
 
       // Background summarization — fire and forget, updates DOM as each completes
       var _aiSumPrompt = function(title, source, date, desc) {
@@ -1705,7 +1772,12 @@
 
     // Register service worker
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./sw.js').catch(function(e){ console.log('SW:', e); });
+      navigator.serviceWorker.register('./sw.js').then(function(reg) {
+        _updateNotifBtn(reg);
+        navigator.serviceWorker.addEventListener('message', function(e) {
+          if (e.data && e.data.type === 'NOTIFICATION_ARTICLE') startScan();
+        });
+      }).catch(function(e){ console.log('SW:', e); });
     }
   })();
 
