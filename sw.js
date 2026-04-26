@@ -95,11 +95,15 @@ async function fetchAndNotify() {
       newArts.push({ id: id, title: title, source: src || 'UAP News', url: link });
     }
 
-    if (newArts.length === 0) return;
-
     var count = newArts.length;
-    var body  = newArts[0].title + (count > 1 ? '\n+ ' + (count - 1) + ' weitere Meldung' + (count > 2 ? 'en' : '') : '');
-    var notifTitle = 'UAP NEWS — ' + count + ' neue Meldung' + (count > 1 ? 'en' : '');
+    var notifTitle, body;
+    if (count === 0) {
+      notifTitle = 'UAP NEWS — Keine neuen Meldungen';
+      body = 'Seit dem letzten Check gibt es keine neuen UAP-Artikel.';
+    } else {
+      notifTitle = 'UAP NEWS — ' + count + ' neue Meldung' + (count > 1 ? 'en' : '');
+      body = newArts[0].title + (count > 1 ? '\n+ ' + (count - 1) + ' weitere Meldung' + (count > 2 ? 'en' : '') : '');
+    }
 
     await self.registration.showNotification(notifTitle, {
       body: body, tag: 'uap-daily', renotify: true,
