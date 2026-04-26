@@ -1290,7 +1290,7 @@
         var s = (a.summary || '').trim();
         return s.length < 200 || s === (a.title || '').trim();
       }
-      var staleArts = cachedArts.filter(_badSummary).slice(0, 5);
+      var staleArts = cachedArts.filter(_badSummary).slice(0, 15);
       var toSummarizeNew = newArticles.slice(0, 10);
       var toSummarizeStale = staleArts;
 
@@ -1502,10 +1502,8 @@
           <div class="details-content">
             <div class="summary-row">
               <div class="section-label">ZUSAMMENFASSUNG</div>
-              <div class="details-text summary-text" id="summary-text-${idx}">${escHtml(article.summary)}</div>
-              <button class="btn-translate btn-translate-sm" id="translate-sum-btn-${idx}" onclick="translateSummary(${idx})">
-                🌐 Übersetzen
-              </button>
+              <div class="details-text summary-text" id="summary-text-${idx}">${(article.summary && article.summary.trim() !== (article.title || '').trim() && article.summary.trim().length > 80) ? escHtml(article.summary) : '<em style="opacity:0.5">Zusammenfassung wird beim nächsten Laden generiert...</em>'}</div>
+              ${(article.summary && article.summary.trim() !== (article.title || '').trim() && article.summary.trim().length > 80) ? `<button class="btn-translate btn-translate-sm" id="translate-sum-btn-${idx}" onclick="translateSummary(${idx})">🌐 Übersetzen</button>` : ''}
             </div>
           </div>
           <div class="details-footer">
@@ -1576,7 +1574,7 @@
     btn.disabled = true;
     btn.innerHTML = '&#10227; ...';
     try {
-      const translated = await callAI('Translate the following English text to German. Return ONLY the translated text, nothing else.\n\n' + sourceText, 500);
+      const translated = await callAI('Translate the following English text to German. Return ONLY the translated text, nothing else.\n\n' + sourceText, 900);
       if (!translated) throw new Error('Keine Übersetzung');
       article._translatedSummary = translated.trim();
       article._isTranslated = true;
@@ -1584,9 +1582,11 @@
       sumEl.classList.add('translated-title');
       btn.innerHTML = '&#8617; Original';
     } catch (err) {
-      btn.innerHTML = '&#9888; Fehler';
-      setTimeout(() => { btn.innerHTML = '&#127760; Übersetzen'; }, 2000);
-    } finally { btn.disabled = false; }
+      btn.innerHTML = '&#9888; ' + (err.message || 'Fehler');
+      setTimeout(() => { btn.innerHTML = '&#127760; Übersetzen'; btn.disabled = false; }, 4000);
+      return;
+    }
+    btn.disabled = false;
   }
 
   function escHtml(str) {
@@ -1627,7 +1627,7 @@
     }
     btn.disabled = true; btn.innerHTML = '&#10227; ...';
     try {
-      var t = await callAI('Translate the following English text to German. Return ONLY the translated text, nothing else.\n\n' + sourceText, 500);
+      var t = await callAI('Translate the following English text to German. Return ONLY the translated text, nothing else.\n\n' + sourceText, 900);
       if (!t) throw new Error('no result');
       article._translatedSummary = t.trim();
       article._isTranslated = true;
@@ -1635,9 +1635,11 @@
       sumEl.classList.add('translated-title');
       btn.innerHTML = '&#8617; Original';
     } catch(e) {
-      btn.innerHTML = '&#9888; Fehler';
-      setTimeout(function(){ btn.innerHTML = '&#127760; &#220;bersetzen'; }, 2000);
-    } finally { btn.disabled = false; }
+      btn.innerHTML = '&#9888; ' + (e.message || 'Fehler');
+      setTimeout(function(){ btn.innerHTML = '&#127760; &#220;bersetzen'; btn.disabled = false; }, 4000);
+      return;
+    }
+    btn.disabled = false;
   }
 
 
