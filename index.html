@@ -252,26 +252,6 @@
   .btn-notif:hover { border-color: var(--accent); }
   .btn-notif.active { color: #4caf50; border-color: #4caf50; }
 
-  .btn-gmail {
-    background: none;
-    border: 1px solid rgba(66,133,244,0.45);
-    color: #4285f4;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 700;
-    font-size: 12px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 8px 16px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    transition: all 0.2s;
-    flex-shrink: 0;
-  }
-  .btn-gmail:hover { background: rgba(66,133,244,0.1); border-color: #4285f4; box-shadow: 0 0 12px rgba(66,133,244,0.2); }
-  .btn-gmail.connected { border-color: rgba(66,133,244,0.7); color: #5a95f5; }
-
   .filter-info {
     font-family: 'Share Tech Mono', monospace;
     font-size: 11px;
@@ -949,44 +929,6 @@
   .apikey-save:hover { background:#00ff9d; }
   .apikey-err { font-family:'Share Tech Mono',monospace;font-size:10px;color:#ff6b35;margin-top:6px;display:none; }
   .apikey-clear { font-family:'Share Tech Mono',monospace;font-size:10px;color:#5a7a8a;background:none;border:none;cursor:pointer;margin-top:10px; }
-  /* Gmail client-id overlay */
-  #gmail-overlay { position:fixed;inset:0;z-index:10000;background:rgba(3,10,15,0.97);display:none;align-items:center;justify-content:center;backdrop-filter:blur(6px); }
-  .gmail-box { background:#081420;border:1px solid #4285f4;padding:36px 32px;max-width:460px;width:92%;text-align:center;box-shadow:0 0 40px rgba(66,133,244,0.15);position:relative; }
-  .gmail-box h2 { font-family:'Rajdhani',sans-serif;font-weight:700;font-size:19px;letter-spacing:4px;color:#4285f4;margin-bottom:8px; }
-  .gmail-box p { font-family:'Share Tech Mono',monospace;font-size:11px;color:#5a7a8a;line-height:1.8;margin-bottom:16px; }
-  .gmail-box a { color:#4285f4; }
-  .gmail-steps { font-family:'Share Tech Mono',monospace;font-size:10px;color:#8aa8b8;text-align:left;margin-bottom:16px;line-height:2.2; }
-  .gmail-input { width:100%;padding:10px 14px;margin-bottom:12px;background:#030a0f;border:1px solid #0d3a5c;color:#c8dde8;font-family:'Share Tech Mono',monospace;font-size:12px;letter-spacing:1px;outline:none; }
-  .gmail-input:focus { border-color:#4285f4; }
-  .gmail-save { font-family:'Rajdhani',sans-serif;font-weight:700;font-size:13px;letter-spacing:3px;text-transform:uppercase;color:#030a0f;background:#4285f4;border:none;padding:11px 28px;cursor:pointer;width:100%;clip-path:polygon(8px 0%,100% 0%,calc(100% - 8px) 100%,0% 100%);margin-bottom:6px; }
-  .gmail-save:hover { background:#5a95f5; }
-  .gmail-err { font-family:'Share Tech Mono',monospace;font-size:10px;color:#ff6b35;margin-top:6px;display:none; }
-  .gmail-clear { font-family:'Share Tech Mono',monospace;font-size:10px;color:#5a7a8a;background:none;border:none;cursor:pointer;margin-top:10px; }
-  .gmail-close { position:absolute;top:14px;right:16px;font-family:'Share Tech Mono',monospace;font-size:10px;color:#5a7a8a;background:none;border:none;cursor:pointer; }
-
-  /* Gmail section */
-  #gmail-section { display:none;margin-top:24px; }
-  .gmail-section-header { display:flex;align-items:center;justify-content:space-between;padding:12px 0 14px;border-bottom:1px solid rgba(66,133,244,0.4);margin-bottom:12px; }
-  .gmail-section-title { font-family:'Rajdhani',sans-serif;font-weight:700;font-size:12px;letter-spacing:4px;color:#4285f4;text-transform:uppercase; }
-  .gmail-count { font-family:'Share Tech Mono',monospace;font-size:11px;color:var(--accent); }
-  #gmail-loading { display:none;padding:30px 0;text-align:center;flex-direction:column;align-items:center;gap:14px; }
-  #gmail-loading.active { display:flex; }
-  #gmail-feed { display:flex;flex-direction:column;gap:12px; }
-  .gmail-card { background:var(--panel);border:1px solid rgba(66,133,244,0.25);position:relative;overflow:hidden;transition:border-color 0.2s,transform 0.2s; }
-  .gmail-card::before { content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:#4285f4;opacity:0;transition:opacity 0.2s; }
-  .gmail-card:hover { border-color:rgba(66,133,244,0.55);transform:translateX(2px); }
-  .gmail-card:hover::before { opacity:1; }
-  .gmail-card-header { padding:14px 18px 12px;cursor:pointer;user-select:none;display:grid;grid-template-areas:"badge badge badge" "subject subject arrow" "meta meta meta";gap:6px 10px;grid-template-columns:1fr 1fr auto; }
-  .gmail-badges { grid-area:badge;display:flex;align-items:center;gap:8px; }
-  .gmail-subject { grid-area:subject;font-family:'Rajdhani',sans-serif;font-size:16px;font-weight:700;line-height:1.3;color:#e8f4f8; }
-  .gmail-arrow { grid-area:arrow;font-size:16px;color:var(--text-dim);transition:transform 0.3s,color 0.2s;align-self:center; }
-  .gmail-card.open .gmail-arrow { transform:rotate(90deg);color:#4285f4; }
-  .gmail-meta { grid-area:meta;display:flex;align-items:center;gap:14px;flex-wrap:wrap; }
-  .gmail-details { display:none;border-top:1px solid rgba(66,133,244,0.2);background:var(--bg2);padding:14px 18px; }
-  .gmail-card.open .gmail-details { display:block;animation:slideDown 0.3s ease; }
-  .gmail-snippet { font-size:13px;line-height:1.6;color:#8aa8b8;font-style:italic;margin-bottom:10px; }
-  .gmail-open-link { font-family:'Share Tech Mono',monospace;font-size:10px;color:#4285f4;text-decoration:none;letter-spacing:1px;display:inline-flex;align-items:center;gap:6px; }
-  .gmail-open-link:hover { color:#5a95f5; }
 </style>
 </head>
 <body>
@@ -1008,24 +950,6 @@
   </div>
 </div>
 
-<div id="gmail-overlay">
-  <div class="gmail-box">
-    <button class="gmail-close" onclick="document.getElementById('gmail-overlay').style.display='none'">✕ SCHLIESSEN</button>
-    <h2>📧 GMAIL-ZUGRIFF</h2>
-    <p>Um Gmail nach UAP-Emails zu durchsuchen, wird eine Google OAuth Client-ID benötigt.</p>
-    <div class="gmail-steps">
-      1 · <a href="https://console.cloud.google.com/" target="_blank" rel="noopener">console.cloud.google.com</a> → Projekt erstellen<br>
-      2 · Gmail API aktivieren<br>
-      3 · OAuth 2.0-Client-ID erstellen (Web-Anwendung)<br>
-      4 · Diese Seiten-URL als autorisierte Herkunft eintragen<br>
-      5 · Client-ID hier einfügen und verbinden
-    </div>
-    <input class="gmail-input" id="gmail-clientid-input" type="text" placeholder="xxxxxx.apps.googleusercontent.com" autocomplete="off">
-    <div class="gmail-err" id="gmail-err">⚠ Ungültige Client-ID. Format: xxxxx.apps.googleusercontent.com</div>
-    <button class="gmail-save" onclick="saveGmailClientId()">▶ VERBINDEN</button>
-    <button class="gmail-clear" onclick="clearGmailAuth()">✕ Gespeicherte Daten löschen</button>
-  </div>
-</div>
 
 <header class="uap-hero">
   <img id="hero-alien" class="hero-alien-bg" src="" alt="">
@@ -1054,7 +978,6 @@
       ▶ SCAN STARTEN
     </button>
     <button class="btn-notif" id="notif-btn" onclick="toggleNotifications()" title="Tägliche Benachrichtigungen">🔕</button>
-    <button class="btn-gmail" id="gmail-btn" onclick="loadGmail()" title="Gmail nach UAP-Emails durchsuchen">📧 GMAIL</button>
     <div class="filter-info">
       <span style="opacity:0.6;font-size:10px">&#128197; Letzte 7 Tage</span>
     </div>
@@ -1088,14 +1011,6 @@
   </div>
 
   <div id="feed"></div>
-
-  <div id="gmail-section">
-    <div id="gmail-loading">
-      <div class="loading-text">GMAIL WIRD DURCHSUCHT...</div>
-      <div class="loading-bar"></div>
-    </div>
-    <div id="gmail-feed"></div>
-  </div>
 
 </main>
 
@@ -1191,180 +1106,6 @@
     if (navigator.serviceWorker && navigator.serviceWorker.controller) {
       navigator.serviceWorker.controller.postMessage({ type: 'SYNC_SEEN_IDS', ids: seenArticleIds });
     }
-  }
-
-  // ── GMAIL INTEGRATION ────────────────────────────────────────────────────
-  let gmailClientId = localStorage.getItem('uap_gmail_client_id') || '';
-  let gmailTokenClient = null;
-
-  function saveGmailClientId() {
-    var val = (document.getElementById('gmail-clientid-input').value || '').trim();
-    var errEl = document.getElementById('gmail-err');
-    if (!val || !val.includes('.apps.googleusercontent.com')) {
-      errEl.style.display = 'block'; return;
-    }
-    errEl.style.display = 'none';
-    gmailClientId = val;
-    localStorage.setItem('uap_gmail_client_id', val);
-    document.getElementById('gmail-overlay').style.display = 'none';
-    gmailTokenClient = null;
-    _startGmailAuth();
-  }
-
-  function clearGmailAuth() {
-    localStorage.removeItem('uap_gmail_client_id');
-    gmailClientId = '';
-    gmailTokenClient = null;
-    document.getElementById('gmail-section').style.display = 'none';
-    document.getElementById('gmail-btn').classList.remove('connected');
-    document.getElementById('gmail-overlay').style.display = 'none';
-  }
-
-  function _loadGISScript() {
-    return new Promise(function(resolve) {
-      if (window.google && window.google.accounts) { resolve(); return; }
-      var s = document.createElement('script');
-      s.src = 'https://accounts.google.com/gsi/client';
-      s.onload = resolve;
-      s.onerror = function() { resolve(); };
-      document.head.appendChild(s);
-    });
-  }
-
-  async function loadGmail() {
-    if (!gmailClientId) {
-      document.getElementById('gmail-clientid-input').value = '';
-      document.getElementById('gmail-err').style.display = 'none';
-      document.getElementById('gmail-overlay').style.display = 'flex';
-      return;
-    }
-    _startGmailAuth();
-  }
-
-  async function _startGmailAuth() {
-    await _loadGISScript();
-    if (!window.google || !window.google.accounts) {
-      alert('Google Identity Services konnte nicht geladen werden. Bitte prüfe deine Internetverbindung.');
-      return;
-    }
-    gmailTokenClient = google.accounts.oauth2.initTokenClient({
-      client_id: gmailClientId,
-      scope: 'https://www.googleapis.com/auth/gmail.readonly',
-      callback: function(resp) {
-        if (resp.error) {
-          alert('Gmail-Anmeldung fehlgeschlagen: ' + resp.error);
-          return;
-        }
-        document.getElementById('gmail-btn').classList.add('connected');
-        _fetchGmailEmails(resp.access_token);
-      }
-    });
-    gmailTokenClient.requestAccessToken();
-  }
-
-  async function _fetchGmailEmails(token) {
-    var section = document.getElementById('gmail-section');
-    var loadEl  = document.getElementById('gmail-loading');
-    var feedEl  = document.getElementById('gmail-feed');
-    section.style.display = 'block';
-    loadEl.classList.add('active');
-    feedEl.innerHTML = '';
-
-    try {
-      var queries = ['UAP', 'UFO', 'unidentified aerial phenomena', 'Außerirdisch UAP'];
-      var seenIds = new Set();
-      var allIds = [];
-      for (var q of queries) {
-        var r = await fetch(
-          'https://gmail.googleapis.com/gmail/v1/users/me/messages?q=' + encodeURIComponent(q) + '&maxResults=8',
-          { headers: { 'Authorization': 'Bearer ' + token } }
-        );
-        if (!r.ok) {
-          if (r.status === 401) throw new Error('Zugangsberechtigung abgelaufen. Bitte erneut verbinden.');
-          throw new Error('Gmail API Fehler (' + r.status + ')');
-        }
-        var data = await r.json();
-        (data.messages || []).forEach(function(m) {
-          if (!seenIds.has(m.id)) { seenIds.add(m.id); allIds.push(m.id); }
-        });
-      }
-
-      if (!allIds.length) {
-        loadEl.classList.remove('active');
-        feedEl.innerHTML = '<div style="padding:20px;text-align:center;font-family:\'Share Tech Mono\',monospace;font-size:11px;color:var(--text-dim)">📭 KEINE UAP-EMAILS GEFUNDEN</div>';
-        return;
-      }
-
-      var emails = await Promise.all(allIds.slice(0, 20).map(async function(id) {
-        try {
-          var r = await fetch(
-            'https://gmail.googleapis.com/gmail/v1/users/me/messages/' + id +
-            '?format=metadata&metadataHeaders=Subject&metadataHeaders=From&metadataHeaders=Date',
-            { headers: { 'Authorization': 'Bearer ' + token } }
-          );
-          if (!r.ok) return null;
-          return r.json();
-        } catch(e) { return null; }
-      }));
-
-      loadEl.classList.remove('active');
-      _renderGmailEmails(emails.filter(Boolean));
-    } catch(e) {
-      loadEl.classList.remove('active');
-      feedEl.innerHTML = '<div style="padding:16px;font-family:\'Share Tech Mono\',monospace;font-size:11px;color:var(--accent3)">⚠ ' + escHtml(e.message) + '</div>';
-    }
-  }
-
-  function _gmailHeader(email, name) {
-    var headers = (email.payload && email.payload.headers) || [];
-    var h = headers.find(function(h) { return h.name.toLowerCase() === name.toLowerCase(); });
-    return h ? h.value : '';
-  }
-
-  function _renderGmailEmails(emails) {
-    var feedEl = document.getElementById('gmail-feed');
-    feedEl.innerHTML = '';
-
-    var hdr = document.createElement('div');
-    hdr.className = 'gmail-section-header';
-    hdr.innerHTML = '<span class="gmail-section-title">📧 GMAIL — UAP EMAILS</span>' +
-      '<span class="gmail-count">' + emails.length + ' EMAILS</span>';
-    feedEl.appendChild(hdr);
-
-    emails.forEach(function(email, idx) {
-      var subject  = _gmailHeader(email, 'Subject') || '(Kein Betreff)';
-      var from     = _gmailHeader(email, 'From') || '';
-      var date     = _gmailHeader(email, 'Date') || '';
-      var snippet  = email.snippet || '';
-      var fromName = from.replace(/<[^>]+>/, '').replace(/"/g, '').trim() || from;
-      var dateStr  = date ? new Date(date).toLocaleDateString('de-AT', { day:'2-digit', month:'2-digit', year:'numeric' }) : '';
-      var msgUrl   = 'https://mail.google.com/mail/u/0/#inbox/' + email.id;
-
-      var card = document.createElement('div');
-      card.className = 'gmail-card';
-      card.id = 'gmail-card-' + idx;
-      card.innerHTML =
-        '<div class="gmail-card-header" onclick="toggleGmailCard(' + idx + ')">' +
-          '<div class="gmail-badges"><span class="badge badge-source">EMAIL</span></div>' +
-          '<div class="gmail-subject">' + escHtml(subject) + '</div>' +
-          '<span class="gmail-arrow">›</span>' +
-          '<div class="gmail-meta">' +
-            '<span class="meta-item"><span class="meta-icon">✉</span>' + escHtml(fromName) + '</span>' +
-            (dateStr ? '<span class="meta-item"><span class="meta-icon">📅</span>' + escHtml(dateStr) + '</span>' : '') +
-          '</div>' +
-        '</div>' +
-        (snippet || msgUrl ?
-          '<div class="gmail-details">' +
-            (snippet ? '<div class="gmail-snippet">' + escHtml(snippet) + '</div>' : '') +
-            '<a class="gmail-open-link" href="' + escHtml(msgUrl) + '" target="_blank" rel="noopener">↗ IN GMAIL ÖFFNEN</a>' +
-          '</div>' : '');
-      feedEl.appendChild(card);
-    });
-  }
-
-  function toggleGmailCard(idx) {
-    var card = document.getElementById('gmail-card-' + idx);
-    if (card) card.classList.toggle('open');
   }
 
   function startScan() {
