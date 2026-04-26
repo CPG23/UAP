@@ -1496,7 +1496,7 @@
             <span class="badge badge-source">${escHtml(article.source)}</span>
             ${article._otherSources && article._otherSources.length ? `<span class="badge multi-src-badge" style="border-color:var(--accent2);color:var(--accent2);background:rgba(0,255,157,0.06)">+Quellen</span>` : ''}
           </div>
-          <div class="article-title">${escHtml(article.title)}</div>
+          <div class="article-title" id="article-title-${idx}">${escHtml(article.title)}</div>
           <div class="article-arrow">▶</div>
           <div class="article-meta">
             <span class="meta-item"><span class="meta-icon">📅</span>${dateFormatted}</span>
@@ -1550,8 +1550,10 @@
     document.getElementById('card-' + idx).classList.toggle('open');
   }
 
-  async function translateText(text) {
-    var prompt = 'Translate the following English text to German. Return ONLY the translated text, nothing else.\n\n' + text;
+  async function translateText(text, combined) {
+    var prompt = combined
+      ? 'Translate the following two English texts to German. Keep the ||| separator between them. Return ONLY the translations, nothing else.\n\n' + text
+      : 'Translate the following English text to German. Return ONLY the translated text, nothing else.\n\n' + text;
     var models = ['openai', 'openai-fast'];
     for (var _m = 0; _m < models.length; _m++) {
       for (var _try = 0; _try < 2; _try++) {
@@ -1573,25 +1575,29 @@
   }
 
   async function translateSummary(idx) {
-    const btn   = document.getElementById('translate-sum-btn-' + idx);
-    const sumEl = document.getElementById('summary-text-' + idx);
+    const btn    = document.getElementById('translate-sum-btn-' + idx);
+    const sumEl  = document.getElementById('summary-text-' + idx);
+    const titEl  = document.getElementById('article-title-' + idx);
     const article = currentArticles[idx];
     if (!btn || !sumEl || !article) return;
-    const sourceText = article.summary || article.description || article.title || '';
-    if (!sourceText.trim()) return;
+    const sourceSum = article.summary || article.description || article.title || '';
+    const sourceTit = article.title || '';
+    if (!sourceSum.trim()) return;
 
     // Toggle back to original
     if (article._isTranslated) {
-      sumEl.textContent = sourceText;
+      sumEl.textContent = sourceSum;
       sumEl.classList.remove('translated-title');
+      if (titEl) { titEl.textContent = sourceTit; titEl.classList.remove('translated-title'); }
       btn.innerHTML = '&#127760; Übersetzen';
       article._isTranslated = false;
       return;
     }
-    // Already translated — just show cached
+    // Already translated — show cached
     if (article._translatedSummary) {
       sumEl.textContent = article._translatedSummary;
       sumEl.classList.add('translated-title');
+      if (titEl && article._translatedTitle) { titEl.textContent = article._translatedTitle; titEl.classList.add('translated-title'); }
       btn.innerHTML = '&#8617; Original';
       article._isTranslated = true;
       return;
@@ -1600,11 +1606,14 @@
     btn.disabled = true;
     btn.innerHTML = '&#10227; ...';
     try {
-      const translated = await translateText(sourceText);
-      article._translatedSummary = translated;
+      const combined = await translateText(sourceTit + '\n|||\n' + sourceSum, true);
+      const parts = combined.split('|||');
+      article._translatedTitle   = (parts[0] || '').trim();
+      article._translatedSummary = (parts[1] || parts[0] || '').trim();
       article._isTranslated = true;
-      sumEl.textContent = translated;
+      sumEl.textContent = article._translatedSummary;
       sumEl.classList.add('translated-title');
+      if (titEl && article._translatedTitle) { titEl.textContent = article._translatedTitle; titEl.classList.add('translated-title'); }
       btn.innerHTML = '&#8617; Original';
     } catch (err) {
       btn.innerHTML = '&#9888; ' + (err.message || 'Fehler');
