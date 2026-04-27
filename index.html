@@ -1636,7 +1636,6 @@
     const newArts   = articles.filter(a => a.isNew);
     const savedArts = articles.filter(a => !a.isNew);
     const hasNew    = newArts.length > 0;
-    const mainArts  = hasNew ? newArts : savedArts;
 
     // Header
     const header = document.createElement('div');
@@ -1649,11 +1648,19 @@
     feed.appendChild(header);
     document.getElementById('article-counter').textContent = articles.length + ' MELDUNGEN';
 
-    // Main articles (new, or all saved when no new)
-    mainArts.forEach((article, i) => feed.appendChild(_makeArticleCard(article, i)));
+    if (hasNew) {
+      // Render new articles
+      newArts.forEach((article, i) => feed.appendChild(_makeArticleCard(article, i)));
+    } else {
+      // No new articles — show notice
+      const notice = document.createElement('div');
+      notice.style.cssText = 'padding:18px 0 8px;font-family:\'Share Tech Mono\',monospace;font-size:11px;color:var(--text-dim);letter-spacing:1px';
+      notice.textContent = '— Keine neuen Nachrichten gefunden —';
+      feed.appendChild(notice);
+    }
 
-    // Saved section — only shown when new articles exist
-    if (hasNew && savedArts.length > 0) {
+    // Saved section — always shown when saved articles exist
+    if (savedArts.length > 0) {
       const savedSection = document.createElement('div');
       savedSection.id = 'saved-section';
       savedSection.style.marginTop = '16px';
