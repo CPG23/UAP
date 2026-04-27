@@ -252,6 +252,21 @@
   .btn-notif:hover { border-color: var(--accent); }
   .btn-notif.active { color: #4caf50; border-color: #4caf50; }
 
+  /* ntfy overlay */
+  #ntfy-overlay { position:fixed;inset:0;z-index:10000;background:rgba(3,10,15,0.97);display:none;align-items:center;justify-content:center;backdrop-filter:blur(6px); }
+  .ntfy-box { background:#081420;border:1px solid var(--accent);padding:36px 32px;max-width:440px;width:92%;text-align:center;box-shadow:0 0 40px rgba(0,212,255,0.15);position:relative; }
+  .ntfy-box h2 { font-family:'Rajdhani',sans-serif;font-weight:700;font-size:19px;letter-spacing:4px;color:var(--accent);margin-bottom:8px; }
+  .ntfy-box p { font-family:'Share Tech Mono',monospace;font-size:11px;color:#5a7a8a;line-height:1.8;margin-bottom:14px; }
+  .ntfy-box a { color:var(--accent); }
+  .ntfy-steps { font-family:'Share Tech Mono',monospace;font-size:10px;color:#8aa8b8;text-align:left;margin-bottom:16px;line-height:2.2; }
+  .ntfy-input { width:100%;padding:10px 14px;margin-bottom:12px;background:#030a0f;border:1px solid #0d3a5c;color:#c8dde8;font-family:'Share Tech Mono',monospace;font-size:13px;letter-spacing:1px;outline:none; }
+  .ntfy-input:focus { border-color:var(--accent); }
+  .ntfy-save { font-family:'Rajdhani',sans-serif;font-weight:700;font-size:13px;letter-spacing:3px;text-transform:uppercase;color:#030a0f;background:var(--accent);border:none;padding:11px 28px;cursor:pointer;width:100%;clip-path:polygon(8px 0%,100% 0%,calc(100% - 8px) 100%,0% 100%);margin-bottom:6px; }
+  .ntfy-save:hover { background:var(--accent2); }
+  .ntfy-err { font-family:'Share Tech Mono',monospace;font-size:10px;color:#ff6b35;margin-top:4px;display:none; }
+  .ntfy-clear { font-family:'Share Tech Mono',monospace;font-size:10px;color:#5a7a8a;background:none;border:none;cursor:pointer;margin-top:10px; }
+  .ntfy-close { position:absolute;top:14px;right:16px;font-family:'Share Tech Mono',monospace;font-size:10px;color:#5a7a8a;background:none;border:none;cursor:pointer; }
+
   .filter-info {
     font-family: 'Share Tech Mono', monospace;
     font-size: 11px;
@@ -987,6 +1002,23 @@
   </div>
 </div>
 
+<div id="ntfy-overlay">
+  <div class="ntfy-box">
+    <button class="ntfy-close" onclick="document.getElementById('ntfy-overlay').style.display='none'">✕ SCHLIESSEN</button>
+    <h2>🔔 PUSH-BENACHRICHTIGUNGEN</h2>
+    <p>Wähle einen eigenen Kanal-Namen (z.B. <em>uap-chris-2026</em>).<br>Je zufälliger, desto privater.</p>
+    <div class="ntfy-steps">
+      1 · <a href="https://ntfy.sh" target="_blank" rel="noopener">ntfy.sh</a> aufrufen oder die ntfy-App installieren<br>
+      2 · Kanal-Namen hier eingeben &amp; speichern<br>
+      3 · In der ntfy-App denselben Kanal abonnieren<br>
+      4 · GitHub Secret <code style="color:var(--accent)">NTFY_TOPIC</code> auf denselben Wert setzen
+    </div>
+    <input class="ntfy-input" id="ntfy-topic-input" type="text" placeholder="mein-uap-kanal-2026" autocomplete="off" spellcheck="false">
+    <div class="ntfy-err" id="ntfy-err">⚠ Bitte einen Kanal-Namen eingeben.</div>
+    <button class="ntfy-save" onclick="saveNtfyTopic()">▶ SPEICHERN</button>
+    <button class="ntfy-clear" onclick="clearNtfyTopic()">✕ Benachrichtigungen deaktivieren</button>
+  </div>
+</div>
 
 <header class="uap-hero">
   <img id="hero-alien" class="hero-alien-bg" src="" alt="">
@@ -1092,51 +1124,57 @@
     var loadAlien = document.querySelector('.alien-head');
     if (heroAlien && loadAlien && !heroAlien.src) heroAlien.src = loadAlien.src;
   }
-  async function _updateNotifBtn(reg) {
+  // ── NTFY PUSH-BENACHRICHTIGUNGEN ─────────────────────────────────────────
+  var ntfyTopic = localStorage.getItem('uap_ntfy_topic') || '';
+
+  function _updateNotifBtn() {
     var btn = document.getElementById('notif-btn');
     if (!btn) return;
-    var granted = Notification.permission === 'granted';
-    var synced = false;
-    if (granted && reg && 'periodicSync' in reg) {
-      try { synced = (await reg.periodicSync.getTags()).includes('daily-news'); } catch(e) {}
-    }
-    btn.textContent = (granted && synced) ? '🔔' : '🔕';
-    btn.classList.toggle('active', granted && synced);
+    btn.textContent = ntfyTopic ? '🔔' : '🔕';
+    btn.classList.toggle('active', !!ntfyTopic);
+    btn.title = ntfyTopic ? 'ntfy: ' + ntfyTopic + ' (klicken zum Ändern)' : 'Push-Benachrichtigungen einrichten';
   }
 
-  async function toggleNotifications() {
-    if (!('serviceWorker' in navigator)) return alert('Service Worker wird nicht unterstützt.');
-    var reg = await navigator.serviceWorker.ready;
-    var btn = document.getElementById('notif-btn');
+  function toggleNotifications() {
+    document.getElementById('ntfy-topic-input').value = ntfyTopic;
+    document.getElementById('ntfy-err').style.display = 'none';
+    document.getElementById('ntfy-overlay').style.display = 'flex';
+  }
 
-    // If already active → disable
-    if (Notification.permission === 'granted' && 'periodicSync' in reg) {
-      try {
-        var tags = await reg.periodicSync.getTags();
-        if (tags.includes('daily-news')) {
-          await reg.periodicSync.unregister('daily-news');
-          btn.textContent = '🔕'; btn.classList.remove('active');
-          return;
-        }
-      } catch(e) {}
-    }
+  function saveNtfyTopic() {
+    var val = (document.getElementById('ntfy-topic-input').value || '').trim().replace(/[^a-zA-Z0-9_\-]/g, '');
+    if (!val) { document.getElementById('ntfy-err').style.display = 'block'; return; }
+    ntfyTopic = val;
+    localStorage.setItem('uap_ntfy_topic', val);
+    document.getElementById('ntfy-overlay').style.display = 'none';
+    _updateNotifBtn();
+    _sendNtfyNotification('UAP NEWS — Benachrichtigungen aktiv 🔔',
+      'Du wirst ab jetzt täglich über neue UAP-Meldungen informiert. Kanal: ' + val);
+  }
 
-    // Request permission
-    var perm = Notification.permission === 'granted' ? 'granted' : await Notification.requestPermission();
-    if (perm !== 'granted') { btn.textContent = '🔕'; return; }
+  function clearNtfyTopic() {
+    ntfyTopic = '';
+    localStorage.removeItem('uap_ntfy_topic');
+    document.getElementById('ntfy-overlay').style.display = 'none';
+    _updateNotifBtn();
+  }
 
-    // Register periodic sync (requires installed PWA on Android/Chrome)
-    if ('periodicSync' in reg) {
-      try {
-        await reg.periodicSync.register('daily-news', { minInterval: 24 * 60 * 60 * 1000 });
-      } catch(e) { console.log('periodicSync:', e.message); }
-    }
-    btn.textContent = '🔔'; btn.classList.add('active');
-    _syncSeenIds();
-    reg.showNotification('UAP NEWS — Benachrichtigungen aktiv 🔔', {
-      body: 'Du wirst ab jetzt 1× täglich über neue UAP-Meldungen informiert.',
-      tag: 'uap-setup', icon: './', badge: './'
-    });
+  async function _sendNtfyNotification(title, message) {
+    if (!ntfyTopic) return;
+    try {
+      await fetch('https://ntfy.sh', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          topic: ntfyTopic,
+          title: title,
+          message: message,
+          priority: 3,
+          tags: ['flying_saucer'],
+          click: location.href
+        })
+      });
+    } catch(e) { console.log('[ntfy]', e.message); }
   }
 
   function _syncSeenIds() {
@@ -1413,6 +1451,10 @@
         _statusEl.style.color = '#4caf50';
         _statusEl.style.whiteSpace = 'pre';
         _statusEl.style.lineHeight = '1.5';
+        // ntfy push notification for manual scan
+        var _ntfyArts = currentArticles.filter(function(a){ return a.isNew; });
+        var _ntfyBody = _ntfyArts[0].title + (_newInFeed > 1 ? '\n+ ' + (_newInFeed - 1) + ' weitere Meldung' + (_newInFeed > 2 ? 'en' : '') : '');
+        _sendNtfyNotification('UAP NEWS — ' + _newInFeed + ' neue Meldung' + (_newInFeed > 1 ? 'en' : ''), _ntfyBody);
       } else {
         setStatus('Keine neuen Artikel');
       }
@@ -1878,7 +1920,7 @@
     // Register service worker
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./sw.js').then(function(reg) {
-        _updateNotifBtn(reg);
+        _updateNotifBtn();
         navigator.serviceWorker.addEventListener('message', function(e) {
           if (e.data && e.data.type === 'NOTIFICATION_ARTICLE') startScan();
         });
