@@ -9,6 +9,14 @@ jobs:
   scan:
     runs-on: ubuntu-latest
     steps:
+      - name: Restore seen-IDs cache
+        uses: actions/cache@v4
+        with:
+          path: .seen-ids.json
+          key: seen-ids-${{ github.run_id }}
+          restore-keys: |
+            seen-ids-
+
       - name: Scan UAP news & send ntfy notification
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
@@ -24,6 +32,19 @@ jobs:
               print('NTFY_TOPIC secret nicht gesetzt – Benachrichtigung übersprungen.')
               exit(0)
 
+          SEEN_FILE = '.seen-ids.json'
+          try:
+              with open(SEEN_FILE) as f:
+                  notified_ids = set(json.load(f))
+              print(f'Geladene seen-IDs: {len(notified_ids)}')
+          except Exception:
+              notified_ids = set()
+              print('Keine seen-IDs-Datei gefunden – starte frisch.')
+
+          def topic_id(title):
+              words = re.sub(r'[^a-z0-9]', ' ', title.lower()).split()
+              return '-'.join(sorted(w for w in words if len(w) > 3))
+
           queries = [
               'UAP UFO 2026',
               'UFO sighting 2026',
@@ -33,7 +54,7 @@ jobs:
 
           cutoff      = datetime.now(timezone.utc) - timedelta(hours=25)
           seen_titles = set()
-          new_articles = []
+          all_articles = []
 
           def clean_title(t):
               t = re.sub(r'<!\[CDATA\[|\]\]>', '', t or '').strip()
@@ -76,13 +97,15 @@ jobs:
                       if link_el is not None:
                           link = (link_el.get('href') or link_el.text or '').strip()
                       source = (source_el.text or 'UAP News').strip() if source_el is not None else 'UAP News'
-                      new_articles.append({'title': title, 'source': source, 'link': link})
+                      all_articles.append({'title': title, 'source': source, 'link': link})
 
               except Exception as e:
                   print(f'Fehler bei "{query}": {e}')
 
+          new_articles = [a for a in all_articles if topic_id(a['title']) not in notified_ids]
+
           if not new_articles:
-              print('Keine neuen UAP-Artikel in den letzten 24 Stunden.')
+              print(f'Keine neuen UAP-Artikel (von {len(all_articles)} gefundenen bereits gemeldet).')
               exit(0)
 
           count = len(new_articles)
@@ -114,4 +137,10 @@ jobs:
           except Exception as e:
               print(f'Fehler beim Senden: {e}')
               exit(1)
+
+          new_ids = list(notified_ids | {topic_id(a['title']) for a in new_articles})
+          new_ids = new_ids[-500:]
+          with open(SEEN_FILE, 'w') as f:
+              json.dump(new_ids, f)
+          print(f'seen-IDs gespeichert: {len(new_ids)} Einträge')
           PYEOF
