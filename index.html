@@ -1311,6 +1311,7 @@
   async function callAI(prompt, maxTokens) {
     var r = await fetch('https://text.pollinations.ai/openai', {
       method: 'POST',
+      signal: AbortSignal.timeout(20000),
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         model: 'openai',
@@ -1469,33 +1470,31 @@
         var _toSum = currentArticles.filter(_badSummary);
         for (var _i = 0; _i < _toSum.length; _i++) {
           var _a = _toSum[_i];
-          try {
-            var _raw = await callAI(_aiSumPrompt(_a.title, _a.source, _a.date, _a.summary), 900);
-            if (_raw && _raw.trim().length > 150) {
-              _a.summary = _raw.trim();
-              var _idx = currentArticles.indexOf(_a);
-              if (_idx >= 0) {
-                var _sumEl = document.getElementById('summary-text-' + _idx);
-                if (_sumEl) {
-                  _sumEl.textContent = _a.summary;
-                  _sumEl.removeAttribute('style');
-                  if (!document.getElementById('translate-sum-btn-' + _idx)) {
-                    var _btn2 = document.createElement('button');
-                    _btn2.className = 'btn-translate btn-translate-sm';
-                    _btn2.id = 'translate-sum-btn-' + _idx;
-                    _btn2.setAttribute('onclick', 'translateSummary(' + _idx + ')');
-                    _btn2.textContent = '🌐 Übersetzen';
-                    _sumEl.parentNode.insertBefore(_btn2, _sumEl.nextSibling);
-                  }
+          var _improved = null;
+          for (var _attempt = 0; _attempt < 2 && !_improved; _attempt++) {
+            try {
+              if (_attempt > 0) await new Promise(function(r) { setTimeout(r, 4000); });
+              var _res = await callAI(_aiSumPrompt(_a.title, _a.source, _a.date, _a.summary), 900);
+              if (_res && _res.trim().length > 150) _improved = _res.trim();
+            } catch(e) { console.log('bg summary attempt', _attempt, 'failed:', e.message); }
+          }
+          if (_improved) {
+            _a.summary = _improved;
+            var _idx = currentArticles.indexOf(_a);
+            if (_idx >= 0) {
+              var _sumEl = document.getElementById('summary-text-' + _idx);
+              if (_sumEl) {
+                _sumEl.textContent = _a.summary;
+                _sumEl.removeAttribute('style');
+                if (!document.getElementById('translate-sum-btn-' + _idx)) {
+                  var _btn2 = document.createElement('button');
+                  _btn2.className = 'btn-translate btn-translate-sm';
+                  _btn2.id = 'translate-sum-btn-' + _idx;
+                  _btn2.setAttribute('onclick', 'translateSummary(' + _idx + ')');
+                  _btn2.textContent = '🌐 Übersetzen';
+                  _sumEl.parentNode.insertBefore(_btn2, _sumEl.nextSibling);
                 }
               }
-            }
-          } catch(e) {
-            console.log('bg summary failed:', e.message);
-            var _fi = currentArticles.indexOf(_a);
-            if (_fi >= 0) {
-              var _se = document.getElementById('summary-text-' + _fi);
-              if (_se) { _se.style.display = 'none'; }
             }
           }
         }
@@ -1623,7 +1622,10 @@
     const dateFormatted = article.date
       ? new Date(article.date + 'T12:00:00').toLocaleDateString('de-AT', {day:'2-digit',month:'2-digit',year:'numeric'})
       : '—';
-    const hasSummary = article.summary && article.summary.trim() !== (article.title || '').trim() && article.summary.trim().length > 80;
+    const _rawSum = (article.summary || '').trim();
+    const hasSummary = _rawSum && _rawSum !== (article.title || '').trim() && _rawSum.length > 20;
+    const _sumDisplay = hasSummary ? escHtml(_rawSum) : escHtml((article.title || '').substring(0, 160));
+    const _sumIsAI    = _rawSum.length >= 200;
     card.innerHTML = `
       <div class="article-header" onclick="toggleCard(${idx})">
         <div class="article-badges">
@@ -1641,8 +1643,8 @@
         <div class="details-content">
           <div class="summary-row">
             <div class="section-label">ZUSAMMENFASSUNG</div>
-            <div class="details-text summary-text" id="summary-text-${idx}" ${hasSummary ? '' : 'style="opacity:0.45;font-style:italic"'}>${hasSummary ? escHtml(article.summary) : 'Zusammenfassung wird im Hintergrund erstellt…'}</div>
-            ${hasSummary ? `<button class="btn-translate btn-translate-sm" id="translate-sum-btn-${idx}" onclick="translateSummary(${idx})">🌐 Übersetzen</button>` : ''}
+            <div class="details-text summary-text" id="summary-text-${idx}" ${_sumIsAI ? '' : 'style="opacity:0.6;font-style:italic"'}>${_sumDisplay}</div>
+            ${_sumIsAI ? `<button class="btn-translate btn-translate-sm" id="translate-sum-btn-${idx}" onclick="translateSummary(${idx})">🌐 Übersetzen</button>` : ''}
           </div>
         </div>
         <div class="details-footer">
