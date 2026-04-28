@@ -795,6 +795,8 @@
   .summary-loading { color: var(--text-dim) !important; opacity: 0.5; }
   .sum-loading-row { font-family:'Share Tech Mono',monospace; font-size:10px; color:#3a6a7a; margin-bottom:6px; animation: sumPulse 1.4s ease-in-out infinite; }
   @keyframes sumPulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+  .sum-error-row { font-family:'Share Tech Mono',monospace; font-size:10px; color:#ff6b35; margin-bottom:6px; display:flex; align-items:center; gap:10px; }
+  .sum-retry-btn { font-family:'Rajdhani',sans-serif; font-weight:700; font-size:10px; letter-spacing:2px; color:#030a0f; background:#ff6b35; border:none; padding:3px 10px; cursor:pointer; }
   .btn-translate-sm {
     font-size: 10px;
     padding: 4px 12px;
@@ -1498,7 +1500,11 @@
               }
             }
           } else {
-            if (_loadEl) _loadEl.remove();
+            if (_loadEl) {
+              _loadEl.className = 'sum-error-row';
+              _loadEl.innerHTML = '⚠ Zusammenfassung fehlgeschlagen'
+                + ' <button class="sum-retry-btn" onclick="retrySummary(\'' + _a.id + '\')">↺ WIEDERHOLEN</button>';
+            }
           }
         }
         saveFeedCache();
@@ -1951,6 +1957,45 @@
       }
     }, { passive: false });
   })();
+
+  async function retrySummary(aid) {
+    var article = currentArticles.find(function(a) { return a.id === aid; });
+    var errEl   = document.getElementById('sum-loading-' + aid);
+    if (!article || !errEl) return;
+    errEl.className = 'sum-loading-row';
+    errEl.textContent = '⟳ KI-Zusammenfassung wird erstellt…';
+    try {
+      var ctx = (article.summary && article.summary.trim() !== article.title.trim()) ? ' Context: ' + article.summary.substring(0, 200) : '';
+      var prompt = 'Summarize this UAP/UFO news in 3 sentences (English only, plain text, no bullet points). Title: ' + article.title + '.' + ctx;
+      var res = await callAI(prompt, 900);
+      if (res && res.trim().length > 150) {
+        var titleWords = (article.title || '').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(function(w){return w.length>4;});
+        var matches = titleWords.filter(function(w){return res.toLowerCase().indexOf(w)>=0;});
+        if (titleWords.length === 0 || matches.length > 0) {
+          article.summary = res.trim();
+          var sumEl = document.getElementById('summary-text-' + aid);
+          if (sumEl) {
+            sumEl.textContent = article.summary;
+            sumEl.removeAttribute('style');
+            errEl.remove();
+            if (!document.getElementById('translate-sum-btn-' + aid)) {
+              var btn = document.createElement('button');
+              btn.className = 'btn-translate btn-translate-sm';
+              btn.id = 'translate-sum-btn-' + aid;
+              btn.setAttribute('onclick', "translateSummary('" + aid + "')");
+              btn.textContent = '🌐 Übersetzen';
+              sumEl.parentNode.insertBefore(btn, sumEl.nextSibling);
+            }
+          }
+          saveFeedCache();
+          return;
+        }
+      }
+    } catch(e) {}
+    errEl.className = 'sum-error-row';
+    errEl.innerHTML = '⚠ Zusammenfassung fehlgeschlagen'
+      + ' <button class="sum-retry-btn" onclick="retrySummary(\'' + aid + '\')">↺ WIEDERHOLEN</button>';
+  }
 
   async function applyLatestNotification() {
     try {
