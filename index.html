@@ -1311,23 +1311,30 @@
       'LETZTER SCAN: ' + new Date(lastScanTime).toLocaleTimeString('de-AT', {hour:'2-digit',minute:'2-digit'});
   }
   async function callAI(prompt, maxTokens) {
-    var r = await fetch('https://text.pollinations.ai/openai', {
-      method: 'POST',
-      signal: AbortSignal.timeout(20000),
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: 'openai',
-        messages: [
-          { role: 'system', content: 'You are a helpful assistant. Follow all instructions precisely and return only what is asked.' },
-          { role: 'user', content: prompt }
-        ],
-        max_tokens: Math.min(maxTokens || 2000, 4096),
-        temperature: 0.4
-      })
-    });
-    if (!r.ok) throw new Error('AI-Dienst nicht verfügbar (' + r.status + '). Bitte erneut versuchen.');
-    var d = await r.json();
-    return d.choices[0].message.content;
+    var models = ['openai-fast', 'openai'];
+    for (var _m = 0; _m < models.length; _m++) {
+      try {
+        var r = await fetch('https://text.pollinations.ai/openai', {
+          method: 'POST',
+          signal: AbortSignal.timeout(18000),
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            model: models[_m],
+            messages: [
+              { role: 'system', content: 'You are a helpful assistant. Follow all instructions precisely and return only what is asked.' },
+              { role: 'user', content: prompt }
+            ],
+            max_tokens: Math.min(maxTokens || 2000, 4096),
+            temperature: 0.4
+          })
+        });
+        if (!r.ok) continue;
+        var d = await r.json();
+        var _c = d.choices && d.choices[0] && d.choices[0].message && d.choices[0].message.content;
+        if (_c && _c.trim().length > 5) return _c.trim();
+      } catch(e) { /* try next model */ }
+    }
+    throw new Error('AI-Dienst nicht verfügbar');
   }
 
   async function loadNews() {
@@ -1474,18 +1481,15 @@
         for (var _i = 0; _i < _toSum.length; _i++) {
           var _a = _toSum[_i];
           var _improved = null;
-          for (var _attempt = 0; _attempt < 2 && !_improved; _attempt++) {
-            try {
-              if (_attempt > 0) await new Promise(function(r) { setTimeout(r, 4000); });
-              var _res = await callAI(_aiSumPrompt(_a.title, _a.source, _a.date, _a.summary), 900);
-              if (_res && _res.trim().length > 150) {
-                var _titleWords = (_a.title || '').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(function(w){return w.length>4;});
-                var _resTxt = _res.toLowerCase();
-                var _matches = _titleWords.filter(function(w){return _resTxt.indexOf(w)>=0;});
-                if (_titleWords.length === 0 || _matches.length > 0) _improved = _res.trim();
-              }
-            } catch(e) { console.log('bg summary attempt', _attempt, 'failed:', e.message); }
-          }
+          try {
+            var _res = await callAI(_aiSumPrompt(_a.title, _a.source, _a.date, _a.summary), 900);
+            if (_res && _res.trim().length > 150) {
+              var _titleWords = (_a.title || '').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(function(w){return w.length>4;});
+              var _resTxt = _res.toLowerCase();
+              var _matches = _titleWords.filter(function(w){return _resTxt.indexOf(w)>=0;});
+              if (_titleWords.length === 0 || _matches.length > 0) _improved = _res.trim();
+            }
+          } catch(e) { console.log('bg summary failed:', e.message); }
           var _loadEl = document.getElementById('sum-loading-' + _a.id);
           if (_improved) {
             _a.summary = _improved;
