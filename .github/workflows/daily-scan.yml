@@ -2,7 +2,7 @@ name: Daily UAP Scan & Notify
 
 on:
   schedule:
-    - cron: '20 6 * * *'  # täglich 07:20 MEZ (= 08:20 MESZ/Sommerzeit)
+    - cron: '0 5 * * *'   # täglich 07:00 MESZ (Sommerzeit, UTC+2)
   workflow_dispatch:        # manueller Start über GitHub UI möglich
 
 permissions:
