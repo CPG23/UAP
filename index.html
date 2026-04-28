@@ -1421,7 +1421,9 @@
       var _cached = loadFeedCache();
       var cachedArts = pruneFeed(_cached.articles || []);
       var cachedIds = new Set(cachedArts.map(function(a) { return a.id; }));
-      var newRssItems = rssItems.filter(function(it) { return !cachedIds.has(topicId(it.title)); });
+      var _uapRe = /\b(uap|ufo|ufos|alien|aliens|extraterrestrial|unidentified|aerial|phenomenon|phenomena|sighting|sightings|disclosure|whistleblower|pentagon|crash.?retrieval|nonhuman|non.human|orb|havana|usos?)\b/i;
+      var rssItemsFiltered = rssItems.filter(function(it) { return _uapRe.test(it.title); });
+      var newRssItems = rssItemsFiltered.filter(function(it) { return !cachedIds.has(topicId(it.title)); });
 
       var newArticles = newRssItems.slice(0, 20).map(function(it) {
         return {
