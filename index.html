@@ -1312,20 +1312,23 @@
     document.getElementById('last-scan').textContent =
       'LETZTER SCAN: ' + new Date(lastScanTime).toLocaleTimeString('de-AT', {hour:'2-digit',minute:'2-digit'});
   }
-  async function callAI(prompt, maxTokens) {
+  async function callAI(prompt) {
     var seed = Math.floor(Math.random() * 999999);
-    var models = ['openai', 'mistral'];
-    for (var _m = 0; _m < models.length; _m++) {
-      try {
-        var url = 'https://text.pollinations.ai/' + encodeURIComponent(prompt)
-                + '?model=' + models[_m] + '&seed=' + seed;
-        var r = await fetch(url, { signal: AbortSignal.timeout(20000) });
-        if (!r.ok) continue;
-        var text = await r.text();
-        if (text && text.trim().length > 20) return text.trim();
-      } catch(e) { /* try next model */ }
-    }
-    throw new Error('AI-Dienst nicht verfügbar');
+    var enc  = encodeURIComponent(prompt);
+    var base = 'https://text.pollinations.ai/';
+    var reqs = ['openai', 'mistral', 'claude-hybridspace'].map(function(m) {
+      return fetch(base + enc + '?model=' + m + '&seed=' + seed, { signal: AbortSignal.timeout(20000) })
+        .then(function(r) {
+          if (!r.ok) throw new Error(r.status);
+          return r.text();
+        })
+        .then(function(t) {
+          t = t.trim();
+          if (t.length < 30) throw new Error('empty');
+          return t;
+        });
+    });
+    return Promise.any(reqs);
   }
 
   async function loadNews() {
@@ -1460,9 +1463,8 @@
       _syncSeenIds();
 
       // Background summarization — fire and forget, updates DOM as each completes
-      var _aiSumPrompt = function(title, source, date, desc) {
-        var ctx = (desc && desc.trim() !== title.trim()) ? ' Context: ' + desc.substring(0, 200) : '';
-        return 'Summarize this UAP/UFO news in 3 sentences (English only, plain text, no bullet points). Title: ' + title + '.' + ctx;
+      var _aiSumPrompt = function(title) {
+        return '3-sentence factual summary, English, plain text only: ' + title;
       };
       function _badSummary(a) {
         var s = (a.summary || '').trim();
@@ -1470,18 +1472,7 @@
       }
       (async function _bgSummarize() {
         var _toSum = currentArticles.filter(_badSummary);
-        for (var _i = 0; _i < _toSum.length; _i++) {
-          var _a = _toSum[_i];
-          var _improved = null;
-          try {
-            var _res = await callAI(_aiSumPrompt(_a.title, _a.source, _a.date, _a.summary), 900);
-            if (_res && _res.trim().length > 150) {
-              var _titleWords = (_a.title || '').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(function(w){return w.length>4;});
-              var _resTxt = _res.toLowerCase();
-              var _matches = _titleWords.filter(function(w){return _resTxt.indexOf(w)>=0;});
-              if (_titleWords.length === 0 || _matches.length > 0) _improved = _res.trim();
-            }
-          } catch(e) { console.log('bg summary failed:', e.message); }
+        function _applySummary(_a, _improved) {
           var _loadEl = document.getElementById('sum-loading-' + _a.id);
           if (_improved) {
             _a.summary = _improved;
@@ -1491,12 +1482,12 @@
               _sumEl.removeAttribute('style');
               if (_loadEl) _loadEl.remove();
               if (!document.getElementById('translate-sum-btn-' + _a.id)) {
-                var _btn2 = document.createElement('button');
-                _btn2.className = 'btn-translate btn-translate-sm';
-                _btn2.id = 'translate-sum-btn-' + _a.id;
-                _btn2.setAttribute('onclick', "translateSummary('" + _a.id + "')");
-                _btn2.textContent = '🌐 Übersetzen';
-                _sumEl.parentNode.insertBefore(_btn2, _sumEl.nextSibling);
+                var _b = document.createElement('button');
+                _b.className = 'btn-translate btn-translate-sm';
+                _b.id = 'translate-sum-btn-' + _a.id;
+                _b.setAttribute('onclick', "translateSummary('" + _a.id + "')");
+                _b.textContent = '🌐 Übersetzen';
+                _sumEl.parentNode.insertBefore(_b, _sumEl.nextSibling);
               }
             }
           } else {
@@ -1507,6 +1498,18 @@
             }
           }
         }
+        await Promise.allSettled(_toSum.map(async function(_a) {
+          try {
+            var _res = await callAI(_aiSumPrompt(_a.title));
+            var _titleWords = (_a.title||'').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(function(w){return w.length>4;});
+            var _matches = _titleWords.filter(function(w){return _res.toLowerCase().indexOf(w)>=0;});
+            if (_res.length > 80 && (_titleWords.length===0 || _matches.length>0)) {
+              _applySummary(_a, _res);
+            } else {
+              _applySummary(_a, null);
+            }
+          } catch(e) { _applySummary(_a, null); }
+        }));
         saveFeedCache();
       })();
 
@@ -1965,8 +1968,7 @@
     errEl.className = 'sum-loading-row';
     errEl.textContent = '⟳ KI-Zusammenfassung wird erstellt…';
     try {
-      var ctx = (article.summary && article.summary.trim() !== article.title.trim()) ? ' Context: ' + article.summary.substring(0, 200) : '';
-      var prompt = 'Summarize this UAP/UFO news in 3 sentences (English only, plain text, no bullet points). Title: ' + article.title + '.' + ctx;
+      var prompt = '3-sentence factual summary, English, plain text only: ' + article.title;
       var res = await callAI(prompt, 900);
       if (res && res.trim().length > 150) {
         var titleWords = (article.title || '').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(function(w){return w.length>4;});
