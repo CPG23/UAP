@@ -1315,19 +1315,23 @@
   function callAI(prompt) {
     var seed = Math.floor(Math.random() * 999999);
     var enc  = encodeURIComponent(prompt);
-    var base = 'https://text.pollinations.ai/';
-    function _tryModel(m) {
-      var ctrl  = new AbortController();
-      var timer = setTimeout(function() { ctrl.abort(); }, 20000);
-      return fetch(base + enc + '?model=' + m + '&seed=' + seed, { signal: ctrl.signal })
-        .then(function(r) { clearTimeout(timer); if (!r.ok) throw new Error(r.status); return r.text(); })
-        .then(function(t) { t = (t||'').trim(); if (t.length < 30) throw new Error('empty'); return t; })
-        .catch(function(e) { clearTimeout(timer); throw e; });
+    var aiUrl = function(m) { return 'https://text.pollinations.ai/' + enc + '?model=' + m + '&seed=' + seed; };
+    function _direct(m) {
+      return fetch(aiUrl(m))
+        .then(function(r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+        .then(function(t) { t=(t||'').trim(); if(t.length<30) throw new Error('empty'); return t; });
     }
+    function _proxy(m) {
+      var proxied = 'https://api.allorigins.win/get?url=' + encodeURIComponent(aiUrl(m));
+      return fetch(proxied)
+        .then(function(r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function(d) { var t=(d.contents||'').trim(); if(t.length<30) throw new Error('empty'); return t; });
+    }
+    var attempts = [_direct('openai'), _direct('mistral'), _proxy('openai'), _proxy('mistral')];
     return new Promise(function(resolve, reject) {
-      var pending = 3;
-      ['openai', 'mistral', 'claude-hybridspace'].forEach(function(m) {
-        _tryModel(m).then(resolve, function() { if (--pending === 0) reject(new Error('Alle Modelle fehlgeschlagen')); });
+      var pending = attempts.length;
+      attempts.forEach(function(p) {
+        p.then(resolve, function() { if (--pending === 0) reject(new Error('AI nicht verfügbar')); });
       });
     });
   }
