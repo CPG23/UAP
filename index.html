@@ -1320,8 +1320,7 @@
           { role: 'user', content: prompt }
         ],
         max_tokens: Math.min(maxTokens || 2000, 4096),
-        temperature: 0.1,
-        seed: 42
+        temperature: 0.4
       })
     });
     if (!r.ok) throw new Error('AI-Dienst nicht verfügbar (' + r.status + '). Bitte erneut versuchen.');
@@ -1477,7 +1476,12 @@
             try {
               if (_attempt > 0) await new Promise(function(r) { setTimeout(r, 4000); });
               var _res = await callAI(_aiSumPrompt(_a.title, _a.source, _a.date, _a.summary), 900);
-              if (_res && _res.trim().length > 150) _improved = _res.trim();
+              if (_res && _res.trim().length > 150) {
+                var _titleWords = (_a.title || '').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(function(w){return w.length>4;});
+                var _resTxt = _res.toLowerCase();
+                var _matches = _titleWords.filter(function(w){return _resTxt.indexOf(w)>=0;});
+                if (_titleWords.length === 0 || _matches.length > 0) _improved = _res.trim();
+              }
             } catch(e) { console.log('bg summary attempt', _attempt, 'failed:', e.message); }
           }
           if (_improved) {
