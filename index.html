@@ -1313,21 +1313,28 @@
       'LETZTER SCAN: ' + new Date(lastScanTime).toLocaleTimeString('de-AT', {hour:'2-digit',minute:'2-digit'});
   }
   function callAI(prompt) {
-    var seed = Math.floor(Math.random() * 999999);
-    var enc  = encodeURIComponent(prompt);
-    var aiUrl = function(m) { return 'https://text.pollinations.ai/' + enc + '?model=' + m + '&seed=' + seed; };
-    function _direct(m) {
-      return fetch(aiUrl(m))
-        .then(function(r) { if (!r.ok) throw new Error(r.status); return r.text(); })
-        .then(function(t) { t=(t||'').trim(); if(t.length<30) throw new Error('empty'); return t; });
+    function _post(model) {
+      return fetch('https://text.pollinations.ai/openai', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          model: model,
+          messages: [
+            { role: 'system', content: 'You are a helpful assistant. Return only what is asked, plain text.' },
+            { role: 'user', content: prompt }
+          ],
+          max_tokens: 400,
+          temperature: 0.3
+        })
+      })
+      .then(function(r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function(d) {
+        var t = (d.choices && d.choices[0] && d.choices[0].message && d.choices[0].message.content || '').trim();
+        if (t.length < 30) throw new Error('empty');
+        return t;
+      });
     }
-    function _proxy(m) {
-      var proxied = 'https://api.allorigins.win/get?url=' + encodeURIComponent(aiUrl(m));
-      return fetch(proxied)
-        .then(function(r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-        .then(function(d) { var t=(d.contents||'').trim(); if(t.length<30) throw new Error('empty'); return t; });
-    }
-    var attempts = [_direct('openai'), _direct('mistral'), _proxy('openai'), _proxy('mistral')];
+    var attempts = [_post('openai'), _post('mistral')];
     return new Promise(function(resolve, reject) {
       var pending = attempts.length;
       attempts.forEach(function(p) {
