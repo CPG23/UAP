@@ -1312,23 +1312,24 @@
     document.getElementById('last-scan').textContent =
       'LETZTER SCAN: ' + new Date(lastScanTime).toLocaleTimeString('de-AT', {hour:'2-digit',minute:'2-digit'});
   }
-  async function callAI(prompt) {
+  function callAI(prompt) {
     var seed = Math.floor(Math.random() * 999999);
     var enc  = encodeURIComponent(prompt);
     var base = 'https://text.pollinations.ai/';
-    var reqs = ['openai', 'mistral', 'claude-hybridspace'].map(function(m) {
-      return fetch(base + enc + '?model=' + m + '&seed=' + seed, { signal: AbortSignal.timeout(20000) })
-        .then(function(r) {
-          if (!r.ok) throw new Error(r.status);
-          return r.text();
-        })
-        .then(function(t) {
-          t = t.trim();
-          if (t.length < 30) throw new Error('empty');
-          return t;
-        });
+    function _tryModel(m) {
+      var ctrl  = new AbortController();
+      var timer = setTimeout(function() { ctrl.abort(); }, 20000);
+      return fetch(base + enc + '?model=' + m + '&seed=' + seed, { signal: ctrl.signal })
+        .then(function(r) { clearTimeout(timer); if (!r.ok) throw new Error(r.status); return r.text(); })
+        .then(function(t) { t = (t||'').trim(); if (t.length < 30) throw new Error('empty'); return t; })
+        .catch(function(e) { clearTimeout(timer); throw e; });
+    }
+    return new Promise(function(resolve, reject) {
+      var pending = 3;
+      ['openai', 'mistral', 'claude-hybridspace'].forEach(function(m) {
+        _tryModel(m).then(resolve, function() { if (--pending === 0) reject(new Error('Alle Modelle fehlgeschlagen')); });
+      });
     });
-    return Promise.any(reqs);
   }
 
   async function loadNews() {
