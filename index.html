@@ -1451,10 +1451,6 @@
         _statusEl.style.color = '#4caf50';
         _statusEl.style.whiteSpace = 'pre';
         _statusEl.style.lineHeight = '1.5';
-        // ntfy push notification for manual scan
-        var _ntfyArts = currentArticles.filter(function(a){ return a.isNew; });
-        var _ntfyBody = _ntfyArts[0].title + (_newInFeed > 1 ? '\n+ ' + (_newInFeed - 1) + ' weitere Meldung' + (_newInFeed > 2 ? 'en' : '') : '');
-        _sendNtfyNotification('UAP NEWS — ' + _newInFeed + ' neue Meldung' + (_newInFeed > 1 ? 'en' : ''), _ntfyBody);
       } else {
         setStatus('Keine neuen Artikel');
       }
@@ -1494,7 +1490,14 @@
                 }
               }
             }
-          } catch(e) { console.log('bg summary failed:', e.message); }
+          } catch(e) {
+            console.log('bg summary failed:', e.message);
+            var _fi = currentArticles.indexOf(_a);
+            if (_fi >= 0) {
+              var _se = document.getElementById('summary-text-' + _fi);
+              if (_se) { _se.style.display = 'none'; }
+            }
+          }
         }
         saveFeedCache();
       })();
