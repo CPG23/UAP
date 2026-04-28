@@ -793,6 +793,8 @@
   }
   .summary-text { color: #8aa8b8; font-style: italic; margin-bottom: 8px; }
   .summary-loading { color: var(--text-dim) !important; opacity: 0.5; }
+  .sum-loading-row { font-family:'Share Tech Mono',monospace; font-size:10px; color:#3a6a7a; margin-bottom:6px; animation: sumPulse 1.4s ease-in-out infinite; }
+  @keyframes sumPulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
   .btn-translate-sm {
     font-size: 10px;
     padding: 4px 12px;
@@ -1484,24 +1486,25 @@
               }
             } catch(e) { console.log('bg summary attempt', _attempt, 'failed:', e.message); }
           }
+          var _loadEl = document.getElementById('sum-loading-' + _a.id);
           if (_improved) {
             _a.summary = _improved;
-            var _idx = currentArticles.indexOf(_a);
-            if (_idx >= 0) {
-              var _sumEl = document.getElementById('summary-text-' + _idx);
-              if (_sumEl) {
-                _sumEl.textContent = _a.summary;
-                _sumEl.removeAttribute('style');
-                if (!document.getElementById('translate-sum-btn-' + _idx)) {
-                  var _btn2 = document.createElement('button');
-                  _btn2.className = 'btn-translate btn-translate-sm';
-                  _btn2.id = 'translate-sum-btn-' + _idx;
-                  _btn2.setAttribute('onclick', 'translateSummary(' + _idx + ')');
-                  _btn2.textContent = '🌐 Übersetzen';
-                  _sumEl.parentNode.insertBefore(_btn2, _sumEl.nextSibling);
-                }
+            var _sumEl = document.getElementById('summary-text-' + _a.id);
+            if (_sumEl) {
+              _sumEl.textContent = _improved;
+              _sumEl.removeAttribute('style');
+              if (_loadEl) _loadEl.remove();
+              if (!document.getElementById('translate-sum-btn-' + _a.id)) {
+                var _btn2 = document.createElement('button');
+                _btn2.className = 'btn-translate btn-translate-sm';
+                _btn2.id = 'translate-sum-btn-' + _a.id;
+                _btn2.setAttribute('onclick', "translateSummary('" + _a.id + "')");
+                _btn2.textContent = '🌐 Übersetzen';
+                _sumEl.parentNode.insertBefore(_btn2, _sumEl.nextSibling);
               }
             }
+          } else {
+            if (_loadEl) _loadEl.remove();
           }
         }
         saveFeedCache();
@@ -1624,7 +1627,7 @@
     function _makeArticleCard(article, idx) {
     const card = document.createElement('div');
     card.className = 'article-card' + (article.isNew ? ' is-new' : '');
-    card.id = 'card-' + idx;
+    card.id = 'card-' + article.id;
     const dateFormatted = article.date
       ? new Date(article.date + 'T12:00:00').toLocaleDateString('de-AT', {day:'2-digit',month:'2-digit',year:'numeric'})
       : '—';
@@ -1632,34 +1635,36 @@
     const hasSummary = _rawSum && _rawSum !== (article.title || '').trim() && _rawSum.length > 20;
     const _sumDisplay = hasSummary ? escHtml(_rawSum) : escHtml((article.title || '').substring(0, 160));
     const _sumIsAI    = _rawSum.length >= 200;
+    const _aid = article.id;
     card.innerHTML = `
-      <div class="article-header" onclick="toggleCard(${idx})">
+      <div class="article-header" onclick="toggleCard('${_aid}')">
         <div class="article-badges">
           ${article.isNew ? '<span class="badge badge-new">● NEU</span>' : ''}
           <span class="badge badge-source">${escHtml(article.source)}</span>
           ${article._otherSources && article._otherSources.length ? `<span class="badge multi-src-badge" style="border-color:var(--accent2);color:var(--accent2);background:rgba(0,255,157,0.06)">+Quellen</span>` : ''}
         </div>
-        <div class="article-title" id="article-title-${idx}">${escHtml(article.title)}</div>
+        <div class="article-title" id="article-title-${_aid}">${escHtml(article.title)}</div>
         <div class="article-arrow">▶</div>
         <div class="article-meta">
           <span class="meta-item"><span class="meta-icon">📅</span>${dateFormatted}</span>
         </div>
       </div>
-      <div class="article-details" id="details-${idx}">
+      <div class="article-details" id="details-${_aid}">
         <div class="details-content">
           <div class="summary-row">
             <div class="section-label">ZUSAMMENFASSUNG</div>
-            <div class="details-text summary-text" id="summary-text-${idx}" ${_sumIsAI ? '' : 'style="opacity:0.6;font-style:italic"'}>${_sumDisplay}</div>
-            ${_sumIsAI ? `<button class="btn-translate btn-translate-sm" id="translate-sum-btn-${idx}" onclick="translateSummary(${idx})">🌐 Übersetzen</button>` : ''}
+            <div class="details-text summary-text" id="summary-text-${_aid}" ${_sumIsAI ? '' : 'style="opacity:0.6;font-style:italic"'}>${_sumDisplay}</div>
+            ${!_sumIsAI ? `<div class="sum-loading-row" id="sum-loading-${_aid}">⟳ KI-Zusammenfassung wird erstellt…</div>` : ''}
+            ${_sumIsAI ? `<button class="btn-translate btn-translate-sm" id="translate-sum-btn-${_aid}" onclick="translateSummary('${_aid}')">🌐 Übersetzen</button>` : ''}
           </div>
         </div>
         <div class="details-footer">
-          ${article.url ? '<a id="main-link-'+idx+'" href="#" target="_blank" rel="noopener" class="link-btn">⤴ ORIGINALQUELLE ÖFFNEN</a>' : '<span></span>'}
+          ${article.url ? `<a id="main-link-${_aid}" href="#" target="_blank" rel="noopener" class="link-btn">⤴ ORIGINALQUELLE ÖFFNEN</a>` : '<span></span>'}
           <span class="meta-item" style="font-size:9px">ID: ${escHtml(String(article.id).substring(0,20))}</span>
         </div>
       </div>
     `;
-    if (article.url) { var ml = card.querySelector('#main-link-'+idx); if (ml) ml.href = article.url; }
+    if (article.url) { var ml = card.querySelector('#main-link-' + _aid); if (ml) ml.href = article.url; }
     if (article._otherSources && article._otherSources.length) {
       const summaryRow = card.querySelector('.summary-row');
       const div = document.createElement('div');
@@ -1771,8 +1776,8 @@
     }
   }
 
-  function toggleCard(idx) {
-    document.getElementById('card-' + idx).classList.toggle('open');
+  function toggleCard(aid) {
+    document.getElementById('card-' + aid).classList.toggle('open');
   }
 
   async function translateText(text, combined) {
@@ -1799,11 +1804,11 @@
     throw new Error('Übersetzung fehlgeschlagen');
   }
 
-  async function translateSummary(idx) {
-    const btn    = document.getElementById('translate-sum-btn-' + idx);
-    const sumEl  = document.getElementById('summary-text-' + idx);
-    const titEl  = document.getElementById('article-title-' + idx);
-    const article = currentArticles[idx];
+  async function translateSummary(aid) {
+    const btn    = document.getElementById('translate-sum-btn-' + aid);
+    const sumEl  = document.getElementById('summary-text-' + aid);
+    const titEl  = document.getElementById('article-title-' + aid);
+    const article = currentArticles.find(function(a) { return a.id === aid; });
     if (!btn || !sumEl || !article) return;
     const sourceSum = article.summary || article.description || article.title || '';
     const sourceTit = article.title || '';
