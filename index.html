@@ -1311,27 +1311,16 @@
       'LETZTER SCAN: ' + new Date(lastScanTime).toLocaleTimeString('de-AT', {hour:'2-digit',minute:'2-digit'});
   }
   async function callAI(prompt, maxTokens) {
-    var models = ['openai-fast', 'openai'];
+    var seed = Math.floor(Math.random() * 999999);
+    var models = ['openai', 'mistral'];
     for (var _m = 0; _m < models.length; _m++) {
       try {
-        var r = await fetch('https://text.pollinations.ai/openai', {
-          method: 'POST',
-          signal: AbortSignal.timeout(18000),
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            model: models[_m],
-            messages: [
-              { role: 'system', content: 'You are a helpful assistant. Follow all instructions precisely and return only what is asked.' },
-              { role: 'user', content: prompt }
-            ],
-            max_tokens: Math.min(maxTokens || 2000, 4096),
-            temperature: 0.4
-          })
-        });
+        var url = 'https://text.pollinations.ai/' + encodeURIComponent(prompt)
+                + '?model=' + models[_m] + '&seed=' + seed;
+        var r = await fetch(url, { signal: AbortSignal.timeout(20000) });
         if (!r.ok) continue;
-        var d = await r.json();
-        var _c = d.choices && d.choices[0] && d.choices[0].message && d.choices[0].message.content;
-        if (_c && _c.trim().length > 5) return _c.trim();
+        var text = await r.text();
+        if (text && text.trim().length > 20) return text.trim();
       } catch(e) { /* try next model */ }
     }
     throw new Error('AI-Dienst nicht verfügbar');
@@ -1470,7 +1459,8 @@
 
       // Background summarization — fire and forget, updates DOM as each completes
       var _aiSumPrompt = function(title, source, date, desc) {
-        return 'Write a factual summary in English of exactly 3-4 sentences about this UAP/UFO news article. Cover: what happened, who is involved, and why it matters. Return ONLY the summary text — no title, no labels, no bullet points.\n\nTitle: ' + title + '\nSource: ' + (source || '') + '\nDate: ' + (date || '') + (desc ? '\nContext: ' + desc.substring(0, 400) : '');
+        var ctx = (desc && desc.trim() !== title.trim()) ? ' Context: ' + desc.substring(0, 200) : '';
+        return 'Summarize this UAP/UFO news in 3 sentences (English only, plain text, no bullet points). Title: ' + title + '.' + ctx;
       };
       function _badSummary(a) {
         var s = (a.summary || '').trim();
