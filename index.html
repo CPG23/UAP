@@ -1452,6 +1452,14 @@
         };
       });
 
+      // Notif-Artikel aus latest-news.json injizieren, falls nicht via RSS gefunden
+      if (_pendingNotifArticles.length) {
+        var _allIds = new Set(newArticles.map(function(a){return a.id;}).concat(cachedArts.map(function(a){return a.id;})));
+        var _missing = _pendingNotifArticles.filter(function(a){ return !_allIds.has(a.id); });
+        if (_missing.length) newArticles = _missing.concat(newArticles);
+        _pendingNotifArticles = [];
+      }
+
       // Render immediately — articles appear without waiting for AI
       newArticles = mergeWithCluster(newArticles, cachedArts);
       var merged = cachedArts.concat(newArticles).map(function(a) {
@@ -2012,6 +2020,8 @@
       + ' <button class="sum-retry-btn" onclick="retrySummary(\'' + aid + '\')">↺ WIEDERHOLEN</button>';
   }
 
+  var _pendingNotifArticles = [];
+
   async function applyLatestNotification() {
     try {
       var resp = await fetch('./latest-news.json?_=' + Date.now(), { cache: 'no-store' });
@@ -2026,6 +2036,19 @@
       seenArticleIds = seenArticleIds.filter(function(id) { return notifIds.indexOf(id) === -1; });
       localStorage.setItem('uap_seen_ids', JSON.stringify(seenArticleIds));
       localStorage.setItem('uap_last_notif_ts', notifTs.toString());
+      // Artikel für spätere Injektion in den Feed merken (falls nicht via RSS gefunden)
+      _pendingNotifArticles = data.articles.map(function(a) {
+        return {
+          id: topicId(a.title),
+          title: a.title,
+          source: a.source || 'UAP News',
+          date: a.date || new Date().toISOString().split('T')[0],
+          summary: a.title,
+          url: a.link || '',
+          isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(a.source + a.title),
+          _mentions: 1
+        };
+      });
     } catch(e) {}
   }
 

@@ -118,9 +118,10 @@ jobs:
               print(f'  – {a["title"]} [{a["source"]}]')
 
           # Immer latest-news.json schreiben, unabhängig vom ntfy-Ergebnis
+          today_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
           notif_data = {
               'timestamp': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-              'articles': [{'title': a['title'], 'source': a['source']} for a in new_articles],
+              'articles': [{'title': a['title'], 'source': a['source'], 'link': a.get('link', ''), 'date': today_str} for a in new_articles],
           }
           with open('latest-news.json', 'w', encoding='utf-8') as f:
               json.dump(notif_data, f, ensure_ascii=False, indent=2)
