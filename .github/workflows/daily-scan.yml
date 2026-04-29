@@ -117,11 +117,52 @@ jobs:
           for a in new_articles[:5]:
               print(f'  – {a["title"]} [{a["source"]}]')
 
+          # KI-Zusammenfassungen server-seitig generieren (kein CORS, kein Rate-Limit)
+          def ai_summarize(title):
+              prompt = '3-sentence factual summary, English, plain text only: ' + title
+              payload = json.dumps({
+                  'model': 'openai',
+                  'messages': [
+                      {'role': 'system', 'content': 'You are a helpful assistant. Return only what is asked, plain text, no markdown.'},
+                      {'role': 'user', 'content': prompt}
+                  ],
+                  'max_tokens': 512,
+                  'temperature': 0.3
+              }).encode('utf-8')
+              req = urllib.request.Request(
+                  'https://text.pollinations.ai/openai',
+                  data=payload,
+                  headers={'Content-Type': 'application/json', 'User-Agent': 'UAP-News-Bot/1.0'},
+                  method='POST'
+              )
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      d = json.loads(r.read())
+                      t = ((d.get('choices') or [{}])[0].get('message') or {}).get('content', '')
+                      t = (t or '').strip()
+                      if len(t) >= 80:
+                          return t
+              except Exception as e:
+                  print(f'  KI-Fehler für "{title[:60]}": {e}')
+              return ''
+
+          import time as _time
+          print('Generiere KI-Zusammenfassungen...')
+          for i, article in enumerate(new_articles):
+              if i > 0:
+                  _time.sleep(1)
+              summary = ai_summarize(article['title'])
+              article['summary'] = summary
+              if summary:
+                  print(f'  ✓ {article["title"][:60]}')
+              else:
+                  print(f'  ✗ {article["title"][:60]} (kein KI-Text)')
+
           # Immer latest-news.json schreiben, unabhängig vom ntfy-Ergebnis
           today_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
           notif_data = {
               'timestamp': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-              'articles': [{'title': a['title'], 'source': a['source'], 'link': a.get('link', ''), 'date': today_str} for a in new_articles],
+              'articles': [{'title': a['title'], 'source': a['source'], 'link': a.get('link', ''), 'date': today_str, 'summary': a.get('summary', '')} for a in new_articles],
           }
           with open('latest-news.json', 'w', encoding='utf-8') as f:
               json.dump(notif_data, f, ensure_ascii=False, indent=2)

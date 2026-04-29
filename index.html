@@ -2060,7 +2060,7 @@
           title: a.title,
           source: a.source || 'UAP News',
           date: a.date || new Date().toISOString().split('T')[0],
-          summary: a.title,
+          summary: (a.summary && a.summary.length > 80) ? a.summary : a.title,
           url: a.link || '',
           isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(a.source + a.title),
           _mentions: 1
