@@ -1546,12 +1546,17 @@
 
       async function _fetchMetaDesc(url) {
         if (!url || !/^https?:\/\//.test(url)) return '';
+        // Google News URLs are redirect pages — proxy won't reach the real article
+        if (/news\.google\.com/i.test(url)) return '';
+        var _BOILERPLATE = /google news|nachrichten aus aller welt|zusammengetragen|news aggregat/i;
         function _extractMeta(html) {
           var _m = html.match(/property=["']og:description["'][^>]+content=["']([^"']{80,})["']/i)
                  || html.match(/content=["']([^"']{80,})["'][^>]*property=["']og:description["']/i)
                  || html.match(/name=["']description["'][^>]+content=["']([^"']{80,})["']/i)
                  || html.match(/content=["']([^"']{80,})["'][^>]*name=["']description["']/i);
-          return _m ? _clipAtSentence(_m[1].replace(/&#?\w+;/g, ' ').replace(/\s+/g, ' ').trim(), 520) : '';
+          if (!_m) return '';
+          var _t = _clipAtSentence(_m[1].replace(/&#?\w+;/g, ' ').replace(/\s+/g, ' ').trim(), 520);
+          return _BOILERPLATE.test(_t) ? '' : _t;
         }
         async function _tryProxy(proxyUrl, isJson) {
           try {
@@ -1585,7 +1590,8 @@
               var _rdFb = (_a._rssDesc || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
               var _rnFb = _rdFb.toLowerCase().replace(/[^a-z0-9]/g, '');
               var _tnFb = (_a.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-              if (_rdFb.length >= 40 && !_rnFb.includes(_tnFb) && _rdFb !== _a.title) {
+              var _rdBpFb = /google news|nachrichten aus aller welt|zusammengetragen|news aggregat/i.test(_rdFb);
+              if (_rdFb.length >= 40 && !_rnFb.includes(_tnFb) && _rdFb !== _a.title && !_rdBpFb) {
                 _fb.textContent = _rdFb;
                 _fb.style.cssText = 'opacity:0.4;font-style:italic';
               } else {
@@ -1633,12 +1639,13 @@
               _res = _clipAtSentence((_hf || '').trim(), 520);
             } catch(_e) { _res = ''; }
           }
-          // 4. Last resort: RSS description if meaningfully different from title
+          // 4. Last resort: RSS description if meaningfully different from title and not boilerplate
           if (!_res || _res.length < 100) {
             var _rd = (_a._rssDesc || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
             var _rn = _rd.toLowerCase().replace(/[^a-z0-9]/g, '');
             var _tn = (_a.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-            if (_rd.length >= 40 && !_rn.includes(_tn) && _rd !== _a.title) _res = _rd;
+            var _rdBp = /google news|nachrichten aus aller welt|zusammengetragen|news aggregat/i.test(_rd);
+            if (_rd.length >= 40 && !_rn.includes(_tn) && _rd !== _a.title && !_rdBp) _res = _rd;
           }
           _applySummary(_a, (_res && _res.length >= 40) ? _res : null);
         }));
