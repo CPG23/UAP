@@ -1315,10 +1315,11 @@
   function callAI(prompt) {
     var _enc = encodeURIComponent(prompt);
     var _seed = Math.abs(prompt.split('').reduce(function(h,c){return((h<<5)-h+c.charCodeAt(0))|0;},0)) % 99999 + 1;
+    var _models = ['openai', 'mistral', 'llama'];
 
     function _get(model) {
       var ctrl = new AbortController();
-      var _t = setTimeout(function() { ctrl.abort(); }, 22000);
+      var _t = setTimeout(function() { ctrl.abort(); }, 15000);
       return fetch('https://text.pollinations.ai/' + _enc + '?model=' + model, { signal: ctrl.signal })
         .then(function(r) { clearTimeout(_t); if (!r.ok) throw new Error(r.status); return r.text(); })
         .then(function(t) { t = (t||'').trim(); if (t.length < 30) throw new Error('empty'); return t; })
@@ -1327,7 +1328,7 @@
 
     function _post(model) {
       var ctrl = new AbortController();
-      var _t = setTimeout(function() { ctrl.abort(); }, 25000);
+      var _t = setTimeout(function() { ctrl.abort(); }, 20000);
       return fetch('https://text.pollinations.ai/openai', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -1352,29 +1353,43 @@
       .catch(function(e) { clearTimeout(_t); throw e; });
     }
 
-    // 4 attempts: GET openai → GET mistral → POST openai → POST mistral
-    return _get('openai')
-      .catch(function() { return _get('mistral'); })
-      .catch(function() { return _post('openai'); })
-      .catch(function() { return _post('mistral'); });
+    // Race all GET models in parallel, then race all POST models — first valid response wins
+    function _raceAll(fn) {
+      return new Promise(function(resolve, reject) {
+        var left = _models.length;
+        _models.forEach(function(m) {
+          fn(m).then(resolve).catch(function() { if (--left === 0) reject(new Error('all failed')); });
+        });
+      });
+    }
+    return _raceAll(_get).catch(function() { return _raceAll(_post); });
   }
 
   function _callHF(title) {
-    var ctrl = new AbortController();
-    var _t = setTimeout(function() { ctrl.abort(); }, 30000);
-    return fetch('https://api-inference.huggingface.co/models/google/flan-t5-large', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      signal: ctrl.signal,
-      body: JSON.stringify({ inputs: 'Write a 5-sentence factual news summary about: ' + title })
-    })
-    .then(function(r) { clearTimeout(_t); if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function(d) {
-      var t = (Array.isArray(d) ? (d[0].generated_text || d[0].summary_text || '') : '').trim();
-      if (t.length < 40) throw new Error('empty');
-      return t;
-    })
-    .catch(function(e) { clearTimeout(_t); throw e; });
+    var _hfModels = ['google/flan-t5-large', 'google/flan-t5-xl'];
+    function _hfOne(model) {
+      var ctrl = new AbortController();
+      var _t = setTimeout(function() { ctrl.abort(); }, 25000);
+      return fetch('https://api-inference.huggingface.co/models/' + model, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        signal: ctrl.signal,
+        body: JSON.stringify({ inputs: 'Write a 5-sentence factual news summary about: ' + title })
+      })
+      .then(function(r) { clearTimeout(_t); if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function(d) {
+        var t = (Array.isArray(d) ? (d[0].generated_text || d[0].summary_text || '') : '').trim();
+        if (t.length < 40) throw new Error('empty');
+        return t;
+      })
+      .catch(function(e) { clearTimeout(_t); throw e; });
+    }
+    return new Promise(function(resolve, reject) {
+      var left = _hfModels.length;
+      _hfModels.forEach(function(m) {
+        _hfOne(m).then(resolve).catch(function() { if (--left === 0) reject(new Error('hf failed')); });
+      });
+    });
   }
 
   async function loadNews() {
@@ -1591,7 +1606,7 @@
               var _rnFb = _rdFb.toLowerCase().replace(/[^a-z0-9]/g, '');
               var _tnFb = (_a.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
               var _rdBpFb = /google news|nachrichten aus aller welt|zusammengetragen|news aggregat/i.test(_rdFb);
-              if (_rdFb.length >= 40 && !_rnFb.includes(_tnFb) && _rdFb !== _a.title && !_rdBpFb) {
+              if (_rdFb.length >= 30 && _rdFb !== _a.title && !_rdBpFb) {
                 _fb.textContent = _rdFb;
                 _fb.style.cssText = 'opacity:0.4;font-style:italic';
               } else {
@@ -1617,39 +1632,53 @@
             }
           }
         }
-        await Promise.allSettled(_toSum.map(async function(_a) {
-          // 1. Versuche og:description / meta description vom Artikel (parallel, je eigene URL)
+        var _BOIL = /google news|nachrichten aus aller welt|zusammengetragen|news aggregat/i;
+        async function _sumOne(_a) {
+          // 1. og:description via proxy (skipped for news.google.com)
           var _res = await _fetchMetaDesc(_a.url);
           if (_res) {
             var _rn = _res.toLowerCase().replace(/[^a-z0-9]/g, '');
             var _tn = (_a.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
             if (_rn === _tn || _rn.includes(_tn)) _res = '';
           }
-          // 2. Fallback: AI (pollinations.ai, 4 internal attempts)
+          // 2. pollinations.ai — 3 models in parallel (GET), then 3 in parallel (POST)
           if (!_res || _res.length < 100) {
             try {
               var _ai = await callAI('5-sentence factual summary, English, plain text only: ' + _a.title);
               _res = _clipAtSentence((_ai || '').trim(), 520);
             } catch(_e) { _res = ''; }
           }
-          // 3. Fallback: HuggingFace Inference API (free, no key)
+          // 3. HuggingFace — 2 models in parallel
           if (!_res || _res.length < 100) {
             try {
               var _hf = await _callHF(_a.title);
               _res = _clipAtSentence((_hf || '').trim(), 520);
             } catch(_e) { _res = ''; }
           }
-          // 4. Last resort: RSS description if meaningfully different from title and not boilerplate
-          if (!_res || _res.length < 100) {
+          // 4. RSS description — lenient: any text ≥ 30 chars that isn't the title or boilerplate
+          if (!_res || _res.length < 30) {
             var _rd = (_a._rssDesc || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-            var _rn = _rd.toLowerCase().replace(/[^a-z0-9]/g, '');
-            var _tn = (_a.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-            var _rdBp = /google news|nachrichten aus aller welt|zusammengetragen|news aggregat/i.test(_rd);
-            if (_rd.length >= 40 && !_rn.includes(_tn) && _rd !== _a.title && !_rdBp) _res = _rd;
+            if (_rd.length >= 30 && _rd !== _a.title && !_BOIL.test(_rd)) _res = _rd;
           }
-          _applySummary(_a, (_res && _res.length >= 40) ? _res : null);
+          return _res;
+        }
+
+        await Promise.allSettled(_toSum.map(async function(_a) {
+          var _res = await _sumOne(_a);
+          _applySummary(_a, (_res && _res.length >= 30) ? _res : null);
         }));
         saveFeedCache();
+
+        // Retry articles still without a summary after 30s — rate limits usually clear by then
+        await new Promise(function(r) { setTimeout(r, 30000); });
+        var _retry = currentArticles.filter(_badSummary);
+        if (_retry.length) {
+          await Promise.allSettled(_retry.map(async function(_a) {
+            var _res = await _sumOne(_a);
+            if (_res && _res.length >= 30) _applySummary(_a, _res);
+          }));
+          saveFeedCache();
+        }
       })();
 
       await new Promise(function(r) { setTimeout(r, 3000); });
