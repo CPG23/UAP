@@ -1510,6 +1510,13 @@
       _syncSeenIds();
 
       // Fetch og:description / meta description from article URL via allorigins proxy
+      function _clipAtSentence(text, max) {
+        if (!text || text.length <= max) return text;
+        var sub = text.substring(0, max);
+        var dot = Math.max(sub.lastIndexOf('. '), sub.lastIndexOf('! '), sub.lastIndexOf('? '));
+        return dot > max * 0.55 ? sub.substring(0, dot + 1) : sub.replace(/\s+\S+$/, '') + '…';
+      }
+
       async function _fetchMetaDesc(url) {
         if (!url || !/^https?:\/\//.test(url)) return '';
         try {
@@ -1520,11 +1527,11 @@
           if (!_r.ok) return '';
           var _j = await _r.json();
           var _h = (_j && _j.contents) || '';
-          var _m = _h.match(/property=["']og:description["'][^>]+content=["']([^"']{60,600})["']/i)
-                || _h.match(/content=["']([^"']{60,600})["'][^>]*property=["']og:description["']/i)
-                || _h.match(/name=["']description["'][^>]+content=["']([^"']{60,600})["']/i)
-                || _h.match(/content=["']([^"']{60,600})["'][^>]*name=["']description["']/i);
-          if (_m) return _m[1].replace(/&#?\w+;/g, ' ').replace(/\s+/g, ' ').trim();
+          var _m = _h.match(/property=["']og:description["'][^>]+content=["']([^"']{80,})["']/i)
+                || _h.match(/content=["']([^"']{80,})["'][^>]*property=["']og:description["']/i)
+                || _h.match(/name=["']description["'][^>]+content=["']([^"']{80,})["']/i)
+                || _h.match(/content=["']([^"']{80,})["'][^>]*name=["']description["']/i);
+          if (_m) return _clipAtSentence(_m[1].replace(/&#?\w+;/g, ' ').replace(/\s+/g, ' ').trim(), 320);
         } catch(_e) {}
         return '';
       }
@@ -1532,7 +1539,7 @@
       // Background summarization — fire and forget, updates DOM as each completes
       function _badSummary(a) {
         var s = (a.summary || '').trim();
-        return s.length < 80 || s === (a.title || '').trim();
+        return s.length < 100 || s === (a.title || '').trim();
       }
       (async function _bgSummarize() {
         var _toSum = currentArticles.filter(_badSummary);
@@ -1558,11 +1565,20 @@
           if (_i > 0) await new Promise(function(r) { setTimeout(r, 300); });
           // 1. Versuche og:description / meta description vom Artikel
           var _res = await _fetchMetaDesc(_a.url);
-          // 2. Fallback: KI (pollinations.ai)
-          if (!_res || _res.length < 80) {
-            try { _res = await callAI('3-sentence factual summary, English, plain text only: ' + _a.title); } catch(_e) { _res = ''; }
+          // Ablehnen wenn zu ähnlich zum Titel
+          if (_res) {
+            var _rn = _res.toLowerCase().replace(/[^a-z0-9]/g, '');
+            var _tn = (_a.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+            if (_rn === _tn || _rn.includes(_tn)) _res = '';
           }
-          if (_res && _res.length >= 80) {
+          // 2. Fallback: KI (pollinations.ai)
+          if (!_res || _res.length < 100) {
+            try {
+              var _ai = await callAI('3-sentence factual summary, English, plain text only: ' + _a.title);
+              _res = _clipAtSentence((_ai || '').trim(), 320);
+            } catch(_e) { _res = ''; }
+          }
+          if (_res && _res.length >= 100) {
             _applySummary(_a, _res);
           }
         }
@@ -1693,7 +1709,7 @@
     const _rawSum = (article.summary || '').trim();
     const hasSummary = _rawSum && _rawSum !== (article.title || '').trim() && _rawSum.length > 20;
     const _sumDisplay = hasSummary ? escHtml(_rawSum) : escHtml((article.title || '').substring(0, 160));
-    const _sumIsAI    = _rawSum.length >= 80 && _rawSum !== (article.title || '');
+    const _sumIsAI    = _rawSum.length >= 100 && _rawSum !== (article.title || '');
     const _aid = article.id;
     card.innerHTML = `
       <div class="article-header" onclick="toggleCard('${_aid}')">
