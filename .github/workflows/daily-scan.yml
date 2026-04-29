@@ -22,102 +22,79 @@ jobs:
           restore-keys: |
             seen-ids-
 
-      - name: Scan UAP news & send ntfy notification
+      - name: Scan UAP news, generate summaries & send ntfy notification
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
           python3 << 'PYEOF'
-          import os, re, json, urllib.request, urllib.parse
+          import os, re, json, time, urllib.request, urllib.parse
           from datetime import datetime, timedelta, timezone
           from email.utils import parsedate_to_datetime
           from xml.etree import ElementTree as ET
 
           NTFY_TOPIC = os.environ.get('NTFY_TOPIC', '').strip()
           if not NTFY_TOPIC:
-              print('NTFY_TOPIC secret nicht gesetzt – Scan läuft ohne Benachrichtigung.')
+              print('NTFY_TOPIC nicht gesetzt – Scan ohne Benachrichtigung.')
 
           SEEN_FILE = '.seen-ids.json'
           try:
               with open(SEEN_FILE) as f:
                   notified_ids = set(json.load(f))
-              print(f'Geladene seen-IDs: {len(notified_ids)}')
+              print(f'seen-IDs geladen: {len(notified_ids)}')
           except Exception:
               notified_ids = set()
-              print('Keine seen-IDs-Datei gefunden – starte frisch.')
+              print('Keine seen-IDs – starte frisch.')
+
+          UAP_RE = re.compile(
+              r'\b(uap|ufo|ufos|alien|aliens|extraterrestrial|unidentified|aerial|'
+              r'phenomenon|phenomena|sighting|sightings|disclosure|whistleblower|'
+              r'pentagon|crash.?retrieval|nonhuman|non.human|orb|havana|usos?)\b', re.I)
 
           def topic_id(title):
               words = re.sub(r'[^a-z0-9]', ' ', title.lower()).split()
               return '-'.join(sorted(w for w in words if len(w) > 3))
-
-          queries = [
-              'UAP UFO 2026',
-              'UFO sighting 2026',
-              'UAP disclosure 2026',
-              'UAP Pentagon whistleblower 2026',
-          ]
-
-          cutoff      = datetime.now(timezone.utc) - timedelta(hours=25)
-          seen_titles = set()
-          all_articles = []
 
           def clean_title(t):
               t = re.sub(r'<!\[CDATA\[|\]\]>', '', t or '').strip()
               t = re.sub(r'\s+[-–]\s+\S.{1,45}$', '', t).strip()
               return t
 
-          for query in queries:
+          def fetch_rss(query, cutoff=None):
+              results = []
               try:
                   q   = urllib.parse.quote(query)
                   url = f'https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en'
                   req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
                   with urllib.request.urlopen(req, timeout=20) as r:
                       xml = r.read().decode('utf-8', errors='replace')
-
                   root = ET.fromstring(xml)
                   for item in root.findall('.//item'):
-                      title_el   = item.find('title')
-                      pubdate_el = item.find('pubDate')
-                      source_el  = item.find('source')
-                      link_el    = item.find('link')
-
+                      title_el = item.find('title')
                       if title_el is None:
                           continue
                       title = clean_title(title_el.text)
-                      if not title or title.lower() in seen_titles:
+                      if not title:
                           continue
-
-                      if pubdate_el is not None and pubdate_el.text:
-                          try:
-                              pub_dt = parsedate_to_datetime(pubdate_el.text.strip())
-                              if pub_dt.tzinfo is None:
-                                  pub_dt = pub_dt.replace(tzinfo=timezone.utc)
-                              if pub_dt < cutoff:
-                                  continue
-                          except Exception:
-                              pass
-
-                      seen_titles.add(title.lower())
-                      link = ''
-                      if link_el is not None:
-                          link = (link_el.get('href') or link_el.text or '').strip()
-                      source = (source_el.text or 'UAP News').strip() if source_el is not None else 'UAP News'
-                      all_articles.append({'title': title, 'source': source, 'link': link})
-
+                      if cutoff is not None:
+                          pd_el = item.find('pubDate')
+                          if pd_el is not None and pd_el.text:
+                              try:
+                                  pub_dt = parsedate_to_datetime(pd_el.text.strip())
+                                  if pub_dt.tzinfo is None:
+                                      pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+                                  if pub_dt < cutoff:
+                                      continue
+                              except Exception:
+                                  pass
+                      src_el  = item.find('source')
+                      link_el = item.find('link')
+                      link = (link_el.get('href') or link_el.text or '').strip() if link_el is not None else ''
+                      source = (src_el.text or 'UAP News').strip() if src_el is not None else 'UAP News'
+                      results.append({'title': title, 'source': source, 'link': link})
               except Exception as e:
-                  print(f'Fehler bei "{query}": {e}')
+                  print(f'RSS-Fehler "{query}": {e}')
+              return results
 
-          new_articles = [a for a in all_articles if topic_id(a['title']) not in notified_ids]
-
-          if not new_articles:
-              print(f'Keine neuen UAP-Artikel (von {len(all_articles)} gefundenen bereits gemeldet).')
-              exit(0)
-
-          count = len(new_articles)
-          print(f'{count} neue Artikel gefunden:')
-          for a in new_articles[:5]:
-              print(f'  – {a["title"]} [{a["source"]}]')
-
-          # KI-Zusammenfassungen server-seitig generieren (kein CORS, kein Rate-Limit)
           def ai_summarize(title):
               prompt = '3-sentence factual summary, English, plain text only: ' + title
               payload = json.dumps({
@@ -126,86 +103,138 @@ jobs:
                       {'role': 'system', 'content': 'You are a helpful assistant. Return only what is asked, plain text, no markdown.'},
                       {'role': 'user', 'content': prompt}
                   ],
-                  'max_tokens': 512,
+                  'max_tokens': 400,
                   'temperature': 0.3
               }).encode('utf-8')
-              req = urllib.request.Request(
-                  'https://text.pollinations.ai/openai',
-                  data=payload,
-                  headers={'Content-Type': 'application/json', 'User-Agent': 'UAP-News-Bot/1.0'},
-                  method='POST'
-              )
-              try:
-                  with urllib.request.urlopen(req, timeout=30) as r:
-                      d = json.loads(r.read())
-                      t = ((d.get('choices') or [{}])[0].get('message') or {}).get('content', '')
-                      t = (t or '').strip()
-                      if len(t) >= 80:
-                          return t
-              except Exception as e:
-                  print(f'  KI-Fehler für "{title[:60]}": {e}')
+              for attempt in range(3):
+                  try:
+                      req = urllib.request.Request(
+                          'https://text.pollinations.ai/openai',
+                          data=payload,
+                          headers={'Content-Type': 'application/json', 'User-Agent': 'UAP-News-Bot/1.0'},
+                          method='POST'
+                      )
+                      with urllib.request.urlopen(req, timeout=35) as r:
+                          d = json.loads(r.read())
+                          t = ((d.get('choices') or [{}])[0].get('message') or {}).get('content', '')
+                          t = (t or '').strip()
+                          if len(t) >= 60:
+                              return t
+                  except Exception as e:
+                      if attempt < 2:
+                          time.sleep(3)
+                      else:
+                          print(f'    KI-Fehler (3 Versuche): {e}')
               return ''
 
-          import time as _time
-          print('Generiere KI-Zusammenfassungen...')
-          for i, article in enumerate(new_articles):
-              if i > 0:
-                  _time.sleep(1)
-              summary = ai_summarize(article['title'])
-              article['summary'] = summary
-              if summary:
-                  print(f'  ✓ {article["title"][:60]}')
-              else:
-                  print(f'  ✗ {article["title"][:60]} (kein KI-Text)')
-
-          # Immer latest-news.json schreiben, unabhängig vom ntfy-Ergebnis
+          # ── 1. BROAD SCAN: 8 queries, gleich wie App ──────────────────────
+          broad_queries = [
+              'UAP UFO 2026', 'UFO sighting 2026', 'UAP alien disclosure 2026', 'UFO news 2026',
+              'UAP whistleblower 2026', 'UFO witness encounter 2026',
+              'UAP government Pentagon 2026', 'UFO crash retrieval nonhuman 2026',
+          ]
+          sum_seen  = set()
+          sum_arts  = {}   # tid -> {'title':..., 'source':..., 'link':...}
           today_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+
+          for q in broad_queries:
+              for a in fetch_rss(q):
+                  tl = a['title'].lower()
+                  if tl in sum_seen or not UAP_RE.search(a['title']):
+                      continue
+                  sum_seen.add(tl)
+                  tid = topic_id(a['title'])
+                  if tid not in sum_arts and len(sum_arts) < 25:
+                      sum_arts[tid] = a
+
+          print(f'Broad scan: {len(sum_arts)} einzigartige UAP-Artikel')
+
+          # ── 2. GENERATE SUMMARIES FOR ALL ─────────────────────────────────
+          summaries_map = {}
+          ok = 0
+          print(f'Generiere Zusammenfassungen...')
+          for i, (tid, art) in enumerate(sum_arts.items()):
+              if i > 0:
+                  time.sleep(2)
+              s = ai_summarize(art['title'])
+              if s:
+                  summaries_map[tid] = s
+                  ok += 1
+                  print(f'  ✓ {art["title"][:65]}')
+              else:
+                  print(f'  ✗ {art["title"][:65]}')
+          print(f'Zusammenfassungen: {ok}/{len(sum_arts)}')
+
+          # ── 3. NOTIFICATION: which articles are new? ──────────────────────
+          notif_cutoff = datetime.now(timezone.utc) - timedelta(hours=25)
+          notif_seen   = set()
+          notif_pool   = []
+
+          for q in ['UAP UFO 2026', 'UFO sighting 2026', 'UAP disclosure 2026', 'UAP Pentagon whistleblower 2026']:
+              for a in fetch_rss(q, cutoff=notif_cutoff):
+                  tl = a['title'].lower()
+                  if tl not in notif_seen:
+                      notif_seen.add(tl)
+                      notif_pool.append(a)
+
+          new_articles = [a for a in notif_pool if topic_id(a['title']) not in notified_ids]
+          print(f'Notification: {len(notif_pool)} Artikel gecheckt, {len(new_articles)} neu')
+
+          # ── 4. WRITE latest-news.json ──────────────────────────────────────
           notif_data = {
               'timestamp': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-              'articles': [{'title': a['title'], 'source': a['source'], 'link': a.get('link', ''), 'date': today_str, 'summary': a.get('summary', '')} for a in new_articles],
+              'articles':  [
+                  {
+                      'title':   a['title'],
+                      'source':  a['source'],
+                      'link':    a.get('link', ''),
+                      'date':    today_str,
+                      'summary': summaries_map.get(topic_id(a['title']), ''),
+                  }
+                  for a in new_articles
+              ],
+              'summaries': summaries_map,
           }
           with open('latest-news.json', 'w', encoding='utf-8') as f:
               json.dump(notif_data, f, ensure_ascii=False, indent=2)
-          print(f'latest-news.json geschrieben: {count} Artikel')
+          print(f'latest-news.json: {len(new_articles)} Notif-Artikel, {len(summaries_map)} Zusammenfassungen')
 
-          # seen-IDs immer aktualisieren
-          new_ids = list(notified_ids | {topic_id(a['title']) for a in new_articles})
-          new_ids = new_ids[-500:]
-          with open(SEEN_FILE, 'w') as f:
-              json.dump(new_ids, f)
-          print(f'seen-IDs gespeichert: {len(new_ids)} Einträge')
+          # ── 5. UPDATE seen-IDs ─────────────────────────────────────────────
+          if new_articles:
+              new_ids = list(notified_ids | {topic_id(a['title']) for a in new_articles})
+              new_ids = new_ids[-500:]
+              with open(SEEN_FILE, 'w') as f:
+                  json.dump(new_ids, f)
+              print(f'seen-IDs: {len(new_ids)} gespeichert')
 
-          # ntfy-Benachrichtigung senden (optional)
+          # ── 6. NTFY NOTIFICATION ───────────────────────────────────────────
+          if not new_articles:
+              print('Keine neuen Artikel – keine Benachrichtigung.')
+              exit(0)
+
           if not NTFY_TOPIC:
               print('Kein NTFY_TOPIC – Benachrichtigung übersprungen.')
               exit(0)
 
-          notif_title = f'UAP NEWS — {count} neue Meldung{"en" if count > 1 else ""}'
-          body = new_articles[0]["title"]
-          if count > 1:
-              body += f'\n+ {count - 1} weitere Meldung{"en" if count > 2 else ""}'
-
+          count = len(new_articles)
           payload = json.dumps({
               'topic':    NTFY_TOPIC,
-              'title':    notif_title,
-              'message':  body,
+              'title':    f'UAP NEWS — {count} neue Meldung{"en" if count > 1 else ""}',
+              'message':  new_articles[0]['title'] + (f'\n+ {count-1} weitere' if count > 1 else ''),
               'priority': 3,
               'tags':     ['flying_saucer'],
               'click':    'https://cpg23.github.io/UAP/',
           }).encode('utf-8')
-
-          req = urllib.request.Request(
-              'https://ntfy.sh',
-              data=payload,
-              headers={'Content-Type': 'application/json', 'User-Agent': 'UAP-News-Bot/1.0'},
-              method='POST'
-          )
           try:
+              req = urllib.request.Request(
+                  'https://ntfy.sh', data=payload,
+                  headers={'Content-Type': 'application/json', 'User-Agent': 'UAP-News-Bot/1.0'},
+                  method='POST'
+              )
               with urllib.request.urlopen(req, timeout=15) as r:
                   print(f'Benachrichtigung gesendet (HTTP {r.status})')
           except Exception as e:
-              print(f'Fehler beim Senden der Benachrichtigung: {e}')
-              # Kein exit(1) – latest-news.json wurde bereits gespeichert
+              print(f'ntfy-Fehler: {e}')
           PYEOF
 
       - name: Publish latest-news.json

@@ -1456,17 +1456,28 @@
       var newRssItems = rssItemsFiltered.filter(function(it) { return !cachedIds.has(topicId(it.title)); });
 
       var newArticles = newRssItems.slice(0, 20).map(function(it) {
+        var _id  = topicId(it.title);
+        var _pre = _notifSummaries[_id] || '';
         return {
-          id: topicId(it.title),
+          id: _id,
           title: it.title,
           source: it.source || 'Google News',
           date: it.date,
-          summary: it.description || it.title,
+          summary: (_pre.length > 80) ? _pre : (it.description || it.title),
           url: it.link,
           isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(it.source + it.title),
           _mentions: it._mentions || 1
         };
       });
+
+      // Auch gecachte Artikel mit frischen Server-Zusammenfassungen aktualisieren
+      if (Object.keys(_notifSummaries).length) {
+        cachedArts = cachedArts.map(function(a) {
+          var _pre = _notifSummaries[a.id] || '';
+          return (_pre.length > 80 && _pre.length > (a.summary || '').length)
+            ? Object.assign({}, a, { summary: _pre }) : a;
+        });
+      }
 
       // Notif-Artikel aus latest-news.json injizieren, falls nicht via RSS gefunden
       if (_pendingNotifArticles.length) {
@@ -2028,34 +2039,45 @@
   }
 
   var _pendingNotifArticles = [];
+  var _notifSummaries = {};
 
   async function applyLatestNotification() {
     try {
       var resp = await fetch('./latest-news.json?_=' + Date.now(), { cache: 'no-store' });
       if (!resp.ok) return;
       var data = await resp.json();
-      if (!data.timestamp || !Array.isArray(data.articles) || !data.articles.length) return;
+      if (!data.timestamp) return;
       var notifTs = new Date(data.timestamp).getTime();
       if (isNaN(notifTs) || Date.now() - notifTs > 25 * 3600 * 1000) return;
-      var lastNotifTs = parseInt(localStorage.getItem('uap_last_notif_ts') || '0');
-      if (notifTs <= lastNotifTs) return;
-      var notifIds = data.articles.map(function(a) { return topicId(a.title); });
-      seenArticleIds = seenArticleIds.filter(function(id) { return notifIds.indexOf(id) === -1; });
-      localStorage.setItem('uap_seen_ids', JSON.stringify(seenArticleIds));
-      localStorage.setItem('uap_last_notif_ts', notifTs.toString());
-      // Artikel für spätere Injektion in den Feed merken (falls nicht via RSS gefunden)
-      _pendingNotifArticles = data.articles.map(function(a) {
-        return {
-          id: topicId(a.title),
-          title: a.title,
-          source: a.source || 'UAP News',
-          date: a.date || new Date().toISOString().split('T')[0],
-          summary: (a.summary && a.summary.length > 80) ? a.summary : a.title,
-          url: a.link || '',
-          isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(a.source + a.title),
-          _mentions: 1
-        };
-      });
+
+      // Summaries-Map global speichern — wird in loadNews() für alle Artikel genutzt
+      if (data.summaries && typeof data.summaries === 'object') {
+        _notifSummaries = data.summaries;
+      }
+
+      // Notification-Artikel nur einmal als "neu" markieren
+      if (Array.isArray(data.articles) && data.articles.length) {
+        var lastNotifTs = parseInt(localStorage.getItem('uap_last_notif_ts') || '0');
+        if (notifTs > lastNotifTs) {
+          var notifIds = data.articles.map(function(a) { return topicId(a.title); });
+          seenArticleIds = seenArticleIds.filter(function(id) { return notifIds.indexOf(id) === -1; });
+          localStorage.setItem('uap_seen_ids', JSON.stringify(seenArticleIds));
+          localStorage.setItem('uap_last_notif_ts', notifTs.toString());
+          _pendingNotifArticles = data.articles.map(function(a) {
+            var _sum = _notifSummaries[topicId(a.title)] || a.summary || '';
+            return {
+              id: topicId(a.title),
+              title: a.title,
+              source: a.source || 'UAP News',
+              date: a.date || new Date().toISOString().split('T')[0],
+              summary: (_sum.length > 80) ? _sum : a.title,
+              url: a.link || '',
+              isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(a.source + a.title),
+              _mentions: 1
+            };
+          });
+        }
+      }
     } catch(e) {}
   }
 
