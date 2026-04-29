@@ -1539,7 +1539,7 @@
                 || _h.match(/content=["']([^"']{80,})["'][^>]*property=["']og:description["']/i)
                 || _h.match(/name=["']description["'][^>]+content=["']([^"']{80,})["']/i)
                 || _h.match(/content=["']([^"']{80,})["'][^>]*name=["']description["']/i);
-          if (_m) return _clipAtSentence(_m[1].replace(/&#?\w+;/g, ' ').replace(/\s+/g, ' ').trim(), 320);
+          if (_m) return _clipAtSentence(_m[1].replace(/&#?\w+;/g, ' ').replace(/\s+/g, ' ').trim(), 520);
         } catch(_e) {}
         return '';
       }
@@ -1584,8 +1584,8 @@
           // 2. Fallback: KI (pollinations.ai)
           if (!_res || _res.length < 100) {
             try {
-              var _ai = await callAI('3-sentence factual summary, English, plain text only: ' + _a.title);
-              _res = _clipAtSentence((_ai || '').trim(), 320);
+              var _ai = await callAI('5-sentence factual summary, English, plain text only: ' + _a.title);
+              _res = _clipAtSentence((_ai || '').trim(), 520);
             } catch(_e) { _res = ''; }
           }
           _applySummary(_a, (_res && _res.length >= 100) ? _res : null);
@@ -2050,7 +2050,7 @@
     errEl.className = 'sum-loading-row';
     errEl.textContent = '⟳ KI-Zusammenfassung wird erstellt…';
     try {
-      var prompt = '3-sentence factual summary, English, plain text only: ' + article.title;
+      var prompt = '5-sentence factual summary, English, plain text only: ' + article.title;
       var res = await callAI(prompt, 900);
       if (res && res.trim().length > 150) {
         var titleWords = (article.title || '').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(function(w){return w.length>4;});

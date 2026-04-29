@@ -96,14 +96,14 @@ jobs:
               return results
 
           def ai_summarize(title):
-              prompt = '3-sentence factual summary, English, plain text only: ' + title
+              prompt = '5-sentence factual summary, English, plain text only: ' + title
               payload = json.dumps({
                   'model': 'openai',
                   'messages': [
                       {'role': 'system', 'content': 'You are a helpful assistant. Return only what is asked, plain text, no markdown.'},
                       {'role': 'user', 'content': prompt}
                   ],
-                  'max_tokens': 400,
+                  'max_tokens': 650,
                   'temperature': 0.3
               }).encode('utf-8')
               for attempt in range(3):
