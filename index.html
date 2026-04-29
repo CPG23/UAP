@@ -1552,12 +1552,14 @@
       (async function _bgSummarize() {
         var _toSum = currentArticles.filter(_badSummary);
         function _applySummary(_a, _improved) {
-          if (!_improved) return;
+          var _loadEl = document.getElementById('sum-loading-' + _a.id);
+          if (!_improved) { if (_loadEl) _loadEl.remove(); return; }
           _a.summary = _improved;
           var _sumEl = document.getElementById('summary-text-' + _a.id);
           if (_sumEl) {
             _sumEl.textContent = _improved;
             _sumEl.removeAttribute('style');
+            if (_loadEl) _loadEl.remove();
             if (!document.getElementById('translate-sum-btn-' + _a.id)) {
               var _b = document.createElement('button');
               _b.className = 'btn-translate btn-translate-sm';
@@ -1586,9 +1588,7 @@
               _res = _clipAtSentence((_ai || '').trim(), 320);
             } catch(_e) { _res = ''; }
           }
-          if (_res && _res.length >= 100) {
-            _applySummary(_a, _res);
-          }
+          _applySummary(_a, (_res && _res.length >= 100) ? _res : null);
         }
         saveFeedCache();
       })();
@@ -1719,6 +1719,7 @@
     const hasSummary = _rawSum && _rawSum !== _titleTrim && _rawSum.length > 20;
     const _sumDisplay = hasSummary ? escHtml(_rawSum) : '';
     const _sumIsAI    = _rawSum.length >= 100 && _rawSum !== _titleTrim;
+
     const _aid = article.id;
     card.innerHTML = `
       <div class="article-header" onclick="toggleCard('${_aid}')">
@@ -1738,6 +1739,7 @@
           <div class="summary-row">
             <div class="section-label">ZUSAMMENFASSUNG</div>
             <div class="details-text summary-text" id="summary-text-${_aid}" ${_sumIsAI ? '' : 'style="opacity:0.6;font-style:italic"'}>${_sumDisplay}</div>
+            ${!hasSummary ? `<div class="sum-loading-row" id="sum-loading-${_aid}">⟳ Zusammenfassung wird geladen…</div>` : ''}
             ${_sumIsAI ? `<button class="btn-translate btn-translate-sm" id="translate-sum-btn-${_aid}" onclick="translateSummary('${_aid}')">🌐 Übersetzen</button>` : ''}
           </div>
         </div>
