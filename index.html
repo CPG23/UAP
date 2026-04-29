@@ -1509,10 +1509,27 @@
       saveFeedCache();
       _syncSeenIds();
 
+      // Fetch og:description / meta description from article URL via allorigins proxy
+      async function _fetchMetaDesc(url) {
+        if (!url || !/^https?:\/\//.test(url)) return '';
+        try {
+          var _ctrl = new AbortController();
+          var _t = setTimeout(function(){ _ctrl.abort(); }, 12000);
+          var _r = await fetch('https://api.allorigins.win/get?url=' + encodeURIComponent(url), { signal: _ctrl.signal });
+          clearTimeout(_t);
+          if (!_r.ok) return '';
+          var _j = await _r.json();
+          var _h = (_j && _j.contents) || '';
+          var _m = _h.match(/property=["']og:description["'][^>]+content=["']([^"']{60,600})["']/i)
+                || _h.match(/content=["']([^"']{60,600})["'][^>]*property=["']og:description["']/i)
+                || _h.match(/name=["']description["'][^>]+content=["']([^"']{60,600})["']/i)
+                || _h.match(/content=["']([^"']{60,600})["'][^>]*name=["']description["']/i);
+          if (_m) return _m[1].replace(/&#?\w+;/g, ' ').replace(/\s+/g, ' ').trim();
+        } catch(_e) {}
+        return '';
+      }
+
       // Background summarization — fire and forget, updates DOM as each completes
-      var _aiSumPrompt = function(title) {
-        return '3-sentence factual summary, English, plain text only: ' + title;
-      };
       function _badSummary(a) {
         var s = (a.summary || '').trim();
         return s.length < 80 || s === (a.title || '').trim();
@@ -1520,7 +1537,7 @@
       (async function _bgSummarize() {
         var _toSum = currentArticles.filter(_badSummary);
         function _applySummary(_a, _improved) {
-          if (!_improved) return; // kein Fehler-State — RSS-Beschreibung bleibt sichtbar
+          if (!_improved) return;
           _a.summary = _improved;
           var _sumEl = document.getElementById('summary-text-' + _a.id);
           if (_sumEl) {
@@ -1538,17 +1555,16 @@
         }
         for (var _i = 0; _i < _toSum.length; _i++) {
           var _a = _toSum[_i];
-          if (_i > 0) await new Promise(function(r) { setTimeout(r, 500); });
-          try {
-            var _res = await callAI(_aiSumPrompt(_a.title));
-            var _titleWords = (_a.title||'').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(function(w){return w.length>4;});
-            var _matches = _titleWords.filter(function(w){return _res.toLowerCase().indexOf(w)>=0;});
-            if (_res.length > 80 && (_titleWords.length===0 || _matches.length>0)) {
-              _applySummary(_a, _res);
-            } else {
-              _applySummary(_a, null);
-            }
-          } catch(e) { _applySummary(_a, null); }
+          if (_i > 0) await new Promise(function(r) { setTimeout(r, 300); });
+          // 1. Versuche og:description / meta description vom Artikel
+          var _res = await _fetchMetaDesc(_a.url);
+          // 2. Fallback: KI (pollinations.ai)
+          if (!_res || _res.length < 80) {
+            try { _res = await callAI('3-sentence factual summary, English, plain text only: ' + _a.title); } catch(_e) { _res = ''; }
+          }
+          if (_res && _res.length >= 80) {
+            _applySummary(_a, _res);
+          }
         }
         saveFeedCache();
       })();
