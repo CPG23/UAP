@@ -1504,33 +1504,24 @@
       };
       function _badSummary(a) {
         var s = (a.summary || '').trim();
-        return s.length < 200 || s === (a.title || '').trim();
+        return s.length < 80 || s === (a.title || '').trim();
       }
       (async function _bgSummarize() {
         var _toSum = currentArticles.filter(_badSummary);
         function _applySummary(_a, _improved) {
-          var _loadEl = document.getElementById('sum-loading-' + _a.id);
-          if (_improved) {
-            _a.summary = _improved;
-            var _sumEl = document.getElementById('summary-text-' + _a.id);
-            if (_sumEl) {
-              _sumEl.textContent = _improved;
-              _sumEl.removeAttribute('style');
-              if (_loadEl) _loadEl.remove();
-              if (!document.getElementById('translate-sum-btn-' + _a.id)) {
-                var _b = document.createElement('button');
-                _b.className = 'btn-translate btn-translate-sm';
-                _b.id = 'translate-sum-btn-' + _a.id;
-                _b.setAttribute('onclick', "translateSummary('" + _a.id + "')");
-                _b.textContent = '🌐 Übersetzen';
-                _sumEl.parentNode.insertBefore(_b, _sumEl.nextSibling);
-              }
-            }
-          } else {
-            if (_loadEl) {
-              _loadEl.className = 'sum-error-row';
-              _loadEl.innerHTML = '⚠ Zusammenfassung fehlgeschlagen'
-                + ' <button class="sum-retry-btn" onclick="retrySummary(\'' + _a.id + '\')">↺ WIEDERHOLEN</button>';
+          if (!_improved) return; // kein Fehler-State — RSS-Beschreibung bleibt sichtbar
+          _a.summary = _improved;
+          var _sumEl = document.getElementById('summary-text-' + _a.id);
+          if (_sumEl) {
+            _sumEl.textContent = _improved;
+            _sumEl.removeAttribute('style');
+            if (!document.getElementById('translate-sum-btn-' + _a.id)) {
+              var _b = document.createElement('button');
+              _b.className = 'btn-translate btn-translate-sm';
+              _b.id = 'translate-sum-btn-' + _a.id;
+              _b.setAttribute('onclick', "translateSummary('" + _a.id + "')");
+              _b.textContent = '🌐 Übersetzen';
+              _sumEl.parentNode.insertBefore(_b, _sumEl.nextSibling);
             }
           }
         }
@@ -1675,7 +1666,7 @@
     const _rawSum = (article.summary || '').trim();
     const hasSummary = _rawSum && _rawSum !== (article.title || '').trim() && _rawSum.length > 20;
     const _sumDisplay = hasSummary ? escHtml(_rawSum) : escHtml((article.title || '').substring(0, 160));
-    const _sumIsAI    = _rawSum.length >= 200;
+    const _sumIsAI    = _rawSum.length >= 80 && _rawSum !== (article.title || '');
     const _aid = article.id;
     card.innerHTML = `
       <div class="article-header" onclick="toggleCard('${_aid}')">
@@ -1695,7 +1686,6 @@
           <div class="summary-row">
             <div class="section-label">ZUSAMMENFASSUNG</div>
             <div class="details-text summary-text" id="summary-text-${_aid}" ${_sumIsAI ? '' : 'style="opacity:0.6;font-style:italic"'}>${_sumDisplay}</div>
-            ${!_sumIsAI ? `<div class="sum-loading-row" id="sum-loading-${_aid}">⟳ KI-Zusammenfassung wird erstellt…</div>` : ''}
             ${_sumIsAI ? `<button class="btn-translate btn-translate-sm" id="translate-sum-btn-${_aid}" onclick="translateSummary('${_aid}')">🌐 Übersetzen</button>` : ''}
           </div>
         </div>
