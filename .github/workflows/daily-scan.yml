@@ -34,8 +34,7 @@ jobs:
 
           NTFY_TOPIC = os.environ.get('NTFY_TOPIC', '').strip()
           if not NTFY_TOPIC:
-              print('NTFY_TOPIC secret nicht gesetzt – Benachrichtigung übersprungen.')
-              exit(0)
+              print('NTFY_TOPIC secret nicht gesetzt – Scan läuft ohne Benachrichtigung.')
 
           SEEN_FILE = '.seen-ids.json'
           try:
@@ -114,6 +113,31 @@ jobs:
               exit(0)
 
           count = len(new_articles)
+          print(f'{count} neue Artikel gefunden:')
+          for a in new_articles[:5]:
+              print(f'  – {a["title"]} [{a["source"]}]')
+
+          # Immer latest-news.json schreiben, unabhängig vom ntfy-Ergebnis
+          notif_data = {
+              'timestamp': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+              'articles': [{'title': a['title'], 'source': a['source']} for a in new_articles],
+          }
+          with open('latest-news.json', 'w', encoding='utf-8') as f:
+              json.dump(notif_data, f, ensure_ascii=False, indent=2)
+          print(f'latest-news.json geschrieben: {count} Artikel')
+
+          # seen-IDs immer aktualisieren
+          new_ids = list(notified_ids | {topic_id(a['title']) for a in new_articles})
+          new_ids = new_ids[-500:]
+          with open(SEEN_FILE, 'w') as f:
+              json.dump(new_ids, f)
+          print(f'seen-IDs gespeichert: {len(new_ids)} Einträge')
+
+          # ntfy-Benachrichtigung senden (optional)
+          if not NTFY_TOPIC:
+              print('Kein NTFY_TOPIC – Benachrichtigung übersprungen.')
+              exit(0)
+
           notif_title = f'UAP NEWS — {count} neue Meldung{"en" if count > 1 else ""}'
           body = new_articles[0]["title"]
           if count > 1:
@@ -136,27 +160,10 @@ jobs:
           )
           try:
               with urllib.request.urlopen(req, timeout=15) as r:
-                  print(f'Benachrichtigung gesendet (HTTP {r.status}): {count} Artikel')
-                  for a in new_articles[:5]:
-                      print(f'  – {a["title"]} [{a["source"]}]')
+                  print(f'Benachrichtigung gesendet (HTTP {r.status})')
           except Exception as e:
-              print(f'Fehler beim Senden: {e}')
-              exit(1)
-
-          new_ids = list(notified_ids | {topic_id(a['title']) for a in new_articles})
-          new_ids = new_ids[-500:]
-          with open(SEEN_FILE, 'w') as f:
-              json.dump(new_ids, f)
-          print(f'seen-IDs gespeichert: {len(new_ids)} Einträge')
-
-          from datetime import datetime as _dt
-          notif_data = {
-              'timestamp': _dt.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-              'articles': [{'title': a['title'], 'source': a['source']} for a in new_articles],
-          }
-          with open('latest-news.json', 'w', encoding='utf-8') as f:
-              json.dump(notif_data, f, ensure_ascii=False, indent=2)
-          print(f'latest-news.json geschrieben: {len(new_articles)} Artikel')
+              print(f'Fehler beim Senden der Benachrichtigung: {e}')
+              # Kein exit(1) – latest-news.json wurde bereits gespeichert
           PYEOF
 
       - name: Publish latest-news.json
