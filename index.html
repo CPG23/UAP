@@ -1529,7 +1529,7 @@
         if (!url || !/^https?:\/\//.test(url)) return '';
         try {
           var _ctrl = new AbortController();
-          var _t = setTimeout(function(){ _ctrl.abort(); }, 12000);
+          var _t = setTimeout(function(){ _ctrl.abort(); }, 8000);
           var _r = await fetch('https://api.allorigins.win/get?url=' + encodeURIComponent(url), { signal: _ctrl.signal });
           clearTimeout(_t);
           if (!_r.ok) return '';
@@ -1570,18 +1570,15 @@
             }
           }
         }
-        for (var _i = 0; _i < _toSum.length; _i++) {
-          var _a = _toSum[_i];
-          if (_i > 0) await new Promise(function(r) { setTimeout(r, 300); });
-          // 1. Versuche og:description / meta description vom Artikel
+        await Promise.allSettled(_toSum.map(async function(_a) {
+          // 1. Versuche og:description / meta description vom Artikel (parallel, je eigene URL)
           var _res = await _fetchMetaDesc(_a.url);
-          // Ablehnen wenn zu ähnlich zum Titel
           if (_res) {
             var _rn = _res.toLowerCase().replace(/[^a-z0-9]/g, '');
             var _tn = (_a.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
             if (_rn === _tn || _rn.includes(_tn)) _res = '';
           }
-          // 2. Fallback: KI (pollinations.ai)
+          // 2. Fallback: KI
           if (!_res || _res.length < 100) {
             try {
               var _ai = await callAI('5-sentence factual summary, English, plain text only: ' + _a.title);
@@ -1589,7 +1586,7 @@
             } catch(_e) { _res = ''; }
           }
           _applySummary(_a, (_res && _res.length >= 100) ? _res : null);
-        }
+        }));
         saveFeedCache();
       })();
 
