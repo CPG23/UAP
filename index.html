@@ -1527,21 +1527,27 @@
 
       async function _fetchMetaDesc(url) {
         if (!url || !/^https?:\/\//.test(url)) return '';
-        try {
-          var _ctrl = new AbortController();
-          var _t = setTimeout(function(){ _ctrl.abort(); }, 8000);
-          var _r = await fetch('https://api.allorigins.win/get?url=' + encodeURIComponent(url), { signal: _ctrl.signal });
-          clearTimeout(_t);
-          if (!_r.ok) return '';
-          var _j = await _r.json();
-          var _h = (_j && _j.contents) || '';
-          var _m = _h.match(/property=["']og:description["'][^>]+content=["']([^"']{80,})["']/i)
-                || _h.match(/content=["']([^"']{80,})["'][^>]*property=["']og:description["']/i)
-                || _h.match(/name=["']description["'][^>]+content=["']([^"']{80,})["']/i)
-                || _h.match(/content=["']([^"']{80,})["'][^>]*name=["']description["']/i);
-          if (_m) return _clipAtSentence(_m[1].replace(/&#?\w+;/g, ' ').replace(/\s+/g, ' ').trim(), 520);
-        } catch(_e) {}
-        return '';
+        function _extractMeta(html) {
+          var _m = html.match(/property=["']og:description["'][^>]+content=["']([^"']{80,})["']/i)
+                 || html.match(/content=["']([^"']{80,})["'][^>]*property=["']og:description["']/i)
+                 || html.match(/name=["']description["'][^>]+content=["']([^"']{80,})["']/i)
+                 || html.match(/content=["']([^"']{80,})["'][^>]*name=["']description["']/i);
+          return _m ? _clipAtSentence(_m[1].replace(/&#?\w+;/g, ' ').replace(/\s+/g, ' ').trim(), 520) : '';
+        }
+        async function _tryProxy(proxyUrl, isJson) {
+          try {
+            var _ctrl = new AbortController();
+            var _t = setTimeout(function(){ _ctrl.abort(); }, 8000);
+            var _r = await fetch(proxyUrl, { signal: _ctrl.signal });
+            clearTimeout(_t);
+            if (!_r.ok) return '';
+            var _h = isJson ? (((await _r.json()).contents) || '') : await _r.text();
+            return _extractMeta(_h);
+          } catch(_e) { return ''; }
+        }
+        var _enc = encodeURIComponent(url);
+        return (await _tryProxy('https://api.allorigins.win/get?url=' + _enc, true))
+            || (await _tryProxy('https://corsproxy.io/?' + _enc, false));
       }
 
       // Background summarization — fire and forget, updates DOM as each completes
@@ -1553,7 +1559,15 @@
         var _toSum = currentArticles.filter(_badSummary);
         function _applySummary(_a, _improved) {
           var _loadEl = document.getElementById('sum-loading-' + _a.id);
-          if (!_improved) { if (_loadEl) _loadEl.remove(); return; }
+          if (!_improved) {
+            if (_loadEl) _loadEl.remove();
+            var _fb = document.getElementById('summary-text-' + _a.id);
+            if (_fb && !_fb.textContent.trim()) {
+              _fb.textContent = 'Kein Auszug verfügbar.';
+              _fb.style.cssText = 'opacity:0.3;font-style:italic';
+            }
+            return;
+          }
           _a.summary = _improved;
           var _sumEl = document.getElementById('summary-text-' + _a.id);
           if (_sumEl) {
