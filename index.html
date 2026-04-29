@@ -1513,8 +1513,16 @@
       function _clipAtSentence(text, max) {
         if (!text || text.length <= max) return text;
         var sub = text.substring(0, max);
-        var dot = Math.max(sub.lastIndexOf('. '), sub.lastIndexOf('! '), sub.lastIndexOf('? '));
-        return dot > max * 0.55 ? sub.substring(0, dot + 1) : sub.replace(/\s+\S+$/, '') + '…';
+        // Scan backwards for a real sentence end — skip abbreviations (word before . must be >2 chars)
+        for (var _ci = sub.length - 1; _ci > max * 0.4; _ci--) {
+          var c = sub[_ci];
+          if ((c === '.' || c === '!' || c === '?') && (sub[_ci + 1] === ' ' || _ci === sub.length - 1)) {
+            var _ws = _ci - 1;
+            while (_ws > 0 && sub[_ws - 1] !== ' ') _ws--;
+            if (_ci - _ws > 2) return sub.substring(0, _ci + 1).trim();
+          }
+        }
+        return sub.replace(/\s+\S+$/, '') + '…';
       }
 
       async function _fetchMetaDesc(url) {
@@ -1707,9 +1715,10 @@
       ? new Date(article.date + 'T12:00:00').toLocaleDateString('de-AT', {day:'2-digit',month:'2-digit',year:'numeric'})
       : '—';
     const _rawSum = (article.summary || '').trim();
-    const hasSummary = _rawSum && _rawSum !== (article.title || '').trim() && _rawSum.length > 20;
-    const _sumDisplay = hasSummary ? escHtml(_rawSum) : escHtml((article.title || '').substring(0, 160));
-    const _sumIsAI    = _rawSum.length >= 100 && _rawSum !== (article.title || '');
+    const _titleTrim = (article.title || '').trim();
+    const hasSummary = _rawSum && _rawSum !== _titleTrim && _rawSum.length > 20;
+    const _sumDisplay = hasSummary ? escHtml(_rawSum) : '';
+    const _sumIsAI    = _rawSum.length >= 100 && _rawSum !== _titleTrim;
     const _aid = article.id;
     card.innerHTML = `
       <div class="article-header" onclick="toggleCard('${_aid}')">
