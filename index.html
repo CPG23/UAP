@@ -1313,14 +1313,15 @@
       'LETZTER SCAN: ' + new Date(lastScanTime).toLocaleTimeString('de-AT', {hour:'2-digit',minute:'2-digit'});
   }
   function callAI(prompt) {
-    var _enc = encodeURIComponent(prompt);
     var _seed = Math.abs(prompt.split('').reduce(function(h,c){return((h<<5)-h+c.charCodeAt(0))|0;},0)) % 99999 + 1;
+    var _enc  = encodeURIComponent(prompt);
     var _models = ['openai', 'mistral', 'llama', 'gemini'];
 
     function _get(model) {
       var ctrl = new AbortController();
       var _t = setTimeout(function() { ctrl.abort(); }, 15000);
-      return fetch('https://text.pollinations.ai/' + _enc + '?model=' + model, { signal: ctrl.signal })
+      // seed in GET ensures per-article cache entry — avoids stale empty cache hits
+      return fetch('https://text.pollinations.ai/' + _enc + '?model=' + model + '&seed=' + _seed, { signal: ctrl.signal })
         .then(function(r) { clearTimeout(_t); if (!r.ok) throw new Error(r.status); return r.text(); })
         .then(function(t) { t = (t||'').trim(); if (t.length < 30) throw new Error('empty'); return t; })
         .catch(function(e) { clearTimeout(_t); throw e; });
@@ -1353,7 +1354,6 @@
       .catch(function(e) { clearTimeout(_t); throw e; });
     }
 
-    // Race all GET models in parallel, then race all POST models — first valid response wins
     function _raceAll(fn) {
       return new Promise(function(resolve, reject) {
         var left = _models.length;
@@ -1362,33 +1362,26 @@
         });
       });
     }
+    // Round 1: race 4 GET models; Round 2: race 4 POST models
     return _raceAll(_get).catch(function() { return _raceAll(_post); });
   }
 
-  function _callHF(title) {
-    var _hfModels = ['google/flan-t5-large', 'google/flan-t5-xl'];
-    function _hfOne(model) {
+  // Short-prompt fallback: different URL/cache slot from full callAI — last resort before giving up
+  function _callAIShort(title) {
+    var _seed2 = Math.abs((title + 'short').split('').reduce(function(h,c){return((h<<5)-h+c.charCodeAt(0))|0;},0)) % 99999 + 1;
+    var _enc2  = encodeURIComponent('2-sentence news summary: ' + title.substring(0, 120));
+    var _mods  = ['openai', 'llama'];
+    function _g(model) {
       var ctrl = new AbortController();
-      var _t = setTimeout(function() { ctrl.abort(); }, 25000);
-      return fetch('https://api-inference.huggingface.co/models/' + model, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        signal: ctrl.signal,
-        body: JSON.stringify({ inputs: 'Write a 5-sentence factual news summary about: ' + title })
-      })
-      .then(function(r) { clearTimeout(_t); if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function(d) {
-        var t = (Array.isArray(d) ? (d[0].generated_text || d[0].summary_text || '') : '').trim();
-        if (t.length < 40) throw new Error('empty');
-        return t;
-      })
-      .catch(function(e) { clearTimeout(_t); throw e; });
+      var _t = setTimeout(function() { ctrl.abort(); }, 12000);
+      return fetch('https://text.pollinations.ai/' + _enc2 + '?model=' + model + '&seed=' + _seed2, { signal: ctrl.signal })
+        .then(function(r) { clearTimeout(_t); if (!r.ok) throw new Error(r.status); return r.text(); })
+        .then(function(t) { t = (t||'').trim(); if (t.length < 30) throw new Error('empty'); return t; })
+        .catch(function(e) { clearTimeout(_t); throw e; });
     }
     return new Promise(function(resolve, reject) {
-      var left = _hfModels.length;
-      _hfModels.forEach(function(m) {
-        _hfOne(m).then(resolve).catch(function() { if (--left === 0) reject(new Error('hf failed')); });
-      });
+      var left = _mods.length;
+      _mods.forEach(function(m) { _g(m).then(resolve).catch(function(){ if(--left===0) reject(); }); });
     });
   }
 
@@ -1641,18 +1634,18 @@
             var _tn = (_a.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
             if (_rn === _tn || _rn.includes(_tn)) _res = '';
           }
-          // 2. pollinations.ai — 3 models in parallel (GET), then 3 in parallel (POST)
+          // 2. pollinations.ai — 4 models GET race, then 4 POST race (seed per article)
           if (!_res || _res.length < 100) {
             try {
               var _ai = await callAI('5-sentence factual summary, English, plain text only: ' + _a.title);
               _res = _clipAtSentence((_ai || '').trim(), 520);
             } catch(_e) { _res = ''; }
           }
-          // 3. HuggingFace — 2 models in parallel
-          if (!_res || _res.length < 100) {
+          // 3. Short-prompt fallback — different cache slot on pollinations.ai
+          if (!_res || _res.length < 60) {
             try {
-              var _hf = await _callHF(_a.title);
-              _res = _clipAtSentence((_hf || '').trim(), 520);
+              var _sh = await _callAIShort(_a.title);
+              _res = _clipAtSentence((_sh || '').trim(), 520);
             } catch(_e) { _res = ''; }
           }
           // 4. RSS description — lenient: any text ≥ 30 chars that isn't the title or boilerplate
