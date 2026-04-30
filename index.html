@@ -1370,7 +1370,7 @@
   async function _fetchArticleText(url) {
     if (!url || !/^https?:\/\//.test(url)) return '';
     var ctrl = new AbortController();
-    var _t = setTimeout(function() { ctrl.abort(); }, 15000);
+    var _t = setTimeout(function() { ctrl.abort(); }, 10000);
     try {
       var r = await fetch('https://r.jina.ai/' + url, {
         signal: ctrl.signal,
@@ -1641,6 +1641,13 @@
             _sumEl.textContent = _improved;
             _sumEl.removeAttribute('style');
             if (_loadEl) _loadEl.remove();
+            if (!document.getElementById('ki-label-' + _a.id)) {
+              var _lbl = document.createElement('div');
+              _lbl.id = 'ki-label-' + _a.id;
+              _lbl.style.cssText = 'font-size:9px;letter-spacing:1.5px;color:#3a6a7a;opacity:0.7;margin-top:4px;font-family:"Share Tech Mono",monospace';
+              _lbl.textContent = '↯ KI-ZUSAMMENFASSUNG';
+              _sumEl.parentNode.insertBefore(_lbl, _sumEl.nextSibling);
+            }
             if (!document.getElementById('translate-sum-btn-' + _a.id)) {
               var _b = document.createElement('button');
               _b.className = 'btn-translate btn-translate-sm';
@@ -1653,17 +1660,22 @@
         }
         var _BOIL = /google news|nachrichten aus aller welt|zusammengetragen|news aggregat/i;
         async function _sumOne(_a) {
-          // 1. Fetch real article text via Jina AI Reader → summarize with AI
-          //    Works through Google News redirects, gives content-based summaries
-          var _articleText = await _fetchArticleText(_a.url);
-          if (_articleText) {
-            try {
-              var _prompt = '5-sentence factual summary, English, plain text only:\n\n' + _articleText.substring(0, 1200);
-              var _ai0 = await callAI(_prompt);
-              _res = _clipAtSentence((_ai0 || '').trim(), 520);
-            } catch(_e) { _res = ''; }
-          }
-          // 2. og:description via proxy (fast fallback, no AI needed)
+          var _res = '';
+          // Run Jina→AI and title-AI simultaneously — whichever finishes first wins,
+          // content-based result preferred over title-based
+          var _settled = await Promise.allSettled([
+            _fetchArticleText(_a.url).then(function(txt) {
+              if (!txt || txt.length < 100) throw new Error('no text');
+              return callAI('5-sentence factual summary, English, plain text only:\n\n' + txt.substring(0, 1200));
+            }),
+            callAI('5-sentence factual summary, English, plain text only: ' + _a.title)
+          ]);
+          var _content = _settled[0].status === 'fulfilled' ? _clipAtSentence((_settled[0].value||'').trim(), 520) : '';
+          var _title   = _settled[1].status === 'fulfilled' ? _clipAtSentence((_settled[1].value||'').trim(), 520) : '';
+          // Prefer content-based; fall back to title-based
+          _res = (_content && _content.length >= 60) ? _content : ((_title && _title.length >= 60) ? _title : '');
+
+          // og:description fallback (no AI, fast)
           if (!_res || _res.length < 60) {
             var _meta = await _fetchMetaDesc(_a.url);
             if (_meta) {
@@ -1672,21 +1684,11 @@
               if (!_rn.includes(_tn)) _res = _meta;
             }
           }
-          // 3. Title-based AI — 4 models GET race, then 4 POST race
-          if (!_res || _res.length < 60) {
-            try {
-              var _ai = await callAI('5-sentence factual summary, English, plain text only: ' + _a.title);
-              _res = _clipAtSentence((_ai || '').trim(), 520);
-            } catch(_e) { _res = ''; }
-          }
-          // 4. Short-prompt fallback — different cache slot on pollinations.ai
+          // Short-prompt — different cache slot, last AI attempt
           if (!_res || _res.length < 40) {
-            try {
-              var _sh = await _callAIShort(_a.title);
-              _res = _clipAtSentence((_sh || '').trim(), 520);
-            } catch(_e) { _res = ''; }
+            try { _res = _clipAtSentence((await _callAIShort(_a.title)||'').trim(), 520); } catch(_e) {}
           }
-          // 5. RSS description — any text ≥ 30 chars that isn't the title or boilerplate
+          // RSS description — any text ≥ 30 chars, not title, not boilerplate
           if (!_res || _res.length < 30) {
             var _rd = (_a._rssDesc || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
             if (_rd.length >= 30 && _rd !== _a.title && !_BOIL.test(_rd)) _res = _rd;
@@ -1696,7 +1698,7 @@
 
         await Promise.allSettled(_toSum.map(async function(_a, _idx) {
           // Stagger start by 400ms per article to prevent rate-limiting on parallel AI calls
-          if (_idx > 0) await new Promise(function(r){ setTimeout(r, _idx * 400); });
+          if (_idx > 0) await new Promise(function(r){ setTimeout(r, _idx * 200); });
           var _res = await _sumOne(_a);
           _applySummary(_a, (_res && _res.length >= 30) ? _res : null);
         }));
@@ -1707,7 +1709,7 @@
         var _retry = currentArticles.filter(_badSummary);
         if (_retry.length) {
           await Promise.allSettled(_retry.map(async function(_a, _idx) {
-            if (_idx > 0) await new Promise(function(r){ setTimeout(r, _idx * 400); });
+            if (_idx > 0) await new Promise(function(r){ setTimeout(r, _idx * 200); });
             var _res = await _sumOne(_a);
             if (_res && _res.length >= 30) _applySummary(_a, _res);
           }));
@@ -1861,7 +1863,7 @@
           <div class="summary-row">
             <div class="section-label">ZUSAMMENFASSUNG</div>
             <div class="details-text summary-text" id="summary-text-${_aid}" ${_sumIsAI ? '' : 'style="opacity:0.6;font-style:italic"'}>${_sumDisplay}</div>
-            ${!hasSummary ? `<div class="sum-loading-row" id="sum-loading-${_aid}">⟳ Zusammenfassung wird geladen…</div>` : ''}
+            ${!hasSummary ? `<div class="sum-loading-row" id="sum-loading-${_aid}">⟳ KI liest Artikel &amp; erstellt Zusammenfassung…</div>` : ''}
             ${_sumIsAI ? `<button class="btn-translate btn-translate-sm" id="translate-sum-btn-${_aid}" onclick="translateSummary('${_aid}')">🌐 Übersetzen</button>` : ''}
           </div>
         </div>
