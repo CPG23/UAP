@@ -1366,6 +1366,32 @@
     return _raceAll(_get).catch(function() { return _raceAll(_post); });
   }
 
+  // Fetch real article text via Jina AI Reader (follows Google News redirects, CORS-enabled)
+  async function _fetchArticleText(url) {
+    if (!url || !/^https?:\/\//.test(url)) return '';
+    var ctrl = new AbortController();
+    var _t = setTimeout(function() { ctrl.abort(); }, 15000);
+    try {
+      var r = await fetch('https://r.jina.ai/' + url, {
+        signal: ctrl.signal,
+        headers: { 'Accept': 'text/plain', 'X-No-Cache': 'true' }
+      });
+      clearTimeout(_t);
+      if (!r.ok) return '';
+      var txt = await r.text();
+      // Strip Jina header lines, markdown syntax, images
+      txt = txt
+        .replace(/^(Title|URL Source|Published Time):.*$/gm, '')
+        .replace(/!\[[^\]]*\]\([^)]+\)/g, '')
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+        .replace(/#{1,6} /g, '')
+        .replace(/\*{1,2}([^*\n]+)\*{1,2}/g, '$1')
+        .replace(/\s{2,}/g, ' ')
+        .trim();
+      return (txt.length > 150) ? txt.substring(0, 1800) : '';
+    } catch(_e) { clearTimeout(_t); return ''; }
+  }
+
   // Short-prompt fallback: different URL/cache slot from full callAI — last resort before giving up
   function _callAIShort(title) {
     var _seed2 = Math.abs((title + 'short').split('').reduce(function(h,c){return((h<<5)-h+c.charCodeAt(0))|0;},0)) % 99999 + 1;
@@ -1627,28 +1653,40 @@
         }
         var _BOIL = /google news|nachrichten aus aller welt|zusammengetragen|news aggregat/i;
         async function _sumOne(_a) {
-          // 1. og:description via proxy (skipped for news.google.com)
-          var _res = await _fetchMetaDesc(_a.url);
-          if (_res) {
-            var _rn = _res.toLowerCase().replace(/[^a-z0-9]/g, '');
-            var _tn = (_a.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-            if (_rn === _tn || _rn.includes(_tn)) _res = '';
+          // 1. Fetch real article text via Jina AI Reader → summarize with AI
+          //    Works through Google News redirects, gives content-based summaries
+          var _articleText = await _fetchArticleText(_a.url);
+          if (_articleText) {
+            try {
+              var _prompt = '5-sentence factual summary, English, plain text only:\n\n' + _articleText.substring(0, 1200);
+              var _ai0 = await callAI(_prompt);
+              _res = _clipAtSentence((_ai0 || '').trim(), 520);
+            } catch(_e) { _res = ''; }
           }
-          // 2. pollinations.ai — 4 models GET race, then 4 POST race (seed per article)
-          if (!_res || _res.length < 100) {
+          // 2. og:description via proxy (fast fallback, no AI needed)
+          if (!_res || _res.length < 60) {
+            var _meta = await _fetchMetaDesc(_a.url);
+            if (_meta) {
+              var _rn = _meta.toLowerCase().replace(/[^a-z0-9]/g, '');
+              var _tn = (_a.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+              if (!_rn.includes(_tn)) _res = _meta;
+            }
+          }
+          // 3. Title-based AI — 4 models GET race, then 4 POST race
+          if (!_res || _res.length < 60) {
             try {
               var _ai = await callAI('5-sentence factual summary, English, plain text only: ' + _a.title);
               _res = _clipAtSentence((_ai || '').trim(), 520);
             } catch(_e) { _res = ''; }
           }
-          // 3. Short-prompt fallback — different cache slot on pollinations.ai
-          if (!_res || _res.length < 60) {
+          // 4. Short-prompt fallback — different cache slot on pollinations.ai
+          if (!_res || _res.length < 40) {
             try {
               var _sh = await _callAIShort(_a.title);
               _res = _clipAtSentence((_sh || '').trim(), 520);
             } catch(_e) { _res = ''; }
           }
-          // 4. RSS description — lenient: any text ≥ 30 chars that isn't the title or boilerplate
+          // 5. RSS description — any text ≥ 30 chars that isn't the title or boilerplate
           if (!_res || _res.length < 30) {
             var _rd = (_a._rssDesc || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
             if (_rd.length >= 30 && _rd !== _a.title && !_BOIL.test(_rd)) _res = _rd;
