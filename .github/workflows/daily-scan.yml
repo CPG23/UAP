@@ -2,8 +2,9 @@ name: Daily UAP Scan & Notify
 
 on:
   schedule:
-    - cron: '0 5 * * *'   # täglich 07:00 MESZ (Sommerzeit, UTC+2) — primär
-    - cron: '0 6 * * *'   # täglich 08:00 MESZ — Fallback falls GitHub primären Run überspringt
+    - cron: '0 5 * * *'   # täglich 07:00 MESZ — primär
+    - cron: '0 6 * * *'   # täglich 08:00 MESZ — Fallback falls primär übersprungen
+    - cron: '0 13 * * *'  # täglich 15:00 MESZ — Nachmittags-Refresh für neue Artikel
   workflow_dispatch:        # manueller Start über GitHub UI möglich
 
 permissions:
@@ -96,6 +97,27 @@ jobs:
                   print(f'RSS-Fehler "{query}": {e}')
               return results
 
+          def fetch_og_desc(url):
+              if not url or 'news.google.com' in url:
+                  return ''
+              try:
+                  req = urllib.request.Request(url, headers={
+                      'User-Agent': 'Mozilla/5.0 (compatible; UAP-Bot/1.0)',
+                      'Accept': 'text/html,application/xhtml+xml'
+                  })
+                  with urllib.request.urlopen(req, timeout=8) as r:
+                      html = r.read(80000).decode('utf-8', errors='replace')
+                  m = (re.search(r'property=["\']og:description["\'][^>]+content=["\']([^"\']{80,})["\']', html, re.I)
+                    or re.search(r'content=["\']([^"\']{80,})["\'][^>]*property=["\']og:description["\']', html, re.I)
+                    or re.search(r'name=["\']description["\'][^>]+content=["\']([^"\']{80,})["\']', html, re.I))
+                  if m:
+                      t = re.sub(r'\s+', ' ', m.group(1)).strip()
+                      if len(t) >= 80 and not re.search(r'google news|nachrichten aus aller welt|zusammengetragen', t, re.I):
+                          return t[:520]
+              except Exception:
+                  pass
+              return ''
+
           def ai_summarize(title):
               prompt = '5-sentence factual summary, English, plain text only: ' + title
               payload = json.dumps({
@@ -145,7 +167,7 @@ jobs:
                       continue
                   sum_seen.add(tl)
                   tid = topic_id(a['title'])
-                  if tid not in sum_arts and len(sum_arts) < 25:
+                  if tid not in sum_arts and len(sum_arts) < 40:
                       sum_arts[tid] = a
 
           print(f'Broad scan: {len(sum_arts)} einzigartige UAP-Artikel')
@@ -155,15 +177,20 @@ jobs:
           ok = 0
           print(f'Generiere Zusammenfassungen...')
           for i, (tid, art) in enumerate(sum_arts.items()):
-              if i > 0:
-                  time.sleep(2)
-              s = ai_summarize(art['title'])
+              # Try og:description first (free, no rate limits, better quality)
+              s = fetch_og_desc(art.get('link', ''))
+              src = 'meta'
+              if not s:
+                  if i > 0:
+                      time.sleep(1)
+                  s = ai_summarize(art['title'])
+                  src = 'AI'
               if s:
                   summaries_map[tid] = s
                   ok += 1
-                  print(f'  ✓ {art["title"][:65]}')
+                  print(f'  ✓ [{src}] {art["title"][:60]}')
               else:
-                  print(f'  ✗ {art["title"][:65]}')
+                  print(f'  ✗ {art["title"][:60]}')
           print(f'Zusammenfassungen: {ok}/{len(sum_arts)}')
 
           # ── 3. NOTIFICATION: which articles are new? ──────────────────────

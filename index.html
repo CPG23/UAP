@@ -1315,7 +1315,7 @@
   function callAI(prompt) {
     var _enc = encodeURIComponent(prompt);
     var _seed = Math.abs(prompt.split('').reduce(function(h,c){return((h<<5)-h+c.charCodeAt(0))|0;},0)) % 99999 + 1;
-    var _models = ['openai', 'mistral', 'llama'];
+    var _models = ['openai', 'mistral', 'llama', 'gemini'];
 
     function _get(model) {
       var ctrl = new AbortController();
@@ -1663,17 +1663,20 @@
           return _res;
         }
 
-        await Promise.allSettled(_toSum.map(async function(_a) {
+        await Promise.allSettled(_toSum.map(async function(_a, _idx) {
+          // Stagger start by 400ms per article to prevent rate-limiting on parallel AI calls
+          if (_idx > 0) await new Promise(function(r){ setTimeout(r, _idx * 400); });
           var _res = await _sumOne(_a);
           _applySummary(_a, (_res && _res.length >= 30) ? _res : null);
         }));
         saveFeedCache();
 
-        // Retry articles still without a summary after 30s — rate limits usually clear by then
+        // Retry articles still without a summary after 30s — rate limits clear by then
         await new Promise(function(r) { setTimeout(r, 30000); });
         var _retry = currentArticles.filter(_badSummary);
         if (_retry.length) {
-          await Promise.allSettled(_retry.map(async function(_a) {
+          await Promise.allSettled(_retry.map(async function(_a, _idx) {
+            if (_idx > 0) await new Promise(function(r){ setTimeout(r, _idx * 400); });
             var _res = await _sumOne(_a);
             if (_res && _res.length >= 30) _applySummary(_a, _res);
           }));
