@@ -1661,21 +1661,16 @@
         var _BOIL = /google news|nachrichten aus aller welt|zusammengetragen|news aggregat/i;
         async function _sumOne(_a) {
           var _res = '';
-          // Run Jina→AI and title-AI simultaneously — whichever finishes first wins,
-          // content-based result preferred over title-based
-          var _settled = await Promise.allSettled([
-            _fetchArticleText(_a.url).then(function(txt) {
-              if (!txt || txt.length < 100) throw new Error('no text');
-              return callAI('5-sentence factual summary, English, plain text only:\n\n' + txt.substring(0, 1200));
-            }),
-            callAI('5-sentence factual summary, English, plain text only: ' + _a.title)
-          ]);
-          var _content = _settled[0].status === 'fulfilled' ? _clipAtSentence((_settled[0].value||'').trim(), 520) : '';
-          var _title   = _settled[1].status === 'fulfilled' ? _clipAtSentence((_settled[1].value||'').trim(), 520) : '';
-          // Prefer content-based; fall back to title-based
-          _res = (_content && _content.length >= 60) ? _content : ((_title && _title.length >= 60) ? _title : '');
-
-          // og:description fallback (no AI, fast)
+          // 1. Read actual article text via Jina AI Reader (5s fast-fail)
+          var _txt = await _fetchArticleText(_a.url);
+          if (_txt && _txt.length >= 100) {
+            try { _res = _clipAtSentence((await callAI('5-sentence factual summary, English, plain text only:\n\n' + _txt.substring(0, 1200))||'').trim(), 520); } catch(_e) {}
+          }
+          // 2. Title-based AI summary
+          if (!_res || _res.length < 60) {
+            try { _res = _clipAtSentence((await callAI('5-sentence factual summary, English, plain text only: ' + _a.title)||'').trim(), 520); } catch(_e) {}
+          }
+          // 3. og:description fallback
           if (!_res || _res.length < 60) {
             var _meta = await _fetchMetaDesc(_a.url);
             if (_meta) {
@@ -1684,11 +1679,11 @@
               if (!_rn.includes(_tn)) _res = _meta;
             }
           }
-          // Short-prompt — different cache slot, last AI attempt
+          // 4. Short-prompt — different cache slot
           if (!_res || _res.length < 40) {
             try { _res = _clipAtSentence((await _callAIShort(_a.title)||'').trim(), 520); } catch(_e) {}
           }
-          // RSS description — any text ≥ 30 chars, not title, not boilerplate
+          // 5. RSS description
           if (!_res || _res.length < 30) {
             var _rd = (_a._rssDesc || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
             if (_rd.length >= 30 && _rd !== _a.title && !_BOIL.test(_rd)) _res = _rd;
@@ -1696,24 +1691,15 @@
           return _res;
         }
 
-        await Promise.allSettled(_toSum.map(async function(_a, _idx) {
-          // Stagger start by 400ms per article to prevent rate-limiting on parallel AI calls
-          if (_idx > 0) await new Promise(function(r){ setTimeout(r, _idx * 200); });
-          var _res = await _sumOne(_a);
-          _applySummary(_a, (_res && _res.length >= 30) ? _res : null);
-        }));
-        saveFeedCache();
-
-        // Retry articles still without a summary after 30s — rate limits clear by then
-        await new Promise(function(r) { setTimeout(r, 30000); });
-        var _retry = currentArticles.filter(_badSummary);
-        if (_retry.length) {
-          await Promise.allSettled(_retry.map(async function(_a, _idx) {
-            if (_idx > 0) await new Promise(function(r){ setTimeout(r, _idx * 200); });
+        var _batchSize = 3;
+        for (var _bi = 0; _bi < _toSum.length; _bi += _batchSize) {
+          var _batch = _toSum.slice(_bi, _bi + _batchSize);
+          await Promise.allSettled(_batch.map(async function(_a) {
             var _res = await _sumOne(_a);
-            if (_res && _res.length >= 30) _applySummary(_a, _res);
+            _applySummary(_a, (_res && _res.length >= 30) ? _res : null);
           }));
           saveFeedCache();
+          if (_bi + _batchSize < _toSum.length) await new Promise(function(r){ setTimeout(r, 1000); });
         }
       })();
 
@@ -2267,16 +2253,44 @@
       }
     }
 
-    // Load fresh articles — first sync notification articles so they show as new
-    setTimeout(function() {
-      applyLatestNotification()
+    var _fromNotif = new URLSearchParams(window.location.search).get('notif') === '1';
+    if (_fromNotif) {
+      // Notification tap: show exactly the articles that triggered the notification
+      fetch('./latest-news.json?_=' + Date.now(), { cache: 'no-store' })
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var _sums = data.summaries || {};
+          var _arts = (data.articles || []).map(function(a) {
+            var _id = topicId(a.title);
+            var _sum = _sums[_id] || a.summary || '';
+            return {
+              id: _id,
+              title: a.title,
+              source: a.source || 'UAP News',
+              date: a.date || new Date().toISOString().split('T')[0],
+              summary: _sum,
+              url: a.link || '',
+              isNew: true,
+              _mentions: 1,
+              isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(a.source + a.title)
+            };
+          });
+          if (_arts.length) { currentArticles = _arts; renderArticles(_arts); }
+        })
         .catch(function(){})
-        .finally(function() {
-          loadNews()
-            .catch(function() {})
-            .finally(function() { hideOverlay(); });
-        });
-    }, 300);
+        .finally(function() { hideOverlay(); });
+    } else {
+      // Normal load: sync notification state then fetch live RSS
+      setTimeout(function() {
+        applyLatestNotification()
+          .catch(function(){})
+          .finally(function() {
+            loadNews()
+              .catch(function() {})
+              .finally(function() { hideOverlay(); });
+          });
+      }, 300);
+    }
   });
 </script>
 

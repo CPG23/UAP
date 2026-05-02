@@ -251,7 +251,7 @@ jobs:
               'message':  new_articles[0]['title'] + (f'\n+ {count-1} weitere' if count > 1 else ''),
               'priority': 3,
               'tags':     ['flying_saucer'],
-              'click':    'https://cpg23.github.io/UAP/',
+              'click':    'https://cpg23.github.io/UAP/?notif=1',
           }).encode('utf-8')
           try:
               req = urllib.request.Request(
