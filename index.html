@@ -1610,33 +1610,19 @@
 
       // Background summarization — fire and forget, updates DOM as each completes
       function _badSummary(a) {
-        var s = (a.summary || '').trim();
-        return s.length < 100 || s === (a.title || '').trim();
+        var s = (a.summary || '').trim(), t = (a.title || '').trim();
+        return !s || s.length < 60 || s === t;
       }
       (async function _bgSummarize() {
         var _toSum = currentArticles.filter(_badSummary);
+        if (!_toSum.length) return;
+
+        // Apply a successful summary — spinner stays when null (retry will handle it)
         function _applySummary(_a, _improved) {
-          var _loadEl = document.getElementById('sum-loading-' + _a.id);
-          if (!_improved) {
-            if (_loadEl) _loadEl.remove();
-            var _fb = document.getElementById('summary-text-' + _a.id);
-            if (_fb && !_fb.textContent.trim()) {
-              var _rdFb = (_a._rssDesc || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-              var _rnFb = _rdFb.toLowerCase().replace(/[^a-z0-9]/g, '');
-              var _tnFb = (_a.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-              var _rdBpFb = /google news|nachrichten aus aller welt|zusammengetragen|news aggregat/i.test(_rdFb);
-              if (_rdFb.length >= 30 && _rdFb !== _a.title && !_rdBpFb) {
-                _fb.textContent = _rdFb;
-                _fb.style.cssText = 'opacity:0.4;font-style:italic';
-              } else {
-                _fb.textContent = 'Kein Auszug verfügbar.';
-                _fb.style.cssText = 'opacity:0.3;font-style:italic';
-              }
-            }
-            return;
-          }
+          if (!(_improved && _improved.length >= 30)) return;
           _a.summary = _improved;
           var _sumEl = document.getElementById('summary-text-' + _a.id);
+          var _loadEl = document.getElementById('sum-loading-' + _a.id);
           if (_sumEl) {
             _sumEl.textContent = _improved;
             _sumEl.removeAttribute('style');
@@ -1658,10 +1644,28 @@
             }
           }
         }
+
+        // Called after all retries — removes spinner, shows RSS desc if available, never "Kein Auszug"
+        function _finalizeNoSummary(_a) {
+          var _loadEl = document.getElementById('sum-loading-' + _a.id);
+          var _fb = document.getElementById('summary-text-' + _a.id);
+          if (_fb && !_fb.textContent.trim()) {
+            var _rd = (_a._rssDesc || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+            var _rdBp = /google news|nachrichten aus aller welt|zusammengetragen|news aggregat/i.test(_rd);
+            if (_rd.length >= 30 && _rd !== (_a.title || '').trim() && !_rdBp) {
+              _fb.textContent = _rd;
+              _fb.style.cssText = 'opacity:0.5;font-style:italic';
+            }
+            // else: leave empty — "Kein Auszug verfügbar." never appears
+          }
+          if (_loadEl) _loadEl.remove();
+        }
+
         var _BOIL = /google news|nachrichten aus aller welt|zusammengetragen|news aggregat/i;
+
         async function _sumOne(_a) {
           var _res = '';
-          // 1. Read actual article text via Jina AI Reader (5s fast-fail)
+          // 1. Read actual article text via Jina AI Reader
           var _txt = await _fetchArticleText(_a.url);
           if (_txt && _txt.length >= 100) {
             try { _res = _clipAtSentence((await callAI('5-sentence factual summary, English, plain text only:\n\n' + _txt.substring(0, 1200))||'').trim(), 520); } catch(_e) {}
@@ -1691,6 +1695,45 @@
           return _res;
         }
 
+        // Retry with a completely different prompt → different pollinations.ai cache slot
+        async function _sumOneRetry(_a, _pass) {
+          var _prompts = [
+            'Describe what this news story is about in 4 sentences. English, no markdown: ',
+            'Write a 3-sentence factual news brief. English only, plain text: ',
+            'Explain this UAP news event in simple terms, 3-4 sentences, English: '
+          ];
+          var _p = _prompts[_pass % _prompts.length] + _a.title.substring(0, 150);
+          var _s = (Math.abs(_p.split('').reduce(function(h,c){return((h<<5)-h+c.charCodeAt(0))|0;},0)) % 99999) + 1;
+          var _mods = ['openai', 'mistral', 'llama', 'gemini'];
+          for (var _mi = 0; _mi < _mods.length; _mi++) {
+            try {
+              var _ctrl = new AbortController();
+              var _tmr = setTimeout(function(){ _ctrl.abort(); }, 20000);
+              var _r = await fetch('https://text.pollinations.ai/' + encodeURIComponent(_p) + '?model=' + _mods[_mi] + '&seed=' + _s, { signal: _ctrl.signal });
+              clearTimeout(_tmr);
+              if (_r.ok) {
+                var _rt = ((await _r.text())||'').trim();
+                if (_rt.length >= 60) return _clipAtSentence(_rt, 520);
+              }
+            } catch(_e) {}
+            if (_mi < _mods.length - 1) await new Promise(function(r){ setTimeout(r, 1500); });
+          }
+          // POST fallback with shifted seed to avoid cache
+          try {
+            var _ctrl2 = new AbortController();
+            var _tmr2 = setTimeout(function(){ _ctrl2.abort(); }, 25000);
+            var _pl = JSON.stringify({model:'openai',messages:[{role:'system',content:'Return only plain-text summary. No markdown.'},{role:'user',content:_p}],max_tokens:350,temperature:0.4,seed:_s+4321});
+            var _r2 = await fetch('https://text.pollinations.ai/openai', {method:'POST',signal:_ctrl2.signal,headers:{'Content-Type':'application/json'},body:_pl});
+            clearTimeout(_tmr2);
+            if (_r2.ok) {
+              var _d2 = await _r2.json(); var _t2 = ((_d2.choices||[{}])[0].message||{}).content||'';
+              if (_t2.trim().length >= 60) return _clipAtSentence(_t2.trim(), 520);
+            }
+          } catch(_e2) {}
+          return '';
+        }
+
+        // — Main pass: batches of 3, 1s between batches —
         var _batchSize = 3;
         for (var _bi = 0; _bi < _toSum.length; _bi += _batchSize) {
           var _batch = _toSum.slice(_bi, _bi + _batchSize);
@@ -1701,6 +1744,30 @@
           saveFeedCache();
           if (_bi + _batchSize < _toSum.length) await new Promise(function(r){ setTimeout(r, 1000); });
         }
+
+        // — Retry pass 1: wait 12s, one at a time, 2s gaps, different prompt —
+        await new Promise(function(r){ setTimeout(r, 12000); });
+        var _retry1 = currentArticles.filter(_badSummary);
+        for (var _ri = 0; _ri < _retry1.length; _ri++) {
+          var _rres = await _sumOneRetry(_retry1[_ri], 0);
+          if (_rres && _rres.length >= 30) _applySummary(_retry1[_ri], _rres);
+          if (_ri < _retry1.length - 1) await new Promise(function(r){ setTimeout(r, 2000); });
+        }
+        saveFeedCache();
+
+        // — Retry pass 2: wait 15s, one at a time, 3s gaps, different prompt —
+        await new Promise(function(r){ setTimeout(r, 15000); });
+        var _retry2 = currentArticles.filter(_badSummary);
+        for (var _ri = 0; _ri < _retry2.length; _ri++) {
+          var _rres = await _sumOneRetry(_retry2[_ri], 1);
+          if (_rres && _rres.length >= 30) _applySummary(_retry2[_ri], _rres);
+          if (_ri < _retry2.length - 1) await new Promise(function(r){ setTimeout(r, 3000); });
+        }
+        saveFeedCache();
+
+        // — Final: remove spinners, show RSS desc if available — never "Kein Auszug" —
+        currentArticles.filter(_badSummary).forEach(_finalizeNoSummary);
+        saveFeedCache();
       })();
 
       await new Promise(function(r) { setTimeout(r, 3000); });
@@ -2223,7 +2290,7 @@
               title: a.title,
               source: a.source || 'UAP News',
               date: a.date || new Date().toISOString().split('T')[0],
-              summary: (_sum.length > 80) ? _sum : a.title,
+              summary: (_sum.length > 80) ? _sum : '',
               url: a.link || '',
               isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(a.source + a.title),
               _mentions: 1
@@ -2263,6 +2330,9 @@
           var _arts = (data.articles || []).map(function(a) {
             var _id = topicId(a.title);
             var _sum = _sums[_id] || a.summary || '';
+            var _t = (a.title || '').trim();
+            // Never use title as summary
+            if (_sum.trim() === _t || _sum.trim().length < 60) _sum = '';
             return {
               id: _id,
               title: a.title,
@@ -2275,7 +2345,39 @@
               isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(a.source + a.title)
             };
           });
-          if (_arts.length) { currentArticles = _arts; renderArticles(_arts); }
+          if (_arts.length) {
+            currentArticles = _arts;
+            renderArticles(_arts);
+            // Background AI for any articles the server didn't manage to summarize
+            (async function() {
+              var _need = _arts.filter(function(a) { return !(a.summary && a.summary.length >= 60); });
+              for (var _ni = 0; _ni < _need.length; _ni++) {
+                var _na = _need[_ni];
+                try {
+                  var _ntxt = await _fetchArticleText(_na.url);
+                  var _np = _ntxt && _ntxt.length >= 100
+                    ? '5-sentence factual summary, English, plain text only:\n\n' + _ntxt.substring(0, 1200)
+                    : '5-sentence factual summary, English, plain text only: ' + _na.title;
+                  var _nres = ((await callAI(_np))||'').trim();
+                  if (_nres.length >= 60) {
+                    _na.summary = _nres;
+                    var _nEl = document.getElementById('summary-text-' + _na.id);
+                    var _nLd = document.getElementById('sum-loading-' + _na.id);
+                    if (_nEl) { _nEl.textContent = _clipAtSentence(_nres, 520); _nEl.removeAttribute('style'); }
+                    if (_nLd) _nLd.remove();
+                  }
+                } catch(_ne) {}
+                if (_ni < _need.length - 1) await new Promise(function(r){ setTimeout(r, 2500); });
+              }
+              // Remove any remaining spinners — never show "Kein Auszug"
+              _arts.forEach(function(a) {
+                if (!(a.summary && a.summary.length >= 60)) {
+                  var _el = document.getElementById('sum-loading-' + a.id);
+                  if (_el) _el.remove();
+                }
+              });
+            })();
+          }
         })
         .catch(function(){})
         .finally(function() { hideOverlay(); });
