@@ -2,9 +2,9 @@ name: Daily UAP Scan & Notify
 
 on:
   schedule:
-    - cron: '0 5 * * *'   # täglich 07:00 MESZ — primär
-    - cron: '0 6 * * *'   # täglich 08:00 MESZ — Fallback falls primär übersprungen
-    - cron: '0 13 * * *'  # täglich 15:00 MESZ — Nachmittags-Refresh für neue Artikel
+    - cron: '0 3 * * *'   # Ziel 07:00 MESZ — geplant 03:00 UTC, GitHub-Verzögerung ~2h
+    - cron: '0 4 * * *'   # Fallback 08:00 MESZ — falls primär übersprungen
+    - cron: '0 11 * * *'  # Nachmittags-Refresh 15:00 MESZ
   workflow_dispatch:        # manueller Start über GitHub UI möglich
 
 permissions:
