@@ -1515,7 +1515,7 @@
           title: it.title,
           source: it.source || 'Google News',
           date: it.date,
-          summary: (_pre.length > 80) ? _pre : (it.description || it.title),
+          summary: (_pre.length > 80) ? _pre : '',
           _rssDesc: it.description || '',
           url: it.link,
           isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(it.source + it.title),
@@ -1611,7 +1611,12 @@
       // Background summarization — fire and forget, updates DOM as each completes
       function _badSummary(a) {
         var s = (a.summary || '').trim(), t = (a.title || '').trim();
-        return !s || s.length < 60 || s === t;
+        if (!s || s.length < 60 || s === t) return true;
+        // Catch "Title\nSource" RSS pattern: summary starts with (most of) the title
+        var _sn = s.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+        var _tn = t.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+        if (_tn.length > 15 && _sn.startsWith(_tn.substring(0, Math.min(_tn.length, 50)))) return true;
+        return false;
       }
       (async function _bgSummarize() {
         var _toSum = currentArticles.filter(_badSummary);
@@ -1652,7 +1657,10 @@
           if (_fb && !_fb.textContent.trim()) {
             var _rd = (_a._rssDesc || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
             var _rdBp = /google news|nachrichten aus aller welt|zusammengetragen|news aggregat/i.test(_rd);
-            if (_rd.length >= 30 && _rd !== (_a.title || '').trim() && !_rdBp) {
+            var _rdN = _rd.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+            var _atN = (_a.title||'').toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+            var _rdPfx = _atN.length > 15 && _rdN.startsWith(_atN.substring(0, Math.min(_atN.length, 50)));
+            if (_rd.length >= 30 && _rd !== (_a.title || '').trim() && !_rdBp && !_rdPfx) {
               _fb.textContent = _rd;
               _fb.style.cssText = 'opacity:0.5;font-style:italic';
             }
@@ -1690,7 +1698,10 @@
           // 5. RSS description
           if (!_res || _res.length < 30) {
             var _rd = (_a._rssDesc || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-            if (_rd.length >= 30 && _rd !== _a.title && !_BOIL.test(_rd)) _res = _rd;
+            var _rdNorm = _rd.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+            var _atNorm = (_a.title||'').toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+            var _rdBad = _atNorm.length > 15 && _rdNorm.startsWith(_atNorm.substring(0, Math.min(_atNorm.length, 50)));
+            if (_rd.length >= 30 && _rd !== _a.title && !_BOIL.test(_rd) && !_rdBad) _res = _rd;
           }
           return _res;
         }
@@ -1893,9 +1904,12 @@
       : '—';
     const _rawSum = (article.summary || '').trim();
     const _titleTrim = (article.title || '').trim();
-    const hasSummary = _rawSum && _rawSum !== _titleTrim && _rawSum.length > 20;
+    const _snCard = _rawSum.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+    const _tnCard = _titleTrim.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+    const _titlePrefixed = _tnCard.length > 15 && _snCard.startsWith(_tnCard.substring(0, Math.min(_tnCard.length, 50)));
+    const hasSummary = Boolean(_rawSum) && _rawSum !== _titleTrim && _rawSum.length > 20 && !_titlePrefixed;
     const _sumDisplay = hasSummary ? escHtml(_rawSum) : '';
-    const _sumIsAI    = _rawSum.length >= 100 && _rawSum !== _titleTrim;
+    const _sumIsAI    = hasSummary && _rawSum.length >= 100;
 
     const _aid = article.id;
     card.innerHTML = `
