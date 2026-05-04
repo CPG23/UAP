@@ -2313,6 +2313,8 @@
         _updateNotifBtn();
         navigator.serviceWorker.addEventListener('message', function(e) {
           if (e.data && e.data.type === 'NOTIFICATION_ARTICLE') startScan();
+          // New SW activated → reload to get latest version
+          if (e.data && e.data.type === 'SW_UPDATED') window.location.reload();
         });
       }).catch(function(e){ console.log('SW:', e); });
     }

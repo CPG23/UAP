@@ -1,12 +1,9 @@
-var CACHE = 'uap-v5';
+var CACHE = 'uap-v6';
 var META  = 'uap-meta-v1';
 
 self.addEventListener('install', function(e) {
-  e.waitUntil(
-    caches.open(CACHE).then(function(c) {
-      return c.addAll(['./']);
-    }).then(function() { return self.skipWaiting(); })
-  );
+  // Don't pre-cache HTML — always fetch fresh from network
+  e.waitUntil(self.skipWaiting());
 });
 
 self.addEventListener('activate', function(e) {
@@ -16,15 +13,32 @@ self.addEventListener('activate', function(e) {
         keys.filter(function(k) { return k !== CACHE && k !== META; })
             .map(function(k) { return caches.delete(k); })
       );
-    }).then(function() { return self.clients.claim(); })
+    })
+    .then(function() { return self.clients.claim(); })
+    .then(function() {
+      // Tell all open tabs to reload so they get the new version immediately
+      return self.clients.matchAll({ type: 'window' }).then(function(clients) {
+        clients.forEach(function(c) { c.postMessage({ type: 'SW_UPDATED' }); });
+      });
+    })
   );
 });
 
 self.addEventListener('fetch', function(e) {
   if (e.request.method !== 'GET') return;
+  // Navigation requests (HTML): always bypass cache — get fresh from network
+  if (e.request.mode === 'navigate') {
+    e.respondWith(
+      fetch(e.request, { cache: 'no-cache' }).catch(function() {
+        return caches.match('./') || new Response('Offline', { status: 503 });
+      })
+    );
+    return;
+  }
+  // All other resources: network-first, cache fallback
   e.respondWith(
     fetch(e.request).catch(function() {
-      return caches.match(e.request).then(function(r) { return r || caches.match('./'); });
+      return caches.match(e.request);
     })
   );
 });
