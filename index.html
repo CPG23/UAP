@@ -926,6 +926,7 @@
     color: var(--text-dim);
     letter-spacing: 2px;
     margin-top: 6px;
+    white-space: pre;
   }
   .hero-controls {
     display: flex;
@@ -1297,7 +1298,7 @@
     var yy = String(d.getFullYear()).slice(-2);
     var hh = String(d.getHours()).padStart(2,'0');
     var mi = String(d.getMinutes()).padStart(2,'0');
-    return 'Zuletzt aktualisiert am ' + dd + '.' + mm + '.' + yy + ' um ' + hh + ':' + mi + ' Uhr';
+    return 'Zuletzt aktualisiert\nam ' + dd + '.' + mm + '.' + yy + ' um ' + hh + ':' + mi + ' Uhr';
   }
   let currentArticles    = [];
   let showSavedArticles  = false;
