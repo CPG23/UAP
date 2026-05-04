@@ -2307,28 +2307,43 @@
     var _ptrBar  = document.getElementById('ptr-bar');
     var _ptrIcon = document.getElementById('ptr-icon');
     var _ptrMsg  = document.getElementById('ptr-msg');
-    var _THRESH  = 75;  // px to pull before triggering
+    var _THRESH  = 75;
     var _startY  = 0;
-    var _active  = false;
+    var _pulling = false;
 
+    function _reset() {
+      _ptrBar.style.height  = '0';
+      _ptrBar.style.opacity = '0';
+      _ptrBar.classList.remove('ptr-ready');
+      _ptrIcon.textContent = '↓';
+      _ptrMsg.textContent  = 'Herunterziehen zum Aktualisieren';
+    }
+
+    // Always record touch start position
     document.addEventListener('touchstart', function(e) {
-      var scrollEl = document.scrollingElement || document.documentElement;
-      if (scrollEl.scrollTop === 0 && !_scanning) {
-        _startY = e.touches[0].clientY;
-        _active = true;
-      }
+      _startY  = e.touches[0].clientY;
+      _pulling = false;
     }, { passive: true });
 
     document.addEventListener('touchmove', function(e) {
-      if (!_active) return;
-      var scrollEl = document.scrollingElement || document.documentElement;
-      if (scrollEl.scrollTop > 0) { _active = false; return; }
+      if (_scanning) return;
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop || 0;
       var dy = e.touches[0].clientY - _startY;
-      if (dy <= 0) { _ptrBar.style.height = '0'; _ptrBar.style.opacity = '0'; return; }
+
+      // Only engage PTR when at the very top and user pulls downward
+      if (scrollTop > 2 || dy <= 0) {
+        if (_pulling) { _pulling = false; _reset(); }
+        return;
+      }
+
+      // Call preventDefault first — required before any async/conditional logic
       e.preventDefault();
-      var h = Math.min(dy * 0.55, 52);
+      _pulling = true;
+
+      var h = Math.min(dy * 0.6, 56);
       _ptrBar.style.height  = h + 'px';
       _ptrBar.style.opacity = String(Math.min(dy / _THRESH, 1));
+
       if (dy >= _THRESH) {
         _ptrBar.classList.add('ptr-ready');
         _ptrIcon.textContent = '↑';
@@ -2341,15 +2356,11 @@
     }, { passive: false });
 
     document.addEventListener('touchend', function(e) {
-      if (!_active) return;
-      _active = false;
+      if (!_pulling) return;
       var dy = e.changedTouches[0].clientY - _startY;
-      _ptrBar.style.height  = '0';
-      _ptrBar.style.opacity = '0';
-      _ptrBar.classList.remove('ptr-ready');
-      _ptrIcon.textContent = '↓';
-      _ptrMsg.textContent  = 'Herunterziehen zum Aktualisieren';
-      if (dy >= _THRESH) startScan();
+      _pulling = false;
+      _reset();
+      if (dy >= _THRESH && !_scanning) startScan();
     }, { passive: true });
   })();
 

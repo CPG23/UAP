@@ -1,4 +1,4 @@
-var CACHE = 'uap-v3';
+var CACHE = 'uap-v4';
 var META  = 'uap-meta-v1';
 
 self.addEventListener('install', function(e) {
