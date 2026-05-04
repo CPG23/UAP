@@ -224,10 +224,20 @@
     z-index: 200;
     transition: border-color 0.2s;
   }
-  .ptr-bar.ptr-ready {
+  .ptr-bar.ptr-loading {
     color: var(--accent2);
-    border-bottom-color: rgba(0,255,157,0.3);
+    border-bottom-color: rgba(0,255,157,0.4);
+    animation: ptrScan 1.2s linear infinite;
   }
+  @keyframes ptrScan {
+    0%   { background-position: -100% 0; }
+    100% { background-position: 200% 0; }
+  }
+  .ptr-bar.ptr-loading #ptr-icon {
+    display: inline-block;
+    animation: ptrSpin 0.9s linear infinite;
+  }
+  @keyframes ptrSpin { to { transform: rotate(360deg); } }
 
   /* Static refresh hint below controls */
   /* Static refresh hint — prominent bar at top of content */
@@ -1285,6 +1295,37 @@
       .finally(function() {
         _scanning = false;
         hideOverlay();
+        var firstNew = document.querySelector('.article-card.is-new');
+        if (firstNew) setTimeout(function() { firstNew.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 150);
+      });
+  }
+
+  // Pull-to-refresh: update articles in-place without the loading overlay
+  function _ptrRefresh() {
+    if (_scanning) return;
+    _scanning = true;
+    var _bar  = document.getElementById('ptr-bar');
+    var _icon = document.getElementById('ptr-icon');
+    var _msg  = document.getElementById('ptr-msg');
+    // Keep PTR bar visible as a slim loading indicator
+    _bar.style.height  = '42px';
+    _bar.style.opacity = '1';
+    _bar.classList.remove('ptr-ready');
+    _bar.classList.add('ptr-loading');
+    _icon.textContent = '↻';
+    _msg.textContent  = 'Aktualisiere…';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    loadNews()
+      .catch(function() {})
+      .finally(function() {
+        _scanning = false;
+        // Dismiss PTR bar
+        _bar.style.height  = '0';
+        _bar.style.opacity = '0';
+        _bar.classList.remove('ptr-loading');
+        _icon.textContent = '↓';
+        _msg.textContent  = 'Herunterziehen zum Aktualisieren';
+        // Scroll to first new article if any
         var firstNew = document.querySelector('.article-card.is-new');
         if (firstNew) setTimeout(function() { firstNew.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 150);
       });
@@ -2378,7 +2419,7 @@
       var dy = e.changedTouches[0].clientY - _startY;
       _pulling = false;
       _reset();
-      if (dy >= _THRESH && !_scanning) startScan();
+      if (dy >= _THRESH && !_scanning) _ptrRefresh();
     }, { passive: true });
   })();
 
