@@ -984,6 +984,12 @@
     letter-spacing: 2px;
     margin-top: 6px;
   }
+  .hero-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+  }
 
   @keyframes glowPulse {
     0%, 100% { text-shadow: 0 0 30px rgba(0,212,255,0.8), 0 0 60px rgba(0,212,255,0.4); }
@@ -1130,6 +1136,10 @@
       </span>
     </h1>
     <p class="hero-lastscan" id="last-scan">—</p>
+    <div class="hero-controls">
+      <button class="btn-notif" id="notif-btn" onclick="toggleNotifications()" title="Tägliche Benachrichtigungen">🔕</button>
+      <span class="filter-info" style="opacity:0.6;font-size:10px">&#128197; Letzte 7 Tage</span>
+    </div>
   </div>
 </header>
 
@@ -1141,12 +1151,6 @@
 <main>
   <span id="live-date" style="display:none"></span>
   <span id="article-counter" style="display:none"></span>
-  <div class="controls">
-    <button class="btn-notif" id="notif-btn" onclick="toggleNotifications()" title="Tägliche Benachrichtigungen">🔕</button>
-    <div class="filter-info">
-      <span style="opacity:0.6;font-size:10px">&#128197; Letzte 7 Tage</span>
-    </div>
-  </div>
 
   <div id="error-msg"></div>
 
