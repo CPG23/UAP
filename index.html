@@ -230,14 +230,22 @@
   }
 
   /* Static refresh hint below controls */
-  .ptr-hint {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 1.5px;
-    color: var(--text-dim);
+  /* Static refresh hint — prominent bar at top of content */
+  .ptr-hint-bar {
     text-align: center;
-    padding-bottom: 20px;
-    opacity: 0.45;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    background: rgba(0,212,255,0.04);
+    border: 1px solid rgba(0,212,255,0.2);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--accent);
+    animation: hintPulse 4s ease-in-out infinite;
+  }
+  @keyframes hintPulse {
+    0%, 100% { opacity: 0.55; border-color: rgba(0,212,255,0.15); }
+    50%       { opacity: 0.95; border-color: rgba(0,212,255,0.38); }
   }
 
   .btn-notif {
@@ -293,6 +301,7 @@
     align-items: center;
     justify-content: center;
     gap: 16px;
+    transition: opacity 0.3s ease;
   }
   body.no-scroll { overflow: hidden; touch-action: none; }
 
@@ -1120,13 +1129,13 @@
 <main>
   <span id="live-date" style="display:none"></span>
   <span id="article-counter" style="display:none"></span>
+  <div class="ptr-hint-bar">↓ Herunterziehen zum Aktualisieren</div>
   <div class="controls">
     <button class="btn-notif" id="notif-btn" onclick="toggleNotifications()" title="Tägliche Benachrichtigungen">🔕</button>
     <div class="filter-info">
       <span style="opacity:0.6;font-size:10px">&#128197; Letzte 7 Tage</span>
     </div>
   </div>
-  <div class="ptr-hint">↕ Herunterziehen zum Aktualisieren</div>
 
   <div id="error-msg"></div>
 
@@ -1193,12 +1202,19 @@
   function hideOverlay() {
     var _st = document.getElementById('loading-status');
     if (_st) { _st.style.fontSize = ''; _st.style.color = ''; _st.style.whiteSpace = ''; _st.style.lineHeight = ''; }
-    document.getElementById('loading').style.display = 'none';
-    document.body.classList.remove('no-scroll');
-    window.scrollTo({ top: _overlayScroll, behavior: 'instant' });
-    var heroAlien = document.getElementById('hero-alien');
-    var loadAlien = document.querySelector('.alien-head');
-    if (heroAlien && loadAlien && !heroAlien.src) heroAlien.src = loadAlien.src;
+    var _ov = document.getElementById('loading');
+    _ov.style.opacity = '0';
+    _ov.style.pointerEvents = 'none';
+    setTimeout(function() {
+      _ov.style.display = 'none';
+      _ov.style.opacity = '';
+      _ov.style.pointerEvents = '';
+      document.body.classList.remove('no-scroll');
+      window.scrollTo({ top: _overlayScroll, behavior: 'instant' });
+      var heroAlien = document.getElementById('hero-alien');
+      var loadAlien = document.querySelector('.alien-head');
+      if (heroAlien && loadAlien && !heroAlien.src) heroAlien.src = loadAlien.src;
+    }, 300);
   }
   // ── NTFY PUSH-BENACHRICHTIGUNGEN ─────────────────────────────────────────
   var ntfyTopic = localStorage.getItem('uap_ntfy_topic') || '';
