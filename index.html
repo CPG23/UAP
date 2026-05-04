@@ -294,8 +294,6 @@
     font-family: 'Share Tech Mono', monospace;
     font-size: 11px;
     color: var(--text-dim);
-    border-left: 2px solid var(--border);
-    padding-left: 14px;
   }
 
 
@@ -517,61 +515,6 @@
     50% { box-shadow: 0 0 10px rgba(0,255,157,0.5); opacity: 0.85; }
   }
 
-  /* Big banner shown when new articles are found */
-  .new-alert-banner {
-    text-align: center;
-    padding: 28px 16px 22px;
-    margin-bottom: 18px;
-    background: linear-gradient(135deg, rgba(0,255,157,0.07) 0%, rgba(0,255,157,0.02) 100%);
-    border: 1px solid rgba(0,255,157,0.4);
-    border-radius: 2px;
-    position: relative;
-    overflow: hidden;
-    animation: bannerGlow 2s ease-in-out infinite;
-  }
-  .new-alert-banner::before {
-    content: '';
-    position: absolute;
-    top: 0; left: -100%; right: auto;
-    width: 60%; height: 2px;
-    background: linear-gradient(90deg, transparent, var(--accent2), transparent);
-    animation: scanAcross 2.4s linear infinite;
-  }
-  @keyframes scanAcross {
-    0%   { left: -60%; }
-    100% { left: 110%; }
-  }
-  @keyframes bannerGlow {
-    0%, 100% { border-color: rgba(0,255,157,0.35); box-shadow: 0 0 20px rgba(0,255,157,0.07); }
-    50%       { border-color: rgba(0,255,157,0.65); box-shadow: 0 0 50px rgba(0,255,157,0.18); }
-  }
-  .new-alert-count {
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 80px;
-    font-weight: 700;
-    color: var(--accent2);
-    line-height: 1;
-    text-shadow: 0 0 40px rgba(0,255,157,0.7), 0 0 80px rgba(0,255,157,0.3);
-  }
-  .new-alert-label {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 13px;
-    letter-spacing: 4px;
-    color: var(--accent2);
-    margin-top: 6px;
-    text-transform: uppercase;
-  }
-  .new-alert-arrow {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 18px;
-    color: rgba(0,255,157,0.5);
-    margin-top: 10px;
-    animation: arrowBounce 1.2s ease-in-out infinite;
-  }
-  @keyframes arrowBounce {
-    0%, 100% { transform: translateY(0); }
-    50%       { transform: translateY(5px); }
-  }
 
   .badge-source {
     border-color: var(--border);
@@ -2124,14 +2067,6 @@
     document.getElementById('article-counter').textContent = articles.length + ' MELDUNGEN';
 
     if (hasNew) {
-      // Big announcement banner
-      const banner = document.createElement('div');
-      banner.className = 'new-alert-banner';
-      banner.innerHTML =
-        `<div class="new-alert-count">${newArts.length}</div>` +
-        `<div class="new-alert-label">Neue Meldung${newArts.length !== 1 ? 'en' : ''} gefunden</div>` +
-        `<div class="new-alert-arrow">↓</div>`;
-      feed.appendChild(banner);
       // Render new articles
       newArts.forEach((article, i) => feed.appendChild(_makeArticleCard(article, i)));
     } else {
