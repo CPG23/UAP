@@ -205,34 +205,39 @@
     flex-wrap: wrap;
   }
 
-  .btn-scan {
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 700;
-    font-size: 13px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--bg);
-    background: var(--accent);
-    border: none;
-    padding: 10px 24px;
-    cursor: pointer;
-    clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
-    transition: all 0.2s;
-    position: relative;
+  /* Pull-to-refresh bar */
+  .ptr-bar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 0;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0,212,255,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    color: var(--text-dim);
+    background: var(--bg);
+    border-bottom: 1px solid transparent;
+    z-index: 200;
+    transition: border-color 0.2s;
+  }
+  .ptr-bar.ptr-ready {
+    color: var(--accent2);
+    border-bottom-color: rgba(0,255,157,0.3);
   }
 
-  .btn-scan:hover {
-    background: var(--accent2);
-    box-shadow: 0 0 30px rgba(0,255,157,0.5);
-    transform: translateY(-1px);
-  }
-
-  .btn-scan:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-    transform: none;
+  /* Static refresh hint below controls */
+  .ptr-hint {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    color: var(--text-dim);
+    text-align: center;
+    padding-bottom: 20px;
+    opacity: 0.45;
   }
 
   .btn-notif {
@@ -1107,18 +1112,21 @@
   </div>
 </header>
 
+  <div id="ptr-bar" class="ptr-bar">
+    <span id="ptr-icon">↓</span>
+    <span id="ptr-msg">Herunterziehen zum Aktualisieren</span>
+  </div>
+
 <main>
   <span id="live-date" style="display:none"></span>
   <span id="article-counter" style="display:none"></span>
   <div class="controls">
-    <button class="btn-scan" id="scan-btn" onclick="startScan()">
-      ▶ SCAN STARTEN
-    </button>
     <button class="btn-notif" id="notif-btn" onclick="toggleNotifications()" title="Tägliche Benachrichtigungen">🔕</button>
     <div class="filter-info">
       <span style="opacity:0.6;font-size:10px">&#128197; Letzte 7 Tage</span>
     </div>
   </div>
+  <div class="ptr-hint">↕ Herunterziehen zum Aktualisieren</div>
 
   <div id="error-msg"></div>
 
@@ -1251,11 +1259,15 @@
     }
   }
 
+  var _scanning = false;
   function startScan() {
+    if (_scanning) return;
+    _scanning = true;
     showOverlay();
     loadNews()
       .catch(function() {})
       .finally(function() {
+        _scanning = false;
         hideOverlay();
         var firstNew = document.querySelector('.article-card.is-new');
         if (firstNew) setTimeout(function() { firstNew.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 150);
@@ -1476,8 +1488,6 @@
   }
 
   async function loadNews() {
-    var btn = document.getElementById('scan-btn');
-    btn.disabled = true; btn.textContent = '\u29bf SCANNE...';
     _scanStart = Date.now();
     document.getElementById('empty-state').style.display = 'none';
     document.getElementById('error-msg').style.display = 'none';
@@ -1853,7 +1863,7 @@
       errEl.innerHTML = '<div style="margin-bottom:8px">\u26a0 ' + err.message + '</div>' +
         '<button onclick="startScan()" style="font-family:Rajdhani,sans-serif;font-weight:700;font-size:12px;letter-spacing:2px;color:#030a0f;background:#00d4ff;border:none;padding:8px 20px;cursor:pointer">\u21ba ERNEUT VERSUCHEN</button>';
     } finally {
-      btn.disabled = false; btn.textContent = '\u25b6 SCAN STARTEN';
+      // nothing \u2014 overlay is hidden by startScan()'s finally block
     }
   }
 
@@ -2292,18 +2302,55 @@
     }
   })();
 
-  // Disable pull-to-refresh (CSS overscroll-behavior is not always enough)
+  // Pull-to-refresh
   (function() {
-    var lastY = 0;
+    var _ptrBar  = document.getElementById('ptr-bar');
+    var _ptrIcon = document.getElementById('ptr-icon');
+    var _ptrMsg  = document.getElementById('ptr-msg');
+    var _THRESH  = 75;  // px to pull before triggering
+    var _startY  = 0;
+    var _active  = false;
+
     document.addEventListener('touchstart', function(e) {
-      lastY = e.touches[0].clientY;
-    }, { passive: true });
-    document.addEventListener('touchmove', function(e) {
       var scrollEl = document.scrollingElement || document.documentElement;
-      if (scrollEl.scrollTop === 0 && e.touches[0].clientY > lastY) {
-        e.preventDefault();
+      if (scrollEl.scrollTop === 0 && !_scanning) {
+        _startY = e.touches[0].clientY;
+        _active = true;
+      }
+    }, { passive: true });
+
+    document.addEventListener('touchmove', function(e) {
+      if (!_active) return;
+      var scrollEl = document.scrollingElement || document.documentElement;
+      if (scrollEl.scrollTop > 0) { _active = false; return; }
+      var dy = e.touches[0].clientY - _startY;
+      if (dy <= 0) { _ptrBar.style.height = '0'; _ptrBar.style.opacity = '0'; return; }
+      e.preventDefault();
+      var h = Math.min(dy * 0.55, 52);
+      _ptrBar.style.height  = h + 'px';
+      _ptrBar.style.opacity = String(Math.min(dy / _THRESH, 1));
+      if (dy >= _THRESH) {
+        _ptrBar.classList.add('ptr-ready');
+        _ptrIcon.textContent = '↑';
+        _ptrMsg.textContent  = 'Loslassen zum Aktualisieren';
+      } else {
+        _ptrBar.classList.remove('ptr-ready');
+        _ptrIcon.textContent = '↓';
+        _ptrMsg.textContent  = 'Herunterziehen zum Aktualisieren';
       }
     }, { passive: false });
+
+    document.addEventListener('touchend', function(e) {
+      if (!_active) return;
+      _active = false;
+      var dy = e.changedTouches[0].clientY - _startY;
+      _ptrBar.style.height  = '0';
+      _ptrBar.style.opacity = '0';
+      _ptrBar.classList.remove('ptr-ready');
+      _ptrIcon.textContent = '↓';
+      _ptrMsg.textContent  = 'Herunterziehen zum Aktualisieren';
+      if (dy >= _THRESH) startScan();
+    }, { passive: true });
   })();
 
   async function retrySummary(aid) {
