@@ -1,0 +1,37 @@
+name: Install hard start watchdog once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/install-hard-start-watchdog-once.yml'
+      - '.github/scripts/install-hard-start-watchdog.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: install-hard-start-watchdog-once-main
+  cancel-in-progress: true
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install hard startup watchdog
+        run: node .github/scripts/install-hard-start-watchdog.js
+      - name: Publish app files
+        run: |
+          if git diff --quiet -- index.html sw.js; then
+            echo "No app changes needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html sw.js
+          git commit -m "fix: force app open after startup screen"
+          git pull --rebase origin main
+          git push origin HEAD:main
