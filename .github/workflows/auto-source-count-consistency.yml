@@ -22,41 +22,27 @@ jobs:
         run: |
           node <<'NODE'
           const fs = require('fs');
-
           const file = 'index.html';
           let s = fs.readFileSync(file, 'utf8');
           const before = s;
-
           function replaceOnce(find, replacement, label) {
             if (s.includes(replacement)) return;
             if (!s.includes(find)) throw new Error('Could not find expected text: ' + label);
             s = s.replace(find, replacement);
           }
-
           replaceOnce(
             "    const _sourceCount = Math.max(article._mentions || 1, 1 + ((article._otherSources && article._otherSources.length) || 0));\n    const _topicLabel = _sourceCount > 1 ? 'THEMA · ' + _sourceCount + ' QUELLEN' : 'MELDUNG';",
             "    const _visibleSourceCount = 1 + ((article._otherSources && article._otherSources.length) || 0);\n    const _hiddenSourceCount = Math.max((article._mentions || 1) - _visibleSourceCount, 0);\n    const _sourceCount = _visibleSourceCount;\n    const _topicLabel = _sourceCount > 1 ? 'THEMA · ' + _sourceCount + ' SICHTBARE QUELLEN' : 'MELDUNG';",
             'visible source count'
           );
-
           replaceOnce(
             "      article._otherSources.forEach(function(s, si) {\n        if (si > 0) div.appendChild(document.createTextNode(' '));\n        if (s.url) {\n          const a = document.createElement('a'); a.href = s.url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = s.source; div.appendChild(a);\n        } else {\n          const sp = document.createElement('span'); sp.className = 'src-nolink'; sp.textContent = s.source; div.appendChild(sp);\n        }\n      });",
             "      article._otherSources.forEach(function(s, si) {\n        if (si > 0) div.appendChild(document.createTextNode(' '));\n        if (s.url) {\n          const a = document.createElement('a'); a.href = s.url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = s.source; div.appendChild(a);\n        } else {\n          const sp = document.createElement('span'); sp.className = 'src-nolink'; sp.textContent = s.source; div.appendChild(sp);\n        }\n      });\n      if (_hiddenSourceCount > 0) {\n        div.appendChild(document.createTextNode(' '));\n        const sp = document.createElement('span');\n        sp.className = 'src-nolink';\n        sp.textContent = '+' + _hiddenSourceCount + ' Treffer ohne Quellenlink';\n        div.appendChild(sp);\n      }",
             'hidden source marker'
           );
-
           fs.writeFileSync(file, s);
-
-          const checks = [
-            'SICHTBARE QUELLEN',
-            '_visibleSourceCount',
-            '_hiddenSourceCount',
-            'Treffer ohne Quellenlink'
-          ];
-          for (const check of checks) {
-            if (!s.includes(check)) throw new Error('Missing expected output: ' + check);
-          }
-
+          const checks = ['SICHTBARE QUELLEN', '_visibleSourceCount', '_hiddenSourceCount', 'Treffer ohne Quellenlink'];
+          for (const check of checks) if (!s.includes(check)) throw new Error('Missing expected output: ' + check);
           console.log(s === before ? 'index.html already up to date.' : 'index.html source counts fixed.');
           NODE
 
