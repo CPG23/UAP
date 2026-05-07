@@ -30,7 +30,7 @@ jobs:
           restore-keys: |
             seen-ids-
 
-      - name: Scan UAP news, group topics, generate grounded summaries & send ntfy notification
+      - name: Scan UAP news and prepare exact notification payload
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python3 .github/scripts/daily_scan.py
@@ -41,11 +41,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           cp latest-news.json /tmp/latest-news.json
+          cp .seen-ids.json /tmp/.seen-ids.json 2>/dev/null || true
           for attempt in 1 2 3; do
             echo "Publish attempt $attempt"
             git fetch origin main
             git reset --hard origin/main
             cp /tmp/latest-news.json latest-news.json
+            cp /tmp/.seen-ids.json .seen-ids.json 2>/dev/null || true
             git add latest-news.json .seen-ids.json
             if git diff --staged --quiet; then
               echo "No changes."
@@ -60,3 +62,21 @@ jobs:
           done
           echo "Could not publish latest-news.json after retries."
           exit 1
+
+      - name: Send push notification after publish
+        if: ${{ hashFiles('ntfy-payload.json') != '' }}
+        run: |
+          python3 << 'PYEOF'
+          import json, urllib.request
+          with open('ntfy-payload.json', encoding='utf-8') as f:
+              payload = json.load(f)
+          data = json.dumps(payload).encode('utf-8')
+          req = urllib.request.Request(
+              'https://ntfy.sh',
+              data=data,
+              headers={'Content-Type': 'application/json', 'User-Agent': 'UAP-News-Bot/1.0'},
+              method='POST',
+          )
+          with urllib.request.urlopen(req, timeout=15) as r:
+              print(f'Notification sent after publish (HTTP {r.status})')
+          PYEOF
