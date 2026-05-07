@@ -6,6 +6,7 @@
   var readIds = loadReadIds();
   var notificationIds = getNotificationIds();
   var notificationMode = notificationIds.length > 0;
+  var NTFY_TOPIC = 'uap-news-cpg23';
 
   function loadReadIds() {
     try { return JSON.parse(localStorage.getItem('uap_read_ids_v1') || '[]'); } catch (e) { return []; }
@@ -47,12 +48,21 @@
       '.alien-head{width:min(760px,120vw)!important;max-width:none!important;animation:uapAlienDeepZoom 9s ease-in-out infinite!important;opacity:.72!important}',
       '@keyframes uapAlienDeepZoom{0%,100%{opacity:.62;transform:scale(1.08);filter:brightness(.62) saturate(1.2) drop-shadow(0 0 22px rgba(0,212,255,.95)) drop-shadow(0 0 52px rgba(0,212,255,.55))}50%{opacity:.92;transform:scale(1.92);filter:brightness(.9) saturate(1.55) drop-shadow(0 0 42px rgba(0,212,255,1)) drop-shadow(0 0 84px rgba(0,212,255,.72)) drop-shadow(0 0 120px rgba(0,255,157,.32))}}',
       '.startup-panel{display:none!important}',
+      '.brand{position:relative;padding-left:2px}',
+      '.brand-title{display:inline-block!important;position:relative;color:#eafcff!important;font-family:"Rajdhani",sans-serif!important;font-weight:700!important;font-size:clamp(28px,8vw,46px)!important;line-height:.92!important;letter-spacing:2px!important;text-shadow:0 0 8px rgba(255,255,255,.65),0 0 22px rgba(0,212,255,.9),0 0 44px rgba(0,255,157,.35)!important}',
+      '.brand-title::after{content:"";position:absolute;left:1px;right:0;bottom:-7px;height:2px;background:linear-gradient(90deg,#00d4ff,#00ff9d,transparent);box-shadow:0 0 18px rgba(0,212,255,.95)}',
+      '.brand-sub{margin-top:10px!important;color:#9fc7d4!important;letter-spacing:2.4px!important}',
+      '.status{padding-top:4px}',
       '.quality-help{margin:-4px 0 14px;color:#8aa6b3;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.55;border-left:2px solid rgba(0,212,255,.5);padding-left:10px}',
       '.article-topline{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:9px}',
       '.article-topline .badges{justify-content:flex-end;margin:0;flex:1 1 auto}',
       '.article-date-prominent{flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;color:#d7f6ff;border:1px solid rgba(0,212,255,.42);background:rgba(0,212,255,.085);padding:4px 8px;font-family:"Share Tech Mono",monospace;font-size:11px;letter-spacing:1.2px;white-space:nowrap}',
       '.article-date-prominent::before{content:"DATUM";color:#00d4ff;font-size:9px;letter-spacing:1.4px}',
       '.badge.quality{cursor:pointer}',
+      '.notify-btn{position:relative}',
+      '.notify-btn.active{color:#07130f!important;border-color:rgba(0,255,157,.9)!important;background:#00ff9d!important;box-shadow:0 0 18px rgba(0,255,157,.38)}',
+      '.notify-btn.blocked{color:#ffb69c!important;border-color:rgba(255,107,53,.5)!important;background:rgba(255,107,53,.08)!important}',
+      '.notify-info{margin:0 0 14px;padding:10px 12px;border:1px solid rgba(0,212,255,.28);background:rgba(0,212,255,.055);color:#a9cbd7;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.5}',
       '.quality-overlay{position:fixed;inset:0;z-index:2500;display:flex;align-items:flex-end;justify-content:center;padding:18px;background:rgba(1,6,10,.72);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}',
       '.quality-sheet{width:min(520px,100%);border:1px solid rgba(0,212,255,.48);background:linear-gradient(180deg,rgba(8,20,32,.98),rgba(3,10,15,.98));box-shadow:0 0 36px rgba(0,212,255,.22);padding:16px 16px 14px;color:#d6e8f0}',
       '.quality-sheet h3{margin:0 0 8px;color:#00d4ff;font-family:"Rajdhani",sans-serif;font-size:21px;letter-spacing:0}',
@@ -67,6 +77,7 @@
       '.old-list.collapsed{display:none}',
       '.notification-focus{margin:0 0 14px;padding:11px 12px;border:1px solid rgba(0,255,157,.35);background:rgba(0,255,157,.06);color:#b5f5d4;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.55}',
       '.uap-hidden-by-notification{display:none!important}',
+      '@media(max-width:560px){.header-inner{gap:10px}.brand-title{font-size:clamp(27px,10vw,39px)!important;letter-spacing:1px!important}.status{font-size:8px!important}}',
       '@media(max-width:420px){.article-topline{gap:8px}.article-date-prominent{font-size:10px;padding:4px 6px}.article-topline .badge{font-size:8px;padding:2px 5px}}'
     ].join('\n');
     document.head.appendChild(style);
@@ -84,7 +95,76 @@
   function cleanToolbar() {
     document.querySelectorAll('a.icon-btn[href*="latest-news.json"]').forEach(function(a) { a.remove(); });
     var meta = document.getElementById('feed-meta');
-    if (meta) meta.textContent = notificationMode ? 'Neue Artikel aus Push-Benachrichtigung' : 'Gesammelte Nachrichten aus GitHub';
+    if (meta) meta.textContent = '';
+    addNotifyButton();
+  }
+  function setNotifyState(btn) {
+    if (!btn) btn = document.getElementById('notify-btn');
+    if (!btn) return;
+    btn.classList.remove('active', 'blocked');
+    var permission = ('Notification' in window) ? Notification.permission : 'unsupported';
+    if (permission === 'granted') {
+      btn.classList.add('active');
+      btn.title = 'Push-Benachrichtigungen sind am Gerät erlaubt. Tippen öffnet den ntfy-Kanal.';
+    } else if (permission === 'denied') {
+      btn.classList.add('blocked');
+      btn.title = 'Benachrichtigungen sind im Browser blockiert.';
+    } else {
+      btn.title = 'Push-Benachrichtigungen aktivieren';
+    }
+  }
+  function addNotifyButton() {
+    var row = document.querySelector('.button-row');
+    if (!row || document.getElementById('notify-btn')) return;
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.id = 'notify-btn';
+    btn.className = 'icon-btn notify-btn';
+    btn.setAttribute('aria-label', 'Push-Benachrichtigungen aktivieren');
+    btn.textContent = '♢';
+    row.insertBefore(btn, row.firstChild);
+    setNotifyState(btn);
+  }
+  function showNotifyInfo(text) {
+    var notice = document.getElementById('notice');
+    if (!notice || !notice.parentNode) return;
+    var box = document.querySelector('.notify-info');
+    if (!box) {
+      box = document.createElement('div');
+      box.className = 'notify-info';
+      notice.parentNode.insertBefore(box, notice);
+    }
+    box.textContent = text;
+    clearTimeout(showNotifyInfo.timer);
+    showNotifyInfo.timer = setTimeout(function() { if (box.parentNode) box.remove(); }, 9000);
+  }
+  function openNtfy() {
+    var url = 'https://ntfy.sh/' + encodeURIComponent(NTFY_TOPIC);
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }
+  function activateNotifications() {
+    if (!('Notification' in window)) {
+      showNotifyInfo('Dieses Gerät unterstützt Browser-Benachrichtigungen hier nicht. Der ntfy-Kanal wird geöffnet, dort kannst du das Abo aktivieren.');
+      openNtfy();
+      return;
+    }
+    if (Notification.permission === 'default') {
+      Notification.requestPermission().then(function() {
+        setNotifyState();
+        showNotifyInfo('Die Browser-Berechtigung wurde geprüft. Für dauerhafte Pushs öffnet sich jetzt der ntfy-Kanal; das Abo liegt beim Gerät und nicht im App-Cache.');
+        openNtfy();
+      });
+      return;
+    }
+    if (Notification.permission === 'denied') {
+      setNotifyState();
+      showNotifyInfo('Benachrichtigungen sind im Browser blockiert. Bitte in den Browser- oder App-Einstellungen erlauben. Der ntfy-Kanal wird trotzdem geöffnet.');
+      openNtfy();
+      return;
+    }
+    setNotifyState();
+    showNotifyInfo('Benachrichtigungen sind erlaubt. Der ntfy-Kanal wird geöffnet; dort bleibt das Abo unabhängig vom App-Cache erhalten.');
+    openNtfy();
   }
   function addNotificationFocus(count) {
     if (!notificationMode || document.querySelector('.notification-focus')) return;
@@ -271,8 +351,17 @@
     cleanToolbar();
     document.querySelectorAll('.article-card').forEach(cleanCard);
     regroupCards();
+    setNotifyState();
   }
 
+  document.addEventListener('click', function(e) {
+    var notify = e.target.closest && e.target.closest('#notify-btn');
+    if (!notify) return;
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+    activateNotifications();
+  }, true);
   document.addEventListener('click', function(e) {
     var quality = e.target.closest && e.target.closest('.badge.quality');
     if (!quality) return;
