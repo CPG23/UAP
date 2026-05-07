@@ -54,7 +54,7 @@ jobs:
               print('No seen IDs yet.')
 
           UAP_RE = re.compile(
-              r'\b(uap|ufo|ufos|uaps|unidentified anomalous|unidentified aerial|'
+              r'\b(uap|ufo|ufos|uaps|alien|aliens|unidentified anomalous|unidentified aerial|'
               r'aerial phenomenon|aerial phenomena|flying saucer|extraterrestrial|'
               r'disclosure|whistleblower|pentagon|aaro|dod|congress|crash.?retrieval|'
               r'nonhuman|non.human|sighting|sightings|orb|orbs|usos?)\b', re.I)
@@ -102,7 +102,7 @@ jobs:
               score = 1
               if AUTHORITATIVE_RE.search(text):
                   score += 2
-              if re.search(r'\b(uap|ufo|ufos|uaps)\b', title, re.I):
+              if re.search(r'\b(uap|ufo|ufos|uaps|alien|aliens)\b', title, re.I):
                   score += 1
               if re.search(r'\b(pentagon|aaro|nasa|congress|senate|whistleblower|disclosure|sighting)\b', title, re.I):
                   score += 1
