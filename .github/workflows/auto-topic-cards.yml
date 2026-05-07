@@ -1,0 +1,143 @@
+name: Auto topic card UI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/auto-topic-cards.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch-app:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply topic-card UI patch
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+
+          const file = 'index.html';
+          let s = fs.readFileSync(file, 'utf8');
+          const before = s;
+
+          function replaceAll(find, replacement, label) {
+            if (!s.includes(find) && !s.includes(replacement)) {
+              throw new Error('Could not find expected text: ' + label);
+            }
+            s = s.split(find).join(replacement);
+          }
+
+          function replaceOnce(find, replacement, label) {
+            if (s.includes(replacement)) return;
+            if (!s.includes(find)) throw new Error('Could not find expected text: ' + label);
+            s = s.replace(find, replacement);
+          }
+
+          replaceOnce(
+            "    const _aid = article.id;\n    card.innerHTML = `",
+            "    const _aid = article.id;\n    const _sourceCount = Math.max(article._mentions || 1, 1 + ((article._otherSources && article._otherSources.length) || 0));\n    const _topicLabel = _sourceCount > 1 ? 'THEMA · ' + _sourceCount + ' QUELLEN' : 'MELDUNG';\n    card.innerHTML = `",
+            'topic card variables'
+          );
+
+          replaceOnce(
+            "          ${article.isNew ? '<span class=\"badge badge-new\">● NEU</span>' : ''}\n          <span class=\"badge badge-source\">${escHtml(article.source)}</span>\n          ${article._otherSources && article._otherSources.length ? `<span class=\"badge multi-src-badge\" style=\"border-color:var(--accent2);color:var(--accent2);background:rgba(0,255,157,0.06)\">+Quellen</span>` : ''}",
+            "          ${article.isNew ? '<span class=\"badge badge-new\">● NEU</span>' : ''}\n          <span class=\"badge badge-source\" style=\"border-color:var(--accent2);color:var(--accent2);background:rgba(0,255,157,0.06)\">${_topicLabel}</span>\n          <span class=\"badge badge-source\">${escHtml(article.source)}</span>",
+            'topic badges'
+          );
+
+          replaceOnce(
+            '            <div class="section-label">ZUSAMMENFASSUNG</div>',
+            '            <div class="section-label">${_sourceCount > 1 ? \'THEMEN-ZUSAMMENFASSUNG\' : \'ZUSAMMENFASSUNG\'}</div>',
+            'summary label'
+          );
+
+          replaceOnce(
+            "      div.appendChild(document.createTextNode('AUCH GEMELDET: '));",
+            "      div.appendChild(document.createTextNode('WEITERE QUELLEN: '));",
+            'other source label'
+          );
+
+          replaceAll('Aktuelle Meldungen', 'Aktuelle Themen', 'feed title');
+          replaceAll("articles.length + ' MELDUNGEN'", "articles.length + ' THEMEN'", 'counter label');
+          replaceAll('Gespeicherte Artikel', 'Gespeicherte Themen', 'saved header');
+          replaceAll("' ARTIKEL</span>'", "' THEMEN</span>'", 'saved count');
+          replaceAll('Auch gespeicherte anzeigen', 'Auch gespeicherte Themen anzeigen', 'saved toggle');
+
+          s = s.replace(
+            /              _mentions: 1,?\r?\n(              isOfficial:)/g,
+            "              _mentions: a.mentions || 1,\n              _otherSources: (a.otherSources || []).map(function(s) {\n                return { source: s.source || 'UAP News', url: s.link || s.url || '' };\n              }),\n$1"
+          );
+
+          const retryStart = s.indexOf('  async function retrySummary(aid) {');
+          if (retryStart >= 0) {
+            const retryEnd = s.indexOf('\n\n  var _pendingNotifArticles', retryStart);
+            if (retryEnd < 0) throw new Error('Could not find end of retrySummary');
+            const currentRetry = s.slice(retryStart, retryEnd);
+            if (!currentRetry.includes('retrySummary uses article text only')) {
+              const replacement = `  async function retrySummary(aid) {
+            var article = currentArticles.find(function(a) { return a.id === aid; });
+            var errEl   = document.getElementById('sum-loading-' + aid);
+            if (!article || !errEl) return;
+            errEl.className = 'sum-loading-row';
+            errEl.textContent = '⟳ KI liest Artikel & erstellt Zusammenfassung...';
+            try {
+              // retrySummary uses article text only. No title-only summaries.
+              var txt = await _fetchArticleText(article.url);
+              if (txt && txt.length >= 100) {
+                var prompt = 'Summarize ONLY the article text below in 4 factual sentences. Do not add facts, dates, names, claims, or context that are not explicitly present. If the text is insufficient, return exactly: INSUFFICIENT_SOURCE_TEXT. Plain English, no markdown.\\n\\n' + txt.substring(0, 2400);
+                var res = ((await callAI(prompt, 900)) || '').trim();
+                if (res && res !== 'INSUFFICIENT_SOURCE_TEXT' && res.length >= 60) {
+                  article.summary = _clipAtSentence(res, 520);
+                  var sumEl = document.getElementById('summary-text-' + aid);
+                  if (sumEl) {
+                    sumEl.textContent = article.summary;
+                    sumEl.removeAttribute('style');
+                    errEl.remove();
+                  }
+                  saveFeedCache();
+                  return;
+                }
+              }
+            } catch(e) {}
+            errEl.className = 'sum-error-row';
+            errEl.innerHTML = '⚠ Zusammenfassung fehlgeschlagen'
+              + ' <button class="sum-retry-btn" onclick="retrySummary(\\'' + aid + '\\')">↺ WIEDERHOLEN</button>';
+          }`;
+              s = s.slice(0, retryStart) + replacement + s.slice(retryEnd);
+            }
+          }
+
+          fs.writeFileSync(file, s);
+
+          const checks = [
+            'Aktuelle Themen',
+            'THEMA · ',
+            'THEMEN-ZUSAMMENFASSUNG',
+            'WEITERE QUELLEN',
+            'retrySummary uses article text only'
+          ];
+          for (const check of checks) {
+            if (!s.includes(check)) throw new Error('Missing expected output: ' + check);
+          }
+
+          console.log(s === before ? 'index.html already up to date.' : 'index.html updated with topic cards.');
+          NODE
+
+      - name: Publish patched app
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if git diff --staged --quiet; then
+            echo "No index.html changes."
+          else
+            git commit -m "feat: show grouped articles as topic cards"
+            git push origin main
+          fi
