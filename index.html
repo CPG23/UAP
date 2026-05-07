@@ -1976,8 +1976,10 @@
     const _sumIsAI    = hasSummary && _rawSum.length >= 100;
 
     const _aid = article.id;
-    const _sourceCount = Math.max(article._mentions || 1, 1 + ((article._otherSources && article._otherSources.length) || 0));
-    const _topicLabel = _sourceCount > 1 ? 'THEMA · ' + _sourceCount + ' QUELLEN' : 'MELDUNG';
+    const _visibleSourceCount = 1 + ((article._otherSources && article._otherSources.length) || 0);
+    const _hiddenSourceCount = Math.max((article._mentions || 1) - _visibleSourceCount, 0);
+    const _sourceCount = _visibleSourceCount;
+    const _topicLabel = _sourceCount > 1 ? 'THEMA · ' + _sourceCount + ' SICHTBARE QUELLEN' : 'MELDUNG';
     card.innerHTML = `
       <div class="article-header" onclick="toggleCard('${_aid}')">
         <div class="article-badges">
@@ -2020,6 +2022,13 @@
           const sp = document.createElement('span'); sp.className = 'src-nolink'; sp.textContent = s.source; div.appendChild(sp);
         }
       });
+      if (_hiddenSourceCount > 0) {
+        div.appendChild(document.createTextNode(' '));
+        const sp = document.createElement('span');
+        sp.className = 'src-nolink';
+        sp.textContent = '+' + _hiddenSourceCount + ' Treffer ohne Quellenlink';
+        div.appendChild(sp);
+      }
       summaryRow.after(div);
     }
     return card;
