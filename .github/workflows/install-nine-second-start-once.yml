@@ -1,0 +1,37 @@
+name: Install nine second app start once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/install-nine-second-start-once.yml'
+      - '.github/scripts/install-nine-second-start.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: install-nine-second-start-once-main
+  cancel-in-progress: true
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install nine second app start behavior
+        run: node .github/scripts/install-nine-second-start.js
+      - name: Publish app files
+        run: |
+          if git diff --quiet -- index.html sw.js; then
+            echo "No app changes needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html sw.js
+          git commit -m "fix: keep startup screen to nine seconds"
+          git pull --rebase origin main
+          git push origin HEAD:main
