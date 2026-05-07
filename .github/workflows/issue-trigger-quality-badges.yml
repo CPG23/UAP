@@ -2,6 +2,10 @@ name: Install Quality Badges Once
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/scripts/install-quality-badges.js'
+      - '.github/workflows/issue-trigger-quality-badges.yml'
   issues:
     types: [opened]
 
@@ -11,7 +15,7 @@ permissions:
 
 jobs:
   install:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.title, 'INSTALL_QUALITY_BADGES')
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || contains(github.event.issue.title, 'INSTALL_QUALITY_BADGES')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
