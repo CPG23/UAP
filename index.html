@@ -527,6 +527,35 @@
     background: rgba(0,212,255,0.06);
   }
 
+  .quality-badge {
+    border-color: rgba(0,255,157,0.38);
+    color: var(--accent2);
+    background: rgba(0,255,157,0.06);
+  }
+
+  .quality-medium {
+    border-color: rgba(0,212,255,0.34);
+    color: var(--accent);
+    background: rgba(0,212,255,0.05);
+  }
+
+  .quality-low {
+    border-color: rgba(255,107,53,0.36);
+    color: var(--accent3);
+    background: rgba(255,107,53,0.06);
+  }
+
+  .term-chip {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 1.6px;
+    padding: 2px 7px;
+    border: 1px solid rgba(90,122,138,0.45);
+    color: #8aa8b8;
+    background: rgba(90,122,138,0.06);
+    text-transform: uppercase;
+  }
+
   .article-title {
     grid-area: title;
     font-family: 'Rajdhani', sans-serif;
@@ -1959,7 +1988,21 @@
     });
   }
 
-    function _makeArticleCard(article, idx) {
+  
+  function _qualityInfo(article) {
+    var q = Number(article.quality || article._quality || 0);
+    if (q >= 5) return { label: 'QUALITAET HOCH', cls: 'quality-badge' };
+    if (q >= 3) return { label: 'QUALITAET MITTEL', cls: 'quality-badge quality-medium' };
+    return { label: 'QUALITAET NIEDRIG', cls: 'quality-badge quality-low' };
+  }
+
+  function _normaliseTerms(article) {
+    var terms = article.matchedTerms || article._matchedTerms || [];
+    if (!Array.isArray(terms)) return [];
+    return terms.filter(Boolean).slice(0, 5);
+  }
+
+  function _makeArticleCard(article, idx) {
     const card = document.createElement('div');
     card.className = 'article-card' + (article.isNew ? ' is-new' : '');
     card.id = 'card-' + article.id;
@@ -1976,6 +2019,8 @@
     const _sumIsAI    = hasSummary && _rawSum.length >= 100;
 
     const _aid = article.id;
+    const _quality = _qualityInfo(article);
+    const _terms = _normaliseTerms(article);
     const _visibleSourceCount = 1 + ((article._otherSources && article._otherSources.length) || 0);
     const _hiddenSourceCount = Math.max((article._mentions || 1) - _visibleSourceCount, 0);
     const _sourceCount = _visibleSourceCount;
@@ -1986,6 +2031,8 @@
           ${article.isNew ? '<span class="badge badge-new">● NEU</span>' : ''}
           <span class="badge badge-source" style="border-color:var(--accent2);color:var(--accent2);background:rgba(0,255,157,0.06)">${_topicLabel}</span>
           <span class="badge badge-source">${escHtml(article.source)}</span>
+        ${article.quality || article._quality ? '<span class="badge ' + _quality.cls + '">' + _quality.label + '</span>' : ''}
+        ${_terms.map(function(t) { return '<span class="term-chip">' + escHtml(String(t)).toUpperCase() + '</span>'; }).join('')}
         </div>
         <div class="article-title" id="article-title-${_aid}">${escHtml(article.title)}</div>
         <div class="article-arrow">▶</div>
@@ -2523,6 +2570,10 @@
               url: a.link || '',
               isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(a.source + a.title),
               _mentions: a.mentions || 1,
+              quality: a.quality || 0,
+              _quality: a.quality || 0,
+              matchedTerms: a.matchedTerms || [],
+              _matchedTerms: a.matchedTerms || [],
               _otherSources: (a.otherSources || []).map(function(s) {
                 return { source: s.source || 'UAP News', url: s.link || s.url || '' };
               })
@@ -2573,6 +2624,10 @@
               url: a.link || '',
               isNew: true,
               _mentions: a.mentions || 1,
+              quality: a.quality || 0,
+              _quality: a.quality || 0,
+              matchedTerms: a.matchedTerms || [],
+              _matchedTerms: a.matchedTerms || [],
               _otherSources: (a.otherSources || []).map(function(s) {
                 return { source: s.source || 'UAP News', url: s.link || s.url || '' };
               }),
