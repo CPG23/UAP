@@ -1,4 +1,4 @@
-// Temporary installer for clearer source counts and source lists.
+// Triggered by Codex on 2026-05-07 for clearer source counts and source lists.
 const fs = require('fs');
 const path = 'index.html';
 let html = fs.readFileSync(path, 'utf8');
