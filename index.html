@@ -841,6 +841,42 @@
     margin: 0 3px;
   }
 
+  .source-list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .source-item {
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    gap: 8px;
+    align-items: start;
+  }
+
+  .source-index {
+    color: var(--accent2);
+    opacity: 0.75;
+  }
+
+  .source-main {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .source-name {
+    width: max-content;
+    max-width: 100%;
+  }
+
+  .source-title {
+    color: #8aa8b8;
+    opacity: 0.85;
+    line-height: 1.45;
+    letter-spacing: 0.4px;
+  }
+
   .summary-row { margin-bottom: 4px; }
   .section-label {
     font-family: 'Share Tech Mono', monospace;
@@ -1980,7 +2016,7 @@
       if (!art.url && art.link) art.url = art.link;
       if (g.others.length > 0) {
         art._otherSources = g.others.map(function(o) {
-          return { source: o.source, url: o.url || o.link || '', link: o.link || o.url || '' };
+          return { source: o.source, url: o.url || o.link || '', link: o.link || o.url || '', title: o.title || '' };
         });
         art._mentions = Math.max(art._mentions || 1, 1 + g.others.length);
       }
@@ -2021,6 +2057,7 @@
     const _aid = article.id;
     const _quality = _qualityInfo(article);
     const _terms = _normaliseTerms(article);
+    const _sourceCount = 1 + ((article._otherSources && article._otherSources.length) || 0);
     const _visibleSourceCount = 1 + ((article._otherSources && article._otherSources.length) || 0);
     const _hiddenSourceCount = Math.max((article._mentions || 1) - _visibleSourceCount, 0);
     const _sourceCount = _visibleSourceCount;
@@ -2056,27 +2093,54 @@
       </div>
     `;
     if (article.url) { var ml = card.querySelector('#main-link-' + _aid); if (ml) ml.href = article.url; }
-    if (article._otherSources && article._otherSources.length) {
+    var allSources = [{ source: article.source || 'UAP News', url: article.url || '', title: article.title || '' }]
+      .concat(article._otherSources || []);
+    var seenSources = {};
+    var uniqueSources = allSources.filter(function(s) {
+      var key = String((s.source || '') + '|' + (s.url || '')).toLowerCase();
+      if (seenSources[key]) return false;
+      seenSources[key] = true;
+      return true;
+    });
+    if (uniqueSources.length > 1) {
       const summaryRow = card.querySelector('.summary-row');
       const div = document.createElement('div');
-      div.className = 'other-sources';
-      div.appendChild(document.createTextNode('WEITERE QUELLEN: '));
-      article._otherSources.forEach(function(s, si) {
-        if (si > 0) div.appendChild(document.createTextNode(' '));
+      div.className = 'other-sources source-list';
+      const label = document.createElement('div');
+      label.className = 'section-label';
+      label.textContent = 'QUELLEN (' + uniqueSources.length + ')';
+      div.appendChild(label);
+      uniqueSources.forEach(function(s, si) {
+        const row = document.createElement('div');
+        row.className = 'source-item';
+        const num = document.createElement('span');
+        num.className = 'source-index';
+        num.textContent = String(si + 1).padStart(2, '0');
+        const main = document.createElement('div');
+        main.className = 'source-main';
         if (s.url) {
-          const a = document.createElement('a'); a.href = s.url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = s.source; div.appendChild(a);
+          const a = document.createElement('a');
+          a.href = s.url; a.target = '_blank'; a.rel = 'noopener';
+          a.className = 'source-name';
+          a.textContent = s.source || 'UAP News';
+          main.appendChild(a);
         } else {
-          const sp = document.createElement('span'); sp.className = 'src-nolink'; sp.textContent = s.source; div.appendChild(sp);
+          const sp = document.createElement('span');
+          sp.className = 'src-nolink source-name';
+          sp.textContent = s.source || 'UAP News';
+          main.appendChild(sp);
         }
+        if (s.title && s.title !== article.title) {
+          const title = document.createElement('span');
+          title.className = 'source-title';
+          title.textContent = s.title;
+          main.appendChild(title);
+        }
+        row.appendChild(num);
+        row.appendChild(main);
+        div.appendChild(row);
       });
-      if (_hiddenSourceCount > 0) {
-        div.appendChild(document.createTextNode(' '));
-        const sp = document.createElement('span');
-        sp.className = 'src-nolink';
-        sp.textContent = '+' + _hiddenSourceCount + ' Treffer ohne Quellenlink';
-        div.appendChild(sp);
-      }
-      summaryRow.after(div);
+      if (summaryRow) summaryRow.after(div);
     }
     return card;
   }
@@ -2575,7 +2639,7 @@
               matchedTerms: a.matchedTerms || [],
               _matchedTerms: a.matchedTerms || [],
               _otherSources: (a.otherSources || []).map(function(s) {
-                return { source: s.source || 'UAP News', url: s.link || s.url || '' };
+                return { source: s.source || 'UAP News', url: s.link || s.url || '', title: s.title || '' };
               })
             };
           });
@@ -2629,7 +2693,7 @@
               matchedTerms: a.matchedTerms || [],
               _matchedTerms: a.matchedTerms || [],
               _otherSources: (a.otherSources || []).map(function(s) {
-                return { source: s.source || 'UAP News', url: s.link || s.url || '' };
+                return { source: s.source || 'UAP News', url: s.link || s.url || '', title: s.title || '' };
               }),
               isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(a.source + a.title)
             };
