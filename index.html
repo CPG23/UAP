@@ -1976,12 +1976,14 @@
     const _sumIsAI    = hasSummary && _rawSum.length >= 100;
 
     const _aid = article.id;
+    const _sourceCount = Math.max(article._mentions || 1, 1 + ((article._otherSources && article._otherSources.length) || 0));
+    const _topicLabel = _sourceCount > 1 ? 'THEMA · ' + _sourceCount + ' QUELLEN' : 'MELDUNG';
     card.innerHTML = `
       <div class="article-header" onclick="toggleCard('${_aid}')">
         <div class="article-badges">
           ${article.isNew ? '<span class="badge badge-new">● NEU</span>' : ''}
+          <span class="badge badge-source" style="border-color:var(--accent2);color:var(--accent2);background:rgba(0,255,157,0.06)">${_topicLabel}</span>
           <span class="badge badge-source">${escHtml(article.source)}</span>
-          ${article._otherSources && article._otherSources.length ? `<span class="badge multi-src-badge" style="border-color:var(--accent2);color:var(--accent2);background:rgba(0,255,157,0.06)">+Quellen</span>` : ''}
         </div>
         <div class="article-title" id="article-title-${_aid}">${escHtml(article.title)}</div>
         <div class="article-arrow">▶</div>
@@ -1992,7 +1994,7 @@
       <div class="article-details" id="details-${_aid}">
         <div class="details-content">
           <div class="summary-row">
-            <div class="section-label">ZUSAMMENFASSUNG</div>
+            <div class="section-label">${_sourceCount > 1 ? 'THEMEN-ZUSAMMENFASSUNG' : 'ZUSAMMENFASSUNG'}</div>
             <div class="details-text summary-text" id="summary-text-${_aid}" ${_sumIsAI ? '' : 'style="opacity:0.6;font-style:italic"'}>${_sumDisplay}</div>
             ${!hasSummary ? `<div class="sum-loading-row" id="sum-loading-${_aid}">⟳ KI liest Artikel &amp; erstellt Zusammenfassung…</div>` : ''}
             ${_sumIsAI ? `<button class="btn-translate btn-translate-sm" id="translate-sum-btn-${_aid}" onclick="translateSummary('${_aid}')">🌐 Übersetzen</button>` : ''}
@@ -2009,7 +2011,7 @@
       const summaryRow = card.querySelector('.summary-row');
       const div = document.createElement('div');
       div.className = 'other-sources';
-      div.appendChild(document.createTextNode('AUCH GEMELDET: '));
+      div.appendChild(document.createTextNode('WEITERE QUELLEN: '));
       article._otherSources.forEach(function(s, si) {
         if (si > 0) div.appendChild(document.createTextNode(' '));
         if (s.url) {
@@ -2039,12 +2041,12 @@
     const header = document.createElement('div');
     header.className = 'feed-header';
     header.innerHTML = `
-      <span class="feed-title">Aktuelle Meldungen</span>
+      <span class="feed-title">Aktuelle Themen</span>
       ${hasNew ? `<span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--accent2)">+${newArts.length} NEU</span>` : ''}
       <span style="margin-left:auto;font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--text-dim)" id="scan-duration"></span>
     `;
     feed.appendChild(header);
-    document.getElementById('article-counter').textContent = articles.length + ' MELDUNGEN';
+    document.getElementById('article-counter').textContent = articles.length + ' THEMEN';
 
     if (hasNew) {
       // Render new articles
@@ -2077,8 +2079,8 @@
       if (showSavedArticles) {
         const savedHdr = document.createElement('div');
         savedHdr.className = 'saved-section-header';
-        savedHdr.innerHTML = '<span class="saved-section-title">🗃 Gespeicherte Artikel</span>' +
-          '<span style="font-family:\'Share Tech Mono\',monospace;font-size:10px;color:var(--text-dim)">' + savedArts.length + ' ARTIKEL</span>';
+        savedHdr.innerHTML = '<span class="saved-section-title">🗃 Gespeicherte Themen</span>' +
+          '<span style="font-family:\'Share Tech Mono\',monospace;font-size:10px;color:var(--text-dim)">' + savedArts.length + ' THEMEN</span>';
         savedList.appendChild(savedHdr);
       }
 
@@ -2092,7 +2094,7 @@
     if (!btn) return;
     btn.textContent = showSavedArticles
       ? '▲ Gespeicherte ausblenden'
-      : '▼ Auch gespeicherte anzeigen (' + count + ')';
+      : '▼ Auch gespeicherte Themen anzeigen (' + count + ')';
   }
 
   function toggleSavedArticles() {
@@ -2107,8 +2109,8 @@
       if (!savedList.querySelector('.saved-section-header')) {
         var savedHdr = document.createElement('div');
         savedHdr.className = 'saved-section-header';
-        savedHdr.innerHTML = '<span class="saved-section-title">🗃 Gespeicherte Artikel</span>' +
-          '<span style="font-family:\'Share Tech Mono\',monospace;font-size:10px;color:var(--text-dim)">' + savedArts.length + ' ARTIKEL</span>';
+        savedHdr.innerHTML = '<span class="saved-section-title">🗃 Gespeicherte Themen</span>' +
+          '<span style="font-family:\'Share Tech Mono\',monospace;font-size:10px;color:var(--text-dim)">' + savedArts.length + ' THEMEN</span>';
         savedList.insertBefore(savedHdr, savedList.firstChild);
       }
     } else {
@@ -2349,42 +2351,34 @@
   })();
 
   async function retrySummary(aid) {
-    var article = currentArticles.find(function(a) { return a.id === aid; });
-    var errEl   = document.getElementById('sum-loading-' + aid);
-    if (!article || !errEl) return;
-    errEl.className = 'sum-loading-row';
-    errEl.textContent = '⟳ KI-Zusammenfassung wird erstellt…';
-    try {
-      var prompt = '5-sentence factual summary, English, plain text only: ' + article.title;
-      var res = await callAI(prompt, 900);
-      if (res && res.trim().length > 150) {
-        var titleWords = (article.title || '').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(function(w){return w.length>4;});
-        var matches = titleWords.filter(function(w){return res.toLowerCase().indexOf(w)>=0;});
-        if (titleWords.length === 0 || matches.length > 0) {
-          article.summary = res.trim();
-          var sumEl = document.getElementById('summary-text-' + aid);
-          if (sumEl) {
-            sumEl.textContent = article.summary;
-            sumEl.removeAttribute('style');
-            errEl.remove();
-            if (!document.getElementById('translate-sum-btn-' + aid)) {
-              var btn = document.createElement('button');
-              btn.className = 'btn-translate btn-translate-sm';
-              btn.id = 'translate-sum-btn-' + aid;
-              btn.setAttribute('onclick', "translateSummary('" + aid + "')");
-              btn.textContent = '🌐 Übersetzen';
-              sumEl.parentNode.insertBefore(btn, sumEl.nextSibling);
-            }
-          }
-          saveFeedCache();
-          return;
+  var article = currentArticles.find(function(a) { return a.id === aid; });
+  var errEl   = document.getElementById('sum-loading-' + aid);
+  if (!article || !errEl) return;
+  errEl.className = 'sum-loading-row';
+  errEl.textContent = '⟳ KI liest Artikel & erstellt Zusammenfassung...';
+  try {
+    // retrySummary uses article text only. No title-only summaries.
+    var txt = await _fetchArticleText(article.url);
+    if (txt && txt.length >= 100) {
+      var prompt = 'Summarize ONLY the article text below in 4 factual sentences. Do not add facts, dates, names, claims, or context that are not explicitly present. If the text is insufficient, return exactly: INSUFFICIENT_SOURCE_TEXT. Plain English, no markdown.\n\n' + txt.substring(0, 2400);
+      var res = ((await callAI(prompt, 900)) || '').trim();
+      if (res && res !== 'INSUFFICIENT_SOURCE_TEXT' && res.length >= 60) {
+        article.summary = _clipAtSentence(res, 520);
+        var sumEl = document.getElementById('summary-text-' + aid);
+        if (sumEl) {
+          sumEl.textContent = article.summary;
+          sumEl.removeAttribute('style');
+          errEl.remove();
         }
+        saveFeedCache();
+        return;
       }
-    } catch(e) {}
-    errEl.className = 'sum-error-row';
-    errEl.innerHTML = '⚠ Zusammenfassung fehlgeschlagen'
-      + ' <button class="sum-retry-btn" onclick="retrySummary(\'' + aid + '\')">↺ WIEDERHOLEN</button>';
-  }
+    }
+  } catch(e) {}
+  errEl.className = 'sum-error-row';
+  errEl.innerHTML = '⚠ Zusammenfassung fehlgeschlagen'
+    + ' <button class="sum-retry-btn" onclick="retrySummary(\'' + aid + '\')">↺ WIEDERHOLEN</button>';
+}
 
   var _pendingNotifArticles = [];
   var _notifSummaries = {};
@@ -2471,7 +2465,10 @@
               summary: _sum,
               url: a.link || '',
               isNew: true,
-              _mentions: 1,
+              _mentions: a.mentions || 1,
+              _otherSources: (a.otherSources || []).map(function(s) {
+                return { source: s.source || 'UAP News', url: s.link || s.url || '' };
+              }),
               isOfficial: /pentagon|aaro|nasa|congress|dod|senate|military|defense/i.test(a.source + a.title)
             };
           });
