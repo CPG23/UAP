@@ -1,4 +1,4 @@
-var CACHE = 'uap-v23-bell-header-design';
+var CACHE = 'uap-v24-ntfy-topic-fix';
 var META  = 'uap-meta-v1';
 
 self.addEventListener('install', function(e) {
@@ -30,9 +30,9 @@ function withFeedOverrides(resp) {
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
     if (html.indexOf('app-feed-overrides.js') === -1) {
-      html = html.replace('</body>', '<script src="./app-feed-overrides.js?v=23"></script></body>');
+      html = html.replace('</body>', '<script src="./app-feed-overrides.js?v=24"></script></body>');
     } else {
-      html = html.replace(/app-feed-overrides\.js\?v=\d+/g, 'app-feed-overrides.js?v=23');
+      html = html.replace(/app-feed-overrides\.js\?v=\d+/g, 'app-feed-overrides.js?v=24');
     }
     return new Response(html, { status: resp.status, statusText: resp.statusText, headers: headers });
   });
