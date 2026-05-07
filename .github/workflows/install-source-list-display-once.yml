@@ -2,6 +2,10 @@ name: Install Source List Display Once
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/scripts/install-source-list-display.js'
+      - '.github/workflows/install-source-list-display-once.yml'
   schedule:
     - cron: '*/5 * * * *'
 
