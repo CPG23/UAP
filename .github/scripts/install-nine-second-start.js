@@ -6,6 +6,18 @@ const swPath = path.join(process.cwd(), 'sw.js');
 let html = fs.readFileSync(indexPath, 'utf8');
 let sw = fs.readFileSync(swPath, 'utf8');
 
+const oldFinally = `              .finally(function() {
+                // If the scan finishes earlier, still keep the intended 9-second intro.
+                setTimeout(_hideStartOverlayOnce, 0);
+              });`;
+const newFinally = `              .finally(function() {
+                // The launch screen is controlled only by the 9-second hard stop above.
+              });`;
+
+if (html.includes(oldFinally)) {
+  html = html.replace(oldFinally, newFinally);
+}
+
 const currentFastBlock = `    } else {
       // Normal load: show cached feed immediately; refresh live news in the background.
       var _overlayHidden = false;
@@ -64,8 +76,7 @@ const nineSecondBlock = `    } else {
             loadNews()
               .catch(function() {})
               .finally(function() {
-                // If the scan finishes earlier, still keep the intended 9-second intro.
-                setTimeout(_hideStartOverlayOnce, 0);
+                // The launch screen is controlled only by the 9-second hard stop above.
               });
           });
       }, 50);
@@ -79,14 +90,13 @@ if (html.includes(currentFastBlock)) {
   throw new Error('Expected normal startup block not found');
 }
 
-// Add a normal browser cache hint for the HTML shell.
 if (!html.includes('http-equiv="Cache-Control"')) {
   html = html.replace('<meta name="viewport" content="width=device-width, initial-scale=1.0">', '<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">');
 }
 
 sw = sw.replace(/var CACHE = 'uap-[^']+';/, "var CACHE = 'uap-v10-nine-second-start';");
 
-if (!html.includes('_startupMinMs = 9000') || !html.includes('Normal load: keep the launch screen visible for 9 seconds')) {
+if (!html.includes('_startupMinMs = 9000') || !html.includes('The launch screen is controlled only by the 9-second hard stop above')) {
   throw new Error('Nine-second start patch validation failed');
 }
 if (!sw.includes('uap-v10-nine-second-start')) {
@@ -95,4 +105,4 @@ if (!sw.includes('uap-v10-nine-second-start')) {
 
 fs.writeFileSync(indexPath, html);
 fs.writeFileSync(swPath, sw);
-console.log('Installed nine-second startup behavior.');
+console.log('Installed strict nine-second startup behavior.');
