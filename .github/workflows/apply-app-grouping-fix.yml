@@ -1,0 +1,116 @@
+name: Apply app grouping fix
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch-app:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Patch index.html grouping and summaries
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+
+          const file = 'index.html';
+          let s = fs.readFileSync(file, 'utf8');
+          const before = s;
+
+          function replaceOnce(find, replacement, label) {
+            if (s.includes(replacement)) return;
+            if (!s.includes(find)) throw new Error('Could not find expected block: ' + label);
+            s = s.replace(find, replacement);
+          }
+
+          replaceOnce('var THRESHOLD = 0.32;', 'var THRESHOLD = 0.24;', 'notification cluster threshold');
+          replaceOnce(
+            'var newKw = summaryKeywords(newArt.summary || newArt.title);',
+            "var newKw = summaryKeywords([newArt.title, newArt.summary, newArt.description, newArt._rssDesc].join(' '));",
+            'new cluster keywords'
+          );
+          replaceOnce(
+            'var sc = jaccardSimilarity(newKw, summaryKeywords(ex.summary || ex.title));',
+            "var sc = jaccardSimilarity(newKw, summaryKeywords([ex.title, ex.summary, ex.description, ex._rssDesc].join(' ')));",
+            'existing cluster keywords'
+          );
+
+          s = s.replace(
+            /          \/\/ 2\. Title-based AI summary\r?\n          if \(!_res \|\| _res\.length < 60\) \{\r?\n            try \{ _res = _clipAtSentence\(\(await callAI\('5-sentence factual summary, English, plain text only: ' \+ _a\.title\)\|\|''\)\.trim\(\), 520\); \} catch\(_e\) \{\}\r?\n          \}\r?\n/g,
+            ''
+          );
+
+          replaceOnce(
+            "try { _res = _clipAtSentence((await callAI('5-sentence factual summary, English, plain text only:\\n\\n' + _txt.substring(0, 1200))||'').trim(), 520); } catch(_e) {}",
+            "try {\n              _res = _clipAtSentence((await callAI(\n                'Summarize ONLY the article text below in 4 factual sentences. Do not add facts, dates, names, claims, or context that are not explicitly present. If the text is insufficient, return exactly: INSUFFICIENT_SOURCE_TEXT. Plain English, no markdown.\\n\\n'\n                + _txt.substring(0, 2400)\n              )||'').trim(), 520);\n              if (_res === 'INSUFFICIENT_SOURCE_TEXT') _res = '';\n            } catch(_e) {}",
+            'grounded article summary prompt'
+          );
+
+          if (!s.includes('        async function _sumOneRetry(_a, _pass) {\n          return _sumOne(_a);\n        }')) {
+            const retryStart = s.indexOf('        async function _sumOneRetry(_a, _pass) {');
+            if (retryStart < 0) throw new Error('Could not find _sumOneRetry');
+            const retryEnd = s.indexOf('\n\n        //', retryStart);
+            if (retryEnd < 0) throw new Error('Could not find end of _sumOneRetry');
+            s = s.slice(0, retryStart)
+              + "        async function _sumOneRetry(_a, _pass) {\n          return _sumOne(_a);\n        }"
+              + s.slice(retryEnd);
+          }
+
+          replaceOnce(
+            'var KEY = /\\b(trump|biden|obama|congress|senate|pentagon|nasa|aaro|darpa|cia|fbi|nsa|dod|ukraine|china|russia|ukraine|iran|military|disclosure|whistleblower|retrieval|sighting|orb|uap|ufo|extraterrestrial|alien|nonhuman|crash|documents|classified|declassified)\\b/gi;',
+            'var KEY = /\\b(trump|biden|obama|congress|senate|pentagon|nasa|aaro|darpa|cia|fbi|nsa|dod|ukraine|china|russia|iran|military|disclosure|whistleblower|retrieval|sighting|orb|uap|ufo|extraterrestrial|alien|nonhuman|crash|documents|classified|declassified|pope|popes|pastor|pastors|vatican|catholic|church|america|american)\\b/gi;',
+            'grouping key terms'
+          );
+          replaceOnce(
+            "var contentA     = a.summary || a.description || '';\n      var contentB     = b.summary || b.description || '';",
+            "var contentA     = [a.summary, a.description, a._rssDesc].join(' ');\n      var contentB     = [b.summary, b.description, b._rssDesc].join(' ');",
+            'grouping content fields'
+          );
+          replaceOnce('if (bestScore >= 0.48 && bestGi >= 0) {', 'if (bestScore >= 0.34 && bestGi >= 0) {', 'grouping threshold');
+          replaceOnce(
+            "        art._otherSources = g.others.map(function(o) {\n          return { source: o.source, url: o.url || o.link || '', link: o.link || o.url || '' };\n        });",
+            "        art._otherSources = g.others.map(function(o) {\n          return { source: o.source, url: o.url || o.link || '', link: o.link || o.url || '' };\n        });\n        art._mentions = Math.max(art._mentions || 1, 1 + g.others.length);",
+            'grouped mention count'
+          );
+
+          s = s.replace(
+            /              _mentions: 1\r?\n/g,
+            "              _mentions: a.mentions || 1,\n              _otherSources: (a.otherSources || []).map(function(s) {\n                return { source: s.source || 'UAP News', url: s.link || s.url || '' };\n              })\n"
+          );
+
+          s = s.replace(
+            "                  var _np = _ntxt && _ntxt.length >= 100\n                    ? '5-sentence factual summary, English, plain text only:\\n\\n' + _ntxt.substring(0, 1200)\n                    : '5-sentence factual summary, English, plain text only: ' + _na.title;\n                  var _nres = ((await callAI(_np))||'').trim();",
+            "                  var _nres = '';\n                  if (_ntxt && _ntxt.length >= 100) {\n                    var _np = 'Summarize ONLY the article text below in 4 factual sentences. Do not add facts, dates, names, claims, or context that are not explicitly present. If the text is insufficient, return exactly: INSUFFICIENT_SOURCE_TEXT. Plain English, no markdown.\\n\\n' + _ntxt.substring(0, 2400);\n                    _nres = ((await callAI(_np))||'').trim();\n                    if (_nres === 'INSUFFICIENT_SOURCE_TEXT') _nres = '';\n                  }"
+          );
+
+          fs.writeFileSync(file, s);
+          const checks = [
+            'var THRESHOLD = 0.24',
+            'pope|popes|pastor',
+            '_mentions: a.mentions || 1',
+            'INSUFFICIENT_SOURCE_TEXT',
+            'return _sumOne(_a);'
+          ];
+          for (const c of checks) {
+            if (!s.includes(c)) throw new Error('Missing expected output: ' + c);
+          }
+          console.log(s === before ? 'index.html already up to date.' : 'index.html patched.');
+          NODE
+
+      - name: Publish index.html
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if git diff --staged --quiet; then
+            echo "No index.html changes."
+          else
+            git commit -m "fix: improve app article grouping"
+            git push origin main
+          fi
