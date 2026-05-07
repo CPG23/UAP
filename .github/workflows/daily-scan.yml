@@ -367,11 +367,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          cp latest-news.json /tmp/latest-news.json
+          git fetch origin main
+          git reset --hard origin/main
+          cp /tmp/latest-news.json latest-news.json
           git add latest-news.json
           if git diff --staged --quiet; then
             echo "No changes."
           else
             git commit -m "chore: update latest-news.json"
-            git pull --rebase origin main
             git push origin main
           fi
