@@ -1,22 +1,23 @@
-// Triggered once by Codex on 2026-05-07.
+// Temporary installer for article quality signals.
 const fs = require('fs');
 const path = 'index.html';
 let html = fs.readFileSync(path, 'utf8');
 let changed = false;
 
-function replaceOnce(pattern, replacement, label) {
+function patch(pattern, replacement, label) {
   const before = html;
   html = html.replace(pattern, replacement);
   if (html !== before) {
     changed = true;
     console.log('patched:', label);
-  } else {
-    console.log('skipped or missing:', label);
+    return true;
   }
+  console.log('missed:', label);
+  return false;
 }
 
 if (!html.includes('.quality-badge')) {
-  replaceOnce(/(  \.badge-official \{[\s\S]*?\n  \}\n\n)/, `$1  .quality-badge {
+  patch(/(  \.badge-official \{[\s\S]*?\n  \}\n\n)/, `$1  .quality-badge {
     border-color: rgba(0,255,157,0.38);
     color: var(--accent2);
     background: rgba(0,255,157,0.06);
@@ -45,7 +46,7 @@ if (!html.includes('.quality-badge')) {
     text-transform: uppercase;
   }
 
-`, 'quality CSS');
+`, 'quality CSS after official badge');
 }
 
 if (!html.includes('function _qualityInfo(article)')) {
@@ -64,32 +65,41 @@ if (!html.includes('function _qualityInfo(article)')) {
   }
 
 `;
-  replaceOnce(/(  function _makeArticleCard\(article, index\) \{)/, helpers + '$1', 'quality helpers');
+  patch(/(  function _makeArticleCard\(article, (?:index|idx)\) \{)/, helpers + '$1', 'quality helper functions');
 }
 
 if (!html.includes('const _quality = _qualityInfo(article);')) {
-  replaceOnce(/(\s*const _hiddenSourceCount = Math\.max\(0, \(article\._mentions \|\| 1\) - _visibleSourceCount\);\n)/, `$1    const _quality = _qualityInfo(article);
+  if (!patch(/(\s*const _hiddenSourceCount = Math\.max\(0, \(article\._mentions \|\| 1\) - _visibleSourceCount\);\n)/, `$1    const _quality = _qualityInfo(article);
     const _terms = _normaliseTerms(article);
-`, 'card quality variables');
+`, 'quality variables after hidden source count')) {
+    patch(/(\s*const _aid = article\.id;\n)/, `$1    const _quality = _qualityInfo(article);
+    const _terms = _normaliseTerms(article);
+`, 'quality variables after article id');
+  }
 }
 
 if (!html.includes('_terms.map(function(t)')) {
-  replaceOnce(/(\s*\$\{\(article\._mentions \|\| 1\) > 1 \? '<span class="badge badge-official">' \+ \(article\._mentions \|\| 1\) \+ ' QUELLEN<\/span>' : ''\}\n)/, `$1        \${article.quality || article._quality ? '<span class="badge ' + _quality.cls + '">' + _quality.label + '</span>' : ''}
+  const badgeHtml = `        \${article.quality || article._quality ? '<span class="badge ' + _quality.cls + '">' + _quality.label + '</span>' : ''}
         \${_terms.map(function(t) { return '<span class="term-chip">' + escHtml(String(t)).toUpperCase() + '</span>'; }).join('')}
-`, 'card quality badges');
+`;
+  if (!patch(/(\s*\$\{\(article\._mentions \|\| 1\) > 1 \? '<span class="badge badge-official">' \+ \(article\._mentions \|\| 1\) \+ ' QUELLEN<\/span>' : ''\}\n)/, `$1${badgeHtml}`, 'quality badges after source count')) {
+    if (!patch(/(\s*\$\{article\._otherSources && article\._otherSources\.length \? `[\s\S]*?\+Quellen[\s\S]*?` : ''\}\n)/, `$1${badgeHtml}`, 'quality badges after multi-source badge')) {
+      patch(/(\s*<span class="badge badge-source">[\s\S]*?<\/span>\n)/, `$1${badgeHtml}`, 'quality badges after source badge');
+    }
+  }
 }
 
 if (!html.includes('_matchedTerms: a.matchedTerms || []')) {
-  replaceOnce(/(_mentions: a\.mentions \|\| 1,\n)/g, `$1              quality: a.quality || 0,
+  patch(/(_mentions: a\.mentions \|\| 1,\n)/g, `$1              quality: a.quality || 0,
               _quality: a.quality || 0,
               matchedTerms: a.matchedTerms || [],
               _matchedTerms: a.matchedTerms || [],
 `, 'latest-news quality fields');
 }
 
-if (!html.includes('.quality-badge') || !html.includes('function _qualityInfo(article)') || !html.includes('_terms.map(function(t)') || !html.includes('_matchedTerms: a.matchedTerms || []')) {
-  throw new Error('Quality badge install incomplete');
-}
+const required = ['.quality-badge', 'function _qualityInfo(article)', '_terms.map(function(t)', '_matchedTerms: a.matchedTerms || []'];
+const missing = required.filter(s => !html.includes(s));
+if (missing.length) throw new Error('Quality badge install incomplete: ' + missing.join(', '));
 
 if (changed) {
   fs.writeFileSync(path, html, 'utf8');
