@@ -45,13 +45,25 @@
     var style = document.createElement('style');
     style.id = STYLE_ID;
     style.textContent = [
+      '#loading{background:rgba(3,10,15,.86)!important;backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}',
+      '.alien-head{width:min(760px,120vw)!important;max-width:none!important;animation:uapAlienDeepZoom 9s ease-in-out infinite!important;opacity:.72!important}',
+      '@keyframes uapAlienDeepZoom{0%,100%{opacity:.62;transform:scale(1.08);filter:brightness(.62) saturate(1.2) drop-shadow(0 0 22px rgba(0,212,255,.95)) drop-shadow(0 0 52px rgba(0,212,255,.55))}50%{opacity:.92;transform:scale(1.92);filter:brightness(.9) saturate(1.55) drop-shadow(0 0 42px rgba(0,212,255,1)) drop-shadow(0 0 84px rgba(0,212,255,.72)) drop-shadow(0 0 120px rgba(0,255,157,.32))}}',
       '.startup-panel{display:none!important}',
       '.quality-help{margin:-4px 0 14px;color:#8aa6b3;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.55;border-left:2px solid rgba(0,212,255,.5);padding-left:10px}',
-      '.badge.quality{cursor:help}',
+      '.badge.quality{cursor:pointer}',
       '.badge.new{color:#07130f!important;border-color:rgba(0,255,157,.9)!important;background:#00ff9d!important;font-weight:700}',
       '.article-main .meta{margin-top:10px}',
       '.article-main .meta .article-date-prominent{display:inline-flex;align-items:center;gap:6px;color:#d7f6ff;border:1px solid rgba(0,212,255,.38);background:rgba(0,212,255,.075);padding:4px 8px;font-size:11px;letter-spacing:1.2px}',
       '.article-main .meta .article-date-prominent::before{content:"DATUM";color:#00d4ff;font-size:9px;letter-spacing:1.4px}',
+      '.quality-overlay{position:fixed;inset:0;z-index:2500;display:flex;align-items:flex-end;justify-content:center;padding:18px;background:rgba(1,6,10,.72);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}',
+      '.quality-sheet{width:min(520px,100%);border:1px solid rgba(0,212,255,.48);background:linear-gradient(180deg,rgba(8,20,32,.98),rgba(3,10,15,.98));box-shadow:0 0 36px rgba(0,212,255,.22);padding:16px 16px 14px;color:#d6e8f0}',
+      '.quality-sheet h3{margin:0 0 8px;color:#00d4ff;font-family:"Rajdhani",sans-serif;font-size:21px;letter-spacing:0}',
+      '.quality-score-line{font-family:"Share Tech Mono",monospace;color:#00ff9d;font-size:12px;margin-bottom:12px}',
+      '.quality-sheet p{margin:0 0 12px;color:#9db6c2;font-size:13px;line-height:1.5}',
+      '.quality-rules{display:grid;gap:7px;margin:0 0 14px}',
+      '.quality-rule{display:grid;grid-template-columns:82px 1fr;gap:10px;align-items:start;border-top:1px solid rgba(13,58,92,.72);padding-top:7px;font-size:12px;line-height:1.4;color:#b7ccd5}',
+      '.quality-points{color:#00d4ff;font-family:"Share Tech Mono",monospace;font-size:11px;white-space:nowrap}',
+      '.quality-close{width:100%;height:38px;border:1px solid rgba(0,212,255,.42);background:rgba(0,212,255,.07);color:#00d4ff;font-family:"Share Tech Mono",monospace;font-size:11px;letter-spacing:1.8px;cursor:pointer}',
       '.old-toggle{width:100%;margin:6px 0 12px;padding:11px 12px;border:1px solid rgba(13,58,92,.9);background:rgba(8,20,32,.82);color:#00d4ff;font-family:"Share Tech Mono",monospace;font-size:11px;letter-spacing:1.5px;text-align:left;cursor:pointer}',
       '.old-list{display:flex;flex-direction:column;gap:12px}',
       '.old-list.collapsed{display:none}',
@@ -67,7 +79,7 @@
     if (!notice || !notice.parentNode) return;
     var help = document.createElement('div');
     help.className = 'quality-help';
-    help.textContent = 'Wertung: UAP-Relevanz im Titel, offizielle Begriffe oder Institutionen, Anzahl unabhängiger Quellen und Themenbündelung. Mehr Quellen erhöhen die Wertung, sind aber nicht allein entscheidend.';
+    help.textContent = 'Tipp auf die Wertung zeigt, wie die Punkte berechnet werden.';
     notice.parentNode.insertBefore(help, notice);
   }
   function addNotificationFocus(count) {
@@ -94,6 +106,40 @@
     }
     if (spans[0]) spans[0].classList.add('article-date-prominent');
   }
+  function qualityNumberFromBadge(badge) {
+    var match = String(badge && badge.textContent || '').match(/(\d+)/);
+    return match ? match[1] : '-';
+  }
+  function showQualityOverlay(score) {
+    closeQualityOverlay();
+    var overlay = document.createElement('div');
+    overlay.className = 'quality-overlay';
+    overlay.setAttribute('role', 'dialog');
+    overlay.setAttribute('aria-modal', 'true');
+    overlay.innerHTML =
+      '<div class="quality-sheet">' +
+        '<h3>Wertung ' + score + '</h3>' +
+        '<div class="quality-score-line">Maximal 100 Punkte</div>' +
+        '<p>Die Wertung ist ein Hinweis darauf, wie relevant und belastbar ein Thema für UAP-News wirkt. Viele Quellen helfen, ersetzen aber nicht die inhaltliche Relevanz.</p>' +
+        '<div class="quality-rules">' +
+          '<div class="quality-rule"><span class="quality-points">Basis 27</span><span>Artikel enthält echte UAP/UFO-Begriffe und wird nicht als Film, Spiel, Review oder Entertainment aussortiert.</span></div>' +
+          '<div class="quality-rule"><span class="quality-points">bis +24</span><span>Weitere starke UAP-Begriffe im Titel oder in der Zusammenfassung.</span></div>' +
+          '<div class="quality-rule"><span class="quality-points">bis +18</span><span>Offizielle Stellen oder Begriffe wie Pentagon, AARO, NASA, Congress, Senate, Hearing, FOIA oder Whistleblower.</span></div>' +
+          '<div class="quality-rule"><span class="quality-points">bis +10</span><span>Wichtige Begriffe stehen direkt im Titel, nicht nur nebenbei im Text.</span></div>' +
+          '<div class="quality-rule"><span class="quality-points">+6 bis +13</span><span>UAP/UFO steht besonders klar im Titel oder zumindest in der Zusammenfassung.</span></div>' +
+          '<div class="quality-rule"><span class="quality-points">bis +28</span><span>Zusätzliche unabhängige Quellen: aktuell +7 Punkte pro weiterer Quelle, gedeckelt bei +28.</span></div>' +
+        '</div>' +
+        '<button type="button" class="quality-close">SCHLIESSEN</button>' +
+      '</div>';
+    overlay.addEventListener('click', function(e) {
+      if (e.target === overlay || e.target.classList.contains('quality-close')) closeQualityOverlay();
+    });
+    document.body.appendChild(overlay);
+  }
+  function closeQualityOverlay() {
+    var existing = document.querySelector('.quality-overlay');
+    if (existing) existing.remove();
+  }
   function cleanCard(card) {
     if (!card) return;
     var id = card.dataset.uapId || idForCard(card);
@@ -105,7 +151,9 @@
       });
       var q = card.querySelector('.badge.quality');
       if (q) {
-        q.title = 'Wertung: Relevanz, Quellenanzahl, offizielle Begriffe und Themenbündelung. Mehr Quellen geben Bonuspunkte.';
+        q.title = 'Antippen, um die Punkteberechnung zu sehen.';
+        q.setAttribute('role', 'button');
+        q.setAttribute('tabindex', '0');
         q.textContent = q.textContent.replace(/^Q\s*/i, 'Wertung ');
       }
       improveDateMeta(card);
@@ -227,6 +275,22 @@
     regroupCards();
   }
 
+  document.addEventListener('click', function(e) {
+    var quality = e.target.closest && e.target.closest('.badge.quality');
+    if (!quality) return;
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+    showQualityOverlay(qualityNumberFromBadge(quality));
+  }, true);
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeQualityOverlay();
+    var quality = e.target.closest && e.target.closest('.badge.quality');
+    if (quality && (e.key === 'Enter' || e.key === ' ')) {
+      e.preventDefault();
+      showQualityOverlay(qualityNumberFromBadge(quality));
+    }
+  }, true);
   document.addEventListener('click', function(e) {
     if (e.target.closest && e.target.closest('.translate-btn')) handleTranslate(e);
   }, true);
