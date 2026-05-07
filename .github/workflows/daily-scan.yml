@@ -32,7 +32,7 @@ jobs:
 
       - name: Scan UAP news and prepare exact notification payload
         env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOPIC: uap-news-cpg23
         run: python3 .github/scripts/daily_scan.py
 
       - name: Publish latest-news.json
