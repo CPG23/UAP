@@ -6,7 +6,7 @@
   var readIds = loadReadIds();
   var notificationIds = getNotificationIds();
   var notificationMode = notificationIds.length > 0;
-  var NTFY_TOPIC = 'uap-news-cpg23';
+  var NTFY_TOPIC = 'UAP-News26';
 
   function loadReadIds() {
     try { return JSON.parse(localStorage.getItem('uap_read_ids_v1') || '[]'); } catch (e) { return []; }
@@ -105,7 +105,7 @@
     var permission = ('Notification' in window) ? Notification.permission : 'unsupported';
     if (permission === 'granted') {
       btn.classList.add('active');
-      btn.title = 'Push-Benachrichtigungen sind am Gerät erlaubt. Tippen öffnet den ntfy-Kanal.';
+      btn.title = 'Push-Benachrichtigungen sind am Gerät erlaubt. Tippen öffnet den ntfy-Kanal UAP-News26.';
     } else if (permission === 'denied') {
       btn.classList.add('blocked');
       btn.title = 'Benachrichtigungen sind im Browser blockiert.';
@@ -121,7 +121,7 @@
     btn.id = 'notify-btn';
     btn.className = 'icon-btn notify-btn';
     btn.setAttribute('aria-label', 'Push-Benachrichtigungen aktivieren');
-    btn.textContent = '♢';
+    btn.textContent = '🔔';
     row.insertBefore(btn, row.firstChild);
     setNotifyState(btn);
   }
@@ -144,26 +144,26 @@
   }
   function activateNotifications() {
     if (!('Notification' in window)) {
-      showNotifyInfo('Dieses Gerät unterstützt Browser-Benachrichtigungen hier nicht. Der ntfy-Kanal wird geöffnet, dort kannst du das Abo aktivieren.');
+      showNotifyInfo('Dieses Gerät unterstützt Browser-Benachrichtigungen hier nicht. Der ntfy-Kanal UAP-News26 wird geöffnet, dort kannst du das Abo aktivieren.');
       openNtfy();
       return;
     }
     if (Notification.permission === 'default') {
       Notification.requestPermission().then(function() {
         setNotifyState();
-        showNotifyInfo('Die Browser-Berechtigung wurde geprüft. Für dauerhafte Pushs öffnet sich jetzt der ntfy-Kanal; das Abo liegt beim Gerät und nicht im App-Cache.');
+        showNotifyInfo('Die Browser-Berechtigung wurde geprüft. Für dauerhafte Pushs öffnet sich jetzt UAP-News26 in ntfy; das Abo liegt beim Gerät und nicht im App-Cache.');
         openNtfy();
       });
       return;
     }
     if (Notification.permission === 'denied') {
       setNotifyState();
-      showNotifyInfo('Benachrichtigungen sind im Browser blockiert. Bitte in den Browser- oder App-Einstellungen erlauben. Der ntfy-Kanal wird trotzdem geöffnet.');
+      showNotifyInfo('Benachrichtigungen sind im Browser blockiert. Bitte in den Browser- oder App-Einstellungen erlauben. UAP-News26 wird trotzdem in ntfy geöffnet.');
       openNtfy();
       return;
     }
     setNotifyState();
-    showNotifyInfo('Benachrichtigungen sind erlaubt. Der ntfy-Kanal wird geöffnet; dort bleibt das Abo unabhängig vom App-Cache erhalten.');
+    showNotifyInfo('Benachrichtigungen sind erlaubt. UAP-News26 wird in ntfy geöffnet; dort bleibt das Abo unabhängig vom App-Cache erhalten.');
     openNtfy();
   }
   function addNotificationFocus(count) {
@@ -183,11 +183,9 @@
     var badges = main.querySelector('.badges');
     var meta = main.querySelector('.meta');
     if (!h2 || !badges || !meta) return;
-
     var dateSpan = meta.querySelector('span:last-child');
     if (!dateSpan) return;
     dateSpan.className = 'article-date-prominent';
-
     var top = main.querySelector('.article-topline');
     if (!top) {
       top = document.createElement('div');
@@ -251,7 +249,6 @@
     rebuildArticleHeader(card);
     card.querySelectorAll('.action-link').forEach(function(a) { a.remove(); });
     card.querySelectorAll('.translation').forEach(function(t) { t.remove(); });
-
     if (!isRead(id)) card.classList.add('unread');
   }
 
@@ -264,7 +261,6 @@
     try {
       cards.forEach(cleanCard);
       feed.querySelectorAll(':scope > .old-toggle, :scope > .old-list').forEach(function(el) { el.remove(); });
-
       if (notificationMode) {
         var order = {};
         notificationIds.forEach(function(id, index) { order[id] = index; });
@@ -278,7 +274,6 @@
         addNotificationFocus(matched.length || notificationIds.length);
         return;
       }
-
       cards.forEach(function(card) { card.classList.remove('uap-hidden-by-notification'); });
       var fresh = cards.filter(function(card) { return !isRead(card.dataset.uapId); });
       var old = cards.filter(function(card) { return isRead(card.dataset.uapId); });
