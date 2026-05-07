@@ -1,4 +1,4 @@
-var CACHE = 'uap-v27-quality-affordance';
+var CACHE = 'uap-v28-logo-title';
 var META  = 'uap-meta-v1';
 
 self.addEventListener('install', function(e) {
@@ -29,25 +29,30 @@ function withFeedOverrides(resp) {
   var headers = new Headers(resp.headers);
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
-    var scripts = '<script src="./app-feed-overrides.js?v=27"></script><script src="./bell-icon-fix.js?v=27"></script><script src="./notification-guide-fix.js?v=27"></script><script src="./quality-affordance-fix.js?v=27"></script>';
+    var scripts = '<script src="./app-feed-overrides.js?v=28"></script><script src="./bell-icon-fix.js?v=28"></script><script src="./notification-guide-fix.js?v=28"></script><script src="./quality-affordance-fix.js?v=28"></script><script src="./logo-title-fix.js?v=28"></script>';
     if (html.indexOf('app-feed-overrides.js') === -1) {
       html = html.replace('</body>', scripts + '</body>');
     } else {
-      html = html.replace(/app-feed-overrides\.js\?v=\d+/g, 'app-feed-overrides.js?v=27');
+      html = html.replace(/app-feed-overrides\.js\?v=\d+/g, 'app-feed-overrides.js?v=28');
       if (html.indexOf('bell-icon-fix.js') === -1) {
-        html = html.replace('</body>', '<script src="./bell-icon-fix.js?v=27"></script></body>');
+        html = html.replace('</body>', '<script src="./bell-icon-fix.js?v=28"></script></body>');
       } else {
-        html = html.replace(/bell-icon-fix\.js\?v=\d+/g, 'bell-icon-fix.js?v=27');
+        html = html.replace(/bell-icon-fix\.js\?v=\d+/g, 'bell-icon-fix.js?v=28');
       }
       if (html.indexOf('notification-guide-fix.js') === -1) {
-        html = html.replace('</body>', '<script src="./notification-guide-fix.js?v=27"></script></body>');
+        html = html.replace('</body>', '<script src="./notification-guide-fix.js?v=28"></script></body>');
       } else {
-        html = html.replace(/notification-guide-fix\.js\?v=\d+/g, 'notification-guide-fix.js?v=27');
+        html = html.replace(/notification-guide-fix\.js\?v=\d+/g, 'notification-guide-fix.js?v=28');
       }
       if (html.indexOf('quality-affordance-fix.js') === -1) {
-        html = html.replace('</body>', '<script src="./quality-affordance-fix.js?v=27"></script></body>');
+        html = html.replace('</body>', '<script src="./quality-affordance-fix.js?v=28"></script></body>');
       } else {
-        html = html.replace(/quality-affordance-fix\.js\?v=\d+/g, 'quality-affordance-fix.js?v=27');
+        html = html.replace(/quality-affordance-fix\.js\?v=\d+/g, 'quality-affordance-fix.js?v=28');
+      }
+      if (html.indexOf('logo-title-fix.js') === -1) {
+        html = html.replace('</body>', '<script src="./logo-title-fix.js?v=28"></script></body>');
+      } else {
+        html = html.replace(/logo-title-fix\.js\?v=\d+/g, 'logo-title-fix.js?v=28');
       }
     }
     return new Response(html, { status: resp.status, statusText: resp.statusText, headers: headers });
@@ -82,7 +87,7 @@ self.addEventListener('fetch', function(e) {
     return;
   }
 
-  if (url.pathname.endsWith('/app-feed-overrides.js') || url.pathname.endsWith('/bell-icon-fix.js') || url.pathname.endsWith('/notification-guide-fix.js') || url.pathname.endsWith('/quality-affordance-fix.js')) {
+  if (url.pathname.endsWith('/app-feed-overrides.js') || url.pathname.endsWith('/bell-icon-fix.js') || url.pathname.endsWith('/notification-guide-fix.js') || url.pathname.endsWith('/quality-affordance-fix.js') || url.pathname.endsWith('/logo-title-fix.js')) {
     e.respondWith(fetch(e.request, { cache: 'no-store' }));
     return;
   }
