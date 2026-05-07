@@ -2132,27 +2132,125 @@
   }
 
   async function translateText(text, combined) {
-    var prompt = combined
-      ? 'Translate the following two English texts to German. Keep the ||| separator between them. Return ONLY the translations, nothing else.\n\n' + text
-      : 'Translate the following English text to German. Return ONLY the translated text, nothing else.\n\n' + text;
-    var models = ['openai', 'openai-fast'];
-    for (var _m = 0; _m < models.length; _m++) {
-      for (var _try = 0; _try < 2; _try++) {
-        try {
-          var _r = await fetch('https://text.pollinations.ai/openai', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ model: models[_m], messages: [{ role: 'user', content: prompt }], max_tokens: 1200 })
-          });
-          if (_r.ok) {
-            var _d = await _r.json();
-            var _c = _d.choices && _d.choices[0] && _d.choices[0].message && _d.choices[0].message.content;
-            if (_c && _c.trim().length > 5) return _c.trim();
-          }
-        } catch(e) { /* retry */ }
+    var sourceText = String(text || '').trim();
+    if (!sourceText) throw new Error('Kein Text zum Übersetzen');
+
+    function sleep(ms) { return new Promise(function(resolve) { setTimeout(resolve, ms); }); }
+    function cleanTranslation(t) {
+      t = (t || '').trim();
+      if (!t || t.length < 2) return '';
+      if (/^\\s*<!doctype|<html/i.test(t)) return '';
+      return t.replace(/^\\s*\\"|\\"\\s*$/g, '').trim();
+    }
+    async function fetchWithTimeout(url, options, timeoutMs) {
+      var ctrl = new AbortController();
+      var t = setTimeout(function() { ctrl.abort(); }, timeoutMs);
+      try {
+        options = options || {};
+        options.signal = ctrl.signal;
+        var r = await fetch(url, options);
+        clearTimeout(t);
+        return r;
+      } catch(e) {
+        clearTimeout(t);
+        throw e;
       }
     }
-    throw new Error('Übersetzung fehlgeschlagen');
+    function splitForGoogle(input) {
+      var chunks = [];
+      var parts = String(input || '').split(/(\\n+)/);
+      var current = '';
+      parts.forEach(function(part) {
+        if ((current + part).length > 1600 && current.trim()) {
+          chunks.push(current);
+          current = part;
+        } else {
+          current += part;
+        }
+      });
+      if (current.trim()) chunks.push(current);
+      return chunks.length ? chunks : [String(input || '')];
+    }
+    async function googleOne(input) {
+      var chunks = splitForGoogle(input);
+      var out = [];
+      for (var i = 0; i < chunks.length; i++) {
+        var url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t&q=' + encodeURIComponent(chunks[i]);
+        var r = await fetchWithTimeout(url, { cache: 'no-store' }, 12000);
+        if (!r.ok) throw new Error('google ' + r.status);
+        var data = await r.json();
+        var translated = data && data[0] ? data[0].map(function(p) { return p && p[0] ? p[0] : ''; }).join('') : '';
+        translated = cleanTranslation(translated);
+        if (!translated) throw new Error('google leer');
+        out.push(translated);
+      }
+      return out.join('');
+    }
+    async function googleTranslate() {
+      if (combined && sourceText.indexOf('|||') > -1) {
+        var parts = sourceText.split('|||');
+        var title = await googleOne(parts.shift());
+        var summary = await googleOne(parts.join('|||'));
+        return title + ' ||| ' + summary;
+      }
+      return googleOne(sourceText);
+    }
+
+    try {
+      return await googleTranslate();
+    } catch(googleError) {
+      // Google is normally fastest and most reliable; keep the AI service as a reserve path.
+    }
+
+    var prompt = combined
+      ? 'Translate the following two English texts to German. Keep the ||| separator between them. Return ONLY the translations, nothing else.\\n\\n' + sourceText
+      : 'Translate the following English text to German. Return ONLY the translated text, nothing else.\\n\\n' + sourceText;
+    async function postModel(model, timeoutMs) {
+      var r = await fetchWithTimeout('https://text.pollinations.ai/openai', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          model: model,
+          messages: [
+            { role: 'system', content: 'You translate accurately into German. Return only the translation, no markdown.' },
+            { role: 'user', content: prompt }
+          ],
+          temperature: 0,
+          max_tokens: 1800
+        })
+      }, timeoutMs);
+      if (!r.ok) throw new Error('post ' + model + ' ' + r.status);
+      var d = await r.json();
+      var c = d.choices && d.choices[0] && d.choices[0].message && d.choices[0].message.content;
+      var out = cleanTranslation(c);
+      if (!out) throw new Error('empty post ' + model);
+      return out;
+    }
+    async function getModel(model, timeoutMs, seed) {
+      var url = 'https://text.pollinations.ai/' + encodeURIComponent(prompt) + '?model=' + encodeURIComponent(model) + '&seed=' + seed;
+      var r = await fetchWithTimeout(url, {}, timeoutMs);
+      if (!r.ok) throw new Error('get ' + model + ' ' + r.status);
+      var out = cleanTranslation(await r.text());
+      if (!out) throw new Error('empty get ' + model);
+      return out;
+    }
+
+    var seedBase = Math.abs(prompt.split('').reduce(function(h, c) { return ((h << 5) - h + c.charCodeAt(0)) | 0; }, 0));
+    var attempts = [
+      function() { return postModel('openai-fast', 18000); },
+      function() { return getModel('openai-fast', 18000, seedBase + 11); },
+      function() { return postModel('mistral', 22000); },
+      function() { return getModel('mistral', 22000, seedBase + 37); }
+    ];
+
+    for (var i = 0; i < attempts.length; i++) {
+      try {
+        return await attempts[i]();
+      } catch(e) {
+        if (i < attempts.length - 1) await sleep(500 + i * 350);
+      }
+    }
+    throw new Error('Übersetzung aktuell nicht erreichbar. Bitte erneut tippen.');
   }
 
   async function translateSummary(aid) {
@@ -2185,7 +2283,7 @@
     }
 
     btn.disabled = true;
-    btn.innerHTML = '&#10227; ...';
+    btn.innerHTML = '&#10227; Übersetze...';
     try {
       const combined = await translateText(sourceTit + '\n|||\n' + sourceSum, true);
       const parts = combined.split('|||');
@@ -2198,7 +2296,7 @@
       btn.innerHTML = '&#8617; Original';
     } catch (err) {
       btn.innerHTML = '&#9888; ' + (err.message || 'Fehler');
-      setTimeout(() => { btn.innerHTML = '&#127760; Übersetzen'; btn.disabled = false; }, 4000);
+      setTimeout(() => { btn.innerHTML = '&#127760; Übersetzen'; btn.disabled = false; }, 1500);
       return;
     }
     btn.disabled = false;
@@ -2240,7 +2338,7 @@
       article._isTranslated = true;
       return;
     }
-    btn.disabled = true; btn.innerHTML = '&#10227; ...';
+    btn.disabled = true; btn.innerHTML = '&#10227; Übersetze...';
     try {
       var t = await translateText(sourceText);
       article._translatedSummary = t;
@@ -2250,7 +2348,7 @@
       btn.innerHTML = '&#8617; Original';
     } catch(e) {
       btn.innerHTML = '&#9888; ' + (e.message || 'Fehler');
-      setTimeout(function(){ btn.innerHTML = '&#127760; &#220;bersetzen'; btn.disabled = false; }, 4000);
+      setTimeout(function(){ btn.innerHTML = '&#127760; &#220;bersetzen'; btn.disabled = false; }, 1500);
       return;
     }
     btn.disabled = false;
