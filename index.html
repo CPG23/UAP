@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta name="theme-color" content="#030a0f">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -2737,26 +2738,28 @@
         .catch(function(){})
         .finally(function() { hideOverlay(); });
     } else {
-      // Normal load: show cached feed immediately; refresh live news in the background.
+      // Normal load: keep the launch screen visible for 9 seconds, then show whatever is ready.
+      var _startupMinMs = 9000;
       var _overlayHidden = false;
       function _hideStartOverlayOnce() {
         if (_overlayHidden) return;
         _overlayHidden = true;
         hideOverlay();
       }
-      var _hasInitialFeed = initialArts.length > 0;
-      if (_hasInitialFeed) {
-        setTimeout(_hideStartOverlayOnce, 250);
-      } else {
-        setTimeout(_hideStartOverlayOnce, 2200);
-      }
+
+      // Hard stop for the launch screen. Search and summaries may continue in the background.
+      setTimeout(_hideStartOverlayOnce, _startupMinMs);
+
       setTimeout(function() {
         applyLatestNotification()
           .catch(function(){})
           .finally(function() {
             loadNews()
               .catch(function() {})
-              .finally(function() { _hideStartOverlayOnce(); });
+              .finally(function() {
+                // If the scan finishes earlier, still keep the intended 9-second intro.
+                setTimeout(_hideStartOverlayOnce, 0);
+              });
           });
       }, 50);
     }

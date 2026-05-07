@@ -1,4 +1,4 @@
-var CACHE = 'uap-v9-direct-google-translate';
+var CACHE = 'uap-v10-nine-second-start';
 var META  = 'uap-meta-v1';
 
 self.addEventListener('install', function(e) {
