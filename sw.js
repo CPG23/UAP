@@ -1,4 +1,4 @@
-var CACHE = 'uap-v15-reliable-feed-app';
+var CACHE = 'uap-v16-alien-startup';
 var META  = 'uap-meta-v1';
 
 self.addEventListener('install', function(e) {
