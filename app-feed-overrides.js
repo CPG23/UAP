@@ -49,6 +49,9 @@
       '.quality-help{margin:-4px 0 14px;color:#8aa6b3;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.55;border-left:2px solid rgba(0,212,255,.5);padding-left:10px}',
       '.badge.quality{cursor:help}',
       '.badge.new{color:#07130f!important;border-color:rgba(0,255,157,.9)!important;background:#00ff9d!important;font-weight:700}',
+      '.article-main .meta{margin-top:10px}',
+      '.article-main .meta .article-date-prominent{display:inline-flex;align-items:center;gap:6px;color:#d7f6ff;border:1px solid rgba(0,212,255,.38);background:rgba(0,212,255,.075);padding:4px 8px;font-size:11px;letter-spacing:1.2px}',
+      '.article-main .meta .article-date-prominent::before{content:"DATUM";color:#00d4ff;font-size:9px;letter-spacing:1.4px}',
       '.old-toggle{width:100%;margin:6px 0 12px;padding:11px 12px;border:1px solid rgba(13,58,92,.9);background:rgba(8,20,32,.82);color:#00d4ff;font-family:"Share Tech Mono",monospace;font-size:11px;letter-spacing:1.5px;text-align:left;cursor:pointer}',
       '.old-list{display:flex;flex-direction:column;gap:12px}',
       '.old-list.collapsed{display:none}',
@@ -64,7 +67,7 @@
     if (!notice || !notice.parentNode) return;
     var help = document.createElement('div');
     help.className = 'quality-help';
-    help.textContent = 'Wertung: UAP-Relevanz im Titel, offizielle Begriffe oder Institutionen, Anzahl unabhängiger Quellen und Themenbündelung.';
+    help.textContent = 'Wertung: UAP-Relevanz im Titel, offizielle Begriffe oder Institutionen, Anzahl unabhängiger Quellen und Themenbündelung. Mehr Quellen erhöhen die Wertung, sind aber nicht allein entscheidend.';
     notice.parentNode.insertBefore(help, notice);
   }
   function addNotificationFocus(count) {
@@ -81,6 +84,16 @@
     var meta = document.getElementById('feed-meta');
     if (meta) meta.textContent = notificationMode ? 'Neue Artikel aus Push-Benachrichtigung' : 'Gesammelte Nachrichten aus GitHub';
   }
+  function improveDateMeta(card) {
+    var meta = card.querySelector('.article-main .meta');
+    if (!meta) return;
+    var spans = Array.prototype.slice.call(meta.querySelectorAll('span'));
+    if (spans.length > 1) {
+      spans.slice(0, -1).forEach(function(span) { span.remove(); });
+      spans = Array.prototype.slice.call(meta.querySelectorAll('span'));
+    }
+    if (spans[0]) spans[0].classList.add('article-date-prominent');
+  }
   function cleanCard(card) {
     if (!card) return;
     var id = card.dataset.uapId || idForCard(card);
@@ -92,11 +105,14 @@
       });
       var q = card.querySelector('.badge.quality');
       if (q) {
-        q.title = 'Wertung: Relevanz, Quellenanzahl, offizielle Begriffe und Themenbündelung.';
+        q.title = 'Wertung: Relevanz, Quellenanzahl, offizielle Begriffe und Themenbündelung. Mehr Quellen geben Bonuspunkte.';
         q.textContent = q.textContent.replace(/^Q\s*/i, 'Wertung ');
       }
+      improveDateMeta(card);
       card.querySelectorAll('.action-link').forEach(function(a) { a.remove(); });
       card.querySelectorAll('.translation').forEach(function(t) { t.remove(); });
+    } else {
+      improveDateMeta(card);
     }
     if (!isRead(id)) {
       card.classList.add('unread');
