@@ -24,3 +24,4 @@ if (yml.includes('for a in new_articles[:10]')) {
 }
 fs.writeFileSync(file, yml);
 console.log('Patched daily scan to keep app feed populated.');
+// trigger: 2026-05-07T17:31Z
