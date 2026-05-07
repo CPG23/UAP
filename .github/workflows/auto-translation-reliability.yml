@@ -96,12 +96,10 @@ jobs:
       function() { return getModel('mistral', 35000, seedBase + 37); }
     ];
 
-    var lastErr = null;
     for (var i = 0; i < attempts.length; i++) {
       try {
         return await attempts[i]();
       } catch(e) {
-        lastErr = e;
         if (i < attempts.length - 1) await sleep(700 + i * 500);
       }
     }
@@ -109,7 +107,6 @@ jobs:
   }`;
 
           s = s.slice(0, start) + replacement + s.slice(end);
-
           s = s.replace("btn.innerHTML = '&#10227; ...';", "btn.innerHTML = '&#10227; Übersetze...';");
           s = s.replace("btn.disabled = true; btn.innerHTML = '&#10227; ...';", "btn.disabled = true; btn.innerHTML = '&#10227; Übersetze...';");
           s = s.replace(/setTimeout\(\(\) => \{ btn\.innerHTML = '&#127760; \\u00dcbersetzen'; btn\.disabled = false; \}, 4000\);/g, "setTimeout(() => { btn.innerHTML = '&#127760; Übersetzen'; btn.disabled = false; }, 1500);");
