@@ -53,7 +53,6 @@
       '.article-date-prominent{flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;color:#d7f6ff;border:1px solid rgba(0,212,255,.42);background:rgba(0,212,255,.085);padding:4px 8px;font-family:"Share Tech Mono",monospace;font-size:11px;letter-spacing:1.2px;white-space:nowrap}',
       '.article-date-prominent::before{content:"DATUM";color:#00d4ff;font-size:9px;letter-spacing:1.4px}',
       '.badge.quality{cursor:pointer}',
-      '.badge.new{color:#07130f!important;border-color:rgba(0,255,157,.9)!important;background:#00ff9d!important;font-weight:700}',
       '.quality-overlay{position:fixed;inset:0;z-index:2500;display:flex;align-items:flex-end;justify-content:center;padding:18px;background:rgba(1,6,10,.72);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}',
       '.quality-sheet{width:min(520px,100%);border:1px solid rgba(0,212,255,.48);background:linear-gradient(180deg,rgba(8,20,32,.98),rgba(3,10,15,.98));box-shadow:0 0 36px rgba(0,212,255,.22);padding:16px 16px 14px;color:#d6e8f0}',
       '.quality-sheet h3{margin:0 0 8px;color:#00d4ff;font-family:"Rajdhani",sans-serif;font-size:21px;letter-spacing:0}',
@@ -66,7 +65,6 @@
       '.old-toggle{width:100%;margin:6px 0 12px;padding:11px 12px;border:1px solid rgba(13,58,92,.9);background:rgba(8,20,32,.82);color:#00d4ff;font-family:"Share Tech Mono",monospace;font-size:11px;letter-spacing:1.5px;text-align:left;cursor:pointer}',
       '.old-list{display:flex;flex-direction:column;gap:12px}',
       '.old-list.collapsed{display:none}',
-      '.article-card.unread::before{background:#00ff9d!important;opacity:1!important}',
       '.notification-focus{margin:0 0 14px;padding:11px 12px;border:1px solid rgba(0,255,157,.35);background:rgba(0,255,157,.06);color:#b5f5d4;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.55}',
       '.uap-hidden-by-notification{display:none!important}',
       '@media(max-width:420px){.article-topline{gap:8px}.article-date-prominent{font-size:10px;padding:4px 6px}.article-topline .badge{font-size:8px;padding:2px 5px}}'
@@ -80,7 +78,7 @@
     if (!notice || !notice.parentNode) return;
     var help = document.createElement('div');
     help.className = 'quality-help';
-    help.textContent = 'Tipp auf die Wertung zeigt, wie die Punkte berechnet werden.';
+    help.textContent = 'Tipp auf die Wertung zeigt die einfache Punkte-Erklärung.';
     notice.parentNode.insertBefore(help, notice);
   }
   function cleanToolbar() {
@@ -134,15 +132,15 @@
     overlay.innerHTML =
       '<div class="quality-sheet">' +
         '<h3>Wertung ' + score + '</h3>' +
-        '<div class="quality-score-line">Maximal 100 Punkte</div>' +
-        '<p>Die Wertung ist ein Hinweis darauf, wie relevant und belastbar ein Thema für UAP-News wirkt. Viele Quellen helfen, ersetzen aber nicht die inhaltliche Relevanz.</p>' +
+        '<div class="quality-score-line">Je höher, desto relevanter und verlässlicher wirkt das Thema.</div>' +
+        '<p>Die App bewertet nicht, ob eine Behauptung wahr ist. Sie schätzt nur ein, wie wichtig und belastbar ein Artikel für UAP-News wirkt.</p>' +
         '<div class="quality-rules">' +
-          '<div class="quality-rule"><span class="quality-points">Basis 27</span><span>Artikel enthält echte UAP/UFO-Begriffe und wird nicht als Film, Spiel, Review oder Entertainment aussortiert.</span></div>' +
-          '<div class="quality-rule"><span class="quality-points">bis +24</span><span>Weitere starke UAP-Begriffe im Titel oder in der Zusammenfassung.</span></div>' +
-          '<div class="quality-rule"><span class="quality-points">bis +18</span><span>Offizielle Stellen oder Begriffe wie Pentagon, AARO, NASA, Congress, Senate, Hearing, FOIA oder Whistleblower.</span></div>' +
-          '<div class="quality-rule"><span class="quality-points">bis +10</span><span>Wichtige Begriffe stehen direkt im Titel, nicht nur nebenbei im Text.</span></div>' +
-          '<div class="quality-rule"><span class="quality-points">+6 bis +13</span><span>UAP/UFO steht besonders klar im Titel oder zumindest in der Zusammenfassung.</span></div>' +
-          '<div class="quality-rule"><span class="quality-points">bis +28</span><span>Zusätzliche unabhängige Quellen: aktuell +7 Punkte pro weiterer Quelle, gedeckelt bei +28.</span></div>' +
+          '<div class="quality-rule"><span class="quality-points">Basis</span><span>Der Artikel muss klar mit UAP/UFO zu tun haben. Filme, Spiele und reine Unterhaltung werden herausgefiltert.</span></div>' +
+          '<div class="quality-rule"><span class="quality-points">mehr</span><span>UAP/UFO steht direkt im Titel oder wird im Text deutlich erwähnt.</span></div>' +
+          '<div class="quality-rule"><span class="quality-points">mehr</span><span>Offizielle Stellen wie NASA, Pentagon, AARO, Congress, Senate oder Regierungsdokumente kommen vor.</span></div>' +
+          '<div class="quality-rule"><span class="quality-points">mehr</span><span>Die Quelle ist offiziell oder ein etabliertes Medium, zum Beispiel Reuters, AP, BBC, NBC, The Guardian, Newsweek oder ähnliche.</span></div>' +
+          '<div class="quality-rule"><span class="quality-points">mehr</span><span>Mehrere unabhängige Quellen berichten über dasselbe Thema.</span></div>' +
+          '<div class="quality-rule"><span class="quality-points">weniger</span><span>Unklare, reißerische oder schwache Quellen bekommen keinen Vertrauensbonus.</span></div>' +
         '</div>' +
         '<button type="button" class="quality-close">SCHLIESSEN</button>' +
       '</div>';
@@ -161,7 +159,7 @@
     var id = card.dataset.uapId || idForCard(card);
     card.dataset.uapId = id;
     card.querySelectorAll('.badges .badge').forEach(function(badge) {
-      if (!badge.classList.contains('sources') && !badge.classList.contains('quality') && !badge.classList.contains('new')) badge.remove();
+      if (!badge.classList.contains('sources') && !badge.classList.contains('quality')) badge.remove();
     });
     var q = card.querySelector('.badge.quality');
     if (q) {
@@ -174,16 +172,7 @@
     card.querySelectorAll('.action-link').forEach(function(a) { a.remove(); });
     card.querySelectorAll('.translation').forEach(function(t) { t.remove(); });
 
-    if (!isRead(id)) {
-      card.classList.add('unread');
-      var badges = card.querySelector('.badges');
-      if (badges && !badges.querySelector('.badge.new')) {
-        var n = document.createElement('span');
-        n.className = 'badge new';
-        n.textContent = 'NEU';
-        badges.insertBefore(n, badges.firstChild);
-      }
-    }
+    if (!isRead(id)) card.classList.add('unread');
   }
 
   function regroupCards() {
@@ -240,11 +229,7 @@
   function markCardRead(card) {
     var id = card && (card.dataset.uapId || idForCard(card));
     markRead(id);
-    if (card) {
-      card.classList.remove('unread');
-      var badge = card.querySelector('.badge.new');
-      if (badge) badge.remove();
-    }
+    if (card) card.classList.remove('unread');
     if (!notificationMode) setTimeout(regroupCards, 0);
   }
   function handleTranslate(e) {
