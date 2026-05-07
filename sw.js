@@ -1,4 +1,4 @@
-var CACHE = 'uap-v17-feed-reading-refresh';
+var CACHE = 'uap-v18-exact-push-articles';
 var META  = 'uap-meta-v1';
 
 self.addEventListener('install', function(e) {
@@ -30,7 +30,9 @@ function withFeedOverrides(resp) {
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
     if (html.indexOf('app-feed-overrides.js') === -1) {
-      html = html.replace('</body>', '<script src="./app-feed-overrides.js?v=17"></script></body>');
+      html = html.replace('</body>', '<script src="./app-feed-overrides.js?v=18"></script></body>');
+    } else {
+      html = html.replace(/app-feed-overrides\.js\?v=\d+/g, 'app-feed-overrides.js?v=18');
     }
     return new Response(html, { status: resp.status, statusText: resp.statusText, headers: headers });
   });
