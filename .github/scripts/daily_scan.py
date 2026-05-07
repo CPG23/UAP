@@ -31,6 +31,8 @@ NEGATIVE_RE = re.compile(r'\b(movie|film|trailer|episode|season|series|netflix|h
 STOP = set('a an the to of for in on at by with from and or is are was were be been has have had will would could should may might new latest update report reports news says said about into after before over under this that these those uap ufo ufos uaps'.split())
 KEY_TERMS = set('trump biden obama pope vatican catholic america congress senate pentagon nasa aaro dod cia fbi disclosure classified declassified whistleblower retrieval crash nonhuman alien extraterrestrial sighting sightings pilot radar navy military hearing government foia orb orbs'.split())
 OFFICIAL_TERMS = set('congress senate pentagon nasa aaro dod cia fbi military navy government hearing classified declassified foia whistleblower disclosure'.split())
+OFFICIAL_SOURCE_RE = re.compile(r'\b(nasa|pentagon|department of defense|defense\.gov|dod|aaro|congress|senate|house committee|house oversight|dni|odni|cia|fbi|faa|navy|air force|space force|white house|gov)\b', re.I)
+TRUSTED_SOURCE_RE = re.compile(r'\b(reuters|associated press|\bap\b|bbc|npr|pbs|abc news|cbs news|nbc news|cnn|fox news|the guardian|new york times|washington post|wall street journal|usa today|politico|the hill|newsweek|newsnation|defensescoop|defense one|breaking defense|military\.com|scientific american|time|axios|bloomberg|forbes)\b', re.I)
 
 
 def words(text):
@@ -54,6 +56,15 @@ def clean_title(title):
     return re.sub(r'\s+[-–]\s+[^-–]{2,45}$', '', title).strip()
 
 
+def source_credibility(source):
+    source = source or ''
+    if OFFICIAL_SOURCE_RE.search(source):
+        return 14
+    if TRUSTED_SOURCE_RE.search(source):
+        return 9
+    return 0
+
+
 def score(article):
     title = article.get('title', '')
     description = article.get('description', '')
@@ -74,6 +85,7 @@ def score(article):
     value += min(24, len(key_hits) * 3)
     value += min(18, len(official_hits) * 4)
     value += min(10, len(title_hits) * 2)
+    value += source_credibility(source)
     if STRONG_RE.search(title):
         value += 13
     elif STRONG_RE.search(description):
@@ -161,6 +173,7 @@ def group_articles(articles):
         seen_sources = set()
         sources = []
         dates = []
+        credibility_bonus = 0
         for item in group['items']:
             source = item.get('source') or 'UAP News'
             key = source.lower()
@@ -169,16 +182,18 @@ def group_articles(articles):
             if key in seen_sources:
                 continue
             seen_sources.add(key)
+            credibility_bonus += min(8, source_credibility(source))
             sources.append({'source': source, 'link': item.get('link', ''), 'title': item.get('title', '')})
         source_boost = min(28, max(0, len(sources) - 1) * 7)
+        credibility_bonus = min(18, credibility_bonus)
         primary['id'] = topic_id(primary['title'])
         primary['date'] = min(dates) if dates else primary.get('date', TODAY)
         primary['mentions'] = len(sources)
         primary['otherSources'] = sources[1:]
         primary['clusterTitles'] = [i.get('title', '') for i in group['items'] if i.get('title') and i.get('title') != primary['title']]
         primary['matchedTerms'] = sorted({w.upper() for w in words(primary['title'] + ' ' + primary.get('description', '')) if w in KEY_TERMS})[:8]
-        primary['quality'] = min(100, primary.get('quality', 0) + source_boost)
-        primary['qualityExplanation'] = 'Bewertet nach UAP-Relevanz, offiziellen Begriffen/Institutionen, Quellenanzahl und Themenbündelung. Zusätzliche unabhängige Quellen geben Bonuspunkte.'
+        primary['quality'] = min(100, primary.get('quality', 0) + source_boost + credibility_bonus)
+        primary['qualityExplanation'] = 'Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.'
         output.append(primary)
     return sorted(output, key=lambda a: (a.get('quality', 0), a.get('mentions', 1)), reverse=True)
 
@@ -324,7 +339,7 @@ latest = {
             'otherSources': article.get('otherSources', []),
             'clusterTitles': article.get('clusterTitles', []),
             'quality': article.get('quality', 0),
-            'qualityExplanation': article.get('qualityExplanation', 'Bewertet nach UAP-Relevanz, offiziellen Begriffen/Institutionen, Quellenanzahl und Themenbündelung. Zusätzliche unabhängige Quellen geben Bonuspunkte.'),
+            'qualityExplanation': article.get('qualityExplanation', 'Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.'),
             'matchedTerms': article.get('matchedTerms', []),
         }
         for article in display_articles[:12]
@@ -346,7 +361,7 @@ latest = {
         'newNotificationTopics': len(new_articles),
         'appTopics': len(display_articles),
         'filters': 'UAP relevance plus entertainment/gaming/fiction exclusion',
-        'quality': 'UAP relevance, official terms/institutions, independent source count, topic clustering',
+        'quality': 'UAP relevance, official institutions, source trust, independent source count, topic clustering',
     },
 }
 
