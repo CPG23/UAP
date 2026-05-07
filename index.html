@@ -2472,6 +2472,32 @@
     card.classList.toggle('open');
   }
 
+
+  // uap-startup-watchdog-v1: hard fallback independent of window load and live search.
+  (function() {
+    var startedAt = Date.now();
+    function forceOpenApp() {
+      var loading = document.getElementById('loading');
+      if (loading) {
+        loading.style.opacity = '0';
+        loading.style.pointerEvents = 'none';
+        setTimeout(function() { loading.style.display = 'none'; }, 300);
+      }
+      if (document.body) document.body.classList.remove('no-scroll');
+      window.__uapStartupWatchdogDone = true;
+    }
+    function arm() {
+      var elapsed = Date.now() - startedAt;
+      setTimeout(forceOpenApp, Math.max(0, 9000 - elapsed));
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', arm, { once: true });
+      setTimeout(arm, 1000);
+    } else {
+      arm();
+    }
+  })();
+
   // Auto-load on start
   // ── PWA: Manifest + Service Worker ─────────────────────────────────────
   (function() {
