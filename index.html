@@ -2473,10 +2473,14 @@
   }
 
 
-  // uap-startup-watchdog-v1: hard fallback independent of window load and live search.
+
+  // uap-startup-watchdog-v2: hard fallback independent of window load and live search.
   (function() {
     var startedAt = Date.now();
+    var opened = false;
     function forceOpenApp() {
+      if (opened) return;
+      opened = true;
       var loading = document.getElementById('loading');
       if (loading) {
         loading.style.opacity = '0';
@@ -2679,7 +2683,7 @@
     var loadAlien = document.querySelector('.alien-head');
     var heroAlien = document.getElementById('hero-alien');
     if (loadAlien && heroAlien) heroAlien.src = loadAlien.src;
-    document.body.classList.add('no-scroll'); // overlay visible via CSS display:flex
+    if (!window.__uapStartupWatchdogDone) document.body.classList.add('no-scroll'); // overlay visible via CSS display:flex
 
     var cache = loadFeedCache();
     var initialArts = cache.articles || [];

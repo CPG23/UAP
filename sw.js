@@ -1,4 +1,4 @@
-var CACHE = 'uap-v11-start-watchdog';
+var CACHE = 'uap-v12-hard-start-watchdog';
 var META  = 'uap-meta-v1';
 
 self.addEventListener('install', function(e) {
