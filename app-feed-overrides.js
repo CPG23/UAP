@@ -10,17 +10,14 @@
   function loadReadIds() {
     try { return JSON.parse(localStorage.getItem('uap_read_ids_v1') || '[]'); } catch (e) { return []; }
   }
-  function getNotificationIds() {
-    try {
-      var params = new URLSearchParams(window.location.search);
-      var raw = params.get('ids') || '';
-      return raw.split(',').map(function(id) { return id.trim(); }).filter(Boolean);
-    } catch (e) {
-      return [];
-    }
-  }
   function saveReadIds() {
     try { localStorage.setItem('uap_read_ids_v1', JSON.stringify(readIds.slice(-600))); } catch (e) {}
+  }
+  function getNotificationIds() {
+    try {
+      var raw = new URLSearchParams(window.location.search).get('ids') || '';
+      return raw.split(',').map(function(id) { return id.trim(); }).filter(Boolean);
+    } catch (e) { return []; }
   }
   function idForCard(card) {
     var summary = card && card.querySelector('.summary[id]');
@@ -40,6 +37,7 @@
       return data && data[0] ? data[0].map(function(part) { return part[0]; }).join('').trim() : '';
     });
   }
+
   function injectStyle() {
     if (document.getElementById(STYLE_ID)) return;
     var style = document.createElement('style');
@@ -50,11 +48,12 @@
       '@keyframes uapAlienDeepZoom{0%,100%{opacity:.62;transform:scale(1.08);filter:brightness(.62) saturate(1.2) drop-shadow(0 0 22px rgba(0,212,255,.95)) drop-shadow(0 0 52px rgba(0,212,255,.55))}50%{opacity:.92;transform:scale(1.92);filter:brightness(.9) saturate(1.55) drop-shadow(0 0 42px rgba(0,212,255,1)) drop-shadow(0 0 84px rgba(0,212,255,.72)) drop-shadow(0 0 120px rgba(0,255,157,.32))}}',
       '.startup-panel{display:none!important}',
       '.quality-help{margin:-4px 0 14px;color:#8aa6b3;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.55;border-left:2px solid rgba(0,212,255,.5);padding-left:10px}',
+      '.article-topline{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:9px}',
+      '.article-topline .badges{justify-content:flex-end;margin:0;flex:1 1 auto}',
+      '.article-date-prominent{flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;color:#d7f6ff;border:1px solid rgba(0,212,255,.42);background:rgba(0,212,255,.085);padding:4px 8px;font-family:"Share Tech Mono",monospace;font-size:11px;letter-spacing:1.2px;white-space:nowrap}',
+      '.article-date-prominent::before{content:"DATUM";color:#00d4ff;font-size:9px;letter-spacing:1.4px}',
       '.badge.quality{cursor:pointer}',
       '.badge.new{color:#07130f!important;border-color:rgba(0,255,157,.9)!important;background:#00ff9d!important;font-weight:700}',
-      '.article-main .meta{margin-top:10px}',
-      '.article-main .meta .article-date-prominent{display:inline-flex;align-items:center;gap:6px;color:#d7f6ff;border:1px solid rgba(0,212,255,.38);background:rgba(0,212,255,.075);padding:4px 8px;font-size:11px;letter-spacing:1.2px}',
-      '.article-main .meta .article-date-prominent::before{content:"DATUM";color:#00d4ff;font-size:9px;letter-spacing:1.4px}',
       '.quality-overlay{position:fixed;inset:0;z-index:2500;display:flex;align-items:flex-end;justify-content:center;padding:18px;background:rgba(1,6,10,.72);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}',
       '.quality-sheet{width:min(520px,100%);border:1px solid rgba(0,212,255,.48);background:linear-gradient(180deg,rgba(8,20,32,.98),rgba(3,10,15,.98));box-shadow:0 0 36px rgba(0,212,255,.22);padding:16px 16px 14px;color:#d6e8f0}',
       '.quality-sheet h3{margin:0 0 8px;color:#00d4ff;font-family:"Rajdhani",sans-serif;font-size:21px;letter-spacing:0}',
@@ -69,10 +68,12 @@
       '.old-list.collapsed{display:none}',
       '.article-card.unread::before{background:#00ff9d!important;opacity:1!important}',
       '.notification-focus{margin:0 0 14px;padding:11px 12px;border:1px solid rgba(0,255,157,.35);background:rgba(0,255,157,.06);color:#b5f5d4;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.55}',
-      '.uap-hidden-by-notification{display:none!important}'
+      '.uap-hidden-by-notification{display:none!important}',
+      '@media(max-width:420px){.article-topline{gap:8px}.article-date-prominent{font-size:10px;padding:4px 6px}.article-topline .badge{font-size:8px;padding:2px 5px}}'
     ].join('\n');
     document.head.appendChild(style);
   }
+
   function addQualityHelp() {
     if (document.querySelector('.quality-help')) return;
     var notice = document.getElementById('notice');
@@ -81,6 +82,11 @@
     help.className = 'quality-help';
     help.textContent = 'Tipp auf die Wertung zeigt, wie die Punkte berechnet werden.';
     notice.parentNode.insertBefore(help, notice);
+  }
+  function cleanToolbar() {
+    document.querySelectorAll('a.icon-btn[href*="latest-news.json"]').forEach(function(a) { a.remove(); });
+    var meta = document.getElementById('feed-meta');
+    if (meta) meta.textContent = notificationMode ? 'Neue Artikel aus Push-Benachrichtigung' : 'Gesammelte Nachrichten aus GitHub';
   }
   function addNotificationFocus(count) {
     if (!notificationMode || document.querySelector('.notification-focus')) return;
@@ -91,21 +97,30 @@
     box.textContent = 'Aus Push-Benachrichtigung geöffnet: Es werden nur die ' + count + ' gemeldeten neuen Artikel angezeigt.';
     feed.parentNode.insertBefore(box, feed);
   }
-  function cleanToolbar() {
-    document.querySelectorAll('a.icon-btn[href*="latest-news.json"]').forEach(function(a) { a.remove(); });
-    var meta = document.getElementById('feed-meta');
-    if (meta) meta.textContent = notificationMode ? 'Neue Artikel aus Push-Benachrichtigung' : 'Gesammelte Nachrichten aus GitHub';
-  }
-  function improveDateMeta(card) {
-    var meta = card.querySelector('.article-main .meta');
-    if (!meta) return;
-    var spans = Array.prototype.slice.call(meta.querySelectorAll('span'));
-    if (spans.length > 1) {
-      spans.slice(0, -1).forEach(function(span) { span.remove(); });
-      spans = Array.prototype.slice.call(meta.querySelectorAll('span'));
+
+  function rebuildArticleHeader(card) {
+    var main = card.querySelector('.article-main');
+    if (!main) return;
+    var h2 = main.querySelector('h2');
+    var badges = main.querySelector('.badges');
+    var meta = main.querySelector('.meta');
+    if (!h2 || !badges || !meta) return;
+
+    var dateSpan = meta.querySelector('span:last-child');
+    if (!dateSpan) return;
+    dateSpan.className = 'article-date-prominent';
+
+    var top = main.querySelector('.article-topline');
+    if (!top) {
+      top = document.createElement('div');
+      top.className = 'article-topline';
+      main.insertBefore(top, h2);
     }
-    if (spans[0]) spans[0].classList.add('article-date-prominent');
+    if (dateSpan.parentNode !== top) top.appendChild(dateSpan);
+    if (badges.parentNode !== top) top.appendChild(badges);
+    if (meta && meta.parentNode) meta.remove();
   }
+
   function qualityNumberFromBadge(badge) {
     var match = String(badge && badge.textContent || '').match(/(\d+)/);
     return match ? match[1] : '-';
@@ -140,28 +155,25 @@
     var existing = document.querySelector('.quality-overlay');
     if (existing) existing.remove();
   }
+
   function cleanCard(card) {
     if (!card) return;
     var id = card.dataset.uapId || idForCard(card);
     card.dataset.uapId = id;
-    if (card.dataset.uapCleaned !== '1') {
-      card.dataset.uapCleaned = '1';
-      card.querySelectorAll('.badges .badge').forEach(function(badge) {
-        if (!badge.classList.contains('sources') && !badge.classList.contains('quality')) badge.remove();
-      });
-      var q = card.querySelector('.badge.quality');
-      if (q) {
-        q.title = 'Antippen, um die Punkteberechnung zu sehen.';
-        q.setAttribute('role', 'button');
-        q.setAttribute('tabindex', '0');
-        q.textContent = q.textContent.replace(/^Q\s*/i, 'Wertung ');
-      }
-      improveDateMeta(card);
-      card.querySelectorAll('.action-link').forEach(function(a) { a.remove(); });
-      card.querySelectorAll('.translation').forEach(function(t) { t.remove(); });
-    } else {
-      improveDateMeta(card);
+    card.querySelectorAll('.badges .badge').forEach(function(badge) {
+      if (!badge.classList.contains('sources') && !badge.classList.contains('quality') && !badge.classList.contains('new')) badge.remove();
+    });
+    var q = card.querySelector('.badge.quality');
+    if (q) {
+      q.title = 'Antippen, um die Punkteberechnung zu sehen.';
+      q.setAttribute('role', 'button');
+      q.setAttribute('tabindex', '0');
+      q.textContent = q.textContent.replace(/^Q\s*/i, 'Wertung ');
     }
+    rebuildArticleHeader(card);
+    card.querySelectorAll('.action-link').forEach(function(a) { a.remove(); });
+    card.querySelectorAll('.translation').forEach(function(t) { t.remove(); });
+
     if (!isRead(id)) {
       card.classList.add('unread');
       var badges = card.querySelector('.badges');
@@ -173,6 +185,7 @@
       }
     }
   }
+
   function regroupCards() {
     var feed = document.getElementById('feed');
     if (!feed || processing) return;
@@ -223,6 +236,7 @@
       processing = false;
     }
   }
+
   function markCardRead(card) {
     var id = card && (card.dataset.uapId || idForCard(card));
     markRead(id);
@@ -239,7 +253,6 @@
     e.preventDefault();
     e.stopPropagation();
     e.stopImmediatePropagation();
-
     var card = btn.closest('.article-card');
     var title = card && card.querySelector('h2');
     var summary = card && card.querySelector('.summary');
