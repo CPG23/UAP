@@ -1,4 +1,4 @@
-var CACHE = 'uap-v13-fast-news-search';
+var CACHE = 'uap-v14-latest-news-primary';
 var META  = 'uap-meta-v1';
 
 self.addEventListener('install', function(e) {
