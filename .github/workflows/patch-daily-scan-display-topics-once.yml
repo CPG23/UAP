@@ -1,0 +1,37 @@
+name: Patch daily scan display topics once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/patch-daily-scan-display-topics-once.yml'
+      - '.github/scripts/patch-daily-scan-display-topics.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: patch-daily-scan-display-topics-once-main
+  cancel-in-progress: true
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Patch daily scan
+        run: node .github/scripts/patch-daily-scan-display-topics.js
+      - name: Publish workflow update
+        run: |
+          if git diff --quiet -- .github/workflows/daily-scan.yml; then
+            echo "No daily scan changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/workflows/daily-scan.yml
+          git commit -m "fix: keep generated app feed populated"
+          git pull --rebase origin main
+          git push origin HEAD:main
