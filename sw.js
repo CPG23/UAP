@@ -1,4 +1,4 @@
-var CACHE = 'uap-v28-logo-title';
+var CACHE = 'uap-v29-startup-credit';
 var META  = 'uap-meta-v1';
 
 self.addEventListener('install', function(e) {
@@ -29,30 +29,30 @@ function withFeedOverrides(resp) {
   var headers = new Headers(resp.headers);
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
-    var scripts = '<script src="./app-feed-overrides.js?v=28"></script><script src="./bell-icon-fix.js?v=28"></script><script src="./notification-guide-fix.js?v=28"></script><script src="./quality-affordance-fix.js?v=28"></script><script src="./logo-title-fix.js?v=28"></script>';
+    var scripts = '<script src="./app-feed-overrides.js?v=29"></script><script src="./bell-icon-fix.js?v=29"></script><script src="./notification-guide-fix.js?v=29"></script><script src="./quality-affordance-fix.js?v=29"></script><script src="./logo-title-fix.js?v=29"></script>';
     if (html.indexOf('app-feed-overrides.js') === -1) {
       html = html.replace('</body>', scripts + '</body>');
     } else {
-      html = html.replace(/app-feed-overrides\.js\?v=\d+/g, 'app-feed-overrides.js?v=28');
+      html = html.replace(/app-feed-overrides\.js\?v=\d+/g, 'app-feed-overrides.js?v=29');
       if (html.indexOf('bell-icon-fix.js') === -1) {
-        html = html.replace('</body>', '<script src="./bell-icon-fix.js?v=28"></script></body>');
+        html = html.replace('</body>', '<script src="./bell-icon-fix.js?v=29"></script></body>');
       } else {
-        html = html.replace(/bell-icon-fix\.js\?v=\d+/g, 'bell-icon-fix.js?v=28');
+        html = html.replace(/bell-icon-fix\.js\?v=\d+/g, 'bell-icon-fix.js?v=29');
       }
       if (html.indexOf('notification-guide-fix.js') === -1) {
-        html = html.replace('</body>', '<script src="./notification-guide-fix.js?v=28"></script></body>');
+        html = html.replace('</body>', '<script src="./notification-guide-fix.js?v=29"></script></body>');
       } else {
-        html = html.replace(/notification-guide-fix\.js\?v=\d+/g, 'notification-guide-fix.js?v=28');
+        html = html.replace(/notification-guide-fix\.js\?v=\d+/g, 'notification-guide-fix.js?v=29');
       }
       if (html.indexOf('quality-affordance-fix.js') === -1) {
-        html = html.replace('</body>', '<script src="./quality-affordance-fix.js?v=28"></script></body>');
+        html = html.replace('</body>', '<script src="./quality-affordance-fix.js?v=29"></script></body>');
       } else {
-        html = html.replace(/quality-affordance-fix\.js\?v=\d+/g, 'quality-affordance-fix.js?v=28');
+        html = html.replace(/quality-affordance-fix\.js\?v=\d+/g, 'quality-affordance-fix.js?v=29');
       }
       if (html.indexOf('logo-title-fix.js') === -1) {
-        html = html.replace('</body>', '<script src="./logo-title-fix.js?v=28"></script></body>');
+        html = html.replace('</body>', '<script src="./logo-title-fix.js?v=29"></script></body>');
       } else {
-        html = html.replace(/logo-title-fix\.js\?v=\d+/g, 'logo-title-fix.js?v=28');
+        html = html.replace(/logo-title-fix\.js\?v=\d+/g, 'logo-title-fix.js?v=29');
       }
     }
     return new Response(html, { status: resp.status, statusText: resp.statusText, headers: headers });
