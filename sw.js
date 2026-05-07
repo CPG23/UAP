@@ -1,4 +1,4 @@
-var CACHE = 'uap-v24-ntfy-topic-fix';
+var CACHE = 'uap-v25-bell-icon';
 var META  = 'uap-meta-v1';
 
 self.addEventListener('install', function(e) {
@@ -29,10 +29,16 @@ function withFeedOverrides(resp) {
   var headers = new Headers(resp.headers);
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
+    var scripts = '<script src="./app-feed-overrides.js?v=25"></script><script src="./bell-icon-fix.js?v=25"></script>';
     if (html.indexOf('app-feed-overrides.js') === -1) {
-      html = html.replace('</body>', '<script src="./app-feed-overrides.js?v=24"></script></body>');
+      html = html.replace('</body>', scripts + '</body>');
     } else {
-      html = html.replace(/app-feed-overrides\.js\?v=\d+/g, 'app-feed-overrides.js?v=24');
+      html = html.replace(/app-feed-overrides\.js\?v=\d+/g, 'app-feed-overrides.js?v=25');
+      if (html.indexOf('bell-icon-fix.js') === -1) {
+        html = html.replace('</body>', '<script src="./bell-icon-fix.js?v=25"></script></body>');
+      } else {
+        html = html.replace(/bell-icon-fix\.js\?v=\d+/g, 'bell-icon-fix.js?v=25');
+      }
     }
     return new Response(html, { status: resp.status, statusText: resp.statusText, headers: headers });
   });
@@ -66,7 +72,7 @@ self.addEventListener('fetch', function(e) {
     return;
   }
 
-  if (url.pathname.endsWith('/app-feed-overrides.js')) {
+  if (url.pathname.endsWith('/app-feed-overrides.js') || url.pathname.endsWith('/bell-icon-fix.js')) {
     e.respondWith(fetch(e.request, { cache: 'no-store' }));
     return;
   }
