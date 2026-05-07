@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - .github/workflows/auto-translation-reliability.yml
+      - .github/translation-trigger.txt
   workflow_dispatch:
 
 permissions:
