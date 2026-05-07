@@ -2,10 +2,10 @@ name: Daily UAP Scan & Notify
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # Ziel 07:00 MESZ — geplant 03:00 UTC, GitHub-Verzögerung ~2h
-    - cron: '0 4 * * *'   # Fallback 08:00 MESZ — falls primär übersprungen
-    - cron: '0 11 * * *'  # Nachmittags-Refresh 15:00 MESZ
-  workflow_dispatch:        # manueller Start über GitHub UI möglich
+    - cron: '0 3 * * *'   # target 07:00 MESZ, shifted for GitHub schedule delay
+    - cron: '0 4 * * *'   # fallback
+    - cron: '0 11 * * *'  # afternoon refresh
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -24,7 +24,7 @@ jobs:
           restore-keys: |
             seen-ids-
 
-      - name: Scan UAP news, generate summaries & send ntfy notification
+      - name: Scan UAP news, group topics, generate grounded summaries & send ntfy notification
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
@@ -36,25 +36,92 @@ jobs:
 
           NTFY_TOPIC = os.environ.get('NTFY_TOPIC', '').strip()
           if not NTFY_TOPIC:
-              print('NTFY_TOPIC nicht gesetzt – Scan ohne Benachrichtigung.')
+              print('NTFY_TOPIC not set - scan will run without notification.')
 
           SEEN_FILE = '.seen-ids.json'
           try:
               with open(SEEN_FILE) as f:
                   notified_ids = set(json.load(f))
-              print(f'seen-IDs geladen: {len(notified_ids)}')
+              print(f'Loaded seen IDs: {len(notified_ids)}')
           except Exception:
               notified_ids = set()
-              print('Keine seen-IDs – starte frisch.')
+              print('No seen IDs yet.')
 
           UAP_RE = re.compile(
               r'\b(uap|ufo|ufos|alien|aliens|extraterrestrial|unidentified|aerial|'
               r'phenomenon|phenomena|sighting|sightings|disclosure|whistleblower|'
               r'pentagon|crash.?retrieval|nonhuman|non.human|orb|havana|usos?)\b', re.I)
 
+          STORY_STOP = set('''
+              a an the to of for in on at by with from and or is are was were be been has have had
+              will would could should may might do does did new latest update report reports news says said
+              about into after before over under this that these those what how why very uap ufo ufos
+          '''.split())
+
+          STORY_TERMS = set('''
+              trump biden obama pope popes pastor pastors vatican catholic church america american
+              congress senate pentagon nasa aaro dod cia fbi disclosure classified declassified
+              whistleblower retrieval crash nonhuman alien aliens extraterrestrial sighting sightings
+          '''.split())
+
+          def words_for(text):
+              words = re.sub(r'[^a-z0-9]', ' ', (text or '').lower()).split()
+              return [w for w in words if len(w) > 2 and w not in STORY_STOP]
+
           def topic_id(title):
-              words = re.sub(r'[^a-z0-9]', ' ', title.lower()).split()
-              return '-'.join(sorted(w for w in words if len(w) > 3))
+              words = sorted(set(words_for(title)))
+              return '-'.join(words[:8]) or 'untitled'
+
+          def story_key(article):
+              combined = ' '.join([article.get('title', ''), article.get('description', ''), article.get('summary', '')])
+              words = words_for(combined)
+              boosted = [w for w in words if w in STORY_TERMS]
+              plain = [w for w in words if w not in STORY_TERMS]
+              return '-'.join(sorted(set(boosted + plain))[:10]) or topic_id(article.get('title', ''))
+
+          def similarity(a, b):
+              aw = set(words_for(' '.join([a.get('title', ''), a.get('description', ''), a.get('summary', '')])))
+              bw = set(words_for(' '.join([b.get('title', ''), b.get('description', ''), b.get('summary', '')])))
+              if not aw or not bw:
+                  return 0
+              overlap = len(aw & bw) / min(len(aw), len(bw))
+              shared_terms = len((aw & bw) & STORY_TERMS)
+              return min(1, overlap + (0.08 * shared_terms))
+
+          def group_articles(articles):
+              groups = []
+              for article in articles:
+                  best_i, best_score = -1, 0
+                  for i, group in enumerate(groups):
+                      score = similarity(article, group['primary'])
+                      if score > best_score:
+                          best_i, best_score = i, score
+                  if best_i >= 0 and best_score >= 0.34:
+                      groups[best_i]['others'].append(article)
+                  else:
+                      groups.append({'primary': article, 'others': []})
+
+              grouped = []
+              for group in groups:
+                  primary = dict(group['primary'])
+                  sources = []
+                  seen_sources = set()
+                  for source_article in [primary] + group['others']:
+                      source_name = source_article.get('source') or 'UAP News'
+                      if source_name in seen_sources:
+                          continue
+                      seen_sources.add(source_name)
+                      sources.append({
+                          'source': source_name,
+                          'link': source_article.get('link', ''),
+                          'title': source_article.get('title', ''),
+                      })
+                  primary['id'] = story_key(primary)
+                  primary['_mentions'] = len(sources)
+                  primary['_otherSources'] = sources[1:]
+                  primary['_clusterTitles'] = [o.get('title', '') for o in group['others'] if o.get('title')]
+                  grouped.append(primary)
+              return grouped
 
           def clean_title(t):
               t = re.sub(r'<!\[CDATA\[|\]\]>', '', t or '').strip()
@@ -64,7 +131,7 @@ jobs:
           def fetch_rss(query, cutoff=None):
               results = []
               try:
-                  q   = urllib.parse.quote(query)
+                  q = urllib.parse.quote(query)
                   url = f'https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en'
                   req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
                   with urllib.request.urlopen(req, timeout=20) as r:
@@ -88,14 +155,33 @@ jobs:
                                       continue
                               except Exception:
                                   pass
-                      src_el  = item.find('source')
+                      src_el = item.find('source')
                       link_el = item.find('link')
                       link = (link_el.get('href') or link_el.text or '').strip() if link_el is not None else ''
                       source = (src_el.text or 'UAP News').strip() if src_el is not None else 'UAP News'
-                      results.append({'title': title, 'source': source, 'link': link})
+                      desc_el = item.find('description')
+                      description = re.sub(r'<[^>]+>', ' ', desc_el.text or '').strip() if desc_el is not None else ''
+                      results.append({'title': title, 'source': source, 'link': link, 'description': description})
               except Exception as e:
-                  print(f'RSS-Fehler "{query}": {e}')
+                  print(f'RSS error "{query}": {e}')
               return results
+
+          def fetch_article_text(url):
+              if not url:
+                  return ''
+              try:
+                  req = urllib.request.Request('https://r.jina.ai/' + url, headers={'User-Agent': 'UAP-News-Bot/1.0'})
+                  with urllib.request.urlopen(req, timeout=20) as r:
+                      text = r.read(120000).decode('utf-8', errors='replace')
+                  text = re.sub(r'(?im)^(title|url source|published time):.*$', '', text)
+                  text = re.sub(r'!\[[^\]]*\]\([^)]+\)', '', text)
+                  text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
+                  text = re.sub(r'\s+', ' ', text).strip()
+                  if len(text) >= 700 and not re.search(r'google news|enable javascript|access denied|just a moment', text, re.I):
+                      return text[:8000]
+              except Exception:
+                  pass
+              return ''
 
           def fetch_og_desc(url):
               if not url or 'news.google.com' in url:
@@ -118,16 +204,24 @@ jobs:
                   pass
               return ''
 
-          def ai_summarize(title):
-              prompt = '5-sentence factual summary, English, plain text only: ' + title
+          def ai_summarize_article(title, article_text, source_count):
+              if not article_text or len(article_text) < 700:
+                  return ''
+              prompt = (
+                  'Summarize ONLY the article text below in 4 factual sentences. '
+                  'Do not add facts, dates, names, claims, or context that are not explicitly present. '
+                  'If the text is insufficient, return exactly: INSUFFICIENT_SOURCE_TEXT. '
+                  f'This topic is covered by {source_count} source(s). Plain English, no markdown.\n\n'
+                  + article_text[:6500]
+              )
               payload = json.dumps({
                   'model': 'openai',
                   'messages': [
-                      {'role': 'system', 'content': 'You are a helpful assistant. Return only what is asked, plain text, no markdown.'},
+                      {'role': 'system', 'content': 'Return only what is asked. Plain text, no markdown.'},
                       {'role': 'user', 'content': prompt}
                   ],
                   'max_tokens': 650,
-                  'temperature': 0.3
+                  'temperature': 0.2
               }).encode('utf-8')
               for attempt in range(3):
                   try:
@@ -141,23 +235,24 @@ jobs:
                           d = json.loads(r.read())
                           t = ((d.get('choices') or [{}])[0].get('message') or {}).get('content', '')
                           t = (t or '').strip()
-                          if len(t) >= 60:
+                          if t == 'INSUFFICIENT_SOURCE_TEXT':
+                              return ''
+                          if len(t) >= 120:
                               return t
                   except Exception as e:
                       if attempt < 2:
                           time.sleep(3)
                       else:
-                          print(f'    KI-Fehler (3 Versuche): {e}')
+                          print(f'    AI error after 3 tries: {e}')
               return ''
 
-          # ── 1. BROAD SCAN: 8 queries, gleich wie App ──────────────────────
           broad_queries = [
               'UAP UFO 2026', 'UFO sighting 2026', 'UAP alien disclosure 2026', 'UFO news 2026',
               'UAP whistleblower 2026', 'UFO witness encounter 2026',
               'UAP government Pentagon 2026', 'UFO crash retrieval nonhuman 2026',
           ]
-          sum_seen  = set()
-          sum_arts  = {}   # tid -> {'title':..., 'source':..., 'link':...}
+          sum_seen = set()
+          sum_arts = []
           today_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
 
           for q in broad_queries:
@@ -166,37 +261,40 @@ jobs:
                   if tl in sum_seen or not UAP_RE.search(a['title']):
                       continue
                   sum_seen.add(tl)
-                  tid = topic_id(a['title'])
-                  if tid not in sum_arts and len(sum_arts) < 40:
-                      sum_arts[tid] = a
+                  if len(sum_arts) < 50:
+                      sum_arts.append(a)
 
-          print(f'Broad scan: {len(sum_arts)} einzigartige UAP-Artikel')
+          grouped_sum_arts = group_articles(sum_arts)
+          print(f'Broad scan: {len(sum_arts)} articles, {len(grouped_sum_arts)} topics')
 
-          # ── 2. GENERATE SUMMARIES FOR ALL ─────────────────────────────────
           summaries_map = {}
           ok = 0
-          print(f'Generiere Zusammenfassungen...')
-          for i, (tid, art) in enumerate(sum_arts.items()):
-              # Try og:description first (free, no rate limits, better quality)
-              s = fetch_og_desc(art.get('link', ''))
-              src = 'meta'
-              if not s:
+          print('Generating source-grounded summaries...')
+          for i, art in enumerate(grouped_sum_arts):
+              text = fetch_article_text(art.get('link', ''))
+              summary = ''
+              source = 'article'
+              if text:
                   if i > 0:
                       time.sleep(1)
-                  s = ai_summarize(art['title'])
-                  src = 'AI'
-              if s:
-                  summaries_map[tid] = s
+                  summary = ai_summarize_article(art['title'], text, art.get('_mentions', 1))
+              if not summary:
+                  summary = fetch_og_desc(art.get('link', ''))
+                  source = 'meta'
+              if summary:
+                  summaries_map[art['id']] = summary
+                  summaries_map[topic_id(art['title'])] = summary
+                  for cluster_title in art.get('_clusterTitles', []):
+                      summaries_map[topic_id(cluster_title)] = summary
                   ok += 1
-                  print(f'  ✓ [{src}] {art["title"][:60]}')
+                  print(f'  OK [{source}] {art["title"][:60]}')
               else:
-                  print(f'  ✗ {art["title"][:60]}')
-          print(f'Zusammenfassungen: {ok}/{len(sum_arts)}')
+                  print(f'  NO SOURCE TEXT {art["title"][:60]}')
+          print(f'Summaries: {ok}/{len(grouped_sum_arts)}')
 
-          # ── 3. NOTIFICATION: which articles are new? ──────────────────────
           notif_cutoff = datetime.now(timezone.utc) - timedelta(hours=25)
-          notif_seen   = set()
-          notif_pool   = []
+          notif_seen = set()
+          notif_pool = []
 
           for q in ['UAP UFO 2026', 'UFO sighting 2026', 'UAP disclosure 2026', 'UAP Pentagon whistleblower 2026']:
               for a in fetch_rss(q, cutoff=notif_cutoff):
@@ -205,19 +303,22 @@ jobs:
                       notif_seen.add(tl)
                       notif_pool.append(a)
 
-          new_articles = [a for a in notif_pool if topic_id(a['title']) not in notified_ids]
-          print(f'Notification: {len(notif_pool)} Artikel gecheckt, {len(new_articles)} neu')
+          grouped_notif_pool = group_articles(notif_pool)
+          new_articles = [a for a in grouped_notif_pool if a['id'] not in notified_ids]
+          print(f'Notification: {len(notif_pool)} articles, {len(grouped_notif_pool)} topics, {len(new_articles)} new')
 
-          # ── 4. WRITE latest-news.json ──────────────────────────────────────
           notif_data = {
               'timestamp': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-              'articles':  [
+              'articles': [
                   {
-                      'title':   a['title'],
-                      'source':  a['source'],
-                      'link':    a.get('link', ''),
-                      'date':    today_str,
-                      'summary': summaries_map.get(topic_id(a['title']), ''),
+                      'title': a['title'],
+                      'source': a['source'],
+                      'link': a.get('link', ''),
+                      'date': today_str,
+                      'summary': summaries_map.get(a['id'], ''),
+                      'mentions': a.get('_mentions', 1),
+                      'otherSources': a.get('_otherSources', []),
+                      'clusterTitles': a.get('_clusterTitles', []),
                   }
                   for a in new_articles
               ],
@@ -225,33 +326,30 @@ jobs:
           }
           with open('latest-news.json', 'w', encoding='utf-8') as f:
               json.dump(notif_data, f, ensure_ascii=False, indent=2)
-          print(f'latest-news.json: {len(new_articles)} Notif-Artikel, {len(summaries_map)} Zusammenfassungen')
+          print(f'latest-news.json: {len(new_articles)} notification topics, {len(summaries_map)} summary keys')
 
-          # ── 5. UPDATE seen-IDs ─────────────────────────────────────────────
           if new_articles:
-              new_ids = list(notified_ids | {topic_id(a['title']) for a in new_articles})
-              new_ids = new_ids[-500:]
+              new_ids = list(notified_ids | {a['id'] for a in new_articles})[-500:]
               with open(SEEN_FILE, 'w') as f:
                   json.dump(new_ids, f)
-              print(f'seen-IDs: {len(new_ids)} gespeichert')
+              print(f'Saved seen IDs: {len(new_ids)}')
 
-          # ── 6. NTFY NOTIFICATION ───────────────────────────────────────────
           if not new_articles:
-              print('Keine neuen Artikel – keine Benachrichtigung.')
+              print('No new topics - no notification.')
               exit(0)
 
           if not NTFY_TOPIC:
-              print('Kein NTFY_TOPIC – Benachrichtigung übersprungen.')
+              print('No NTFY_TOPIC - notification skipped.')
               exit(0)
 
           count = len(new_articles)
           payload = json.dumps({
-              'topic':    NTFY_TOPIC,
-              'title':    f'UAP NEWS — {count} neue Meldung{"en" if count > 1 else ""}',
-              'message':  new_articles[0]['title'] + (f'\n+ {count-1} weitere' if count > 1 else ''),
+              'topic': NTFY_TOPIC,
+              'title': f'UAP NEWS - {count} neue Meldung{"en" if count > 1 else ""}',
+              'message': new_articles[0]['title'] + (f'\n+ {count-1} weitere Themen' if count > 1 else ''),
               'priority': 3,
-              'tags':     ['flying_saucer'],
-              'click':    'https://cpg23.github.io/UAP/?notif=1',
+              'tags': ['flying_saucer'],
+              'click': 'https://cpg23.github.io/UAP/?notif=1',
           }).encode('utf-8')
           try:
               req = urllib.request.Request(
@@ -260,9 +358,9 @@ jobs:
                   method='POST'
               )
               with urllib.request.urlopen(req, timeout=15) as r:
-                  print(f'Benachrichtigung gesendet (HTTP {r.status})')
+                  print(f'Notification sent (HTTP {r.status})')
           except Exception as e:
-              print(f'ntfy-Fehler: {e}')
+              print(f'ntfy error: {e}')
           PYEOF
 
       - name: Publish latest-news.json
@@ -271,7 +369,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add latest-news.json
           if git diff --staged --quiet; then
-            echo "Keine Änderungen."
+            echo "No changes."
           else
             git commit -m "chore: update latest-news.json"
             git pull --rebase origin main
