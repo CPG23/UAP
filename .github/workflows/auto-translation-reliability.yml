@@ -1,0 +1,134 @@
+name: Auto translation reliability
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/auto-translation-reliability.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch-app:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Make translation resilient
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const file = 'index.html';
+          let s = fs.readFileSync(file, 'utf8');
+          const before = s;
+
+          const start = s.indexOf('  async function translateText(text, combined) {');
+          const end = s.indexOf('\n\n  async function translateSummary(aid) {', start);
+          if (start < 0 || end < 0) throw new Error('translateText block not found');
+
+          const replacement = `  async function translateText(text, combined) {
+    var prompt = combined
+      ? 'Translate the following two English texts to German. Keep the ||| separator between them. Return ONLY the translations, nothing else.\\n\\n' + text
+      : 'Translate the following English text to German. Return ONLY the translated text, nothing else.\\n\\n' + text;
+
+    function sleep(ms) { return new Promise(function(resolve) { setTimeout(resolve, ms); }); }
+    function cleanTranslation(t) {
+      t = (t || '').trim();
+      if (!t || t.length < 5) return '';
+      if (/^\\s*<!doctype|<html/i.test(t)) return '';
+      return t.replace(/^\\s*\\"|\\"\\s*$/g, '').trim();
+    }
+    async function fetchWithTimeout(url, options, timeoutMs) {
+      var ctrl = new AbortController();
+      var t = setTimeout(function() { ctrl.abort(); }, timeoutMs);
+      try {
+        options = options || {};
+        options.signal = ctrl.signal;
+        var r = await fetch(url, options);
+        clearTimeout(t);
+        return r;
+      } catch(e) {
+        clearTimeout(t);
+        throw e;
+      }
+    }
+    async function postModel(model, timeoutMs) {
+      var r = await fetchWithTimeout('https://text.pollinations.ai/openai', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          model: model,
+          messages: [
+            { role: 'system', content: 'You translate accurately into German. Return only the translation, no markdown.' },
+            { role: 'user', content: prompt }
+          ],
+          temperature: 0,
+          max_tokens: 1800
+        })
+      }, timeoutMs);
+      if (!r.ok) throw new Error('post ' + model + ' ' + r.status);
+      var d = await r.json();
+      var c = d.choices && d.choices[0] && d.choices[0].message && d.choices[0].message.content;
+      var out = cleanTranslation(c);
+      if (!out) throw new Error('empty post ' + model);
+      return out;
+    }
+    async function getModel(model, timeoutMs, seed) {
+      var url = 'https://text.pollinations.ai/' + encodeURIComponent(prompt) + '?model=' + encodeURIComponent(model) + '&seed=' + seed;
+      var r = await fetchWithTimeout(url, {}, timeoutMs);
+      if (!r.ok) throw new Error('get ' + model + ' ' + r.status);
+      var out = cleanTranslation(await r.text());
+      if (!out) throw new Error('empty get ' + model);
+      return out;
+    }
+
+    var seedBase = Math.abs(prompt.split('').reduce(function(h, c) { return ((h << 5) - h + c.charCodeAt(0)) | 0; }, 0));
+    var attempts = [
+      function() { return postModel('openai-fast', 30000); },
+      function() { return postModel('openai', 30000); },
+      function() { return getModel('openai-fast', 30000, seedBase + 11); },
+      function() { return getModel('openai', 35000, seedBase + 23); },
+      function() { return postModel('mistral', 35000); },
+      function() { return getModel('mistral', 35000, seedBase + 37); }
+    ];
+
+    var lastErr = null;
+    for (var i = 0; i < attempts.length; i++) {
+      try {
+        return await attempts[i]();
+      } catch(e) {
+        lastErr = e;
+        if (i < attempts.length - 1) await sleep(700 + i * 500);
+      }
+    }
+    throw new Error('Übersetzung aktuell nicht erreichbar. Bitte erneut tippen.');
+  }`;
+
+          s = s.slice(0, start) + replacement + s.slice(end);
+
+          s = s.replace("btn.innerHTML = '&#10227; ...';", "btn.innerHTML = '&#10227; Übersetze...';");
+          s = s.replace("btn.disabled = true; btn.innerHTML = '&#10227; ...';", "btn.disabled = true; btn.innerHTML = '&#10227; Übersetze...';");
+          s = s.replace(/setTimeout\(\(\) => \{ btn\.innerHTML = '&#127760; \\u00dcbersetzen'; btn\.disabled = false; \}, 4000\);/g, "setTimeout(() => { btn.innerHTML = '&#127760; Übersetzen'; btn.disabled = false; }, 1500);");
+          s = s.replace(/setTimeout\(function\(\)\{ btn\.innerHTML = '&#127760; &#220;bersetzen'; btn\.disabled = false; \}, 4000\);/g, "setTimeout(function(){ btn.innerHTML = '&#127760; &#220;bersetzen'; btn.disabled = false; }, 1500);");
+
+          fs.writeFileSync(file, s);
+          const checks = ['postModel', 'getModel', 'openai-fast', 'mistral', 'Übersetzung aktuell nicht erreichbar'];
+          for (const check of checks) if (!s.includes(check)) throw new Error('Missing expected output: ' + check);
+          console.log(s === before ? 'index.html already up to date.' : 'index.html translation reliability improved.');
+          NODE
+
+      - name: Publish patched app
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if git diff --staged --quiet; then
+            echo "No index.html changes."
+          else
+            git commit -m "fix: make translations more reliable"
+            git push origin main
+          fi
