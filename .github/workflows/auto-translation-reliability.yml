@@ -1,6 +1,11 @@
 name: Auto translation reliability
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/auto-translation-reliability.yml
+      - .github/translation-trigger.txt
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
