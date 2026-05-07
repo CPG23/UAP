@@ -11,7 +11,13 @@ from xml.etree import ElementTree as ET
 
 NTFY_TOPIC = os.environ.get('NTFY_TOPIC', '').strip()
 SEEN_FILE = '.seen-ids.json'
+NTFY_PAYLOAD_FILE = 'ntfy-payload.json'
 TODAY = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+
+try:
+    os.remove(NTFY_PAYLOAD_FILE)
+except FileNotFoundError:
+    pass
 
 try:
     with open(SEEN_FILE, encoding='utf-8') as f:
@@ -200,6 +206,29 @@ def ai_summary(title, text, source_count):
         return ''
 
 
+def write_notification_payload(new_articles):
+    notification_articles = new_articles[:10]
+    if not notification_articles or not NTFY_TOPIC:
+        return
+    ids = [article['id'] for article in notification_articles]
+    titles = [article['title'] for article in notification_articles]
+    message = '\n'.join(f'{idx + 1}. {title}' for idx, title in enumerate(titles))
+    click = 'https://cpg23.github.io/UAP/?notif=1&ids=' + urllib.parse.quote(','.join(ids), safe=',')
+    payload = {
+        'topic': NTFY_TOPIC,
+        'title': f'UAP NEWS - {len(notification_articles)} neue Meldung{"en" if len(notification_articles) > 1 else ""}',
+        'message': message,
+        'priority': 3,
+        'tags': ['flying_saucer'],
+        'click': click,
+        'attach': 'https://cpg23.github.io/UAP/latest-news.json',
+        'actions': [{'action': 'view', 'label': 'Artikel öffnen', 'url': click}],
+    }
+    with open(NTFY_PAYLOAD_FILE, 'w', encoding='utf-8') as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    print(f'Prepared ntfy payload for {len(notification_articles)} exact article(s)')
+
+
 broad_queries = [
     'UAP UFO 2026',
     'UFO sighting 2026',
@@ -242,6 +271,7 @@ for query in notification_queries:
 grouped_notif = group_articles(notif_articles)
 new_articles = [a for a in grouped_notif if a['id'] not in notified_ids]
 display_articles = (new_articles[:10] or grouped_notif[:10] or grouped_all[:12])
+notification_articles = new_articles[:10]
 print(f'Notification: {len(notif_articles)} articles, {len(grouped_notif)} topics, {len(new_articles)} new')
 print(f'App feed topics: {len(display_articles)}')
 
@@ -274,11 +304,20 @@ latest = {
         for article in display_articles[:12]
     ],
     'summaries': summaries,
+    'notificationBatch': {
+        'timestamp': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'ids': [article['id'] for article in notification_articles],
+        'articles': [
+            {'id': article['id'], 'title': article['title'], 'source': article.get('source', 'UAP News')}
+            for article in notification_articles
+        ],
+    },
     'scanMeta': {
         'broadArticles': len(all_articles),
         'broadTopics': len(grouped_all),
         'notificationArticles': len(notif_articles),
         'notificationTopics': len(grouped_notif),
+        'newNotificationTopics': len(new_articles),
         'appTopics': len(display_articles),
         'filters': 'UAP relevance plus entertainment/gaming/fiction exclusion',
         'quality': 'UAP relevance, official terms/institutions, independent source count, topic clustering',
@@ -294,27 +333,12 @@ if new_articles:
     with open(SEEN_FILE, 'w', encoding='utf-8') as f:
         json.dump(new_ids, f)
     print(f'Saved seen IDs: {len(new_ids)}')
+    write_notification_payload(new_articles)
 
 if not new_articles:
     print('No new topics - app feed still updated, notification skipped.')
     raise SystemExit(0)
 
 if not NTFY_TOPIC:
-    print('No NTFY_TOPIC - notification skipped.')
+    print('No NTFY_TOPIC - notification payload skipped.')
     raise SystemExit(0)
-
-count = min(len(new_articles), 10)
-payload = json.dumps({
-    'topic': NTFY_TOPIC,
-    'title': f'UAP NEWS - {count} neue Meldung{"en" if count > 1 else ""}',
-    'message': new_articles[0]['title'] + (f'\n+ {count - 1} weitere Themen' if count > 1 else ''),
-    'priority': 3,
-    'tags': ['flying_saucer'],
-    'click': 'https://cpg23.github.io/UAP/?notif=1',
-}).encode('utf-8')
-try:
-    req = urllib.request.Request('https://ntfy.sh', data=payload, headers={'Content-Type': 'application/json', 'User-Agent': 'UAP-News-Bot/1.0'}, method='POST')
-    with urllib.request.urlopen(req, timeout=15) as r:
-        print(f'Notification sent (HTTP {r.status})')
-except Exception as exc:
-    print(f'ntfy error, scan remains successful: {exc}')
