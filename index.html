@@ -2757,8 +2757,7 @@
             loadNews()
               .catch(function() {})
               .finally(function() {
-                // If the scan finishes earlier, still keep the intended 9-second intro.
-                setTimeout(_hideStartOverlayOnce, 0);
+                // The launch screen is controlled only by the 9-second hard stop above.
               });
           });
       }, 50);
