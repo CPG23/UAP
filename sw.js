@@ -1,4 +1,4 @@
-var CACHE = 'uap-v17-feed-reading';
+var CACHE = 'uap-v17-feed-reading-refresh';
 var META  = 'uap-meta-v1';
 
 self.addEventListener('install', function(e) {
@@ -16,7 +16,10 @@ self.addEventListener('activate', function(e) {
     .then(function() { return self.clients.claim(); })
     .then(function() {
       return self.clients.matchAll({ type: 'window' }).then(function(clients) {
-        clients.forEach(function(client) { client.postMessage({ type: 'SW_UPDATED' }); });
+        clients.forEach(function(client) {
+          client.postMessage({ type: 'SW_UPDATED' });
+          if (client.url && client.navigate) client.navigate(client.url);
+        });
       });
     })
   );
