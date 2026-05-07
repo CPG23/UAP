@@ -1,3 +1,4 @@
+// Triggered once by Codex on 2026-05-07.
 const fs = require('fs');
 const path = 'index.html';
 let html = fs.readFileSync(path, 'utf8');
