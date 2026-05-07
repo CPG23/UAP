@@ -30,6 +30,7 @@ STRONG_RE = re.compile(r'\b(uap|ufo|ufos|uaps|aaro|unidentified anomalous|pentag
 NEGATIVE_RE = re.compile(r'\b(movie|film|trailer|episode|season|series|netflix|hulu|streaming|review|recap|spoiler|actor|actress|anime|manga|comic|marvel|star wars|alienware|gaming|gameplay|video game|fortnite|roblox|pokemon|lego|toy|album|lyrics|horoscope|zodiac|astrology|restaurant|sports|nfl|nba|mlb|ufc)\b', re.I)
 STOP = set('a an the to of for in on at by with from and or is are was were be been has have had will would could should may might new latest update report reports news says said about into after before over under this that these those uap ufo ufos uaps'.split())
 KEY_TERMS = set('trump biden obama pope vatican catholic america congress senate pentagon nasa aaro dod cia fbi disclosure classified declassified whistleblower retrieval crash nonhuman alien extraterrestrial sighting sightings pilot radar navy military hearing government foia orb orbs'.split())
+OFFICIAL_TERMS = set('congress senate pentagon nasa aaro dod cia fbi military navy government hearing classified declassified foia whistleblower disclosure'.split())
 
 
 def words(text):
@@ -54,18 +55,34 @@ def clean_title(title):
 
 
 def score(article):
-    hay = ' '.join([article.get('title', ''), article.get('description', ''), article.get('source', '')])
+    title = article.get('title', '')
+    description = article.get('description', '')
+    source = article.get('source', '')
+    hay = ' '.join([title, description, source])
     if not POSITIVE_RE.search(hay):
         return 0
-    if NEGATIVE_RE.search(hay) and not STRONG_RE.search(article.get('title', '')):
+    if NEGATIVE_RE.search(hay) and not STRONG_RE.search(title):
         return 0
-    value = 20
-    value += min(35, len(set(words(hay)) & KEY_TERMS) * 5)
-    if STRONG_RE.search(article.get('title', '')):
-        value += 20
-    if re.search(r'\b(pentagon|aaro|nasa|congress|senate|whistleblower|disclosure|sighting)\b', article.get('title', ''), re.I):
-        value += 15
-    return min(100, value)
+
+    hay_words = set(words(hay))
+    title_words = set(words(title))
+    key_hits = hay_words & KEY_TERMS
+    official_hits = hay_words & OFFICIAL_TERMS
+    title_hits = title_words & KEY_TERMS
+
+    value = 27
+    value += min(24, len(key_hits) * 3)
+    value += min(18, len(official_hits) * 4)
+    value += min(10, len(title_hits) * 2)
+    if STRONG_RE.search(title):
+        value += 13
+    elif STRONG_RE.search(description):
+        value += 6
+    if re.search(r'\b(unidentified anomalous phenomena|crash retrieval|non-human|nonhuman|whistleblower|hearing|disclosure)\b', hay, re.I):
+        value += 7
+    if re.search(r'\b(pentagon|aaro|nasa|congress|senate)\b', title, re.I):
+        value += 6
+    return max(35, min(100, value))
 
 
 def similarity(a, b):
@@ -76,6 +93,18 @@ def similarity(a, b):
     overlap = len(aw & bw) / min(len(aw), len(bw))
     shared_terms = len((aw & bw) & KEY_TERMS)
     return min(1, overlap + shared_terms * 0.08)
+
+
+def parse_pub_date(value):
+    if not value:
+        return None
+    try:
+        published = parsedate_to_datetime(value.strip())
+        if published.tzinfo is None:
+            published = published.replace(tzinfo=timezone.utc)
+        return published.astimezone(timezone.utc)
+    except Exception:
+        return None
 
 
 def fetch_rss(query, cutoff=None):
@@ -89,17 +118,10 @@ def fetch_rss(query, cutoff=None):
             title_el = item.find('title')
             if title_el is None or not title_el.text:
                 continue
-            if cutoff is not None:
-                pd_el = item.find('pubDate')
-                if pd_el is not None and pd_el.text:
-                    try:
-                        published = parsedate_to_datetime(pd_el.text.strip())
-                        if published.tzinfo is None:
-                            published = published.replace(tzinfo=timezone.utc)
-                        if published < cutoff:
-                            continue
-                    except Exception:
-                        pass
+            pd_el = item.find('pubDate')
+            published = parse_pub_date(pd_el.text if pd_el is not None else '')
+            if cutoff is not None and published is not None and published < cutoff:
+                continue
             source_el = item.find('source')
             link_el = item.find('link')
             desc_el = item.find('description')
@@ -108,7 +130,7 @@ def fetch_rss(query, cutoff=None):
                 'source': clean_text(source_el.text if source_el is not None else '') or 'UAP News',
                 'link': (link_el.text or '').strip() if link_el is not None else '',
                 'description': clean_text(desc_el.text if desc_el is not None else ''),
-                'date': TODAY,
+                'date': published.strftime('%Y-%m-%d') if published else TODAY,
             }
             article['quality'] = score(article)
             if article['title'] and article['quality'] >= 35:
@@ -138,21 +160,25 @@ def group_articles(articles):
         primary = dict(group['primary'])
         seen_sources = set()
         sources = []
+        dates = []
         for item in group['items']:
             source = item.get('source') or 'UAP News'
             key = source.lower()
+            if item.get('date'):
+                dates.append(item.get('date'))
             if key in seen_sources:
                 continue
             seen_sources.add(key)
             sources.append({'source': source, 'link': item.get('link', ''), 'title': item.get('title', '')})
-        source_boost = min(25, max(0, len(sources) - 1) * 6)
+        source_boost = min(28, max(0, len(sources) - 1) * 7)
         primary['id'] = topic_id(primary['title'])
+        primary['date'] = min(dates) if dates else primary.get('date', TODAY)
         primary['mentions'] = len(sources)
         primary['otherSources'] = sources[1:]
         primary['clusterTitles'] = [i.get('title', '') for i in group['items'] if i.get('title') and i.get('title') != primary['title']]
         primary['matchedTerms'] = sorted({w.upper() for w in words(primary['title'] + ' ' + primary.get('description', '')) if w in KEY_TERMS})[:8]
         primary['quality'] = min(100, primary.get('quality', 0) + source_boost)
-        primary['qualityExplanation'] = 'Bewertet nach UAP-Relevanz, offiziellen Begriffen/Institutionen, Quellenanzahl und Themenbündelung.'
+        primary['qualityExplanation'] = 'Bewertet nach UAP-Relevanz, offiziellen Begriffen/Institutionen, Quellenanzahl und Themenbündelung. Zusätzliche unabhängige Quellen geben Bonuspunkte.'
         output.append(primary)
     return sorted(output, key=lambda a: (a.get('quality', 0), a.get('mentions', 1)), reverse=True)
 
@@ -298,7 +324,7 @@ latest = {
             'otherSources': article.get('otherSources', []),
             'clusterTitles': article.get('clusterTitles', []),
             'quality': article.get('quality', 0),
-            'qualityExplanation': article.get('qualityExplanation', 'Bewertet nach UAP-Relevanz, offiziellen Begriffen/Institutionen, Quellenanzahl und Themenbündelung.'),
+            'qualityExplanation': article.get('qualityExplanation', 'Bewertet nach UAP-Relevanz, offiziellen Begriffen/Institutionen, Quellenanzahl und Themenbündelung. Zusätzliche unabhängige Quellen geben Bonuspunkte.'),
             'matchedTerms': article.get('matchedTerms', []),
         }
         for article in display_articles[:12]
