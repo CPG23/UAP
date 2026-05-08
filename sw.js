@@ -1,6 +1,6 @@
-var CACHE = 'uap-v64-direct-google-translate';
+var CACHE = 'uap-v65-scroll-heading-fix';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '64';
+var OVERRIDE_VERSION = '65';
 var OVERRIDE_FILES = [
   'app-feed-overrides.js',
   'bell-icon-fix.js',
@@ -16,7 +16,8 @@ var OVERRIDE_FILES = [
   'article-detail-rating-fix.js',
   'notification-direct-fix.js',
   'all-articles-layout-fix.js',
-  'final-ui-order-fix.js'
+  'final-ui-order-fix.js',
+  'scroll-heading-fix.js'
 ];
 
 self.addEventListener('install', function(e) {
