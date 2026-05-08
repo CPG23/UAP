@@ -1,6 +1,6 @@
-var CACHE = 'uap-v77-prepared-translations';
+var CACHE = 'uap-v78-compact-translations';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '77';
+var OVERRIDE_VERSION = '78';
 var OVERRIDE_FILES = [
   'translation-override-fix.js',
   'app-feed-overrides.js',
