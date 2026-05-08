@@ -131,9 +131,16 @@
     document.querySelectorAll('.old-list .article-card').forEach(function(card){
       var article = map[cardId(card)];
       if (!article || isoDate(article.date) !== scanDay) return;
+      card.dataset.currentScan = 'true';
       card.classList.remove('unread');
       if (oldToggle && oldToggle.parentNode === feedEl) feedEl.insertBefore(card, oldToggle);
       else feedEl.appendChild(card);
+    });
+  }
+
+  function schedulePromotion(feed){
+    [0, 120, 400, 900, 1800, 3200].forEach(function(delay){
+      setTimeout(function(){ promoteCurrentScanArticles(feed); }, delay);
     });
   }
 
@@ -153,8 +160,7 @@
     injectStyle();
     loadFeed().then(function(feed){
       renderMissing(feed);
-      setTimeout(function(){ promoteCurrentScanArticles(feed); }, 0);
-      setTimeout(function(){ promoteCurrentScanArticles(feed); }, 120);
+      schedulePromotion(feed);
     }).finally(function(){
       document.querySelectorAll('.article-card').forEach(moveDetailActions);
       running = false;
