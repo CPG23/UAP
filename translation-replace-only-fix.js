@@ -35,7 +35,7 @@
   function injectStyle(){
     var style = document.getElementById(STYLE_ID);
     var css = [
-      '.article-card.uap-translation-active h2,.article-card.uap-translation-active .summary{color:#b8ffd7!important}',
+      '.article-card.uap-translation-active h2,.article-card.uap-translation-active .summary,.article-card.uap-translation-active .uap-detail-summary{color:#b8ffd7!important}',
       '.translate-btn.uap-translating,.translate-btn.uap-translated{border-color:rgba(0,255,157,.72)!important;color:#b8ffd7!important;background:rgba(0,255,157,.12)!important;box-shadow:0 0 16px rgba(0,255,157,.18)!important}',
       '.article-card .translation{display:none!important}'
     ].join('\n');
@@ -50,7 +50,7 @@
   function cardId(card){
     if (!card) return '';
     if (card.dataset && card.dataset.uapId) return card.dataset.uapId;
-    var summary = card.querySelector('.summary[id]');
+    var summary = card.querySelector('.summary[id], .uap-detail-summary[id]');
     if (summary && summary.id) return summary.id.replace(/^summary-/, '');
     var title = card.querySelector('h2');
     return title ? slug(title.textContent) : '';
@@ -115,13 +115,23 @@
   }
 
   function summaryNodes(card){
-    return Array.prototype.slice.call(card.querySelectorAll('.summary')).filter(function(el){
+    var nodes = Array.prototype.slice.call(card.querySelectorAll('.summary, .uap-detail-summary')).filter(function(el){
       return !el.classList.contains('translation');
     });
+    var seen = [];
+    return nodes.filter(function(el){
+      if (seen.indexOf(el) !== -1) return false;
+      seen.push(el);
+      return true;
+    });
+  }
+  function primarySummaryNode(card){
+    var detail = card.querySelector('.details .uap-detail-summary');
+    if (detail && !detail.classList.contains('translation')) return detail;
+    return summaryNodes(card)[0] || null;
   }
   function removeExtraTranslationBoxes(card){
     card.querySelectorAll('.translation').forEach(function(el){ el.textContent = ''; el.style.display = 'none'; });
-    card.querySelectorAll('.uap-detail-summary[data-uap-created-by-translation="1"]').forEach(function(el){ el.remove(); });
   }
   function setSummaries(card, text){ summaryNodes(card).forEach(function(el){ el.textContent = text; }); }
   function setButton(btn, state, text){
@@ -159,7 +169,7 @@
       var found = findArticle(feed, card);
       if (!found.article) return;
       var title = card.querySelector('h2');
-      var summary = summaryNodes(card)[0];
+      var summary = primarySummaryNode(card);
       var original = chooseOriginal(feed, found, title && title.textContent, summary && summary.textContent);
       if (!original) return;
       var originalTitle = compact(original.title || (found.article && found.article.title));
@@ -194,7 +204,7 @@
     }
 
     var title = card.querySelector('h2');
-    var summary = summaryNodes(card)[0];
+    var summary = primarySummaryNode(card);
     card.dataset.replaceOriginalTitle = card.dataset.replaceOriginalTitle || compact(title && title.textContent);
     card.dataset.replaceOriginalSummary = card.dataset.replaceOriginalSummary || compact(summary && summary.textContent);
     setButton(btn, 'loading', 'Übersetze...');
