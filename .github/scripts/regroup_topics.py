@@ -19,9 +19,6 @@ LATEST_FILE = Path("latest-news.json")
 STOP = set(
     "a an the to of for in on at by with from and or is are was were be been has have had will would could should may might new latest update report reports news says said about into after before over under this that these those uap ufo ufos uaps unidentified anomalous phenomena".split()
 )
-KEY_TERMS = set(
-    "trump white house pentagon department war dod aaro nasa fbi odni dni congress senate luna patel hegseth files file records documents archive archives photos images videos release releases released releasing declassify declassified classified disclosure transparency unseal unsealing public batch tranche drop".split()
-)
 
 UAP_RE = re.compile(r"\b(uap|ufo|ufos|unidentified anomalous|unidentified aerial)\b", re.I)
 FILE_RE = re.compile(r"\b(file|files|record|records|document|documents|archive|archives|photo|photos|image|images|video|videos|footage)\b", re.I)
@@ -37,7 +34,11 @@ def words(text: str) -> List[str]:
     return [w for w in re.sub(r"[^a-z0-9]", " ", text.lower()).split() if len(w) > 2 and w not in STOP]
 
 
-def text_blob(article: dict) -> str:
+def matching_text(article: dict) -> str:
+    return clean(" ".join([article.get("title", ""), article.get("summary", ""), article.get("source", "")]))
+
+
+def display_text(article: dict) -> str:
     parts = [article.get("title", ""), article.get("summary", ""), article.get("source", "")]
     parts.extend(article.get("clusterTitles") or [])
     for source in article.get("otherSources") or []:
@@ -47,29 +48,13 @@ def text_blob(article: dict) -> str:
     return clean(" ".join(parts))
 
 
-def topic_theme(article: dict) -> str:
-    blob = text_blob(article)
-    if UAP_RE.search(blob) and FILE_RE.search(blob) and RELEASE_RE.search(blob) and OFFICIAL_RE.search(blob):
-        return "official-uap-file-release"
-    return ""
-
-
-def similarity(a: dict, b: dict) -> float:
-    aw = set(words(text_blob(a)))
-    bw = set(words(text_blob(b)))
-    if not aw or not bw:
-        return 0.0
-    overlap = len(aw & bw) / min(len(aw), len(bw))
-    key_bonus = len((aw & bw) & KEY_TERMS) * 0.07
-    return min(1.0, overlap + key_bonus)
+def is_official_uap_file_release(article: dict) -> bool:
+    text = matching_text(article)
+    return bool(UAP_RE.search(text) and FILE_RE.search(text) and RELEASE_RE.search(text) and OFFICIAL_RE.search(text))
 
 
 def same_topic(a: dict, b: dict) -> bool:
-    theme_a = topic_theme(a)
-    theme_b = topic_theme(b)
-    if theme_a and theme_a == theme_b:
-        return True
-    return similarity(a, b) >= 0.42
+    return is_official_uap_file_release(a) and is_official_uap_file_release(b)
 
 
 def all_sources(article: dict) -> List[dict]:
@@ -126,7 +111,7 @@ def merge_quality(primary: dict, source_count: int) -> None:
 
 def merge_group(items: List[dict]) -> dict:
     primary = dict(sorted(items, key=article_score, reverse=True)[0])
-    sources = unique_sources([primary] + [item for item in items if item is not primary])
+    sources = unique_sources([primary] + [item for item in items])
     primary_link = clean(primary.get("link", "")).lower()
     primary_source = clean(primary.get("source", "")).lower()
 
@@ -207,9 +192,6 @@ def main() -> None:
     old_to_new: Dict[str, str] = {}
     for original in articles:
         for merged_article in merged:
-            if original is merged_article:
-                old_to_new[original.get("id", "")] = merged_article.get("id", "")
-                break
             if same_topic(original, merged_article) or original.get("title") == merged_article.get("title"):
                 old_to_new[original.get("id", "")] = merged_article.get("id", "")
                 break
