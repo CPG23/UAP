@@ -11,8 +11,9 @@
     style.id = STYLE_ID;
     style.textContent = [
       '.article-card .summary:not(.uap-detail-summary){display:none!important}',
-      '.article-card .uap-detail-summary{display:none!important;margin-top:12px!important;color:#b7ccd5!important;line-height:1.55!important;font-size:14px!important}',
+      '.article-card .uap-detail-summary{display:none!important;margin:12px 16px 0 18px!important;color:#b7ccd5!important;line-height:1.55!important;font-size:14px!important}',
       '.article-card.uap-detail-open .uap-detail-summary{display:block!important}',
+      '.article-card.uap-detail-open .details{display:block!important}',
       '.article-card{cursor:pointer}',
       '.article-card .article-main{cursor:pointer}',
       '.article-card h2{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif!important;font-weight:400!important;letter-spacing:0!important;text-transform:none!important}',
@@ -66,9 +67,26 @@
     return summary ? summary.textContent.replace(/\s+/g, ' ').trim() : '';
   }
 
+  function shortenSummary(text){
+    var clean = String(text || '').replace(/\s+/g, ' ').trim();
+    if (clean.length < 380) return clean;
+    var sentences = clean.match(/[^.!?]+[.!?]+(?:\s|$)/g) || [];
+    if (sentences.length) {
+      var target = Math.max(260, Math.floor(clean.length * 0.5));
+      var out = '';
+      for (var i = 0; i < sentences.length; i++) {
+        if (out && out.length + sentences[i].length > target) break;
+        out += sentences[i];
+        if (i >= 2) break;
+      }
+      if (out.trim().length >= 180) return out.trim();
+    }
+    return clean.slice(0, Math.floor(clean.length * 0.5)).replace(/\s+\S*$/, '').trim() + '.';
+  }
+
   function setSummaryText(summary, text){
     if (!summary || !text) return;
-    summary.textContent = text;
+    summary.textContent = shortenSummary(text);
   }
 
   function ensureSummary(card){
@@ -79,9 +97,9 @@
       detail = document.createElement('div');
       detail.className = 'uap-detail-summary';
       detail.setAttribute('data-uap-detail-summary', 'true');
-      var sources = main.querySelector('.source-list');
-      if (sources) main.insertBefore(detail, sources);
-      else main.appendChild(detail);
+      var details = card.querySelector('.details');
+      if (details && details.parentNode === card) card.insertBefore(detail, details);
+      else main.parentNode.insertBefore(detail, main.nextSibling);
     }
     var current = detail.textContent.replace(/\s+/g, ' ').trim();
     if (current) return Promise.resolve(detail);
@@ -93,8 +111,88 @@
     return loadFeed().then(function(feed){
       var article = findArticle(feed, card);
       if (article && article.summary) setSummaryText(detail, article.summary);
+      ensureDetails(card, article);
       return detail;
     });
+  }
+
+  function sourceLinks(article){
+    var list = [];
+    if (article && article.link) list.push({ source: article.source || 'Quelle', link: article.link, title: article.title || '' });
+    ((article && article.otherSources) || []).forEach(function(s){ if (s && s.link) list.push(s); });
+    return list;
+  }
+
+  function ensureDetails(card, article){
+    if (!card) return;
+    var details = card.querySelector('.details');
+    if (!details) {
+      details = document.createElement('div');
+      details.className = 'details';
+      card.appendChild(details);
+    }
+    if (!details.querySelector('.source-list')) {
+      var sources = sourceLinks(article);
+      var html = sources.length ? sources.map(function(s){
+        var name = String(s.source || 'Quelle').replace(/</g, '&lt;');
+        var title = s.title && s.title !== (article && article.title) ? '<div class="source-headline">' + String(s.title).replace(/</g, '&lt;') + '</div>' : '';
+        return '<a class="source-link" href="' + String(s.link || '#') + '" target="_blank" rel="noopener noreferrer"><div class="source-name">' + name + '</div>' + title + '</a>';
+      }).join('') : '';
+      details.insertAdjacentHTML('afterbegin', '<div class="sources-title">Quellen</div><div class="source-list">' + html + '</div>');
+    }
+    if (!details.querySelector('.translate-btn')) {
+      var actions = details.querySelector('.actions');
+      if (!actions) {
+        actions = document.createElement('div');
+        actions.className = 'actions';
+        details.appendChild(actions);
+      }
+      var btn = document.createElement('button');
+      btn.className = 'translate-btn';
+      btn.type = 'button';
+      btn.textContent = 'Übersetzen';
+      actions.appendChild(btn);
+    }
+  }
+
+  function translateText(text) {
+    var url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t&q=' + encodeURIComponent(text || '');
+    return fetch(url).then(function(r){ return r.json(); }).then(function(data){
+      return data && data[0] ? data[0].map(function(part){ return part[0]; }).join('').trim() : '';
+    });
+  }
+
+  function handleTranslate(e){
+    var btn = e.target && e.target.closest && e.target.closest('.translate-btn');
+    if (!btn) return false;
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+    var card = btn.closest('.article-card');
+    var title = card && card.querySelector('h2');
+    var summary = card && card.querySelector('.uap-detail-summary');
+    if (!card || !title || !summary) return true;
+    if (card.dataset.detailTranslated === '1') {
+      title.textContent = card.dataset.detailOriginalTitle || title.textContent;
+      summary.textContent = card.dataset.detailOriginalSummary || summary.textContent;
+      card.dataset.detailTranslated = '0';
+      btn.textContent = 'Übersetzen';
+      return true;
+    }
+    card.dataset.detailOriginalTitle = card.dataset.detailOriginalTitle || title.textContent;
+    card.dataset.detailOriginalSummary = card.dataset.detailOriginalSummary || summary.textContent;
+    btn.disabled = true;
+    btn.textContent = 'Übersetze...';
+    translateText(card.dataset.detailOriginalTitle + '\n|||\n' + card.dataset.detailOriginalSummary).then(function(text){
+      var parts = String(text || '').split('|||');
+      title.textContent = (parts[0] || text || card.dataset.detailOriginalTitle).trim();
+      summary.textContent = (parts[1] || card.dataset.detailOriginalSummary).trim();
+      card.dataset.detailTranslated = '1';
+      btn.textContent = 'Original anzeigen';
+    }).catch(function(){
+      btn.textContent = 'Übersetzung fehlgeschlagen';
+    }).finally(function(){ btn.disabled = false; });
+    return true;
   }
 
   function articleCardFrom(target){
@@ -103,7 +201,7 @@
 
   function isInteractive(target){
     if (!(target && target.closest)) return false;
-    return !!target.closest('a,input,select,textarea,.badge.quality,.quality-overlay,.sources,.source-list,.translate-btn,.quality-top-help');
+    return !!target.closest('a,input,select,textarea,.badge.quality,.quality-overlay,.sources,.source-list,.translate-btn,.quality-top-help,.old-toggle');
   }
 
   function keepOpenCardsVisible(){
@@ -122,8 +220,10 @@
   function setOpen(card, open){
     if (!card) return;
     card.classList.toggle('uap-detail-open', !!open);
+    card.classList.toggle('open', !!open);
     if (open) {
       keepOpenCardsVisible();
+      loadFeed().then(function(feed){ ensureDetails(card, findArticle(feed, card)); });
       ensureSummary(card).then(function(summary){
         card.querySelectorAll('.summary:not(.uap-detail-summary)').forEach(function(oldSummary){ oldSummary.style.display = 'none'; });
         if (summary) summary.style.display = 'block';
@@ -201,6 +301,7 @@
   }
 
   window.addEventListener('click', function(e){
+    if (handleTranslate(e)) return;
     var card = articleCardFrom(e.target);
     if (!card || isInteractive(e.target)) return;
     e.preventDefault();
