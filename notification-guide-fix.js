@@ -4,11 +4,6 @@
   var STYLE_ID = 'uap-notification-guide-style';
   var NTFY_TOPIC = 'UAP-News26';
 
-  function permissionState() {
-    if (!('Notification' in window)) return 'unsupported';
-    return Notification.permission;
-  }
-
   function openNtfy() {
     window.open('https://ntfy.sh/' + encodeURIComponent(NTFY_TOPIC), '_blank', 'noopener,noreferrer');
   }
@@ -28,19 +23,9 @@
       '.notify-guide-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}',
       '.notify-guide-btn{min-height:40px;border:1px solid rgba(0,212,255,.42);background:rgba(0,212,255,.07);color:#00d4ff;font-family:"Share Tech Mono",monospace;font-size:10px;letter-spacing:1.2px;cursor:pointer}',
       '.notify-guide-btn.primary{border-color:rgba(0,255,157,.65);background:rgba(0,255,157,.12);color:#00ff9d}',
-      '.notify-guide-btn:disabled{opacity:.46;cursor:not-allowed}',
       '@media(max-width:420px){.notify-guide-actions{grid-template-columns:1fr}.notify-guide-sheet{padding:14px}.notify-guide-sheet h3{font-size:20px}}'
     ].join('\n');
     document.head.appendChild(style);
-  }
-
-  function setButtonState() {
-    var btn = document.getElementById('notify-btn');
-    if (!btn) return;
-    btn.classList.remove('active', 'blocked');
-    var state = permissionState();
-    if (state === 'granted') btn.classList.add('active');
-    if (state === 'denied' || state === 'unsupported') btn.classList.add('blocked');
   }
 
   function closeGuide() {
@@ -48,83 +33,35 @@
     if (existing) existing.remove();
   }
 
-  function guideText(state) {
-    if (state === 'denied') {
-      return {
-        title: 'Benachrichtigungen blockiert',
-        intro: 'Die App darf derzeit keine Push-Hinweise anzeigen. Das muss einmal in den Browser- oder App-Einstellungen erlaubt werden.',
-        steps: [
-          'Öffne die Einstellungen deines Browsers oder der installierten UAP-App.',
-          'Erlaube dort Benachrichtigungen für diese Website bzw. App.',
-          'Öffne zusätzlich in ntfy den Kanal UAP-News26 und stelle sicher, dass er abonniert ist.'
-        ],
-        primary: 'NTFY-KANAL ÖFFNEN',
-        canAsk: false
-      };
-    }
-    if (state === 'unsupported') {
-      return {
-        title: 'Browser unterstützt Push hier nicht',
-        intro: 'Dieser Browser oder diese Ansicht bietet keine direkte Browser-Benachrichtigung. Die zuverlässige Zustellung läuft über ntfy.',
-        steps: [
-          'Öffne den ntfy-Kanal UAP-News26.',
-          'Abonniere den Kanal in der ntfy-App am Smartphone.',
-          'Neue GitHub-Nachrichten werden dann über ntfy zugestellt.'
-        ],
-        primary: 'NTFY-KANAL ÖFFNEN',
-        canAsk: false
-      };
-    }
-    return {
-      title: 'Benachrichtigungen aktivieren',
-      intro: 'Damit neue UAP-Artikel sofort am Smartphone erscheinen, sind zwei Dinge wichtig: Browser-Erlaubnis und ntfy-Abo.',
-      steps: [
-        'Erlaube Benachrichtigungen, wenn dein Browser danach fragt.',
-        'Öffne danach den ntfy-Kanal UAP-News26.',
-        'Falls der Kanal in der ntfy-App schon abonniert ist, musst du dort nichts neu anlegen.'
-      ],
-      primary: 'BERECHTIGUNG ANFRAGEN',
-      canAsk: true
-    };
-  }
-
   function showGuide() {
     injectStyle();
     closeGuide();
-    var state = permissionState();
-    var text = guideText(state);
     var overlay = document.createElement('div');
     overlay.className = 'notify-guide-overlay';
     overlay.setAttribute('role', 'dialog');
     overlay.setAttribute('aria-modal', 'true');
+    var steps = [
+      'Die Push-Meldungen sollen nur über die ntfy-App am Smartphone kommen.',
+      'Der Kanal in der ntfy-App muss exakt UAP-News26 heißen und abonniert sein.',
+      'Falls Chrome zusätzlich Meldungen von ntfy.sh zeigt, deaktiviere in Chrome die Website-Benachrichtigungen für ntfy.sh. Diese Chrome-Meldung wird von der App nicht benötigt.'
+    ];
     overlay.innerHTML =
       '<div class="notify-guide-sheet">' +
-        '<h3>' + text.title + '</h3>' +
-        '<p>' + text.intro + '</p>' +
+        '<h3>Push über ntfy-App</h3>' +
+        '<p>Für diese App wird keine zusätzliche Chrome-Benachrichtigung benötigt. Entscheidend ist das Abo in der ntfy-App.</p>' +
         '<div class="notify-guide-steps">' +
-          text.steps.map(function(step, index) {
+          steps.map(function(step, index) {
             return '<div class="notify-guide-step"><strong>' + (index + 1) + '</strong><span>' + step + '</span></div>';
           }).join('') +
         '</div>' +
         '<div class="notify-guide-actions">' +
-          '<button type="button" class="notify-guide-btn primary" data-notify-primary>' + text.primary + '</button>' +
+          '<button type="button" class="notify-guide-btn primary" data-notify-primary>NTFY-KANAL ÖFFNEN</button>' +
           '<button type="button" class="notify-guide-btn" data-notify-close>SCHLIESSEN</button>' +
         '</div>' +
       '</div>';
     overlay.addEventListener('click', function(e) {
       if (e.target === overlay || e.target.hasAttribute('data-notify-close')) closeGuide();
-      if (e.target.hasAttribute('data-notify-primary')) {
-        if (text.canAsk && 'Notification' in window) {
-          e.target.disabled = true;
-          Notification.requestPermission().then(function() {
-            setButtonState();
-            openNtfy();
-            closeGuide();
-          });
-        } else {
-          openNtfy();
-        }
-      }
+      if (e.target.hasAttribute('data-notify-primary')) openNtfy();
     });
     document.body.appendChild(overlay);
   }
@@ -132,14 +69,9 @@
   window.addEventListener('click', function(e) {
     var btn = e.target.closest && e.target.closest('#notify-btn');
     if (!btn) return;
-    setButtonState();
-    if (permissionState() === 'granted') return;
     e.preventDefault();
     e.stopPropagation();
     e.stopImmediatePropagation();
     showGuide();
   }, true);
-
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setButtonState);
-  else setButtonState();
 })();
