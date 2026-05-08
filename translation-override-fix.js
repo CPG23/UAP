@@ -29,13 +29,13 @@
       .finally(function(){ if (timer) clearTimeout(timer); });
   }
 
-  function splitForGoogle(text){
+  function splitText(text, maxLen){
     var input = String(text || '').trim();
     if (!input) return [];
     var chunks = [];
     var current = '';
     input.split(/(\s+)/).forEach(function(part){
-      if ((current + part).length > 1400 && current.trim()) {
+      if ((current + part).length > maxLen && current.trim()) {
         chunks.push(current.trim());
         current = part;
       } else {
@@ -61,24 +61,45 @@
       'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t' + query,
       'https://translate.google.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t' + query
     ];
-    return fetchWithTimeout(urls[0], 4000)
+    return fetchWithTimeout(urls[0], 3500)
       .then(function(resp){ if (!resp.ok) throw new Error('Google ' + resp.status); return resp.json(); })
       .then(parseGoogle)
       .catch(function(){
-        return fetchWithTimeout(urls[1], 4000)
+        return fetchWithTimeout(urls[1], 3500)
           .then(function(resp){ if (!resp.ok) throw new Error('Google fallback ' + resp.status); return resp.json(); })
           .then(parseGoogle);
       });
   }
 
   function googleOne(text){
-    var chunks = splitForGoogle(text);
+    var chunks = splitText(text, 1400);
     if (!chunks.length) return Promise.resolve('');
     return Promise.all(chunks.map(googleChunk)).then(function(out){ return out.join(' '); });
   }
 
+  function memoryChunk(chunk){
+    var url = 'https://api.mymemory.translated.net/get?langpair=en|de&q=' + encodeURIComponent(chunk);
+    return fetchWithTimeout(url, 4500)
+      .then(function(resp){ if (!resp.ok) throw new Error('Fallback ' + resp.status); return resp.json(); })
+      .then(function(data){
+        var translated = cleanTranslation(data && data.responseData && data.responseData.translatedText);
+        if (!translated || translated.toLowerCase() === String(chunk || '').trim().toLowerCase()) throw new Error('Fallback leer');
+        return translated;
+      });
+  }
+
+  function fallbackOne(text){
+    var chunks = splitText(text, 480);
+    if (!chunks.length) return Promise.resolve('');
+    return Promise.all(chunks.map(memoryChunk)).then(function(out){ return out.join(' '); });
+  }
+
+  function translateOne(text){
+    return googleOne(text).catch(function(){ return fallbackOne(text); });
+  }
+
   function translateParts(title, summary){
-    return Promise.all([googleOne(title), googleOne(summary)]).then(function(parts){
+    return Promise.all([translateOne(title), translateOne(summary)]).then(function(parts){
       return {
         title: cleanTranslation(parts[0]) || title,
         summary: cleanTranslation(parts[1]) || summary
