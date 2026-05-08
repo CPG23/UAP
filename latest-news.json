@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08T11:22:05Z",
+  "timestamp": "2026-05-08T12:05:29Z",
   "articles": [
     {
       "id": "accidental-congress-died-fbi-investigating-months-now-overdose-set-testify",
@@ -1037,24 +1037,16 @@
     "anna-drop-files-first-luna-paulina-release-requested-today-videos": "Representative Anna Paulina Luna announced that the first drop of declassified UFO files would be released at 8:00 a.m. EST on May 8, 2026, following an executive mandate for UAP transparency. Luna had previously requested 46 classified military videos from the Pentagon in March, citing whistleblower testimony and incidents near sensitive military locations, and she indicated that the requested material would appear in a second release, “Drop B.” The initial drop was expected to contain government records on unidentified anomalous phenomena, but online discussion suggested it may not include the specific military footage Luna sought, with some users anticipating a later Drop B for that content. US intelligence Director Scott D. Berrier commented that “the American people deserve truth,” while other commentators expressed cautious optimism and warned against a “big let down.” Former defense officials have cautioned that many UAP videos could have conventional explanations related to sensor limitations, aircraft, or classified military technology, and the Pentagon has not confirmed the existence or authenticity of the described footage. The disclosure effort has gained momentum after President Donald Trump said new UFO‑related files could be released “very soon,” and Luna has been communicating with officials at the Pentagon, FBI, ODNI, and the White House about disclosure. No official indication has yet been given about the scope of Friday’s release or whether any classified videos will be included in the initial batch."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-08T11:22:05Z",
-    "ids": [
-      "anna-drop-files-first-luna-paulina-release-requested-today-videos"
-    ],
-    "articles": [
-      {
-        "id": "anna-drop-files-first-luna-paulina-release-requested-today-videos",
-        "title": "UFO Files Release: Anna Paulina Luna Says First Drop Today; Requested Videos in Drop B",
-        "source": "LatestLY"
-      }
-    ]
+    "timestamp": "2026-05-08T12:05:29Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 300,
-    "broadTopics": 156,
+    "broadArticles": 290,
+    "broadTopics": 148,
     "notificationArticles": 4,
     "notificationTopics": 3,
-    "newNotificationTopics": 1,
+    "newNotificationTopics": 0,
     "appTopics": 22,
     "retentionDays": 14,
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
