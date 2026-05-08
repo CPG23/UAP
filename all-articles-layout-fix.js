@@ -3,6 +3,7 @@
 
   var STYLE_ID = 'uap-all-articles-layout-style';
   var feedPromise = null;
+  var latestFeed = null;
   var running = false;
 
   function injectStyle(){
@@ -10,7 +11,7 @@
     var style = document.createElement('style');
     style.id = STYLE_ID;
     style.textContent = [
-      '.article-card h2{color:#00d4ff!important;text-shadow:0 0 12px rgba(0,212,255,.22)!important}',
+      '.article-card h2{color:#0b8fc1!important;text-shadow:0 0 8px rgba(0,139,194,.14)!important}',
       '.article-card.uap-detail-open .details .actions{margin:10px 0 13px!important}',
       '.article-card.uap-detail-open .details .actions + .sources-title{margin-top:2px!important}',
       '.article-card.uap-detail-open .uap-detail-summary{display:block!important}'
@@ -22,6 +23,7 @@
     if (!feedPromise) {
       feedPromise = fetch('latest-news.json?all=' + Date.now(), { cache: 'no-store' })
         .then(function(r){ return r.json(); })
+        .then(function(feed){ latestFeed = feed; return feed; })
         .catch(function(){ return { articles: [] }; });
     }
     return feedPromise;
@@ -49,6 +51,14 @@
     var d = new Date(value);
     if (!isNaN(d.getTime())) return d.toISOString().slice(0, 10);
     return String(value).slice(0, 10);
+  }
+
+  function todayIso(){
+    var d = new Date();
+    var y = d.getFullYear();
+    var m = String(d.getMonth() + 1).padStart(2, '0');
+    var day = String(d.getDate()).padStart(2, '0');
+    return y + '-' + m + '-' + day;
   }
 
   function cardId(card){
@@ -123,25 +133,51 @@
     return map;
   }
 
-  function promoteCurrentScanArticles(feed){
+  function promoteCurrentDayArticles(feed){
     var feedEl = document.getElementById('feed');
     if (!feedEl || !feed) return;
-    var scanDay = isoDate(feed.timestamp || new Date());
+    var today = todayIso();
     var map = articleMap(feed);
     var oldToggle = feedEl.querySelector(':scope > .old-toggle');
     document.querySelectorAll('.old-list .article-card').forEach(function(card){
       var article = map[cardId(card)];
-      if (!article || isoDate(article.date) !== scanDay) return;
+      if (!article || isoDate(article.date) !== today) return;
       card.dataset.currentScan = 'true';
-      card.classList.remove('unread');
       if (oldToggle && oldToggle.parentNode === feedEl) feedEl.insertBefore(card, oldToggle);
       else feedEl.appendChild(card);
     });
   }
 
-  function schedulePromotion(feed){
+  function updateSeenSection(){
+    var feedEl = document.getElementById('feed');
+    if (!feedEl) return;
+    var toggle = feedEl.querySelector(':scope > .old-toggle');
+    var list = feedEl.querySelector(':scope > .old-list');
+    if (!toggle || !list) return;
+    var count = list.querySelectorAll('.article-card').length;
+    var hasVisibleCurrentOrNew = Array.prototype.some.call(feedEl.querySelectorAll(':scope > .article-card'), function(card){
+      return card.offsetParent !== null;
+    });
+    var collapsed = hasVisibleCurrentOrNew;
+    list.classList.toggle('collapsed', collapsed);
+    toggle.textContent = (collapsed ? '▸ ' : '▾ ') + 'Bereits gesehen (' + count + ')';
+    if (!toggle.dataset.uapSeenBound) {
+      toggle.dataset.uapSeenBound = '1';
+      toggle.addEventListener('click', function(){
+        setTimeout(function(){
+          var nowCollapsed = list.classList.contains('collapsed');
+          toggle.textContent = (nowCollapsed ? '▸ ' : '▾ ') + 'Bereits gesehen (' + count + ')';
+        }, 0);
+      });
+    }
+  }
+
+  function scheduleGrouping(feed){
     [0, 120, 400, 900, 1800, 3200].forEach(function(delay){
-      setTimeout(function(){ promoteCurrentScanArticles(feed); }, delay);
+      setTimeout(function(){
+        promoteCurrentDayArticles(feed);
+        updateSeenSection();
+      }, delay);
     });
   }
 
@@ -191,20 +227,74 @@
     if (open) ensureBackfilledSummary(card);
   }
 
+  function articleForCard(card){
+    var id = cardId(card);
+    var map = articleMap(latestFeed || {});
+    return map[id] || null;
+  }
+
+  function closeQualityOverlay(){
+    var existing = document.querySelector('.quality-overlay');
+    if (existing) existing.remove();
+  }
+
+  function pointText(points){
+    var n = Number(points) || 0;
+    return (n > 0 ? '+' : '') + n + ' Pkt';
+  }
+
+  function showFastQuality(card, badge){
+    var article = articleForCard(card);
+    var scoreMatch = String(badge && badge.textContent || '').match(/\d+/);
+    var score = article && article.quality || (scoreMatch ? Number(scoreMatch[0]) : 0);
+    var rows = article && Array.isArray(article.qualityBreakdown) ? article.qualityBreakdown.slice() : [];
+    if (!rows.length) rows = [{ label: 'Wertung', points: score, text: 'Artikel wurde nach UAP-Bezug, Quellen und Relevanz bewertet.' }];
+    rows.sort(function(a,b){
+      if (/basis/i.test(a.label || '')) return 1;
+      if (/basis/i.test(b.label || '')) return -1;
+      return (Number(a.points) || 0) - (Number(b.points) || 0);
+    });
+    closeQualityOverlay();
+    var overlay = document.createElement('div');
+    overlay.className = 'quality-overlay';
+    overlay.setAttribute('role', 'dialog');
+    overlay.setAttribute('aria-modal', 'true');
+    overlay.innerHTML = '<div class="quality-sheet">' +
+      '<h3>Wertung ' + esc(score) + '</h3>' +
+      '<div class="quality-score-line">Punkte in diesem Artikel</div>' +
+      '<p>Die Wertung priorisiert UAP-Relevanz, offizielle Stellen, Quellenvertrauen und mehrere unabhängige Quellen.</p>' +
+      '<div class="quality-rules">' + rows.map(function(row){
+        return '<div class="quality-rule"><span class="quality-points">' + pointText(row.points) + '</span><span><strong>' + esc(row.label || 'Wertung') + ':</strong> ' + esc(row.text || '') + '</span></div>';
+      }).join('') + '</div>' +
+      '<button type="button" class="quality-close">SCHLIESSEN</button>' +
+    '</div>';
+    overlay.addEventListener('click', function(e){ if (e.target === overlay || e.target.classList.contains('quality-close')) closeQualityOverlay(); });
+    document.body.appendChild(overlay);
+  }
+
   function apply(){
     if (running) return;
     running = true;
     injectStyle();
     loadFeed().then(function(feed){
       renderMissing(feed);
-      schedulePromotion(feed);
+      scheduleGrouping(feed);
     }).finally(function(){
       document.querySelectorAll('.article-card').forEach(moveDetailActions);
+      updateSeenSection();
       running = false;
     });
   }
 
   window.addEventListener('click', function(e){
+    var quality = e.target && e.target.closest && e.target.closest('.badge.quality');
+    if (quality) {
+      e.preventDefault();
+      e.stopPropagation();
+      e.stopImmediatePropagation();
+      showFastQuality(quality.closest('.article-card'), quality);
+      return;
+    }
     var card = e.target && e.target.closest && e.target.closest('.uap-backfilled-article');
     if (!card || isInteractive(e.target)) return;
     e.preventDefault();
