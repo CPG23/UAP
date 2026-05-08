@@ -12,7 +12,8 @@
     style.textContent = [
       '.article-card h2{color:#00d4ff!important;text-shadow:0 0 12px rgba(0,212,255,.22)!important}',
       '.article-card.uap-detail-open .details .actions{margin:10px 0 13px!important}',
-      '.article-card.uap-detail-open .details .actions + .sources-title{margin-top:2px!important}'
+      '.article-card.uap-detail-open .details .actions + .sources-title{margin-top:2px!important}',
+      '.article-card.uap-detail-open .uap-detail-summary{display:block!important}'
     ].join('\n');
     document.head.appendChild(style);
   }
@@ -154,6 +155,42 @@
     }
   }
 
+  function shorten(text){
+    var clean = String(text || '').replace(/\s+/g, ' ').trim();
+    if (clean.length < 380) return clean;
+    var sentences = clean.match(/[^.!?]+[.!?]+(?:\s|$)/g) || [];
+    if (sentences.length) return sentences.slice(0, 3).join('').trim();
+    return clean.slice(0, Math.floor(clean.length * 0.5)).replace(/\s+\S*$/, '').trim() + '.';
+  }
+
+  function ensureBackfilledSummary(card){
+    var detail = card.querySelector('.uap-detail-summary');
+    if (!detail) {
+      detail = document.createElement('div');
+      detail.className = 'uap-detail-summary';
+      var details = card.querySelector('.details');
+      if (details) card.insertBefore(detail, details);
+      else card.appendChild(detail);
+    }
+    if (!detail.textContent.trim()) {
+      var summary = card.querySelector('.summary:not(.uap-detail-summary)');
+      detail.textContent = shorten(summary ? summary.textContent : '');
+    }
+    detail.style.display = 'block';
+  }
+
+  function isInteractive(target){
+    return !!(target && target.closest && target.closest('a,input,select,textarea,.badge.quality,.quality-overlay,.source-list,.translate-btn,.quality-top-help,.old-toggle'));
+  }
+
+  function toggleBackfilled(card){
+    var open = !card.classList.contains('uap-detail-open');
+    card.classList.toggle('uap-detail-open', open);
+    card.classList.toggle('open', open);
+    moveDetailActions(card);
+    if (open) ensureBackfilledSummary(card);
+  }
+
   function apply(){
     if (running) return;
     running = true;
@@ -166,6 +203,15 @@
       running = false;
     });
   }
+
+  window.addEventListener('click', function(e){
+    var card = e.target && e.target.closest && e.target.closest('.uap-backfilled-article');
+    if (!card || isInteractive(e.target)) return;
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+    toggleBackfilled(card);
+  }, true);
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', apply);
   else apply();
