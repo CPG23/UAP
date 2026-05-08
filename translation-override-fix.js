@@ -10,7 +10,8 @@
     style.textContent = [
       '.translate-btn.uap-translating,.translate-btn.uap-translated{border-color:rgba(0,255,157,.72)!important;color:#b8ffd7!important;background:rgba(0,255,157,.12)!important;box-shadow:0 0 16px rgba(0,255,157,.18)!important}',
       '.article-card.uap-translation-active h2,.article-card.uap-translation-active .summary,.article-card.uap-translation-active .uap-detail-summary{color:#b8ffd7!important}',
-      '.article-card.uap-translation-active .summary,.article-card.uap-translation-active .uap-detail-summary{text-shadow:0 0 10px rgba(0,255,157,.12)!important}'
+      '.article-card.uap-translation-active .summary,.article-card.uap-translation-active .uap-detail-summary{text-shadow:0 0 10px rgba(0,255,157,.12)!important}',
+      '.article-card .details .uap-detail-summary{display:block!important;margin:0 0 12px!important;color:#9db6c2;font-size:13px;line-height:1.55}'
     ].join('\n');
     document.head.appendChild(style);
   }
@@ -85,15 +86,32 @@
     });
   }
 
+  function ensureDetailSummary(card){
+    var details = card && card.querySelector('.details');
+    if (!details) return null;
+    var detail = details.querySelector('.uap-detail-summary');
+    if (!detail) {
+      detail = document.createElement('div');
+      detail.className = 'uap-detail-summary';
+      var actions = details.querySelector('.actions');
+      if (actions) details.insertBefore(detail, actions);
+      else details.insertBefore(detail, details.firstChild);
+    }
+    var source = card.querySelector('.summary:not(.uap-detail-summary)');
+    if (!detail.textContent.trim() && source) detail.textContent = source.textContent;
+    return detail;
+  }
+
   function summaryElements(card){
-    return Array.prototype.slice.call(card.querySelectorAll('.uap-detail-summary, .summary'));
+    ensureDetailSummary(card);
+    return Array.prototype.slice.call(card.querySelectorAll('.details .uap-detail-summary, .summary'));
   }
 
   function primarySummary(card){
+    var detail = ensureDetailSummary(card);
+    if (detail && String(detail.textContent || '').trim()) return detail;
     var list = summaryElements(card);
-    return list.find(function(el){ return el.offsetParent !== null && String(el.textContent || '').trim(); })
-      || list.find(function(el){ return String(el.textContent || '').trim(); })
-      || null;
+    return list.find(function(el){ return String(el.textContent || '').trim(); }) || null;
   }
 
   function setSummaries(card, text){
