@@ -240,6 +240,10 @@ def main() -> None:
         if not article_id or not title or not summary:
             continue
 
+        if compact(article.get("summary")) != summary:
+            article["summary"] = summary
+            changed = True
+
         current_hash = source_hash(title, summary)
         existing = article.get("translation") if isinstance(article.get("translation"), dict) else {}
         if not existing and isinstance(top_level_translations.get(article_id), dict):
