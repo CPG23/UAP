@@ -3,20 +3,43 @@
 
   function rewriteFallback(text){
     var raw = clean(text);
-    if (!/full article text could not be reliably extracted/i.test(raw)) return '';
-    var m = raw.match(/^The feed lists an article from (.+?) dated ([0-9-]+)\. The title says: "(.+?)"\.(?: The feed connects this item with: (.+?)\.)? The topic is currently tracked from (.+?)\. The full article text could not be reliably extracted, so no extra claims were added\.$/i);
-    if (!m) return raw.replace(/The full article text could not be reliably extracted, so no extra claims were added\.?/i, 'The summary stays limited to verified feed details, so no unsupported details are added.');
-    var source = clean(m[1]);
-    var date = clean(m[2]);
-    var title = clean(m[3]);
-    var terms = clean(m[4]);
-    var sourceCount = clean(m[5]);
+    if (!/(full article text could not be reliably extracted|summary is limited to verified feed metadata|the feed lists an article|this item tracks a |publisher text could not be safely extracted)/i.test(raw)) return '';
+
+    var source = 'the listed source';
+    var date = '';
+    var title = '';
+    var terms = '';
+    var related = '';
+
+    var m = raw.match(/This item tracks a (.+?) report dated ([0-9-]+)\. The listed headline (?:centers|focuses) on: "(.+?)"\./i);
+    if (m) {
+      source = clean(m[1]);
+      date = clean(m[2]);
+      title = clean(m[3]);
+    }
+    if (!title) {
+      m = raw.match(/The feed lists an article from (.+?) dated ([0-9-]+)\. The title says: "(.+?)"\./i);
+      if (m) {
+        source = clean(m[1]);
+        date = clean(m[2]);
+        title = clean(m[3]);
+      }
+    }
+    m = raw.match(/connects the topic with (.+?)(?:, based| based|\.)/i);
+    if (m) terms = clean(m[1]);
+    m = raw.match(/Related feed headlines (?:in the same topic cluster )?mention: "?(.+?)"?\./i);
+    if (m) related = clean(m[1]).replace(/"; "/g, '; ');
+
     var out = [];
-    out.push('This item tracks a ' + source + ' report dated ' + date + '.');
-    out.push('The listed headline focuses on: "' + title + '".');
-    if (terms) out.push('The scanner connects the topic with ' + terms + ', based on the headline and available feed text.');
-    out.push('The topic is currently represented by ' + sourceCount + ' in the feed.');
-    out.push('When the publisher text is not safely accessible, the summary stays limited to verified feed details and avoids unsupported claims.');
+    if (title) {
+      out.push(source + (date ? ' lists a UAP-related report dated ' + date : ' lists a UAP-related report') + ' under the headline "' + title + '".');
+      out.push('The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.');
+    } else {
+      out.push('This UAP-related item is summarized from the available feed metadata.');
+      out.push('UAP News does not add extra claims when the publisher text is not safely available.');
+    }
+    if (terms) out.push('The topic is connected with ' + terms + ' in the feed metadata.');
+    if (related) out.push('Related headlines in the same topic cluster mention: ' + related + '.');
     return out.join(' ');
   }
 
