@@ -1,6 +1,6 @@
-var CACHE = 'uap-v49-visible-details';
+var CACHE = 'uap-v50-notification-direct';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '49';
+var OVERRIDE_VERSION = '50';
 var OVERRIDE_FILES = [
   'app-feed-overrides.js',
   'bell-icon-fix.js',
@@ -13,7 +13,8 @@ var OVERRIDE_FILES = [
   'quality-order-startup-fix.js',
   'summary-metadata-fix.js',
   'quality-info-points-fix.js',
-  'article-detail-rating-fix.js'
+  'article-detail-rating-fix.js',
+  'notification-direct-fix.js'
 ];
 
 self.addEventListener('install', function(e) {
