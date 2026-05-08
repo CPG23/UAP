@@ -1,6 +1,6 @@
-var CACHE = 'uap-v67-translation-override';
+var CACHE = 'uap-v68-badge-border-match';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '67';
+var OVERRIDE_VERSION = '68';
 var OVERRIDE_FILES = [
   'translation-override-fix.js',
   'app-feed-overrides.js',
