@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08T05:42:00Z",
+  "timestamp": "2026-05-08T05:56:16Z",
   "articles": [
     {
       "id": "actually-data-disclosure-goes-how-pentagon-playbook-public-quietly-reveal",
@@ -7,23 +7,60 @@
       "source": "USA Herald",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT29fWXRpbW8tM2FQTGZfd3luQ1RDM1ViMmhvWXNNdjRuSUFwNUE2U1k0NFVyckVYZTYxRlItOHUtalBjb3RZb3VmQUNMZEViQ3RzWWhZR2VnLU9kcHBRbm10eUVoUWd6UXM0RXRSenZyRHBqalZZcURXOTRXa1Y5akpZcUpEUHB3ZUJ2anNpQ3JJeHdUdkFPMUpqLXlLWkpGWFM1X1ZDOUszMHJJbUs0ZnVKa3gzaUcyYVR6NGFYLXpudw?oc=5",
       "date": "2026-05-07",
-      "summary": "The feed lists an article from USA Herald dated 2026-05-07. The title says that a Pentagon UAP data playbook has quietly become public and may show how disclosure could unfold. The feed connects this item with the terms DISCLOSURE and PENTAGON. The topic is currently tracked from one source. The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals.",
+      "summary": "The feed lists an article from USA Herald dated 2026-05-07. The title says: \"Pentagon’s UAP Data Playbook Quietly Goes Public—And It May Reveal How Disclosure Will Actually Unfold\". The feed connects this item with: DISCLOSURE, PENTAGON. The topic is currently tracked from one source. The full article text could not be reliably extracted, so no extra claims were added.",
       "mentions": 1,
       "otherSources": [],
-      "clusterTitles": ["Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof"],
+      "clusterTitles": [
+        "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof"
+      ],
       "quality": 71,
       "qualityBreakdown": [
-        {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
-        {"label": "Begriffe", "points": 6, "text": "Disclosure und Pentagon wurden als relevante Themenbegriffe erkannt."},
-        {"label": "Offiziell", "points": 8, "text": "Pentagon und Disclosure zählen als offizielle beziehungsweise stark relevante UAP-Kontexte."},
-        {"label": "Titel", "points": 4, "text": "Relevante Begriffe stehen direkt im Titel."},
-        {"label": "Starker Titel", "points": 13, "text": "Der Titel enthält einen klaren UAP/Disclosure-Bezug."},
-        {"label": "Kernaussage", "points": 7, "text": "Disclosure wird als zentrales Thema erkannt."},
-        {"label": "Behörde im Titel", "points": 6, "text": "Pentagon steht direkt im Titel."},
-        {"label": "Mehrere Quellen", "points": 0, "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."}
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DISCLOSURE, PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "DISCLOSURE, PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
       ],
-      "qualityExplanation": "Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.",
-      "matchedTerms": ["DISCLOSURE", "PENTAGON"]
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "matchedTerms": [
+        "DISCLOSURE",
+        "PENTAGON"
+      ]
     },
     {
       "id": "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare",
@@ -31,22 +68,53 @@
       "source": "USA Herald",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcW8xdnY3aHk4NS1GcGlFSkJfTkNSNE1iNllTZUF5TmpMc0Zibkc0dU5oQnpPV0JvV0YxWXptMGx4LWhJX2JkRkxjemRFSmRzenFsOElRaVdTTXVQTWZuelVVbHVyMlZVSWhzNkRBRGxJZ1hLN3ZTRG9HR0F0UGZwUWdrSlZkdDI2WVJ2elE4emNaNWxiOGUzWjAzcS0wdFhKeVI1a3MwenMwWklLS3VlbFVha0xyRW9wRU1heGxYVl9UVko1REJXRzktTThqUHFHcHlldUwycTIwMUlyb2NvTGZFZzBvQTg?oc=5",
       "date": "2026-05-08",
-      "summary": "The feed lists an article from USA Herald dated 2026-05-08. The title says several pastors claim that U.S. military intelligence officers secretly briefed them so they could prepare their congregations for UAP disclosure. The feed connects this item with the terms DISCLOSURE and MILITARY. The topic is currently tracked from one source. The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals.",
+      "summary": "The feed lists an article from USA Herald dated 2026-05-08. The title says: \"Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure\". The feed connects this item with: DISCLOSURE, MILITARY. The topic is currently tracked from one source. The full article text could not be reliably extracted, so no extra claims were added.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
       "quality": 65,
       "qualityBreakdown": [
-        {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
-        {"label": "Begriffe", "points": 6, "text": "Disclosure und Military wurden als relevante Themenbegriffe erkannt."},
-        {"label": "Offiziell", "points": 8, "text": "Disclosure und Military zählen als offizielle beziehungsweise stark relevante UAP-Kontexte."},
-        {"label": "Titel", "points": 4, "text": "Relevante Begriffe stehen direkt im Titel."},
-        {"label": "Starker Titel", "points": 13, "text": "Der Titel enthält einen klaren UAP/Disclosure-Bezug."},
-        {"label": "Kernaussage", "points": 7, "text": "Disclosure wird als zentrales Thema erkannt."},
-        {"label": "Mehrere Quellen", "points": 0, "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."}
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DISCLOSURE, MILITARY als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "DISCLOSURE, MILITARY als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
       ],
-      "qualityExplanation": "Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.",
-      "matchedTerms": ["DISCLOSURE", "MILITARY"]
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "matchedTerms": [
+        "DISCLOSURE",
+        "MILITARY"
+      ]
     },
     {
       "id": "corbell-disclosure-dives-dog-fight-jeremy-sleeping-trailer",
@@ -54,22 +122,52 @@
       "source": "Icon Vs. Icon",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdjhkRTJfRGJ5SENnTFR2bldwZ3pXY2wyay01UXNoTjltN3gwWVVEVEt0Zm5RNUhGbzhGbUNFX1Bac0JDNGVUd2ZrY2ZlQWp1RzFWbFRkZVpjZTE2dW04bWhZZU9oZ3NvMTZ1dS1NeE5hcm1WN3haNVhxSnM3SmVKZzc3ZzE0b1hiQm1qZ2c3RWpKLTlU0gGaAUFVX3lxTFAxMUF3UWRBLU5md2tfSGtXTVdHb1J1QWpOUGV0dnRKZG8yQTdjZUJYR0ZFcnNhYmZnUlV4VTMzUmN0VEx1b2dTWGZUbHJqQUk1WWg0dUoyQklQUVgtQjZjRGtlUzdtNm1oc29JN3BXRFdBdTdXX1N4aFZLa3RVdkZZeU9EQWFnME5ndjA5MWRkdXF0QnBaeTVqU0E?oc=5",
       "date": "2026-05-07",
-      "summary": "The feed lists an article from Icon Vs. Icon dated 2026-05-07. The title says the report covers a trailer for “SLEEPING DOG” and Jeremy Corbell’s work around UAP disclosure. The feed connects this item with the term DISCLOSURE. The topic is currently tracked from one source. The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals.",
+      "summary": "The feed lists an article from Icon Vs. Icon dated 2026-05-07. The title says: \"‘SLEEPING DOG’ Trailer Dives Into Jeremy Corbell’s Fight For UAP Disclosure\". The feed connects this item with: DISCLOSURE. The topic is currently tracked from one source. The full article text could not be reliably extracted, so no extra claims were added.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
       "quality": 56,
       "qualityBreakdown": [
-        {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
-        {"label": "Begriffe", "points": 3, "text": "Disclosure wurde als relevanter Themenbegriff erkannt."},
-        {"label": "Offiziell", "points": 4, "text": "Disclosure zählt als stark relevanter UAP-Kontext."},
-        {"label": "Titel", "points": 2, "text": "Der relevante Begriff steht direkt im Titel."},
-        {"label": "Starker Titel", "points": 13, "text": "Der Titel enthält einen klaren Disclosure-Bezug."},
-        {"label": "Kernaussage", "points": 7, "text": "Disclosure wird als zentrales Thema erkannt."},
-        {"label": "Mehrere Quellen", "points": 0, "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."}
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
       ],
-      "qualityExplanation": "Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.",
-      "matchedTerms": ["DISCLOSURE"]
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "matchedTerms": [
+        "DISCLOSURE"
+      ]
     },
     {
       "id": "confirms-delivered-director-expect-fbi-files-here-kash-patel-public",
@@ -77,21 +175,47 @@
       "source": "International Business Times UK",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90TDlwZ1dNc2RSemc3bVVRWlUwZC1ZLTZlMHlKMkhuN242b1VoT3dfbVFpbTJkY1NGeTc4VGVOZk41V0FMR3MwQ1NRT3BCV05jcTBqdFhRS3lOWlRSSEdoSjFfdkdXSHNJYTRkS1R6ako4ci1C?oc=5",
       "date": "2026-05-07",
-      "summary": "The feed lists an article from International Business Times UK dated 2026-05-07. The title says UFO files have been delivered for public release and that FBI Director Kash Patel confirmed the development. The feed connects this item with the term FBI. The topic is currently tracked from one source. The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals.",
+      "summary": "The feed lists an article from International Business Times UK dated 2026-05-07. The title says: \"UFO Files Delivered for Public Release, FBI Director Kash Patel Confirms — Here's What to Expect\". The feed connects this item with: FBI. The topic is currently tracked from one source. The full article text could not be reliably extracted, so no extra claims were added.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
       "quality": 49,
       "qualityBreakdown": [
-        {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
-        {"label": "Begriffe", "points": 3, "text": "FBI wurde als relevanter Themenbegriff erkannt."},
-        {"label": "Offiziell", "points": 4, "text": "FBI zählt als offizieller Kontext."},
-        {"label": "Titel", "points": 2, "text": "Der relevante Begriff steht direkt im Titel."},
-        {"label": "Starker Titel", "points": 13, "text": "Der Titel enthält einen klaren UFO-Bezug."},
-        {"label": "Mehrere Quellen", "points": 0, "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."}
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "FBI wurde als relevanter Themenbegriff erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "FBI zählt als offizieller Kontext."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Der relevante Begriff steht direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
       ],
       "qualityExplanation": "Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.",
-      "matchedTerms": ["FBI"]
+      "matchedTerms": [
+        "FBI"
+      ]
     },
     {
       "id": "briefing-burchett-classified-contains-earth-explosive-fire-information-rep-set",
@@ -99,22 +223,52 @@
       "source": "USA Herald",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYjU5RUpiQWUyamc5bVo4UmV0Zl9XQnJTaWVMQ2lLWVZDSXdsS2JxMzY3NEZzUmhKYlFjVjFjMk5MQmwxZ3ZQeGxXTmIxaUtHWWVyRmRHT2l2dHNsM3I4MTNVdms1X2ZTWU9GNnBvdWlVX21RZTluMUpnNkcwVTJXWjcwTi03bkZtVG50aGNwYTZLZGR2ZEpnTEJ4SWdHR2JaRXJ5bEYtNGctUk42QWF3dVFfbHBzbWhZZnNBV3JhbGdHa1JvcUJDQ2YwTjViQQ?oc=5",
       "date": "2026-05-07",
-      "summary": "The feed lists an article from USA Herald dated 2026-05-07. The title says Representative Tim Burchett warned that a classified UAP briefing contains explosive information that could “set the Earth on fire.” The feed connects this item with UAP and classified briefing language in the title. The topic is currently tracked from one source. The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals.",
+      "summary": "The feed lists an article from USA Herald dated 2026-05-07. The title says: \"Rep. Tim Burchett Warns Classified UAP Briefing Contains Explosive Information That Could ‘Set the Earth on Fire’\". The feed connects this item with: CLASSIFIED. The topic is currently tracked from one source. The full article text could not be reliably extracted, so no extra claims were added.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
       "quality": 61,
       "qualityBreakdown": [
-        {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
-        {"label": "Begriffe", "points": 6, "text": "UAP und Classified wurden als relevante Themenbegriffe erkannt."},
-        {"label": "Offiziell", "points": 4, "text": "Classified zählt als offizieller beziehungsweise behördlicher Kontext."},
-        {"label": "Titel", "points": 4, "text": "Relevante Begriffe stehen direkt im Titel."},
-        {"label": "Starker Titel", "points": 13, "text": "Der Titel enthält einen klaren UAP-Bezug."},
-        {"label": "Kernaussage", "points": 7, "text": "Klassifizierte UAP-Information wird als zentrales Thema erkannt."},
-        {"label": "Mehrere Quellen", "points": 0, "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."}
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "UAP und Classified wurden als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "Classified zählt als offizieller beziehungsweise behördlicher Kontext."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Klassifizierte UAP-Information wird als zentrales Thema erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
       ],
       "qualityExplanation": "Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.",
-      "matchedTerms": ["CLASSIFIED"]
+      "matchedTerms": [
+        "CLASSIFIED"
+      ]
     },
     {
       "id": "admit-being-called-craft-crazy-critical-encounters-fear-near-officials",
@@ -122,55 +276,71 @@
       "source": "International Business Times UK",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SWXlMV2tDNFZsejRBYmxEcHF2ZXVfQkhKdmZrd3I5NVgtVHhlMHM5U2NCNS0zdEJ5eU41MjRsQVBGeld1dlEzaDVRWm00ZDFJODBYR2NjMTNyTHNBeEZtbHZldDZlaXo4b3dBeHMybnBCRmY0S1NJU25GVm44QQ?oc=5",
       "date": "2026-05-05",
-      "summary": "The feed lists an article from International Business Times UK dated 2026-05-05. The title says UFO whistleblowers fear being dismissed as “crazy” while officials acknowledge encounters with unknown craft near critical U.S. sites. The topic is currently tracked from one source. The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals.",
+      "summary": "The feed lists an article from International Business Times UK dated 2026-05-05. The title says: \"UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites\". The feed connects this item with: WHISTLEBLOWER. The topic is currently tracked from one source. The full article text could not be reliably extracted, so no extra claims were added.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
       "quality": 55,
       "qualityBreakdown": [
-        {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
-        {"label": "Begriffe", "points": 6, "text": "UFO und Whistleblowers wurden als relevante Themenbegriffe erkannt."},
-        {"label": "Titel", "points": 2, "text": "Ein relevanter Begriff steht direkt im Titel."},
-        {"label": "Starker Titel", "points": 13, "text": "Der Titel enthält einen klaren UFO-Bezug."},
-        {"label": "Kernaussage", "points": 7, "text": "Whistleblower-Bezug wird als zentrales UAP-Thema erkannt."},
-        {"label": "Mehrere Quellen", "points": 0, "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."}
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "UFO und Whistleblowers wurden als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Ein relevanter Begriff steht direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Whistleblower-Bezug wird als zentrales UAP-Thema erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
       ],
       "qualityExplanation": "Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.",
-      "matchedTerms": ["WHISTLEBLOWER"]
+      "matchedTerms": [
+        "WHISTLEBLOWER"
+      ]
     }
   ],
   "summaries": {
-    "actually-data-disclosure-goes-how-pentagon-playbook-public-quietly-reveal": "The feed lists an article from USA Herald dated 2026-05-07. The title says that a Pentagon UAP data playbook has quietly become public and may show how disclosure could unfold. The feed connects this item with the terms DISCLOSURE and PENTAGON. The topic is currently tracked from one source. The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals.",
-    "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare": "The feed lists an article from USA Herald dated 2026-05-08. The title says several pastors claim that U.S. military intelligence officers secretly briefed them so they could prepare their congregations for UAP disclosure. The feed connects this item with the terms DISCLOSURE and MILITARY. The topic is currently tracked from one source. The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals.",
-    "corbell-disclosure-dives-dog-fight-jeremy-sleeping-trailer": "The feed lists an article from Icon Vs. Icon dated 2026-05-07. The title says the report covers a trailer for “SLEEPING DOG” and Jeremy Corbell’s work around UAP disclosure. The feed connects this item with the term DISCLOSURE. The topic is currently tracked from one source. The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals.",
-    "confirms-delivered-director-expect-fbi-files-here-kash-patel-public": "The feed lists an article from International Business Times UK dated 2026-05-07. The title says UFO files have been delivered for public release and that FBI Director Kash Patel confirmed the development. The feed connects this item with the term FBI. The topic is currently tracked from one source. The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals.",
-    "briefing-burchett-classified-contains-earth-explosive-fire-information-rep-set": "The feed lists an article from USA Herald dated 2026-05-07. The title says Representative Tim Burchett warned that a classified UAP briefing contains explosive information that could “set the Earth on fire.” The feed connects this item with UAP and classified briefing language in the title. The topic is currently tracked from one source. The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals.",
-    "admit-being-called-craft-crazy-critical-encounters-fear-near-officials": "The feed lists an article from International Business Times UK dated 2026-05-05. The title says UFO whistleblowers fear being dismissed as “crazy” while officials acknowledge encounters with unknown craft near critical U.S. sites. The topic is currently tracked from one source. The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals."
+    "actually-data-disclosure-goes-how-pentagon-playbook-public-quietly-reveal": "The feed lists an article from USA Herald dated 2026-05-07. The title says: \"Pentagon’s UAP Data Playbook Quietly Goes Public—And It May Reveal How Disclosure Will Actually Unfold\". The feed connects this item with: DISCLOSURE, PENTAGON. The topic is currently tracked from one source. The full article text could not be reliably extracted, so no extra claims were added.",
+    "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare": "The feed lists an article from USA Herald dated 2026-05-08. The title says: \"Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure\". The feed connects this item with: DISCLOSURE, MILITARY. The topic is currently tracked from one source. The full article text could not be reliably extracted, so no extra claims were added.",
+    "corbell-disclosure-dives-dog-fight-jeremy-sleeping-trailer": "The feed lists an article from Icon Vs. Icon dated 2026-05-07. The title says: \"‘SLEEPING DOG’ Trailer Dives Into Jeremy Corbell’s Fight For UAP Disclosure\". The feed connects this item with: DISCLOSURE. The topic is currently tracked from one source. The full article text could not be reliably extracted, so no extra claims were added.",
+    "confirms-delivered-director-expect-fbi-files-here-kash-patel-public": "The feed lists an article from International Business Times UK dated 2026-05-07. The title says: \"UFO Files Delivered for Public Release, FBI Director Kash Patel Confirms — Here's What to Expect\". The feed connects this item with: FBI. The topic is currently tracked from one source. The full article text could not be reliably extracted, so no extra claims were added.",
+    "briefing-burchett-classified-contains-earth-explosive-fire-information-rep-set": "The feed lists an article from USA Herald dated 2026-05-07. The title says: \"Rep. Tim Burchett Warns Classified UAP Briefing Contains Explosive Information That Could ‘Set the Earth on Fire’\". The feed connects this item with: CLASSIFIED. The topic is currently tracked from one source. The full article text could not be reliably extracted, so no extra claims were added.",
+    "admit-being-called-craft-crazy-critical-encounters-fear-near-officials": "The feed lists an article from International Business Times UK dated 2026-05-05. The title says: \"UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites\". The feed connects this item with: WHISTLEBLOWER. The topic is currently tracked from one source. The full article text could not be reliably extracted, so no extra claims were added."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-08T05:20:34Z",
-    "ids": [
-      "actually-data-disclosure-goes-how-pentagon-playbook-public-quietly-reveal",
-      "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare",
-      "corbell-disclosure-dives-dog-fight-jeremy-sleeping-trailer",
-      "confirms-delivered-director-expect-fbi-files-here-kash-patel-public"
-    ],
-    "articles": [
-      {"id": "actually-data-disclosure-goes-how-pentagon-playbook-public-quietly-reveal", "title": "Pentagon’s UAP Data Playbook Quietly Goes Public—And It May Reveal How Disclosure Will Actually Unfold", "source": "USA Herald"},
-      {"id": "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare", "title": "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure", "source": "USA Herald"},
-      {"id": "corbell-disclosure-dives-dog-fight-jeremy-sleeping-trailer", "title": "‘SLEEPING DOG’ Trailer Dives Into Jeremy Corbell’s Fight For UAP Disclosure", "source": "Icon Vs. Icon"},
-      {"id": "confirms-delivered-director-expect-fbi-files-here-kash-patel-public", "title": "UFO Files Delivered for Public Release, FBI Director Kash Patel Confirms — Here's What to Expect", "source": "International Business Times UK"}
-    ]
+    "timestamp": "2026-05-08T05:56:16Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 282,
-    "broadTopics": 136,
-    "notificationArticles": 5,
-    "notificationTopics": 4,
-    "newNotificationTopics": 4,
+    "broadArticles": 285,
+    "broadTopics": 140,
+    "notificationArticles": 4,
+    "notificationTopics": 3,
+    "newNotificationTopics": 0,
     "appTopics": 6,
     "retentionDays": 14,
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
-    "quality": "UAP relevance, official institutions, source trust, independent source count, topic clustering"
+    "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering"
   }
 }
