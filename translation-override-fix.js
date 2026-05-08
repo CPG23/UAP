@@ -1,6 +1,20 @@
 (function(){
   'use strict';
 
+  var STYLE_ID = 'uap-translation-authoritative-style';
+
+  function injectStyle(){
+    if (document.getElementById(STYLE_ID)) return;
+    var style = document.createElement('style');
+    style.id = STYLE_ID;
+    style.textContent = [
+      '.translate-btn.uap-translating,.translate-btn.uap-translated{border-color:rgba(0,255,157,.72)!important;color:#b8ffd7!important;background:rgba(0,255,157,.12)!important;box-shadow:0 0 16px rgba(0,255,157,.18)!important}',
+      '.article-card.uap-translation-active h2,.article-card.uap-translation-active .summary,.article-card.uap-translation-active .uap-detail-summary{color:#b8ffd7!important}',
+      '.article-card.uap-translation-active .summary,.article-card.uap-translation-active .uap-detail-summary{text-shadow:0 0 10px rgba(0,255,157,.12)!important}'
+    ].join('\n');
+    document.head.appendChild(style);
+  }
+
   function cleanTranslation(text){
     text = String(text || '').trim();
     if (!text || /^\s*<!doctype|<html/i.test(text)) return '';
@@ -20,7 +34,7 @@
     var chunks = [];
     var current = '';
     input.split(/(\s+)/).forEach(function(part){
-      if ((current + part).length > 1600 && current.trim()) {
+      if ((current + part).length > 1500 && current.trim()) {
         chunks.push(current.trim());
         current = part;
       } else {
@@ -31,48 +45,39 @@
     return chunks;
   }
 
+  function parseGoogle(data){
+    var translated = data && data[0]
+      ? data[0].map(function(part){ return part && part[0] ? part[0] : ''; }).join('')
+      : '';
+    translated = cleanTranslation(translated);
+    if (!translated) throw new Error('Keine Übersetzung erhalten');
+    return translated;
+  }
+
+  function googleChunk(chunk){
+    var query = '&ie=UTF-8&oe=UTF-8&q=' + encodeURIComponent(chunk);
+    var urls = [
+      'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t' + query,
+      'https://translate.google.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t' + query
+    ];
+    return fetchWithTimeout(urls[0], 5500)
+      .then(function(resp){ if (!resp.ok) throw new Error('Google ' + resp.status); return resp.json(); })
+      .then(parseGoogle)
+      .catch(function(){
+        return fetchWithTimeout(urls[1], 5500)
+          .then(function(resp){ if (!resp.ok) throw new Error('Google fallback ' + resp.status); return resp.json(); })
+          .then(parseGoogle);
+      });
+  }
+
   function googleOne(text){
     var chunks = splitForGoogle(text);
     if (!chunks.length) return Promise.resolve('');
-    var work = Promise.resolve([]);
-    chunks.forEach(function(chunk){
-      work = work.then(function(out){
-        var url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t&q=' + encodeURIComponent(chunk);
-        return fetchWithTimeout(url, 7000)
-          .then(function(resp){ if (!resp.ok) throw new Error('Google ' + resp.status); return resp.json(); })
-          .then(function(data){
-            var translated = data && data[0]
-              ? data[0].map(function(part){ return part && part[0] ? part[0] : ''; }).join('')
-              : '';
-            translated = cleanTranslation(translated);
-            if (!translated) throw new Error('Keine Übersetzung erhalten');
-            out.push(translated);
-            return out;
-          });
-      });
-    });
-    return work.then(function(out){ return out.join(' '); });
-  }
-
-  function pollinationsOne(text){
-    var source = String(text || '').trim();
-    if (!source) return Promise.resolve('');
-    var prompt = 'Translate the following article text to German. Keep names, dates and facts unchanged. Return only the translation:\n\n' + source;
-    var url = 'https://text.pollinations.ai/' + encodeURIComponent(prompt) + '?model=openai&json=false';
-    return fetchWithTimeout(url, 9000)
-      .then(function(resp){ if (!resp.ok) throw new Error('Fallback ' + resp.status); return resp.text(); })
-      .then(function(text){
-        var cleaned = cleanTranslation(text);
-        if (!cleaned) throw new Error('Fallback leer');
-        return cleaned;
-      });
+    return Promise.all(chunks.map(googleChunk)).then(function(out){ return out.join(' '); });
   }
 
   function translateParts(title, summary){
-    return Promise.all([
-      googleOne(title).catch(function(){ return pollinationsOne(title); }),
-      googleOne(summary).catch(function(){ return pollinationsOne(summary); })
-    ]).then(function(parts){
+    return Promise.all([googleOne(title), googleOne(summary)]).then(function(parts){
       return {
         title: cleanTranslation(parts[0]) || title,
         summary: cleanTranslation(parts[1]) || summary
@@ -101,7 +106,16 @@
     btn.textContent = text;
   }
 
+  function markActive(card, btn, active){
+    if (card) card.classList.toggle('uap-translation-active', !!active);
+    if (btn) {
+      btn.classList.toggle('uap-translating', !!active && btn.textContent !== 'Original anzeigen');
+      btn.classList.toggle('uap-translated', !!active && btn.textContent === 'Original anzeigen');
+    }
+  }
+
   function translateCard(card, btn){
+    injectStyle();
     var title = card && card.querySelector('h2');
     var summary = card && primarySummary(card);
     if (!card || !title || !summary || card.dataset.uapTranslationBusy === '1') return;
@@ -110,6 +124,8 @@
       title.textContent = card.dataset.uapOriginalTitle || title.textContent;
       setSummaries(card, card.dataset.uapOriginalSummary || summary.textContent);
       card.dataset.uapTranslated = '0';
+      card.classList.remove('uap-translation-active');
+      if (btn) btn.classList.remove('uap-translating', 'uap-translated');
       setButton(btn, 'Übersetzen', false);
       return;
     }
@@ -120,6 +136,7 @@
     card.dataset.uapOriginalSummary = originalSummary;
     card.dataset.uapTranslationBusy = '1';
     setButton(btn, 'Übersetze...', true);
+    markActive(card, btn, true);
 
     translateParts(originalTitle, originalSummary)
       .then(function(result){
@@ -127,8 +144,12 @@
         setSummaries(card, result.summary || originalSummary);
         card.dataset.uapTranslated = '1';
         setButton(btn, 'Original anzeigen', false);
+        if (btn) btn.classList.remove('uap-translating');
+        markActive(card, btn, true);
       })
       .catch(function(){
+        card.classList.remove('uap-translation-active');
+        if (btn) btn.classList.remove('uap-translating', 'uap-translated');
         setButton(btn, 'Übersetzung fehlgeschlagen', false);
         setTimeout(function(){
           if (btn.textContent === 'Übersetzung fehlgeschlagen') setButton(btn, 'Übersetzen', false);
@@ -147,4 +168,7 @@
     e.stopImmediatePropagation();
     translateCard(btn.closest('.article-card'), btn);
   }, true);
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', injectStyle, { once: true });
+  else injectStyle();
 })();
