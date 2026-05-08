@@ -5,11 +5,11 @@
     var title = card.querySelector('h2');
     var source = card.querySelector('.source-name') || card.querySelector('.badge.sources');
     var date = card.querySelector('.article-date-prominent');
-    var titleText = title ? title.textContent.trim() : 'diese Meldung';
-    var sourceText = source ? source.textContent.trim() : 'der Quelle';
+    var titleText = title ? title.textContent.trim() : 'this report';
+    var sourceText = source ? source.textContent.trim() : 'the listed source';
     var dateText = date ? date.textContent.replace(/^DATUM/i, '').trim() : '';
-    var when = dateText ? ' vom ' + dateText : '';
-    return 'Der Feed meldet' + when + ' einen Artikel von ' + sourceText + ' mit dem Titel: "' + titleText + '". Der vollständige Artikeltext konnte für diese Meldung nicht zuverlässig ausgelesen werden; deshalb enthält diese Zusammenfassung nur Angaben, die direkt aus dem Feed bzw. den gelisteten Quellen stammen.';
+    var when = dateText ? ' dated ' + dateText : '';
+    return 'The feed lists an article from ' + sourceText + when + ' with the title: "' + titleText + '". The full article text could not be reliably extracted for this item, so this summary only uses information shown in the feed and the listed sources. No extra claims have been added.';
   }
 
   function apply() {
@@ -17,7 +17,7 @@
       var summary = card.querySelector('.summary');
       if (!summary) return;
       var text = summary.textContent.trim();
-      if (!text || /^Keine belastbare Zusammenfassung vorhanden\.?$/i.test(text)) {
+      if (!text || /^Keine belastbare Zusammenfassung vorhanden\.?$/i.test(text) || /^No reliable summary available\.?$/i.test(text)) {
         summary.textContent = cardSummary(card);
       }
     });
