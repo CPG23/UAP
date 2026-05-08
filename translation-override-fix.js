@@ -23,6 +23,36 @@
     return String(text == null ? '' : text).replace(/\s+/g, ' ').trim();
   }
 
+  function sentences(text){
+    return compact(text).match(/[^.!?]+[.!?]+(?:\s|$)/g) || [];
+  }
+
+  function shortenSummary(text, reference){
+    var clean = compact(text);
+    if (!clean) return '';
+
+    var referenceText = compact(reference);
+    var referenceSentences = sentences(referenceText).length || 3;
+    var targetSentences = Math.max(1, Math.min(referenceSentences, 3));
+    var maxLen = referenceText ? Math.max(220, Math.min(520, Math.round(referenceText.length * 1.35))) : 420;
+
+    if (clean.length <= maxLen && sentences(clean).length <= targetSentences) return clean;
+
+    var parts = sentences(clean);
+    if (parts.length) {
+      var candidate = compact(parts.slice(0, targetSentences).join(''));
+      while (candidate.length > maxLen && targetSentences > 1) {
+        targetSentences -= 1;
+        candidate = compact(parts.slice(0, targetSentences).join(''));
+      }
+      if (candidate && candidate.length <= maxLen) return candidate;
+      if (candidate) clean = candidate;
+    }
+
+    if (clean.length <= maxLen) return clean;
+    return clean.slice(0, maxLen).replace(/\s+\S*$/, '').replace(/[,:;]+$/, '').trim() + '.';
+  }
+
   function escId(text){
     return String(text || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   }
@@ -158,8 +188,9 @@
   }
 
   function applyPreparedTranslation(card, btn, titleEl, result){
+    var originalSummary = card.dataset.uapOriginalSummary || '';
     titleEl.textContent = compact(result.title) || titleEl.textContent;
-    setSummaries(card, compact(result.summary) || card.dataset.uapOriginalSummary || '');
+    setSummaries(card, shortenSummary(result.summary, originalSummary) || originalSummary);
     card.dataset.uapTranslated = '1';
     card.classList.add('uap-translation-active');
     markButton(btn, 'done');
