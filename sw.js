@@ -1,7 +1,8 @@
-var CACHE = 'uap-v80-translation-replace-only';
+var CACHE = 'uap-v81-translation-priority';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '80';
+var OVERRIDE_VERSION = '81';
 var OVERRIDE_FILES = [
+  'translation-replace-only-fix.js',
   'translation-override-fix.js',
   'app-feed-overrides.js',
   'bell-icon-fix.js',
@@ -20,8 +21,7 @@ var OVERRIDE_FILES = [
   'final-ui-order-fix.js',
   'scroll-heading-fix.js',
   'latest-polish-fix.js',
-  'topic-regroup-display-fix.js',
-  'translation-replace-only-fix.js'
+  'topic-regroup-display-fix.js'
 ];
 
 self.addEventListener('install', function(e) {
@@ -56,7 +56,7 @@ function withFeedOverrides(resp) {
   var headers = new Headers(resp.headers);
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
-    var startupHide = '<style id="uap-startup-panel-hard-hide">#loading .startup-panel,#loading .startup-panel-label,#loading-status{display:none!important}#loading .startup-panel-wrap{bottom:22px!important;gap:0!important}</style>';
+    var startupHide = '<style id="uap-startup-panel-hard-hide">#loading{background:#030a0f!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}#loading .startup-panel,#loading .startup-panel-label,#loading-status{display:none!important}#loading .startup-panel-wrap{bottom:22px!important;gap:0!important}</style>';
     if (html.indexOf('uap-startup-panel-hard-hide') === -1) {
       html = html.replace('</head>', startupHide + '</head>');
     }
