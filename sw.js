@@ -1,5 +1,15 @@
-var CACHE = 'uap-v35-push-summary-alien';
+var CACHE = 'uap-v36-history-english';
 var META  = 'uap-meta-v1';
+var OVERRIDE_VERSION = '36';
+var OVERRIDE_FILES = [
+  'app-feed-overrides.js',
+  'bell-icon-fix.js',
+  'notification-guide-fix.js',
+  'quality-affordance-fix.js',
+  'logo-title-fix.js',
+  'startup-polish-fix.js',
+  'summary-fallback-fix.js'
+];
 
 self.addEventListener('install', function(e) {
   e.waitUntil(self.skipWaiting());
@@ -25,28 +35,23 @@ self.addEventListener('activate', function(e) {
   );
 });
 
+function scriptTag(file) {
+  return '<script src="./' + file + '?v=' + OVERRIDE_VERSION + '"></script>';
+}
+
 function withFeedOverrides(resp) {
   var headers = new Headers(resp.headers);
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
-    var scripts = '<script src="./app-feed-overrides.js?v=35"></script><script src="./bell-icon-fix.js?v=35"></script><script src="./notification-guide-fix.js?v=35"></script><script src="./quality-affordance-fix.js?v=35"></script><script src="./logo-title-fix.js?v=35"></script><script src="./startup-polish-fix.js?v=35"></script><script src="./summary-fallback-fix.js?v=35"></script>';
     if (html.indexOf('app-feed-overrides.js') === -1) {
-      html = html.replace('</body>', scripts + '</body>');
+      html = html.replace('</body>', OVERRIDE_FILES.map(scriptTag).join('') + '</body>');
     } else {
-      html = html.replace(/app-feed-overrides\.js\?v=\d+/g, 'app-feed-overrides.js?v=35');
-      [
-        'bell-icon-fix.js',
-        'notification-guide-fix.js',
-        'quality-affordance-fix.js',
-        'logo-title-fix.js',
-        'startup-polish-fix.js',
-        'summary-fallback-fix.js'
-      ].forEach(function(file) {
+      OVERRIDE_FILES.forEach(function(file) {
         var re = new RegExp(file.replace('.', '\\.') + '\\?v=\\d+', 'g');
         if (html.indexOf(file) === -1) {
-          html = html.replace('</body>', '<script src="./' + file + '?v=35"></script></body>');
+          html = html.replace('</body>', scriptTag(file) + '</body>');
         } else {
-          html = html.replace(re, file + '?v=35');
+          html = html.replace(re, file + '?v=' + OVERRIDE_VERSION);
         }
       });
     }
@@ -82,7 +87,7 @@ self.addEventListener('fetch', function(e) {
     return;
   }
 
-  if (url.pathname.endsWith('/app-feed-overrides.js') || url.pathname.endsWith('/bell-icon-fix.js') || url.pathname.endsWith('/notification-guide-fix.js') || url.pathname.endsWith('/quality-affordance-fix.js') || url.pathname.endsWith('/logo-title-fix.js') || url.pathname.endsWith('/startup-polish-fix.js') || url.pathname.endsWith('/summary-fallback-fix.js')) {
+  if (OVERRIDE_FILES.some(function(file) { return url.pathname.endsWith('/' + file); })) {
     e.respondWith(fetch(e.request, { cache: 'no-store' }));
     return;
   }
