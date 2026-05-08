@@ -1,0 +1,69 @@
+name: Patch index startup panel
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/patch-index-startup.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Remove startup status panel from index
+        run: |
+          python3 <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path('index.html')
+          html = path.read_text(encoding='utf-8')
+          original = html
+
+          # Remove the visible status panel, leaving only the loading bar inside the wrapper.
+          html = re.sub(
+              r'\n\s*<div class="startup-panel">\s*\n\s*<div class="startup-panel-label">[\s\S]*?</div>\s*\n\s*<div id="loading-status">[\s\S]*?</div>\s*\n\s*</div>',
+              '',
+              html,
+              count=1,
+          )
+
+          # Remove CSS for the removed elements so no empty panel styling can leak back in.
+          html = re.sub(r'\n\s*\.startup-panel \{[\s\S]*?\n\s*\}', '', html)
+          html = re.sub(r'\n\s*\.startup-panel-label \{[\s\S]*?\n\s*\}', '', html)
+          html = re.sub(r'\n\s*#loading-status \{[\s\S]*?\n\s*\}', '', html)
+
+          # Keep status updates harmless after the element is gone.
+          html = re.sub(
+              r'function setLoadingStatus\(text\) \{\s*var status = document\.getElementById\(\'loading-status\'\);\s*if \(status\) status\.textContent = text;\s*\}',
+              'function setLoadingStatus(text) {}',
+              html,
+              count=1,
+          )
+
+          if html != original:
+              path.write_text(html, encoding='utf-8')
+              print('index.html patched')
+          else:
+              print('index.html already patched')
+          PY
+
+      - name: Commit patch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if git diff --staged --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "fix: remove startup status panel"
+          git push origin HEAD:main
