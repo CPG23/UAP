@@ -8,9 +8,9 @@
     var style = document.createElement('style');
     style.id = STYLE_ID;
     style.textContent = [
-      '.startup-title{font-size:clamp(52px,15vw,92px)!important;line-height:.88!important;text-shadow:0 0 12px rgba(255,255,255,.86),0 0 32px rgba(0,212,255,1),0 0 74px rgba(0,255,157,.58)!important}',
-      '.startup-credit{top:calc(8px + env(safe-area-inset-top) + clamp(62px,16vw,102px))!important}',
-      '@media(max-width:560px){.startup-title{font-size:clamp(48px,16vw,78px)!important}.startup-credit{top:calc(7px + env(safe-area-inset-top) + clamp(58px,17vw,88px))!important}}',
+      '.startup-title{font-size:clamp(72px,22vw,132px)!important;line-height:.82!important;text-shadow:0 0 16px rgba(255,255,255,.95),0 0 38px rgba(0,212,255,1),0 0 92px rgba(0,255,157,.7)!important}',
+      '.startup-credit{top:calc(10px + env(safe-area-inset-top) + clamp(86px,23vw,146px))!important}',
+      '@media(max-width:560px){.startup-title{font-size:clamp(64px,22vw,108px)!important}.startup-credit{top:calc(8px + env(safe-area-inset-top) + clamp(78px,24vw,122px))!important}}',
       '.quality-sheet.general-quality .quality-score-line{color:#a9cbd7!important}'
     ].join('\n');
     document.head.appendChild(style);
