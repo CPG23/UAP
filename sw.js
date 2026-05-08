@@ -1,9 +1,8 @@
-var CACHE = 'uap-v82-startup-opaque';
+var CACHE = 'uap-v83-clean-start-translation';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '82';
+var OVERRIDE_VERSION = '83';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
-  'translation-override-fix.js',
   'app-feed-overrides.js',
   'bell-icon-fix.js',
   'notification-guide-fix.js',
@@ -53,27 +52,34 @@ function scriptTag(file) {
   return '<script src="./' + file + '?v=' + OVERRIDE_VERSION + '"></script>';
 }
 
+function stripOverrideScripts(html) {
+  OVERRIDE_FILES.concat(['translation-override-fix.js']).forEach(function(file) {
+    var escaped = file.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    html = html.replace(new RegExp('<script[^>]+src=["\'][^"\']*' + escaped + '[^"\']*["\'][^>]*><\\/script>', 'g'), '');
+  });
+  return html;
+}
+
+function rewriteStartupLogo(html) {
+  html = html.replace(/<title>[\s\S]*?<\/title>/i, '<title>UAP News</title>');
+  html = html.replace(/<meta name="apple-mobile-web-app-title" content="[^"]*">/i, '<meta name="apple-mobile-web-app-title" content="UAP News">');
+  html = html.replace(/<div class="brand-title">[\s\S]*?<\/div>/i, '<div class="brand-title">UAP News</div>');
+  html = html.replace(/<h1 class="startup-title">[\s\S]*?<\/h1>/i, '<h1 class="startup-title">UAP News</h1><div class="startup-credit">created by Chris Gehring</div>');
+  return html;
+}
+
 function withFeedOverrides(resp) {
   var headers = new Headers(resp.headers);
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
     var startupHide = '<style id="uap-startup-panel-hard-hide">#loading{background:#030a0f!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}#loading .startup-panel,#loading .startup-panel-label,#loading-status{display:none!important}#loading .startup-panel-wrap{bottom:22px!important;gap:0!important}</style>';
+    html = rewriteStartupLogo(html);
     if (html.indexOf('uap-startup-panel-hard-hide') === -1) {
       html = html.replace('</head>', startupHide + '</head>');
     }
     html = html.replace(/<div class="startup-panel">\s*<div class="startup-panel-label">[\s\S]*?<\/div>\s*<div id="loading-status">[\s\S]*?<\/div>\s*<\/div>\s*<div class="loading-bar">/m, '<div class="loading-bar">');
-    if (html.indexOf('app-feed-overrides.js') === -1) {
-      html = html.replace('</body>', OVERRIDE_FILES.map(scriptTag).join('') + '</body>');
-    } else {
-      OVERRIDE_FILES.forEach(function(file) {
-        var re = new RegExp(file.replace('.', '\\.') + '\\?v=\\d+', 'g');
-        if (html.indexOf(file) === -1) {
-          html = html.replace('</body>', scriptTag(file) + '</body>');
-        } else {
-          html = html.replace(re, file + '?v=' + OVERRIDE_VERSION);
-        }
-      });
-    }
+    html = stripOverrideScripts(html);
+    html = html.replace('</body>', OVERRIDE_FILES.map(scriptTag).join('') + '</body>');
     return new Response(html, { status: resp.status, statusText: resp.statusText, headers: headers });
   });
 }
