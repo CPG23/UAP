@@ -1,6 +1,6 @@
-var CACHE = 'uap-v48-summary-detail';
+var CACHE = 'uap-v49-visible-details';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '48';
+var OVERRIDE_VERSION = '49';
 var OVERRIDE_FILES = [
   'app-feed-overrides.js',
   'bell-icon-fix.js',
