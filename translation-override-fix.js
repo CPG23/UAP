@@ -1,7 +1,10 @@
 (function(){
   'use strict';
 
-  var STYLE_ID = 'uap-translation-authoritative-style';
+  var STYLE_ID = 'uap-translation-prepared-style';
+  var feedPromise = null;
+  var articleMapCache = null;
+  var GERMAN_MARKERS = /[äöüß]|\b(der|die|das|den|dem|des|und|oder|nicht|eine|einer|einen|mit|von|für|ueber|über|heute|wird|wurden|nachrichten|quelle|artikel)\b/i;
 
   function injectStyle(){
     if (document.getElementById(STYLE_ID)) return;
@@ -16,95 +19,86 @@
     document.head.appendChild(style);
   }
 
-  function cleanTranslation(text){
-    text = String(text || '').trim();
-    if (!text || /^\s*<!doctype|<html/i.test(text)) return '';
-    return text.replace(/^\s*"|"\s*$/g, '').trim();
+  function compact(text){
+    return String(text == null ? '' : text).replace(/\s+/g, ' ').trim();
   }
 
-  function fetchWithTimeout(url, timeoutMs){
-    var controller = window.AbortController ? new AbortController() : null;
-    var timer = controller ? setTimeout(function(){ controller.abort(); }, timeoutMs) : null;
-    return fetch(url, { cache: 'no-store', signal: controller && controller.signal })
-      .finally(function(){ if (timer) clearTimeout(timer); });
+  function escId(text){
+    return String(text || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   }
 
-  function splitText(text, maxLen){
-    var input = String(text || '').trim();
-    if (!input) return [];
-    var chunks = [];
-    var current = '';
-    input.split(/(\s+)/).forEach(function(part){
-      if ((current + part).length > maxLen && current.trim()) {
-        chunks.push(current.trim());
-        current = part;
-      } else {
-        current += part;
+  function looksGerman(text){
+    return GERMAN_MARKERS.test(String(text || ''));
+  }
+
+  function cardId(card){
+    if (!card) return '';
+    if (card.dataset && card.dataset.uapId) return card.dataset.uapId;
+    var summary = card.querySelector('.summary[id]');
+    if (summary && summary.id) return summary.id.replace(/^summary-/, '');
+    var title = card.querySelector('h2');
+    return title ? escId(title.textContent) : '';
+  }
+
+  function loadFeed(){
+    if (!feedPromise) {
+      feedPromise = fetch('latest-news.json?translate=' + Date.now(), { cache: 'no-store' })
+        .then(function(resp){ if (!resp.ok) throw new Error('feed ' + resp.status); return resp.json(); })
+        .then(function(feed){
+          articleMapCache = {};
+          (feed.articles || []).forEach(function(article){
+            var id = article && (article.id || escId(article.title));
+            if (id) articleMapCache[id] = article;
+          });
+          return feed;
+        })
+        .catch(function(){
+          articleMapCache = {};
+          return { articles: [], translations: {} };
+        });
+    }
+    return feedPromise;
+  }
+
+  function findArticle(feed, card){
+    var id = cardId(card);
+    var map = articleMapCache || {};
+    if (id && map[id]) return { id: id, article: map[id] };
+
+    var title = compact(card && card.querySelector('h2') && card.querySelector('h2').textContent);
+    var slug = escId(title);
+    if (slug && map[slug]) return { id: slug, article: map[slug] };
+
+    var articles = feed && feed.articles || [];
+    for (var i = 0; i < articles.length; i++) {
+      if (compact(articles[i].title) === title || escId(articles[i].title) === slug) {
+        return { id: articles[i].id || slug, article: articles[i] };
       }
-    });
-    if (current.trim()) chunks.push(current.trim());
-    return chunks;
+    }
+    return { id: id || slug, article: null };
   }
 
-  function parseGoogle(data){
-    var translated = data && data[0]
-      ? data[0].map(function(part){ return part && part[0] ? part[0] : ''; }).join('')
-      : '';
-    translated = cleanTranslation(translated);
-    if (!translated) throw new Error('Keine Übersetzung erhalten');
-    return translated;
+  function translationBag(feed, id, article){
+    if (article && article.translation) return article.translation;
+    if (article && article.translations) return article.translations;
+    if (feed && feed.translations && id && feed.translations[id]) return feed.translations[id];
+    return null;
   }
 
-  function googleChunk(chunk){
-    var query = '&ie=UTF-8&oe=UTF-8&q=' + encodeURIComponent(chunk);
-    var urls = [
-      'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t' + query,
-      'https://translate.google.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t' + query
-    ];
-    return fetchWithTimeout(urls[0], 3500)
-      .then(function(resp){ if (!resp.ok) throw new Error('Google ' + resp.status); return resp.json(); })
-      .then(parseGoogle)
-      .catch(function(){
-        return fetchWithTimeout(urls[1], 3500)
-          .then(function(resp){ if (!resp.ok) throw new Error('Google fallback ' + resp.status); return resp.json(); })
-          .then(parseGoogle);
-      });
+  function isPreparedTarget(entry){
+    return entry && compact(entry.title) && compact(entry.summary) && entry.provider !== 'original';
   }
 
-  function googleOne(text){
-    var chunks = splitText(text, 1400);
-    if (!chunks.length) return Promise.resolve('');
-    return Promise.all(chunks.map(googleChunk)).then(function(out){ return out.join(' '); });
-  }
+  function choosePreparedTranslation(feed, id, article, originalTitle, originalSummary){
+    var bag = translationBag(feed, id, article);
+    if (!bag) return null;
 
-  function memoryChunk(chunk){
-    var url = 'https://api.mymemory.translated.net/get?langpair=en|de&q=' + encodeURIComponent(chunk);
-    return fetchWithTimeout(url, 4500)
-      .then(function(resp){ if (!resp.ok) throw new Error('Fallback ' + resp.status); return resp.json(); })
-      .then(function(data){
-        var translated = cleanTranslation(data && data.responseData && data.responseData.translatedText);
-        if (!translated || translated.toLowerCase() === String(chunk || '').trim().toLowerCase()) throw new Error('Fallback leer');
-        return translated;
-      });
-  }
-
-  function fallbackOne(text){
-    var chunks = splitText(text, 480);
-    if (!chunks.length) return Promise.resolve('');
-    return Promise.all(chunks.map(memoryChunk)).then(function(out){ return out.join(' '); });
-  }
-
-  function translateOne(text){
-    return googleOne(text).catch(function(){ return fallbackOne(text); });
-  }
-
-  function translateParts(title, summary){
-    return Promise.all([translateOne(title), translateOne(summary)]).then(function(parts){
-      return {
-        title: cleanTranslation(parts[0]) || title,
-        summary: cleanTranslation(parts[1]) || summary
-      };
-    });
+    var sourceIsGerman = looksGerman(originalTitle + ' ' + originalSummary);
+    if (sourceIsGerman && isPreparedTarget(bag.en)) return bag.en;
+    if (!sourceIsGerman && isPreparedTarget(bag.de)) return bag.de;
+    if (isPreparedTarget(bag.en)) return bag.en;
+    if (isPreparedTarget(bag.de)) return bag.de;
+    return null;
   }
 
   function findExistingDetailSummary(card){
@@ -115,7 +109,7 @@
     return card && (findExistingDetailSummary(card) || card.querySelector('.summary:not(.uap-detail-summary)') || card.querySelector('.summary'));
   }
 
-  function ensureDetailSummaryForResult(card, text){
+  function ensureDetailSummary(card){
     var detail = findExistingDetailSummary(card);
     if (detail) return detail;
     var details = card && card.querySelector('.details');
@@ -123,24 +117,23 @@
     detail = document.createElement('div');
     detail.className = 'uap-detail-summary';
     detail.dataset.uapCreatedByTranslation = '1';
-    detail.textContent = text || '';
     var actions = details.querySelector('.actions');
     if (actions) details.insertBefore(detail, actions);
     else details.insertBefore(detail, details.firstChild);
     return detail;
   }
 
-  function allSummaryTargets(card, translatedText){
+  function summaryTargets(card){
     var list = Array.prototype.slice.call(card.querySelectorAll('.details .uap-detail-summary, .summary'));
     if (!list.some(function(el){ return el.classList.contains('uap-detail-summary'); })) {
-      var detail = ensureDetailSummaryForResult(card, translatedText);
+      var detail = ensureDetailSummary(card);
       if (detail) list.unshift(detail);
     }
     return list;
   }
 
   function setSummaries(card, text){
-    allSummaryTargets(card, text).forEach(function(el){ el.textContent = text; });
+    summaryTargets(card).forEach(function(el){ el.textContent = text; });
   }
 
   function setButton(btn, text, disabled){
@@ -155,24 +148,46 @@
     btn.classList.toggle('uap-translated', state === 'done');
   }
 
+  function restoreOriginal(card, btn, titleEl, summaryEl){
+    titleEl.textContent = card.dataset.uapOriginalTitle || titleEl.textContent;
+    setSummaries(card, card.dataset.uapOriginalSummary || (summaryEl && summaryEl.textContent) || '');
+    card.dataset.uapTranslated = '0';
+    card.classList.remove('uap-translation-active');
+    markButton(btn, 'idle');
+    setButton(btn, 'Übersetzen', false);
+  }
+
+  function applyPreparedTranslation(card, btn, titleEl, result){
+    titleEl.textContent = compact(result.title) || titleEl.textContent;
+    setSummaries(card, compact(result.summary) || card.dataset.uapOriginalSummary || '');
+    card.dataset.uapTranslated = '1';
+    card.classList.add('uap-translation-active');
+    markButton(btn, 'done');
+    setButton(btn, 'Original anzeigen', false);
+  }
+
+  function failFast(card, btn, message){
+    card.classList.remove('uap-translation-active');
+    markButton(btn, 'idle');
+    setButton(btn, message || 'Übersetzung wird vorbereitet', false);
+    setTimeout(function(){
+      if (btn && btn.textContent === (message || 'Übersetzung wird vorbereitet')) setButton(btn, 'Übersetzen', false);
+    }, 2200);
+  }
+
   function translateCard(card, btn){
     injectStyle();
-    var title = card && card.querySelector('h2');
-    var summary = card && findSourceSummary(card);
-    if (!card || !title || !summary || card.dataset.uapTranslationBusy === '1') return;
+    var titleEl = card && card.querySelector('h2');
+    var summaryEl = card && findSourceSummary(card);
+    if (!card || !titleEl || card.dataset.uapTranslationBusy === '1') return;
 
     if (card.dataset.uapTranslated === '1') {
-      title.textContent = card.dataset.uapOriginalTitle || title.textContent;
-      setSummaries(card, card.dataset.uapOriginalSummary || summary.textContent);
-      card.dataset.uapTranslated = '0';
-      card.classList.remove('uap-translation-active');
-      markButton(btn, 'idle');
-      setButton(btn, 'Übersetzen', false);
+      restoreOriginal(card, btn, titleEl, summaryEl);
       return;
     }
 
-    var originalTitle = card.dataset.uapOriginalTitle || title.textContent;
-    var originalSummary = card.dataset.uapOriginalSummary || summary.textContent;
+    var originalTitle = compact(card.dataset.uapOriginalTitle || titleEl.textContent);
+    var originalSummary = compact(card.dataset.uapOriginalSummary || (summaryEl && summaryEl.textContent));
     card.dataset.uapOriginalTitle = originalTitle;
     card.dataset.uapOriginalSummary = originalSummary;
     card.dataset.uapTranslationBusy = '1';
@@ -180,26 +195,20 @@
     setButton(btn, 'Übersetze...', true);
     markButton(btn, 'loading');
 
-    translateParts(originalTitle, originalSummary)
-      .then(function(result){
-        title.textContent = result.title || originalTitle;
-        setSummaries(card, result.summary || originalSummary);
-        card.dataset.uapTranslated = '1';
-        card.classList.add('uap-translation-active');
-        setButton(btn, 'Original anzeigen', false);
-        markButton(btn, 'done');
-      })
-      .catch(function(){
-        card.classList.remove('uap-translation-active');
-        markButton(btn, 'idle');
-        setButton(btn, 'Übersetzung fehlgeschlagen', false);
-        setTimeout(function(){
-          if (btn.textContent === 'Übersetzung fehlgeschlagen') setButton(btn, 'Übersetzen', false);
-        }, 1800);
-      })
-      .finally(function(){
-        card.dataset.uapTranslationBusy = '0';
-      });
+    loadFeed().then(function(feed){
+      var found = findArticle(feed, card);
+      var article = found.article;
+      if (!article) throw new Error('Artikel nicht gefunden');
+
+      if (!card.dataset.uapOriginalSummary) card.dataset.uapOriginalSummary = compact(article.summary || originalSummary);
+      var prepared = choosePreparedTranslation(feed, found.id, article, originalTitle || article.title, card.dataset.uapOriginalSummary || article.summary);
+      if (!prepared) throw new Error('Vorbereitete Übersetzung fehlt');
+      applyPreparedTranslation(card, btn, titleEl, prepared);
+    }).catch(function(){
+      failFast(card, btn, 'Übersetzung wird vorbereitet');
+    }).finally(function(){
+      card.dataset.uapTranslationBusy = '0';
+    });
   }
 
   window.addEventListener('click', function(e){
@@ -211,6 +220,11 @@
     translateCard(btn.closest('.article-card'), btn);
   }, true);
 
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', injectStyle, { once: true });
-  else injectStyle();
+  function start(){
+    injectStyle();
+    setTimeout(loadFeed, 0);
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true });
+  else start();
 })();
