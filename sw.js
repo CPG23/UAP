@@ -1,6 +1,6 @@
-var CACHE = 'uap-v70-google-translate-authoritative';
+var CACHE = 'uap-v71-latest-polish';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '70';
+var OVERRIDE_VERSION = '71';
 var OVERRIDE_FILES = [
   'translation-override-fix.js',
   'app-feed-overrides.js',
@@ -18,7 +18,8 @@ var OVERRIDE_FILES = [
   'notification-direct-fix.js',
   'all-articles-layout-fix.js',
   'final-ui-order-fix.js',
-  'scroll-heading-fix.js'
+  'scroll-heading-fix.js',
+  'latest-polish-fix.js'
 ];
 
 self.addEventListener('install', function(e) {
@@ -53,6 +54,11 @@ function withFeedOverrides(resp) {
   var headers = new Headers(resp.headers);
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
+    var startupHide = '<style id="uap-startup-panel-hard-hide">#loading .startup-panel,#loading .startup-panel-label,#loading-status{display:none!important}#loading .startup-panel-wrap{bottom:22px!important;gap:0!important}</style>';
+    if (html.indexOf('uap-startup-panel-hard-hide') === -1) {
+      html = html.replace('</head>', startupHide + '</head>');
+    }
+    html = html.replace(/<div class="startup-panel">[\s\S]*?<\/div>\s*<div class="loading-bar">/m, '<div class="loading-bar">');
     if (html.indexOf('app-feed-overrides.js') === -1) {
       html = html.replace('</body>', OVERRIDE_FILES.map(scriptTag).join('') + '</body>');
     } else {
