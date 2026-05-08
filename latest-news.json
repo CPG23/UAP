@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08T18:53:46Z",
+  "timestamp": "2026-05-08T19:08:45Z",
   "articles": [
     {
       "id": "batch-declassified-detailing-files-initial-pentagon-releases",
@@ -8,7 +8,7 @@
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9KWFVPTlkwWGhvRFBISU1GZ0xWdFByakx3Y2JaT2lkdFhIRGJxV3l0NjB1X3AwQURFNXo5Z1ZId1BkNzlUMVphUUN1cDctN29DVlVsN2Mxb3U2aGJybkY4bWZHQ05lT2hsNlV2VUlqRDJSV1N3R2NHZnhUQ0FnZw?oc=5",
       "date": "2026-05-08",
       "summary": "The Pentagon released a batch of “never‑before‑seen” declassified files on UFOs after President Donald Trump directed the agency to do so earlier in the year. The files contain investigations of reported sightings that span decades, including a large FBI file with hundreds of pages of eyewitness testimonies and public reports from 1947 to 1968 and more recent military memos describing a possible small UAP in Iraq in 2022 and multiple glares or lights of unknown origin observed in Syria in 2024. The Pentagon said the documents are now available to the public with no clearance required and will post new materials on a rolling basis every few weeks. A disclaimer on the Pentagon website notes that the descriptive language in the military memos reflects the subjective interpretation of the writer and should not be taken as a conclusive indication of what actually happened. The files also include reports from Apollo 12 astronauts in 1969 who saw flashes of light sailing off the Moon and from Apollo 17 astronauts in 1972 who saw bright particles of light that they theorized might be chunks of ice. Trump’s Truth Social post and NASA Administrator Jared Isaacman’s statement both praised the release as a step toward greater transparency about unidentified anomalous phenomena.",
-      "mentions": 34,
+      "mentions": 22,
       "otherSources": [
         {
           "source": "New York Post",
@@ -19,11 +19,6 @@
           "source": "Politico",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMVJreXlTbDYwUFAtUnB0dktObEROclBwYTZLZUtpZ0RoUGw0bmsyN1JkZDdtbVpFdG1XNlhTanVNazN5Zk1SSnpQR0tXeUNpdWZDZlUzckF0OGRDYlNxSHE4YWZGMmVXaGpsWnJsaFJWYXZiWHozM1ZJSFFTX1cxdVNXdw?oc=5",
           "title": "Pentagon releases swath of UFO files"
-        },
-        {
-          "source": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNblM4TkZiN0dkZl95RnZzMFJuUW9JdklKcl9HVEhWMWs1Yzd5T214YmNGSzZTaWNzRF81amRKLWxzMzFZblZoSEtUVjBQaTRGSDRrVHl1bmV0QnRkYmpFTkNCaFhoejhHMU5YZ1RMQzRacEhoZ2Y5aDhR?oc=5",
-          "title": "Pentagon Releases Files on U.F.O.s"
         },
         {
           "source": "Stars and Stripes",
@@ -51,9 +46,10 @@
           "title": "US releases new UFO files in transparency push"
         },
         {
+          "title": "Pentagon UFO files release: Amid new UFO disclosure, officials say public can draw conclusions on unidentified anomalous phenomena",
+          "url": "",
           "source": "ABC7 Los Angeles",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQYjRCUTU1OVZOY0ZfOC12LWwzNzNVZ0ZXWXlCYzY2SmhYVWR0N2xidXRSaWM2ZS03ZkYyaHRIR3RnczNTMXZCVTVmYlZVSVRvZnhmOXJCYXlWcE5yZkVnOExPSmRLNmJReHhhODY2U0NUMzhSMzd3LW14eGoyVVJQRWh5WVU1WURjSDhzblBRV1VKQUZGdkVIRmw4YVRPUm0zajFHTXlqQ29rSkV2WmNzRzBmUnJtSVFCQ3Q2VzJuU1F5VzVKNjJWNVZzSU9jVklScTlzZ1pYSnh4LXZUdi1MX0hrUXIyZ0050gHuAUFVX3lxTFByYndVXzNmcWk3MmRDTExJZWpoT0c5OEJXR0dnNmJ5T0dDVWNNSFB2OEN2V1N2ZnhNdHVMbGwtRU9xWk95My1OQjB3bGRIbDJ3bFhYeWpGRmtfSGc3dzZ6VkpwVUJheFMzX3p4ZjVsbGNSOUkzazFrT0JTVnM3U1Uxb0FQX25OXzY1T3BQM3J2cXBPcHpobTFwLW4xY0NOUjJHbDd5QkZTakEyNVF5NGRKM2xONTZ5SUUxUGNEM3BydGh1TDcxZWxFWkw3cXpibjNpd2JoaUhwV0FQbjlVMTJZRlBHSlFSZm1vWmRWSEE?oc=5",
-          "title": "Pentagon UFO files release: Amid new UFO disclosure, officials say public can draw conclusions on unidentified anomalous phenomena"
+          "publishedAt": null
         },
         {
           "source": "NBC News",
@@ -61,19 +57,10 @@
           "title": "Pentagon begins release of UFO files"
         },
         {
-          "source": "PBS",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUEIxOXZVVzRnOU1TRU1FQ2pBamhNLV9wdkItcG45RE9OeWtPQVJ2MDh0aGZUaTBCWm94OENydlJsM01HcTV1aXkwTEUtM0pOQzBxLW9QVktXaFNYNG9tMzZUV3JiYm1xMVNQY1VwT2dpS3podi1JT1BTOHdGcW9uMXc5MTNiYWhTOVRhVjNjRXdCUWdXSG1vODBUV2FOOGxMLS1zb3RoSGNYWnBrZURzTVRYN0VMVnlXUTRDSmpoRVY?oc=5",
-          "title": "Pentagon begins releasing new files on UFOs and says people can 'make up their own minds'"
-        },
-        {
-          "source": "U.S. Department of War (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTDdDLVd6aTMzQlpCcndmNFRNTGpIcjFVYjRYUmMtRUdFY2E3c1dNdG5aaEhlSnBtNWJiQkRjcG5ISF9oNFdqcUxpTmRwT1dtTm40TnhQV1RzTmpoZVVaaktVUVAza2RFN20yaHlTelZhYjVhQ0Y0czhWNF9YQmpWazZiTk1hNGw5TnlGLUlvSENBck9hQ2RqVEhOb0U1T1BQR1haSVhhamozd1hyS3VfbnpBUzZEMUhaLWdUVnpXQUV6SlBzbWNVNWZsSkhZYmRPd0JLdQ?oc=5",
-          "title": "Department of War Releases Unidentified Anomalous Phenomena Files in Historic Transparency Effort"
-        },
-        {
+          "title": "Trump releases previously classified UFO files",
+          "url": "",
           "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYm8wZWZvYmdUc2J6cXZoUWFIR0p3cUdFYTR2TU5hd3dRY2tpdGRISk5iTkxVT0o4UFRFZ050RV9IZmRTQ19YcVJyUjEzXzlCcFQ0bUJwMmVmLWw5UnVneld4aXpuZDh4WjdLVERqakxSR3A0Sy1vQ05hWC1HeXFkd2hkZU1MMUMwMmJBcXVhMDdrQQ?oc=5",
-          "title": "Trump releases previously classified UFO files"
+          "publishedAt": null
         },
         {
           "source": "Mashable India",
@@ -96,24 +83,10 @@
           "title": "First batch of UFO files is released as Trump urges the public to draw its own conclusions"
         },
         {
-          "source": "The Liberty Line",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93eVEyNU5JZjNZZzJCdHhCZFlncXJXVWo5Qk5Kdjh6ZXp0alhtLXo5UmhmZS1qQ3NIZ1dPQjB6SHJmYXNXZ0ZYaTdLeTR6VEt4QXRFOTRkaTdyQmxDT2YteWdVOXpBVW1kZHJqa1lhSEE4MFU?oc=5",
-          "title": "A UFO Whistleblower died of an \"accidental overdose\" months before he was set to testify to congress and now the FBI is now investigating"
-        },
-        {
+          "title": "The government's UFO files are being released. We asked scientists what they think we'll learn.",
+          "url": "",
           "source": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMC1fRW90LUYzOTZlT2NvR3BsZWpydUhkRkxzcVFlV3VWUGdoVHRKV0pxSWZxYU51djlLd0x2YXJkTXNUelYyenVBQ05xWVhNVzYyQTdBQ2RmOS1JTWJjZXF1d1pJcV9vc01HaF9CeTHSAXZBVV95cUxQU1pfNGtGODNJRGh3YXJSRTkzd2VZSUFMNTZyMHZqWFNtZEhfSk1zRzF6MWFvVm40ajVIVEtBS2ZMZmFDSnF2YzBGR2V0ckd1aHRLakM3NkY4VkZKei1CRHMyR0pxTkxXUV9jdFJTMFZCWElTWmZB?oc=5",
-          "title": "Pentagon begins releasing new UFO files, unveiling dozens of photos, videos and documents"
-        },
-        {
-          "source": "ABC News - Breaking News, Latest News and Videos",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbHVBS3VqSGpNSmgxTWtIa2c3aDI2WE5vS2pfVXRFNjNZd3BlWUdILWh6b245RDMtOXk3Yk91UXktV3k4ckR1dTh1R1lVbFR4MFpLRnhXVmFMMGNsaWs3SXpaTHdzekxQNmRUQkktTHMwTjU3d3V2Z2R4akdIeEM4VGlnNFFzTVVzTXprS1AyT2l3MWdGaDJxUEFiWjBMc3BwMVHSAacBQVVfeXFMUGJvM2xwYk1mVU9OYW1haDlYZlhfaF83ekszcWZrbXRWTzMtZXNOOXNYR1loRThfWElkd3NiVllpX1ZuOGV1eDQ2NHQ5aDR2M1FKZDJmb0Y5TDYzTE53T0lNQ0FvUXQ3QmtYb09QVlRRRGV2eWFjOVJFcUVCVkF1YUlkSkRGclM0eUJVV0VLSl9UZmtBb1ZKUVRtTFhoUUFXWnFiQ1hqSzQ?oc=5",
-          "title": "Pentagon begins release of decades of unresolved UFO files - ABC News"
-        },
-        {
-          "source": "USA Herald",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT29fWXRpbW8tM2FQTGZfd3luQ1RDM1ViMmhvWXNNdjRuSUFwNUE2U1k0NFVyckVYZTYxRlItOHUtalBjb3RZb3VmQUNMZEViQ3RzWWhZR2VnLU9kcHBRbm10eUVoUWd6UXM0RXRSenZyRHBqalZZcURXOTRXa1Y5akpZcUpEUHB3ZUJ2anNpQ3JJeHdUdkFPMUpqLXlLWkpGWFM1X1ZDOUszMHJJbUs0ZnVKa3gzaUcyYVR6NGFYLXpudw?oc=5",
-          "title": "Pentagon’s UAP Data Playbook Quietly Goes Public—And It May Reveal How Disclosure Will Actually Unfold"
+          "publishedAt": null
         },
         {
           "source": "AL.com",
@@ -121,102 +94,45 @@
           "title": "UFO files released: What will Pentagon UAP records tell us?"
         },
         {
+          "title": "Pentagon publishes online UFO photo collection in historic release",
+          "url": "",
           "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWGVwdnBsbXlUbllqdExlenNKUDhYeXctemdWOHk1N0ZPUmFJTHdWYXNOYkZvNVRwOXdmQU5ZSjhQOWRKb3oyTlpyVU41emRERDdiV1dhX0tGaGRyNDA3b2F3MFZVbExSV1Vhb05pbGFpWUVpSHZuaml4UWMzOXVSb242bXFWSHJBMGVMcmZyONIBlAFBVV95cUxNblVIUUJrTDVLNmluNU00S2kzdXhVSVZvaVhfbVhGcldBbl85cEY1N3l1a3h0R29QaHU3NzRscHlIRnNtTEZFZndXanotUW1XODRmRGVRSXdrZ3ZhWXhrZGQ2eWpnQnQyczR6VFQ4ekgwUjFidnNzT0JoMDVpVzdVM1pwMGhKd0p4T1p1ZDllUXU0RTNr?oc=5",
-          "title": "Pentagon publishes online UFO photo collection in historic release"
+          "publishedAt": null
         },
         {
-          "source": "BollywoodShaadis",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY1Q5UHF2VXJ3WHltY2pEQXRKVlloWmFaejJpX1daYnlHc3dQb05HVEZfX0hTc0hHelN5S1poWmptVXpId2wtUkZIZlYyWllfRUM5dVhEZjNTYWNlUHRNVFZZUjRQbnNjajR4M0NBY3hBV1BHX04tUjk1Q3dSa1A3d0ZtNURSVU5McFNKTHdWRnM5MzhMc0N4d2I1Ti0yZGRxU1pqLTlzT1dHdHo4Vy11T0txaW9kUEVJ?oc=5",
-          "title": "Was Matthew James Sullivan Married? Inside The UFO Whistleblower's Life Amid His 'Suspicious' Death"
+          "title": "Trump Administration Opens WAR.GOV/UFO As Historic UAP File Release Puts America’s UFO Questions In Public View",
+          "url": "",
+          "source": "USA Herald",
+          "publishedAt": null
         },
         {
-          "source": "International Business Times UK",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOU5jS0djYTFpWWFZazRxRHlZNVpjVTZYMW16U1ZBamU5X3VGX2R4c2Y2U2hRaW96Tkl2VVBOd3FEU3RsbmE2LUtsSHpPTjctNVljNDV1bEVHMWNvZk1hNDk2Vk9ISURLZHlJdW42b1g0RXRTZFhKRnJPX1FEejFUR0ZJb0xBSVMwNmp6cDJpY1dxakJ2Wmc0eHVXVQ?oc=5",
-          "title": "Who is Matthew James Sullivan? UFO Whistleblower's 'Mysterious' Death a 'Grave Concern' and May Be 'Foul Play'"
-        },
-        {
-          "source": "9News",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOOVZHOERyLXNiaUlwbkRFVElrUldybFlBbUREb1ZrX0tIQ1dUaWFJZmlzWmFnTkZZOWZ5QjNOYnVYLTJhSG9XXzNTRkdnV3FIWmtMTk55cEZCTzRwWGo1TTdlc3ljLUlTNktTVkFCN2VzTTRLcmZpTU9DeDEtdVhJalY2TkJCcE9iSlZXWVZTSUtlbWhPNFFMRENNd0dScjJkTllBUEMwNTlWU2lFLThqYS1NVU05Z0RUa3VlemRfVTUyNE1MaUNQWGFLZzR2TjZsSXZvbHozNi1zM0JKMXUxVDBJeU1ka3c4SzRV0gF4QVVfeXFMTmlvWWtIT3A1WlhDcXlhaHh2UDdUNWNqbml0bk94MUw5SjV0WEgwa3M3SkVfRHVsc29lNTB1TkFsbk9Jb3IwOEJBU0RtTExqZEJzY01lNHpUY2h5QXRBRTB6NWRDOE9nb2FlNml1eXppSGZUTHl4RzdC?oc=5",
-          "title": "Trump keeps everyone up in the air with hints of what's coming in new batch of UFO files"
-        },
-        {
-          "source": "Daily Express US",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTGZKSUxveGQxdFlNRHNGTkFtcjlJVm1xdWczWEI2X0VQWVp2TkxIbnpLdVBtUnllLTVlYVVYckl4Ny0tLV8tNlBMSjFOQU9IR1lqYUd0bGZrNkFuTjlHV1BPZXVDSVBPUVA3VzVxcVMwQnBBcmxCQ0taeHNpNHdMQlZnWTBMZlRua2JoYy1ieExLYU84X0lXSVZIZ9IBmwFBVV95cUxOTGZKSUxveGQxdFlNRHNGTkFtcjlJVm1xdWczWEI2X0VQWVp2TkxIbnpLdVBtUnllLTVlYVVYckl4Ny0tLV8tNlBMSjFOQU9IR1lqYUd0bGZrNkFuTjlHV1BPZXVDSVBPUVA3VzVxcVMwQnBBcmxCQ0taeHNpNHdMQlZnWTBMZlRua2JoYy1ieExLYU84X0lXSVZIZw?oc=5",
-          "title": "Weird football-shaped object pictured in Pentagon's classified UFO documents"
-        },
-        {
-          "source": "Fortune",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWFFKbEdYLXp2cVZvT1lNLTlReVlNaGdfcTkyNFZRLXBYVnhqT3dtSUo3Rm8yTlllQmFSdmFYUjRmd1EtNXBZZzJMR2xQalZoeEdQNlFQdVlIbjNGakhrVkhsLURKY3Y2d21kaUdzdHRGZVE1cUdKQWRQcm5SY0dlQ0hLcWl3VjgzbU9xNDR0YWJfZm5oZV9RajRSclZrUQ?oc=5",
-          "title": "Trumps says 'very interesting' UFO files to be revealed, and Pentagon vows 'never-before-seen' info"
-        },
-        {
-          "source": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOXdlZVZ5U2hCM3pzTENkdno3NmFsTkZHRW5oLUhsbWlVUEtadDdFdUo3Z29Ha2UzM0pJV0lDVThEUGlaZjNLM2JJRmZXeVlYc3BmMGlzaV9IV09GdnBZekhudkJRU1AxY2pZUzFFbndSSGtrTG1LRUIxRlNkbURBcGVnVEtJdXl2Yk5OTTRJZDZlSkIt?oc=5",
-          "title": "Conspiracy theory over UFOs and missing scientists spreads from web to White House"
-        },
-        {
-          "source": "Axios",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA5UFVpNzZBMlRyQ2hhbXlMQUVkd1NhNFFJQWcxc3RpM000RDFMcS15NGlLTGJJdVkzRVhFZXlJTWRITHZLVlV6TWxGQktXZkcydnB4Ny14NGpEUHJXQjd4N2djaHJkbjR3ME9CM0d1Q24xUXVlUWota29n?oc=5",
-          "title": "UFO files released, with no green men but lots of new hints"
-        },
-        {
+          "title": "Government Drops Massive UFO File Archive in Historic Public Release",
+          "url": "",
           "source": "stupidDOPE",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcHVGbWd0dl9tMlFrODhSaWRVdF9yQ0dKOVF4VTdKaHNjVlQzY2t3YUVKQlZfVUNDaUlGOE9zZmxwOTRZRU5jS0w3TWF2SUZhOUs4ZTdrZU5lQWFwYWsydGFVYk5keGR5am1WUDRyVURQUUVSVWNseWpqS2hobS1GWUtDYlFZa1hOX2RmZHlNRWQ4ekl6TkJMU3dIdDZ6MzIwblE?oc=5",
-          "title": "Government Drops Massive UFO File Archive in Historic Public Release"
+          "publishedAt": null
         },
         {
-          "source": "LatestLY",
-          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxORnQ3QUlJdnZVM09YV3hGcmxXWmlnb0RBNHVSbm0wZmIyX0xhNDVaRlRxOVFyTXRsZGg2QXBDR05XX0NoNFlyZmN4LTBfYTNPZXlwU0EzamllaXRfOUhXMFEzaVlBcjlWd0x2VFJ6ODJvV0hXVk5hYTRpS1VhTjc1WEhqN19JOUNYVUVZd3pza2xNNWlEVVo2b2Nlb2pRWFhuRjNWM2hTOVpTQTNQQ0kxN2dhTnlVSGI4dnd3RHZkNWZGR3VDaHBCYUQ2enY0MExTQnlFZ0w3Q19FWTFZbVhkM2JIVngxaGo2b1VqeVA2b01VQzRaelMzYWpZZW1VMVVINF9IQtIBigJBVV95cUxNdXRRTXdERDNkN1lRcUQyVjNOQWppd0IwTHRZdnR4aHRzdTJoZmVWRTJvR040ZHFoemJNQW1jcll1SGJFeFQ4Rkp5cnBTbkY5TjVEVk5sYkIxRXktSUJwb0g5aXloREhmNS1CelZkRGUzREZNSTVWcXJQakFuWm4xZEtpNUpEODNWRkxRbTFsSk5ORERDSkNzRlNRRXMwT1d1WGVDamFrOEt4TE5SRXFnWDNnS1dZcHo0WW1OVEJiTnRjZ2RscG96Zmw3VEhtZTZoV21ENHZzNGhHMUFrMjFGWmIySXRtYW40SVIwZ0l2bXQwRWpabHFyYVI0TzZ3OFlFZTJ0ZzBtUEhQdw?oc=5",
-          "title": "Matthew James Sullivan Case: FBI Investigates Deaths of UFO-Linked Scientists Following Overdose Ruling for"
+          "title": "US releases never-before-seen UFO files, showing images as early as 2026",
+          "url": "",
+          "source": "Mint",
+          "publishedAt": null
         },
         {
+          "title": "White House Plans Release of UAP Files",
+          "url": "",
           "source": "GK Today",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE43VGhLSFpfSFlvLVJCWTdqajdPUlhCZU9RekNBcm05THlINUExRXBfY2NsaTlIRnpOcHUyTU5VVDVidkctMkhiY1k4YzRpb1pRTTBvWWdpaVJVRHVwbFFKTnZDeXpUSTd1OEJlcHBfNA?oc=5",
-          "title": "White House Plans Release of UAP Files"
+          "publishedAt": null
         }
       ],
       "clusterTitles": [
         "Pentagon releases dozens of UFO files offering transparency on ‘alien and extraterrestrial life’",
         "Pentagon releases swath of UFO files",
-        "Pentagon Releases Files on U.F.O.s",
         "Pentagon publishes first batch of declassified UFO files under new program",
         "Pentagon releases UFO files. When was the last sighting in Wisconsin?",
         "‘Make up their own minds’: Pentagon releases first tranche of UFO files",
         "Are aliens real? US releases declassified 'UFO' files, photos",
         "US releases new UFO files in transparency push",
-        "Pentagon UFO files release: Amid new UFO disclosure, officials say public can draw conclusions on unidentified anomalous phenomena",
-        "Pentagon begins release of UFO files",
-        "Pentagon begins releasing new files on UFOs and says people can 'make up their own minds'",
-        "Department of War Releases Unidentified Anomalous Phenomena Files in Historic Transparency Effort",
-        "Trump releases previously classified UFO files",
-        "UFO Disclosure 2026: Trump Admin Releases First Set With 162 Files Of Unresolved Cases; Here's How To Access",
-        "Trump administration releases UFO files in major UAP disclosure",
-        "Trump admin releases highly anticipated files documenting UFOs, 'extraterrestrial life'",
-        "First batch of UFO files is released as Trump urges the public to draw its own conclusions",
-        "A UFO Whistleblower died of an \"accidental overdose\" months before he was set to testify to congress and now the FBI is now investigating",
-        "Would-be UFO whistleblower died of accidental drug overdose after agreeing to testify to Congress",
-        "Pentagon begins releasing new UFO files, unveiling dozens of photos, videos and documents",
-        "Pentagon begins release of decades of unresolved UFO files - ABC News",
-        "Pentagon’s UAP Data Playbook Quietly Goes Public—And It May Reveal How Disclosure Will Actually Unfold",
-        "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof",
-        "The government's UFO files are being released. We asked scientists what they think we'll learn.",
-        "UFO files released: What will Pentagon UAP records tell us?",
-        "Pentagon publishes online UFO photo collection in historic release",
-        "Was Matthew James Sullivan Married? Inside The UFO Whistleblower's Life Amid His 'Suspicious' Death",
-        "Who is Matthew James Sullivan? UFO Whistleblower's 'Mysterious' Death a 'Grave Concern' and May Be 'Foul Play'",
-        "Trump keeps everyone up in the air with hints of what's coming in new batch of UFO files",
-        "The 2023 Las Vegas Backyard UFO Case Returns To Center Stage As Washington Moves Toward Disclosure",
-        "UFO Disclosure 2026: US Representative Tim Burchett Claims UAP’s Speed Can Turn Humans Into Ketchup [WATCH]",
-        "Weird football-shaped object pictured in Pentagon's classified UFO documents",
-        "Trumps says 'very interesting' UFO files to be revealed, and Pentagon vows 'never-before-seen' info",
-        "Trump Administration Opens WAR.GOV/UFO As Historic UAP File Release Puts America’s UFO Questions In Public View",
-        "Rep. Tim Burchett Warns Classified UAP Briefing Contains Explosive Information That Could ‘Set the Earth on Fire’",
-        "Conspiracy theory over UFOs and missing scientists spreads from web to White House",
-        "UFO Files Delivered for Public Release, FBI Director Kash Patel Confirms — Here's What to Expect",
-        "UFO files released, with no green men but lots of new hints",
-        "Government Drops Massive UFO File Archive in Historic Public Release",
-        "Matthew James Sullivan Case: FBI Investigates Deaths of UFO-Linked Scientists Following Overdose Ruling for"
+        "Pentagon UFO files release: Amid new UFO disclosure, officials say public can draw conclusions on unidentified anomalous phenomena"
       ],
       "quality": 100,
       "qualityBreakdown": [
@@ -258,7 +174,7 @@
         {
           "label": "Mehrere Quellen",
           "points": 28,
-          "text": "34 Quelle(n) im aktuellen Feed."
+          "text": "9 Quelle(n) im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -266,6 +182,7 @@
         "DECLASSIFIED",
         "PENTAGON"
       ],
+      "sourceQuality": 100,
       "translation": {
         "en": {
           "title": "Pentagon releases initial batch of declassified files detailing UFOs",
@@ -277,6 +194,88 @@
           "title": "Das Pentagon veröffentlicht den ersten Stapel freigegebener UFO-Dateien",
           "summary": "Das Pentagon veröffentlichte eine Reihe „nie zuvor veröffentlichter“ freigegebener UFO-Dateien, nachdem Präsident Donald Trump die Behörde Anfang des Jahres dazu angewiesen hatte. Die Akten enthalten Untersuchungen zu gemeldeten Sichtungen, die sich über Jahrzehnte erstrecken, darunter eine große FBI-Akte mit Hunderten von Seiten an Augenzeugenaussagen und öffentlichen Berichten von 1947 bis 1968 sowie neuere militärische Memos, die eine mögliche kleine UAP im Irak im Jahr 2022 und mehrere in Syrien im Jahr 2024 beobachtete Blendungen oder Lichter unbekannter Herkunft beschreiben.",
           "sourceHash": "5283619d5b08ba2cba14157117200bad1d03a152",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "accidental-congress-died-fbi-investigating-months-now-overdose-set-testify",
+      "title": "A UFO Whistleblower died of an \"accidental overdose\" months before he was set to testify to congress and now the FBI is now investigating",
+      "source": "The Liberty Line",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93eVEyNU5JZjNZZzJCdHhCZFlncXJXVWo5Qk5Kdjh6ZXp0alhtLXo5UmhmZS1qQ3NIZ1dPQjB6SHJmYXNXZ0ZYaTdLeTR6VEt4QXRFOTRkaTdyQmxDT2YteWdVOXpBVW1kZHJqa1lhSEE4MFU?oc=5",
+      "date": "2026-04-25",
+      "summary": "Matthew James Sullivan, a 39‑year‑old Air Force veteran who had worked for the Air Force Intelligence Agency, the National Air and Space Intelligence Center and the NSA, was found dead in his Falls Church, Virginia home on May 12 2024; the medical examiner ruled his death an accidental overdose of alcohol, alprazolam, cyclobenzaprine and imipramine. Sullivan had been scheduled to testify before Congress in November 2024 about the government’s secret UFO crash‑retrieval program and had personally seen UFOs in federal possession. Representative Eric Burlison sent a letter to FBI Director Kash Patel expressing concern that Sullivan’s sudden death raised “substantial questions” and potential foul play, citing national‑security implications. The FBI responded that it is “spearheading the effort to look for connections into the missing and deceased scientists” and is working with the Department of Energy, the Department of War, and state and local law‑enforcement partners. Retired Major General David Abba, who directed the Pentagon’s special access programs, said at Sullivan’s funeral that Sullivan “held the burden that a select few in this nation have of truly understanding what’s going on.” The article notes a pattern of other whistleblowers—such as David Grusch, David Wilcock and Amy Eskridge—who have died under circumstances the authorities have ruled accidental or self‑inflicted.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "source": "New York Post",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTlVYQmxMMUxiQ2RnaFRDeHd0UDAydERKMUNrcm9CYmJQdG1pS1liN2t5cUlrU3FMbnVsY0RVN2xoTmJiTVQydWM2WXE5MnZIaXllUmE0Szh3dFhaTER5eDNXUkxpUU9PRWhKdkQxelNBZVQxOGNuc3hjaUpyX2RPOTdMbVRYZ1hqWFpxbWtmZTkxT3RiME14Zjkya2tMOXRCVDdTdG4xcDBSX3hBWnU0ZklneVpZVG9XcUlfby1n?oc=5",
+          "title": "Would-be UFO whistleblower died of accidental drug overdose after agreeing to testify to Congress"
+        }
+      ],
+      "clusterTitles": [
+        "Would-be UFO whistleblower died of accidental drug overdose after agreeing to testify to Congress"
+      ],
+      "quality": 87,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 9,
+          "text": "CONGRESS, FBI, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 12,
+          "text": "CONGRESS, FBI, WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 6,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 7,
+          "text": "2 Quelle(n) im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "CONGRESS",
+        "FBI",
+        "WHISTLEBLOWER"
+      ],
+      "translation": {
+        "en": {
+          "title": "A UFO Whistleblower died of an \"accidental overdose\" months before he was set to testify to congress and now the FBI is now investigating",
+          "summary": "Matthew James Sullivan, a 39‑year‑old Air Force veteran who had worked for the Air Force Intelligence Agency, the National Air and Space Intelligence Center and the NSA, was found dead in his Falls Church, Virginia home on May 12 2024; the medical examiner ruled his death an accidental overdose of alcohol, alprazolam, cyclobenzaprine and imipramine. Sullivan had been scheduled to testify before Congress in November 2024 about the government’s secret UFO crash‑retrieval program and had personally seen UFOs in federal possession.",
+          "sourceHash": "0f3bd7f5ba1dfd4301f15d51a74b322d1212124f",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Ein UFO-Whistleblower starb an einer „versehentlichen Überdosis“, Monate bevor er vor dem Kongress aussagen sollte, und jetzt ermittelt das FBI",
+          "summary": "Matthew James Sullivan, ein 39-jähriger Air-Force-Veteran, der für die Air Force Intelligence Agency, das National Air and Space Intelligence Center und die NSA gearbeitet hatte, wurde am 12. Mai 2024 tot in seinem Haus in Falls Church, Virginia, aufgefunden; Der Gerichtsmediziner entschied, dass sein Tod eine versehentliche Überdosis Alkohol, Alprazolam, Cyclobenzaprin und Imipramin sei. Sullivan sollte im November 2024 vor dem Kongress über das geheime UFO-Absturz-Bergungsprogramm der Regierung aussagen und hatte persönlich UFOs in Bundesbesitz gesehen.",
+          "sourceHash": "0f3bd7f5ba1dfd4301f15d51a74b322d1212124f",
           "provider": "google"
         }
       }
@@ -345,6 +344,81 @@
           "title": "Mehrere Pastoren behaupten, US-Militärgeheimdienstoffiziere hätten sie heimlich informiert, um ihre Gemeinden auf die UAP-Offenlegung vorzubereiten",
           "summary": "S. Offiziere des Militärgeheimdienstes, um ihre Gemeinden auf eine bevorstehende UAP-Enthüllung vorzubereiten. Stone, ein in Tennessee ansässiger Pfingstevangelist, sagte in einem Video, ein vertrauenswürdiger Mitarbeiter habe ihn darüber informiert, dass eine Gruppe von Pastoren eingeladen worden sei, direkt von Personen mit Regierungskontakten über eine bevorstehende Offenlegung unbekannter anomaler Phänomene zu hören.",
           "sourceHash": "5779816474d3be3db793da8074095a2b2d4ae1d1",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "amid-death-his-inside-james-life-married-matthew-sullivan-suspicious",
+      "title": "Was Matthew James Sullivan Married? Inside The UFO Whistleblower's Life Amid His 'Suspicious' Death",
+      "source": "BollywoodShaadis",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY1Q5UHF2VXJ3WHltY2pEQXRKVlloWmFaejJpX1daYnlHc3dQb05HVEZfX0hTc0hHelN5S1poWmptVXpId2wtUkZIZlYyWllfRUM5dVhEZjNTYWNlUHRNVFZZUjRQbnNjajR4M0NBY3hBV1BHX04tUjk1Q3dSa1A3d0ZtNURSVU5McFNKTHdWRnM5MzhMc0N4d2I1Ti0yZGRxU1pqLTlzT1dHdHo4Vy11T0txaW9kUEVJ?oc=5",
+      "date": "2026-04-26",
+      "summary": "Matthew James Sullivan, a 39‑year‑old Air Force veteran known by the call sign “Quake,” was found dead at his home in 2024 from an accidental overdose. Sullivan had served in the U.S. Air Force Intelligence, worked for the National Air and Space Intelligence Centre, the Air Force Intelligence Agency, and the National Security Agency, and received a Bronze Star for valor during Operation Enduring Freedom. His death has been discussed alongside the recent deaths of UFO researchers David Wilcock and Nick Pope, all of whom were linked to sensitive areas such as nuclear research, advanced aerospace, and UFO/UAP studies. Reports from the New York Post claim that 11 to 14 scientists and experts connected to aerospace, defense, or advanced research have died or gone missing in recent years, prompting federal attention. FBI officials, with the help of multiple agencies, are reviewing all reported cases to determine whether the incidents are coincidental or part of a larger pattern. At Sullivan’s funeral, retired Major General David Abba remarked that Sullivan carried “the burden that a select few in this nation have of truly understanding what’s going on,” fueling speculation that Sullivan’s death may not have been a mere accident, though no official confirmation supports this claim.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "source": "International Business Times UK",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOU5jS0djYTFpWWFZazRxRHlZNVpjVTZYMW16U1ZBamU5X3VGX2R4c2Y2U2hRaW96Tkl2VVBOd3FEU3RsbmE2LUtsSHpPTjctNVljNDV1bEVHMWNvZk1hNDk2Vk9ISURLZHlJdW42b1g0RXRTZFhKRnJPX1FEejFUR0ZJb0xBSVMwNmp6cDJpY1dxakJ2Wmc0eHVXVQ?oc=5",
+          "title": "Who is Matthew James Sullivan? UFO Whistleblower's 'Mysterious' Death a 'Grave Concern' and May Be 'Foul Play'"
+        }
+      ],
+      "clusterTitles": [
+        "Who is Matthew James Sullivan? UFO Whistleblower's 'Mysterious' Death a 'Grave Concern' and May Be 'Foul Play'"
+      ],
+      "quality": 63,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 7,
+          "text": "2 Quelle(n) im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "WHISTLEBLOWER"
+      ],
+      "translation": {
+        "en": {
+          "title": "Was Matthew James Sullivan Married? Inside The UFO Whistleblower's Life Amid His 'Suspicious' Death",
+          "summary": "Matthew James Sullivan, a 39‑year‑old Air Force veteran known by the call sign “Quake,” was found dead at his home in 2024 from an accidental overdose. S. Air Force Intelligence, worked for the National Air and Space Intelligence Centre, the Air Force Intelligence Agency, and the National Security Agency, and received a Bronze Star for valor during Operation Enduring Freedom.",
+          "sourceHash": "4fc590d33e631d2edc1c55573061c43c448d3c18",
+          "provider": "original"
+        },
+        "de": {
+          "title": "War Matthew James Sullivan verheiratet? Im Leben des UFO-Whistleblowers inmitten seines „verdächtigen“ Todes",
+          "summary": "Matthew James Sullivan, ein 39-jähriger Air-Force-Veteran, bekannt unter dem Rufzeichen „Quake“, wurde 2024 tot in seinem Haus aufgrund einer versehentlichen Überdosis aufgefunden. S. Air Force Intelligence, arbeitete für das National Air and Space Intelligence Centre, die Air Force Intelligence Agency und die National Security Agency und erhielt einen Bronze Star für Tapferkeit während der Operation Enduring Freedom.",
+          "sourceHash": "4fc590d33e631d2edc1c55573061c43c448d3c18",
           "provider": "google"
         }
       }
@@ -670,13 +744,11 @@
       "title": "Missing scientists share ‘interesting common ties’: UFO insider",
       "source": "NewsNation",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZHV4LU9tWk9CZ04xdDVONG9ManlBQkZyWGF3bXdGcVQtSlhCcTVXUG5jVVUwaXQweUZPcWRyYzBuckJ0WmhsdnQwLU42cE40TjVEdWFmWVNnY3JEUl96N3V2ZXRfR1lveFh6YV9CX2hjYlRSaDRMMEFjdngyX0JCZ2t2Q1BWT3lBRkQwNDgyMkk3aTh0TTl6bkM2TdIBoAFBVV95cUxOYUd2YTk4N0l5TEl1Z09jTnY3c0h5aWZINjNrRWcxSkJFSjAwQmx4NkdQZjNwS1lRQkRKUzNEQVhTSEE1Qi1YNTc1cTh3T3ExRkZMRlBNY2tmY1JrTlFVZDdScTNjWVhLb3djaUk1N3BzT19ubU5aU3BUb0huS3I2czJTaDNBdUVGNjcxRzY3WFo0cGxTeFhzQzN5LVBTQlFo?oc=5",
-      "date": "2026-04-30",
+      "date": "2026-04-27",
       "summary": "A NewsNation article dated April 27, 2026 reports that a UFO insider claims missing scientists share interesting common ties. The claim is presented in the headline, which states that the missing scientists have “interesting common ties.” No description of the article is available in the feed metadata. The article is part of a cluster of NewsNation sources. No additional context or details are provided in the brief.",
       "mentions": 1,
       "otherSources": [],
-      "clusterTitles": [
-        "Congresswoman promises to address information of ‘nonhuman origin’"
-      ],
+      "clusterTitles": [],
       "quality": 49,
       "qualityBreakdown": [
         {
@@ -713,6 +785,56 @@
           "title": "Vermisste Wissenschaftler haben „interessante gemeinsame Verbindungen“: UFO-Insider",
           "summary": "In einem NewsNation-Artikel vom 27. April 2026 wird berichtet, dass ein UFO-Insider behauptet, dass vermisste Wissenschaftler interessante gemeinsame Verbindungen hätten. „In den Feed-Metadaten ist keine Beschreibung des Artikels verfügbar. Der Artikel ist Teil eines Clusters von NewsNation-Quellen.",
           "sourceHash": "1c2d048e984e83fd88da4f66cf7d14881bd8ab1c",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "conspiracy-house-missing-scientists-spreads-theory-web-white",
+      "title": "Conspiracy theory over UFOs and missing scientists spreads from web to White House",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOXdlZVZ5U2hCM3pzTENkdno3NmFsTkZHRW5oLUhsbWlVUEtadDdFdUo3Z29Ha2UzM0pJV0lDVThEUGlaZjNLM2JJRmZXeVlYc3BmMGlzaV9IV09GdnBZekhudkJRU1AxY2pZUzFFbndSSGtrTG1LRUIxRlNkbURBcGVnVEtJdXl2Yk5OTTRJZDZlSkIt?oc=5",
+      "date": "2026-04-25",
+      "summary": "A conspiracy theory claiming that the disappearances or deaths of at least 11 U.S. scientists linked to space, defense, and nuclear research are part of a plot involving China or other state enemies and UFOs has spread from the internet to right‑wing media, mainstream press, and prompted congressional inquiry and questions from Donald Trump. The theory began with the disappearance of retired Air Force Major General William “Neil” McCasland on 27 February, who left his home in Albuquerque with his phone and glasses behind, was reported missing by his wife, and a silver alert was issued, but no trace of him has been found. Other cases cited in the theory include NASA scientist Michael David Hicks, who died in 2023; Monica Reza, who vanished while hiking in 2023; astrophysicist Carl Grillmair, who was shot on his porch; MIT physicist Nuno Loureiro, who was killed by a former classmate; chemical biologist Jason Thomas, whose remains were found in Massachusetts; and researcher Amy Eskridge, who died by suicide in 2022. Republican lawmakers James Comer and Eric Burlison sent a letter to the FBI, Department of Energy, NASA, and other agencies demanding an investigation into a “possible sinister connection” among the disappearances, citing the deaths of two Los Alamos National Laboratory workers and the alleged close professional link between Reza and McCasland. Investigators have said they are investigating every possible link, but have not confirmed any connection, and the White House has not confirmed any link between the cases. Experts such as Greg Eghigian and Susan McCasland Wilkerson have argued that the narrative is driven by a convergence of existing fears about UFOs, nuclear facilities, and state secrets, and that there is no evidence to support the claim that the scientists were abducted or targeted for their knowledge.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 49,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "translation": {
+        "en": {
+          "title": "Conspiracy theory over UFOs and missing scientists spreads from web to White House",
+          "summary": "S. scientists linked to space, defense, and nuclear research are part of a plot involving China or other state enemies and UFOs has spread from the internet to right‑wing media, mainstream press, and prompted congressional inquiry and questions from Donald Trump. The theory began with the disappearance of retired Air Force Major General William “Neil” McCasland on 27 February, who left his home in Albuquerque with his phone and glasses behind, was reported missing by his wife, and a silver alert was issued, but no trace of him has been found.",
+          "sourceHash": "2e6ce304adf972eec505ed104cadf6baef5144b9",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Verschwörungstheorie über UFOs und vermisste Wissenschaftler verbreitet sich vom Internet bis zum Weißen Haus",
+          "summary": "S. Wissenschaftler, die mit Weltraum-, Verteidigungs- und Nuklearforschung in Verbindung stehen, sind Teil einer Verschwörung, an der China oder andere Staatsfeinde beteiligt sind, und UFOs haben sich über das Internet auf rechte Medien und die Mainstream-Presse ausgeweitet und eine Untersuchung des Kongresses und Fragen von Donald Trump ausgelöst. Die Theorie begann mit dem Verschwinden des pensionierten Air Force-Generalmajors William „Neil“ McCasland am 27. Februar, der sein Haus in Albuquerque mit seinem Telefon und seiner Brille verließ, von seiner Frau als vermisst gemeldet wurde und eine Silberwarnung ausgegeben wurde, aber keine Spur von ihm gefunden wurde.",
+          "sourceHash": "2e6ce304adf972eec505ed104cadf6baef5144b9",
           "provider": "google"
         }
       }
@@ -855,34 +977,53 @@
   ],
   "summaries": {
     "batch-declassified-detailing-files-initial-pentagon-releases": "The Pentagon released a batch of “never‑before‑seen” declassified files on UFOs after President Donald Trump directed the agency to do so earlier in the year. The files contain investigations of reported sightings that span decades, including a large FBI file with hundreds of pages of eyewitness testimonies and public reports from 1947 to 1968 and more recent military memos describing a possible small UAP in Iraq in 2022 and multiple glares or lights of unknown origin observed in Syria in 2024. The Pentagon said the documents are now available to the public with no clearance required and will post new materials on a rolling basis every few weeks. A disclaimer on the Pentagon website notes that the descriptive language in the military memos reflects the subjective interpretation of the writer and should not be taken as a conclusive indication of what actually happened. The files also include reports from Apollo 12 astronauts in 1969 who saw flashes of light sailing off the Moon and from Apollo 17 astronauts in 1972 who saw bright particles of light that they theorized might be chunks of ice. Trump’s Truth Social post and NASA Administrator Jared Isaacman’s statement both praised the release as a step toward greater transparency about unidentified anomalous phenomena.",
+    "amid-anomalous-can-conclusions-disclosure-draw-files-officials-pentagon-phenomena": "The Pentagon has begun releasing new files on UFOs, stating that the public can draw their own conclusions about unidentified anomalous phenomena. The release effort is coordinated by the White House, the director of national intelligence, the Energy Department, NASA, and the FBI. In a post on X, the Pentagon said that while past administrations sought to discredit or dissuade the public, President Donald Trump is focused on maximum transparency and that additional documents will be released on a rolling basis. Congress created an office in 2022 to declassify UFO material, and a 2024 report from that office found hundreds of new UAP incidents but no evidence that the U.S. government had confirmed alien technology. A small group of Republican members of Congress, including Rep. Anna Paulina Luna and Rep. Tim Burchett, have urged further transparency, with Luna demanding 46 UAP videos identified by whistleblowers and Burchett noting that transparency will take time. Experts have cautioned that UAP videos are often misinterpreted and mischaracterized by those unfamiliar with advanced military technology, and the Pentagon’s 2024 report rebutted claims that the U.S. government had recovered alien technology or confirmed evidence of alien life.",
+    "classified-files-previously-releases-trump": "Under President Donald Trump’s direction, the Department of War, with support from the Office of the Director of National Intelligence, reviewed and declassified several UFO files for public release. The released files include 162 unresolved Unidentified Anomalous Phenomena (UAP) records archived by the federal government. Trump announced the release on February 19 2026, noting “tremendous interest” by the layman. Secretary of War Pete Hegseth said the Department of War is in lockstep with Trump to provide unprecedented transparency regarding the government’s understanding of UAPs. Tulsi Gabbard, Director of National Intelligence, stated that the Office of the Director of National Intelligence is coordinating the Intelligence Community’s declassification efforts with the Department of War to ensure a careful, comprehensive review. FBI Director Kash Patel remarked that the FBI is proud to support this landmark release and will continue to prioritize national security as the files are reviewed and released.",
+    "accidental-congress-died-fbi-investigating-months-now-overdose-set-testify": "Matthew James Sullivan, a 39‑year‑old Air Force veteran who had worked for the Air Force Intelligence Agency, the National Air and Space Intelligence Center and the NSA, was found dead in his Falls Church, Virginia home on May 12 2024; the medical examiner ruled his death an accidental overdose of alcohol, alprazolam, cyclobenzaprine and imipramine. Sullivan had been scheduled to testify before Congress in November 2024 about the government’s secret UFO crash‑retrieval program and had personally seen UFOs in federal possession. Representative Eric Burlison sent a letter to FBI Director Kash Patel expressing concern that Sullivan’s sudden death raised “substantial questions” and potential foul play, citing national‑security implications. The FBI responded that it is “spearheading the effort to look for connections into the missing and deceased scientists” and is working with the Department of Energy, the Department of War, and state and local law‑enforcement partners. Retired Major General David Abba, who directed the Pentagon’s special access programs, said at Sullivan’s funeral that Sullivan “held the burden that a select few in this nation have of truly understanding what’s going on.” The article notes a pattern of other whistleblowers—such as David Grusch, David Wilcock and Amy Eskridge—who have died under circumstances the authorities have ruled accidental or self‑inflicted.",
+    "asked-being-files-government-learn-released-scientists-they-think-what": "On May 8, the Pentagon began posting declassified documents, photos, and videos related to unidentified anomalous phenomena (UAP) after President Trump urged the release in February 2023. The release includes evidence such as a video of a U.S. missile striking an unidentified glowing orb and a government report noting more than 750 new UAP sightings between May 2023 and June 2024. Former AARO director Sean Kirkpatrick said the files contain no proof of extraterrestrial life, describing the Trump order as a distraction and noting that his office had to declassify only what could be released. NASA UAP panel member Federica Bianco and astrophysicist Neil de Grasse Tyson both stated that the documents are unlikely to reveal alien technology or phenomena that violate physics, and that most sightings can be explained by ignorance of optical or atmospheric effects. UCSD astrophysicist Shelley Wright expects most documents to be heavily redacted for national‑security reasons but is hopeful that declassified older data could be studied with modern technology, while Barnard professor Janna Levin says astronomers are excited about the possibility of finding microbial evidence rather than advanced alien tech. Overall, scientists anticipate that the release will provide data for analysis but are not expecting definitive evidence of extraterrestrial life, and they emphasize the need for skepticism and rigorous scientific inquiry.",
     "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare": "Several religious leaders, including Pastor Perry Stone and evangelist Tony Merkel, claim they were privately briefed by U.S. military intelligence officers to prepare their congregations for an upcoming UAP disclosure. Stone, a Tennessee‑based Pentecostal evangelist, said in a video that a trusted associate informed him that a group of pastors was invited to hear directly from government‑connected individuals about an imminent disclosure event involving unidentified anomalous phenomena. Stone described the briefing as covering craft not allegedly part of our planet, non‑human beings, and a coordinated propaganda plan already in motion. Merkel says he has been in contact with officials for over a year, describing them as Christians in intelligence operations assigned to work within the UAP disclosure community, and that they approached him with a mission to prepare the body of Christ for what is coming. The state where the briefing took place has not been disclosed, and no government memo, official invitation, transcript, or attendee list has surfaced. The White House has not denied the claims, and Washington has remained silent, a silence the article notes is significant.",
+    "collection-historic-online-pentagon-photo-publishes-release": "The Pentagon published an online UFO photo collection in a historic release, according to a NewsNation report dated May 8, 2026. The release was reported by NewsNation. The collection is available online. The Pentagon’s release is described as historic.",
+    "begins-documents-dozens-files-pentagon-photos-releasing-unveiling-videos": "On Friday the Pentagon released 162 new UFO files—including 120 PDFs, 28 videos and 14 image files—on a new website after President Trump ordered the disclosure of government documents about unexplained phenomena. The files, sourced from the FBI, Department of Defense, NASA and State Department, contain eyewitness testimony, photos and reports of sightings that date back decades from around the globe. Among the releases are NASA Apollo 12 and Apollo 17 photographs of lunar sky anomalies, a Pentagon review suggesting a physical object may explain one Apollo 17 image, and a report of an Apollo 17 astronaut seeing a flash north of Grimaldi crater. The videos, totaling 41 minutes, show infrared footage of white objects moving at high speeds, including a Greek 2023 clip of an object making 90‑degree turns at about 80 miles per hour, and other clips from the Indo‑Pacific, Syria and the U.S. that depict semi‑transparent orange orbs and a football‑shaped object. The FBI case file 62‑HQ‑83894, now with fewer redactions, documents sightings of “flying discs” from 1947 to 1968, including the 1947 Roswell incident, and contains letters to FBI Director J. Edgar Hoover and a memo from a Dallas agent about a hexagonal disc recovered near Roswell. The State Department cables included in the release describe UAP encounters in countries such as Papua New Guinea, Kazakhstan, Turkmenistan, Georgia, Mexico, Tajikistan and the U.S., with one 1994 Tajikistan pilot claiming an extraterrestrial object that performed rapid maneuvers and was not a meteor. The Pentagon noted that 108 of the 162 files contain redactions to protect eyewitness identities, facility locations, or sensitive military information, but no redactions were made to information about the nature or existence of UAP encounters.",
+    "amid-death-his-inside-james-life-married-matthew-sullivan-suspicious": "Matthew James Sullivan, a 39‑year‑old Air Force veteran known by the call sign “Quake,” was found dead at his home in 2024 from an accidental overdose. Sullivan had served in the U.S. Air Force Intelligence, worked for the National Air and Space Intelligence Centre, the Air Force Intelligence Agency, and the National Security Agency, and received a Bronze Star for valor during Operation Enduring Freedom. His death has been discussed alongside the recent deaths of UFO researchers David Wilcock and Nick Pope, all of whom were linked to sensitive areas such as nuclear research, advanced aerospace, and UFO/UAP studies. Reports from the New York Post claim that 11 to 14 scientists and experts connected to aerospace, defense, or advanced research have died or gone missing in recent years, prompting federal attention. FBI officials, with the help of multiple agencies, are reviewing all reported cases to determine whether the incidents are coincidental or part of a larger pattern. At Sullivan’s funeral, retired Major General David Abba remarked that Sullivan carried “the burden that a select few in this nation have of truly understanding what’s going on,” fueling speculation that Sullivan’s death may not have been a mere accident, though no official confirmation supports this claim.",
+    "batch-conclusions-draw-files-first-its-own-public-released-trump": "President Donald Trump announced that the Pentagon is preparing to release previously unseen UFO files, sparking both excitement and skepticism. In February, Trump directed federal agencies to release records on extraterrestrial life, UAP, and UFOs, and has since teased an imminent release of documents never before shared by the US government. Trump said at a White House event celebrating NASA astronauts that “we’re going to be releasing a lot of things that we haven’t” and that some of the material would be “very interesting to people.” The Pentagon has been declassifying UFO documents for years; a 2024 report from the All‑Domain Anomaly Resolution Office found hundreds of new UAP incidents but no evidence that the government had confirmed alien technology, and a second report on more recent sightings is expected soon. Former office director Sean Kirkpatrick said Trump’s promises are bluster and that the records he has seen contain no bombshell revelations, noting that videos of alleged alien craft can be explained by mundane sources such as infrared cameras. A GOP‑led congressional task force, co‑chaired by Representative Anna Paulina Luna, has investigated UAP encounters and demanded UAP videos from the Pentagon, but no videos were produced after a March deadline. Luna praised Trump’s focus on UFOs and said the Pentagon can no longer hide from the public’s documents request.",
+    "classified-documents-football-object-pentagon-pictured-shaped-weird": "The Department of Defense released a first batch of declassified documents on Friday that included a football‑shaped UAP captured on video. The release also contained “never‑before‑seen” files and videos documenting pilots’ encounters with UAPs, the updated designation for what were previously called UFOs. The documents are part of President Donald Trump’s Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) program. Images from the initial disclosure show oddly shaped objects photographed during the Apollo 12 and Apollo 17 missions. The White House said the release is intended to provide maximum transparency so the public can form their own opinions, and Secretary of Defense Pete Hegseth described the effort as unprecedented transparency regarding UAPs. Director of National Intelligence Tulsi Gabbard said the Office of the DNI is coordinating de",
+    "2026-burchett-can-claims-disclosure-humans-ketchup-representative-speed-tim": "The US government plans to release the first set of UFO files in a new disclosure, but the release will not include the 46 documents and videos that Congress requested from the Department of War. Representative Tim Burchett, a member of the UAP Caucus and chairman of the DOGE Subcommittee, said that most of the material in the first release is likely to be testimonials from US military pilots who encountered UAPs while on active duty. Burchett spoke about these encounters on the Joe Rogan podcast, where he described seeing media related to UFOs or UAPs provided by whistleblowers and later officials. He claimed that pilots who reported UAP activity were removed from active duty and sent for psychological evaluation. Burchett also mentioned underwater UFOs, saying he had seen crafts moving over 200 miles per hour that sonar detected as large as a football field. He described the UAPs’ maneuvering speed and angle as so extreme that he said they could turn a person into a ketchup package. Tweets from the Daily Mail on May 7, 2026, announced a secret Pentagon UFO briefing and warned that the full truth would",
     "corbell-disclosure-dives-dog-fight-jeremy-sleeping-trailer": "The trailer for “SLEEPING DOG” offers a first look at a documentary that follows investigative journalist and filmmaker Jeremy Corbell and his controversial rise in the UAP disclosure movement. Directed by Michael Lazovsky, the film has been described as a real‑life “Disclosure Day” and charts Corbell’s transition from mixed martial artist to a prominent figure pushing for transparency around unidentified aerial phenomena. It will open in select theaters on May 8, 2026, before becoming available on digital platforms on May 12. The documentary explores Corbell’s long partnership with investigative reporter George Knapp and their attempts to bring military‑filmed UAP footage and whistleblower testimony to the public eye. It promises unprecedented access and never‑before‑seen footage from Corbell’s earliest investigations, featuring figures such as astronaut Edgar Mitchell, John Lear, Bob Lazar, David Grusch, David Fravor, John B. Alexander and others involved in the UAP transparency movement. The film is produced by Jeremy Corbell, Jim Martin and Michael Lazovsky and aims to provide an intimate, high‑stakes look at one of the most polarizing subjects of the modern era.",
     "biologics-craft-david-grusch-human-non-whistleblower": "David Grusch served 14 years in the Air Force, reaching the rank of Major and completing a combat tour in Afghanistan. He held senior intelligence positions at the National Geospatial-Intelligence Agency and the National Reconnaissance Office. Grusch represented the NRO on the Unidentified Aerial Phenomena Task Force from 2019 to 2021. In 2022 he filed a whistleblower complaint that was described as credible and urgent. In 2023 he testified before Congress. He claimed that elements of the U.S. government had thwarted Congressional oversight, withheld information from proper Executive Branch officials, and illegally concealed programs related to the recovery and reverse engineering of craft of unknown, non‑human origin.",
     "anna-beyond-book-disclosure-enoch-frames-human-luna-paulina-perception": "Rep. Anna Paulina Luna of Florida publicly suggested that the ongoing discussion about unidentified aerial phenomena may be closely connected to themes found in the Book of Enoch. She frames this link through the interdimensional hypothesis and Carl Sagan’s Flatland teaching model, arguing that both the modern UAP conversation and the ancient text describe interactions between different layers of existence. The UAP conversation, acknowledged by NASA and the Department of Defense, includes documented observations of sudden acceleration, seamless trans‑medium travel, and behavior that does not align with known propulsion systems or aerodynamics. Luna’s remarks emphasize that the Book of Enoch is not presented as scientific evidence but as an early attempt to describe encounters that lacked a clear vocabulary, mirroring the structural parallels of the interdimensional hypothesis. She does not claim that UAPs are definitively linked to the Watchers of the Book of Enoch, noting that no verified evidence currently supports such a connection. The article warns that introducing religious or historical texts into a policy‑driven discussion carries risks of misinterpretation and speculation, while acknowledging that the disclosure process is revealing complexity rather than simple answers.",
+    "files-info-interesting-never-pentagon-revealed-seen-trumps-very-vows": "President Donald Trump announced that the Pentagon is preparing to release UFO files that his administration has uncovered, describing them as “very interesting” and suggesting that they will be unprecedented in the U.S. government’s history. In February, Trump directed federal agencies to release records on extraterrestrial life, unidentified aerial phenomena (UAP), and UFOs, and he has since teased an imminent release of documents that have never before been shared. The Pentagon has been declassifying UFO documents for years, and a 2024 report from the All‑Domain Anomaly Resolution Office identified hundreds of new UAP incidents but found no evidence that the U.S. government had confirmed alien technology. Former director Sean Kirkpatrick said that Trump’s promises are bluster and that there are no bombshell revelations, noting that the government’s records contain no photos or interviews with aliens. A GOP‑led Task Force on the Declassification of Federal Secrets, co‑chaired by Florida Representative Anna Paulina Luna, has demanded UAP videos from the Pentagon, but a deadline set by Luna passed without any videos being produced. Vice President JD Vance has described himself as “obsessed” with UFO files and believes that sightings are the work of spiritual demons, while Trump himself has expressed uncertainty about the existence of extraterrestrial life.",
     "accused-alien-backing-bias-claims-conspiracy-fringe-gallaudet-ignites-tech": "International Business Times UK lists a UAP-related report dated 2026-04-29 under the headline \"UFO War Ignites As Tim Gallaudet Accused Of Conspiracy Bias And Backing Fringe Alien Tech Claims\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata. The topic is connected with ALIEN in the feed metadata.",
+    "administration-america-file-gov-historic-opens-public-puts-questions-release": "On May 8, 2026, the U.S. Department of War announced the first release of previously classified government files on Unidentified Anomalous Phenomena (UAP) through a new website, war.gov/ufo, as part of the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE). PURSUE is an interagency effort that includes the White House, the Office of the Director of National Intelligence, the Department of Energy, AARO, NASA, the FBI, and other intelligence community components. The initial release contains more than 160 documents, including State Department and FBI reports, NASA mission transcripts, eyewitness accounts, photographs, a 1947 Pan Am crew sighting, and a 2023 drone pilot report. The Department of War states that the archived materials involve unresolved cases, meaning the government has not made a definitive determination about the nature of the observed phenomena, and that unresolved status may result from limited data, incomplete information, or the need for additional technical analysis. The release does not confirm extraterrestrial life, alien technology, or recovered alien materials; it simply acknowledges that some UAP cases remain unresolved and that the public has a right to view the underlying records. Secretary of War Pete Hegseth framed the release as a transparency effort aligned with President Donald J. Trump's order, and the government plans to continue rolling out additional files on a regular basis.",
+    "but-files-green-hints-lots-men-released": "The Department of Defense began the initial release of government files on Unidentified Anomalous Phenomena (UAP) on Friday, fulfilling an order from President Trump to disclose documents related to aliens and UFOs. The collection is hosted on a government site that displays black‑and‑white photographs of anomalies, and it includes documents from the DoD, State Department, NASA, and FBI. One file contains eyewitness accounts from federal employees who observed orbs in the dusk sky on two separate days in the Western United States. The release also features images capturing anomalies from the Apollo 17 and Apollo 12 moon missions. Defense Secretary Pete Hegseth said the files have long fueled speculation and that it is time the American people see them. The DoD noted that all files have been reviewed for security, but many have not yet been analyzed to resolve the anomalies.",
+    "archive-drops-file-government-historic-massive-public-release": "On May 8, 2026, the source stupidDOPE reported that the government has dropped a massive UFO file archive to the public. The headline describes the release as historic. The report claims the archive is massive. The release is presented as a significant step in government transparency about unidentified aerial phenomena.",
+    "briefing-burchett-classified-contains-earth-explosive-fire-information-rep-set": "Rep. Tim Burchett, a member of the House Task Force on Declassification of Federal Secrets, warned that classified briefings on unidentified anomalous phenomena (UAP) contain information so profound it would shock the American public and cause widespread concern. In a Newsmax interview, Burchett said he had been briefed by almost every alphabet agency and that full release of the material would “unglue” the country and force citizens to demand answers. He referenced a classified session held about two weeks earlier, describing the information as something that “would have set the Earth on fire,” but did not disclose details, citing legal restrictions on handling sensitive information. Burchett urged President Donald Trump, who earlier this year pledged to direct agencies to release files on UFOs, UAP, and extraterrestrial life, to push for full disclosure, while noting that he is not suicidal and does not take risks amid allegations of threats against those with UAP knowledge. The article also mentions former Rep. Matt Gaetz’s unverified claims of secret military hybrid breeding programs involving extraterrestrials, and the unexplained disappearance of retired Air Force Maj. Gen. William “Neil” McCasland, a former Air Force Research Laboratory commander, which has drawn attention due to his background in advanced aerospace research. Skeptics, including former Rep. Denver Riggleman, dismiss the narratives as unsubstantiated fantasy, and official Pentagon statements attribute most UAP reports to mundane explanations while acknowledging a small percentage remain unexplained. Burchett’s push for transparency reflects bipartisan frustration with bureaucratic resistance",
     "case-forest-mystery-perfect-rendlesham-storm": "Nick Pope, who worked for the UK Ministry of Defence from 1985 to 2006 and headed the UFO desk from 1991 to 1994, said in a 1996 interview that after reviewing evidence he believed that 5–10 % of UFO sightings could not be explained by conventional means and might be extraterrestrial craft. Pope’s research led him to focus on the Rendlesham Forest incident of 24–26 December 1980, when two American airmen reported strange blinking red, blue and white lights near RAF Bentwaters, a US base that housed nuclear missiles. The case is described by Pope as a “perfect storm” because it involved multiple military witnesses, radar confirmation, physical evidence such as ground indentations and scorch marks, and declassified documents now available at the National Archives and the MoD website. Pope co‑authored the 2014 book Encounter in Rendlesham Forest with eyewitnesses Jim Penniston and John Burroughs, who described how they investigated the lights, found a triangular craft with no landing gear, and observed a bright, static‑like burst of light that left them stunned. Penniston reported that the craft was about six and a half feet tall, had a dorsal fin and engravings resembling Egyptian hieroglyphs, and that its surface felt warm and smooth, while Burroughs was frozen in a beam of white/blue light. The incident remains unexplained, with the witnesses noting that the craft did not move when they attempted to push it and that the surrounding area showed unusual indentations, suggesting technology beyond current human capability.",
     "common-insider-interesting-missing-scientists-share-ties": "A NewsNation article dated April 27, 2026 reports that a UFO insider claims missing scientists share interesting common ties. The claim is presented in the headline, which states that the missing scientists have “interesting common ties.” No description of the article is available in the feed metadata. The article is part of a cluster of NewsNation sources. No additional context or details are provided in the brief.",
+    "conspiracy-house-missing-scientists-spreads-theory-web-white": "A conspiracy theory claiming that the disappearances or deaths of at least 11 U.S. scientists linked to space, defense, and nuclear research are part of a plot involving China or other state enemies and UFOs has spread from the internet to right‑wing media, mainstream press, and prompted congressional inquiry and questions from Donald Trump. The theory began with the disappearance of retired Air Force Major General William “Neil” McCasland on 27 February, who left his home in Albuquerque with his phone and glasses behind, was reported missing by his wife, and a silver alert was issued, but no trace of him has been found. Other cases cited in the theory include NASA scientist Michael David Hicks, who died in 2023; Monica Reza, who vanished while hiking in 2023; astrophysicist Carl Grillmair, who was shot on his porch; MIT physicist Nuno Loureiro, who was killed by a former classmate; chemical biologist Jason Thomas, whose remains were found in Massachusetts; and researcher Amy Eskridge, who died by suicide in 2022. Republican lawmakers James Comer and Eric Burlison sent a letter to the FBI, Department of Energy, NASA, and other agencies demanding an investigation into a “possible sinister connection” among the disappearances, citing the deaths of two Los Alamos National Laboratory workers and the alleged close professional link between Reza and McCasland. Investigators have said they are investigating every possible link, but have not confirmed any connection, and the White House has not confirmed any link between the cases. Experts such as Greg Eghigian and Susan McCasland Wilkerson have argued that the narrative is driven by a convergence of existing fears about UFOs, nuclear facilities, and state secrets, and that there is no evidence to support the claim that the scientists were abducted or targeted for their knowledge.",
+    "encounters-presidential-pursue-reporting-system-unsealing": "The Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) was created in response to a directive from President Donald J. Trump to increase transparency about unidentified aerial phenomena (UAP) and related government records. The Department of War, with support from the Office of the Director of National Intelligence, is coordinating a nationwide effort to locate, review, declassify, and publicly release unresolved UAP‑related documents held by federal agencies. The initiative involves dozens of agencies and the examination of tens of millions of records, many of which exist only on paper and span several decades. The Department of War will publish new materials on a rolling basis, releasing tranches of declassified documents every few weeks as they are discovered. The released files are classified as unresolved cases, meaning the government cannot definitively determine the nature of the observed phenomena due to insufficient data. The Department of War also plans to continue separate reporting on resolved UAP cases as required by statute. Release 01 of the PURSUE archive was cleared for release on May 8, 2026, and includes a statement from Secretary of War Pete Hegseth affirming the administration’s commitment to unprecedented transparency.",
+    "2026-early-files-images-never-releases-seen-showing": "On 8 May 2026 the US Department of War released the first batch of secret files documenting reported sightings of unidentified flying objects (UFOs) dating back to the 1940s. President Donald Trump announced the release on X, stating that the files were provided for “Complete and Maximum Transparency” and that the public could review them. The Department said that additional files will be released on a rolling basis and that the public can access the declassified UAP files instantly without clearance. The 161 files posted on the Defence Department website include reports from the FBI, State Department, NASA, and the Pentagon, and contain images such as a football‑shaped UAP near Japan, a UAP spotted by the US Army in North America in 2026, and a glowing orange orb described as resembling the Eye of Sauron. One file from December 1947 documents reports of “flying discs” and notes that the phenomenon remains a concern for Headquarters, Air Material Command. A March 2024 Pentagon report stated that there was no proof that UAP were alien technology and that many sightings were likely weather balloons, spy planes, satellites, or other normal activity.",
+    "files-house-plans-release-white": "GK Today lists a UAP-related report dated 2026-05-08 under the headline \"White House Plans Release of UAP Files\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.",
     "claims-david-death-growing-missing-narrative-scientists-tied-who-wilcock": "The MSN article dated May 5, 2026 reports that David Wilcock has died. It describes his death as the latest in a growing narrative of missing U.S. scientists tied to UFO claims. The piece frames Wilcock’s death within this broader context of alleged disappearances linked to extraterrestrial investigations. The article is sourced from MSN.",
     "actually-files-interesting-release-they": "On May 4, 2026, OregonLive.com published an article titled “Release the UFO files! (If they’re actually interesting).” The headline calls for the release of UFO files, implying that the files might be of interest. The article is part of a broader discussion about unidentified aerial phenomena. No additional details are available in the metadata. The piece is sourced solely from OregonLive.com.",
     "air-dead-force-found-issue-officer-testify-warning-whistleblowers": "According to a report from MSN dated April 29, 2026, UFO whistleblowers issued a warning after an Air Force officer was found dead before he could testify. The report states that the officer’s death occurred prior to his scheduled testimony. The whistleblowers’ warning is linked to the officer’s planned testimony on UFO. The article is part of a cluster of MSN sources covering UFO-related topics. No additional details are available in the description."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-08T18:53:46Z",
+    "timestamp": "2026-05-08T19:08:45Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 319,
-    "broadTopics": 157,
-    "notificationArticles": 28,
-    "notificationTopics": 12,
+    "broadArticles": 322,
+    "broadTopics": 163,
+    "notificationArticles": 29,
+    "notificationTopics": 13,
     "newNotificationTopics": 0,
-    "appTopics": 36,
+    "appTopics": 30,
     "retentionDays": 14,
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "regroupedTopics": 25,
-    "regroupedAt": "2026-05-08T18:53:47Z"
+    "regroupedTopics": 16,
+    "topicRegrouping": "title_summary_uap_file_release_v3"
   },
   "translations": {
     "batch-declassified-detailing-files-initial-pentagon-releases": {
@@ -899,6 +1040,20 @@
         "provider": "google"
       }
     },
+    "accidental-congress-died-fbi-investigating-months-now-overdose-set-testify": {
+      "en": {
+        "title": "A UFO Whistleblower died of an \"accidental overdose\" months before he was set to testify to congress and now the FBI is now investigating",
+        "summary": "Matthew James Sullivan, a 39‑year‑old Air Force veteran who had worked for the Air Force Intelligence Agency, the National Air and Space Intelligence Center and the NSA, was found dead in his Falls Church, Virginia home on May 12 2024; the medical examiner ruled his death an accidental overdose of alcohol, alprazolam, cyclobenzaprine and imipramine. Sullivan had been scheduled to testify before Congress in November 2024 about the government’s secret UFO crash‑retrieval program and had personally seen UFOs in federal possession.",
+        "sourceHash": "0f3bd7f5ba1dfd4301f15d51a74b322d1212124f",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Ein UFO-Whistleblower starb an einer „versehentlichen Überdosis“, Monate bevor er vor dem Kongress aussagen sollte, und jetzt ermittelt das FBI",
+        "summary": "Matthew James Sullivan, ein 39-jähriger Air-Force-Veteran, der für die Air Force Intelligence Agency, das National Air and Space Intelligence Center und die NSA gearbeitet hatte, wurde am 12. Mai 2024 tot in seinem Haus in Falls Church, Virginia, aufgefunden; Der Gerichtsmediziner entschied, dass sein Tod eine versehentliche Überdosis Alkohol, Alprazolam, Cyclobenzaprin und Imipramin sei. Sullivan sollte im November 2024 vor dem Kongress über das geheime UFO-Absturz-Bergungsprogramm der Regierung aussagen und hatte persönlich UFOs in Bundesbesitz gesehen.",
+        "sourceHash": "0f3bd7f5ba1dfd4301f15d51a74b322d1212124f",
+        "provider": "google"
+      }
+    },
     "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare": {
       "en": {
         "title": "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure",
@@ -910,6 +1065,20 @@
         "title": "Mehrere Pastoren behaupten, US-Militärgeheimdienstoffiziere hätten sie heimlich informiert, um ihre Gemeinden auf die UAP-Offenlegung vorzubereiten",
         "summary": "S. Offiziere des Militärgeheimdienstes, um ihre Gemeinden auf eine bevorstehende UAP-Enthüllung vorzubereiten. Stone, ein in Tennessee ansässiger Pfingstevangelist, sagte in einem Video, ein vertrauenswürdiger Mitarbeiter habe ihn darüber informiert, dass eine Gruppe von Pastoren eingeladen worden sei, direkt von Personen mit Regierungskontakten über eine bevorstehende Offenlegung unbekannter anomaler Phänomene zu hören.",
         "sourceHash": "5779816474d3be3db793da8074095a2b2d4ae1d1",
+        "provider": "google"
+      }
+    },
+    "amid-death-his-inside-james-life-married-matthew-sullivan-suspicious": {
+      "en": {
+        "title": "Was Matthew James Sullivan Married? Inside The UFO Whistleblower's Life Amid His 'Suspicious' Death",
+        "summary": "Matthew James Sullivan, a 39‑year‑old Air Force veteran known by the call sign “Quake,” was found dead at his home in 2024 from an accidental overdose. S. Air Force Intelligence, worked for the National Air and Space Intelligence Centre, the Air Force Intelligence Agency, and the National Security Agency, and received a Bronze Star for valor during Operation Enduring Freedom.",
+        "sourceHash": "4fc590d33e631d2edc1c55573061c43c448d3c18",
+        "provider": "original"
+      },
+      "de": {
+        "title": "War Matthew James Sullivan verheiratet? Im Leben des UFO-Whistleblowers inmitten seines „verdächtigen“ Todes",
+        "summary": "Matthew James Sullivan, ein 39-jähriger Air-Force-Veteran, bekannt unter dem Rufzeichen „Quake“, wurde 2024 tot in seinem Haus aufgrund einer versehentlichen Überdosis aufgefunden. S. Air Force Intelligence, arbeitete für das National Air and Space Intelligence Centre, die Air Force Intelligence Agency und die National Security Agency und erhielt einen Bronze Star für Tapferkeit während der Operation Enduring Freedom.",
+        "sourceHash": "4fc590d33e631d2edc1c55573061c43c448d3c18",
         "provider": "google"
       }
     },
@@ -997,6 +1166,20 @@
         "provider": "google"
       }
     },
+    "conspiracy-house-missing-scientists-spreads-theory-web-white": {
+      "en": {
+        "title": "Conspiracy theory over UFOs and missing scientists spreads from web to White House",
+        "summary": "S. scientists linked to space, defense, and nuclear research are part of a plot involving China or other state enemies and UFOs has spread from the internet to right‑wing media, mainstream press, and prompted congressional inquiry and questions from Donald Trump. The theory began with the disappearance of retired Air Force Major General William “Neil” McCasland on 27 February, who left his home in Albuquerque with his phone and glasses behind, was reported missing by his wife, and a silver alert was issued, but no trace of him has been found.",
+        "sourceHash": "2e6ce304adf972eec505ed104cadf6baef5144b9",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Verschwörungstheorie über UFOs und vermisste Wissenschaftler verbreitet sich vom Internet bis zum Weißen Haus",
+        "summary": "S. Wissenschaftler, die mit Weltraum-, Verteidigungs- und Nuklearforschung in Verbindung stehen, sind Teil einer Verschwörung, an der China oder andere Staatsfeinde beteiligt sind, und UFOs haben sich über das Internet auf rechte Medien und die Mainstream-Presse ausgeweitet und eine Untersuchung des Kongresses und Fragen von Donald Trump ausgelöst. Die Theorie begann mit dem Verschwinden des pensionierten Air Force-Generalmajors William „Neil“ McCasland am 27. Februar, der sein Haus in Albuquerque mit seinem Telefon und seiner Brille verließ, von seiner Frau als vermisst gemeldet wurde und eine Silberwarnung ausgegeben wurde, aber keine Spur von ihm gefunden wurde.",
+        "sourceHash": "2e6ce304adf972eec505ed104cadf6baef5144b9",
+        "provider": "google"
+      }
+    },
     "claims-david-death-growing-missing-narrative-scientists-tied-who-wilcock": {
       "en": {
         "title": "Who was David Wilcock? The latest death in a growing ‘missing US scientists’ narrative tied to UFO claims",
@@ -1041,7 +1224,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 11,
+    "prepared": 14,
     "failed": 0,
     "summary": "compact app summary only",
     "target": "de for English articles, en for German articles",
