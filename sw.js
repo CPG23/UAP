@@ -1,6 +1,6 @@
-var CACHE = 'uap-v72-latest-polish';
+var CACHE = 'uap-v73-latest-polish';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '72';
+var OVERRIDE_VERSION = '73';
 var OVERRIDE_FILES = [
   'translation-override-fix.js',
   'app-feed-overrides.js',
