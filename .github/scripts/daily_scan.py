@@ -12,7 +12,10 @@ from xml.etree import ElementTree as ET
 NTFY_TOPIC = os.environ.get('NTFY_TOPIC', '').strip()
 SEEN_FILE = '.seen-ids.json'
 NTFY_PAYLOAD_FILE = 'ntfy-payload.json'
+LATEST_FILE = 'latest-news.json'
 TODAY = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+RETENTION_DAYS = 14
+MAX_FEED_ARTICLES = 80
 
 try:
     os.remove(NTFY_PAYLOAD_FILE)
@@ -119,6 +122,53 @@ def parse_pub_date(value):
         return None
 
 
+def parse_article_date(value):
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(str(value)[:10]).replace(tzinfo=timezone.utc)
+    except Exception:
+        return None
+
+
+def load_existing_feed():
+    try:
+        with open(LATEST_FILE, encoding='utf-8') as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def recent_enough(article):
+    published = parse_article_date(article.get('date'))
+    if not published:
+        return True
+    return published >= datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)
+
+
+def article_identity(article):
+    return article.get('id') or topic_id(article.get('title', ''))
+
+
+def merge_recent_articles(new_articles, existing_articles):
+    merged = []
+    seen = set()
+    for article in list(new_articles) + list(existing_articles or []):
+        if not article or not article.get('title'):
+            continue
+        article = dict(article)
+        aid = article_identity(article)
+        if not aid or aid in seen:
+            continue
+        if article not in new_articles and not recent_enough(article):
+            continue
+        article['id'] = aid
+        merged.append(article)
+        seen.add(aid)
+    return merged[:MAX_FEED_ARTICLES]
+
+
 def fetch_rss(query, cutoff=None):
     url = 'https://news.google.com/rss/search?q=' + urllib.parse.quote(query) + '&hl=en-US&gl=US&ceid=US:en'
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -217,19 +267,19 @@ def fetch_article_text(url):
 
 
 def fallback_summary(article):
-    source = article.get('source', 'der Quelle')
+    source = article.get('source', 'the listed source')
     date = article.get('date') or TODAY
-    title = article.get('title', 'diese Meldung')
+    title = article.get('title', 'this report')
     terms = article.get('matchedTerms') or []
     term_text = ''
     if terms:
-        term_text = ' Die Meldung ist mit den Begriffen ' + ', '.join(terms[:4]) + ' verknüpft.'
+        term_text = ' The feed connects this item with these terms: ' + ', '.join(terms[:4]) + '.'
     sources = article.get('mentions', 1)
-    source_text = 'einer Quelle' if sources == 1 else f'{sources} Quellen'
+    source_text = 'one source' if sources == 1 else f'{sources} sources'
     return (
-        f'Der Feed meldet einen Artikel von {source} vom {date}. Laut Titel geht es um: "{title}".'
-        f'{term_text} Das Thema wird im aktuellen Feed mit {source_text} geführt. '
-        'Der vollständige Artikeltext konnte für diese Meldung nicht zuverlässig ausgelesen werden; deshalb enthält diese Zusammenfassung nur Angaben, die direkt aus dem Feed bzw. den gelisteten Quellen stammen.'
+        f'The feed lists an article from {source} dated {date}. The title says: "{title}".'
+        f'{term_text} The topic is currently tracked from {source_text}. '
+        'The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals.'
     )
 
 
@@ -237,16 +287,16 @@ def ai_summary(title, text, source_count):
     if not text or len(text) < 700:
         return ''
     prompt = (
-        'Fasse ausschließlich den folgenden Artikeltext auf Deutsch in 5 bis 7 sachlichen Sätzen zusammen. '
-        'Erfinde keine Fakten, Daten, Namen, Belege oder Zusammenhänge. Nutze nur Aussagen, die ausdrücklich im Text stehen. '
-        'Nenne konkrete Akteure, Entscheidungen, Behauptungen, Belege und Unsicherheiten, wenn sie im Text enthalten sind. '
-        'Wenn der Text nicht ausreicht, antworte exakt mit: INSUFFICIENT_SOURCE_TEXT. Kein Markdown. '
-        f'Dieses Thema wird von {source_count} Quelle(n) geführt.\n\n{text[:8000]}'
+        'Summarize only the following article text in English in 5 to 7 factual sentences. '
+        'Do not invent facts, dates, names, evidence, quotes, or connections. Use only claims explicitly present in the text. '
+        'Mention concrete actors, decisions, claims, evidence, and uncertainty when they are present. '
+        'If the text is not sufficient, answer exactly: INSUFFICIENT_SOURCE_TEXT. No markdown. '
+        f'This topic is represented by {source_count} source(s).\n\n{text[:8000]}'
     )
     payload = json.dumps({
         'model': 'openai',
         'messages': [
-            {'role': 'system', 'content': 'Antworte nur mit der gewünschten deutschen Zusammenfassung. Kein Markdown.'},
+            {'role': 'system', 'content': 'Reply only with the requested English summary. No markdown.'},
             {'role': 'user', 'content': prompt},
         ],
         'max_tokens': 950,
@@ -265,6 +315,27 @@ def ai_summary(title, text, source_count):
         return ''
 
 
+def article_payload(article, summaries):
+    aid = article_identity(article)
+    summary = summaries.get(aid) or article.get('summary') or fallback_summary(article)
+    if not isinstance(summary, str) or not summary.strip() or re.search(r'Keine belastbare Zusammenfassung', summary, re.I):
+        summary = fallback_summary(article)
+    return {
+        'id': aid,
+        'title': article['title'],
+        'source': article.get('source', 'UAP News'),
+        'link': article.get('link', ''),
+        'date': article.get('date', TODAY),
+        'summary': summary,
+        'mentions': article.get('mentions', 1),
+        'otherSources': article.get('otherSources', []),
+        'clusterTitles': article.get('clusterTitles', []),
+        'quality': article.get('quality', 0),
+        'qualityExplanation': article.get('qualityExplanation', 'Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.'),
+        'matchedTerms': article.get('matchedTerms', []),
+    }
+
+
 def write_notification_payload(new_articles):
     notification_articles = new_articles[:10]
     if not notification_articles or not NTFY_TOPIC:
@@ -275,18 +346,22 @@ def write_notification_payload(new_articles):
     click = 'https://cpg23.github.io/UAP/?notif=1&ids=' + urllib.parse.quote(','.join(ids), safe=',')
     payload = {
         'topic': NTFY_TOPIC,
-        'title': f'UAP NEWS - {len(notification_articles)} neue Meldung{"en" if len(notification_articles) > 1 else ""}',
+        'title': f'UAP News - {len(notification_articles)} new report{"s" if len(notification_articles) > 1 else ""}',
         'message': message,
         'priority': 3,
         'tags': ['flying_saucer'],
         'click': click,
         'attach': 'https://cpg23.github.io/UAP/latest-news.json',
-        'actions': [{'action': 'view', 'label': 'Artikel öffnen', 'url': click}],
+        'actions': [{'action': 'view', 'label': 'Open articles', 'url': click}],
     }
     with open(NTFY_PAYLOAD_FILE, 'w', encoding='utf-8') as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
     print(f'Prepared ntfy payload for {len(notification_articles)} exact article(s)')
 
+
+existing_feed = load_existing_feed()
+existing_articles = existing_feed.get('articles') or []
+existing_summaries = existing_feed.get('summaries') or {}
 
 broad_queries = [
     'UAP UFO 2026',
@@ -329,38 +404,26 @@ for query in notification_queries:
 
 grouped_notif = group_articles(notif_articles)
 new_articles = [a for a in grouped_notif if a['id'] not in notified_ids]
-display_articles = (new_articles[:10] or grouped_notif[:10] or grouped_all[:12])
+fresh_display_articles = (new_articles[:10] or grouped_notif[:10] or grouped_all[:12])
 notification_articles = new_articles[:10]
 print(f'Notification: {len(notif_articles)} articles, {len(grouped_notif)} topics, {len(new_articles)} new')
-print(f'App feed topics: {len(display_articles)}')
+print(f'Fresh app feed topics: {len(fresh_display_articles)}')
 
-summaries = {}
-for index, article in enumerate(display_articles[:12]):
+summaries = dict(existing_summaries) if isinstance(existing_summaries, dict) else {}
+for index, article in enumerate(fresh_display_articles[:12]):
     text = fetch_article_text(article.get('link', ''))
     summary = ai_summary(article['title'], text, article.get('mentions', 1)) if text else ''
     summaries[article['id']] = summary or fallback_summary(article)
-    if index < len(display_articles[:12]) - 1:
+    if index < len(fresh_display_articles[:12]) - 1:
         time.sleep(1)
+
+retained_articles = merge_recent_articles(fresh_display_articles[:12], existing_articles)
+article_payloads = [article_payload(article, summaries) for article in retained_articles]
+summaries = {article['id']: article['summary'] for article in article_payloads}
 
 latest = {
     'timestamp': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-    'articles': [
-        {
-            'id': article['id'],
-            'title': article['title'],
-            'source': article.get('source', 'UAP News'),
-            'link': article.get('link', ''),
-            'date': article.get('date', TODAY),
-            'summary': summaries.get(article['id'], fallback_summary(article)),
-            'mentions': article.get('mentions', 1),
-            'otherSources': article.get('otherSources', []),
-            'clusterTitles': article.get('clusterTitles', []),
-            'quality': article.get('quality', 0),
-            'qualityExplanation': article.get('qualityExplanation', 'Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.'),
-            'matchedTerms': article.get('matchedTerms', []),
-        }
-        for article in display_articles[:12]
-    ],
+    'articles': article_payloads,
     'summaries': summaries,
     'notificationBatch': {
         'timestamp': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
@@ -376,15 +439,16 @@ latest = {
         'notificationArticles': len(notif_articles),
         'notificationTopics': len(grouped_notif),
         'newNotificationTopics': len(new_articles),
-        'appTopics': len(display_articles),
+        'appTopics': len(article_payloads),
+        'retentionDays': RETENTION_DAYS,
         'filters': 'UAP relevance plus entertainment/gaming/fiction exclusion',
         'quality': 'UAP relevance, official institutions, source trust, independent source count, topic clustering',
     },
 }
 
-with open('latest-news.json', 'w', encoding='utf-8') as f:
+with open(LATEST_FILE, 'w', encoding='utf-8') as f:
     json.dump(latest, f, ensure_ascii=False, indent=2)
-print(f'latest-news.json: {len(display_articles[:12])} app topics, {len(summaries)} summary keys')
+print(f'latest-news.json: {len(article_payloads)} app topics, {len(summaries)} summary keys')
 
 if new_articles:
     new_ids = list(notified_ids | {a['id'] for a in new_articles})[-500:]
