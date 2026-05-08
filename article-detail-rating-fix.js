@@ -2,6 +2,7 @@
   'use strict';
 
   var STYLE_ID = 'uap-article-detail-rating-fix-style';
+  var sorting = false;
 
   function injectStyle(){
     if (document.getElementById(STYLE_ID)) return;
@@ -9,9 +10,11 @@
     style.id = STYLE_ID;
     style.textContent = [
       '.article-card:not(.uap-detail-open) .summary{display:none!important}',
-      '.article-card.uap-detail-open .summary{display:block!important}',
+      '.article-card.uap-detail-open .summary{display:block!important;margin-top:12px!important}',
       '.article-card{cursor:pointer}',
       '.article-card .article-main{cursor:pointer}',
+      '.article-card h2{font-weight:400!important}',
+      '.article-card strong{font-weight:500!important}',
       '.quality-sheet:not(.general-quality) .quality-rules{display:flex!important;flex-direction:column!important;gap:7px!important}',
       '.quality-sheet:not(.general-quality) .quality-rule{display:grid!important}',
       '.quality-sheet.general-quality .quality-points{display:inline-block!important}',
@@ -31,6 +34,9 @@
   function setOpen(card, open){
     if (!card) return;
     card.classList.toggle('uap-detail-open', !!open);
+    card.querySelectorAll('.summary').forEach(function(summary){
+      summary.style.display = open ? 'block' : 'none';
+    });
   }
 
   function toggleCard(card){
@@ -61,9 +67,37 @@
     rows.forEach(function(row){ rules.appendChild(row); });
   }
 
+  function cardQuality(card){
+    var badge = card && card.querySelector('.badge.quality');
+    var match = badge && badge.textContent.match(/\d+/);
+    return match ? Number(match[0]) : 0;
+  }
+
+  function sortCardsIn(container){
+    if (!container || sorting) return;
+    var cards = Array.prototype.slice.call(container.querySelectorAll(':scope > .article-card'));
+    if (cards.length < 2) return;
+    sorting = true;
+    try {
+      cards.sort(function(a,b){ return cardQuality(b) - cardQuality(a); });
+      cards.forEach(function(card){ container.appendChild(card); });
+    } finally {
+      sorting = false;
+    }
+  }
+
+  function sortVisibleFeeds(){
+    sortCardsIn(document.getElementById('feed'));
+    document.querySelectorAll('.old-list').forEach(sortCardsIn);
+  }
+
   function apply(){
     injectStyle();
+    document.querySelectorAll('.article-card:not(.uap-detail-open) .summary').forEach(function(summary){
+      summary.style.display = 'none';
+    });
     document.querySelectorAll('.quality-sheet').forEach(sortArticleQuality);
+    sortVisibleFeeds();
   }
 
   window.addEventListener('click', function(e){
@@ -71,6 +105,7 @@
     if (!card || isInteractive(e.target)) return;
     e.preventDefault();
     e.stopPropagation();
+    e.stopImmediatePropagation();
     toggleCard(card);
   }, true);
 
@@ -87,6 +122,7 @@
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
       e.stopPropagation();
+      e.stopImmediatePropagation();
       toggleCard(card);
     }
   }, true);
