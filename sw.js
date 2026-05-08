@@ -1,6 +1,6 @@
-var CACHE = 'uap-v81-translation-priority';
+var CACHE = 'uap-v82-startup-opaque';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '81';
+var OVERRIDE_VERSION = '82';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'translation-override-fix.js',
@@ -21,7 +21,8 @@ var OVERRIDE_FILES = [
   'final-ui-order-fix.js',
   'scroll-heading-fix.js',
   'latest-polish-fix.js',
-  'topic-regroup-display-fix.js'
+  'topic-regroup-display-fix.js',
+  'startup-opaque-fix.js'
 ];
 
 self.addEventListener('install', function(e) {
