@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08T06:27:48Z",
+  "timestamp": "2026-05-08T06:49:25Z",
   "articles": [
     {
       "id": "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare",
@@ -51,7 +51,7 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "DISCLOSURE",
         "MILITARY"
@@ -105,7 +105,7 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "DISCLOSURE"
       ]
@@ -163,9 +163,70 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "CONGRESS",
+        "WHISTLEBLOWER"
+      ]
+    },
+    {
+      "id": "amid-death-his-inside-james-life-married-matthew-sullivan-suspicious",
+      "title": "Was Matthew James Sullivan Married? Inside The UFO Whistleblower's Life Amid His 'Suspicious' Death",
+      "source": "BollywoodShaadis",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY1Q5UHF2VXJ3WHltY2pEQXRKVlloWmFaejJpX1daYnlHc3dQb05HVEZfX0hTc0hHelN5S1poWmptVXpId2wtUkZIZlYyWllfRUM5dVhEZjNTYWNlUHRNVFZZUjRQbnNjajR4M0NBY3hBV1BHX04tUjk1Q3dSa1A3d0ZtNURSVU5McFNKTHdWRnM5MzhMc0N4d2I1Ti0yZGRxU1pqLTlzT1dHdHo4Vy11T0txaW9kUEVJ?oc=5",
+      "date": "2026-04-26",
+      "summary": "Matthew James Sullivan, a 39‑year‑old Air Force veteran known by the call sign “Quake,” was found dead at his home in 2024 from an accidental overdose. Sullivan had served in the U.S. Air Force Intelligence, worked for the National Air and Space Intelligence Centre, the Air Force Intelligence Agency, and the National Security Agency, and received a Bronze Star for valor during Operation Enduring Freedom. His death has been discussed alongside the recent deaths of UFO researchers David Wilcock and Nick Pope, all of whom were linked to sensitive areas such as nuclear research, advanced aerospace, and UFO/UAP studies. Reports from the New York Post claim that 11 to 14 scientists and experts connected to aerospace, defense, or advanced research have died or gone missing in recent years, prompting federal attention. FBI officials, with the help of multiple agencies, are reviewing all reported cases to determine whether the incidents are coincidental or part of a larger pattern. At Sullivan’s funeral, retired Major General David Abba remarked that Sullivan carried “the burden that a select few in this nation have of truly understanding what’s going on,” fueling speculation that Sullivan’s death may not have been a mere accident, though no official confirmation supports this claim.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "source": "International Business Times UK",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOU5jS0djYTFpWWFZazRxRHlZNVpjVTZYMW16U1ZBamU5X3VGX2R4c2Y2U2hRaW96Tkl2VVBOd3FEU3RsbmE2LUtsSHpPTjctNVljNDV1bEVHMWNvZk1hNDk2Vk9ISURLZHlJdW42b1g0RXRTZFhKRnJPX1FEejFUR0ZJb0xBSVMwNmp6cDJpY1dxakJ2Wmc0eHVXVQ?oc=5",
+          "title": "Who is Matthew James Sullivan? UFO Whistleblower's 'Mysterious' Death a 'Grave Concern' and May Be 'Foul Play'"
+        }
+      ],
+      "clusterTitles": [
+        "Who is Matthew James Sullivan? UFO Whistleblower's 'Mysterious' Death a 'Grave Concern' and May Be 'Foul Play'"
+      ],
+      "quality": 63,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 7,
+          "text": "2 Quelle(n) im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
         "WHISTLEBLOWER"
       ]
     },
@@ -217,7 +278,7 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "DISCLOSURE"
       ]
@@ -270,60 +331,7 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
-      "matchedTerms": [
-        "WHISTLEBLOWER"
-      ]
-    },
-    {
-      "id": "amid-death-his-inside-james-life-married-matthew-sullivan-suspicious",
-      "title": "Was Matthew James Sullivan Married? Inside The UFO Whistleblower's Life Amid His 'Suspicious' Death",
-      "source": "BollywoodShaadis",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY1Q5UHF2VXJ3WHltY2pEQXRKVlloWmFaejJpX1daYnlHc3dQb05HVEZfX0hTc0hHelN5S1poWmptVXpId2wtUkZIZlYyWllfRUM5dVhEZjNTYWNlUHRNVFZZUjRQbnNjajR4M0NBY3hBV1BHX04tUjk1Q3dSa1A3d0ZtNURSVU5McFNKTHdWRnM5MzhMc0N4d2I1Ti0yZGRxU1pqLTlzT1dHdHo4Vy11T0txaW9kUEVJ?oc=5",
-      "date": "2026-04-26",
-      "summary": "Matthew James Sullivan, a 39‑year‑old Air Force veteran known by the call sign “Quake,” was found dead at his home in 2024 from an accidental overdose. Sullivan had served in the U.S. Air Force Intelligence, worked for the National Air and Space Intelligence Centre, the Air Force Intelligence Agency, and the National Security Agency, and received a Bronze Star for valor during Operation Enduring Freedom. His death has been discussed alongside the recent deaths of UFO researchers David Wilcock and Nick Pope, all of whom were linked to sensitive areas such as nuclear research, advanced aerospace, and UFO/UAP studies. Reports from the New York Post claim that 11 to 14 scientists and experts connected to aerospace, defense, or advanced research have died or gone missing in recent years, prompting federal attention. FBI officials, with the help of multiple agencies, are reviewing all reported cases to determine whether the incidents are coincidental or part of a larger pattern. At Sullivan’s funeral, retired Major General David Abba remarked that Sullivan carried “the burden that a select few in this nation have of truly understanding what’s going on,” fueling speculation that Sullivan’s death may not have been a mere accident, though no official confirmation supports this claim.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 56,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 0,
-          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "WHISTLEBLOWER"
       ]
@@ -361,7 +369,7 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": []
     },
     {
@@ -397,8 +405,56 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": []
+    },
+    {
+      "id": "briefing-burchett-classified-contains-earth-explosive-fire-information-rep-set",
+      "title": "Rep. Tim Burchett Warns Classified UAP Briefing Contains Explosive Information That Could ‘Set the Earth on Fire’",
+      "source": "USA Herald",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYjU5RUpiQWUyamc5bVo4UmV0Zl9XQnJTaWVMQ2lLWVZDSXdsS2JxMzY3NEZzUmhKYlFjVjFjMk5MQmwxZ3ZQeGxXTmIxaUtHWWVyRmRHT2l2dHNsM3I4MTNVdms1X2ZTWU9GNnBvdWlVX21RZTluMUpnNkcwVTJXWjcwTi03bkZtVG50aGNwYTZLZGR2ZEpnTEJ4SWdHR2JaRXJ5bEYtNGctUk42QWF3dVFfbHBzbWhZZnNBV3JhbGdHa1JvcUJDQ2YwTjViQQ?oc=5",
+      "date": "2026-05-06",
+      "summary": "Rep. Tim Burchett (R‑Tenn.), a member of the House Task Force on the Declassification of Federal Secrets, warned that classified briefings on unidentified anomalous phenomena (UAP) contain information so profound it would shock the American public and cause people to worry. In a Newsmax interview, he said he has been briefed by “just about every alphabet agency” and that full release of what he has seen would “unglue” the country, with citizens demanding immediate answers. Burchett referred to a classified session about two weeks earlier, describing the information as something that “would’ve set the Earth on fire,” but he did not disclose classified details, citing legal restrictions on members of Congress. He urged President Donald Trump—who earlier this year pledged to direct agencies to release files related to UFOs, UAP, and alien and extraterrestrial life—to push for full disclosure, adding that he is not suicidal and does not take risks amid longstanding allegations of threats to those with knowledge of the topic. Burchett has long criticized government secrecy on UAP, previously introducing the UAP Transparency Act and participating in efforts to declassify records. The article notes that former Rep. Matt Gaetz has alleged briefings on secret military programs involving hybrid breeding between captured extraterrestrials and humans, but Gaetz has not verified those claims, and the disappearance of retired Air Force Maj. Gen. William “Neil” McCasland has drawn attention due to his background in advanced aerospace research, though no evidence of foul play has been confirmed. Official Pentagon statements attribute most UAP reports to mundane explanations such as balloons, drones, or sensor artifacts, and no concrete evidence has been publicly released confirming alien‑human hybrids, recovered extraterrestrial bodies, or programs involving non‑human entities.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 49,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "CLASSIFIED als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "CLASSIFIED als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "CLASSIFIED"
+      ]
     },
     {
       "id": "case-deaths-fbi-following-investigates-james-linked-matthew-overdose-ruling",
@@ -410,7 +466,7 @@
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 49,
+      "quality": 41,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -441,9 +497,14 @@
           "label": "Mehrere Quellen",
           "points": 0,
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        },
+        {
+          "label": "Quellenrisiko",
+          "points": -8,
+          "text": "Abzug, weil die einzige Quelle in diesem Themencluster eher Boulevard, Clickbait oder Unterhaltung ist."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "FBI"
       ]
@@ -491,7 +552,7 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "NONHUMAN"
       ]
@@ -524,7 +585,7 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": []
     },
     {
@@ -555,38 +616,7 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
-      "matchedTerms": []
-    },
-    {
-      "id": "admit-being-called-craft-crazy-critical-encounters-fear-near-officials",
-      "title": "UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites",
-      "source": "International Business Times UK",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SWXlMV2tDNFZsejRBYmxEcHF2ZXVfQkhKdmZrd3I5NVgtVHhlMHM5U2NCNS0zdEJ5eU41MjRsQVBGeld1dlEzaDVRWm00ZDFJODBYR2NjMTNyTHNBeEZtbHZldDZlaXo4b3dBeHMybnBCRmY0S1NJU25GVm44QQ?oc=5",
-      "date": "2026-05-05",
-      "summary": "The U.S. Department of Defense has failed to meet an April 14, 2026 congressional deadline to release 46 Pentagon UAP videos that were formally logged as unidentified. Anna Paulina Luna, a whistleblower, wrote to Defense Secretary Pete Hegseth expressing concern that the lack of transparency about UAP incidents could have national security implications. The videos are held by the Pentagon’s All‑domain Anomaly Resolution Office (AARO) and include sightings such as UAP formations, objects near airports, and footage from military aircraft over the Persian Gulf and Syria, including a 2021 instant‑acceleration event. Congress, through the House Committee on Oversight and Government Reform’s Task Force on the Declassification of Federal Secrets, is demanding access to the 46 recordings, while the Pentagon says some material may remain classified or be reviewed in closed briefings. Whistleblowers report that individuals in government and related sectors have seen unexplained objects but are reluctant to speak publicly due to reputational and professional concerns. AARO has stated that many UAP reports have explanations but others lack sufficient data for definitive conclusions, and the oversight task force criticized AARO’s responses as “less than adequate.” The Pentagon continues to review the evidence, with some findings expected to be shared with Congress in classified settings, and it remains unclear whether the full set of videos will be released publicly.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 0,
-          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": []
     },
     {
@@ -617,7 +647,7 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": []
     },
     {
@@ -648,7 +678,38 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": []
+    },
+    {
+      "id": "admit-being-called-craft-crazy-critical-encounters-fear-near-officials",
+      "title": "UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites",
+      "source": "International Business Times UK",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SWXlMV2tDNFZsejRBYmxEcHF2ZXVfQkhKdmZrd3I5NVgtVHhlMHM5U2NCNS0zdEJ5eU41MjRsQVBGeld1dlEzaDVRWm00ZDFJODBYR2NjMTNyTHNBeEZtbHZldDZlaXo4b3dBeHMybnBCRmY0S1NJU25GVm44QQ?oc=5",
+      "date": "2026-05-05",
+      "summary": "The U.S. Department of Defense has failed to meet an April 14, 2026 congressional deadline to release 46 Pentagon UAP videos that were formally logged as unidentified. Anna Paulina Luna, a whistleblower, wrote to Defense Secretary Pete Hegseth expressing concern that the lack of transparency about UAP incidents could have national security implications. The videos are held by the Pentagon’s All‑domain Anomaly Resolution Office (AARO) and include sightings such as UAP formations, objects near airports, and footage from military aircraft over the Persian Gulf and Syria, including a 2021 instant‑acceleration event. Congress, through the House Committee on Oversight and Government Reform’s Task Force on the Declassification of Federal Secrets, is demanding access to the 46 recordings, while the Pentagon says some material may remain classified or be reviewed in closed briefings. Whistleblowers report that individuals in government and related sectors have seen unexplained objects but are reluctant to speak publicly due to reputational and professional concerns. AARO has stated that many UAP reports have explanations but others lack sufficient data for definitive conclusions, and the oversight task force criticized AARO’s responses as “less than adequate.” The Pentagon continues to review the evidence, with some findings expected to be shared with Congress in classified settings, and it remains unclear whether the full set of videos will be released publicly.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": []
     },
     {
@@ -694,57 +755,9 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "FBI"
-      ]
-    },
-    {
-      "id": "briefing-burchett-classified-contains-earth-explosive-fire-information-rep-set",
-      "title": "Rep. Tim Burchett Warns Classified UAP Briefing Contains Explosive Information That Could ‘Set the Earth on Fire’",
-      "source": "USA Herald",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYjU5RUpiQWUyamc5bVo4UmV0Zl9XQnJTaWVMQ2lLWVZDSXdsS2JxMzY3NEZzUmhKYlFjVjFjMk5MQmwxZ3ZQeGxXTmIxaUtHWWVyRmRHT2l2dHNsM3I4MTNVdms1X2ZTWU9GNnBvdWlVX21RZTluMUpnNkcwVTJXWjcwTi03bkZtVG50aGNwYTZLZGR2ZEpnTEJ4SWdHR2JaRXJ5bEYtNGctUk42QWF3dVFfbHBzbWhZZnNBV3JhbGdHa1JvcUJDQ2YwTjViQQ?oc=5",
-      "date": "2026-05-06",
-      "summary": "Rep. Tim Burchett (R‑Tenn.), a member of the House Task Force on the Declassification of Federal Secrets, warned that classified briefings on unidentified anomalous phenomena (UAP) contain information so profound it would shock the American public and cause people to worry. In a Newsmax interview, he said he has been briefed by “just about every alphabet agency” and that full release of what he has seen would “unglue” the country, with citizens demanding immediate answers. Burchett referred to a classified session about two weeks earlier, describing the information as something that “would’ve set the Earth on fire,” but he did not disclose classified details, citing legal restrictions on members of Congress. He urged President Donald Trump—who earlier this year pledged to direct agencies to release files related to UFOs, UAP, and alien and extraterrestrial life—to push for full disclosure, adding that he is not suicidal and does not take risks amid longstanding allegations of threats to those with knowledge of the topic. Burchett has long criticized government secrecy on UAP, previously introducing the UAP Transparency Act and participating in efforts to declassify records. The article notes that former Rep. Matt Gaetz has alleged briefings on secret military programs involving hybrid breeding between captured extraterrestrials and humans, but Gaetz has not verified those claims, and the disappearance of retired Air Force Maj. Gen. William “Neil” McCasland has drawn attention due to his background in advanced aerospace research, though no evidence of foul play has been confirmed. Official Pentagon statements attribute most UAP reports to mundane explanations such as balloons, drones, or sensor artifacts, and no concrete evidence has been publicly released confirming alien‑human hybrids, recovered extraterrestrial bodies, or programs involving non‑human entities.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 49,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "CLASSIFIED als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "CLASSIFIED als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 0,
-          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
-      "matchedTerms": [
-        "CLASSIFIED"
       ]
     },
     {
@@ -802,7 +815,7 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "DISCLOSURE",
         "PENTAGON"
@@ -856,7 +869,7 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "DISCLOSURE"
       ]
@@ -866,31 +879,31 @@
     "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare": "Several religious leaders, including Pastor Perry Stone and evangelist Tony Merkel, claim they were privately briefed by U.S. military intelligence officers to prepare their congregations for an upcoming UAP disclosure. Stone, a Tennessee‑based Pentecostal evangelist, said in a video that a trusted associate informed him that a group of pastors was invited to hear directly from government‑connected individuals about an imminent disclosure event involving unidentified anomalous phenomena. Stone described the briefing as covering craft not allegedly part of our planet, non‑human beings, and a coordinated propaganda plan already in motion. Merkel says he has been in contact with officials for over a year, describing them as Christians in intelligence operations assigned to work within the UAP disclosure community, and that they approached him with a mission to prepare the body of Christ for what is coming. The state where the briefing took place has not been disclosed, and no government memo, official invitation, transcript, or attendee list has surfaced. The White House has not denied the claims, and Washington has remained silent, a silence the article notes is significant.",
     "corbell-disclosure-dives-dog-fight-jeremy-sleeping-trailer": "The trailer for “SLEEPING DOG” offers a first look at a documentary that follows investigative journalist and filmmaker Jeremy Corbell and his controversial rise in the UAP disclosure movement. Directed by Michael Lazovsky, the film has been described as a real‑life “Disclosure Day” and charts Corbell’s transition from mixed martial artist to a prominent figure pushing for transparency around unidentified aerial phenomena. It will open in select theaters on May 8, 2026, before becoming available on digital platforms on May 12. The documentary explores Corbell’s long partnership with investigative reporter George Knapp and their attempts to bring military‑filmed UAP footage and whistleblower testimony to the public eye. It promises unprecedented access and never‑before‑seen footage from Corbell’s earliest investigations, featuring figures such as astronaut Edgar Mitchell, John Lear, Bob Lazar, David Grusch, David Fravor, John B. Alexander and others involved in the UAP transparency movement. The film is produced by Jeremy Corbell, Jim Martin and Michael Lazovsky and aims to provide an intimate, high‑stakes look at one of the most polarizing subjects of the modern era.",
     "accidental-agreeing-congress-died-drug-overdose-testify-whistleblower": "Matthew James Sullivan, a 39‑year‑old Air Force veteran, died on May 12, 2024 at his home in Falls Church, Va., from an accidental drug overdose involving alcohol, alprazolam, cyclobenzaprine and imipramine, according to the Northern District Office of the Chief Medical Examiner. Sullivan had agreed to testify before Congress about secret government UFO programs and was preparing to appear at a hearing scheduled for November 2024. Representative Eric Burlison (R‑Mo.) expressed grave concern over Sullivan’s death, citing “implications for national security,” and referred the case to the FBI in a letter to FBI Director Kash Patel. The FBI said it could be investigating Sullivan’s death as part of a broader effort to examine the circumstances surrounding the disappearance or death of a dozen other U.S. scientists, working with the Department of Energy, Department of War and local law enforcement. Sullivan had earned a Bronze Star for valor in Operation Enduring Freedom, worked for the Air Force Intelligence Agency, the National Air and Space Intelligence Center and the NSA, and was described by retired Major General David Abba as carrying “the burden that a select few in this nation have of truly understanding what’s going on.” Other UFO whistleblowers, such as David Grusch, have reported threats and reprisals after revealing evidence of U.S. possession of UFOs, and Grusch’s 2022 letter to the Intelligence Community Office of Inspector General included information about Sullivan’s death, though the IC OIG has stated it cannot confirm or deny any ongoing investigations.",
+    "amid-death-his-inside-james-life-married-matthew-sullivan-suspicious": "Matthew James Sullivan, a 39‑year‑old Air Force veteran known by the call sign “Quake,” was found dead at his home in 2024 from an accidental overdose. Sullivan had served in the U.S. Air Force Intelligence, worked for the National Air and Space Intelligence Centre, the Air Force Intelligence Agency, and the National Security Agency, and received a Bronze Star for valor during Operation Enduring Freedom. His death has been discussed alongside the recent deaths of UFO researchers David Wilcock and Nick Pope, all of whom were linked to sensitive areas such as nuclear research, advanced aerospace, and UFO/UAP studies. Reports from the New York Post claim that 11 to 14 scientists and experts connected to aerospace, defense, or advanced research have died or gone missing in recent years, prompting federal attention. FBI officials, with the help of multiple agencies, are reviewing all reported cases to determine whether the incidents are coincidental or part of a larger pattern. At Sullivan’s funeral, retired Major General David Abba remarked that Sullivan carried “the burden that a select few in this nation have of truly understanding what’s going on,” fueling speculation that Sullivan’s death may not have been a mere accident, though no official confirmation supports this claim.",
     "anna-beyond-book-disclosure-enoch-frames-human-luna-paulina-perception": "Rep. Anna Paulina Luna of Florida publicly suggested that the ongoing discussion about unidentified aerial phenomena may be closely connected to themes found in the Book of Enoch. She frames this link through the interdimensional hypothesis and Carl Sagan’s Flatland teaching model, arguing that both the modern UAP conversation and the ancient text describe interactions between different layers of existence. The UAP conversation, acknowledged by NASA and the Department of Defense, includes documented observations of sudden acceleration, seamless trans‑medium travel, and behavior that does not align with known propulsion systems or aerodynamics. Luna’s remarks emphasize that the Book of Enoch is not presented as scientific evidence but as an early attempt to describe encounters that lacked a clear vocabulary, mirroring the structural parallels of the interdimensional hypothesis. She does not claim that UAPs are definitively linked to the Watchers of the Book of Enoch, noting that no verified evidence currently supports such a connection. The article warns that introducing religious or historical texts into a policy‑driven discussion carries risks of misinterpretation and speculation, while acknowledging that the disclosure process is revealing complexity rather than simple answers.",
     "biologics-craft-david-grusch-human-non-whistleblower": "David Grusch served 14 years in the Air Force, reaching the rank of Major and completing a combat tour in Afghanistan. He held senior intelligence positions at the National Geospatial-Intelligence Agency and the National Reconnaissance Office. Grusch represented the NRO on the Unidentified Aerial Phenomena Task Force from 2019 to 2021. In 2022 he filed a whistleblower complaint that was described as credible and urgent. In 2023 he testified before Congress. He claimed that elements of the U.S. government had thwarted Congressional oversight, withheld information from proper Executive Branch officials, and illegally concealed programs related to the recovery and reverse engineering of craft of unknown, non‑human origin.",
-    "amid-death-his-inside-james-life-married-matthew-sullivan-suspicious": "Matthew James Sullivan, a 39‑year‑old Air Force veteran known by the call sign “Quake,” was found dead at his home in 2024 from an accidental overdose. Sullivan had served in the U.S. Air Force Intelligence, worked for the National Air and Space Intelligence Centre, the Air Force Intelligence Agency, and the National Security Agency, and received a Bronze Star for valor during Operation Enduring Freedom. His death has been discussed alongside the recent deaths of UFO researchers David Wilcock and Nick Pope, all of whom were linked to sensitive areas such as nuclear research, advanced aerospace, and UFO/UAP studies. Reports from the New York Post claim that 11 to 14 scientists and experts connected to aerospace, defense, or advanced research have died or gone missing in recent years, prompting federal attention. FBI officials, with the help of multiple agencies, are reviewing all reported cases to determine whether the incidents are coincidental or part of a larger pattern. At Sullivan’s funeral, retired Major General David Abba remarked that Sullivan carried “the burden that a select few in this nation have of truly understanding what’s going on,” fueling speculation that Sullivan’s death may not have been a mere accident, though no official confirmation supports this claim.",
     "case-forest-mystery-perfect-rendlesham-storm": "Nick Pope, who worked for the UK Ministry of Defence from 1985 to 2006 and headed the UFO desk from 1991 to 1994, said in a 1996 interview that after reviewing evidence he believed that 5–10 % of UFO sightings could not be explained by conventional means and might be extraterrestrial craft. Pope’s research led him to focus on the Rendlesham Forest incident of 24–26 December 1980, when two American airmen reported strange blinking red, blue and white lights near RAF Bentwaters, a US base that housed nuclear missiles. The case is described by Pope as a “perfect storm” because it involved multiple military witnesses, radar confirmation, physical evidence such as ground indentations and scorch marks, and declassified documents now available at the National Archives and the MoD website. Pope co‑authored the 2014 book Encounter in Rendlesham Forest with eyewitnesses Jim Penniston and John Burroughs, who described how they investigated the lights, found a triangular craft with no landing gear, and observed a bright, static‑like burst of light that left them stunned. Penniston reported that the craft was about six and a half feet tall, had a dorsal fin and engravings resembling Egyptian hieroglyphs, and that its surface felt warm and smooth, while Burroughs was frozen in a beam of white/blue light. The incident remains unexplained, with the witnesses noting that the craft did not move when they attempted to push it and that the surrounding area showed unusual indentations, suggesting technology beyond current human capability.",
     "common-insider-interesting-missing-scientists-share-ties": "A NewsNation article dated April 27, 2026 reports that a UFO insider claims missing scientists share interesting common ties. The claim is presented in the headline, which states that the missing scientists have “interesting common ties.” No description of the article is available in the feed metadata. The article is part of a cluster of NewsNation sources. No additional context or details are provided in the brief.",
+    "briefing-burchett-classified-contains-earth-explosive-fire-information-rep-set": "Rep. Tim Burchett (R‑Tenn.), a member of the House Task Force on the Declassification of Federal Secrets, warned that classified briefings on unidentified anomalous phenomena (UAP) contain information so profound it would shock the American public and cause people to worry. In a Newsmax interview, he said he has been briefed by “just about every alphabet agency” and that full release of what he has seen would “unglue” the country, with citizens demanding immediate answers. Burchett referred to a classified session about two weeks earlier, describing the information as something that “would’ve set the Earth on fire,” but he did not disclose classified details, citing legal restrictions on members of Congress. He urged President Donald Trump—who earlier this year pledged to direct agencies to release files related to UFOs, UAP, and alien and extraterrestrial life—to push for full disclosure, adding that he is not suicidal and does not take risks amid longstanding allegations of threats to those with knowledge of the topic. Burchett has long criticized government secrecy on UAP, previously introducing the UAP Transparency Act and participating in efforts to declassify records. The article notes that former Rep. Matt Gaetz has alleged briefings on secret military programs involving hybrid breeding between captured extraterrestrials and humans, but Gaetz has not verified those claims, and the disappearance of retired Air Force Maj. Gen. William “Neil” McCasland has drawn attention due to his background in advanced aerospace research, though no evidence of foul play has been confirmed. Official Pentagon statements attribute most UAP reports to mundane explanations such as balloons, drones, or sensor artifacts, and no concrete evidence has been publicly released confirming alien‑human hybrids, recovered extraterrestrial bodies, or programs involving non‑human entities.",
     "case-deaths-fbi-following-investigates-james-linked-matthew-overdose-ruling": "Authorities in Virginia confirmed that former Air Force intelligence officer Matthew James Sullivan, 39, died from an accidental drug overdose after being found dead in his Falls Church home in May 2024, and the release of his autopsy results has reignited interest in the case. The toxicology report identified a fatal combination of alcohol and prescription medications—alprazolam, cyclobenzaprine, and imipramine—and medical examiners ruled the manner of death accidental. Sullivan had been preparing to testify to Congress about a secret government “crash retrieval” program and claimed to be part of a decades‑old legacy program involving the retrieval and possession of unidentified aerial phenomena. Representative Eric Burlison (R‑Mo.) has formally requested that the FBI investigate the circumstances of Sullivan’s death, describing it as “suspicious” and citing substantial questions that could have national‑security implications. The FBI has announced it is spearheading an investigation into potential connections between Sullivan and approximately 12 other scientists or specialists tied to sensitive government research who have died or gone missing, working with the Department of Energy and the Department of Defense. The House Oversight Committee, chaired by James Comer (R‑Ky.), has designated Sullivan’s death as a high‑priority matter, stating that the safety of such specialists is a matter of national security.",
     "address-congresswoman-information-nonhuman-origin-promises": "On April 30, 2026, NewsNation reported that a congresswoman promised to address information of “nonhuman origin.” The headline indicates that the congresswoman intends to discuss data she claims comes from nonhuman sources. The article is part of a NewsNation cluster covering UAP topics. The report lists the matched UAP term “NONHUMAN.” No further details are provided in the available description.",
     "church-claims-files-hurt-leaders-religion-warn": "On May 6, 2026, GreekReporter.com reported that church leaders warn that UFO files could hurt religion. The report claims that the release of UFO files may undermine faith communities. Church leaders expressed concerns that the disclosure of unidentified aerial phenomenon information could erode religious confidence. The article does not provide specific examples of how the files might affect religion.",
     "actually-files-interesting-release-they": "On May 4, 2026, OregonLive.com published an article titled “Release the UFO files! (If they’re actually interesting).” The headline calls for the release of UFO files, implying that the files might be of interest. The article is part of a broader discussion about unidentified aerial phenomena. No additional details are available in the metadata. The piece is sourced solely from OregonLive.com.",
-    "admit-being-called-craft-crazy-critical-encounters-fear-near-officials": "The U.S. Department of Defense has failed to meet an April 14, 2026 congressional deadline to release 46 Pentagon UAP videos that were formally logged as unidentified. Anna Paulina Luna, a whistleblower, wrote to Defense Secretary Pete Hegseth expressing concern that the lack of transparency about UAP incidents could have national security implications. The videos are held by the Pentagon’s All‑domain Anomaly Resolution Office (AARO) and include sightings such as UAP formations, objects near airports, and footage from military aircraft over the Persian Gulf and Syria, including a 2021 instant‑acceleration event. Congress, through the House Committee on Oversight and Government Reform’s Task Force on the Declassification of Federal Secrets, is demanding access to the 46 recordings, while the Pentagon says some material may remain classified or be reviewed in closed briefings. Whistleblowers report that individuals in government and related sectors have seen unexplained objects but are reluctant to speak publicly due to reputational and professional concerns. AARO has stated that many UAP reports have explanations but others lack sufficient data for definitive conclusions, and the oversight task force criticized AARO’s responses as “less than adequate.” The Pentagon continues to review the evidence, with some findings expected to be shared with Congress in classified settings, and it remains unclear whether the full set of videos will be released publicly.",
     "air-dead-force-found-issue-officer-testify-warning-whistleblowers": "According to a report from MSN dated April 29, 2026, UFO whistleblowers issued a warning after an Air Force officer was found dead before he could testify. The report states that the officer’s death occurred prior to his scheduled testimony. The whistleblowers’ warning is linked to the officer’s planned testimony on UFO. The article is part of a cluster of MSN sources covering UFO-related topics. No additional details are available in the description.",
     "claims-david-death-growing-missing-narrative-scientists-tied-who-wilcock": "The MSN article dated May 5, 2026 reports that David Wilcock has died. It describes his death as the latest in a growing narrative of missing U.S. scientists tied to UFO claims. The piece frames Wilcock’s death within this broader context of alleged disappearances linked to extraterrestrial investigations. The article is sourced from MSN.",
+    "admit-being-called-craft-crazy-critical-encounters-fear-near-officials": "The U.S. Department of Defense has failed to meet an April 14, 2026 congressional deadline to release 46 Pentagon UAP videos that were formally logged as unidentified. Anna Paulina Luna, a whistleblower, wrote to Defense Secretary Pete Hegseth expressing concern that the lack of transparency about UAP incidents could have national security implications. The videos are held by the Pentagon’s All‑domain Anomaly Resolution Office (AARO) and include sightings such as UAP formations, objects near airports, and footage from military aircraft over the Persian Gulf and Syria, including a 2021 instant‑acceleration event. Congress, through the House Committee on Oversight and Government Reform’s Task Force on the Declassification of Federal Secrets, is demanding access to the 46 recordings, while the Pentagon says some material may remain classified or be reviewed in closed briefings. Whistleblowers report that individuals in government and related sectors have seen unexplained objects but are reluctant to speak publicly due to reputational and professional concerns. AARO has stated that many UAP reports have explanations but others lack sufficient data for definitive conclusions, and the oversight task force criticized AARO’s responses as “less than adequate.” The Pentagon continues to review the evidence, with some findings expected to be shared with Congress in classified settings, and it remains unclear whether the full set of videos will be released publicly.",
     "confirms-delivered-director-expect-fbi-files-here-kash-patel-public": "FBI Director Kash Patel confirmed on 6 May that the FBI has delivered its first batch of classified UFO documents to a Pentagon‑led inter‑agency committee for public release, and that the documents will be released very soon. Patel said the effort is being directed by the Department of War under Secretary Pete Hegseth across all intelligence agencies, following President Donald Trump’s February 2026 executive order to release records on unidentified anomalous phenomena and extraterrestrial matters. Trump had previously teased the release at a Turning Point USA event in Arizona, claiming the government had found “many very interesting documents.” Representative Anna Paulina Luna ordered the Pentagon to hand over 46 specific UAP video clips by 14 April 2026, but the deadline passed with no public confirmation that the videos were delivered. UFO whistleblower David Grusch warned that government forces are still working to cover up the files before release, believes disclosure will reach a tipping point in 60–90 days, and argues the focus should be on physical materials rather than videos. A NewsNation/Decision Desk HQ poll in April 2025 found 44 % of Americans believe the government is hiding UFO information, while a Gallup poll from 1–15 April 2026 reported that 55 % of Americans say their financial situation is getting worse, the highest level since 2001. Patel said he has no information on whether the US has recovered alien bodies from crashed UFOs, and the Pentagon’s All‑Domain Anomaly Resolution Office has investigated hundreds of new cases but has not confirmed extraterrestrial evidence.",
-    "briefing-burchett-classified-contains-earth-explosive-fire-information-rep-set": "Rep. Tim Burchett (R‑Tenn.), a member of the House Task Force on the Declassification of Federal Secrets, warned that classified briefings on unidentified anomalous phenomena (UAP) contain information so profound it would shock the American public and cause people to worry. In a Newsmax interview, he said he has been briefed by “just about every alphabet agency” and that full release of what he has seen would “unglue” the country, with citizens demanding immediate answers. Burchett referred to a classified session about two weeks earlier, describing the information as something that “would’ve set the Earth on fire,” but he did not disclose classified details, citing legal restrictions on members of Congress. He urged President Donald Trump—who earlier this year pledged to direct agencies to release files related to UFOs, UAP, and alien and extraterrestrial life—to push for full disclosure, adding that he is not suicidal and does not take risks amid longstanding allegations of threats to those with knowledge of the topic. Burchett has long criticized government secrecy on UAP, previously introducing the UAP Transparency Act and participating in efforts to declassify records. The article notes that former Rep. Matt Gaetz has alleged briefings on secret military programs involving hybrid breeding between captured extraterrestrials and humans, but Gaetz has not verified those claims, and the disappearance of retired Air Force Maj. Gen. William “Neil” McCasland has drawn attention due to his background in advanced aerospace research, though no evidence of foul play has been confirmed. Official Pentagon statements attribute most UAP reports to mundane explanations such as balloons, drones, or sensor artifacts, and no concrete evidence has been publicly released confirming alien‑human hybrids, recovered extraterrestrial bodies, or programs involving non‑human entities.",
     "actually-data-disclosure-goes-how-pentagon-playbook-public-quietly-reveal": "A DoD‑sponsored workshop report titled “2025 UAP Workshop: Narrative Data, Infrastructures, and Analysis” was cleared for open publication on February 11, 2026 and posted to the AARO website without fanfare. The report, produced by the All‑Domain Anomaly Resolution Office, summarizes a two‑day meeting in August 2025 that brought together 40 participants from government agencies, universities, and independent research organizations. Its mandate was to design a permanent science infrastructure for studying UAP at scale, not to debate whether UAP exist. Key findings include that UAP data is fragmented across military logs, radar archives, social media, and other sources; classification is the biggest barrier; AI and machine learning are being explored but carry risks of hallucination and bias; pilot reporting stigma suppresses timely data; and fake data and AI‑generated hoaxes threaten research integrity. The workshop recommends modular metadata standards, interface control documents and APIs, a unified security solution for classified and unclassified data, and benchmarking systems, and it proposes redesigning the public reporting portal to capture free‑text descriptions, AI‑extracted structured data, and links to FAA flight tracks, weather radar, and astronomical databases. The document indicates that the U.S. government is treating UAP as a serious, data‑rich phenomenon requiring permanent scientific infrastructure and is preparing for a large‑scale public disclosure event.",
     "2023-backyard-case-center-disclosure-las-moves-returns-stage-toward": "On May 1, 2023 a streaking light was reported over the Southwest, and the American Meteor Society recorded sightings in Nevada, California, Arizona, and Utah. A Las Vegas family called 911 shortly afterward, claiming a crash in their backyard and describing large non‑human beings that were 8 to 10 feet tall, thin, and greenish. Police responded, body‑cam footage was captured, and the family appeared visibly shaken, while other witnesses reported a sky event. Crime‑scene reconstruction analyst Scott Roder performed a frame‑by‑frame review of the backyard video and publicly asserted that the footage showed at least two beings using a “cloaking” effect, concluding the entities were present in the real‑world environment and inviting peer review. President Donald Trump announced that UFO files would be released “very, very soon,” and members of Congress have begun openly discussing UAPs, non‑human intelligence, interdimensional theories, and the Book of Enoch. The federal government faces increasing pressure to disclose UAP records, yet NASA’s UAP study and the AARO report have found no conclusive evidence of extraterrestrial origin or verifiable extraterrestrial activity. The article argues that the Las Vegas case should be examined through a legal‑forensic review rather than dismissed or accepted on blind belief."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-08T06:27:48Z",
+    "timestamp": "2026-05-08T06:49:25Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 301,
-    "broadTopics": 154,
+    "broadArticles": 287,
+    "broadTopics": 137,
     "notificationArticles": 3,
     "notificationTopics": 2,
     "newNotificationTopics": 0,
