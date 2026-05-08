@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08T18:45:13Z",
+  "timestamp": "2026-05-08T18:47:55Z",
   "articles": [
     {
       "id": "batch-declassified-detailing-files-initial-pentagon-releases",
@@ -394,6 +394,86 @@
       }
     },
     {
+      "id": "begins-documents-dozens-files-pentagon-photos-releasing-unveiling-videos",
+      "title": "Pentagon begins releasing new UFO files, unveiling dozens of photos, videos and documents",
+      "source": "CBS News",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMC1fRW90LUYzOTZlT2NvR3BsZWpydUhkRkxzcVFlV3VWUGdoVHRKV0pxSWZxYU51djlLd0x2YXJkTXNUelYyenVBQ05xWVhNVzYyQTdBQ2RmOS1JTWJjZXF1d1pJcV9vc01HaF9CeTHSAXZBVV95cUxQU1pfNGtGODNJRGh3YXJSRTkzd2VZSUFMNTZyMHZqWFNtZEhfSk1zRzF6MWFvVm40ajVIVEtBS2ZMZmFDSnF2YzBGR2V0ckd1aHRLakM3NkY4VkZKei1CRHMyR0pxTkxXUV9jdFJTMFZCWElTWmZB?oc=5",
+      "date": "2026-05-08",
+      "summary": "On Friday the Pentagon released 162 new UFO files—including 120 PDFs, 28 videos and 14 image files—on a new website after President Trump ordered the disclosure of government documents about unexplained phenomena. The files, sourced from the FBI, Department of Defense, NASA and State Department, contain eyewitness testimony, photos and reports of sightings that date back decades from around the globe. Among the releases are NASA Apollo 12 and Apollo 17 photographs of lunar sky anomalies, a Pentagon review suggesting a physical object may explain one Apollo 17 image, and a report of an Apollo 17 astronaut seeing a flash north of Grimaldi crater. The videos, totaling 41 minutes, show infrared footage of white objects moving at high speeds, including a Greek 2023 clip of an object making 90‑degree turns at about 80 miles per hour, and other clips from the Indo‑Pacific, Syria and the U.S. that depict semi‑transparent orange orbs and a football‑shaped object. The FBI case file 62‑HQ‑83894, now with fewer redactions, documents sightings of “flying discs” from 1947 to 1968, including the 1947 Roswell incident, and contains letters to FBI Director J. Edgar Hoover and a memo from a Dallas agent about a hexagonal disc recovered near Roswell. The State Department cables included in the release describe UAP encounters in countries such as Papua New Guinea, Kazakhstan, Turkmenistan, Georgia, Mexico, Tajikistan and the U.S., with one 1994 Tajikistan pilot claiming an extraterrestrial object that performed rapid maneuvers and was not a meteor. The Pentagon noted that 108 of the 162 files contain redactions to protect eyewitness identities, facility locations, or sensitive military information, but no redactions were made to information about the nature or existence of UAP encounters.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbHVBS3VqSGpNSmgxTWtIa2c3aDI2WE5vS2pfVXRFNjNZd3BlWUdILWh6b245RDMtOXk3Yk91UXktV3k4ckR1dTh1R1lVbFR4MFpLRnhXVmFMMGNsaWs3SXpaTHdzekxQNmRUQkktTHMwTjU3d3V2Z2R4akdIeEM4VGlnNFFzTVVzTXprS1AyT2l3MWdGaDJxUEFiWjBMc3BwMVHSAacBQVVfeXFMUGJvM2xwYk1mVU9OYW1haDlYZlhfaF83ekszcWZrbXRWTzMtZXNOOXNYR1loRThfWElkd3NiVllpX1ZuOGV1eDQ2NHQ5aDR2M1FKZDJmb0Y5TDYzTE53T0lNQ0FvUXQ3QmtYb09QVlRRRGV2eWFjOVJFcUVCVkF1YUlkSkRGclM0eUJVV0VLSl9UZmtBb1ZKUVRtTFhoUUFXWnFiQ1hqSzQ?oc=5",
+          "title": "Pentagon begins release of decades of unresolved UFO files - ABC News"
+        }
+      ],
+      "clusterTitles": [
+        "Pentagon begins release of decades of unresolved UFO files - ABC News"
+      ],
+      "quality": 71,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 7,
+          "text": "2 Quelle(n) im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "PENTAGON"
+      ],
+      "translation": {
+        "en": {
+          "title": "Pentagon begins releasing new UFO files, unveiling dozens of photos, videos and documents",
+          "summary": "On Friday the Pentagon released 162 new UFO files—including 120 PDFs, 28 videos and 14 image files—on a new website after President Trump ordered the disclosure of government documents about unexplained phenomena. The files, sourced from the FBI, Department of Defense, NASA and State Department, contain eyewitness testimony, photos and reports of sightings that date back decades from around the globe.",
+          "sourceHash": "c9b4be8e38cc4de16ec2f8975f8322beb81807ad",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Das Pentagon beginnt mit der Veröffentlichung neuer UFO-Dateien und enthüllt Dutzende Fotos, Videos und Dokumente",
+          "summary": "Am Freitag veröffentlichte das Pentagon 162 neue UFO-Dateien – darunter 120 PDFs, 28 Videos und 14 Bilddateien – auf einer neuen Website, nachdem Präsident Trump die Offenlegung von Regierungsdokumenten über ungeklärte Phänomene angeordnet hatte. Die vom FBI, dem Verteidigungsministerium, der NASA und dem Außenministerium stammenden Akten enthalten Augenzeugenaussagen, Fotos und Berichte über Sichtungen aus der ganzen Welt, die Jahrzehnte zurückliegen.",
+          "sourceHash": "c9b4be8e38cc4de16ec2f8975f8322beb81807ad",
+          "provider": "google"
+        }
+      }
+    },
+    {
       "id": "actually-data-disclosure-goes-how-pentagon-playbook-public-quietly-reveal",
       "title": "Pentagon’s UAP Data Playbook Quietly Goes Public—And It May Reveal How Disclosure Will Actually Unfold",
       "source": "USA Herald",
@@ -752,78 +832,6 @@
           "title": "Pentagon veröffentlicht Online-UFO-Fotosammlung in historischer Veröffentlichung",
           "summary": "Laut einem NewsNation-Bericht vom 8. Mai 2026 hat das Pentagon in einer historischen Veröffentlichung eine Online-UFO-Fotosammlung veröffentlicht. Die Veröffentlichung wurde von NewsNation gemeldet. Die Sammlung ist online verfügbar. Die Freilassung des Pentagons wird als historisch bezeichnet.",
           "sourceHash": "edf126bea64d318cade6aaf4f35607ccbce329e1",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "begins-documents-dozens-files-pentagon-photos-releasing-unveiling-videos",
-      "title": "Pentagon begins releasing new UFO files, unveiling dozens of photos, videos and documents",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMC1fRW90LUYzOTZlT2NvR3BsZWpydUhkRkxzcVFlV3VWUGdoVHRKV0pxSWZxYU51djlLd0x2YXJkTXNUelYyenVBQ05xWVhNVzYyQTdBQ2RmOS1JTWJjZXF1d1pJcV9vc01HaF9CeTHSAXZBVV95cUxQU1pfNGtGODNJRGh3YXJSRTkzd2VZSUFMNTZyMHZqWFNtZEhfSk1zRzF6MWFvVm40ajVIVEtBS2ZMZmFDSnF2YzBGR2V0ckd1aHRLakM3NkY4VkZKei1CRHMyR0pxTkxXUV9jdFJTMFZCWElTWmZB?oc=5",
-      "date": "2026-05-08",
-      "summary": "On Friday the Pentagon released 162 new UFO files—including 120 PDFs, 28 videos and 14 image files—on a new website after President Trump ordered the disclosure of government documents about unexplained phenomena. The files, sourced from the FBI, Department of Defense, NASA and State Department, contain eyewitness testimony, photos and reports of sightings that date back decades from around the globe. Among the releases are NASA Apollo 12 and Apollo 17 photographs of lunar sky anomalies, a Pentagon review suggesting a physical object may explain one Apollo 17 image, and a report of an Apollo 17 astronaut seeing a flash north of Grimaldi crater. The videos, totaling 41 minutes, show infrared footage of white objects moving at high speeds, including a Greek 2023 clip of an object making 90‑degree turns at about 80 miles per hour, and other clips from the Indo‑Pacific, Syria and the U.S. that depict semi‑transparent orange orbs and a football‑shaped object. The FBI case file 62‑HQ‑83894, now with fewer redactions, documents sightings of “flying discs” from 1947 to 1968, including the 1947 Roswell incident, and contains letters to FBI Director J. Edgar Hoover and a memo from a Dallas agent about a hexagonal disc recovered near Roswell. The State Department cables included in the release describe UAP encounters in countries such as Papua New Guinea, Kazakhstan, Turkmenistan, Georgia, Mexico, Tajikistan and the U.S., with one 1994 Tajikistan pilot claiming an extraterrestrial object that performed rapid maneuvers and was not a meteor. The Pentagon noted that 108 of the 162 files contain redactions to protect eyewitness identities, facility locations, or sensitive military information, but no redactions were made to information about the nature or existence of UAP encounters.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 64,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 0,
-          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "PENTAGON"
-      ],
-      "translation": {
-        "en": {
-          "title": "Pentagon begins releasing new UFO files, unveiling dozens of photos, videos and documents",
-          "summary": "On Friday the Pentagon released 162 new UFO files—including 120 PDFs, 28 videos and 14 image files—on a new website after President Trump ordered the disclosure of government documents about unexplained phenomena. The files, sourced from the FBI, Department of Defense, NASA and State Department, contain eyewitness testimony, photos and reports of sightings that date back decades from around the globe.",
-          "sourceHash": "c9b4be8e38cc4de16ec2f8975f8322beb81807ad",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Das Pentagon beginnt mit der Veröffentlichung neuer UFO-Dateien und enthüllt Dutzende Fotos, Videos und Dokumente",
-          "summary": "Am Freitag veröffentlichte das Pentagon 162 neue UFO-Dateien – darunter 120 PDFs, 28 Videos und 14 Bilddateien – auf einer neuen Website, nachdem Präsident Trump die Offenlegung von Regierungsdokumenten über ungeklärte Phänomene angeordnet hatte. Die vom FBI, dem Verteidigungsministerium, der NASA und dem Außenministerium stammenden Akten enthalten Augenzeugenaussagen, Fotos und Berichte über Sichtungen aus der ganzen Welt, die Jahrzehnte zurückliegen.",
-          "sourceHash": "c9b4be8e38cc4de16ec2f8975f8322beb81807ad",
           "provider": "google"
         }
       }
@@ -2354,12 +2362,12 @@
     "amid-anomalous-can-conclusions-disclosure-draw-files-officials-pentagon-phenomena": "The Pentagon has begun releasing new files on UFOs, stating that the public can draw their own conclusions about unidentified anomalous phenomena. The release effort is coordinated by the White House, the director of national intelligence, the Energy Department, NASA, and the FBI. In a post on X, the Pentagon said that while past administrations sought to discredit or dissuade the public, President Donald Trump is focused on maximum transparency and that additional documents will be released on a rolling basis. Congress created an office in 2022 to declassify UFO material, and a 2024 report from that office found hundreds of new UAP incidents but no evidence that the U.S. government had confirmed alien technology. A small group of Republican members of Congress, including Rep. Anna Paulina Luna and Rep. Tim Burchett, have urged further transparency, with Luna demanding 46 UAP videos identified by whistleblowers and Burchett noting that transparency will take time. Experts have cautioned that UAP videos are often misinterpreted and mischaracterized by those unfamiliar with advanced military technology, and the Pentagon’s 2024 report rebutted claims that the U.S. government had recovered alien technology or confirmed evidence of alien life.",
     "classified-files-previously-releases-trump": "Under President Donald Trump’s direction, the Department of War, with support from the Office of the Director of National Intelligence, reviewed and declassified several UFO files for public release. The released files include 162 unresolved Unidentified Anomalous Phenomena (UAP) records archived by the federal government. Trump announced the release on February 19 2026, noting “tremendous interest” by the layman. Secretary of War Pete Hegseth said the Department of War is in lockstep with Trump to provide unprecedented transparency regarding the government’s understanding of UAPs. Tulsi Gabbard, Director of National Intelligence, stated that the Office of the Director of National Intelligence is coordinating the Intelligence Community’s declassification efforts with the Department of War to ensure a careful, comprehensive review. FBI Director Kash Patel remarked that the FBI is proud to support this landmark release and will continue to prioritize national security as the files are reviewed and released.",
     "accidental-congress-died-fbi-investigating-months-now-overdose-set-testify": "Matthew James Sullivan, a 39‑year‑old Air Force veteran who had worked for the Air Force Intelligence Agency, the National Air and Space Intelligence Center and the NSA, was found dead in his Falls Church, Virginia home on May 12 2024; the medical examiner ruled his death an accidental overdose of alcohol, alprazolam, cyclobenzaprine and imipramine. Sullivan had been scheduled to testify before Congress in November 2024 about the government’s secret UFO crash‑retrieval program and had personally seen UFOs in federal possession. Representative Eric Burlison sent a letter to FBI Director Kash Patel expressing concern that Sullivan’s sudden death raised “substantial questions” and potential foul play, citing national‑security implications. The FBI responded that it is “spearheading the effort to look for connections into the missing and deceased scientists” and is working with the Department of Energy, the Department of War, and state and local law‑enforcement partners. Retired Major General David Abba, who directed the Pentagon’s special access programs, said at Sullivan’s funeral that Sullivan “held the burden that a select few in this nation have of truly understanding what’s going on.” The article notes a pattern of other whistleblowers—such as David Grusch, David Wilcock and Amy Eskridge—who have died under circumstances the authorities have ruled accidental or self‑inflicted.",
+    "begins-documents-dozens-files-pentagon-photos-releasing-unveiling-videos": "On Friday the Pentagon released 162 new UFO files—including 120 PDFs, 28 videos and 14 image files—on a new website after President Trump ordered the disclosure of government documents about unexplained phenomena. The files, sourced from the FBI, Department of Defense, NASA and State Department, contain eyewitness testimony, photos and reports of sightings that date back decades from around the globe. Among the releases are NASA Apollo 12 and Apollo 17 photographs of lunar sky anomalies, a Pentagon review suggesting a physical object may explain one Apollo 17 image, and a report of an Apollo 17 astronaut seeing a flash north of Grimaldi crater. The videos, totaling 41 minutes, show infrared footage of white objects moving at high speeds, including a Greek 2023 clip of an object making 90‑degree turns at about 80 miles per hour, and other clips from the Indo‑Pacific, Syria and the U.S. that depict semi‑transparent orange orbs and a football‑shaped object. The FBI case file 62‑HQ‑83894, now with fewer redactions, documents sightings of “flying discs” from 1947 to 1968, including the 1947 Roswell incident, and contains letters to FBI Director J. Edgar Hoover and a memo from a Dallas agent about a hexagonal disc recovered near Roswell. The State Department cables included in the release describe UAP encounters in countries such as Papua New Guinea, Kazakhstan, Turkmenistan, Georgia, Mexico, Tajikistan and the U.S., with one 1994 Tajikistan pilot claiming an extraterrestrial object that performed rapid maneuvers and was not a meteor. The Pentagon noted that 108 of the 162 files contain redactions to protect eyewitness identities, facility locations, or sensitive military information, but no redactions were made to information about the nature or existence of UAP encounters.",
     "actually-data-disclosure-goes-how-pentagon-playbook-public-quietly-reveal": "A DoD‑sponsored workshop report titled “2025 UAP Workshop: Narrative Data, Infrastructures, and Analysis” was cleared for open publication on February 11, 2026 and posted to the AARO website without fanfare. The report, produced by the All‑Domain Anomaly Resolution Office, summarizes a two‑day meeting in August 2025 that brought together 40 participants from government agencies, universities, and independent research organizations. Its mandate was to design a permanent science infrastructure for studying UAP at scale, not to debate whether UAP exist. Key findings include that UAP data is fragmented across military logs, radar archives, social media, and other sources; classification is the biggest barrier; AI and machine learning are being explored but carry risks of hallucination and bias; pilot reporting stigma suppresses timely data; and fake data and AI‑generated hoaxes threaten research integrity. The workshop recommends modular metadata standards, interface control documents and APIs, a unified security solution for classified and unclassified data, and benchmarking systems, and it proposes redesigning the public reporting portal to capture free‑text descriptions, AI‑extracted structured data, and links to FAA flight tracks, weather radar, and astronomical databases. The document indicates that the U.S. government is treating UAP as a serious, data‑rich phenomenon requiring permanent scientific infrastructure and is preparing for a large‑scale public disclosure event.",
     "accidental-agreeing-congress-died-drug-overdose-testify-whistleblower": "Matthew James Sullivan, a 39‑year‑old Air Force veteran, died on May 12, 2024 at his home in Falls Church, Va., from an accidental drug overdose involving alcohol, alprazolam, cyclobenzaprine and imipramine, according to the Northern District Office of the Chief Medical Examiner. Sullivan had agreed to testify before Congress about secret government UFO programs and was preparing to appear at a hearing scheduled for November 2024. Representative Eric Burlison (R‑Mo.) expressed grave concern over Sullivan’s death, citing “implications for national security,” and referred the case to the FBI in a letter to FBI Director Kash Patel. The FBI said it could be investigating Sullivan’s death as part of a broader effort to examine the circumstances surrounding the disappearance or death of a dozen other U.S. scientists, working with the Department of Energy, Department of War and local law enforcement. Sullivan had earned a Bronze Star for valor in Operation Enduring Freedom, worked for the Air Force Intelligence Agency, the National Air and Space Intelligence Center and the NSA, and was described by retired Major General David Abba as carrying “the burden that a select few in this nation have of truly understanding what’s going on.” Other UFO whistleblowers, such as David Grusch, have reported threats and reprisals after revealing evidence of U.S. possession of UFOs, and Grusch’s 2022 letter to the Intelligence Community Office of Inspector General included information about Sullivan’s death, though the IC OIG has stated it cannot confirm or deny any ongoing investigations.",
     "asked-being-files-government-learn-released-scientists-they-think-what": "On May 8, the Pentagon began posting declassified documents, photos, and videos related to unidentified anomalous phenomena (UAP) after President Trump urged the release in February 2023. The release includes evidence such as a video of a U.S. missile striking an unidentified glowing orb and a government report noting more than 750 new UAP sightings between May 2023 and June 2024. Former AARO director Sean Kirkpatrick said the files contain no proof of extraterrestrial life, describing the Trump order as a distraction and noting that his office had to declassify only what could be released. NASA UAP panel member Federica Bianco and astrophysicist Neil de Grasse Tyson both stated that the documents are unlikely to reveal alien technology or phenomena that violate physics, and that most sightings can be explained by ignorance of optical or atmospheric effects. UCSD astrophysicist Shelley Wright expects most documents to be heavily redacted for national‑security reasons but is hopeful that declassified older data could be studied with modern technology, while Barnard professor Janna Levin says astronomers are excited about the possibility of finding microbial evidence rather than advanced alien tech. Overall, scientists anticipate that the release will provide data for analysis but are not expecting definitive evidence of extraterrestrial life, and they emphasize the need for skepticism and rigorous scientific inquiry.",
     "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare": "Several religious leaders, including Pastor Perry Stone and evangelist Tony Merkel, claim they were privately briefed by U.S. military intelligence officers to prepare their congregations for an upcoming UAP disclosure. Stone, a Tennessee‑based Pentecostal evangelist, said in a video that a trusted associate informed him that a group of pastors was invited to hear directly from government‑connected individuals about an imminent disclosure event involving unidentified anomalous phenomena. Stone described the briefing as covering craft not allegedly part of our planet, non‑human beings, and a coordinated propaganda plan already in motion. Merkel says he has been in contact with officials for over a year, describing them as Christians in intelligence operations assigned to work within the UAP disclosure community, and that they approached him with a mission to prepare the body of Christ for what is coming. The state where the briefing took place has not been disclosed, and no government memo, official invitation, transcript, or attendee list has surfaced. The White House has not denied the claims, and Washington has remained silent, a silence the article notes is significant.",
     "collection-historic-online-pentagon-photo-publishes-release": "The Pentagon published an online UFO photo collection in a historic release, according to a NewsNation report dated May 8, 2026. The release was reported by NewsNation. The collection is available online. The Pentagon’s release is described as historic.",
-    "begins-documents-dozens-files-pentagon-photos-releasing-unveiling-videos": "On Friday the Pentagon released 162 new UFO files—including 120 PDFs, 28 videos and 14 image files—on a new website after President Trump ordered the disclosure of government documents about unexplained phenomena. The files, sourced from the FBI, Department of Defense, NASA and State Department, contain eyewitness testimony, photos and reports of sightings that date back decades from around the globe. Among the releases are NASA Apollo 12 and Apollo 17 photographs of lunar sky anomalies, a Pentagon review suggesting a physical object may explain one Apollo 17 image, and a report of an Apollo 17 astronaut seeing a flash north of Grimaldi crater. The videos, totaling 41 minutes, show infrared footage of white objects moving at high speeds, including a Greek 2023 clip of an object making 90‑degree turns at about 80 miles per hour, and other clips from the Indo‑Pacific, Syria and the U.S. that depict semi‑transparent orange orbs and a football‑shaped object. The FBI case file 62‑HQ‑83894, now with fewer redactions, documents sightings of “flying discs” from 1947 to 1968, including the 1947 Roswell incident, and contains letters to FBI Director J. Edgar Hoover and a memo from a Dallas agent about a hexagonal disc recovered near Roswell. The State Department cables included in the release describe UAP encounters in countries such as Papua New Guinea, Kazakhstan, Turkmenistan, Georgia, Mexico, Tajikistan and the U.S., with one 1994 Tajikistan pilot claiming an extraterrestrial object that performed rapid maneuvers and was not a meteor. The Pentagon noted that 108 of the 162 files contain redactions to protect eyewitness identities, facility locations, or sensitive military information, but no redactions were made to information about the nature or existence of UAP encounters.",
     "amid-death-his-inside-james-life-married-matthew-sullivan-suspicious": "Matthew James Sullivan, a 39‑year‑old Air Force veteran known by the call sign “Quake,” was found dead at his home in 2024 from an accidental overdose. Sullivan had served in the U.S. Air Force Intelligence, worked for the National Air and Space Intelligence Centre, the Air Force Intelligence Agency, and the National Security Agency, and received a Bronze Star for valor during Operation Enduring Freedom. His death has been discussed alongside the recent deaths of UFO researchers David Wilcock and Nick Pope, all of whom were linked to sensitive areas such as nuclear research, advanced aerospace, and UFO/UAP studies. Reports from the New York Post claim that 11 to 14 scientists and experts connected to aerospace, defense, or advanced research have died or gone missing in recent years, prompting federal attention. FBI officials, with the help of multiple agencies, are reviewing all reported cases to determine whether the incidents are coincidental or part of a larger pattern. At Sullivan’s funeral, retired Major General David Abba remarked that Sullivan carried “the burden that a select few in this nation have of truly understanding what’s going on,” fueling speculation that Sullivan’s death may not have been a mere accident, though no official confirmation supports this claim.",
     "batch-conclusions-draw-files-first-its-own-public-released-trump": "President Donald Trump announced that the Pentagon is preparing to release previously unseen UFO files, sparking both excitement and skepticism. In February, Trump directed federal agencies to release records on extraterrestrial life, UAP, and UFOs, and has since teased an imminent release of documents never before shared by the US government. Trump said at a White House event celebrating NASA astronauts that “we’re going to be releasing a lot of things that we haven’t” and that some of the material would be “very interesting to people.” The Pentagon has been declassifying UFO documents for years; a 2024 report from the All‑Domain Anomaly Resolution Office found hundreds of new UAP incidents but no evidence that the government had confirmed alien technology, and a second report on more recent sightings is expected soon. Former office director Sean Kirkpatrick said Trump’s promises are bluster and that the records he has seen contain no bombshell revelations, noting that videos of alleged alien craft can be explained by mundane sources such as infrared cameras. A GOP‑led congressional task force, co‑chaired by Representative Anna Paulina Luna, has investigated UAP encounters and demanded UAP videos from the Pentagon, but no videos were produced after a March deadline. Luna praised Trump’s focus on UFOs and said the Pentagon can no longer hide from the public’s documents request.",
     "classified-documents-football-object-pentagon-pictured-shaped-weird": "The Department of Defense released a first batch of declassified documents on Friday that included a football‑shaped UAP captured on video. The release also contained “never‑before‑seen” files and videos documenting pilots’ encounters with UAPs, the updated designation for what were previously called UFOs. The documents are part of President Donald Trump’s Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) program. Images from the initial disclosure show oddly shaped objects photographed during the Apollo 12 and Apollo 17 missions. The White House said the release is intended to provide maximum transparency so the public can form their own opinions, and Secretary of Defense Pete Hegseth described the effort as unprecedented transparency regarding UAPs. Director of National Intelligence Tulsi Gabbard said the Office of the DNI is coordinating de",
@@ -2388,13 +2396,13 @@
     "air-dead-force-found-issue-officer-testify-warning-whistleblowers": "According to a report from MSN dated April 29, 2026, UFO whistleblowers issued a warning after an Air Force officer was found dead before he could testify. The report states that the officer’s death occurred prior to his scheduled testimony. The whistleblowers’ warning is linked to the officer’s planned testimony on UFO. The article is part of a cluster of MSN sources covering UFO-related topics. No additional details are available in the description."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-08T18:45:13Z",
+    "timestamp": "2026-05-08T18:47:55Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 322,
-    "broadTopics": 160,
+    "broadArticles": 320,
+    "broadTopics": 157,
     "notificationArticles": 29,
     "notificationTopics": 13,
     "newNotificationTopics": 0,
@@ -2457,6 +2465,20 @@
         "title": "Ein UFO-Whistleblower starb an einer „versehentlichen Überdosis“, Monate bevor er vor dem Kongress aussagen sollte, und jetzt ermittelt das FBI",
         "summary": "Matthew James Sullivan, ein 39-jähriger Air-Force-Veteran, der für die Air Force Intelligence Agency, das National Air and Space Intelligence Center und die NSA gearbeitet hatte, wurde am 12. Mai 2024 tot in seinem Haus in Falls Church, Virginia, aufgefunden; Der Gerichtsmediziner entschied, dass sein Tod eine versehentliche Überdosis Alkohol, Alprazolam, Cyclobenzaprin und Imipramin sei. Sullivan sollte im November 2024 vor dem Kongress über das geheime UFO-Absturz-Bergungsprogramm der Regierung aussagen und hatte persönlich UFOs in Bundesbesitz gesehen.",
         "sourceHash": "0f3bd7f5ba1dfd4301f15d51a74b322d1212124f",
+        "provider": "google"
+      }
+    },
+    "begins-documents-dozens-files-pentagon-photos-releasing-unveiling-videos": {
+      "en": {
+        "title": "Pentagon begins releasing new UFO files, unveiling dozens of photos, videos and documents",
+        "summary": "On Friday the Pentagon released 162 new UFO files—including 120 PDFs, 28 videos and 14 image files—on a new website after President Trump ordered the disclosure of government documents about unexplained phenomena. The files, sourced from the FBI, Department of Defense, NASA and State Department, contain eyewitness testimony, photos and reports of sightings that date back decades from around the globe.",
+        "sourceHash": "c9b4be8e38cc4de16ec2f8975f8322beb81807ad",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Das Pentagon beginnt mit der Veröffentlichung neuer UFO-Dateien und enthüllt Dutzende Fotos, Videos und Dokumente",
+        "summary": "Am Freitag veröffentlichte das Pentagon 162 neue UFO-Dateien – darunter 120 PDFs, 28 Videos und 14 Bilddateien – auf einer neuen Website, nachdem Präsident Trump die Offenlegung von Regierungsdokumenten über ungeklärte Phänomene angeordnet hatte. Die vom FBI, dem Verteidigungsministerium, der NASA und dem Außenministerium stammenden Akten enthalten Augenzeugenaussagen, Fotos und Berichte über Sichtungen aus der ganzen Welt, die Jahrzehnte zurückliegen.",
+        "sourceHash": "c9b4be8e38cc4de16ec2f8975f8322beb81807ad",
         "provider": "google"
       }
     },
@@ -2527,20 +2549,6 @@
         "title": "Pentagon veröffentlicht Online-UFO-Fotosammlung in historischer Veröffentlichung",
         "summary": "Laut einem NewsNation-Bericht vom 8. Mai 2026 hat das Pentagon in einer historischen Veröffentlichung eine Online-UFO-Fotosammlung veröffentlicht. Die Veröffentlichung wurde von NewsNation gemeldet. Die Sammlung ist online verfügbar. Die Freilassung des Pentagons wird als historisch bezeichnet.",
         "sourceHash": "edf126bea64d318cade6aaf4f35607ccbce329e1",
-        "provider": "google"
-      }
-    },
-    "begins-documents-dozens-files-pentagon-photos-releasing-unveiling-videos": {
-      "en": {
-        "title": "Pentagon begins releasing new UFO files, unveiling dozens of photos, videos and documents",
-        "summary": "On Friday the Pentagon released 162 new UFO files—including 120 PDFs, 28 videos and 14 image files—on a new website after President Trump ordered the disclosure of government documents about unexplained phenomena. The files, sourced from the FBI, Department of Defense, NASA and State Department, contain eyewitness testimony, photos and reports of sightings that date back decades from around the globe.",
-        "sourceHash": "c9b4be8e38cc4de16ec2f8975f8322beb81807ad",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Das Pentagon beginnt mit der Veröffentlichung neuer UFO-Dateien und enthüllt Dutzende Fotos, Videos und Dokumente",
-        "summary": "Am Freitag veröffentlichte das Pentagon 162 neue UFO-Dateien – darunter 120 PDFs, 28 Videos und 14 Bilddateien – auf einer neuen Website, nachdem Präsident Trump die Offenlegung von Regierungsdokumenten über ungeklärte Phänomene angeordnet hatte. Die vom FBI, dem Verteidigungsministerium, der NASA und dem Außenministerium stammenden Akten enthalten Augenzeugenaussagen, Fotos und Berichte über Sichtungen aus der ganzen Welt, die Jahrzehnte zurückliegen.",
-        "sourceHash": "c9b4be8e38cc4de16ec2f8975f8322beb81807ad",
         "provider": "google"
       }
     },
