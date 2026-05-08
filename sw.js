@@ -1,6 +1,6 @@
-var CACHE = 'uap-v37-quality-points';
+var CACHE = 'uap-v38-quality-wording';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '37';
+var OVERRIDE_VERSION = '38';
 var OVERRIDE_FILES = [
   'app-feed-overrides.js',
   'bell-icon-fix.js',
@@ -8,7 +8,8 @@ var OVERRIDE_FILES = [
   'quality-affordance-fix.js',
   'logo-title-fix.js',
   'startup-polish-fix.js',
-  'summary-fallback-fix.js'
+  'summary-fallback-fix.js',
+  'quality-wording-fix.js'
 ];
 
 self.addEventListener('install', function(e) {
