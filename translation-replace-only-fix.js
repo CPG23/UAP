@@ -4,6 +4,7 @@
   var STYLE_ID = 'uap-translation-replace-only-style';
   var feedPromise = null;
   var articleMap = null;
+  var syncTimer = null;
   var GERMAN_MARKERS = /[äöüß]|\b(der|die|das|den|dem|des|und|oder|nicht|eine|einer|einen|mit|von|für|ueber|über|heute|wird|wurden|nachrichten|quelle|artikel)\b/i;
 
   function compact(value){ return String(value == null ? '' : value).replace(/\s+/g, ' ').trim(); }
@@ -22,7 +23,6 @@
     if (clean.length <= maxLen) return clean;
     return clean.slice(0, maxLen).replace(/\s+\S*$/, '').replace(/[,:;]+$/, '').trim() + '.';
   }
-
   function withTimeout(promise, ms){
     return new Promise(function(resolve, reject){
       var done = false;
@@ -58,7 +58,7 @@
 
   function loadFeed(){
     if (!feedPromise) {
-      feedPromise = fetch('latest-news.json?replaceTranslate=' + Date.now(), { cache: 'no-store' })
+      feedPromise = fetch('latest-news.json?preparedTranslate=' + Date.now(), { cache: 'no-store' })
         .then(function(resp){ return resp.ok ? resp.json() : { articles: [] }; })
         .then(function(feed){
           articleMap = {};
@@ -89,23 +89,29 @@
     return { id: id || titleSlug, article: null };
   }
 
-  function preparedTranslation(feed, found, originalTitle, originalSummary){
-    var article = found.article || {};
-    var bag = article.translations || article.translation || (feed.translations && feed.translations[found.id]) || null;
-    if (!bag) return null;
-    var sourceIsGerman = looksGerman(originalTitle + ' ' + originalSummary);
-    var target = sourceIsGerman ? bag.en : bag.de;
-    if (!(target && target.provider !== 'original' && (target.title || target.summary))) {
-      target = bag.de && bag.de.provider !== 'original' ? bag.de : (bag.en && bag.en.provider !== 'original' ? bag.en : null);
-    }
-    return target || null;
+  function translationBag(feed, found){
+    var article = found && found.article || {};
+    return article.translations || article.translation || (feed && feed.translations && found && feed.translations[found.id]) || null;
   }
-
-  function googleTranslate(text, target){
-    var url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=' + encodeURIComponent(target || 'de') + '&dt=t&q=' + encodeURIComponent(text || '');
-    return fetch(url).then(function(r){ return r.json(); }).then(function(data){
-      return data && data[0] ? data[0].map(function(part){ return part[0]; }).join('').trim() : '';
-    });
+  function chooseOriginal(feed, found, title, summary){
+    var bag = translationBag(feed, found);
+    if (!bag) return null;
+    var sourceIsGerman = looksGerman(title + ' ' + summary);
+    var entry = sourceIsGerman ? bag.de : bag.en;
+    if (entry && entry.provider === 'original' && (entry.title || entry.summary)) return entry;
+    if (bag.en && bag.en.provider === 'original') return bag.en;
+    if (bag.de && bag.de.provider === 'original') return bag.de;
+    return null;
+  }
+  function choosePrepared(feed, found, title, summary){
+    var bag = translationBag(feed, found);
+    if (!bag) return null;
+    var sourceIsGerman = looksGerman(title + ' ' + summary);
+    var entry = sourceIsGerman ? bag.en : bag.de;
+    if (entry && entry.provider !== 'original' && (entry.title || entry.summary)) return entry;
+    if (bag.de && bag.de.provider !== 'original') return bag.de;
+    if (bag.en && bag.en.provider !== 'original') return bag.en;
+    return null;
   }
 
   function summaryNodes(card){
@@ -147,6 +153,29 @@
     setButton(btn, 'done', 'Original anzeigen');
   }
 
+  function syncPreparedOriginals(feed){
+    document.querySelectorAll('.article-card').forEach(function(card){
+      if (card.dataset.replaceTranslated === '1') return;
+      var found = findArticle(feed, card);
+      if (!found.article) return;
+      var title = card.querySelector('h2');
+      var summary = summaryNodes(card)[0];
+      var original = chooseOriginal(feed, found, title && title.textContent, summary && summary.textContent);
+      if (!original) return;
+      var originalTitle = compact(original.title || (found.article && found.article.title));
+      var originalSummary = compact(original.summary || (found.article && found.article.summary));
+      if (originalTitle && title && compact(title.textContent) !== originalTitle) title.textContent = originalTitle;
+      if (originalSummary && summary && compact(summary.textContent) !== originalSummary) setSummaries(card, originalSummary);
+      card.dataset.replaceOriginalTitle = originalTitle || card.dataset.replaceOriginalTitle || '';
+      card.dataset.replaceOriginalSummary = originalSummary || card.dataset.replaceOriginalSummary || '';
+      removeExtraTranslationBoxes(card);
+    });
+  }
+  function queueSync(){
+    clearTimeout(syncTimer);
+    syncTimer = setTimeout(function(){ loadFeed().then(syncPreparedOriginals); }, 120);
+  }
+
   function handleClick(e){
     var btn = e.target && e.target.closest && e.target.closest('.translate-btn');
     if (!btn) return;
@@ -170,38 +199,23 @@
     card.dataset.replaceOriginalSummary = card.dataset.replaceOriginalSummary || compact(summary && summary.textContent);
     setButton(btn, 'loading', 'Übersetze...');
 
-    loadFeed().then(function(feed){
+    withTimeout(loadFeed(), 2500).then(function(feed){
       var found = findArticle(feed, card);
-      var originalTitle = card.dataset.replaceOriginalTitle || (found.article && found.article.title) || '';
-      var originalSummary = card.dataset.replaceOriginalSummary || (found.article && found.article.summary) || '';
-      var prepared = preparedTranslation(feed, found, originalTitle, originalSummary);
-      var sourceIsGerman = looksGerman(originalTitle + ' ' + originalSummary);
-      var target = sourceIsGerman ? 'en' : 'de';
-      var originalLen = compact(originalSummary).length;
-      var preparedLen = compact(prepared && prepared.summary).length;
-
-      if (prepared && (originalLen < 260 || preparedLen >= originalLen * 0.55)) {
-        applyTranslation(card, btn, { title: prepared.title || originalTitle, summary: prepared.summary || originalSummary });
-        return;
+      var original = chooseOriginal(feed, found, card.dataset.replaceOriginalTitle, card.dataset.replaceOriginalSummary);
+      if (original) {
+        card.dataset.replaceOriginalTitle = compact(original.title || card.dataset.replaceOriginalTitle);
+        card.dataset.replaceOriginalSummary = compact(original.summary || card.dataset.replaceOriginalSummary);
       }
-
-      return withTimeout(googleTranslate(originalTitle + '\n|||\n' + originalSummary, target), 3200)
-        .then(function(text){
-          var parts = String(text || '').split('|||');
-          var translated = { title: parts[0] || originalTitle, summary: parts[1] || originalSummary };
-          if (!compact(translated.summary) && prepared) translated.summary = prepared.summary;
-          applyTranslation(card, btn, translated);
-        })
-        .catch(function(){
-          if (prepared) {
-            applyTranslation(card, btn, { title: prepared.title || originalTitle, summary: prepared.summary || originalSummary });
-          } else {
-            throw new Error('translation failed');
-          }
-        });
+      var prepared = choosePrepared(feed, found, card.dataset.replaceOriginalTitle, card.dataset.replaceOriginalSummary);
+      if (!prepared) throw new Error('prepared translation missing');
+      applyTranslation(card, btn, {
+        title: prepared.title || card.dataset.replaceOriginalTitle,
+        summary: prepared.summary || card.dataset.replaceOriginalSummary
+      });
     }).catch(function(){
-      setButton(btn, 'idle', 'Übersetzung fehlgeschlagen');
-      setTimeout(function(){ if (btn.textContent === 'Übersetzung fehlgeschlagen') setButton(btn, 'idle', 'Übersetzen'); }, 2200);
+      removeExtraTranslationBoxes(card);
+      setButton(btn, 'idle', 'Übersetzung noch nicht bereit');
+      setTimeout(function(){ if (btn.textContent === 'Übersetzung noch nicht bereit') setButton(btn, 'idle', 'Übersetzen'); }, 2200);
     });
   }
 
@@ -209,7 +223,8 @@
 
   function start(){
     injectStyle();
-    setTimeout(loadFeed, 0);
+    loadFeed().then(syncPreparedOriginals);
+    new MutationObserver(queueSync).observe(document.getElementById('feed') || document.body, { childList:true, subtree:true });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once:true });
   else start();
