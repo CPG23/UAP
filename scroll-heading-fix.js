@@ -8,7 +8,9 @@
     '.article-card h2{color:#eef9fd!important;font-weight:700!important;text-shadow:none!important}',
     '.article-card .article-main{overflow-anchor:none!important}',
     '#feed,.old-list{overflow-anchor:none!important}',
-    'html{scroll-behavior:auto!important}'
+    'html{scroll-behavior:auto!important}',
+    '.article-card .badge,.article-card .article-date-prominent{border-color:rgba(13,58,92,.95)!important}',
+    '.article-card .badge.quality::after{border-color:rgba(13,58,92,.95)!important}'
   ].join('\n');
 
   function injectStyle(){
