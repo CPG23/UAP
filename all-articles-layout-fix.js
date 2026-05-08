@@ -43,6 +43,13 @@
     return d.toLocaleDateString('de-AT', { day:'2-digit', month:'2-digit', year:'numeric' });
   }
 
+  function isoDate(value){
+    if (!value) return '';
+    var d = new Date(value);
+    if (!isNaN(d.getTime())) return d.toISOString().slice(0, 10);
+    return String(value).slice(0, 10);
+  }
+
   function cardId(card){
     if (!card) return '';
     if (card.dataset && card.dataset.uapId) return card.dataset.uapId;
@@ -106,6 +113,30 @@
     });
   }
 
+  function articleMap(feed){
+    var map = {};
+    (feed && feed.articles || []).forEach(function(article){
+      var id = article.id || slug(article.title);
+      if (id) map[id] = article;
+    });
+    return map;
+  }
+
+  function promoteCurrentScanArticles(feed){
+    var feedEl = document.getElementById('feed');
+    if (!feedEl || !feed) return;
+    var scanDay = isoDate(feed.timestamp || new Date());
+    var map = articleMap(feed);
+    var oldToggle = feedEl.querySelector(':scope > .old-toggle');
+    document.querySelectorAll('.old-list .article-card').forEach(function(card){
+      var article = map[cardId(card)];
+      if (!article || isoDate(article.date) !== scanDay) return;
+      card.classList.remove('unread');
+      if (oldToggle && oldToggle.parentNode === feedEl) feedEl.insertBefore(card, oldToggle);
+      else feedEl.appendChild(card);
+    });
+  }
+
   function moveDetailActions(card){
     var details = card && card.querySelector('.details');
     if (!details) return;
@@ -120,11 +151,14 @@
     if (running) return;
     running = true;
     injectStyle();
-    loadFeed().then(function(feed){ renderMissing(feed); })
-      .finally(function(){
-        document.querySelectorAll('.article-card').forEach(moveDetailActions);
-        running = false;
-      });
+    loadFeed().then(function(feed){
+      renderMissing(feed);
+      setTimeout(function(){ promoteCurrentScanArticles(feed); }, 0);
+      setTimeout(function(){ promoteCurrentScanArticles(feed); }, 120);
+    }).finally(function(){
+      document.querySelectorAll('.article-card').forEach(moveDetailActions);
+      running = false;
+    });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', apply);
