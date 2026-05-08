@@ -45,7 +45,7 @@
               ? data[0].map(function(part){ return part && part[0] ? part[0] : ''; }).join('')
               : '';
             translated = cleanTranslation(translated);
-            if (!translated) throw new Error('Keine Uebersetzung erhalten');
+            if (!translated) throw new Error('Keine Übersetzung erhalten');
             out.push(translated);
             return out;
           });
@@ -110,7 +110,7 @@
       title.textContent = card.dataset.uapOriginalTitle || title.textContent;
       setSummaries(card, card.dataset.uapOriginalSummary || summary.textContent);
       card.dataset.uapTranslated = '0';
-      setButton(btn, 'Uebersetzen', false);
+      setButton(btn, 'Übersetzen', false);
       return;
     }
 
@@ -119,7 +119,7 @@
     card.dataset.uapOriginalTitle = originalTitle;
     card.dataset.uapOriginalSummary = originalSummary;
     card.dataset.uapTranslationBusy = '1';
-    setButton(btn, 'Uebersetze...', true);
+    setButton(btn, 'Übersetze...', true);
 
     translateParts(originalTitle, originalSummary)
       .then(function(result){
@@ -129,9 +129,9 @@
         setButton(btn, 'Original anzeigen', false);
       })
       .catch(function(){
-        setButton(btn, 'Uebersetzung fehlgeschlagen', false);
+        setButton(btn, 'Übersetzung fehlgeschlagen', false);
         setTimeout(function(){
-          if (btn.textContent === 'Uebersetzung fehlgeschlagen') setButton(btn, 'Uebersetzen', false);
+          if (btn.textContent === 'Übersetzung fehlgeschlagen') setButton(btn, 'Übersetzen', false);
         }, 1800);
       })
       .finally(function(){
