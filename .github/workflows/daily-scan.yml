@@ -38,7 +38,9 @@ jobs:
       - name: Scan UAP news and prepare exact notification payload
         env:
           NTFY_TOPIC: UAP-News26
-        run: python3 .github/scripts/daily_scan.py
+        run: |
+          echo "Running refreshed UAP scan"
+          python3 .github/scripts/daily_scan.py
 
       - name: Publish latest-news.json
         run: |
