@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08T19:08:45Z",
+  "timestamp": "2026-05-08T19:30:38Z",
   "articles": [
     {
       "id": "batch-declassified-detailing-files-initial-pentagon-releases",
@@ -276,6 +276,79 @@
           "title": "Ein UFO-Whistleblower starb an einer „versehentlichen Überdosis“, Monate bevor er vor dem Kongress aussagen sollte, und jetzt ermittelt das FBI",
           "summary": "Matthew James Sullivan, ein 39-jähriger Air-Force-Veteran, der für die Air Force Intelligence Agency, das National Air and Space Intelligence Center und die NSA gearbeitet hatte, wurde am 12. Mai 2024 tot in seinem Haus in Falls Church, Virginia, aufgefunden; Der Gerichtsmediziner entschied, dass sein Tod eine versehentliche Überdosis Alkohol, Alprazolam, Cyclobenzaprin und Imipramin sei. Sullivan sollte im November 2024 vor dem Kongress über das geheime UFO-Absturz-Bergungsprogramm der Regierung aussagen und hatte persönlich UFOs in Bundesbesitz gesehen.",
           "sourceHash": "0f3bd7f5ba1dfd4301f15d51a74b322d1212124f",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "accidental-agreeing-congress-died-drug-overdose-testify-whistleblower",
+      "title": "Would-be UFO whistleblower died of accidental drug overdose after agreeing to testify to Congress",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTlVYQmxMMUxiQ2RnaFRDeHd0UDAydERKMUNrcm9CYmJQdG1pS1liN2t5cUlrU3FMbnVsY0RVN2xoTmJiTVQydWM2WXE5MnZIaXllUmE0Szh3dFhaTER5eDNXUkxpUU9PRWhKdkQxelNBZVQxOGNuc3hjaUpyX2RPOTdMbVRYZ1hqWFpxbWtmZTkxT3RiME14Zjkya2tMOXRCVDdTdG4xcDBSX3hBWnU0ZklneVpZVG9XcUlfby1n?oc=5",
+      "date": "2026-04-25",
+      "summary": ", from an accidental drug overdose involving alcohol, alprazolam, cyclobenzaprine and imipramine, according to the Northern District Office of the Chief Medical Examiner. Sullivan had agreed to testify before Congress about secret government UFO programs and was preparing to appear at a hearing scheduled for November 2024. ) expressed grave concern over Sullivan’s death, citing “implications for national security,” and referred the case to the FBI in a letter to FBI Director Kash Patel.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 71,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "CONGRESS, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "CONGRESS, WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "CONGRESS",
+        "WHISTLEBLOWER"
+      ],
+      "translation": {
+        "en": {
+          "title": "Would-be UFO whistleblower died of accidental drug overdose after agreeing to testify to Congress",
+          "summary": ", from an accidental drug overdose involving alcohol, alprazolam, cyclobenzaprine and imipramine, according to the Northern District Office of the Chief Medical Examiner. Sullivan had agreed to testify before Congress about secret government UFO programs and was preparing to appear at a hearing scheduled for November 2024. ) expressed grave concern over Sullivan’s death, citing “implications for national security,” and referred the case to the FBI in a letter to FBI Director Kash Patel.",
+          "sourceHash": "ffe6e93dac398bbda44789446b5f88674944a797",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Möchtegern-UFO-Whistleblower starb an versehentlicher Überdosis Drogen, nachdem er sich bereit erklärt hatte, vor dem Kongress auszusagen",
+          "summary": ", aufgrund einer versehentlichen Überdosis Drogen mit Alkohol, Alprazolam, Cyclobenzaprin und Imipramin, nach Angaben des Northern District Office des Chief Medical Examiner. Sullivan hatte zugestimmt, vor dem Kongress über geheime UFO-Programme der Regierung auszusagen und bereitete sich darauf vor, bei einer für November 2024 geplanten Anhörung zu erscheinen. ) äußerte große Besorgnis über Sullivans Tod, verwies auf „Auswirkungen auf die nationale Sicherheit“ und verwies den Fall in einem Brief an FBI-Direktor Kash Patel an das FBI.",
+          "sourceHash": "ffe6e93dac398bbda44789446b5f88674944a797",
           "provider": "google"
         }
       }
@@ -980,7 +1053,9 @@
     "amid-anomalous-can-conclusions-disclosure-draw-files-officials-pentagon-phenomena": "The Pentagon has begun releasing new files on UFOs, stating that the public can draw their own conclusions about unidentified anomalous phenomena. The release effort is coordinated by the White House, the director of national intelligence, the Energy Department, NASA, and the FBI. In a post on X, the Pentagon said that while past administrations sought to discredit or dissuade the public, President Donald Trump is focused on maximum transparency and that additional documents will be released on a rolling basis. Congress created an office in 2022 to declassify UFO material, and a 2024 report from that office found hundreds of new UAP incidents but no evidence that the U.S. government had confirmed alien technology. A small group of Republican members of Congress, including Rep. Anna Paulina Luna and Rep. Tim Burchett, have urged further transparency, with Luna demanding 46 UAP videos identified by whistleblowers and Burchett noting that transparency will take time. Experts have cautioned that UAP videos are often misinterpreted and mischaracterized by those unfamiliar with advanced military technology, and the Pentagon’s 2024 report rebutted claims that the U.S. government had recovered alien technology or confirmed evidence of alien life.",
     "classified-files-previously-releases-trump": "Under President Donald Trump’s direction, the Department of War, with support from the Office of the Director of National Intelligence, reviewed and declassified several UFO files for public release. The released files include 162 unresolved Unidentified Anomalous Phenomena (UAP) records archived by the federal government. Trump announced the release on February 19 2026, noting “tremendous interest” by the layman. Secretary of War Pete Hegseth said the Department of War is in lockstep with Trump to provide unprecedented transparency regarding the government’s understanding of UAPs. Tulsi Gabbard, Director of National Intelligence, stated that the Office of the Director of National Intelligence is coordinating the Intelligence Community’s declassification efforts with the Department of War to ensure a careful, comprehensive review. FBI Director Kash Patel remarked that the FBI is proud to support this landmark release and will continue to prioritize national security as the files are reviewed and released.",
     "accidental-congress-died-fbi-investigating-months-now-overdose-set-testify": "Matthew James Sullivan, a 39‑year‑old Air Force veteran who had worked for the Air Force Intelligence Agency, the National Air and Space Intelligence Center and the NSA, was found dead in his Falls Church, Virginia home on May 12 2024; the medical examiner ruled his death an accidental overdose of alcohol, alprazolam, cyclobenzaprine and imipramine. Sullivan had been scheduled to testify before Congress in November 2024 about the government’s secret UFO crash‑retrieval program and had personally seen UFOs in federal possession. Representative Eric Burlison sent a letter to FBI Director Kash Patel expressing concern that Sullivan’s sudden death raised “substantial questions” and potential foul play, citing national‑security implications. The FBI responded that it is “spearheading the effort to look for connections into the missing and deceased scientists” and is working with the Department of Energy, the Department of War, and state and local law‑enforcement partners. Retired Major General David Abba, who directed the Pentagon’s special access programs, said at Sullivan’s funeral that Sullivan “held the burden that a select few in this nation have of truly understanding what’s going on.” The article notes a pattern of other whistleblowers—such as David Grusch, David Wilcock and Amy Eskridge—who have died under circumstances the authorities have ruled accidental or self‑inflicted.",
+    "accidental-agreeing-congress-died-drug-overdose-testify-whistleblower": "Matthew James Sullivan, a 39‑year‑old Air Force veteran, died on May 12, 2024 at his home in Falls Church, Va., from an accidental drug overdose involving alcohol, alprazolam, cyclobenzaprine and imipramine, according to the Northern District Office of the Chief Medical Examiner. Sullivan had agreed to testify before Congress about secret government UFO programs and was preparing to appear at a hearing scheduled for November 2024. Representative Eric Burlison (R‑Mo.) expressed grave concern over Sullivan’s death, citing “implications for national security,” and referred the case to the FBI in a letter to FBI Director Kash Patel. The FBI said it could be investigating Sullivan’s death as part of a broader effort to examine the circumstances surrounding the disappearance or death of a dozen other U.S. scientists, working with the Department of Energy, Department of War and local law enforcement. Sullivan had earned a Bronze Star for valor in Operation Enduring Freedom, worked for the Air Force Intelligence Agency, the National Air and Space Intelligence Center and the NSA, and was described by retired Major General David Abba as carrying “the burden that a select few in this nation have of truly understanding what’s going on.” Other UFO whistleblowers, such as David Grusch, have reported threats and reprisals after revealing evidence of U.S. possession of UFOs, and Grusch’s 2022 letter to the Intelligence Community Office of Inspector General included information about Sullivan’s death, though the IC OIG has stated it cannot confirm or deny any ongoing investigations.",
     "asked-being-files-government-learn-released-scientists-they-think-what": "On May 8, the Pentagon began posting declassified documents, photos, and videos related to unidentified anomalous phenomena (UAP) after President Trump urged the release in February 2023. The release includes evidence such as a video of a U.S. missile striking an unidentified glowing orb and a government report noting more than 750 new UAP sightings between May 2023 and June 2024. Former AARO director Sean Kirkpatrick said the files contain no proof of extraterrestrial life, describing the Trump order as a distraction and noting that his office had to declassify only what could be released. NASA UAP panel member Federica Bianco and astrophysicist Neil de Grasse Tyson both stated that the documents are unlikely to reveal alien technology or phenomena that violate physics, and that most sightings can be explained by ignorance of optical or atmospheric effects. UCSD astrophysicist Shelley Wright expects most documents to be heavily redacted for national‑security reasons but is hopeful that declassified older data could be studied with modern technology, while Barnard professor Janna Levin says astronomers are excited about the possibility of finding microbial evidence rather than advanced alien tech. Overall, scientists anticipate that the release will provide data for analysis but are not expecting definitive evidence of extraterrestrial life, and they emphasize the need for skepticism and rigorous scientific inquiry.",
+    "apollo-astronauts-did-disclosure-files-moon-what-witness": "The Pentagon released new UFO files on May 8 that include transcripts of Apollo 17 astronauts reporting bright particles, flashes, and a rotating phenomenon during their 1972 lunar mission. Ronald Evans described very bright particles drifting and tumbling, while Harrison Schmitt compared the lights to a Fourth of July display. Commander Eugene Cernan reported streaks and intense flashing lights, and later observed a rotating object that he thought corresponded to space objects. The files also contain a photo of three bright lights in a triangular formation above the lunar surface, which the Pentagon says is under investigation and may be a physical object. Earlier missions such as Apollo 11, Apollo 12, Gemini VII, and Skylab are also included in the release, with reports of unidentified objects or phenomena observed by those crews. The release was part of a broader effort by the Trump administration to provide transparency on UAPs, with the Pentagon stating it is working in lockstep with the president. The documents come from multiple agencies, including the White House, Office of the Director of National Intelligence, Defense Department, NASA, and the Energy Department.",
     "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare": "Several religious leaders, including Pastor Perry Stone and evangelist Tony Merkel, claim they were privately briefed by U.S. military intelligence officers to prepare their congregations for an upcoming UAP disclosure. Stone, a Tennessee‑based Pentecostal evangelist, said in a video that a trusted associate informed him that a group of pastors was invited to hear directly from government‑connected individuals about an imminent disclosure event involving unidentified anomalous phenomena. Stone described the briefing as covering craft not allegedly part of our planet, non‑human beings, and a coordinated propaganda plan already in motion. Merkel says he has been in contact with officials for over a year, describing them as Christians in intelligence operations assigned to work within the UAP disclosure community, and that they approached him with a mission to prepare the body of Christ for what is coming. The state where the briefing took place has not been disclosed, and no government memo, official invitation, transcript, or attendee list has surfaced. The White House has not denied the claims, and Washington has remained silent, a silence the article notes is significant.",
     "collection-historic-online-pentagon-photo-publishes-release": "The Pentagon published an online UFO photo collection in a historic release, according to a NewsNation report dated May 8, 2026. The release was reported by NewsNation. The collection is available online. The Pentagon’s release is described as historic.",
     "begins-documents-dozens-files-pentagon-photos-releasing-unveiling-videos": "On Friday the Pentagon released 162 new UFO files—including 120 PDFs, 28 videos and 14 image files—on a new website after President Trump ordered the disclosure of government documents about unexplained phenomena. The files, sourced from the FBI, Department of Defense, NASA and State Department, contain eyewitness testimony, photos and reports of sightings that date back decades from around the globe. Among the releases are NASA Apollo 12 and Apollo 17 photographs of lunar sky anomalies, a Pentagon review suggesting a physical object may explain one Apollo 17 image, and a report of an Apollo 17 astronaut seeing a flash north of Grimaldi crater. The videos, totaling 41 minutes, show infrared footage of white objects moving at high speeds, including a Greek 2023 clip of an object making 90‑degree turns at about 80 miles per hour, and other clips from the Indo‑Pacific, Syria and the U.S. that depict semi‑transparent orange orbs and a football‑shaped object. The FBI case file 62‑HQ‑83894, now with fewer redactions, documents sightings of “flying discs” from 1947 to 1968, including the 1947 Roswell incident, and contains letters to FBI Director J. Edgar Hoover and a memo from a Dallas agent about a hexagonal disc recovered near Roswell. The State Department cables included in the release describe UAP encounters in countries such as Papua New Guinea, Kazakhstan, Turkmenistan, Georgia, Mexico, Tajikistan and the U.S., with one 1994 Tajikistan pilot claiming an extraterrestrial object that performed rapid maneuvers and was not a meteor. The Pentagon noted that 108 of the 162 files contain redactions to protect eyewitness identities, facility locations, or sensitive military information, but no redactions were made to information about the nature or existence of UAP encounters.",
@@ -1008,21 +1083,29 @@
     "air-dead-force-found-issue-officer-testify-warning-whistleblowers": "According to a report from MSN dated April 29, 2026, UFO whistleblowers issued a warning after an Air Force officer was found dead before he could testify. The report states that the officer’s death occurred prior to his scheduled testimony. The whistleblowers’ warning is linked to the officer’s planned testimony on UFO. The article is part of a cluster of MSN sources covering UFO-related topics. No additional details are available in the description."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-08T19:08:45Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-05-08T19:30:38Z",
+    "ids": [
+      "apollo-astronauts-did-disclosure-files-moon-what-witness"
+    ],
+    "articles": [
+      {
+        "id": "apollo-astronauts-did-disclosure-files-moon-what-witness",
+        "title": "Did Apollo 17 astronauts witness UFO on moon? What's in disclosure files",
+        "source": "USA Today"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 322,
-    "broadTopics": 163,
-    "notificationArticles": 29,
-    "notificationTopics": 13,
-    "newNotificationTopics": 0,
-    "appTopics": 30,
+    "broadArticles": 324,
+    "broadTopics": 161,
+    "notificationArticles": 30,
+    "notificationTopics": 14,
+    "newNotificationTopics": 1,
+    "appTopics": 32,
     "retentionDays": 14,
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "regroupedTopics": 16,
+    "regroupedTopics": 17,
     "topicRegrouping": "title_summary_uap_file_release_v3"
   },
   "translations": {
@@ -1051,6 +1134,20 @@
         "title": "Ein UFO-Whistleblower starb an einer „versehentlichen Überdosis“, Monate bevor er vor dem Kongress aussagen sollte, und jetzt ermittelt das FBI",
         "summary": "Matthew James Sullivan, ein 39-jähriger Air-Force-Veteran, der für die Air Force Intelligence Agency, das National Air and Space Intelligence Center und die NSA gearbeitet hatte, wurde am 12. Mai 2024 tot in seinem Haus in Falls Church, Virginia, aufgefunden; Der Gerichtsmediziner entschied, dass sein Tod eine versehentliche Überdosis Alkohol, Alprazolam, Cyclobenzaprin und Imipramin sei. Sullivan sollte im November 2024 vor dem Kongress über das geheime UFO-Absturz-Bergungsprogramm der Regierung aussagen und hatte persönlich UFOs in Bundesbesitz gesehen.",
         "sourceHash": "0f3bd7f5ba1dfd4301f15d51a74b322d1212124f",
+        "provider": "google"
+      }
+    },
+    "accidental-agreeing-congress-died-drug-overdose-testify-whistleblower": {
+      "en": {
+        "title": "Would-be UFO whistleblower died of accidental drug overdose after agreeing to testify to Congress",
+        "summary": ", from an accidental drug overdose involving alcohol, alprazolam, cyclobenzaprine and imipramine, according to the Northern District Office of the Chief Medical Examiner. Sullivan had agreed to testify before Congress about secret government UFO programs and was preparing to appear at a hearing scheduled for November 2024. ) expressed grave concern over Sullivan’s death, citing “implications for national security,” and referred the case to the FBI in a letter to FBI Director Kash Patel.",
+        "sourceHash": "ffe6e93dac398bbda44789446b5f88674944a797",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Möchtegern-UFO-Whistleblower starb an versehentlicher Überdosis Drogen, nachdem er sich bereit erklärt hatte, vor dem Kongress auszusagen",
+        "summary": ", aufgrund einer versehentlichen Überdosis Drogen mit Alkohol, Alprazolam, Cyclobenzaprin und Imipramin, nach Angaben des Northern District Office des Chief Medical Examiner. Sullivan hatte zugestimmt, vor dem Kongress über geheime UFO-Programme der Regierung auszusagen und bereitete sich darauf vor, bei einer für November 2024 geplanten Anhörung zu erscheinen. ) äußerte große Besorgnis über Sullivans Tod, verwies auf „Auswirkungen auf die nationale Sicherheit“ und verwies den Fall in einem Brief an FBI-Direktor Kash Patel an das FBI.",
+        "sourceHash": "ffe6e93dac398bbda44789446b5f88674944a797",
         "provider": "google"
       }
     },
@@ -1224,7 +1321,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 14,
+    "prepared": 15,
     "failed": 0,
     "summary": "compact app summary only",
     "target": "de for English articles, en for German articles",
