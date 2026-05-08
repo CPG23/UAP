@@ -5,6 +5,7 @@
   var feedPromise = null;
   var latestFeed = null;
   var running = false;
+  var scheduled = false;
 
   function injectStyle(){
     if (document.getElementById(STYLE_ID)) return;
@@ -159,21 +160,23 @@
       return card.offsetParent !== null;
     });
     var collapsed = hasVisibleCurrentOrNew;
-    list.classList.toggle('collapsed', collapsed);
-    toggle.textContent = (collapsed ? '▸ ' : '▾ ') + 'Bereits gesehen (' + count + ')';
+    if (list.classList.contains('collapsed') !== collapsed) list.classList.toggle('collapsed', collapsed);
+    var label = (collapsed ? '▸ ' : '▾ ') + 'Bereits gesehen (' + count + ')';
+    if (toggle.textContent !== label) toggle.textContent = label;
     if (!toggle.dataset.uapSeenBound) {
       toggle.dataset.uapSeenBound = '1';
       toggle.addEventListener('click', function(){
         setTimeout(function(){
           var nowCollapsed = list.classList.contains('collapsed');
-          toggle.textContent = (nowCollapsed ? '▸ ' : '▾ ') + 'Bereits gesehen (' + count + ')';
+          var next = (nowCollapsed ? '▸ ' : '▾ ') + 'Bereits gesehen (' + count + ')';
+          if (toggle.textContent !== next) toggle.textContent = next;
         }, 0);
       });
     }
   }
 
   function scheduleGrouping(feed){
-    [0, 120, 400, 900, 1800, 3200].forEach(function(delay){
+    [0, 180, 650, 1400].forEach(function(delay){
       setTimeout(function(){
         promoteCurrentDayArticles(feed);
         updateSeenSection();
@@ -275,6 +278,7 @@
   function apply(){
     if (running) return;
     running = true;
+    scheduled = false;
     injectStyle();
     loadFeed().then(function(feed){
       renderMissing(feed);
@@ -284,6 +288,12 @@
       updateSeenSection();
       running = false;
     });
+  }
+
+  function scheduleApply(){
+    if (scheduled || running) return;
+    scheduled = true;
+    setTimeout(apply, 350);
   }
 
   window.addEventListener('click', function(e){
@@ -305,5 +315,5 @@
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', apply);
   else apply();
-  new MutationObserver(function(){ setTimeout(apply, 0); }).observe(document.documentElement, { childList:true, subtree:true });
+  new MutationObserver(scheduleApply).observe(document.documentElement, { childList:true, subtree:true });
 })();
