@@ -28,6 +28,9 @@ GERMAN_MARKERS = re.compile(
     re.IGNORECASE,
 )
 SENTENCE_RE = re.compile(r"[^.!?]+[.!?]+(?:\s|$)")
+WEAK_ENDINGS = {
+    "auf", "in", "im", "am", "an", "mit", "von", "für", "über", "und", "oder", "the", "a", "an", "of", "to", "for", "with", "on", "in",
+}
 
 TRANSLATION_CACHE: Dict[Tuple[str, str, str], str] = {}
 
@@ -59,6 +62,19 @@ def source_hash(title: str, summary: str) -> str:
 
 def looks_german(text: str) -> bool:
     return bool(GERMAN_MARKERS.search(text or ""))
+
+
+def plausible_translation(source: str, translated: str) -> bool:
+    source = compact(source)
+    translated = compact(translated)
+    if not translated:
+        return False
+    if len(source) > 180 and len(translated) < len(source) * 0.5:
+        return False
+    last_word = re.sub(r"[^\wäöüß]+", "", translated.split()[-1].lower()) if translated.split() else ""
+    if len(source) > 80 and last_word in WEAK_ENDINGS and translated[-1:] not in ".!?…)]}\"”’":
+        return False
+    return True
 
 
 def chunks(text: str, max_len: int = 1250) -> Iterable[str]:
@@ -144,31 +160,37 @@ def translate_text(text: str, target: str, source: str) -> Tuple[str, str]:
     for provider, func in providers:
         try:
             translated = compact(func(text, target, source))
-            if translated:
+            if translated and plausible_translation(text, translated):
                 TRANSLATION_CACHE[key] = translated
                 return translated, provider
+            last_error = RuntimeError(f"implausible {provider} translation")
         except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, KeyError, IndexError, TypeError) as exc:
             last_error = exc
             time.sleep(0.3)
 
     try:
         translated = compact(translate_pollinations(text, target))
-        if translated:
+        if translated and plausible_translation(text, translated):
             TRANSLATION_CACHE[key] = translated
             return translated, "pollinations"
+        last_error = RuntimeError("implausible pollinations translation")
     except (urllib.error.URLError, TimeoutError) as exc:
         last_error = exc
 
     raise RuntimeError(f"translation failed for {target}: {last_error}")
 
 
-def existing_is_current(entry: dict, current_hash: str) -> bool:
-    return (
+def existing_is_current(entry: dict, current_hash: str, title_source: str, summary_source: str, translated: bool) -> bool:
+    if not (
         isinstance(entry, dict)
         and entry.get("sourceHash") == current_hash
         and bool(compact(entry.get("title")))
         and bool(compact(entry.get("summary")))
-    )
+    ):
+        return False
+    if translated:
+        return plausible_translation(title_source, entry.get("title", "")) and plausible_translation(summary_source, entry.get("summary", ""))
+    return True
 
 
 def translation_block(title: str, summary: str, current_hash: str) -> dict:
@@ -226,7 +248,9 @@ def main() -> None:
         current_lang = "de" if looks_german(f"{title} {summary}") else "en"
         target_lang = "en" if current_lang == "de" else "de"
 
-        if existing_is_current(existing.get(current_lang, {}), current_hash) and existing_is_current(existing.get(target_lang, {}), current_hash):
+        source_current = existing_is_current(existing.get(current_lang, {}), current_hash, title, summary, translated=False)
+        target_current = existing_is_current(existing.get(target_lang, {}), current_hash, title, summary, translated=True)
+        if source_current and target_current:
             block = existing
         else:
             try:
