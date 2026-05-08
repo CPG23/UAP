@@ -10,10 +10,18 @@
       "summary": "The feed lists an article from USA Herald dated 2026-05-07. The title says that a Pentagon UAP data playbook has quietly become public and may show how disclosure could unfold. The feed connects this item with the terms DISCLOSURE and PENTAGON. The topic is currently tracked from one source. The full article text could not be reliably extracted for this item, so this summary only uses information present in the feed and listed sources. No details have been added beyond those visible signals.",
       "mentions": 1,
       "otherSources": [],
-      "clusterTitles": [
-        "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof"
-      ],
+      "clusterTitles": ["Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof"],
       "quality": 71,
+      "qualityBreakdown": [
+        {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
+        {"label": "Begriffe", "points": 6, "text": "Disclosure und Pentagon wurden als relevante Themenbegriffe erkannt."},
+        {"label": "Offiziell", "points": 8, "text": "Pentagon und Disclosure zählen als offizielle beziehungsweise stark relevante UAP-Kontexte."},
+        {"label": "Titel", "points": 4, "text": "Relevante Begriffe stehen direkt im Titel."},
+        {"label": "Starker Titel", "points": 13, "text": "Der Titel enthält einen klaren UAP/Disclosure-Bezug."},
+        {"label": "Kernaussage", "points": 7, "text": "Disclosure wird als zentrales Thema erkannt."},
+        {"label": "Behörde im Titel", "points": 6, "text": "Pentagon steht direkt im Titel."},
+        {"label": "Mehrere Quellen", "points": 0, "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."}
+      ],
       "qualityExplanation": "Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.",
       "matchedTerms": ["DISCLOSURE", "PENTAGON"]
     },
@@ -28,6 +36,15 @@
       "otherSources": [],
       "clusterTitles": [],
       "quality": 65,
+      "qualityBreakdown": [
+        {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
+        {"label": "Begriffe", "points": 6, "text": "Disclosure und Military wurden als relevante Themenbegriffe erkannt."},
+        {"label": "Offiziell", "points": 8, "text": "Disclosure und Military zählen als offizielle beziehungsweise stark relevante UAP-Kontexte."},
+        {"label": "Titel", "points": 4, "text": "Relevante Begriffe stehen direkt im Titel."},
+        {"label": "Starker Titel", "points": 13, "text": "Der Titel enthält einen klaren UAP/Disclosure-Bezug."},
+        {"label": "Kernaussage", "points": 7, "text": "Disclosure wird als zentrales Thema erkannt."},
+        {"label": "Mehrere Quellen", "points": 0, "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."}
+      ],
       "qualityExplanation": "Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.",
       "matchedTerms": ["DISCLOSURE", "MILITARY"]
     },
@@ -42,6 +59,15 @@
       "otherSources": [],
       "clusterTitles": [],
       "quality": 56,
+      "qualityBreakdown": [
+        {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
+        {"label": "Begriffe", "points": 3, "text": "Disclosure wurde als relevanter Themenbegriff erkannt."},
+        {"label": "Offiziell", "points": 4, "text": "Disclosure zählt als stark relevanter UAP-Kontext."},
+        {"label": "Titel", "points": 2, "text": "Der relevante Begriff steht direkt im Titel."},
+        {"label": "Starker Titel", "points": 13, "text": "Der Titel enthält einen klaren Disclosure-Bezug."},
+        {"label": "Kernaussage", "points": 7, "text": "Disclosure wird als zentrales Thema erkannt."},
+        {"label": "Mehrere Quellen", "points": 0, "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."}
+      ],
       "qualityExplanation": "Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.",
       "matchedTerms": ["DISCLOSURE"]
     },
@@ -56,6 +82,14 @@
       "otherSources": [],
       "clusterTitles": [],
       "quality": 49,
+      "qualityBreakdown": [
+        {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
+        {"label": "Begriffe", "points": 3, "text": "FBI wurde als relevanter Themenbegriff erkannt."},
+        {"label": "Offiziell", "points": 4, "text": "FBI zählt als offizieller Kontext."},
+        {"label": "Titel", "points": 2, "text": "Der relevante Begriff steht direkt im Titel."},
+        {"label": "Starker Titel", "points": 13, "text": "Der Titel enthält einen klaren UFO-Bezug."},
+        {"label": "Mehrere Quellen", "points": 0, "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."}
+      ],
       "qualityExplanation": "Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.",
       "matchedTerms": ["FBI"]
     },
@@ -70,6 +104,15 @@
       "otherSources": [],
       "clusterTitles": [],
       "quality": 61,
+      "qualityBreakdown": [
+        {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
+        {"label": "Begriffe", "points": 6, "text": "UAP und Classified wurden als relevante Themenbegriffe erkannt."},
+        {"label": "Offiziell", "points": 4, "text": "Classified zählt als offizieller beziehungsweise behördlicher Kontext."},
+        {"label": "Titel", "points": 4, "text": "Relevante Begriffe stehen direkt im Titel."},
+        {"label": "Starker Titel", "points": 13, "text": "Der Titel enthält einen klaren UAP-Bezug."},
+        {"label": "Kernaussage", "points": 7, "text": "Klassifizierte UAP-Information wird als zentrales Thema erkannt."},
+        {"label": "Mehrere Quellen", "points": 0, "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."}
+      ],
       "qualityExplanation": "Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.",
       "matchedTerms": ["CLASSIFIED"]
     },
@@ -84,6 +127,14 @@
       "otherSources": [],
       "clusterTitles": [],
       "quality": 55,
+      "qualityBreakdown": [
+        {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
+        {"label": "Begriffe", "points": 6, "text": "UFO und Whistleblowers wurden als relevante Themenbegriffe erkannt."},
+        {"label": "Titel", "points": 2, "text": "Ein relevanter Begriff steht direkt im Titel."},
+        {"label": "Starker Titel", "points": 13, "text": "Der Titel enthält einen klaren UFO-Bezug."},
+        {"label": "Kernaussage", "points": 7, "text": "Whistleblower-Bezug wird als zentrales UAP-Thema erkannt."},
+        {"label": "Mehrere Quellen", "points": 0, "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."}
+      ],
       "qualityExplanation": "Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.",
       "matchedTerms": ["WHISTLEBLOWER"]
     }
