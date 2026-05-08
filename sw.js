@@ -1,6 +1,6 @@
-var CACHE = 'uap-v53-detail-controls';
+var CACHE = 'uap-v54-all-articles-layout';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '53';
+var OVERRIDE_VERSION = '54';
 var OVERRIDE_FILES = [
   'app-feed-overrides.js',
   'bell-icon-fix.js',
@@ -14,7 +14,8 @@ var OVERRIDE_FILES = [
   'summary-metadata-fix.js',
   'quality-info-points-fix.js',
   'article-detail-rating-fix.js',
-  'notification-direct-fix.js'
+  'notification-direct-fix.js',
+  'all-articles-layout-fix.js'
 ];
 
 self.addEventListener('install', function(e) {
