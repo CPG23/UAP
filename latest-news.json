@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08T05:56:16Z",
+  "timestamp": "2026-05-08T05:57:12Z",
   "articles": [
     {
       "id": "actually-data-disclosure-goes-how-pentagon-playbook-public-quietly-reveal",
@@ -189,22 +189,22 @@
         {
           "label": "Begriffe",
           "points": 3,
-          "text": "FBI wurde als relevanter Themenbegriff erkannt."
+          "text": "FBI als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
           "points": 4,
-          "text": "FBI zählt als offizieller Kontext."
+          "text": "FBI als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
           "points": 2,
-          "text": "Der relevante Begriff steht direkt im Titel."
+          "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
           "label": "Starker Titel",
           "points": 13,
-          "text": "Der Titel enthält einen klaren UFO-Bezug."
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
         },
         {
           "label": "Mehrere Quellen",
@@ -212,7 +212,7 @@
           "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
         }
       ],
-      "qualityExplanation": "Bewertet nach UAP-Relevanz, offiziellen Stellen, Quellenvertrauen, Anzahl unabhängiger Quellen und Themenbündelung.",
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
       "matchedTerms": [
         "FBI"
       ]
@@ -328,15 +328,15 @@
     "admit-being-called-craft-crazy-critical-encounters-fear-near-officials": "The feed lists an article from International Business Times UK dated 2026-05-05. The title says: \"UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites\". The feed connects this item with: WHISTLEBLOWER. The topic is currently tracked from one source. The full article text could not be reliably extracted, so no extra claims were added."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-08T05:56:16Z",
+    "timestamp": "2026-05-08T05:57:12Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 285,
-    "broadTopics": 140,
-    "notificationArticles": 4,
-    "notificationTopics": 3,
+    "broadArticles": 311,
+    "broadTopics": 157,
+    "notificationArticles": 5,
+    "notificationTopics": 4,
     "newNotificationTopics": 0,
     "appTopics": 6,
     "retentionDays": 14,
