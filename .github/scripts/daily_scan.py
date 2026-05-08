@@ -216,19 +216,37 @@ def fetch_article_text(url):
     return ''
 
 
+def fallback_summary(article):
+    source = article.get('source', 'der Quelle')
+    date = article.get('date') or TODAY
+    title = article.get('title', 'diese Meldung')
+    terms = article.get('matchedTerms') or []
+    term_text = ''
+    if terms:
+        term_text = ' Die Meldung ist mit den Begriffen ' + ', '.join(terms[:4]) + ' verknüpft.'
+    sources = article.get('mentions', 1)
+    source_text = 'einer Quelle' if sources == 1 else f'{sources} Quellen'
+    return (
+        f'Der Feed meldet einen Artikel von {source} vom {date}. Laut Titel geht es um: "{title}".'
+        f'{term_text} Das Thema wird im aktuellen Feed mit {source_text} geführt. '
+        'Der vollständige Artikeltext konnte für diese Meldung nicht zuverlässig ausgelesen werden; deshalb enthält diese Zusammenfassung nur Angaben, die direkt aus dem Feed bzw. den gelisteten Quellen stammen.'
+    )
+
+
 def ai_summary(title, text, source_count):
     if not text or len(text) < 700:
         return ''
     prompt = (
-        'Summarize ONLY the article text below in 6 factual sentences. Do not add facts, dates, names, claims, or context that are not explicitly present. '
-        'Include the concrete actors, decisions, claims, evidence, and uncertainty that the article itself states. '
-        'If the text is insufficient, return exactly: INSUFFICIENT_SOURCE_TEXT. Plain English, no markdown. '
-        f'This topic is covered by {source_count} source(s).\n\n{text[:8000]}'
+        'Fasse ausschließlich den folgenden Artikeltext auf Deutsch in 5 bis 7 sachlichen Sätzen zusammen. '
+        'Erfinde keine Fakten, Daten, Namen, Belege oder Zusammenhänge. Nutze nur Aussagen, die ausdrücklich im Text stehen. '
+        'Nenne konkrete Akteure, Entscheidungen, Behauptungen, Belege und Unsicherheiten, wenn sie im Text enthalten sind. '
+        'Wenn der Text nicht ausreicht, antworte exakt mit: INSUFFICIENT_SOURCE_TEXT. Kein Markdown. '
+        f'Dieses Thema wird von {source_count} Quelle(n) geführt.\n\n{text[:8000]}'
     )
     payload = json.dumps({
         'model': 'openai',
         'messages': [
-            {'role': 'system', 'content': 'Return only what is asked. Plain text, no markdown.'},
+            {'role': 'system', 'content': 'Antworte nur mit der gewünschten deutschen Zusammenfassung. Kein Markdown.'},
             {'role': 'user', 'content': prompt},
         ],
         'max_tokens': 950,
@@ -320,8 +338,7 @@ summaries = {}
 for index, article in enumerate(display_articles[:12]):
     text = fetch_article_text(article.get('link', ''))
     summary = ai_summary(article['title'], text, article.get('mentions', 1)) if text else ''
-    if summary:
-        summaries[article['id']] = summary
+    summaries[article['id']] = summary or fallback_summary(article)
     if index < len(display_articles[:12]) - 1:
         time.sleep(1)
 
@@ -334,7 +351,7 @@ latest = {
             'source': article.get('source', 'UAP News'),
             'link': article.get('link', ''),
             'date': article.get('date', TODAY),
-            'summary': summaries.get(article['id'], ''),
+            'summary': summaries.get(article['id'], fallback_summary(article)),
             'mentions': article.get('mentions', 1),
             'otherSources': article.get('otherSources', []),
             'clusterTitles': article.get('clusterTitles', []),
