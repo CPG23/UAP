@@ -11,9 +11,7 @@
       '.startup-title{font-size:clamp(52px,15vw,92px)!important;line-height:.88!important;text-shadow:0 0 12px rgba(255,255,255,.86),0 0 32px rgba(0,212,255,1),0 0 74px rgba(0,255,157,.58)!important}',
       '.startup-credit{top:calc(8px + env(safe-area-inset-top) + clamp(62px,16vw,102px))!important}',
       '@media(max-width:560px){.startup-title{font-size:clamp(48px,16vw,78px)!important}.startup-credit{top:calc(7px + env(safe-area-inset-top) + clamp(58px,17vw,88px))!important}}',
-      '.quality-sheet.general-quality .quality-score-line{color:#a9cbd7!important}',
-      '.quality-sheet.general-quality .quality-points{display:none!important}',
-      '.quality-sheet.general-quality .quality-rule{display:block!important}'
+      '.quality-sheet.general-quality .quality-score-line{color:#a9cbd7!important}'
     ].join('\n');
     document.head.appendChild(style);
   }
@@ -25,7 +23,8 @@
   }
 
   function isBasis(row) {
-    return /\bBasis\b/i.test(row.textContent || '');
+    var strong = row.querySelector('strong');
+    return /\bBasis\b/i.test(strong ? strong.textContent : row.textContent || '');
   }
 
   function sortArticleQualityRows(sheet) {
@@ -35,7 +34,7 @@
     rows.sort(function(a, b) {
       if (isBasis(a) && !isBasis(b)) return 1;
       if (!isBasis(a) && isBasis(b)) return -1;
-      return parsePoints(b) - parsePoints(a);
+      return parsePoints(a) - parsePoints(b);
     });
     rows.forEach(function(row) { rules.appendChild(row); });
   }
