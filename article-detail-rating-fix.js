@@ -69,6 +69,8 @@
   window.addEventListener('click', function(e){
     var card = articleCardFrom(e.target);
     if (!card || isInteractive(e.target)) return;
+    e.preventDefault();
+    e.stopPropagation();
     toggleCard(card);
   }, true);
 
@@ -84,6 +86,7 @@
     if (!card || isInteractive(e.target)) return;
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
+      e.stopPropagation();
       toggleCard(card);
     }
   }, true);
