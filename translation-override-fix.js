@@ -35,7 +35,7 @@
     var chunks = [];
     var current = '';
     input.split(/(\s+)/).forEach(function(part){
-      if ((current + part).length > 1500 && current.trim()) {
+      if ((current + part).length > 1400 && current.trim()) {
         chunks.push(current.trim());
         current = part;
       } else {
@@ -61,11 +61,11 @@
       'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t' + query,
       'https://translate.google.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t' + query
     ];
-    return fetchWithTimeout(urls[0], 5500)
+    return fetchWithTimeout(urls[0], 4000)
       .then(function(resp){ if (!resp.ok) throw new Error('Google ' + resp.status); return resp.json(); })
       .then(parseGoogle)
       .catch(function(){
-        return fetchWithTimeout(urls[1], 5500)
+        return fetchWithTimeout(urls[1], 4000)
           .then(function(resp){ if (!resp.ok) throw new Error('Google fallback ' + resp.status); return resp.json(); })
           .then(parseGoogle);
       });
@@ -86,36 +86,40 @@
     });
   }
 
-  function ensureDetailSummary(card){
+  function findExistingDetailSummary(card){
+    return card && card.querySelector('.details .uap-detail-summary');
+  }
+
+  function findSourceSummary(card){
+    return card && (findExistingDetailSummary(card) || card.querySelector('.summary:not(.uap-detail-summary)') || card.querySelector('.summary'));
+  }
+
+  function ensureDetailSummaryForResult(card, text){
+    var detail = findExistingDetailSummary(card);
+    if (detail) return detail;
     var details = card && card.querySelector('.details');
     if (!details) return null;
-    var detail = details.querySelector('.uap-detail-summary');
-    if (!detail) {
-      detail = document.createElement('div');
-      detail.className = 'uap-detail-summary';
-      var actions = details.querySelector('.actions');
-      if (actions) details.insertBefore(detail, actions);
-      else details.insertBefore(detail, details.firstChild);
-    }
-    var source = card.querySelector('.summary:not(.uap-detail-summary)');
-    if (!detail.textContent.trim() && source) detail.textContent = source.textContent;
+    detail = document.createElement('div');
+    detail.className = 'uap-detail-summary';
+    detail.dataset.uapCreatedByTranslation = '1';
+    detail.textContent = text || '';
+    var actions = details.querySelector('.actions');
+    if (actions) details.insertBefore(detail, actions);
+    else details.insertBefore(detail, details.firstChild);
     return detail;
   }
 
-  function summaryElements(card){
-    ensureDetailSummary(card);
-    return Array.prototype.slice.call(card.querySelectorAll('.details .uap-detail-summary, .summary'));
-  }
-
-  function primarySummary(card){
-    var detail = ensureDetailSummary(card);
-    if (detail && String(detail.textContent || '').trim()) return detail;
-    var list = summaryElements(card);
-    return list.find(function(el){ return String(el.textContent || '').trim(); }) || null;
+  function allSummaryTargets(card, translatedText){
+    var list = Array.prototype.slice.call(card.querySelectorAll('.details .uap-detail-summary, .summary'));
+    if (!list.some(function(el){ return el.classList.contains('uap-detail-summary'); })) {
+      var detail = ensureDetailSummaryForResult(card, translatedText);
+      if (detail) list.unshift(detail);
+    }
+    return list;
   }
 
   function setSummaries(card, text){
-    summaryElements(card).forEach(function(el){ el.textContent = text; });
+    allSummaryTargets(card, text).forEach(function(el){ el.textContent = text; });
   }
 
   function setButton(btn, text, disabled){
@@ -124,18 +128,16 @@
     btn.textContent = text;
   }
 
-  function markActive(card, btn, active){
-    if (card) card.classList.toggle('uap-translation-active', !!active);
-    if (btn) {
-      btn.classList.toggle('uap-translating', !!active && btn.textContent !== 'Original anzeigen');
-      btn.classList.toggle('uap-translated', !!active && btn.textContent === 'Original anzeigen');
-    }
+  function markButton(btn, state){
+    if (!btn) return;
+    btn.classList.toggle('uap-translating', state === 'loading');
+    btn.classList.toggle('uap-translated', state === 'done');
   }
 
   function translateCard(card, btn){
     injectStyle();
     var title = card && card.querySelector('h2');
-    var summary = card && primarySummary(card);
+    var summary = card && findSourceSummary(card);
     if (!card || !title || !summary || card.dataset.uapTranslationBusy === '1') return;
 
     if (card.dataset.uapTranslated === '1') {
@@ -143,7 +145,7 @@
       setSummaries(card, card.dataset.uapOriginalSummary || summary.textContent);
       card.dataset.uapTranslated = '0';
       card.classList.remove('uap-translation-active');
-      if (btn) btn.classList.remove('uap-translating', 'uap-translated');
+      markButton(btn, 'idle');
       setButton(btn, 'Übersetzen', false);
       return;
     }
@@ -153,21 +155,22 @@
     card.dataset.uapOriginalTitle = originalTitle;
     card.dataset.uapOriginalSummary = originalSummary;
     card.dataset.uapTranslationBusy = '1';
+    card.classList.remove('uap-translation-active');
     setButton(btn, 'Übersetze...', true);
-    markActive(card, btn, true);
+    markButton(btn, 'loading');
 
     translateParts(originalTitle, originalSummary)
       .then(function(result){
         title.textContent = result.title || originalTitle;
         setSummaries(card, result.summary || originalSummary);
         card.dataset.uapTranslated = '1';
+        card.classList.add('uap-translation-active');
         setButton(btn, 'Original anzeigen', false);
-        if (btn) btn.classList.remove('uap-translating');
-        markActive(card, btn, true);
+        markButton(btn, 'done');
       })
       .catch(function(){
         card.classList.remove('uap-translation-active');
-        if (btn) btn.classList.remove('uap-translating', 'uap-translated');
+        markButton(btn, 'idle');
         setButton(btn, 'Übersetzung fehlgeschlagen', false);
         setTimeout(function(){
           if (btn.textContent === 'Übersetzung fehlgeschlagen') setButton(btn, 'Übersetzen', false);
