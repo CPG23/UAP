@@ -1,6 +1,6 @@
-var CACHE = 'uap-v40-summary-polish';
+var CACHE = 'uap-v41-rating-guide';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '40';
+var OVERRIDE_VERSION = '41';
 var OVERRIDE_FILES = [
   'app-feed-overrides.js',
   'bell-icon-fix.js',
@@ -11,7 +11,8 @@ var OVERRIDE_FILES = [
   'summary-fallback-fix.js',
   'quality-wording-fix.js',
   'quality-order-startup-fix.js',
-  'summary-metadata-fix.js'
+  'summary-metadata-fix.js',
+  'quality-info-points-fix.js'
 ];
 
 self.addEventListener('install', function(e) {
