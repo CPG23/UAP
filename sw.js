@@ -1,6 +1,6 @@
-var CACHE = 'uap-v63-translate-scroll-badges';
+var CACHE = 'uap-v64-direct-google-translate';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '63';
+var OVERRIDE_VERSION = '64';
 var OVERRIDE_FILES = [
   'app-feed-overrides.js',
   'bell-icon-fix.js',
