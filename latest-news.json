@@ -1,77 +1,18 @@
 {
-  "timestamp": "2026-05-08T06:01:51Z",
+  "timestamp": "2026-05-08T06:13:21Z",
   "articles": [
-    {
-      "id": "actually-data-disclosure-goes-how-pentagon-playbook-public-quietly-reveal",
-      "title": "Pentagon’s UAP Data Playbook Quietly Goes Public—And It May Reveal How Disclosure Will Actually Unfold",
-      "source": "USA Herald",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT29fWXRpbW8tM2FQTGZfd3luQ1RDM1ViMmhvWXNNdjRuSUFwNUE2U1k0NFVyckVYZTYxRlItOHUtalBjb3RZb3VmQUNMZEViQ3RzWWhZR2VnLU9kcHBRbm10eUVoUWd6UXM0RXRSenZyRHBqalZZcURXOTRXa1Y5akpZcUpEUHB3ZUJ2anNpQ3JJeHdUdkFPMUpqLXlLWkpGWFM1X1ZDOUszMHJJbUs0ZnVKa3gzaUcyYVR6NGFYLXpudw?oc=5",
-      "date": "2026-05-07",
-      "summary": "This item tracks a USA Herald report dated 2026-05-07. The listed headline centers on: \"Pentagon’s UAP Data Playbook Quietly Goes Public—And It May Reveal How Disclosure Will Actually Unfold\". The scanner connects the topic with DISCLOSURE and PENTAGON, based on the headline and available feed text. Related feed headlines in the same topic cluster mention: \"Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof\". At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [
-        "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof"
-      ],
-      "quality": 71,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DISCLOSURE, PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "DISCLOSURE, PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 0,
-          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
-      "matchedTerms": [
-        "DISCLOSURE",
-        "PENTAGON"
-      ]
-    },
     {
       "id": "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare",
       "title": "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure",
       "source": "USA Herald",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcW8xdnY3aHk4NS1GcGlFSkJfTkNSNE1iNllTZUF5TmpMc0Zibkc0dU5oQnpPV0JvV0YxWXptMGx4LWhJX2JkRkxjemRFSmRzenFsOElRaVdTTXVQTWZuelVVbHVyMlZVSWhzNkRBRGxJZ1hLN3ZTRG9HR0F0UGZwUWdrSlZkdDI2WVJ2elE4emNaNWxiOGUzWjAzcS0wdFhKeVI1a3MwenMwWklLS3VlbFVha0xyRW9wRU1heGxYVl9UVko1REJXRzktTThqUHFHcHlldUwycTIwMUlyb2NvTGZFZzBvQTg?oc=5",
-      "date": "2026-05-08",
+      "date": "2026-05-07",
       "summary": "This item tracks a USA Herald report dated 2026-05-08. The listed headline centers on: \"Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure\". The scanner connects the topic with DISCLOSURE and MILITARY, based on the headline and available feed text. At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
       "mentions": 1,
       "otherSources": [],
-      "clusterTitles": [],
+      "clusterTitles": [
+        "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof"
+      ],
       "quality": 65,
       "qualityBreakdown": [
         {
@@ -170,6 +111,54 @@
       ]
     },
     {
+      "id": "confirms-delivered-director-expect-fbi-files-here-kash-patel-public",
+      "title": "UFO Files Delivered for Public Release, FBI Director Kash Patel Confirms — Here's What to Expect",
+      "source": "International Business Times UK",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90TDlwZ1dNc2RSemc3bVVRWlUwZC1ZLTZlMHlKMkhuN242b1VoT3dfbVFpbTJkY1NGeTc4VGVOZk41V0FMR3MwQ1NRT3BCV05jcTBqdFhRS3lOWlRSSEdoSjFfdkdXSHNJYTRkS1R6ako4ci1C?oc=5",
+      "date": "2026-05-07",
+      "summary": "This item tracks a International Business Times UK report dated 2026-05-07. The listed headline centers on: \"UFO Files Delivered for Public Release, FBI Director Kash Patel Confirms — Here's What to Expect\". The scanner connects the topic with FBI, based on the headline and available feed text. At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 49,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "FBI als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "FBI als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "matchedTerms": [
+        "FBI"
+      ]
+    },
+    {
       "id": "accidental-agreeing-congress-died-drug-overdose-testify-whistleblower",
       "title": "Would-be UFO whistleblower died of accidental drug overdose after agreeing to testify to Congress",
       "source": "New York Post",
@@ -226,6 +215,67 @@
       "matchedTerms": [
         "CONGRESS",
         "WHISTLEBLOWER"
+      ]
+    },
+    {
+      "id": "actually-data-disclosure-goes-how-pentagon-playbook-public-quietly-reveal",
+      "title": "Pentagon’s UAP Data Playbook Quietly Goes Public—And It May Reveal How Disclosure Will Actually Unfold",
+      "source": "USA Herald",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT29fWXRpbW8tM2FQTGZfd3luQ1RDM1ViMmhvWXNNdjRuSUFwNUE2U1k0NFVyckVYZTYxRlItOHUtalBjb3RZb3VmQUNMZEViQ3RzWWhZR2VnLU9kcHBRbm10eUVoUWd6UXM0RXRSenZyRHBqalZZcURXOTRXa1Y5akpZcUpEUHB3ZUJ2anNpQ3JJeHdUdkFPMUpqLXlLWkpGWFM1X1ZDOUszMHJJbUs0ZnVKa3gzaUcyYVR6NGFYLXpudw?oc=5",
+      "date": "2026-05-07",
+      "summary": "This item tracks a USA Herald report dated 2026-05-07. The listed headline centers on: \"Pentagon’s UAP Data Playbook Quietly Goes Public—And It May Reveal How Disclosure Will Actually Unfold\". The scanner connects the topic with DISCLOSURE and PENTAGON, based on the headline and available feed text. Related feed headlines in the same topic cluster mention: \"Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof\". At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [
+        "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof"
+      ],
+      "quality": 71,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DISCLOSURE, PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "DISCLOSURE, PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
+      "matchedTerms": [
+        "DISCLOSURE",
+        "PENTAGON"
       ]
     },
     {
@@ -810,61 +860,14 @@
       "matchedTerms": [
         "DISCLOSURE"
       ]
-    },
-    {
-      "id": "confirms-delivered-director-expect-fbi-files-here-kash-patel-public",
-      "title": "UFO Files Delivered for Public Release, FBI Director Kash Patel Confirms — Here's What to Expect",
-      "source": "International Business Times UK",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90TDlwZ1dNc2RSemc3bVVRWlUwZC1ZLTZlMHlKMkhuN242b1VoT3dfbVFpbTJkY1NGeTc4VGVOZk41V0FMR3MwQ1NRT3BCV05jcTBqdFhRS3lOWlRSSEdoSjFfdkdXSHNJYTRkS1R6ako4ci1C?oc=5",
-      "date": "2026-05-07",
-      "summary": "This item tracks a International Business Times UK report dated 2026-05-07. The listed headline centers on: \"UFO Files Delivered for Public Release, FBI Director Kash Patel Confirms — Here's What to Expect\". The scanner connects the topic with FBI, based on the headline and available feed text. At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 49,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "FBI als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "FBI als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 0,
-          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen und mehrere Quellen.",
-      "matchedTerms": [
-        "FBI"
-      ]
     }
   ],
   "summaries": {
-    "actually-data-disclosure-goes-how-pentagon-playbook-public-quietly-reveal": "This item tracks a USA Herald report dated 2026-05-07. The listed headline centers on: \"Pentagon’s UAP Data Playbook Quietly Goes Public—And It May Reveal How Disclosure Will Actually Unfold\". The scanner connects the topic with DISCLOSURE and PENTAGON, based on the headline and available feed text. Related feed headlines in the same topic cluster mention: \"Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof\". At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
     "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare": "This item tracks a USA Herald report dated 2026-05-08. The listed headline centers on: \"Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure\". The scanner connects the topic with DISCLOSURE and MILITARY, based on the headline and available feed text. At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
     "corbell-disclosure-dives-dog-fight-jeremy-sleeping-trailer": "This item tracks a Icon Vs. Icon report dated 2026-05-07. The listed headline centers on: \"‘SLEEPING DOG’ Trailer Dives Into Jeremy Corbell’s Fight For UAP Disclosure\". The scanner connects the topic with DISCLOSURE, based on the headline and available feed text. At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
+    "confirms-delivered-director-expect-fbi-files-here-kash-patel-public": "This item tracks a International Business Times UK report dated 2026-05-07. The listed headline centers on: \"UFO Files Delivered for Public Release, FBI Director Kash Patel Confirms — Here's What to Expect\". The scanner connects the topic with FBI, based on the headline and available feed text. At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
     "accidental-agreeing-congress-died-drug-overdose-testify-whistleblower": "This item tracks a New York Post report dated 2026-04-25. The listed headline centers on: \"Would-be UFO whistleblower died of accidental drug overdose after agreeing to testify to Congress\". The scanner connects the topic with CONGRESS and WHISTLEBLOWER, based on the headline and available feed text. At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
+    "actually-data-disclosure-goes-how-pentagon-playbook-public-quietly-reveal": "This item tracks a USA Herald report dated 2026-05-07. The listed headline centers on: \"Pentagon’s UAP Data Playbook Quietly Goes Public—And It May Reveal How Disclosure Will Actually Unfold\". The scanner connects the topic with DISCLOSURE and PENTAGON, based on the headline and available feed text. Related feed headlines in the same topic cluster mention: \"Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof\". At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
     "anna-beyond-book-disclosure-enoch-frames-human-luna-paulina-perception": "This item tracks a USA Herald report dated 2026-05-01. The listed headline centers on: \"Rep. Anna Paulina Luna Frames UFO Disclosure Through The Book of Enoch As A Window Into A Reality Beyond Human Perception\". The scanner connects the topic with DISCLOSURE, based on the headline and available feed text. At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
     "biologics-craft-david-grusch-human-non-whistleblower": "This item tracks a judicialwatch.org report dated 2026-05-05. The listed headline centers on: \"UAP Whistleblower David Grusch on “Non-human” Biologics & Craft\". The scanner connects the topic with WHISTLEBLOWER, based on the headline and available feed text. At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
     "amid-death-his-inside-james-life-married-matthew-sullivan-suspicious": "This item tracks a BollywoodShaadis report dated 2026-04-26. The listed headline centers on: \"Was Matthew James Sullivan Married? Inside The UFO Whistleblower's Life Amid His 'Suspicious' Death\". The scanner connects the topic with WHISTLEBLOWER, based on the headline and available feed text. At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
@@ -878,17 +881,16 @@
     "admit-being-called-craft-crazy-critical-encounters-fear-near-officials": "This item tracks a International Business Times UK report dated 2026-05-05. The listed headline centers on: \"UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites\". At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
     "air-dead-force-found-issue-officer-testify-warning-whistleblowers": "This item tracks a MSN report dated 2026-04-29. The listed headline centers on: \"UFO whistleblowers issue warning after Air Force officer was found dead before he could testify\". At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
     "claims-david-death-growing-missing-narrative-scientists-tied-who-wilcock": "This item tracks a MSN report dated 2026-05-05. The listed headline centers on: \"Who was David Wilcock? The latest death in a growing ‘missing US scientists’ narrative tied to UFO claims\". At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
-    "2023-backyard-case-center-disclosure-las-moves-returns-stage-toward": "This item tracks a USA Herald report dated 2026-05-06. The listed headline centers on: \"The 2023 Las Vegas Backyard UFO Case Returns To Center Stage As Washington Moves Toward Disclosure\". The scanner connects the topic with DISCLOSURE, based on the headline and available feed text. At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.",
-    "confirms-delivered-director-expect-fbi-files-here-kash-patel-public": "This item tracks a International Business Times UK report dated 2026-05-07. The listed headline centers on: \"UFO Files Delivered for Public Release, FBI Director Kash Patel Confirms — Here's What to Expect\". The scanner connects the topic with FBI, based on the headline and available feed text. At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details."
+    "2023-backyard-case-center-disclosure-las-moves-returns-stage-toward": "This item tracks a USA Herald report dated 2026-05-06. The listed headline centers on: \"The 2023 Las Vegas Backyard UFO Case Returns To Center Stage As Washington Moves Toward Disclosure\". The scanner connects the topic with DISCLOSURE, based on the headline and available feed text. At the moment the topic is represented by one linked source in the feed. The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-08T06:01:51Z",
+    "timestamp": "2026-05-08T06:13:21Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 298,
-    "broadTopics": 154,
+    "broadArticles": 286,
+    "broadTopics": 142,
     "notificationArticles": 4,
     "notificationTopics": 3,
     "newNotificationTopics": 0,
