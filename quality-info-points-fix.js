@@ -14,7 +14,7 @@
     overlay.setAttribute('aria-modal','true');
     overlay.innerHTML = '<div class="quality-sheet general-quality">' +
       '<h3>Wertung</h3>' +
-      '<div class="quality-score-line">So entstehen die Punkte. Es gibt keine Minuspunkte.</div>' +
+      '<div class="quality-score-line">So entstehen die Punkte. Bei klar schwachen Einzelquellen kann es einen kleinen Abzug geben.</div>' +
       '<p>Die Wertung sagt nicht, ob eine Aussage wahr ist. Sie zeigt, wie stark ein Artikel fuer UAP News priorisiert wird.</p>' +
       '<div class="quality-rules">' +
         row('bis +28 Pkt', 'Mehrere Quellen', '7 Punkte pro weiterer unabhaengiger Quelle zum gleichen Thema.') +
@@ -25,6 +25,7 @@
         row('bis +10 Pkt', 'Titel', 'wenn wichtige UAP-Begriffe direkt im Titel stehen.') +
         row(7, 'Kernaussage', 'wenn ein besonders relevantes UAP-Thema wie Disclosure, Hearing, Whistleblower oder Non-human vorkommt.') +
         row(6, 'Behoerde im Titel', 'wenn Pentagon, NASA, AARO, Congress oder Senate direkt im Titel stehen.') +
+        row('-8 Pkt', 'Quellenrisiko', 'nur wenn ein Thema ausschliesslich von klar boulevardnahen oder clickbaitlastigen Quellen kommt.') +
         row(27, 'Basis', 'klarer UAP/UFO-Bezug, nachdem Unterhaltung, Gaming und Fiktion herausgefiltert wurden.') +
       '</div>' +
       '<button type="button" class="quality-close">SCHLIESSEN</button>' +
