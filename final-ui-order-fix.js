@@ -221,36 +221,11 @@
     updateSeenLabel(seen.toggle, seen.list, collapsed);
   }
 
-  function splitText(text){
-    var clean = String(text || '').replace(/\s+/g, ' ').trim();
-    if (!clean) return [];
-    var parts = [];
-    while (clean.length > 0) {
-      var slice = clean.slice(0, 430);
-      if (clean.length > 430) {
-        var cut = Math.max(slice.lastIndexOf('. '), slice.lastIndexOf('! '), slice.lastIndexOf('? '), slice.lastIndexOf('; '), slice.lastIndexOf(', '));
-        if (cut > 160) slice = slice.slice(0, cut + 1);
-      }
-      parts.push(slice.trim());
-      clean = clean.slice(slice.length).trim();
-    }
-    return parts;
-  }
-
-  function fetchTranslateChunk(text){
-    var controller = window.AbortController ? new AbortController() : null;
-    var timer = controller ? setTimeout(function(){ controller.abort(); }, 8500) : null;
-    var url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t&q=' + encodeURIComponent(text);
-    return fetch(url, { signal: controller && controller.signal })
-      .then(function(r){ return r.json(); })
-      .then(function(data){ return data && data[0] ? data[0].map(function(part){ return part[0]; }).join('').trim() : ''; })
-      .finally(function(){ if (timer) clearTimeout(timer); });
-  }
-
-  function translateFast(text){
-    var chunks = splitText(text);
-    if (!chunks.length) return Promise.resolve('');
-    return Promise.all(chunks.map(fetchTranslateChunk)).then(function(parts){ return parts.join(' ').replace(/\s+/g, ' ').trim(); });
+  function directGoogleTranslate(text){
+    var url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t&q=' + encodeURIComponent(text || '');
+    return fetch(url).then(function(r){ return r.json(); }).then(function(data){
+      return data && data[0] ? data[0].map(function(part){ return part[0]; }).join('').trim() : '';
+    });
   }
 
   function summaryElement(card){
@@ -281,17 +256,14 @@
     btn.disabled = true;
     btn.textContent = 'Übersetze...';
 
-    Promise.all([
-      translateFast(card.dataset.finalOriginalTitle),
-      translateFast(card.dataset.finalOriginalSummary)
-    ]).then(function(parts){
-      title.textContent = parts[0] || card.dataset.finalOriginalTitle;
-      summary.textContent = parts[1] || card.dataset.finalOriginalSummary;
+    directGoogleTranslate(card.dataset.finalOriginalTitle + '\n|||\n' + card.dataset.finalOriginalSummary).then(function(text){
+      var parts = String(text || '').split('|||');
+      title.textContent = (parts[0] || text || card.dataset.finalOriginalTitle).trim();
+      summary.textContent = (parts[1] || card.dataset.finalOriginalSummary).trim();
       card.dataset.finalTranslated = '1';
       btn.textContent = 'Original anzeigen';
     }).catch(function(){
-      btn.textContent = 'Übersetzen';
-      alert('Übersetzung konnte gerade nicht geladen werden. Bitte kurz erneut tippen.');
+      btn.textContent = 'Übersetzung fehlgeschlagen';
     }).finally(function(){
       btn.disabled = false;
     });
