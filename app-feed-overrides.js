@@ -7,6 +7,7 @@
   var notificationIds = getNotificationIds();
   var notificationMode = notificationIds.length > 0;
   var NTFY_TOPIC = 'UAP-News26';
+  var feedDataPromise = null;
 
   function loadReadIds() {
     try { return JSON.parse(localStorage.getItem('uap_read_ids_v1') || '[]'); } catch (e) { return []; }
@@ -32,6 +33,23 @@
     readIds.push(id);
     saveReadIds();
   }
+  function loadFeedData() {
+    if (!feedDataPromise) {
+      feedDataPromise = fetch('latest-news.json?quality=' + Date.now(), { cache: 'no-store' })
+        .then(function(r) { return r.json(); })
+        .catch(function() { return { articles: [] }; });
+    }
+    return feedDataPromise;
+  }
+  function getArticleData(id) {
+    return loadFeedData().then(function(feed) {
+      var articles = feed && feed.articles || [];
+      for (var i = 0; i < articles.length; i++) {
+        if (articles[i].id === id) return articles[i];
+      }
+      return null;
+    });
+  }
   function translateText(text) {
     var url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t&q=' + encodeURIComponent(text || '');
     return fetch(url).then(function(r) { return r.json(); }).then(function(data) {
@@ -53,7 +71,8 @@
       '.brand-title::after{content:"";position:absolute;left:1px;right:0;bottom:-7px;height:2px;background:linear-gradient(90deg,#00d4ff,#00ff9d,transparent);box-shadow:0 0 18px rgba(0,212,255,.95)}',
       '.brand-sub{margin-top:10px!important;color:#9fc7d4!important;letter-spacing:2.4px!important}',
       '.status{padding-top:4px}',
-      '.quality-help{margin:-4px 0 14px;color:#8aa6b3;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.55;border-left:2px solid rgba(0,212,255,.5);padding-left:10px}',
+      '.quality-top-help{display:inline-flex;align-items:center;gap:8px;margin:0 0 12px;padding:7px 10px;border:1px solid rgba(0,255,157,.42);background:rgba(0,255,157,.075);color:#c6ffe4;font-family:"Share Tech Mono",monospace;font-size:11px;letter-spacing:1.1px;cursor:pointer;box-shadow:0 0 16px rgba(0,255,157,.12)}',
+      '.quality-top-help .quality-info-dot{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border:1px solid rgba(0,212,255,.72);border-radius:50%;color:#00d4ff;font-size:10px;letter-spacing:0}',
       '.article-topline{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:9px}',
       '.article-topline .badges{justify-content:flex-end;margin:0;flex:1 1 auto}',
       '.article-date-prominent{flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;color:#d7f6ff;border:1px solid rgba(0,212,255,.42);background:rgba(0,212,255,.085);padding:4px 8px;font-family:"Share Tech Mono",monospace;font-size:11px;letter-spacing:1.2px;white-space:nowrap}',
@@ -62,38 +81,47 @@
       '.notify-btn{position:relative}',
       '.notify-btn.active{color:#07130f!important;border-color:rgba(0,255,157,.9)!important;background:#00ff9d!important;box-shadow:0 0 18px rgba(0,255,157,.38)}',
       '.notify-btn.blocked{color:#ffb69c!important;border-color:rgba(255,107,53,.5)!important;background:rgba(255,107,53,.08)!important}',
-      '.notify-info{margin:0 0 14px;padding:10px 12px;border:1px solid rgba(0,212,255,.28);background:rgba(0,212,255,.055);color:#a9cbd7;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.5}',
+      '.notify-info,.notification-focus{margin:0 0 14px;padding:10px 12px;border:1px solid rgba(0,212,255,.28);background:rgba(0,212,255,.055);color:#a9cbd7;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.5}',
       '.quality-overlay{position:fixed;inset:0;z-index:2500;display:flex;align-items:flex-end;justify-content:center;padding:18px;background:rgba(1,6,10,.72);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}',
-      '.quality-sheet{width:min(520px,100%);border:1px solid rgba(0,212,255,.48);background:linear-gradient(180deg,rgba(8,20,32,.98),rgba(3,10,15,.98));box-shadow:0 0 36px rgba(0,212,255,.22);padding:16px 16px 14px;color:#d6e8f0}',
+      '.quality-sheet{width:min(540px,100%);border:1px solid rgba(0,212,255,.48);background:linear-gradient(180deg,rgba(8,20,32,.98),rgba(3,10,15,.98));box-shadow:0 0 36px rgba(0,212,255,.22);padding:16px 16px 14px;color:#d6e8f0}',
       '.quality-sheet h3{margin:0 0 8px;color:#00d4ff;font-family:"Rajdhani",sans-serif;font-size:21px;letter-spacing:0}',
       '.quality-score-line{font-family:"Share Tech Mono",monospace;color:#00ff9d;font-size:12px;margin-bottom:12px}',
       '.quality-sheet p{margin:0 0 12px;color:#9db6c2;font-size:13px;line-height:1.5}',
       '.quality-rules{display:grid;gap:7px;margin:0 0 14px}',
-      '.quality-rule{display:grid;grid-template-columns:82px 1fr;gap:10px;align-items:start;border-top:1px solid rgba(13,58,92,.72);padding-top:7px;font-size:12px;line-height:1.4;color:#b7ccd5}',
+      '.quality-rule{display:grid;grid-template-columns:86px 1fr;gap:10px;align-items:start;border-top:1px solid rgba(13,58,92,.72);padding-top:7px;font-size:12px;line-height:1.4;color:#b7ccd5}',
       '.quality-points{color:#00d4ff;font-family:"Share Tech Mono",monospace;font-size:11px;white-space:nowrap}',
       '.quality-close{width:100%;height:38px;border:1px solid rgba(0,212,255,.42);background:rgba(0,212,255,.07);color:#00d4ff;font-family:"Share Tech Mono",monospace;font-size:11px;letter-spacing:1.8px;cursor:pointer}',
       '.old-toggle{width:100%;margin:6px 0 12px;padding:11px 12px;border:1px solid rgba(13,58,92,.9);background:rgba(8,20,32,.82);color:#00d4ff;font-family:"Share Tech Mono",monospace;font-size:11px;letter-spacing:1.5px;text-align:left;cursor:pointer}',
       '.old-list{display:flex;flex-direction:column;gap:12px}',
       '.old-list.collapsed{display:none}',
-      '.notification-focus{margin:0 0 14px;padding:11px 12px;border:1px solid rgba(0,255,157,.35);background:rgba(0,255,157,.06);color:#b5f5d4;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.55}',
       '.uap-hidden-by-notification{display:none!important}',
       '@media(max-width:560px){.header-inner{gap:10px}.brand-title{font-size:clamp(27px,10vw,39px)!important;letter-spacing:1px!important}.status{font-size:8px!important}}',
-      '@media(max-width:420px){.article-topline{gap:8px}.article-date-prominent{font-size:10px;padding:4px 6px}.article-topline .badge{font-size:8px;padding:2px 5px}}'
+      '@media(max-width:420px){.article-topline{gap:8px}.article-date-prominent{font-size:10px;padding:4px 6px}.article-topline .badge{font-size:8px;padding:2px 5px}.quality-rule{grid-template-columns:76px 1fr}}'
     ].join('\n');
     document.head.appendChild(style);
   }
 
-  function addQualityHelp() {
-    if (document.querySelector('.quality-help')) return;
-    var notice = document.getElementById('notice');
-    if (!notice || !notice.parentNode) return;
-    var help = document.createElement('div');
-    help.className = 'quality-help';
-    help.textContent = 'Tipp auf die Wertung zeigt die einfache Punkte-Erklärung.';
-    notice.parentNode.insertBefore(help, notice);
+  function addQualityTopHelp() {
+    if (document.querySelector('.quality-top-help')) return;
+    var target = null;
+    Array.prototype.slice.call(document.querySelectorAll('h1,h2,h3,.section-title,.feed-title')).some(function(el) {
+      if (/Aktuelle\s+Themen/i.test(el.textContent || '')) { target = el; return true; }
+      return false;
+    });
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'quality-top-help';
+    btn.innerHTML = '<span class="quality-info-dot">i</span><span>Wertung</span>';
+    btn.title = 'Erklärung zur Artikelwertung anzeigen';
+    if (target && target.parentNode) target.parentNode.insertBefore(btn, target.nextSibling);
+    else {
+      var notice = document.getElementById('notice');
+      if (notice && notice.parentNode) notice.parentNode.insertBefore(btn, notice);
+    }
   }
   function cleanToolbar() {
     document.querySelectorAll('a.icon-btn[href*="latest-news.json"]').forEach(function(a) { a.remove(); });
+    document.querySelectorAll('.quality-help').forEach(function(el) { el.remove(); });
     var meta = document.getElementById('feed-meta');
     if (meta) meta.textContent = '';
     addNotifyButton();
@@ -139,8 +167,7 @@
     showNotifyInfo.timer = setTimeout(function() { if (box.parentNode) box.remove(); }, 9000);
   }
   function openNtfy() {
-    var url = 'https://ntfy.sh/' + encodeURIComponent(NTFY_TOPIC);
-    window.open(url, '_blank', 'noopener,noreferrer');
+    window.open('https://ntfy.sh/' + encodeURIComponent(NTFY_TOPIC), '_blank', 'noopener,noreferrer');
   }
   function activateNotifications() {
     if (!('Notification' in window)) {
@@ -199,27 +226,40 @@
 
   function qualityNumberFromBadge(badge) {
     var match = String(badge && badge.textContent || '').match(/(\d+)/);
-    return match ? match[1] : '-';
+    return match ? Number(match[1]) : 0;
   }
-  function showQualityOverlay(score) {
+  function qualityRows(article, score) {
+    var rows = article && article.qualityBreakdown;
+    if (Array.isArray(rows) && rows.length) return rows;
+    var mentions = article && article.mentions || 1;
+    var sourceBonus = Math.min(28, Math.max(0, mentions - 1) * 7);
+    var remaining = Math.max(0, score - 27 - sourceBonus);
+    return [
+      { label: 'Basis', points: 27, text: 'UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert.' },
+      { label: 'Relevanz', points: remaining, text: 'Punkte aus starken Begriffen im Titel/Text, offiziellen Stellen und Quellenvertrauen.' },
+      { label: 'Quellen', points: sourceBonus, text: mentions > 1 ? mentions + ' Quellen berichten über dasselbe Thema.' : 'Nur eine Quelle im aktuellen Feed.' }
+    ].filter(function(row) { return row.points !== 0 || row.label === 'Quellen'; });
+  }
+  function showQualityOverlay(score, article) {
     closeQualityOverlay();
+    var rows = qualityRows(article, score);
+    var total = rows.reduce(function(sum, row) { return sum + (Number(row.points) || 0); }, 0);
+    var shown = score || (article && article.quality) || total;
+    var htmlRows = rows.map(function(row) {
+      var points = Number(row.points) || 0;
+      var sign = points > 0 ? '+' : '';
+      return '<div class="quality-rule"><span class="quality-points">' + sign + points + ' Pkt</span><span><strong>' + row.label + ':</strong> ' + row.text + '</span></div>';
+    }).join('');
     var overlay = document.createElement('div');
     overlay.className = 'quality-overlay';
     overlay.setAttribute('role', 'dialog');
     overlay.setAttribute('aria-modal', 'true');
     overlay.innerHTML =
       '<div class="quality-sheet">' +
-        '<h3>Wertung ' + score + '</h3>' +
-        '<div class="quality-score-line">Je höher, desto relevanter und verlässlicher wirkt das Thema.</div>' +
-        '<p>Die App bewertet nicht, ob eine Behauptung wahr ist. Sie schätzt nur ein, wie wichtig und belastbar ein Artikel für UAP-News wirkt.</p>' +
-        '<div class="quality-rules">' +
-          '<div class="quality-rule"><span class="quality-points">Basis</span><span>Der Artikel muss klar mit UAP/UFO zu tun haben. Filme, Spiele und reine Unterhaltung werden herausgefiltert.</span></div>' +
-          '<div class="quality-rule"><span class="quality-points">mehr</span><span>UAP/UFO steht direkt im Titel oder wird im Text deutlich erwähnt.</span></div>' +
-          '<div class="quality-rule"><span class="quality-points">mehr</span><span>Offizielle Stellen wie NASA, Pentagon, AARO, Congress, Senate oder Regierungsdokumente kommen vor.</span></div>' +
-          '<div class="quality-rule"><span class="quality-points">mehr</span><span>Die Quelle ist offiziell oder ein etabliertes Medium, zum Beispiel Reuters, AP, BBC, NBC, The Guardian, Newsweek oder ähnliche.</span></div>' +
-          '<div class="quality-rule"><span class="quality-points">mehr</span><span>Mehrere unabhängige Quellen berichten über dasselbe Thema.</span></div>' +
-          '<div class="quality-rule"><span class="quality-points">weniger</span><span>Unklare, reißerische oder schwache Quellen bekommen keinen Vertrauensbonus.</span></div>' +
-        '</div>' +
+        '<h3>Wertung ' + shown + '</h3>' +
+        '<div class="quality-score-line">Punkte in diesem Artikel: ' + (total || shown) + ' von maximal 100</div>' +
+        '<p>Die Wertung sagt nicht, ob eine Behauptung wahr ist. Sie zeigt, wie stark der Artikel für UAP-News gewichtet wurde.</p>' +
+        '<div class="quality-rules">' + htmlRows + '</div>' +
         '<button type="button" class="quality-close">SCHLIESSEN</button>' +
       '</div>';
     overlay.addEventListener('click', function(e) {
@@ -230,6 +270,12 @@
   function closeQualityOverlay() {
     var existing = document.querySelector('.quality-overlay');
     if (existing) existing.remove();
+  }
+  function showQualityForCard(card, badge) {
+    var score = qualityNumberFromBadge(badge);
+    var id = card && (card.dataset.uapId || idForCard(card));
+    if (!id) { showQualityOverlay(score, null); return; }
+    getArticleData(id).then(function(article) { showQualityOverlay(score, article); });
   }
 
   function cleanCard(card) {
@@ -342,7 +388,7 @@
   }
   function applyAll() {
     injectStyle();
-    addQualityHelp();
+    addQualityTopHelp();
     cleanToolbar();
     document.querySelectorAll('.article-card').forEach(cleanCard);
     regroupCards();
@@ -358,19 +404,31 @@
     activateNotifications();
   }, true);
   document.addEventListener('click', function(e) {
+    var topHelp = e.target.closest && e.target.closest('.quality-top-help');
+    if (topHelp) {
+      e.preventDefault();
+      showQualityOverlay(0, { qualityBreakdown: [
+        { label: 'Basis', points: 27, text: 'Startpunkte, wenn ein Artikel klar UAP/UFO-relevant ist und nicht als Unterhaltung/Gaming aussortiert wird.' },
+        { label: 'Begriffe', points: 0, text: 'Zusatzpunkte je nach starken UAP-Begriffen im Titel und Text.' },
+        { label: 'Offiziell', points: 0, text: 'Zusatzpunkte, wenn Pentagon, NASA, AARO, Congress, Senate, FBI, Behörden oder Dokumente vorkommen.' },
+        { label: 'Quelle', points: 0, text: 'Zusatzpunkte für offizielle Quellen oder etablierte Nachrichtenmedien.' },
+        { label: 'Mehrfach', points: 0, text: 'Zusatzpunkte, wenn mehrere unabhängige Quellen dasselbe Thema melden.' }
+      ] });
+      return;
+    }
     var quality = e.target.closest && e.target.closest('.badge.quality');
     if (!quality) return;
     e.preventDefault();
     e.stopPropagation();
     e.stopImmediatePropagation();
-    showQualityOverlay(qualityNumberFromBadge(quality));
+    showQualityForCard(quality.closest('.article-card'), quality);
   }, true);
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') closeQualityOverlay();
     var quality = e.target.closest && e.target.closest('.badge.quality');
     if (quality && (e.key === 'Enter' || e.key === ' ')) {
       e.preventDefault();
-      showQualityOverlay(qualityNumberFromBadge(quality));
+      showQualityForCard(quality.closest('.article-card'), quality);
     }
   }, true);
   document.addEventListener('click', function(e) {
