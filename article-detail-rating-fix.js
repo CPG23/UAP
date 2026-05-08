@@ -10,8 +10,9 @@
     var style = document.createElement('style');
     style.id = STYLE_ID;
     style.textContent = [
-      '.article-card:not(.uap-detail-open) .summary{display:none!important}',
-      '.article-card.uap-detail-open .summary{display:block!important;margin-top:12px!important}',
+      '.article-card .summary:not(.uap-detail-summary){display:none!important}',
+      '.article-card .uap-detail-summary{display:none!important;margin-top:12px!important;color:#b7ccd5!important;line-height:1.55!important;font-size:14px!important}',
+      '.article-card.uap-detail-open .uap-detail-summary{display:block!important}',
       '.article-card{cursor:pointer}',
       '.article-card .article-main{cursor:pointer}',
       '.article-card h2{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif!important;font-weight:400!important;letter-spacing:0!important;text-transform:none!important}',
@@ -38,12 +39,16 @@
     return title ? title.textContent.replace(/\s+/g, ' ').trim() : '';
   }
 
+  function slug(title){
+    return String(title || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  }
+
   function idOf(card){
     if (!card) return '';
     if (card.dataset && card.dataset.uapId) return card.dataset.uapId;
     var summary = card.querySelector('.summary[id]');
     if (summary && summary.id) return summary.id.replace(/^summary-/, '');
-    return '';
+    return slug(titleOf(card));
   }
 
   function findArticle(feed, card){
@@ -52,23 +57,43 @@
     var articles = feed && feed.articles || [];
     for (var i = 0; i < articles.length; i++) if (id && articles[i].id === id) return articles[i];
     for (var j = 0; j < articles.length; j++) if ((articles[j].title || '').toLowerCase() === title) return articles[j];
+    for (var k = 0; k < articles.length; k++) if (slug(articles[k].title) === id) return articles[k];
     return null;
   }
 
+  function existingSummaryText(card){
+    var summary = card && card.querySelector('.summary:not(.uap-detail-summary)');
+    return summary ? summary.textContent.replace(/\s+/g, ' ').trim() : '';
+  }
+
+  function setSummaryText(summary, text){
+    if (!summary || !text) return;
+    summary.textContent = text;
+  }
+
   function ensureSummary(card){
-    var summary = card && card.querySelector('.summary');
-    if (summary && summary.textContent.trim()) return Promise.resolve(summary);
+    if (!card) return Promise.resolve(null);
+    var main = card.querySelector('.article-main') || card;
+    var detail = card.querySelector('.uap-detail-summary');
+    if (!detail) {
+      detail = document.createElement('div');
+      detail.className = 'uap-detail-summary';
+      detail.setAttribute('data-uap-detail-summary', 'true');
+      var sources = main.querySelector('.source-list');
+      if (sources) main.insertBefore(detail, sources);
+      else main.appendChild(detail);
+    }
+    var current = detail.textContent.replace(/\s+/g, ' ').trim();
+    if (current) return Promise.resolve(detail);
+    var fallback = existingSummaryText(card);
+    if (fallback) {
+      setSummaryText(detail, fallback);
+      return Promise.resolve(detail);
+    }
     return loadFeed().then(function(feed){
       var article = findArticle(feed, card);
-      if (!article || !article.summary) return summary || null;
-      var main = card.querySelector('.article-main') || card;
-      if (!summary) {
-        summary = document.createElement('div');
-        summary.className = 'summary';
-        main.appendChild(summary);
-      }
-      summary.textContent = article.summary;
-      return summary;
+      if (article && article.summary) setSummaryText(detail, article.summary);
+      return detail;
     });
   }
 
@@ -88,7 +113,7 @@
       if (toggle && toggle.parentNode === feed) feed.insertBefore(card, toggle);
       else feed.appendChild(card);
     });
-    document.querySelectorAll('.article-card.uap-detail-open .summary').forEach(function(summary){
+    document.querySelectorAll('.article-card.uap-detail-open .uap-detail-summary').forEach(function(summary){
       summary.style.display = 'block';
     });
   }
@@ -98,11 +123,15 @@
     card.classList.toggle('uap-detail-open', !!open);
     if (open) {
       keepOpenCardsVisible();
-      ensureSummary(card).then(function(){
-        card.querySelectorAll('.summary').forEach(function(summary){ summary.style.display = 'block'; });
+      ensureSummary(card).then(function(summary){
+        card.querySelectorAll('.summary:not(.uap-detail-summary)').forEach(function(oldSummary){ oldSummary.style.display = 'none'; });
+        if (summary) summary.style.display = 'block';
         keepOpenCardsVisible();
       });
-    } else card.querySelectorAll('.summary').forEach(function(summary){ summary.style.display = 'none'; });
+    } else {
+      card.querySelectorAll('.uap-detail-summary').forEach(function(summary){ summary.style.display = 'none'; });
+      card.querySelectorAll('.summary:not(.uap-detail-summary)').forEach(function(summary){ summary.style.display = 'none'; });
+    }
   }
 
   function toggleCard(card){
@@ -160,7 +189,10 @@
 
   function apply(){
     injectStyle();
-    document.querySelectorAll('.article-card:not(.uap-detail-open) .summary').forEach(function(summary){
+    document.querySelectorAll('.article-card .summary:not(.uap-detail-summary)').forEach(function(summary){
+      summary.style.display = 'none';
+    });
+    document.querySelectorAll('.article-card:not(.uap-detail-open) .uap-detail-summary').forEach(function(summary){
       summary.style.display = 'none';
     });
     document.querySelectorAll('.quality-sheet').forEach(sortArticleQuality);
