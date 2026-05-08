@@ -23,10 +23,18 @@
     return clean.slice(0, maxLen).replace(/\s+\S*$/, '').replace(/[,:;]+$/, '').trim() + '.';
   }
 
+  function withTimeout(promise, ms){
+    return new Promise(function(resolve, reject){
+      var done = false;
+      var timer = setTimeout(function(){ if (!done) { done = true; reject(new Error('timeout')); } }, ms);
+      promise.then(function(value){ if (!done) { done = true; clearTimeout(timer); resolve(value); } })
+        .catch(function(err){ if (!done) { done = true; clearTimeout(timer); reject(err); } });
+    });
+  }
+
   function injectStyle(){
     var style = document.getElementById(STYLE_ID);
     var css = [
-      '#loading{background:#030a0f!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}',
       '.article-card.uap-translation-active h2,.article-card.uap-translation-active .summary{color:#b8ffd7!important}',
       '.translate-btn.uap-translating,.translate-btn.uap-translated{border-color:rgba(0,255,157,.72)!important;color:#b8ffd7!important;background:rgba(0,255,157,.12)!important;box-shadow:0 0 16px rgba(0,255,157,.18)!important}',
       '.article-card .translation{display:none!important}'
@@ -90,11 +98,7 @@
     if (!(target && target.provider !== 'original' && (target.title || target.summary))) {
       target = bag.de && bag.de.provider !== 'original' ? bag.de : (bag.en && bag.en.provider !== 'original' ? bag.en : null);
     }
-    if (!target) return null;
-    var originalLen = compact(originalSummary).length;
-    var translatedLen = compact(target.summary).length;
-    if (originalLen > 260 && translatedLen < originalLen * 0.6) return null;
-    return target;
+    return target || null;
   }
 
   function googleTranslate(text, target){
@@ -113,10 +117,7 @@
     card.querySelectorAll('.translation').forEach(function(el){ el.textContent = ''; el.style.display = 'none'; });
     card.querySelectorAll('.uap-detail-summary[data-uap-created-by-translation="1"]').forEach(function(el){ el.remove(); });
   }
-  function setSummaries(card, text){
-    var nodes = summaryNodes(card);
-    nodes.forEach(function(el){ el.textContent = text; });
-  }
+  function setSummaries(card, text){ summaryNodes(card).forEach(function(el){ el.textContent = text; }); }
   function setButton(btn, state, text){
     btn.disabled = state === 'loading';
     btn.classList.toggle('uap-translating', state === 'loading');
@@ -174,21 +175,30 @@
       var originalTitle = card.dataset.replaceOriginalTitle || (found.article && found.article.title) || '';
       var originalSummary = card.dataset.replaceOriginalSummary || (found.article && found.article.summary) || '';
       var prepared = preparedTranslation(feed, found, originalTitle, originalSummary);
-      if (prepared) {
-        applyTranslation(card, btn, {
-          title: prepared.title || originalTitle,
-          summary: prepared.summary || originalSummary
-        });
+      var sourceIsGerman = looksGerman(originalTitle + ' ' + originalSummary);
+      var target = sourceIsGerman ? 'en' : 'de';
+      var originalLen = compact(originalSummary).length;
+      var preparedLen = compact(prepared && prepared.summary).length;
+
+      if (prepared && (originalLen < 260 || preparedLen >= originalLen * 0.55)) {
+        applyTranslation(card, btn, { title: prepared.title || originalTitle, summary: prepared.summary || originalSummary });
         return;
       }
-      var target = looksGerman(originalTitle + ' ' + originalSummary) ? 'en' : 'de';
-      return googleTranslate(originalTitle + '\n|||\n' + originalSummary, target).then(function(text){
-        var parts = String(text || '').split('|||');
-        applyTranslation(card, btn, {
-          title: parts[0] || originalTitle,
-          summary: parts[1] || originalSummary
+
+      return withTimeout(googleTranslate(originalTitle + '\n|||\n' + originalSummary, target), 3200)
+        .then(function(text){
+          var parts = String(text || '').split('|||');
+          var translated = { title: parts[0] || originalTitle, summary: parts[1] || originalSummary };
+          if (!compact(translated.summary) && prepared) translated.summary = prepared.summary;
+          applyTranslation(card, btn, translated);
+        })
+        .catch(function(){
+          if (prepared) {
+            applyTranslation(card, btn, { title: prepared.title || originalTitle, summary: prepared.summary || originalSummary });
+          } else {
+            throw new Error('translation failed');
+          }
         });
-      });
     }).catch(function(){
       setButton(btn, 'idle', 'Übersetzung fehlgeschlagen');
       setTimeout(function(){ if (btn.textContent === 'Übersetzung fehlgeschlagen') setButton(btn, 'idle', 'Übersetzen'); }, 2200);
