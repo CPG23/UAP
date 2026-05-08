@@ -1,6 +1,6 @@
-var CACHE = 'uap-v79-topic-regroup-display';
+var CACHE = 'uap-v80-translation-replace-only';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '79';
+var OVERRIDE_VERSION = '80';
 var OVERRIDE_FILES = [
   'translation-override-fix.js',
   'app-feed-overrides.js',
@@ -20,7 +20,8 @@ var OVERRIDE_FILES = [
   'final-ui-order-fix.js',
   'scroll-heading-fix.js',
   'latest-polish-fix.js',
-  'topic-regroup-display-fix.js'
+  'topic-regroup-display-fix.js',
+  'translation-replace-only-fix.js'
 ];
 
 self.addEventListener('install', function(e) {
