@@ -14,10 +14,11 @@
     var clean = compact(text);
     if (!clean) return '';
     var ref = compact(reference);
-    var targetSentences = Math.max(1, Math.min(sentences(ref).length || 2, 3));
-    var maxLen = ref ? Math.max(180, Math.min(420, Math.round(ref.length * 1.25))) : 360;
+    var refSentences = sentences(ref).length || 2;
+    var targetSentences = Math.max(1, Math.min(refSentences, 5));
+    var maxLen = ref ? Math.max(260, Math.min(760, Math.round(ref.length * 1.2))) : 520;
     var parts = sentences(clean);
-    if (parts.length) clean = compact(parts.slice(0, targetSentences).join('')) || clean;
+    if (parts.length > targetSentences) clean = compact(parts.slice(0, targetSentences).join('')) || clean;
     if (clean.length <= maxLen) return clean;
     return clean.slice(0, maxLen).replace(/\s+\S*$/, '').replace(/[,:;]+$/, '').trim() + '.';
   }
@@ -25,6 +26,7 @@
   function injectStyle(){
     var style = document.getElementById(STYLE_ID);
     var css = [
+      '#loading{background:#030a0f!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}',
       '.article-card.uap-translation-active h2,.article-card.uap-translation-active .summary{color:#b8ffd7!important}',
       '.translate-btn.uap-translating,.translate-btn.uap-translated{border-color:rgba(0,255,157,.72)!important;color:#b8ffd7!important;background:rgba(0,255,157,.12)!important;box-shadow:0 0 16px rgba(0,255,157,.18)!important}',
       '.article-card .translation{display:none!important}'
@@ -85,8 +87,13 @@
     if (!bag) return null;
     var sourceIsGerman = looksGerman(originalTitle + ' ' + originalSummary);
     var target = sourceIsGerman ? bag.en : bag.de;
-    if (target && target.provider !== 'original' && (target.title || target.summary)) return target;
-    target = bag.de && bag.de.provider !== 'original' ? bag.de : (bag.en && bag.en.provider !== 'original' ? bag.en : null);
+    if (!(target && target.provider !== 'original' && (target.title || target.summary))) {
+      target = bag.de && bag.de.provider !== 'original' ? bag.de : (bag.en && bag.en.provider !== 'original' ? bag.en : null);
+    }
+    if (!target) return null;
+    var originalLen = compact(originalSummary).length;
+    var translatedLen = compact(target.summary).length;
+    if (originalLen > 260 && translatedLen < originalLen * 0.6) return null;
     return target;
   }
 
