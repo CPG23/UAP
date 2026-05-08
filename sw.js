@@ -1,6 +1,6 @@
-var CACHE = 'uap-v36-history-english';
+var CACHE = 'uap-v37-quality-points';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '36';
+var OVERRIDE_VERSION = '37';
 var OVERRIDE_FILES = [
   'app-feed-overrides.js',
   'bell-icon-fix.js',
