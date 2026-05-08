@@ -1,6 +1,6 @@
-var CACHE = 'uap-v59-debounced-layout';
+var CACHE = 'uap-v60-final-order-startup';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '59';
+var OVERRIDE_VERSION = '60';
 var OVERRIDE_FILES = [
   'app-feed-overrides.js',
   'bell-icon-fix.js',
@@ -15,7 +15,8 @@ var OVERRIDE_FILES = [
   'quality-info-points-fix.js',
   'article-detail-rating-fix.js',
   'notification-direct-fix.js',
-  'all-articles-layout-fix.js'
+  'all-articles-layout-fix.js',
+  'final-ui-order-fix.js'
 ];
 
 self.addEventListener('install', function(e) {
