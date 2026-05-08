@@ -49,7 +49,7 @@ jobs:
         env:
           NTFY_TOPIC: UAP-News26
         run: |
-          echo "Running refreshed UAP scan"
+          echo "Running refreshed UAP scan with tightened regrouping"
           python3 .github/scripts/daily_scan.py
           python3 .github/scripts/enrich_summaries.py
           python3 .github/scripts/sync_summaries.py
