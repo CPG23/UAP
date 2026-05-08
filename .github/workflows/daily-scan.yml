@@ -9,6 +9,7 @@ on:
     branches: [main]
     paths:
       - .github/scripts/daily_scan.py
+      - .github/scripts/enrich_summaries.py
       - .github/workflows/daily-scan.yml
 
 permissions:
@@ -46,6 +47,7 @@ jobs:
         run: |
           echo "Running refreshed UAP scan"
           python3 .github/scripts/daily_scan.py
+          python3 .github/scripts/enrich_summaries.py
 
       - name: Publish latest-news.json
         run: |
