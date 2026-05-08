@@ -8,18 +8,19 @@
 
   function injectStyle(){
     var style = document.getElementById(STYLE_ID);
-    if (!style) {
-      style = document.createElement('style');
-      style.id = STYLE_ID;
-      document.head.appendChild(style);
-    }
-    style.textContent = [
+    var css = [
       '#loading .startup-panel,#loading .startup-panel-label,#loading-status{display:none!important}',
       '#loading .startup-panel-wrap{bottom:22px!important;gap:0!important}',
       '.old-list .article-card.uap-seen-overflow{display:none!important}',
       '.article-card .badge.sources{align-items:center!important;justify-content:center!important;text-align:center!important}',
       '.source-list[data-uap-synced="1"]{display:grid!important;gap:8px!important}'
     ].join('\n');
+    if (!style) {
+      style = document.createElement('style');
+      style.id = STYLE_ID;
+      document.head.appendChild(style);
+    }
+    if (style.textContent !== css) style.textContent = css;
   }
 
   function removeStartupPanel(){
@@ -89,6 +90,10 @@
     }).join('');
   }
 
+  function sourceSignature(sources){
+    return sources.map(function(s){ return String(s.source || '') + '|' + String(s.link || '') + '|' + String(s.title || ''); }).join('||');
+  }
+
   function syncSources(feed){
     var map = articleMap(feed);
     document.querySelectorAll('.article-card').forEach(function(card){
@@ -96,24 +101,23 @@
       if (!article) return;
       var sources = allSources(article);
       var badge = card.querySelector('.badge.sources');
-      if (badge) badge.textContent = sources.length + ' Quelle' + (sources.length === 1 ? '' : 'n');
+      var badgeText = sources.length + ' Quelle' + (sources.length === 1 ? '' : 'n');
+      if (badge && badge.textContent !== badgeText) badge.textContent = badgeText;
       var list = card.querySelector('.source-list');
-      if (list && sources.length) {
+      var signature = sourceSignature(sources);
+      if (list && sources.length && card.dataset.uapSourceSignature !== signature) {
         list.innerHTML = sourceHtml(article, sources);
         list.dataset.uapSynced = '1';
+        card.dataset.uapSourceSignature = signature;
       }
       var summary = card.querySelector('.summary:not(.uap-detail-summary)');
       if (summary && article.summary && card.dataset.uapTranslated !== '1') {
         var current = String(summary.textContent || '').trim();
         if (!current || /Keine belastbare Zusammenfassung vorhanden|No reliable summary available|full article text could not/i.test(current)) {
-          summary.textContent = article.summary;
+          if (summary.textContent !== article.summary) summary.textContent = article.summary;
         }
       }
     });
-  }
-
-  function visibleSeenCards(list){
-    return Array.prototype.slice.call(list.querySelectorAll('.article-card:not(.uap-seen-overflow)'));
   }
 
   function capSeenArticles(){
@@ -124,12 +128,14 @@
     if (!list) return;
     var cards = Array.prototype.slice.call(list.querySelectorAll('.article-card'));
     cards.forEach(function(card, index){
-      card.classList.toggle('uap-seen-overflow', index >= 10);
+      var hidden = index >= 10;
+      if (card.classList.contains('uap-seen-overflow') !== hidden) card.classList.toggle('uap-seen-overflow', hidden);
     });
     if (toggle) {
       var visible = Math.min(cards.length, 10);
       var collapsed = list.classList.contains('collapsed');
-      toggle.textContent = (collapsed ? '▸ ' : '▾ ') + 'Bereits gelesen (' + visible + ')';
+      var label = (collapsed ? '▸ ' : '▾ ') + 'Bereits gelesen (' + visible + ')';
+      if (toggle.textContent !== label) toggle.textContent = label;
     }
   }
 
@@ -148,7 +154,7 @@
   function queueApply(){
     if (queued || running) return;
     queued = true;
-    setTimeout(apply, 60);
+    setTimeout(apply, 90);
   }
 
   function start(){
