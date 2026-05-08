@@ -3,6 +3,7 @@
 
   var STYLE_ID = 'uap-article-detail-rating-fix-style';
   var sorting = false;
+  var feedPromise = null;
 
   function injectStyle(){
     if (document.getElementById(STYLE_ID)) return;
@@ -23,6 +24,54 @@
     document.head.appendChild(style);
   }
 
+  function loadFeed(){
+    if (!feedPromise) {
+      feedPromise = fetch('latest-news.json?detail=' + Date.now(), { cache: 'no-store' })
+        .then(function(r){ return r.json(); })
+        .catch(function(){ return { articles: [] }; });
+    }
+    return feedPromise;
+  }
+
+  function titleOf(card){
+    var title = card && card.querySelector('h2');
+    return title ? title.textContent.replace(/\s+/g, ' ').trim() : '';
+  }
+
+  function idOf(card){
+    if (!card) return '';
+    if (card.dataset && card.dataset.uapId) return card.dataset.uapId;
+    var summary = card.querySelector('.summary[id]');
+    if (summary && summary.id) return summary.id.replace(/^summary-/, '');
+    return '';
+  }
+
+  function findArticle(feed, card){
+    var id = idOf(card);
+    var title = titleOf(card).toLowerCase();
+    var articles = feed && feed.articles || [];
+    for (var i = 0; i < articles.length; i++) if (id && articles[i].id === id) return articles[i];
+    for (var j = 0; j < articles.length; j++) if ((articles[j].title || '').toLowerCase() === title) return articles[j];
+    return null;
+  }
+
+  function ensureSummary(card){
+    var summary = card && card.querySelector('.summary');
+    if (summary && summary.textContent.trim()) return Promise.resolve(summary);
+    return loadFeed().then(function(feed){
+      var article = findArticle(feed, card);
+      if (!article || !article.summary) return summary || null;
+      var main = card.querySelector('.article-main') || card;
+      if (!summary) {
+        summary = document.createElement('div');
+        summary.className = 'summary';
+        main.appendChild(summary);
+      }
+      summary.textContent = article.summary;
+      return summary;
+    });
+  }
+
   function articleCardFrom(target){
     return target && target.closest && target.closest('.article-card');
   }
@@ -34,9 +83,10 @@
   function setOpen(card, open){
     if (!card) return;
     card.classList.toggle('uap-detail-open', !!open);
-    card.querySelectorAll('.summary').forEach(function(summary){
-      summary.style.display = open ? 'block' : 'none';
+    if (open) ensureSummary(card).then(function(){
+      card.querySelectorAll('.summary').forEach(function(summary){ summary.style.display = 'block'; });
     });
+    else card.querySelectorAll('.summary').forEach(function(summary){ summary.style.display = 'none'; });
   }
 
   function toggleCard(card){
