@@ -9,6 +9,16 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
 
+try:
+    import trafilatura
+except Exception:
+    trafilatura = None
+
+try:
+    from googlenewsdecoder import gnewsdecoder
+except Exception:
+    gnewsdecoder = None
+
 NTFY_TOPIC = os.environ.get('NTFY_TOPIC', '').strip()
 SEEN_FILE = '.seen-ids.json'
 LATEST_FILE = 'latest-news.json'
@@ -16,7 +26,7 @@ NTFY_PAYLOAD_FILE = 'ntfy-payload.json'
 TODAY = datetime.now(timezone.utc).strftime('%Y-%m-%d')
 RETENTION_DAYS = 14
 MAX_FEED_ARTICLES = 36
-SUMMARY_LIMIT = 18
+SUMMARY_LIMIT = 24
 
 POSITIVE_RE = re.compile(r'\b(uap|ufo|ufos|uaps|aaro|unidentified anomalous|unidentified aerial|pentagon|dod|nasa|congress|senate|disclosure|whistleblower|sighting|crash retrieval|nonhuman|non-human)\b', re.I)
 STRONG_RE = re.compile(r'\b(uap|ufo|ufos|uaps|aaro|unidentified anomalous|pentagon|dod|nasa|congress|senate|disclosure|whistleblower|sighting)\b', re.I)
@@ -24,8 +34,9 @@ NEGATIVE_RE = re.compile(r'\b(movie|film|trailer|episode|season|series|netflix|h
 STOP = set('a an the to of for in on at by with from and or is are was were be been has have had will would could should may might new latest update report reports news says said about into after before over under this that these those uap ufo ufos uaps'.split())
 KEY_TERMS = set('trump biden obama pope vatican catholic america congress senate pentagon nasa aaro dod cia fbi disclosure classified declassified whistleblower retrieval crash nonhuman alien extraterrestrial sighting sightings pilot radar navy military hearing government foia orb orbs'.split())
 OFFICIAL_TERMS = set('congress senate pentagon nasa aaro dod cia fbi military navy government hearing classified declassified foia whistleblower disclosure'.split())
-OFFICIAL_SOURCE_RE = re.compile(r'\b(nasa|pentagon|department of defense|defense\.gov|dod|aaro|congress|senate|house committee|house oversight|dni|odni|cia|fbi|faa|navy|air force|space force|white house|gov)\b', re.I)
+OFFICIAL_SOURCE_RE = re.compile(r'\b(nasa|pentagon|department of defense|defense\.gov|dod|aaro|congress|senate|house committee|house oversight|dni|odni|cia|fbi|faa|navy|air force|space force|white house|\.gov)\b', re.I)
 TRUSTED_SOURCE_RE = re.compile(r'\b(reuters|associated press|\bap\b|bbc|npr|pbs|abc news|cbs news|nbc news|cnn|fox news|the guardian|new york times|washington post|wall street journal|usa today|politico|the hill|newsweek|newsnation|defensescoop|defense one|breaking defense|military\.com|scientific american|time|axios|bloomberg|forbes|u\.s\. news)\b', re.I)
+BAD_SUMMARY_RE = re.compile(r'full article text could not be reliably extracted|summary is limited to verified feed metadata|the feed lists an article|this item tracks a ', re.I)
 
 for path in [NTFY_PAYLOAD_FILE]:
     try:
@@ -218,9 +229,24 @@ def group_articles(articles):
     return sorted(out, key=lambda a: (a.get('quality', 0), a.get('mentions', 1)), reverse=True)
 
 
+def decode_google_news_url(url):
+    if not url or 'news.google.' not in url:
+        return url or ''
+    if gnewsdecoder:
+        for candidate in [url, url.replace('/rss/articles/', '/read/')]:
+            try:
+                decoded = gnewsdecoder(candidate, interval=0.2)
+                if isinstance(decoded, dict) and decoded.get('status') and decoded.get('decoded_url'):
+                    return decoded['decoded_url']
+            except Exception:
+                pass
+    return url
+
+
 def resolve_article_url(url):
-    if not url:
-        return ''
+    decoded = decode_google_news_url(url)
+    if decoded and 'news.google.' not in decoded:
+        return decoded
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=12) as r:
@@ -229,99 +255,85 @@ def resolve_article_url(url):
             return final
     except Exception:
         pass
-    return url
+    return decoded or url
 
 
-def fetch_article_text(url):
-    for target in [resolve_article_url(url), url]:
-        if not target:
-            continue
-        try:
-            req = urllib.request.Request('https://r.jina.ai/http://r.jina.ai/http://example.com', headers={'User-Agent': 'UAP-News-Bot/1.0'})
-        except Exception:
-            pass
-        try:
-            req = urllib.request.Request('https://r.jina.ai/http://r.jina.ai/http://example.com')
-        except Exception:
-            pass
-        try:
-            req = urllib.request.Request('https://r.jina.ai/http://r.jina.ai/http://example.com')
-        except Exception:
-            pass
-        try:
-            req = urllib.request.Request('https://r.jina.ai/http://r.jina.ai/http://example.com')
-        except Exception:
-            pass
-        try:
-            req = urllib.request.Request('https://r.jina.ai/http://r.jina.ai/http://example.com')
-        except Exception:
-            pass
-        try:
-            req = urllib.request.Request('https://r.jina.ai/http://r.jina.ai/http://example.com')
-        except Exception:
-            pass
-        try:
-            req = urllib.request.Request('https://r.jina.ai/http://r.jina.ai/http://example.com')
-        except Exception:
-            pass
-        try:
-            req = urllib.request.Request('https://r.jina.ai/http://r.jina.ai/http://example.com')
-        except Exception:
-            pass
-        try:
-            req = urllib.request.Request('https://r.jina.ai/http://r.jina.ai/http://example.com')
-        except Exception:
-            pass
-        try:
-            req = urllib.request.Request('https://r.jina.ai/http://r.jina.ai/http://example.com')
-        except Exception:
-            pass
-        try:
-            req = urllib.request.Request('https://r.jina.ai/http://r.jina.ai/http://example.com')
-        except Exception:
-            pass
-        try:
-            req = urllib.request.Request('https://r.jina.ai/http://r.jina.ai/http://example.com')
-        except Exception:
-            pass
-        try:
-            clean = target if target.startswith('http') else url
-            req = urllib.request.Request('https://r.jina.ai/http://r.jina.ai/http://example.com')
-            req = urllib.request.Request('https://r.jina.ai/http://' + clean.replace('https://', '').replace('http://', ''), headers={'User-Agent': 'UAP-News-Bot/1.0'})
-            with urllib.request.urlopen(req, timeout=20) as r:
-                text = r.read(160000).decode('utf-8', errors='replace')
-            text = re.sub(r'(?im)^(title|url source|published time):.*$', '', text)
-            text = re.sub(r'!\[[^\]]*\]\([^)]+\)', '', text)
-            text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
-            text = re.sub(r'\s+', ' ', text).strip()
-            if len(text) >= 650 and not re.search(r'google news|enable javascript|access denied|just a moment', text, re.I):
-                return text[:10000]
-        except Exception:
-            continue
+def clean_article_text(text):
+    text = re.sub(r'(?im)^(title|url source|published time):.*$', '', text or '')
+    text = re.sub(r'!\[[^\]]*\]\([^)]+\)', '', text)
+    text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    if re.search(r'google news|enable javascript|access denied|just a moment|captcha', text, re.I):
+        return ''
+    return text
+
+
+def fetch_with_trafilatura(url):
+    if not trafilatura or not url or 'news.google.' in url:
+        return ''
+    try:
+        downloaded = trafilatura.fetch_url(url, no_ssl=True)
+        if not downloaded:
+            return ''
+        text = trafilatura.extract(downloaded, include_comments=False, include_tables=False, favor_recall=True)
+        text = clean_article_text(text)
+        return text if len(text) >= 650 else ''
+    except Exception:
+        return ''
+
+
+def fetch_with_jina(url):
+    if not url or 'news.google.' in url:
+        return ''
+    try:
+        clean = url.replace('https://', '').replace('http://', '')
+        req = urllib.request.Request('https://r.jina.ai/http://' + clean, headers={'User-Agent': 'UAP-News-Bot/1.0'})
+        with urllib.request.urlopen(req, timeout=25) as r:
+            text = r.read(180000).decode('utf-8', errors='replace')
+        text = clean_article_text(text)
+        return text[:12000] if len(text) >= 650 else ''
+    except Exception:
+        return ''
+
+
+def fetch_article_text(article):
+    urls = []
+    for source in [article.get('link', '')] + [s.get('link', '') for s in article.get('otherSources', []) if isinstance(s, dict)]:
+        resolved = resolve_article_url(source)
+        for candidate in [resolved, source]:
+            if candidate and candidate not in urls:
+                urls.append(candidate)
+    for url in urls[:4]:
+        text = fetch_with_trafilatura(url) or fetch_with_jina(url)
+        if text:
+            print('Article text extracted:', article.get('title', '')[:70], '=>', url[:90])
+            return text
     return ''
 
 
 def fallback_summary(article):
     terms = article.get('matchedTerms') or []
-    term_text = ' The feed connects this item with: ' + ', '.join(terms[:4]) + '.' if terms else ''
-    sources = article.get('mentions', 1)
-    source_text = 'one source' if sources == 1 else f'{sources} sources'
-    return (
-        f'The feed lists an article from {article.get("source", "the listed source")} dated {article.get("date", TODAY)}. '
-        f'The title says: "{article.get("title", "this report")}".{term_text} '
-        f'The topic is currently tracked from {source_text}. The full article text could not be reliably extracted, so no extra claims were added.'
-    )
+    pieces = [
+        f'This item tracks a {article.get("source", "listed source")} report dated {article.get("date", TODAY)}.',
+        f'The listed headline centers on: "{article.get("title", "this report")}".',
+    ]
+    if terms:
+        pieces.append('The scanner connects the topic with ' + ', '.join(terms[:4]) + ' based on the headline and feed text.')
+    if article.get('clusterTitles'):
+        pieces.append('Related feed headlines mention: ' + '; '.join(article['clusterTitles'][:3]) + '.')
+    pieces.append('The publisher text could not be safely extracted during this scan, so no unsupported details were added.')
+    return ' '.join(pieces)
 
 
-def ai_summary(title, text, source_count):
+def ai_summary(article, text):
     if not text or len(text) < 650:
         return ''
     prompt = (
-        'Summarize only the following article text in English in 5 to 7 factual sentences. '
+        'Summarize only the article text below in English in 5 to 7 factual sentences. '
         'Do not invent facts, dates, names, evidence, quotes, or connections. Use only claims explicitly present in the text. '
         'Mention concrete actors, decisions, claims, evidence, and uncertainty when present. '
-        'If the text is not sufficient, answer exactly: INSUFFICIENT_SOURCE_TEXT. No markdown. '
-        f'This topic is represented by {source_count} source(s).\n\n{text[:8000]}'
+        'If the text is not sufficient, answer exactly: INSUFFICIENT_SOURCE_TEXT. No markdown.\n\n'
+        f'Title: {article.get("title", "")}\nSource: {article.get("source", "")}\n\n{text[:9000]}'
     )
     payload = json.dumps({
         'model': 'openai',
@@ -330,16 +342,16 @@ def ai_summary(title, text, source_count):
             {'role': 'user', 'content': prompt},
         ],
         'max_tokens': 950,
-        'temperature': 0.2,
+        'temperature': 0.15,
     }).encode('utf-8')
     try:
         req = urllib.request.Request('https://text.pollinations.ai/openai', data=payload, headers={'Content-Type': 'application/json', 'User-Agent': 'UAP-News-Bot/1.0'}, method='POST')
-        with urllib.request.urlopen(req, timeout=35) as r:
+        with urllib.request.urlopen(req, timeout=40) as r:
             data = json.loads(r.read())
         summary = (((data.get('choices') or [{}])[0].get('message') or {}).get('content') or '').strip()
         return '' if summary == 'INSUFFICIENT_SOURCE_TEXT' or len(summary) < 180 else summary
     except Exception as exc:
-        print(f'AI summary failed for {title[:50]}: {exc}')
+        print(f'AI summary failed for {article.get("title", "")[:50]}: {exc}')
         return ''
 
 
@@ -365,6 +377,10 @@ def merge_articles(*lists):
             if len(merged) >= MAX_FEED_ARTICLES:
                 return merged
     return merged
+
+
+def is_good_summary(text):
+    return bool(text and len(text) > 180 and not BAD_SUMMARY_RE.search(text))
 
 
 def payload_article(article, summaries):
@@ -442,18 +458,18 @@ grouped_notif = group_articles(notif_articles)
 new_articles = [a for a in grouped_notif if a['id'] not in notified_ids]
 notification_articles = new_articles[:10]
 
-fresh = merge_articles(new_articles[:10], grouped_notif[:10], grouped_all[:24])
+fresh = merge_articles(new_articles[:10], grouped_notif[:10], grouped_all)
 retained = merge_articles(fresh, existing_articles)
 print(f'Notification: {len(notif_articles)} articles, {len(grouped_notif)} topics, {len(new_articles)} new')
 print(f'App feed topics after retention: {len(retained)}')
 
-summaries = dict(existing_summaries) if isinstance(existing_summaries, dict) else {}
-for index, article in enumerate(retained[:SUMMARY_LIMIT]):
+summaries = {k: v for k, v in existing_summaries.items()} if isinstance(existing_summaries, dict) else {}
+for article in retained[:SUMMARY_LIMIT]:
     aid = article_identity(article)
-    if summaries.get(aid) and len(summaries[aid]) > 180 and 'full article text could not be reliably extracted' not in summaries[aid].lower():
+    if is_good_summary(summaries.get(aid)):
         continue
-    text = fetch_article_text(article.get('link', ''))
-    summaries[aid] = ai_summary(article['title'], text, article.get('mentions', 1)) or fallback_summary(article)
+    text = fetch_article_text(article)
+    summaries[aid] = ai_summary(article, text) or fallback_summary(article)
     time.sleep(1)
 
 article_payloads = [payload_article(article, summaries) for article in retained]
