@@ -2,8 +2,8 @@
 """Precompute stable article translations for the UAP app.
 
 The mobile app should not depend on slow or blocked browser-side translation
-requests. This script runs in GitHub Actions, translates title and summary once,
-and stores the prepared text in latest-news.json.
+requests. This script runs in GitHub Actions, translates title and compact
+summary once, and stores the prepared text in latest-news.json.
 """
 
 from __future__ import annotations
@@ -27,12 +27,30 @@ GERMAN_MARKERS = re.compile(
     r"[äöüß]|\b(der|die|das|den|dem|des|und|oder|nicht|eine|einer|einen|mit|von|für|über|heute|wird|wurden|nachrichten|quelle|artikel)\b",
     re.IGNORECASE,
 )
+SENTENCE_RE = re.compile(r"[^.!?]+[.!?]+(?:\s|$)")
 
 TRANSLATION_CACHE: Dict[Tuple[str, str, str], str] = {}
 
 
 def compact(text: object) -> str:
     return re.sub(r"\s+", " ", str(text or "")).strip()
+
+
+def display_summary(text: object) -> str:
+    """Keep the app summary compact: important points, not the full article."""
+    clean = compact(text)
+    if len(clean) <= 380:
+        return clean
+
+    sentences = SENTENCE_RE.findall(clean)
+    if sentences:
+        candidate = compact("".join(sentences[:3]))
+        if len(candidate) > 560 and len(sentences) >= 2:
+            candidate = compact("".join(sentences[:2]))
+        if candidate:
+            return candidate
+
+    return clean[:420].replace("\n", " ").rsplit(" ", 1)[0].rstrip(" ,:;") + "."
 
 
 def source_hash(title: str, summary: str) -> str:
@@ -99,7 +117,7 @@ def translate_mymemory(text: str, target: str, source: str) -> str:
 def translate_pollinations(text: str, target: str) -> str:
     target_name = "English" if target == "en" else "German"
     prompt = (
-        f"Translate the following news title or summary into {target_name}. "
+        f"Translate the following compact news title or summary into {target_name}. "
         "Preserve names, dates, quotes and numbers exactly. Return only the translation, no commentary.\n\n"
         f"{text}"
     )
@@ -174,8 +192,7 @@ def translation_block(title: str, summary: str, current_hash: str) -> dict:
         "provider": title_provider if title_provider == summary_provider else f"{title_provider}/{summary_provider}",
     }
 
-    block = {source_lang: original, target_lang: translated}
-    return block
+    return {source_lang: original, target_lang: translated}
 
 
 def main() -> None:
@@ -197,7 +214,7 @@ def main() -> None:
 
         article_id = compact(article.get("id"))
         title = compact(article.get("title"))
-        summary = compact(article.get("summary"))
+        summary = display_summary(article.get("summary"))
         if not article_id or not title or not summary:
             continue
 
@@ -232,6 +249,7 @@ def main() -> None:
     data["translationMeta"] = {
         "prepared": prepared,
         "failed": failed,
+        "summary": "compact app summary only",
         "target": "de for English articles, en for German articles",
         "source": "github-actions-precompute",
     }
@@ -239,7 +257,7 @@ def main() -> None:
     if changed:
         LATEST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    print(f"prepared translations for {prepared} articles; failed={failed}; changed={changed}")
+    print(f"prepared compact translations for {prepared} articles; failed={failed}; changed={changed}")
 
 
 if __name__ == "__main__":
