@@ -4,19 +4,21 @@
   var STYLE_ID = 'uap-scroll-heading-fix-style';
   var restoringUntil = 0;
   var lastY = 0;
+  var css = [
+    '.article-card h2{color:#eef9fd!important;font-weight:700!important;text-shadow:none!important}',
+    '.article-card .article-main{overflow-anchor:none!important}',
+    '#feed,.old-list{overflow-anchor:none!important}',
+    'html{scroll-behavior:auto!important}'
+  ].join('\n');
 
   function injectStyle(){
-    var existing = document.getElementById(STYLE_ID);
-    if (existing) existing.remove();
-    var style = document.createElement('style');
-    style.id = STYLE_ID;
-    style.textContent = [
-      '.article-card h2{color:#eef9fd!important;font-weight:700!important;text-shadow:none!important}',
-      '.article-card .article-main{overflow-anchor:none!important}',
-      '#feed,.old-list{overflow-anchor:none!important}',
-      'html{scroll-behavior:auto!important}'
-    ].join('\n');
-    document.head.appendChild(style);
+    var style = document.getElementById(STYLE_ID);
+    if (!style) {
+      style = document.createElement('style');
+      style.id = STYLE_ID;
+      document.head.appendChild(style);
+    }
+    if (style.textContent !== css) style.textContent = css;
   }
 
   function rememberScroll(){
@@ -44,9 +46,8 @@
   function start(){
     injectStyle();
     new MutationObserver(function(){
-      injectStyle();
       if (Date.now() <= restoringUntil && Math.abs((window.scrollY || 0) - lastY) > 24) window.scrollTo(0, lastY);
-    }).observe(document.documentElement, { childList:true, subtree:true });
+    }).observe(document.getElementById('feed') || document.body, { childList:true, subtree:true });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
