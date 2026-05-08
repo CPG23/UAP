@@ -103,6 +103,19 @@
     return map;
   }
 
+  function articleInfo(card, map){
+    return map[cardId(card)] || { article: {}, index: 9999 };
+  }
+
+  function qualityOf(card, map){
+    var info = articleInfo(card, map);
+    var q = Number(info.article && info.article.quality);
+    if (!isNaN(q)) return q;
+    var badge = card.querySelector('.badge.quality');
+    var match = badge && String(badge.textContent || '').match(/\d+/);
+    return match ? Number(match[0]) : 0;
+  }
+
   function removeDuplicateSeenBlocks(feedEl){
     var toggles = Array.prototype.slice.call(feedEl.querySelectorAll(':scope > .old-toggle'));
     var lists = Array.prototype.slice.call(feedEl.querySelectorAll(':scope > .old-list'));
@@ -147,14 +160,22 @@
 
   function updateSeenLabel(toggle, list, collapsed){
     var count = list.querySelectorAll('.article-card').length;
-    toggle.textContent = (collapsed ? '▸ ' : '▾ ') + 'Bereits gesehen (' + count + ')';
+    toggle.textContent = (collapsed ? '▸ ' : '▾ ') + 'Bereits gelesen (' + count + ')';
   }
 
-  function sortByFeedOrder(cards, map){
+  function sortCurrent(cards, map){
     return cards.sort(function(a, b){
-      var ai = map[cardId(a)] ? map[cardId(a)].index : 9999;
-      var bi = map[cardId(b)] ? map[cardId(b)].index : 9999;
-      return ai - bi;
+      return articleInfo(a, map).index - articleInfo(b, map).index;
+    });
+  }
+
+  function sortSeenByQuality(cards, map){
+    return cards.sort(function(a, b){
+      var qualityDiff = qualityOf(b, map) - qualityOf(a, map);
+      if (qualityDiff) return qualityDiff;
+      var dateDiff = isoDate(articleInfo(b, map).article.date).localeCompare(isoDate(articleInfo(a, map).article.date));
+      if (dateDiff) return dateDiff;
+      return articleInfo(a, map).index - articleInfo(b, map).index;
     });
   }
 
@@ -169,16 +190,16 @@
     var alreadySeen = [];
 
     allCards.forEach(function(card){
-      var data = map[cardId(card)];
+      var data = articleInfo(card, map);
       var date = data && data.article ? isoDate(data.article.date) : '';
       if (date === today) current.push(card);
       else alreadySeen.push(card);
     });
 
-    sortByFeedOrder(current, map).forEach(function(card){
+    sortCurrent(current, map).forEach(function(card){
       feedEl.insertBefore(card, seen.toggle);
     });
-    sortByFeedOrder(alreadySeen, map).forEach(function(card){
+    sortSeenByQuality(alreadySeen, map).forEach(function(card){
       seen.list.appendChild(card);
     });
 
