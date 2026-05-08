@@ -1,6 +1,6 @@
-var CACHE = 'uap-v60-final-order-startup';
+var CACHE = 'uap-v61-stable-seen-badges';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '60';
+var OVERRIDE_VERSION = '61';
 var OVERRIDE_FILES = [
   'app-feed-overrides.js',
   'bell-icon-fix.js',
