@@ -1,7 +1,8 @@
-var CACHE = 'uap-v66-no-startup-loop';
+var CACHE = 'uap-v67-translation-override';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '66';
+var OVERRIDE_VERSION = '67';
 var OVERRIDE_FILES = [
+  'translation-override-fix.js',
   'app-feed-overrides.js',
   'bell-icon-fix.js',
   'notification-guide-fix.js',
