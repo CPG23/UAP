@@ -1,0 +1,37 @@
+name: Precompute translations
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/scripts/precompute_translations.py'
+      - '.github/workflows/precompute-translations.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: precompute-translations
+  cancel-in-progress: true
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Precompute article translations
+        run: python3 .github/scripts/precompute_translations.py
+
+      - name: Publish latest-news.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- latest-news.json; then
+            echo "No translation changes to publish"
+            exit 0
+          fi
+          git add latest-news.json
+          git commit -m "chore: precompute latest news translations"
+          git pull --rebase origin main
+          git push
