@@ -13,13 +13,16 @@
     var style = document.createElement('style');
     style.id = STYLE_ID;
     style.textContent = [
+      'html,body{overflow-y:auto!important;overscroll-behavior-y:auto!important}',
       '#loading .startup-panel,#loading-status,.startup-panel-label{display:none!important}',
       '#loading .startup-panel-wrap{bottom:22px!important;gap:0!important}',
       '.article-card h2{color:#045b80!important;text-shadow:none!important;font-weight:500!important}',
-      '.quality-top-help,.article-date-prominent,.article-card .badge{border:1px solid rgba(0,255,157,.42)!important;background:rgba(0,255,157,.075)!important;color:#c6ffe4!important;box-shadow:0 0 16px rgba(0,255,157,.12)!important}',
-      '.article-date-prominent::before{color:#c6ffe4!important}',
-      '.article-card .badge.quality::after{color:#c6ffe4!important;border-color:rgba(0,255,157,.42)!important;background:rgba(0,255,157,.075)!important}',
+      '.quality-top-help,.article-date-prominent,.article-card .badge{min-height:24px!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;gap:6px!important;box-sizing:border-box!important;border:1px solid rgba(0,255,157,.42)!important;background:rgba(0,255,157,.075)!important;color:#c6ffe4!important;box-shadow:0 0 16px rgba(0,255,157,.12)!important;line-height:1!important;text-align:center!important}',
+      '.article-card .badges{display:flex!important;align-items:center!important;justify-content:flex-end!important;gap:6px!important}',
+      '.article-date-prominent::before{color:#c6ffe4!important;line-height:1!important}',
+      '.article-card .badge.quality::after{color:#c6ffe4!important;border-color:rgba(0,255,157,.42)!important;background:rgba(0,255,157,.075)!important;line-height:1!important;flex:0 0 auto!important}',
       '.old-toggle{color:#c6ffe4!important;border-color:rgba(0,255,157,.42)!important;background:rgba(0,255,157,.075)!important;box-shadow:0 0 16px rgba(0,255,157,.12)!important}',
+      '.old-list{display:flex!important;flex-direction:column!important;gap:12px!important;overflow:visible!important;max-height:none!important;height:auto!important;touch-action:pan-y!important}',
       '.old-list.collapsed{display:none!important}'
     ].join('\n');
     document.head.appendChild(style);
@@ -116,6 +119,15 @@
     return match ? Number(match[0]) : 0;
   }
 
+  function normalizeSourceBadges(root){
+    (root || document).querySelectorAll('.badge.sources').forEach(function(badge){
+      var match = String(badge.textContent || '').match(/\d+/);
+      var count = match ? Number(match[0]) : 0;
+      if (count === 1) badge.textContent = '1 Quelle';
+      else if (count > 1) badge.textContent = count + ' Quellen';
+    });
+  }
+
   function removeDuplicateSeenBlocks(feedEl){
     var toggles = Array.prototype.slice.call(feedEl.querySelectorAll(':scope > .old-toggle'));
     var lists = Array.prototype.slice.call(feedEl.querySelectorAll(':scope > .old-list'));
@@ -189,6 +201,7 @@
     var current = [];
     var alreadySeen = [];
 
+    normalizeSourceBadges(feedEl);
     allCards.forEach(function(card){
       var data = articleInfo(card, map);
       var date = data && data.article ? isoDate(data.article.date) : '';
@@ -208,12 +221,89 @@
     updateSeenLabel(seen.toggle, seen.list, collapsed);
   }
 
+  function splitText(text){
+    var clean = String(text || '').replace(/\s+/g, ' ').trim();
+    if (!clean) return [];
+    var parts = [];
+    while (clean.length > 0) {
+      var slice = clean.slice(0, 430);
+      if (clean.length > 430) {
+        var cut = Math.max(slice.lastIndexOf('. '), slice.lastIndexOf('! '), slice.lastIndexOf('? '), slice.lastIndexOf('; '), slice.lastIndexOf(', '));
+        if (cut > 160) slice = slice.slice(0, cut + 1);
+      }
+      parts.push(slice.trim());
+      clean = clean.slice(slice.length).trim();
+    }
+    return parts;
+  }
+
+  function fetchTranslateChunk(text){
+    var controller = window.AbortController ? new AbortController() : null;
+    var timer = controller ? setTimeout(function(){ controller.abort(); }, 8500) : null;
+    var url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t&q=' + encodeURIComponent(text);
+    return fetch(url, { signal: controller && controller.signal })
+      .then(function(r){ return r.json(); })
+      .then(function(data){ return data && data[0] ? data[0].map(function(part){ return part[0]; }).join('').trim() : ''; })
+      .finally(function(){ if (timer) clearTimeout(timer); });
+  }
+
+  function translateFast(text){
+    var chunks = splitText(text);
+    if (!chunks.length) return Promise.resolve('');
+    return Promise.all(chunks.map(fetchTranslateChunk)).then(function(parts){ return parts.join(' ').replace(/\s+/g, ' ').trim(); });
+  }
+
+  function summaryElement(card){
+    return card.querySelector('.uap-detail-summary') || card.querySelector('.summary');
+  }
+
+  function handleTranslateClick(e){
+    var btn = e.target && e.target.closest && e.target.closest('.translate-btn');
+    if (!btn) return;
+    var card = btn.closest('.article-card');
+    var title = card && card.querySelector('h2');
+    var summary = card && summaryElement(card);
+    if (!card || !title || !summary) return;
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+
+    if (card.dataset.finalTranslated === '1') {
+      title.textContent = card.dataset.finalOriginalTitle || title.textContent;
+      summary.textContent = card.dataset.finalOriginalSummary || summary.textContent;
+      card.dataset.finalTranslated = '0';
+      btn.textContent = 'Übersetzen';
+      return;
+    }
+
+    card.dataset.finalOriginalTitle = card.dataset.finalOriginalTitle || title.textContent;
+    card.dataset.finalOriginalSummary = card.dataset.finalOriginalSummary || summary.textContent;
+    btn.disabled = true;
+    btn.textContent = 'Übersetze...';
+
+    Promise.all([
+      translateFast(card.dataset.finalOriginalTitle),
+      translateFast(card.dataset.finalOriginalSummary)
+    ]).then(function(parts){
+      title.textContent = parts[0] || card.dataset.finalOriginalTitle;
+      summary.textContent = parts[1] || card.dataset.finalOriginalSummary;
+      card.dataset.finalTranslated = '1';
+      btn.textContent = 'Original anzeigen';
+    }).catch(function(){
+      btn.textContent = 'Übersetzen';
+      alert('Übersetzung konnte gerade nicht geladen werden. Bitte kurz erneut tippen.');
+    }).finally(function(){
+      btn.disabled = false;
+    });
+  }
+
   function apply(){
     queued = false;
     if (applying) return;
     applying = true;
     patchSeenDom();
     injectStyle();
+    normalizeSourceBadges(document);
     loadFeed().then(enforceOrder).finally(function(){ applying = false; });
   }
 
@@ -230,6 +320,7 @@
     setTimeout(queueApply, 1500);
   }
 
+  document.addEventListener('click', handleTranslateClick, true);
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', schedule);
   else schedule();
   new MutationObserver(queueApply).observe(document.documentElement, { childList:true, subtree:true });
