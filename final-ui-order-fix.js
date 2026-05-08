@@ -4,20 +4,60 @@
   var STYLE_ID = 'uap-final-ui-order-style';
   var feedPromise = null;
   var applying = false;
+  var queued = false;
+  var patchedSeenDom = false;
 
   function injectStyle(){
-    if (document.getElementById(STYLE_ID)) return;
+    var existing = document.getElementById(STYLE_ID);
+    if (existing) existing.remove();
     var style = document.createElement('style');
     style.id = STYLE_ID;
     style.textContent = [
       '#loading .startup-panel,#loading-status,.startup-panel-label{display:none!important}',
       '#loading .startup-panel-wrap{bottom:22px!important;gap:0!important}',
-      '.article-card h2{color:#066f9a!important;text-shadow:none!important}',
-      '.article-card .badge{border-color:rgba(255,255,255,.82)!important;color:#00b978!important;background:rgba(255,255,255,.035)!important;box-shadow:none!important}',
-      '.article-card .badge.quality::after{color:#00b978!important;border-color:rgba(255,255,255,.72)!important;background:rgba(255,255,255,.04)!important}',
-      '.old-toggle{color:#00b978!important;border-color:rgba(255,255,255,.58)!important;background:rgba(255,255,255,.035)!important}'
+      '.article-card h2{color:#045b80!important;text-shadow:none!important;font-weight:500!important}',
+      '.quality-top-help,.article-date-prominent,.article-card .badge{border:1px solid rgba(0,255,157,.42)!important;background:rgba(0,255,157,.075)!important;color:#c6ffe4!important;box-shadow:0 0 16px rgba(0,255,157,.12)!important}',
+      '.article-date-prominent::before{color:#c6ffe4!important}',
+      '.article-card .badge.quality::after{color:#c6ffe4!important;border-color:rgba(0,255,157,.42)!important;background:rgba(0,255,157,.075)!important}',
+      '.old-toggle{color:#c6ffe4!important;border-color:rgba(0,255,157,.42)!important;background:rgba(0,255,157,.075)!important;box-shadow:0 0 16px rgba(0,255,157,.12)!important}',
+      '.old-list.collapsed{display:none!important}'
     ].join('\n');
     document.head.appendChild(style);
+  }
+
+  function isSeenBlock(node){
+    return !!(node && node.classList && (node.classList.contains('old-toggle') || node.classList.contains('old-list')) && node.parentElement && node.parentElement.id === 'feed');
+  }
+
+  function patchSeenDom(){
+    if (patchedSeenDom || !window.Element || !window.Node) return;
+    patchedSeenDom = true;
+    var nativeRemove = Element.prototype.remove;
+    var nativeAppendChild = Node.prototype.appendChild;
+
+    Element.prototype.remove = function(){
+      if (isSeenBlock(this)) return undefined;
+      return nativeRemove.call(this);
+    };
+
+    Node.prototype.appendChild = function(child){
+      if (this && this.id === 'feed' && child && child.classList) {
+        if (child.classList.contains('old-toggle')) {
+          var existingToggle = this.querySelector(':scope > .old-toggle');
+          if (existingToggle && existingToggle !== child) return child;
+        }
+        if (child.classList.contains('old-list')) {
+          var existingList = this.querySelector(':scope > .old-list');
+          if (existingList && existingList !== child) {
+            while (child.firstChild) existingList.appendChild(child.firstChild);
+            return child;
+          }
+        }
+      }
+      return nativeAppendChild.call(this, child);
+    };
+
+    patchSeenDom.nativeRemove = nativeRemove;
   }
 
   function loadFeed(){
@@ -63,7 +103,22 @@
     return map;
   }
 
+  function removeDuplicateSeenBlocks(feedEl){
+    var toggles = Array.prototype.slice.call(feedEl.querySelectorAll(':scope > .old-toggle'));
+    var lists = Array.prototype.slice.call(feedEl.querySelectorAll(':scope > .old-list'));
+    var nativeRemove = patchSeenDom.nativeRemove || Element.prototype.remove;
+    toggles.slice(1).forEach(function(toggle){ nativeRemove.call(toggle); });
+    if (lists.length > 1) {
+      var keep = lists[0];
+      lists.slice(1).forEach(function(list){
+        while (list.firstChild) keep.appendChild(list.firstChild);
+        nativeRemove.call(list);
+      });
+    }
+  }
+
   function ensureSeenBlock(feedEl){
+    removeDuplicateSeenBlocks(feedEl);
     var toggle = feedEl.querySelector(':scope > .old-toggle');
     var list = feedEl.querySelector(':scope > .old-list');
     if (!toggle) {
@@ -79,10 +134,13 @@
     }
     if (!toggle.dataset.finalSeenBound) {
       toggle.dataset.finalSeenBound = '1';
-      toggle.addEventListener('click', function(){
+      toggle.addEventListener('click', function(e){
+        e.preventDefault();
+        e.stopPropagation();
         list.classList.toggle('collapsed');
+        toggle.dataset.userOpened = list.classList.contains('collapsed') ? '0' : '1';
         updateSeenLabel(toggle, list, list.classList.contains('collapsed'));
-      });
+      }, true);
     }
     return { toggle: toggle, list: list };
   }
@@ -124,26 +182,34 @@
       seen.list.appendChild(card);
     });
 
-    var collapsed = current.length > 0;
+    var collapsed = current.length > 0 && seen.toggle.dataset.userOpened !== '1';
     seen.list.classList.toggle('collapsed', collapsed);
     updateSeenLabel(seen.toggle, seen.list, collapsed);
   }
 
   function apply(){
+    queued = false;
     if (applying) return;
     applying = true;
+    patchSeenDom();
     injectStyle();
     loadFeed().then(enforceOrder).finally(function(){ applying = false; });
   }
 
+  function queueApply(){
+    if (queued) return;
+    queued = true;
+    var run = window.requestAnimationFrame || function(cb){ return setTimeout(cb, 16); };
+    run(apply);
+  }
+
   function schedule(){
-    setTimeout(apply, 0);
-    setTimeout(apply, 500);
-    setTimeout(apply, 1500);
-    setTimeout(apply, 3500);
+    apply();
+    setTimeout(queueApply, 500);
+    setTimeout(queueApply, 1500);
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', schedule);
   else schedule();
-  new MutationObserver(function(){ setTimeout(apply, 250); }).observe(document.documentElement, { childList:true, subtree:true });
+  new MutationObserver(queueApply).observe(document.documentElement, { childList:true, subtree:true });
 })();
