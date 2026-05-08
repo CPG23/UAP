@@ -67,3 +67,5 @@ jobs:
           fi
           git commit -m "fix: remove startup status panel"
           git push origin HEAD:main
+
+# trigger: 2026-05-08-translation-cleanup
