@@ -27,6 +27,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install article extraction dependencies
+        run: |
+          python3 -m pip install --quiet --upgrade pip
+          python3 -m pip install --quiet googlenewsdecoder==0.1.7 trafilatura==1.12.2
+
       - name: Restore seen-IDs cache
         uses: actions/cache@v4
         with:
@@ -40,77 +45,7 @@ jobs:
           NTFY_TOPIC: UAP-News26
         run: |
           echo "Running refreshed UAP scan"
-          python3 - << 'PYEOF'
-          from pathlib import Path
-          p = Path('.github/scripts/daily_scan.py')
-          s = p.read_text(encoding='utf-8')
-          s = s.replace('grouped_all[:24]', 'grouped_all')
-          p.write_text(s, encoding='utf-8')
-          PYEOF
           python3 .github/scripts/daily_scan.py
-          python3 - << 'PYEOF'
-          import json
-          from pathlib import Path
-
-          path = Path('latest-news.json')
-          data = json.loads(path.read_text(encoding='utf-8'))
-
-          def needs_repair(text):
-              text = (text or '').lower()
-              return (
-                  not text
-                  or 'full article text could not be reliably extracted' in text
-                  or 'keine belastbare zusammenfassung' in text
-              )
-
-          def phrase_terms(terms):
-              terms = [str(t).strip() for t in (terms or []) if str(t).strip()]
-              if not terms:
-                  return ''
-              if len(terms) == 1:
-                  return terms[0]
-              return ', '.join(terms[:-1]) + ' and ' + terms[-1]
-
-          def grounded_summary(article):
-              title = article.get('title') or 'this report'
-              source = article.get('source') or 'the listed source'
-              date = article.get('date') or data.get('timestamp', '')[:10]
-              terms = phrase_terms(article.get('matchedTerms') or [])
-              clusters = [t for t in (article.get('clusterTitles') or []) if t and t != title][:3]
-              mentions = int(article.get('mentions') or 1)
-
-              sentences = [
-                  f'This item tracks a {source} report dated {date}.',
-                  f'The listed headline centers on: "{title}".',
-              ]
-              if terms:
-                  sentences.append(f'The scanner connects the topic with {terms}, based on the headline and available feed text.')
-              if clusters:
-                  sentences.append('Related feed headlines in the same topic cluster mention: ' + '; '.join(f'"{c}"' for c in clusters) + '.')
-              if mentions > 1:
-                  sentences.append(f'The topic is currently represented by {mentions} linked sources, so it receives an additional source-count signal in the app rating.')
-              else:
-                  sentences.append('At the moment the topic is represented by one linked source in the feed.')
-              sentences.append('The summary is limited to verified feed metadata when the publisher article text cannot be safely extracted, so it does not add unsupported details.')
-              return ' '.join(sentences)
-
-          changed = False
-          summaries = data.setdefault('summaries', {})
-          for article in data.get('articles') or []:
-              aid = article.get('id')
-              if needs_repair(article.get('summary')):
-                  article['summary'] = grounded_summary(article)
-                  changed = True
-              if aid and needs_repair(summaries.get(aid)):
-                  summaries[aid] = article.get('summary') or grounded_summary(article)
-                  changed = True
-
-          if changed:
-              path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
-              print('Repaired fallback summaries with grounded feed summaries.')
-          else:
-              print('Summaries already look usable.')
-          PYEOF
 
       - name: Publish latest-news.json
         run: |
