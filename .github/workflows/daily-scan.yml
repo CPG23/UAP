@@ -12,6 +12,7 @@ on:
       - .github/scripts/enrich_summaries.py
       - .github/scripts/sync_summaries.py
       - .github/scripts/source_quality_adjust.py
+      - .github/scripts/regroup_topics.py
       - .github/scripts/precompute_translations.py
       - .github/workflows/daily-scan.yml
 
@@ -53,6 +54,7 @@ jobs:
           python3 .github/scripts/enrich_summaries.py
           python3 .github/scripts/sync_summaries.py
           python3 .github/scripts/source_quality_adjust.py
+          python3 .github/scripts/regroup_topics.py
           python3 .github/scripts/precompute_translations.py
 
       - name: Publish latest-news.json
