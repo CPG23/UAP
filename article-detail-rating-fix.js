@@ -102,7 +102,8 @@
   }
 
   function isInteractive(target){
-    return !!(target && target.closest && target.closest('button,a,input,select,textarea,.badge.quality,.quality-overlay,.sources,.source-list,.translate-btn'));
+    if (!(target && target.closest)) return false;
+    return !!target.closest('a,input,select,textarea,.badge.quality,.quality-overlay,.sources,.source-list,.translate-btn,.quality-top-help');
   }
 
   function keepOpenCardsVisible(){
