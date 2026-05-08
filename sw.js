@@ -1,6 +1,6 @@
-var CACHE = 'uap-v65-scroll-heading-fix';
+var CACHE = 'uap-v66-no-startup-loop';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '65';
+var OVERRIDE_VERSION = '66';
 var OVERRIDE_FILES = [
   'app-feed-overrides.js',
   'bell-icon-fix.js',
