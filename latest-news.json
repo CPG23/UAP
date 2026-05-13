@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-13T06:17:56Z",
+  "timestamp": "2026-05-13T13:07:48Z",
   "articles": [
     {
       "id": "batch-declassified-detailing-files-initial-pentagon-releases",
@@ -349,7 +349,7 @@
       "otherSources": [
         {
           "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOM0hldUM1UE80NzVjNlVFNXBpd2hhdVF6UEd4ekRSUXdfNldCS2hTVGlRdzZTMGR1WXJFeVVKcnp6TG0tVzNqbDRIWW5aRlR2MXlJQllRYWloV0s1VjlsaFRwd3I0WFhqQllKMnNnLWFkVl9VUE9XRjAwTzFuSlRBOFRlTTV3aXJZREs4WmpzaThPZGRzSjZOM2U0QkRuR0FkZ3VtbXFLRmVEWC1BWTdoNjM2NHExc243S2l6YmxTTGpNd21IMWtBaTd3WVpnck1kQVppUQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaHY1VlJUc2ZyTy1ObUFsQVByd09ydXJMd1JfZmNPQ3VhNlZIOEpWby1YTWdKZnhLMTBrNkt5dV8tdnZ2c1c3OUNPeDd4X3lZb2ZOZDduM3JGWm1PYmZNcGItWDd1VWNnZWp5VXQ4NG5KUE5fOVgtSzh6QjZIWlVJbnV6VzRpQ0JvVXJXUGVqaC1tR3FmM2RCOGMyWS13YnhJNGt2bkdwU2x2bEJ3VU1IdHpLRDBpSm1tQ1QyWkZEZ3dLcU0?oc=5",
           "title": "UAP whistleblower: Pilots are 'still having' these encounters"
         }
       ],
@@ -414,6 +414,74 @@
           "title": "UAP-Whistleblower: Piloten haben diese Begegnungen „immer noch“.",
           "summary": "Fox News berichtete am 9. Mai 2026, dass ein Whistleblower behauptet, Piloten hätten immer noch Begegnungen mit unbekannten Luftphänomenen. In der Schlagzeile heißt es, dass Piloten diese Begegnungen „immer noch haben“. Der Artikel fällt in die Kategorie UAP und ist Teil einer Gruppe von Fox News-Quellen.",
           "sourceHash": "9968e61c344169f4bc3ba14c9d0cc28361a9c9c7",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "chaos-cia-corbell-dog-fear-jeremy-lazar-lore-sleeping-whistleblower",
+      "title": "Jeremy Corbell’s Sleeping Dog: UFO whistleblower chaos, CIA fear, and Lazar lore",
+      "source": "Cybernews",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42RnpBR0JvQzZ0b2Rrdk44cDF6S0lsOTJJMm5jQXpsQ2JYcUxPVHBSOXJLOHY4ZlgzRnV3dTFJMjF2SEhpX2FmdlhIb3F1dVVDLWhHXzdwMjY5SkVKQ1h5T0wyR045ZDYzdnRpc2dtaFU0ZmdWYzNUa2xRZw?oc=5",
+      "date": "2026-05-12",
+      "summary": "” The piece discusses Jeremy Corbell’s involvement in UFO investigations and highlights alleged chaos surrounding a whistleblower. It also references fears expressed by the CIA regarding the subject matter. Additionally, the article touches on the lore surrounding the Lazar case.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 65,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "CIA, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "CIA, WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "CIA",
+        "WHISTLEBLOWER"
+      ],
+      "translation": {
+        "en": {
+          "title": "Jeremy Corbell’s Sleeping Dog: UFO whistleblower chaos, CIA fear, and Lazar lore",
+          "summary": "” The piece discusses Jeremy Corbell’s involvement in UFO investigations and highlights alleged chaos surrounding a whistleblower. It also references fears expressed by the CIA regarding the subject matter. Additionally, the article touches on the lore surrounding the Lazar case.",
+          "sourceHash": "12edfdeef71057c0bf004901b836eb514939de39",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Jeremy Corbells schlafender Hund: UFO-Whistleblower-Chaos, CIA-Angst und Lazar-Überlieferungen",
+          "summary": "„Der Artikel diskutiert Jeremy Corbells Beteiligung an UFO-Ermittlungen und beleuchtet das angebliche Chaos rund um einen Whistleblower. Er verweist auch auf Befürchtungen, die die CIA in Bezug auf das Thema geäußert hat. Darüber hinaus geht der Artikel auf die Überlieferungen rund um den Lazar-Fall ein.",
+          "sourceHash": "12edfdeef71057c0bf004901b836eb514939de39",
           "provider": "google"
         }
       }
@@ -548,7 +616,7 @@
         },
         "de": {
           "title": "Mehrere Pastoren behaupten, US-Militärgeheimdienstoffiziere hätten sie heimlich informiert, um ihre Gemeinden auf die UAP-Offenlegung vorzubereiten",
-          "summary": "S. Offiziere des Militärgeheimdienstes, um ihre Gemeinden auf eine bevorstehende UAP-Enthüllung vorzubereiten. Stone, ein in Tennessee ansässiger Pfingstevangelist, sagte in einem Video, ein vertrauenswürdiger Mitarbeiter habe ihn darüber informiert, dass eine Gruppe von Pastoren eingeladen worden sei, direkt von Personen mit Regierungskontakten über eine bevorstehende Offenlegung unbekannter anomaler Phänomene zu hören.",
+          "summary": "S. Offiziere des Militärgeheimdienstes bereiten ihre Gemeinden auf eine bevorstehende UAP-Enthüllung vor. Stone, ein in Tennessee ansässiger Pfingstevangelist, sagte in einem Video, ein vertrauenswürdiger Mitarbeiter habe ihn darüber informiert, dass eine Gruppe von Pastoren eingeladen worden sei, direkt von Personen mit Regierungskontakten über eine bevorstehende Offenlegung unbekannter anomaler Phänomene zu hören.",
           "sourceHash": "5779816474d3be3db793da8074095a2b2d4ae1d1",
           "provider": "google"
         }
@@ -834,6 +902,73 @@
       }
     },
     {
+      "id": "anna-beyond-book-disclosure-enoch-frames-human-luna-paulina-perception",
+      "title": "Rep. Anna Paulina Luna Frames UFO Disclosure Through The Book of Enoch As A Window Into A Reality Beyond Human Perception",
+      "source": "USA Herald",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSHFLb25FWTdRZW0wajdkMzhic0RNNXYxSUdUY1A1R0JCbzh6V0MwM3FQT1NJMS1BSFUyY0NsY3dmblV5UERVWW1VNjBoeVVGRHdNODVSNzdaVjlNLTB1T3lSZkROUDMxS2FSeXlreGNFSWRYZGF1RGxiRTZjVloxdkRTY2ZGOGtZbU9NaFRhLWwtVzJmSGlITmRVNDJzQXpqT1U4dDhqTlpqcDFDX1NaVHJLdGprTzl0SWR0X2VxZV85V3pGWGtNalJCMWRiUG1kVFNDcjQ1TWJqTDQ?oc=5",
+      "date": "2026-05-01",
+      "summary": "Florida Representative Anna Paulina Luna publicly stated that the ongoing UAP discussion may be linked to themes in the Book of Enoch, a claim that diverges from the evidence‑driven tone of recent disclosure efforts. The modern UAP conversation, recognized by NASA and the Department of Defense, includes documented observations of objects that accelerate suddenly, travel seamlessly across media, and behave in ways that do not match known propulsion systems or aerodynamics.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 56,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE"
+      ],
+      "translation": {
+        "en": {
+          "title": "Rep. Anna Paulina Luna Frames UFO Disclosure Through The Book of Enoch As A Window Into A Reality Beyond Human Perception",
+          "summary": "Florida Representative Anna Paulina Luna publicly stated that the ongoing UAP discussion may be linked to themes in the Book of Enoch, a claim that diverges from the evidence‑driven tone of recent disclosure efforts. The modern UAP conversation, recognized by NASA and the Department of Defense, includes documented observations of objects that accelerate suddenly, travel seamlessly across media, and behave in ways that do not match known propulsion systems or aerodynamics.",
+          "sourceHash": "3127c112edb415866d0fec4da54673a8da02b9c8",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Die Abgeordnete Anna Paulina Luna stellt die UFO-Enthüllung anhand des Buches Henoch als Fenster in eine Realität dar, die jenseits der menschlichen Wahrnehmung liegt",
+          "summary": "Die Vertreterin von Florida, Anna Paulina Luna, erklärte öffentlich, dass die laufende UAP-Diskussion möglicherweise mit Themen im Buch Henoch verknüpft sei, eine Behauptung, die vom evidenzbasierten Ton der jüngsten Offenlegungsbemühungen abweicht. Die moderne UAP-Konversation, die von der NASA und dem Verteidigungsministerium anerkannt wird, umfasst dokumentierte Beobachtungen von Objekten, die plötzlich beschleunigen, sich nahtlos über Medien bewegen und sich auf eine Weise verhalten, die nicht mit bekannten Antriebssystemen oder Aerodynamiken übereinstimmt.",
+          "sourceHash": "3127c112edb415866d0fec4da54673a8da02b9c8",
+          "provider": "google"
+        }
+      }
+    },
+    {
       "id": "all-alleged-crash-damage-die-entities-even-files-get-godlike",
       "title": "Newly Released UAP Files Suggest Alleged Non-Human Entities Are Not “Godlike” After All — They Crash, Get Hit, Suffer Damage, And May Even Die",
       "source": "USA Herald",
@@ -1020,63 +1155,6 @@
       }
     },
     {
-      "id": "alien-eight-files-footage-frenzy-online-ophanim-pointed-seen-sparks",
-      "title": "‘Eight-pointed ALIEN’ seen in UAP FILES? Viral UFO footage sparks OPHANIM THEORY frenzy online",
-      "source": "The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOc01IYW11bkR1QTVjMGlKWndzVTUtZjA1TkZRenRhQVZLN2JxWnRNN2l1Q3JnOTgzaU5yUVBVblhLMnhnUmRtV2hidHBRZnVlNXVXdENTMGJaUENTaTkzSENkd2o0aVBJRUNoSkZxN2NNLWtVbXNTNjJfdExGRmJXQ2ZsZm5qckJkc0k5cDF6blVJN1dEQmt6Q3hPSEJFcGJkLWJ3MXltbXpaSTRvaDk1NkdfTTM1YnNzbzNVRkg2Z1Y3VWNXX1cwcFZxNnNJMjliN3U5R01UR3ppenAyZW5mZXExV0xHVGdkVXN30gHwAUFVX3lxTE95TmNaODlvYmZZaXh4WkFwbWRlUjBOVTBTczRJUWtWelpvWlRTYzVUd0hwbkVvcHkwenlfcW45eGJOZERMalA4RUZkbmJ3S2RQYi11Q2hreVd6Y19UTEFYSUVyQzFoWV9FV1dteldLTnBsaUhoU1lMdGVtT3o3YlNPNWdsRmx3bU4zaXIwS1JlU1VSQU5oLXpXYXN5ck80aGJVUG12eThQaDR3UnhUVVREYlVlVEhiX3FzLVBSWGRLd2J5Sm9WRVVCZHFzNHNraGJVai1uZll5eWtMUkRxa1pTa25kWE93cjU5VzNSbGV2TA?oc=5",
-      "date": "2026-05-11",
-      "summary": "S. Department of War has released a black‑and‑white infrared video that shows an eight‑pointed object moving across the sky. S.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "ALIEN als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 0,
-          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "ALIEN"
-      ],
-      "translation": {
-        "en": {
-          "title": "‘Eight-pointed ALIEN’ seen in UAP FILES? Viral UFO footage sparks OPHANIM THEORY frenzy online",
-          "summary": "S. Department of War has released a black‑and‑white infrared video that shows an eight‑pointed object moving across the sky. S.",
-          "sourceHash": "f0cc878e78c91a419ba830d89b19a07b3bdc1bbd",
-          "provider": "original"
-        },
-        "de": {
-          "title": "„Achtzackiger ALIEN“ in UAP-DATEIEN gesehen? Virale UFO-Aufnahmen lösen im Internet Hype um die OPHANIM-THEORIE aus",
-          "summary": "Das US-Kriegsministerium hat ein Schwarzweiß-Infrarotvideo veröffentlicht, das zeigt, wie sich ein achtzackiges Objekt über den Himmel bewegt. S.",
-          "sourceHash": "f0cc878e78c91a419ba830d89b19a07b3bdc1bbd",
-          "provider": "google"
-        }
-      }
-    },
-    {
       "id": "database-decades-details-files-longmont-national-sightings-strange",
       "title": "Longmont’s UFO Files: National Database Details Decades Of Strange Sightings",
       "source": "longmontleader.com",
@@ -1174,6 +1252,51 @@
           "title": "So schauen Sie sich „Sleeping Dog“ online an – streamen Sie die umstrittene UAP/UFO-Dokumentation von überall aus",
           "summary": "S. militärische Sensorvideos. S.",
           "sourceHash": "95763295fb2ef35bbe54e1a62db04becdba21a05",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "during-large-repeatedly-scale-spotted-ukraine-war",
+      "title": "UFOs repeatedly spotted over Ukraine during the large-scale war",
+      "source": "Universe Space Tech",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeVpMNUJleURoOXVDZU1LcmM1RTY0dlI3ZGFmS2owQlpzaDdFcm9oZmV6YzI3YmRBazFLb25BUHpmVkVITEVuaGxGbW1ETE5MeEQzYXJqOS0wbHllVVpKZ1FQdGxKcWdXSUtOckE4Y01lTWpxdVRmR2RuOUlReVltSWV1S0oxN3pRdGc2eF9MTXJnSW9KZmQ5TzRoRlU?oc=5",
+      "date": "2026-05-12",
+      "summary": "Universe Space Tech lists a UAP-related report dated 2026-05-12 under the headline \"UFOs repeatedly spotted over Ukraine during the large-scale war\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 0,
+          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "translation": {
+        "en": {
+          "title": "UFOs repeatedly spotted over Ukraine during the large-scale war",
+          "summary": "Universe Space Tech lists a UAP-related report dated 2026-05-12 under the headline \"UFOs repeatedly spotted over Ukraine during the large-scale war\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.",
+          "sourceHash": "83380ba9240046d62703af627769431dd0dd4b75",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Während des Großkrieges wurden wiederholt UFOs über der Ukraine gesichtet",
+          "summary": "Universe Space Tech listet einen UAP-bezogenen Bericht vom 12.05.2026 mit der Überschrift „Während des groß angelegten Krieges wiederholt UFOs über der Ukraine gesichtet“ auf. Die Überschrift wird als Quellenangabe behandelt und UAP News fügt keine Details hinzu, die nicht in den verfügbaren Feed-Metadaten enthalten sind.",
+          "sourceHash": "83380ba9240046d62703af627769431dd0dd4b75",
           "provider": "google"
         }
       }
@@ -1314,51 +1437,6 @@
       }
     },
     {
-      "id": "analysis-every-files-forensic-leads-legal-now-open-pastors-place",
-      "title": "Legal-Forensic UAP Analysis: They Warned The Pastors. Now The Files Are Open — And Every Thread Leads To The Same Place",
-      "source": "USA Herald",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVXdpUlFaYW80TC1Hc1IzbHN5SmxyU1dia2VGQms4MlRBY2dLbm8taTAtaHFNZmJlUkdXdVpWbFhLd3pNRWtZSGZPZHhSclVrVFJDaVVFYnBvT1V0U2VTSzlfTlJ4YUkzVGZVVjc3WEhfUjhaTEN4WGxacWxhcDFYdjlsdEpqUEpSQ01wM3h1c2twVl9rT2o0NlhvV093dUlWRmowanlFSEFOTUplLVRXWE04d0RRbWFISDhNY0YwRHNyWUd1MG1GbnhReTZTRVRHeDVPdQ?oc=5",
-      "date": "2026-05-08",
-      "summary": "USA Herald lists a UAP-related report dated 2026-05-08 under the headline \"Legal-Forensic UAP Analysis: They Warned The Pastors. Now The Files Are Open — And Every Thread Leads To The Same Place\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 0,
-          "text": "Nur eine Quelle im aktuellen Feed, daher kein Quellenbonus."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "translation": {
-        "en": {
-          "title": "Legal-Forensic UAP Analysis: They Warned The Pastors. Now The Files Are Open — And Every Thread Leads To The Same Place",
-          "summary": "USA Herald lists a UAP-related report dated 2026-05-08 under the headline \"Legal-Forensic UAP Analysis: They Warned The Pastors. Now The Files Are Open — And Every Thread Leads To The Same Place\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.",
-          "sourceHash": "24fb6785cba5c8668dd499a0b92e2cd62fee2263",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Rechtlich-forensische UAP-Analyse: Sie warnten die Pfarrer. Jetzt sind die Dateien geöffnet – und jeder Thread führt zum selben Ort",
-          "summary": "USA Herald listet einen UAP-bezogenen Bericht vom 08.05.2026 unter der Überschrift „Legal-Forensic UAP Analysis: They Warningd The Pastors. Now The Files Are Open – And Every Thread Leads To the Same Place“ auf. Die Überschrift wird als Quellenangabe behandelt und UAP News fügt keine Details hinzu, die nicht in den verfügbaren Feed-Metadaten enthalten sind.",
-          "sourceHash": "24fb6785cba5c8668dd499a0b92e2cd62fee2263",
-          "provider": "google"
-        }
-      }
-    },
-    {
       "id": "admit-being-called-craft-crazy-critical-encounters-fear-near-officials",
       "title": "UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites",
       "source": "International Business Times UK",
@@ -1451,9 +1529,11 @@
   ],
   "summaries": {
     "batch-declassified-detailing-files-initial-pentagon-releases": "The Pentagon released a batch of “never‑before‑seen” declassified files on UFOs after President Donald Trump directed the agency to do so earlier in the year. The files contain investigations of reported sightings that span decades, including a large FBI file with hundreds of pages of eyewitness testimonies and public reports from 1947 to 1968 and more recent military memos describing a possible small UAP in Iraq in 2022 and multiple glares or lights of unknown origin observed in Syria in 2024. The Pentagon said the documents are now available to the public with no clearance required and will post new materials on a rolling basis every few weeks. A disclaimer on the Pentagon website notes that the descriptive language in the military memos reflects the subjective interpretation of the writer and should not be taken as a conclusive indication of what actually happened. The files also include reports from Apollo 12 astronauts in 1969 who saw flashes of light sailing off the Moon and from Apollo 17 astronauts in 1972 who saw bright particles of light that they theorized might be chunks of ice. Trump’s Truth Social post and NASA Administrator Jared Isaacman’s statement both praised the release as a step toward greater transparency about unidentified anomalous phenomena.",
+    "advisor-amid-bizarre-defence-disclosure-drops-encountered-military-ministry-pentagon": "Serhii “Flash” Beskrestnov, a senior adviser to Ukraine’s Minister of Defence, revealed on Telegram that the Ukrainian Armed Forces run a formal program to track and study unidentified flying objects, a directive that has been in place since the early days of the war with Russia. The program is sanctioned at the highest military level by the Commander‑in‑Chief and is framed as a national‑security necessity because unidentified aerial activity over Ukrainian territory could represent new Russian weapons technology. Beskrestnov claims that UFOs might be secret Russian weapons and posted 2023 reconnaissance footage as “proof.” He said he was approached by officials from a Ukrainian state institution that has quietly handled such investigations since the Soviet period, and that a formal UAF document governing the study of such phenomena is already operational. The adviser urges anyone who captures unidentified objects on camera—public or military—to submit footage to uap@gur.gov.ua, noting that firsthand visual evidence could have significant intelligence value. His remarks came as the U.S. Pentagon moves forward with a declassification of millions of UFO‑related records, and on May 8 2026 the Department of War released the first set of 162 UFO files, of which 158 are live on the portal.",
     "begins-can-files-make-minds-own-pentagon-people-releasing-their": "The Pentagon has begun releasing new files on UFOs, stating that the public can draw their own conclusions about unidentified anomalous phenomena. The effort is led by the White House, the director of national intelligence, the Energy Department, NASA, and the FBI. In a post on X, the Pentagon said that past administrations had sought to discredit or dissuade the public, while President Donald Trump is focused on maximum transparency and allowing people to form their own opinions. The Pentagon will release additional documents on a rolling basis, and Trump has been teasing the announcement since February, having previously released records on the assassinations of President John F. Kennedy, Senator Robert F. Kennedy, and Martin Luther King Jr. that revealed little beyond what was already known. Congress created an office in 2022 to declassify UFO material, and its 2024 report found hundreds of new UAP incidents but no evidence that the U.S. government had confirmed alien technology. A small group of Republicans, including Rep. Anna Paulina Luna and Rep. Tim Burchett, have urged further transparency, with Luna demanding 46 UAP videos identified by whistleblowers and Burchett noting that transparency will take time; experts caution that UAP videos are often misinterpreted by those unfamiliar with advanced military technology.",
     "encounters-having-pilots-still-whistleblower": "Fox News reported on May 9, 2026 that a whistleblower claims pilots are still having encounters with unidentified aerial phenomena. The headline states that pilots are “still having” these encounters. The article falls under the UAP category and is part of a cluster of Fox News sources. No additional description is provided in the available metadata. The report identifies the whistleblower as the source of the claim.",
     "batch-can-decide-first-pentagon-public-records-releases-selves-them": "The Pentagon released about 150 previously classified records on Friday, including astronaut transmissions, infrared video of an object making 90‑degree turns at 80 mph over the ocean, and servicemember accounts of unexplained sightings, all described as “unresolved cases.” The Defense Department said it will post additional files in tranches every few weeks, and a Pentagon website notes that the materials are “never‑before‑seen files” involving unidentified anomalous phenomena. President Donald Trump posted on Truth Social that the public can decide what is happening, and Defense Secretary Pete Hegseth echoed that the files have long fueled speculation and should be seen by the American people. Experts warned that misidentification of new technologies and popular culture can influence interpretations, and a 2024 Defense Department report found no evidence that the U.S. government had confirmed alien technology. The released trove includes a 1965 audio of astronaut Frank Borman describing a “bogey,” a 1969 Apollo 11 debriefing about a “really weird” object, a 2023 infrared sensor recording of an object making 90‑degree turns, and a 2024 recording of a diamond‑shaped object moving at 500 mph over Greece. A Pentagon official said the military would not comment on the files so that the public could make its own determinations, and the release was described as an interagency effort involving the Office of the Director of National Intelligence, the FBI, the White House, the Energy Department, NASA, and U.S. intelligence agencies.",
+    "chaos-cia-corbell-dog-fear-jeremy-lazar-lore-sleeping-whistleblower": "Cybernews published an article on May 12, 2026 titled “Jeremy Corbell’s Sleeping Dog: UFO whistleblower chaos, CIA fear, and Lazar lore.” The piece discusses Jeremy Corbell’s involvement in UFO investigations and highlights alleged chaos surrounding a whistleblower. It also references fears expressed by the CIA regarding the subject matter. Additionally, the article touches on the lore surrounding the Lazar case. The article is part of a cluster of Cybernews sources covering UAP topics.",
     "cseo-cyprus-declassified-disclosure-head-inform-mark-phase-releases": "George Danos, head of the Cyprus Space Exploration Organisation, said the release of declassified UAP material marks a new phase of disclosure. He told the Cyprus News Agency that the coming period could be key to determining whether humanity is alone or visited by advanced civilizations. Danos noted that the United States has declassified and released files on unidentified anomalous phenomena as part of a transparency initiative, and that multiple declassified videos have already been downloaded by hundreds of millions of people. He said public interest has grown rapidly and officials are now more willing to discuss incidents openly, noting that pilots who previously did not report sightings now do so. Danos mentioned that some officials have suggested humanity may not be alone and that a total change in how the issue is handled is expected. He claimed that some released footage shows unusual flight dynamics that are unlikely to match known human technology.",
     "briefed-claim-congregations-disclosure-intelligence-military-multiple-officers-pastors-prepare": "Several religious leaders, including Pastor Perry Stone and evangelist Tony Merkel, claim they were privately briefed by U.S. military intelligence officers to prepare their congregations for an upcoming UAP disclosure. Stone, a Tennessee‑based Pentecostal evangelist, said in a video that a trusted associate informed him that a group of pastors was invited to hear directly from government‑connected individuals about an imminent disclosure event involving unidentified anomalous phenomena. Stone described the briefing as covering craft not allegedly part of our planet, non‑human beings, and a coordinated propaganda plan already in motion. Merkel says he has been in contact with officials for over a year, describing them as Christians in intelligence operations assigned to work within the UAP disclosure community, and that they approached him with a mission to prepare the body of Christ for what is coming. The state where the briefing took place has not been disclosed, and no government memo, official invitation, transcript, or attendee list has surfaced. The White House has not denied the claims, and Washington has remained silent, a silence the article notes is significant.",
     "administration-america-file-gov-historic-opens-public-puts-questions-release": "On May 8 2026 the Department of War announced the first release of new, never‑before‑seen government files on Unidentified Anomalous Phenomena (UAP), also known as UFOs. The release is part of the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE), an interagency effort that includes the White House, the Office of the Director of National Intelligence, the Department of Energy, AARO, NASA, the FBI, and other intelligence components. The files are housed at WAR.GOV/UFO and more releases are expected on a rolling basis. The initial tranche contains more than 160 documents, ranging from State Department and FBI reports to NASA mission transcripts, eyewitness accounts, photographs, and a 1947 Pan Am crew sighting of a bright orange object. The Department of War notes that the cases are unresolved, meaning the government has not made a definitive determination about the phenomena, and that unresolved status may result from limited data, incomplete information, or the need for additional technical analysis. The files do not constitute official confirmation of alien technology, recovered alien materials, or extraterrestrial life, and Secretary of War Pete Hegseth described the release as a transparency effort aligned with President Trump’s order.",
@@ -1464,54 +1544,39 @@
     "file-includes-japan-near-pentagon-sightings-trove": "The Japanese government’s top spokesman announced that Tokyo is studying a trove of previously classified Pentagon files on alleged UFO sightings. The files include two videos of unidentified anomalous phenomena (UAP) that were spotted near Japan. Chief Cabinet Secretary Minoru Kihara said at a regular news conference that Japan is constantly gathering and analyzing information on incidents related to national security, including UAPs. He added that Japan maintains close coordination with the United States and other countries on these matters. When asked whether Japan might disclose similar UAP files it holds, Kihara said the government would make specific, case‑by‑case decisions. He noted that decisions would be based on a comprehensive assessment of various factors, including the risk of exposing intelligence‑gathering capabilities.",
     "bright-but-files-hot-interpretation-leave-light-lights-orbs-public": "The Pentagon released a new batch of declassified UFO files on Friday, including videos, images, and transcripts from the State Department, FBI, and NASA, after President Trump announced a major document dump on Truth Social. The files contain reports of unidentified anomalous phenomena such as a 1994 Tajikistan cable describing a brightly lit object making 90‑degree turns over Kazakhstan, a 2023 Aegean Sea report of a UAP turning at 80 mph, and a 2022 North American video of a football‑shaped object. Other documents include a 1969 Apollo 11 debrief where Buzz Aldrin noted a bright light that might have been a laser, a 2023 FBI interview of a drone pilot who saw a linear object with visible bands, and a 1972 Apollo 17 NASA photo of three dots in a triangular formation. The Pentagon states that many of the cases remain unresolved and that preliminary analysis suggests some objects could be physical, but no consensus exists on their nature. Experts such as former All‑Domain Anomaly Resolution Office director Sean Kirkpatrick warn that without analysis the release may fuel speculation, while congressional Republicans like Rep. Anna Paulina Luna and Rep. Tim Burchett have called for further transparency and additional video releases. The 2024 Pentagon report found no evidence that the U.S. government has recovered alien technology or confirmed alien life, and the release is part of an ongoing effort to declassify UAP material that began in 2022.",
     "biologics-craft-david-grusch-human-non-whistleblower": "David Grusch served 14 years in the Air Force, reaching the rank of Major and completing a combat tour in Afghanistan. He held senior intelligence positions at the National Geospatial-Intelligence Agency and the National Reconnaissance Office. Grusch represented the NRO on the Unidentified Aerial Phenomena Task Force from 2019 to 2021. In 2022 he filed a whistleblower complaint that was described as credible and urgent. In 2023 he testified before Congress. He claimed that elements of the U.S. government had thwarted Congressional oversight, withheld information from proper Executive Branch officials, and illegally concealed programs related to the recovery and reverse engineering of craft of unknown, non‑human origin.",
-    "agents-beat-drop-eye-federal-first-off-pentagon-really-sauron": "On May 8 2026 the U.S. Department of War posted a web page titled PURSUE that contains 161 declassified UAP records, the first tranche released under a February 19 Trump administration directive to comb federal archives for UAP material. The only file with a narrative title is a 13‑page slide deck called “Western US Event,” which summarizes statements from seven federal law‑enforcement special agents (USPER1–USPER7) who reported four distinct sightings in the western United States during 2023. The four sub‑events described are: “Orbs Launching Orbs,” where an orange orb released two to four red orbs; “Large, Fiery Orb,” a stationary glowing orange orb about 12–18 m across and 1,050 m away; “Dark Kite,” a low‑flying, car‑like object that glided over the desert; and “Transparent Kite,” a kite‑shaped form that appeared to block a spotlight beam. The report notes that the agents’ accounts are corroborated by a teammate using night‑vision goggles, that AARO later revised the size of the Large, Fiery Orb, and that no technical data such as radar tracks or sensor video accompany the Transparent Kite event. The remaining 160 records include roughly 50 Department of War mission reports from 2020–2024, 24 FBI photo PDFs dated “Late 2025,” 16 sections of an FBI “Flying Discs” administrative file, six NASA Apollo transcripts and images, about 25 unresolved UAP summary reports, five State Department UAP cables, and the Western US Event slide deck. The Department’s statement, attributed to Secretary Pete Hegseth, calls the release “unprecedented transparency,” and the PURSUE landing page features a real‑time clock, coordinates set to the Pentagon, and an all‑caps exhortation from President Trump on Truth Social.",
-    "aliens-bronze-disc-exist-fbi-files-frenzy-image-photos-proof": "A newly released image from the Trump Administration's UFO archive shows a massive bronze-colored ellipsoid hovering above a rural landscape after a burst of light, described in official documents as an “actual site photo with FBI Lab rendered graphic overlay.” Eyewitnesses reported the object appeared suddenly in September 2023 and vanished instantaneously, with its size estimated between 130 and 195 feet in length. The release was part of a Pentagon and Department of War disclosure initiative ordered by President Donald Trump in May 2026, which aims to declassify decades of records on extraterrestrials, UFOs, and unidentified anomalous phenomena. The Department of War and the Office of the Director of National Intelligence said the effort would review tens of millions of records, and Secretary of War Pete Hegseth pledged unprecedented transparency regarding unresolved UFO investigations. Online skeptics quickly questioned the image’s authenticity, citing its digital rendering and the document’s reference to an FBI Lab overlay, and some users compared the object to a metallic football or a Photoshop creation. The Department of War noted that the released files involve unresolved cases where insufficient data, conflicting testimony, and limited sensor evidence prevented definitive conclusions, and it encouraged independent researchers, scientists, and private‑sector analysts to review the materials.",
+    "anna-beyond-book-disclosure-enoch-frames-human-luna-paulina-perception": "Florida Representative Anna Paulina Luna publicly stated that the ongoing UAP discussion may be linked to themes in the Book of Enoch, a claim that diverges from the evidence‑driven tone of recent disclosure efforts.  \nThe modern UAP conversation, recognized by NASA and the Department of Defense, includes documented observations of objects that accelerate suddenly, travel seamlessly across media, and behave in ways that do not match known propulsion systems or aerodynamics.  \nLuna’s comparison draws on the interdimensional hypothesis and Carl Sagan’s Flatland analogy, suggesting that beings from other dimensions could appear to violate physical laws because humans lack the capacity to perceive them fully.  \nThe Book of Enoch, which is not part of the canonical Bible for most Western traditions, describes the Watchers—entities that descend from the heavens, interact with humanity, and impart advanced knowledge, implying movement between realms.  \nLuna’s remarks emphasize structural parallels rather than direct identification, and she does not present the Book of Enoch as scientific evidence but as a historical narrative that mirrors modern theoretical frameworks.  \nThere is currently no verified evidence linking UAPs to the entities described in ancient texts, and the article stresses the need to separate correlation from confirmation.  \nThe disclosure process has broadened the conversation to include questions of reality, perception, and the possibility that humanity has long encountered the unknown, making the challenge one of understanding rather than merely uncovering truth.",
     "access-apollo-astronauts-declassified-files-how-observations-released-sightings-transcripts": "The Department of War, under President Donald Trump and with support from the Director of National Intelligence, released a set of UFO files to the public on Friday, citing a desire for “complete and maximum transparency.” Trump posted on Truth Social that previous administrations had not been open on the issue and that the release was part of his promise to share information on unidentified aerial phenomena. The Pentagon has published about 161 declassified files, including FBI memoranda, Air Force intelligence reports, military footage, infrared imagery, NASA transcripts, and a 1948 Air Force report on “flying saucers” near sensitive military sites in Europe. Apollo astronaut transcripts in the archive record observations of bright lights by Buzz Aldrin in 1969, particles and flashes by Alan Bean, and Jack Schmitt’s description of lights as “like the Fourth of July,” though some reports suggest the lights may have been reflections. Military sensors captured several UFO sightings, such as an eight‑pointed star object, a football‑shaped craft, a super‑hot orb that jammed sensors in Africa, a diamond‑shaped UAP traveling at roughly 499 mph in a 2024 video, and a luminous sphere moving between wind turbines. The Department of War has stated it will release additional declassified videos and high‑resolution photos in the coming weeks, but officials note that most cases remain unresolved due to insufficient data rather than confirmed extraterrestrial origin.",
+    "162-declassifies-evidence-files-judge-public-trump": "The Pentagon has released a first tranche of 162 declassified UFO files, dated from 1948 to 2026, including 120 PDFs, 28 videos, and 14 images from the Department of Defence, FBI, NASA, and State Department, to increase transparency on unidentified flying objects.  \nThe archive contains unusual sightings reported by astronauts and pilots but explicitly states that it contains no definitive proof of alien life.  \nAmong the documents are old State Department cables, FBI files, and NASA transcripts that discuss a suspected Nazi aircraft built in the Black Forest in 1944, described by Paul Peyerl as a disc‑shaped, 6.5‑metre, remotely controlled craft with rotating outer sections and jet engines, and include a photographic negative taken at 7,000 metres and a still image from a hangar.  \nThe FBI notes that its documents contain neither recommendations nor conclusions, making it impossible to assess whether the alleged Nazi UFO actually existed.  \nA retro‑styled website hosts the files and highlights sightings such as a bright object making 90‑degree turns over Kazakhstan and a light observed by Buzz Aldrin during Apollo 11, yet it offers no concrete evidence of extraterrestrial technology.  \nCongress members are calling for further disclosure, experts warn the released videos can be misinterpreted, and President Donald Trump has said the release allows the public to judge the evidence for themselves.",
     "all-alleged-crash-damage-die-entities-even-files-get-godlike": "USA Herald lists a UAP-related report dated 2026-05-10 under the headline \"Newly Released UAP Files Suggest Alleged Non-Human Entities Are Not “Godlike” After All — They Crash, Get Hit, Suffer Damage, And May Even Die\". The headline is treated as the source claim, and the app does not add details that are not present in the feed metadata. The feed metadata connects the topic with CRASH. For deeper context, use the linked sources below the article card.",
     "briefing-burchett-classified-contains-earth-explosive-fire-information-rep-set": "USA Herald lists a UAP-related report dated 2026-05-11 under the headline \"Rep. Tim Burchett Warns Classified UAP Briefing Contains Explosive Information That Could ‘Set the Earth on Fire’\". The headline is treated as the source claim, and the app does not add details that are not present in the feed metadata. The feed metadata connects the topic with CLASSIFIED. For deeper context, use the linked sources below the article card.",
     "but-files-green-hints-lots-men-released": "The Department of Defense began the initial release of government files on Unidentified Anomalous Phenomena (UAP) on Friday, fulfilling an order from President Trump to disclose documents related to aliens and UFOs. The collection is hosted on a government site that displays black‑and‑white photographs of anomalies, and it includes documents from the DoD, State Department, NASA, and FBI. One file contains eyewitness accounts from federal employees who observed orbs in the dusk sky on two separate days in the Western United States. The release also features images capturing anomalies from the Apollo 17 and Apollo 12 moon missions. Defense Secretary Pete Hegseth said the files have long fueled speculation and that it is time the American people see them. The DoD noted that all files have been reviewed for security, but many have not yet been analyzed to resolve the anomalies.",
     "archives-government-leave-newly-released-shrugging-you": "The War Zone lists a UAP-related report dated 2026-05-08 under the headline \"The Newly Released Government UFO Archives Will Leave You Shrugging\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata. The topic is connected with GOVERNMENT in the feed metadata.",
-    "alien-eight-files-footage-frenzy-online-ophanim-pointed-seen-sparks": "The U.S. Department of War has released a black‑and‑white infrared video that shows an eight‑pointed object moving across the sky. The footage was reportedly captured in 2013 by a U.S. military sensor platform. It is nearly two minutes long. The clip has resurfaced through a growing archive of declassified UFO and UAP investigation files. It has gone viral online. The video has sparked intense discussion across social media, UFO communities, and conspiracy theory circles.",
     "1st-documents-florida-notable-photos-released-sightings": "Leesburg Daily Commercial lists a UAP-related report dated 2026-05-08 under the headline \"1st US UFO documents, photos released. Notable Florida sightings\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata. The topic is connected with SIGHTINGS in the feed metadata.",
     "database-decades-details-files-longmont-national-sightings-strange": "The National UFO Reporting Center database contains more than 100 reports of unidentified objects observed by Longmont residents and travelers over several decades, including metallic spheres, chevron‑shaped craft, orange lights, green fireballs, glowing formations, and a large triangle‑shaped object near the airport. A recent report filed on March 25, 2025, described a metallic sphere hovering over Longmont for about 20 minutes, which the witness said did not resemble a balloon or aircraft and moved eastward. Other recent entries include an October 14, 2025 sighting of a dark gray or black triangular craft with three white lights and a muted jet‑like hum, and a January 27, 2026 report of a silver or light‑colored chevron‑shaped object that NUFORC classified as “Aircraft — Probable.” Earlier reports date back to 1998, when a family saw a large triangular craft with yellowish‑white tube lights near the airport, and to 1999, when a saucer‑shaped object with flashing lights was observed from a window. Witnesses have also reported silent cigar‑shaped objects, hovering V‑shaped crafts, fireballs that changed color, and groups of lights forming triangles or other formations, often noting the absence of sound or engine noise. The article notes that many of the sightings could be explained by conventional sources such as aircraft, satellites, drones, weather balloons, or optical effects, and that the NUFORC database does not provide definitive evidence of extraterrestrial activity.",
-    "anywhere-controversial-doc-dog-how-online-sleeping-stream-watch": "\"Sleeping Dog\" is a UFO documentary that follows investigative journalist Jeremy Corbell and includes eight new, unreleased U.S. military sensor videos. The film premiered theatrically on May 8 and will be available to buy or rent on Amazon Prime Video in the U.S. and Canada from May 12, and on Prime Video in the U.K. It features interviews and footage from insiders such as astronaut Dr. Edgar Mitchell, Col. John B. Alexander, John Lear, Bob Lazar, David Grusch, nuclear chemist Edmund Storms, Cmdr. David Fravor, and journalist George Knapp. Corbell claims that releasing the film is his only protection against government attempts to silence whistleblowers and activists. The title “Sleeping Dog” refers to a threat described by Corbell as advice from shadowy government figures warning him about continuing to leak UAP footage. Viewers outside the U.S. and U.K. can access the film via a VPN such as NordVPN, which the article recommends for unblocking Prime Video content.",
     "even-gun-smoking-something-stranger": "In 2026, the U.S. government released a large cross‑agency archive of UFO and UAP investigations that included FBI records, military reports, NASA transcripts, photographs, witness statements, intelligence memos, and investigative summaries from the 1940s to the present. Arizona appears repeatedly in these files, with locations such as Phoenix, Chandler, Flagstaff, Tucson, Winslow, Mesa, Seligman, and Nogales mentioned dozens of times in ten separate FBI file sections covering the late 1940s through the 1960s. Two Arizona incidents stand out in the archive: a 1947 Grand Canyon sighting reported by Lieutenant William G. McGinty and the 1958 “Bender Affair” involving UFO researcher Albert K. Bender. McGinty described seeing two eight‑foot‑diameter, light‑gray objects descend vertically at “inconceivable speeds” over the Grand Canyon on June 30, 1947, and the same event is documented in three separate FBI sections, while photographs taken by William Rhodes on July 7, 1947, show objects at roughly 1,000 feet altitude. The Bender Affair files record that Scottsdale resident Claude H. Marck Jr. wrote to the FBI in 1958 alleging the Bureau had silenced Bender, but the FBI found no evidence of a hush‑up operation and only possessed ordinary documents such as a 1952 letter about the International Flying Saucer Bureau and a 1953 magazine issue. FBI agents interviewed Marck in December 1958, noting his claims of “three men in black suits” and a “dreadful underground menace,” but later reports suggested he may have been delusional and concluded no further investigation was warranted, and a 1959 directive to re‑contact him was",
+    "anywhere-controversial-doc-dog-how-online-sleeping-stream-watch": "\"Sleeping Dog\" is a UFO documentary that follows investigative journalist Jeremy Corbell and includes eight new, unreleased U.S. military sensor videos. The film premiered theatrically on May 8 and will be available to buy or rent on Amazon Prime Video in the U.S. and Canada from May 12, and on Prime Video in the U.K. It features interviews and footage from insiders such as astronaut Dr. Edgar Mitchell, Col. John B. Alexander, John Lear, Bob Lazar, David Grusch, nuclear chemist Edmund Storms, Cmdr. David Fravor, and journalist George Knapp. Corbell claims that releasing the film is his only protection against government attempts to silence whistleblowers and activists. The title “Sleeping Dog” refers to a threat described by Corbell as advice from shadowy government figures warning him about continuing to leak UAP footage. Viewers outside the U.S. and U.K. can access the film via a VPN such as NordVPN, which the article recommends for unblocking Prime Video content.",
     "coming-congressman-crap-files-geller-holy-illusionist-next-reacts-set": "Israeli‑British illusionist Uri Geller, 79, reacted to US Congressman Tim Burchett’s warning that the next batch of declassified UFO files will dwarf what has already been released, saying he believes every word of it. Burchett, a member of the UAP Caucus, told Joe Rogan that the first cache of 162 documents was only a “drop in the bucket” and that “Holy Crap is coming” with future releases, and he described pilots reporting UAP encounters being pulled from active duty for psychological evaluation and alleged sightings of underwater craft moving over 200 miles per hour and as large as a football field. Geller claims that in the 1970s Wernher von Braun showed him fragments of metal recovered from a crashed UFO that he said felt “conscious” and “alive,” and that von Braun drove him to a refrigerated underground facility at NASA’s Goddard Space Center where Geller saw small mangled bodies of beings that were not human stored behind frosted glass containers. Geller says the already‑released files, which include Apollo and Gemini mission reports describing astronauts encountering strange lights and objects near their crafts and hovering above the Moon, vindicate the claims he has made for decades. On May 11, 2026, Geller tweeted that the new UFO files prove what he already knew and that NASA lied to the world, expressing anger and hoping the forthcoming releases will expose NASA’s full involvement. On May 8, 2026, the Department of War released 162 documents under President Trump’s directives of February 19, 2026, and announced that the next set of UFO materials will be released soon.",
+    "during-large-repeatedly-scale-spotted-ukraine-war": "Universe Space Tech lists a UAP-related report dated 2026-05-12 under the headline \"UFOs repeatedly spotted over Ukraine during the large-scale war\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.",
     "aliens-boebert-nephilim-weighs": "Colorado Times Recorder lists a UAP-related report dated 2026-05-11 under the headline \"Aliens? Nephilim? Boebert Weighs in on UAPs\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.",
     "big-festival-oregon-puts-small-town-visit-why-worth": "The 26th Annual McMenamins UFO Festival in McMinnville, Oregon, runs from May 14 to May 17 and is hosted by the McMenamins Hotel Oregon, making it the second‑largest UFO festival in the United States after Roswell. The festival began in 2000 to celebrate the 1950 UFO sighting by Paul and Evelyn Trent, whose photographs of a metallic object received national attention and remain among the most famous alleged flying‑saucer images. Organizers describe the event as a place where skeptics and believers come together, offering speakers, live music, a parade, vendor booths, costume contests, and a costume ball. The 2026 schedule includes a variety of speaker presentations, a podcast recording, a street fair, a UFO trivia session, and a “Landing Party” at the hotel tent. Tickets are required for the speaker presentations and can be purchased through ufofest.com, while most other events are free. The festival’s timing coincides with the release of previously unseen “UFO files” from the federal government, adding to the event’s appeal.",
     "claims-david-death-growing-missing-narrative-scientists-tied-who-wilcock": "MSN lists a UAP-related report dated 2026-05-07 under the headline \"Who was David Wilcock? The latest death in a growing ‘missing US scientists’ narrative tied to UFO claims\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.",
     "encounters-presidential-pursue-reporting-system-unsealing": "The Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) was created in response to a directive from President Donald J. Trump to increase transparency about unidentified aerial phenomena (UAP) and related government records. The Department of War, with support from the Office of the Director of National Intelligence, is coordinating a nationwide effort to locate, review, declassify, and publicly release unresolved UAP‑related documents held by federal agencies. The initiative involves dozens of agencies and the examination of tens of millions of records, many of which exist only on paper and span several decades. The Department of War will publish new materials on a rolling basis, releasing tranches of declassified documents every few weeks as they are discovered. The released files are classified as unresolved cases, meaning the government cannot definitively determine the nature of the observed phenomena due to insufficient data. The Department of War also plans to continue separate reporting on resolved UAP cases as required by statute. Release 01 of the PURSUE archive was cleared for release on May 8, 2026, and includes a statement from Secretary of War Pete Hegseth affirming the administration’s commitment to unprecedented transparency.",
     "documentary-dog-exposes-risks-secrets-sleeping": "Evrim Ağacı lists a UAP-related report dated 2026-05-08 under the headline \"Sleeping Dog Documentary Exposes UAP Secrets And Risks\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.",
-    "analysis-every-files-forensic-leads-legal-now-open-pastors-place": "USA Herald lists a UAP-related report dated 2026-05-08 under the headline \"Legal-Forensic UAP Analysis: They Warned The Pastors. Now The Files Are Open — And Every Thread Leads To The Same Place\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.",
     "admit-being-called-craft-crazy-critical-encounters-fear-near-officials": "International Business Times UK lists a UAP-related report dated 2026-05-05 under the headline \"UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.",
     "actually-files-interesting-release-they": "OregonLive.com lists a UAP-related report dated 2026-05-04 under the headline \"Release the UFO files! (If they’re actually interesting)\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-13T06:17:56Z",
-    "ids": [
-      "anywhere-controversial-doc-dog-how-online-sleeping-stream-watch",
-      "even-gun-smoking-something-stranger"
-    ],
-    "articles": [
-      {
-        "id": "anywhere-controversial-doc-dog-how-online-sleeping-stream-watch",
-        "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
-        "source": "Tom's Guide"
-      },
-      {
-        "id": "even-gun-smoking-something-stranger",
-        "title": "No 'smoking gun' in new AZ UFO report — it's something even stranger",
-        "source": "azcentral.com and The Arizona Republic"
-      }
-    ]
+    "timestamp": "2026-05-13T13:07:48Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 345,
-    "broadTopics": 158,
-    "notificationArticles": 2,
-    "notificationTopics": 2,
-    "newNotificationTopics": 2,
-    "appTopics": 35,
+    "broadArticles": 351,
+    "broadTopics": 167,
+    "notificationArticles": 1,
+    "notificationTopics": 1,
+    "newNotificationTopics": 0,
+    "appTopics": 36,
     "retentionDays": 14,
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
@@ -1547,6 +1612,20 @@
         "provider": "google"
       }
     },
+    "chaos-cia-corbell-dog-fear-jeremy-lazar-lore-sleeping-whistleblower": {
+      "en": {
+        "title": "Jeremy Corbell’s Sleeping Dog: UFO whistleblower chaos, CIA fear, and Lazar lore",
+        "summary": "” The piece discusses Jeremy Corbell’s involvement in UFO investigations and highlights alleged chaos surrounding a whistleblower. It also references fears expressed by the CIA regarding the subject matter. Additionally, the article touches on the lore surrounding the Lazar case.",
+        "sourceHash": "12edfdeef71057c0bf004901b836eb514939de39",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Jeremy Corbells schlafender Hund: UFO-Whistleblower-Chaos, CIA-Angst und Lazar-Überlieferungen",
+        "summary": "„Der Artikel diskutiert Jeremy Corbells Beteiligung an UFO-Ermittlungen und beleuchtet das angebliche Chaos rund um einen Whistleblower. Er verweist auch auf Befürchtungen, die die CIA in Bezug auf das Thema geäußert hat. Darüber hinaus geht der Artikel auf die Überlieferungen rund um den Lazar-Fall ein.",
+        "sourceHash": "12edfdeef71057c0bf004901b836eb514939de39",
+        "provider": "google"
+      }
+    },
     "cseo-cyprus-declassified-disclosure-head-inform-mark-phase-releases": {
       "en": {
         "title": "CSEO head says declassified UAP releases mark new phase of disclosure | Cyprus inform",
@@ -1570,7 +1649,7 @@
       },
       "de": {
         "title": "Mehrere Pastoren behaupten, US-Militärgeheimdienstoffiziere hätten sie heimlich informiert, um ihre Gemeinden auf die UAP-Offenlegung vorzubereiten",
-        "summary": "S. Offiziere des Militärgeheimdienstes, um ihre Gemeinden auf eine bevorstehende UAP-Enthüllung vorzubereiten. Stone, ein in Tennessee ansässiger Pfingstevangelist, sagte in einem Video, ein vertrauenswürdiger Mitarbeiter habe ihn darüber informiert, dass eine Gruppe von Pastoren eingeladen worden sei, direkt von Personen mit Regierungskontakten über eine bevorstehende Offenlegung unbekannter anomaler Phänomene zu hören.",
+        "summary": "S. Offiziere des Militärgeheimdienstes bereiten ihre Gemeinden auf eine bevorstehende UAP-Enthüllung vor. Stone, ein in Tennessee ansässiger Pfingstevangelist, sagte in einem Video, ein vertrauenswürdiger Mitarbeiter habe ihn darüber informiert, dass eine Gruppe von Pastoren eingeladen worden sei, direkt von Personen mit Regierungskontakten über eine bevorstehende Offenlegung unbekannter anomaler Phänomene zu hören.",
         "sourceHash": "5779816474d3be3db793da8074095a2b2d4ae1d1",
         "provider": "google"
       }
@@ -1631,6 +1710,20 @@
         "provider": "google"
       }
     },
+    "anna-beyond-book-disclosure-enoch-frames-human-luna-paulina-perception": {
+      "en": {
+        "title": "Rep. Anna Paulina Luna Frames UFO Disclosure Through The Book of Enoch As A Window Into A Reality Beyond Human Perception",
+        "summary": "Florida Representative Anna Paulina Luna publicly stated that the ongoing UAP discussion may be linked to themes in the Book of Enoch, a claim that diverges from the evidence‑driven tone of recent disclosure efforts. The modern UAP conversation, recognized by NASA and the Department of Defense, includes documented observations of objects that accelerate suddenly, travel seamlessly across media, and behave in ways that do not match known propulsion systems or aerodynamics.",
+        "sourceHash": "3127c112edb415866d0fec4da54673a8da02b9c8",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Die Abgeordnete Anna Paulina Luna stellt die UFO-Enthüllung anhand des Buches Henoch als Fenster in eine Realität dar, die jenseits der menschlichen Wahrnehmung liegt",
+        "summary": "Die Vertreterin von Florida, Anna Paulina Luna, erklärte öffentlich, dass die laufende UAP-Diskussion möglicherweise mit Themen im Buch Henoch verknüpft sei, eine Behauptung, die vom evidenzbasierten Ton der jüngsten Offenlegungsbemühungen abweicht. Die moderne UAP-Konversation, die von der NASA und dem Verteidigungsministerium anerkannt wird, umfasst dokumentierte Beobachtungen von Objekten, die plötzlich beschleunigen, sich nahtlos über Medien bewegen und sich auf eine Weise verhalten, die nicht mit bekannten Antriebssystemen oder Aerodynamiken übereinstimmt.",
+        "sourceHash": "3127c112edb415866d0fec4da54673a8da02b9c8",
+        "provider": "google"
+      }
+    },
     "all-alleged-crash-damage-die-entities-even-files-get-godlike": {
       "de": {
         "title": "Newly Released UAP Files Suggest Alleged Non-Human Entities Are Not “Godlike” After All — They Crash, Get Hit, Suffer Damage, And May Even Die",
@@ -1673,20 +1766,6 @@
         "provider": "google"
       }
     },
-    "alien-eight-files-footage-frenzy-online-ophanim-pointed-seen-sparks": {
-      "en": {
-        "title": "‘Eight-pointed ALIEN’ seen in UAP FILES? Viral UFO footage sparks OPHANIM THEORY frenzy online",
-        "summary": "S. Department of War has released a black‑and‑white infrared video that shows an eight‑pointed object moving across the sky. S.",
-        "sourceHash": "f0cc878e78c91a419ba830d89b19a07b3bdc1bbd",
-        "provider": "original"
-      },
-      "de": {
-        "title": "„Achtzackiger ALIEN“ in UAP-DATEIEN gesehen? Virale UFO-Aufnahmen lösen im Internet Hype um die OPHANIM-THEORIE aus",
-        "summary": "Das US-Kriegsministerium hat ein Schwarzweiß-Infrarotvideo veröffentlicht, das zeigt, wie sich ein achtzackiges Objekt über den Himmel bewegt. S.",
-        "sourceHash": "f0cc878e78c91a419ba830d89b19a07b3bdc1bbd",
-        "provider": "google"
-      }
-    },
     "database-decades-details-files-longmont-national-sightings-strange": {
       "en": {
         "title": "Longmont’s UFO Files: National Database Details Decades Of Strange Sightings",
@@ -1712,6 +1791,20 @@
         "title": "So schauen Sie sich „Sleeping Dog“ online an – streamen Sie die umstrittene UAP/UFO-Dokumentation von überall aus",
         "summary": "S. militärische Sensorvideos. S.",
         "sourceHash": "95763295fb2ef35bbe54e1a62db04becdba21a05",
+        "provider": "google"
+      }
+    },
+    "during-large-repeatedly-scale-spotted-ukraine-war": {
+      "en": {
+        "title": "UFOs repeatedly spotted over Ukraine during the large-scale war",
+        "summary": "Universe Space Tech lists a UAP-related report dated 2026-05-12 under the headline \"UFOs repeatedly spotted over Ukraine during the large-scale war\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.",
+        "sourceHash": "83380ba9240046d62703af627769431dd0dd4b75",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Während des Großkrieges wurden wiederholt UFOs über der Ukraine gesichtet",
+        "summary": "Universe Space Tech listet einen UAP-bezogenen Bericht vom 12.05.2026 mit der Überschrift „Während des groß angelegten Krieges wiederholt UFOs über der Ukraine gesichtet“ auf. Die Überschrift wird als Quellenangabe behandelt und UAP News fügt keine Details hinzu, die nicht in den verfügbaren Feed-Metadaten enthalten sind.",
+        "sourceHash": "83380ba9240046d62703af627769431dd0dd4b75",
         "provider": "google"
       }
     },
@@ -1757,20 +1850,6 @@
         "provider": "google"
       }
     },
-    "analysis-every-files-forensic-leads-legal-now-open-pastors-place": {
-      "en": {
-        "title": "Legal-Forensic UAP Analysis: They Warned The Pastors. Now The Files Are Open — And Every Thread Leads To The Same Place",
-        "summary": "USA Herald lists a UAP-related report dated 2026-05-08 under the headline \"Legal-Forensic UAP Analysis: They Warned The Pastors. Now The Files Are Open — And Every Thread Leads To The Same Place\". The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.",
-        "sourceHash": "24fb6785cba5c8668dd499a0b92e2cd62fee2263",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Rechtlich-forensische UAP-Analyse: Sie warnten die Pfarrer. Jetzt sind die Dateien geöffnet – und jeder Thread führt zum selben Ort",
-        "summary": "USA Herald listet einen UAP-bezogenen Bericht vom 08.05.2026 unter der Überschrift „Legal-Forensic UAP Analysis: They Warningd The Pastors. Now The Files Are Open – And Every Thread Leads To the Same Place“ auf. Die Überschrift wird als Quellenangabe behandelt und UAP News fügt keine Details hinzu, die nicht in den verfügbaren Feed-Metadaten enthalten sind.",
-        "sourceHash": "24fb6785cba5c8668dd499a0b92e2cd62fee2263",
-        "provider": "google"
-      }
-    },
     "admit-being-called-craft-crazy-critical-encounters-fear-near-officials": {
       "en": {
         "title": "UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites",
@@ -1801,7 +1880,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 20,
+    "prepared": 21,
     "failed": 0,
     "summary": "compact app summary only",
     "target": "de for English articles, en for German articles",
