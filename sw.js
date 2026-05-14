@@ -1,6 +1,6 @@
-var CACHE = 'uap-v86-new-article-filter';
+var CACHE = 'uap-v87-existing-articles-visible';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '86';
+var OVERRIDE_VERSION = '87';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
