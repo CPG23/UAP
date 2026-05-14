@@ -1,6 +1,6 @@
-var CACHE = 'uap-v94-manual-scan-timeout';
+var CACHE = 'uap-v95-mobile-safe-scan-timeout';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '94';
+var OVERRIDE_VERSION = '95';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
