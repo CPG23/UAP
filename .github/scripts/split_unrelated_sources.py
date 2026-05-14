@@ -23,21 +23,26 @@ STOP = set(
     "a an the to of for in on at by with from and or is are was were be been has have had "
     "will would could should may might new latest update report reports news says said about "
     "into after before over under this that these those watch video live first amid via than "
-    "uap uaps ufo ufos unidentified anomalous aerial flying phenomena".split()
+    "uap uaps ufo ufos unidentified anomalous aerial flying phenomena public"
+    .split()
 )
 
 STRONG_TERMS = set(
     "aaro alien archive archives congress crash declassified disclosure document documents dod "
     "federal files foia government hearing image images military nasa nonhuman pentagon photos "
     "pilot radar records release released senate sighting sightings trump video videos war whistleblower "
-    "cia lazar corbell pursue website".split()
+    "cia lazar corbell pursue website ukraine ukrainian russia russian ministry japan"
+    .split()
 )
 
 UAP_RE = re.compile(r"\b(uap|uaps|ufo|ufos|unidentified anomalous|unidentified aerial|unidentified flying|alien)\b")
 FILE_RE = re.compile(r"\b(file|files|record|records|archive|archives|document|documents|video|videos|photo|photos|material|materials)\b")
-RELEASE_RE = re.compile(r"\b(release|released|releases|releasing|declassif|unseal|unsealed|publish|published|posting|posted|drops?|opens?)\b")
+RELEASE_RE = re.compile(r"\b(release|released|releases|releasing|declassif|unseal|unsealed|publish|published|posting|posted|opens?)\b")
 US_GOV_RE = re.compile(r"\b(pentagon|department of war|defense department|defence department|dod|war\.gov|pursue|trump|united states|u\.s\.|us government|federal|state department|fbi|nasa)\b")
 WEBSITE_RE = re.compile(r"\b(website|site|portal|war\.gov|hits|launch|launched|public view)\b")
+UKRAINE_RE = re.compile(r"\b(ukraine|ukrainian)\b")
+UKRAINE_CONTEXT_RE = re.compile(r"\b(advisor|minister|ministry|armed forces|military|russia|russian|defence|defense|wartime|war)\b")
+JAPAN_RE = re.compile(r"\bjapan\b")
 
 
 def clean(value: Any) -> str:
@@ -67,6 +72,10 @@ def story_key(text: str) -> str:
     has_gov = bool(US_GOV_RE.search(raw))
     has_site = bool(WEBSITE_RE.search(raw))
 
+    if UKRAINE_RE.search(raw) and UKRAINE_CONTEXT_RE.search(raw):
+        return "ukraine-uap-program"
+    if JAPAN_RE.search(raw) and has_uap and (has_files or has_release or "disclosure" in raw):
+        return "japan-uap-files"
     if has_uap and has_files and has_release and has_gov:
         return "us-uap-file-release"
     if has_uap and has_gov and has_site and (has_files or has_release):
@@ -160,6 +169,13 @@ def make_article_from_source(source: dict[str, Any], template: dict[str, Any]) -
     title = clean(source.get("title"))
     link = clean(source.get("url") or source.get("link"))
     quality = max(45, min(100, int(template.get("quality") or 50) - 5))
+    key = story_key(title)
+    summaries = {
+        "us-uap-file-release": "The U.S. Department of War/Pentagon has begun releasing UFO/UAP records through a public archive, with officials saying readers can review the material and draw their own conclusions.",
+        "ukraine-uap-program": "A Ukrainian defense adviser said Ukraine tracks unidentified aerial activity as part of wartime security monitoring, because unusual objects could indicate new Russian technology or other threats.",
+        "japan-uap-files": "The article reports that Japan may release or examine UAP-related files after renewed public attention on U.S. and Ukrainian UFO disclosures.",
+        "sleeping-dog-corbell": "The article concerns Jeremy Corbell, Bob Lazar or related claims around the film Sleeping Dog and alleged UFO or intelligence-community material.",
+    }
     return {
         "id": topic_id(title),
         "title": title,
@@ -167,7 +183,7 @@ def make_article_from_source(source: dict[str, Any], template: dict[str, Any]) -
         "link": link,
         "date": template.get("date"),
         "publishedAt": source.get("publishedAt") or template.get("publishedAt"),
-        "summary": "",
+        "summary": summaries.get(key, ""),
         "mentions": 1,
         "otherSources": [],
         "clusterTitles": [],
@@ -212,7 +228,8 @@ def merge_duplicates(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
     merged: dict[str, dict[str, Any]] = {}
     order: list[str] = []
     for article in articles:
-        key = clean(article.get("id")) or topic_id(article.get("title", ""))
+        story = story_key(article_text(article))
+        key = story or clean(article.get("id")) or topic_id(article.get("title", ""))
         if key not in merged:
             merged[key] = article
             order.append(key)
@@ -230,6 +247,7 @@ def merge_duplicates(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
         existing["otherSources"] = sources
         existing["mentions"] = max(existing.get("mentions", 1), 1 + len(sources))
         existing["clusterTitles"] = cluster_titles(sources, existing.get("title", ""))
+        existing["quality"] = max(int(existing.get("quality") or 0), int(article.get("quality") or 0), min(100, 50 + len(sources) * 3))
     return [merged[key] for key in order]
 
 
@@ -246,7 +264,7 @@ def main() -> None:
     payload["articles"] = merge_duplicates(split)
     meta = payload.setdefault("scanMeta", {})
     meta["splitUnrelatedGroupedSources"] = created
-    meta["splitGroupedSourcesPolicy"] = "story_signature_or_title_description_summary_similarity_before_enrichment"
+    meta["splitGroupedSourcesPolicy"] = "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7"
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"split unrelated grouped sources: created={created}")
 
