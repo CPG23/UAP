@@ -1,6 +1,6 @@
-var CACHE = 'uap-v108-generic-clustering';
+var CACHE = 'uap-v109-summary-dedupe';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '108';
+var OVERRIDE_VERSION = '109';
 var OVERRIDE_FILES = [
   'feed-cluster-safety-fix.js',
   'feed-rating-normalize-fix.js',
