@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Regroup near-duplicate published news items before translations are prepared.
+"""Regroup near-duplicate news items by title and article summary.
 
-The scanner is intentionally cautious while collecting RSS items. This pass runs on
-latest-news.json, where AI summaries are already available, so it can merge the
-same story across outlets without guessing from the headline alone.
+This pass runs after summaries exist. It keeps sources attached only when they
+match the same story signature. Broad UAP terms alone are not enough to group two
+articles together.
 """
 from __future__ import annotations
 
@@ -15,56 +15,82 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[2]
 NEWS_PATH = ROOT / "latest-news.json"
-
-UAP_RE = re.compile(r"\b(uap|ufo|ufos|ovni|unidentified\s+(?:aerial|anomalous|flying)|alien)\b", re.I)
-FILE_RE = re.compile(r"\b(file|files|record|records|archive|document|documents|photo|photos|image|images|video|videos|footage|akten|fotos)\b", re.I)
-RELEASE_RE = re.compile(r"\b(release|released|releases|declassif|publish|published|publishes|unseal|disclos|freig|veroffentlicht|veroeffentlicht)\b", re.I)
-OFFICIAL_RE = re.compile(r"\b(pentagon|dod|defense|defence|government|congress|aoc|aaro|foia|trump|white\s+house|national\s+archives|us|u\.s\.|official|federal)\b", re.I)
-
 SPACE_RE = re.compile(r"\s+")
+WORD_RE = re.compile(r"[a-z0-9]+")
+
+STOP = set(
+    "a an the to of for in on at by with from and or is are was were be been has have had "
+    "will would could should may might new latest update report reports news says said about into "
+    "after before over under this that these those watch video live first amid via than uap uaps "
+    "ufo ufos unidentified anomalous aerial flying phenomena article source sources".split()
+)
+
+STRONG_TERMS = set(
+    "aaro alien archive archives congress crash declassified disclosure document documents dod "
+    "federal files foia government hearing image images military nasa nonhuman pentagon photos pilot "
+    "radar records release released senate sighting sightings trump video videos war whistleblower "
+    "ukraine ukrainian russia russian defense defence ministry cia lazar corbell cyprus".split()
+)
 
 
 def clean(value: Any) -> str:
-    return SPACE_RE.sub(" ", str(value or "").strip())
+    return SPACE_RE.sub(" ", str(value or "")).strip()
 
 
-def article_topic_text(article: dict[str, Any]) -> str:
-    """Only compare the article itself, not already-attached source lists."""
-    return clean(
-        " ".join(
-            [
-                article.get("title", ""),
-                article.get("description", ""),
-                article.get("summary", ""),
-                article.get("source", ""),
-            ]
-        )
-    )
+def words(text: str) -> list[str]:
+    return [word for word in WORD_RE.findall(text.lower()) if len(word) > 2 and word not in STOP]
 
 
-def source_topic_text(source: dict[str, Any]) -> str:
+def word_set(text: str) -> set[str]:
+    return set(words(text))
+
+
+def article_text(article: dict[str, Any]) -> str:
+    return clean(" ".join([
+        article.get("title", ""),
+        article.get("description", ""),
+        article.get("summary", ""),
+    ]))
+
+
+def source_text(source: dict[str, Any]) -> str:
     return clean(" ".join([source.get("title", ""), source.get("source", "")]))
 
 
-def is_uap_file_release_text(text: str) -> bool:
-    return bool(
-        UAP_RE.search(text)
-        and FILE_RE.search(text)
-        and RELEASE_RE.search(text)
-        and OFFICIAL_RE.search(text)
-    )
+def source_key(source: dict[str, Any]) -> str:
+    return clean(source.get("url") or source.get("link") or source.get("title") or source.get("source")).lower()
 
 
-def is_uap_file_release(article: dict[str, Any]) -> bool:
-    return is_uap_file_release_text(article_topic_text(article))
+def overlap_ratio(a: set[str], b: set[str]) -> float:
+    if not a or not b:
+        return 0.0
+    return len(a & b) / min(len(a), len(b))
 
 
-def source_is_uap_file_release(source: dict[str, Any]) -> bool:
-    return is_uap_file_release_text(source_topic_text(source))
+def same_story_words(a_words: set[str], b_words: set[str]) -> bool:
+    if not a_words or not b_words:
+        return False
+    shared = a_words & b_words
+    shared_strong = shared & STRONG_TERMS
+    a_strong = a_words & STRONG_TERMS
+    b_strong = b_words & STRONG_TERMS
+    ratio = overlap_ratio(a_words, b_words)
+
+    if ratio >= 0.46 and len(shared) >= 4:
+        return True
+    if ratio >= 0.30 and len(shared_strong) >= 2:
+        return True
+    if a_strong and b_strong and not shared_strong:
+        return False
+    return ratio >= 0.36 and len(shared) >= 6
 
 
-def same_topic(a: dict[str, Any], b: dict[str, Any]) -> bool:
-    return is_uap_file_release(a) and is_uap_file_release(b)
+def same_story_article(a: dict[str, Any], b: dict[str, Any]) -> bool:
+    return same_story_words(word_set(article_text(a)), word_set(article_text(b)))
+
+
+def same_story_source(article: dict[str, Any], source: dict[str, Any]) -> bool:
+    return same_story_words(word_set(article_text(article)), word_set(source_text(source)))
 
 
 def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
@@ -77,22 +103,12 @@ def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def source_key(source: dict[str, Any]) -> str:
-    return clean(source.get("url") or source.get("link") or source.get("title") or source.get("source")).lower()
-
-
-def all_sources(article: dict[str, Any]) -> list[dict[str, Any]]:
-    sources = [source_from_article(article)]
-    for source in article.get("otherSources") or []:
-        if isinstance(source, dict):
-            sources.append(source)
-    return sources
-
-
 def dedupe_sources(sources: list[dict[str, Any]]) -> list[dict[str, Any]]:
     seen: set[str] = set()
     result: list[dict[str, Any]] = []
     for source in sources:
+        if not isinstance(source, dict):
+            continue
         key = source_key(source)
         if not key or key in seen:
             continue
@@ -120,89 +136,61 @@ def merge_quality(primary: dict[str, Any], source_count: int) -> int:
     return max(0, min(100, base + max(0, source_count - 1) * 3))
 
 
+def all_sources(article: dict[str, Any]) -> list[dict[str, Any]]:
+    return [source_from_article(article)] + [source for source in article.get("otherSources") or [] if isinstance(source, dict)]
+
+
 def merge_group(group: list[dict[str, Any]]) -> dict[str, Any]:
-    primary = deepcopy(group[0])
+    primary = max(group, key=lambda item: (int(item.get("quality") or 0), len(clean(item.get("summary"))), int(item.get("mentions") or 1)))
+    merged = deepcopy(primary)
     sources = dedupe_sources([source for article in group for source in all_sources(article)])
-    other_sources = sources[1:]
+    other_sources = [source for source in sources if source_key(source) != source_key(source_from_article(merged))]
 
-    primary["otherSources"] = other_sources
-    primary["mentions"] = len(sources)
-    primary["clusterTitles"] = unique_titles(other_sources, primary.get("title", ""))
-    primary["sourceQuality"] = merge_quality(primary, len(sources))
+    merged["otherSources"] = other_sources
+    merged["mentions"] = max(1, 1 + len(other_sources))
+    merged["clusterTitles"] = unique_titles(other_sources, merged.get("title", ""))
+    merged["sourceQuality"] = merge_quality(merged, merged["mentions"])
+    merged["quality"] = max(int(merged.get("quality") or 0), merged["sourceQuality"])
+    merged.pop("translations", None)
+    merged.pop("translationMeta", None)
+    return merged
 
-    # Translations belong to the old text/source structure and are regenerated later.
-    primary.pop("translations", None)
-    primary.pop("translationMeta", None)
-    return primary
 
-
-def prune_unrelated_file_sources(article: dict[str, Any]) -> dict[str, Any]:
-    """Remove UAP file-release sources from an unrelated primary article.
-
-    A new top-level article must be created by the scanner before summaries are
-    generated. Creating one here would attach the wrong summary to it.
-    """
-    if is_uap_file_release(article):
-        return article
-
+def prune_sources(article: dict[str, Any]) -> dict[str, Any]:
     other_sources = [deepcopy(source) for source in article.get("otherSources") or [] if isinstance(source, dict)]
-    kept_sources = [source for source in other_sources if not source_is_uap_file_release(source)]
-    if len(kept_sources) == len(other_sources):
+    kept = [source for source in other_sources if same_story_source(article, source)]
+    if len(kept) == len(other_sources):
         return article
 
     repaired = deepcopy(article)
-    repaired["otherSources"] = kept_sources
-    repaired["mentions"] = max(1, 1 + len(kept_sources))
-    repaired["clusterTitles"] = unique_titles(kept_sources, repaired.get("title", ""))
+    repaired["otherSources"] = dedupe_sources(kept)
+    repaired["mentions"] = max(1, 1 + len(repaired["otherSources"]))
+    repaired["clusterTitles"] = unique_titles(repaired["otherSources"], repaired.get("title", ""))
     repaired["sourceQuality"] = merge_quality(repaired, repaired["mentions"])
     repaired.pop("translations", None)
     repaired.pop("translationMeta", None)
     return repaired
 
 
-def prune_overmerged_sources(article: dict[str, Any]) -> dict[str, Any]:
-    """Repair older feed items that were grouped too broadly in a previous run."""
-    if not is_uap_file_release(article):
-        return prune_unrelated_file_sources(article)
-
-    primary_source = source_from_article(article)
-    kept_other_sources = [
-        deepcopy(source)
-        for source in article.get("otherSources") or []
-        if isinstance(source, dict) and source_is_uap_file_release(source)
-    ]
-    sources = dedupe_sources([primary_source] + kept_other_sources)
-    repaired = deepcopy(article)
-    repaired["otherSources"] = sources[1:]
-    repaired["mentions"] = len(sources)
-    repaired["clusterTitles"] = unique_titles(sources[1:], repaired.get("title", ""))
-    repaired["sourceQuality"] = merge_quality(repaired, len(sources))
-    repaired.pop("translations", None)
-    repaired.pop("translationMeta", None)
-    return repaired
-
-
 def regroup(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    cleaned = [prune_sources(article) for article in articles if isinstance(article, dict)]
     used: set[int] = set()
     merged: list[dict[str, Any]] = []
 
-    for index, article in enumerate(articles):
+    for index, article in enumerate(cleaned):
         if index in used:
             continue
         group = [article]
         used.add(index)
-        for other_index in range(index + 1, len(articles)):
+        for other_index in range(index + 1, len(cleaned)):
             if other_index in used:
                 continue
-            if same_topic(article, articles[other_index]):
-                group.append(articles[other_index])
+            if same_story_article(article, cleaned[other_index]):
+                group.append(cleaned[other_index])
                 used.add(other_index)
-        if len(group) > 1:
-            merged.append(merge_group(group))
-        else:
-            merged.append(deepcopy(article))
+        merged.append(merge_group(group) if len(group) > 1 else article)
 
-    return [prune_overmerged_sources(article) for article in merged]
+    return merged
 
 
 def main() -> None:
@@ -213,7 +201,8 @@ def main() -> None:
 
     meta = payload.setdefault("scanMeta", {})
     meta["regroupedTopics"] = before - len(payload["articles"])
-    meta["topicRegrouping"] = "title_summary_uap_file_release_v4"
+    meta["topicRegrouping"] = "title_summary_similarity_v5"
+    meta["topicGroupingPolicy"] = "title_and_summary_similarity_required; broad_uap_terms_alone_do_not_group"
 
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
