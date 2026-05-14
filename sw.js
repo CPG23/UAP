@@ -1,6 +1,6 @@
-var CACHE = 'uap-v103-scroll-stability';
+var CACHE = 'uap-v104-source-badge-alignment';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '103';
+var OVERRIDE_VERSION = '104';
 var OVERRIDE_FILES = [
   'uap-app-overrides.js',
   'scroll-stability-fix.js'
