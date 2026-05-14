@@ -9,7 +9,7 @@ on:
     branches: [main]
     paths:
       - .github/scripts/daily_scan.py
-      - .github/scripts/split_uap_file_topics.py
+      - .github/scripts/split_unrelated_sources.py
       - .github/scripts/enrich_summaries.py
       - .github/scripts/sync_summaries.py
       - .github/scripts/source_quality_adjust.py
@@ -53,7 +53,7 @@ jobs:
         run: |
           echo "Running refreshed UAP scan with article-content summary gate"
           python3 .github/scripts/daily_scan.py
-          python3 .github/scripts/split_uap_file_topics.py
+          python3 .github/scripts/split_unrelated_sources.py
           python3 .github/scripts/enrich_summaries.py
           python3 .github/scripts/sync_summaries.py
           python3 .github/scripts/source_quality_adjust.py
