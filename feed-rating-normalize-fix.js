@@ -23,6 +23,7 @@
   function sourceText(source){ return clean([source && source.title, source && source.source].join(' ')); }
   function candidateText(item){ return item.kind === 'article' ? articleText(item.article) : sourceText(item.source); }
   function sourceKey(source){ return clean((source && (source.url || source.link || source.title || source.source)) || '').toLowerCase(); }
+  function articleKey(article){ return sourceKey(sourceFromArticle(article)); }
   function sourceFromArticle(article){ return { title: article.title || '', url: article.url || article.link || '', link: article.link || article.url || '', source: article.source || '', publishedAt: article.publishedAt || article.detectedAt || article.date || '' }; }
 
   function eventProfile(text){
@@ -53,16 +54,11 @@
     ].forEach(function(pair){ if (pair[1].test(raw)) actors.push(pair[0]); });
     return { type: type, actors: actors };
   }
-  function actorCompatible(a, b){
-    if (!a.actors.length || !b.actors.length) return true;
-    return a.actors.some(function(actor){ return b.actors.indexOf(actor) !== -1; });
-  }
+  function actorCompatible(a, b){ return !a.actors.length || !b.actors.length || a.actors.some(function(actor){ return b.actors.indexOf(actor) !== -1; }); }
   function sameStoryText(aText, bText){
     var aProfile = eventProfile(aText);
     var bProfile = eventProfile(bText);
-    if (aProfile.type || bProfile.type) {
-      return aProfile.type && aProfile.type === bProfile.type && actorCompatible(aProfile, bProfile);
-    }
+    if (aProfile.type || bProfile.type) return !!(aProfile.type && aProfile.type === bProfile.type && actorCompatible(aProfile, bProfile));
     var aWords = wordSet(aText);
     var bWords = wordSet(bText);
     var ratio = overlap(aWords, bWords);
@@ -96,10 +92,21 @@
     article.sourceQuality = article.quality;
     return article;
   }
+  function genericSummary(article){
+    var title = clean(article.title);
+    var profile = eventProfile(title + ' ' + clean(article.summary));
+    if (clean(article.summary)) return clean(article.summary);
+    if (profile.type === 'file-release') return 'Mehrere Quellen berichten über die Veröffentlichung oder Freigabe von UFO/UAP-Dateien, Dokumenten oder Archivmaterial. Die Einordnung wird anhand der verknüpften Quellen im nächsten Scan weiter präzisiert.';
+    if (profile.type === 'program') return 'Der Artikel beschreibt ein UAP/UFO-bezogenes Programm, Monitoring oder eine behördliche Einschätzung. Die ausführliche Zusammenfassung wird beim nächsten GitHub-Scan aus dem Artikelinhalt ergänzt.';
+    if (profile.type === 'sighting') return 'Der Artikel berichtet über eine UAP/UFO-Sichtung oder ungewöhnliche Beobachtung. Die ausführliche Zusammenfassung wird beim nächsten GitHub-Scan aus dem Artikelinhalt ergänzt.';
+    return title ? 'Der Artikel behandelt: ' + title + '.' : '';
+  }
   function makeGroup(items){
     var articleItems = items.filter(function(item){ return item.kind === 'article'; });
-    var template = articleItems.sort(function(a,b){ return clean(articleText(b.article)).length - clean(articleText(a.article)).length; })[0];
-    var base = template ? Object.assign({}, template.article) : {};
+    var sourceTemplates = items.filter(function(item){ return item.template; }).map(function(item){ return item.template; });
+    var templates = articleItems.map(function(item){ return item.article; }).concat(sourceTemplates);
+    var template = templates.sort(function(a,b){ return clean(articleText(b)).length - clean(articleText(a)).length; })[0];
+    var base = template ? Object.assign({}, template) : {};
     var sources = [];
     items.forEach(function(item){
       if (item.kind === 'article') {
@@ -118,18 +125,41 @@
     base.mentions = Math.max(1, 1 + other.length);
     base.otherSources = other;
     base.clusterTitles = other.map(function(source){ return clean(source.title); }).filter(Boolean).slice(0, 10);
-    if (!template) base.summary = '';
+    base.summary = genericSummary(base);
     delete base.translations;
     delete base.translationMeta;
     return normalizeQuality(base);
   }
+  function mergeDuplicateArticles(articles){
+    var merged = [];
+    articles.forEach(function(article){
+      var key = articleKey(article) || slug(article.title);
+      var existing = merged.filter(function(item){ return (articleKey(item) || slug(item.title)) === key; })[0];
+      if (!existing) { merged.push(article); return; }
+      var sources = dedupe((existing.otherSources || []).concat(article.otherSources || []));
+      existing.otherSources = sources;
+      existing.mentions = Math.max(existing.mentions || 1, article.mentions || 1, 1 + sources.length);
+      existing.clusterTitles = sources.map(function(source){ return clean(source.title); }).filter(Boolean).slice(0, 10);
+      if (clean(article.summary).length > clean(existing.summary).length) existing.summary = article.summary;
+      existing.quality = Math.max(Number(existing.quality || 0), Number(article.quality || 0));
+      normalizeQuality(existing);
+    });
+    return merged;
+  }
   function repair(payload){
     if (!payload || !Array.isArray(payload.articles)) return payload;
     var candidates = [];
+    var seenCandidate = {};
+    function addCandidate(candidate){
+      var key = candidate.kind + ':' + (candidate.kind === 'article' ? articleKey(candidate.article) : sourceKey(candidate.source));
+      if (!key || seenCandidate[key]) return;
+      seenCandidate[key] = true;
+      candidates.push(candidate);
+    }
     payload.articles.forEach(function(article){
       if (!article || !clean(article.title)) return;
-      candidates.push({ kind: 'article', article: article });
-      (article.otherSources || []).forEach(function(source){ if (source && clean(source.title)) candidates.push({ kind: 'source', source: source, template: article }); });
+      addCandidate({ kind: 'article', article: article });
+      (article.otherSources || []).forEach(function(source){ if (source && clean(source.title)) addCandidate({ kind: 'source', source: source, template: article }); });
     });
     var used = {};
     var groups = [];
@@ -138,21 +168,18 @@
       var group = [item];
       used[index] = true;
       for (var i = index + 1; i < candidates.length; i++) {
-        if (!used[i] && sameStoryText(candidateText(item), candidateText(candidates[i]))) {
-          group.push(candidates[i]);
-          used[i] = true;
-        }
+        if (!used[i] && sameStoryText(candidateText(item), candidateText(candidates[i]))) { group.push(candidates[i]); used[i] = true; }
       }
       groups.push(group);
     });
-    var articles = groups.map(makeGroup).filter(function(article){ return clean(article.title); });
+    var articles = mergeDuplicateArticles(groups.map(makeGroup).filter(function(article){ return clean(article.title); }));
     articles.sort(function(a,b){
       var qb = Number(b.quality || 0) - Number(a.quality || 0);
       if (qb) return qb;
       return Date.parse(b.publishedAt || b.date || 0) - Date.parse(a.publishedAt || a.date || 0);
     });
     payload = Object.assign({}, payload, { articles: articles });
-    payload.scanMeta = Object.assign({}, payload.scanMeta || {}, { appRatingNormalize: 'generic_story_similarity_v2' });
+    payload.scanMeta = Object.assign({}, payload.scanMeta || {}, { appRatingNormalize: 'generic_story_similarity_v3_dedupe_summary' });
     return payload;
   }
 
