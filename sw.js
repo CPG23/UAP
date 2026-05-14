@@ -1,6 +1,6 @@
-var CACHE = 'uap-v117-clean-app-shell';
+var CACHE = 'uap-v118-startup-restored';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '117';
+var OVERRIDE_VERSION = '118';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js'
