@@ -1,6 +1,6 @@
-var CACHE = 'uap-v127-startup-seamless-large';
+var CACHE = 'uap-v128-startup-shift-left';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '127';
+var OVERRIDE_VERSION = '128';
 var OVERRIDE_FILES = [
   'uap-startup-alien.js',
   'uap-startup-visible-fix.js',
@@ -8,7 +8,7 @@ var OVERRIDE_FILES = [
   'uap-app-overrides.js'
 ];
 
-var STARTUP_STILL_STYLE = '\n#loading{background:#000!important;background-color:#000!important;background-image:none!important;box-shadow:inset 0 0 0 100vmax #000!important;overflow:hidden!important;}\n#loading .alien-head{width:min(1770px,225vw)!important;height:min(996px,126vw)!important;max-width:none!important;max-height:92vh!important;opacity:1!important;mix-blend-mode:normal!important;filter:none!important;mask-image:none!important;-webkit-mask-image:none!important;animation:none!important;transition:none!important;transform:none!important;will-change:auto!important;background:#000!important;background-color:#000!important;box-shadow:0 0 0 100vmax #000!important;background-size:contain!important;background-position:center center!important;background-repeat:no-repeat!important;}\n#loading img.alien-head{height:auto!important;object-fit:contain!important;object-position:center center!important;}\n';
+var STARTUP_STILL_STYLE = '\n#loading{background:#000!important;background-color:#000!important;background-image:none!important;box-shadow:inset 0 0 0 100vmax #000!important;overflow:hidden!important;}\n#loading .alien-head{width:min(1770px,225vw)!important;height:min(996px,126vw)!important;max-width:none!important;max-height:92vh!important;opacity:1!important;mix-blend-mode:normal!important;filter:none!important;mask-image:none!important;-webkit-mask-image:none!important;animation:none!important;transition:none!important;transform:translateX(-18vw)!important;will-change:auto!important;background:#000!important;background-color:#000!important;box-shadow:0 0 0 100vmax #000!important;background-size:contain!important;background-position:center center!important;background-repeat:no-repeat!important;}\n#loading img.alien-head{height:auto!important;object-fit:contain!important;object-position:center center!important;}\n';
 
 self.addEventListener('install', function(e) {
   e.waitUntil(self.skipWaiting());
