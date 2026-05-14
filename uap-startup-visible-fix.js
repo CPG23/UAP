@@ -32,7 +32,7 @@
     el.style.borderRadius = '0';
     el.style.animation = 'none';
     el.style.transition = 'none';
-    el.style.transform = 'none';
+    el.style.transform = 'translateX(-18vw)';
     el.style.willChange = 'auto';
     el.style.zIndex = '1';
 
