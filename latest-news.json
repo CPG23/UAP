@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-14T08:20:49Z",
+  "timestamp": "2026-05-14T08:25:12Z",
   "articles": [
     {
       "id": "advisor-amid-bizarre-defence-disclosure-drops-encountered-military-ministry-pentagon",
@@ -9,7 +9,7 @@
       "date": "2026-05-08",
       "publishedAt": "2026-05-12T04:12:41Z",
       "summary": "Serhii Beskrestnov, a senior advisor to Ukraine's Minister of Defense, revealed that the Ukrainian Armed Forces have a formal program for tracking and studying unidentified flying objects that has been active since the early days of the war with Russia. He said the program operates under an official directive approved by the Commander‑in‑Chief and is considered a national security necessity because unidentified aerial activity could indicate new Russian weapons technology.",
-      "mentions": 15,
+      "mentions": 13,
       "otherSources": [
         {
           "source": "NewsNation",
@@ -25,17 +25,6 @@
           "source": "Al Jazeera",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRVZsYlJ5OGxHcWloQllsRlpreld0dy1GNU45ZGZDNDRKSWNjLWN4RlB6OHM3eHd0bGxyTGVjZUM2MDl0QWVZVWZZYUlzT3lLN1BBaERSYXJ2QUJTcmZnaHFCU3NhX3BqSTlCWkFmYXB0dk9vQlNTaFJSNGg4QTdZdUcwWXM0QWhLbVkwY0czY3JITndYZFQ0Y0o3QVZlS0FMWmtDSnFiWmpYNGxs0gGyAUFVX3lxTE9pMXdJWHhqdXk4ekxDYlB2RkVIaWwyS2VXN2V5bWFMa2JYaGNTUUlsVW1USm9DQVJHcTBseHEtSnZ0ZjBleGI1RVdtSGxWTkFtMXBCel85bUhiQ1JMekhScjh0RXJ1VjljbHo5ZjNjY3l2MTBVTUZBSHBzMEh4VEhGbVN4b0FLTFpJVTVweE1ub01jaDZJbnktdTZfb3VVYXh6blExcUNDQVp2ME1QRUZ6NUE?oc=5",
           "title": "‘Make up their own minds’: Pentagon releases first tranche of UFO files"
-        },
-        {
-          "title": "Pentagon releases first batch of UFO records as Trump says public can 'decide for them­selves'",
-          "url": "",
-          "source": "Spectrum News",
-          "publishedAt": "2026-05-08T15:14:00Z"
-        },
-        {
-          "source": "TMZ",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zU2M1RGo1MGxCbHZqU0lsbFlQQV9CYWpHYWtLYnNDYW52azJ4UFN4Qi1ub1J0U2VqNkZnVC1hN2FGZlJmenJKc2p5MUNabEN3aEtsN0U2MTdoSzNEb0hoWnhKR0VPSmFjOWxvX0pWVUxtbFFnLW5XNWd3ckNVVzA?oc=5",
-          "title": "Trump's Department of War Releases First Batch of Alien, UFO Files"
         },
         {
           "title": "Japan Government Will Release UAP Files Following USA And Ukraine's UFO Disclosure [WATCH]",
@@ -90,11 +79,11 @@
         "UFO disclosure: Pentagon publishes online UFO photo collection in historic release",
         "Pentagon UFO files release: Amid new UFO disclosure, officials say public can draw conclusions on unidentified anomalous phenomena",
         "‘Make up their own minds’: Pentagon releases first tranche of UFO files",
-        "Pentagon releases first batch of UFO records as Trump says public can 'decide for them­selves'",
-        "Trump's Department of War Releases First Batch of Alien, UFO Files",
         "Japan Government Will Release UAP Files Following USA And Ukraine's UFO Disclosure [WATCH]",
         "Trump Administration Opens WAR.GOV/UFO As Historic UAP File Release Puts America’s UFO Questions In Public View",
-        "Government Drops Massive UFO File Archive in Historic Public Release"
+        "Government Drops Massive UFO File Archive in Historic Public Release",
+        "Trump administration begins to release new UFO files to the public",
+        "UFO files spanning decades are released by Defense Department"
       ],
       "quality": 94,
       "qualityBreakdown": [
@@ -607,36 +596,34 @@
     "anywhere-controversial-doc-dog-how-online-sleeping-stream-watch": "\"Sleeping Dog\" is a UFO documentary that follows investigative journalist Jeremy Corbell and includes eight new, unreleased U.S. military sensor videos. The film premiered theatrically on May 8 and will be available to buy or rent on Amazon Prime Video in the U.S. and Canada from May 12, and on Prime Video in the U.K. It features interviews and footage from insiders such as astronaut Dr. Edgar Mitchell, Col. John B. Alexander, John Lear, Bob Lazar, David Grusch, nuclear chemist Edmund Storms, Cmdr. David Fravor, and journalist George Knapp. Corbell claims that releasing the film is his only protection against government attempts to silence whistleblowers and activists. The title “Sleeping Dog” refers to a threat described by Corbell as advice from shadowy government figures warning him about continuing to leak UAP footage. Viewers outside the U.S. and U.K. can access the film via a VPN such as NordVPN, which the article recommends for unblocking Prime Video content."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-14T08:20:49Z",
-    "ids": [
-      "mysterious-off-shores-spotted-thousands-underwater"
-    ],
-    "articles": [
-      {
-        "id": "mysterious-off-shores-spotted-thousands-underwater",
-        "title": "Thousands of mysterious underwater UFOs spotted off US shores: report",
-        "source": "New York Post"
-      }
-    ]
+    "timestamp": "2026-05-14T08:25:12Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 350,
-    "broadTopics": 164,
-    "notificationArticles": 3,
-    "notificationTopics": 3,
-    "newNotificationTopics": 1,
+    "broadArticles": 362,
+    "broadTopics": 175,
+    "notificationArticles": 4,
+    "notificationTopics": 4,
+    "newNotificationTopics": 0,
     "appTopics": 8,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "regroupedTopics": 17,
+    "regroupedTopics": 15,
     "topicRegrouping": "title_summary_uap_file_release_v3",
     "summaryQualityGate": {
       "policy": "article_content_summary_required",
       "kept": 8,
-      "removed": 11,
+      "removed": 13,
       "removedItems": [
+        {
+          "id": "1972-2026-declassified-images-landing-moon-newly-pentagon-shares",
+          "title": "Pentagon shares 17 newly declassified UAP images from the 1972 moon landing to 2026",
+          "source": "MSN",
+          "reason": "missing_article_content_summary"
+        },
         {
           "id": "encounters-having-pilots-still-whistleblower",
           "title": "UAP whistleblower: Pilots are 'still having' these encounters",
@@ -644,15 +631,15 @@
           "reason": "missing_article_content_summary"
         },
         {
-          "id": "162-declassifies-evidence-files-judge-public-trump",
-          "title": "Trump declassifies 162 UFO files for public to judge the 'evidence'",
-          "source": "Euronews.com",
-          "reason": "missing_article_content_summary"
-        },
-        {
           "id": "database-decades-details-files-longmont-national-sightings-strange",
           "title": "Longmont’s UFO Files: National Database Details Decades Of Strange Sightings",
           "source": "longmontleader.com",
+          "reason": "missing_article_content_summary"
+        },
+        {
+          "id": "conference-desert-indian-massive-returns-wells",
+          "title": "UFOs Over Indian Wells? Massive Conference Returns to the Desert",
+          "source": "NBC Palm Springs",
           "reason": "missing_article_content_summary"
         },
         {
@@ -695,6 +682,12 @@
           "id": "documentary-dog-exposes-risks-secrets-sleeping",
           "title": "Sleeping Dog Documentary Exposes UAP Secrets And Risks",
           "source": "Evrim Ağacı",
+          "reason": "missing_article_content_summary"
+        },
+        {
+          "id": "admit-being-called-craft-crazy-critical-encounters-fear-near-officials",
+          "title": "UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites",
+          "source": "International Business Times UK",
           "reason": "missing_article_content_summary"
         },
         {
