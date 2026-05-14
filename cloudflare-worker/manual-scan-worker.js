@@ -91,8 +91,18 @@ async function triggerScan(env) {
   });
 }
 
-async function latestRun(env) {
-  return githubFetch(`/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/${WORKFLOW_FILE}/runs?branch=main&event=workflow_dispatch&per_page=1`, env);
+async function latestRun(env, since) {
+  const result = await githubFetch(`/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/${WORKFLOW_FILE}/runs?branch=main&event=workflow_dispatch&per_page=10`, env);
+  if (!result.ok || !since || !result.data || !Array.isArray(result.data.workflow_runs)) return result;
+
+  const minTime = Date.parse(since);
+  if (!Number.isFinite(minTime)) return result;
+
+  result.data.workflow_runs = result.data.workflow_runs.filter((run) => {
+    const created = Date.parse(run.created_at || run.run_started_at || '');
+    return Number.isFinite(created) && created >= minTime - 30000;
+  });
+  return result;
 }
 
 function normalizeRun(run) {
@@ -118,21 +128,23 @@ async function handleScan(request, env, origin) {
     return json({ ok: false, message: 'Ein Scan wurde gerade erst gestartet. Bitte kurz warten.' }, 429, origin);
   }
 
+  const startedAt = new Date().toISOString();
   const dispatch = await triggerScan(env);
   if (!dispatch.ok) {
     return json({ ok: false, message: dispatch.data && dispatch.data.message ? dispatch.data.message : 'GitHub konnte den Scan nicht starten.' }, dispatch.status, origin);
   }
 
-  const run = await latestRun(env);
+  const run = await latestRun(env, startedAt);
   const latest = run.ok && run.data && run.data.workflow_runs ? normalizeRun(run.data.workflow_runs[0]) : null;
-  return json({ ok: true, message: 'Scan gestartet.', run: latest }, 202, origin);
+  return json({ ok: true, message: 'Scan gestartet.', startedAt, run: latest }, 202, origin);
 }
 
 async function handleStatus(request, env, origin) {
   const pin = await requirePin(request, env);
   if (!pin.ok) return json({ ok: false, message: pin.message }, pin.status, origin);
 
-  const run = await latestRun(env);
+  const url = new URL(request.url);
+  const run = await latestRun(env, url.searchParams.get('since'));
   if (!run.ok) {
     return json({ ok: false, message: run.data && run.data.message ? run.data.message : 'GitHub-Status konnte nicht gelesen werden.' }, run.status, origin);
   }
