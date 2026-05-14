@@ -71,9 +71,9 @@
   function injectStyle(){
     var style = document.getElementById(STYLE_ID);
     var css = [
-      '#uap-new-filter-bar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 0 12px;padding:10px 0;border-bottom:1px solid rgba(13,58,92,.65)}',
-      '#uap-new-filter-bar .uap-new-filter-label{color:#9fc7d4;font-family:"Share Tech Mono",monospace;font-size:10px;letter-spacing:1.2px;text-transform:uppercase}',
-      '#uap-new-filter-toggle{min-height:34px;padding:0 12px;border:1px solid rgba(0,212,255,.44);background:rgba(0,212,255,.055);color:#bfefff;font-family:"Share Tech Mono",monospace;font-size:10px;letter-spacing:1.2px;cursor:pointer}',
+      '#uap-new-filter-bar{display:flex;align-items:center;justify-content:flex-start;gap:10px;margin:0 0 12px;padding:10px 0;border-bottom:1px solid rgba(13,58,92,.65)}',
+      '#uap-new-filter-bar .uap-new-filter-label{display:none!important}',
+      '#uap-new-filter-toggle{min-height:34px;padding:0 12px;border:1px solid rgba(0,212,255,.44);background:rgba(0,212,255,.055);color:#bfefff;font-family:"Share Tech Mono",monospace;font-size:10px;letter-spacing:1.2px;cursor:pointer;text-transform:uppercase}',
       '#uap-new-filter-toggle.active{border-color:rgba(0,255,157,.88);background:rgba(0,255,157,.15);color:#d8ffe9;box-shadow:0 0 18px rgba(0,255,157,.24)}',
       '.article-card.uap-is-new{border-color:rgba(0,255,157,.95)!important;box-shadow:0 0 0 1px rgba(0,255,157,.38),0 0 24px rgba(0,255,157,.18)!important}',
       '.article-card.uap-is-new::before{background:#00ff9d!important;opacity:1!important;width:4px!important;box-shadow:0 0 18px rgba(0,255,157,.9)!important}',
@@ -101,7 +101,7 @@
     if (!bar) {
       bar = document.createElement('div');
       bar.id = FILTER_ID;
-      bar.innerHTML = '<div class="uap-new-filter-label">Neue Artikel</div><button id="uap-new-filter-toggle" type="button" aria-pressed="false">New anzeigen</button>';
+      bar.innerHTML = '<button id="uap-new-filter-toggle" type="button" aria-pressed="false">Nur neue anzeigen</button>';
       feed.parentNode.insertBefore(bar, feed);
       var empty = document.createElement('div');
       empty.id = EMPTY_ID;
@@ -126,7 +126,7 @@
     if (btn) {
       btn.classList.toggle('active', newOnly);
       btn.setAttribute('aria-pressed', newOnly ? 'true' : 'false');
-      btn.textContent = newOnly ? 'Alle anzeigen' : 'New anzeigen';
+      btn.textContent = newOnly ? 'Alle anzeigen' : 'Nur neue anzeigen';
     }
     updateEmptyState();
   }
