@@ -1,6 +1,6 @@
-var CACHE = 'uap-v87-existing-articles-visible';
+var CACHE = 'uap-v88-stable-startup-logo';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '87';
+var OVERRIDE_VERSION = '88';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
@@ -69,15 +69,29 @@ function rewriteStartupLogo(html) {
   return html;
 }
 
+function criticalStartupStyle() {
+  return [
+    '<style id="uap-startup-panel-hard-hide">',
+    '#loading{background:#030a0f!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}',
+    '#loading::before{content:"";position:absolute;inset:0;background:#030a0f;z-index:-1}',
+    '#loading .startup-panel,#loading .startup-panel-label,#loading-status{display:none!important}',
+    '#loading .startup-panel-wrap{bottom:22px!important;gap:0!important}',
+    '.startup-title{display:inline-block!important;position:absolute!important;top:calc(8px + env(safe-area-inset-top))!important;left:4px!important;right:auto!important;transform:none!important;margin:0!important;text-align:left!important;color:#eafcff!important;font-family:"Rajdhani",sans-serif!important;font-weight:700!important;font-size:clamp(72px,22vw,136px)!important;line-height:.82!important;letter-spacing:2px!important;text-transform:none!important;text-shadow:0 0 8px rgba(255,255,255,.65),0 0 22px rgba(0,212,255,.9),0 0 44px rgba(0,255,157,.35)!important;white-space:nowrap!important;z-index:2!important}',
+    '.startup-title::after{content:"";position:absolute;left:1px;right:0;bottom:-7px;height:2px;background:linear-gradient(90deg,#00d4ff,#00ff9d,transparent);box-shadow:0 0 18px rgba(0,212,255,.95)}',
+    '.startup-credit{position:absolute!important;top:calc(10px + env(safe-area-inset-top) + clamp(86px,23vw,150px))!important;left:8px!important;right:auto!important;text-align:left!important;z-index:2!important;color:#c6f4ff!important;font-family:"Share Tech Mono",monospace!important;font-size:clamp(9px,2.5vw,12px)!important;letter-spacing:1.8px!important;text-transform:none!important;text-shadow:0 0 6px rgba(255,255,255,.45),0 0 16px rgba(0,212,255,.75)!important;opacity:.92!important}',
+    '@media(max-width:560px){.startup-title{top:calc(7px + env(safe-area-inset-top))!important;left:3px!important;font-size:clamp(64px,22vw,104px)!important;letter-spacing:1px!important}.startup-credit{top:calc(8px + env(safe-area-inset-top) + clamp(76px,23vw,116px))!important;left:6px!important;letter-spacing:1.3px!important}}',
+    '</style>'
+  ].join('');
+}
+
 function withFeedOverrides(resp) {
   var headers = new Headers(resp.headers);
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
-    var startupHide = '<style id="uap-startup-panel-hard-hide">#loading{background:#030a0f!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}#loading .startup-panel,#loading .startup-panel-label,#loading-status{display:none!important}#loading .startup-panel-wrap{bottom:22px!important;gap:0!important}</style>';
+    var startupHide = criticalStartupStyle();
     html = rewriteStartupLogo(html);
-    if (html.indexOf('uap-startup-panel-hard-hide') === -1) {
-      html = html.replace('</head>', startupHide + '</head>');
-    }
+    html = html.replace(/<style id="uap-startup-panel-hard-hide">[\s\S]*?<\/style>/i, '');
+    html = html.replace('</head>', startupHide + '</head>');
     html = html.replace(/<div class="startup-panel">\s*<div class="startup-panel-label">[\s\S]*?<\/div>\s*<div id="loading-status">[\s\S]*?<\/div>\s*<\/div>\s*<div class="loading-bar">/m, '<div class="loading-bar">');
     html = stripOverrideScripts(html);
     html = html.replace('</body>', OVERRIDE_FILES.map(scriptTag).join('') + '</body>');
