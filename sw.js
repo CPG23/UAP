@@ -1,6 +1,6 @@
-var CACHE = 'uap-v85-detail-summary-translation';
+var CACHE = 'uap-v86-new-article-filter';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '85';
+var OVERRIDE_VERSION = '86';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
@@ -21,6 +21,7 @@ var OVERRIDE_FILES = [
   'scroll-heading-fix.js',
   'latest-polish-fix.js',
   'topic-regroup-display-fix.js',
+  'new-articles-filter-fix.js',
   'startup-opaque-fix.js'
 ];
 
