@@ -1,8 +1,9 @@
-var CACHE = 'uap-v102-consolidated-overrides';
+var CACHE = 'uap-v103-scroll-stability';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '102';
+var OVERRIDE_VERSION = '103';
 var OVERRIDE_FILES = [
-  'uap-app-overrides.js'
+  'uap-app-overrides.js',
+  'scroll-stability-fix.js'
 ];
 var RETIRED_OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
