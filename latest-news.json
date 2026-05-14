@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-14T13:21:54Z",
+  "timestamp": "2026-05-14T13:35:47Z",
   "articles": [
     {
       "id": "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public",
@@ -243,9 +243,6 @@
         "files"
       ],
       "sourceQuality": 90,
-      "summaryStatus": {
-        "articleContentSummary": "pending"
-      },
       "translation": {
         "en": {
           "title": "Bright lights and hot orbs: UFO files shed light on sightings but leave interpretation to the public",
@@ -355,7 +352,7 @@
       "source": "USA Herald",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSHFLb25FWTdRZW0wajdkMzhic0RNNXYxSUdUY1A1R0JCbzh6V0MwM3FQT1NJMS1BSFUyY0NsY3dmblV5UERVWW1VNjBoeVVGRHdNODVSNzdaVjlNLTB1T3lSZkROUDMxS2FSeXlreGNFSWRYZGF1RGxiRTZjVloxdkRTY2ZGOGtZbU9NaFRhLWwtVzJmSGlITmRVNDJzQXpqT1U4dDhqTlpqcDFDX1NaVHJLdGprTzl0SWR0X2VxZV85V3pGWGtNalJCMWRiUG1kVFNDcjQ1TWJqTDQ?oc=5",
       "date": "2026-05-01",
-      "publishedAt": "2026-05-01T17:17:03Z",
+      "publishedAt": "2026-05-01T07:00:00Z",
       "summary": "Rep. Anna Paulina Luna, a Florida congresswoman, publicly linked the ongoing UFO disclosure debate to themes in the Book of Enoch, suggesting a possible connection between unidentified aerial phenomena and ancient narratives about heavenly beings. Luna’s remarks were framed within the interdimensional hypothesis and Carl Sagan’s Flatland analogy, which posit that beings from other dimensions may appear to us in ways that defy conventional physics.",
       "mentions": 1,
       "otherSources": [],
@@ -454,8 +451,19 @@
         "release"
       ],
       "sourceQuality": 50,
-      "summaryStatus": {
-        "articleContentSummary": "pending"
+      "translation": {
+        "en": {
+          "title": "Hollywood’s “Disclosure Day” And Washington’s Silence Raise Questions About Timing of UFO Transparency",
+          "summary": "Steven Spielberg will release the film “Disclosure Day” in June, a title that echoes the public’s anticipation of UAP disclosures under President Donald Trump’s directive. The directive ordered the release and review of records related to unidentified aerial phenomena, but FOIA requests have produced little substantive information. Observers note the coincidence of the film’s release with the unresolved status of the directive and wonder whether Hollywood is influencing the national conversation about extraterrestrial life and government secrecy.",
+          "sourceHash": "abffdaaece4584e304f5f307fbafdc4ad2835651",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Hollywoods “Disclosure Day” und Washingtons Schweigen werfen Fragen zur Zeitplanung der UFO-Transparenz auf.",
+          "summary": "Steven Spielberg wird im Juni den Film „Disclosure Day“ veröffentlichen, ein Titel, der die Erwartungen der Öffentlichkeit an UAP-Offenlegungen gemäß der Anweisung von Präsident Donald Trump widerspiegelt. Die Richtlinie ordnete die Veröffentlichung und Überprüfung von Aufzeichnungen im Zusammenhang mit nicht identifizierten Luftphänomenen an, aber FOIA-Anfragen haben nur wenige substanzielle Informationen erbracht. Beobachter stellen fest, dass die Veröffentlichung des Films mit dem ungeklärten Status der Richtlinie zusammenfällt, und fragen sich, ob Hollywood die landesweite Diskussion über außerirdisches Leben und Regierungsgeheimnisse beeinflusst.",
+          "sourceHash": "abffdaaece4584e304f5f307fbafdc4ad2835651",
+          "provider": "pollinations/google"
+        }
       }
     },
     {
@@ -499,9 +507,6 @@
         "release"
       ],
       "sourceQuality": 50,
-      "summaryStatus": {
-        "articleContentSummary": "pending"
-      },
       "translation": {
         "en": {
           "title": "Newly Released UAP Files Are Shattering Decades Of NASA’s UFO Narrative Just As Artemis Pushes Humanity Back Into Deep Space",
@@ -558,9 +563,6 @@
         "release"
       ],
       "sourceQuality": 50,
-      "summaryStatus": {
-        "articleContentSummary": "pending"
-      },
       "translation": {
         "en": {
           "title": "Illusionist Uri Geller Reacts To US Congressman's Warning Over Next Set Of UFO Files: 'Holy Crap Is Coming'",
@@ -617,9 +619,6 @@
         "release"
       ],
       "sourceQuality": 50,
-      "summaryStatus": {
-        "articleContentSummary": "pending"
-      },
       "translation": {
         "en": {
           "title": "A small Oregon town puts on a big UFO festival. Why it's worth a visit",
@@ -676,9 +675,6 @@
         "release"
       ],
       "sourceQuality": 50,
-      "summaryStatus": {
-        "articleContentSummary": "pending"
-      },
       "translation": {
         "en": {
           "title": "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
@@ -728,9 +724,6 @@
         "files"
       ],
       "sourceQuality": 47,
-      "summaryStatus": {
-        "articleContentSummary": "pending"
-      },
       "translation": {
         "en": {
           "title": "UFO Files Reveal … the Same Old Material",
@@ -759,13 +752,13 @@
     "ufo-files-reveal-the-same-old-material": "President Donald Trump and the Department of War released the UFO Files, but a preliminary review shows only blurry photographs, grainy videos, artist reconstructions, and anecdotal reports, with no new evidence of alien visitation. The files contain documents such as an artist’s composite sketch of an alleged ellipsoid bronze metallic object, a 2001 Georgian Foreign Ministry report claiming a Russian aircraft was a UFO, a 2023 Mexican Congress testimony on UAP that includes debunked fake alien corpses, and heavily redacted documents with a disclaimer protecting eyewitness identities and sensitive locations. Photographic stills from videos shot in the Southwestern United States show a small dot that could be a balloon, drone, or aircraft, while a 2024 report describes a football‑shaped UAP near Japan and an image of a Chinese UAV, but the author does not confirm these as extraterrestrial. Light anomalies captured by Apollo 17 astronauts are noted in the files, with the government stating no consensus on their nature and that further analysis will be released, and a video posted by Steven Greenstreet shows a parachute and flare. Pilot Scott Kelly and other experts are quoted explaining that optical illusion and misidentification can account for many reported sightings, and the author remains skeptical until new evidence emerges."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-14T13:21:54Z",
+    "timestamp": "2026-05-14T13:35:47Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 351,
-    "broadTopics": 168,
+    "broadArticles": 352,
+    "broadTopics": 173,
     "notificationArticles": 4,
     "notificationTopics": 4,
     "newNotificationTopics": 0,
@@ -818,6 +811,13 @@
           "reason": "missing_article_content_summary"
         }
       ]
+    },
+    "finalAppFeedContract": {
+      "policy": "display_ready_feed_v1",
+      "inputArticles": 9,
+      "outputArticles": 9,
+      "sort": "quality_desc_then_publishedAt_desc",
+      "summary": "article_content_summary_required"
     }
   },
   "translations": {
@@ -861,6 +861,20 @@
         "summary": "Die Abgeordnete Anna Paulina Luna, eine Kongressabgeordnete aus Florida, brachte die laufende Debatte über die Enthüllung von UFOs öffentlich mit Themen im Buch Henoch in Verbindung und deutete einen möglichen Zusammenhang zwischen unbekannten Luftphänomenen und alten Erzählungen über himmlische Wesen an. Lunas Bemerkungen wurden in die interdimensionale Hypothese und Carl Sagans Flatland-Analogie eingebettet, die davon ausgehen, dass Wesen aus anderen Dimensionen uns auf eine Weise erscheinen könnten, die der konventionellen Physik widerspricht.",
         "sourceHash": "06c5ee3ea8899d9d467b39d45fdb72e22488c5a7",
         "provider": "google"
+      }
+    },
+    "hollywood-s-disclosure-day-and-washington-s-silence-raise-questions-about-timing-of-ufo-transparency": {
+      "en": {
+        "title": "Hollywood’s “Disclosure Day” And Washington’s Silence Raise Questions About Timing of UFO Transparency",
+        "summary": "Steven Spielberg will release the film “Disclosure Day” in June, a title that echoes the public’s anticipation of UAP disclosures under President Donald Trump’s directive. The directive ordered the release and review of records related to unidentified aerial phenomena, but FOIA requests have produced little substantive information. Observers note the coincidence of the film’s release with the unresolved status of the directive and wonder whether Hollywood is influencing the national conversation about extraterrestrial life and government secrecy.",
+        "sourceHash": "abffdaaece4584e304f5f307fbafdc4ad2835651",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Hollywoods “Disclosure Day” und Washingtons Schweigen werfen Fragen zur Zeitplanung der UFO-Transparenz auf.",
+        "summary": "Steven Spielberg wird im Juni den Film „Disclosure Day“ veröffentlichen, ein Titel, der die Erwartungen der Öffentlichkeit an UAP-Offenlegungen gemäß der Anweisung von Präsident Donald Trump widerspiegelt. Die Richtlinie ordnete die Veröffentlichung und Überprüfung von Aufzeichnungen im Zusammenhang mit nicht identifizierten Luftphänomenen an, aber FOIA-Anfragen haben nur wenige substanzielle Informationen erbracht. Beobachter stellen fest, dass die Veröffentlichung des Films mit dem ungeklärten Status der Richtlinie zusammenfällt, und fragen sich, ob Hollywood die landesweite Diskussion über außerirdisches Leben und Regierungsgeheimnisse beeinflusst.",
+        "sourceHash": "abffdaaece4584e304f5f307fbafdc4ad2835651",
+        "provider": "pollinations/google"
       }
     },
     "file-release-newly-released-uap-files-are-shattering-decades-of-nasa-s-ufo-narrative-just-as-artemis-pushes-humanity-back-into-deep-space": {
@@ -935,8 +949,8 @@
     }
   },
   "translationMeta": {
-    "prepared": 8,
-    "failed": 1,
+    "prepared": 9,
+    "failed": 0,
     "summary": "compact app summary only",
     "target": "de for English articles, en for German articles",
     "source": "github-actions-precompute"
