@@ -1,6 +1,6 @@
-var CACHE = 'uap-v88-stable-startup-logo';
+var CACHE = 'uap-v89-manual-scan-link';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '88';
+var OVERRIDE_VERSION = '89';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
@@ -22,6 +22,7 @@ var OVERRIDE_FILES = [
   'latest-polish-fix.js',
   'topic-regroup-display-fix.js',
   'new-articles-filter-fix.js',
+  'manual-scan-link-fix.js',
   'startup-opaque-fix.js'
 ];
 
