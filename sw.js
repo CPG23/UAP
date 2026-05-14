@@ -1,6 +1,6 @@
-var CACHE = 'uap-v100-clean-feed-overrides';
+var CACHE = 'uap-v101-retire-obsolete-overrides';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '100';
+var OVERRIDE_VERSION = '101';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
@@ -11,11 +11,9 @@ var OVERRIDE_FILES = [
   'startup-polish-fix.js',
   'quality-info-points-fix.js',
   'article-detail-rating-fix.js',
-  'notification-direct-fix.js',
   'all-articles-layout-fix.js',
   'scroll-heading-fix.js',
   'latest-polish-fix.js',
-  'topic-regroup-display-fix.js',
   'new-articles-filter-fix.js',
   'notification-normal-open-fix.js',
   'startup-opaque-fix.js'
@@ -28,7 +26,9 @@ var RETIRED_OVERRIDE_FILES = [
   'summary-metadata-fix.js',
   'quality-wording-fix.js',
   'quality-order-startup-fix.js',
-  'final-ui-order-fix.js'
+  'final-ui-order-fix.js',
+  'notification-direct-fix.js',
+  'topic-regroup-display-fix.js'
 ];
 
 self.addEventListener('install', function(e) {
