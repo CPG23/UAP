@@ -1,6 +1,6 @@
-var CACHE = 'uap-v91-protected-manual-scan-poll';
+var CACHE = 'uap-v92-manual-scan-config';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '91';
+var OVERRIDE_VERSION = '92';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
@@ -22,6 +22,7 @@ var OVERRIDE_FILES = [
   'latest-polish-fix.js',
   'topic-regroup-display-fix.js',
   'new-articles-filter-fix.js',
+  'manual-scan-config.js',
   'manual-scan-link-fix.js',
   'startup-opaque-fix.js'
 ];
