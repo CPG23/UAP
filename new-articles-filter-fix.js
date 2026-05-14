@@ -82,7 +82,8 @@
       'body.uap-new-filter-active .article-card.uap-topic-duplicate{display:none!important}',
       '#uap-new-filter-empty{display:none;margin:0 0 12px;padding:11px 12px;border:1px solid rgba(0,212,255,.28);background:rgba(0,212,255,.055);color:#9fc7d4;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.5}',
       'body.uap-new-filter-active.uap-new-filter-empty #uap-new-filter-empty{display:block}',
-      '#feed > .old-toggle,#feed > .old-list{display:none!important}',
+      '#feed > .old-toggle{display:none!important}',
+      '#feed > .old-list,#feed > .old-list.collapsed{display:flex!important;flex-direction:column!important;gap:12px!important;overflow:visible!important;max-height:none!important;height:auto!important}',
       '.article-card.unread{filter:none!important}'
     ].join('\n');
     if (!style) {
@@ -133,7 +134,7 @@
   function updateEmptyState(){
     var feed = document.getElementById('feed');
     if (!feed) return;
-    var visibleNew = Array.prototype.slice.call(feed.querySelectorAll(':scope > .article-card.uap-is-new')).filter(function(card){
+    var visibleNew = Array.prototype.slice.call(feed.querySelectorAll('.article-card.uap-is-new')).filter(function(card){
       return !card.classList.contains('uap-topic-duplicate') && !card.classList.contains('uap-hidden-by-notification');
     }).length;
     document.body.classList.toggle('uap-new-filter-empty', newOnly && visibleNew === 0);
@@ -153,7 +154,7 @@
   }
 
   function orderCards(feed, map){
-    var cards = Array.prototype.slice.call(feed.querySelectorAll(':scope > .article-card'));
+    var cards = Array.prototype.slice.call(feed.querySelectorAll('.article-card'));
     cards.sort(function(a, b){
       var ai = map[cardId(a)] ? map[cardId(a)].index : 9999;
       var bi = map[cardId(b)] ? map[cardId(b)].index : 9999;
@@ -177,7 +178,7 @@
 
   function markNewArticles(feed, data){
     var map = articleMap(data);
-    feed.querySelectorAll(':scope > .article-card').forEach(function(card){
+    feed.querySelectorAll('.article-card').forEach(function(card){
       var info = map[cardId(card)];
       setNewBadge(card, !!(info && isNewArticle(info.article, data)));
     });
