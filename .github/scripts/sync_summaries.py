@@ -4,34 +4,13 @@ from pathlib import Path
 
 LATEST_FILE = Path('latest-news.json')
 BAD_SUMMARY_RE = re.compile(
-    r'full article text could not be reliably extracted|summary is limited to verified feed metadata|the feed lists an article|this item tracks a |publisher text could not be safely extracted',
+    r'full article text could not be reliably extracted|summary is limited to verified feed metadata|the feed lists an article|this item tracks a |publisher text could not be safely extracted|the headline states|the headline is treated|the article falls under|available feed metadata|listed headline|matched uap terms|for deeper context|source claim|the scanner connects|uap news does not add details',
     re.I,
 )
 
 
 def is_bad(text):
-    return not text or len(text) < 140 or bool(BAD_SUMMARY_RE.search(text))
-
-
-def clean_metadata_summary(article):
-    title = article.get('title') or 'this UAP-related report'
-    source = article.get('source') or 'the listed source'
-    date = article.get('date') or 'the listed date'
-    terms = article.get('matchedTerms') or []
-    clusters = article.get('clusterTitles') or []
-    sources = [source] + [s.get('source', '') for s in article.get('otherSources', []) if isinstance(s, dict)]
-    sources = [s for i, s in enumerate(sources) if s and s.lower() not in [x.lower() for x in sources[:i]]]
-    parts = [
-        f'{source} lists a UAP-related report dated {date} under the headline "{title}".',
-        'The headline is treated as the source claim, and UAP News does not add details that are not present in the available feed metadata.',
-    ]
-    if terms:
-        parts.append('The topic is connected with ' + ', '.join(terms[:5]) + ' in the feed metadata.')
-    if len(sources) > 1:
-        parts.append('The same topic is also represented by ' + ', '.join(sources[1:5]) + '.')
-    if clusters:
-        parts.append('Related headlines in the same topic cluster mention: ' + '; '.join(clusters[:3]) + '.')
-    return ' '.join(parts)
+    return not text or len(text) < 180 or bool(BAD_SUMMARY_RE.search(text))
 
 
 def main():
@@ -49,16 +28,17 @@ def main():
             article_summary = map_summary
             changed = True
         if is_bad(article_summary):
-            article_summary = clean_metadata_summary(article)
-            article['summary'] = article_summary
+            article['summary'] = ''
+            summaries.pop(aid, None)
+            article.setdefault('summaryStatus', {})['articleContentSummary'] = 'missing'
             changed = True
-        if summaries.get(aid) != article_summary:
+        elif summaries.get(aid) != article_summary:
             summaries[aid] = article_summary
             changed = True
     # Do not keep stale summary entries for articles no longer in the retained feed.
     active_ids = {a.get('id') for a in data.get('articles', []) if a.get('id')}
     for key in list(summaries.keys()):
-        if key not in active_ids:
+        if key not in active_ids or is_bad(summaries.get(key)):
             del summaries[key]
             changed = True
     if changed:
