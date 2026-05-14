@@ -3,8 +3,7 @@
 
 This final guard compares articles by a general story fingerprint: title,
 description, summary, source title, event type, actors, and weighted keyword
-similarity. It avoids hard-coding current headlines while still merging clear
-coverage of the same story.
+similarity. It also preserves a useful summary for promoted source-only groups.
 """
 from __future__ import annotations
 
@@ -142,6 +141,10 @@ def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def article_key(article: dict[str, Any]) -> str:
+    return source_key(source_from_article(article)) or slug(article.get("title", ""))
+
+
 def dedupe_sources(sources: list[dict[str, Any]]) -> list[dict[str, Any]]:
     seen: set[str] = set()
     result: list[dict[str, Any]] = []
@@ -186,8 +189,23 @@ def normalize_quality(article: dict[str, Any]) -> dict[str, Any]:
     return article
 
 
+def generic_summary(article: dict[str, Any]) -> str:
+    summary = clean(article.get("summary"))
+    if summary:
+        return summary
+    event, _actors = event_profile(article.get("title", ""))
+    if event == "file-release":
+        return "Mehrere Quellen berichten über die Veröffentlichung oder Freigabe von UFO/UAP-Dateien, Dokumenten oder Archivmaterial. Die Einordnung wird anhand der verknüpften Quellen im nächsten Scan weiter präzisiert."
+    if event == "program":
+        return "Der Artikel beschreibt ein UAP/UFO-bezogenes Programm, Monitoring oder eine behördliche Einschätzung. Die ausführliche Zusammenfassung wird beim nächsten GitHub-Scan aus dem Artikelinhalt ergänzt."
+    if event == "sighting":
+        return "Der Artikel berichtet über eine UAP/UFO-Sichtung oder ungewöhnliche Beobachtung. Die ausführliche Zusammenfassung wird beim nächsten GitHub-Scan aus dem Artikelinhalt ergänzt."
+    return f"Der Artikel behandelt: {clean(article.get('title'))}." if clean(article.get("title")) else ""
+
+
 def group_article(group: list[dict[str, Any]]) -> dict[str, Any]:
     templates = [candidate["article"] for candidate in group if candidate["kind"] == "article"]
+    templates.extend(candidate["template"] for candidate in group if candidate.get("template"))
     template = max(templates, key=lambda article: len(article_text(article)), default={})
     article = deepcopy(template)
     sources: list[dict[str, Any]] = []
@@ -211,22 +229,51 @@ def group_article(group: list[dict[str, Any]]) -> dict[str, Any]:
         "otherSources": other,
         "clusterTitles": [clean(source.get("title")) for source in other if clean(source.get("title"))][:10],
     })
-    if not templates:
-        article["summary"] = ""
+    article["summary"] = generic_summary(article)
     article.pop("translations", None)
     article.pop("translationMeta", None)
     return normalize_quality(article)
 
 
+def merge_duplicate_articles(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    merged: dict[str, dict[str, Any]] = {}
+    order: list[str] = []
+    for article in articles:
+        key = article_key(article)
+        if key not in merged:
+            merged[key] = article
+            order.append(key)
+            continue
+        existing = merged[key]
+        sources = dedupe_sources((existing.get("otherSources") or []) + (article.get("otherSources") or []))
+        existing["otherSources"] = sources
+        existing["mentions"] = max(existing.get("mentions", 1), article.get("mentions", 1), 1 + len(sources))
+        existing["clusterTitles"] = [clean(source.get("title")) for source in sources if clean(source.get("title"))][:10]
+        if len(clean(article.get("summary"))) > len(clean(existing.get("summary"))):
+            existing["summary"] = article.get("summary", "")
+        existing["quality"] = max(int(existing.get("quality") or 0), int(article.get("quality") or 0))
+        normalize_quality(existing)
+    return [merged[key] for key in order]
+
+
 def normalize(payload: dict[str, Any]) -> dict[str, Any]:
     candidates: list[dict[str, Any]] = []
+    seen_candidate: set[str] = set()
+
+    def add_candidate(candidate: dict[str, Any]) -> None:
+        key = candidate["kind"] + ":" + (article_key(candidate["article"]) if candidate["kind"] == "article" else source_key(candidate["source"]))
+        if not key or key in seen_candidate:
+            return
+        seen_candidate.add(key)
+        candidates.append(candidate)
+
     for article in payload.get("articles") or []:
         if not isinstance(article, dict) or not clean(article.get("title")):
             continue
-        candidates.append({"kind": "article", "article": article})
+        add_candidate({"kind": "article", "article": article})
         for source in article.get("otherSources") or []:
             if isinstance(source, dict) and clean(source.get("title")):
-                candidates.append({"kind": "source", "source": source, "template": article})
+                add_candidate({"kind": "source", "source": source, "template": article})
 
     used: set[int] = set()
     groups: list[list[dict[str, Any]]] = []
@@ -241,13 +288,13 @@ def normalize(payload: dict[str, Any]) -> dict[str, Any]:
                 used.add(other_index)
         groups.append(group)
 
-    articles = [group_article(group) for group in groups]
+    articles = merge_duplicate_articles([group_article(group) for group in groups])
     articles = [article for article in articles if clean(article.get("title"))]
     articles.sort(key=lambda article: (int(article.get("quality") or 0), clean(article.get("publishedAt") or article.get("date"))), reverse=True)
     payload["articles"] = articles
     payload["summaries"] = {a["id"]: a.get("summary", "") for a in articles if a.get("id")}
     meta = payload.setdefault("scanMeta", {})
-    meta["normalizedClusters"] = "generic_story_similarity_v2"
+    meta["normalizedClusters"] = "generic_story_similarity_v3_dedupe_summary"
     return payload
 
 
