@@ -1,12 +1,14 @@
 (function(){
   'use strict';
   var IMAGE_BLACK = '#000';
+  var IMAGE_X = 'calc(50% - 32vw)';
+  var IMAGE_Y = '50%';
 
   function ensureLoadingBarStyle(){
     if (document.getElementById('uap-loading-bar-style')) return;
     var style = document.createElement('style');
     style.id = 'uap-loading-bar-style';
-    style.textContent = '#loading .loading-bar{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;}#loading .alien-head{animation:none!important;transition:none!important;transform:translateX(-32vw)!important;will-change:auto!important;}#loading img.alien-head{animation:none!important;transition:none!important;transform:translateX(-32vw)!important;will-change:auto!important;}';
+    style.textContent = '#loading .loading-bar{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;}#loading .alien-head,#loading img.alien-head{position:absolute!important;left:' + IMAGE_X + '!important;top:' + IMAGE_Y + '!important;margin:0!important;animation:none!important;transition:none!important;transform:translate(-50%,-50%)!important;will-change:auto!important;}';
     document.head.appendChild(style);
   }
 
@@ -33,11 +35,15 @@
     var el = document.querySelector('#loading .alien-head');
     if (!el) return;
 
+    el.style.position = 'absolute';
+    el.style.left = IMAGE_X;
+    el.style.top = IMAGE_Y;
     el.style.display = 'block';
     el.style.width = 'min(1770px, 225vw)';
+    el.style.height = 'min(996px, 126vw)';
     el.style.maxWidth = 'none';
     el.style.maxHeight = '92vh';
-    el.style.margin = '0 auto';
+    el.style.margin = '0';
     el.style.opacity = '1';
     el.style.mixBlendMode = 'normal';
     el.style.filter = 'none';
@@ -50,17 +56,15 @@
     el.style.borderRadius = '0';
     el.style.animation = 'none';
     el.style.transition = 'none';
-    el.style.transform = 'translateX(-32vw)';
+    el.style.transform = 'translate(-50%, -50%)';
     el.style.willChange = 'auto';
     el.style.zIndex = '1';
 
     if (el.tagName && el.tagName.toLowerCase() === 'img') {
-      el.style.height = 'auto';
       el.style.minHeight = '0';
       el.style.objectFit = 'contain';
       el.style.objectPosition = 'center center';
     } else {
-      el.style.height = 'min(996px, 126vw)';
       el.style.backgroundSize = 'contain';
       el.style.backgroundPosition = 'center center';
       el.style.backgroundRepeat = 'no-repeat';
@@ -71,4 +75,5 @@
   window.addEventListener('load', showStartupImage);
   setTimeout(showStartupImage, 50);
   setTimeout(showStartupImage, 250);
+  setTimeout(showStartupImage, 800);
 })();
