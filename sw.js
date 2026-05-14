@@ -1,42 +1,9 @@
-var CACHE = 'uap-v115-service-worker-simplified';
+var CACHE = 'uap-v116-retired-overrides-removed';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '115';
+var OVERRIDE_VERSION = '116';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js'
-];
-var RETIRED_OVERRIDE_FILES = [
-  'scroll-stability-fix.js',
-  'feed-cluster-safety-fix.js',
-  'feed-rating-normalize-fix.js',
-  'feed-title-dedupe-fix.js',
-  'feed-quality-balance-fix.js',
-  'feed-quality-display-fix.js',
-  'translation-replace-only-fix.js',
-  'app-feed-overrides.js',
-  'bell-icon-fix.js',
-  'notification-guide-fix.js',
-  'quality-affordance-fix.js',
-  'logo-title-fix.js',
-  'startup-polish-fix.js',
-  'quality-info-points-fix.js',
-  'article-detail-rating-fix.js',
-  'all-articles-layout-fix.js',
-  'scroll-heading-fix.js',
-  'latest-polish-fix.js',
-  'new-articles-filter-fix.js',
-  'notification-normal-open-fix.js',
-  'startup-opaque-fix.js',
-  'translation-override-fix.js',
-  'manual-scan-config.js',
-  'manual-scan-link-fix.js',
-  'summary-fallback-fix.js',
-  'summary-metadata-fix.js',
-  'quality-wording-fix.js',
-  'quality-order-startup-fix.js',
-  'final-ui-order-fix.js',
-  'notification-direct-fix.js',
-  'topic-regroup-display-fix.js'
 ];
 
 self.addEventListener('install', function(e) {
@@ -68,7 +35,7 @@ function scriptTag(file) {
 }
 
 function stripOverrideScripts(html) {
-  OVERRIDE_FILES.concat(RETIRED_OVERRIDE_FILES).forEach(function(file) {
+  OVERRIDE_FILES.forEach(function(file) {
     var escaped = file.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     html = html.replace(new RegExp('<script[^>]+src=["\'][^"\']*' + escaped + '[^"\']*["\'][^>]*><\\/script>', 'g'), '');
   });
