@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Normalize story clusters and ratings after regrouping.
 
-This final guard keeps broad UAP/Disclosure language from mixing unrelated
-stories, while still joining clear coverage of the same file-release event.
+This final guard compares articles by a general story fingerprint: title,
+description, summary, source title, event type, actors, and weighted keyword
+similarity. It avoids hard-coding current headlines while still merging clear
+coverage of the same story.
 """
 from __future__ import annotations
 
@@ -14,19 +16,23 @@ from typing import Any
 
 NEWS_PATH = Path("latest-news.json")
 SPACE_RE = re.compile(r"\s+")
+WORD_RE = re.compile(r"[a-z0-9]+")
 
-UAP_RE = re.compile(r"\b(uap|uaps|ufo|ufos|unidentified anomalous|unidentified aerial|unidentified flying|alien)\b")
-FILE_RE = re.compile(r"\b(file|files|record|records|archive|archives|document|documents|transcript|transcripts|video|videos|photo|photos|material|materials)\b")
-RELEASE_RE = re.compile(r"\b(release|released|releases|releasing|declassif|unseal|unsealed|publish|published|posting|posted|drops?|opens?|transparency|public archive)\b")
-US_CONTEXT_RE = re.compile(r"\b(us|u\.s\.|united states|government|federal|pentagon|department of war|defense department|defence department|dod|war\.gov|pursue|trump|state department|fbi|nasa|green men|public can|draw.*conclusions|transparency push|historic public release)\b")
+STOP = set(
+    "a an the to of for in on at by with from and or is are was were be been has have had "
+    "will would could should may might new latest update report reports news says said about into "
+    "after before over under this that these those watch video live first amid via than public "
+    "article source sources uap uaps ufo ufos unidentified anomalous aerial flying phenomena"
+    .split()
+)
+STRONG = set(
+    "aaro alien archive archives congress crash declassified disclosure document documents dod federal files foia "
+    "government hearing image images military nasa nonhuman pentagon photos pilot radar records release released "
+    "senate sighting sightings trump video videos war whistleblower ministry defense defence advisor website portal transparency"
+    .split()
+)
 LOW_TRUST_RE = re.compile(r"\b(tmz|daily mail|the sun|latestly|bollywoodshaadis|stupiddope|mashable india)\b", re.I)
-
-SUMMARIES = {
-    "us-uap-file-release": "The U.S. Department of War/Pentagon has begun releasing UFO/UAP records through a public archive, with officials saying readers can review the material and draw their own conclusions.",
-    "ukraine-uap-program": "A Ukrainian defense adviser said Ukraine tracks unidentified aerial activity as part of wartime security monitoring, because unusual objects could indicate new Russian technology or other threats.",
-    "japan-uap-files": "The article reports that Japan may release or examine UAP-related files after renewed public attention on U.S. and Ukrainian UFO disclosures.",
-    "sleeping-dog-corbell": "The article concerns Jeremy Corbell, Bob Lazar or related claims around the film Sleeping Dog and alleged UFO or intelligence-community material.",
-}
+TRUSTED_RE = re.compile(r"\b(\.gov|department|pbs|ap news|associated press|bbc|abc|sky|cbc|al jazeera|axios|reuters)\b", re.I)
 
 
 def clean(value: Any) -> str:
@@ -37,24 +43,77 @@ def slug(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", clean(value).lower()).strip("-") or "article"
 
 
-def story_key(text: str) -> str:
-    raw = clean(text).lower()
-    has_uap = bool(UAP_RE.search(raw))
-    has_files = bool(FILE_RE.search(raw))
-    has_release = bool(RELEASE_RE.search(raw))
-    has_us_context = bool(US_CONTEXT_RE.search(raw))
+def words(text: str) -> list[str]:
+    return [word for word in WORD_RE.findall(clean(text).lower()) if len(word) > 2 and word not in STOP]
 
-    if "sleeping dog" in raw and re.search(r"\b(corbell|lazar|whistleblower|cia|ufo|uap)\b", raw):
-        return "sleeping-dog-corbell"
-    if re.search(r"\b(ukraine|ukrainian)\b", raw) and re.search(r"\b(advisor|minister|ministry|armed forces|military|russia|russian|defence|defense|wartime|war)\b", raw):
-        return "ukraine-uap-program"
-    if re.search(r"\bjapan\b", raw) and has_uap and (has_files or has_release or "disclosure" in raw):
-        return "japan-uap-files"
-    if has_uap and has_files and has_release and has_us_context:
-        return "us-uap-file-release"
-    if has_uap and has_files and has_release and not re.search(r"\b(ukraine|ukrainian|japan|russia|russian|china|chinese)\b", raw):
-        return "us-uap-file-release"
-    return ""
+
+def word_set(text: str) -> set[str]:
+    return set(words(text))
+
+
+def overlap_ratio(a: set[str], b: set[str]) -> float:
+    if not a or not b:
+        return 0.0
+    return len(a & b) / min(len(a), len(b))
+
+
+def event_profile(text: str) -> tuple[str, set[str]]:
+    raw = clean(text).lower()
+    has_uap = bool(re.search(r"\b(uap|uaps|ufo|ufos|unidentified anomalous|unidentified aerial|unidentified flying|alien)\b", raw))
+    has_files = bool(re.search(r"\b(file|files|record|records|archive|archives|document|documents|transcript|transcripts|video|videos|photo|photos|material|materials)\b", raw))
+    has_release = bool(re.search(r"\b(release|released|releases|releasing|declassif|unseal|unsealed|publish|published|posting|posted|drops?|opens?|transparency|public archive)\b", raw))
+    has_program = bool(re.search(r"\b(program|tracking|monitoring|studying|study|directive|advisor|ministry|minister)\b", raw))
+    has_sighting = bool(re.search(r"\b(sighting|sightings|spotted|seen|encounter|encountered|lights|orbs|object|objects)\b", raw))
+    has_film = bool(re.search(r"\b(film|movie|documentary|sleeping dog|trailer|director)\b", raw))
+
+    event = ""
+    if has_uap and has_files and has_release:
+        event = "file-release"
+    elif has_uap and has_program:
+        event = "program"
+    elif has_uap and has_film:
+        event = "film"
+    elif has_uap and has_sighting:
+        event = "sighting"
+
+    actors: set[str] = set()
+    actor_patterns = [
+        ("us", r"\b(us|u\.s\.|united states|american|pentagon|department of war|defense department|defence department|dod|war\.gov|federal|trump|state department|fbi)\b"),
+        ("ukraine", r"\b(ukraine|ukrainian)\b"),
+        ("japan", r"\bjapan\b"),
+        ("russia", r"\b(russia|russian)\b"),
+        ("china", r"\b(china|chinese)\b"),
+        ("nasa", r"\bnasa\b"),
+        ("congress", r"\b(congress|senate|representative|hearing)\b"),
+        ("aaro", r"\baaro\b"),
+        ("corbell-lazar", r"\b(corbell|lazar)\b"),
+    ]
+    for actor, pattern in actor_patterns:
+        if re.search(pattern, raw):
+            actors.add(actor)
+    return event, actors
+
+
+def actor_compatible(a: set[str], b: set[str]) -> bool:
+    return not a or not b or bool(a & b)
+
+
+def same_story_text(a_text: str, b_text: str) -> bool:
+    a_event, a_actors = event_profile(a_text)
+    b_event, b_actors = event_profile(b_text)
+    if a_event or b_event:
+        return bool(a_event and a_event == b_event and actor_compatible(a_actors, b_actors))
+
+    a_words = word_set(a_text)
+    b_words = word_set(b_text)
+    shared = a_words & b_words
+    ratio = overlap_ratio(a_words, b_words)
+    shared_strong = shared & STRONG
+    return (
+        (ratio >= 0.48 and len(shared) >= 4)
+        or (ratio >= 0.32 and len(shared_strong) >= 2)
+        or (ratio >= 0.38 and len(shared) >= 6)
+    )
 
 
 def article_text(article: dict[str, Any]) -> str:
@@ -63,6 +122,10 @@ def article_text(article: dict[str, Any]) -> str:
 
 def source_text(source: dict[str, Any]) -> str:
     return clean(" ".join([source.get("title", ""), source.get("source", "")]))
+
+
+def candidate_text(candidate: dict[str, Any]) -> str:
+    return article_text(candidate["article"]) if candidate["kind"] == "article" else source_text(candidate["source"])
 
 
 def source_key(source: dict[str, Any]) -> str:
@@ -94,8 +157,7 @@ def dedupe_sources(sources: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def rank_source(source: dict[str, Any]) -> tuple[int, int]:
-    src = clean(source.get("source")).lower()
-    trusted = 1 if re.search(r"\b(\.gov|department|pbs|ap news|associated press|bbc|abc|sky|cbc|al jazeera|axios|reuters)\b", src) else 0
+    trusted = 1 if TRUSTED_RE.search(clean(source.get("source"))) else 0
     return trusted, len(clean(source.get("title")))
 
 
@@ -124,74 +186,75 @@ def normalize_quality(article: dict[str, Any]) -> dict[str, Any]:
     return article
 
 
-def group_article(key: str, sources: list[dict[str, Any]], template: dict[str, Any]) -> dict[str, Any]:
+def group_article(group: list[dict[str, Any]]) -> dict[str, Any]:
+    templates = [candidate["article"] for candidate in group if candidate["kind"] == "article"]
+    template = max(templates, key=lambda article: len(article_text(article)), default={})
+    article = deepcopy(template)
+    sources: list[dict[str, Any]] = []
+    for candidate in group:
+        if candidate["kind"] == "article":
+            sources.append(source_from_article(candidate["article"]))
+            sources.extend(candidate["article"].get("otherSources") or [])
+        else:
+            sources.append(candidate["source"])
     sources = sorted(dedupe_sources(sources), key=rank_source, reverse=True)
     primary = sources[0] if sources else {}
     other = sources[1:]
-    article = deepcopy(template)
+    event, _actors = event_profile(candidate_text(group[0]))
     article.update({
-        "id": key,
-        "title": clean(primary.get("title")) or clean(template.get("title")) or "UAP News",
-        "source": clean(primary.get("source")) or "UAP News",
-        "link": clean(primary.get("link") or primary.get("url")),
-        "publishedAt": primary.get("publishedAt") or template.get("publishedAt") or template.get("date"),
-        "summary": SUMMARIES.get(key) or template.get("summary", ""),
+        "id": slug(f"{event}-{clean(primary.get('title')) or article.get('title', 'article')}"),
+        "title": clean(primary.get("title")) or clean(article.get("title")) or "UAP News",
+        "source": clean(primary.get("source")) or clean(article.get("source")) or "UAP News",
+        "link": clean(primary.get("link") or primary.get("url") or article.get("link") or article.get("url")),
+        "publishedAt": primary.get("publishedAt") or article.get("publishedAt") or article.get("date"),
         "mentions": max(1, 1 + len(other)),
         "otherSources": other,
         "clusterTitles": [clean(source.get("title")) for source in other if clean(source.get("title"))][:10],
     })
+    if not templates:
+        article["summary"] = ""
     article.pop("translations", None)
     article.pop("translationMeta", None)
     return normalize_quality(article)
 
 
 def normalize(payload: dict[str, Any]) -> dict[str, Any]:
-    buckets: dict[str, dict[str, Any]] = {}
-    result: list[dict[str, Any]] = []
-
-    def add_bucket(key: str, source: dict[str, Any], template: dict[str, Any]) -> None:
-        bucket = buckets.setdefault(key, {"sources": [], "template": template})
-        bucket["sources"].append(source)
-        if len(clean(template.get("summary"))) > len(clean(bucket.get("template", {}).get("summary"))):
-            bucket["template"] = template
-
+    candidates: list[dict[str, Any]] = []
     for article in payload.get("articles") or []:
-        if not isinstance(article, dict):
+        if not isinstance(article, dict) or not clean(article.get("title")):
             continue
-        article_key = story_key(article_text(article))
-        remaining_sources: list[dict[str, Any]] = []
+        candidates.append({"kind": "article", "article": article})
         for source in article.get("otherSources") or []:
-            if not isinstance(source, dict):
-                continue
-            key = story_key(source_text(source))
-            if key:
-                add_bucket(key, source, article)
-            else:
-                remaining_sources.append(source)
-        if article_key:
-            add_bucket(article_key, source_from_article(article), article)
-        else:
-            repaired = deepcopy(article)
-            repaired["otherSources"] = dedupe_sources(remaining_sources)
-            repaired["mentions"] = max(1, 1 + len(repaired["otherSources"]))
-            repaired["clusterTitles"] = [clean(source.get("title")) for source in repaired["otherSources"] if clean(source.get("title"))][:10]
-            result.append(normalize_quality(repaired))
+            if isinstance(source, dict) and clean(source.get("title")):
+                candidates.append({"kind": "source", "source": source, "template": article})
 
-    for key, bucket in buckets.items():
-        result.append(group_article(key, bucket["sources"], bucket.get("template", {})))
+    used: set[int] = set()
+    groups: list[list[dict[str, Any]]] = []
+    for index, candidate in enumerate(candidates):
+        if index in used:
+            continue
+        group = [candidate]
+        used.add(index)
+        for other_index in range(index + 1, len(candidates)):
+            if other_index not in used and same_story_text(candidate_text(candidate), candidate_text(candidates[other_index])):
+                group.append(candidates[other_index])
+                used.add(other_index)
+        groups.append(group)
 
-    result.sort(key=lambda article: (int(article.get("quality") or 0), clean(article.get("publishedAt") or article.get("date"))), reverse=True)
-    payload["articles"] = result
-    payload["summaries"] = {a["id"]: a.get("summary", "") for a in result if a.get("id")}
+    articles = [group_article(group) for group in groups]
+    articles = [article for article in articles if clean(article.get("title"))]
+    articles.sort(key=lambda article: (int(article.get("quality") or 0), clean(article.get("publishedAt") or article.get("date"))), reverse=True)
+    payload["articles"] = articles
+    payload["summaries"] = {a["id"]: a.get("summary", "") for a in articles if a.get("id")}
     meta = payload.setdefault("scanMeta", {})
-    meta["normalizedClusters"] = "story_key_file_release_and_rating_v1"
+    meta["normalizedClusters"] = "generic_story_similarity_v2"
     return payload
 
 
 def main() -> None:
     payload = json.loads(NEWS_PATH.read_text(encoding="utf-8"))
     NEWS_PATH.write_text(json.dumps(normalize(payload), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print("normalized feed clusters and ratings")
+    print("normalized feed clusters and ratings with generic story similarity")
 
 
 if __name__ == "__main__":
