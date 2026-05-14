@@ -29,8 +29,15 @@ STOP = set(
 STRONG_TERMS = set(
     "aaro alien archive archives congress crash declassified disclosure document documents dod "
     "federal files foia government hearing image images military nasa nonhuman pentagon photos "
-    "pilot radar records release released senate sighting sightings trump video videos war whistleblower".split()
+    "pilot radar records release released senate sighting sightings trump video videos war whistleblower "
+    "cia lazar corbell pursue website".split()
 )
+
+UAP_RE = re.compile(r"\b(uap|uaps|ufo|ufos|unidentified anomalous|unidentified aerial|unidentified flying|alien)\b")
+FILE_RE = re.compile(r"\b(file|files|record|records|archive|archives|document|documents|video|videos|photo|photos|material|materials)\b")
+RELEASE_RE = re.compile(r"\b(release|released|releases|releasing|declassif|unseal|unsealed|publish|published|posting|posted|drops?|opens?)\b")
+US_GOV_RE = re.compile(r"\b(pentagon|department of war|defense department|defence department|dod|war\.gov|pursue|trump|united states|u\.s\.|us government|federal|state department|fbi|nasa)\b")
+WEBSITE_RE = re.compile(r"\b(website|site|portal|war\.gov|hits|launch|launched|public view)\b")
 
 
 def clean(value: Any) -> str:
@@ -47,6 +54,26 @@ def word_set(text: str) -> set[str]:
 
 def topic_id(title: str) -> str:
     return "-".join(sorted(word_set(title))[:10]) or "article"
+
+
+def story_key(text: str) -> str:
+    raw = clean(text).lower()
+    if "sleeping dog" in raw and re.search(r"\b(corbell|lazar|whistleblower|cia|ufo|uap)\b", raw):
+        return "sleeping-dog-corbell"
+
+    has_uap = bool(UAP_RE.search(raw))
+    has_files = bool(FILE_RE.search(raw))
+    has_release = bool(RELEASE_RE.search(raw))
+    has_gov = bool(US_GOV_RE.search(raw))
+    has_site = bool(WEBSITE_RE.search(raw))
+
+    if has_uap and has_files and has_release and has_gov:
+        return "us-uap-file-release"
+    if has_uap and has_gov and has_site and (has_files or has_release):
+        return "us-uap-file-release"
+    if "pursue" in raw and has_uap and (has_files or has_release or has_site):
+        return "us-uap-file-release"
+    return ""
 
 
 def article_text(article: dict[str, Any]) -> str:
@@ -68,8 +95,15 @@ def overlap_ratio(a: set[str], b: set[str]) -> float:
 
 
 def same_story(article: dict[str, Any], source: dict[str, Any]) -> bool:
-    primary_words = word_set(article_text(article))
-    source_words = word_set(source_text(source))
+    primary_text = article_text(article)
+    src_text = source_text(source)
+    primary_key = story_key(primary_text)
+    src_key = story_key(src_text)
+    if primary_key or src_key:
+        return primary_key == src_key
+
+    primary_words = word_set(primary_text)
+    source_words = word_set(src_text)
     if not primary_words or not source_words:
         return False
 
@@ -114,7 +148,7 @@ def cluster_titles(sources: list[dict[str, Any]], primary_title: str) -> list[st
             continue
         seen.add(key)
         titles.append(title)
-    return titles[:8]
+    return titles[:10]
 
 
 def rank_source(source: dict[str, Any]) -> tuple[int, int]:
@@ -212,7 +246,7 @@ def main() -> None:
     payload["articles"] = merge_duplicates(split)
     meta = payload.setdefault("scanMeta", {})
     meta["splitUnrelatedGroupedSources"] = created
-    meta["splitGroupedSourcesPolicy"] = "title_description_summary_similarity_before_enrichment"
+    meta["splitGroupedSourcesPolicy"] = "story_signature_or_title_description_summary_similarity_before_enrichment"
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"split unrelated grouped sources: created={created}")
 
