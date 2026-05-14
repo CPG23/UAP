@@ -19,6 +19,7 @@ from enrich_summaries import fetch_article_text, summarize_article_text
 
 LATEST_FILE = Path("latest-news.json")
 MAX_REPAIR_ARTICLES = 36
+MAX_REPAIR_ATTEMPTS = 10
 
 BAD_SUMMARY_RE = re.compile(
     r"full article text could not be reliably extracted|"
@@ -137,6 +138,7 @@ def main() -> None:
     summaries = data.setdefault("summaries", {})
     repaired = 0
     missing = 0
+    attempts = 0
     changed = False
 
     for article in data.get("articles", [])[:MAX_REPAIR_ARTICLES]:
@@ -149,7 +151,10 @@ def main() -> None:
             if article_id:
                 summaries[article_id] = article["summary"]
             continue
+        if attempts >= MAX_REPAIR_ATTEMPTS:
+            continue
 
+        attempts += 1
         text = fetch_article_text(article)
         summary = summarize_article_text(article, text)
         if is_good_summary(summary, article):
@@ -175,6 +180,7 @@ def main() -> None:
     meta = data.setdefault("scanMeta", {})
     meta["summaryRepair"] = {
         "policy": "repair_after_cluster_normalization",
+        "attempts": attempts,
         "repaired": repaired,
         "missing": missing,
     }
@@ -182,7 +188,7 @@ def main() -> None:
     if changed:
         LATEST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    print(f"summary repair after clustering: repaired={repaired}; missing={missing}")
+    print(f"summary repair after clustering: attempts={attempts}; repaired={repaired}; missing={missing}")
 
 
 if __name__ == "__main__":
