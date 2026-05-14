@@ -4,6 +4,7 @@
   var STYLE_ID = 'uap-manual-scan-style';
   var STORAGE_PIN = 'uapManualScanPin';
   var SCAN_API_URL = 'https://uap-news-scan.YOUR-CLOUDFLARE-SUBDOMAIN.workers.dev';
+  var REQUEST_TIMEOUT_MS = 20000;
   var POLL_INTERVAL_MS = 6000;
   var POLL_LIMIT = 70;
 
@@ -29,6 +30,17 @@
       document.head.appendChild(style);
     }
     if (style.textContent !== css) style.textContent = css;
+  }
+
+  function fetchWithTimeout(url, options, message){
+    var controller = window.AbortController ? new AbortController() : null;
+    var timer = setTimeout(function(){ if (controller) controller.abort(); }, REQUEST_TIMEOUT_MS);
+    var opts = Object.assign({}, options || {});
+    if (controller) opts.signal = controller.signal;
+    return fetch(url, opts).catch(function(err){
+      if (err && err.name === 'AbortError') throw new Error(message || 'Keine Antwort vom Scan-Dienst.');
+      throw err;
+    }).finally(function(){ clearTimeout(timer); });
   }
 
   function showScanInfo(text, type, persist){
@@ -84,7 +96,7 @@
   }
 
   function fetchFeedSnapshot(){
-    return fetch('./latest-news.json?scanTs=' + Date.now(), { cache: 'no-store' })
+    return fetchWithTimeout('./latest-news.json?scanTs=' + Date.now(), { cache: 'no-store' }, 'Nachrichtenliste antwortet gerade nicht.')
       .then(function(resp){ return resp.ok ? resp.json() : null; })
       .then(function(feed){
         return {
@@ -96,7 +108,7 @@
   }
 
   function postScan(apiUrl, pin){
-    return fetch(apiUrl + '/scan', {
+    return fetchWithTimeout(apiUrl + '/scan', {
       method: 'POST',
       cache: 'no-store',
       headers: {
@@ -104,16 +116,16 @@
         'X-UAP-Scan-Pin': pin
       },
       body: JSON.stringify({ pin: pin })
-    }).then(readApiResponse);
+    }, 'Der Scan-Dienst antwortet nicht. Bitte prüfe in Cloudflare, ob der Worker gespeichert und deployed ist.').then(readApiResponse);
   }
 
   function fetchStatus(apiUrl, pin, since){
     var url = apiUrl + '/status' + (since ? '?since=' + encodeURIComponent(since) : '');
-    return fetch(url, {
+    return fetchWithTimeout(url, {
       method: 'GET',
       cache: 'no-store',
       headers: { 'X-UAP-Scan-Pin': pin }
-    }).then(readApiResponse);
+    }, 'Der Scan-Status antwortet gerade nicht.').then(readApiResponse);
   }
 
   function readApiResponse(resp){
