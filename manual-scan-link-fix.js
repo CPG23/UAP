@@ -107,8 +107,9 @@
     }).then(readApiResponse);
   }
 
-  function fetchStatus(apiUrl, pin){
-    return fetch(apiUrl + '/status', {
+  function fetchStatus(apiUrl, pin, since){
+    var url = apiUrl + '/status' + (since ? '?since=' + encodeURIComponent(since) : '');
+    return fetch(url, {
       method: 'GET',
       cache: 'no-store',
       headers: { 'X-UAP-Scan-Pin': pin }
@@ -142,8 +143,8 @@
     return 'Scan-Status wird geprüft...';
   }
 
-  function pollUntilDone(apiUrl, pin, before, attempt){
-    return fetchStatus(apiUrl, pin).then(function(data){
+  function pollUntilDone(apiUrl, pin, since, before, attempt){
+    return fetchStatus(apiUrl, pin, since).then(function(data){
       var run = data.run;
       showScanInfo(statusText(run), '', true);
       if (run && run.status === 'completed') {
@@ -159,7 +160,7 @@
       }
       if (attempt >= POLL_LIMIT) throw new Error('Der Scan läuft länger als erwartet. Bitte später noch einmal prüfen.');
       return new Promise(function(resolve){ setTimeout(resolve, POLL_INTERVAL_MS); })
-        .then(function(){ return pollUntilDone(apiUrl, pin, before, attempt + 1); });
+        .then(function(){ return pollUntilDone(apiUrl, pin, since, before, attempt + 1); });
     });
   }
 
@@ -177,9 +178,10 @@
     showScanInfo('Scan wird gestartet...', '', true);
     fetchFeedSnapshot()
       .then(function(before){
-        return postScan(apiUrl, pin).then(function(){
+        return postScan(apiUrl, pin).then(function(started){
+          var since = started && started.startedAt ? started.startedAt : new Date().toISOString();
           showScanInfo('Scan gestartet. GitHub prüft jetzt neue UAP-Nachrichten...', '', true);
-          return pollUntilDone(apiUrl, pin, before, 0);
+          return pollUntilDone(apiUrl, pin, since, before, 0);
         });
       })
       .catch(function(err){
