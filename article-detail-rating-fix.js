@@ -150,49 +150,9 @@
       var btn = document.createElement('button');
       btn.className = 'translate-btn';
       btn.type = 'button';
-      btn.textContent = 'Übersetzen';
+      btn.textContent = '\u00dcbersetzen';
       actions.appendChild(btn);
     }
-  }
-
-  function translateText(text) {
-    var url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t&q=' + encodeURIComponent(text || '');
-    return fetch(url).then(function(r){ return r.json(); }).then(function(data){
-      return data && data[0] ? data[0].map(function(part){ return part[0]; }).join('').trim() : '';
-    });
-  }
-
-  function handleTranslate(e){
-    var btn = e.target && e.target.closest && e.target.closest('.translate-btn');
-    if (!btn) return false;
-    e.preventDefault();
-    e.stopPropagation();
-    e.stopImmediatePropagation();
-    var card = btn.closest('.article-card');
-    var title = card && card.querySelector('h2');
-    var summary = card && card.querySelector('.uap-detail-summary');
-    if (!card || !title || !summary) return true;
-    if (card.dataset.detailTranslated === '1') {
-      title.textContent = card.dataset.detailOriginalTitle || title.textContent;
-      summary.textContent = card.dataset.detailOriginalSummary || summary.textContent;
-      card.dataset.detailTranslated = '0';
-      btn.textContent = 'Übersetzen';
-      return true;
-    }
-    card.dataset.detailOriginalTitle = card.dataset.detailOriginalTitle || title.textContent;
-    card.dataset.detailOriginalSummary = card.dataset.detailOriginalSummary || summary.textContent;
-    btn.disabled = true;
-    btn.textContent = 'Übersetze...';
-    translateText(card.dataset.detailOriginalTitle + '\n|||\n' + card.dataset.detailOriginalSummary).then(function(text){
-      var parts = String(text || '').split('|||');
-      title.textContent = (parts[0] || text || card.dataset.detailOriginalTitle).trim();
-      summary.textContent = (parts[1] || card.dataset.detailOriginalSummary).trim();
-      card.dataset.detailTranslated = '1';
-      btn.textContent = 'Original anzeigen';
-    }).catch(function(){
-      btn.textContent = 'Übersetzung fehlgeschlagen';
-    }).finally(function(){ btn.disabled = false; });
-    return true;
   }
 
   function articleCardFrom(target){
@@ -301,7 +261,6 @@
   }
 
   window.addEventListener('click', function(e){
-    if (handleTranslate(e)) return;
     var card = articleCardFrom(e.target);
     if (!card || isInteractive(e.target)) return;
     e.preventDefault();
