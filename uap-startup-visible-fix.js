@@ -13,9 +13,9 @@
     if (!el) return;
 
     el.style.display = 'block';
-    el.style.width = 'min(760px, 96vw)';
+    el.style.width = 'min(840px, 96vw)';
     el.style.maxWidth = '96vw';
-    el.style.maxHeight = '58vh';
+    el.style.maxHeight = '64vh';
     el.style.margin = '0 auto';
     el.style.opacity = '1';
     el.style.mixBlendMode = 'normal';
@@ -26,7 +26,9 @@
     el.style.border = '0';
     el.style.borderRadius = '0';
     el.style.animation = 'none';
+    el.style.transition = 'none';
     el.style.transform = 'none';
+    el.style.willChange = 'auto';
     el.style.zIndex = '1';
 
     if (el.tagName && el.tagName.toLowerCase() === 'img') {
@@ -35,7 +37,7 @@
       el.style.objectFit = 'contain';
       el.style.objectPosition = 'center center';
     } else {
-      el.style.height = 'min(430px, 54vw)';
+      el.style.height = 'min(470px, 54vw)';
       el.style.backgroundSize = 'contain';
       el.style.backgroundPosition = 'center center';
       el.style.backgroundRepeat = 'no-repeat';
@@ -44,5 +46,6 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', showStartupImage, { once: true });
   else showStartupImage();
   window.addEventListener('load', showStartupImage);
+  setTimeout(showStartupImage, 50);
   setTimeout(showStartupImage, 250);
 })();
