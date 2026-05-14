@@ -15,10 +15,10 @@ Set these in Cloudflare Workers:
 
 ## App connection
 
-After deploying the Worker, set the Worker URL in `manual-scan-link-fix.js`:
+After deploying the Worker, set the Worker URL in `manual-scan-config.js`:
 
 ```js
-var SCAN_API_URL = 'https://your-worker.your-account.workers.dev';
+window.UAP_SCAN_API_URL = 'https://your-worker.your-account.workers.dev';
 ```
 
 The app will then show a `SCAN` button, ask for the PIN once, start the workflow, poll the run status, and compare `latest-news.json` before and after the scan to report whether new visible articles were found.
