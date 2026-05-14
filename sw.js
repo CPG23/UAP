@@ -1,6 +1,6 @@
-var CACHE = 'uap-v97-remove-manual-scan';
+var CACHE = 'uap-v98-normal-notification-open';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '97';
+var OVERRIDE_VERSION = '98';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
@@ -22,6 +22,7 @@ var OVERRIDE_FILES = [
   'latest-polish-fix.js',
   'topic-regroup-display-fix.js',
   'new-articles-filter-fix.js',
+  'notification-normal-open-fix.js',
   'startup-opaque-fix.js'
 ];
 
