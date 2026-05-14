@@ -1,9 +1,10 @@
-var CACHE = 'uap-v109-summary-dedupe';
+var CACHE = 'uap-v110-title-dedupe';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '109';
+var OVERRIDE_VERSION = '110';
 var OVERRIDE_FILES = [
   'feed-cluster-safety-fix.js',
   'feed-rating-normalize-fix.js',
+  'feed-title-dedupe-fix.js',
   'uap-app-overrides.js',
   'scroll-stability-fix.js'
 ];
