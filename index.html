@@ -162,74 +162,51 @@
     justify-content: center;
     flex-direction: column;
     gap: 16px;
-    background: #030a0f;
+    background: rgba(3,10,15,.98);
     transition: opacity .28s ease, visibility .28s ease;
     animation: cssStartFallback 9.4s forwards;
   }
   #loading.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
   @keyframes cssStartFallback { 0%, 96% { opacity: 1; visibility: visible; pointer-events: auto; } 100% { opacity: 0; visibility: hidden; pointer-events: none; } }
   .startup-title {
-    display: inline-block;
+    margin: 0 0 8px;
     position: absolute;
-    top: calc(8px + env(safe-area-inset-top));
-    left: 4px;
-    margin: 0;
-    color: #eafcff;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 700;
-    font-size: clamp(72px,22vw,136px);
-    line-height: .82;
-    letter-spacing: 2px;
-    text-shadow: 0 0 8px rgba(255,255,255,.65), 0 0 22px rgba(0,212,255,.9), 0 0 44px rgba(0,255,157,.35);
+    top: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: clamp(72px,18vw,120px);
+    letter-spacing: 0;
     white-space: nowrap;
     z-index: 2;
   }
-  .startup-title::after {
-    content: '';
-    position: absolute;
-    left: 1px;
-    right: 0;
-    bottom: -7px;
-    height: 2px;
-    background: linear-gradient(90deg, #00d4ff, #00ff9d, transparent);
-    box-shadow: 0 0 18px rgba(0,212,255,.95);
-  }
-  .startup-credit {
-    position: absolute;
-    top: calc(10px + env(safe-area-inset-top) + clamp(86px,23vw,150px));
-    left: 8px;
-    color: #c6f4ff;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: clamp(9px,2.5vw,12px);
-    letter-spacing: 1.8px;
-    text-shadow: 0 0 6px rgba(255,255,255,.45), 0 0 16px rgba(0,212,255,.75);
-    z-index: 2;
-  }
+  .startup-u { color: #fff; text-shadow: 0 0 25px rgba(255,255,255,.75); }
+  .startup-a { color: var(--accent); text-shadow: 0 0 28px rgba(0,212,255,.85); }
+  .startup-p { color: var(--accent2); text-shadow: 0 0 28px rgba(0,255,157,.78); }
+  .startup-news { font-family: 'Rajdhani', sans-serif; font-size: .24em; color: var(--text); letter-spacing: 4px; line-height: 1; }
+  .startup-byline { font-family:'Share Tech Mono',monospace; font-size:6px; color:var(--muted); letter-spacing:1.5px; opacity:.55; line-height:1; margin-top:2px; padding-left:4px; }
+  .startup-credit { display: none; }
   .alien-head {
-    width: min(340px, 84vw);
-    aspect-ratio: 1 / 1.16;
+    width: min(560px, 92vw);
+    height: min(650px, 108vw);
+    opacity: .45;
+    mix-blend-mode: screen;
+    filter: brightness(.5) saturate(1.1) drop-shadow(0 0 18px rgba(0,212,255,.9)) drop-shadow(0 0 40px rgba(0,212,255,.5));
+    mask-image: radial-gradient(ellipse 72% 80% at 50% 42%, black 25%, rgba(0,0,0,.6) 55%, transparent 80%);
+    -webkit-mask-image: radial-gradient(ellipse 72% 80% at 50% 42%, black 25%, rgba(0,0,0,.6) 55%, transparent 80%);
+    background:
+      radial-gradient(ellipse 23% 15% at 38% 39%, rgba(215,255,246,.95), rgba(0,255,157,.32) 38%, rgba(0,0,0,.35) 72%, transparent 74%),
+      radial-gradient(ellipse 23% 15% at 62% 39%, rgba(215,255,246,.95), rgba(0,255,157,.32) 38%, rgba(0,0,0,.35) 72%, transparent 74%),
+      radial-gradient(ellipse 39% 52% at 50% 45%, rgba(0,212,255,.2), rgba(0,255,157,.08) 44%, rgba(1,8,12,.14) 70%, transparent 72%);
     border-radius: 48% 48% 42% 42% / 58% 58% 38% 38%;
-    background: radial-gradient(ellipse at 50% 24%, rgba(170,255,240,.2), transparent 34%), linear-gradient(160deg, rgba(0,212,255,.12), rgba(0,255,157,.05));
-    border: 1px solid rgba(0,212,255,.16);
-    box-shadow: inset 0 0 60px rgba(0,212,255,.12), 0 0 34px rgba(0,212,255,.42), 0 0 80px rgba(0,255,157,.18);
-    opacity: .68;
-    position: relative;
-    animation: uapAlienSteadyZoom 13s linear infinite;
-    will-change: transform, opacity;
-    transform-origin: center center;
+    animation: alienGlow 12s ease-in-out infinite;
+    will-change: transform, opacity, filter;
+    transform: translateZ(0);
   }
-  .alien-head::before, .alien-head::after {
-    content: '';
-    position: absolute;
-    top: 35%;
-    width: 28%;
-    height: 18%;
-    border-radius: 50%;
-    background: radial-gradient(ellipse at 50% 50%, rgba(214,255,246,.9), rgba(0,255,157,.34) 42%, rgba(0,0,0,.25) 72%);
-    box-shadow: 0 0 22px rgba(0,255,157,.6);
+  @keyframes alienGlow {
+    0%, 100% { opacity: .55; transform: scale(1); filter: brightness(.6) saturate(1.2) drop-shadow(0 0 20px rgba(0,212,255,.9)) drop-shadow(0 0 45px rgba(0,212,255,.5)); }
+    50% { opacity: .88; transform: scale(1.5); filter: brightness(.85) saturate(1.5) drop-shadow(0 0 35px rgba(0,212,255,1)) drop-shadow(0 0 70px rgba(0,212,255,.7)) drop-shadow(0 0 100px rgba(0,255,157,.3)); }
   }
-  .alien-head::before { left: 17%; transform: rotate(18deg); }
-  .alien-head::after { right: 17%; transform: rotate(-18deg); }
   .loading-bar {
     position: absolute;
     left: 50%;
@@ -251,22 +228,19 @@
     animation: loadingSlide 1.5s linear infinite;
   }
   @keyframes loadingSlide { from { left: -60%; } to { left: 100%; } }
-  @keyframes uapAlienSteadyZoom { 0% { opacity: .5; transform: translate3d(0,0,0) scale(.86); } 50% { opacity: .76; transform: translate3d(0,-1px,0) scale(1.08); } 100% { opacity: .9; transform: translate3d(0,0,0) scale(1.22); } }
   @media (max-width: 560px) {
     header { padding-left: 16px; padding-right: 16px; }
     .header-inner { align-items: flex-start; }
     .status { font-size: 8px; }
     main { padding-left: 12px; padding-right: 12px; }
     .brand-title { font-size: clamp(27px,10vw,39px); letter-spacing: 1px; }
-    .startup-title { top: calc(7px + env(safe-area-inset-top)); left: 3px; font-size: clamp(64px,22vw,104px); letter-spacing: 1px; }
-    .startup-credit { top: calc(8px + env(safe-area-inset-top) + clamp(76px,23vw,116px)); left: 6px; letter-spacing: 1.3px; }
+    .startup-title { top: 28px; font-size: clamp(72px,18vw,120px); }
   }
 </style>
 </head>
 <body>
 <div id="loading" aria-live="polite">
-  <h1 class="startup-title">UAP News</h1>
-  <div class="startup-credit">created by Chris Gehring</div>
+  <h1 class="startup-title"><span class="startup-u">U</span><span class="startup-a">A</span><span class="startup-p">P</span><span style="display:inline-flex;flex-direction:column;align-items:flex-start;vertical-align:baseline"><span class="startup-news">NEWS</span><span class="startup-byline">by Chris Gehring</span></span></h1>
   <div class="alien-head" aria-hidden="true"></div>
   <div class="loading-bar"></div>
 </div>
@@ -295,8 +269,8 @@
   <section id="feed" aria-live="polite"></section>
 </main>
 <footer>UAP News · Datenquelle: GitHub latest-news.json</footer>
-<script src="./uap-feed-normalize.js?v=117"></script>
-<script src="./uap-app-overrides.js?v=117"></script>
+<script src="./uap-feed-normalize.js?v=118"></script>
+<script src="./uap-app-overrides.js?v=118"></script>
 <script>
 (function(){
   function hideStart(){
