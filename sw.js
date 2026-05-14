@@ -1,12 +1,12 @@
-var CACHE = 'uap-v113-consolidated-normalize';
+var CACHE = 'uap-v114-app-scroll-integrated';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '113';
+var OVERRIDE_VERSION = '114';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
-  'uap-app-overrides.js',
-  'scroll-stability-fix.js'
+  'uap-app-overrides.js'
 ];
 var RETIRED_OVERRIDE_FILES = [
+  'scroll-stability-fix.js',
   'feed-cluster-safety-fix.js',
   'feed-rating-normalize-fix.js',
   'feed-title-dedupe-fix.js',
@@ -95,6 +95,35 @@ function rewriteAppOverrideScript(js) {
   return js;
 }
 
+function scrollStabilityRuntime() {
+  return [
+    '(function(){',
+    '  if (window.__uapScrollStabilityIntegrated) return;',
+    '  window.__uapScrollStabilityIntegrated = true;',
+    '  var userScrollUntil = 0;',
+    '  var nativeScrollTo = window.scrollTo;',
+    '  function markUserScroll(){ userScrollUntil = Date.now() + 1200; }',
+    '  function injectStyle(){',
+    '    var css = [',
+    '      "html,body,#feed,.article-card,.article-main{overflow-anchor:auto!important}",',
+    '      ".article-card.uap-detail-open{contain:layout style!important}",',
+    '      ".article-card.uap-detail-open .details,.article-card.uap-detail-open .uap-detail-summary{overflow-anchor:auto!important}",',
+    '      ".article-card{transform:translateZ(0)}",',
+    '      ".article-topline .badges{display:flex!important;align-items:center!important;justify-content:flex-end!important;gap:6px!important;margin:0!important}",',
+    '      ".article-topline .badge.sources{display:inline-flex!important;align-items:center!important;justify-content:center!important;box-sizing:border-box!important;min-height:24px!important;padding:4px 8px!important;line-height:1!important;vertical-align:middle!important}",',
+    '      ".article-topline .badge.sources,.article-topline .article-date-prominent{align-self:center!important}"',
+    '    ].join("\\n");',
+    '    var style = document.getElementById("uap-scroll-stability-style");',
+    '    if (!style) { style = document.createElement("style"); style.id = "uap-scroll-stability-style"; document.head.appendChild(style); }',
+    '    if (style.textContent !== css) style.textContent = css;',
+    '  }',
+    '  window.scrollTo = function(){ if (Date.now() < userScrollUntil) return; return nativeScrollTo.apply(window, arguments); };',
+    '  ["touchstart","touchmove","wheel","scroll"].forEach(function(type){ window.addEventListener(type, markUserScroll, { passive:true, capture:true }); });',
+    '  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", injectStyle, { once:true }); else injectStyle();',
+    '})();'
+  ].join('\n');
+}
+
 function criticalStartupStyle() {
   return [
     '<style id="uap-startup-panel-hard-hide">',
@@ -130,7 +159,7 @@ function withScriptOverrides(resp, url) {
   headers.set('Cache-Control', 'no-store');
   if (!url.pathname.endsWith('/uap-app-overrides.js')) return resp;
   return resp.text().then(function(js) {
-    return new Response(rewriteAppOverrideScript(js), { status: resp.status, statusText: resp.statusText, headers: headers });
+    return new Response(rewriteAppOverrideScript(js) + '\n' + scrollStabilityRuntime(), { status: resp.status, statusText: resp.statusText, headers: headers });
   });
 }
 
