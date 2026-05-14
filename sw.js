@@ -1,6 +1,6 @@
-var CACHE = 'uap-v96-faster-manual-scan-start';
+var CACHE = 'uap-v97-remove-manual-scan';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '96';
+var OVERRIDE_VERSION = '97';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
@@ -22,8 +22,6 @@ var OVERRIDE_FILES = [
   'latest-polish-fix.js',
   'topic-regroup-display-fix.js',
   'new-articles-filter-fix.js',
-  'manual-scan-config.js',
-  'manual-scan-link-fix.js',
   'startup-opaque-fix.js'
 ];
 
@@ -56,7 +54,7 @@ function scriptTag(file) {
 }
 
 function stripOverrideScripts(html) {
-  OVERRIDE_FILES.concat(['translation-override-fix.js']).forEach(function(file) {
+  OVERRIDE_FILES.concat(['translation-override-fix.js', 'manual-scan-config.js', 'manual-scan-link-fix.js']).forEach(function(file) {
     var escaped = file.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     html = html.replace(new RegExp('<script[^>]+src=["\'][^"\']*' + escaped + '[^"\']*["\'][^>]*><\\/script>', 'g'), '');
   });
