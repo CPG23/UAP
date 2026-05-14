@@ -1,6 +1,6 @@
-var CACHE = 'uap-v99-clean-overrides';
+var CACHE = 'uap-v100-clean-feed-overrides';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '99';
+var OVERRIDE_VERSION = '100';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
