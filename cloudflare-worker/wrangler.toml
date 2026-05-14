@@ -1,7 +1,0 @@
-name = "uap-news-scan"
-main = "manual-scan-worker.js"
-compatibility_date = "2026-05-14"
-
-# Optional: set this after deploying if your Pages URL changes.
-# [vars]
-# ALLOWED_ORIGIN = "https://cpg23.github.io"
