@@ -15,6 +15,8 @@ from pathlib import Path
 from typing import Any
 
 LATEST_FILE = Path("latest-news.json")
+NTFY_PAYLOAD_FILE = Path("ntfy-payload.json")
+APP_URL = "https://cpg23.github.io/UAP/"
 
 BAD_SUMMARY_RE = re.compile(
     r"full article text could not be reliably extracted|"
@@ -51,6 +53,46 @@ def is_good_summary(value: Any) -> bool:
     if len(re.findall(r"[.!?]", text)) < 2:
         return False
     return True
+
+
+def rebuild_ntfy_payload(data: dict[str, Any]) -> None:
+    """Make the push notification match only top-level articles visible in the app."""
+    if not NTFY_PAYLOAD_FILE.exists():
+        return
+
+    try:
+        payload = json.loads(NTFY_PAYLOAD_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        NTFY_PAYLOAD_FILE.unlink(missing_ok=True)
+        return
+
+    notification = data.get("notificationBatch") if isinstance(data.get("notificationBatch"), dict) else {}
+    notification_ids = [compact(item) for item in notification.get("ids", [])]
+    visible_by_id = {
+        compact(article.get("id")): article
+        for article in data.get("articles", [])
+        if isinstance(article, dict) and compact(article.get("id"))
+    }
+    visible_articles = [visible_by_id[item_id] for item_id in notification_ids if item_id in visible_by_id][:10]
+
+    if not visible_articles:
+        NTFY_PAYLOAD_FILE.unlink(missing_ok=True)
+        print("summary quality gate: removed ntfy payload because no notified articles remain visible")
+        return
+
+    title_count = len(visible_articles)
+    payload["title"] = f"UAP News - {title_count} new report{'s' if title_count != 1 else ''}"
+    payload["message"] = "\n".join(
+        f"{index + 1}. {compact(article.get('title'))}"
+        for index, article in enumerate(visible_articles)
+    )
+    payload["click"] = APP_URL
+    payload["actions"] = [{"action": "view", "label": "Open app", "url": APP_URL}]
+    payload.pop("attach", None)
+    payload["tags"] = ["flying_saucer"]
+
+    NTFY_PAYLOAD_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"summary quality gate: rebuilt ntfy payload from {title_count} visible app articles")
 
 
 def main() -> None:
@@ -100,6 +142,7 @@ def main() -> None:
     meta["appTopics"] = len(kept)
 
     LATEST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    rebuild_ntfy_payload(data)
     print(f"summary quality gate: kept={len(kept)} removed={len(removed)}")
 
 
