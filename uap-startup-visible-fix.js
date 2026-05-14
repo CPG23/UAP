@@ -13,16 +13,16 @@
     if (!el) return;
 
     el.style.display = 'block';
-    el.style.width = 'min(840px, 96vw)';
-    el.style.maxWidth = '96vw';
-    el.style.maxHeight = '64vh';
+    el.style.width = 'min(1180px, 150vw)';
+    el.style.maxWidth = 'none';
+    el.style.maxHeight = '76vh';
     el.style.margin = '0 auto';
     el.style.opacity = '1';
     el.style.mixBlendMode = 'normal';
     el.style.filter = 'none';
     el.style.maskImage = 'none';
     el.style.webkitMaskImage = 'none';
-    el.style.backgroundColor = 'transparent';
+    el.style.backgroundColor = '#000';
     el.style.border = '0';
     el.style.borderRadius = '0';
     el.style.animation = 'none';
@@ -37,7 +37,7 @@
       el.style.objectFit = 'contain';
       el.style.objectPosition = 'center center';
     } else {
-      el.style.height = 'min(470px, 54vw)';
+      el.style.height = 'min(664px, 84vw)';
       el.style.backgroundSize = 'contain';
       el.style.backgroundPosition = 'center center';
       el.style.backgroundRepeat = 'no-repeat';
