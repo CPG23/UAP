@@ -1,6 +1,6 @@
-var CACHE = 'uap-v104-source-badge-alignment';
+var CACHE = 'uap-v105-rating-sort';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '104';
+var OVERRIDE_VERSION = '105';
 var OVERRIDE_FILES = [
   'uap-app-overrides.js',
   'scroll-stability-fix.js'
@@ -77,6 +77,18 @@ function rewriteStartupLogo(html) {
   return html;
 }
 
+function rewriteAppOverrideScript(js) {
+  js = js.replace(
+    'card.dataset.uapOrder = String(index);',
+    'card.dataset.uapOrder = String(index);\n      card.dataset.uapQuality = String(Number(article.quality || article.score || 0) || 0);\n      card.dataset.uapSortTime = String(parseArticleTime(article, feed) || 0);'
+  );
+  js = js.replace(
+    'return Number(a.dataset.uapOrder || 9999) - Number(b.dataset.uapOrder || 9999);',
+    'var qa = Number(a.dataset.uapQuality || 0);\n      var qb = Number(b.dataset.uapQuality || 0);\n      if (qb !== qa) return qb - qa;\n      var ta = Number(a.dataset.uapSortTime || 0);\n      var tb = Number(b.dataset.uapSortTime || 0);\n      if (tb !== ta) return tb - ta;\n      return Number(a.dataset.uapOrder || 9999) - Number(b.dataset.uapOrder || 9999);'
+  );
+  return js;
+}
+
 function criticalStartupStyle() {
   return [
     '<style id="uap-startup-panel-hard-hide">',
@@ -104,6 +116,15 @@ function withFeedOverrides(resp) {
     html = stripOverrideScripts(html);
     html = html.replace('</body>', OVERRIDE_FILES.map(scriptTag).join('') + '</body>');
     return new Response(html, { status: resp.status, statusText: resp.statusText, headers: headers });
+  });
+}
+
+function withScriptOverrides(resp, url) {
+  var headers = new Headers(resp.headers);
+  headers.set('Cache-Control', 'no-store');
+  if (!url.pathname.endsWith('/uap-app-overrides.js')) return resp;
+  return resp.text().then(function(js) {
+    return new Response(rewriteAppOverrideScript(js), { status: resp.status, statusText: resp.statusText, headers: headers });
   });
 }
 
@@ -136,7 +157,11 @@ self.addEventListener('fetch', function(e) {
   }
 
   if (OVERRIDE_FILES.some(function(file) { return url.pathname.endsWith('/' + file); })) {
-    e.respondWith(fetch(e.request, { cache: 'no-store' }));
+    e.respondWith(
+      fetch(e.request, { cache: 'no-store' }).then(function(resp) {
+        return withScriptOverrides(resp.clone(), url);
+      })
+    );
     return;
   }
 
