@@ -36,7 +36,7 @@ KEY_TERMS = set('trump biden obama pope vatican catholic america congress senate
 OFFICIAL_TERMS = set('congress senate pentagon nasa aaro dod cia fbi military navy government hearing classified declassified foia whistleblower disclosure'.split())
 OFFICIAL_SOURCE_RE = re.compile(r'\b(nasa|pentagon|department of defense|defense\.gov|dod|aaro|congress|senate|house committee|house oversight|dni|odni|cia|fbi|faa|navy|air force|space force|white house|\.gov)\b', re.I)
 TRUSTED_SOURCE_RE = re.compile(r'\b(reuters|associated press|\bap\b|bbc|npr|pbs|abc news|cbs news|nbc news|cnn|fox news|the guardian|new york times|washington post|wall street journal|usa today|politico|the hill|newsweek|newsnation|defensescoop|defense one|breaking defense|military\.com|scientific american|time|axios|bloomberg|forbes|u\.s\. news)\b', re.I)
-BAD_SUMMARY_RE = re.compile(r'full article text could not be reliably extracted|summary is limited to verified feed metadata|the feed lists an article|this item tracks a ', re.I)
+BAD_SUMMARY_RE = re.compile(r'full article text could not be reliably extracted|summary is limited to verified feed metadata|the feed lists an article|this item tracks a |publisher text could not be safely extracted|the headline states|the headline is treated|the article falls under|available feed metadata|listed headline|matched uap terms|for deeper context', re.I)
 
 for path in [NTFY_PAYLOAD_FILE]:
     try:
@@ -65,7 +65,7 @@ def clean_text(text):
 
 
 def clean_title(title):
-    return re.sub(r'\s+[-–]\s+[^-–]{2,45}$', '', clean_text(title)).strip()
+    return re.sub(r'\s+[-\u2013]\s+[^-\u2013]{2,45}$', '', clean_text(title)).strip()
 
 
 def source_credibility(source):
@@ -176,6 +176,7 @@ def fetch_rss(query, cutoff=None):
                 'link': (item.findtext('link') or '').strip(),
                 'description': clean_text(item.findtext('description') or ''),
                 'date': published.strftime('%Y-%m-%d') if published else TODAY,
+                'publishedAt': published.strftime('%Y-%m-%dT%H:%M:%SZ') if published else None,
             }
             article['quality'] = score(article)
             if article['title'] and article['quality'] >= 35:
@@ -303,7 +304,7 @@ def fetch_article_text(article):
         for candidate in [resolved, source]:
             if candidate and candidate not in urls:
                 urls.append(candidate)
-    for url in urls[:4]:
+    for url in urls[:6]:
         text = fetch_with_trafilatura(url) or fetch_with_jina(url)
         if text:
             print('Article text extracted:', article.get('title', '')[:70], '=>', url[:90])
@@ -311,34 +312,21 @@ def fetch_article_text(article):
     return ''
 
 
-def fallback_summary(article):
-    terms = article.get('matchedTerms') or []
-    pieces = [
-        f'This item tracks a {article.get("source", "listed source")} report dated {article.get("date", TODAY)}.',
-        f'The listed headline centers on: "{article.get("title", "this report")}".',
-    ]
-    if terms:
-        pieces.append('The scanner connects the topic with ' + ', '.join(terms[:4]) + ' based on the headline and feed text.')
-    if article.get('clusterTitles'):
-        pieces.append('Related feed headlines mention: ' + '; '.join(article['clusterTitles'][:3]) + '.')
-    pieces.append('The publisher text could not be safely extracted during this scan, so no unsupported details were added.')
-    return ' '.join(pieces)
-
-
 def ai_summary(article, text):
     if not text or len(text) < 650:
         return ''
     prompt = (
-        'Summarize only the article text below in English in 5 to 7 factual sentences. '
+        'Summarize only the article text below in English in 4 to 6 compact factual sentences for a mobile news app. '
         'Do not invent facts, dates, names, evidence, quotes, or connections. Use only claims explicitly present in the text. '
-        'Mention concrete actors, decisions, claims, evidence, and uncertainty when present. '
+        'Focus on what happened, who is involved, what evidence or statements are described, and what remains uncertain. '
+        'Do not mention metadata, categories, extraction, the scanner, the headline as headline, or the app. '
         'If the text is not sufficient, answer exactly: INSUFFICIENT_SOURCE_TEXT. No markdown.\n\n'
         f'Title: {article.get("title", "")}\nSource: {article.get("source", "")}\n\n{text[:9000]}'
     )
     payload = json.dumps({
         'model': 'openai',
         'messages': [
-            {'role': 'system', 'content': 'Reply only with the requested English summary. No markdown.'},
+            {'role': 'system', 'content': 'Reply only with the requested article-content summary. No markdown.'},
             {'role': 'user', 'content': prompt},
         ],
         'max_tokens': 950,
@@ -349,7 +337,7 @@ def ai_summary(article, text):
         with urllib.request.urlopen(req, timeout=40) as r:
             data = json.loads(r.read())
         summary = (((data.get('choices') or [{}])[0].get('message') or {}).get('content') or '').strip()
-        return '' if summary == 'INSUFFICIENT_SOURCE_TEXT' or len(summary) < 180 else summary
+        return '' if summary == 'INSUFFICIENT_SOURCE_TEXT' or not is_good_summary(summary) else summary
     except Exception as exc:
         print(f'AI summary failed for {article.get("title", "")[:50]}: {exc}')
         return ''
@@ -385,13 +373,14 @@ def is_good_summary(text):
 
 def payload_article(article, summaries):
     aid = article_identity(article)
-    summary = summaries.get(aid) or article.get('summary') or fallback_summary(article)
+    summary = summaries.get(aid) or article.get('summary') or ''
     return {
         'id': aid,
         'title': article['title'],
         'source': article.get('source', 'UAP News'),
         'link': article.get('link', ''),
         'date': article.get('date', TODAY),
+        'publishedAt': article.get('publishedAt'),
         'summary': summary,
         'mentions': article.get('mentions', 1),
         'otherSources': article.get('otherSources', []),
@@ -463,17 +452,19 @@ retained = merge_articles(fresh, existing_articles)
 print(f'Notification: {len(notif_articles)} articles, {len(grouped_notif)} topics, {len(new_articles)} new')
 print(f'App feed topics after retention: {len(retained)}')
 
-summaries = {k: v for k, v in existing_summaries.items()} if isinstance(existing_summaries, dict) else {}
+summaries = {k: v for k, v in existing_summaries.items() if is_good_summary(v)} if isinstance(existing_summaries, dict) else {}
 for article in retained[:SUMMARY_LIMIT]:
     aid = article_identity(article)
     if is_good_summary(summaries.get(aid)):
         continue
     text = fetch_article_text(article)
-    summaries[aid] = ai_summary(article, text) or fallback_summary(article)
+    summary = ai_summary(article, text)
+    if summary:
+        summaries[aid] = summary
     time.sleep(1)
 
 article_payloads = [payload_article(article, summaries) for article in retained]
-summaries = {a['id']: a['summary'] for a in article_payloads}
+summaries = {a['id']: a['summary'] for a in article_payloads if is_good_summary(a.get('summary'))}
 
 latest = {
     'timestamp': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
@@ -492,12 +483,13 @@ latest = {
         'newNotificationTopics': len(new_articles),
         'appTopics': len(article_payloads),
         'retentionDays': RETENTION_DAYS,
+        'summaryPolicy': 'Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.',
         'filters': 'UAP relevance plus entertainment/gaming/fiction exclusion',
         'quality': 'Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering',
     },
 }
 json.dump(latest, open(LATEST_FILE, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-print(f'latest-news.json: {len(article_payloads)} app topics, {len(summaries)} summary keys')
+print(f'latest-news.json: {len(article_payloads)} app topics, {len(summaries)} usable summary keys before quality gate')
 
 if new_articles:
     new_ids = list(notified_ids | {a['id'] for a in new_articles})[-500:]
