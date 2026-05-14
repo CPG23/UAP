@@ -1,16 +1,17 @@
-var CACHE = 'uap-v112-quality-display';
+var CACHE = 'uap-v113-consolidated-normalize';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '112';
+var OVERRIDE_VERSION = '113';
 var OVERRIDE_FILES = [
+  'uap-feed-normalize.js',
+  'uap-app-overrides.js',
+  'scroll-stability-fix.js'
+];
+var RETIRED_OVERRIDE_FILES = [
   'feed-cluster-safety-fix.js',
   'feed-rating-normalize-fix.js',
   'feed-title-dedupe-fix.js',
   'feed-quality-balance-fix.js',
-  'uap-app-overrides.js',
   'feed-quality-display-fix.js',
-  'scroll-stability-fix.js'
-];
-var RETIRED_OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
   'bell-icon-fix.js',
