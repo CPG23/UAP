@@ -1,7 +1,8 @@
-var CACHE = 'uap-v105-rating-sort';
+var CACHE = 'uap-v106-feed-cluster-safety';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '105';
+var OVERRIDE_VERSION = '106';
 var OVERRIDE_FILES = [
+  'feed-cluster-safety-fix.js',
   'uap-app-overrides.js',
   'scroll-stability-fix.js'
 ];
