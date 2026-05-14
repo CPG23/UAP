@@ -1,6 +1,6 @@
-var CACHE = 'uap-v92-manual-scan-config';
+var CACHE = 'uap-v93-live-manual-scan-endpoint';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '92';
+var OVERRIDE_VERSION = '93';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
