@@ -18,8 +18,9 @@ NEWS_PATH = ROOT / "latest-news.json"
 
 UAP_RE = re.compile(r"\b(uap|ufo|ufos|ovni|unidentified\s+(?:aerial|anomalous|flying)|alien)\b", re.I)
 FILE_RE = re.compile(r"\b(file|files|record|records|archive|document|documents|photo|photos|image|images|video|videos|footage|akten|fotos)\b", re.I)
-RELEASE_RE = re.compile(r"\b(release|released|releases|declassif|publish|published|publishes|unseal|disclos|drops?|freig|veroffentlicht|veroeffentlicht)\b", re.I)
+RELEASE_RE = re.compile(r"\b(release|released|releases|declassif|publish|published|publishes|unseal|disclos|freig|veroffentlicht|veroeffentlicht)\b", re.I)
 OFFICIAL_RE = re.compile(r"\b(pentagon|dod|defense|defence|government|congress|aoc|aaro|foia|trump|white\s+house|national\s+archives|us|u\.s\.|official|federal)\b", re.I)
+PREFERRED_FILE_SOURCE_RE = re.compile(r"\b(npr|al jazeera|abc|newsnation|sky news|defense|defence|aerotime|florida today|australian broadcasting|liveNOW|fox)\b", re.I)
 
 SPACE_RE = re.compile(r"\s+")
 
@@ -70,14 +71,38 @@ def same_topic(a: dict[str, Any], b: dict[str, Any]) -> bool:
 def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
     return {
         "title": article.get("title", ""),
-        "url": article.get("url", ""),
+        "url": article.get("url") or article.get("link", ""),
+        "link": article.get("link") or article.get("url", ""),
         "source": article.get("source", ""),
         "publishedAt": article.get("publishedAt") or article.get("detectedAt"),
     }
 
 
+def article_from_source(source: dict[str, Any], template: dict[str, Any]) -> dict[str, Any]:
+    title = clean(source.get("title"))
+    url = clean(source.get("url") or source.get("link"))
+    article_id = "-".join(sorted(set(re.sub(r"[^a-z0-9]", " ", title.lower()).split()))[:10]) or template.get("id") or "uap-file-release"
+    return {
+        "id": article_id,
+        "title": title,
+        "source": clean(source.get("source")) or "UAP News",
+        "link": url,
+        "date": template.get("date"),
+        "publishedAt": source.get("publishedAt") or template.get("publishedAt"),
+        "summary": template.get("summary", ""),
+        "mentions": 1,
+        "otherSources": [],
+        "clusterTitles": [],
+        "quality": template.get("quality", 0),
+        "qualityBreakdown": template.get("qualityBreakdown", []),
+        "qualityExplanation": template.get("qualityExplanation", ""),
+        "matchedTerms": template.get("matchedTerms", []),
+        "sourceQuality": template.get("sourceQuality", template.get("quality", 0)),
+    }
+
+
 def source_key(source: dict[str, Any]) -> str:
-    return clean(source.get("url") or source.get("title") or source.get("source")).lower()
+    return clean(source.get("url") or source.get("link") or source.get("title") or source.get("source")).lower()
 
 
 def all_sources(article: dict[str, Any]) -> list[dict[str, Any]]:
@@ -119,6 +144,14 @@ def merge_quality(primary: dict[str, Any], source_count: int) -> int:
     return max(0, min(100, base + max(0, source_count - 1) * 3))
 
 
+def source_rank(source: dict[str, Any]) -> tuple[int, int]:
+    text = source_topic_text(source)
+    return (
+        1 if PREFERRED_FILE_SOURCE_RE.search(text) else 0,
+        len(clean(source.get("title"))),
+    )
+
+
 def merge_group(group: list[dict[str, Any]]) -> dict[str, Any]:
     primary = deepcopy(group[0])
     sources = dedupe_sources([source for article in group for source in all_sources(article)])
@@ -133,6 +166,37 @@ def merge_group(group: list[dict[str, Any]]) -> dict[str, Any]:
     primary.pop("translations", None)
     primary.pop("translationMeta", None)
     return primary
+
+
+def split_overmerged_file_sources(article: dict[str, Any]) -> list[dict[str, Any]]:
+    """Move UAP file-release sources out of an unrelated primary article."""
+    primary_source = source_from_article(article)
+    other_sources = [deepcopy(source) for source in article.get("otherSources") or [] if isinstance(source, dict)]
+    file_sources = dedupe_sources([source for source in other_sources if source_is_uap_file_release(source)])
+    non_file_sources = [source for source in other_sources if not source_is_uap_file_release(source)]
+
+    if not file_sources or is_uap_file_release(article):
+        return [article]
+
+    repaired_primary = deepcopy(article)
+    repaired_primary["otherSources"] = non_file_sources
+    repaired_primary["mentions"] = max(1, 1 + len(non_file_sources))
+    repaired_primary["clusterTitles"] = unique_titles(non_file_sources, repaired_primary.get("title", ""))
+    repaired_primary["sourceQuality"] = merge_quality(repaired_primary, repaired_primary["mentions"])
+    repaired_primary.pop("translations", None)
+    repaired_primary.pop("translationMeta", None)
+
+    file_sources.sort(key=source_rank, reverse=True)
+    file_article = article_from_source(file_sources[0], article)
+    sources = dedupe_sources(file_sources)
+    file_article["otherSources"] = sources[1:]
+    file_article["mentions"] = len(sources)
+    file_article["clusterTitles"] = unique_titles(sources[1:], file_article.get("title", ""))
+    file_article["sourceQuality"] = merge_quality(file_article, len(sources))
+    file_article["quality"] = max(int(file_article.get("quality") or 0), file_article["sourceQuality"])
+    file_article["matchedTerms"] = sorted(set((file_article.get("matchedTerms") or []) + ["PENTAGON", "DISCLOSURE"]))[:8]
+
+    return [repaired_primary, file_article]
 
 
 def prune_overmerged_sources(article: dict[str, Any]) -> dict[str, Any]:
@@ -177,7 +241,11 @@ def regroup(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
         else:
             merged.append(deepcopy(article))
 
-    return [prune_overmerged_sources(article) for article in merged]
+    repaired: list[dict[str, Any]] = []
+    for article in merged:
+        for split_article in split_overmerged_file_sources(prune_overmerged_sources(article)):
+            repaired.append(split_article)
+    return repaired
 
 
 def main() -> None:
@@ -188,7 +256,7 @@ def main() -> None:
 
     meta = payload.setdefault("scanMeta", {})
     meta["regroupedTopics"] = before - len(payload["articles"])
-    meta["topicRegrouping"] = "title_summary_uap_file_release_v3"
+    meta["topicRegrouping"] = "title_summary_uap_file_release_v4"
 
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
