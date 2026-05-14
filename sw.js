@@ -1,12 +1,13 @@
-var CACHE = 'uap-v111-quality-balance';
+var CACHE = 'uap-v112-quality-display';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '111';
+var OVERRIDE_VERSION = '112';
 var OVERRIDE_FILES = [
   'feed-cluster-safety-fix.js',
   'feed-rating-normalize-fix.js',
   'feed-title-dedupe-fix.js',
   'feed-quality-balance-fix.js',
   'uap-app-overrides.js',
+  'feed-quality-display-fix.js',
   'scroll-stability-fix.js'
 ];
 var RETIRED_OVERRIDE_FILES = [
