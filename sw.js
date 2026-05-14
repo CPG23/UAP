@@ -1,6 +1,6 @@
-var CACHE = 'uap-v125-startup-still-final-size';
+var CACHE = 'uap-v126-startup-large-black';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '125';
+var OVERRIDE_VERSION = '126';
 var OVERRIDE_FILES = [
   'uap-startup-alien.js',
   'uap-startup-visible-fix.js',
@@ -8,7 +8,7 @@ var OVERRIDE_FILES = [
   'uap-app-overrides.js'
 ];
 
-var STARTUP_STILL_STYLE = '\n#loading{background:#000!important;background-color:#000!important;background-image:none!important;overflow:hidden!important;}\n#loading .alien-head{width:min(840px,96vw)!important;height:min(470px,54vw)!important;max-width:96vw!important;max-height:64vh!important;opacity:1!important;mix-blend-mode:normal!important;filter:none!important;mask-image:none!important;-webkit-mask-image:none!important;animation:none!important;transition:none!important;transform:none!important;will-change:auto!important;background-size:contain!important;background-position:center center!important;background-repeat:no-repeat!important;}\n#loading img.alien-head{height:auto!important;object-fit:contain!important;object-position:center center!important;}\n';
+var STARTUP_STILL_STYLE = '\n#loading{background:#000!important;background-color:#000!important;background-image:none!important;overflow:hidden!important;}\n#loading .alien-head{width:min(1180px,150vw)!important;height:min(664px,84vw)!important;max-width:none!important;max-height:76vh!important;opacity:1!important;mix-blend-mode:normal!important;filter:none!important;mask-image:none!important;-webkit-mask-image:none!important;animation:none!important;transition:none!important;transform:none!important;will-change:auto!important;background-color:#000!important;background-size:contain!important;background-position:center center!important;background-repeat:no-repeat!important;}\n#loading img.alien-head{height:auto!important;object-fit:contain!important;object-position:center center!important;}\n';
 
 self.addEventListener('install', function(e) {
   e.waitUntil(self.skipWaiting());
