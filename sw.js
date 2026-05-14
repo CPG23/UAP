@@ -1,7 +1,9 @@
-var CACHE = 'uap-v119-startup-image-script';
+var CACHE = 'uap-v120-startup-image-visible';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '119';
+var OVERRIDE_VERSION = '120';
 var OVERRIDE_FILES = [
+  'uap-startup-alien.js',
+  'uap-startup-visible-fix.js',
   'uap-feed-normalize.js',
   'uap-app-overrides.js'
 ];
