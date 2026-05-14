@@ -1,6 +1,6 @@
-var CACHE = 'uap-v98-normal-notification-open';
+var CACHE = 'uap-v99-clean-overrides';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '98';
+var OVERRIDE_VERSION = '99';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
@@ -9,21 +9,26 @@ var OVERRIDE_FILES = [
   'quality-affordance-fix.js',
   'logo-title-fix.js',
   'startup-polish-fix.js',
-  'summary-fallback-fix.js',
-  'quality-wording-fix.js',
-  'quality-order-startup-fix.js',
-  'summary-metadata-fix.js',
   'quality-info-points-fix.js',
   'article-detail-rating-fix.js',
   'notification-direct-fix.js',
   'all-articles-layout-fix.js',
-  'final-ui-order-fix.js',
   'scroll-heading-fix.js',
   'latest-polish-fix.js',
   'topic-regroup-display-fix.js',
   'new-articles-filter-fix.js',
   'notification-normal-open-fix.js',
   'startup-opaque-fix.js'
+];
+var RETIRED_OVERRIDE_FILES = [
+  'translation-override-fix.js',
+  'manual-scan-config.js',
+  'manual-scan-link-fix.js',
+  'summary-fallback-fix.js',
+  'summary-metadata-fix.js',
+  'quality-wording-fix.js',
+  'quality-order-startup-fix.js',
+  'final-ui-order-fix.js'
 ];
 
 self.addEventListener('install', function(e) {
@@ -55,7 +60,7 @@ function scriptTag(file) {
 }
 
 function stripOverrideScripts(html) {
-  OVERRIDE_FILES.concat(['translation-override-fix.js', 'manual-scan-config.js', 'manual-scan-link-fix.js']).forEach(function(file) {
+  OVERRIDE_FILES.concat(RETIRED_OVERRIDE_FILES).forEach(function(file) {
     var escaped = file.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     html = html.replace(new RegExp('<script[^>]+src=["\'][^"\']*' + escaped + '[^"\']*["\'][^>]*><\\/script>', 'g'), '');
   });
