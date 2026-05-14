@@ -7,6 +7,7 @@
   var REQUEST_TIMEOUT_MS = 20000;
   var POLL_INTERVAL_MS = 6000;
   var POLL_LIMIT = 70;
+  var UI_VERSION = 'v95';
 
   function configuredApiUrl(){
     var value = String(window.UAP_SCAN_API_URL || SCAN_API_URL || '').replace(/\/$/, '');
@@ -34,13 +35,24 @@
 
   function fetchWithTimeout(url, options, message){
     var controller = window.AbortController ? new AbortController() : null;
-    var timer = setTimeout(function(){ if (controller) controller.abort(); }, REQUEST_TIMEOUT_MS);
     var opts = Object.assign({}, options || {});
+    var timedOut = false;
     if (controller) opts.signal = controller.signal;
-    return fetch(url, opts).catch(function(err){
-      if (err && err.name === 'AbortError') throw new Error(message || 'Keine Antwort vom Scan-Dienst.');
+
+    var timeoutPromise = new Promise(function(_, reject){
+      setTimeout(function(){
+        timedOut = true;
+        if (controller) controller.abort();
+        reject(new Error(message || 'Keine Antwort vom Scan-Dienst.'));
+      }, REQUEST_TIMEOUT_MS);
+    });
+
+    var fetchPromise = fetch(url, opts).catch(function(err){
+      if (timedOut || (err && err.name === 'AbortError')) throw new Error(message || 'Keine Antwort vom Scan-Dienst.');
       throw err;
-    }).finally(function(){ clearTimeout(timer); });
+    });
+
+    return Promise.race([fetchPromise, timeoutPromise]);
   }
 
   function showScanInfo(text, type, persist){
@@ -187,9 +199,10 @@
     if (!pin) return;
 
     setRunning(true);
-    showScanInfo('Scan wird gestartet...', '', true);
+    showScanInfo('Scan wird gestartet... ' + UI_VERSION, '', true);
     fetchFeedSnapshot()
       .then(function(before){
+        showScanInfo('Scan-Dienst wird kontaktiert... ' + UI_VERSION, '', true);
         return postScan(apiUrl, pin).then(function(started){
           var since = started && started.startedAt ? started.startedAt : new Date().toISOString();
           showScanInfo('Scan gestartet. GitHub prüft jetzt neue UAP-Nachrichten...', '', true);
