@@ -14,6 +14,7 @@ on:
       - .github/scripts/sync_summaries.py
       - .github/scripts/source_quality_adjust.py
       - .github/scripts/regroup_topics.py
+      - .github/scripts/normalize_feed_clusters.py
       - .github/scripts/summary_quality_gate.py
       - .github/scripts/precompute_translations.py
       - .github/workflows/daily-scan.yml
@@ -59,6 +60,7 @@ jobs:
           python3 .github/scripts/sync_summaries.py
           python3 .github/scripts/source_quality_adjust.py
           python3 .github/scripts/regroup_topics.py
+          python3 .github/scripts/normalize_feed_clusters.py
           python3 .github/scripts/summary_quality_gate.py
           python3 .github/scripts/precompute_translations.py
 
