@@ -1,12 +1,14 @@
-var CACHE = 'uap-v124-startup-black-contain';
+var CACHE = 'uap-v125-startup-still-final-size';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '124';
+var OVERRIDE_VERSION = '125';
 var OVERRIDE_FILES = [
   'uap-startup-alien.js',
   'uap-startup-visible-fix.js',
   'uap-feed-normalize.js',
   'uap-app-overrides.js'
 ];
+
+var STARTUP_STILL_STYLE = '\n#loading{background:#000!important;background-color:#000!important;background-image:none!important;overflow:hidden!important;}\n#loading .alien-head{width:min(840px,96vw)!important;height:min(470px,54vw)!important;max-width:96vw!important;max-height:64vh!important;opacity:1!important;mix-blend-mode:normal!important;filter:none!important;mask-image:none!important;-webkit-mask-image:none!important;animation:none!important;transition:none!important;transform:none!important;will-change:auto!important;background-size:contain!important;background-position:center center!important;background-repeat:no-repeat!important;}\n#loading img.alien-head{height:auto!important;object-fit:contain!important;object-position:center center!important;}\n';
 
 self.addEventListener('install', function(e) {
   e.waitUntil(self.skipWaiting());
@@ -49,6 +51,7 @@ function withFeedOverrides(resp) {
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
     html = stripOverrideScripts(html);
+    html = html.replace('</style>', STARTUP_STILL_STYLE + '</style>');
     html = html.replace('</body>', OVERRIDE_FILES.map(scriptTag).join('') + '</body>');
     return new Response(html, { status: resp.status, statusText: resp.statusText, headers: headers });
   });
