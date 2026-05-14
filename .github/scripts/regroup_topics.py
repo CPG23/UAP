@@ -29,8 +29,14 @@ STRONG_TERMS = set(
     "aaro alien archive archives congress crash declassified disclosure document documents dod "
     "federal files foia government hearing image images military nasa nonhuman pentagon photos pilot "
     "radar records release released senate sighting sightings trump video videos war whistleblower "
-    "ukraine ukrainian russia russian defense defence ministry cia lazar corbell cyprus".split()
+    "ukraine ukrainian russia russian defense defence ministry cia lazar corbell cyprus pursue website".split()
 )
+
+UAP_RE = re.compile(r"\b(uap|uaps|ufo|ufos|unidentified anomalous|unidentified aerial|unidentified flying|alien)\b")
+FILE_RE = re.compile(r"\b(file|files|record|records|archive|archives|document|documents|video|videos|photo|photos|material|materials)\b")
+RELEASE_RE = re.compile(r"\b(release|released|releases|releasing|declassif|unseal|unsealed|publish|published|posting|posted|drops?|opens?)\b")
+US_GOV_RE = re.compile(r"\b(pentagon|department of war|defense department|defence department|dod|war\.gov|pursue|trump|united states|u\.s\.|us government|federal|state department|fbi|nasa)\b")
+WEBSITE_RE = re.compile(r"\b(website|site|portal|war\.gov|hits|launch|launched|public view)\b")
 
 
 def clean(value: Any) -> str:
@@ -43,6 +49,26 @@ def words(text: str) -> list[str]:
 
 def word_set(text: str) -> set[str]:
     return set(words(text))
+
+
+def story_key(text: str) -> str:
+    raw = clean(text).lower()
+    if "sleeping dog" in raw and re.search(r"\b(corbell|lazar|whistleblower|cia|ufo|uap)\b", raw):
+        return "sleeping-dog-corbell"
+
+    has_uap = bool(UAP_RE.search(raw))
+    has_files = bool(FILE_RE.search(raw))
+    has_release = bool(RELEASE_RE.search(raw))
+    has_gov = bool(US_GOV_RE.search(raw))
+    has_site = bool(WEBSITE_RE.search(raw))
+
+    if has_uap and has_files and has_release and has_gov:
+        return "us-uap-file-release"
+    if has_uap and has_gov and has_site and (has_files or has_release):
+        return "us-uap-file-release"
+    if "pursue" in raw and has_uap and (has_files or has_release or has_site):
+        return "us-uap-file-release"
+    return ""
 
 
 def article_text(article: dict[str, Any]) -> str:
@@ -86,11 +112,23 @@ def same_story_words(a_words: set[str], b_words: set[str]) -> bool:
 
 
 def same_story_article(a: dict[str, Any], b: dict[str, Any]) -> bool:
-    return same_story_words(word_set(article_text(a)), word_set(article_text(b)))
+    a_text = article_text(a)
+    b_text = article_text(b)
+    a_key = story_key(a_text)
+    b_key = story_key(b_text)
+    if a_key or b_key:
+        return a_key == b_key
+    return same_story_words(word_set(a_text), word_set(b_text))
 
 
 def same_story_source(article: dict[str, Any], source: dict[str, Any]) -> bool:
-    return same_story_words(word_set(article_text(article)), word_set(source_text(source)))
+    a_text = article_text(article)
+    s_text = source_text(source)
+    a_key = story_key(a_text)
+    s_key = story_key(s_text)
+    if a_key or s_key:
+        return a_key == s_key
+    return same_story_words(word_set(a_text), word_set(s_text))
 
 
 def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
@@ -128,7 +166,7 @@ def unique_titles(sources: list[dict[str, Any]], primary_title: str) -> list[str
             continue
         seen.add(key)
         titles.append(title)
-    return titles[:8]
+    return titles[:10]
 
 
 def merge_quality(primary: dict[str, Any], source_count: int) -> int:
@@ -201,8 +239,8 @@ def main() -> None:
 
     meta = payload.setdefault("scanMeta", {})
     meta["regroupedTopics"] = before - len(payload["articles"])
-    meta["topicRegrouping"] = "title_summary_similarity_v5"
-    meta["topicGroupingPolicy"] = "title_and_summary_similarity_required; broad_uap_terms_alone_do_not_group"
+    meta["topicRegrouping"] = "title_summary_story_signature_v6"
+    meta["topicGroupingPolicy"] = "story_signature_or_title_summary_similarity; broad_uap_terms_alone_do_not_group"
 
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
