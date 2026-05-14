@@ -96,15 +96,15 @@
       '#uap-new-filter-empty{display:none;margin:0 0 12px;padding:11px 12px;border:1px solid rgba(0,212,255,.28);background:rgba(0,212,255,.055);color:#9fc7d4;font-family:"Share Tech Mono",monospace;font-size:10px;line-height:1.5}',
       'body.uap-new-filter-active.uap-new-filter-empty #uap-new-filter-empty{display:block}',
       '#feed{display:flex!important;flex-direction:column!important;gap:12px!important;overflow-anchor:none!important}',
-      '.article-card{cursor:pointer;transform:translateZ(0);overflow-anchor:none!important}.article-card.uap-detail-open{contain:layout style!important}.article-card h2{color:#eef9fd!important;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif!important;font-weight:700!important;letter-spacing:0!important;text-transform:none!important;text-shadow:none!important}',
+      '.article-card{cursor:pointer;transform:translateZ(0);overflow-anchor:none!important}.article-card.open:not(.uap-detail-open) .details{display:none!important}.article-card.open:not(.uap-detail-open) .uap-detail-summary{display:none!important}.article-card.uap-detail-open{contain:layout style!important}.article-card h2{color:#eef9fd!important;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif!important;font-weight:700!important;letter-spacing:0!important;text-transform:none!important;text-shadow:none!important}',
       '.article-main{width:100%;text-align:left;border:0;background:transparent;color:inherit;padding:14px 16px 12px 18px;cursor:pointer;overflow-anchor:none!important}',
       '.article-topline{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:9px}.article-topline .badges{display:flex!important;align-items:center!important;justify-content:flex-end!important;gap:6px!important;margin:0!important;flex:1 1 auto}',
       '.article-date-prominent{flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;color:#d7f6ff;border:1px solid rgba(13,58,92,.95);background:rgba(0,212,255,.085);padding:4px 8px;font-family:"Share Tech Mono",monospace;font-size:11px;letter-spacing:1.2px;white-space:nowrap}.article-date-prominent::before{content:"DATUM";color:#00d4ff;font-size:9px;letter-spacing:1.4px}',
       '.badge.sources{display:inline-flex!important;align-items:center!important;justify-content:center!important;box-sizing:border-box!important;min-height:24px!important;padding:4px 8px!important;line-height:1!important;vertical-align:middle!important}',
       '.badge.quality{position:relative!important;display:inline-flex!important;align-items:center!important;gap:5px!important;padding:4px 8px!important;min-height:24px!important;border-color:rgba(0,255,157,.46)!important;background:linear-gradient(135deg,rgba(0,255,157,.13),rgba(0,212,255,.08))!important;cursor:pointer!important}.badge.quality::after{content:"i";display:inline-flex;align-items:center;justify-content:center;width:13px;height:13px;border:1px solid rgba(13,58,92,.95);border-radius:50%;color:#00d4ff;font-family:"Share Tech Mono",monospace;font-size:9px;line-height:1;letter-spacing:0}',
       '.article-card.uap-is-new{border-color:rgba(0,255,157,.95)!important;box-shadow:0 0 0 1px rgba(0,255,157,.38),0 0 24px rgba(0,255,157,.18)!important}.article-card.uap-is-new::before{background:#00ff9d!important;opacity:1!important;width:4px!important;box-shadow:0 0 18px rgba(0,255,157,.9)!important}.badge.uap-new-badge{border-color:rgba(0,255,157,.9)!important;background:rgba(0,255,157,.18)!important;color:#eafff4!important;box-shadow:0 0 16px rgba(0,255,157,.22)!important}',
-      '.uap-summary-preview{display:none!important}.uap-detail-summary{display:none!important;margin:12px 16px 0 18px!important;color:#b7ccd5!important;line-height:1.55!important;font-size:14px!important;overflow-anchor:auto!important}.article-card.uap-detail-open .uap-detail-summary,.article-card.uap-detail-open .details{display:block!important}',
-      '.details{display:none;border-top:1px solid rgba(13,58,92,.72);background:rgba(3,10,15,.46);padding:14px 16px 16px 18px;overflow-anchor:auto!important}.actions{display:flex;gap:8px;margin-bottom:12px}.translate-btn{min-height:34px;border:1px solid rgba(0,212,255,.42);background:rgba(0,212,255,.07);color:#00d4ff;font-family:"Share Tech Mono",monospace;font-size:10px;letter-spacing:1.2px;cursor:pointer}.article-card.uap-translation-active h2,.article-card.uap-translation-active .uap-detail-summary{color:#b8ffd7!important}',
+      '.uap-summary-preview{display:none!important}.uap-detail-summary{display:none!important;margin:12px 16px 0 18px!important;color:#b7ccd5!important;line-height:1.55!important;font-size:14px!important;overflow-anchor:auto!important}.article-card.uap-detail-open .uap-detail-summary{display:block!important}',
+      '.details{display:none!important;border-top:1px solid rgba(13,58,92,.72);background:rgba(3,10,15,.46);padding:14px 16px 16px 18px;overflow-anchor:auto!important}.article-card.uap-detail-open .details{display:block!important}.actions{display:flex;gap:8px;margin-bottom:12px}.translate-btn{min-height:34px;border:1px solid rgba(0,212,255,.42);background:rgba(0,212,255,.07);color:#00d4ff;font-family:"Share Tech Mono",monospace;font-size:10px;letter-spacing:1.2px;cursor:pointer}.article-card.uap-translation-active h2,.article-card.uap-translation-active .uap-detail-summary{color:#b8ffd7!important}',
       '.sources-title{color:#00ff9d;font-family:"Share Tech Mono",monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;margin-bottom:9px}.source-list{display:grid;gap:8px}.source-link{display:block;border:1px solid rgba(13,58,92,.72);background:rgba(0,212,255,.035);padding:9px 10px;text-decoration:none}.source-name{color:#00d4ff;font-family:"Share Tech Mono",monospace;font-size:10px;letter-spacing:1.2px}.source-headline{margin-top:4px;color:#a9bfca;font-size:12px;line-height:1.35}',
       '.notify-btn{display:inline-flex!important;align-items:center!important;justify-content:center!important;position:relative}.notify-btn svg{width:19px;height:19px;display:block;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none}.notify-btn.active{color:#07130f!important;border-color:rgba(0,255,157,.9)!important;background:#00ff9d!important;box-shadow:0 0 18px rgba(0,255,157,.38)}.notify-btn.blocked{color:#ffb69c!important;border-color:rgba(255,107,53,.5)!important;background:rgba(255,107,53,.08)!important}.notify-btn.active .notify-slash{display:none}',
       '.quality-top-help{display:inline-flex;align-items:center;gap:8px;margin:0 0 12px;padding:7px 10px;border:1px solid rgba(0,255,157,.42);background:rgba(0,255,157,.075);color:#c6ffe4;font-family:"Share Tech Mono",monospace;font-size:11px;letter-spacing:1.1px;cursor:pointer}.quality-top-help .quality-info-dot{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border:1px solid rgba(0,212,255,.72);border-radius:50%;color:#00d4ff;font-size:10px;letter-spacing:0}',
@@ -337,7 +337,7 @@
       delete state.translated[id];
       renderFeed();
       var restored = document.querySelector('.article-card[data-uap-id="' + CSS.escape(id) + '"]');
-      if (restored) restored.classList.add('uap-detail-open');
+      if (restored) setArticleOpen(restored, true);
       return;
     }
     var prepared = choosePrepared(article);
@@ -352,7 +352,15 @@
     state.translated[id] = { title: compact(prepared.title || article.title), summary: compact(prepared.summary || article.summary) };
     renderFeed();
     var updated = document.querySelector('.article-card[data-uap-id="' + CSS.escape(id) + '"]');
-    if (updated) updated.classList.add('uap-detail-open');
+    if (updated) setArticleOpen(updated, true);
+  }
+
+  function setArticleOpen(card, open){
+    if (!card) return;
+    card.classList.toggle('uap-detail-open', !!open);
+    card.classList.toggle('open', !!open);
+    var main = card.querySelector('.article-main');
+    if (main) main.setAttribute('aria-expanded', open ? 'true' : 'false');
   }
 
   function bindEvents(){
@@ -372,10 +380,7 @@
       var card = e.target.closest && e.target.closest('.article-card');
       if (!card || e.target.closest('a,input,select,textarea,.source-list,.quality-overlay,.notify-guide-overlay')) return;
       e.preventDefault();
-      var open = !card.classList.contains('uap-detail-open');
-      card.classList.toggle('uap-detail-open', open);
-      var main = card.querySelector('.article-main');
-      if (main) main.setAttribute('aria-expanded', open ? 'true' : 'false');
+      setArticleOpen(card, !card.classList.contains('uap-detail-open'));
     }, true);
     document.addEventListener('keydown', function(e){
       if (e.key === 'Escape') { closeQuality(); closeNotifyGuide(); return; }
