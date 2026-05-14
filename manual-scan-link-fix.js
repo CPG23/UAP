@@ -7,7 +7,7 @@
   var REQUEST_TIMEOUT_MS = 20000;
   var POLL_INTERVAL_MS = 6000;
   var POLL_LIMIT = 70;
-  var UI_VERSION = 'v95';
+  var UI_VERSION = 'v96';
 
   function configuredApiUrl(){
     var value = String(window.UAP_SCAN_API_URL || SCAN_API_URL || '').replace(/\/$/, '');
@@ -199,15 +199,14 @@
     if (!pin) return;
 
     setRunning(true);
-    showScanInfo('Scan wird gestartet... ' + UI_VERSION, '', true);
-    fetchFeedSnapshot()
-      .then(function(before){
-        showScanInfo('Scan-Dienst wird kontaktiert... ' + UI_VERSION, '', true);
-        return postScan(apiUrl, pin).then(function(started){
-          var since = started && started.startedAt ? started.startedAt : new Date().toISOString();
-          showScanInfo('Scan gestartet. GitHub prüft jetzt neue UAP-Nachrichten...', '', true);
-          return pollUntilDone(apiUrl, pin, since, before, 0);
-        });
+    showScanInfo('Scan-Dienst wird kontaktiert... ' + UI_VERSION, '', true);
+    Promise.all([fetchFeedSnapshot(), postScan(apiUrl, pin)])
+      .then(function(results){
+        var before = results[0] || { timestamp:'', ids:[] };
+        var started = results[1] || {};
+        var since = started.startedAt ? started.startedAt : new Date().toISOString();
+        showScanInfo('Scan gestartet. GitHub prüft jetzt neue UAP-Nachrichten...', '', true);
+        return pollUntilDone(apiUrl, pin, since, before, 0);
       })
       .catch(function(err){
         if (err && err.status === 401) forgetStoredPin();
