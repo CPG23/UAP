@@ -13,6 +13,7 @@ on:
       - .github/scripts/sync_summaries.py
       - .github/scripts/source_quality_adjust.py
       - .github/scripts/regroup_topics.py
+      - .github/scripts/summary_quality_gate.py
       - .github/scripts/precompute_translations.py
       - .github/workflows/daily-scan.yml
 
@@ -49,12 +50,13 @@ jobs:
         env:
           NTFY_TOPIC: UAP-News26
         run: |
-          echo "Running refreshed UAP scan with summary-aware regrouping"
+          echo "Running refreshed UAP scan with article-content summary gate"
           python3 .github/scripts/daily_scan.py
           python3 .github/scripts/enrich_summaries.py
           python3 .github/scripts/sync_summaries.py
           python3 .github/scripts/source_quality_adjust.py
           python3 .github/scripts/regroup_topics.py
+          python3 .github/scripts/summary_quality_gate.py
           python3 .github/scripts/precompute_translations.py
 
       - name: Publish latest-news.json
