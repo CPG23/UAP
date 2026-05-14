@@ -1,6 +1,6 @@
-var CACHE = 'uap-v90-protected-manual-scan';
+var CACHE = 'uap-v91-protected-manual-scan-poll';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '90';
+var OVERRIDE_VERSION = '91';
 var OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
