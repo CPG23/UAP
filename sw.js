@@ -1,7 +1,10 @@
-var CACHE = 'uap-v101-retire-obsolete-overrides';
+var CACHE = 'uap-v102-consolidated-overrides';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '101';
+var OVERRIDE_VERSION = '102';
 var OVERRIDE_FILES = [
+  'uap-app-overrides.js'
+];
+var RETIRED_OVERRIDE_FILES = [
   'translation-replace-only-fix.js',
   'app-feed-overrides.js',
   'bell-icon-fix.js',
@@ -16,9 +19,7 @@ var OVERRIDE_FILES = [
   'latest-polish-fix.js',
   'new-articles-filter-fix.js',
   'notification-normal-open-fix.js',
-  'startup-opaque-fix.js'
-];
-var RETIRED_OVERRIDE_FILES = [
+  'startup-opaque-fix.js',
   'translation-override-fix.js',
   'manual-scan-config.js',
   'manual-scan-link-fix.js',
