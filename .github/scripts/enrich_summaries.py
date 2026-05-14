@@ -18,7 +18,7 @@ except Exception:
 
 LATEST_FILE = Path('latest-news.json')
 BAD_SUMMARY_RE = re.compile(
-    r'full article text could not be reliably extracted|summary is limited to verified feed metadata|the feed lists an article|this item tracks a ',
+    r'full article text could not be reliably extracted|summary is limited to verified feed metadata|the feed lists an article|this item tracks a |publisher text could not be safely extracted|the headline states|the headline is treated|the article falls under|available feed metadata|listed headline|matched uap terms|for deeper context',
     re.I,
 )
 
@@ -181,7 +181,7 @@ def article_urls(article):
         for value in [decoded, raw]:
             if value and value not in urls:
                 urls.append(value)
-    return urls[:6]
+    return urls[:8]
 
 
 def fetch_article_text(article):
@@ -216,69 +216,23 @@ def summarize_article_text(article, text):
     if len(text) < 650:
         return ''
     prompt = (
-        'Summarize only the article text below in English in 5 to 7 factual sentences. '
+        'Summarize only the article text below in English in 4 to 6 compact factual sentences for a mobile news app. '
         'Do not invent facts, dates, names, evidence, quotes, or connections. Use only claims explicitly present in the text. '
-        'Mention concrete actors, decisions, claims, evidence, and uncertainty when present. '
+        'Focus on what happened, who is involved, what evidence or statements are described, and what remains uncertain. '
+        'Do not mention metadata, categories, extraction, the scanner, the headline as headline, or the app. '
         'If the text is not sufficient, answer exactly: INSUFFICIENT_SOURCE_TEXT. No markdown.\n\n'
         f'Title: {article.get("title", "")}\nSource: {article.get("source", "")}\n\n{text[:9000]}'
     )
     try:
         summary = call_ai([
-            {'role': 'system', 'content': 'Reply only with the requested English summary. No markdown.'},
+            {'role': 'system', 'content': 'Reply only with the requested article-content summary. No markdown.'},
             {'role': 'user', 'content': prompt},
         ])
-        if summary and summary != 'INSUFFICIENT_SOURCE_TEXT' and len(summary) >= 180:
+        if summary and summary != 'INSUFFICIENT_SOURCE_TEXT' and not is_bad_summary(summary):
             return summary
     except Exception as exc:
         print('article summary failed:', article.get('title', '')[:60], str(exc)[:120])
     return ''
-
-
-def summarize_metadata(article):
-    sources = [article.get('source') or 'the listed source'] + [s.get('source', '') for s in article.get('otherSources', []) if isinstance(s, dict)]
-    sources = [s for i, s in enumerate(sources) if s and s.lower() not in [x.lower() for x in sources[:i]]]
-    clusters = article.get('clusterTitles') or []
-    terms = article.get('matchedTerms') or []
-    prompt = (
-        'Write an English UAP news brief in 4 to 5 factual sentences using ONLY this feed metadata. '
-        'Do not add facts that are not present here. Do not say that article extraction failed. '
-        'If a claim is only in the headline, phrase it as the headline/report says or claims. No markdown.\n\n'
-        f'Headline: {article.get("title", "")}\n'
-        f'Source: {article.get("source", "")}\n'
-        f'Date: {article.get("date", "")}\n'
-        f'Available description: {article.get("description", "")}\n'
-        f'Related headlines: {"; ".join(clusters[:4])}\n'
-        f'Sources in cluster: {", ".join(sources[:6])}\n'
-        f'Matched UAP terms: {", ".join(terms[:8])}'
-    )
-    try:
-        summary = call_ai([
-            {'role': 'system', 'content': 'You write careful, source-grounded English news briefs. No markdown.'},
-            {'role': 'user', 'content': prompt},
-        ], max_tokens=650, temperature=0.2)
-        if summary and len(summary) >= 180 and not BAD_SUMMARY_RE.search(summary):
-            return summary
-    except Exception as exc:
-        print('metadata summary failed:', article.get('title', '')[:60], str(exc)[:120])
-    return deterministic_metadata_summary(article)
-
-
-def deterministic_metadata_summary(article):
-    title = article.get('title') or 'this UAP-related report'
-    source = article.get('source') or 'the listed source'
-    date = article.get('date') or 'the listed date'
-    terms = article.get('matchedTerms') or []
-    clusters = article.get('clusterTitles') or []
-    parts = [
-        f'{source} lists a UAP-related report dated {date} under the headline "{title}".',
-        'The headline is treated as the source claim, and the app does not add details that are not present in the feed metadata.',
-    ]
-    if terms:
-        parts.append('The feed metadata connects the topic with ' + ', '.join(terms[:5]) + '.')
-    if clusters:
-        parts.append('Related headlines in the same topic cluster mention: ' + '; '.join(clusters[:3]) + '.')
-    parts.append('For deeper context, use the linked sources below the article card.')
-    return ' '.join(parts)
 
 
 def main():
@@ -286,23 +240,30 @@ def main():
     summaries = data.setdefault('summaries', {})
     changed = False
     repaired = 0
+    failed = 0
     for article in data.get('articles', [])[:24]:
         aid = article.get('id')
         current = article.get('summary') or summaries.get(aid)
         if not is_bad_summary(current):
             continue
         text = fetch_article_text(article)
-        summary = summarize_article_text(article, text) or summarize_metadata(article)
+        summary = summarize_article_text(article, text)
         if summary:
             article['summary'] = summary
             if aid:
                 summaries[aid] = summary
-            changed = True
             repaired += 1
-            time.sleep(1)
+        else:
+            article['summary'] = ''
+            if aid and aid in summaries:
+                summaries.pop(aid, None)
+            article.setdefault('summaryStatus', {})['articleContentSummary'] = 'missing'
+            failed += 1
+        changed = True
+        time.sleep(1)
     if changed:
         LATEST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
-    print(f'enriched summaries: {repaired}')
+    print(f'enriched article-content summaries: repaired={repaired}; failed={failed}')
 
 
 if __name__ == '__main__':
