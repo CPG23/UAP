@@ -1,6 +1,6 @@
-var CACHE = 'uap-v144-ui-polish';
+var CACHE = 'uap-v145-header-logo-static';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '144';
+var OVERRIDE_VERSION = '145';
 var OVERRIDE_FILES = [
   'uap-startup-alien.js',
   'uap-startup-visible-fix.js',
