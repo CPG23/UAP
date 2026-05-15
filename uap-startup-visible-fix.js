@@ -9,9 +9,9 @@
     var style = document.createElement('style');
     style.id = 'uap-loading-bar-style';
     style.textContent = [
-      '@keyframes uapStartupAlienPulse{0%,100%{opacity:.92;filter:brightness(.92) contrast(1.02);}50%{opacity:1;filter:brightness(1.12) contrast(1.08);}}',
+      '@keyframes uapStartupAlienPulse{0%,100%{opacity:.86;filter:brightness(.84) contrast(1.03) saturate(1.02);}50%{opacity:1;filter:brightness(1.22) contrast(1.14) saturate(1.12);}}',
       '#loading .loading-bar{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;}',
-      '#loading .alien-head,#loading img.alien-head{position:absolute!important;left:' + IMAGE_X + '!important;top:' + IMAGE_Y + '!important;margin:0!important;opacity:1!important;animation:uapStartupAlienPulse 5.8s ease-in-out infinite!important;transition:none!important;transform:translate(-50%,-50%)!important;will-change:opacity,filter!important;}'
+      '#loading .alien-head,#loading img.alien-head{position:absolute!important;left:' + IMAGE_X + '!important;top:' + IMAGE_Y + '!important;margin:0!important;opacity:1!important;animation:uapStartupAlienPulse 4.6s ease-in-out infinite!important;transition:none!important;transform:translate(-50%,-50%)!important;will-change:opacity,filter!important;}'
     ].join('');
     document.head.appendChild(style);
   }
@@ -58,7 +58,7 @@
     el.style.boxShadow = '0 0 0 100vmax ' + IMAGE_BLACK;
     el.style.border = '0';
     el.style.borderRadius = '0';
-    el.style.animation = 'uapStartupAlienPulse 5.8s ease-in-out infinite';
+    el.style.animation = 'uapStartupAlienPulse 4.6s ease-in-out infinite';
     el.style.transition = 'none';
     el.style.transform = 'translate(-50%, -50%)';
     el.style.willChange = 'opacity, filter';
