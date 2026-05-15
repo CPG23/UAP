@@ -8,7 +8,6 @@
   var REVEAL_MS = 9200;
   var pulseTimer = null;
   var titleTimer = null;
-  var lineTimer = null;
 
   function injectStyle(){
     var old = document.getElementById(STYLE_ID);
@@ -16,62 +15,30 @@
     var style = document.createElement('style');
     style.id = STYLE_ID;
     style.textContent = [
-      '@keyframes uapStartupStarDrift{0%{opacity:.18;transform:translate3d(0,0,0);}50%{opacity:.28;}100%{opacity:.18;transform:translate3d(-12px,8px,0);}}',
-      '@keyframes uapStartupMeteorOne{0%,18%{opacity:0;transform:translate3d(34vw,-12vh,0) rotate(-21deg) scaleX(.35);}28%{opacity:.48;}48%{opacity:0;transform:translate3d(-20vw,46vh,0) rotate(-21deg) scaleX(1.15);}100%{opacity:0;transform:translate3d(-20vw,46vh,0) rotate(-21deg) scaleX(1.15);}}',
-      '@keyframes uapStartupMeteorTwo{0%,48%{opacity:0;transform:translate3d(52vw,2vh,0) rotate(-18deg) scaleX(.3);}58%{opacity:.34;}76%{opacity:0;transform:translate3d(8vw,48vh,0) rotate(-18deg) scaleX(1);}100%{opacity:0;transform:translate3d(8vw,48vh,0) rotate(-18deg) scaleX(1);}}',
-      '@keyframes uapStartupSignalPacket{0%{left:-26%;opacity:0;transform:scaleX(.38);}12%{opacity:.96;}72%{opacity:.86;}100%{left:104%;opacity:0;transform:scaleX(1.12);}}',
-      '@keyframes uapStartupSignalAfterglow{0%{opacity:0;transform:translateX(-18%) scaleX(.15);}18%{opacity:.42;}76%{opacity:.16;transform:translateX(54%) scaleX(1.25);}100%{opacity:0;transform:translateX(92%) scaleX(1.72);}}',
-      '@keyframes uapStartupSignalCore{0%,100%{box-shadow:0 0 12px rgba(0,212,255,.7),0 0 34px rgba(0,132,255,.34),0 0 78px rgba(0,255,221,.18);}50%{box-shadow:0 0 22px rgba(0,255,221,.96),0 0 58px rgba(0,132,255,.5),0 0 118px rgba(0,255,221,.3);}}',
-      '#loading .uap-startup-space-layer{position:absolute!important;inset:0!important;z-index:0!important;pointer-events:none!important;overflow:hidden!important;opacity:.22!important;background-image:radial-gradient(circle at 12% 18%,rgba(210,246,255,.58) 0 1px,transparent 1.7px),radial-gradient(circle at 72% 12%,rgba(0,212,255,.36) 0 1px,transparent 1.8px),radial-gradient(circle at 88% 38%,rgba(215,255,245,.42) 0 1px,transparent 1.8px),radial-gradient(circle at 18% 68%,rgba(0,255,221,.28) 0 1px,transparent 1.7px),radial-gradient(circle at 52% 76%,rgba(210,246,255,.34) 0 1px,transparent 1.9px),radial-gradient(circle at 34% 34%,rgba(210,246,255,.28) 0 1px,transparent 1.8px)!important;filter:blur(.15px)!important;animation:uapStartupStarDrift 9.2s ease-in-out infinite alternate!important;}',
-      '#loading .uap-startup-space-layer::before,#loading .uap-startup-space-layer::after{content:""!important;position:absolute!important;left:0!important;top:0!important;width:32vw!important;height:1px!important;border-radius:999px!important;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(198,255,255,.72),rgba(0,212,255,.28),rgba(255,255,255,0))!important;filter:blur(.7px) drop-shadow(0 0 10px rgba(0,212,255,.52))!important;transform-origin:center center!important;}',
-      '#loading .uap-startup-space-layer::before{animation:uapStartupMeteorOne 8.6s ease-out infinite!important;}',
-      '#loading .uap-startup-space-layer::after{animation:uapStartupMeteorTwo 10.4s ease-out infinite!important;}',
+      '@keyframes uapLogoEdgeGlow{0%,100%{color:#f7feff;-webkit-text-fill-color:#f7feff;text-shadow:0 1px 0 rgba(255,255,255,.46),0 0 12px rgba(255,255,255,.52),0 0 28px rgba(0,212,255,.34),0 0 56px rgba(0,132,255,.18);filter:drop-shadow(0 0 0 rgba(0,255,221,0));}42%{color:#ffffff;-webkit-text-fill-color:#ffffff;text-shadow:0 1px 0 rgba(255,255,255,.72),0 0 18px rgba(255,255,255,.86),0 0 38px rgba(0,255,221,.82),0 0 78px rgba(0,132,255,.48),0 0 118px rgba(0,255,221,.2);filter:drop-shadow(0 0 7px rgba(0,255,221,.55));}}',
       '#loading .uap-startup-anim-wrap{display:none!important;}',
-      '#loading .startup-title{font-family:"Rajdhani","Exo 2",system-ui,sans-serif!important;font-weight:800!important;letter-spacing:.035em!important;text-transform:uppercase!important;color:#f7feff!important;-webkit-text-fill-color:#f7feff!important;background:none!important;text-shadow:0 1px 0 rgba(255,255,255,.42),0 0 12px rgba(255,255,255,.58),0 0 30px rgba(0,212,255,.5),0 0 64px rgba(0,132,255,.25)!important;animation:none!important;z-index:2!important;}',
-      '#loading .startup-title *{color:#f7feff!important;-webkit-text-fill-color:#f7feff!important;background:none!important;text-shadow:inherit!important;animation:none!important;filter:none!important;}',
+      '#loading .uap-startup-space-layer{display:none!important;}',
+      '#loading .uap-startup-line-final{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;}',
+      '#loading .startup-title{font-family:"Rajdhani","Exo 2",system-ui,sans-serif!important;font-weight:800!important;letter-spacing:.035em!important;text-transform:uppercase!important;color:#f7feff!important;-webkit-text-fill-color:#f7feff!important;background:none!important;text-shadow:none!important;animation:none!important;z-index:2!important;}',
       '#loading .startup-title::after{display:none!important;content:none!important;animation:none!important;}',
-      '#loading .uap-startup-line-final{position:absolute!important;height:4px!important;border-radius:999px!important;z-index:6!important;pointer-events:none!important;overflow:visible!important;filter:blur(.25px)!important;background:linear-gradient(90deg,rgba(0,255,221,0),rgba(0,132,255,.42) 10%,rgba(0,255,221,.86) 42%,rgba(235,255,255,.92) 50%,rgba(0,255,221,.78) 58%,rgba(0,132,255,.38) 90%,rgba(0,255,221,0))!important;animation:uapStartupSignalCore 3.4s ease-in-out infinite!important;}',
-      '#loading .uap-startup-line-final::before{content:""!important;position:absolute!important;top:-13px!important;bottom:-13px!important;width:28%!important;border-radius:999px!important;background:radial-gradient(ellipse at 48% 50%,rgba(255,255,255,.96) 0,rgba(0,255,221,.9) 22%,rgba(0,132,255,.5) 50%,rgba(0,0,0,0) 76%)!important;filter:blur(10px)!important;animation:uapStartupSignalPacket 2.85s cubic-bezier(.18,.72,.22,1) infinite!important;}',
-      '#loading .uap-startup-line-final::after{content:""!important;position:absolute!important;left:0!important;right:0!important;top:-20px!important;bottom:-20px!important;border-radius:999px!important;background:linear-gradient(90deg,rgba(0,255,221,0),rgba(0,212,255,.06) 18%,rgba(0,255,221,.34) 44%,rgba(235,255,255,.22) 54%,rgba(0,132,255,.12) 72%,rgba(0,255,221,0))!important;filter:blur(16px)!important;transform-origin:left center!important;animation:uapStartupSignalAfterglow 2.85s ease-out infinite!important;}',
-      '#loading .alien-head,#loading img.alien-head{animation:none!important;transition:none!important;transform-origin:center center!important;z-index:1!important;}'
+      '#loading .uap-edge-letter{display:inline-block!important;color:#f7feff!important;-webkit-text-fill-color:#f7feff!important;background:none!important;text-shadow:0 1px 0 rgba(255,255,255,.46),0 0 12px rgba(255,255,255,.52),0 0 28px rgba(0,212,255,.34),0 0 56px rgba(0,132,255,.18)!important;animation:uapLogoEdgeGlow 3.8s ease-in-out infinite!important;will-change:filter,text-shadow!important;}',
+      '#loading .uap-edge-space{display:inline-block!important;width:.24em!important;}',
+      '#loading .uap-edge-letter:nth-child(1){animation-delay:0s!important;}#loading .uap-edge-letter:nth-child(2){animation-delay:.14s!important;}#loading .uap-edge-letter:nth-child(3){animation-delay:.28s!important;}#loading .uap-edge-letter:nth-child(5){animation-delay:.48s!important;}#loading .uap-edge-letter:nth-child(6){animation-delay:.62s!important;}#loading .uap-edge-letter:nth-child(7){animation-delay:.76s!important;}#loading .uap-edge-letter:nth-child(8){animation-delay:.9s!important;}',
+      '#loading .alien-head,#loading img.alien-head{animation:none!important;transition:none!important;transform-origin:center center!important;z-index:1!important;mask-image:radial-gradient(ellipse 62% 76% at 58% 51%,#000 0 50%,rgba(0,0,0,.82) 66%,rgba(0,0,0,.28) 84%,transparent 100%)!important;-webkit-mask-image:radial-gradient(ellipse 62% 76% at 58% 51%,#000 0 50%,rgba(0,0,0,.82) 66%,rgba(0,0,0,.28) 84%,transparent 100%)!important;}'
     ].join('\n');
     document.head.appendChild(style);
   }
 
-  function ensureSpaceLayer(){
-    var loading = document.getElementById('loading');
-    if (!loading || loading.classList.contains('hidden')) return;
-    if (!loading.querySelector('.uap-startup-space-layer')) {
-      var layer = document.createElement('div');
-      layer.className = 'uap-startup-space-layer';
-      loading.insertBefore(layer, loading.firstChild);
-    }
-  }
-
-  function normalizeStartupTitle(){
+  function renderStartupTitle(){
     var loading = document.getElementById('loading');
     var title = loading && loading.querySelector('.startup-title');
     if (!loading || loading.classList.contains('hidden') || !title) return;
-    if (title.textContent.replace(/\s+/g, ' ').trim() !== 'UAP News' || title.querySelector('.uap-logo-letter')) {
-      title.textContent = 'UAP News';
-    }
-  }
-
-  function ensureAnimatedLine(){
-    var loading = document.getElementById('loading');
-    var title = loading && loading.querySelector('.startup-title');
-    if (!loading || loading.classList.contains('hidden') || !title) return;
-    var line = loading.querySelector('.uap-startup-line-final');
-    if (!line) {
-      line = document.createElement('div');
-      line.className = 'uap-startup-line-final';
-      loading.appendChild(line);
-    }
-    var titleRect = title.getBoundingClientRect();
-    var loadingRect = loading.getBoundingClientRect();
-    line.style.setProperty('left', (titleRect.left - loadingRect.left) + 'px', 'important');
-    line.style.setProperty('top', (titleRect.bottom - loadingRect.top + 5) + 'px', 'important');
-    line.style.setProperty('width', titleRect.width + 'px', 'important');
+    if (title.querySelector('.uap-edge-letter')) return;
+    title.innerHTML = 'UAP News'.split('').map(function(ch){
+      if (ch === ' ') return '<span class="uap-edge-space" aria-hidden="true"></span>';
+      return '<span class="uap-edge-letter">' + ch + '</span>';
+    }).join('');
+    title.setAttribute('aria-label', 'UAP News');
   }
 
   function keepTitleStable(){
@@ -84,21 +51,7 @@
         titleTimer = null;
         return;
       }
-      normalizeStartupTitle();
-    }, 120);
-  }
-
-  function keepLineAligned(){
-    if (lineTimer) return;
-    var started = Date.now();
-    lineTimer = setInterval(function(){
-      var loading = document.getElementById('loading');
-      if (!loading || loading.classList.contains('hidden') || Date.now() - started > 12000) {
-        clearInterval(lineTimer);
-        lineTimer = null;
-        return;
-      }
-      ensureAnimatedLine();
+      renderStartupTitle();
     }, 120);
   }
 
@@ -139,18 +92,14 @@
 
   function run(){
     injectStyle();
-    ensureSpaceLayer();
-    normalizeStartupTitle();
-    ensureAnimatedLine();
+    renderStartupTitle();
     keepTitleStable();
-    keepLineAligned();
     startAlienReveal();
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run, { once: true });
   else run();
   window.addEventListener('load', run);
-  window.addEventListener('resize', ensureAnimatedLine);
   setTimeout(run, 50);
   setTimeout(run, 250);
   setTimeout(run, 800);
