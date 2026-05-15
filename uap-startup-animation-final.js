@@ -104,11 +104,12 @@
 
       var elapsed = Date.now() - start;
       var reveal = Math.min(1, elapsed / REVEAL_MS);
-      var eased = smoothStep(reveal);
-      var scale = 0.78 + eased * 0.46;
-      var brightness = 0.12 + eased * 1.07;
-      var contrast = 0.82 + eased * 0.38;
-      var opacity = 0.05 + eased * 0.95;
+      var zoom = smoothStep(reveal);
+      var visibility = 1 - Math.pow(1 - reveal, 2);
+      var scale = 0.78 + zoom * 0.46;
+      var brightness = 0.12 + visibility * 1.08;
+      var contrast = 0.82 + visibility * 0.38;
+      var opacity = 0.05 + visibility * 0.95;
       alien.style.setProperty('opacity', opacity.toFixed(2), 'important');
       alien.style.setProperty('filter', 'brightness(' + brightness.toFixed(2) + ') contrast(' + contrast.toFixed(2) + ') saturate(1.16)', 'important');
       alien.style.setProperty('animation', 'none', 'important');
