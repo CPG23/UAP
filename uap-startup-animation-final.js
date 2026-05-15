@@ -63,18 +63,18 @@
 
       var elapsed = Date.now() - start;
       var wave = (Math.sin(elapsed / 430) + 1) / 2;
-      var zoomWave = (Math.sin(elapsed / 1450) + 1) / 2;
-      var brightness = 0.58 + wave * 0.62;
-      var contrast = 1.03 + wave * 0.17;
-      var opacity = 0.72 + wave * 0.28;
-      var scale = 1.015 + zoomWave * 0.045;
+      var zoomWave = (Math.sin(elapsed / 1100) + 1) / 2;
+      var brightness = 0.60 + wave * 0.58;
+      var contrast = 1.03 + wave * 0.16;
+      var opacity = 0.74 + wave * 0.26;
+      var scale = 1.00 + zoomWave * 0.12;
       alien.style.setProperty('opacity', opacity.toFixed(2), 'important');
       alien.style.setProperty('filter', 'brightness(' + brightness.toFixed(2) + ') contrast(' + contrast.toFixed(2) + ') saturate(1.16)', 'important');
       alien.style.setProperty('animation', 'none', 'important');
       alien.style.setProperty('transition', 'none', 'important');
       alien.style.setProperty('transform', 'translate(-50%, -50%) scale(' + scale.toFixed(3) + ')', 'important');
       alien.style.setProperty('will-change', 'opacity, filter, transform', 'important');
-    }, 70);
+    }, 50);
   }
 
   function run(){
