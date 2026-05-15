@@ -20,7 +20,7 @@
       '#loading .startup-title{background-image:linear-gradient(100deg,#ffffff 0%,#ffffff 34%,#8dffff 45%,#00a6ff 52%,#00ffdd 60%,#ffffff 72%,#ffffff 100%)!important;background-size:260% 100%!important;background-position:160% 0!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important;-webkit-text-fill-color:transparent!important;text-shadow:0 0 10px rgba(255,255,255,.58),0 0 24px rgba(0,212,255,.42)!important;animation:uapStartupTitleShimmer 3.4s ease-in-out infinite!important;}',
       '#loading .startup-title *{background:inherit!important;background-size:inherit!important;background-position:inherit!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important;-webkit-text-fill-color:transparent!important;text-shadow:inherit!important;animation:none!important;filter:none!important;}',
       '#loading .startup-title::after{height:4px!important;background-size:240% 100%!important;background-image:linear-gradient(90deg,rgba(0,255,221,0),rgba(0,220,255,.55) 14%,#7dffff 36%,#00a6ff 50%,#00ffdd 64%,rgba(0,220,255,.62) 84%,rgba(0,255,221,0))!important;animation:uapStartupLineSweep 3.4s ease-in-out infinite!important;}',
-      '#loading .alien-head,#loading img.alien-head{animation:none!important;transition:none!important;}'
+      '#loading .alien-head,#loading img.alien-head{animation:none!important;transition:none!important;transform-origin:center center!important;}'
     ].join('\n');
     document.head.appendChild(style);
   }
@@ -61,16 +61,19 @@
       var alien = loading.querySelector('.alien-head');
       if (!alien) return;
 
-      var wave = (Math.sin((Date.now() - start) / 360) + 1) / 2;
-      var brightness = 0.54 + wave * 0.86;
-      var contrast = 1.02 + wave * 0.24;
-      var opacity = 0.62 + wave * 0.38;
+      var elapsed = Date.now() - start;
+      var wave = (Math.sin(elapsed / 430) + 1) / 2;
+      var zoomWave = (Math.sin(elapsed / 1450) + 1) / 2;
+      var brightness = 0.58 + wave * 0.62;
+      var contrast = 1.03 + wave * 0.17;
+      var opacity = 0.72 + wave * 0.28;
+      var scale = 1.015 + zoomWave * 0.045;
       alien.style.setProperty('opacity', opacity.toFixed(2), 'important');
-      alien.style.setProperty('filter', 'brightness(' + brightness.toFixed(2) + ') contrast(' + contrast.toFixed(2) + ') saturate(1.18)', 'important');
+      alien.style.setProperty('filter', 'brightness(' + brightness.toFixed(2) + ') contrast(' + contrast.toFixed(2) + ') saturate(1.16)', 'important');
       alien.style.setProperty('animation', 'none', 'important');
       alien.style.setProperty('transition', 'none', 'important');
-      alien.style.setProperty('transform', 'translate(-50%, -50%)', 'important');
-      alien.style.setProperty('will-change', 'opacity, filter', 'important');
+      alien.style.setProperty('transform', 'translate(-50%, -50%) scale(' + scale.toFixed(3) + ')', 'important');
+      alien.style.setProperty('will-change', 'opacity, filter, transform', 'important');
     }, 70);
   }
 
