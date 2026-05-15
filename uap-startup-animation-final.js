@@ -53,7 +53,7 @@
     var titleRect = title.getBoundingClientRect();
     var loadingRect = loading.getBoundingClientRect();
     line.style.setProperty('left', (titleRect.left - loadingRect.left) + 'px', 'important');
-    line.style.setProperty('top', (titleRect.bottom - loadingRect.top + 15) + 'px', 'important');
+    line.style.setProperty('top', (titleRect.bottom - loadingRect.top + 5) + 'px', 'important');
     line.style.setProperty('width', titleRect.width + 'px', 'important');
   }
 
@@ -107,7 +107,7 @@
       var zoom = smoothStep(reveal);
       var visibility = 1 - Math.pow(1 - reveal, 2);
       var scale = 0.72 + zoom * 0.52;
-      var y = -30 - zoom * 20;
+      var y = -6 - zoom * 44;
       var brightness = 0.12 + visibility * 1.08;
       var contrast = 0.82 + visibility * 0.38;
       var opacity = 0.05 + visibility * 0.95;
