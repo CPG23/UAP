@@ -5,18 +5,10 @@
   window.__uapLogoFinalPolish = true;
 
   var STYLE_ID = 'uap-logo-final-polish-style';
+  var LOGO_SRC = './uap-news-logo.svg?v=172';
 
   function logoMarkup(){
-    return [
-      '<span class="uap-edge-letter" data-ch="U">U</span>',
-      '<span class="uap-edge-letter" data-ch="A">A</span>',
-      '<span class="uap-edge-letter" data-ch="P">P</span>',
-      '<span class="uap-edge-space" aria-hidden="true"></span>',
-      '<span class="uap-edge-letter" data-ch="N">N</span>',
-      '<span class="uap-edge-letter" data-ch="e">e</span>',
-      '<span class="uap-edge-letter" data-ch="w">w</span>',
-      '<span class="uap-edge-letter uap-news-s" data-ch="s">s</span>'
-    ].join('');
+    return '<img class="uap-logo-img" src="' + LOGO_SRC + '" alt="UAP News" decoding="async">';
   }
 
   function injectStyle(){
@@ -25,26 +17,15 @@
     var style = document.createElement('style');
     style.id = STYLE_ID;
     style.textContent = [
-      '@keyframes uapLogoEdgeRun{0%,100%{opacity:.16;filter:drop-shadow(0 0 2px rgba(0,255,221,.18));}18%{opacity:.72;filter:drop-shadow(0 0 8px rgba(0,255,221,.62)) drop-shadow(0 0 16px rgba(0,132,255,.34));}36%{opacity:.2;filter:drop-shadow(0 0 3px rgba(0,212,255,.24));}}',
-      '@keyframes uapLogoBreath{0%,100%{text-shadow:0 1px 0 rgba(255,255,255,.48),0 0 10px rgba(255,255,255,.4),0 0 24px rgba(0,212,255,.34),0 0 46px rgba(0,132,255,.16);}50%{text-shadow:0 1px 0 rgba(255,255,255,.68),0 0 15px rgba(255,255,255,.58),0 0 34px rgba(0,255,221,.52),0 0 64px rgba(0,132,255,.26);}}',
-      '@keyframes uapNewsTailLive{0%,100%{opacity:.9;filter:blur(.13px) drop-shadow(0 0 7px rgba(0,212,255,.38));}50%{opacity:1;filter:blur(.13px) drop-shadow(0 0 13px rgba(0,255,221,.62)) drop-shadow(0 0 24px rgba(0,132,255,.28));}}',
       '.brand-sub{display:none!important;visibility:hidden!important;opacity:0!important;height:0!important;margin:0!important;padding:0!important;}',
-      '.startup-title.uap-logo-final,.brand-title.uap-logo-final{display:inline-block!important;position:relative!important;contain:none!important;isolation:isolate!important;overflow:visible!important;font-family:"Rajdhani","Exo 2",system-ui,sans-serif!important;font-weight:800!important;letter-spacing:.035em!important;text-transform:none!important;white-space:nowrap!important;color:#fbfeff!important;-webkit-text-fill-color:#fbfeff!important;text-shadow:none!important;background:none!important;}',
-      '#loading .startup-title.uap-logo-final{top:28px!important;left:50%!important;right:auto!important;bottom:auto!important;transform:translateX(-50%)!important;margin:0!important;font-size:clamp(72px,18vw,120px)!important;line-height:.82!important;}',
-      '.brand-title.uap-logo-final{line-height:.82!important;padding-bottom:.26em!important;margin-bottom:0!important;}',
-      '.startup-title.uap-logo-final::after,.brand-title.uap-logo-final::after{display:none!important;content:none!important;}',
-      '.uap-logo-final .uap-edge-space{display:inline-block!important;width:.24em!important;}',
-      '.uap-logo-final .uap-edge-letter{position:relative!important;display:inline-block!important;color:#fbfeff!important;-webkit-text-fill-color:#fbfeff!important;-webkit-text-stroke:1px rgba(210,255,255,.28)!important;background:none!important;text-shadow:0 1px 0 rgba(255,255,255,.48),0 0 10px rgba(255,255,255,.4),0 0 24px rgba(0,212,255,.34),0 0 46px rgba(0,132,255,.16)!important;animation:uapLogoBreath 6.4s ease-in-out infinite!important;z-index:2!important;}',
-      '.uap-logo-final .uap-edge-letter::before{content:attr(data-ch)!important;position:absolute!important;inset:0!important;color:transparent!important;-webkit-text-fill-color:transparent!important;-webkit-text-stroke:1.55px rgba(155,255,247,.66)!important;text-shadow:none!important;opacity:.14!important;pointer-events:none!important;animation:uapLogoEdgeRun 6.1s linear infinite!important;}',
-      '#loading .uap-logo-final .uap-edge-letter{-webkit-text-stroke:.85px rgba(210,255,255,.22)!important;text-shadow:0 1px 0 rgba(255,255,255,.38),0 0 8px rgba(255,255,255,.28),0 0 18px rgba(0,212,255,.26),0 0 34px rgba(0,132,255,.12)!important;}',
-      '#loading .uap-logo-final .uap-edge-letter::before{-webkit-text-stroke:1.25px rgba(155,255,247,.48)!important;opacity:.09!important;}',
-      '.uap-logo-final .uap-edge-letter:nth-child(1)::before{animation-delay:0s!important}.uap-logo-final .uap-edge-letter:nth-child(2)::before{animation-delay:.18s!important}.uap-logo-final .uap-edge-letter:nth-child(3)::before{animation-delay:.36s!important}.uap-logo-final .uap-edge-letter:nth-child(5)::before{animation-delay:.72s!important}.uap-logo-final .uap-edge-letter:nth-child(6)::before{animation-delay:.9s!important}.uap-logo-final .uap-edge-letter:nth-child(7)::before{animation-delay:1.08s!important}.uap-logo-final .uap-edge-letter:nth-child(8)::before{animation-delay:1.26s!important}',
-      '.uap-logo-final .uap-news-s{transform:translateY(.32em) scaleY(1.24)!important;transform-origin:50% 100%!important;margin-left:.01em!important;margin-bottom:-.26em!important;z-index:3!important;}',
-      '.uap-logo-final .uap-news-s::after{content:""!important;position:absolute!important;right:.50em!important;bottom:-.14em!important;width:5.02em!important;height:.20em!important;border-radius:.10em!important;background:linear-gradient(90deg,rgba(0,255,221,0),rgba(0,212,255,.58) 8%,rgba(218,255,255,.92) 42%,rgba(255,255,255,.96) 100%)!important;filter:blur(.13px) drop-shadow(0 0 7px rgba(0,212,255,.38))!important;animation:uapNewsTailLive 5.8s ease-in-out infinite!important;pointer-events:none!important;z-index:-1!important;}',
-      '.brand-title.uap-logo-final .uap-edge-letter{-webkit-text-stroke:.7px rgba(210,255,255,.28)!important;text-shadow:0 1px 0 rgba(255,255,255,.42),0 0 7px rgba(255,255,255,.3),0 0 17px rgba(0,212,255,.32),0 0 30px rgba(0,132,255,.14)!important;}',
-      '.brand-title.uap-logo-final .uap-edge-letter::before{-webkit-text-stroke:1.2px rgba(155,255,247,.58)!important;}',
-      '.brand-title.uap-logo-final .uap-news-s{transform:translateY(.30em) scaleY(1.22)!important;margin-bottom:-.24em!important;}',
-      '.brand-title.uap-logo-final .uap-news-s::after{height:.16em!important;bottom:-.115em!important;border-radius:.08em!important;filter:blur(.1px) drop-shadow(0 0 6px rgba(0,212,255,.36))!important;}'
+      '.startup-title.uap-logo-final,.brand-title.uap-logo-final{display:block!important;position:relative!important;contain:none!important;isolation:isolate!important;overflow:visible!important;background:none!important;text-shadow:none!important;color:transparent!important;-webkit-text-fill-color:transparent!important;letter-spacing:0!important;text-transform:none!important;white-space:nowrap!important;line-height:1!important;}',
+      '#loading .startup-title.uap-logo-final{position:absolute!important;top:24px!important;left:50%!important;right:auto!important;bottom:auto!important;width:min(92vw,620px)!important;height:auto!important;transform:translateX(-50%)!important;margin:0!important;z-index:3!important;}',
+      '.brand-title.uap-logo-final{width:min(78vw,430px)!important;max-width:100%!important;height:auto!important;padding:0!important;margin:0!important;}',
+      '.startup-title.uap-logo-final::before,.startup-title.uap-logo-final::after,.brand-title.uap-logo-final::before,.brand-title.uap-logo-final::after{display:none!important;content:none!important;}',
+      '.uap-logo-final .uap-logo-img{display:block!important;width:100%!important;height:auto!important;max-width:100%!important;object-fit:contain!important;object-position:left center!important;background:transparent!important;border:0!important;margin:0!important;padding:0!important;filter:none!important;animation:none!important;}',
+      '#loading .uap-logo-final .uap-logo-img{object-position:center center!important;filter:drop-shadow(0 0 6px rgba(0,212,255,.22))!important;}',
+      '.brand-title.uap-brand-logo,.brand-title.uap-logo-final{contain:none!important;overflow:visible!important;}',
+      '.uap-logo-letter,.uap-logo-space,.uap-edge-letter,.uap-edge-space,.uap-news-s{display:none!important;}'
     ].join('\n');
     document.head.appendChild(style);
   }
@@ -52,10 +33,12 @@
   function applyLogo(el){
     if (!el) return;
     el.classList.add('uap-logo-final');
-    if (!el.querySelector('.uap-news-s')) el.innerHTML = logoMarkup();
-    Array.prototype.slice.call(el.querySelectorAll('.uap-edge-letter')).forEach(function(letter){
-      if (!letter.getAttribute('data-ch')) letter.setAttribute('data-ch', letter.textContent || '');
-    });
+    el.dataset.uapLogoAsset = '1';
+    if (!el.querySelector('.uap-logo-img')) el.innerHTML = logoMarkup();
+    else {
+      var img = el.querySelector('.uap-logo-img');
+      if (img.getAttribute('src') !== LOGO_SRC) img.setAttribute('src', LOGO_SRC);
+    }
     el.setAttribute('aria-label', 'UAP News');
   }
 
@@ -68,9 +51,11 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', apply, { once: true });
   else apply();
   window.addEventListener('load', apply);
-  setTimeout(apply, 50);
-  setTimeout(apply, 250);
-  setTimeout(apply, 900);
+  setTimeout(apply, 20);
+  setTimeout(apply, 80);
+  setTimeout(apply, 200);
+  setTimeout(apply, 500);
+  setTimeout(apply, 1000);
 
   new MutationObserver(function(){ requestAnimationFrame(apply); })
     .observe(document.documentElement, { childList: true, subtree: true, characterData: true });
