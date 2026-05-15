@@ -1,7 +1,7 @@
 (function(){
   'use strict';
   var IMAGE_BLACK = '#000';
-  var IMAGE_X = 'calc(50% + 8vw)';
+  var IMAGE_X = 'calc(50% + 14vw)';
   var IMAGE_Y = '50%';
 
   function ensureLoadingBarStyle(){
