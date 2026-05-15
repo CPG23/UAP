@@ -1,6 +1,6 @@
-var CACHE = 'uap-v157-long-startup-reveal';
+var CACHE = 'uap-v158-clear-startup-reveal';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '157';
+var OVERRIDE_VERSION = '158';
 var OVERRIDE_FILES = [
   'uap-startup-alien.js',
   'uap-startup-visible-fix.js',
