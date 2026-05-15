@@ -1,13 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 230" role="img" aria-labelledby="title desc">
   <title id="title">UAP News</title>
-  <desc id="desc">UAP News logo with a connected signal line below the wordmark.</desc>
+  <desc id="desc">UAP News logo with the final s lowered and connected to an animated signal tail.</desc>
   <defs>
-    <filter id="softGlow" x="-12%" y="-40%" width="124%" height="180%">
+    <style>
+      @keyframes signalSweep { 0% { stroke-dashoffset: 760; opacity: 0; } 12% { opacity: .95; } 62% { opacity: .9; } 100% { stroke-dashoffset: -760; opacity: 0; } }
+      @keyframes logoPulse { 0%,100% { opacity: .92; } 50% { opacity: 1; } }
+      .sweep { animation: signalSweep 4.8s ease-in-out infinite; }
+      .wordmark { animation: logoPulse 6.5s ease-in-out infinite; }
+    </style>
+    <filter id="softGlow" x="-12%" y="-45%" width="124%" height="190%">
       <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur1"/>
-      <feFlood flood-color="#00d4ff" flood-opacity="0.42" result="cyan"/>
+      <feFlood flood-color="#00d4ff" flood-opacity="0.44" result="cyan"/>
       <feComposite in="cyan" in2="blur1" operator="in" result="glow1"/>
-      <feGaussianBlur in="SourceAlpha" stdDeviation="10" result="blur2"/>
-      <feFlood flood-color="#00ffdd" flood-opacity="0.18" result="aqua"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="11" result="blur2"/>
+      <feFlood flood-color="#00ffdd" flood-opacity="0.2" result="aqua"/>
       <feComposite in="aqua" in2="blur2" operator="in" result="glow2"/>
       <feMerge>
         <feMergeNode in="glow2"/>
@@ -15,15 +21,27 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <linearGradient id="tailGrad" x1="32" y1="0" x2="928" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#00d4ff" stop-opacity="0.06"/>
-      <stop offset="0.12" stop-color="#00d4ff" stop-opacity="0.62"/>
-      <stop offset="0.62" stop-color="#cfffff" stop-opacity="0.92"/>
+    <linearGradient id="tailGrad" x1="36" y1="0" x2="768" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d4ff" stop-opacity="0.08"/>
+      <stop offset="0.14" stop-color="#00d4ff" stop-opacity="0.66"/>
+      <stop offset="0.64" stop-color="#d5ffff" stop-opacity="0.92"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="sweepGrad" x1="36" y1="0" x2="768" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset="0.52" stop-color="#7dffff" stop-opacity="1"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="0.68" stop-color="#00ffdd" stop-opacity="0"/>
+      <stop offset="1" stop-color="#00ffdd" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <g filter="url(#softGlow)">
-    <path d="M 928 178 H 36" fill="none" stroke="url(#tailGrad)" stroke-width="24" stroke-linecap="round"/>
-    <text x="34" y="138" font-family="Rajdhani, 'Arial Narrow', Arial, sans-serif" font-size="126" font-weight="800" letter-spacing="8" fill="#fbfeff" stroke="#d8ffff" stroke-width="1.2">UAP News</text>
+    <path d="M 764 170 H 40" fill="none" stroke="url(#tailGrad)" stroke-width="28" stroke-linecap="round"/>
+    <path class="sweep" d="M 764 170 H 40" fill="none" stroke="url(#sweepGrad)" stroke-width="29" stroke-linecap="round" stroke-dasharray="210 820"/>
+    <g class="wordmark">
+      <text x="34" y="132" textLength="680" lengthAdjust="spacingAndGlyphs" font-family="Rajdhani, 'Arial Narrow', Arial, sans-serif" font-size="126" font-weight="800" letter-spacing="8" fill="#fbfeff" stroke="#d8ffff" stroke-width="1.2">UAP New</text>
+      <text x="724" y="171" font-family="Rajdhani, 'Arial Narrow', Arial, sans-serif" font-size="158" font-weight="800" fill="#fbfeff" stroke="#d8ffff" stroke-width="1.2">s</text>
+    </g>
   </g>
 </svg>
