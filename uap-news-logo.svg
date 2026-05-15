@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 250" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 230" role="img" aria-labelledby="title desc">
   <title id="title">UAP News</title>
-  <desc id="desc">UAP News logo with the final s extending left under the text.</desc>
+  <desc id="desc">UAP News logo with a connected signal line below the wordmark.</desc>
   <defs>
-    <filter id="softGlow" x="-15%" y="-45%" width="130%" height="190%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur1"/>
-      <feFlood flood-color="#00d4ff" flood-opacity="0.52" result="cyan"/>
+    <filter id="softGlow" x="-12%" y="-40%" width="124%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur1"/>
+      <feFlood flood-color="#00d4ff" flood-opacity="0.42" result="cyan"/>
       <feComposite in="cyan" in2="blur1" operator="in" result="glow1"/>
-      <feGaussianBlur in="SourceAlpha" stdDeviation="12" result="blur2"/>
-      <feFlood flood-color="#00ffdd" flood-opacity="0.26" result="aqua"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" result="blur2"/>
+      <feFlood flood-color="#00ffdd" flood-opacity="0.18" result="aqua"/>
       <feComposite in="aqua" in2="blur2" operator="in" result="glow2"/>
       <feMerge>
         <feMergeNode in="glow2"/>
@@ -15,16 +15,15 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <linearGradient id="tailGrad" x1="38" y1="0" x2="918" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#00d4ff" stop-opacity="0.05"/>
+    <linearGradient id="tailGrad" x1="32" y1="0" x2="928" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d4ff" stop-opacity="0.06"/>
       <stop offset="0.12" stop-color="#00d4ff" stop-opacity="0.62"/>
-      <stop offset="0.58" stop-color="#d8ffff" stop-opacity="0.9"/>
+      <stop offset="0.62" stop-color="#cfffff" stop-opacity="0.92"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="1"/>
     </linearGradient>
   </defs>
   <g filter="url(#softGlow)">
-    <path d="M 918 190 H 44" fill="none" stroke="url(#tailGrad)" stroke-width="28" stroke-linecap="round"/>
-    <text x="32" y="152" font-family="Rajdhani, 'Arial Narrow', Arial, sans-serif" font-size="132" font-weight="800" letter-spacing="9" fill="#fbfeff" stroke="#d8ffff" stroke-width="1.4">UAP New</text>
-    <text x="897" y="184" font-family="Rajdhani, 'Arial Narrow', Arial, sans-serif" font-size="168" font-weight="800" letter-spacing="0" fill="#fbfeff" stroke="#d8ffff" stroke-width="1.4">s</text>
+    <path d="M 928 178 H 36" fill="none" stroke="url(#tailGrad)" stroke-width="24" stroke-linecap="round"/>
+    <text x="34" y="138" font-family="Rajdhani, 'Arial Narrow', Arial, sans-serif" font-size="126" font-weight="800" letter-spacing="8" fill="#fbfeff" stroke="#d8ffff" stroke-width="1.2">UAP News</text>
   </g>
 </svg>
