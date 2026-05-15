@@ -16,19 +16,36 @@
     var style = document.createElement('style');
     style.id = STYLE_ID;
     style.textContent = [
+      '@keyframes uapStartupStarDrift{0%{opacity:.18;transform:translate3d(0,0,0);}50%{opacity:.28;}100%{opacity:.18;transform:translate3d(-12px,8px,0);}}',
+      '@keyframes uapStartupMeteorOne{0%,18%{opacity:0;transform:translate3d(34vw,-12vh,0) rotate(-21deg) scaleX(.35);}28%{opacity:.48;}48%{opacity:0;transform:translate3d(-20vw,46vh,0) rotate(-21deg) scaleX(1.15);}100%{opacity:0;transform:translate3d(-20vw,46vh,0) rotate(-21deg) scaleX(1.15);}}',
+      '@keyframes uapStartupMeteorTwo{0%,48%{opacity:0;transform:translate3d(52vw,2vh,0) rotate(-18deg) scaleX(.3);}58%{opacity:.34;}76%{opacity:0;transform:translate3d(8vw,48vh,0) rotate(-18deg) scaleX(1);}100%{opacity:0;transform:translate3d(8vw,48vh,0) rotate(-18deg) scaleX(1);}}',
       '@keyframes uapStartupSignalPacket{0%{left:-26%;opacity:0;transform:scaleX(.38);}12%{opacity:.96;}72%{opacity:.86;}100%{left:104%;opacity:0;transform:scaleX(1.12);}}',
       '@keyframes uapStartupSignalAfterglow{0%{opacity:0;transform:translateX(-18%) scaleX(.15);}18%{opacity:.42;}76%{opacity:.16;transform:translateX(54%) scaleX(1.25);}100%{opacity:0;transform:translateX(92%) scaleX(1.72);}}',
       '@keyframes uapStartupSignalCore{0%,100%{box-shadow:0 0 12px rgba(0,212,255,.7),0 0 34px rgba(0,132,255,.34),0 0 78px rgba(0,255,221,.18);}50%{box-shadow:0 0 22px rgba(0,255,221,.96),0 0 58px rgba(0,132,255,.5),0 0 118px rgba(0,255,221,.3);}}',
+      '#loading .uap-startup-space-layer{position:absolute!important;inset:0!important;z-index:0!important;pointer-events:none!important;overflow:hidden!important;opacity:.22!important;background-image:radial-gradient(circle at 12% 18%,rgba(210,246,255,.58) 0 1px,transparent 1.7px),radial-gradient(circle at 72% 12%,rgba(0,212,255,.36) 0 1px,transparent 1.8px),radial-gradient(circle at 88% 38%,rgba(215,255,245,.42) 0 1px,transparent 1.8px),radial-gradient(circle at 18% 68%,rgba(0,255,221,.28) 0 1px,transparent 1.7px),radial-gradient(circle at 52% 76%,rgba(210,246,255,.34) 0 1px,transparent 1.9px),radial-gradient(circle at 34% 34%,rgba(210,246,255,.28) 0 1px,transparent 1.8px)!important;filter:blur(.15px)!important;animation:uapStartupStarDrift 9.2s ease-in-out infinite alternate!important;}',
+      '#loading .uap-startup-space-layer::before,#loading .uap-startup-space-layer::after{content:""!important;position:absolute!important;left:0!important;top:0!important;width:32vw!important;height:1px!important;border-radius:999px!important;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(198,255,255,.72),rgba(0,212,255,.28),rgba(255,255,255,0))!important;filter:blur(.7px) drop-shadow(0 0 10px rgba(0,212,255,.52))!important;transform-origin:center center!important;}',
+      '#loading .uap-startup-space-layer::before{animation:uapStartupMeteorOne 8.6s ease-out infinite!important;}',
+      '#loading .uap-startup-space-layer::after{animation:uapStartupMeteorTwo 10.4s ease-out infinite!important;}',
       '#loading .uap-startup-anim-wrap{display:none!important;}',
-      '#loading .startup-title{font-family:"Rajdhani","Exo 2",system-ui,sans-serif!important;font-weight:800!important;letter-spacing:.035em!important;text-transform:uppercase!important;color:#f7feff!important;-webkit-text-fill-color:#f7feff!important;background:none!important;text-shadow:0 1px 0 rgba(255,255,255,.42),0 0 12px rgba(255,255,255,.58),0 0 30px rgba(0,212,255,.5),0 0 64px rgba(0,132,255,.25)!important;animation:none!important;}',
+      '#loading .startup-title{font-family:"Rajdhani","Exo 2",system-ui,sans-serif!important;font-weight:800!important;letter-spacing:.035em!important;text-transform:uppercase!important;color:#f7feff!important;-webkit-text-fill-color:#f7feff!important;background:none!important;text-shadow:0 1px 0 rgba(255,255,255,.42),0 0 12px rgba(255,255,255,.58),0 0 30px rgba(0,212,255,.5),0 0 64px rgba(0,132,255,.25)!important;animation:none!important;z-index:2!important;}',
       '#loading .startup-title *{color:#f7feff!important;-webkit-text-fill-color:#f7feff!important;background:none!important;text-shadow:inherit!important;animation:none!important;filter:none!important;}',
       '#loading .startup-title::after{display:none!important;content:none!important;animation:none!important;}',
       '#loading .uap-startup-line-final{position:absolute!important;height:4px!important;border-radius:999px!important;z-index:6!important;pointer-events:none!important;overflow:visible!important;filter:blur(.25px)!important;background:linear-gradient(90deg,rgba(0,255,221,0),rgba(0,132,255,.42) 10%,rgba(0,255,221,.86) 42%,rgba(235,255,255,.92) 50%,rgba(0,255,221,.78) 58%,rgba(0,132,255,.38) 90%,rgba(0,255,221,0))!important;animation:uapStartupSignalCore 3.4s ease-in-out infinite!important;}',
       '#loading .uap-startup-line-final::before{content:""!important;position:absolute!important;top:-13px!important;bottom:-13px!important;width:28%!important;border-radius:999px!important;background:radial-gradient(ellipse at 48% 50%,rgba(255,255,255,.96) 0,rgba(0,255,221,.9) 22%,rgba(0,132,255,.5) 50%,rgba(0,0,0,0) 76%)!important;filter:blur(10px)!important;animation:uapStartupSignalPacket 2.85s cubic-bezier(.18,.72,.22,1) infinite!important;}',
       '#loading .uap-startup-line-final::after{content:""!important;position:absolute!important;left:0!important;right:0!important;top:-20px!important;bottom:-20px!important;border-radius:999px!important;background:linear-gradient(90deg,rgba(0,255,221,0),rgba(0,212,255,.06) 18%,rgba(0,255,221,.34) 44%,rgba(235,255,255,.22) 54%,rgba(0,132,255,.12) 72%,rgba(0,255,221,0))!important;filter:blur(16px)!important;transform-origin:left center!important;animation:uapStartupSignalAfterglow 2.85s ease-out infinite!important;}',
-      '#loading .alien-head,#loading img.alien-head{animation:none!important;transition:none!important;transform-origin:center center!important;}'
+      '#loading .alien-head,#loading img.alien-head{animation:none!important;transition:none!important;transform-origin:center center!important;z-index:1!important;}'
     ].join('\n');
     document.head.appendChild(style);
+  }
+
+  function ensureSpaceLayer(){
+    var loading = document.getElementById('loading');
+    if (!loading || loading.classList.contains('hidden')) return;
+    if (!loading.querySelector('.uap-startup-space-layer')) {
+      var layer = document.createElement('div');
+      layer.className = 'uap-startup-space-layer';
+      loading.insertBefore(layer, loading.firstChild);
+    }
   }
 
   function normalizeStartupTitle(){
@@ -122,6 +139,7 @@
 
   function run(){
     injectStyle();
+    ensureSpaceLayer();
     normalizeStartupTitle();
     ensureAnimatedLine();
     keepTitleStable();
