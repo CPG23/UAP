@@ -5,7 +5,7 @@
   window.__uapLogoFinalPolish = true;
 
   var STYLE_ID = 'uap-logo-final-polish-style';
-  var LOGO_SRC = './uap-news-logo.svg?v=172';
+  var LOGO_SRC = './uap-news-logo.svg?v=174';
 
   function logoMarkup(){
     return '<img class="uap-logo-img" src="' + LOGO_SRC + '" alt="UAP News" decoding="async"><span class="uap-news-s" aria-hidden="true"></span><span class="uap-logo-letter" aria-hidden="true"></span>';
@@ -23,7 +23,7 @@
       '.brand-title.uap-logo-final{width:min(78vw,430px)!important;max-width:100%!important;height:auto!important;padding:0!important;margin:0!important;}',
       '.startup-title.uap-logo-final::before,.startup-title.uap-logo-final::after,.brand-title.uap-logo-final::before,.brand-title.uap-logo-final::after{display:none!important;content:none!important;}',
       '.uap-logo-final .uap-logo-img{display:block!important;width:100%!important;height:auto!important;max-width:100%!important;object-fit:contain!important;object-position:left center!important;background:transparent!important;border:0!important;margin:0!important;padding:0!important;filter:none!important;animation:none!important;}',
-      '#loading .uap-logo-final .uap-logo-img{object-position:center center!important;filter:drop-shadow(0 0 6px rgba(0,212,255,.22))!important;}',
+      '#loading .uap-logo-final .uap-logo-img{object-position:center center!important;filter:drop-shadow(0 0 5px rgba(0,212,255,.18))!important;}',
       '.brand-title.uap-brand-logo,.brand-title.uap-logo-final{contain:none!important;overflow:visible!important;}',
       '.uap-logo-letter,.uap-logo-space,.uap-edge-letter,.uap-edge-space,.uap-news-s{display:none!important;}'
     ].join('\n');
