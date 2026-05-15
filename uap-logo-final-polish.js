@@ -8,7 +8,7 @@
   var LOGO_SRC = './uap-news-logo.svg?v=172';
 
   function logoMarkup(){
-    return '<img class="uap-logo-img" src="' + LOGO_SRC + '" alt="UAP News" decoding="async">';
+    return '<img class="uap-logo-img" src="' + LOGO_SRC + '" alt="UAP News" decoding="async"><span class="uap-news-s" aria-hidden="true"></span><span class="uap-logo-letter" aria-hidden="true"></span>';
   }
 
   function injectStyle(){
@@ -34,10 +34,13 @@
     if (!el) return;
     el.classList.add('uap-logo-final');
     el.dataset.uapLogoAsset = '1';
+    el.dataset.uapLetters = '1';
     if (!el.querySelector('.uap-logo-img')) el.innerHTML = logoMarkup();
     else {
       var img = el.querySelector('.uap-logo-img');
       if (img.getAttribute('src') !== LOGO_SRC) img.setAttribute('src', LOGO_SRC);
+      if (!el.querySelector('.uap-news-s')) el.insertAdjacentHTML('beforeend', '<span class="uap-news-s" aria-hidden="true"></span>');
+      if (!el.querySelector('.uap-logo-letter')) el.insertAdjacentHTML('beforeend', '<span class="uap-logo-letter" aria-hidden="true"></span>');
     }
     el.setAttribute('aria-label', 'UAP News');
   }
