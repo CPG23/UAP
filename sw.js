@@ -1,6 +1,6 @@
-var CACHE = 'uap-v149-startup-animation-final';
+var CACHE = 'uap-v150-stable-startup-animation';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '149';
+var OVERRIDE_VERSION = '150';
 var OVERRIDE_FILES = [
   'uap-startup-alien.js',
   'uap-startup-visible-fix.js',
