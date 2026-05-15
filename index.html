@@ -280,7 +280,7 @@
   }
   var refresh = document.getElementById('refresh-btn');
   if (refresh) refresh.addEventListener('click', function(){ window.location.reload(); });
-  window.addEventListener('load', function(){ setTimeout(hideStart, 1200); });
+  window.addEventListener('load', function(){ setTimeout(hideStart, 9200); });
   setTimeout(hideStart, 9400);
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(function(){});
 })();
