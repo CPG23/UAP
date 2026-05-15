@@ -1,6 +1,6 @@
-var CACHE = 'uap-v160-signal-startup-reveal';
+var CACHE = 'uap-v161-refined-startup-beam';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '160';
+var OVERRIDE_VERSION = '161';
 var OVERRIDE_FILES = [
   'uap-startup-alien.js',
   'uap-startup-visible-fix.js',
@@ -11,7 +11,7 @@ var OVERRIDE_FILES = [
   'uap-startup-animation-final.js'
 ];
 
-var STARTUP_STILL_STYLE = '\n#loading{background:#000!important;background-color:#000!important;background-image:none!important;box-shadow:inset 0 0 0 100vmax #000!important;overflow:hidden!important;}\n#loading .alien-head,#loading img.alien-head{position:absolute!important;left:calc(50% + 26vw)!important;top:50%!important;margin:0!important;width:min(1770px,225vw)!important;height:min(996px,126vw)!important;max-width:none!important;max-height:92vh!important;opacity:.05!important;mix-blend-mode:normal!important;filter:brightness(.12) contrast(.82) saturate(1.16)!important;mask-image:none!important;-webkit-mask-image:none!important;animation:none!important;transition:none!important;transform:translate(-50%,-6%) scale(.72)!important;transform-origin:center center!important;will-change:opacity,filter,transform!important;background:#000!important;background-color:#000!important;box-shadow:0 0 0 100vmax #000!important;background-size:contain!important;background-position:center center!important;background-repeat:no-repeat!important;object-fit:contain!important;object-position:center center!important;}\n#loading .startup-title{position:absolute!important;top:28px!important;left:50%!important;right:auto!important;bottom:auto!important;display:block!important;transform:translateX(-50%)!important;margin:0!important;z-index:2!important;}\n#loading .loading-bar{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;}\n';
+var STARTUP_STILL_STYLE = '\n#loading{background:#000!important;background-color:#000!important;background-image:none!important;box-shadow:inset 0 0 0 100vmax #000!important;overflow:hidden!important;}\n#loading .alien-head,#loading img.alien-head{position:absolute!important;left:calc(50% + 26vw)!important;top:50%!important;margin:0!important;width:min(1770px,225vw)!important;height:min(996px,126vw)!important;max-width:none!important;max-height:92vh!important;opacity:.05!important;mix-blend-mode:normal!important;filter:brightness(.12) contrast(.82) saturate(1.16)!important;mask-image:none!important;-webkit-mask-image:none!important;animation:none!important;transition:none!important;transform:translate(-50%,-30%) scale(.72)!important;transform-origin:center center!important;will-change:opacity,filter,transform!important;background:#000!important;background-color:#000!important;box-shadow:0 0 0 100vmax #000!important;background-size:contain!important;background-position:center center!important;background-repeat:no-repeat!important;object-fit:contain!important;object-position:center center!important;}\n#loading .startup-title{position:absolute!important;top:28px!important;left:50%!important;right:auto!important;bottom:auto!important;display:block!important;transform:translateX(-50%)!important;margin:0!important;z-index:2!important;}\n#loading .loading-bar{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;}\n';
 
 self.addEventListener('install', function(e) {
   e.waitUntil(self.skipWaiting());
