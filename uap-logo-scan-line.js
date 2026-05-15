@@ -4,7 +4,8 @@
   var IMAGE_X = 'calc(50% + 26vw)';
 
   function wrapLogoText(el){
-    if (!el || el.dataset.uapLetters === '1') return;
+    if (!el) return;
+    if (el.dataset.uapLetters === '1' && el.querySelector('.uap-logo-letter')) return;
     var text = (el.textContent || 'UAP News').replace(/\s+/g, ' ').trim() || 'UAP News';
     el.textContent = '';
     Array.prototype.forEach.call(text, function(ch, index){
@@ -48,5 +49,7 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyLogoScanLine, { once: true });
   else applyLogoScanLine();
   window.addEventListener('load', applyLogoScanLine);
+  setTimeout(applyLogoScanLine, 50);
   setTimeout(applyLogoScanLine, 250);
+  setTimeout(applyLogoScanLine, 800);
 })();
