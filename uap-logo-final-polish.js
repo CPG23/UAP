@@ -5,7 +5,7 @@
   window.__uapLogoFinalPolish = true;
 
   var STYLE_ID = 'uap-logo-final-polish-style';
-  var LOGO_SRC = './UFO-Logo.png?v=178';
+  var LOGO_SRC = './UFO-Logo.png?v=179';
 
   function logoMarkup(){
     return '<img class="uap-logo-img" src="' + LOGO_SRC + '" alt="UAP-News" decoding="async"><span class="uap-news-s" aria-hidden="true"></span><span class="uap-logo-letter" aria-hidden="true"></span>';
