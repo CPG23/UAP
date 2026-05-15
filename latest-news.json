@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-15T06:26:33Z",
+  "timestamp": "2026-05-15T12:31:23Z",
   "articles": [
     {
       "id": "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public",
@@ -9,7 +9,7 @@
       "date": "2026-05-08",
       "publishedAt": "2026-05-08T22:01:00Z",
       "summary": "On May 8, 2026 the US Department of War released its first batch of declassified UAP records, launching the public archive PURSUE, which the Trump administration says will be updated every few weeks. The release follows a February 19, 2026 directive from President Trump instructing federal agencies to identify, review and declassify documents related to extraterrestrial life and UAP, and includes dozens of agencies and tens of millions of records, many only on paper.",
-      "mentions": 30,
+      "mentions": 32,
       "otherSources": [
         {
           "title": "Department of War Releases Unidentified Anomalous Phenomena Files in Historic Transparency Effort",
@@ -36,6 +36,11 @@
           "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE81SlIyNXc5SFBlVkYwdDlFTjVWZnhwa0tpQThNZWZOQXZZVzY4YzdQWTJMVl91RnJ4Q2tNcw?oc=5",
           "source": "U.S. Department of War (.gov)",
           "publishedAt": "2026-05-08T14:30:11Z"
+        },
+        {
+          "source": "Sky News",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeFdFaFdTMWFYc2FVRmtWekt3Vmw4aXA3N05USHlES01mWVpJRUltdzdvSGt4NjJiTnBTcnMxZUJsaElwdU5HY3B3LXNVMWVicVhEMXB0RHJCckFTZldtRnRHRDBrVkpkcElrQmx0cGFSTFFDX2RzX0hkMlhOLWlNaWlTc2FKRGZqTTFkMnhR?oc=5",
+          "title": "'Never-before-seen' files on UFOs released by Pentagon"
         },
         {
           "title": "Pentagon UFO files release: Amid new UFO disclosure, officials say public can draw conclusions on unidentified anomalous phenomena",
@@ -85,13 +90,6 @@
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTF9ZeXROTy05a0R6T1dtWUpzNEQyNW1vLVZ1WW9JLVprN3ZROXhsQlRDbVRBYXMtWXk1NVRiellVQ0RhNHRPV0Z0Y19TOWFzN1BidE43VXd1TkZXLWc2MWJ0RF9SRTVSNE1leDhHeUdHS2FFRWZpUlhhNlR3aFo5emI0VGJoWktFbUVzUGdFVDBycVBOVXlpV1ZlVnBQbVJPTElIejY5R2poMEk0ZnVoZ19ydmRFWm5Qa1ZYRG5DUFFLZ3F3Z3BIQjdlTFhBZ0dUeEw2cUFR0gHqAUFVX3lxTE5Qc2dBMnFjSHMwY2l1blhlSTdueXpGNlVtMlMwd1Bycm1WSFktN1dPamhlLUhlSHMwVW5MNWtnUUxhSm9KaDJ1UEFla1RENHJVSWczUWRkV3J3RnJLdnNuMlZfbExnLTNOOWMyVkQwRVg2VFhQTURwbjk1ZUU2WEdfSTdJazVzVTRSTFZyX2JPbTZXVENuOGZ6aThJbVhvRTBXUTdTV3N5dGhqM2JRejR0ZHFvTGhvLVNpZEpXYnRZU0pmMkp0QWV0bjFKT3o1WU82RjZGYkRkRmdsbFBLamViVGRyX1JHTDFyUQ?oc=5",
           "source": "AL.com",
           "publishedAt": "2026-05-09T06:02:04Z"
-        },
-        {
-          "title": "The 2023 Las Vegas Backyard UFO Case Returns To Center Stage As Washington Moves Toward Disclosure",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaWVuS3FiME5BdHNDR1BvV1pjWVhZU3VNN3J5MHdlZ1N5YkhZSl9SQl9xMVBwek5UQm1KbjNIRDlPN2RWVGFyYkE3OUswRldic3Y0MFRYaEZmRTFLeVNEY1YtTDJBN1RwU1NYSGZSNDNhRVB0N3dfRGRkT3lzWFA0bUdFNWtyQXBPdk5XX2h3ckJMVlltalZ3UV9IWmRPcExLa01nb1lPRHdlREJaQzVKUnhTUmgwZHRFeE9HQjdn?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaWVuS3FiME5BdHNDR1BvV1pjWVhZU3VNN3J5MHdlZ1N5YkhZSl9SQl9xMVBwek5UQm1KbjNIRDlPN2RWVGFyYkE3OUswRldic3Y0MFRYaEZmRTFLeVNEY1YtTDJBN1RwU1NYSGZSNDNhRVB0N3dfRGRkT3lzWFA0bUdFNWtyQXBPdk5XX2h3ckJMVlltalZ3UV9IWmRPcExLa01nb1lPRHdlREJaQzVKUnhTUmgwZHRFeE9HQjdn?oc=5",
-          "source": "USA Herald",
-          "publishedAt": "2026-05-12T07:31:41Z"
         },
         {
           "title": "‘Data alone is not disclosure’: UAP research community reacts to Trump’s first PURSUE file drop",
@@ -144,7 +142,7 @@
           "title": "No 'smoking gun' in new AZ UFO report — it's something even stranger",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdXExeHMwT3BIMmVfMjNwYW9pendLRlJtZDVfdkVNQTNkdlFIQmpEWl92MS1DcVN6d1ExZHNoU2I0MTFHbVFXZU85anlVTlhpZlV0VF9wNGNmdEJOUC1KczRpMjVuTHF6VnNJeWktZGVxU3FxdmxoVnZaQXVTOTgxZ2xiNVhWa2haSFV0TmozN0dybHl5RS1aSTcxa3Z5VmR0aktGTG5UMWQyUQ?oc=5",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdXExeHMwT3BIMmVfMjNwYW9pendLRlJtZDVfdkVNQTNkdlFIQmpEWl92MS1DcVN6d1ExZHNoU2I0MTFHbVFXZU85anlVTlhpZlV0VF9wNGNmdEJOUC1KczRpMjVuTHF6VnNJeWktZGVxU3FxdmxoVnZaQXVTOTgxZ2xiNVhWa2haSFV0TmozN0dybHl5RS1aSTcxa3Z5VmR0aktGTG5UMWQyUQ?oc=5",
-          "source": "The Arizona Republic",
+          "source": "azcentral.com and The Arizona Republic",
           "publishedAt": "2026-05-12T23:33:00Z"
         },
         {
@@ -170,6 +168,11 @@
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeVpMNUJleURoOXVDZU1LcmM1RTY0dlI3ZGFmS2owQlpzaDdFcm9oZmV6YzI3YmRBazFLb25BUHpmVkVITEVuaGxGbW1ETE5MeEQzYXJqOS0wbHllVVpKZ1FQdGxKcWdXSUtOckE4Y01lTWpxdVRmR2RuOUlReVltSWV1S0oxN3pRdGc2eF9MTXJnSW9KZmQ5TzRoRlU?oc=5",
           "source": "Universe Space Tech",
           "publishedAt": "2026-05-12T09:02:52Z"
+        },
+        {
+          "source": "NPR",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORE5Bc1JoM2lxZDc3Sjh3Zm5CcUlqVzlJX2ZGUVQtc29Fa0xCckJ1YjRFY3FMWng0cm1wT0REcGpuUmFIeFNSUFYtVmg2U0hhSll0S1dDblBBeXVCVDFqUWhFRExGb1JyU0tRLWVCUnluUUpLZEQ2czNibWVQTmlrRC1nd3NXN1k?oc=5",
+          "title": "UFO files spanning decades are released by Defense Department"
         },
         {
           "source": "Australian Broadcasting Corporation",
@@ -198,6 +201,13 @@
           "publishedAt": "2026-05-10T23:11:15Z"
         },
         {
+          "title": "Longmont’s UFO Files: National Database Details Decades Of Strange Sightings",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdHVWUlZZMFJCQUpibmE4SFhTMldZZnlDMkJWeGhZX0pwVEJWdnRsQ0dDcDdvYmdiR05kejktNnBQWmQyVm5naU9VZ0lFSmotVGFaMUpyQ1NYR3pTcFV4U0dDblJmZ2REYkE2VXpXVDhONlZPUTFFRnM5UTB6TC1BRmQ4UzJZblRoY1ZDLUxBbzc5akFLcFI1WWZxYnh4TEZIQ01jeEd4alJLU0FZcExxMkczbVZDMFRra3FDb2NyY0VJdGM?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdHVWUlZZMFJCQUpibmE4SFhTMldZZnlDMkJWeGhZX0pwVEJWdnRsQ0dDcDdvYmdiR05kejktNnBQWmQyVm5naU9VZ0lFSmotVGFaMUpyQ1NYR3pTcFV4U0dDblJmZ2REYkE2VXpXVDhONlZPUTFFRnM5UTB6TC1BRmQ4UzJZblRoY1ZDLUxBbzc5akFLcFI1WWZxYnh4TEZIQ01jeEd4alJLU0FZcExxMkczbVZDMFRra3FDb2NyY0VJdGM?oc=5",
+          "source": "longmontleader.com",
+          "publishedAt": "2026-05-08T23:00:00Z"
+        },
+        {
           "title": "Maternal stereotypes, ‘emotional’ AI jailbreaks and a perfect UFO sighting",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS1RvSVMzRHdmRUdfZ1R1SzAwUm1ZbU5FY2dNdGxFSGF3VmFKSmpmbHR6SFdXaGlLMkYxdHZvOEF6TDVtX1B3S1BxT3hJNGpveE45aGNCYXFqVEsxWVpUcUNaTHVXTWtJQ3JuNi0tZDUtLU5tdHFiSHV1OGExUjZOZUhBSGFRVF90NVhXei1uRU1EbERnX3pJMmNqay1tRzVPQnRuZmRxbUR0czFZbUtlUURwSThqSFk?oc=5",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS1RvSVMzRHdmRUdfZ1R1SzAwUm1ZbU5FY2dNdGxFSGF3VmFKSmpmbHR6SFdXaGlLMkYxdHZvOEF6TDVtX1B3S1BxT3hJNGpveE45aGNCYXFqVEsxWVpUcUNaTHVXTWtJQ3JuNi0tZDUtLU5tdHFiSHV1OGExUjZOZUhBSGFRVF90NVhXei1uRU1EbERnX3pJMmNqay1tRzVPQnRuZmRxbUR0czFZbUtlUURwSThqSFk?oc=5",
@@ -210,12 +220,12 @@
         "Pentagon begins releasing new files on UFOs and says people can 'make up their own minds'",
         "‘Make up their own minds’: Pentagon releases first tranche of UFO files",
         "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
+        "'Never-before-seen' files on UFOs released by Pentagon",
         "Pentagon UFO files release: Amid new UFO disclosure, officials say public can draw conclusions on unidentified anomalous phenomena",
         "Newly Released UAP Files Are Shattering Decades Of NASA’s UFO Narrative Just As Artemis Pushes Humanity Back Into Deep Space",
         "UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites",
         "Ukrainian Defence Ministry Advisor Drops Bizarre UFOs Encountered By Military Amid Pentagon's Disclosure [WATCH]",
-        "Trump Administration Opens WAR.GOV/UFO As Historic UAP File Release Puts America’s UFO Questions In Public View",
-        "Illusionist Uri Geller Reacts To US Congressman's Warning Over Next Set Of UFO Files: 'Holy Crap Is Coming'"
+        "Trump Administration Opens WAR.GOV/UFO As Historic UAP File Release Puts America’s UFO Questions In Public View"
       ],
       "quality": 90,
       "qualityBreakdown": [
@@ -237,7 +247,7 @@
         {
           "label": "Mehrere Quellen",
           "points": 40,
-          "text": "30 Quellen im aktuellen Feed."
+          "text": "32 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -261,22 +271,15 @@
       }
     },
     {
-      "id": "file-release-sleeping-dog-how-new-ufo-documentary-could-bring-us-closer-to-real-life-disclosure-day",
-      "title": "Sleeping Dog: How New UFO Documentary Could Bring Us Closer To Real-Life Disclosure Day",
-      "source": "SYFY",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMUJQZkU0UWRHTU5aSWhDSktiS0RraXVyNDJJcXc5djU0a0xma3UxcTZvd1JRRGRjTHUxeDJWcnRaSENxQk02ZU5iaWx1N3lYZllYZm0zLThncHdvRWdvSmNQQUpzZUd2V2ZDVTZyNjNYUzlFM0pWdzVGS2JpekZNNUNQMy12dEgwZVZucmtBVkNBNVlZdHpwdDU5Qmh6bjA2YzN2VXdpb1puUWd3U05FUmtMWndmQQ?oc=5",
+      "id": "file-release-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere",
+      "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
+      "source": "Tom's Guide",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM1lQdFdFZllPc1Q3bGNXSHRIcF9oel9NVWFOdUg5SDhkQmpXZXZEQWw2MHBvSmF4d0R1RE5udExuYnZ3YmlkTzZ0aUtXbU9pZ0pnSkhSMDRBNWwxcjQtQVRJQU84QkFMVG05U3MyNm9JTV9ZSllBdW9KUjgxMkVpZg?oc=5",
       "date": "2026-05-12",
-      "publishedAt": "2026-05-08T19:14:51Z",
-      "summary": "\"Sleeping Dog\" is a documentary by Michael Lazovsky that follows journalist and filmmaker Jeremy Corbell as he compiles hundreds of hours of UFO footage, including material from figures such as George Knapp, John Lear, and Bob Lazar. Corbell has been a whistleblower, seeking to release evidence to Congress and to the public, but he faces threats from rogue organizations and companies, prompting Lazovsky to describe the film as a form of protection for him. S.",
+      "publishedAt": "2026-05-12T14:23:23Z",
+      "summary": "S. military sensor videos. The film features interviews with insiders such as astronaut Dr.",
       "mentions": 4,
       "otherSources": [
-        {
-          "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM1lQdFdFZllPc1Q3bGNXSHRIcF9oel9NVWFOdUg5SDhkQmpXZXZEQWw2MHBvSmF4d0R1RE5udExuYnZ3YmlkTzZ0aUtXbU9pZ0pnSkhSMDRBNWwxcjQtQVRJQU84QkFMVG05U3MyNm9JTV9ZSllBdW9KUjgxMkVpZg?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM1lQdFdFZllPc1Q3bGNXSHRIcF9oel9NVWFOdUg5SDhkQmpXZXZEQWw2MHBvSmF4d0R1RE5udExuYnZ3YmlkTzZ0aUtXbU9pZ0pnSkhSMDRBNWwxcjQtQVRJQU84QkFMVG05U3MyNm9JTV9ZSllBdW9KUjgxMkVpZg?oc=5",
-          "source": "Tom's Guide",
-          "publishedAt": "2026-05-12T08:35:23Z"
-        },
         {
           "title": "Jeremy Corbell’s Sleeping Dog: UFO whistleblower chaos, CIA fear, and Lazar lore",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42RnpBR0JvQzZ0b2Rrdk44cDF6S0lsOTJJMm5jQXpsQ2JYcUxPVHBSOXJLOHY4ZlgzRnV3dTFJMjF2SEhpX2FmdlhIb3F1dVVDLWhHXzdwMjY5SkVKQ1h5T0wyR045ZDYzdnRpc2dtaFU0ZmdWYzNUa2xRZw?oc=5",
@@ -285,14 +288,23 @@
           "publishedAt": "2026-05-12T14:23:23Z"
         },
         {
-          "source": "Evrim Ağacı",
+          "title": "How to watch 'Sleeping Dog' - screen UAP/UFO doc online from anywhere",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY09yN3ZKN3hkUVRYc0Nfa1EyT0Q4RjJJM3NTbE96Sjg5eFBhZHpKbElwbUNreDRCX3c2UmtPTGNUcE5vcHpRYnlTZzdqbW00SGVYRXBNckNXZDF1N0JBSjFaZnQ0UjJzN1cyWmFVcG4yUm1pTmZoVXFvUjdoMjJPQnYzUnlwRnNTcU9oUFZqUFRvLVU?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY09yN3ZKN3hkUVRYc0Nfa1EyT0Q4RjJJM3NTbE96Sjg5eFBhZHpKbElwbUNreDRCX3c2UmtPTGNUcE5vcHpRYnlTZzdqbW00SGVYRXBNckNXZDF1N0JBSjFaZnQ0UjJzN1cyWmFVcG4yUm1pTmZoVXFvUjdoMjJPQnYzUnlwRnNTcU9oUFZqUFRvLVU?oc=5",
+          "source": "Yahoo",
+          "publishedAt": "2026-05-12T08:35:23Z"
+        },
+        {
+          "title": "Sleeping Dog Documentary Exposes UAP Secrets And Risks",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
-          "title": "Sleeping Dog Documentary Exposes UAP Secrets And Risks"
+          "source": "Evrim Ağacı",
+          "publishedAt": "2026-05-08T23:30:52Z"
         }
       ],
       "clusterTitles": [
-        "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
         "Jeremy Corbell’s Sleeping Dog: UFO whistleblower chaos, CIA fear, and Lazar lore",
+        "How to watch 'Sleeping Dog' - screen UAP/UFO doc online from anywhere",
         "Sleeping Dog Documentary Exposes UAP Secrets And Risks"
       ],
       "quality": 80,
@@ -341,15 +353,15 @@
       "sourceQuality": 80,
       "translation": {
         "en": {
-          "title": "Sleeping Dog: How New UFO Documentary Could Bring Us Closer To Real-Life Disclosure Day",
-          "summary": "\"Sleeping Dog\" is a documentary by Michael Lazovsky that follows journalist and filmmaker Jeremy Corbell as he compiles hundreds of hours of UFO footage, including material from figures such as George Knapp, John Lear, and Bob Lazar. Corbell has been a whistleblower, seeking to release evidence to Congress and to the public, but he faces threats from rogue organizations and companies, prompting Lazovsky to describe the film as a form of protection for him. S.",
-          "sourceHash": "364239903d844bc7f8ab564f0473465f6ad2481c",
+          "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
+          "summary": "S. military sensor videos. The film features interviews with insiders such as astronaut Dr.",
+          "sourceHash": "99bbd326052a43a22ff3468d8bf3a5396bd060fd",
           "provider": "original"
         },
         "de": {
-          "title": "Sleeping Dog: Wie uns eine neue UFO-Dokumentation dem Tag der Enthüllung im wirklichen Leben näher bringen könnte",
-          "summary": "„Sleeping Dog“ ist ein Dokumentarfilm von Michael Lazovsky, der den Journalisten und Filmemacher Jeremy Corbell dabei begleitet, wie er Hunderte von Stunden UFO-Filmmaterial zusammenstellt, darunter Material von Persönlichkeiten wie George Knapp, John Lear und Bob Lazar. Corbell war ein Whistleblower, der Beweise an den Kongress und die Öffentlichkeit weitergeben wollte, doch er sieht sich Drohungen von Schurkenorganisationen und -firmen ausgesetzt, was Lazovsky dazu veranlasste, den Film als eine Form seines Schutzes zu bezeichnen. S.",
-          "sourceHash": "364239903d844bc7f8ab564f0473465f6ad2481c",
+          "title": "So schauen Sie sich „Sleeping Dog“ online an – streamen Sie die umstrittene UAP/UFO-Dokumentation von überall aus",
+          "summary": "S. militärische Sensorvideos. Der Film enthält Interviews mit Insidern wie dem Astronauten Dr.",
+          "sourceHash": "99bbd326052a43a22ff3468d8bf3a5396bd060fd",
           "provider": "google"
         }
       }
@@ -361,7 +373,7 @@
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNLWc4dk5lLUlQREVhNFE5YzRTc3BuZjJmU0hHWmhQLXd0V2VScHZEUFdERkVRaWpVWFY5aWVJR0t5Y2xmM3EyOFlWdFBHbTQzZXhOdlZfSWhibndwNmZjNlJXcmM5YVQ3WXFtWWVJNTNYOGN2akhzd1VDYTFiX0VPWnhkRTBUWlRVSVhjbjQxWTdwbndrTnQ5eDk0QVF2Yk5YdVBIQ0k1RDZ6UkpZaC0wOTliSkhNeTRfMmlGaS16b0tMeDRaanVMZXpLRWMyZFNVbGVaVFJydHA3TXQ5eElB?oc=5",
       "date": "2026-05-14",
       "publishedAt": "2026-05-14T09:26:36Z",
-      "summary": "NASA has long stated that there is no confirmed evidence of alien spacecraft visiting Earth. The Trump administration’s PURSUE system has recently released previously hidden UAP files that include military encounters, radar tracking incidents, astronaut observations, and classified investigations spanning decades. S.",
+      "summary": "NASA has long stated that there is no confirmed evidence of alien spacecraft visiting Earth, a position it has maintained even as new UAP files are released. The Trump administration’s PURSUE program has begun declassifying military, intelligence, and defense archives that contain reports of unidentified anomalous phenomena, radar tracking incidents, astronaut observations, and classified investigations spanning decades. S.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -412,84 +424,14 @@
       "translation": {
         "en": {
           "title": "Newly Released UAP Files Are Shattering Decades Of NASA’s UFO Narrative Just As Artemis Pushes Humanity Back Into Deep Space",
-          "summary": "NASA has long stated that there is no confirmed evidence of alien spacecraft visiting Earth. The Trump administration’s PURSUE system has recently released previously hidden UAP files that include military encounters, radar tracking incidents, astronaut observations, and classified investigations spanning decades. S.",
-          "sourceHash": "ebac46e34d8e9f494ba3eb1e90b03cc7a2157ff5",
+          "summary": "NASA has long stated that there is no confirmed evidence of alien spacecraft visiting Earth, a position it has maintained even as new UAP files are released. The Trump administration’s PURSUE program has begun declassifying military, intelligence, and defense archives that contain reports of unidentified anomalous phenomena, radar tracking incidents, astronaut observations, and classified investigations spanning decades. S.",
+          "sourceHash": "490f09dd7beba987823514f347dbd7ac6e7fbc8d",
           "provider": "original"
         },
         "de": {
           "title": "Neu veröffentlichte UAP-Dateien zerstören jahrzehntelange UFO-Erzählungen der NASA, gerade als Artemis die Menschheit zurück in den Weltraum drängt",
-          "summary": "Die NASA hat seit langem erklärt, dass es keine bestätigten Beweise dafür gibt, dass außerirdische Raumschiffe die Erde besuchen. Das PURSUE-System der Trump-Administration hat kürzlich zuvor versteckte UAP-Dateien veröffentlicht, die militärische Begegnungen, Radarverfolgungsvorfälle, Astronautenbeobachtungen und geheime Ermittlungen über Jahrzehnte umfassen. S.",
-          "sourceHash": "ebac46e34d8e9f494ba3eb1e90b03cc7a2157ff5",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "the-2023-las-vegas-backyard-ufo-case-returns-to-center-stage-as-washington-moves-toward-disclosure",
-      "title": "The 2023 Las Vegas Backyard UFO Case Returns To Center Stage As Washington Moves Toward Disclosure",
-      "source": "USA Herald",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaWVuS3FiME5BdHNDR1BvV1pjWVhZU3VNN3J5MHdlZ1N5YkhZSl9SQl9xMVBwek5UQm1KbjNIRDlPN2RWVGFyYkE3OUswRldic3Y0MFRYaEZmRTFLeVNEY1YtTDJBN1RwU1NYSGZSNDNhRVB0N3dfRGRkT3lzWFA0bUdFNWtyQXBPdk5XX2h3ckJMVlltalZ3UV9IWmRPcExLa01nb1lPRHdlREJaQzVKUnhTUmgwZHRFeE9HQjdn?oc=5",
-      "date": "2026-05-14",
-      "publishedAt": "2026-05-12T07:31:41Z",
-      "summary": "On May 1, 2023, a bright fireball was reported across the Southwest, and a Las Vegas family called 911 after claiming a crash in their backyard and seeing large, greenish, 8‑10‑foot tall beings. Police responded, body‑camera footage was captured, and the family appeared visibly shaken while other witnesses reported a sky event.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 70,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DISCLOSURE, TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE",
-        "TRUMP"
-      ],
-      "sourceQuality": 70,
-      "translation": {
-        "en": {
-          "title": "The 2023 Las Vegas Backyard UFO Case Returns To Center Stage As Washington Moves Toward Disclosure",
-          "summary": "On May 1, 2023, a bright fireball was reported across the Southwest, and a Las Vegas family called 911 after claiming a crash in their backyard and seeing large, greenish, 8‑10‑foot tall beings. Police responded, body‑camera footage was captured, and the family appeared visibly shaken while other witnesses reported a sky event.",
-          "sourceHash": "36b3aeaf48cdeb3515ba758865c35c6d5f9d0fc5",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Der Hinterhof-UFO-Fall 2023 in Las Vegas rückt wieder in den Mittelpunkt, während Washington sich der Offenlegung nähert",
-          "summary": "Am 1. Mai 2023 wurde im Südwesten ein heller Feuerball gemeldet, und eine Familie aus Las Vegas rief 911 an, nachdem sie einen Unfall in ihrem Hinterhof gemeldet und große, grünliche, 8 bis 10 Fuß große Wesen gesehen hatte. Die Polizei reagierte, es wurden Körperkameraaufnahmen gemacht und die Familie wirkte sichtlich erschüttert, während andere Zeugen von einem Vorfall am Himmel berichteten.",
-          "sourceHash": "36b3aeaf48cdeb3515ba758865c35c6d5f9d0fc5",
+          "summary": "Die NASA hat seit langem erklärt, dass es keine bestätigten Beweise dafür gibt, dass außerirdische Raumschiffe die Erde besucht haben, eine Position, die sie auch nach der Veröffentlichung neuer UAP-Dateien beibehalten hat. Das PURSUE-Programm der Trump-Regierung hat mit der Freigabe von Militär-, Geheimdienst- und Verteidigungsarchiven begonnen, die Berichte über nicht identifizierte anomale Phänomene, Radarverfolgungsvorfälle, Astronautenbeobachtungen und geheime Untersuchungen über Jahrzehnte enthalten. S.",
+          "sourceHash": "490f09dd7beba987823514f347dbd7ac6e7fbc8d",
           "provider": "google"
         }
       }
@@ -699,80 +641,6 @@
       }
     },
     {
-      "id": "sighting-rep-tim-burchett-warns-classified-uap-briefing-contains-explosive-information-that-could-set-the-earth-on-fire",
-      "title": "Rep. Tim Burchett Warns Classified UAP Briefing Contains Explosive Information That Could ‘Set the Earth on Fire’",
-      "source": "USA Herald",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYjU5RUpiQWUyamc5bVo4UmV0Zl9XQnJTaWVMQ2lLWVZDSXdsS2JxMzY3NEZzUmhKYlFjVjFjMk5MQmwxZ3ZQeGxXTmIxaUtHWWVyRmRHT2l2dHNsM3I4MTNVdms1X2ZTWU9GNnBvdWlVX21RZTluMUpnNkcwVTJXWjcwTi03bkZtVG50aGNwYTZLZGR2ZEpnTEJ4SWdHR2JaRXJ5bEYtNGctUk42QWF3dVFfbHBzbWhZZnNBV3JhbGdHa1JvcUJDQ2YwTjViQQ?oc=5",
-      "date": "2026-05-14",
-      "publishedAt": "2026-05-14T17:56:53Z",
-      "summary": "Rep. ) warned on Newsmax that classified briefings on unidentified anomalous phenomena contain information he said would “set the Earth on fire” and could shock the public if fully released. He said he has been briefed by almost every federal agency and urged President Trump to push for full disclosure, while noting he cannot reveal classified details due to legal restrictions.",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "Thousands of mysterious underwater UFOs spotted off US shores: report",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV0RTcFYxVGYwS0JiTEhvcVVIbzkxNFU1VTQySk9fTHVCanFMaDg1LUNsaHRPVC0zYTJIcFNyUHpMV3c5a3g1SlZ3LUkxUDBFZW5TajVpd2JjZjdYLXZzajZaYklIN3V5Z1Vxd0sxUTdRVmtlN3BCbWo0Z0s1RkVhOHQ2aVR2bS0zUnRldHlQU0c1UDJyTjRBQ25xbEtGaVkxMU1CWmJwODcxLUlfbWFTVUR3cnltS0R2?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV0RTcFYxVGYwS0JiTEhvcVVIbzkxNFU1VTQySk9fTHVCanFMaDg1LUNsaHRPVC0zYTJIcFNyUHpMV3c5a3g1SlZ3LUkxUDBFZW5TajVpd2JjZjdYLXZzajZaYklIN3V5Z1Vxd0sxUTdRVmtlN3BCbWo0Z0s1RkVhOHQ2aVR2bS0zUnRldHlQU0c1UDJyTjRBQ25xbEtGaVkxMU1CWmJwODcxLUlfbWFTVUR3cnltS0R2?oc=5",
-          "source": "New York Post",
-          "publishedAt": "2026-05-14T05:20:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "Thousands of mysterious underwater UFOs spotted off US shores: report"
-      ],
-      "quality": 54,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "CLASSIFIED als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "CLASSIFIED als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "CLASSIFIED"
-      ],
-      "sourceQuality": 54,
-      "translation": {
-        "en": {
-          "title": "Rep. Tim Burchett Warns Classified UAP Briefing Contains Explosive Information That Could ‘Set the Earth on Fire’",
-          "summary": "Rep. ) warned on Newsmax that classified briefings on unidentified anomalous phenomena contain information he said would “set the Earth on fire” and could shock the public if fully released. He said he has been briefed by almost every federal agency and urged President Trump to push for full disclosure, while noting he cannot reveal classified details due to legal restrictions.",
-          "sourceHash": "c973b9614ac97e1231e103720ba01f04fd2d1c5c",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Abgeordneter Tim Burchett warnt davor, dass geheimes UAP-Briefing brisante Informationen enthält, die „die Erde in Brand setzen“ könnten",
-          "summary": "Rep. ) warnte auf Newsmax, dass geheime Briefings über nicht identifizierte anomale Phänomene Informationen enthalten, die seiner Meinung nach „die Erde in Brand setzen“ würden und die Öffentlichkeit schockieren könnten, wenn sie vollständig veröffentlicht würden. Er sagte, er sei von fast jeder Bundesbehörde informiert worden und forderte Präsident Trump auf, auf eine vollständige Offenlegung zu drängen. Er wies jedoch darauf hin, dass er aufgrund gesetzlicher Beschränkungen keine geheimen Details preisgeben könne.",
-          "sourceHash": "c973b9614ac97e1231e103720ba01f04fd2d1c5c",
-          "provider": "google"
-        }
-      }
-    },
-    {
       "id": "ufo-files-reveal-the-same-old-material",
       "title": "UFO Files Reveal … the Same Old Material",
       "source": "Skeptic",
@@ -824,34 +692,32 @@
   ],
   "summaries": {
     "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public": "On May 8, 2026 the US Department of War released its first batch of declassified UAP records, launching the public archive PURSUE, which the Trump administration says will be updated every few weeks. The release follows a February 19, 2026 directive from President Trump instructing federal agencies to identify, review and declassify documents related to extraterrestrial life and UAP, and includes dozens of agencies and tens of millions of records, many only on paper. The first tranche focuses on cases where the government cannot definitively determine the nature of the phenomena and contains Apollo 12 and 17 imagery, a cockpit transcript describing bright particles, FBI infrared images of unidentified objects over the western US in 2025, and military reports from incidents in the UAE, Greece, the Middle East, Africa, Japan, and North America. FBI Director Kash Patel said his agency handed over its first batch of classified UAP documents to the Pentagon‑led inter‑agency committee, while Secretary of War Pete Hegseth and DNI Tulsi Gabbard framed the release as evidence of the administration’s commitment to transparency and a joint declassification effort. The Department of War notes that many unresolved cases reflect insufficient data rather than anomalous capability, invites private‑sector analysis, and that the initiative’s success will depend on whether future tranches provide new operational detail rather than additional Apollo‑era curiosities and short infrared clips.",
-    "file-release-sleeping-dog-how-new-ufo-documentary-could-bring-us-closer-to-real-life-disclosure-day": "\"Sleeping Dog\" is a documentary by Michael Lazovsky that follows journalist and filmmaker Jeremy Corbell as he compiles hundreds of hours of UFO footage, including material from figures such as George Knapp, John Lear, and Bob Lazar. Corbell has been a whistleblower, seeking to release evidence to Congress and to the public, but he faces threats from rogue organizations and companies, prompting Lazovsky to describe the film as a form of protection for him. Lazovsky argues that misinformation and government manipulation obscure the truth, and he suggests that the U.S. weapons‑industrial complex fears losing control of potentially dangerous, gravity‑propelled technology derived from captured UFOs. Corbell holds about 46 videos that have not yet been released, and he hopes that the White House and Congress will declassify more files, while the documentary itself is scheduled for digital release on May 12. The film aims to humanize the UFO debate and counter the stereotype of conspiracy theorists, but it remains uncertain whether the government will cooperate or whether the technology in question is real.",
-    "file-release-newly-released-uap-files-are-shattering-decades-of-nasa-s-ufo-narrative-just-as-artemis-pushes-humanity-back-into-deep-space": "NASA has long stated that there is no confirmed evidence of alien spacecraft visiting Earth. The Trump administration’s PURSUE system has recently released previously hidden UAP files that include military encounters, radar tracking incidents, astronaut observations, and classified investigations spanning decades. These documents show that U.S. government agencies have treated the phenomenon as serious enough to warrant classified investigations, intelligence monitoring, aerospace analysis, and national‑security scrutiny. The new evidence contrasts with NASA’s public messaging, which has historically dismissed UFO sightings as weather balloons, optical effects, or camera artifacts. The files also reveal unresolved encounters involving astronauts, military pilots, advanced radar systems, and unidentified objects with capabilities that are not easily explained by conventional aerospace engineering.",
-    "the-2023-las-vegas-backyard-ufo-case-returns-to-center-stage-as-washington-moves-toward-disclosure": "On May 1, 2023, a bright fireball was reported across the Southwest, and a Las Vegas family called 911 after claiming a crash in their backyard and seeing large, greenish, 8‑10‑foot tall beings. Police responded, body‑camera footage was captured, and the family appeared visibly shaken while other witnesses reported a sky event. Crime‑scene analyst Scott Roder reviewed the backyard video frame‑by‑frame, publicly asserting that it showed at least two beings using a “cloaking” effect and that the entities were real, not fabricated, and he invited peer review. President Trump said UFO files would be released “very, very soon,” and Congress is discussing UAPs, non‑human intelligence, and related theories, increasing pressure on the federal government to disclose records. NASA’s UAP study and AARO have found no conclusive evidence of extraterrestrial origin or verifiable extraterrestrial activity, leaving the case at a crossroads between public demand for disclosure and official caution.",
+    "file-release-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": "\"Sleeping Dog\" is a UFO documentary that follows investigative journalist Jeremy Corbell and includes eight new, unreleased U.S. military sensor videos. The film features interviews with insiders such as astronaut Dr. Edgar Mitchell, Col. John B. Alexander, John Lear, Bob Lazar, David Grusch, nuclear chemist Edmund Storms, Cmdr. David Fravor, and journalist George Knapp. Corbell claims that releasing the film is his only protection against government attempts to silence whistleblowers. The documentary premiered theatrically on May 8 and will be available to buy or rent on Prime Video and Apple TV in the U.S. and Canada from May 12, with a U.K. release on Prime Video. Availability outside these regions requires a VPN, and the film is not yet available on Amazon Prime Video in Australia.",
+    "file-release-newly-released-uap-files-are-shattering-decades-of-nasa-s-ufo-narrative-just-as-artemis-pushes-humanity-back-into-deep-space": "NASA has long stated that there is no confirmed evidence of alien spacecraft visiting Earth, a position it has maintained even as new UAP files are released. The Trump administration’s PURSUE program has begun declassifying military, intelligence, and defense archives that contain reports of unidentified anomalous phenomena, radar tracking incidents, astronaut observations, and classified investigations spanning decades. These documents show that U.S. government agencies have treated the UAP phenomenon as serious enough to warrant classified investigations, intelligence monitoring, aerospace analysis, and national‑security scrutiny for years. The revelations contrast with the public narrative that UFO sightings are usually explained by weather balloons, optical effects, or camera artifacts, and now acknowledge unresolved encounters involving astronauts, military pilots, advanced radar systems, and craft with capabilities that are not easily explained by conventional aerospace engineering. NASA’s official stance remains unchanged, but the new context highlights a discrepancy between the agency’s measured public tone and the seriousness with which some government entities have approached the phenomenon.",
     "illusionist-uri-geller-reacts-to-us-congressman-s-warning-over-next-set-of-ufo-files-holy-crap-is-coming": "Israeli‑British illusionist Uri Geller, 79, reacted to US Congressman Tim Burchett’s warning that the next batch of declassified UFO files will dwarf those already released, saying he believes every word of the warning. Burchett, a member of the UAP Caucus, told Joe Rogan that the first set of 162 documents was only a “drop in the bucket” and that “Holy Crap is coming” with future releases. He cited reports of pilots being pulled from duty for psychological evaluation after UAP encounters, and alleged sightings of underwater craft moving over 200 mph and as large as a football field. Geller tweeted that in the 1970s he was shown fragments of metal from a crashed UFO by rocket scientist Wernher von Braun, and that he later saw non‑human bodies stored at NASA’s Goddard Space Center. He claims the already released files, which include Apollo and Gemini mission reports of strange lights and objects, validate his long‑standing assertions and hopes the forthcoming documents will expose NASA’s full involvement.",
     "a-small-oregon-town-puts-on-a-big-ufo-festival-why-it-s-worth-a-visit": "The 26th Annual McMenamins UFO Festival in McMinnville, Oregon, runs from May 14 to May 17, 2026, and is hosted by the McMenamins Hotel Oregon, making it the second largest UFO festival in the United States after Roswell. The festival celebrates the 1950 UFO sighting by Paul and Evelyn Trent, whose photographs of a metallic object sparked national debate and are considered among the most famous UFO images. Organizers describe the event as a gathering where skeptics and believers meet, offering speakers, live entertainment, a parade, costume contests, a trivia session, and a costume ball. Ticketed speaker presentations are available through ufofest.com, while most other activities are free, and the schedule includes a “UAP pass pickup party,” a podcast recording, and a panel with an undisclosed whistleblower interviewed by Jeremy Corbell. The festival coincides with the release of previously unseen federal UFO files, adding new context to the town’s long‑standing UFO lore.",
     "uap-whistleblower-david-grusch-on-non-human-biologics-craft": "David Grusch served 14 years in the U.S. Air Force, reaching the rank of Major and completing a combat tour in Afghanistan. He later held senior intelligence positions at the National Geospatial‑Intelligence Agency and the National Reconnaissance Office, and represented the latter on the UAP Task Force from 2019 to 2021. In 2022, Grusch filed a whistleblower complaint that was described as credible and urgent. In 2023, he testified before Congress, claiming that parts of the U.S. government had blocked congressional oversight, withheld information from executive officials, and illegally concealed programs related to the recovery and reverse engineering of craft of unknown, non‑human origin.",
-    "sighting-rep-tim-burchett-warns-classified-uap-briefing-contains-explosive-information-that-could-set-the-earth-on-fire": "Rep. Tim Burchett (R‑Tenn.) warned on Newsmax that classified briefings on unidentified anomalous phenomena contain information he said would “set the Earth on fire” and could shock the public if fully released. He said he has been briefed by almost every federal agency and urged President Trump to push for full disclosure, while noting he cannot reveal classified details due to legal restrictions. Burchett’s remarks come amid congressional hearings, whistleblower testimony and Pentagon reports that acknowledge a small percentage of UAP sightings remain unexplained, though most are attributed to mundane sources. He has introduced the UAP Transparency Act and has long criticized government secrecy, but no concrete evidence has been publicly released confirming alien‑human hybrids, recovered extraterrestrial bodies, or advanced technology. The article also notes the unexplained disappearance of retired Air Force Maj. Gen. William “Neil” McCasland, whose case has drawn attention because of his background in advanced aerospace research, though no foul play has been confirmed. Skeptics such as former Rep. Denver Riggleman dismiss the claims as unsubstantiated, and the debate continues over national‑security concerns versus the public’s right to know.",
     "ufo-files-reveal-the-same-old-material": "President Donald Trump and the Department of War released the UFO Files, but a preliminary review shows only blurry photographs, grainy videos, artist reconstructions, and anecdotal reports, with no new evidence of alien visitation. The files contain documents such as an artist’s composite sketch of an alleged ellipsoid bronze metallic object, a 2001 Georgian Foreign Ministry report claiming a Russian aircraft was a UFO, a 2023 Mexican Congress testimony on UAP that includes debunked fake alien corpses, and heavily redacted documents with a disclaimer protecting eyewitness identities and sensitive locations. Photographic stills from videos shot in the Southwestern United States show a small dot that could be a balloon, drone, or aircraft, while a 2024 report describes a football‑shaped UAP near Japan and an image of a Chinese UAV, but the author does not confirm these as extraterrestrial. Light anomalies captured by Apollo 17 astronauts are noted in the files, with the government stating no consensus on their nature and that further analysis will be released, and a video posted by Steven Greenstreet shows a parachute and flare. Pilot Scott Kelly and other experts are quoted explaining that optical illusion and misidentification can account for many reported sightings, and the author remains skeptical until new evidence emerges."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-15T06:26:33Z",
+    "timestamp": "2026-05-15T12:31:23Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 352,
-    "broadTopics": 159,
-    "notificationArticles": 3,
-    "notificationTopics": 3,
-    "newNotificationTopics": 1,
-    "appTopics": 9,
+    "broadArticles": 354,
+    "broadTopics": 166,
+    "notificationArticles": 1,
+    "notificationTopics": 1,
+    "newNotificationTopics": 0,
+    "appTopics": 7,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 4,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 12,
+    "regroupedTopics": 11,
     "topicRegrouping": "title_summary_story_signature_v7",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -860,18 +726,24 @@
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization",
       "attempts": 10,
-      "repaired": 5,
-      "missing": 5
+      "repaired": 4,
+      "missing": 6
     },
     "summaryQualityGate": {
       "policy": "strict_article_content_summary_required",
-      "kept": 9,
+      "kept": 7,
       "removed": 6,
       "removedItems": [
         {
+          "id": "sighting-thousands-of-mysterious-underwater-ufos-spotted-off-us-shores-report",
+          "title": "Thousands of mysterious underwater UFOs spotted off US shores: report",
+          "source": "New York Post",
+          "reason": "missing_article_content_summary"
+        },
+        {
           "id": "no-smoking-gun-in-new-az-ufo-report-it-s-something-even-stranger",
           "title": "No 'smoking gun' in new AZ UFO report — it's something even stranger",
-          "source": "The Arizona Republic",
+          "source": "azcentral.com and The Arizona Republic",
           "reason": "missing_article_content_summary"
         },
         {
@@ -897,19 +769,13 @@
           "title": "Trump declassifies 162 UFO files for public to judge the 'evidence'",
           "source": "Euronews.com",
           "reason": "missing_article_content_summary"
-        },
-        {
-          "id": "who-was-david-wilcock-the-latest-death-in-a-growing-missing-us-scientists-narrative-tied-to-ufo-claims",
-          "title": "Who was David Wilcock? The latest death in a growing ‘missing US scientists’ narrative tied to UFO claims",
-          "source": "MSN",
-          "reason": "missing_article_content_summary"
         }
       ]
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v1",
-      "inputArticles": 9,
-      "outputArticles": 9,
+      "inputArticles": 7,
+      "outputArticles": 7,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_required"
     }
@@ -929,45 +795,31 @@
         "provider": "google"
       }
     },
-    "file-release-sleeping-dog-how-new-ufo-documentary-could-bring-us-closer-to-real-life-disclosure-day": {
+    "file-release-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": {
       "en": {
-        "title": "Sleeping Dog: How New UFO Documentary Could Bring Us Closer To Real-Life Disclosure Day",
-        "summary": "\"Sleeping Dog\" is a documentary by Michael Lazovsky that follows journalist and filmmaker Jeremy Corbell as he compiles hundreds of hours of UFO footage, including material from figures such as George Knapp, John Lear, and Bob Lazar. Corbell has been a whistleblower, seeking to release evidence to Congress and to the public, but he faces threats from rogue organizations and companies, prompting Lazovsky to describe the film as a form of protection for him. S.",
-        "sourceHash": "364239903d844bc7f8ab564f0473465f6ad2481c",
+        "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
+        "summary": "S. military sensor videos. The film features interviews with insiders such as astronaut Dr.",
+        "sourceHash": "99bbd326052a43a22ff3468d8bf3a5396bd060fd",
         "provider": "original"
       },
       "de": {
-        "title": "Sleeping Dog: Wie uns eine neue UFO-Dokumentation dem Tag der Enthüllung im wirklichen Leben näher bringen könnte",
-        "summary": "„Sleeping Dog“ ist ein Dokumentarfilm von Michael Lazovsky, der den Journalisten und Filmemacher Jeremy Corbell dabei begleitet, wie er Hunderte von Stunden UFO-Filmmaterial zusammenstellt, darunter Material von Persönlichkeiten wie George Knapp, John Lear und Bob Lazar. Corbell war ein Whistleblower, der Beweise an den Kongress und die Öffentlichkeit weitergeben wollte, doch er sieht sich Drohungen von Schurkenorganisationen und -firmen ausgesetzt, was Lazovsky dazu veranlasste, den Film als eine Form seines Schutzes zu bezeichnen. S.",
-        "sourceHash": "364239903d844bc7f8ab564f0473465f6ad2481c",
+        "title": "So schauen Sie sich „Sleeping Dog“ online an – streamen Sie die umstrittene UAP/UFO-Dokumentation von überall aus",
+        "summary": "S. militärische Sensorvideos. Der Film enthält Interviews mit Insidern wie dem Astronauten Dr.",
+        "sourceHash": "99bbd326052a43a22ff3468d8bf3a5396bd060fd",
         "provider": "google"
       }
     },
     "file-release-newly-released-uap-files-are-shattering-decades-of-nasa-s-ufo-narrative-just-as-artemis-pushes-humanity-back-into-deep-space": {
       "en": {
         "title": "Newly Released UAP Files Are Shattering Decades Of NASA’s UFO Narrative Just As Artemis Pushes Humanity Back Into Deep Space",
-        "summary": "NASA has long stated that there is no confirmed evidence of alien spacecraft visiting Earth. The Trump administration’s PURSUE system has recently released previously hidden UAP files that include military encounters, radar tracking incidents, astronaut observations, and classified investigations spanning decades. S.",
-        "sourceHash": "ebac46e34d8e9f494ba3eb1e90b03cc7a2157ff5",
+        "summary": "NASA has long stated that there is no confirmed evidence of alien spacecraft visiting Earth, a position it has maintained even as new UAP files are released. The Trump administration’s PURSUE program has begun declassifying military, intelligence, and defense archives that contain reports of unidentified anomalous phenomena, radar tracking incidents, astronaut observations, and classified investigations spanning decades. S.",
+        "sourceHash": "490f09dd7beba987823514f347dbd7ac6e7fbc8d",
         "provider": "original"
       },
       "de": {
         "title": "Neu veröffentlichte UAP-Dateien zerstören jahrzehntelange UFO-Erzählungen der NASA, gerade als Artemis die Menschheit zurück in den Weltraum drängt",
-        "summary": "Die NASA hat seit langem erklärt, dass es keine bestätigten Beweise dafür gibt, dass außerirdische Raumschiffe die Erde besuchen. Das PURSUE-System der Trump-Administration hat kürzlich zuvor versteckte UAP-Dateien veröffentlicht, die militärische Begegnungen, Radarverfolgungsvorfälle, Astronautenbeobachtungen und geheime Ermittlungen über Jahrzehnte umfassen. S.",
-        "sourceHash": "ebac46e34d8e9f494ba3eb1e90b03cc7a2157ff5",
-        "provider": "google"
-      }
-    },
-    "the-2023-las-vegas-backyard-ufo-case-returns-to-center-stage-as-washington-moves-toward-disclosure": {
-      "en": {
-        "title": "The 2023 Las Vegas Backyard UFO Case Returns To Center Stage As Washington Moves Toward Disclosure",
-        "summary": "On May 1, 2023, a bright fireball was reported across the Southwest, and a Las Vegas family called 911 after claiming a crash in their backyard and seeing large, greenish, 8‑10‑foot tall beings. Police responded, body‑camera footage was captured, and the family appeared visibly shaken while other witnesses reported a sky event.",
-        "sourceHash": "36b3aeaf48cdeb3515ba758865c35c6d5f9d0fc5",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Der Hinterhof-UFO-Fall 2023 in Las Vegas rückt wieder in den Mittelpunkt, während Washington sich der Offenlegung nähert",
-        "summary": "Am 1. Mai 2023 wurde im Südwesten ein heller Feuerball gemeldet, und eine Familie aus Las Vegas rief 911 an, nachdem sie einen Unfall in ihrem Hinterhof gemeldet und große, grünliche, 8 bis 10 Fuß große Wesen gesehen hatte. Die Polizei reagierte, es wurden Körperkameraaufnahmen gemacht und die Familie wirkte sichtlich erschüttert, während andere Zeugen von einem Vorfall am Himmel berichteten.",
-        "sourceHash": "36b3aeaf48cdeb3515ba758865c35c6d5f9d0fc5",
+        "summary": "Die NASA hat seit langem erklärt, dass es keine bestätigten Beweise dafür gibt, dass außerirdische Raumschiffe die Erde besucht haben, eine Position, die sie auch nach der Veröffentlichung neuer UAP-Dateien beibehalten hat. Das PURSUE-Programm der Trump-Regierung hat mit der Freigabe von Militär-, Geheimdienst- und Verteidigungsarchiven begonnen, die Berichte über nicht identifizierte anomale Phänomene, Radarverfolgungsvorfälle, Astronautenbeobachtungen und geheime Untersuchungen über Jahrzehnte enthalten. S.",
+        "sourceHash": "490f09dd7beba987823514f347dbd7ac6e7fbc8d",
         "provider": "google"
       }
     },
@@ -1013,20 +865,6 @@
         "provider": "google"
       }
     },
-    "sighting-rep-tim-burchett-warns-classified-uap-briefing-contains-explosive-information-that-could-set-the-earth-on-fire": {
-      "en": {
-        "title": "Rep. Tim Burchett Warns Classified UAP Briefing Contains Explosive Information That Could ‘Set the Earth on Fire’",
-        "summary": "Rep. ) warned on Newsmax that classified briefings on unidentified anomalous phenomena contain information he said would “set the Earth on fire” and could shock the public if fully released. He said he has been briefed by almost every federal agency and urged President Trump to push for full disclosure, while noting he cannot reveal classified details due to legal restrictions.",
-        "sourceHash": "c973b9614ac97e1231e103720ba01f04fd2d1c5c",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Abgeordneter Tim Burchett warnt davor, dass geheimes UAP-Briefing brisante Informationen enthält, die „die Erde in Brand setzen“ könnten",
-        "summary": "Rep. ) warnte auf Newsmax, dass geheime Briefings über nicht identifizierte anomale Phänomene Informationen enthalten, die seiner Meinung nach „die Erde in Brand setzen“ würden und die Öffentlichkeit schockieren könnten, wenn sie vollständig veröffentlicht würden. Er sagte, er sei von fast jeder Bundesbehörde informiert worden und forderte Präsident Trump auf, auf eine vollständige Offenlegung zu drängen. Er wies jedoch darauf hin, dass er aufgrund gesetzlicher Beschränkungen keine geheimen Details preisgeben könne.",
-        "sourceHash": "c973b9614ac97e1231e103720ba01f04fd2d1c5c",
-        "provider": "google"
-      }
-    },
     "ufo-files-reveal-the-same-old-material": {
       "en": {
         "title": "UFO Files Reveal … the Same Old Material",
@@ -1043,7 +881,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 9,
+    "prepared": 7,
     "failed": 0,
     "summary": "compact app summary only",
     "target": "de for English articles, en for German articles",
