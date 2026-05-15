@@ -1,6 +1,6 @@
-var CACHE = 'uap-v152-startup-subtle-zoom';
+var CACHE = 'uap-v153-visible-startup-zoom';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '152';
+var OVERRIDE_VERSION = '153';
 var OVERRIDE_FILES = [
   'uap-startup-alien.js',
   'uap-startup-visible-fix.js',
