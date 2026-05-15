@@ -1,6 +1,6 @@
-var CACHE = 'uap-v162-low-alien-close-line';
+var CACHE = 'uap-v163-startup-stars';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '162';
+var OVERRIDE_VERSION = '163';
 var OVERRIDE_FILES = [
   'uap-startup-alien.js',
   'uap-startup-visible-fix.js',
