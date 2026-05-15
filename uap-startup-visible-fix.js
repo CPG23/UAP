@@ -1,14 +1,15 @@
 (function(){
   'use strict';
   var IMAGE_BLACK = '#000';
-  var IMAGE_X = 'calc(50% + 22vw)';
+  var STARTUP_SHADE = 'rgba(0,0,0,.84)';
+  var IMAGE_X = 'calc(50% + 26vw)';
   var IMAGE_Y = '50%';
 
   function ensureLoadingBarStyle(){
     if (document.getElementById('uap-loading-bar-style')) return;
     var style = document.createElement('style');
     style.id = 'uap-loading-bar-style';
-    style.textContent = '#loading .loading-bar{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;}#loading .alien-head,#loading img.alien-head{position:absolute!important;left:' + IMAGE_X + '!important;top:' + IMAGE_Y + '!important;margin:0!important;animation:none!important;transition:none!important;transform:translate(-50%,-50%)!important;will-change:auto!important;}';
+    style.textContent = '#loading .loading-bar{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;}#loading .alien-head,#loading img.alien-head{position:absolute!important;left:' + IMAGE_X + '!important;top:' + IMAGE_Y + '!important;margin:0!important;opacity:.82!important;animation:none!important;transition:none!important;transform:translate(-50%,-50%)!important;will-change:auto!important;}';
     document.head.appendChild(style);
   }
 
@@ -17,10 +18,10 @@
 
     var loading = document.querySelector('#loading');
     if (loading) {
-      loading.style.background = IMAGE_BLACK;
-      loading.style.backgroundColor = IMAGE_BLACK;
+      loading.style.background = STARTUP_SHADE;
+      loading.style.backgroundColor = STARTUP_SHADE;
       loading.style.backgroundImage = 'none';
-      loading.style.boxShadow = 'inset 0 0 0 100vmax ' + IMAGE_BLACK;
+      loading.style.boxShadow = 'inset 0 0 0 100vmax ' + STARTUP_SHADE;
       loading.style.overflow = 'hidden';
     }
 
@@ -44,7 +45,7 @@
     el.style.maxWidth = 'none';
     el.style.maxHeight = '92vh';
     el.style.margin = '0';
-    el.style.opacity = '1';
+    el.style.opacity = '.82';
     el.style.mixBlendMode = 'normal';
     el.style.filter = 'none';
     el.style.maskImage = 'none';
