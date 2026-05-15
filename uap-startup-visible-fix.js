@@ -5,7 +5,8 @@
   var IMAGE_Y = '50%';
 
   function ensureLoadingBarStyle(){
-    if (document.getElementById('uap-loading-bar-style')) return;
+    var old = document.getElementById('uap-loading-bar-style');
+    if (old) old.remove();
     var style = document.createElement('style');
     style.id = 'uap-loading-bar-style';
     style.textContent = [
