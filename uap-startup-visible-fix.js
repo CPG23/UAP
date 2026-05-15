@@ -8,7 +8,11 @@
     if (document.getElementById('uap-loading-bar-style')) return;
     var style = document.createElement('style');
     style.id = 'uap-loading-bar-style';
-    style.textContent = '#loading .loading-bar{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;}#loading .alien-head,#loading img.alien-head{position:absolute!important;left:' + IMAGE_X + '!important;top:' + IMAGE_Y + '!important;margin:0!important;opacity:1!important;animation:none!important;transition:none!important;transform:translate(-50%,-50%)!important;will-change:auto!important;}';
+    style.textContent = [
+      '@keyframes uapStartupAlienPulse{0%,100%{opacity:.92;filter:brightness(.92) contrast(1.02);}50%{opacity:1;filter:brightness(1.12) contrast(1.08);}}',
+      '#loading .loading-bar{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;}',
+      '#loading .alien-head,#loading img.alien-head{position:absolute!important;left:' + IMAGE_X + '!important;top:' + IMAGE_Y + '!important;margin:0!important;opacity:1!important;animation:uapStartupAlienPulse 5.8s ease-in-out infinite!important;transition:none!important;transform:translate(-50%,-50%)!important;will-change:opacity,filter!important;}'
+    ].join('');
     document.head.appendChild(style);
   }
 
@@ -46,7 +50,7 @@
     el.style.margin = '0';
     el.style.opacity = '1';
     el.style.mixBlendMode = 'normal';
-    el.style.filter = 'none';
+    el.style.filter = 'brightness(.98) contrast(1.03)';
     el.style.maskImage = 'none';
     el.style.webkitMaskImage = 'none';
     el.style.background = IMAGE_BLACK;
@@ -54,10 +58,10 @@
     el.style.boxShadow = '0 0 0 100vmax ' + IMAGE_BLACK;
     el.style.border = '0';
     el.style.borderRadius = '0';
-    el.style.animation = 'none';
+    el.style.animation = 'uapStartupAlienPulse 5.8s ease-in-out infinite';
     el.style.transition = 'none';
     el.style.transform = 'translate(-50%, -50%)';
-    el.style.willChange = 'auto';
+    el.style.willChange = 'opacity, filter';
     el.style.zIndex = '1';
 
     if (el.tagName && el.tagName.toLowerCase() === 'img') {
