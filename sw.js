@@ -1,6 +1,6 @@
-var CACHE = 'uap-v136-startup-absolute-locked';
+var CACHE = 'uap-v137-logo-text-scan';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '136';
+var OVERRIDE_VERSION = '137';
 var OVERRIDE_FILES = [
   'uap-startup-alien.js',
   'uap-startup-visible-fix.js',
