@@ -1,32 +1,11 @@
 import json
 import os
+import urllib.parse
 
 LATEST_FILE = 'latest-news.json'
 PAYLOAD_FILE = 'ntfy-payload.json'
-SEEN_FILE = '.seen-ids.json'
 APP_URL = 'https://cpg23.github.io/UAP/'
 TOPIC = os.environ.get('NTFY_TOPIC', 'UAP-News26').strip() or 'UAP-News26'
-
-
-def load_seen():
-    try:
-        with open(SEEN_FILE, encoding='utf-8') as f:
-            data = json.load(f)
-        return [str(item) for item in data if str(item).strip()]
-    except Exception:
-        return []
-
-
-def save_seen(ids):
-    compact = []
-    seen = set()
-    for item in ids:
-        item = str(item).strip()
-        if item and item not in seen:
-            compact.append(item)
-            seen.add(item)
-    with open(SEEN_FILE, 'w', encoding='utf-8') as f:
-        json.dump(compact[-500:], f, ensure_ascii=False)
 
 
 def main():
@@ -60,11 +39,7 @@ def main():
 
     with open(PAYLOAD_FILE, 'w', encoding='utf-8') as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
-
-    pushed_ids = [str(article.get('id') or '') for article in visible if article.get('id')]
-    save_seen(load_seen() + pushed_ids)
     print(f'Notification payload prepared from final visible feed: {len(visible)} article(s).')
-    print(f'Marked {len(pushed_ids)} visible notification article(s) as pushed.')
 
 
 if __name__ == '__main__':
