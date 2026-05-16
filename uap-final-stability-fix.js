@@ -55,7 +55,9 @@
   function reapplyStartupWallpaper(){
     var loading = document.getElementById('loading');
     if (!loading) return;
-    while (loading.firstChild) loading.removeChild(loading.firstChild);
+    Array.prototype.slice.call(loading.children).forEach(function(child){
+      if (!child.classList || !child.classList.contains('uap-startscreen-banner')) child.remove();
+    });
     loading.setAttribute('aria-hidden', 'true');
     loading.style.setProperty('position', 'fixed', 'important');
     loading.style.setProperty('inset', '0', 'important');
@@ -114,6 +116,7 @@
   }
 
   function bindFallbackOpen(){
+    if (window.__uapAppFinalLayer) return;
     document.addEventListener('click', function(e){
       var main = e.target.closest && e.target.closest('.article-main');
       if (!main) return;
@@ -131,7 +134,8 @@
     style.id = 'uap-final-stability-style';
     style.textContent = [
       '#loading{animation:uapStartupHide 5s forwards!important;}',
-      '#loading>*{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}',
+      '#loading>*:not(.uap-startscreen-banner){display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}',
+      '#loading .uap-startscreen-banner{display:flex!important;visibility:visible!important;opacity:1!important;pointer-events:none!important;}',
       '#loading.hidden{opacity:0!important;visibility:hidden!important;pointer-events:none!important;}',
       'header{padding:0!important;background:#000!important;border-bottom:1px solid rgba(0,212,255,.42)!important;overflow:hidden!important;}',
       'header .header-inner,header .brand{display:block!important;width:100%!important;max-width:none!important;margin:0!important;padding:0!important;}',
