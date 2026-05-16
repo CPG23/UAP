@@ -1,14 +1,13 @@
-var CACHE = 'uap-v197-startscreen-visual';
+var CACHE = 'uap-v198-startscreen-single-source';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '197';
+var OVERRIDE_VERSION = '198';
 var OVERRIDE_FILES = [
-  'uap-startscreen-wallpaper.js',
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
   'uap-header-retry-fix.js',
   'uap-final-stability-fix.js'
 ];
-var NO_STORE_FILES = OVERRIDE_FILES.concat(['uap-visual-final-fix.js']);
+var NO_STORE_FILES = OVERRIDE_FILES.concat(['uap-visual-final-fix.js', 'uap-startscreen-wallpaper.js']);
 
 var STARTUP_STILL_STYLE = '\n#loading{position:fixed!important;inset:0!important;z-index:1000!important;display:block!important;background:#02070b!important;overflow:hidden!important;animation:uapStartupHide 5s forwards!important;}\n#loading.hidden{opacity:0!important;visibility:hidden!important;pointer-events:none!important;}\n#loading>*{display:none!important;visibility:hidden!important;opacity:0!important;}\n@keyframes uapStartupHide{0%,94%{opacity:1;visibility:visible;pointer-events:auto;}100%{opacity:0;visibility:hidden;pointer-events:none;}}\n';
 
