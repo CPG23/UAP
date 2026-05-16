@@ -1,18 +1,20 @@
-var CACHE = 'uap-v186-no-startup-alien';
+var CACHE = 'uap-v187-startscreen-wallpaper';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '186';
+var OVERRIDE_VERSION = '187';
 var OVERRIDE_FILES = [
   'uap-startup-visible-fix.js',
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
   'uap-logo-scan-line.js',
   'uap-ui-polish.js',
-  'uap-logo-final-polish.js'
+  'uap-logo-final-polish.js',
+  'uap-header-retry-fix.js',
+  'uap-startscreen-wallpaper.js'
 ];
 
-var STARTUP_LOGO_HTML = '<h1 class="startup-title uap-logo-final" aria-label="UAP-News" data-uap-logo-asset="1" data-uap-letters="1"></h1>';
+var STARTUP_LOGO_HTML = '<h1 class="startup-title uap-logo-final" aria-label="UAP-News"></h1>';
 
-var STARTUP_STILL_STYLE = '\n#loading{background:#000!important;background-color:#000!important;background-image:none!important;box-shadow:inset 0 0 0 100vmax #000!important;overflow:hidden!important;}\n#loading.hidden{pointer-events:none!important;}\n#loading .alien-head,#loading img.alien-head{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;}\n#loading .startup-title{position:absolute!important;top:0!important;left:0!important;right:0!important;bottom:auto!important;display:block!important;width:100vw!important;height:36vw!important;min-height:132px!important;max-height:34vh!important;transform:none!important;margin:0!important;z-index:3!important;line-height:0!important;letter-spacing:0!important;text-shadow:none!important;background:#000!important;background-image:none!important;color:transparent!important;-webkit-text-fill-color:transparent!important;overflow:hidden!important;isolation:isolate!important;pointer-events:none!important;}\n#loading .startup-title::before,#loading .startup-title::after{display:none!important;content:none!important;}\n#loading .uap-logo-img,#loading .uap-header-banner-img{display:block!important;width:100%!important;height:100%!important;max-width:none!important;object-fit:contain!important;object-position:center top!important;background:#000!important;background-image:none!important;border:0!important;margin:0!important;padding:0!important;filter:none!important;animation:none!important;pointer-events:none!important;}\n#loading .uap-edge-letter,#loading .uap-edge-space,#loading .uap-news-s,#loading .uap-logo-letter,#loading .uap-logo-space{display:none!important;}\n#loading .loading-bar,#loading .uap-startup-line-final,#loading .uap-startup-space-layer{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;}\n';
+var STARTUP_STILL_STYLE = '\n#loading{background:#02070b!important;background-color:#02070b!important;background-image:none!important;overflow:hidden!important;}\n#loading.hidden{pointer-events:none!important;}\n#loading .startup-title,#loading .alien-head,#loading img.alien-head,#loading .loading-bar,#loading .uap-startup-line-final,#loading .uap-startup-space-layer{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;pointer-events:none!important;}\n';
 
 self.addEventListener('install', function(e) {
   e.waitUntil(self.skipWaiting());
@@ -51,7 +53,9 @@ function stripOverrideScripts(html) {
     'uap-app-overrides.js',
     'uap-logo-scan-line.js',
     'uap-ui-polish.js',
-    'uap-logo-final-polish.js'
+    'uap-logo-final-polish.js',
+    'uap-header-retry-fix.js',
+    'uap-startscreen-wallpaper.js'
   ].forEach(function(file) {
     var escaped = file.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     html = html.replace(new RegExp('<script[^>]+src=["\'][^"\']*' + escaped + '[^"\']*["\'][^>]*><\\/script>', 'g'), '');
