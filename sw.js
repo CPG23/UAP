@@ -1,6 +1,6 @@
-var CACHE = 'uap-v187-startscreen-wallpaper';
+var CACHE = 'uap-v188-empty-startscreen';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '187';
+var OVERRIDE_VERSION = '188';
 var OVERRIDE_FILES = [
   'uap-startup-visible-fix.js',
   'uap-feed-normalize.js',
@@ -9,12 +9,13 @@ var OVERRIDE_FILES = [
   'uap-ui-polish.js',
   'uap-logo-final-polish.js',
   'uap-header-retry-fix.js',
-  'uap-startscreen-wallpaper.js'
+  'uap-startscreen-wallpaper.js',
+  'uap-startscreen-empty-fix.js'
 ];
 
-var STARTUP_LOGO_HTML = '<h1 class="startup-title uap-logo-final" aria-label="UAP-News"></h1>';
+var STARTUP_EMPTY_HTML = '<div id="loading" aria-hidden="true"></div>';
 
-var STARTUP_STILL_STYLE = '\n#loading{background:#02070b!important;background-color:#02070b!important;background-image:none!important;overflow:hidden!important;}\n#loading.hidden{pointer-events:none!important;}\n#loading .startup-title,#loading .alien-head,#loading img.alien-head,#loading .loading-bar,#loading .uap-startup-line-final,#loading .uap-startup-space-layer{display:none!important;visibility:hidden!important;opacity:0!important;animation:none!important;pointer-events:none!important;}\n';
+var STARTUP_STILL_STYLE = '\n#loading{background:#02070b!important;background-color:#02070b!important;background-image:none!important;overflow:hidden!important;}\n#loading.hidden{pointer-events:none!important;}\n#loading>*{display:none!important;}\n';
 
 self.addEventListener('install', function(e) {
   e.waitUntil(self.skipWaiting());
@@ -55,7 +56,8 @@ function stripOverrideScripts(html) {
     'uap-ui-polish.js',
     'uap-logo-final-polish.js',
     'uap-header-retry-fix.js',
-    'uap-startscreen-wallpaper.js'
+    'uap-startscreen-wallpaper.js',
+    'uap-startscreen-empty-fix.js'
   ].forEach(function(file) {
     var escaped = file.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     html = html.replace(new RegExp('<script[^>]+src=["\'][^"\']*' + escaped + '[^"\']*["\'][^>]*><\\/script>', 'g'), '');
@@ -63,12 +65,16 @@ function stripOverrideScripts(html) {
   return html;
 }
 
+function replaceStartupMarkup(html) {
+  return html.replace(/<div id="loading"[\s\S]*?<\/div>\s*<header>/, STARTUP_EMPTY_HTML + '\n<header>');
+}
+
 function withFeedOverrides(resp) {
   var headers = new Headers(resp.headers);
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
     html = stripOverrideScripts(html);
-    html = html.replace(/<h1 class="startup-title"[\s\S]*?<\/h1>/, STARTUP_LOGO_HTML);
+    html = replaceStartupMarkup(html);
     html = html.replace('</style>', STARTUP_STILL_STYLE + '</style>');
     html = html.replace('</body>', OVERRIDE_FILES.map(scriptTag).join('') + '</body>');
     return new Response(html, { status: resp.status, statusText: resp.statusText, headers: headers });
