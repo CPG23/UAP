@@ -1,9 +1,8 @@
-var CACHE = 'uap-v192-startscreen-wallpaper-always';
+var CACHE = 'uap-v193-startscreen-wallpaper-no-black-override';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '192';
+var OVERRIDE_VERSION = '193';
 var OVERRIDE_FILES = [
   'uap-startscreen-wallpaper.js',
-  'uap-startup-visible-fix.js',
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
   'uap-logo-scan-line.js',
