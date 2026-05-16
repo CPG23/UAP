@@ -89,7 +89,13 @@ jobs:
             cp /tmp/latest-news.json latest-news.json
             cp /tmp/.seen-ids.json .seen-ids.json 2>/dev/null || true
             cp /tmp/ntfy-payload.json ntfy-payload.json 2>/dev/null || rm -f ntfy-payload.json
-            git add latest-news.json .seen-ids.json ntfy-payload.json
+            git add latest-news.json
+            if [ -f .seen-ids.json ]; then git add .seen-ids.json; fi
+            if [ -f ntfy-payload.json ]; then
+              git add ntfy-payload.json
+            else
+              git rm -f --ignore-unmatch ntfy-payload.json
+            fi
             if git diff --staged --quiet; then
               echo "No changes."
               exit 0
