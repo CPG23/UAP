@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-16T19:07:12Z",
+  "timestamp": "2026-05-16T19:29:48Z",
   "articles": [
     {
       "id": "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public",
@@ -9,7 +9,7 @@
       "date": "2026-05-08",
       "publishedAt": "2026-05-08T07:00:00Z",
       "summary": "On May 8, 2026 the US Department of War released its first batch of declassified UAP records, launching the public archive PURSUE, which the Trump administration says will be updated every few weeks. The release follows a February 19, 2026 directive from President Trump instructing federal agencies to identify, review and declassify documents related to extraterrestrial life and UAP, and includes dozens of agencies and tens of millions of records, many only on paper.",
-      "mentions": 32,
+      "mentions": 33,
       "otherSources": [
         {
           "title": "Department of War Releases Unidentified Anomalous Phenomena Files in Historic Transparency Effort",
@@ -55,6 +55,13 @@
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT0xuOUNlT2s1SkZiSGswTDdSaGhVMkk4cGF5MEFMYWpGcEpEZnVralBsemVPRUFyeVVENDhfV3ZUX1BRUlBHLXNtZEJiLXlwWFkzVmJ2QmNoNmFyRHktZUxIVWQ5WW8zTEctM3ZVR3dOVUswX1N3cTV3cEE1MUlFRUd6aEpaNGd3UFFfVjlLVmdkSm5qTWY1T1RfSXBUX2pYcms5M2oyOE9INzQ?oc=5",
           "source": "The Guardian",
           "publishedAt": "2026-05-16T07:00:00Z"
+        },
+        {
+          "title": "Translucent Beings? Pastors At UFO Disclosure Meet Shown Images Of Entities That May Herald A Dark Biblical Prophecy",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRkRuMWpuVWt6VW9YNlFkWHhSSmVoUk1nOVdOX1FZdlhMZkwwT243VW0zRFpXTVhGMnFFSnljNzE1N1JaUkVrOHpPNS1LZVhoaU4zVUxsQTY4TUdoczVxaXkzeVlnYVlHakJjUnRIbTQ0UTNVRXZTbVVxOXJRc0xCenVId1Nuemx3cWVGX1dSZm5RTUM4N0hsTnRQay1ORHpBN1VBWkg0MDFlVWF6enFBTElJdVdxUUg3dDRBcXVmbVYyanVPc0llaW5Hd19JMGlUaWdTeWF3?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRkRuMWpuVWt6VW9YNlFkWHhSSmVoUk1nOVdOX1FZdlhMZkwwT243VW0zRFpXTVhGMnFFSnljNzE1N1JaUkVrOHpPNS1LZVhoaU4zVUxsQTY4TUdoczVxaXkzeVlnYVlHakJjUnRIbTQ0UTNVRXZTbVVxOXJRc0xCenVId1Nuemx3cWVGX1dSZm5RTUM4N0hsTnRQay1ORHpBN1VBWkg0MDFlVWF6enFBTElJdVdxUUg3dDRBcXVmbVYyanVPc0llaW5Hd19JMGlUaWdTeWF3?oc=5",
+          "source": "Mashable India",
+          "publishedAt": "2026-05-16T09:07:45Z"
         },
         {
           "title": "Ukrainian Defence Ministry Advisor Drops Bizarre UFOs Encountered By Military Amid Pentagon's Disclosure [WATCH]",
@@ -221,9 +228,9 @@
         "'Never-before-seen' files on UFOs released by Pentagon",
         "Pentagon UFO files release: Amid new UFO disclosure, officials say public can draw conclusions on unidentified anomalous phenomena",
         "The release of the UFO files won’t satisfy conspiracy theorists – but it certainly serves Trump’s agenda | Daniel Lavelle",
+        "Translucent Beings? Pastors At UFO Disclosure Meet Shown Images Of Entities That May Herald A Dark Biblical Prophecy",
         "Ukrainian Defence Ministry Advisor Drops Bizarre UFOs Encountered By Military Amid Pentagon's Disclosure [WATCH]",
-        "Trump Administration Opens WAR.GOV/UFO As Historic UAP File Release Puts America’s UFO Questions In Public View",
-        "Illusionist Uri Geller Reacts To US Congressman's Warning Over Next Set Of UFO Files: 'Holy Crap Is Coming'"
+        "Trump Administration Opens WAR.GOV/UFO As Historic UAP File Release Puts America’s UFO Questions In Public View"
       ],
       "quality": 90,
       "qualityBreakdown": [
@@ -245,7 +252,7 @@
         {
           "label": "Mehrere Quellen",
           "points": 40,
-          "text": "32 Quellen im aktuellen Feed."
+          "text": "33 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -413,6 +420,62 @@
           "title": "UAP-Whistleblower David Grusch über „nichtmenschliche“ Biologika und Handwerk",
           "summary": "S. Air Force, erreicht den Rang eines Majors und absolviert einen Kampfeinsatz in Afghanistan. Später bekleidete er leitende Geheimdienstpositionen bei der National Geospatial-Intelligence Agency und dem National Reconnaissance Office und vertrat letzteres von 2019 bis 2021 in der UAP Task Force.",
           "sourceHash": "5c5fe8dab4139049f173c82654a3f13b9aa3425f",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "translucent-beings-pastors-at-ufo-disclosure-meet-shown-images-of-entities-that-may-herald-a-dark-biblical-prophecy",
+      "title": "Translucent Beings? Pastors At UFO Disclosure Meet Shown Images Of Entities That May Herald A Dark Biblical Prophecy",
+      "source": "Mashable India",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRkRuMWpuVWt6VW9YNlFkWHhSSmVoUk1nOVdOX1FZdlhMZkwwT243VW0zRFpXTVhGMnFFSnljNzE1N1JaUkVrOHpPNS1LZVhoaU4zVUxsQTY4TUdoczVxaXkzeVlnYVlHakJjUnRIbTQ0UTNVRXZTbVVxOXJRc0xCenVId1Nuemx3cWVGX1dSZm5RTUM4N0hsTnRQay1ORHpBN1VBWkg0MDFlVWF6enFBTElJdVdxUUg3dDRBcXVmbVYyanVPc0llaW5Hd19JMGlUaWdTeWF3?oc=5",
+      "date": "2026-05-08",
+      "publishedAt": "2026-05-16T09:07:45Z",
+      "summary": "S. Department of War released 162 UFO‑related files in the first tranche of the UFO Disclosure 2026, including classified NASA documents on UAP anomalies observed by Apollo astronauts such as Buzz Aldrin’s 1969 lunar landing sightings. S.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 50,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "AMERICA, TRUMP als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "archive",
+        "government",
+        "release"
+      ],
+      "sourceQuality": 50,
+      "translation": {
+        "en": {
+          "title": "Translucent Beings? Pastors At UFO Disclosure Meet Shown Images Of Entities That May Herald A Dark Biblical Prophecy",
+          "summary": "S. Department of War released 162 UFO‑related files in the first tranche of the UFO Disclosure 2026, including classified NASA documents on UAP anomalies observed by Apollo astronauts such as Buzz Aldrin’s 1969 lunar landing sightings. S.",
+          "sourceHash": "1948466beba39d83add893278579a02679bd6bf9",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Durchscheinende Wesen? Pastoren bei UFO Disclosure treffen auf gezeigte Bilder von Wesen, die eine dunkle biblische Prophezeiung ankündigen könnten",
+          "summary": "Das US-Kriegsministerium hat in der ersten Tranche der UFO Disclosure 2026 162 UFO-bezogene Dateien veröffentlicht, darunter geheime NASA-Dokumente zu UAP-Anomalien, die von Apollo-Astronauten wie Buzz Aldrins Mondlandungssichtungen im Jahr 1969 beobachtet wurden. S.",
+          "sourceHash": "1948466beba39d83add893278579a02679bd6bf9",
           "provider": "google"
         }
       }
@@ -630,23 +693,24 @@
     "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public": "On May 8, 2026 the US Department of War released its first batch of declassified UAP records, launching the public archive PURSUE, which the Trump administration says will be updated every few weeks. The release follows a February 19, 2026 directive from President Trump instructing federal agencies to identify, review and declassify documents related to extraterrestrial life and UAP, and includes dozens of agencies and tens of millions of records, many only on paper. The first tranche focuses on cases where the government cannot definitively determine the nature of the phenomena and contains Apollo 12 and 17 imagery, a cockpit transcript describing bright particles, FBI infrared images of unidentified objects over the western US in 2025, and military reports from incidents in the UAE, Greece, the Middle East, Africa, Japan, and North America. FBI Director Kash Patel said his agency handed over its first batch of classified UAP documents to the Pentagon‑led inter‑agency committee, while Secretary of War Pete Hegseth and DNI Tulsi Gabbard framed the release as evidence of the administration’s commitment to transparency and a joint declassification effort. The Department of War notes that many unresolved cases reflect insufficient data rather than anomalous capability, invites private‑sector analysis, and that the initiative’s success will depend on whether future tranches provide new operational detail rather than additional Apollo‑era curiosities and short infrared clips.",
     "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": "Sleeping Dog, a documentary directed by Michael Lazovsky, follows journalist and filmmaker Jeremy Corbell as he investigates UFO and UAP phenomena. The film draws on Corbell's personal archive of hundreds of hours of footage, including material from well‑known UFO figures such as George Knapp, John Lear and Bob Lazar. Lazovsky says the documentary serves as insurance for Corbell, who faces threats from rogue organizations and companies that allegedly try to silence him. Corbell has about 46 videos that have not yet been released to the public, and he hopes the White House and Congress will declassify more UFO footage. The film aims to humanize the subject, dispel conspiracy stereotypes, and encourage serious discussion, and it became available digitally on May 12.",
     "uap-whistleblower-david-grusch-on-non-human-biologics-craft": "David Grusch served 14 years in the U.S. Air Force, reaching the rank of Major and completing a combat tour in Afghanistan. He later held senior intelligence positions at the National Geospatial‑Intelligence Agency and the National Reconnaissance Office, and represented the latter on the UAP Task Force from 2019 to 2021. In 2022, Grusch filed a whistleblower complaint that was described as credible and urgent. In 2023, he testified before Congress, claiming that parts of the U.S. government had blocked congressional oversight, withheld information from executive officials, and illegally concealed programs related to the recovery and reverse engineering of craft of unknown, non‑human origin.",
+    "translucent-beings-pastors-at-ufo-disclosure-meet-shown-images-of-entities-that-may-herald-a-dark-biblical-prophecy": "The U.S. Department of War released 162 UFO‑related files in the first tranche of the UFO Disclosure 2026, including classified NASA documents on UAP anomalies observed by Apollo astronauts such as Buzz Aldrin’s 1969 lunar landing sightings. U.S. Congressman Tim Burchett said the next set of UFO files would “blow laymen’s minds” and described it as “holy crap is coming.” Pastors Joseph Zupetz and Tony Merkel were briefed on May 8 2026 and reported that church leaders were shown images of translucent extraterrestrial entities with long limbs in wooded settings, which they said could fulfill a dark biblical prophecy. The pastors claimed that intelligence officials compared the disclosures to passages in Revelation and the Epistles of Paul about a “Great Deception” in the end times, and that God would send strong delusion to those who believe the lie. Other pastors, including Greg Locke, tweeted that the UFO discussion is a cover‑up for a demonic release and that a great deception is imminent as the age ends. The article notes that the interpretation of the evidence remains uncertain and that evangelical theories vary.",
     "illusionist-uri-geller-reacts-to-us-congressman-s-warning-over-next-set-of-ufo-files-holy-crap-is-coming": "Israeli‑British illusionist Uri Geller, 79, reacted to US Congressman Tim Burchett’s warning that the next batch of declassified UFO files will dwarf those already released, saying he believes every word of the warning. Burchett, a member of the UAP Caucus, told Joe Rogan that the first set of 162 documents was only a “drop in the bucket” and that “Holy Crap is coming” with future releases. He cited reports of pilots being pulled from duty for psychological evaluation after UAP encounters, and alleged sightings of underwater craft moving over 200 mph and as large as a football field. Geller tweeted that in the 1970s he was shown fragments of metal from a crashed UFO by rocket scientist Wernher von Braun, and that he later saw non‑human bodies stored at NASA’s Goddard Space Center. He claims the already released files, which include Apollo and Gemini mission reports of strange lights and objects, validate his long‑standing assertions and hopes the forthcoming documents will expose NASA’s full involvement.",
     "a-small-oregon-town-puts-on-a-big-ufo-festival-why-it-s-worth-a-visit": "The 26th Annual McMenamins UFO Festival in McMinnville, Oregon, runs from May 14 to May 17, 2026, and is hosted by the McMenamins Hotel Oregon, making it the second largest UFO festival in the United States after Roswell. The festival celebrates the 1950 UFO sighting by Paul and Evelyn Trent, whose photographs of a metallic object sparked national debate and are considered among the most famous UFO images. Organizers describe the event as a gathering where skeptics and believers meet, offering speakers, live entertainment, a parade, costume contests, a trivia session, and a costume ball. Ticketed speaker presentations are available through ufofest.com, while most other activities are free, and the schedule includes a “UAP pass pickup party,” a podcast recording, and a panel with an undisclosed whistleblower interviewed by Jeremy Corbell. The festival coincides with the release of previously unseen federal UFO files, adding new context to the town’s long‑standing UFO lore.",
     "ufo-zips-over-house-and-beams-up-a-human-internet-discusses-the-viral-alien-abduction-footage-watch": "A video posted on X/Twitter on May 14, 2026 shows two unidentified flying objects zipping over houses and a figure appearing to be beamed up, but the footage is low quality and many viewers question its authenticity. Netizens offered mixed reactions: some suggested the objects could be seagulls, others argued the movement patterns were inconsistent with real UFO behavior and labeled the clip as fabricated. One commenter claimed the footage was neither fake nor AI‑generated, though no independent verification was provided. The article notes that declassified UAP data released by the U.S. government, including 162 files, has yet to contain any confirmed abduction media. The piece references the historical context of close encounters, noting that CE4 incidents involve human abduction, but no such events have been documented in the released archives.",
     "ufo-files-reveal-the-same-old-material": "President Donald Trump and the Department of War released the UFO Files, but a preliminary review shows only blurry photographs, grainy videos, artist reconstructions, and anecdotal reports, with no new evidence of alien visitation. The files contain documents such as an artist’s composite sketch of an alleged ellipsoid bronze metallic object, a 2001 Georgian Foreign Ministry report claiming a Russian aircraft was a UFO, a 2023 Mexican Congress testimony on UAP that includes debunked fake alien corpses, and heavily redacted documents with a disclaimer protecting eyewitness identities and sensitive locations. Photographic stills from videos shot in the Southwestern United States show a small dot that could be a balloon, drone, or aircraft, while a 2024 report describes a football‑shaped UAP near Japan and an image of a Chinese UAV, but the author does not confirm these as extraterrestrial. Light anomalies captured by Apollo 17 astronauts are noted in the files, with the government stating no consensus on their nature and that further analysis will be released, and a video posted by Steven Greenstreet shows a parachute and flare. Pilot Scott Kelly and other experts are quoted explaining that optical illusion and misidentification can account for many reported sightings, and the author remains skeptical until new evidence emerges."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-16T19:07:12Z",
+    "timestamp": "2026-05-16T19:29:48Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 350,
-    "broadTopics": 165,
+    "broadArticles": 351,
+    "broadTopics": 164,
     "notificationArticles": 3,
     "notificationTopics": 3,
-    "newNotificationTopics": 2,
-    "appTopics": 7,
+    "newNotificationTopics": 0,
+    "appTopics": 8,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
@@ -662,12 +726,12 @@
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization",
       "attempts": 10,
-      "repaired": 4,
-      "missing": 6
+      "repaired": 5,
+      "missing": 5
     },
     "summaryQualityGate": {
       "policy": "strict_article_content_summary_required",
-      "kept": 7,
+      "kept": 8,
       "removed": 6,
       "removedItems": [
         {
@@ -710,8 +774,8 @@
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v1",
-      "inputArticles": 7,
-      "outputArticles": 7,
+      "inputArticles": 8,
+      "outputArticles": 8,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_required"
     }
@@ -756,6 +820,20 @@
         "title": "UAP-Whistleblower David Grusch über „nichtmenschliche“ Biologika und Handwerk",
         "summary": "S. Air Force, erreicht den Rang eines Majors und absolviert einen Kampfeinsatz in Afghanistan. Später bekleidete er leitende Geheimdienstpositionen bei der National Geospatial-Intelligence Agency und dem National Reconnaissance Office und vertrat letzteres von 2019 bis 2021 in der UAP Task Force.",
         "sourceHash": "5c5fe8dab4139049f173c82654a3f13b9aa3425f",
+        "provider": "google"
+      }
+    },
+    "translucent-beings-pastors-at-ufo-disclosure-meet-shown-images-of-entities-that-may-herald-a-dark-biblical-prophecy": {
+      "en": {
+        "title": "Translucent Beings? Pastors At UFO Disclosure Meet Shown Images Of Entities That May Herald A Dark Biblical Prophecy",
+        "summary": "S. Department of War released 162 UFO‑related files in the first tranche of the UFO Disclosure 2026, including classified NASA documents on UAP anomalies observed by Apollo astronauts such as Buzz Aldrin’s 1969 lunar landing sightings. S.",
+        "sourceHash": "1948466beba39d83add893278579a02679bd6bf9",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Durchscheinende Wesen? Pastoren bei UFO Disclosure treffen auf gezeigte Bilder von Wesen, die eine dunkle biblische Prophezeiung ankündigen könnten",
+        "summary": "Das US-Kriegsministerium hat in der ersten Tranche der UFO Disclosure 2026 162 UFO-bezogene Dateien veröffentlicht, darunter geheime NASA-Dokumente zu UAP-Anomalien, die von Apollo-Astronauten wie Buzz Aldrins Mondlandungssichtungen im Jahr 1969 beobachtet wurden. S.",
+        "sourceHash": "1948466beba39d83add893278579a02679bd6bf9",
         "provider": "google"
       }
     },
@@ -817,7 +895,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 7,
+    "prepared": 8,
     "failed": 0,
     "summary": "compact app summary only",
     "target": "de for English articles, en for German articles",
