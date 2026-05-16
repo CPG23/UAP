@@ -1,6 +1,6 @@
-var CACHE = 'uap-v190-startscreen-wallpaper-header';
+var CACHE = 'uap-v191-startscreen-wallpaper-header';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '190';
+var OVERRIDE_VERSION = '191';
 var OVERRIDE_FILES = [
   'uap-startup-visible-fix.js',
   'uap-feed-normalize.js',
@@ -60,7 +60,7 @@ function stripOverrideScripts(html) {
     'uap-startscreen-empty-fix.js'
   ].forEach(function(file) {
     var escaped = file.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    html = html.replace(new RegExp('<script[^>]+src=["\\'][^"\\']*' + escaped + '[^"\\']*["\\'][^>]*><\\/script>', 'g'), '');
+    html = html.replace(new RegExp('<script[^>]*' + escaped + '[^>]*><\\/script>', 'g'), '');
   });
   return html;
 }
