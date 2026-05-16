@@ -1,6 +1,6 @@
-var CACHE = 'uap-v193-startscreen-wallpaper-no-black-override';
+var CACHE = 'uap-v194-final-stability';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '193';
+var OVERRIDE_VERSION = '194';
 var OVERRIDE_FILES = [
   'uap-startscreen-wallpaper.js',
   'uap-feed-normalize.js',
@@ -9,7 +9,8 @@ var OVERRIDE_FILES = [
   'uap-ui-polish.js',
   'uap-logo-final-polish.js',
   'uap-header-retry-fix.js',
-  'uap-startscreen-empty-fix.js'
+  'uap-startscreen-empty-fix.js',
+  'uap-final-stability-fix.js'
 ];
 
 var STARTUP_EMPTY_HTML = '<div id="loading" aria-hidden="true"></div>';
@@ -57,7 +58,8 @@ function stripOverrideScripts(html) {
     'uap-logo-final-polish.js',
     'uap-header-retry-fix.js',
     'uap-startscreen-wallpaper.js',
-    'uap-startscreen-empty-fix.js'
+    'uap-startscreen-empty-fix.js',
+    'uap-final-stability-fix.js'
   ].forEach(function(file) {
     var escaped = file.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     html = html.replace(new RegExp('<script[^>]*' + escaped + '[^>]*><\\/script>', 'g'), '');
