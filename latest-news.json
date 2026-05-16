@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-15T12:31:23Z",
+  "timestamp": "2026-05-16T05:49:36Z",
   "articles": [
     {
       "id": "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public",
@@ -9,7 +9,7 @@
       "date": "2026-05-08",
       "publishedAt": "2026-05-08T22:01:00Z",
       "summary": "On May 8, 2026 the US Department of War released its first batch of declassified UAP records, launching the public archive PURSUE, which the Trump administration says will be updated every few weeks. The release follows a February 19, 2026 directive from President Trump instructing federal agencies to identify, review and declassify documents related to extraterrestrial life and UAP, and includes dozens of agencies and tens of millions of records, many only on paper.",
-      "mentions": 32,
+      "mentions": 39,
       "otherSources": [
         {
           "title": "Department of War Releases Unidentified Anomalous Phenomena Files in Historic Transparency Effort",
@@ -38,9 +38,16 @@
           "publishedAt": "2026-05-08T14:30:11Z"
         },
         {
-          "source": "Sky News",
+          "title": "'Never-before-seen' files on UFOs released by Pentagon",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeFdFaFdTMWFYc2FVRmtWekt3Vmw4aXA3N05USHlES01mWVpJRUltdzdvSGt4NjJiTnBTcnMxZUJsaElwdU5HY3B3LXNVMWVicVhEMXB0RHJCckFTZldtRnRHRDBrVkpkcElrQmx0cGFSTFFDX2RzX0hkMlhOLWlNaWlTc2FKRGZqTTFkMnhR?oc=5",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeFdFaFdTMWFYc2FVRmtWekt3Vmw4aXA3N05USHlES01mWVpJRUltdzdvSGt4NjJiTnBTcnMxZUJsaElwdU5HY3B3LXNVMWVicVhEMXB0RHJCckFTZldtRnRHRDBrVkpkcElrQmx0cGFSTFFDX2RzX0hkMlhOLWlNaWlTc2FKRGZqTTFkMnhR?oc=5",
-          "title": "'Never-before-seen' files on UFOs released by Pentagon"
+          "source": "Sky News",
+          "publishedAt": "2026-05-08T22:01:00Z"
+        },
+        {
+          "source": "CBC",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQUlsYjJNTVhwRk82dVZwWGdEMmdUZmVuRGJBMUxXczZMTThMbzZOQ0w1S01lZW1SbjlYa09sQVpvY092X1QwN1hWRlhVcEpMaGJNdzlHSks2c3VnaG1jVHh2VWlPZFVONWVMTkgySmVMLU1XN25rdTZVa1Nxb1NSdkNaNkNDNk9OR0ZobjBmV1BxZlllSkJLVw?oc=5",
+          "title": "Trump releases the UFO files: 5 key questions"
         },
         {
           "title": "Pentagon UFO files release: Amid new UFO disclosure, officials say public can draw conclusions on unidentified anomalous phenomena",
@@ -85,11 +92,18 @@
           "publishedAt": "2026-05-12T03:47:29Z"
         },
         {
+          "title": "UFO Zips Over House And Beams Up A Human? Internet Discusses The Viral Alien Abduction Footage [WATCH]",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQREdSNWNhMjZlaGNYeWRzZkQzZTJxVm9HVXNUMnZIdHhYekxhbGNmMzNabENwVXc0YkxXdERZU0tFV083TldVMWNVNlE5UjVnUW9Hb2RfQTltTlVFZXlWV3JTSUtTMW1RRXBlZHhOdFJuY2VBQnBValJ1SUlTUFlseU5HMmk1ZjhHVEhYZUFmZUpBb29KaE9kODlpMEpCZnEzS3pFU1RpM3JkY0ZTT3hqN3h2X0hRZlNidWI5UlgzM3oweUVTQlpZSVBDdVVsSklQMVN3Sg?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQREdSNWNhMjZlaGNYeWRzZkQzZTJxVm9HVXNUMnZIdHhYekxhbGNmMzNabENwVXc0YkxXdERZU0tFV083TldVMWNVNlE5UjVnUW9Hb2RfQTltTlVFZXlWV3JTSUtTMW1RRXBlZHhOdFJuY2VBQnBValJ1SUlTUFlseU5HMmk1ZjhHVEhYZUFmZUpBb29KaE9kODlpMEpCZnEzS3pFU1RpM3JkY0ZTT3hqN3h2X0hRZlNidWI5UlgzM3oweUVTQlpZSVBDdVVsSklQMVN3Sg?oc=5",
+          "source": "Mashable India",
+          "publishedAt": "2026-05-15T10:17:17Z"
+        },
+        {
           "title": "GOP congresswoman claims aliens are fallen angels as Trump releases UFO files: ‘This is in the Bible’",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTF9ZeXROTy05a0R6T1dtWUpzNEQyNW1vLVZ1WW9JLVprN3ZROXhsQlRDbVRBYXMtWXk1NVRiellVQ0RhNHRPV0Z0Y19TOWFzN1BidE43VXd1TkZXLWc2MWJ0RF9SRTVSNE1leDhHeUdHS2FFRWZpUlhhNlR3aFo5emI0VGJoWktFbUVzUGdFVDBycVBOVXlpV1ZlVnBQbVJPTElIejY5R2poMEk0ZnVoZ19ydmRFWm5Qa1ZYRG5DUFFLZ3F3Z3BIQjdlTFhBZ0dUeEw2cUFR0gHqAUFVX3lxTE5Qc2dBMnFjSHMwY2l1blhlSTdueXpGNlVtMlMwd1Bycm1WSFktN1dPamhlLUhlSHMwVW5MNWtnUUxhSm9KaDJ1UEFla1RENHJVSWczUWRkV3J3RnJLdnNuMlZfbExnLTNOOWMyVkQwRVg2VFhQTURwbjk1ZUU2WEdfSTdJazVzVTRSTFZyX2JPbTZXVENuOGZ6aThJbVhvRTBXUTdTV3N5dGhqM2JRejR0ZHFvTGhvLVNpZEpXYnRZU0pmMkp0QWV0bjFKT3o1WU82RjZGYkRkRmdsbFBLamViVGRyX1JHTDFyUQ?oc=5",
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTF9ZeXROTy05a0R6T1dtWUpzNEQyNW1vLVZ1WW9JLVprN3ZROXhsQlRDbVRBYXMtWXk1NVRiellVQ0RhNHRPV0Z0Y19TOWFzN1BidE43VXd1TkZXLWc2MWJ0RF9SRTVSNE1leDhHeUdHS2FFRWZpUlhhNlR3aFo5emI0VGJoWktFbUVzUGdFVDBycVBOVXlpV1ZlVnBQbVJPTElIejY5R2poMEk0ZnVoZ19ydmRFWm5Qa1ZYRG5DUFFLZ3F3Z3BIQjdlTFhBZ0dUeEw2cUFR0gHqAUFVX3lxTE5Qc2dBMnFjSHMwY2l1blhlSTdueXpGNlVtMlMwd1Bycm1WSFktN1dPamhlLUhlSHMwVW5MNWtnUUxhSm9KaDJ1UEFla1RENHJVSWczUWRkV3J3RnJLdnNuMlZfbExnLTNOOWMyVkQwRVg2VFhQTURwbjk1ZUU2WEdfSTdJazVzVTRSTFZyX2JPbTZXVENuOGZ6aThJbVhvRTBXUTdTV3N5dGhqM2JRejR0ZHFvTGhvLVNpZEpXYnRZU0pmMkp0QWV0bjFKT3o1WU82RjZGYkRkRmdsbFBLamViVGRyX1JHTDFyUQ?oc=5",
           "source": "AL.com",
-          "publishedAt": "2026-05-09T06:02:04Z"
+          "publishedAt": "2026-05-08T19:34:00Z"
         },
         {
           "title": "‘Data alone is not disclosure’: UAP research community reacts to Trump’s first PURSUE file drop",
@@ -99,16 +113,16 @@
           "publishedAt": "2026-05-14T21:57:40Z"
         },
         {
-          "title": "Pentagon releases first batch of UFO records as Trump says public can 'decide for them­selves'",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNHVFenR3R1BPUEp0ajJXWDdNYWxsc3BiYVRsQnJxX1JHTU1PT01IWVFRMjBBOS0wN3lVMTRuMGVpanVYOGpza0ZRV0JycjNMeUdIam9JNzdMNlNjNTMtbkl3MEtlc1laaUtwOXpFaENqVHlNTDluWE1kbGVIVG5VUHc3eTFVa2ZuYjZxczl4NUxNZnpsM1BWd3N2cXJGLXYwb1Vwa0E3NzZfWlRtOGdXNm1fSTFYTjh6WE9JSGI5djlFTUk5T3pIcXhTdWZ4QVVrWEJFWFA5QXQ?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNHVFenR3R1BPUEp0ajJXWDdNYWxsc3BiYVRsQnJxX1JHTU1PT01IWVFRMjBBOS0wN3lVMTRuMGVpanVYOGpza0ZRV0JycjNMeUdIam9JNzdMNlNjNTMtbkl3MEtlc1laaUtwOXpFaENqVHlNTDluWE1kbGVIVG5VUHc3eTFVa2ZuYjZxczl4NUxNZnpsM1BWd3N2cXJGLXYwb1Vwa0E3NzZfWlRtOGdXNm1fSTFYTjh6WE9JSGI5djlFTUk5T3pIcXhTdWZ4QVVrWEJFWFA5QXQ?oc=5",
-          "source": "Spectrum News",
-          "publishedAt": "2026-05-08T15:14:00Z"
-        },
-        {
           "source": "WLFI News 18",
           "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOX0lCLTYySFA2elhyRHNBUnI1VDBJRVBjWXotbzRnNVV0RFduVlhZUFd4VlR0UFh4WUFISTFVaGdXV0dvOVNVZXhVM2tJOGctOEFEMVFTcTB1S3dSTGxtWE5YbTBxODNkdlE1Q0RIXzBNYTBLSmhiQ01lS19qdmpTRU43QU1NeTE1MFRDYl9wZWZyaVFOYnFNUVRTLWFLaUlpSjF0cllmTV96S2MxLU1hMTBEZUp6Ml9sc3RKcUM2cmlxYkJyZmxwaXlvRzUyRjNZM0xuR05HNkJDV085d0RSTUk5NmZjeHgyYjR0Vg?oc=5",
           "title": "Pentagon begins releasing new files on UFOs and says the public can draw its own conclusions"
+        },
+        {
+          "title": "Sleeping Dog: How New UFO Documentary Could Bring Us Closer To Real-Life Disclosure Day",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMUJQZkU0UWRHTU5aSWhDSktiS0RraXVyNDJJcXc5djU0a0xma3UxcTZvd1JRRGRjTHUxeDJWcnRaSENxQk02ZU5iaWx1N3lYZllYZm0zLThncHdvRWdvSmNQQUpzZUd2V2ZDVTZyNjNYUzlFM0pWdzVGS2JpekZNNUNQMy12dEgwZVZucmtBVkNBNVlZdHpwdDU5Qmh6bjA2YzN2VXdpb1puUWd3U05FUmtMWndmQQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMUJQZkU0UWRHTU5aSWhDSktiS0RraXVyNDJJcXc5djU0a0xma3UxcTZvd1JRRGRjTHUxeDJWcnRaSENxQk02ZU5iaWx1N3lYZllYZm0zLThncHdvRWdvSmNQQUpzZUd2V2ZDVTZyNjNYUzlFM0pWdzVGS2JpekZNNUNQMy12dEgwZVZucmtBVkNBNVlZdHpwdDU5Qmh6bjA2YzN2VXdpb1puUWd3U05FUmtMWndmQQ?oc=5",
+          "source": "SYFY",
+          "publishedAt": "2026-05-08T19:14:51Z"
         },
         {
           "title": "CSEO head says declassified UAP releases mark new phase of disclosure | Cyprus inform",
@@ -116,6 +130,20 @@
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeFUwcl90WTJuaWcwOTBXNjFZUDFIYnBXR1o4eDYtQVlxOHFEQW8zdnQzeGx0aU1vTlNmSzdXZHN0bDltLTRDdDJpbVg5NWF4TVh6TlBXSlk1Tks5YVNBdWFyN0hUdi1DanJyWTlHckdxQVR4U29ZSHhLaWVOMGlldEY4TVZJN3ZvclozOTM4aTBmcnZtdTJWV1BxNlo4amJBdWpJSDJ0TkxZTmVselBrUHVB0gG3AUFVX3lxTFByTVdLQTYwQ2VfWDNQUmF3RGtuS0VuSGZPYnVKaVJ4ZWh5YkZLNVc0OWRBamg1RmJsemJKWjdMZml6MkRXaVR0WUw4ZU9nbTUtTG1kSlE2MUMyWFRTcTdac0pBem5QMGdpU294dV90QVh1ZHV0VGpBTzN1dVJsUVRXdWtIOUJIdk1ROTJLUnJYU05NbXdsaTZpYjNISU9Jb0lCX25fS0o1a0REN3kzMkNGZXdReHBJcw?oc=5",
           "source": "Cyprus Inform",
           "publishedAt": "2026-05-11T17:52:48Z"
+        },
+        {
+          "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM1lQdFdFZllPc1Q3bGNXSHRIcF9oel9NVWFOdUg5SDhkQmpXZXZEQWw2MHBvSmF4d0R1RE5udExuYnZ3YmlkTzZ0aUtXbU9pZ0pnSkhSMDRBNWwxcjQtQVRJQU84QkFMVG05U3MyNm9JTV9ZSllBdW9KUjgxMkVpZg?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM1lQdFdFZllPc1Q3bGNXSHRIcF9oel9NVWFOdUg5SDhkQmpXZXZEQWw2MHBvSmF4d0R1RE5udExuYnZ3YmlkTzZ0aUtXbU9pZ0pnSkhSMDRBNWwxcjQtQVRJQU84QkFMVG05U3MyNm9JTV9ZSllBdW9KUjgxMkVpZg?oc=5",
+          "source": "Tom's Guide",
+          "publishedAt": "2026-05-12T08:35:23Z"
+        },
+        {
+          "title": "Jeremy Corbell’s Sleeping Dog: UFO whistleblower chaos, CIA fear, and Lazar lore",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42RnpBR0JvQzZ0b2Rrdk44cDF6S0lsOTJJMm5jQXpsQ2JYcUxPVHBSOXJLOHY4ZlgzRnV3dTFJMjF2SEhpX2FmdlhIb3F1dVVDLWhHXzdwMjY5SkVKQ1h5T0wyR045ZDYzdnRpc2dtaFU0ZmdWYzNUa2xRZw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42RnpBR0JvQzZ0b2Rrdk44cDF6S0lsOTJJMm5jQXpsQ2JYcUxPVHBSOXJLOHY4ZlgzRnV3dTFJMjF2SEhpX2FmdlhIb3F1dVVDLWhHXzdwMjY5SkVKQ1h5T0wyR045ZDYzdnRpc2dtaFU0ZmdWYzNUa2xRZw?oc=5",
+          "source": "Cybernews",
+          "publishedAt": "2026-05-12T14:23:23Z"
         },
         {
           "title": "A small Oregon town puts on a big UFO festival. Why it's worth a visit",
@@ -132,6 +160,13 @@
           "publishedAt": "2026-05-14T05:20:00Z"
         },
         {
+          "title": "How to watch 'Sleeping Dog' - screen UAP/UFO doc online from anywhere",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY09yN3ZKN3hkUVRYc0Nfa1EyT0Q4RjJJM3NTbE96Sjg5eFBhZHpKbElwbUNreDRCX3c2UmtPTGNUcE5vcHpRYnlTZzdqbW00SGVYRXBNckNXZDF1N0JBSjFaZnQ0UjJzN1cyWmFVcG4yUm1pTmZoVXFvUjdoMjJPQnYzUnlwRnNTcU9oUFZqUFRvLVU?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY09yN3ZKN3hkUVRYc0Nfa1EyT0Q4RjJJM3NTbE96Sjg5eFBhZHpKbElwbUNreDRCX3c2UmtPTGNUcE5vcHpRYnlTZzdqbW00SGVYRXBNckNXZDF1N0JBSjFaZnQ0UjJzN1cyWmFVcG4yUm1pTmZoVXFvUjdoMjJPQnYzUnlwRnNTcU9oUFZqUFRvLVU?oc=5",
+          "source": "Yahoo",
+          "publishedAt": "2026-05-12T08:35:23Z"
+        },
+        {
           "title": "Government Drops Massive UFO File Archive in Historic Public Release",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcHVGbWd0dl9tMlFrODhSaWRVdF9yQ0dKOVF4VTdKaHNjVlQzY2t3YUVKQlZfVUNDaUlGOE9zZmxwOTRZRU5jS0w3TWF2SUZhOUs4ZTdrZU5lQWFwYWsydGFVYk5keGR5am1WUDRyVURQUUVSVWNseWpqS2hobS1GWUtDYlFZa1hOX2RmZHlNRWQ4ekl6TkJMU3dIdDZ6MzIwblE?oc=5",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcHVGbWd0dl9tMlFrODhSaWRVdF9yQ0dKOVF4VTdKaHNjVlQzY2t3YUVKQlZfVUNDaUlGOE9zZmxwOTRZRU5jS0w3TWF2SUZhOUs4ZTdrZU5lQWFwYWsydGFVYk5keGR5am1WUDRyVURQUUVSVWNseWpqS2hobS1GWUtDYlFZa1hOX2RmZHlNRWQ4ekl6TkJMU3dIdDZ6MzIwblE?oc=5",
@@ -146,14 +181,18 @@
           "publishedAt": "2026-05-12T23:33:00Z"
         },
         {
-          "source": "TMZ",
+          "title": "Trump's Department of War Releases First Batch of Alien, UFO Files",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zU2M1RGo1MGxCbHZqU0lsbFlQQV9CYWpHYWtLYnNDYW52azJ4UFN4Qi1ub1J0U2VqNkZnVC1hN2FGZlJmenJKc2p5MUNabEN3aEtsN0U2MTdoSzNEb0hoWnhKR0VPSmFjOWxvX0pWVUxtbFFnLW5XNWd3ckNVVzA?oc=5",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zU2M1RGo1MGxCbHZqU0lsbFlQQV9CYWpHYWtLYnNDYW52azJ4UFN4Qi1ub1J0U2VqNkZnVC1hN2FGZlJmenJKc2p5MUNabEN3aEtsN0U2MTdoSzNEb0hoWnhKR0VPSmFjOWxvX0pWVUxtbFFnLW5XNWd3ckNVVzA?oc=5",
-          "title": "Trump's Department of War Releases First Batch of Alien, UFO Files"
+          "source": "TMZ",
+          "publishedAt": "2026-05-08T22:01:00Z"
         },
         {
-          "source": "LiveNOW from FOX",
+          "title": "Trump administration begins to release new UFO files to the public",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUWhBaHpENEhUS0R5cDlKVkFwZHQxQmVmRWxDXzBTMUdqeVAyVmVpeFFJTy02V1M4Z3hfMUFISXhfb0lvb3hPZS1fNDhyZnlpaGRESWkzbDl6b2Zhd09adzdlajRCcTY4U0k1cGVpandKX1ZCSmFJV3I5QWNUOW5fOEN3X1R0UnVrUlBiNjU5Vlh3d9IBlwFBVV95cUxQOU54V2ZjRkIwdGgwb3d6UWNhaGVFbUtsNmQ2TkFqZmx6MU5sQXd0dEU4Z3pGbjZ0MTNZUnpCRm4tVkVjTmowenFCNFJwM1hzMHhRcVF1LUNUUmxPMFZpYndoT215UXA1dGhKMFhkdjNlQ3dPa2szdXFpVk9WYkdFUW5wYm5aZXV2OC1pSjk1UUZHNXpscG1R?oc=5",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUWhBaHpENEhUS0R5cDlKVkFwZHQxQmVmRWxDXzBTMUdqeVAyVmVpeFFJTy02V1M4Z3hfMUFISXhfb0lvb3hPZS1fNDhyZnlpaGRESWkzbDl6b2Zhd09adzdlajRCcTY4U0k1cGVpandKX1ZCSmFJV3I5QWNUOW5fOEN3X1R0UnVrUlBiNjU5Vlh3d9IBlwFBVV95cUxQOU54V2ZjRkIwdGgwb3d6UWNhaGVFbUtsNmQ2TkFqZmx6MU5sQXd0dEU4Z3pGbjZ0MTNZUnpCRm4tVkVjTmowenFCNFJwM1hzMHhRcVF1LUNUUmxPMFZpYndoT215UXA1dGhKMFhkdjNlQ3dPa2szdXFpVk9WYkdFUW5wYm5aZXV2OC1pSjk1UUZHNXpscG1R?oc=5",
-          "title": "Trump administration begins to release new UFO files to the public"
+          "source": "LiveNOW from FOX",
+          "publishedAt": "2026-05-08T22:01:00Z"
         },
         {
           "title": "1st US UFO documents, photos released. Notable Florida sightings",
@@ -175,6 +214,11 @@
           "title": "UFO files spanning decades are released by Defense Department"
         },
         {
+          "source": "Spectrum News",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNHVFenR3R1BPUEp0ajJXWDdNYWxsc3BiYVRsQnJxX1JHTU1PT01IWVFRMjBBOS0wN3lVMTRuMGVpanVYOGpza0ZRV0JycjNMeUdIam9JNzdMNlNjNTMtbkl3MEtlc1laaUtwOXpFaENqVHlNTDluWE1kbGVIVG5VUHc3eTFVa2ZuYjZxczl4NUxNZnpsM1BWd3N2cXJGLXYwb1Vwa0E3NzZfWlRtOGdXNm1fSTFYTjh6WE9JSGI5djlFTUk5T3pIcXhTdWZ4QVVrWEJFWFA5QXQ?oc=5",
+          "title": "Pentagon releases first batch of UFO records on new website"
+        },
+        {
           "source": "Australian Broadcasting Corporation",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeUlLRndtaHJMV0xsVVBZaEZQTWJxV2lXekVBV3FEVl95VS13NTFtOEwyRUdNOFNqQ1o2TlRXVHdRZlZQMF9tZkdILVE2VlBOazFhY2NNWmRRRmRYcjZtTTFoVWl3ek9vTG85cUJCeGc3aHF3cGJjN2x5ajc2RlE5XzM4QTNWUklrQjF1LW9FM015OHJIVk1ZSzBFZlk3Z3NNYTJxTmZQejNnRlJ5dEhXbw?oc=5",
           "title": "Trump releases UFO files in 'unprecedented transparency'"
@@ -185,6 +229,11 @@
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSUlRd1cyM2pGUXJ4ZEJTcUw2U2I0UE0zcVgzeUh0MWVJa1EySVliUjBlbzh1SWNtbmN4YThHaTJLbUFhcmJfN3o0MXpWM2tYbnM3ckU4UFE0VVpfelVrc2hTU2NXR3l6NmJlR0dqaDdnNkZoU25CblNFQXE2YWlXV2J6eUlVdE5NRlBtb2JuclkxaEhnb2VMci16TFlmSmFX0gG0AUFVX3lxTE5WZnV2SnlGZjJkVS00dEV6Yzk3WjJ6WFltREtucmIzSHRTS2FzTUdVNS0xV2xlUHZGREYxSkxQbjhuWWJKN2hJTFZya1BQU3YtVXZ5eUxCVXpQMl95UjNoZlF3Ui1XQ2M5dHVLUHFPblhCaUZJdUhjaTJnS2VJNVBvZWhEMEIyenlBYldKNTJNdWV0MVlpd3BXSTRnZ09raEU0dUdYaWg0SGJ1Ynpia0s0SGszdw?oc=5",
           "source": "OregonLive.com",
           "publishedAt": "2026-05-04T07:00:00Z"
+        },
+        {
+          "source": "Evrim Ağacı",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
+          "title": "Sleeping Dog Documentary Exposes UAP Secrets And Risks"
         },
         {
           "title": "US releases new UFO files in transparency push",
@@ -221,11 +270,11 @@
         "‘Make up their own minds’: Pentagon releases first tranche of UFO files",
         "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
         "'Never-before-seen' files on UFOs released by Pentagon",
+        "Trump releases the UFO files: 5 key questions",
         "Pentagon UFO files release: Amid new UFO disclosure, officials say public can draw conclusions on unidentified anomalous phenomena",
         "Newly Released UAP Files Are Shattering Decades Of NASA’s UFO Narrative Just As Artemis Pushes Humanity Back Into Deep Space",
         "UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites",
-        "Ukrainian Defence Ministry Advisor Drops Bizarre UFOs Encountered By Military Amid Pentagon's Disclosure [WATCH]",
-        "Trump Administration Opens WAR.GOV/UFO As Historic UAP File Release Puts America’s UFO Questions In Public View"
+        "Ukrainian Defence Ministry Advisor Drops Bizarre UFOs Encountered By Military Amid Pentagon's Disclosure [WATCH]"
       ],
       "quality": 90,
       "qualityBreakdown": [
@@ -247,7 +296,7 @@
         {
           "label": "Mehrere Quellen",
           "points": 40,
-          "text": "32 Quellen im aktuellen Feed."
+          "text": "39 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -271,13 +320,155 @@
       }
     },
     {
-      "id": "file-release-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere",
+      "id": "sighting-ufos-repeatedly-spotted-over-ukraine-during-the-large-scale-war",
+      "title": "UFOs repeatedly spotted over Ukraine during the large-scale war",
+      "source": "Universe Space Tech",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeVpMNUJleURoOXVDZU1LcmM1RTY0dlI3ZGFmS2owQlpzaDdFcm9oZmV6YzI3YmRBazFLb25BUHpmVkVITEVuaGxGbW1ETE5MeEQzYXJqOS0wbHllVVpKZ1FQdGxKcWdXSUtOckE4Y01lTWpxdVRmR2RuOUlReVltSWV1S0oxN3pRdGc2eF9MTXJnSW9KZmQ5TzRoRlU?oc=5",
+      "date": "2026-05-08",
+      "publishedAt": "2026-05-12T09:02:52Z",
+      "summary": "Serhii Beskrestnov, a senior advisor to Ukraine's Minister of Defense, revealed that the Ukrainian Armed Forces have a formal program for tracking and studying unidentified flying objects that has been active since the early days of the war with Russia. He said the program operates under an official directive approved by the Commander‑in‑Chief and is considered a national security necessity because unidentified aerial activity could indicate new Russian weapons technology.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 80,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 9,
+          "text": "DISCLOSURE, MILITARY, PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 12,
+          "text": "DISCLOSURE, MILITARY, PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 6,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE",
+        "MILITARY",
+        "PENTAGON"
+      ],
+      "sourceQuality": 80,
+      "translation": {
+        "en": {
+          "title": "UFOs repeatedly spotted over Ukraine during the large-scale war",
+          "summary": "Serhii Beskrestnov, a senior advisor to Ukraine's Minister of Defense, revealed that the Ukrainian Armed Forces have a formal program for tracking and studying unidentified flying objects that has been active since the early days of the war with Russia. He said the program operates under an official directive approved by the Commander‑in‑Chief and is considered a national security necessity because unidentified aerial activity could indicate new Russian weapons technology.",
+          "sourceHash": "2e82e196e0c3de38d68eaaca59ea0061eca59823",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Während des Großkrieges wurden immer wieder UFOs über der Ukraine gesichtet",
+          "summary": "Serhii Beskrestnov, ein leitender Berater des ukrainischen Verteidigungsministers, gab bekannt, dass die ukrainischen Streitkräfte über ein formelles Programm zur Verfolgung und Untersuchung nicht identifizierter Flugobjekte verfügen, das seit den frühen Tagen des Krieges mit Russland aktiv ist. Er sagte, das Programm liege auf einer vom Oberbefehlshaber genehmigten offiziellen Weisung und werde als nationale Sicherheitsnotwendigkeit angesehen, da nicht identifizierte Luftaktivitäten auf neue russische Waffentechnologie hinweisen könnten.",
+          "sourceHash": "2e82e196e0c3de38d68eaaca59ea0061eca59823",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "program-ukrainian-defence-ministry-advisor-drops-bizarre-ufos-encountered-by-military-amid-pentagon-s-disclosure-watch",
+      "title": "Ukrainian Defence Ministry Advisor Drops Bizarre UFOs Encountered By Military Amid Pentagon's Disclosure [WATCH]",
+      "source": "Mashable India",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSWJlQWVDeGstVWhqRkluWElnWUFjX29iT3NSSFpZN2RGa0t1TXdXNEFkWnpUS0hlOTB6dndWZ0ZJSkZPeVIwOUp4dFZGOEJVSXJEMnlzVmY2VUdvRnIyNnRXQW4xcmNnSXRYaHB6VjM3dHo5bkdaSS1BSTVjQkx0cWxocnVVRGQySUkwS3lQUTZTOUNHVWdWMWtlM0ptMHJwTy03Vzc2OXZiM1dwcXItdzhzWE4ySmFBUzk5bTRZZG85T3cxNFpZRXhnaTNlb0hITmdKYjRn?oc=5",
+      "date": "2026-05-08",
+      "publishedAt": "2026-05-12T04:12:41Z",
+      "summary": "Serhii Beskrestnov, a senior advisor to Ukraine's Minister of Defense, revealed that the Ukrainian Armed Forces have a formal program for tracking and studying unidentified flying objects that has been active since the early days of the war with Russia. He said the program operates under an official directive approved by the Commander‑in‑Chief and is considered a national security necessity because unidentified aerial activity could indicate new Russian weapons technology.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 72,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 9,
+          "text": "DISCLOSURE, MILITARY, PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 12,
+          "text": "DISCLOSURE, MILITARY, PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 6,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE",
+        "MILITARY",
+        "PENTAGON"
+      ],
+      "sourceQuality": 72,
+      "translation": {
+        "en": {
+          "title": "Ukrainian Defence Ministry Advisor Drops Bizarre UFOs Encountered By Military Amid Pentagon's Disclosure [WATCH]",
+          "summary": "Serhii Beskrestnov, a senior advisor to Ukraine's Minister of Defense, revealed that the Ukrainian Armed Forces have a formal program for tracking and studying unidentified flying objects that has been active since the early days of the war with Russia. He said the program operates under an official directive approved by the Commander‑in‑Chief and is considered a national security necessity because unidentified aerial activity could indicate new Russian weapons technology.",
+          "sourceHash": "839fad43af499f891044755553a987e1964fa966",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Berater des ukrainischen Verteidigungsministeriums lässt bizarre UFOs fallen, auf die das Militär gestoßen ist, nachdem das Pentagon dies offengelegt hat [ANSCHAUEN]",
+          "summary": "Serhii Beskrestnov, ein leitender Berater des ukrainischen Verteidigungsministers, gab bekannt, dass die ukrainischen Streitkräfte über ein formelles Programm zur Verfolgung und Untersuchung nicht identifizierter Flugobjekte verfügen, das seit den frühen Tagen des Krieges mit Russland aktiv ist. Er sagte, das Programm liege auf einer vom Oberbefehlshaber genehmigten offiziellen Weisung und werde als nationale Sicherheitsnotwendigkeit angesehen, da nicht identifizierte Luftaktivitäten auf neue russische Waffentechnologie hinweisen könnten.",
+          "sourceHash": "839fad43af499f891044755553a987e1964fa966",
+          "provider": "google/cache"
+        }
+      }
+    },
+    {
+      "id": "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere",
       "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
       "source": "Tom's Guide",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM1lQdFdFZllPc1Q3bGNXSHRIcF9oel9NVWFOdUg5SDhkQmpXZXZEQWw2MHBvSmF4d0R1RE5udExuYnZ3YmlkTzZ0aUtXbU9pZ0pnSkhSMDRBNWwxcjQtQVRJQU84QkFMVG05U3MyNm9JTV9ZSllBdW9KUjgxMkVpZg?oc=5",
-      "date": "2026-05-12",
-      "publishedAt": "2026-05-12T14:23:23Z",
-      "summary": "S. military sensor videos. The film features interviews with insiders such as astronaut Dr.",
+      "date": "2026-05-08",
+      "publishedAt": "2026-05-12T08:35:23Z",
+      "summary": "Sleeping Dog, a documentary directed by Michael Lazovsky, follows journalist and filmmaker Jeremy Corbell as he investigates UFO and UAP phenomena. The film draws on Corbell's personal archive of hundreds of hours of footage, including material from well‑known UFO figures such as George Knapp, John Lear and Bob Lazar. Lazovsky says the documentary serves as insurance for Corbell, who faces threats from rogue organizations and companies that allegedly try to silence him.",
       "mentions": 4,
       "otherSources": [
         {
@@ -295,11 +486,9 @@
           "publishedAt": "2026-05-12T08:35:23Z"
         },
         {
-          "title": "Sleeping Dog Documentary Exposes UAP Secrets And Risks",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
           "source": "Evrim Ağacı",
-          "publishedAt": "2026-05-08T23:30:52Z"
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
+          "title": "Sleeping Dog Documentary Exposes UAP Secrets And Risks"
         }
       ],
       "clusterTitles": [
@@ -307,7 +496,7 @@
         "How to watch 'Sleeping Dog' - screen UAP/UFO doc online from anywhere",
         "Sleeping Dog Documentary Exposes UAP Secrets And Risks"
       ],
-      "quality": 80,
+      "quality": 71,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -316,17 +505,17 @@
         },
         {
           "label": "Begriffe",
-          "points": 6,
-          "text": "CIA, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
-          "points": 8,
-          "text": "CIA, WHISTLEBLOWER als offizieller Kontext erkannt."
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
-          "points": 4,
+          "points": 2,
           "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
@@ -347,231 +536,20 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "CIA",
-        "WHISTLEBLOWER"
+        "DISCLOSURE"
       ],
-      "sourceQuality": 80,
+      "sourceQuality": 71,
       "translation": {
         "en": {
           "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
-          "summary": "S. military sensor videos. The film features interviews with insiders such as astronaut Dr.",
-          "sourceHash": "99bbd326052a43a22ff3468d8bf3a5396bd060fd",
+          "summary": "Sleeping Dog, a documentary directed by Michael Lazovsky, follows journalist and filmmaker Jeremy Corbell as he investigates UFO and UAP phenomena. The film draws on Corbell's personal archive of hundreds of hours of footage, including material from well‑known UFO figures such as George Knapp, John Lear and Bob Lazar. Lazovsky says the documentary serves as insurance for Corbell, who faces threats from rogue organizations and companies that allegedly try to silence him.",
+          "sourceHash": "d1ecb797530e54dd30744396053a0af461c735c4",
           "provider": "original"
         },
         "de": {
           "title": "So schauen Sie sich „Sleeping Dog“ online an – streamen Sie die umstrittene UAP/UFO-Dokumentation von überall aus",
-          "summary": "S. militärische Sensorvideos. Der Film enthält Interviews mit Insidern wie dem Astronauten Dr.",
-          "sourceHash": "99bbd326052a43a22ff3468d8bf3a5396bd060fd",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "file-release-newly-released-uap-files-are-shattering-decades-of-nasa-s-ufo-narrative-just-as-artemis-pushes-humanity-back-into-deep-space",
-      "title": "Newly Released UAP Files Are Shattering Decades Of NASA’s UFO Narrative Just As Artemis Pushes Humanity Back Into Deep Space",
-      "source": "USA Herald",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNLWc4dk5lLUlQREVhNFE5YzRTc3BuZjJmU0hHWmhQLXd0V2VScHZEUFdERkVRaWpVWFY5aWVJR0t5Y2xmM3EyOFlWdFBHbTQzZXhOdlZfSWhibndwNmZjNlJXcmM5YVQ3WXFtWWVJNTNYOGN2akhzd1VDYTFiX0VPWnhkRTBUWlRVSVhjbjQxWTdwbndrTnQ5eDk0QVF2Yk5YdVBIQ0k1RDZ6UkpZaC0wOTliSkhNeTRfMmlGaS16b0tMeDRaanVMZXpLRWMyZFNVbGVaVFJydHA3TXQ5eElB?oc=5",
-      "date": "2026-05-14",
-      "publishedAt": "2026-05-14T09:26:36Z",
-      "summary": "NASA has long stated that there is no confirmed evidence of alien spacecraft visiting Earth, a position it has maintained even as new UAP files are released. The Trump administration’s PURSUE program has begun declassifying military, intelligence, and defense archives that contain reports of unidentified anomalous phenomena, radar tracking incidents, astronaut observations, and classified investigations spanning decades. S.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 70,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DISCLOSURE, TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE",
-        "TRUMP"
-      ],
-      "sourceQuality": 70,
-      "translation": {
-        "en": {
-          "title": "Newly Released UAP Files Are Shattering Decades Of NASA’s UFO Narrative Just As Artemis Pushes Humanity Back Into Deep Space",
-          "summary": "NASA has long stated that there is no confirmed evidence of alien spacecraft visiting Earth, a position it has maintained even as new UAP files are released. The Trump administration’s PURSUE program has begun declassifying military, intelligence, and defense archives that contain reports of unidentified anomalous phenomena, radar tracking incidents, astronaut observations, and classified investigations spanning decades. S.",
-          "sourceHash": "490f09dd7beba987823514f347dbd7ac6e7fbc8d",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Neu veröffentlichte UAP-Dateien zerstören jahrzehntelange UFO-Erzählungen der NASA, gerade als Artemis die Menschheit zurück in den Weltraum drängt",
-          "summary": "Die NASA hat seit langem erklärt, dass es keine bestätigten Beweise dafür gibt, dass außerirdische Raumschiffe die Erde besucht haben, eine Position, die sie auch nach der Veröffentlichung neuer UAP-Dateien beibehalten hat. Das PURSUE-Programm der Trump-Regierung hat mit der Freigabe von Militär-, Geheimdienst- und Verteidigungsarchiven begonnen, die Berichte über nicht identifizierte anomale Phänomene, Radarverfolgungsvorfälle, Astronautenbeobachtungen und geheime Untersuchungen über Jahrzehnte enthalten. S.",
-          "sourceHash": "490f09dd7beba987823514f347dbd7ac6e7fbc8d",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "illusionist-uri-geller-reacts-to-us-congressman-s-warning-over-next-set-of-ufo-files-holy-crap-is-coming",
-      "title": "Illusionist Uri Geller Reacts To US Congressman's Warning Over Next Set Of UFO Files: 'Holy Crap Is Coming'",
-      "source": "Mashable India",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdWY0dWhfZlJTOVZ4T0tMVzJ1V0dGRnpYdkZKVWdoMEstRGVwdERmbEtjVFVKbmtRWXVFUkdhNVQtUzdLMkh0Sm00ekRDXzdrc0dlRUVWeVlwS3JYYm5sYlQ2T2IzaGliNE5vQXAwVTZZOXE1V0Jycjh5Mm1pY3lyaWx4ZVdjLVFJZVI4YkEwS25CemtjLUpjbVFEaGxXdF9GZFljaURSZVNiNlUwYnlYMGg0NHdqdG1zbTRmemFSUll1d25Kd3I1VWcxUzl3T25hY2V1UlRB?oc=5",
-      "date": "2026-05-14",
-      "publishedAt": "2026-05-12T03:47:29Z",
-      "summary": "Israeli‑British illusionist Uri Geller, 79, reacted to US Congressman Tim Burchett’s warning that the next batch of declassified UFO files will dwarf those already released, saying he believes every word of the warning. Burchett, a member of the UAP Caucus, told Joe Rogan that the first set of 162 documents was only a “drop in the bucket” and that “Holy Crap is coming” with future releases.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 70,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DISCLOSURE, TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE",
-        "TRUMP"
-      ],
-      "sourceQuality": 70,
-      "translation": {
-        "en": {
-          "title": "Illusionist Uri Geller Reacts To US Congressman's Warning Over Next Set Of UFO Files: 'Holy Crap Is Coming'",
-          "summary": "Israeli‑British illusionist Uri Geller, 79, reacted to US Congressman Tim Burchett’s warning that the next batch of declassified UFO files will dwarf those already released, saying he believes every word of the warning. Burchett, a member of the UAP Caucus, told Joe Rogan that the first set of 162 documents was only a “drop in the bucket” and that “Holy Crap is coming” with future releases.",
-          "sourceHash": "508d64296b317dfcbea52b154d09d140f704fb67",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Der Illusionist Uri Geller reagiert auf die Warnung des US-Kongressabgeordneten vor der nächsten Reihe von UFO-Dateien: „Heiliger Mist kommt“",
-          "summary": "Der israelisch-britische Illusionist Uri Geller, 79, reagierte auf die Warnung des US-Kongressabgeordneten Tim Burchett, dass die nächste Ladung freigegebener UFO-Dateien die bereits freigegebenen in den Schatten stellen werde, und sagte, er glaube jedes Wort der Warnung. Burchett, ein Mitglied des UAP Caucus, sagte Joe Rogan, dass der erste Satz von 162 Dokumenten nur ein „Tropfen auf den heißen Stein“ sei und dass mit zukünftigen Veröffentlichungen „heiliger Mist kommt“.",
-          "sourceHash": "508d64296b317dfcbea52b154d09d140f704fb67",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "a-small-oregon-town-puts-on-a-big-ufo-festival-why-it-s-worth-a-visit",
-      "title": "A small Oregon town puts on a big UFO festival. Why it's worth a visit",
-      "source": "Statesman Journal",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV3dMWkE4ZEpPZ211OWtCQ2dmSXBpcFNUSmUwSjAyX195ZWMwRjVHS3p2M0czM1RuVDNIMWVSckw0eHZzYkJ4Y3RVVHZ5RXotMGdpLTFkNU51SFBEa3IwMEowdGROcUU4ajdqMnl6TER0WGNYOXVxSUVzSnNoTmFVLU90MlM1Q3ZVRVN6ek9UTGVHM3p1NXdKZGF4ei1Gem9vXzVaazY5TWhvank3anBsWnpVdGhYUmh4dnpqVDhyRDFqX3ZmRWlyb3pwSGxVa0h5a3VOckxB?oc=5",
-      "date": "2026-05-14",
-      "publishedAt": "2026-05-09T22:44:00Z",
-      "summary": "The 26th Annual McMenamins UFO Festival in McMinnville, Oregon, runs from May 14 to May 17, 2026, and is hosted by the McMenamins Hotel Oregon, making it the second largest UFO festival in the United States after Roswell. The festival celebrates the 1950 UFO sighting by Paul and Evelyn Trent, whose photographs of a metallic object sparked national debate and are considered among the most famous UFO images.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 70,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DISCLOSURE, TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE",
-        "TRUMP"
-      ],
-      "sourceQuality": 70,
-      "translation": {
-        "en": {
-          "title": "A small Oregon town puts on a big UFO festival. Why it's worth a visit",
-          "summary": "The 26th Annual McMenamins UFO Festival in McMinnville, Oregon, runs from May 14 to May 17, 2026, and is hosted by the McMenamins Hotel Oregon, making it the second largest UFO festival in the United States after Roswell. The festival celebrates the 1950 UFO sighting by Paul and Evelyn Trent, whose photographs of a metallic object sparked national debate and are considered among the most famous UFO images.",
-          "sourceHash": "ee50a0585b10ff37453643651d11e0010761d923",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Eine kleine Stadt in Oregon veranstaltet ein großes UFO-Festival. Warum es einen Besuch wert ist",
-          "summary": "Das 26. jährliche McMenamins UFO-Festival in McMinnville, Oregon, findet vom 14. bis 17. Mai 2026 statt und wird vom McMenamins Hotel Oregon ausgerichtet. Damit ist es nach Roswell das zweitgrößte UFO-Festival in den Vereinigten Staaten. Das Festival feiert die UFO-Sichtung von Paul und Evelyn Trent im Jahr 1950, deren Fotografien eines metallischen Objekts eine landesweite Debatte auslösten und zu den berühmtesten UFO-Bildern zählen.",
-          "sourceHash": "ee50a0585b10ff37453643651d11e0010761d923",
+          "summary": "„Sleeping Dog“, ein Dokumentarfilm von Michael Lazovsky, begleitet den Journalisten und Filmemacher Jeremy Corbell bei seiner Untersuchung von UFO- und UAP-Phänomenen. Der Film stützt sich auf Corbells persönliches Archiv mit Hunderten von Stunden Filmmaterial, darunter Material von bekannten UFO-Persönlichkeiten wie George Knapp, John Lear und Bob Lazar. Laut Lazovsky dient der Dokumentarfilm als Versicherung für Corbell, der Drohungen von Schurkenorganisationen und Unternehmen ausgesetzt ist, die angeblich versuchen, ihn zum Schweigen zu bringen.",
+          "sourceHash": "d1ecb797530e54dd30744396053a0af461c735c4",
           "provider": "google"
         }
       }
@@ -641,6 +619,58 @@
       }
     },
     {
+      "id": "illusionist-uri-geller-reacts-to-us-congressman-s-warning-over-next-set-of-ufo-files-holy-crap-is-coming",
+      "title": "Illusionist Uri Geller Reacts To US Congressman's Warning Over Next Set Of UFO Files: 'Holy Crap Is Coming'",
+      "source": "Mashable India",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdWY0dWhfZlJTOVZ4T0tMVzJ1V0dGRnpYdkZKVWdoMEstRGVwdERmbEtjVFVKbmtRWXVFUkdhNVQtUzdLMkh0Sm00ekRDXzdrc0dlRUVWeVlwS3JYYm5sYlQ2T2IzaGliNE5vQXAwVTZZOXE1V0Jycjh5Mm1pY3lyaWx4ZVdjLVFJZVI4YkEwS25CemtjLUpjbVFEaGxXdF9GZFljaURSZVNiNlUwYnlYMGg0NHdqdG1zbTRmemFSUll1d25Kd3I1VWcxUzl3T25hY2V1UlRB?oc=5",
+      "date": "2026-05-08",
+      "publishedAt": "2026-05-12T03:47:29Z",
+      "summary": "Israeli‑British illusionist Uri Geller, 79, reacted to US Congressman Tim Burchett’s warning that the next batch of declassified UFO files will dwarf those already released, saying he believes every word of the warning. Burchett, a member of the UAP Caucus, told Joe Rogan that the first set of 162 documents was only a “drop in the bucket” and that “Holy Crap is coming” with future releases.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 47,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "documents",
+        "photos",
+        "released",
+        "sightings"
+      ],
+      "sourceQuality": 47,
+      "translation": {
+        "en": {
+          "title": "Illusionist Uri Geller Reacts To US Congressman's Warning Over Next Set Of UFO Files: 'Holy Crap Is Coming'",
+          "summary": "Israeli‑British illusionist Uri Geller, 79, reacted to US Congressman Tim Burchett’s warning that the next batch of declassified UFO files will dwarf those already released, saying he believes every word of the warning. Burchett, a member of the UAP Caucus, told Joe Rogan that the first set of 162 documents was only a “drop in the bucket” and that “Holy Crap is coming” with future releases.",
+          "sourceHash": "508d64296b317dfcbea52b154d09d140f704fb67",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Der Illusionist Uri Geller reagiert auf die Warnung des US-Kongressabgeordneten vor der nächsten Reihe von UFO-Dateien: „Heiliger Mist kommt“",
+          "summary": "Der israelisch-britische Illusionist Uri Geller, 79, reagierte auf die Warnung des US-Kongressabgeordneten Tim Burchett, dass die nächste Ladung freigegebener UFO-Dateien die bereits freigegebenen in den Schatten stellen werde, und sagte, er glaube jedes Wort der Warnung. Burchett, ein Mitglied des UAP Caucus, sagte Joe Rogan, dass der erste Satz von 162 Dokumenten nur ein „Tropfen auf den heißen Stein“ sei und dass mit zukünftigen Veröffentlichungen „heiliger Mist kommt“.",
+          "sourceHash": "508d64296b317dfcbea52b154d09d140f704fb67",
+          "provider": "google"
+        }
+      }
+    },
+    {
       "id": "ufo-files-reveal-the-same-old-material",
       "title": "UFO Files Reveal … the Same Old Material",
       "source": "Skeptic",
@@ -688,34 +718,140 @@
           "provider": "google"
         }
       }
+    },
+    {
+      "id": "a-small-oregon-town-puts-on-a-big-ufo-festival-why-it-s-worth-a-visit",
+      "title": "A small Oregon town puts on a big UFO festival. Why it's worth a visit",
+      "source": "Statesman Journal",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV3dMWkE4ZEpPZ211OWtCQ2dmSXBpcFNUSmUwSjAyX195ZWMwRjVHS3p2M0czM1RuVDNIMWVSckw0eHZzYkJ4Y3RVVHZ5RXotMGdpLTFkNU51SFBEa3IwMEowdGROcUU4ajdqMnl6TER0WGNYOXVxSUVzSnNoTmFVLU90MlM1Q3ZVRVN6ek9UTGVHM3p1NXdKZGF4ei1Gem9vXzVaazY5TWhvank3anBsWnpVdGhYUmh4dnpqVDhyRDFqX3ZmRWlyb3pwSGxVa0h5a3VOckxB?oc=5",
+      "date": "2026-05-08",
+      "publishedAt": "2026-05-09T22:44:00Z",
+      "summary": "The 26th Annual McMenamins UFO Festival in McMinnville, Oregon, runs from May 14 to May 17, 2026, and is hosted by the McMenamins Hotel Oregon, making it the second largest UFO festival in the United States after Roswell. The festival celebrates the 1950 UFO sighting by Paul and Evelyn Trent, whose photographs of a metallic object sparked national debate and are considered among the most famous UFO images.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 47,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "documents",
+        "photos",
+        "released",
+        "sightings"
+      ],
+      "sourceQuality": 47,
+      "translation": {
+        "en": {
+          "title": "A small Oregon town puts on a big UFO festival. Why it's worth a visit",
+          "summary": "The 26th Annual McMenamins UFO Festival in McMinnville, Oregon, runs from May 14 to May 17, 2026, and is hosted by the McMenamins Hotel Oregon, making it the second largest UFO festival in the United States after Roswell. The festival celebrates the 1950 UFO sighting by Paul and Evelyn Trent, whose photographs of a metallic object sparked national debate and are considered among the most famous UFO images.",
+          "sourceHash": "ee50a0585b10ff37453643651d11e0010761d923",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Eine kleine Stadt in Oregon veranstaltet ein großes UFO-Festival. Warum es einen Besuch wert ist",
+          "summary": "Das 26. jährliche McMenamins UFO-Festival in McMinnville, Oregon, findet vom 14. bis 17. Mai 2026 statt und wird vom McMenamins Hotel Oregon ausgerichtet. Damit ist es nach Roswell das zweitgrößte UFO-Festival in den Vereinigten Staaten. Das Festival feiert die UFO-Sichtung von Paul und Evelyn Trent im Jahr 1950, deren Fotografien eines metallischen Objekts eine landesweite Debatte auslösten und zu den berühmtesten UFO-Bildern zählen.",
+          "sourceHash": "ee50a0585b10ff37453643651d11e0010761d923",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "presidential-unsealing-and-reporting-system-for-uap-encounters-pursue",
+      "title": "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
+      "source": "U.S. Department of War (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE81SlIyNXc5SFBlVkYwdDlFTjVWZnhwa0tpQThNZWZOQXZZVzY4YzdQWTJMVl91RnJ4Q2tNcw?oc=5",
+      "date": "2026-05-08",
+      "publishedAt": "2026-05-08T14:30:11Z",
+      "summary": "S. government released 17 pages of previously classified Unidentified Anomalous Phenomena documents on May 8, as part of the Presidential Unsealing and Reporting System for UAP Encounters, with more files to be issued on a rolling basis.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 47,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "documents",
+        "photos",
+        "released",
+        "sightings"
+      ],
+      "sourceQuality": 47,
+      "translation": {
+        "en": {
+          "title": "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
+          "summary": "S. government released 17 pages of previously classified Unidentified Anomalous Phenomena documents on May 8, as part of the Presidential Unsealing and Reporting System for UAP Encounters, with more files to be issued on a rolling basis.",
+          "sourceHash": "39d084063f120e200812412b4e112e1f0e0e4ee6",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Präsidiales Entsiegelungs- und Meldesystem für UAP-Begegnungen (PURSUE)",
+          "summary": "Die Regierung von S. veröffentlichte am 8. Mai im Rahmen des Präsidenten-Entsiegelungs- und Meldesystems für UAP-Begegnungen 17 Seiten zuvor geheimer Dokumente zu nicht identifizierten anomalen Phänomenen. Weitere Dateien werden fortlaufend herausgegeben.",
+          "sourceHash": "39d084063f120e200812412b4e112e1f0e0e4ee6",
+          "provider": "google"
+        }
+      }
     }
   ],
   "summaries": {
     "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public": "On May 8, 2026 the US Department of War released its first batch of declassified UAP records, launching the public archive PURSUE, which the Trump administration says will be updated every few weeks. The release follows a February 19, 2026 directive from President Trump instructing federal agencies to identify, review and declassify documents related to extraterrestrial life and UAP, and includes dozens of agencies and tens of millions of records, many only on paper. The first tranche focuses on cases where the government cannot definitively determine the nature of the phenomena and contains Apollo 12 and 17 imagery, a cockpit transcript describing bright particles, FBI infrared images of unidentified objects over the western US in 2025, and military reports from incidents in the UAE, Greece, the Middle East, Africa, Japan, and North America. FBI Director Kash Patel said his agency handed over its first batch of classified UAP documents to the Pentagon‑led inter‑agency committee, while Secretary of War Pete Hegseth and DNI Tulsi Gabbard framed the release as evidence of the administration’s commitment to transparency and a joint declassification effort. The Department of War notes that many unresolved cases reflect insufficient data rather than anomalous capability, invites private‑sector analysis, and that the initiative’s success will depend on whether future tranches provide new operational detail rather than additional Apollo‑era curiosities and short infrared clips.",
-    "file-release-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": "\"Sleeping Dog\" is a UFO documentary that follows investigative journalist Jeremy Corbell and includes eight new, unreleased U.S. military sensor videos. The film features interviews with insiders such as astronaut Dr. Edgar Mitchell, Col. John B. Alexander, John Lear, Bob Lazar, David Grusch, nuclear chemist Edmund Storms, Cmdr. David Fravor, and journalist George Knapp. Corbell claims that releasing the film is his only protection against government attempts to silence whistleblowers. The documentary premiered theatrically on May 8 and will be available to buy or rent on Prime Video and Apple TV in the U.S. and Canada from May 12, with a U.K. release on Prime Video. Availability outside these regions requires a VPN, and the film is not yet available on Amazon Prime Video in Australia.",
-    "file-release-newly-released-uap-files-are-shattering-decades-of-nasa-s-ufo-narrative-just-as-artemis-pushes-humanity-back-into-deep-space": "NASA has long stated that there is no confirmed evidence of alien spacecraft visiting Earth, a position it has maintained even as new UAP files are released. The Trump administration’s PURSUE program has begun declassifying military, intelligence, and defense archives that contain reports of unidentified anomalous phenomena, radar tracking incidents, astronaut observations, and classified investigations spanning decades. These documents show that U.S. government agencies have treated the UAP phenomenon as serious enough to warrant classified investigations, intelligence monitoring, aerospace analysis, and national‑security scrutiny for years. The revelations contrast with the public narrative that UFO sightings are usually explained by weather balloons, optical effects, or camera artifacts, and now acknowledge unresolved encounters involving astronauts, military pilots, advanced radar systems, and craft with capabilities that are not easily explained by conventional aerospace engineering. NASA’s official stance remains unchanged, but the new context highlights a discrepancy between the agency’s measured public tone and the seriousness with which some government entities have approached the phenomenon.",
-    "illusionist-uri-geller-reacts-to-us-congressman-s-warning-over-next-set-of-ufo-files-holy-crap-is-coming": "Israeli‑British illusionist Uri Geller, 79, reacted to US Congressman Tim Burchett’s warning that the next batch of declassified UFO files will dwarf those already released, saying he believes every word of the warning. Burchett, a member of the UAP Caucus, told Joe Rogan that the first set of 162 documents was only a “drop in the bucket” and that “Holy Crap is coming” with future releases. He cited reports of pilots being pulled from duty for psychological evaluation after UAP encounters, and alleged sightings of underwater craft moving over 200 mph and as large as a football field. Geller tweeted that in the 1970s he was shown fragments of metal from a crashed UFO by rocket scientist Wernher von Braun, and that he later saw non‑human bodies stored at NASA’s Goddard Space Center. He claims the already released files, which include Apollo and Gemini mission reports of strange lights and objects, validate his long‑standing assertions and hopes the forthcoming documents will expose NASA’s full involvement.",
-    "a-small-oregon-town-puts-on-a-big-ufo-festival-why-it-s-worth-a-visit": "The 26th Annual McMenamins UFO Festival in McMinnville, Oregon, runs from May 14 to May 17, 2026, and is hosted by the McMenamins Hotel Oregon, making it the second largest UFO festival in the United States after Roswell. The festival celebrates the 1950 UFO sighting by Paul and Evelyn Trent, whose photographs of a metallic object sparked national debate and are considered among the most famous UFO images. Organizers describe the event as a gathering where skeptics and believers meet, offering speakers, live entertainment, a parade, costume contests, a trivia session, and a costume ball. Ticketed speaker presentations are available through ufofest.com, while most other activities are free, and the schedule includes a “UAP pass pickup party,” a podcast recording, and a panel with an undisclosed whistleblower interviewed by Jeremy Corbell. The festival coincides with the release of previously unseen federal UFO files, adding new context to the town’s long‑standing UFO lore.",
+    "sighting-ufos-repeatedly-spotted-over-ukraine-during-the-large-scale-war": "Serhii Beskrestnov, a senior advisor to Ukraine's Minister of Defense, revealed that the Ukrainian Armed Forces have a formal program for tracking and studying unidentified flying objects that has been active since the early days of the war with Russia. He said the program operates under an official directive approved by the Commander‑in‑Chief and is considered a national security necessity because unidentified aerial activity could indicate new Russian weapons technology. Beskrestnov posted 2023 frontline reconnaissance footage of an aerial anomaly and later received a message from officials of a Ukrainian state institution that has handled such investigations since the Soviet era. He urged military personnel and civilians who capture unidentified objects on camera to submit their footage to uap@gur.gov.ua, noting that firsthand visual evidence could have significant intelligence value. His remarks came as the U.S. Pentagon released a declassified set of 162 UFO files on May 8, 2026, following a directive from President Trump.",
+    "program-ukrainian-defence-ministry-advisor-drops-bizarre-ufos-encountered-by-military-amid-pentagon-s-disclosure-watch": "Serhii Beskrestnov, a senior advisor to Ukraine's Minister of Defense, revealed that the Ukrainian Armed Forces have a formal program for tracking and studying unidentified flying objects that has been active since the early days of the war with Russia. He said the program operates under an official directive approved by the Commander‑in‑Chief and is considered a national security necessity because unidentified aerial activity could indicate new Russian weapons technology. Beskrestnov posted 2023 frontline reconnaissance footage of an aerial anomaly and later received a message from officials of a Ukrainian state institution that has handled such investigations since the Soviet era. He urged military personnel and civilians who capture unidentified objects on camera to submit their footage to uap@gur.gov.ua, noting that firsthand visual evidence could have significant intelligence value. His remarks came as the U.S. Pentagon released a declassified set of 162 UFO files on May 8, 2026, following a directive from President Trump.",
+    "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": "Sleeping Dog, a documentary directed by Michael Lazovsky, follows journalist and filmmaker Jeremy Corbell as he investigates UFO and UAP phenomena. The film draws on Corbell's personal archive of hundreds of hours of footage, including material from well‑known UFO figures such as George Knapp, John Lear and Bob Lazar. Lazovsky says the documentary serves as insurance for Corbell, who faces threats from rogue organizations and companies that allegedly try to silence him. Corbell has about 46 videos that have not yet been released to the public, and he hopes the White House and Congress will declassify more UFO footage. The film aims to humanize the subject, dispel conspiracy stereotypes, and encourage serious discussion, and it became available digitally on May 12.",
     "uap-whistleblower-david-grusch-on-non-human-biologics-craft": "David Grusch served 14 years in the U.S. Air Force, reaching the rank of Major and completing a combat tour in Afghanistan. He later held senior intelligence positions at the National Geospatial‑Intelligence Agency and the National Reconnaissance Office, and represented the latter on the UAP Task Force from 2019 to 2021. In 2022, Grusch filed a whistleblower complaint that was described as credible and urgent. In 2023, he testified before Congress, claiming that parts of the U.S. government had blocked congressional oversight, withheld information from executive officials, and illegally concealed programs related to the recovery and reverse engineering of craft of unknown, non‑human origin.",
-    "ufo-files-reveal-the-same-old-material": "President Donald Trump and the Department of War released the UFO Files, but a preliminary review shows only blurry photographs, grainy videos, artist reconstructions, and anecdotal reports, with no new evidence of alien visitation. The files contain documents such as an artist’s composite sketch of an alleged ellipsoid bronze metallic object, a 2001 Georgian Foreign Ministry report claiming a Russian aircraft was a UFO, a 2023 Mexican Congress testimony on UAP that includes debunked fake alien corpses, and heavily redacted documents with a disclaimer protecting eyewitness identities and sensitive locations. Photographic stills from videos shot in the Southwestern United States show a small dot that could be a balloon, drone, or aircraft, while a 2024 report describes a football‑shaped UAP near Japan and an image of a Chinese UAV, but the author does not confirm these as extraterrestrial. Light anomalies captured by Apollo 17 astronauts are noted in the files, with the government stating no consensus on their nature and that further analysis will be released, and a video posted by Steven Greenstreet shows a parachute and flare. Pilot Scott Kelly and other experts are quoted explaining that optical illusion and misidentification can account for many reported sightings, and the author remains skeptical until new evidence emerges."
+    "illusionist-uri-geller-reacts-to-us-congressman-s-warning-over-next-set-of-ufo-files-holy-crap-is-coming": "Israeli‑British illusionist Uri Geller, 79, reacted to US Congressman Tim Burchett’s warning that the next batch of declassified UFO files will dwarf those already released, saying he believes every word of the warning. Burchett, a member of the UAP Caucus, told Joe Rogan that the first set of 162 documents was only a “drop in the bucket” and that “Holy Crap is coming” with future releases. He cited reports of pilots being pulled from duty for psychological evaluation after UAP encounters, and alleged sightings of underwater craft moving over 200 mph and as large as a football field. Geller tweeted that in the 1970s he was shown fragments of metal from a crashed UFO by rocket scientist Wernher von Braun, and that he later saw non‑human bodies stored at NASA’s Goddard Space Center. He claims the already released files, which include Apollo and Gemini mission reports of strange lights and objects, validate his long‑standing assertions and hopes the forthcoming documents will expose NASA’s full involvement.",
+    "ufo-files-reveal-the-same-old-material": "President Donald Trump and the Department of War released the UFO Files, but a preliminary review shows only blurry photographs, grainy videos, artist reconstructions, and anecdotal reports, with no new evidence of alien visitation. The files contain documents such as an artist’s composite sketch of an alleged ellipsoid bronze metallic object, a 2001 Georgian Foreign Ministry report claiming a Russian aircraft was a UFO, a 2023 Mexican Congress testimony on UAP that includes debunked fake alien corpses, and heavily redacted documents with a disclaimer protecting eyewitness identities and sensitive locations. Photographic stills from videos shot in the Southwestern United States show a small dot that could be a balloon, drone, or aircraft, while a 2024 report describes a football‑shaped UAP near Japan and an image of a Chinese UAV, but the author does not confirm these as extraterrestrial. Light anomalies captured by Apollo 17 astronauts are noted in the files, with the government stating no consensus on their nature and that further analysis will be released, and a video posted by Steven Greenstreet shows a parachute and flare. Pilot Scott Kelly and other experts are quoted explaining that optical illusion and misidentification can account for many reported sightings, and the author remains skeptical until new evidence emerges.",
+    "a-small-oregon-town-puts-on-a-big-ufo-festival-why-it-s-worth-a-visit": "The 26th Annual McMenamins UFO Festival in McMinnville, Oregon, runs from May 14 to May 17, 2026, and is hosted by the McMenamins Hotel Oregon, making it the second largest UFO festival in the United States after Roswell. The festival celebrates the 1950 UFO sighting by Paul and Evelyn Trent, whose photographs of a metallic object sparked national debate and are considered among the most famous UFO images. Organizers describe the event as a gathering where skeptics and believers meet, offering speakers, live entertainment, a parade, costume contests, a trivia session, and a costume ball. Ticketed speaker presentations are available through ufofest.com, while most other activities are free, and the schedule includes a “UAP pass pickup party,” a podcast recording, and a panel with an undisclosed whistleblower interviewed by Jeremy Corbell. The festival coincides with the release of previously unseen federal UFO files, adding new context to the town’s long‑standing UFO lore.",
+    "presidential-unsealing-and-reporting-system-for-uap-encounters-pursue": "The U.S. government released 17 pages of previously classified Unidentified Anomalous Phenomena documents on May 8, as part of the Presidential Unsealing and Reporting System for UAP Encounters, with more files to be issued on a rolling basis. Florida has reported 8,872 UFO sightings since 1995, the second‑highest total in the nation, and the state has been the site of several notable incidents, including a 1944 P‑38 aircraft encounter, a 1967 Cuban Jet Incident involving radar operators, the 1987‑88 Gulf Breeze Six photographs, the 2012 Homestead Golden Knights event, a 2018 satellite image over Pratt & Whitney, and a 2021 Flagler County video. Many of these sightings have been later explained or debunked: the Gulf Breeze photos were shown to be a hoax involving a foam model, the Golden Knights were identified as a parachutist team using flares, and the Pratt & Whitney image was likely a stealth drone or test rig. Pentagon AARO director Sean Kirkpatrick and NASA official Dan Evans have stated that, to date, no credible evidence of extraterrestrial activity or off‑world technology has been found in UAP reports. The remaining uncertainty lies in the interpretation of the released documents and the unexplained nature of some sightings."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-15T12:31:23Z",
+    "timestamp": "2026-05-16T05:49:36Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 354,
-    "broadTopics": 166,
+    "broadArticles": 340,
+    "broadTopics": 165,
     "notificationArticles": 1,
     "notificationTopics": 1,
-    "newNotificationTopics": 0,
-    "appTopics": 7,
+    "newNotificationTopics": 1,
+    "appTopics": 9,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 4,
+    "splitUnrelatedGroupedSources": 32,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
     "regroupedTopics": 11,
     "topicRegrouping": "title_summary_story_signature_v7",
@@ -725,19 +861,19 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization",
-      "attempts": 10,
-      "repaired": 4,
-      "missing": 6
+      "attempts": 7,
+      "repaired": 3,
+      "missing": 4
     },
     "summaryQualityGate": {
       "policy": "strict_article_content_summary_required",
-      "kept": 7,
-      "removed": 6,
+      "kept": 9,
+      "removed": 4,
       "removedItems": [
         {
-          "id": "sighting-thousands-of-mysterious-underwater-ufos-spotted-off-us-shores-report",
-          "title": "Thousands of mysterious underwater UFOs spotted off US shores: report",
-          "source": "New York Post",
+          "id": "uap-whistleblower-pilots-are-still-having-these-encounters",
+          "title": "UAP whistleblower: Pilots are 'still having' these encounters",
+          "source": "MSN",
           "reason": "missing_article_content_summary"
         },
         {
@@ -747,35 +883,23 @@
           "reason": "missing_article_content_summary"
         },
         {
-          "id": "presidential-unsealing-and-reporting-system-for-uap-encounters-pursue",
-          "title": "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
-          "source": "U.S. Department of War (.gov)",
-          "reason": "missing_article_content_summary"
-        },
-        {
           "id": "ufo-whistleblowers-fear-being-called-crazy-as-officials-admit-encounters-with-unknown-craft-near-critical-us-sites",
           "title": "UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites",
           "source": "International Business Times UK",
           "reason": "missing_article_content_summary"
         },
         {
-          "id": "uap-whistleblower-pilots-are-still-having-these-encounters",
-          "title": "UAP whistleblower: Pilots are 'still having' these encounters",
+          "id": "who-was-david-wilcock-the-latest-death-in-a-growing-missing-us-scientists-narrative-tied-to-ufo-claims",
+          "title": "Who was David Wilcock? The latest death in a growing ‘missing US scientists’ narrative tied to UFO claims",
           "source": "MSN",
-          "reason": "missing_article_content_summary"
-        },
-        {
-          "id": "trump-declassifies-162-ufo-files-for-public-to-judge-the-evidence",
-          "title": "Trump declassifies 162 UFO files for public to judge the 'evidence'",
-          "source": "Euronews.com",
           "reason": "missing_article_content_summary"
         }
       ]
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v1",
-      "inputArticles": 7,
-      "outputArticles": 7,
+      "inputArticles": 9,
+      "outputArticles": 9,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_required"
     }
@@ -795,59 +919,45 @@
         "provider": "google"
       }
     },
-    "file-release-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": {
+    "sighting-ufos-repeatedly-spotted-over-ukraine-during-the-large-scale-war": {
+      "en": {
+        "title": "UFOs repeatedly spotted over Ukraine during the large-scale war",
+        "summary": "Serhii Beskrestnov, a senior advisor to Ukraine's Minister of Defense, revealed that the Ukrainian Armed Forces have a formal program for tracking and studying unidentified flying objects that has been active since the early days of the war with Russia. He said the program operates under an official directive approved by the Commander‑in‑Chief and is considered a national security necessity because unidentified aerial activity could indicate new Russian weapons technology.",
+        "sourceHash": "2e82e196e0c3de38d68eaaca59ea0061eca59823",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Während des Großkrieges wurden immer wieder UFOs über der Ukraine gesichtet",
+        "summary": "Serhii Beskrestnov, ein leitender Berater des ukrainischen Verteidigungsministers, gab bekannt, dass die ukrainischen Streitkräfte über ein formelles Programm zur Verfolgung und Untersuchung nicht identifizierter Flugobjekte verfügen, das seit den frühen Tagen des Krieges mit Russland aktiv ist. Er sagte, das Programm liege auf einer vom Oberbefehlshaber genehmigten offiziellen Weisung und werde als nationale Sicherheitsnotwendigkeit angesehen, da nicht identifizierte Luftaktivitäten auf neue russische Waffentechnologie hinweisen könnten.",
+        "sourceHash": "2e82e196e0c3de38d68eaaca59ea0061eca59823",
+        "provider": "google"
+      }
+    },
+    "program-ukrainian-defence-ministry-advisor-drops-bizarre-ufos-encountered-by-military-amid-pentagon-s-disclosure-watch": {
+      "en": {
+        "title": "Ukrainian Defence Ministry Advisor Drops Bizarre UFOs Encountered By Military Amid Pentagon's Disclosure [WATCH]",
+        "summary": "Serhii Beskrestnov, a senior advisor to Ukraine's Minister of Defense, revealed that the Ukrainian Armed Forces have a formal program for tracking and studying unidentified flying objects that has been active since the early days of the war with Russia. He said the program operates under an official directive approved by the Commander‑in‑Chief and is considered a national security necessity because unidentified aerial activity could indicate new Russian weapons technology.",
+        "sourceHash": "839fad43af499f891044755553a987e1964fa966",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Berater des ukrainischen Verteidigungsministeriums lässt bizarre UFOs fallen, auf die das Militär gestoßen ist, nachdem das Pentagon dies offengelegt hat [ANSCHAUEN]",
+        "summary": "Serhii Beskrestnov, ein leitender Berater des ukrainischen Verteidigungsministers, gab bekannt, dass die ukrainischen Streitkräfte über ein formelles Programm zur Verfolgung und Untersuchung nicht identifizierter Flugobjekte verfügen, das seit den frühen Tagen des Krieges mit Russland aktiv ist. Er sagte, das Programm liege auf einer vom Oberbefehlshaber genehmigten offiziellen Weisung und werde als nationale Sicherheitsnotwendigkeit angesehen, da nicht identifizierte Luftaktivitäten auf neue russische Waffentechnologie hinweisen könnten.",
+        "sourceHash": "839fad43af499f891044755553a987e1964fa966",
+        "provider": "google/cache"
+      }
+    },
+    "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": {
       "en": {
         "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
-        "summary": "S. military sensor videos. The film features interviews with insiders such as astronaut Dr.",
-        "sourceHash": "99bbd326052a43a22ff3468d8bf3a5396bd060fd",
+        "summary": "Sleeping Dog, a documentary directed by Michael Lazovsky, follows journalist and filmmaker Jeremy Corbell as he investigates UFO and UAP phenomena. The film draws on Corbell's personal archive of hundreds of hours of footage, including material from well‑known UFO figures such as George Knapp, John Lear and Bob Lazar. Lazovsky says the documentary serves as insurance for Corbell, who faces threats from rogue organizations and companies that allegedly try to silence him.",
+        "sourceHash": "d1ecb797530e54dd30744396053a0af461c735c4",
         "provider": "original"
       },
       "de": {
         "title": "So schauen Sie sich „Sleeping Dog“ online an – streamen Sie die umstrittene UAP/UFO-Dokumentation von überall aus",
-        "summary": "S. militärische Sensorvideos. Der Film enthält Interviews mit Insidern wie dem Astronauten Dr.",
-        "sourceHash": "99bbd326052a43a22ff3468d8bf3a5396bd060fd",
-        "provider": "google"
-      }
-    },
-    "file-release-newly-released-uap-files-are-shattering-decades-of-nasa-s-ufo-narrative-just-as-artemis-pushes-humanity-back-into-deep-space": {
-      "en": {
-        "title": "Newly Released UAP Files Are Shattering Decades Of NASA’s UFO Narrative Just As Artemis Pushes Humanity Back Into Deep Space",
-        "summary": "NASA has long stated that there is no confirmed evidence of alien spacecraft visiting Earth, a position it has maintained even as new UAP files are released. The Trump administration’s PURSUE program has begun declassifying military, intelligence, and defense archives that contain reports of unidentified anomalous phenomena, radar tracking incidents, astronaut observations, and classified investigations spanning decades. S.",
-        "sourceHash": "490f09dd7beba987823514f347dbd7ac6e7fbc8d",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Neu veröffentlichte UAP-Dateien zerstören jahrzehntelange UFO-Erzählungen der NASA, gerade als Artemis die Menschheit zurück in den Weltraum drängt",
-        "summary": "Die NASA hat seit langem erklärt, dass es keine bestätigten Beweise dafür gibt, dass außerirdische Raumschiffe die Erde besucht haben, eine Position, die sie auch nach der Veröffentlichung neuer UAP-Dateien beibehalten hat. Das PURSUE-Programm der Trump-Regierung hat mit der Freigabe von Militär-, Geheimdienst- und Verteidigungsarchiven begonnen, die Berichte über nicht identifizierte anomale Phänomene, Radarverfolgungsvorfälle, Astronautenbeobachtungen und geheime Untersuchungen über Jahrzehnte enthalten. S.",
-        "sourceHash": "490f09dd7beba987823514f347dbd7ac6e7fbc8d",
-        "provider": "google"
-      }
-    },
-    "illusionist-uri-geller-reacts-to-us-congressman-s-warning-over-next-set-of-ufo-files-holy-crap-is-coming": {
-      "en": {
-        "title": "Illusionist Uri Geller Reacts To US Congressman's Warning Over Next Set Of UFO Files: 'Holy Crap Is Coming'",
-        "summary": "Israeli‑British illusionist Uri Geller, 79, reacted to US Congressman Tim Burchett’s warning that the next batch of declassified UFO files will dwarf those already released, saying he believes every word of the warning. Burchett, a member of the UAP Caucus, told Joe Rogan that the first set of 162 documents was only a “drop in the bucket” and that “Holy Crap is coming” with future releases.",
-        "sourceHash": "508d64296b317dfcbea52b154d09d140f704fb67",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Der Illusionist Uri Geller reagiert auf die Warnung des US-Kongressabgeordneten vor der nächsten Reihe von UFO-Dateien: „Heiliger Mist kommt“",
-        "summary": "Der israelisch-britische Illusionist Uri Geller, 79, reagierte auf die Warnung des US-Kongressabgeordneten Tim Burchett, dass die nächste Ladung freigegebener UFO-Dateien die bereits freigegebenen in den Schatten stellen werde, und sagte, er glaube jedes Wort der Warnung. Burchett, ein Mitglied des UAP Caucus, sagte Joe Rogan, dass der erste Satz von 162 Dokumenten nur ein „Tropfen auf den heißen Stein“ sei und dass mit zukünftigen Veröffentlichungen „heiliger Mist kommt“.",
-        "sourceHash": "508d64296b317dfcbea52b154d09d140f704fb67",
-        "provider": "google"
-      }
-    },
-    "a-small-oregon-town-puts-on-a-big-ufo-festival-why-it-s-worth-a-visit": {
-      "en": {
-        "title": "A small Oregon town puts on a big UFO festival. Why it's worth a visit",
-        "summary": "The 26th Annual McMenamins UFO Festival in McMinnville, Oregon, runs from May 14 to May 17, 2026, and is hosted by the McMenamins Hotel Oregon, making it the second largest UFO festival in the United States after Roswell. The festival celebrates the 1950 UFO sighting by Paul and Evelyn Trent, whose photographs of a metallic object sparked national debate and are considered among the most famous UFO images.",
-        "sourceHash": "ee50a0585b10ff37453643651d11e0010761d923",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Eine kleine Stadt in Oregon veranstaltet ein großes UFO-Festival. Warum es einen Besuch wert ist",
-        "summary": "Das 26. jährliche McMenamins UFO-Festival in McMinnville, Oregon, findet vom 14. bis 17. Mai 2026 statt und wird vom McMenamins Hotel Oregon ausgerichtet. Damit ist es nach Roswell das zweitgrößte UFO-Festival in den Vereinigten Staaten. Das Festival feiert die UFO-Sichtung von Paul und Evelyn Trent im Jahr 1950, deren Fotografien eines metallischen Objekts eine landesweite Debatte auslösten und zu den berühmtesten UFO-Bildern zählen.",
-        "sourceHash": "ee50a0585b10ff37453643651d11e0010761d923",
+        "summary": "„Sleeping Dog“, ein Dokumentarfilm von Michael Lazovsky, begleitet den Journalisten und Filmemacher Jeremy Corbell bei seiner Untersuchung von UFO- und UAP-Phänomenen. Der Film stützt sich auf Corbells persönliches Archiv mit Hunderten von Stunden Filmmaterial, darunter Material von bekannten UFO-Persönlichkeiten wie George Knapp, John Lear und Bob Lazar. Laut Lazovsky dient der Dokumentarfilm als Versicherung für Corbell, der Drohungen von Schurkenorganisationen und Unternehmen ausgesetzt ist, die angeblich versuchen, ihn zum Schweigen zu bringen.",
+        "sourceHash": "d1ecb797530e54dd30744396053a0af461c735c4",
         "provider": "google"
       }
     },
@@ -865,6 +975,20 @@
         "provider": "google"
       }
     },
+    "illusionist-uri-geller-reacts-to-us-congressman-s-warning-over-next-set-of-ufo-files-holy-crap-is-coming": {
+      "en": {
+        "title": "Illusionist Uri Geller Reacts To US Congressman's Warning Over Next Set Of UFO Files: 'Holy Crap Is Coming'",
+        "summary": "Israeli‑British illusionist Uri Geller, 79, reacted to US Congressman Tim Burchett’s warning that the next batch of declassified UFO files will dwarf those already released, saying he believes every word of the warning. Burchett, a member of the UAP Caucus, told Joe Rogan that the first set of 162 documents was only a “drop in the bucket” and that “Holy Crap is coming” with future releases.",
+        "sourceHash": "508d64296b317dfcbea52b154d09d140f704fb67",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Der Illusionist Uri Geller reagiert auf die Warnung des US-Kongressabgeordneten vor der nächsten Reihe von UFO-Dateien: „Heiliger Mist kommt“",
+        "summary": "Der israelisch-britische Illusionist Uri Geller, 79, reagierte auf die Warnung des US-Kongressabgeordneten Tim Burchett, dass die nächste Ladung freigegebener UFO-Dateien die bereits freigegebenen in den Schatten stellen werde, und sagte, er glaube jedes Wort der Warnung. Burchett, ein Mitglied des UAP Caucus, sagte Joe Rogan, dass der erste Satz von 162 Dokumenten nur ein „Tropfen auf den heißen Stein“ sei und dass mit zukünftigen Veröffentlichungen „heiliger Mist kommt“.",
+        "sourceHash": "508d64296b317dfcbea52b154d09d140f704fb67",
+        "provider": "google"
+      }
+    },
     "ufo-files-reveal-the-same-old-material": {
       "en": {
         "title": "UFO Files Reveal … the Same Old Material",
@@ -878,10 +1002,38 @@
         "sourceHash": "80f68743cbfc264bbad40d6b46017672a424f4be",
         "provider": "google"
       }
+    },
+    "a-small-oregon-town-puts-on-a-big-ufo-festival-why-it-s-worth-a-visit": {
+      "en": {
+        "title": "A small Oregon town puts on a big UFO festival. Why it's worth a visit",
+        "summary": "The 26th Annual McMenamins UFO Festival in McMinnville, Oregon, runs from May 14 to May 17, 2026, and is hosted by the McMenamins Hotel Oregon, making it the second largest UFO festival in the United States after Roswell. The festival celebrates the 1950 UFO sighting by Paul and Evelyn Trent, whose photographs of a metallic object sparked national debate and are considered among the most famous UFO images.",
+        "sourceHash": "ee50a0585b10ff37453643651d11e0010761d923",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Eine kleine Stadt in Oregon veranstaltet ein großes UFO-Festival. Warum es einen Besuch wert ist",
+        "summary": "Das 26. jährliche McMenamins UFO-Festival in McMinnville, Oregon, findet vom 14. bis 17. Mai 2026 statt und wird vom McMenamins Hotel Oregon ausgerichtet. Damit ist es nach Roswell das zweitgrößte UFO-Festival in den Vereinigten Staaten. Das Festival feiert die UFO-Sichtung von Paul und Evelyn Trent im Jahr 1950, deren Fotografien eines metallischen Objekts eine landesweite Debatte auslösten und zu den berühmtesten UFO-Bildern zählen.",
+        "sourceHash": "ee50a0585b10ff37453643651d11e0010761d923",
+        "provider": "google"
+      }
+    },
+    "presidential-unsealing-and-reporting-system-for-uap-encounters-pursue": {
+      "en": {
+        "title": "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
+        "summary": "S. government released 17 pages of previously classified Unidentified Anomalous Phenomena documents on May 8, as part of the Presidential Unsealing and Reporting System for UAP Encounters, with more files to be issued on a rolling basis.",
+        "sourceHash": "39d084063f120e200812412b4e112e1f0e0e4ee6",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Präsidiales Entsiegelungs- und Meldesystem für UAP-Begegnungen (PURSUE)",
+        "summary": "Die Regierung von S. veröffentlichte am 8. Mai im Rahmen des Präsidenten-Entsiegelungs- und Meldesystems für UAP-Begegnungen 17 Seiten zuvor geheimer Dokumente zu nicht identifizierten anomalen Phänomenen. Weitere Dateien werden fortlaufend herausgegeben.",
+        "sourceHash": "39d084063f120e200812412b4e112e1f0e0e4ee6",
+        "provider": "google"
+      }
     }
   },
   "translationMeta": {
-    "prepared": 7,
+    "prepared": 9,
     "failed": 0,
     "summary": "compact app summary only",
     "target": "de for English articles, en for German articles",
