@@ -1,6 +1,6 @@
-var CACHE = 'uap-v189-startscreen-five-seconds';
+var CACHE = 'uap-v190-startscreen-wallpaper-header';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '189';
+var OVERRIDE_VERSION = '190';
 var OVERRIDE_FILES = [
   'uap-startup-visible-fix.js',
   'uap-feed-normalize.js',
@@ -15,7 +15,7 @@ var OVERRIDE_FILES = [
 var STARTUP_EMPTY_HTML = '<div id="loading" aria-hidden="true"></div>';
 var STARTUP_BOOT_SCRIPT = '<script src="./uap-startscreen-wallpaper.js?v=' + OVERRIDE_VERSION + '"></script>';
 
-var STARTUP_STILL_STYLE = '\n#loading{background:#02070b!important;background-color:#02070b!important;background-image:none!important;overflow:hidden!important;animation:none!important;}\n#loading.hidden{opacity:0!important;visibility:hidden!important;pointer-events:none!important;}\n#loading>*{display:none!important;}\n';
+var STARTUP_STILL_STYLE = '\n#loading{position:fixed!important;inset:0!important;z-index:1000!important;display:block!important;background:#02070b!important;overflow:hidden!important;animation:uapStartupHide 5s forwards!important;}\n#loading.hidden{opacity:0!important;visibility:hidden!important;pointer-events:none!important;}\n#loading>*{display:none!important;visibility:hidden!important;opacity:0!important;}\n@keyframes uapStartupHide{0%,94%{opacity:1;visibility:visible;pointer-events:auto;}100%{opacity:0;visibility:hidden;pointer-events:none;}}\n';
 
 self.addEventListener('install', function(e) {
   e.waitUntil(self.skipWaiting());
@@ -60,7 +60,7 @@ function stripOverrideScripts(html) {
     'uap-startscreen-empty-fix.js'
   ].forEach(function(file) {
     var escaped = file.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    html = html.replace(new RegExp('<script[^>]+src=["\'][^"\']*' + escaped + '[^"\']*["\'][^>]*><\\/script>', 'g'), '');
+    html = html.replace(new RegExp('<script[^>]+src=["\\'][^"\\']*' + escaped + '[^"\\']*["\\'][^>]*><\\/script>', 'g'), '');
   });
   return html;
 }
