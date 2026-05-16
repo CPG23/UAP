@@ -1,11 +1,12 @@
-var CACHE = 'uap-v199-startscreen-head-wallpaper';
+var CACHE = 'uap-v200-startscreen-banner-click';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '199';
+var OVERRIDE_VERSION = '200';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
   'uap-header-retry-fix.js',
-  'uap-final-stability-fix.js'
+  'uap-final-stability-fix.js',
+  'uap-startscreen-banner-fix.js'
 ];
 var NO_STORE_FILES = OVERRIDE_FILES.concat(['uap-startscreen-wallpaper.js', 'uap-visual-final-fix.js']);
 
@@ -51,7 +52,8 @@ function stripOverrideScripts(html) {
     'uap-logo-final-polish.js',
     'uap-header-retry-fix.js',
     'uap-startscreen-empty-fix.js',
-    'uap-final-stability-fix.js'
+    'uap-final-stability-fix.js',
+    'uap-startscreen-banner-fix.js'
   ].forEach(function(file) {
     var escaped = file.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     html = html.replace(new RegExp('<script[^>]*' + escaped + '[^>]*><\\/script>', 'g'), '');
