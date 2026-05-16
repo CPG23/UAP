@@ -25,7 +25,7 @@
       '#loading .startup-title.uap-logo-final{position:absolute!important;top:0!important;left:0!important;right:0!important;bottom:auto!important;width:100vw!important;height:20vw!important;min-height:82px!important;max-height:22vh!important;transform:none!important;margin:0!important;z-index:3!important;}',
       '.brand-title.uap-logo-final{width:100vw!important;height:20vw!important;min-height:74px!important;max-height:145px!important;margin-left:calc(50% - 50vw)!important;margin-right:calc(50% - 50vw)!important;}',
       '.startup-title.uap-logo-final::before,.startup-title.uap-logo-final::after,.brand-title.uap-logo-final::before,.brand-title.uap-logo-final::after{display:none!important;content:none!important;}',
-      '.uap-logo-final .uap-header-banner-img{display:block!important;width:100%!important;max-width:none!important;height:100%!important;object-fit:cover!important;object-position:center center!important;background:#000!important;border:0!important;margin:0!important;padding:0!important;filter:none!important;animation:none!important;}',
+      '.uap-logo-final .uap-header-banner-img{display:block!important;width:100%!important;max-width:none!important;height:100%!important;object-fit:contain!important;object-position:center center!important;background:#000!important;border:0!important;margin:0!important;padding:0!important;filter:none!important;animation:none!important;}',
       '#loading .uap-logo-final .uap-header-banner-img{object-position:center top!important;}',
       '.uap-logo-final .uap-logo-img,.uap-logo-letter,.uap-logo-space,.uap-edge-letter,.uap-edge-space,.uap-news-s{display:none!important;}'
     ].join('\n');
