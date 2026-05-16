@@ -1,6 +1,6 @@
-var CACHE = 'uap-v188-empty-startscreen';
+var CACHE = 'uap-v189-startscreen-five-seconds';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '188';
+var OVERRIDE_VERSION = '189';
 var OVERRIDE_FILES = [
   'uap-startup-visible-fix.js',
   'uap-feed-normalize.js',
@@ -9,13 +9,13 @@ var OVERRIDE_FILES = [
   'uap-ui-polish.js',
   'uap-logo-final-polish.js',
   'uap-header-retry-fix.js',
-  'uap-startscreen-wallpaper.js',
   'uap-startscreen-empty-fix.js'
 ];
 
 var STARTUP_EMPTY_HTML = '<div id="loading" aria-hidden="true"></div>';
+var STARTUP_BOOT_SCRIPT = '<script src="./uap-startscreen-wallpaper.js?v=' + OVERRIDE_VERSION + '"></script>';
 
-var STARTUP_STILL_STYLE = '\n#loading{background:#02070b!important;background-color:#02070b!important;background-image:none!important;overflow:hidden!important;}\n#loading.hidden{pointer-events:none!important;}\n#loading>*{display:none!important;}\n';
+var STARTUP_STILL_STYLE = '\n#loading{background:#02070b!important;background-color:#02070b!important;background-image:none!important;overflow:hidden!important;animation:none!important;}\n#loading.hidden{opacity:0!important;visibility:hidden!important;pointer-events:none!important;}\n#loading>*{display:none!important;}\n';
 
 self.addEventListener('install', function(e) {
   e.waitUntil(self.skipWaiting());
@@ -66,7 +66,7 @@ function stripOverrideScripts(html) {
 }
 
 function replaceStartupMarkup(html) {
-  return html.replace(/<div id="loading"[\s\S]*?<\/div>\s*<header>/, STARTUP_EMPTY_HTML + '\n<header>');
+  return html.replace(/<div id="loading"[\s\S]*?<\/div>\s*<header>/, STARTUP_EMPTY_HTML + STARTUP_BOOT_SCRIPT + '\n<header>');
 }
 
 function withFeedOverrides(resp) {
@@ -109,7 +109,7 @@ self.addEventListener('fetch', function(e) {
     return;
   }
 
-  if (OVERRIDE_FILES.some(function(file) { return url.pathname.endsWith('/' + file); })) {
+  if (OVERRIDE_FILES.concat(['uap-startscreen-wallpaper.js']).some(function(file) { return url.pathname.endsWith('/' + file); })) {
     e.respondWith(fetch(e.request, { cache: 'no-store' }));
     return;
   }
