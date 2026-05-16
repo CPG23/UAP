@@ -41,55 +41,48 @@
     background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,212,255,.025) 2px, rgba(0,212,255,.025) 4px);
   }
   a { color: inherit; }
+  #loading {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: block;
+    background: #02070b;
+    overflow: hidden;
+    animation: uapStartupHide 5s forwards;
+  }
+  #loading.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+  @keyframes uapStartupHide {
+    0%, 94% { opacity: 1; visibility: visible; pointer-events: auto; }
+    100% { opacity: 0; visibility: hidden; pointer-events: none; }
+  }
   header {
-    padding: calc(20px + env(safe-area-inset-top)) 20px 16px;
-    border-bottom: 1px solid rgba(13,58,92,.85);
-    background: rgba(3,10,15,.76);
+    padding: 0;
+    border-bottom: 1px solid rgba(0,212,255,.42);
+    background: #000;
     position: sticky;
     top: 0;
     z-index: 10;
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
+    overflow: hidden;
   }
-  .header-inner, main, footer { max-width: 920px; margin: 0 auto; }
-  .header-inner { display: flex; justify-content: space-between; gap: 16px; align-items: center; }
-  .brand { min-width: 0; }
+  .header-inner { display: block; width: 100%; max-width: none; margin: 0; padding: 0; }
+  .brand { display: block; width: 100%; min-width: 0; margin: 0; padding: 0; }
   .brand-title {
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 700;
-    color: #eafcff;
-    font-size: clamp(28px, 8vw, 46px);
-    line-height: .92;
-    letter-spacing: 2px;
-    text-shadow: 0 0 8px rgba(255,255,255,.65), 0 0 22px rgba(0,212,255,.9), 0 0 44px rgba(0,255,157,.35);
-    white-space: nowrap;
+    display: block;
+    width: 100vw;
+    height: 28vw;
+    min-height: 104px;
+    max-height: 190px;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    overflow: hidden;
+    background: #000;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
   }
-  .brand-sub {
-    margin-top: 8px;
-    color: var(--muted);
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-  }
-  .status {
-    font-family: 'Share Tech Mono', monospace;
-    color: var(--muted);
-    font-size: 11px;
-    text-align: right;
-    line-height: 1.6;
-    flex: 0 0 auto;
-  }
-  .dot {
-    display: inline-block;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: var(--accent2);
-    box-shadow: 0 0 8px var(--accent2);
-    margin-right: 7px;
-  }
-  main { padding: 20px 18px 52px; }
+  .brand-sub, .status { display: none; }
+  main { max-width: 920px; margin: 0 auto; padding: 16px 18px 52px; }
   .toolbar {
     display: flex;
     align-items: center;
@@ -107,6 +100,7 @@
     font-weight: 700;
     text-transform: uppercase;
   }
+  .meta { color: var(--muted); font-size: 11px; }
   .button-row { display: flex; gap: 8px; align-items: center; }
   button.icon-btn {
     min-width: 38px;
@@ -146,6 +140,8 @@
     text-transform: uppercase;
   }
   footer {
+    max-width: 920px;
+    margin: 0 auto;
     color: rgba(102,134,150,.72);
     font-family: 'Share Tech Mono', monospace;
     font-size: 10px;
@@ -153,106 +149,18 @@
     padding: 20px 18px 32px;
     border-top: 1px solid rgba(13,58,92,.65);
   }
-  #loading {
-    position: fixed;
-    inset: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 16px;
-    background: rgba(3,10,15,.98);
-    transition: opacity .28s ease, visibility .28s ease;
-    animation: cssStartFallback 9.4s forwards;
-  }
-  #loading.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
-  @keyframes cssStartFallback { 0%, 96% { opacity: 1; visibility: visible; pointer-events: auto; } 100% { opacity: 0; visibility: hidden; pointer-events: none; } }
-  .startup-title {
-    margin: 0 0 8px;
-    position: absolute;
-    top: 28px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-family: 'Share Tech Mono', monospace;
-    font-size: clamp(72px,18vw,120px);
-    letter-spacing: 0;
-    white-space: nowrap;
-    z-index: 2;
-  }
-  .startup-u { color: #fff; text-shadow: 0 0 25px rgba(255,255,255,.75); }
-  .startup-a { color: var(--accent); text-shadow: 0 0 28px rgba(0,212,255,.85); }
-  .startup-p { color: var(--accent2); text-shadow: 0 0 28px rgba(0,255,157,.78); }
-  .startup-news { font-family: 'Rajdhani', sans-serif; font-size: .24em; color: var(--text); letter-spacing: 4px; line-height: 1; }
-  .startup-byline { font-family:'Share Tech Mono',monospace; font-size:6px; color:var(--muted); letter-spacing:1.5px; opacity:.55; line-height:1; margin-top:2px; padding-left:4px; }
-  .startup-credit { display: none; }
-  .alien-head {
-    width: min(560px, 92vw);
-    height: min(650px, 108vw);
-    opacity: .45;
-    mix-blend-mode: screen;
-    filter: brightness(.5) saturate(1.1) drop-shadow(0 0 18px rgba(0,212,255,.9)) drop-shadow(0 0 40px rgba(0,212,255,.5));
-    mask-image: radial-gradient(ellipse 72% 80% at 50% 42%, black 25%, rgba(0,0,0,.6) 55%, transparent 80%);
-    -webkit-mask-image: radial-gradient(ellipse 72% 80% at 50% 42%, black 25%, rgba(0,0,0,.6) 55%, transparent 80%);
-    background:
-      radial-gradient(ellipse 23% 15% at 38% 39%, rgba(215,255,246,.95), rgba(0,255,157,.32) 38%, rgba(0,0,0,.35) 72%, transparent 74%),
-      radial-gradient(ellipse 23% 15% at 62% 39%, rgba(215,255,246,.95), rgba(0,255,157,.32) 38%, rgba(0,0,0,.35) 72%, transparent 74%),
-      radial-gradient(ellipse 39% 52% at 50% 45%, rgba(0,212,255,.2), rgba(0,255,157,.08) 44%, rgba(1,8,12,.14) 70%, transparent 72%);
-    border-radius: 48% 48% 42% 42% / 58% 58% 38% 38%;
-    animation: alienGlow 12s ease-in-out infinite;
-    will-change: transform, opacity, filter;
-    transform: translateZ(0);
-  }
-  @keyframes alienGlow {
-    0%, 100% { opacity: .55; transform: scale(1); filter: brightness(.6) saturate(1.2) drop-shadow(0 0 20px rgba(0,212,255,.9)) drop-shadow(0 0 45px rgba(0,212,255,.5)); }
-    50% { opacity: .88; transform: scale(1.5); filter: brightness(.85) saturate(1.5) drop-shadow(0 0 35px rgba(0,212,255,1)) drop-shadow(0 0 70px rgba(0,212,255,.7)) drop-shadow(0 0 100px rgba(0,255,157,.3)); }
-  }
-  .loading-bar {
-    position: absolute;
-    left: 50%;
-    bottom: 22px;
-    width: 200px;
-    height: 2px;
-    transform: translateX(-50%);
-    background: var(--border);
-    overflow: hidden;
-  }
-  .loading-bar::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -60%;
-    width: 60%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, var(--accent), transparent);
-    animation: loadingSlide 1.5s linear infinite;
-  }
-  @keyframes loadingSlide { from { left: -60%; } to { left: 100%; } }
   @media (max-width: 560px) {
-    header { padding-left: 16px; padding-right: 16px; }
-    .header-inner { align-items: flex-start; }
-    .status { font-size: 8px; }
     main { padding-left: 12px; padding-right: 12px; }
-    .brand-title { font-size: clamp(27px,10vw,39px); letter-spacing: 1px; }
-    .startup-title { top: 28px; font-size: clamp(72px,18vw,120px); }
+    .brand-title { height: 32vw; min-height: 112px; max-height: 168px; }
   }
 </style>
 </head>
 <body>
-<div id="loading" aria-live="polite">
-  <h1 class="startup-title"><span class="startup-u">U</span><span class="startup-a">A</span><span class="startup-p">P</span><span style="display:inline-flex;flex-direction:column;align-items:flex-start;vertical-align:baseline"><span class="startup-news">NEWS</span><span class="startup-byline">by Chris Gehring</span></span></h1>
-  <div class="alien-head" aria-hidden="true"></div>
-  <div class="loading-bar"></div>
-</div>
+<div id="loading" aria-hidden="true"></div>
 <header>
   <div class="header-inner">
     <div class="brand">
-      <div class="brand-title">UAP News</div>
-      <div class="brand-sub">Nachrichtenmonitor</div>
-    </div>
-    <div class="status">
-      <div><span class="dot"></span>ONLINE</div>
-      <div id="last-scan">Scan: lade...</div>
+      <div class="brand-title" aria-label="UAP News"></div>
     </div>
   </div>
 </header>
@@ -269,9 +177,11 @@
   <section id="feed" aria-live="polite"></section>
 </main>
 <footer>UAP News · Datenquelle: GitHub latest-news.json</footer>
-<script src="./uap-startup-alien.js?v=119"></script>
-<script src="./uap-feed-normalize.js?v=119"></script>
-<script src="./uap-app-overrides.js?v=119"></script>
+<script src="./uap-startscreen-wallpaper.js?v=195"></script>
+<script src="./uap-feed-normalize.js?v=195"></script>
+<script src="./uap-app-overrides.js?v=195"></script>
+<script src="./uap-header-retry-fix.js?v=195"></script>
+<script src="./uap-final-stability-fix.js?v=195"></script>
 <script>
 (function(){
   function hideStart(){
@@ -280,9 +190,9 @@
   }
   var refresh = document.getElementById('refresh-btn');
   if (refresh) refresh.addEventListener('click', function(){ window.location.reload(); });
-  window.addEventListener('load', function(){ setTimeout(hideStart, 9200); });
-  setTimeout(hideStart, 9400);
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(function(){});
+  window.addEventListener('load', function(){ setTimeout(hideStart, 5000); });
+  setTimeout(hideStart, 5200);
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js?v=195').catch(function(){});
 })();
 </script>
 </body>
