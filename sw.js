@@ -1,20 +1,13 @@
-var CACHE = 'uap-v194-final-stability';
+var CACHE = 'uap-v195-clean-shell';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '194';
+var OVERRIDE_VERSION = '195';
 var OVERRIDE_FILES = [
   'uap-startscreen-wallpaper.js',
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
-  'uap-logo-scan-line.js',
-  'uap-ui-polish.js',
-  'uap-logo-final-polish.js',
   'uap-header-retry-fix.js',
-  'uap-startscreen-empty-fix.js',
   'uap-final-stability-fix.js'
 ];
-
-var STARTUP_EMPTY_HTML = '<div id="loading" aria-hidden="true"></div>';
-var STARTUP_BOOT_SCRIPT = '<script src="./uap-startscreen-wallpaper.js?v=' + OVERRIDE_VERSION + '"></script>';
 
 var STARTUP_STILL_STYLE = '\n#loading{position:fixed!important;inset:0!important;z-index:1000!important;display:block!important;background:#02070b!important;overflow:hidden!important;animation:uapStartupHide 5s forwards!important;}\n#loading.hidden{opacity:0!important;visibility:hidden!important;pointer-events:none!important;}\n#loading>*{display:none!important;visibility:hidden!important;opacity:0!important;}\n@keyframes uapStartupHide{0%,94%{opacity:1;visibility:visible;pointer-events:auto;}100%{opacity:0;visibility:hidden;pointer-events:none;}}\n';
 
@@ -67,8 +60,10 @@ function stripOverrideScripts(html) {
   return html;
 }
 
-function replaceStartupMarkup(html) {
-  return html.replace(/<div id="loading"[\s\S]*?<\/div>\s*<header>/, STARTUP_EMPTY_HTML + STARTUP_BOOT_SCRIPT + '\n<header>');
+function normalizeStartupMarkup(html) {
+  html = html.replace(/<div id="loading"[\s\S]*?<\/div>/, '<div id="loading" aria-hidden="true"></div>');
+  html = html.replace('</style>', STARTUP_STILL_STYLE + '</style>');
+  return html;
 }
 
 function withFeedOverrides(resp) {
@@ -76,8 +71,7 @@ function withFeedOverrides(resp) {
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
     html = stripOverrideScripts(html);
-    html = replaceStartupMarkup(html);
-    html = html.replace('</style>', STARTUP_STILL_STYLE + '</style>');
+    html = normalizeStartupMarkup(html);
     html = html.replace('</body>', OVERRIDE_FILES.map(scriptTag).join('') + '</body>');
     return new Response(html, { status: resp.status, statusText: resp.statusText, headers: headers });
   });
@@ -116,12 +110,5 @@ self.addEventListener('fetch', function(e) {
     return;
   }
 
-  if (url.pathname.endsWith('/UFO-Logo.png')) {
-    e.respondWith(fetch(e.request, { cache: 'no-store' }));
-    return;
-  }
-
-  e.respondWith(
-    fetch(e.request).catch(function() { return caches.match(e.request); })
-  );
+  e.respondWith(fetch(e.request).catch(function() { return caches.match(e.request); }));
 });
