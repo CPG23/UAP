@@ -59,7 +59,9 @@ jobs:
         run: |
           echo "Running refreshed UAP scan with article-content summary gate"
           echo "Manual refresh trigger: 2026-05-14T00:00:00+02:00"
+          cp .seen-ids.json /tmp/seen-ids-before-scan.json 2>/dev/null || printf '[]' > /tmp/seen-ids-before-scan.json
           python3 .github/scripts/daily_scan.py
+          cp /tmp/seen-ids-before-scan.json .seen-ids.json
           python3 .github/scripts/split_unrelated_sources.py
           python3 .github/scripts/enrich_summaries.py
           python3 .github/scripts/sync_summaries.py
