@@ -1,7 +1,8 @@
-var CACHE = 'uap-v191-startscreen-wallpaper-header';
+var CACHE = 'uap-v192-startscreen-wallpaper-always';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '191';
+var OVERRIDE_VERSION = '192';
 var OVERRIDE_FILES = [
+  'uap-startscreen-wallpaper.js',
   'uap-startup-visible-fix.js',
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
@@ -109,7 +110,7 @@ self.addEventListener('fetch', function(e) {
     return;
   }
 
-  if (OVERRIDE_FILES.concat(['uap-startscreen-wallpaper.js']).some(function(file) { return url.pathname.endsWith('/' + file); })) {
+  if (OVERRIDE_FILES.some(function(file) { return url.pathname.endsWith('/' + file); })) {
     e.respondWith(fetch(e.request, { cache: 'no-store' }));
     return;
   }
