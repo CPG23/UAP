@@ -13,8 +13,6 @@
 <title>UAP News</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
-<link rel="preload" href="./uap-visual-final-fix.js?v=197" as="script">
-<script defer src="./uap-visual-final-fix.js?v=197"></script>
 <style>
   :root {
     --bg: #030a0f;
@@ -156,6 +154,7 @@
     .brand-title { height: 34vw; min-height: 120px; max-height: 184px; }
   }
 </style>
+<script src="./uap-visual-final-fix.js?v=198"></script>
 </head>
 <body>
 <div id="loading" aria-hidden="true"></div>
@@ -179,11 +178,10 @@
   <section id="feed" aria-live="polite"></section>
 </main>
 <footer>UAP News · Datenquelle: GitHub latest-news.json</footer>
-<script src="./uap-startscreen-wallpaper.js?v=197"></script>
-<script src="./uap-feed-normalize.js?v=197"></script>
-<script src="./uap-app-overrides.js?v=197"></script>
-<script src="./uap-header-retry-fix.js?v=197"></script>
-<script src="./uap-final-stability-fix.js?v=197"></script>
+<script src="./uap-feed-normalize.js?v=198"></script>
+<script src="./uap-app-overrides.js?v=198"></script>
+<script src="./uap-header-retry-fix.js?v=198"></script>
+<script src="./uap-final-stability-fix.js?v=198"></script>
 <script>
 (function(){
   function hideStart(){
@@ -194,7 +192,7 @@
   if (refresh) refresh.addEventListener('click', function(){ window.location.reload(); });
   window.addEventListener('load', function(){ setTimeout(hideStart, 5000); });
   setTimeout(hideStart, 5200);
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js?v=197').catch(function(){});
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js?v=198').catch(function(){});
 })();
 </script>
 </body>
