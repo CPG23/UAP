@@ -59,7 +59,7 @@ jobs:
           NTFY_TOPIC: UAP-News26
         run: |
           echo "Running refreshed UAP scan with visible missing-summary support"
-          echo "Manual refresh trigger: 2026-05-17T00:00:00+02:00"
+          echo "Manual refresh trigger: 2026-05-17T09:40:00+02:00"
           cp latest-news.json previous-latest-news.json 2>/dev/null || true
           python3 .github/scripts/daily_scan.py
           python3 .github/scripts/split_unrelated_sources.py
