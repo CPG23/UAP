@@ -72,7 +72,6 @@ def article_match_text(article: dict[str, Any]) -> str:
         article.get("description", ""),
         article.get("source", ""),
         article.get("summary", ""),
-        " ".join(article.get("clusterTitles") or []),
     ]))
 
 
@@ -315,7 +314,7 @@ def main() -> None:
     payload["summaries"] = {article["id"]: article.get("summary", "") for article in articles if article.get("id") and article.get("summary")}
     meta = payload.setdefault("scanMeta", {})
     meta["finalFeedIntegrity"] = {
-        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v4_us_file_release",
+        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v5_ignore_stale_cluster_titles",
         "inputArticles": len(raw_articles),
         "outputArticles": len(articles),
         "clearedConflictingSummaries": sum(1 for article in articles if not clean(article.get("summary"))),
