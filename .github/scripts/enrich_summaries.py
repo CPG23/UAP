@@ -278,7 +278,7 @@ def fetch_html_fallback(url, article):
         return ''
 
 
-def fetch_trafilatura(url):
+def fetch_trafilatura(url, article=None):
     if not trafilatura or not url or 'news.google.' in url:
         return ''
     try:
@@ -289,7 +289,7 @@ def fetch_trafilatura(url):
         text = clean_text(text)
         if len(text) >= STRONG_EXTRACT_CHARS:
             return text
-        fallback = paragraph_fallback(downloaded, {})
+        fallback = paragraph_fallback(downloaded, article or {})
         return fallback if len(fallback) >= MIN_EXTRACT_CHARS else ''
     except Exception:
         return ''
@@ -328,7 +328,7 @@ def article_urls(article):
 
 def fetch_article_text(article):
     for url in article_urls(article):
-        text = fetch_trafilatura(url) or fetch_html_fallback(url, article) or fetch_jina(url)
+        text = fetch_trafilatura(url, article) or fetch_html_fallback(url, article) or fetch_jina(url)
         if text:
             print('extracted article text:', article.get('title', '')[:70], '=>', url[:100], 'chars=', len(text))
             return text
