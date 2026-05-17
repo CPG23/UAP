@@ -66,10 +66,6 @@ def core_article_text(article: dict[str, Any]) -> str:
     return clean(" ".join([article.get("title", ""), article.get("description", "")]))
 
 
-def summary_text(article: dict[str, Any]) -> str:
-    return clean(article.get("summary", ""))
-
-
 def source_text(source: dict[str, Any]) -> str:
     return clean(" ".join([source.get("title", ""), source.get("source", "")]))
 
@@ -89,6 +85,8 @@ def story_signature(text: Any) -> str:
         return "program:immaculate-constellation"
     if re.search(r"\b(longmont)\b", raw):
         return "sighting:longmont"
+    if re.search(r"\b(az|arizona)\b", raw) and has_uap:
+        return "sighting:arizona"
     if re.search(r"\b(oregon|mcminnville|ufo festival|mcmenamins)\b", raw):
         return "event:oregon-festival"
     if re.search(r"\b(pastor|pastors|biblical|prophecy|nephilim|boebert|translucent beings)\b", raw):
@@ -115,9 +113,16 @@ def summary_conflicts(article: dict[str, Any], summary: str | None = None) -> bo
     summary = clean(summary if summary is not None else article.get("summary", ""))
     if not summary:
         return False
-    core_sig = story_signature(core_article_text(article))
+    core = core_article_text(article)
+    core_sig = story_signature(core)
     summary_sig = story_signature(summary)
-    return bool(core_sig and summary_sig and core_sig != summary_sig)
+    if core_sig and summary_sig and core_sig != summary_sig:
+        return True
+    if summary_sig == "program:immaculate-constellation" and "immaculate constellation" not in core.lower():
+        return True
+    if summary_sig == "program:ukraine" and not re.search(r"\b(ukraine|ukrainian)\b", core, re.I):
+        return True
+    return False
 
 
 def clear_conflicting_summary(article: dict[str, Any]) -> dict[str, Any]:
@@ -134,12 +139,7 @@ def overlap_ratio(a: set[str], b: set[str]) -> float:
     return len(a & b) / min(len(a), len(b))
 
 
-def same_story_text(a_text: str, b_text: str) -> bool:
-    a_sig = story_signature(a_text)
-    b_sig = story_signature(b_text)
-    if a_sig or b_sig:
-        return bool(a_sig and a_sig == b_sig)
-
+def lexical_same_story(a_text: str, b_text: str) -> bool:
     a_words = words(a_text)
     b_words = words(b_text)
     shared = a_words & b_words
@@ -150,6 +150,20 @@ def same_story_text(a_text: str, b_text: str) -> bool:
         or (ratio >= 0.32 and len(shared_strong) >= 2)
         or (ratio >= 0.38 and len(shared) >= 6)
     )
+
+
+def same_story_text(a_text: str, b_text: str) -> bool:
+    a_sig = story_signature(a_text)
+    b_sig = story_signature(b_text)
+    if a_sig or b_sig:
+        if not (a_sig and b_sig):
+            return False
+        if a_sig != b_sig:
+            return False
+        if a_sig == "sighting:generic":
+            return lexical_same_story(a_text, b_text)
+        return True
+    return lexical_same_story(a_text, b_text)
 
 
 def same_story_article(a: dict[str, Any], b: dict[str, Any]) -> bool:
@@ -288,7 +302,7 @@ def main() -> None:
     payload["summaries"] = {article["id"]: article.get("summary", "") for article in articles if article.get("id") and article.get("summary")}
     meta = payload.setdefault("scanMeta", {})
     meta["finalFeedIntegrity"] = {
-        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v2_clear_conflicting_summaries",
+        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v3_tight_generic_sightings",
         "inputArticles": len(raw_articles),
         "outputArticles": len(articles),
         "clearedConflictingSummaries": sum(1 for article in articles if not clean(article.get("summary"))),
