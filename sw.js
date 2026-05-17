@@ -1,6 +1,6 @@
-var CACHE = 'uap-v201-startscreen-no-banner';
+var CACHE = 'uap-v202-display-timestamps';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '201';
+var OVERRIDE_VERSION = '202';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
