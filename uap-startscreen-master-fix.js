@@ -7,8 +7,11 @@
   window.__uapStartscreenMasterFix = true;
 
   var STYLE_ID = 'uap-startscreen-master-fix-style';
+  var STAGE_CLASS = 'uap-alien-stage';
+  var SHADE_CLASS = 'uap-alien-shade';
   var START = Date.now();
   var DURATION = 9000;
+  var rafId = 0;
   var timer = null;
   var cachedWallpaper = '';
 
@@ -38,61 +41,113 @@
     return cachedWallpaper;
   }
 
+  function ease(value){
+    value = Math.max(0, Math.min(1, value));
+    return value * value * (3 - 2 * value);
+  }
+
   function removeOldBlackLayer(){
     var old = document.getElementById('uap-startscreen-reveal-fix-style');
     if (old && /background:#02070b!important;opacity:\.99|uapAlienDimReveal/.test(old.textContent || '')) old.remove();
   }
 
-  function forceBaseBlack(){
+  function important(el, prop, value){
+    if (el) el.style.setProperty(prop, value, 'important');
+  }
+
+  function forceLoadingBase(){
     var el = loading();
-    if (!el) return;
-    el.style.setProperty('background', '#02070b', 'important');
-    el.style.setProperty('background-color', '#02070b', 'important');
-    el.style.setProperty('background-image', 'none', 'important');
-    el.style.setProperty('background-size', 'auto', 'important');
-    el.style.setProperty('background-position', 'center center', 'important');
-    el.style.setProperty('overflow', 'hidden', 'important');
+    if (!el) return null;
+    important(el, 'position', 'fixed');
+    important(el, 'inset', '0');
+    important(el, 'z-index', '1000');
+    important(el, 'display', 'block');
+    important(el, 'visibility', 'visible');
+    important(el, 'pointer-events', 'auto');
+    important(el, 'overflow', 'hidden');
+    important(el, 'background', '#02070b');
+    important(el, 'background-color', '#02070b');
+    important(el, 'background-image', 'none');
+    return el;
+  }
+
+  function ensureLayer(className){
+    var el = forceLoadingBase();
+    if (!el) return null;
+    var layer = el.querySelector('.' + className);
+    if (!layer) {
+      layer = document.createElement('div');
+      layer.className = className;
+      el.appendChild(layer);
+    }
+    important(layer, 'display', 'block');
+    important(layer, 'visibility', 'visible');
+    important(layer, 'position', 'absolute');
+    important(layer, 'inset', '0');
+    important(layer, 'pointer-events', 'none');
+    return layer;
+  }
+
+  function ensureStage(){
+    var wallpaper = extractWallpaper();
+    var stage = ensureLayer(STAGE_CLASS);
+    var shade = ensureLayer(SHADE_CLASS);
+    if (!stage || !shade) return null;
+
+    important(stage, 'z-index', '1');
+    important(stage, 'background-color', '#02070b');
+    if (wallpaper) important(stage, 'background-image', 'url(' + wallpaper + ')');
+    important(stage, 'background-position', 'center center');
+    important(stage, 'background-size', 'cover');
+    important(stage, 'background-repeat', 'no-repeat');
+    important(stage, 'will-change', 'opacity, transform');
+
+    important(shade, 'z-index', '2');
+    important(shade, 'background', 'radial-gradient(circle at 50% 38%, rgba(125,215,255,.07), rgba(2,7,11,.10) 42%, rgba(2,7,11,.30) 100%)');
+    important(shade, 'will-change', 'opacity');
+    return stage;
   }
 
   function finish(){
     var el = loading();
     if (!el) return;
     el.classList.add('hidden');
-    el.style.setProperty('opacity', '0', 'important');
-    el.style.setProperty('visibility', 'hidden', 'important');
-    el.style.setProperty('pointer-events', 'none', 'important');
-    window.setTimeout(function(){ el.style.setProperty('display', 'none', 'important'); }, 420);
+    important(el, 'opacity', '0');
+    important(el, 'visibility', 'hidden');
+    important(el, 'pointer-events', 'none');
+    window.setTimeout(function(){ important(el, 'display', 'none'); }, 420);
     if (timer) window.clearInterval(timer);
+    if (rafId) window.cancelAnimationFrame(rafId);
   }
 
-  function keepAlive(){
-    var el = loading();
+  function draw(){
+    var el = forceLoadingBase();
     if (!el) return;
     var elapsed = Date.now() - START;
-    forceBaseBlack();
     if (elapsed >= DURATION) { finish(); return; }
+
+    var stage = ensureStage();
+    var shade = el.querySelector('.' + SHADE_CLASS);
+    var progress = ease(elapsed / DURATION);
+    var opacity = 0.025 + (0.975 * progress);
+    var zoom = 1 + (0.09 * progress);
+    var shadeOpacity = 0.82 - (0.58 * progress);
+
+    important(stage, 'opacity', String(opacity));
+    important(stage, 'transform', 'scale(' + zoom.toFixed(4) + ')');
+    important(shade, 'opacity', String(shadeOpacity));
     el.classList.remove('hidden');
-    el.style.removeProperty('display');
-    el.style.setProperty('opacity', '1', 'important');
-    el.style.setProperty('visibility', 'visible', 'important');
-    el.style.setProperty('pointer-events', 'auto', 'important');
+    important(el, 'opacity', '1');
+    important(el, 'visibility', 'visible');
+    rafId = window.requestAnimationFrame(draw);
   }
 
-  function apply(){
-    removeOldBlackLayer();
-    var wallpaper = extractWallpaper();
-    var imageLayer = wallpaper
-      ? 'background-image:url(' + wallpaper + ')!important;background-position:center center!important;background-size:cover!important;background-repeat:no-repeat!important;'
-      : 'background:#02070b!important;';
+  function installStyle(){
     var css = [
-      'html body #loading{position:fixed!important;inset:0!important;z-index:1000!important;display:block!important;overflow:hidden!important;background:#02070b!important;background-image:none!important;animation:uapStartupMasterHide 9.35s linear forwards!important;}',
-      'html body #loading::before{content:""!important;position:absolute!important;inset:0!important;z-index:1!important;display:block!important;pointer-events:none!important;' + imageLayer + 'opacity:.015!important;transform:scale(1)!important;animation:uapAlienMasterReveal 9s cubic-bezier(.2,.78,.2,1) forwards!important;will-change:opacity,transform!important;}',
-      'html body #loading::after{content:""!important;position:absolute!important;inset:0!important;z-index:2!important;display:block!important;pointer-events:none!important;background:radial-gradient(circle at 50% 38%,rgba(125,215,255,.07),rgba(2,7,11,.10) 42%,rgba(2,7,11,.32) 100%)!important;opacity:.78!important;animation:uapStartupMasterVignette 9s ease forwards!important;}',
-      'html body #loading>*{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}',
-      'html body #loading.hidden{opacity:0!important;visibility:hidden!important;pointer-events:none!important;transition:opacity .38s ease,visibility .38s ease!important;}',
-      '@keyframes uapStartupMasterHide{0%,96.5%{opacity:1;visibility:visible;pointer-events:auto;}100%{opacity:0;visibility:hidden;pointer-events:none;}}',
-      '@keyframes uapAlienMasterReveal{0%{opacity:.015;transform:scale(1);}18%{opacity:.045;}36%{opacity:.14;}56%{opacity:.36;}76%{opacity:.68;}100%{opacity:1;transform:scale(1.09);}}',
-      '@keyframes uapStartupMasterVignette{0%{opacity:.84;}50%{opacity:.55;}100%{opacity:.24;}}'
+      'html body #loading{background:#02070b!important;background-image:none!important;overflow:hidden!important;}',
+      'html body #loading::before,html body #loading::after{display:none!important;content:none!important;animation:none!important;background:none!important;}',
+      'html body #loading > .' + STAGE_CLASS + ',html body #loading > .' + SHADE_CLASS + '{display:block!important;visibility:visible!important;opacity:1;}',
+      'html body #loading.hidden{opacity:0!important;visibility:hidden!important;pointer-events:none!important;transition:opacity .38s ease,visibility .38s ease!important;}'
     ].join('\n');
     var style = document.getElementById(STYLE_ID);
     if (!style) {
@@ -102,13 +157,19 @@
     }
     if (style.textContent !== css) style.textContent = css;
     (document.head || document.documentElement).appendChild(style);
-    keepAlive();
+  }
+
+  function apply(){
+    removeOldBlackLayer();
+    installStyle();
+    ensureStage();
+    if (!rafId) draw();
   }
 
   window.__uapStartscreenMasterApply = apply;
   apply();
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', apply, { once: true });
   window.addEventListener('load', apply, { once: true });
-  [20, 50, 90, 150, 240, 380, 600, 900, 1300, 1900, 2700, 3700, 5000, 6500, 8000, 9000].forEach(function(delay){ window.setTimeout(apply, delay); });
-  timer = window.setInterval(apply, 160);
+  [20, 60, 120, 240, 420, 700, 1100, 1700, 2600, 3800, 5200, 7000, 8600].forEach(function(delay){ window.setTimeout(apply, delay); });
+  timer = window.setInterval(apply, 700);
 })();
