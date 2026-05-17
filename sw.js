@@ -1,6 +1,6 @@
-var CACHE = 'uap-v214-source-dates';
+var CACHE = 'uap-v215-open-guard';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '214';
+var OVERRIDE_VERSION = '215';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
@@ -9,7 +9,8 @@ var OVERRIDE_FILES = [
   'uap-quality-overlay-fix.js',
   'uap-controls-layout-fix.js',
   'uap-header-retry-fix.js',
-  'uap-final-stability-fix.js'
+  'uap-final-stability-fix.js',
+  'uap-open-guard-fix.js'
 ];
 var NO_STORE_FILES = OVERRIDE_FILES.concat(['uap-startscreen-wallpaper.js', 'uap-visual-final-fix.js', 'uap-startscreen-reveal-fix.js', 'uap-startscreen-master-fix.js']);
 
@@ -60,6 +61,7 @@ function stripOverrideScripts(html) {
     'uap-header-retry-fix.js',
     'uap-startscreen-empty-fix.js',
     'uap-final-stability-fix.js',
+    'uap-open-guard-fix.js',
     'uap-startscreen-banner-fix.js'
   ].forEach(function(file) {
     var escaped = file.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
