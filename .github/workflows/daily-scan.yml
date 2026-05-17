@@ -22,6 +22,7 @@ on:
       - .github/scripts/final_feed_integrity.py
       - .github/scripts/finalize_app_feed.py
       - .github/scripts/mark_new_sources.py
+      - .github/scripts/normalize_new_markers.py
       - .github/scripts/precompute_translations.py
       - .github/scripts/prepare_ntfy_payload.py
       - .github/workflows/daily-scan.yml
@@ -76,6 +77,7 @@ jobs:
           python3 .github/scripts/final_feed_integrity.py
           python3 .github/scripts/finalize_app_feed.py
           python3 .github/scripts/mark_new_sources.py
+          python3 .github/scripts/normalize_new_markers.py
           python3 .github/scripts/precompute_translations.py
           python3 .github/scripts/prepare_ntfy_payload.py
 
