@@ -1,6 +1,6 @@
-var CACHE = 'uap-v211-startscreen-layered-reveal';
+var CACHE = 'uap-v212-js-startscreen-reveal';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '211';
+var OVERRIDE_VERSION = '212';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
