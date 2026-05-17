@@ -63,7 +63,17 @@ def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
 
 
 def core_article_text(article: dict[str, Any]) -> str:
-    return clean(" ".join([article.get("title", ""), article.get("description", "")]))
+    return clean(" ".join([article.get("title", ""), article.get("description", ""), article.get("source", "")]))
+
+
+def article_match_text(article: dict[str, Any]) -> str:
+    return clean(" ".join([
+        article.get("title", ""),
+        article.get("description", ""),
+        article.get("source", ""),
+        article.get("summary", ""),
+        " ".join(article.get("clusterTitles") or []),
+    ]))
 
 
 def source_text(source: dict[str, Any]) -> str:
@@ -74,8 +84,9 @@ def story_signature(text: Any) -> str:
     raw = clean(text).lower()
     has_uap = bool(re.search(r"\b(uap|uaps|ufo|ufos|unidentified anomalous|unidentified aerial|unidentified flying|alien)\b", raw))
     has_files = bool(re.search(r"\b(file|files|record|records|archive|archives|document|documents|transcript|transcripts|video|videos|photo|photos|material|materials)\b", raw))
-    has_release = bool(re.search(r"\b(release|released|releases|releasing|declassif|unseal|unsealed|publish|published|posting|posted|opens?|transparency|public archive)\b", raw))
-    has_us = bool(re.search(r"\b(us|u\.s\.|united states|american|pentagon|department of war|defense department|defence department|dod|war\.gov|federal|trump|state department|fbi|white house)\b", raw))
+    has_release = bool(re.search(r"\b(release|released|releases|releasing|declassif|unseal|unsealed|unsealing|publish|published|posting|posted|opens?|drops?|transparency|public archive)\b", raw))
+    has_us = bool(re.search(r"\b(us|u\.s\.|united states|american|pentagon|department of war|defense department|defence department|dod|war\.gov|federal|trump|state department|fbi|white house|ap news|associated press)\b", raw))
+    file_release_phrase = bool(re.search(r"\b(shed light|same old material|draw their own conclusions|public view|public archive|pursue|presidential unsealing|reporting system|new batch|massive ufo file archive)\b", raw))
 
     if "sleeping dog" in raw or re.search(r"\b(corbell|bob lazar)\b", raw):
         return "film:sleeping-dog"
@@ -91,11 +102,11 @@ def story_signature(text: Any) -> str:
         return "event:oregon-festival"
     if re.search(r"\b(pastor|pastors|biblical|prophecy|nephilim|boebert|translucent beings)\b", raw):
         return "reaction:religious-disclosure"
-    if re.search(r"\b(uri geller|burchett|holy crap|next set|next batch)\b", raw):
+    if re.search(r"\b(uri geller|burchett|holy crap|next set|next batch|next set of ufo files)\b", raw):
         return "reaction:future-files"
     if re.search(r"\b(japan|tokyo)\b", raw) and has_uap and (has_files or has_release or "disclosure" in raw):
         return "file-release:japan"
-    if has_uap and has_files and has_release and has_us:
+    if has_uap and (has_files or "pursue" in raw) and has_us and (has_release or file_release_phrase):
         return "file-release:us"
     if has_uap and has_us and re.search(r"\b(website|site|portal|war\.gov|pursue|public view)\b", raw) and (has_files or has_release):
         return "file-release:us"
@@ -113,12 +124,12 @@ def summary_conflicts(article: dict[str, Any], summary: str | None = None) -> bo
     summary = clean(summary if summary is not None else article.get("summary", ""))
     if not summary:
         return False
-    core = core_article_text(article)
-    core_sig = story_signature(core)
+    core_sig = story_signature(core_article_text(article))
     summary_sig = story_signature(summary)
     if core_sig and summary_sig and core_sig != summary_sig:
         return True
-    if summary_sig == "program:immaculate-constellation" and "immaculate constellation" not in core.lower():
+    core = core_article_text(article).lower()
+    if summary_sig == "program:immaculate-constellation" and "immaculate constellation" not in core:
         return True
     if summary_sig == "program:ukraine" and not re.search(r"\b(ukraine|ukrainian)\b", core, re.I):
         return True
@@ -167,11 +178,11 @@ def same_story_text(a_text: str, b_text: str) -> bool:
 
 
 def same_story_article(a: dict[str, Any], b: dict[str, Any]) -> bool:
-    return same_story_text(core_article_text(a), core_article_text(b))
+    return same_story_text(article_match_text(a), article_match_text(b))
 
 
 def same_story_source(article: dict[str, Any], source: dict[str, Any]) -> bool:
-    return same_story_text(core_article_text(article), source_text(source))
+    return same_story_text(article_match_text(article), source_text(source))
 
 
 def dedupe_sources(sources: list[dict[str, Any]], primary: dict[str, Any] | None = None) -> list[dict[str, Any]]:
@@ -232,7 +243,7 @@ def quality_cap(article: dict[str, Any], mentions: int, signature: str) -> int:
 
 def normalize_quality(article: dict[str, Any]) -> dict[str, Any]:
     mentions = max(1, int(article.get("mentions") or 1))
-    signature = story_signature(core_article_text(article))
+    signature = story_signature(article_match_text(article))
     parts = [p for p in article.get("qualityBreakdown") or [] if isinstance(p, dict) and p.get("label") != "Mehrere Quellen"]
     points = source_points(mentions)
     if points:
@@ -242,6 +253,8 @@ def normalize_quality(article: dict[str, Any]) -> dict[str, Any]:
         score = max(score, 90)
     elif signature == "file-release:us" and mentions >= 10:
         score = max(score, 86)
+    elif signature == "file-release:us" and mentions >= 3:
+        score = max(score, 82)
     article["qualityBreakdown"] = parts
     article["quality"] = max(20, min(quality_cap(article, mentions, signature), score))
     article["sourceQuality"] = article["quality"]
@@ -302,7 +315,7 @@ def main() -> None:
     payload["summaries"] = {article["id"]: article.get("summary", "") for article in articles if article.get("id") and article.get("summary")}
     meta = payload.setdefault("scanMeta", {})
     meta["finalFeedIntegrity"] = {
-        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v3_tight_generic_sightings",
+        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v4_us_file_release",
         "inputArticles": len(raw_articles),
         "outputArticles": len(articles),
         "clearedConflictingSummaries": sum(1 for article in articles if not clean(article.get("summary"))),
