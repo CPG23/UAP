@@ -15,8 +15,18 @@
     var time = Date.parse(text.length <= 10 ? text + 'T00:00:00Z' : text);
     return isNaN(time) ? 0 : time;
   }
+  function formatDate(value){
+    var time = parseTime(value);
+    if (!time) return '';
+    var date = new Date(time);
+    try { return date.toLocaleDateString('de-AT', { day: '2-digit', month: '2-digit', year: 'numeric' }); }
+    catch(e){ return date.toISOString().slice(0, 10); }
+  }
   function sourceTime(source){
     return parseTime(source && (source.displayedAt || source.sourceDisplayedAt || source.firstDisplayedAt || source.detectedAt || source.createdAt));
+  }
+  function sourceDate(source){
+    return formatDate(source && (source.publishedAt || source.date));
   }
   function isNewSource(source){
     var time = sourceTime(source);
@@ -41,6 +51,10 @@
       link: link,
       title: raw.title || '',
       source: raw.source || 'Quelle',
+      publishedAt: primary
+        ? (raw.publishedAt || raw.date || article.publishedAt || article.date)
+        : (raw.publishedAt || raw.date),
+      date: primary ? (raw.date || article.date) : raw.date,
       displayedAt: primary
         ? (article.sourceDisplayedAt || raw.displayedAt || raw.sourceDisplayedAt || raw.firstDisplayedAt || raw.detectedAt || raw.createdAt)
         : (raw.displayedAt || raw.sourceDisplayedAt || raw.firstDisplayedAt || raw.detectedAt || raw.createdAt),
@@ -54,6 +68,8 @@
         link: article.link || article.url,
         title: article.title || '',
         source: article.source || 'Quelle',
+        publishedAt: article.publishedAt,
+        date: article.date,
         displayedAt: article.sourceDisplayedAt || article.displayedAt
       }, article, true);
       addMapEntry(map, primary && primary.link, primary);
@@ -71,17 +87,21 @@
     style.textContent = [
       '.source-link.uap-source-new{border-color:rgba(0,255,157,.72)!important;background:linear-gradient(135deg,rgba(0,255,157,.12),rgba(0,212,255,.04))!important;box-shadow:0 0 16px rgba(0,255,157,.14)!important}',
       '.source-name-row{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:8px!important;width:100%!important}',
-      '.source-name-row .source-name{min-width:0!important}',
-      '.source-new-badge{box-sizing:border-box!important;height:20px!important;min-height:20px!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;padding:0 7px!important;border:1px solid rgba(0,255,157,.86)!important;background:rgba(0,255,157,.16)!important;color:#eafff4!important;font-family:"Share Tech Mono",monospace!important;font-size:9px!important;line-height:1!important;letter-spacing:1.2px!important;text-transform:uppercase!important;box-shadow:0 0 14px rgba(0,255,157,.22)!important;white-space:nowrap!important}'
+      '.source-name-row .source-name{min-width:0!important;overflow:hidden!important;text-overflow:ellipsis!important}',
+      '.source-badge-row{display:inline-flex!important;align-items:center!important;justify-content:flex-end!important;gap:6px!important;flex:0 0 auto!important}',
+      '.source-date-badge,.source-new-badge{box-sizing:border-box!important;height:20px!important;min-height:20px!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;padding:0 7px!important;font-family:"Share Tech Mono",monospace!important;font-size:9px!important;line-height:1!important;letter-spacing:1.1px!important;text-transform:uppercase!important;white-space:nowrap!important}',
+      '.source-date-badge{border:1px solid rgba(0,212,255,.42)!important;background:rgba(0,212,255,.075)!important;color:#bfefff!important}',
+      '.source-new-badge{border:1px solid rgba(0,255,157,.86)!important;background:rgba(0,255,157,.16)!important;color:#eafff4!important;box-shadow:0 0 14px rgba(0,255,157,.22)!important}',
+      '@media(max-width:420px){.source-name-row{gap:6px!important}.source-date-badge,.source-new-badge{height:19px!important;min-height:19px!important;padding:0 6px!important;font-size:8px!important;letter-spacing:.9px!important}}'
     ].join('\n');
     document.head.appendChild(style);
   }
   function sourceForLink(link){
     return state.sources[link] || state.sources[key(link)] || null;
   }
-  function ensureBadge(linkEl){
+  function ensureRow(linkEl){
     var name = linkEl.querySelector('.source-name');
-    if (!name) return;
+    if (!name) return null;
     var row = name.closest('.source-name-row');
     if (!row) {
       row = document.createElement('div');
@@ -89,14 +109,48 @@
       name.parentNode.insertBefore(row, name);
       row.appendChild(name);
     }
-    if (!row.querySelector('.source-new-badge')) {
+    var badgeRow = row.querySelector('.source-badge-row');
+    if (!badgeRow) {
+      badgeRow = document.createElement('span');
+      badgeRow.className = 'source-badge-row';
+      row.appendChild(badgeRow);
+    }
+    return badgeRow;
+  }
+  function ensureDate(linkEl, source){
+    var dateText = sourceDate(source);
+    var existing = linkEl.querySelector('.source-date-badge');
+    if (!dateText) {
+      if (existing) existing.remove();
+      return;
+    }
+    var badgeRow = ensureRow(linkEl);
+    if (!badgeRow) return;
+    if (!existing) {
+      existing = document.createElement('span');
+      existing.className = 'source-date-badge';
+      badgeRow.insertBefore(existing, badgeRow.firstChild);
+    }
+    existing.textContent = dateText;
+  }
+  function ensureNewBadge(linkEl){
+    var badgeRow = ensureRow(linkEl);
+    if (!badgeRow) return;
+    if (!badgeRow.querySelector('.source-new-badge')) {
       var badge = document.createElement('span');
       badge.className = 'source-new-badge';
       badge.textContent = 'New';
-      row.appendChild(badge);
+      badgeRow.appendChild(badge);
     }
   }
-  function removeBadge(linkEl){
+  function removeBadges(linkEl){
+    linkEl.classList.remove('uap-source-new');
+    var newBadge = linkEl.querySelector('.source-new-badge');
+    if (newBadge) newBadge.remove();
+    var dateBadge = linkEl.querySelector('.source-date-badge');
+    if (dateBadge) dateBadge.remove();
+  }
+  function removeNewBadge(linkEl){
     linkEl.classList.remove('uap-source-new');
     var badge = linkEl.querySelector('.source-new-badge');
     if (badge) badge.remove();
@@ -106,12 +160,17 @@
     Array.prototype.slice.call(document.querySelectorAll('.source-link')).forEach(function(linkEl){
       var href = linkEl.getAttribute('href') || '';
       var source = sourceForLink(href) || sourceForLink(linkEl.href || '');
-      if (!source || !isNewSource(source)) {
-        removeBadge(linkEl);
+      if (!source) {
+        removeBadges(linkEl);
+        return;
+      }
+      ensureDate(linkEl, source);
+      if (!isNewSource(source)) {
+        removeNewBadge(linkEl);
         return;
       }
       linkEl.classList.add('uap-source-new');
-      ensureBadge(linkEl);
+      ensureNewBadge(linkEl);
     });
   }
   function loadFeed(){
