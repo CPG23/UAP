@@ -4,7 +4,8 @@
 The mobile app should receive display-ready data. This pass keeps the browser from
 becoming a second data pipeline by enforcing the basic contract in latest-news.json:
 unique top-level titles, deduped sources, correct source counts, synced summaries,
-quality-based ordering, and push payloads that only mention visible app articles.
+stable displayedAt timestamps, quality-based ordering, and push payloads that only
+mention visible app articles.
 """
 
 from __future__ import annotations
@@ -15,6 +16,7 @@ from pathlib import Path
 from typing import Any
 
 LATEST_FILE = Path("latest-news.json")
+PREVIOUS_FILE = Path("previous-latest-news.json")
 NTFY_PAYLOAD_FILE = Path("ntfy-payload.json")
 APP_URL = "https://cpg23.github.io/UAP/"
 SPACE_RE = re.compile(r"\s+")
@@ -59,6 +61,10 @@ BAD_SUMMARY_RE = re.compile(
     re.I,
 )
 MIN_SUMMARY_CHARS = 180
+MISSING_SUMMARY_STATUS = {
+    "articleContentSummary": "missing",
+    "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen.",
+}
 
 
 def compact(value: Any) -> str:
@@ -122,6 +128,62 @@ def parse_time(article: dict[str, Any]) -> str:
     return compact(article.get("publishedAt") or article.get("date") or "")
 
 
+def match_keys(article: dict[str, Any]) -> list[str]:
+    keys: list[str] = []
+    article_id = compact(article.get("id"))
+    title = title_key(article.get("title"))
+    source = title_key(article.get("source"))
+    if article_id:
+        keys.append("id:" + article_id)
+    if title:
+        keys.append("title:" + title)
+    if title and source:
+        keys.append("source_title:" + source + ":" + title)
+    return keys
+
+
+def previous_displayed_at() -> dict[str, str]:
+    if not PREVIOUS_FILE.exists():
+        return {}
+    try:
+        previous = json.loads(PREVIOUS_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    lookup: dict[str, str] = {}
+    for article in previous.get("articles") or []:
+        if not isinstance(article, dict):
+            continue
+        displayed_at = compact(article.get("displayedAt"))
+        if not displayed_at:
+            displayed_at = compact(article.get("publishedAt") or article.get("date") or previous.get("timestamp"))
+        if not displayed_at:
+            continue
+        for key in match_keys(article):
+            lookup.setdefault(key, displayed_at)
+    return lookup
+
+
+def assign_displayed_at(article: dict[str, Any], previous: dict[str, str], fallback: str) -> None:
+    current = compact(article.get("displayedAt"))
+    if current:
+        article["displayedAt"] = current
+        return
+    for key in match_keys(article):
+        if previous.get(key):
+            article["displayedAt"] = previous[key]
+            return
+    article["displayedAt"] = fallback
+
+
+def mark_summary_status(article: dict[str, Any]) -> None:
+    if is_good_summary(article.get("summary")):
+        article["summary"] = compact(article.get("summary"))
+        article.pop("summaryStatus", None)
+        return
+    article["summary"] = ""
+    article["summaryStatus"] = dict(MISSING_SUMMARY_STATUS)
+
+
 def merge_article(target: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
     incoming_sources = [source_from_article(incoming)] + [
         source for source in incoming.get("otherSources") or [] if isinstance(source, dict)
@@ -130,7 +192,7 @@ def merge_article(target: dict[str, Any], incoming: dict[str, Any]) -> dict[str,
     target["otherSources"] = sources
     target["mentions"] = max(int(target.get("mentions") or 1), int(incoming.get("mentions") or 1), 1 + len(sources))
     target["clusterTitles"] = [compact(source.get("title")) for source in sources if compact(source.get("title"))][:10]
-    if len(compact(incoming.get("summary"))) > len(compact(target.get("summary"))):
+    if is_good_summary(incoming.get("summary")) and len(compact(incoming.get("summary"))) > len(compact(target.get("summary"))):
         target["summary"] = incoming.get("summary", "")
     if parse_quality(incoming) > parse_quality(target):
         target["quality"] = parse_quality(incoming)
@@ -143,21 +205,18 @@ def merge_article(target: dict[str, Any], incoming: dict[str, Any]) -> dict[str,
 def normalize_article(article: dict[str, Any]) -> dict[str, Any] | None:
     if not isinstance(article, dict) or not compact(article.get("title")):
         return None
-    if not is_good_summary(article.get("summary")):
-        return None
     article["title"] = compact(article.get("title"))
-    article["summary"] = compact(article.get("summary"))
     article["source"] = compact(article.get("source")) or "UAP News"
     article["otherSources"] = dedupe_sources(article.get("otherSources") or [], article["title"])
     article["mentions"] = max(1, 1 + len(article["otherSources"]))
     article["clusterTitles"] = [compact(source.get("title")) for source in article["otherSources"] if compact(source.get("title"))][:10]
     article["quality"] = parse_quality(article)
     article["sourceQuality"] = article["quality"]
-    article.pop("summaryStatus", None)
+    mark_summary_status(article)
     return article
 
 
-def normalize_articles(raw_articles: list[Any]) -> list[dict[str, Any]]:
+def normalize_articles(raw_articles: list[Any], previous: dict[str, str], timestamp: str) -> list[dict[str, Any]]:
     by_title: dict[str, dict[str, Any]] = {}
     order: list[str] = []
     for raw in raw_articles:
@@ -170,7 +229,10 @@ def normalize_articles(raw_articles: list[Any]) -> list[dict[str, Any]]:
             order.append(key)
         else:
             merge_article(by_title[key], article)
+            mark_summary_status(by_title[key])
     articles = [by_title[key] for key in order]
+    for article in articles:
+        assign_displayed_at(article, previous, timestamp)
     articles.sort(key=lambda article: (parse_quality(article), parse_time(article)), reverse=True)
     return articles
 
@@ -203,22 +265,27 @@ def update_notification(data: dict[str, Any], visible_articles: list[dict[str, A
 
 def main() -> None:
     data = json.loads(LATEST_FILE.read_text(encoding="utf-8"))
+    timestamp = compact(data.get("timestamp"))
     original_count = len(data.get("articles") or [])
-    articles = normalize_articles(data.get("articles") or [])
+    previous = previous_displayed_at()
+    articles = normalize_articles(data.get("articles") or [], previous, timestamp)
     data["articles"] = articles
-    data["summaries"] = {article["id"]: article["summary"] for article in articles if article.get("id")}
+    data["summaries"] = {article["id"]: article["summary"] for article in articles if article.get("id") and is_good_summary(article.get("summary"))}
     update_notification(data, articles)
+    missing_count = sum(1 for article in articles if not is_good_summary(article.get("summary")))
     meta = data.setdefault("scanMeta", {})
     meta["finalAppFeedContract"] = {
-        "policy": "display_ready_feed_v1",
+        "policy": "display_ready_feed_v2_keep_missing_summaries",
         "inputArticles": original_count,
         "outputArticles": len(articles),
+        "missingSummaries": missing_count,
         "sort": "quality_desc_then_publishedAt_desc",
-        "summary": "article_content_summary_required",
+        "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
+        "newBadge": "displayedAt_24h_window",
     }
     meta["appTopics"] = len(articles)
     LATEST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"final app feed contract: input={original_count}; output={len(articles)}")
+    print(f"final app feed contract: input={original_count}; output={len(articles)}; missing_summaries={missing_count}")
 
 
 if __name__ == "__main__":
