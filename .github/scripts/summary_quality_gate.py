@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Keep only app articles with real article-content summaries.
+"""Mark weak summaries without removing articles from the app feed.
 
 The mobile app should never show scanner/meta fallback text as a summary. If the
 pipeline cannot extract enough article text to produce a content summary, the item
-is removed from latest-news.json for that run instead of being shown with a weak
-placeholder.
+stays visible and is marked so the app can show a clear placeholder. Later scans
+will keep trying to repair the summary.
 """
 
 from __future__ import annotations
@@ -71,6 +71,10 @@ STOP_WORDS = set(
     .split()
 )
 MIN_SUMMARY_CHARS = 180
+MISSING_SUMMARY_STATUS = {
+    "articleContentSummary": "missing",
+    "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen.",
+}
 
 
 def compact(value: Any) -> str:
@@ -131,6 +135,11 @@ def is_good_summary(value: Any, article: dict[str, Any] | None = None) -> bool:
     return True
 
 
+def mark_missing(article: dict[str, Any]) -> None:
+    article["summary"] = ""
+    article["summaryStatus"] = dict(MISSING_SUMMARY_STATUS)
+
+
 def rebuild_ntfy_payload(data: dict[str, Any]) -> None:
     """Make the push notification match only top-level articles visible in the app."""
     if not NTFY_PAYLOAD_FILE.exists():
@@ -177,7 +186,7 @@ def main() -> None:
     summaries = data.get("summaries") if isinstance(data.get("summaries"), dict) else {}
 
     kept = []
-    removed = []
+    missing = []
     for article in articles:
         if not isinstance(article, dict):
             continue
@@ -185,22 +194,25 @@ def main() -> None:
         summary = article.get("summary") or summaries.get(article_id)
         if is_good_summary(summary, article):
             article["summary"] = compact(summary)
+            article.pop("summaryStatus", None)
             kept.append(article)
         else:
-            removed.append(
+            mark_missing(article)
+            kept.append(article)
+            missing.append(
                 {
                     "id": article_id,
                     "title": article.get("title", ""),
                     "source": article.get("source", ""),
-                    "reason": "missing_article_content_summary",
+                    "reason": "missing_article_content_summary_kept_visible",
                 }
             )
 
-    active_ids = {article.get("id") for article in kept if article.get("id")}
     data["articles"] = kept
-    data["summaries"] = {article["id"]: article["summary"] for article in kept if article.get("id")}
+    data["summaries"] = {article["id"]: article["summary"] for article in kept if article.get("id") and is_good_summary(article.get("summary"), article)}
 
     notification = data.get("notificationBatch")
+    active_ids = {article.get("id") for article in kept if article.get("id")}
     if isinstance(notification, dict):
         notification["ids"] = [article_id for article_id in notification.get("ids", []) if article_id in active_ids]
         notification["articles"] = [
@@ -210,16 +222,16 @@ def main() -> None:
 
     meta = data.setdefault("scanMeta", {})
     meta["summaryQualityGate"] = {
-        "policy": "strict_article_content_summary_required",
+        "policy": "missing_article_content_summary_kept_visible_for_retry",
         "kept": len(kept),
-        "removed": len(removed),
-        "removedItems": removed[:20],
+        "missing": len(missing),
+        "missingItems": missing[:20],
     }
     meta["appTopics"] = len(kept)
 
     LATEST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     rebuild_ntfy_payload(data)
-    print(f"summary quality gate: kept={len(kept)} removed={len(removed)}")
+    print(f"summary quality gate: kept={len(kept)} missing={len(missing)}")
 
 
 if __name__ == "__main__":
