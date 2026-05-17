@@ -66,7 +66,6 @@ def article_text(article: dict[str, Any]) -> str:
         article.get("title", ""),
         article.get("description", ""),
         article.get("summary", ""),
-        " ".join(clean(src.get("title")) for src in article.get("otherSources") or [] if isinstance(src, dict)),
     ]))
 
 
