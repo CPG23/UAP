@@ -1,9 +1,10 @@
-var CACHE = 'uap-v212-js-startscreen-reveal';
+var CACHE = 'uap-v213-source-new-badges';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '212';
+var OVERRIDE_VERSION = '213';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
+  'uap-source-new-badge-fix.js',
   'uap-notify-button-fix.js',
   'uap-quality-overlay-fix.js',
   'uap-controls-layout-fix.js',
@@ -49,6 +50,7 @@ function stripOverrideScripts(html) {
     'uap-startup-visible-fix.js',
     'uap-feed-normalize.js',
     'uap-app-overrides.js',
+    'uap-source-new-badge-fix.js',
     'uap-notify-button-fix.js',
     'uap-quality-overlay-fix.js',
     'uap-controls-layout-fix.js',
