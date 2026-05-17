@@ -1,10 +1,11 @@
-var CACHE = 'uap-v205-startscreen-tap-fix';
+var CACHE = 'uap-v206-quality-overlay';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '205';
+var OVERRIDE_VERSION = '206';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
   'uap-notify-button-fix.js',
+  'uap-quality-overlay-fix.js',
   'uap-header-retry-fix.js',
   'uap-final-stability-fix.js'
 ];
@@ -48,6 +49,7 @@ function stripOverrideScripts(html) {
     'uap-feed-normalize.js',
     'uap-app-overrides.js',
     'uap-notify-button-fix.js',
+    'uap-quality-overlay-fix.js',
     'uap-logo-scan-line.js',
     'uap-ui-polish.js',
     'uap-logo-final-polish.js',
