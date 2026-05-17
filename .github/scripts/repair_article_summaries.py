@@ -19,7 +19,7 @@ from enrich_summaries import fetch_article_text, summarize_article_text
 
 LATEST_FILE = Path("latest-news.json")
 MAX_REPAIR_ARTICLES = 36
-MAX_REPAIR_ATTEMPTS = 10
+MAX_REPAIR_ATTEMPTS = 18
 
 BAD_SUMMARY_RE = re.compile(
     r"full article text could not be reliably extracted|"
