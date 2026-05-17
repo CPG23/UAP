@@ -1,6 +1,6 @@
-var CACHE = 'uap-v204-smooth-start-notify';
+var CACHE = 'uap-v205-startscreen-tap-fix';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '204';
+var OVERRIDE_VERSION = '205';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
