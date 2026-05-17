@@ -1,11 +1,12 @@
-var CACHE = 'uap-v208-startscreen-fade-overlay';
+var CACHE = 'uap-v209-controls-layout';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '208';
+var OVERRIDE_VERSION = '209';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
   'uap-notify-button-fix.js',
   'uap-quality-overlay-fix.js',
+  'uap-controls-layout-fix.js',
   'uap-header-retry-fix.js',
   'uap-final-stability-fix.js'
 ];
@@ -50,6 +51,7 @@ function stripOverrideScripts(html) {
     'uap-app-overrides.js',
     'uap-notify-button-fix.js',
     'uap-quality-overlay-fix.js',
+    'uap-controls-layout-fix.js',
     'uap-logo-scan-line.js',
     'uap-ui-polish.js',
     'uap-logo-final-polish.js',
