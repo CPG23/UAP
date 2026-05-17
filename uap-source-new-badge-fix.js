@@ -5,7 +5,7 @@
 
   var STYLE_ID = 'uap-source-new-badge-style';
   var NEW_WINDOW_MS = 24 * 60 * 60 * 1000;
-  var state = { sources: {} };
+  var state = { sources: {}, scheduled: false, observer: null };
 
   function compact(value){ return String(value == null ? '' : value).replace(/\s+/g, ' ').trim(); }
   function key(value){ return compact(value).toLowerCase(); }
@@ -156,6 +156,7 @@
     if (badge) badge.remove();
   }
   function applyBadges(){
+    state.scheduled = false;
     injectStyle();
     Array.prototype.slice.call(document.querySelectorAll('.source-link')).forEach(function(linkEl){
       var href = linkEl.getAttribute('href') || '';
@@ -176,12 +177,21 @@
   function loadFeed(){
     return fetch('latest-news.json?sourceBadges=' + Date.now(), { cache: 'no-store' })
       .then(function(resp){ return resp.ok ? resp.json() : { articles: [] }; })
-      .then(function(feed){ state.sources = buildSourceMap(feed); applyBadges(); })
-      .catch(function(){ applyBadges(); });
+      .then(function(feed){ state.sources = buildSourceMap(feed); applyBadges(); observeFeed(); })
+      .catch(function(){ applyBadges(); observeFeed(); });
   }
   function schedule(){
+    if (state.scheduled) return;
+    state.scheduled = true;
     if (window.requestAnimationFrame) window.requestAnimationFrame(applyBadges);
     else window.setTimeout(applyBadges, 0);
+  }
+  function observeFeed(){
+    if (!window.MutationObserver || state.observer) return;
+    var feed = document.getElementById('feed');
+    if (!feed) return;
+    state.observer = new MutationObserver(schedule);
+    state.observer.observe(feed, { childList: true, subtree: true });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', loadFeed, { once: true });
@@ -191,7 +201,4 @@
   document.addEventListener('click', function(e){
     if (e.target && e.target.closest && e.target.closest('.article-main')) window.setTimeout(applyBadges, 40);
   }, true);
-  if (window.MutationObserver) {
-    new MutationObserver(schedule).observe(document.documentElement, { childList: true, subtree: true });
-  }
 })();
