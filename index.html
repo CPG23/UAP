@@ -48,11 +48,11 @@
     display: block;
     background: #02070b;
     overflow: hidden;
-    animation: uapStartupHide 5s forwards;
+    animation: uapStartupHide 9s forwards;
   }
   #loading.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
   @keyframes uapStartupHide {
-    0%, 94% { opacity: 1; visibility: visible; pointer-events: auto; }
+    0%, 96% { opacity: 1; visibility: visible; pointer-events: auto; }
     100% { opacity: 0; visibility: hidden; pointer-events: none; }
   }
   header {
@@ -154,9 +154,9 @@
     .brand-title { height: 34vw; min-height: 120px; max-height: 184px; }
   }
 </style>
-<script src="./uap-startscreen-wallpaper.js?v=203"></script>
-<script src="./uap-visual-final-fix.js?v=203"></script>
-<script src="./uap-startscreen-reveal-fix.js?v=203"></script>
+<script src="./uap-startscreen-wallpaper.js?v=204"></script>
+<script src="./uap-visual-final-fix.js?v=204"></script>
+<script src="./uap-startscreen-reveal-fix.js?v=204"></script>
 </head>
 <body>
 <div id="loading" aria-hidden="true"></div>
@@ -180,10 +180,11 @@
   <section id="feed" aria-live="polite"></section>
 </main>
 <footer>UAP News · Datenquelle: GitHub latest-news.json</footer>
-<script src="./uap-feed-normalize.js?v=203"></script>
-<script src="./uap-app-overrides.js?v=203"></script>
-<script src="./uap-header-retry-fix.js?v=203"></script>
-<script src="./uap-final-stability-fix.js?v=203"></script>
+<script src="./uap-feed-normalize.js?v=204"></script>
+<script src="./uap-app-overrides.js?v=204"></script>
+<script src="./uap-notify-button-fix.js?v=204"></script>
+<script src="./uap-header-retry-fix.js?v=204"></script>
+<script src="./uap-final-stability-fix.js?v=204"></script>
 <script>
 (function(){
   function hideStart(){
@@ -192,9 +193,9 @@
   }
   var refresh = document.getElementById('refresh-btn');
   if (refresh) refresh.addEventListener('click', function(){ window.location.reload(); });
-  window.addEventListener('load', function(){ setTimeout(hideStart, 5000); });
-  setTimeout(hideStart, 5200);
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js?v=203').catch(function(){});
+  window.addEventListener('load', function(){ setTimeout(hideStart, 9000); });
+  setTimeout(hideStart, 9350);
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js?v=204').catch(function(){});
 })();
 </script>
 </body>
