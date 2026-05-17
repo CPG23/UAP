@@ -10,6 +10,7 @@ mention visible app articles.
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -17,6 +18,7 @@ from typing import Any
 
 LATEST_FILE = Path("latest-news.json")
 PREVIOUS_FILE = Path("previous-latest-news.json")
+SEEN_FILE = Path(".seen-ids.json")
 NTFY_PAYLOAD_FILE = Path("ntfy-payload.json")
 APP_URL = "https://cpg23.github.io/UAP/"
 SPACE_RE = re.compile(r"\s+")
@@ -75,6 +77,10 @@ def title_key(value: Any) -> str:
     return re.sub(r"[^a-z0-9]+", " ", compact(value).lower()).strip()
 
 
+def stable_hash(value: str) -> str:
+    return hashlib.sha1(value.encode("utf-8", errors="ignore")).hexdigest()[:16]
+
+
 def source_key(source: dict[str, Any]) -> str:
     return compact(source.get("url") or source.get("link") or source.get("title") or source.get("source")).lower()
 
@@ -87,6 +93,13 @@ def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
         "source": article.get("source", ""),
         "publishedAt": article.get("publishedAt") or article.get("detectedAt") or article.get("date"),
     }
+
+
+def article_source_keys(article: dict[str, Any]) -> set[str]:
+    sources = [source_from_article(article)] + [
+        source for source in article.get("otherSources") or [] if isinstance(source, dict)
+    ]
+    return {key for key in (source_key(source) for source in sources) if key}
 
 
 def dedupe_sources(sources: list[dict[str, Any]], primary_title: str = "") -> list[dict[str, Any]]:
@@ -142,25 +155,57 @@ def match_keys(article: dict[str, Any]) -> list[str]:
     return keys
 
 
-def previous_displayed_at() -> dict[str, str]:
+def load_previous_articles() -> list[dict[str, Any]]:
     if not PREVIOUS_FILE.exists():
-        return {}
+        return []
     try:
         previous = json.loads(PREVIOUS_FILE.read_text(encoding="utf-8"))
     except Exception:
-        return {}
+        return []
+    return [article for article in previous.get("articles") or [] if isinstance(article, dict)]
+
+
+def previous_displayed_at(previous_articles: list[dict[str, Any]]) -> dict[str, str]:
     lookup: dict[str, str] = {}
-    for article in previous.get("articles") or []:
-        if not isinstance(article, dict):
-            continue
+    for article in previous_articles:
         displayed_at = compact(article.get("displayedAt"))
         if not displayed_at:
-            displayed_at = compact(article.get("publishedAt") or article.get("date") or previous.get("timestamp"))
+            displayed_at = compact(article.get("publishedAt") or article.get("date"))
         if not displayed_at:
             continue
         for key in match_keys(article):
             lookup.setdefault(key, displayed_at)
     return lookup
+
+
+def previous_source_lookup(previous_articles: list[dict[str, Any]]) -> dict[str, set[str]]:
+    lookup: dict[str, set[str]] = {}
+    for article in previous_articles:
+        sources = article_source_keys(article)
+        if not sources:
+            continue
+        for key in match_keys(article):
+            lookup.setdefault(key, set()).update(sources)
+    return lookup
+
+
+def load_seen_notifications() -> set[str]:
+    if not SEEN_FILE.exists():
+        return set()
+    try:
+        loaded = json.loads(SEEN_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return set()
+    if isinstance(loaded, list):
+        return {compact(item) for item in loaded if compact(item)}
+    return set()
+
+
+def save_seen_notifications(seen: set[str]) -> None:
+    if not seen:
+        return
+    # Keep the file compact while preserving the existing daily_scan topic IDs.
+    SEEN_FILE.write_text(json.dumps(sorted(seen)[-1000:], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def assign_displayed_at(article: dict[str, Any], previous: dict[str, str], fallback: str) -> None:
@@ -237,10 +282,49 @@ def normalize_articles(raw_articles: list[Any], previous: dict[str, str], timest
     return articles
 
 
-def update_notification(data: dict[str, Any], visible_articles: list[dict[str, Any]]) -> None:
+def update_notification(
+    data: dict[str, Any],
+    visible_articles: list[dict[str, Any]],
+    previous_sources: dict[str, set[str]],
+    timestamp: str,
+) -> None:
     visible_by_id = {compact(article.get("id")): article for article in visible_articles if compact(article.get("id"))}
     notification = data.get("notificationBatch") if isinstance(data.get("notificationBatch"), dict) else {}
-    ids = [compact(article_id) for article_id in notification.get("ids", []) if compact(article_id) in visible_by_id]
+    incoming_ids = [compact(article_id) for article_id in notification.get("ids", []) if compact(article_id) in visible_by_id]
+    seen = load_seen_notifications()
+    ids: list[str] = []
+    pending_seen: set[str] = set()
+
+    def add_article(article_id: str, event_keys: set[str]) -> None:
+        fresh_keys = {key for key in event_keys if key and key not in seen}
+        if not fresh_keys:
+            return
+        if article_id not in ids:
+            ids.append(article_id)
+        pending_seen.update(fresh_keys)
+
+    for article_id in incoming_ids:
+        article = visible_by_id[article_id]
+        event_key = "topic:" + article_id + ":" + stable_hash(parse_time(article) or compact(article.get("title")))
+        add_article(article_id, {event_key})
+
+    for article in visible_articles:
+        article_id = compact(article.get("id"))
+        if not article_id:
+            continue
+        current_sources = article_source_keys(article)
+        matched_previous_sources: set[str] = set()
+        for key in match_keys(article):
+            matched_previous_sources.update(previous_sources.get(key, set()))
+        if not matched_previous_sources:
+            continue
+        new_sources = current_sources - matched_previous_sources
+        if not new_sources:
+            continue
+        event_keys = {"source:" + article_id + ":" + stable_hash(source) for source in new_sources}
+        add_article(article_id, event_keys)
+
+    ids = ids[:10]
     notification["ids"] = ids
     notification["articles"] = [
         {"id": article_id, "title": visible_by_id[article_id].get("title", ""), "source": visible_by_id[article_id].get("source", "UAP News")}
@@ -248,40 +332,49 @@ def update_notification(data: dict[str, Any], visible_articles: list[dict[str, A
     ]
     data["notificationBatch"] = notification
 
-    if not NTFY_PAYLOAD_FILE.exists():
+    if ids:
+        for article_id in ids:
+            visible_by_id[article_id]["displayedAt"] = timestamp
+        payload = {
+            "topic": "UAP-News26",
+            "title": f"UAP News - {len(ids)} neue Meldung{'en' if len(ids) != 1 else ''}",
+            "message": "\n".join(
+                f"{index + 1}. {visible_by_id[article_id].get('title', '')}"
+                for index, article_id in enumerate(ids)
+            ),
+            "click": APP_URL,
+            "actions": [{"action": "view", "label": "App öffnen", "url": APP_URL}],
+        }
+        NTFY_PAYLOAD_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        seen.update(pending_seen)
+        save_seen_notifications(seen)
         return
-    if not ids:
-        NTFY_PAYLOAD_FILE.unlink(missing_ok=True)
-        return
-    payload = json.loads(NTFY_PAYLOAD_FILE.read_text(encoding="utf-8"))
-    listed = [visible_by_id[article_id] for article_id in ids[:10]]
-    payload["title"] = f"UAP News - {len(listed)} new report{'s' if len(listed) != 1 else ''}"
-    payload["message"] = "\n".join(f"{index + 1}. {article.get('title', '')}" for index, article in enumerate(listed))
-    payload["click"] = APP_URL
-    payload["actions"] = [{"action": "view", "label": "Open app", "url": APP_URL}]
-    payload.pop("attach", None)
-    NTFY_PAYLOAD_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    NTFY_PAYLOAD_FILE.unlink(missing_ok=True)
 
 
 def main() -> None:
     data = json.loads(LATEST_FILE.read_text(encoding="utf-8"))
     timestamp = compact(data.get("timestamp"))
     original_count = len(data.get("articles") or [])
-    previous = previous_displayed_at()
+    previous_articles = load_previous_articles()
+    previous = previous_displayed_at(previous_articles)
+    previous_sources = previous_source_lookup(previous_articles)
     articles = normalize_articles(data.get("articles") or [], previous, timestamp)
     data["articles"] = articles
     data["summaries"] = {article["id"]: article["summary"] for article in articles if article.get("id") and is_good_summary(article.get("summary"))}
-    update_notification(data, articles)
+    update_notification(data, articles, previous_sources, timestamp)
     missing_count = sum(1 for article in articles if not is_good_summary(article.get("summary")))
     meta = data.setdefault("scanMeta", {})
     meta["finalAppFeedContract"] = {
-        "policy": "display_ready_feed_v2_keep_missing_summaries",
+        "policy": "display_ready_feed_v3_keep_missing_summaries_notify_visible_topic_updates",
         "inputArticles": original_count,
         "outputArticles": len(articles),
         "missingSummaries": missing_count,
         "sort": "quality_desc_then_publishedAt_desc",
         "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
         "newBadge": "displayedAt_24h_window",
+        "notification": "new_visible_topics_or_new_sources_inside_visible_topics",
     }
     meta["appTopics"] = len(articles)
     LATEST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
