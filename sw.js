@@ -1,6 +1,6 @@
-var CACHE = 'uap-v209-controls-layout';
+var CACHE = 'uap-v210-startscreen-alien-reveal';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '209';
+var OVERRIDE_VERSION = '210';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
@@ -10,7 +10,7 @@ var OVERRIDE_FILES = [
   'uap-header-retry-fix.js',
   'uap-final-stability-fix.js'
 ];
-var NO_STORE_FILES = OVERRIDE_FILES.concat(['uap-startscreen-wallpaper.js', 'uap-visual-final-fix.js', 'uap-startscreen-reveal-fix.js']);
+var NO_STORE_FILES = OVERRIDE_FILES.concat(['uap-startscreen-wallpaper.js', 'uap-visual-final-fix.js', 'uap-startscreen-reveal-fix.js', 'uap-startscreen-master-fix.js']);
 
 var STARTUP_STILL_STYLE = '\n#loading{position:fixed!important;inset:0!important;z-index:1000!important;display:block!important;background:#02070b!important;overflow:hidden!important;animation:uapStartupHide 9s forwards!important;}\n#loading.hidden{opacity:0!important;visibility:hidden!important;pointer-events:none!important;}\n#loading>*{display:none!important;visibility:hidden!important;opacity:0!important;}\n@keyframes uapStartupHide{0%,96%{opacity:1;visibility:visible;pointer-events:auto;}100%{opacity:0;visibility:hidden;pointer-events:none;}}\n';
 
