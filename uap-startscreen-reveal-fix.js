@@ -18,13 +18,17 @@
     if (!style) {
       style = document.createElement('style');
       style.id = STYLE_ID;
-      (document.head || document.documentElement).appendChild(style);
     }
     if (style.textContent !== css) style.textContent = css;
+    (document.head || document.documentElement).appendChild(style);
   }
 
   injectStyle();
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', injectStyle, { once: true });
   window.addEventListener('load', injectStyle, { once: true });
-  [60, 180, 500, 1200].forEach(function(delay){ window.setTimeout(injectStyle, delay); });
+  [60, 180, 420, 700, 1200, 1800, 2600, 3400, 4300].forEach(function(delay){ window.setTimeout(injectStyle, delay); });
+  if (window.MutationObserver) {
+    new MutationObserver(function(){ window.requestAnimationFrame(injectStyle); })
+      .observe(document.documentElement, { childList: true, subtree: true });
+  }
 })();
