@@ -4,7 +4,8 @@
 Earlier pipeline stages may promote sources, regroup stories and repair summaries.
 This last pass keeps the mobile app data honest: unrelated sources are removed
 from a cluster, duplicate top-level stories are merged, source counts are rebuilt,
-and ratings are recalculated from the final visible source set.
+rating is recalculated from the final visible source set, and stale summaries are
+cleared when they clearly describe a different topic than the article title.
 """
 from __future__ import annotations
 
@@ -61,12 +62,12 @@ def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def article_text(article: dict[str, Any]) -> str:
-    return clean(" ".join([
-        article.get("title", ""),
-        article.get("description", ""),
-        article.get("summary", ""),
-    ]))
+def core_article_text(article: dict[str, Any]) -> str:
+    return clean(" ".join([article.get("title", ""), article.get("description", "")]))
+
+
+def summary_text(article: dict[str, Any]) -> str:
+    return clean(article.get("summary", ""))
 
 
 def source_text(source: dict[str, Any]) -> str:
@@ -110,6 +111,23 @@ def story_signature(text: Any) -> str:
     return ""
 
 
+def summary_conflicts(article: dict[str, Any], summary: str | None = None) -> bool:
+    summary = clean(summary if summary is not None else article.get("summary", ""))
+    if not summary:
+        return False
+    core_sig = story_signature(core_article_text(article))
+    summary_sig = story_signature(summary)
+    return bool(core_sig and summary_sig and core_sig != summary_sig)
+
+
+def clear_conflicting_summary(article: dict[str, Any]) -> dict[str, Any]:
+    if summary_conflicts(article):
+        article["summary"] = ""
+        article.pop("translation", None)
+        article.pop("translations", None)
+    return article
+
+
 def overlap_ratio(a: set[str], b: set[str]) -> float:
     if not a or not b:
         return 0.0
@@ -135,11 +153,11 @@ def same_story_text(a_text: str, b_text: str) -> bool:
 
 
 def same_story_article(a: dict[str, Any], b: dict[str, Any]) -> bool:
-    return same_story_text(article_text(a), article_text(b))
+    return same_story_text(core_article_text(a), core_article_text(b))
 
 
 def same_story_source(article: dict[str, Any], source: dict[str, Any]) -> bool:
-    return same_story_text(article_text(article), source_text(source))
+    return same_story_text(core_article_text(article), source_text(source))
 
 
 def dedupe_sources(sources: list[dict[str, Any]], primary: dict[str, Any] | None = None) -> list[dict[str, Any]]:
@@ -161,7 +179,7 @@ def dedupe_sources(sources: list[dict[str, Any]], primary: dict[str, Any] | None
 
 
 def prune_article_sources(article: dict[str, Any]) -> dict[str, Any]:
-    repaired = deepcopy(article)
+    repaired = clear_conflicting_summary(deepcopy(article))
     kept = [
         deepcopy(source)
         for source in repaired.get("otherSources") or []
@@ -200,7 +218,7 @@ def quality_cap(article: dict[str, Any], mentions: int, signature: str) -> int:
 
 def normalize_quality(article: dict[str, Any]) -> dict[str, Any]:
     mentions = max(1, int(article.get("mentions") or 1))
-    signature = story_signature(article_text(article))
+    signature = story_signature(core_article_text(article))
     parts = [p for p in article.get("qualityBreakdown") or [] if isinstance(p, dict) and p.get("label") != "Mehrere Quellen"]
     points = source_points(mentions)
     if points:
@@ -216,9 +234,17 @@ def normalize_quality(article: dict[str, Any]) -> dict[str, Any]:
     return article
 
 
+def best_valid_summary(merged: dict[str, Any], group: list[dict[str, Any]]) -> str:
+    candidates = sorted((clean(article.get("summary")) for article in group), key=len, reverse=True)
+    for candidate in candidates:
+        if candidate and not summary_conflicts(merged, candidate):
+            return candidate
+    return ""
+
+
 def merge_group(group: list[dict[str, Any]]) -> dict[str, Any]:
     primary = max(group, key=lambda article: (int(article.get("quality") or 0), int(article.get("mentions") or 1), len(clean(article.get("summary")))))
-    merged = deepcopy(primary)
+    merged = clear_conflicting_summary(deepcopy(primary))
     sources: list[dict[str, Any]] = []
     for article in group:
         sources.append(source_from_article(article))
@@ -227,9 +253,7 @@ def merge_group(group: list[dict[str, Any]]) -> dict[str, Any]:
     merged["otherSources"] = sources
     merged["mentions"] = max(1, 1 + len(sources))
     merged["clusterTitles"] = [clean(source.get("title")) for source in sources if clean(source.get("title"))][:10]
-    best_summary = max((clean(article.get("summary")) for article in group), key=len, default="")
-    if best_summary:
-        merged["summary"] = best_summary
+    merged["summary"] = best_valid_summary(merged, group)
     merged.pop("translations", None)
     merged.pop("translationMeta", None)
     return normalize_quality(merged)
@@ -249,7 +273,7 @@ def merge_articles(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
             if same_story_article(article, articles[other_index]):
                 group.append(articles[other_index])
                 used.add(other_index)
-        merged.append(merge_group(group) if len(group) > 1 else normalize_quality(article))
+        merged.append(merge_group(group) if len(group) > 1 else normalize_quality(clear_conflicting_summary(article)))
     return merged
 
 
@@ -261,12 +285,13 @@ def main() -> None:
     articles.sort(key=lambda article: (int(article.get("quality") or 0), clean(article.get("publishedAt") or article.get("date"))), reverse=True)
 
     payload["articles"] = articles
-    payload["summaries"] = {article["id"]: article.get("summary", "") for article in articles if article.get("id")}
+    payload["summaries"] = {article["id"]: article.get("summary", "") for article in articles if article.get("id") and article.get("summary")}
     meta = payload.setdefault("scanMeta", {})
     meta["finalFeedIntegrity"] = {
-        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v1",
+        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v2_clear_conflicting_summaries",
         "inputArticles": len(raw_articles),
         "outputArticles": len(articles),
+        "clearedConflictingSummaries": sum(1 for article in articles if not clean(article.get("summary"))),
     }
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"final feed integrity: input={len(raw_articles)} output={len(articles)}")
