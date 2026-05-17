@@ -42,11 +42,12 @@
   function injectStyle(){
     var css = [
       '#loading{background-color:#02070b!important;animation:uapStartupHide 9.35s linear forwards!important;}',
-      '#loading::after{content:""!important;position:absolute!important;inset:0!important;z-index:5!important;display:block!important;pointer-events:none!important;background:#02070b!important;opacity:.96!important;animation:uapAlienDimReveal 9s cubic-bezier(.33,0,.12,1) forwards!important;will-change:opacity!important;}',
+      '#loading::before{content:""!important;position:absolute!important;inset:0!important;z-index:4!important;display:block!important;pointer-events:none!important;background:transparent!important;opacity:0!important;animation:none!important;}',
+      '#loading::after{content:""!important;position:absolute!important;inset:0!important;z-index:5!important;display:block!important;pointer-events:none!important;background:#02070b!important;opacity:.99!important;animation:uapAlienDimReveal 9s linear forwards!important;will-change:opacity!important;}',
       '#loading>*{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}',
       '#loading.hidden{opacity:0!important;visibility:hidden!important;pointer-events:none!important;transition:opacity .36s ease,visibility .36s ease!important;}',
       '@keyframes uapStartupHide{0%,96.5%{opacity:1;visibility:visible;pointer-events:auto;}100%{opacity:0;visibility:hidden;pointer-events:none;}}',
-      '@keyframes uapAlienDimReveal{0%{opacity:.97;}12%{opacity:.95;}25%{opacity:.88;}38%{opacity:.74;}52%{opacity:.55;}66%{opacity:.34;}78%{opacity:.18;}88%{opacity:.08;}96%{opacity:0;}100%{opacity:0;}}'
+      '@keyframes uapAlienDimReveal{0%{opacity:.99;}10%{opacity:.94;}22%{opacity:.83;}34%{opacity:.68;}48%{opacity:.49;}62%{opacity:.3;}76%{opacity:.15;}88%{opacity:.05;}96%{opacity:0;}100%{opacity:0;}}'
     ].join('\n');
     var style = document.getElementById(STYLE_ID);
     if (!style) {
