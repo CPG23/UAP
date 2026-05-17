@@ -1,12 +1,11 @@
-var CACHE = 'uap-v200-startscreen-banner-click';
+var CACHE = 'uap-v201-startscreen-no-banner';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '200';
+var OVERRIDE_VERSION = '201';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
   'uap-header-retry-fix.js',
-  'uap-final-stability-fix.js',
-  'uap-startscreen-banner-fix.js'
+  'uap-final-stability-fix.js'
 ];
 var NO_STORE_FILES = OVERRIDE_FILES.concat(['uap-startscreen-wallpaper.js', 'uap-visual-final-fix.js']);
 
