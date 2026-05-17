@@ -1,6 +1,6 @@
-var CACHE = 'uap-v207-startscreen-fade';
+var CACHE = 'uap-v208-startscreen-fade-overlay';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '207';
+var OVERRIDE_VERSION = '208';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
