@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-05-17T08:13:55Z",
+  "timestamp": "2026-05-17T11:56:47Z",
   "articles": [
     {
       "id": "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public",
       "title": "Bright lights and hot orbs: UFO files shed light on sightings but leave interpretation to the public",
       "source": "AP News",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRTl5cm4xelY1c2R0SXY0T1dURG13TTRxdmxDWThZVlo4aHpjUHlEOHo3VmFHY1JiMTNpbWxwRDk3cndhMlNiU2xIMm1DbzFJejlmNnVUdTgzcHpMdndsU19mLWVJNWVUbm1PZF9CLTFaV0hrbnNVZEdfQ1ByODRFd0FkcGlUVVVWYTlweHNDN3R1Q1NOMVhYWXN1OG1FSDFyV1BDNC1sY0pUX29Dd3B4QmZR?oc=5",
-      "date": "2026-05-16",
+      "date": "2026-05-08",
       "publishedAt": "2026-05-08T07:00:00Z",
-      "summary": "The Department of War, following a directive from President Donald J. Trump, has launched the PURSUE program to identify, declassify, and publicly release government records on unidentified aerial phenomena (UAP) and UFOs. On May 8 2026 it released its first tranche of 158 documents—including PDFs, images, and videos—covering incidents from 1944 to 1948 and other historical records.",
+      "summary": "S. government released 17 pages of previously classified Unidentified Anomalous Phenomena documents on May 8, as part of the Presidential Unsealing and Reporting System for UAP Encounters, with more files to be issued on a rolling basis.",
       "mentions": 17,
       "otherSources": [
         {
@@ -124,7 +124,62 @@
         "GOP congresswoman claims aliens are fallen angels as Trump releases UFO files: ‘This is in the Bible’",
         "Trump admin releases highly anticipated files documenting UFOs, 'extraterrestrial life'"
       ],
-      "quality": 100,
+      "quality": 86,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 34,
+          "text": "17 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "files"
+      ],
+      "sourceQuality": 86,
+      "displayedAt": "2026-05-08T07:00:00Z",
+      "translation": {
+        "en": {
+          "title": "Bright lights and hot orbs: UFO files shed light on sightings but leave interpretation to the public",
+          "summary": "S. government released 17 pages of previously classified Unidentified Anomalous Phenomena documents on May 8, as part of the Presidential Unsealing and Reporting System for UAP Encounters, with more files to be issued on a rolling basis.",
+          "sourceHash": "d24eea08f1934ac56a132ec0dc13701a2f20ba1e",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Helle Lichter und heiße Kugeln: UFO-Akten geben Aufschluss über Sichtungen, überlassen die Interpretation jedoch der Öffentlichkeit",
+          "summary": "Die Regierung von S. veröffentlichte am 8. Mai im Rahmen des Präsidenten-Entsiegelungs- und Meldesystems für UAP-Begegnungen 17 Seiten zuvor geheimer Dokumente zu nicht identifizierten anomalen Phänomenen. Weitere Dateien werden fortlaufend herausgegeben.",
+          "sourceHash": "d24eea08f1934ac56a132ec0dc13701a2f20ba1e",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "pentagon-s-immaculate-constellation-allegations-ignite-new-ufo-disclosure-firestorm-in-congress",
+      "title": "Pentagon’s ‘Immaculate Constellation’ Allegations Ignite New UFO Disclosure Firestorm In Congress",
+      "source": "USA Herald",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWHZOd193MkZtbnNYZ19zVmc5Uk9pU3ZqVDlPTTBwcXpyUXhMVHU1LWRadFk0NlllQnJ5elZoel9TRnNtYTlNMXlMVnI2U0VlXzRUYkJCdUtPT0ozOXFPUHpsZXg0NV9LZ3htT00wWk5Sa0JzU2RWMWYxTWk1UDRQLXdRNDRfZzNTcDVQc0JmLTVsbDNDTlVfb05rRW8wc2VuWkxzc1hlSDhqYkZrV1FtbGp0ZzN3M2Yz?oc=5",
+      "date": "2026-05-16",
+      "publishedAt": "2026-05-16T16:05:39Z",
+      "summary": "Whistleblower claims introduced in a House Oversight hearing in November 2024 allege that a secret program called “Immaculate Constellation” is an AI‑driven system that ingests global multispectral surveillance data and removes anomalous images before they reach the broader military intelligence community. The alleged program is described as an unacknowledged Special Access Program that centralizes classified UAP footage, sensor data, satellite imagery, and encounter reports, and is said to have operated outside normal congressional oversight for years.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 80,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -160,32 +215,28 @@
           "label": "Behörde im Titel",
           "points": 6,
           "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 34,
-          "text": "17 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "CONGRESS",
-        "DISCLOSURE",
-        "PENTAGON"
+        "documents",
+        "photos",
+        "released",
+        "sightings"
       ],
-      "sourceQuality": 100,
-      "displayedAt": "2026-05-08T07:00:00Z",
+      "sourceQuality": 80,
+      "displayedAt": "2026-05-17T11:56:47Z",
       "translation": {
         "en": {
-          "title": "Bright lights and hot orbs: UFO files shed light on sightings but leave interpretation to the public",
-          "summary": "The Department of War, following a directive from President Donald J. Trump, has launched the PURSUE program to identify, declassify, and publicly release government records on unidentified aerial phenomena (UAP) and UFOs. On May 8 2026 it released its first tranche of 158 documents—including PDFs, images, and videos—covering incidents from 1944 to 1948 and other historical records.",
-          "sourceHash": "c9ffd779aa11d8b1b456e51c5fd76d5d7548c8a3",
+          "title": "Pentagon’s ‘Immaculate Constellation’ Allegations Ignite New UFO Disclosure Firestorm In Congress",
+          "summary": "Whistleblower claims introduced in a House Oversight hearing in November 2024 allege that a secret program called “Immaculate Constellation” is an AI‑driven system that ingests global multispectral surveillance data and removes anomalous images before they reach the broader military intelligence community. The alleged program is described as an unacknowledged Special Access Program that centralizes classified UAP footage, sensor data, satellite imagery, and encounter reports, and is said to have operated outside normal congressional oversight for years.",
+          "sourceHash": "d682cac345851d134a3d079304df956e46d23d73",
           "provider": "original"
         },
         "de": {
-          "title": "Helle Lichter und heiße Kugeln: UFO-Akten geben Aufschluss über Sichtungen, überlassen die Interpretation jedoch der Öffentlichkeit",
-          "summary": "Das Kriegsministerium hat gemäß einer Anweisung von Präsident Donald J. Trump das PURSUE-Programm gestartet, um staatliche Aufzeichnungen über nicht identifizierte Luftphänomene (UAP) und UFOs zu identifizieren, freizugeben und öffentlich zu veröffentlichen. Am 8. Mai 2026 veröffentlichte es seine erste Tranche von 158 Dokumenten – darunter PDFs, Bilder und Videos – zu Vorfällen von 1944 bis 1948 und anderen historischen Aufzeichnungen.",
-          "sourceHash": "c9ffd779aa11d8b1b456e51c5fd76d5d7548c8a3",
+          "title": "Die Anschuldigungen des Pentagons wegen der „Unbefleckten Konstellation“ entfachen im Kongress einen neuen Feuersturm zur Enthüllung von UFOs",
+          "summary": "Whistleblower-Behauptungen, die in einer Anhörung zur Aufsicht des Repräsentantenhauses im November 2024 vorgebracht wurden, behaupten, dass es sich bei einem geheimen Programm namens „Immaculate Constellation“ um ein KI-gesteuertes System handelt, das globale multispektrale Überwachungsdaten aufnimmt und anomale Bilder entfernt, bevor sie die breitere militärische Geheimdienstgemeinschaft erreichen. Das angebliche Programm wird als unbestätigtes Sonderzugriffsprogramm beschrieben, das geheime UAP-Aufnahmen, Sensordaten, Satellitenbilder und Begegnungsberichte zentralisiert und angeblich jahrelang außerhalb der normalen Kontrolle des Kongresses operiert hat.",
+          "sourceHash": "d682cac345851d134a3d079304df956e46d23d73",
           "provider": "google"
         }
       }
@@ -241,9 +292,10 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "CONGRESS",
-        "DISCLOSURE",
-        "PENTAGON"
+        "documents",
+        "photos",
+        "released",
+        "sightings"
       ],
       "sourceQuality": 80,
       "summaryStatus": {
@@ -253,13 +305,13 @@
       "displayedAt": "2026-05-17T07:32:30Z"
     },
     {
-      "id": "sighting-longmont-s-ufo-files-national-database-details-decades-of-strange-sightings",
-      "title": "Longmont’s UFO Files: National Database Details Decades Of Strange Sightings",
-      "source": "longmontleader.com",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdHVWUlZZMFJCQUpibmE4SFhTMldZZnlDMkJWeGhZX0pwVEJWdnRsQ0dDcDdvYmdiR05kejktNnBQWmQyVm5naU9VZ0lFSmotVGFaMUpyQ1NYR3pTcFV4U0dDblJmZ2REYkE2VXpXVDhONlZPUTFFRnM5UTB6TC1BRmQ4UzJZblRoY1ZDLUxBbzc5akFLcFI1WWZxYnh4TEZIQ01jeEd4alJLU0FZcExxMkczbVZDMFRra3FDb2NyY0VJdGM?oc=5",
+      "id": "ufo-whistleblowers-fear-being-called-crazy-as-officials-admit-encounters-with-unknown-craft-near-critical-us-sites",
+      "title": "UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites",
+      "source": "International Business Times UK",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SWXlMV2tDNFZsejRBYmxEcHF2ZXVfQkhKdmZrd3I5NVgtVHhlMHM5U2NCNS0zdEJ5eU41MjRsQVBGeld1dlEzaDVRWm00ZDFJODBYR2NjMTNyTHNBeEZtbHZldDZlaXo4b3dBeHMybnBCRmY0S1NJU25GVm44QQ?oc=5",
       "date": "2026-05-16",
-      "publishedAt": "2026-05-08T23:00:00Z",
-      "summary": "A national UFO database lists more than 100 reports from Longmont residents and travelers describing metallic spheres, triangular and chevron‑shaped craft, orange lights, green fireballs, and other unusual objects over the city. ” Earlier reports date back to 1998, when a family saw a large triangular craft near the airport, and 1999, when a saucer‑shaped object with flashing lights was observed from a window.",
+      "publishedAt": "2026-05-05T07:00:00Z",
+      "summary": "",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -303,26 +355,17 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "CONGRESS",
-        "DISCLOSURE",
-        "PENTAGON"
+        "documents",
+        "photos",
+        "released",
+        "sightings"
       ],
       "sourceQuality": 80,
-      "displayedAt": "2026-05-17T07:35:21Z",
-      "translation": {
-        "en": {
-          "title": "Longmont’s UFO Files: National Database Details Decades Of Strange Sightings",
-          "summary": "A national UFO database lists more than 100 reports from Longmont residents and travelers describing metallic spheres, triangular and chevron‑shaped craft, orange lights, green fireballs, and other unusual objects over the city. ” Earlier reports date back to 1998, when a family saw a large triangular craft near the airport, and 1999, when a saucer‑shaped object with flashing lights was observed from a window.",
-          "sourceHash": "8fb729c64af8296787c8057f97dfb009f2d4f41f",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Longmonts UFO-Dateien: Nationale Datenbank beschreibt jahrzehntelange seltsame Sichtungen",
-          "summary": "Eine nationale UFO-Datenbank listet mehr als 100 Berichte von Einwohnern und Reisenden von Longmont auf, in denen Metallkugeln, dreieckige und winkelförmige Fahrzeuge, orangefarbene Lichter, grüne Feuerbälle und andere ungewöhnliche Objekte über der Stadt beschrieben werden. „Frühere Berichte stammen aus dem Jahr 1998, als eine Familie ein großes dreieckiges Flugzeug in der Nähe des Flughafens sah, und aus dem Jahr 1999, als aus einem Fenster ein untertassenförmiges Objekt mit blinkenden Lichtern beobachtet wurde.",
-          "sourceHash": "8fb729c64af8296787c8057f97dfb009f2d4f41f",
-          "provider": "google"
-        }
-      }
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "displayedAt": "2026-05-17T11:56:47Z"
     },
     {
       "id": "illusionist-uri-geller-reacts-to-us-congressman-s-warning-over-next-set-of-ufo-files-holy-crap-is-coming",
@@ -375,9 +418,10 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "CONGRESS",
-        "DISCLOSURE",
-        "PENTAGON"
+        "documents",
+        "photos",
+        "released",
+        "sightings"
       ],
       "sourceQuality": 72,
       "displayedAt": "2026-05-17T07:35:21Z",
@@ -453,33 +497,33 @@
       "displayedAt": "2026-05-17T08:13:55Z"
     },
     {
-      "id": "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere",
-      "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
-      "source": "Tom's Guide",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM1lQdFdFZllPc1Q3bGNXSHRIcF9oel9NVWFOdUg5SDhkQmpXZXZEQWw2MHBvSmF4d0R1RE5udExuYnZ3YmlkTzZ0aUtXbU9pZ0pnSkhSMDRBNWwxcjQtQVRJQU84QkFMVG05U3MyNm9JTV9ZSllBdW9KUjgxMkVpZg?oc=5",
+      "id": "film-new-documentary-follows-journalist-jeremy-corbell-s-hunt-for-the-truth-on-ufos",
+      "title": "New documentary follows journalist Jeremy Corbell’s hunt for the truth on UFOs",
+      "source": "NBC News",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWi1TdkJpdmZ2VXZWc2FueVE2MmxYTlJSeWJDNnRXSk9hb1RwZHNpVWswa1RYRE1oV2tCVFNES2NuUHF4aVNfak9RVEl4akdyRmNNc3RxcnQ5YTh0eHZWY0hKakEybWEtTGtUcVc4cUNjNVNhS0RQZm5QU2V0NFJGNjI4VDhRc1luaUQ4VHRFMTdMaUNMbzQyZUFZT0RHNWdCWE5DajZYTjJzYjBlNTU1S0FpVUx5RFRKZHNkN2hR?oc=5",
       "date": "2026-05-13",
       "publishedAt": "2026-05-13T01:32:54Z",
       "summary": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
       "mentions": 3,
       "otherSources": [
         {
-          "title": "New documentary follows journalist Jeremy Corbell’s hunt for the truth on UFOs",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWi1TdkJpdmZ2VXZWc2FueVE2MmxYTlJSeWJDNnRXSk9hb1RwZHNpVWswa1RYRE1oV2tCVFNES2NuUHF4aVNfak9RVEl4akdyRmNNc3RxcnQ5YTh0eHZWY0hKakEybWEtTGtUcVc4cUNjNVNhS0RQZm5QU2V0NFJGNjI4VDhRc1luaUQ4VHRFMTdMaUNMbzQyZUFZT0RHNWdCWE5DajZYTjJzYjBlNTU1S0FpVUx5RFRKZHNkN2hR?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWi1TdkJpdmZ2VXZWc2FueVE2MmxYTlJSeWJDNnRXSk9hb1RwZHNpVWswa1RYRE1oV2tCVFNES2NuUHF4aVNfak9RVEl4akdyRmNNc3RxcnQ5YTh0eHZWY0hKakEybWEtTGtUcVc4cUNjNVNhS0RQZm5QU2V0NFJGNjI4VDhRc1luaUQ4VHRFMTdMaUNMbzQyZUFZT0RHNWdCWE5DajZYTjJzYjBlNTU1S0FpVUx5RFRKZHNkN2hR?oc=5",
-          "source": "NBC News",
-          "publishedAt": "2026-05-13T01:32:54Z"
-        },
-        {
           "title": "How to watch 'Sleeping Dog' - screen UAP/UFO doc online from anywhere",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY09yN3ZKN3hkUVRYc0Nfa1EyT0Q4RjJJM3NTbE96Sjg5eFBhZHpKbElwbUNreDRCX3c2UmtPTGNUcE5vcHpRYnlTZzdqbW00SGVYRXBNckNXZDF1N0JBSjFaZnQ0UjJzN1cyWmFVcG4yUm1pTmZoVXFvUjdoMjJPQnYzUnlwRnNTcU9oUFZqUFRvLVU?oc=5",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY09yN3ZKN3hkUVRYc0Nfa1EyT0Q4RjJJM3NTbE96Sjg5eFBhZHpKbElwbUNreDRCX3c2UmtPTGNUcE5vcHpRYnlTZzdqbW00SGVYRXBNckNXZDF1N0JBSjFaZnQ0UjJzN1cyWmFVcG4yUm1pTmZoVXFvUjdoMjJPQnYzUnlwRnNTcU9oUFZqUFRvLVU?oc=5",
           "source": "Yahoo",
           "publishedAt": "2026-05-12T08:35:23Z"
+        },
+        {
+          "title": "Sleeping Dog Documentary Exposes UAP Secrets And Risks",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
+          "source": "Evrim Ağacı",
+          "publishedAt": "2026-05-08T07:00:00Z"
         }
       ],
       "clusterTitles": [
-        "New documentary follows journalist Jeremy Corbell’s hunt for the truth on UFOs",
-        "How to watch 'Sleeping Dog' - screen UAP/UFO doc online from anywhere"
+        "How to watch 'Sleeping Dog' - screen UAP/UFO doc online from anywhere",
+        "Sleeping Dog Documentary Exposes UAP Secrets And Risks"
       ],
       "quality": 59,
       "qualityBreakdown": [
@@ -507,79 +551,18 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 59,
-      "displayedAt": "2026-05-13T01:32:54Z",
+      "displayedAt": "2026-05-17T11:56:47Z",
       "translation": {
         "en": {
-          "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
+          "title": "New documentary follows journalist Jeremy Corbell’s hunt for the truth on UFOs",
           "summary": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
-          "sourceHash": "afa9e16d66c8a18c605de59053798807d3214c62",
+          "sourceHash": "f8ced33a4bc8b5143b70f898defbcdd442ffcbc3",
           "provider": "original"
         },
         "de": {
-          "title": "So schauen Sie sich „Sleeping Dog“ online an – streamen Sie die umstrittene UAP/UFO-Dokumentation von überall aus",
+          "title": "Neuer Dokumentarfilm folgt der Suche des Journalisten Jeremy Corbell nach der Wahrheit über UFOs",
           "summary": "Der Journalist und Filmemacher Jeremy Corbell bespricht seinen neuen Dokumentarfilm mit NBC News-Korrespondent Gadi Schwartz. Der Dokumentarfilm trägt den Titel „Sleeping Dog“. Es untersucht Corbells Umgang mit Regierungsgeheimnissen. Es geht auch um Whistleblower und seine Suche nach der Wahrheit über UFOs.",
-          "sourceHash": "afa9e16d66c8a18c605de59053798807d3214c62",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "ufo-files-reveal-the-same-old-material",
-      "title": "UFO Files Reveal … the Same Old Material",
-      "source": "Skeptic",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94Uklfay1UY1NQSlhmZUxIQlZBOXpkSUtWb0Mxa1BXcVZSbkxFWXhJYWRyc2s5M2RDN2FDUFdLNjAteTdQRTN4ZHI2elZEcHdwN2M2NkQweGF3SkVLRm1KNlpsSDF1WTVpUHFvT3dhT241ZjkwRXpXODBnTQ?oc=5",
-      "date": "2026-05-08",
-      "publishedAt": "2026-05-10T23:11:15Z",
-      "summary": "On Friday the Pentagon released a new batch of declassified UFO files, including videos, images, State Department cables, FBI documents, and NASA transcripts, as President Trump urged the public to draw their own conclusions. The documents describe a range of sightings, such as a 1994 Tajikistan cable of a brightly lit object making 90‑degree turns over Kazakhstan, a 2023 Aegean Sea report of a UAP turning at 80 mph, a 2023 helicopter encounter with a “super‑hot” orb, and a 1969 Apollo 11 debrief in which Buzz Aldrin noted a bright light that could have been a laser.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 59,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "ORBS, SIGHTINGS als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "ORBS",
-        "SIGHTINGS"
-      ],
-      "sourceQuality": 59,
-      "displayedAt": "2026-05-17T07:35:21Z",
-      "translation": {
-        "en": {
-          "title": "UFO Files Reveal … the Same Old Material",
-          "summary": "On Friday the Pentagon released a new batch of declassified UFO files, including videos, images, State Department cables, FBI documents, and NASA transcripts, as President Trump urged the public to draw their own conclusions. The documents describe a range of sightings, such as a 1994 Tajikistan cable of a brightly lit object making 90‑degree turns over Kazakhstan, a 2023 Aegean Sea report of a UAP turning at 80 mph, a 2023 helicopter encounter with a “super‑hot” orb, and a 1969 Apollo 11 debrief in which Buzz Aldrin noted a bright light that could have been a laser.",
-          "sourceHash": "56af013ecb0b2e5dc6b1fce42ec64a0c95f0681b",
-          "provider": "original"
-        },
-        "de": {
-          "title": "UFO-Dateien enthüllen … das gleiche alte Material",
-          "summary": "Am Freitag veröffentlichte das Pentagon einen neuen Stapel freigegebener UFO-Dateien, darunter Videos, Bilder, Depeschen des Außenministeriums, FBI-Dokumente und NASA-Transkripte, als Präsident Trump die Öffentlichkeit aufforderte, ihre eigenen Schlussfolgerungen zu ziehen. Die Dokumente beschreiben eine Reihe von Sichtungen, wie zum Beispiel ein Tadschikistan-Kabel eines hell erleuchteten Objekts aus dem Jahr 1994, das sich um 90 Grad über Kasachstan dreht, ein Bericht aus dem Jahr 2023 über eine UAP aus dem Ägäischen Meer, der sich mit 80 Meilen pro Stunde dreht, eine Hubschrauberbegegnung mit einer „superheißen“ Kugel aus dem Jahr 2023 und eine Nachbesprechung von Apollo 11 aus dem Jahr 1969, in der Buzz Aldrin ein helles Licht bemerkte, bei dem es sich um einen Laser gehandelt haben könnte.",
-          "sourceHash": "56af013ecb0b2e5dc6b1fce42ec64a0c95f0681b",
+          "sourceHash": "f8ced33a4bc8b5143b70f898defbcdd442ffcbc3",
           "provider": "google"
         }
       }
@@ -691,17 +674,17 @@
       "displayedAt": "2026-05-17T07:22:13Z"
     },
     {
-      "id": "program-secret-ufo-recovery-program-hid-multiple-alien-species-claims-hal-puthoff-watch",
-      "title": "Secret UFO Recovery Program Hid ‘Multiple Alien Species,’ Claims Hal Puthoff | WATCH",
-      "source": "The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNzFCZTVmVENTQlJORV9IT3pVU1pYUGotWEMzeUJLYjFPQ0R1blRzazhILXVlaUViR1ZGSXgzeTdJeG1vNndzUVBIT1ZsWG9JRThMeXUzUmE4SkZiYW02T3V3VjAxdEpjZnVZWlo4d1YxT2pPMkhHX181RWFIVkg4c3l5a1NmVHRnUG9sTmNjTzZ5bE92dHBvbzAweGQ5X09VZ2o2cnU4SjBDTkZrRzFINkJSS2tMc3JZbFVjUjFPV1FzOWRZUWppdWhkTlZKNURGcWF2WWE0N0h3aUlQVUJJOGpVbEJPdVBCUGFaX1FGQnBMX3ZfX3Rn0gH3AUFVX3lxTE03MUJlNWZUQ1NCUk5FX0hPelVTWlhQai1YQzN5QktiMU9DRHVuVHNrOEgtdWVpRWJHVkZJeDN5N0l4bW82d3NRUEhPVmxYb0lFOEx5dTNSYThKRmJhbTZPdXdWMDF0SmNmdVlaWjh3VjFPak8ySEdfXzVFYUhWSDhzeXlrU2ZUdGdQb2xOY2NPNnlsT3Z0cG9vMDB4ZDlfT1VnajZydThKMENORmtHMUg2QlJLa0xzcllsVWNSMU9XUXM5ZFlRaml1aGROVko1REZxYXZZYTQ3SHdpSVBVQkk4alVsQk91UEJQYVpfUUZCcExfdl9fdGc?oc=5",
-      "date": "2026-05-16",
-      "publishedAt": "2026-05-16T18:15:00Z",
-      "summary": "",
+      "id": "ufo-zips-over-house-and-beams-up-a-human-internet-discusses-the-viral-alien-abduction-footage-watch",
+      "title": "UFO Zips Over House And Beams Up A Human? Internet Discusses The Viral Alien Abduction Footage [WATCH]",
+      "source": "Mashable India",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQREdSNWNhMjZlaGNYeWRzZkQzZTJxVm9HVXNUMnZIdHhYekxhbGNmMzNabENwVXc0YkxXdERZU0tFV083TldVMWNVNlE5UjVnUW9Hb2RfQTltTlVFZXlWV3JTSUtTMW1RRXBlZHhOdFJuY2VBQnBValJ1SUlTUFlseU5HMmk1ZjhHVEhYZUFmZUpBb29KaE9kODlpMEpCZnEzS3pFU1RpM3JkY0ZTT3hqN3h2X0hRZlNidWI5UlgzM3oweUVTQlpZSVBDdVVsSklQMVN3Sg?oc=5",
+      "date": "2026-05-08",
+      "publishedAt": "2026-05-15T10:17:17Z",
+      "summary": "A video posted on X/Twitter on May 14, 2026 shows two unidentified flying objects zipping over houses and a figure appearing to be beamed up, but the footage is low quality and many viewers question its authenticity. Netizens offered mixed reactions: some suggested the objects could be seagulls, others argued the movement patterns were inconsistent with real UFO behavior and labeled the clip as fabricated. One commenter claimed the footage was neither fake nor AI‑generated, though no independent verification was provided.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 45,
+      "quality": 49,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -709,14 +692,9 @@
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
         {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "ALIEN als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
         },
         {
           "label": "Starker Titel",
@@ -725,43 +703,135 @@
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "ALIEN"
+      "matchedTerms": [],
+      "sourceQuality": 49,
+      "displayedAt": "2026-05-17T11:56:47Z",
+      "translation": {
+        "en": {
+          "title": "UFO Zips Over House And Beams Up A Human? Internet Discusses The Viral Alien Abduction Footage [WATCH]",
+          "summary": "A video posted on X/Twitter on May 14, 2026 shows two unidentified flying objects zipping over houses and a figure appearing to be beamed up, but the footage is low quality and many viewers question its authenticity. Netizens offered mixed reactions: some suggested the objects could be seagulls, others argued the movement patterns were inconsistent with real UFO behavior and labeled the clip as fabricated. One commenter claimed the footage was neither fake nor AI‑generated, though no independent verification was provided.",
+          "sourceHash": "98d85bc1ad0a89f1c701127a93fbe668b8ff86d8",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UFO rast über Haus hinweg und beamt einen Menschen hoch? Internet diskutiert das virale Filmmaterial zur Entführung durch Außerirdische [ANSCHAUEN]",
+          "summary": "Ein am 14. Mai 2026 auf X/Twitter veröffentlichtes Video zeigt zwei nicht identifizierte Flugobjekte, die über Häuser hinwegfliegen, und eine scheinbar hochgebeamte Gestalt. Das Filmmaterial ist jedoch von schlechter Qualität und viele Zuschauer bezweifeln seine Authentizität. Die Reaktionen der Internetnutzer waren gemischt: Einige schlugen vor, dass es sich bei den Objekten um Möwen handeln könnte, andere meinten, die Bewegungsmuster stünden nicht im Einklang mit dem echten UFO-Verhalten und bezeichneten den Clip als erfunden. Ein Kommentator behauptete, das Filmmaterial sei weder gefälscht noch KI-generiert, obwohl keine unabhängige Bestätigung vorgelegt wurde.",
+          "sourceHash": "98d85bc1ad0a89f1c701127a93fbe668b8ff86d8",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "ufo-files-in-pursuit-of-pies-in-the-sky",
+      "title": "UFO files | In pursuit of pies in the sky",
+      "source": "The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSi0xREluUnJrWm5DdTViNFBXaUdLek5UbnpabDdXSDNQX0Z0NnR6ZUlHS3dFdkF2WWtLYmx4Q1liUzJOZFFwbnUtajE4Mmk5NEFGSDdUdXpETkJQdG5CWWQ1YVkzVE9Za241UXZhTm1jaEF1aXZjTzJsZlFtbWw5Q0o3czBjaUE0YXfSAZcBQVVfeXFMT1BxX0VNczlSVE5TZVpYV3ZRQU03aTBSWmp2d2g5SWc0TEM0QS1mVjd2RmtnWTI2MVVLOTJxV3laaU1ES2VBUGlWMng3ekFHRl9wZllMZzJ5Z1dId3dXU1Z6bjgyRHFmdUwxQ2dRMnh0RmQzUVdicFQ1el9PaUxZUTFpemNZb3lHcy1McHVBalV4aWdqV09TTQ?oc=5",
+      "date": "2026-05-08",
+      "publishedAt": "2026-05-13T18:30:00Z",
+      "summary": "S. Department of War released 162 declassified documents, photos and videos on unidentified anomalous phenomena under President Donald Trump, with further releases planned through the PURSUE program. The release involves the White House, NASA, FBI, Office of the Director of National Intelligence and the All‑Domain Anomaly Resolution Office, and includes footage of UAPs over Greece, Iraq, the UAE and a football‑shaped object near Japan.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 47,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
       ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "files"
+      ],
+      "sourceQuality": 47,
+      "displayedAt": "2026-05-17T11:56:47Z",
+      "translation": {
+        "en": {
+          "title": "UFO files | In pursuit of pies in the sky",
+          "summary": "S. Department of War released 162 declassified documents, photos and videos on unidentified anomalous phenomena under President Donald Trump, with further releases planned through the PURSUE program. The release involves the White House, NASA, FBI, Office of the Director of National Intelligence and the All‑Domain Anomaly Resolution Office, and includes footage of UAPs over Greece, Iraq, the UAE and a football‑shaped object near Japan.",
+          "sourceHash": "9eb86bde85a4f1cf80e25e1045e6ab0b0b828c49",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UFO-Dateien | Auf der Suche nach Kuchen im Himmel",
+          "summary": "Das US-Kriegsministerium veröffentlichte unter Präsident Donald Trump 162 freigegebene Dokumente, Fotos und Videos zu nicht identifizierten anomalen Phänomenen. Weitere Veröffentlichungen sind im Rahmen des PURSUE-Programms geplant. An der Veröffentlichung sind das Weiße Haus, die NASA, das FBI, das Büro des Direktors des Nationalen Geheimdienstes und das All-Domain Anomaly Resolution Office beteiligt. Sie umfasst Aufnahmen von UAPs über Griechenland, dem Irak, den Vereinigten Arabischen Emiraten und einem fußballförmigen Objekt in der Nähe von Japan.",
+          "sourceHash": "9eb86bde85a4f1cf80e25e1045e6ab0b0b828c49",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "who-was-david-wilcock-the-latest-death-in-a-growing-missing-us-scientists-narrative-tied-to-ufo-claims",
+      "title": "Who was David Wilcock? The latest death in a growing ‘missing US scientists’ narrative tied to UFO claims",
+      "source": "MSN",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOVhHZnJpUHREMFFqSnc1ZlZBNUlLdXBKaHFPSjdtMjlEQmlBR2dQeDNQSUVSSFZWTWpmdXJHbUYwRXpJTEFQT3U4S3BBSElNajAzZVM5YWlmQjB4RmpLNkgwVmNhX29NaUNRSzcyUDVxeE00aXZUcUVJZU1LQ25yWmJ0TkJDSTdxdW1KZjUxUlFCWWdRcUZVSHVPX1RNM0FVM09LZ0RNdnVDa2FhMU5KcWNadHdGVUZaVDZkU3ZWM1NpWkpzVGhEY1BhUDZiQUVpcml0NXdkdDJxTFZqbHk2OUZQR0RvOUZGUGUxXzQ3VEtwX1haTXc?oc=5",
+      "date": "2026-05-09",
+      "publishedAt": "2026-05-09T09:17:53Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
       "summaryStatus": {
         "articleContentSummary": "missing",
         "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
       },
-      "sourceQuality": 45,
-      "displayedAt": "2026-05-17T07:22:13Z"
+      "sourceQuality": 40,
+      "displayedAt": "2026-05-17T11:56:47Z"
     }
   ],
   "summaries": {
-    "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public": "The Department of War, following a directive from President Donald J. Trump, has launched the PURSUE program to identify, declassify, and publicly release government records on unidentified aerial phenomena (UAP) and UFOs. On May 8 2026 it released its first tranche of 158 documents—including PDFs, images, and videos—covering incidents from 1944 to 1948 and other historical records. The release notes that the files are unresolved cases, meaning the government cannot definitively determine the nature of the observed phenomena, and invites private‑sector analysis to help interpret them. The Department will continue to issue new materials on a rolling basis as they are discovered and declassified, while also maintaining separate reporting on resolved UAP cases as required by law. The effort is coordinated with dozens of agencies, including the Office of the Director of National Intelligence, to provide unprecedented transparency to the American public.",
-    "sighting-longmont-s-ufo-files-national-database-details-decades-of-strange-sightings": "A national UFO database lists more than 100 reports from Longmont residents and travelers describing metallic spheres, triangular and chevron‑shaped craft, orange lights, green fireballs, and other unusual objects over the city. Recent entries include a March 25 2025 sighting of a hovering metallic sphere that lasted about 20 minutes, an October 14 2025 dark triangular craft with white lights and a muted hum, and a January 27 2026 silver chevron‑shaped object that was classified by NUFORC as “Aircraft — Probable.” Earlier reports date back to 1998, when a family saw a large triangular craft near the airport, and 1999, when a saucer‑shaped object with flashing lights was observed from a window. The database notes that many sightings could be explained by aircraft, satellites, drones, weather balloons, or optical effects, and that NUFORC includes cautionary notes or possible explanations for each case. The reports provide a public record of what witnesses said they saw, but they do not constitute official confirmation of extraterrestrial activity, and no definitive conclusion has been reached.",
+    "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public": "The U.S. government released 17 pages of previously classified Unidentified Anomalous Phenomena documents on May 8, as part of the Presidential Unsealing and Reporting System for UAP Encounters, with more files to be issued on a rolling basis. Florida has reported 8,872 UFO sightings since 1995, the second‑highest total in the nation, and the state has been the site of several notable incidents, including a 1944 P‑38 aircraft encounter, a 1967 Cuban Jet Incident involving radar operators, the 1987‑88 Gulf Breeze Six photographs, the 2012 Homestead Golden Knights event, a 2018 satellite image over Pratt & Whitney, and a 2021 Flagler County video. Many of these sightings have been later explained or debunked: the Gulf Breeze photos were shown to be a hoax involving a foam model, the Golden Knights were identified as a parachutist team using flares, and the Pratt & Whitney image was likely a stealth drone or test rig. Pentagon AARO director Sean Kirkpatrick and NASA official Dan Evans have stated that, to date, no credible evidence of extraterrestrial activity or off‑world technology has been found in UAP reports. The remaining uncertainty lies in the interpretation of the released documents and the unexplained nature of some sightings.",
+    "pentagon-s-immaculate-constellation-allegations-ignite-new-ufo-disclosure-firestorm-in-congress": "Whistleblower claims introduced in a House Oversight hearing in November 2024 allege that a secret program called “Immaculate Constellation” is an AI‑driven system that ingests global multispectral surveillance data and removes anomalous images before they reach the broader military intelligence community. The alleged program is described as an unacknowledged Special Access Program that centralizes classified UAP footage, sensor data, satellite imagery, and encounter reports, and is said to have operated outside normal congressional oversight for years. Pentagon spokesperson Sue Gough and former AARO director Sean Kirkpatrick have denied the existence of such a program, but congressional members from both parties are demanding greater transparency into UAP investigations, defense spending, and compartmentalized aerospace programs. Hearing materials cite specific incidents, such as aircraft being boxed by unidentified spheres and a glowing object near a Navy carrier group, but no publicly released evidence has independently verified these claims. The All‑domain Anomaly Resolution Office (AARO) has investigated UAP incidents and found no evidence of extraterrestrial technology, yet critics argue it may lack access to the most deeply compartmentalized programs if they exist. If the allegations are accurate, the controversy could trigger audits, inspector general probes, and potential criminal investigations into misuse of federal funds or unlawful concealment from Congress.",
     "illusionist-uri-geller-reacts-to-us-congressman-s-warning-over-next-set-of-ufo-files-holy-crap-is-coming": "Israeli‑British illusionist Uri Geller, 79, reacted to US Congressman Tim Burchett’s warning that the next batch of declassified UFO files will dwarf those already released, saying he believes every word of the warning. Burchett, a member of the UAP Caucus, told Joe Rogan that the first set of 162 documents was only a “drop in the bucket” and that “Holy Crap is coming” with future releases. He cited reports of pilots being pulled from duty for psychological evaluation after UAP encounters, and alleged sightings of underwater craft moving over 200 mph and as large as a football field. Geller tweeted that in the 1970s he was shown fragments of metal from a crashed UFO by rocket scientist Wernher von Braun, and that he later saw non‑human bodies stored at NASA’s Goddard Space Center. He claims the already released files, which include Apollo and Gemini mission reports of strange lights and objects, validate his long‑standing assertions and hopes the forthcoming documents will expose NASA’s full involvement.",
-    "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
-    "ufo-files-reveal-the-same-old-material": "On Friday the Pentagon released a new batch of declassified UFO files, including videos, images, State Department cables, FBI documents, and NASA transcripts, as President Trump urged the public to draw their own conclusions. The documents describe a range of sightings, such as a 1994 Tajikistan cable of a brightly lit object making 90‑degree turns over Kazakhstan, a 2023 Aegean Sea report of a UAP turning at 80 mph, a 2023 helicopter encounter with a “super‑hot” orb, and a 1969 Apollo 11 debrief in which Buzz Aldrin noted a bright light that could have been a laser. Other files include a 2023 drone‑pilot interview of a linear object, a 1972 Apollo 17 photo of three dots in a triangular formation, and more than 20 military videos from locations such as Syria, Japan, and North America showing fast‑moving specks and larger objects. The Pentagon notes that the cases are unresolved and that there is no consensus on the nature of the anomalies, with a preliminary analysis suggesting some could be physical objects but no evidence of alien technology. Experts and congressional members have urged caution and further transparency, with some calling for a thorough review of classified UAP records, while the 2024 Pentagon report confirmed no proof of recovered alien technology."
+    "film-new-documentary-follows-journalist-jeremy-corbell-s-hunt-for-the-truth-on-ufos": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
+    "ufo-zips-over-house-and-beams-up-a-human-internet-discusses-the-viral-alien-abduction-footage-watch": "A video posted on X/Twitter on May 14, 2026 shows two unidentified flying objects zipping over houses and a figure appearing to be beamed up, but the footage is low quality and many viewers question its authenticity. Netizens offered mixed reactions: some suggested the objects could be seagulls, others argued the movement patterns were inconsistent with real UFO behavior and labeled the clip as fabricated. One commenter claimed the footage was neither fake nor AI‑generated, though no independent verification was provided. The article notes that declassified UAP data released by the U.S. government, including 162 files, has yet to contain any confirmed abduction media. The piece references the historical context of close encounters, noting that CE4 incidents involve human abduction, but no such events have been documented in the released archives.",
+    "ufo-files-in-pursuit-of-pies-in-the-sky": "On May 8 the U.S. Department of War released 162 declassified documents, photos and videos on unidentified anomalous phenomena under President Donald Trump, with further releases planned through the PURSUE program. The release involves the White House, NASA, FBI, Office of the Director of National Intelligence and the All‑Domain Anomaly Resolution Office, and includes footage of UAPs over Greece, Iraq, the UAE and a football‑shaped object near Japan. Most of the files are heavily redacted—108 contain black masking and four were retracted—according to the Pentagon to protect eyewitness identities, facility locations and unrelated sensitive military information. AARO’s 2024 report added hundreds of new UAP sightings but found no confirmation of alien technology, and a second report is expected soon with low expectations for new revelations. The release has drawn criticism that it fuels speculation and that the Trump administration’s transparency is limited, while the site received over 340 million hits in the first half‑day, reaching more than 97 % of the U.S. population."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-17T08:13:55Z",
+    "timestamp": "2026-05-17T11:56:47Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 352,
-    "broadTopics": 166,
-    "notificationArticles": 4,
-    "notificationTopics": 4,
+    "broadArticles": 333,
+    "broadTopics": 144,
+    "notificationArticles": 3,
+    "notificationTopics": 3,
     "newNotificationTopics": 0,
-    "appTopics": 10,
+    "appTopics": 12,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 2,
+    "splitUnrelatedGroupedSources": 6,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 9,
+    "regroupedTopics": 10,
     "topicRegrouping": "title_summary_story_signature_v7",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -769,15 +839,27 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization",
-      "attempts": 7,
-      "repaired": 3,
-      "missing": 4
+      "attempts": 10,
+      "repaired": 4,
+      "missing": 6
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry",
-      "kept": 11,
-      "missing": 4,
+      "kept": 13,
+      "missing": 6,
       "missingItems": [
+        {
+          "id": "no-smoking-gun-in-new-az-ufo-report-it-s-something-even-stranger",
+          "title": "No 'smoking gun' in new AZ UFO report — it's something even stranger",
+          "source": "azcentral.com and The Arizona Republic",
+          "reason": "missing_article_content_summary_kept_visible"
+        },
+        {
+          "id": "ufo-whistleblowers-fear-being-called-crazy-as-officials-admit-encounters-with-unknown-craft-near-critical-us-sites",
+          "title": "UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites",
+          "source": "International Business Times UK",
+          "reason": "missing_article_content_summary_kept_visible"
+        },
         {
           "id": "pentagon-shares-17-newly-declassified-uap-images-from-the-1972-moon-landing-to-2026",
           "title": "Pentagon shares 17 newly declassified UAP images from the 1972 moon landing to 2026",
@@ -797,24 +879,24 @@
           "reason": "missing_article_content_summary_kept_visible"
         },
         {
-          "id": "program-secret-ufo-recovery-program-hid-multiple-alien-species-claims-hal-puthoff-watch",
-          "title": "Secret UFO Recovery Program Hid ‘Multiple Alien Species,’ Claims Hal Puthoff | WATCH",
-          "source": "The Times of India",
+          "id": "who-was-david-wilcock-the-latest-death-in-a-growing-missing-us-scientists-narrative-tied-to-ufo-claims",
+          "title": "Who was David Wilcock? The latest death in a growing ‘missing US scientists’ narrative tied to UFO claims",
+          "source": "MSN",
           "reason": "missing_article_content_summary_kept_visible"
         }
       ]
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v5_ignore_stale_cluster_titles",
-      "inputArticles": 11,
-      "outputArticles": 10,
-      "clearedConflictingSummaries": 5
+      "inputArticles": 13,
+      "outputArticles": 12,
+      "clearedConflictingSummaries": 6
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v2_keep_missing_summaries",
-      "inputArticles": 10,
-      "outputArticles": 10,
-      "missingSummaries": 5,
+      "inputArticles": 12,
+      "outputArticles": 12,
+      "missingSummaries": 6,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window"
@@ -824,28 +906,28 @@
     "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public": {
       "en": {
         "title": "Bright lights and hot orbs: UFO files shed light on sightings but leave interpretation to the public",
-        "summary": "The Department of War, following a directive from President Donald J. Trump, has launched the PURSUE program to identify, declassify, and publicly release government records on unidentified aerial phenomena (UAP) and UFOs. On May 8 2026 it released its first tranche of 158 documents—including PDFs, images, and videos—covering incidents from 1944 to 1948 and other historical records.",
-        "sourceHash": "c9ffd779aa11d8b1b456e51c5fd76d5d7548c8a3",
+        "summary": "S. government released 17 pages of previously classified Unidentified Anomalous Phenomena documents on May 8, as part of the Presidential Unsealing and Reporting System for UAP Encounters, with more files to be issued on a rolling basis.",
+        "sourceHash": "d24eea08f1934ac56a132ec0dc13701a2f20ba1e",
         "provider": "original"
       },
       "de": {
         "title": "Helle Lichter und heiße Kugeln: UFO-Akten geben Aufschluss über Sichtungen, überlassen die Interpretation jedoch der Öffentlichkeit",
-        "summary": "Das Kriegsministerium hat gemäß einer Anweisung von Präsident Donald J. Trump das PURSUE-Programm gestartet, um staatliche Aufzeichnungen über nicht identifizierte Luftphänomene (UAP) und UFOs zu identifizieren, freizugeben und öffentlich zu veröffentlichen. Am 8. Mai 2026 veröffentlichte es seine erste Tranche von 158 Dokumenten – darunter PDFs, Bilder und Videos – zu Vorfällen von 1944 bis 1948 und anderen historischen Aufzeichnungen.",
-        "sourceHash": "c9ffd779aa11d8b1b456e51c5fd76d5d7548c8a3",
+        "summary": "Die Regierung von S. veröffentlichte am 8. Mai im Rahmen des Präsidenten-Entsiegelungs- und Meldesystems für UAP-Begegnungen 17 Seiten zuvor geheimer Dokumente zu nicht identifizierten anomalen Phänomenen. Weitere Dateien werden fortlaufend herausgegeben.",
+        "sourceHash": "d24eea08f1934ac56a132ec0dc13701a2f20ba1e",
         "provider": "google"
       }
     },
-    "sighting-longmont-s-ufo-files-national-database-details-decades-of-strange-sightings": {
+    "pentagon-s-immaculate-constellation-allegations-ignite-new-ufo-disclosure-firestorm-in-congress": {
       "en": {
-        "title": "Longmont’s UFO Files: National Database Details Decades Of Strange Sightings",
-        "summary": "A national UFO database lists more than 100 reports from Longmont residents and travelers describing metallic spheres, triangular and chevron‑shaped craft, orange lights, green fireballs, and other unusual objects over the city. ” Earlier reports date back to 1998, when a family saw a large triangular craft near the airport, and 1999, when a saucer‑shaped object with flashing lights was observed from a window.",
-        "sourceHash": "8fb729c64af8296787c8057f97dfb009f2d4f41f",
+        "title": "Pentagon’s ‘Immaculate Constellation’ Allegations Ignite New UFO Disclosure Firestorm In Congress",
+        "summary": "Whistleblower claims introduced in a House Oversight hearing in November 2024 allege that a secret program called “Immaculate Constellation” is an AI‑driven system that ingests global multispectral surveillance data and removes anomalous images before they reach the broader military intelligence community. The alleged program is described as an unacknowledged Special Access Program that centralizes classified UAP footage, sensor data, satellite imagery, and encounter reports, and is said to have operated outside normal congressional oversight for years.",
+        "sourceHash": "d682cac345851d134a3d079304df956e46d23d73",
         "provider": "original"
       },
       "de": {
-        "title": "Longmonts UFO-Dateien: Nationale Datenbank beschreibt jahrzehntelange seltsame Sichtungen",
-        "summary": "Eine nationale UFO-Datenbank listet mehr als 100 Berichte von Einwohnern und Reisenden von Longmont auf, in denen Metallkugeln, dreieckige und winkelförmige Fahrzeuge, orangefarbene Lichter, grüne Feuerbälle und andere ungewöhnliche Objekte über der Stadt beschrieben werden. „Frühere Berichte stammen aus dem Jahr 1998, als eine Familie ein großes dreieckiges Flugzeug in der Nähe des Flughafens sah, und aus dem Jahr 1999, als aus einem Fenster ein untertassenförmiges Objekt mit blinkenden Lichtern beobachtet wurde.",
-        "sourceHash": "8fb729c64af8296787c8057f97dfb009f2d4f41f",
+        "title": "Die Anschuldigungen des Pentagons wegen der „Unbefleckten Konstellation“ entfachen im Kongress einen neuen Feuersturm zur Enthüllung von UFOs",
+        "summary": "Whistleblower-Behauptungen, die in einer Anhörung zur Aufsicht des Repräsentantenhauses im November 2024 vorgebracht wurden, behaupten, dass es sich bei einem geheimen Programm namens „Immaculate Constellation“ um ein KI-gesteuertes System handelt, das globale multispektrale Überwachungsdaten aufnimmt und anomale Bilder entfernt, bevor sie die breitere militärische Geheimdienstgemeinschaft erreichen. Das angebliche Programm wird als unbestätigtes Sonderzugriffsprogramm beschrieben, das geheime UAP-Aufnahmen, Sensordaten, Satellitenbilder und Begegnungsberichte zentralisiert und angeblich jahrelang außerhalb der normalen Kontrolle des Kongresses operiert hat.",
+        "sourceHash": "d682cac345851d134a3d079304df956e46d23d73",
         "provider": "google"
       }
     },
@@ -863,37 +945,51 @@
         "provider": "google"
       }
     },
-    "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": {
+    "film-new-documentary-follows-journalist-jeremy-corbell-s-hunt-for-the-truth-on-ufos": {
       "en": {
-        "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
+        "title": "New documentary follows journalist Jeremy Corbell’s hunt for the truth on UFOs",
         "summary": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
-        "sourceHash": "afa9e16d66c8a18c605de59053798807d3214c62",
+        "sourceHash": "f8ced33a4bc8b5143b70f898defbcdd442ffcbc3",
         "provider": "original"
       },
       "de": {
-        "title": "So schauen Sie sich „Sleeping Dog“ online an – streamen Sie die umstrittene UAP/UFO-Dokumentation von überall aus",
+        "title": "Neuer Dokumentarfilm folgt der Suche des Journalisten Jeremy Corbell nach der Wahrheit über UFOs",
         "summary": "Der Journalist und Filmemacher Jeremy Corbell bespricht seinen neuen Dokumentarfilm mit NBC News-Korrespondent Gadi Schwartz. Der Dokumentarfilm trägt den Titel „Sleeping Dog“. Es untersucht Corbells Umgang mit Regierungsgeheimnissen. Es geht auch um Whistleblower und seine Suche nach der Wahrheit über UFOs.",
-        "sourceHash": "afa9e16d66c8a18c605de59053798807d3214c62",
+        "sourceHash": "f8ced33a4bc8b5143b70f898defbcdd442ffcbc3",
         "provider": "google"
       }
     },
-    "ufo-files-reveal-the-same-old-material": {
+    "ufo-zips-over-house-and-beams-up-a-human-internet-discusses-the-viral-alien-abduction-footage-watch": {
       "en": {
-        "title": "UFO Files Reveal … the Same Old Material",
-        "summary": "On Friday the Pentagon released a new batch of declassified UFO files, including videos, images, State Department cables, FBI documents, and NASA transcripts, as President Trump urged the public to draw their own conclusions. The documents describe a range of sightings, such as a 1994 Tajikistan cable of a brightly lit object making 90‑degree turns over Kazakhstan, a 2023 Aegean Sea report of a UAP turning at 80 mph, a 2023 helicopter encounter with a “super‑hot” orb, and a 1969 Apollo 11 debrief in which Buzz Aldrin noted a bright light that could have been a laser.",
-        "sourceHash": "56af013ecb0b2e5dc6b1fce42ec64a0c95f0681b",
+        "title": "UFO Zips Over House And Beams Up A Human? Internet Discusses The Viral Alien Abduction Footage [WATCH]",
+        "summary": "A video posted on X/Twitter on May 14, 2026 shows two unidentified flying objects zipping over houses and a figure appearing to be beamed up, but the footage is low quality and many viewers question its authenticity. Netizens offered mixed reactions: some suggested the objects could be seagulls, others argued the movement patterns were inconsistent with real UFO behavior and labeled the clip as fabricated. One commenter claimed the footage was neither fake nor AI‑generated, though no independent verification was provided.",
+        "sourceHash": "98d85bc1ad0a89f1c701127a93fbe668b8ff86d8",
         "provider": "original"
       },
       "de": {
-        "title": "UFO-Dateien enthüllen … das gleiche alte Material",
-        "summary": "Am Freitag veröffentlichte das Pentagon einen neuen Stapel freigegebener UFO-Dateien, darunter Videos, Bilder, Depeschen des Außenministeriums, FBI-Dokumente und NASA-Transkripte, als Präsident Trump die Öffentlichkeit aufforderte, ihre eigenen Schlussfolgerungen zu ziehen. Die Dokumente beschreiben eine Reihe von Sichtungen, wie zum Beispiel ein Tadschikistan-Kabel eines hell erleuchteten Objekts aus dem Jahr 1994, das sich um 90 Grad über Kasachstan dreht, ein Bericht aus dem Jahr 2023 über eine UAP aus dem Ägäischen Meer, der sich mit 80 Meilen pro Stunde dreht, eine Hubschrauberbegegnung mit einer „superheißen“ Kugel aus dem Jahr 2023 und eine Nachbesprechung von Apollo 11 aus dem Jahr 1969, in der Buzz Aldrin ein helles Licht bemerkte, bei dem es sich um einen Laser gehandelt haben könnte.",
-        "sourceHash": "56af013ecb0b2e5dc6b1fce42ec64a0c95f0681b",
+        "title": "UFO rast über Haus hinweg und beamt einen Menschen hoch? Internet diskutiert das virale Filmmaterial zur Entführung durch Außerirdische [ANSCHAUEN]",
+        "summary": "Ein am 14. Mai 2026 auf X/Twitter veröffentlichtes Video zeigt zwei nicht identifizierte Flugobjekte, die über Häuser hinwegfliegen, und eine scheinbar hochgebeamte Gestalt. Das Filmmaterial ist jedoch von schlechter Qualität und viele Zuschauer bezweifeln seine Authentizität. Die Reaktionen der Internetnutzer waren gemischt: Einige schlugen vor, dass es sich bei den Objekten um Möwen handeln könnte, andere meinten, die Bewegungsmuster stünden nicht im Einklang mit dem echten UFO-Verhalten und bezeichneten den Clip als erfunden. Ein Kommentator behauptete, das Filmmaterial sei weder gefälscht noch KI-generiert, obwohl keine unabhängige Bestätigung vorgelegt wurde.",
+        "sourceHash": "98d85bc1ad0a89f1c701127a93fbe668b8ff86d8",
+        "provider": "google"
+      }
+    },
+    "ufo-files-in-pursuit-of-pies-in-the-sky": {
+      "en": {
+        "title": "UFO files | In pursuit of pies in the sky",
+        "summary": "S. Department of War released 162 declassified documents, photos and videos on unidentified anomalous phenomena under President Donald Trump, with further releases planned through the PURSUE program. The release involves the White House, NASA, FBI, Office of the Director of National Intelligence and the All‑Domain Anomaly Resolution Office, and includes footage of UAPs over Greece, Iraq, the UAE and a football‑shaped object near Japan.",
+        "sourceHash": "9eb86bde85a4f1cf80e25e1045e6ab0b0b828c49",
+        "provider": "original"
+      },
+      "de": {
+        "title": "UFO-Dateien | Auf der Suche nach Kuchen im Himmel",
+        "summary": "Das US-Kriegsministerium veröffentlichte unter Präsident Donald Trump 162 freigegebene Dokumente, Fotos und Videos zu nicht identifizierten anomalen Phänomenen. Weitere Veröffentlichungen sind im Rahmen des PURSUE-Programms geplant. An der Veröffentlichung sind das Weiße Haus, die NASA, das FBI, das Büro des Direktors des Nationalen Geheimdienstes und das All-Domain Anomaly Resolution Office beteiligt. Sie umfasst Aufnahmen von UAPs über Griechenland, dem Irak, den Vereinigten Arabischen Emiraten und einem fußballförmigen Objekt in der Nähe von Japan.",
+        "sourceHash": "9eb86bde85a4f1cf80e25e1045e6ab0b0b828c49",
         "provider": "google"
       }
     }
   },
   "translationMeta": {
-    "prepared": 5,
+    "prepared": 6,
     "failed": 0,
     "summary": "compact app summary only",
     "target": "de for English articles, en for German articles",
