@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-19T06:40:05Z",
+  "timestamp": "2026-05-19T13:54:23Z",
   "articles": [
     {
       "id": "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public",
@@ -8,7 +8,7 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRTl5cm4xelY1c2R0SXY0T1dURG13TTRxdmxDWThZVlo4aHpjUHlEOHo3VmFHY1JiMTNpbWxwRDk3cndhMlNiU2xIMm1DbzFJejlmNnVUdTgzcHpMdndsU19mLWVJNWVUbm1PZF9CLTFaV0hrbnNVZEdfQ1ByODRFd0FkcGlUVVVWYTlweHNDN3R1Q1NOMVhYWXN1OG1FSDFyV1BDNC1sY0pUX29Dd3B4QmZR?oc=5",
       "date": "2026-05-08",
       "publishedAt": "2026-05-08T07:00:00Z",
-      "summary": "President Donald J. Trump directed the Secretary of War and other agencies to identify and release government files on alien life, UAP, and UFOs. The Department of War, with support from the Office of the Director of National Intelligence, is coordinating a nationwide effort to review, declassify, and publicly release unresolved UAP records, involving dozens of agencies and tens of millions of documents.",
+      "summary": "President Donald Trump announced that the Pentagon is preparing to release previously unseen UFO files, saying the first documents will be released “very soon” after a February directive for transparency on extraterrestrial life and UAPs. The release follows a 2024 report by the All‑domain Anomaly Resolution Office that catalogued hundreds of UAP incidents but found no evidence of alien technology, and a second report on more recent sightings is expected soon.",
       "mentions": 21,
       "otherSources": [
         {
@@ -91,8 +91,7 @@
           "source": "Fortune",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOUc3dlpFTldfMDRYQXlPMkQ4aDlMNjBYaWZVd2RrQ1dLZkJ0VGFYY3gxNHNvMko2cER4Q1hhOUZpYzZzVGhHaERZcUJJZnNweTlDYmlNVmZZNGc2YUJyMHNTMlJOdUlHZkFnZnlzejBkNHlzOENQMlliZUpzSFpxTXRSMzdROTRJaUl0eElNVGwtWElQZHZDcXptZXVBaTZVM1NVMzltYXlrNnNVWVpTTGgtVE9qOWdBZ3ZhZg?oc=5",
           "title": "Pentagon begins releasing new files on UFOs, telling public to draw their own conclusions",
-          "displayedAt": "2026-05-19T06:40:05Z",
-          "isNew": true
+          "displayedAt": "2026-05-08T07:00:00Z"
         },
         {
           "title": "Trump keeps everyone up in the air with hints of what's coming in new batch of UFO files",
@@ -198,7 +197,8 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "pursue"
+        "files",
+        "trump"
       ],
       "sourceQuality": 90,
       "displayedAt": "2026-05-19T06:40:05Z",
@@ -206,14 +206,14 @@
       "translation": {
         "en": {
           "title": "Bright lights and hot orbs: UFO files shed light on sightings but leave interpretation to the public",
-          "summary": "President Donald J. Trump directed the Secretary of War and other agencies to identify and release government files on alien life, UAP, and UFOs. The Department of War, with support from the Office of the Director of National Intelligence, is coordinating a nationwide effort to review, declassify, and publicly release unresolved UAP records, involving dozens of agencies and tens of millions of documents.",
-          "sourceHash": "49c2b6c6be4240e8a5f0b15a2773520010939888",
+          "summary": "President Donald Trump announced that the Pentagon is preparing to release previously unseen UFO files, saying the first documents will be released “very soon” after a February directive for transparency on extraterrestrial life and UAPs. The release follows a 2024 report by the All‑domain Anomaly Resolution Office that catalogued hundreds of UAP incidents but found no evidence of alien technology, and a second report on more recent sightings is expected soon.",
+          "sourceHash": "49a5b2ad6180972f9d94df316796ea342adf9884",
           "provider": "original"
         },
         "de": {
           "title": "Helle Lichter und heiße Kugeln: UFO-Akten geben Aufschluss über Sichtungen, überlassen die Interpretation jedoch der Öffentlichkeit",
-          "summary": "Präsident Donald J. Trump wies den Kriegsminister und andere Behörden an, Regierungsakten über außerirdisches Leben, UAP und UFOs zu identifizieren und freizugeben. Das Kriegsministerium koordiniert mit Unterstützung des Büros des Direktors des Nationalen Geheimdienstes eine landesweite Anstrengung zur Überprüfung, Freigabe und Veröffentlichung ungelöster UAP-Aufzeichnungen, an der Dutzende von Behörden und Dutzende Millionen Dokumente beteiligt sind.",
-          "sourceHash": "49c2b6c6be4240e8a5f0b15a2773520010939888",
+          "summary": "Präsident Donald Trump gab bekannt, dass das Pentagon die Veröffentlichung bisher unveröffentlichter UFO-Dateien vorbereitet und sagte, die ersten Dokumente würden „sehr bald“ veröffentlicht, nachdem im Februar eine Richtlinie für Transparenz über außerirdisches Leben und UAPs erlassen worden sei. Die Veröffentlichung folgt auf einen Bericht des All-domain Anomaly Resolution Office aus dem Jahr 2024, in dem Hunderte von UAP-Vorfällen katalogisiert, aber keine Hinweise auf außerirdische Technologie gefunden wurden. Ein zweiter Bericht über neuere Sichtungen wird in Kürze erwartet.",
+          "sourceHash": "49a5b2ad6180972f9d94df316796ea342adf9884",
           "provider": "google"
         }
       }
@@ -361,8 +361,7 @@
       },
       "sourceQuality": 56,
       "displayedAt": "2026-05-19T06:40:05Z",
-      "sourceDisplayedAt": "2026-05-19T06:40:05Z",
-      "sourceIsNew": true
+      "sourceDisplayedAt": "2026-05-19T06:40:05Z"
     },
     {
       "id": "ufo-files-in-pursuit-of-pies-in-the-sky",
@@ -514,7 +513,8 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "pursue"
+        "files",
+        "trump"
       ],
       "sourceQuality": 47,
       "summaryStatus": {
@@ -523,6 +523,48 @@
       },
       "displayedAt": "2026-05-12T23:33:00Z",
       "sourceDisplayedAt": "2026-05-19T06:40:05Z"
+    },
+    {
+      "id": "aliens-nephilim-boebert-weighs-in-on-uaps",
+      "title": "Aliens? Nephilim? Boebert Weighs in on UAPs",
+      "source": "Colorado Times Recorder",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcVMtY05yY3BvQU5zV3NqeGpncFo1WGZWcldyU2RodUkyQndMS2RVTmNxc0NkNlJjWmdMX0x3LTVyUE5RNGh2OW13eFJsS2ZaS3FsVjU0WDJiSTk2OXc2MmllOU9saHN3QlJTX19RQTlrT0FuMjA2NXZxZmFJYW5aVF92VkxfUzNoTnh3ZzNubzcxRlNl?oc=5",
+      "date": "2026-05-08",
+      "publishedAt": "2026-05-11T22:21:46Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 47,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "files",
+        "trump"
+      ],
+      "sourceQuality": 47,
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "displayedAt": "2026-05-11T22:21:46Z",
+      "sourceDisplayedAt": "2026-05-19T13:54:23Z"
     },
     {
       "id": "ufo-whistleblowers-fear-being-called-crazy-as-officials-admit-encounters-with-unknown-craft-near-critical-us-sites",
@@ -555,7 +597,8 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "pursue"
+        "files",
+        "trump"
       ],
       "sourceQuality": 47,
       "summaryStatus": {
@@ -613,44 +656,30 @@
     }
   ],
   "summaries": {
-    "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public": "President Donald J. Trump directed the Secretary of War and other agencies to identify and release government files on alien life, UAP, and UFOs. The Department of War, with support from the Office of the Director of National Intelligence, is coordinating a nationwide effort to review, declassify, and publicly release unresolved UAP records, involving dozens of agencies and tens of millions of documents. On May 8, 2026 the Department of War released its first tranche of declassified files, including historical documents from 1944 to 1949, and issued a statement from Secretary of War Pete Hegseth affirming the administration’s commitment to transparency. The released materials are labeled as unresolved cases, meaning the government cannot definitively determine the nature of the phenomena, and the Department of War invites private‑sector analysis to assist. The Department of War will continue to report on resolved UAP cases as required by law and will publish additional declassified records on a rolling basis as they are discovered. Uncertainty remains about the full scope of the documents yet to be released and the ultimate conclusions that will be drawn from the ongoing analysis.",
+    "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public": "President Donald Trump announced that the Pentagon is preparing to release previously unseen UFO files, saying the first documents will be released “very soon” after a February directive for transparency on extraterrestrial life and UAPs. The release follows a 2024 report by the All‑domain Anomaly Resolution Office that catalogued hundreds of UAP incidents but found no evidence of alien technology, and a second report on more recent sightings is expected soon. Former director Sean Kirkpatrick has warned that the documents are unlikely to contain bombshell revelations or photos of aliens, noting that many viral videos can be explained by mundane military equipment. Congressional Republicans, led by Representative Anna Paulina Luna, have demanded UAP videos from the Pentagon and criticize the agency for not providing them, while the Task Force on Declassification of Federal Secrets continues to investigate UAP encounters. Trump’s statements have sparked both enthusiasm and skepticism, with the Pentagon yet to confirm the release schedule or the content of the forthcoming files.",
     "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": "Sleeping Dog, a documentary directed by Michael Lazovsky, follows journalist and filmmaker Jeremy Corbell as he investigates UFO and UAP phenomena. The film draws on Corbell's personal archive of hundreds of hours of footage, including material from well‑known UFO figures such as George Knapp, John Lear and Bob Lazar. Lazovsky says the documentary serves as insurance for Corbell, who faces threats from rogue organizations and companies that allegedly try to silence him. Corbell has about 46 videos that have not yet been released to the public, and he hopes the White House and Congress will declassify more UFO footage. The film aims to humanize the subject, dispel conspiracy stereotypes, and encourage serious discussion, and it became available digitally on May 12.",
     "ufo-files-in-pursuit-of-pies-in-the-sky": "The U.S. Department of War released a first batch of 161 declassified UFO/UAP files, some dating back to the 1940s, on its website. President Donald Trump announced the release on X, calling it a move toward “complete and maximum transparency” about alien and extraterrestrial phenomena. The files contain reports from the FBI, State Department, NASA, and Pentagon, including images of flying discs, a football‑shaped UAP near Japan, a 2026 U.S. Army sighting, and a glowing orange orb likened to the Eye of Sauron. A March 2024 Pentagon report noted that no evidence proved UAP were alien technology, with many sightings later identified as weather balloons, spy planes, satellites or other normal activity.",
     "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases": "Investigative writer Timothy Alberino claims the U.S. government secretly stores recovered alien bodies in underground military bases, citing crash‑retrieval operations that bypass elected oversight. He says sensitive UAP information is controlled by private aerospace contractors and deeply compartmentalised defence programmes, but no publicly available evidence has been produced to support these assertions. Alberino referenced eyewitness accounts of gray aliens and dismembered bodies, as well as former intelligence official David Grusch’s 2023 testimony that the U.S. recovered non‑human biologics, though these claims remain unverified. Scientists and mainstream researchers note that no physical evidence confirming extraterrestrial life or recovered alien technology has been released. Lawmakers such as Representative Tim Burchett and Representative Anna Paulina Luna have called for greater transparency and whistleblower protections amid ongoing UAP investigations."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-19T06:40:05Z",
-    "ids": [
-      "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public",
-      "uap-whistleblower-pilots-are-still-having-these-encounters"
-    ],
-    "articles": [
-      {
-        "id": "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public",
-        "title": "Bright lights and hot orbs: UFO files shed light on sightings but leave interpretation to the public",
-        "source": "AP News"
-      },
-      {
-        "id": "uap-whistleblower-pilots-are-still-having-these-encounters",
-        "title": "UAP whistleblower: Pilots are 'still having' these encounters",
-        "source": "MSN"
-      }
-    ]
+    "timestamp": "2026-05-19T13:54:23Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 316,
-    "broadTopics": 148,
+    "broadArticles": 321,
+    "broadTopics": 144,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
-    "appTopics": 8,
+    "appTopics": 9,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 11,
+    "splitUnrelatedGroupedSources": 10,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 13,
+    "regroupedTopics": 14,
     "topicRegrouping": "title_summary_story_signature_v7",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -659,13 +688,13 @@
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization",
       "attempts": 6,
-      "repaired": 2,
-      "missing": 4
+      "repaired": 1,
+      "missing": 5
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry",
-      "kept": 11,
-      "missing": 4,
+      "kept": 12,
+      "missing": 5,
       "missingItems": [
         {
           "id": "uap-whistleblower-pilots-are-still-having-these-encounters",
@@ -677,6 +706,12 @@
           "id": "no-smoking-gun-in-new-az-ufo-report-it-s-something-even-stranger",
           "title": "No 'smoking gun' in new AZ UFO report — it's something even stranger",
           "source": "azcentral.com and The Arizona Republic",
+          "reason": "missing_article_content_summary_kept_visible"
+        },
+        {
+          "id": "presidential-unsealing-and-reporting-system-for-uap-encounters-pursue",
+          "title": "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
+          "source": "U.S. Department of War (.gov)",
           "reason": "missing_article_content_summary_kept_visible"
         },
         {
@@ -695,15 +730,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v5_ignore_stale_cluster_titles",
-      "inputArticles": 11,
-      "outputArticles": 8,
-      "clearedConflictingSummaries": 4
+      "inputArticles": 12,
+      "outputArticles": 9,
+      "clearedConflictingSummaries": 5
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v3_keep_missing_summaries_notify_visible_topic_updates",
-      "inputArticles": 8,
-      "outputArticles": 8,
-      "missingSummaries": 4,
+      "inputArticles": 9,
+      "outputArticles": 9,
+      "missingSummaries": 5,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -711,28 +746,28 @@
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 8,
-      "newSources": 6
+      "updatedTopics": 9,
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 6,
-      "newTopics": 2,
-      "topicsWithNewSources": 2
+      "correctedExistingTopics": 9,
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     }
   },
   "translations": {
     "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public": {
       "en": {
         "title": "Bright lights and hot orbs: UFO files shed light on sightings but leave interpretation to the public",
-        "summary": "President Donald J. Trump directed the Secretary of War and other agencies to identify and release government files on alien life, UAP, and UFOs. The Department of War, with support from the Office of the Director of National Intelligence, is coordinating a nationwide effort to review, declassify, and publicly release unresolved UAP records, involving dozens of agencies and tens of millions of documents.",
-        "sourceHash": "49c2b6c6be4240e8a5f0b15a2773520010939888",
+        "summary": "President Donald Trump announced that the Pentagon is preparing to release previously unseen UFO files, saying the first documents will be released “very soon” after a February directive for transparency on extraterrestrial life and UAPs. The release follows a 2024 report by the All‑domain Anomaly Resolution Office that catalogued hundreds of UAP incidents but found no evidence of alien technology, and a second report on more recent sightings is expected soon.",
+        "sourceHash": "49a5b2ad6180972f9d94df316796ea342adf9884",
         "provider": "original"
       },
       "de": {
         "title": "Helle Lichter und heiße Kugeln: UFO-Akten geben Aufschluss über Sichtungen, überlassen die Interpretation jedoch der Öffentlichkeit",
-        "summary": "Präsident Donald J. Trump wies den Kriegsminister und andere Behörden an, Regierungsakten über außerirdisches Leben, UAP und UFOs zu identifizieren und freizugeben. Das Kriegsministerium koordiniert mit Unterstützung des Büros des Direktors des Nationalen Geheimdienstes eine landesweite Anstrengung zur Überprüfung, Freigabe und Veröffentlichung ungelöster UAP-Aufzeichnungen, an der Dutzende von Behörden und Dutzende Millionen Dokumente beteiligt sind.",
-        "sourceHash": "49c2b6c6be4240e8a5f0b15a2773520010939888",
+        "summary": "Präsident Donald Trump gab bekannt, dass das Pentagon die Veröffentlichung bisher unveröffentlichter UFO-Dateien vorbereitet und sagte, die ersten Dokumente würden „sehr bald“ veröffentlicht, nachdem im Februar eine Richtlinie für Transparenz über außerirdisches Leben und UAPs erlassen worden sei. Die Veröffentlichung folgt auf einen Bericht des All-domain Anomaly Resolution Office aus dem Jahr 2024, in dem Hunderte von UAP-Vorfällen katalogisiert, aber keine Hinweise auf außerirdische Technologie gefunden wurden. Ein zweiter Bericht über neuere Sichtungen wird in Kürze erwartet.",
+        "sourceHash": "49a5b2ad6180972f9d94df316796ea342adf9884",
         "provider": "google"
       }
     },
