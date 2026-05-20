@@ -1,6 +1,6 @@
-var CACHE = 'uap-v216-new-badge-guard';
+var CACHE = 'uap-v217-fast-open';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '216';
+var OVERRIDE_VERSION = '217';
 var OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
@@ -34,7 +34,6 @@ self.addEventListener('activate', function(e) {
       return self.clients.matchAll({ type: 'window' }).then(function(clients) {
         clients.forEach(function(client) {
           client.postMessage({ type: 'SW_UPDATED' });
-          if (client.url && client.navigate) client.navigate(client.url);
         });
       });
     })
