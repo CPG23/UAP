@@ -1,8 +1,9 @@
-var CACHE = 'uap-v218-fast-app';
+var CACHE = 'uap-v218-fast-app-hide';
 var META  = 'uap-meta-v1';
 var OVERRIDE_VERSION = '218';
 var OVERRIDE_FILES = [
-  'uap-fast-app.js'
+  'uap-fast-app.js',
+  'uap-fast-start-hide.js'
 ];
 var OLD_OVERRIDE_FILES = [
   'uap-feed-normalize.js',
