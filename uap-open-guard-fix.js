@@ -6,6 +6,7 @@
   var STYLE_ID = 'uap-open-guard-style';
   var touchStart = null;
   var lastTouchToggle = 0;
+  var lastPointerToggle = 0;
 
   function closest(target, selector){
     return target && target.closest ? target.closest(selector) : null;
@@ -36,16 +37,42 @@
     if (document.getElementById(STYLE_ID)) return;
     var style = document.createElement('style');
     style.id = STYLE_ID;
-    style.textContent = '.details{content-visibility:auto!important;contain:layout paint!important}.uap-detail-summary{contain:layout paint!important}';
+    style.textContent = [
+      '.article-main{touch-action:manipulation!important}',
+      '.details{content-visibility:auto!important;contain:layout paint!important}',
+      '.uap-detail-summary{contain:layout paint!important}'
+    ].join('');
     (document.head || document.documentElement).appendChild(style);
   }
+  function cardFromEvent(event){
+    if (event.__uapCardToggleHandled) return null;
+    if (interactiveTarget(event.target)) return null;
+    return articleCard(event.target);
+  }
+  function handlePointerDown(event){
+    if (event.button != null && event.button !== 0) return;
+    if (event.pointerType && event.pointerType !== 'mouse' && event.pointerType !== 'pen') return;
+    var card = cardFromEvent(event);
+    if (!card) return;
+    stopCardEvent(event);
+    lastPointerToggle = Date.now();
+    toggle(card);
+  }
+  function handleMouseDown(event){
+    if (window.PointerEvent) return;
+    if (event.button != null && event.button !== 0) return;
+    var card = cardFromEvent(event);
+    if (!card) return;
+    stopCardEvent(event);
+    lastPointerToggle = Date.now();
+    toggle(card);
+  }
   function handleClick(event){
-    if (event.__uapCardToggleHandled) return;
-    if (interactiveTarget(event.target)) return;
-    var card = articleCard(event.target);
+    var card = cardFromEvent(event);
     if (!card) return;
 
     stopCardEvent(event);
+    if (Date.now() - lastPointerToggle < 650) return;
     if (Date.now() - lastTouchToggle < 450) return;
     toggle(card);
   }
@@ -89,10 +116,22 @@
     lastTouchToggle = Date.now();
     toggle(card);
   }
+  function handleKeyDown(event){
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+    var main = closest(event.target, '.article-main');
+    if (!main || interactiveTarget(event.target)) return;
+    var card = articleCard(main);
+    if (!card) return;
+    stopCardEvent(event);
+    toggle(card);
+  }
 
   injectStyle();
+  window.addEventListener('pointerdown', handlePointerDown, true);
+  window.addEventListener('mousedown', handleMouseDown, true);
   window.addEventListener('click', handleClick, true);
   window.addEventListener('touchstart', handleTouchStart, { capture: true, passive: true });
   window.addEventListener('touchmove', handleTouchMove, { capture: true, passive: true });
   window.addEventListener('touchend', handleTouchEnd, { capture: true, passive: false });
+  window.addEventListener('keydown', handleKeyDown, true);
 })();
