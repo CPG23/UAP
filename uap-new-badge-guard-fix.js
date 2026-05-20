@@ -146,9 +146,10 @@
   window.addEventListener('load', load, { once: true });
   [150, 400, 900, 1800, 3200].forEach(function(delay){ window.setTimeout(apply, delay); });
   document.addEventListener('click', function(e){
-    if (e.target && e.target.closest && e.target.closest('#uap-new-filter-toggle,.article-main')) window.setTimeout(apply, 30);
+    if (e.target && e.target.closest && e.target.closest('#uap-new-filter-toggle')) window.setTimeout(apply, 30);
   }, true);
   if (window.MutationObserver) {
-    new MutationObserver(schedule).observe(document.getElementById('feed') || document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ['class'] });
+    var feed = document.getElementById('feed');
+    if (feed) new MutationObserver(schedule).observe(feed, { childList: true, subtree: true });
   }
 })();
