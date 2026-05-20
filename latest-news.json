@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-20T16:13:01Z",
+  "timestamp": "2026-05-20T16:18:58Z",
   "articles": [
     {
       "id": "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public",
@@ -206,10 +206,7 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "documents",
-        "photos",
-        "released",
-        "sightings"
+        "files"
       ],
       "sourceQuality": 90,
       "displayedAt": "2026-05-20T15:56:10Z",
@@ -234,11 +231,19 @@
       "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
       "source": "Tom's Guide",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM1lQdFdFZllPc1Q3bGNXSHRIcF9oel9NVWFOdUg5SDhkQmpXZXZEQWw2MHBvSmF4d0R1RE5udExuYnZ3YmlkTzZ0aUtXbU9pZ0pnSkhSMDRBNWwxcjQtQVRJQU84QkFMVG05U3MyNm9JTV9ZSllBdW9KUjgxMkVpZg?oc=5",
-      "date": "2026-05-08",
-      "publishedAt": "2026-05-08T07:00:00Z",
-      "summary": "Sleeping Dog, a documentary directed by Michael Lazovsky, follows journalist and filmmaker Jeremy Corbell as he investigates UFO and UAP phenomena. The film draws on Corbell's personal archive of hundreds of hours of footage, including material from well‑known UFO figures such as George Knapp, John Lear and Bob Lazar. Lazovsky says the documentary serves as insurance for Corbell, who faces threats from rogue organizations and companies that allegedly try to silence him.",
-      "mentions": 3,
+      "date": "2026-05-13",
+      "publishedAt": "2026-05-13T01:32:54Z",
+      "summary": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
+      "mentions": 4,
       "otherSources": [
+        {
+          "title": "New documentary follows journalist Jeremy Corbell’s hunt for the truth on UFOs",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWi1TdkJpdmZ2VXZWc2FueVE2MmxYTlJSeWJDNnRXSk9hb1RwZHNpVWswa1RYRE1oV2tCVFNES2NuUHF4aVNfak9RVEl4akdyRmNNc3RxcnQ5YTh0eHZWY0hKakEybWEtTGtUcVc4cUNjNVNhS0RQZm5QU2V0NFJGNjI4VDhRc1luaUQ4VHRFMTdMaUNMbzQyZUFZT0RHNWdCWE5DajZYTjJzYjBlNTU1S0FpVUx5RFRKZHNkN2hR?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWi1TdkJpdmZ2VXZWc2FueVE2MmxYTlJSeWJDNnRXSk9hb1RwZHNpVWswa1RYRE1oV2tCVFNES2NuUHF4aVNfak9RVEl4akdyRmNNc3RxcnQ5YTh0eHZWY0hKakEybWEtTGtUcVc4cUNjNVNhS0RQZm5QU2V0NFJGNjI4VDhRc1luaUQ4VHRFMTdMaUNMbzQyZUFZT0RHNWdCWE5DajZYTjJzYjBlNTU1S0FpVUx5RFRKZHNkN2hR?oc=5",
+          "source": "NBC News",
+          "publishedAt": "2026-05-13T01:32:54Z",
+          "displayedAt": "2026-05-13T01:32:54Z"
+        },
         {
           "title": "How to watch 'Sleeping Dog' - screen UAP/UFO doc online from anywhere",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY09yN3ZKN3hkUVRYc0Nfa1EyT0Q4RjJJM3NTbE96Sjg5eFBhZHpKbElwbUNreDRCX3c2UmtPTGNUcE5vcHpRYnlTZzdqbW00SGVYRXBNckNXZDF1N0JBSjFaZnQ0UjJzN1cyWmFVcG4yUm1pTmZoVXFvUjdoMjJPQnYzUnlwRnNTcU9oUFZqUFRvLVU?oc=5",
@@ -248,17 +253,20 @@
           "displayedAt": "2026-05-12T08:35:23Z"
         },
         {
-          "source": "evrimagaci.org",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
           "title": "Sleeping Dog Documentary Exposes UAP Secrets And Risks",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
+          "source": "evrimagaci.org",
+          "publishedAt": "2026-05-08T07:00:00Z",
           "displayedAt": "2026-05-08T07:00:00Z"
         }
       ],
       "clusterTitles": [
+        "New documentary follows journalist Jeremy Corbell’s hunt for the truth on UFOs",
         "How to watch 'Sleeping Dog' - screen UAP/UFO doc online from anywhere",
         "Sleeping Dog Documentary Exposes UAP Secrets And Risks"
       ],
-      "quality": 66,
+      "quality": 64,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -266,19 +274,9 @@
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
         {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
         },
         {
           "label": "Starker Titel",
@@ -286,34 +284,27 @@
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
         },
         {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
           "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
+          "points": 15,
+          "text": "4 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE"
-      ],
-      "sourceQuality": 66,
+      "matchedTerms": [],
+      "sourceQuality": 64,
       "displayedAt": "2026-05-08T07:00:00Z",
       "sourceDisplayedAt": "2026-05-08T07:00:00Z",
       "translation": {
         "en": {
           "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
-          "summary": "Sleeping Dog, a documentary directed by Michael Lazovsky, follows journalist and filmmaker Jeremy Corbell as he investigates UFO and UAP phenomena. The film draws on Corbell's personal archive of hundreds of hours of footage, including material from well‑known UFO figures such as George Knapp, John Lear and Bob Lazar. Lazovsky says the documentary serves as insurance for Corbell, who faces threats from rogue organizations and companies that allegedly try to silence him.",
-          "sourceHash": "d1ecb797530e54dd30744396053a0af461c735c4",
+          "summary": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
+          "sourceHash": "afa9e16d66c8a18c605de59053798807d3214c62",
           "provider": "original"
         },
         "de": {
           "title": "So schauen Sie sich „Sleeping Dog“ online an – streamen Sie die umstrittene UAP/UFO-Dokumentation von überall aus",
-          "summary": "„Sleeping Dog“, ein Dokumentarfilm von Michael Lazovsky, begleitet den Journalisten und Filmemacher Jeremy Corbell bei seiner Untersuchung von UFO- und UAP-Phänomenen. Der Film stützt sich auf Corbells persönliches Archiv mit Hunderten von Stunden Filmmaterial, darunter Material von bekannten UFO-Persönlichkeiten wie George Knapp, John Lear und Bob Lazar. Laut Lazovsky dient der Dokumentarfilm als Versicherung für Corbell, der Drohungen von Schurkenorganisationen und Unternehmen ausgesetzt ist, die angeblich versuchen, ihn zum Schweigen zu bringen.",
-          "sourceHash": "d1ecb797530e54dd30744396053a0af461c735c4",
+          "summary": "Der Journalist und Filmemacher Jeremy Corbell bespricht seinen neuen Dokumentarfilm mit NBC News-Korrespondent Gadi Schwartz. Der Dokumentarfilm trägt den Titel „Sleeping Dog“. Es untersucht Corbells Umgang mit Regierungsgeheimnissen. Es geht auch um Whistleblower und seine Suche nach der Wahrheit über UFOs.",
+          "sourceHash": "afa9e16d66c8a18c605de59053798807d3214c62",
           "provider": "google"
         }
       }
@@ -378,6 +369,64 @@
       "sourceQuality": 64,
       "displayedAt": "2026-05-08T07:00:00Z",
       "sourceDisplayedAt": "2026-05-20T13:35:16Z"
+    },
+    {
+      "id": "the-2026-alien-soft-launch-missing-scientists-aliens-gov-pentagon-secrets-y01qlmdfznb",
+      "title": "The 2026 Alien Soft Launch: Missing Scientists, Aliens.gov & Pentagon Secrets (y01QlMdFZnb)",
+      "source": "folha do es",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03UGtLR0tkODNRSnV2LWdBbkR5LUZYZGxfY09JMEIxVzdTdTFpekNUX21zNEhiZndXdXE4cGU1WC1lN1ptcGh4VjVoNXJ1djJEQU9Ka3VZRkJWMUp4THVRdVBuUEo?oc=5",
+      "date": "2026-05-19",
+      "publishedAt": "2026-05-19T22:23:38Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 60,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "ALIEN, PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "ALIEN",
+        "PENTAGON"
+      ],
+      "sourceQuality": 60,
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "displayedAt": "2026-05-20T16:18:58Z",
+      "sourceDisplayedAt": "2026-05-20T16:18:58Z",
+      "sourceIsNew": true
     },
     {
       "id": "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion",
@@ -574,7 +623,7 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSi0xREluUnJrWm5DdTViNFBXaUdLek5UbnpabDdXSDNQX0Z0NnR6ZUlHS3dFdkF2WWtLYmx4Q1liUzJOZFFwbnUtajE4Mmk5NEFGSDdUdXpETkJQdG5CWWQ1YVkzVE9Za241UXZhTm1jaEF1aXZjTzJsZlFtbWw5Q0o3czBjaUE0YXfSAZcBQVVfeXFMT1BxX0VNczlSVE5TZVpYV3ZRQU03aTBSWmp2d2g5SWc0TEM0QS1mVjd2RmtnWTI2MVVLOTJxV3laaU1ES2VBUGlWMng3ekFHRl9wZllMZzJ5Z1dId3dXU1Z6bjgyRHFmdUwxQ2dRMnh0RmQzUVdicFQ1el9PaUxZUTFpemNZb3lHcy1McHVBalV4aWdqV09TTQ?oc=5",
       "date": "2026-05-08",
       "publishedAt": "2026-05-13T18:30:00Z",
-      "summary": "S. Department of War released a first batch of 161 declassified UFO/UAP files, some dating back to the 1940s, on its website. President Donald Trump announced the release on X, calling it a move toward “complete and maximum transparency” about alien and extraterrestrial phenomena.",
+      "summary": "S. Department of War released 162 declassified UAP documents, photos and videos under President Donald Trump, with further updates planned through the PURSUE program that involves the White House, NASA, FBI, ODNI and AARO. The files contain fuzzy dots, a four‑pointed star and two enhanced photos of smears from Apollo 12 and 17, but 108 documents are heavily redacted and four were retracted, with the Pentagon citing protection of eyewitness identities, facility locations and sensitive military information.",
       "mentions": 2,
       "otherSources": [
         {
@@ -614,8 +663,7 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "files",
-        "images"
+        "files"
       ],
       "sourceQuality": 52,
       "displayedAt": "2026-05-20T13:35:16Z",
@@ -623,14 +671,14 @@
       "translation": {
         "en": {
           "title": "UFO files | In pursuit of pies in the sky",
-          "summary": "S. Department of War released a first batch of 161 declassified UFO/UAP files, some dating back to the 1940s, on its website. President Donald Trump announced the release on X, calling it a move toward “complete and maximum transparency” about alien and extraterrestrial phenomena.",
-          "sourceHash": "0f1fabee667793aee40e6032fab52c4c59b5f303",
+          "summary": "S. Department of War released 162 declassified UAP documents, photos and videos under President Donald Trump, with further updates planned through the PURSUE program that involves the White House, NASA, FBI, ODNI and AARO. The files contain fuzzy dots, a four‑pointed star and two enhanced photos of smears from Apollo 12 and 17, but 108 documents are heavily redacted and four were retracted, with the Pentagon citing protection of eyewitness identities, facility locations and sensitive military information.",
+          "sourceHash": "91d0de75ef8682d7c80926f221eb56072b3d6bcf",
           "provider": "original"
         },
         "de": {
           "title": "UFO-Dateien | Auf der Suche nach Kuchen im Himmel",
-          "summary": "Das US-Kriegsministerium hat auf seiner Website einen ersten Stapel von 161 freigegebenen UFO/UAP-Dateien veröffentlicht, von denen einige aus den 1940er Jahren stammen. Präsident Donald Trump kündigte die Veröffentlichung auf X an und nannte sie einen Schritt hin zu „vollständiger und maximaler Transparenz“ über außerirdische und außerirdische Phänomene.",
-          "sourceHash": "0f1fabee667793aee40e6032fab52c4c59b5f303",
+          "summary": "Das US-Kriegsministerium veröffentlichte unter Präsident Donald Trump 162 freigegebene UAP-Dokumente, Fotos und Videos. Weitere Aktualisierungen sind im Rahmen des PURSUE-Programms geplant, an dem das Weiße Haus, die NASA, das FBI, ODNI und AARO beteiligt sind. Die Dateien enthalten unscharfe Punkte, einen vierzackigen Stern und zwei verbesserte Fotos von Abstrichen von Apollo 12 und 17, aber 108 Dokumente sind stark redigiert und vier wurden zurückgezogen, wobei das Pentagon den Schutz von Augenzeugenidentitäten, Standorten von Einrichtungen und sensiblen militärischen Informationen anführt.",
+          "sourceHash": "91d0de75ef8682d7c80926f221eb56072b3d6bcf",
           "provider": "google"
         }
       }
@@ -783,65 +831,31 @@
           "provider": "google"
         }
       }
-    },
-    {
-      "id": "trump-declassifies-162-ufo-files-for-public-to-judge-the-evidence",
-      "title": "Trump declassifies 162 UFO files for public to judge the 'evidence'",
-      "source": "Euronews",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzZzS0o0akN0UXJ3bFc1ZkRWSkdLeDkzOFVRaFItSDRtY3JxeTB4M2FhUXVNRWJyeXlVdktKclphUWRlUGVUa0hTOXo4Rkx6SGdNc2FZZFpJbFNlaWF0TVVRenBEYzlaRFlFcTNQa1ZkbHRtSjYxV001b1ctb3RGWDlfRElQa1BLQmt3SG1FSGd0U2RvU2hybjRFUldKOUlDM3NZ?oc=5",
-      "date": "2026-05-08",
-      "publishedAt": "2026-05-09T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 47,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "trump"
-      ],
-      "sourceQuality": 47,
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "displayedAt": "2026-05-09T07:00:00Z",
-      "sourceDisplayedAt": "2026-05-09T07:00:00Z"
     }
   ],
   "summaries": {
     "file-release-bright-lights-and-hot-orbs-ufo-files-shed-light-on-sightings-but-leave-interpretation-to-the-public": "The U.S. government released 17 pages of previously classified Unidentified Anomalous Phenomena documents on May 8, as part of the Presidential Unsealing and Reporting System for UAP Encounters, with more files to be issued on a rolling basis. Florida has reported 8,872 UFO sightings since 1995, the second‑highest total in the nation, and the state has been the site of several notable incidents, including a 1944 P‑38 aircraft encounter, a 1967 Cuban Jet Incident involving radar operators, the 1987‑88 Gulf Breeze Six photographs, the 2012 Homestead Golden Knights event, a 2018 satellite image over Pratt & Whitney, and a 2021 Flagler County video. Many of these sightings have been later explained or debunked: the Gulf Breeze photos were shown to be a hoax involving a foam model, the Golden Knights were identified as a parachutist team using flares, and the Pratt & Whitney image was likely a stealth drone or test rig. Pentagon AARO director Sean Kirkpatrick and NASA official Dan Evans have stated that, to date, no credible evidence of extraterrestrial activity or off‑world technology has been found in UAP reports. The remaining uncertainty lies in the interpretation of the released documents and the unexplained nature of some sightings.",
-    "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": "Sleeping Dog, a documentary directed by Michael Lazovsky, follows journalist and filmmaker Jeremy Corbell as he investigates UFO and UAP phenomena. The film draws on Corbell's personal archive of hundreds of hours of footage, including material from well‑known UFO figures such as George Knapp, John Lear and Bob Lazar. Lazovsky says the documentary serves as insurance for Corbell, who faces threats from rogue organizations and companies that allegedly try to silence him. Corbell has about 46 videos that have not yet been released to the public, and he hopes the White House and Congress will declassify more UFO footage. The film aims to humanize the subject, dispel conspiracy stereotypes, and encourage serious discussion, and it became available digitally on May 12.",
+    "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
     "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released. The FBI is investigating a series of missing and dead scientists linked to secret nuclear and UFO programs, including the disappearance of retired General William Neil McCasland. Other scientists, such as David Wilcock, have also died under suspicious circumstances, adding to the pattern of unexplained losses.",
     "program-ukrainian-defence-ministry-advisor-drops-bizarre-ufos-encountered-by-military-amid-pentagon-s-disclosure-watch": "Serhii Beskrestnov, a senior adviser to Ukraine’s Minister of Defense, revealed that the Ukrainian Armed Forces have an official program to track and study unidentified flying objects, a directive approved by the Commander‑in‑Chief and active since the early days of the war with Russia. He said the program is a national‑security necessity because unidentified aerial activity over Ukrainian territory could represent new Russian weapons technology, and he posted 2023 reconnaissance footage as evidence. Beskrestnov noted that a formal UAF document governs the study of such phenomena and that the state institution handling the investigations has been active since the Soviet era. He urged military personnel and civilians who capture UFOs on camera to submit footage to uap@gur.gov.ua, arguing that field‑level visual evidence could be valuable intelligence. His statements came as the U.S. Pentagon declassified millions of UFO records, with the Department of War releasing 162 files on May 8 2026, 158 of which are now available online.",
-    "ufo-files-in-pursuit-of-pies-in-the-sky": "The U.S. Department of War released a first batch of 161 declassified UFO/UAP files, some dating back to the 1940s, on its website. President Donald Trump announced the release on X, calling it a move toward “complete and maximum transparency” about alien and extraterrestrial phenomena. The files contain reports from the FBI, State Department, NASA, and Pentagon, including images of flying discs, a football‑shaped UAP near Japan, a 2026 U.S. Army sighting, and a glowing orange orb likened to the Eye of Sauron. A March 2024 Pentagon report noted that no evidence proved UAP were alien technology, with many sightings later identified as weather balloons, spy planes, satellites or other normal activity.",
+    "ufo-files-in-pursuit-of-pies-in-the-sky": "On May 8 the U.S. Department of War released 162 declassified UAP documents, photos and videos under President Donald Trump, with further updates planned through the PURSUE program that involves the White House, NASA, FBI, ODNI and AARO. The files contain fuzzy dots, a four‑pointed star and two enhanced photos of smears from Apollo 12 and 17, but 108 documents are heavily redacted and four were retracted, with the Pentagon citing protection of eyewitness identities, facility locations and sensitive military information. The collection also includes videos of unidentified aerial phenomena from Greece, Iraq, the UAE and a U.S. Indo‑Pacific Command sighting near Japan, as well as an FBI‑Lab rendering of an ellipsoid shape reported in 2023. AARO’s 2024 report revealed hundreds of new UAP sightings but no confirmation of alien technology, and a second report is due soon, though expectations for new revelations remain low. The release drew over 340 million hits on war.gov/UFO in the first half‑day, prompting critics to view it as a deflection tactic rather than substantive disclosure.",
     "a-small-oregon-town-puts-on-a-big-ufo-festival-why-it-s-worth-a-visit": "The 26th Annual McMenamins UFO Festival in McMinnville, Oregon, runs from May 14 to 17 and is hosted by the Hotel Oregon, making it the second‑largest UFO festival in the U.S. after Roswell. The festival, which began in 2000 to celebrate the 1950 McMinnville UFO sighting and photos, features speakers, live music, a parade, costume contests, and a vendor street fair, with tickets required for most speaker presentations. Organizers say the event brings skeptics and believers together, and this year’s festival coincides with the release of new federal “UFO files,” adding fresh material for discussion. Most activities are free, but tickets can be purchased at ufofest.com, and the festival is held in the downtown historic district at 310 NE Evans St."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-20T16:13:01Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-05-20T16:18:58Z",
+    "ids": [
+      "the-2026-alien-soft-launch-missing-scientists-aliens-gov-pentagon-secrets-y01qlmdfznb"
+    ],
+    "articles": [
+      {
+        "id": "the-2026-alien-soft-launch-missing-scientists-aliens-gov-pentagon-secrets-y01qlmdfznb",
+        "title": "The 2026 Alien Soft Launch: Missing Scientists, Aliens.gov & Pentagon Secrets (y01QlMdFZnb)",
+        "source": "folha do es"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 319,
+    "broadArticles": 308,
     "broadTopics": 146,
     "notificationArticles": 2,
     "notificationTopics": 2,
@@ -851,9 +865,9 @@
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 11,
+    "splitUnrelatedGroupedSources": 10,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 15,
+    "regroupedTopics": 12,
     "topicRegrouping": "title_summary_story_signature_v7",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -861,8 +875,8 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization",
-      "attempts": 9,
-      "repaired": 4,
+      "attempts": 11,
+      "repaired": 6,
       "missing": 5
     },
     "summaryQualityGate": {
@@ -874,6 +888,12 @@
           "id": "pentagon-ufo-website-receives-340-million-hits-in-first-12-hours",
           "title": "Pentagon: UFO website receives 340 million hits in first 12 hours",
           "source": "NewsNation",
+          "reason": "missing_article_content_summary_kept_visible"
+        },
+        {
+          "id": "the-2026-alien-soft-launch-missing-scientists-aliens-gov-pentagon-secrets-y01qlmdfznb",
+          "title": "The 2026 Alien Soft Launch: Missing Scientists, Aliens.gov & Pentagon Secrets (y01QlMdFZnb)",
+          "source": "folha do es",
           "reason": "missing_article_content_summary_kept_visible"
         },
         {
@@ -892,12 +912,6 @@
           "id": "no-smoking-gun-in-new-az-ufo-report-it-s-something-even-stranger",
           "title": "No 'smoking gun' in new AZ UFO report — it's something even stranger",
           "source": "azcentral.com and The Arizona Republic",
-          "reason": "missing_article_content_summary_kept_visible"
-        },
-        {
-          "id": "trump-declassifies-162-ufo-files-for-public-to-judge-the-evidence",
-          "title": "Trump declassifies 162 UFO files for public to judge the 'evidence'",
-          "source": "Euronews",
           "reason": "missing_article_content_summary_kept_visible"
         }
       ]
@@ -921,20 +935,20 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 11,
-      "newSources": 0
+      "newSources": 2
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 11,
-      "newTopics": 0,
-      "topicsWithNewSources": 0
+      "correctedExistingTopics": 10,
+      "newTopics": 1,
+      "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "published_date_required_for_new_topic_or_source_after_final_feed_cleanup",
       "maxNewAgeHours": 30,
-      "notifications": 0,
-      "freshSources": 0,
-      "correctedOldSourceMarkers": 0
+      "notifications": 1,
+      "freshSources": 1,
+      "correctedOldSourceMarkers": 1
     }
   },
   "translations": {
@@ -955,14 +969,14 @@
     "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": {
       "en": {
         "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
-        "summary": "Sleeping Dog, a documentary directed by Michael Lazovsky, follows journalist and filmmaker Jeremy Corbell as he investigates UFO and UAP phenomena. The film draws on Corbell's personal archive of hundreds of hours of footage, including material from well‑known UFO figures such as George Knapp, John Lear and Bob Lazar. Lazovsky says the documentary serves as insurance for Corbell, who faces threats from rogue organizations and companies that allegedly try to silence him.",
-        "sourceHash": "d1ecb797530e54dd30744396053a0af461c735c4",
+        "summary": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
+        "sourceHash": "afa9e16d66c8a18c605de59053798807d3214c62",
         "provider": "original"
       },
       "de": {
         "title": "So schauen Sie sich „Sleeping Dog“ online an – streamen Sie die umstrittene UAP/UFO-Dokumentation von überall aus",
-        "summary": "„Sleeping Dog“, ein Dokumentarfilm von Michael Lazovsky, begleitet den Journalisten und Filmemacher Jeremy Corbell bei seiner Untersuchung von UFO- und UAP-Phänomenen. Der Film stützt sich auf Corbells persönliches Archiv mit Hunderten von Stunden Filmmaterial, darunter Material von bekannten UFO-Persönlichkeiten wie George Knapp, John Lear und Bob Lazar. Laut Lazovsky dient der Dokumentarfilm als Versicherung für Corbell, der Drohungen von Schurkenorganisationen und Unternehmen ausgesetzt ist, die angeblich versuchen, ihn zum Schweigen zu bringen.",
-        "sourceHash": "d1ecb797530e54dd30744396053a0af461c735c4",
+        "summary": "Der Journalist und Filmemacher Jeremy Corbell bespricht seinen neuen Dokumentarfilm mit NBC News-Korrespondent Gadi Schwartz. Der Dokumentarfilm trägt den Titel „Sleeping Dog“. Es untersucht Corbells Umgang mit Regierungsgeheimnissen. Es geht auch um Whistleblower und seine Suche nach der Wahrheit über UFOs.",
+        "sourceHash": "afa9e16d66c8a18c605de59053798807d3214c62",
         "provider": "google"
       }
     },
@@ -997,14 +1011,14 @@
     "ufo-files-in-pursuit-of-pies-in-the-sky": {
       "en": {
         "title": "UFO files | In pursuit of pies in the sky",
-        "summary": "S. Department of War released a first batch of 161 declassified UFO/UAP files, some dating back to the 1940s, on its website. President Donald Trump announced the release on X, calling it a move toward “complete and maximum transparency” about alien and extraterrestrial phenomena.",
-        "sourceHash": "0f1fabee667793aee40e6032fab52c4c59b5f303",
+        "summary": "S. Department of War released 162 declassified UAP documents, photos and videos under President Donald Trump, with further updates planned through the PURSUE program that involves the White House, NASA, FBI, ODNI and AARO. The files contain fuzzy dots, a four‑pointed star and two enhanced photos of smears from Apollo 12 and 17, but 108 documents are heavily redacted and four were retracted, with the Pentagon citing protection of eyewitness identities, facility locations and sensitive military information.",
+        "sourceHash": "91d0de75ef8682d7c80926f221eb56072b3d6bcf",
         "provider": "original"
       },
       "de": {
         "title": "UFO-Dateien | Auf der Suche nach Kuchen im Himmel",
-        "summary": "Das US-Kriegsministerium hat auf seiner Website einen ersten Stapel von 161 freigegebenen UFO/UAP-Dateien veröffentlicht, von denen einige aus den 1940er Jahren stammen. Präsident Donald Trump kündigte die Veröffentlichung auf X an und nannte sie einen Schritt hin zu „vollständiger und maximaler Transparenz“ über außerirdische und außerirdische Phänomene.",
-        "sourceHash": "0f1fabee667793aee40e6032fab52c4c59b5f303",
+        "summary": "Das US-Kriegsministerium veröffentlichte unter Präsident Donald Trump 162 freigegebene UAP-Dokumente, Fotos und Videos. Weitere Aktualisierungen sind im Rahmen des PURSUE-Programms geplant, an dem das Weiße Haus, die NASA, das FBI, ODNI und AARO beteiligt sind. Die Dateien enthalten unscharfe Punkte, einen vierzackigen Stern und zwei verbesserte Fotos von Abstrichen von Apollo 12 und 17, aber 108 Dokumente sind stark redigiert und vier wurden zurückgezogen, wobei das Pentagon den Schutz von Augenzeugenidentitäten, Standorten von Einrichtungen und sensiblen militärischen Informationen anführt.",
+        "sourceHash": "91d0de75ef8682d7c80926f221eb56072b3d6bcf",
         "provider": "google"
       }
     },
