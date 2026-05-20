@@ -23,6 +23,7 @@ on:
       - .github/scripts/finalize_app_feed.py
       - .github/scripts/mark_new_sources.py
       - .github/scripts/normalize_new_markers.py
+      - .github/scripts/finalize_new_events.py
       - .github/scripts/precompute_translations.py
       - .github/scripts/prepare_ntfy_payload.py
       - .github/workflows/daily-scan.yml
@@ -60,8 +61,8 @@ jobs:
         env:
           NTFY_TOPIC: UAP-News26
         run: |
-          echo "Running refreshed UAP scan with visible missing-summary support"
-          echo "Manual refresh trigger: 2026-05-17T10:14:00+02:00"
+          echo "Running refreshed UAP scan with final notification validation"
+          echo "Manual refresh trigger: 2026-05-20T16:45:00+02:00"
           cp latest-news.json previous-latest-news.json 2>/dev/null || true
           python3 .github/scripts/daily_scan.py
           python3 .github/scripts/split_unrelated_sources.py
@@ -78,6 +79,7 @@ jobs:
           python3 .github/scripts/finalize_app_feed.py
           python3 .github/scripts/mark_new_sources.py
           python3 .github/scripts/normalize_new_markers.py
+          python3 .github/scripts/finalize_new_events.py
           python3 .github/scripts/precompute_translations.py
           python3 .github/scripts/prepare_ntfy_payload.py
 
