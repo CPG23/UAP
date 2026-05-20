@@ -1,7 +1,10 @@
-var CACHE = 'uap-v217-fast-open';
+var CACHE = 'uap-v218-fast-app';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '217';
+var OVERRIDE_VERSION = '218';
 var OVERRIDE_FILES = [
+  'uap-fast-app.js'
+];
+var OLD_OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
   'uap-source-new-badge-fix.js',
@@ -11,11 +14,19 @@ var OVERRIDE_FILES = [
   'uap-header-retry-fix.js',
   'uap-final-stability-fix.js',
   'uap-open-guard-fix.js',
-  'uap-new-badge-guard-fix.js'
+  'uap-new-badge-guard-fix.js',
+  'uap-startup-alien.js',
+  'uap-startup-animation-final.js',
+  'uap-startup-visible-fix.js',
+  'uap-logo-scan-line.js',
+  'uap-ui-polish.js',
+  'uap-logo-final-polish.js',
+  'uap-startscreen-empty-fix.js',
+  'uap-startscreen-banner-fix.js'
 ];
-var NO_STORE_FILES = OVERRIDE_FILES.concat(['uap-startscreen-wallpaper.js', 'uap-visual-final-fix.js', 'uap-startscreen-reveal-fix.js', 'uap-startscreen-master-fix.js']);
+var NO_STORE_FILES = OVERRIDE_FILES.concat(OLD_OVERRIDE_FILES, ['uap-startscreen-wallpaper.js', 'uap-visual-final-fix.js', 'uap-startscreen-reveal-fix.js', 'uap-startscreen-master-fix.js']);
 
-var STARTUP_STILL_STYLE = '\n#loading{position:fixed!important;inset:0!important;z-index:1000!important;display:block!important;background:#02070b!important;overflow:hidden!important;animation:uapStartupHide 9s forwards!important;}\n#loading.hidden{opacity:0!important;visibility:hidden!important;pointer-events:none!important;}\n#loading>*{display:none!important;visibility:hidden!important;opacity:0!important;}\n@keyframes uapStartupHide{0%,96%{opacity:1;visibility:visible;pointer-events:auto;}100%{opacity:0;visibility:hidden;pointer-events:none;}}\n';
+var STARTUP_STILL_STYLE = '\n#loading{position:fixed!important;inset:0!important;z-index:1000!important;display:block!important;background:#02070b!important;overflow:hidden!important;animation:uapStartupHide 1.4s forwards!important;}\n#loading.hidden{opacity:0!important;visibility:hidden!important;pointer-events:none!important;}\n#loading>*{display:none!important;visibility:hidden!important;opacity:0!important;}\n@keyframes uapStartupHide{0%,78%{opacity:1;visibility:visible;pointer-events:auto;}100%{opacity:0;visibility:hidden;pointer-events:none;}}\n';
 
 self.addEventListener('install', function(e) {
   e.waitUntil(self.skipWaiting());
@@ -32,9 +43,7 @@ self.addEventListener('activate', function(e) {
     .then(function() { return self.clients.claim(); })
     .then(function() {
       return self.clients.matchAll({ type: 'window' }).then(function(clients) {
-        clients.forEach(function(client) {
-          client.postMessage({ type: 'SW_UPDATED' });
-        });
+        clients.forEach(function(client) { client.postMessage({ type: 'SW_UPDATED' }); });
       });
     })
   );
@@ -44,27 +53,8 @@ function scriptTag(file) {
   return '<script src="./' + file + '?v=' + OVERRIDE_VERSION + '"></script>';
 }
 
-function stripOverrideScripts(html) {
-  [
-    'uap-startup-alien.js',
-    'uap-startup-animation-final.js',
-    'uap-startup-visible-fix.js',
-    'uap-feed-normalize.js',
-    'uap-app-overrides.js',
-    'uap-source-new-badge-fix.js',
-    'uap-notify-button-fix.js',
-    'uap-quality-overlay-fix.js',
-    'uap-controls-layout-fix.js',
-    'uap-logo-scan-line.js',
-    'uap-ui-polish.js',
-    'uap-logo-final-polish.js',
-    'uap-header-retry-fix.js',
-    'uap-startscreen-empty-fix.js',
-    'uap-final-stability-fix.js',
-    'uap-open-guard-fix.js',
-    'uap-new-badge-guard-fix.js',
-    'uap-startscreen-banner-fix.js'
-  ].forEach(function(file) {
+function stripScripts(html) {
+  OLD_OVERRIDE_FILES.concat(OVERRIDE_FILES).forEach(function(file) {
     var escaped = file.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     html = html.replace(new RegExp('<script[^>]*' + escaped + '[^>]*><\\/script>', 'g'), '');
   });
@@ -77,11 +67,11 @@ function normalizeStartupMarkup(html) {
   return html;
 }
 
-function withFeedOverrides(resp) {
+function withFastApp(resp) {
   var headers = new Headers(resp.headers);
   headers.set('Cache-Control', 'no-store');
   return resp.text().then(function(html) {
-    html = stripOverrideScripts(html);
+    html = stripScripts(html);
     html = normalizeStartupMarkup(html);
     html = html.replace('</body>', OVERRIDE_FILES.map(scriptTag).join('') + '</body>');
     return new Response(html, { status: resp.status, statusText: resp.statusText, headers: headers });
@@ -95,10 +85,10 @@ self.addEventListener('fetch', function(e) {
   if (e.request.mode === 'navigate' || url.pathname.endsWith('/index.html') || url.pathname.endsWith('/UAP/')) {
     e.respondWith(
       fetch(e.request, { cache: 'no-store' }).then(function(resp) {
-        return withFeedOverrides(resp.clone());
+        return withFastApp(resp.clone());
       }).catch(function() {
         return caches.match(e.request).then(function(cached) {
-          return cached ? withFeedOverrides(cached.clone()) : new Response('Offline', { status: 503 });
+          return cached ? withFastApp(cached.clone()) : new Response('Offline', { status: 503 });
         });
       })
     );
