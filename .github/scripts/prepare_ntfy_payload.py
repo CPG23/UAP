@@ -9,9 +9,6 @@ TOPIC = os.environ.get('NTFY_TOPIC', 'UAP-News26').strip() or 'UAP-News26'
 
 
 def main():
-    if not os.path.exists(PAYLOAD_FILE):
-        return
-
     with open(LATEST_FILE, encoding='utf-8') as f:
         feed = json.load(f)
 
@@ -21,7 +18,8 @@ def main():
     visible = [by_id[item] for item in batch_ids if item in by_id]
 
     if not visible:
-        os.remove(PAYLOAD_FILE)
+        if os.path.exists(PAYLOAD_FILE):
+            os.remove(PAYLOAD_FILE)
         print('Notification payload removed: no notification articles are visible in final feed.')
         return
 
