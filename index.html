@@ -48,11 +48,11 @@
     display: block;
     background: #02070b;
     overflow: hidden;
-    animation: uapStartupHide 9s forwards;
+    animation: uapStartupHide 1.4s forwards;
   }
   #loading.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
   @keyframes uapStartupHide {
-    0%, 96% { opacity: 1; visibility: visible; pointer-events: auto; }
+    0%, 78% { opacity: 1; visibility: visible; pointer-events: auto; }
     100% { opacity: 0; visibility: hidden; pointer-events: none; }
   }
   header {
@@ -154,10 +154,10 @@
     .brand-title { height: 34vw; min-height: 120px; max-height: 184px; }
   }
 </style>
-<script src="./uap-startscreen-wallpaper.js?v=216"></script>
-<script src="./uap-visual-final-fix.js?v=216"></script>
-<script src="./uap-startscreen-reveal-fix.js?v=216"></script>
-<script src="./uap-startscreen-master-fix.js?v=216"></script>
+<script src="./uap-startscreen-wallpaper.js?v=218"></script>
+<script src="./uap-visual-final-fix.js?v=218"></script>
+<script src="./uap-startscreen-reveal-fix.js?v=218"></script>
+<script src="./uap-startscreen-master-fix.js?v=218"></script>
 </head>
 <body>
 <div id="loading" aria-hidden="true"></div>
@@ -181,29 +181,6 @@
   <section id="feed" aria-live="polite"></section>
 </main>
 <footer>UAP News · Datenquelle: GitHub latest-news.json</footer>
-<script src="./uap-feed-normalize.js?v=216"></script>
-<script src="./uap-app-overrides.js?v=216"></script>
-<script src="./uap-source-new-badge-fix.js?v=216"></script>
-<script src="./uap-notify-button-fix.js?v=216"></script>
-<script src="./uap-quality-overlay-fix.js?v=216"></script>
-<script src="./uap-controls-layout-fix.js?v=216"></script>
-<script src="./uap-header-retry-fix.js?v=216"></script>
-<script src="./uap-final-stability-fix.js?v=216"></script>
-<script src="./uap-open-guard-fix.js?v=216"></script>
-<script src="./uap-new-badge-guard-fix.js?v=216"></script>
-<script src="./uap-startscreen-master-fix.js?v=216"></script>
-<script>
-(function(){
-  function hideStart(){
-    var loading = document.getElementById('loading');
-    if (loading) loading.classList.add('hidden');
-  }
-  var refresh = document.getElementById('refresh-btn');
-  if (refresh) refresh.addEventListener('click', function(){ window.location.reload(); });
-  window.addEventListener('load', function(){ setTimeout(hideStart, 9000); });
-  setTimeout(hideStart, 9350);
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js?v=216').catch(function(){});
-})();
-</script>
+<script src="./uap-fast-app.js?v=218"></script>
 </body>
 </html>
