@@ -1,4 +1,4 @@
-var CACHE = 'uap-v218-fast-app-hide';
+var CACHE = 'uap-v218-fast-app-no-start';
 var META  = 'uap-meta-v1';
 var OVERRIDE_VERSION = '218';
 var OVERRIDE_FILES = [
@@ -23,11 +23,15 @@ var OLD_OVERRIDE_FILES = [
   'uap-ui-polish.js',
   'uap-logo-final-polish.js',
   'uap-startscreen-empty-fix.js',
-  'uap-startscreen-banner-fix.js'
+  'uap-startscreen-banner-fix.js',
+  'uap-startscreen-wallpaper.js',
+  'uap-visual-final-fix.js',
+  'uap-startscreen-reveal-fix.js',
+  'uap-startscreen-master-fix.js'
 ];
-var NO_STORE_FILES = OVERRIDE_FILES.concat(OLD_OVERRIDE_FILES, ['uap-startscreen-wallpaper.js', 'uap-visual-final-fix.js', 'uap-startscreen-reveal-fix.js', 'uap-startscreen-master-fix.js']);
+var NO_STORE_FILES = OVERRIDE_FILES.concat(OLD_OVERRIDE_FILES);
 
-var STARTUP_STILL_STYLE = '\n#loading{position:fixed!important;inset:0!important;z-index:1000!important;display:block!important;background:#02070b!important;overflow:hidden!important;animation:uapStartupHide 1.4s forwards!important;}\n#loading.hidden{opacity:0!important;visibility:hidden!important;pointer-events:none!important;}\n#loading>*{display:none!important;visibility:hidden!important;opacity:0!important;}\n@keyframes uapStartupHide{0%,78%{opacity:1;visibility:visible;pointer-events:auto;}100%{opacity:0;visibility:hidden;pointer-events:none;}}\n';
+var STARTUP_STILL_STYLE = '\n#loading{display:none!important;visibility:hidden!important;pointer-events:none!important;}\n';
 
 self.addEventListener('install', function(e) {
   e.waitUntil(self.skipWaiting());
