@@ -3,6 +3,7 @@
   if (window.__uapOpenGuardFix) return;
   window.__uapOpenGuardFix = true;
 
+  var STYLE_ID = 'uap-open-guard-style';
   var touchStart = null;
   var lastTouchToggle = 0;
 
@@ -25,13 +26,27 @@
   function toggle(card){
     setOpen(card, !card.classList.contains('uap-detail-open'));
   }
+  function stopCardEvent(event){
+    event.preventDefault();
+    event.__uapCardToggleHandled = true;
+    if (event.stopImmediatePropagation) event.stopImmediatePropagation();
+    else event.stopPropagation();
+  }
+  function injectStyle(){
+    if (document.getElementById(STYLE_ID)) return;
+    var style = document.createElement('style');
+    style.id = STYLE_ID;
+    style.textContent = '.details{content-visibility:auto!important;contain:layout paint!important}.uap-detail-summary{contain:layout paint!important}';
+    (document.head || document.documentElement).appendChild(style);
+  }
   function handleClick(event){
-    if (event.defaultPrevented) return;
-    if (Date.now() - lastTouchToggle < 450) return;
+    if (event.__uapCardToggleHandled) return;
     if (interactiveTarget(event.target)) return;
     var card = articleCard(event.target);
     if (!card) return;
-    event.preventDefault();
+
+    stopCardEvent(event);
+    if (Date.now() - lastTouchToggle < 450) return;
     toggle(card);
   }
   function handleTouchStart(event){
@@ -39,8 +54,17 @@
       touchStart = null;
       return;
     }
+    if (interactiveTarget(event.target)) {
+      touchStart = null;
+      return;
+    }
+    var card = articleCard(event.target);
+    if (!card) {
+      touchStart = null;
+      return;
+    }
     var touch = event.touches[0];
-    touchStart = { x: touch.clientX, y: touch.clientY, target: event.target, moved: false };
+    touchStart = { x: touch.clientX, y: touch.clientY, target: event.target, card: card, moved: false };
   }
   function handleTouchMove(event){
     if (!touchStart || !event.touches || event.touches.length !== 1) return;
@@ -58,16 +82,17 @@
       touchStart = null;
       return;
     }
-    var card = articleCard(touchStart.target);
+    var card = touchStart.card || articleCard(touchStart.target);
     touchStart = null;
     if (!card) return;
-    event.preventDefault();
+    stopCardEvent(event);
     lastTouchToggle = Date.now();
     toggle(card);
   }
 
-  document.addEventListener('click', handleClick, true);
-  document.addEventListener('touchstart', handleTouchStart, { capture: true, passive: true });
-  document.addEventListener('touchmove', handleTouchMove, { capture: true, passive: true });
-  document.addEventListener('touchend', handleTouchEnd, { capture: true, passive: false });
+  injectStyle();
+  window.addEventListener('click', handleClick, true);
+  window.addEventListener('touchstart', handleTouchStart, { capture: true, passive: true });
+  window.addEventListener('touchmove', handleTouchMove, { capture: true, passive: true });
+  window.addEventListener('touchend', handleTouchEnd, { capture: true, passive: false });
 })();
