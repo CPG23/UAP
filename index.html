@@ -41,20 +41,7 @@
     background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,212,255,.025) 2px, rgba(0,212,255,.025) 4px);
   }
   a { color: inherit; }
-  #loading {
-    position: fixed;
-    inset: 0;
-    z-index: 1000;
-    display: block;
-    background: #02070b;
-    overflow: hidden;
-    animation: uapStartupHide 1.4s forwards;
-  }
-  #loading.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
-  @keyframes uapStartupHide {
-    0%, 78% { opacity: 1; visibility: visible; pointer-events: auto; }
-    100% { opacity: 0; visibility: hidden; pointer-events: none; }
-  }
+  #loading { display: none !important; visibility: hidden !important; pointer-events: none !important; }
   header {
     padding: 0;
     border-bottom: 1px solid rgba(0,212,255,.42);
@@ -67,20 +54,23 @@
   .header-inner { display: block; width: 100%; max-width: none; margin: 0; padding: 0; }
   .brand { display: block; width: 100%; min-width: 0; margin: 0; padding: 0; }
   .brand-title {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
-    height: 31vw;
-    min-height: 118px;
-    max-height: 210px;
+    height: clamp(118px, 22vw, 210px);
     margin: 0;
     padding: 0;
-    line-height: 0;
     overflow: hidden;
-    background: #000;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    text-shadow: none;
+    background: radial-gradient(circle at 50% 45%, rgba(0,212,255,.18), transparent 36%), #000;
+    color: #dff8ff;
+    font-family: 'Rajdhani', system-ui, sans-serif;
+    font-size: clamp(44px, 11vw, 118px);
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-shadow: 0 0 18px rgba(0,212,255,.78), 0 0 46px rgba(0,255,157,.28);
   }
+  .brand-title::before { content: 'UAP NEWS'; }
   .brand-sub, .status { display: none; }
   main { max-width: 920px; margin: 0 auto; padding: 16px 18px 52px; }
   .toolbar {
@@ -151,13 +141,9 @@
   }
   @media (max-width: 560px) {
     main { padding-left: 12px; padding-right: 12px; }
-    .brand-title { height: 34vw; min-height: 120px; max-height: 184px; }
+    .brand-title { height: 120px; }
   }
 </style>
-<script src="./uap-startscreen-wallpaper.js?v=218"></script>
-<script src="./uap-visual-final-fix.js?v=218"></script>
-<script src="./uap-startscreen-reveal-fix.js?v=218"></script>
-<script src="./uap-startscreen-master-fix.js?v=218"></script>
 </head>
 <body>
 <div id="loading" aria-hidden="true"></div>
