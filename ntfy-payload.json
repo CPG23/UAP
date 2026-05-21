@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "UAP News - 3 new reports",
+  "message": "1. Four different alien species retrieved from crashed UFOs, claims former CIA researcher | Hindustan Times\n2. Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms\n3. The 2026 Alien Soft Launch: Missing Scientists, Aliens.gov & Pentagon Secrets (y01QlMdFZnb)",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "Open app",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
