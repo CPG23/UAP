@@ -66,6 +66,8 @@ GENERIC_LEAD_RE = re.compile(
     r"(states|says|discusses|highlights|appears|covers|focuses|is about|falls under)",
     re.I,
 )
+UAP_RE = re.compile(r"\b(uap|uaps|ufo|ufos|unidentified anomalous|unidentified aerial|unidentified flying|alien|pentagon|aaro|nasa|congress|disclosure|whistleblower|sighting|sightings|orb|orbs)\b", re.I)
+TOPIC_RE = re.compile(r"\b(report|reports|document|documents|release|released|government|investigation|investigations|sighting|sightings|arizona|az|pentagon|uap|uaps|ufo|ufos|alien|disclosure|file|files|archive|archives)\b", re.I)
 WORD_RE = re.compile(r"[a-z0-9]+", re.I)
 STOP_WORDS = set(
     "a an the to of for in on at by with from and or is are was were be been has have had "
@@ -87,6 +89,10 @@ def words(value: Any) -> set[str]:
     }
 
 
+def topic_words(value: Any) -> set[str]:
+    return {word.lower() for word in TOPIC_RE.findall(compact(value))}
+
+
 def sentence_count(text: str) -> int:
     return len(re.findall(r"[.!?](?:\s|$)", text))
 
@@ -106,6 +112,7 @@ def has_feed_overlap(summary: str, article: dict[str, Any]) -> bool:
         for part in [
             article.get("title"),
             article.get("description"),
+            article.get("source"),
             " ".join(compact(src.get("title")) for src in article.get("otherSources", []) if isinstance(src, dict)),
         ]
         if compact(part)
@@ -115,7 +122,19 @@ def has_feed_overlap(summary: str, article: dict[str, Any]) -> bool:
     if not source_words or not summary_words:
         return True
     shared = source_words & summary_words
-    return len(shared) >= 3 or len(shared) / max(1, min(len(source_words), len(summary_words))) >= 0.18
+    if len(shared) >= 3 or len(shared) / max(1, min(len(source_words), len(summary_words))) >= 0.18:
+        return True
+
+    # Some publisher pages expose a short "Story Summary" whose factual wording
+    # shares only broad UAP/report terms with a terse headline. Keep those when
+    # both sides are clearly on the same UAP/document topic instead of throwing
+    # away a legitimate article-content summary.
+    source_topics = topic_words(source_text)
+    summary_topics = topic_words(summary)
+    shared_topics = source_topics & summary_topics
+    if UAP_RE.search(source_text) and UAP_RE.search(summary) and shared_topics:
+        return True
+    return False
 
 
 def is_good_summary(value: Any, article: dict[str, Any]) -> bool:
@@ -179,7 +198,7 @@ def main() -> None:
 
     meta = data.setdefault("scanMeta", {})
     meta["summaryRepair"] = {
-        "policy": "repair_after_cluster_normalization",
+        "policy": "repair_after_cluster_normalization_v2_short_story_summary_overlap",
         "attempts": attempts,
         "repaired": repaired,
         "missing": missing,
