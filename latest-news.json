@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-21T17:56:15Z",
+  "timestamp": "2026-05-21T19:14:56Z",
   "articles": [
     {
       "id": "file-release-department-of-war-releases-unidentified-anomalous-phenomena-files-in-historic-transparency-effort",
@@ -9,7 +9,7 @@
       "date": "2026-05-08",
       "publishedAt": "2026-05-08T07:00:00Z",
       "summary": "The Pentagon released a set of previously classified files on unidentified anomalous phenomena, including reports of bright lights, corkscrew‑twisting objects, and a 1972 NASA photo, but the documents contain no evidence of alien technology. In California, the National UFO Reporting Center logged 80 sightings in 2026, ranging from cigar‑shaped objects and rotating flat panels to fireballs and pink‑white orbs, with witnesses describing brief, fast disappearances and unusual flight patterns.",
-      "mentions": 21,
+      "mentions": 24,
       "otherSources": [
         {
           "title": "Pentagon begins releasing new files on UFOs and says people can 'make up their own minds'",
@@ -64,12 +64,13 @@
           "displayedAt": "2026-05-08T17:09:52Z"
         },
         {
-          "title": "Pentagon Declassifies New UAP Records: Secret Cold War Summits and Modern Sightings Fuel Transparency Debate",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DQkk4VnJjQUg2SmRneGF3RF92Uk1jX0tGOWVPYXg3cWJ0TXFOTWZlU0RsbkxvUVI5T25JTHMyVmVvUXh0NUJNbGstREJ5QURUdkhxXzdWNFE5T3IwMElNR0hhZjZabk1NU2hQQ2czSQ?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DQkk4VnJjQUg2SmRneGF3RF92Uk1jX0tGOWVPYXg3cWJ0TXFOTWZlU0RsbkxvUVI5T25JTHMyVmVvUXh0NUJNbGstREJ5QURUdkhxXzdWNFE5T3IwMElNR0hhZjZabk1NU2hQQ2czSQ?oc=5",
-          "source": "Azat TV",
+          "title": "What is the secret behind the Pentagon’s 8-Pointed UFO? Viral UAP footage has internet users linking Alien",
+          "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPZHVXQk1qQllzb2lKZXpqeGNrRm1WS3B0OEdVT2R4Q1pHUGM0NGhmYk1CclYyZ21TdjRYY2FsRk5sTDIzTkVyZnhZaVJzT01vMVQ3amdKS0c4WkFpQjUzdHlLb1FUbFlrXzFYbUU3bllkeVlnaDFmbzNUQ19yUm5oTjE3N21XUlcwU2lTTUlCR0M2QVFhTDdmeUlFaWZPcEdINmpMVlNkTTJlMFFEbWF2RVhyZmd0ZWFLcW5NcTluVG9jRGNYd092MkljUWdqaUFjQ3lNZ1dJV1ZyUmdQMzNtbERoemZkMDczdkNYTFY2V183SV96VWYxUktfZW1HbnNnYzFOMTRrdUpDLTYtOGVVT2dmTE4teURtSnJqU0dGYU80XzVWWW5NQ2ZVNFVqdE5jYmNTRUJBdUJ1NGU1cVpSaENaV2U4dkUzTF9jV0Z1T18zTktGMDEzTVp5ZWZPd9IB4wJBVV95cUxPOEZyWmdWUVRSRjN2R3ZMRmdDb0sway1BUXZkd1ltM204T3p6RVZjb3lPdUp4aFJMZnNfMnoyLVV0SnFGVHZ5aGFYblM1M1NPVGZMRkFCSTI3UFdPMVRPZUR0UDRRZnJXMTJmLVpZdVNUelhYVEZLZG11QXh0NVZhcTN4cGNZVG1Kd3VjRDVQc3Brc0VQa1B0YWxkTGtzb3VSc3BEUUJIbnYyZ1RWeF9XUkdNSWxXTzFSMXhXMFRxOWlzMk9zdXlfM2sxVmE1T2RPanpPb0IxZWh6RjVBMjNZRnQ2aFBEbzh3TjhkUzZRa2x5MEQ3b084ZlI5aDJrb1dtNDZQS3FEMzFhVXhmRlBVWGpZdm8tS1ZjTWViU3ROYkFGR0FPNXhmSUhrQnVKdXNsTVZKcXhFMVBmSmZwU2EtcXNPQ0diQTVwTjcwejIycjdsUEk0NmZFTEVwRVc4b1BWamtv?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPZHVXQk1qQllzb2lKZXpqeGNrRm1WS3B0OEdVT2R4Q1pHUGM0NGhmYk1CclYyZ21TdjRYY2FsRk5sTDIzTkVyZnhZaVJzT01vMVQ3amdKS0c4WkFpQjUzdHlLb1FUbFlrXzFYbUU3bllkeVlnaDFmbzNUQ19yUm5oTjE3N21XUlcwU2lTTUlCR0M2QVFhTDdmeUlFaWZPcEdINmpMVlNkTTJlMFFEbWF2RVhyZmd0ZWFLcW5NcTluVG9jRGNYd092MkljUWdqaUFjQ3lNZ1dJV1ZyUmdQMzNtbERoemZkMDczdkNYTFY2V183SV96VWYxUktfZW1HbnNnYzFOMTRrdUpDLTYtOGVVT2dmTE4teURtSnJqU0dGYU80XzVWWW5NQ2ZVNFVqdE5jYmNTRUJBdUJ1NGU1cVpSaENaV2U4dkUzTF9jV0Z1T18zTktGMDEzTVp5ZWZPd9IB4wJBVV95cUxPOEZyWmdWUVRSRjN2R3ZMRmdDb0sway1BUXZkd1ltM204T3p6RVZjb3lPdUp4aFJMZnNfMnoyLVV0SnFGVHZ5aGFYblM1M1NPVGZMRkFCSTI3UFdPMVRPZUR0UDRRZnJXMTJmLVpZdVNUelhYVEZLZG11QXh0NVZhcTN4cGNZVG1Kd3VjRDVQc3Brc0VQa1B0YWxkTGtzb3VSc3BEUUJIbnYyZ1RWeF9XUkdNSWxXTzFSMXhXMFRxOWlzMk9zdXlfM2sxVmE1T2RPanpPb0IxZWh6RjVBMjNZRnQ2aFBEbzh3TjhkUzZRa2x5MEQ3b084ZlI5aDJrb1dtNDZQS3FEMzFhVXhmRlBVWGpZdm8tS1ZjTWViU3ROYkFGR0FPNXhmSUhrQnVKdXNsTVZKcXhFMVBmSmZwU2EtcXNPQ0diQTVwTjcwejIycjdsUEk0NmZFTEVwRVc4b1BWamtv?oc=5",
+          "source": "The Economic Times",
           "publishedAt": "2026-05-20T13:36:09Z",
-          "displayedAt": "2026-05-20T13:36:09Z"
+          "displayedAt": "2026-05-21T17:56:15Z",
+          "isNew": true
         },
         {
           "source": "WVLT",
@@ -82,6 +83,15 @@
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTF9ZeXROTy05a0R6T1dtWUpzNEQyNW1vLVZ1WW9JLVprN3ZROXhsQlRDbVRBYXMtWXk1NVRiellVQ0RhNHRPV0Z0Y19TOWFzN1BidE43VXd1TkZXLWc2MWJ0RF9SRTVSNE1leDhHeUdHS2FFRWZpUlhhNlR3aFo5emI0VGJoWktFbUVzUGdFVDBycVBOVXlpV1ZlVnBQbVJPTElIejY5R2poMEk0ZnVoZ19ydmRFWm5Qa1ZYRG5DUFFLZ3F3Z3BIQjdlTFhBZ0dUeEw2cUFR0gHqAUFVX3lxTE5Qc2dBMnFjSHMwY2l1blhlSTdueXpGNlVtMlMwd1Bycm1WSFktN1dPamhlLUhlSHMwVW5MNWtnUUxhSm9KaDJ1UEFla1RENHJVSWczUWRkV3J3RnJLdnNuMlZfbExnLTNOOWMyVkQwRVg2VFhQTURwbjk1ZUU2WEdfSTdJazVzVTRSTFZyX2JPbTZXVENuOGZ6aThJbVhvRTBXUTdTV3N5dGhqM2JRejR0ZHFvTGhvLVNpZEpXYnRZU0pmMkp0QWV0bjFKT3o1WU82RjZGYkRkRmdsbFBLamViVGRyX1JHTDFyUQ?oc=5",
           "title": "GOP congresswoman claims aliens are fallen angels as Trump releases UFO files: ‘This is in the Bible’",
           "displayedAt": "2026-05-08T07:00:00Z"
+        },
+        {
+          "title": "UFO witnesses reported seeing 'four-foot-tall’ crewmen wearing space suits and helmets, files reveal",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNzg2a1hYZUhxZi02c0Y3WEdMZENVV3NGTmJrR0h4aG1oNmc1RWNBTmxkbWR2ekpXUkF2VHFCTDV2bHVBeHU5ZlZpd1lMaGc5cDZBdzRHMnlHZUNVUmttLThOTVhkRHp3c0hRVnVzNVRaODBzb05kaTV6Y3BfZ2dtTFhncjBZWkNjS2ZmQUFUZjNHRmZRdjM5d1hNRXhDclhpY1lWYmVpcmtac3lGeWFGY3FFLWlXOXVMdGVYdEFpbndIVGVTN1liRzM1cU5PYmZlR3c?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNzg2a1hYZUhxZi02c0Y3WEdMZENVV3NGTmJrR0h4aG1oNmc1RWNBTmxkbWR2ekpXUkF2VHFCTDV2bHVBeHU5ZlZpd1lMaGc5cDZBdzRHMnlHZUNVUmttLThOTVhkRHp3c0hRVnVzNVRaODBzb05kaTV6Y3BfZ2dtTFhncjBZWkNjS2ZmQUFUZjNHRmZRdjM5d1hNRXhDclhpY1lWYmVpcmtac3lGeWFGY3FFLWlXOXVMdGVYdEFpbndIVGVTN1liRzM1cU5PYmZlR3c?oc=5",
+          "source": "New York Post",
+          "publishedAt": "2026-05-08T07:00:00Z",
+          "displayedAt": "2026-05-21T19:14:56Z",
+          "isNew": true
         },
         {
           "title": "Mysterious footage captures peculiar ‘eight-pointed star’ streaking across sky: UFO files",
@@ -106,6 +116,14 @@
           "displayedAt": "2026-05-08T07:00:00Z"
         },
         {
+          "title": "Trump declassifies 162 UFO files for public to judge the 'evidence'",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzZzS0o0akN0UXJ3bFc1ZkRWSkdLeDkzOFVRaFItSDRtY3JxeTB4M2FhUXVNRWJyeXlVdktKclphUWRlUGVUa0hTOXo4Rkx6SGdNc2FZZFpJbFNlaWF0TVVRenBEYzlaRFlFcTNQa1ZkbHRtSjYxV001b1ctb3RGWDlfRElQa1BLQmt3SG1FSGd0U2RvU2hybjRFUldKOUlDM3NZ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzZzS0o0akN0UXJ3bFc1ZkRWSkdLeDkzOFVRaFItSDRtY3JxeTB4M2FhUXVNRWJyeXlVdktKclphUWRlUGVUa0hTOXo4Rkx6SGdNc2FZZFpJbFNlaWF0TVVRenBEYzlaRFlFcTNQa1ZkbHRtSjYxV001b1ctb3RGWDlfRElQa1BLQmt3SG1FSGd0U2RvU2hybjRFUldKOUlDM3NZ?oc=5",
+          "source": "Euronews",
+          "publishedAt": "2026-05-08T07:00:00Z",
+          "displayedAt": "2026-05-08T07:00:00Z"
+        },
+        {
           "source": "TMZ",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zU2M1RGo1MGxCbHZqU0lsbFlQQV9CYWpHYWtLYnNDYW52azJ4UFN4Qi1ub1J0U2VqNkZnVC1hN2FGZlJmenJKc2p5MUNabEN3aEtsN0U2MTdoSzNEb0hoWnhKR0VPSmFjOWxvX0pWVUxtbFFnLW5XNWd3ckNVVzA?oc=5",
           "title": "Trump's Department of War Releases First Batch of Alien, UFO Files",
@@ -118,6 +136,15 @@
           "displayedAt": "2026-05-08T07:00:00Z"
         },
         {
+          "title": "1st US UFO documents, photos released. Notable Florida sightings",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN2k0QUd5enJMRzJEUnRobTk0dk9JaWdDcVNuZGxDb1UwNGc5aEtDcS1FVUlWVzdRd2F0MVdZR0R3OHhFNzVYMEpuLVFYWElWXzdyUUEtOTJ0VEQ1U2d6WEJRdG81WUo5bzBTUVlZZ2lnVkFDVGh3RThNNWpZUnh3ckpYSk8wWkxUbEdHOW9IMm1pQjUxc1piRTZnVTNzTnRaajE2ZERn?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN2k0QUd5enJMRzJEUnRobTk0dk9JaWdDcVNuZGxDb1UwNGc5aEtDcS1FVUlWVzdRd2F0MVdZR0R3OHhFNzVYMEpuLVFYWElWXzdyUUEtOTJ0VEQ1U2d6WEJRdG81WUo5bzBTUVlZZ2lnVkFDVGh3RThNNWpZUnh3ckpYSk8wWkxUbEdHOW9IMm1pQjUxc1piRTZnVTNzTnRaajE2ZERn?oc=5",
+          "source": "Florida Today",
+          "publishedAt": "2026-05-08T20:09:00Z",
+          "displayedAt": "2026-05-21T19:14:56Z",
+          "isNew": true
+        },
+        {
           "title": "Trump releases UFO files, says public can judge for themselves",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNnUxdldlSGlZTW9fV0VpMjdCTnZrTzFURm1XT1FkLWF6Z09ZR2tfajBmVVhDQ2s5c2VkNUh1MXR6TGg2cjZQeFNKSTRKLWpqc05Cb0RQSUk4cXI5UTZrbWlvZjhxZkg2bXlTWVNJTUFmY2RRNXRQUFBQRGt4UjBJRFlwZVVDMkpYcERKOA?oc=5",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNnUxdldlSGlZTW9fV0VpMjdCTnZrTzFURm1XT1FkLWF6Z09ZR2tfajBmVVhDQ2s5c2VkNUh1MXR6TGg2cjZQeFNKSTRKLWpqc05Cb0RQSUk4cXI5UTZrbWlvZjhxZkg2bXlTWVNJTUFmY2RRNXRQUFBQRGt4UjBJRFlwZVVDMkpYcERKOA?oc=5",
@@ -126,7 +153,7 @@
           "displayedAt": "2026-05-08T07:00:00Z"
         },
         {
-          "source": "Spectrum News",
+          "source": "spectrumlocalnews.com",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNHVFenR3R1BPUEp0ajJXWDdNYWxsc3BiYVRsQnJxX1JHTU1PT01IWVFRMjBBOS0wN3lVMTRuMGVpanVYOGpza0ZRV0JycjNMeUdIam9JNzdMNlNjNTMtbkl3MEtlc1laaUtwOXpFaENqVHlNTDluWE1kbGVIVG5VUHc3eTFVa2ZuYjZxczl4NUxNZnpsM1BWd3N2cXJGLXYwb1Vwa0E3NzZfWlRtOGdXNm1fSTFYTjh6WE9JSGI5djlFTUk5T3pIcXhTdWZ4QVVrWEJFWFA5QXQ?oc=5",
           "title": "Pentagon releases first batch of UFO records on new website",
           "displayedAt": "2026-05-08T07:00:00Z"
@@ -162,7 +189,7 @@
         "Trump releases the UFO files: 5 key questions",
         "Pentagon UFO files release: Amid new UFO disclosure, officials say public can draw conclusions on unidentified anomalous phenomena",
         "Trump Administration Opens WAR.GOV/UFO As Historic UAP File Release Puts America’s UFO Questions In Public View",
-        "Pentagon Declassifies New UAP Records: Secret Cold War Summits and Modern Sightings Fuel Transparency Debate",
+        "What is the secret behind the Pentagon’s 8-Pointed UFO? Viral UAP footage has internet users linking Alien",
         "‘Source of great concern’ | Newly-released Pentagon documents outline decades-old Oak Ridge UFO sightings",
         "GOP congresswoman claims aliens are fallen angels as Trump releases UFO files: ‘This is in the Bible’"
       ],
@@ -201,7 +228,7 @@
         {
           "label": "Mehrere Quellen",
           "points": 40,
-          "text": "21 Quellen im aktuellen Feed."
+          "text": "24 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -210,7 +237,7 @@
         "sightings"
       ],
       "sourceQuality": 100,
-      "displayedAt": "2026-05-08T07:00:00Z",
+      "displayedAt": "2026-05-21T19:14:56Z",
       "sourceDisplayedAt": "2026-05-08T07:00:00Z",
       "translation": {
         "en": {
@@ -350,7 +377,7 @@
       "date": "2026-05-08",
       "publishedAt": "2026-05-20T05:26:24Z",
       "summary": "",
-      "mentions": 5,
+      "mentions": 4,
       "otherSources": [
         {
           "title": "35 Years After UFO Encounter, Cheyenne Man Still Trying To Figure Out What He Saw",
@@ -359,14 +386,6 @@
           "source": "Cowboy State Daily",
           "publishedAt": "2026-05-16T15:58:00Z",
           "displayedAt": "2026-05-16T15:58:00Z"
-        },
-        {
-          "title": "Longmont’s UFO Files: National Database Details Decades Of Strange Sightings",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdHVWUlZZMFJCQUpibmE4SFhTMldZZnlDMkJWeGhZX0pwVEJWdnRsQ0dDcDdvYmdiR05kejktNnBQWmQyVm5naU9VZ0lFSmotVGFaMUpyQ1NYR3pTcFV4U0dDblJmZ2REYkE2VXpXVDhONlZPUTFFRnM5UTB6TC1BRmQ4UzJZblRoY1ZDLUxBbzc5akFLcFI1WWZxYnh4TEZIQ01jeEd4alJLU0FZcExxMkczbVZDMFRra3FDb2NyY0VJdGM?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdHVWUlZZMFJCQUpibmE4SFhTMldZZnlDMkJWeGhZX0pwVEJWdnRsQ0dDcDdvYmdiR05kejktNnBQWmQyVm5naU9VZ0lFSmotVGFaMUpyQ1NYR3pTcFV4U0dDblJmZ2REYkE2VXpXVDhONlZPUTFFRnM5UTB6TC1BRmQ4UzJZblRoY1ZDLUxBbzc5akFLcFI1WWZxYnh4TEZIQ01jeEd4alJLU0FZcExxMkczbVZDMFRra3FDb2NyY0VJdGM?oc=5",
-          "source": "longmontleader.com",
-          "publishedAt": "2026-05-08T23:00:00Z",
-          "displayedAt": "2026-05-08T23:00:00Z"
         },
         {
           "title": "Pentagon UFO files, bold alien claim fuel California sightings intrigue",
@@ -389,11 +408,10 @@
       ],
       "clusterTitles": [
         "35 Years After UFO Encounter, Cheyenne Man Still Trying To Figure Out What He Saw",
-        "Longmont’s UFO Files: National Database Details Decades Of Strange Sightings",
         "Pentagon UFO files, bold alien claim fuel California sightings intrigue",
         "VIDEO: Pentagon files reveal UFO sightings over UAE"
       ],
-      "quality": 89,
+      "quality": 80,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -427,8 +445,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 24,
-          "text": "5 Quellen im aktuellen Feed."
+          "points": 15,
+          "text": "4 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -436,7 +454,7 @@
         "files",
         "sightings"
       ],
-      "sourceQuality": 89,
+      "sourceQuality": 80,
       "summaryStatus": {
         "articleContentSummary": "missing",
         "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
@@ -451,8 +469,8 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM1lQdFdFZllPc1Q3bGNXSHRIcF9oel9NVWFOdUg5SDhkQmpXZXZEQWw2MHBvSmF4d0R1RE5udExuYnZ3YmlkTzZ0aUtXbU9pZ0pnSkhSMDRBNWwxcjQtQVRJQU84QkFMVG05U3MyNm9JTV9ZSllBdW9KUjgxMkVpZg?oc=5",
       "date": "2026-05-12",
       "publishedAt": "2026-05-12T07:00:00Z",
-      "summary": "Sleeping Dog is a documentary that follows UFO journalist Jeremy Corbell over a decade of reporting, showing his interviews with figures such as aviator John Lear and physicist Bob Lazar. The film includes Corbell’s own testimony, voicemails, and footage of him dealing with death threats, phone taps, and alleged CIA and FBI surveillance. Corbell’s mother expresses fear that the intelligence agencies have a hit on him, while his mentor George Knapp describes the threats as “over the edge” and notes that Knapp’s phone was tapped.",
-      "mentions": 3,
+      "summary": "\"Sleeping Dog\" is a documentary directed by Michael Lazovsky that follows UFO journalist Jeremy Corbell over a decade of reporting, intercutting his own interviews with footage of voicemails, testimonies, and personal moments. S. military.",
+      "mentions": 4,
       "otherSources": [
         {
           "title": "Jeremy Corbell’s Sleeping Dog: UFO whistleblower chaos, CIA fear, and Lazar lore",
@@ -469,13 +487,23 @@
           "source": "Yahoo",
           "publishedAt": "2026-05-12T07:00:00Z",
           "displayedAt": "2026-05-12T07:00:00Z"
+        },
+        {
+          "title": "Sleeping Dog Documentary Exposes UAP Secrets And Risks",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
+          "source": "Evrim Ağacı",
+          "publishedAt": "2026-05-08T07:00:00Z",
+          "displayedAt": "2026-05-21T19:14:56Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
         "Jeremy Corbell’s Sleeping Dog: UFO whistleblower chaos, CIA fear, and Lazar lore",
-        "How to watch 'Sleeping Dog' - screen UAP/UFO doc online from anywhere"
+        "How to watch 'Sleeping Dog' - screen UAP/UFO doc online from anywhere",
+        "Sleeping Dog Documentary Exposes UAP Secrets And Risks"
       ],
-      "quality": 75,
+      "quality": 76,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -509,8 +537,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
+          "points": 15,
+          "text": "4 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -518,88 +546,20 @@
         "CIA",
         "WHISTLEBLOWER"
       ],
-      "sourceQuality": 75,
-      "displayedAt": "2026-05-12T07:00:00Z",
+      "sourceQuality": 76,
+      "displayedAt": "2026-05-21T19:14:56Z",
       "sourceDisplayedAt": "2026-05-21T14:01:58Z",
       "translation": {
         "en": {
           "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
-          "summary": "Sleeping Dog is a documentary that follows UFO journalist Jeremy Corbell over a decade of reporting, showing his interviews with figures such as aviator John Lear and physicist Bob Lazar. The film includes Corbell’s own testimony, voicemails, and footage of him dealing with death threats, phone taps, and alleged CIA and FBI surveillance. Corbell’s mother expresses fear that the intelligence agencies have a hit on him, while his mentor George Knapp describes the threats as “over the edge” and notes that Knapp’s phone was tapped.",
-          "sourceHash": "1ccc69e81fb54f2242f1ed581ceb7f0e4086fd11",
+          "summary": "\"Sleeping Dog\" is a documentary directed by Michael Lazovsky that follows UFO journalist Jeremy Corbell over a decade of reporting, intercutting his own interviews with footage of voicemails, testimonies, and personal moments. S. military.",
+          "sourceHash": "c4a700892bc8be57f8e2641e2f31ecb0d646f74f",
           "provider": "original"
         },
         "de": {
           "title": "So schauen Sie sich „Sleeping Dog“ online an – streamen Sie die umstrittene UAP/UFO-Dokumentation von überall aus",
-          "summary": "„Sleeping Dog“ ist ein Dokumentarfilm, der den UFO-Journalisten Jeremy Corbell über ein Jahrzehnt der Berichterstattung begleitet und seine Interviews mit Persönlichkeiten wie dem Flieger John Lear und dem Physiker Bob Lazar zeigt. Der Film enthält Corbells eigene Aussage, Voicemails und Aufnahmen von ihm im Umgang mit Morddrohungen, Telefonabhörungen und angeblicher Überwachung durch CIA und FBI. Corbells Mutter äußert ihre Befürchtung, dass die Geheimdienste ihn angreifen könnten, während sein Mentor George Knapp die Drohungen als „übertrieben“ beschreibt und anmerkt, dass Knapps Telefon abgehört wurde.",
-          "sourceHash": "1ccc69e81fb54f2242f1ed581ceb7f0e4086fd11",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "what-is-the-secret-behind-the-pentagon-s-8-pointed-ufo-viral-uap-footage-has-internet-users-linking-alien",
-      "title": "What is the secret behind the Pentagon’s 8-Pointed UFO? Viral UAP footage has internet users linking Alien",
-      "source": "The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPZHVXQk1qQllzb2lKZXpqeGNrRm1WS3B0OEdVT2R4Q1pHUGM0NGhmYk1CclYyZ21TdjRYY2FsRk5sTDIzTkVyZnhZaVJzT01vMVQ3amdKS0c4WkFpQjUzdHlLb1FUbFlrXzFYbUU3bllkeVlnaDFmbzNUQ19yUm5oTjE3N21XUlcwU2lTTUlCR0M2QVFhTDdmeUlFaWZPcEdINmpMVlNkTTJlMFFEbWF2RVhyZmd0ZWFLcW5NcTluVG9jRGNYd092MkljUWdqaUFjQ3lNZ1dJV1ZyUmdQMzNtbERoemZkMDczdkNYTFY2V183SV96VWYxUktfZW1HbnNnYzFOMTRrdUpDLTYtOGVVT2dmTE4teURtSnJqU0dGYU80XzVWWW5NQ2ZVNFVqdE5jYmNTRUJBdUJ1NGU1cVpSaENaV2U4dkUzTF9jV0Z1T18zTktGMDEzTVp5ZWZPd9IB4wJBVV95cUxPOEZyWmdWUVRSRjN2R3ZMRmdDb0sway1BUXZkd1ltM204T3p6RVZjb3lPdUp4aFJMZnNfMnoyLVV0SnFGVHZ5aGFYblM1M1NPVGZMRkFCSTI3UFdPMVRPZUR0UDRRZnJXMTJmLVpZdVNUelhYVEZLZG11QXh0NVZhcTN4cGNZVG1Kd3VjRDVQc3Brc0VQa1B0YWxkTGtzb3VSc3BEUUJIbnYyZ1RWeF9XUkdNSWxXTzFSMXhXMFRxOWlzMk9zdXlfM2sxVmE1T2RPanpPb0IxZWh6RjVBMjNZRnQ2aFBEbzh3TjhkUzZRa2x5MEQ3b084ZlI5aDJrb1dtNDZQS3FEMzFhVXhmRlBVWGpZdm8tS1ZjTWViU3ROYkFGR0FPNXhmSUhrQnVKdXNsTVZKcXhFMVBmSmZwU2EtcXNPQ0diQTVwTjcwejIycjdsUEk0NmZFTEVwRVc4b1BWamtv?oc=5",
-      "date": "2026-05-08",
-      "publishedAt": "2026-05-20T13:36:09Z",
-      "summary": "A 2013 infrared clip released by the Pentagon shows a glowing object that the UAP archive describes as an area of contrast resembling an eight‑pointed star with arms of alternating length. Pentagon officials emphasize that the description does not constitute proof of extraterrestrial activity or a final investigative conclusion.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 65,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 9,
-          "text": "ALIEN, PENTAGON, SIGHTINGS als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 6,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "alien",
-        "pentagon"
-      ],
-      "sourceQuality": 65,
-      "displayedAt": "2026-05-21T17:56:15Z",
-      "sourceDisplayedAt": "2026-05-21T17:56:15Z",
-      "sourceIsNew": true,
-      "translation": {
-        "en": {
-          "title": "What is the secret behind the Pentagon’s 8-Pointed UFO? Viral UAP footage has internet users linking Alien",
-          "summary": "A 2013 infrared clip released by the Pentagon shows a glowing object that the UAP archive describes as an area of contrast resembling an eight‑pointed star with arms of alternating length. Pentagon officials emphasize that the description does not constitute proof of extraterrestrial activity or a final investigative conclusion.",
-          "sourceHash": "28ad835053428572b8ad0842fa479d959d617252",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Was ist das Geheimnis hinter dem achtzackigen UFO des Pentagons? Auf viralem UAP-Material verlinken Internetnutzer Alien",
-          "summary": "Ein 2013 vom Pentagon veröffentlichter Infrarotclip zeigt ein leuchtendes Objekt, das das UAP-Archiv als einen Kontrastbereich beschreibt, der einem achtzackigen Stern mit Armen unterschiedlicher Länge ähnelt. Pentagon-Beamte betonen, dass die Beschreibung keinen Beweis für außerirdische Aktivitäten oder eine endgültige Schlussfolgerung der Ermittlungen darstellt.",
-          "sourceHash": "28ad835053428572b8ad0842fa479d959d617252",
+          "summary": "„Sleeping Dog“ ist ein Dokumentarfilm von Michael Lazovsky, der den UFO-Journalisten Jeremy Corbell über ein Jahrzehnt der Berichterstattung begleitet und seine eigenen Interviews mit Aufnahmen von Voicemails, Zeugenaussagen und persönlichen Momenten unterbricht. S. Militär.",
+          "sourceHash": "c4a700892bc8be57f8e2641e2f31ecb0d646f74f",
           "provider": "google"
         }
       }
@@ -842,100 +802,47 @@
       "sourceQuality": 56,
       "displayedAt": "2026-05-19T06:40:05Z",
       "sourceDisplayedAt": "2026-05-19T06:40:05Z"
-    },
-    {
-      "id": "trump-declassifies-162-ufo-files-for-public-to-judge-the-evidence",
-      "title": "Trump declassifies 162 UFO files for public to judge the 'evidence'",
-      "source": "Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzZzS0o0akN0UXJ3bFc1ZkRWSkdLeDkzOFVRaFItSDRtY3JxeTB4M2FhUXVNRWJyeXlVdktKclphUWRlUGVUa0hTOXo4Rkx6SGdNc2FZZFpJbFNlaWF0TVVRenBEYzlaRFlFcTNQa1ZkbHRtSjYxV001b1ctb3RGWDlfRElQa1BLQmt3SG1FSGd0U2RvU2hybjRFUldKOUlDM3NZ?oc=5",
-      "date": "2026-05-08",
-      "publishedAt": "2026-05-08T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 54,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "trump"
-      ],
-      "sourceQuality": 54,
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "displayedAt": "2026-05-08T07:00:00Z",
-      "sourceDisplayedAt": "2026-05-08T07:00:00Z"
     }
   ],
   "summaries": {
     "file-release-department-of-war-releases-unidentified-anomalous-phenomena-files-in-historic-transparency-effort": "The Pentagon released a set of previously classified files on unidentified anomalous phenomena, including reports of bright lights, corkscrew‑twisting objects, and a 1972 NASA photo, but the documents contain no evidence of alien technology. In California, the National UFO Reporting Center logged 80 sightings in 2026, ranging from cigar‑shaped objects and rotating flat panels to fireballs and pink‑white orbs, with witnesses describing brief, fast disappearances and unusual flight patterns. Specific incidents include a Lake Elsinore resident seeing a floating meteor‑like object that vanished after 30 seconds, a Fresno Zoo observer noting a light that hovered at 200‑300 feet and timed with the International Space Station, and a Mendocino couple witnessing pulsating colored lights that left in a white streak. The Pentagon’s release, described as “new and never‑before‑seen,” is part of a broader declassification effort that has already produced a 2024 report of hundreds of UAP incidents, none of which confirmed extraterrestrial technology. Experts caution that UAP videos are often misinterpreted and that the new files may fuel speculation without further analysis.",
     "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Former physicist Dr. Hal Puthoff, who has worked on classified CIA and Pentagon programs, said on The Diary of a CEO podcast that people involved in UFO crash‑retrieval operations claim the United States has recovered at least four distinct species of non‑human beings. Puthoff, 89, has a long history of involvement with intelligence and defense projects, including remote‑viewing research under the Stargate program and later investigations into unidentified aerial phenomena through AAWSAP. The claim is presented as a bold addition to a growing pattern of disclosures that suggest governments may secretly possess extraterrestrial evidence. The article notes that this statement has been received as a significant puzzle piece within the disclosure movement, though the broader evidence remains unverified.",
-    "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": "Sleeping Dog is a documentary that follows UFO journalist Jeremy Corbell over a decade of reporting, showing his interviews with figures such as aviator John Lear and physicist Bob Lazar. The film includes Corbell’s own testimony, voicemails, and footage of him dealing with death threats, phone taps, and alleged CIA and FBI surveillance. Corbell’s mother expresses fear that the intelligence agencies have a hit on him, while his mentor George Knapp describes the threats as “over the edge” and notes that Knapp’s phone was tapped. Corbell acknowledges that he does not know what UFOs are and that he is not qualified to answer their significance, yet he continues to pursue the story. The documentary is available on Amazon Prime.",
-    "what-is-the-secret-behind-the-pentagon-s-8-pointed-ufo-viral-uap-footage-has-internet-users-linking-alien": "A 2013 infrared clip released by the Pentagon shows a glowing object that the UAP archive describes as an area of contrast resembling an eight‑pointed star with arms of alternating length. Pentagon officials emphasize that the description does not constitute proof of extraterrestrial activity or a final investigative conclusion. The clip has sparked online speculation linking the shape to biblical Ophanim and to possible infrared glare, sensor blooming, drones, satellite reflections, or atmospheric anomalies, but no definitive explanation has been provided. The footage is one of 162 files in the Department of Defense’s expanding UAP archive, part of a broader effort to increase public access to previously classified aerial‑phenomena records.",
+    "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": "\"Sleeping Dog\" is a documentary directed by Michael Lazovsky that follows UFO journalist Jeremy Corbell over a decade of reporting, intercutting his own interviews with footage of voicemails, testimonies, and personal moments. The film shows Corbell interviewing eccentric aviator John Lear, who provided documents about Area 51, and also features a phone call with Bob Lazar, who claims to have reverse‑engineered alien craft for the U.S. military. Corbell is portrayed as struggling under pressure, with mentor George Knapp described as an \"island of sanity\" who has helped him cope with death threats, and his mother expressing fear of CIA and FBI involvement and warning him against driving alone. Corbell states that he does not know what UFOs are and that he is not qualified to answer their significance, while he continues to report despite threats from intelligence agencies, corporations, and individuals. The documentary presents a chaotic mix of personal footage, retro aesthetics, and new‑age sound, aiming to clarify Corbell's obsession while leaving many claims, such as Lear's allegations of \"greys controlling the soulsuckers on the moon,\" unresolved.",
     "ufo-files-reveal-the-same-old-material": "Tokyo is analyzing a trove of previously classified Pentagon files on alleged UFO sightings, including two videos of unidentified anomalous phenomena near Japan. Chief Cabinet Secretary Minoru Kihara said the government is gathering and analyzing information on UAPs with great interest and coordinating closely with the United States and other countries. Kihara stated that Japan will decide on disclosing its own UAP files on a case‑by‑case basis after weighing factors such as the risk of exposing intelligence‑gathering capabilities. The government has not announced any release of its own UAP evidence."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-21T17:56:15Z",
+    "timestamp": "2026-05-21T19:14:56Z",
     "ids": [
-      "sighting-harvard-astrophysicist-avi-loeb-decodes-the-mysterious-blue-lights-uap-recorded-by-apollo-astronauts-on-moon",
-      "what-is-the-secret-behind-the-pentagon-s-8-pointed-ufo-viral-uap-footage-has-internet-users-linking-alien"
+      "file-release-department-of-war-releases-unidentified-anomalous-phenomena-files-in-historic-transparency-effort",
+      "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere"
     ],
     "articles": [
       {
-        "id": "sighting-harvard-astrophysicist-avi-loeb-decodes-the-mysterious-blue-lights-uap-recorded-by-apollo-astronauts-on-moon",
-        "title": "Harvard Astrophysicist Avi Loeb Decodes The Mysterious Blue Lights UAP Recorded By Apollo Astronauts On Moon",
-        "source": "Mashable India"
+        "id": "file-release-department-of-war-releases-unidentified-anomalous-phenomena-files-in-historic-transparency-effort",
+        "title": "Department of War Releases Unidentified Anomalous Phenomena Files in Historic Transparency Effort",
+        "source": "U.S. Department of War (.gov)"
       },
       {
-        "id": "what-is-the-secret-behind-the-pentagon-s-8-pointed-ufo-viral-uap-footage-has-internet-users-linking-alien",
-        "title": "What is the secret behind the Pentagon’s 8-Pointed UFO? Viral UAP footage has internet users linking Alien",
-        "source": "The Economic Times"
+        "id": "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere",
+        "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
+        "source": "Tom's Guide"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 325,
-    "broadTopics": 148,
+    "broadArticles": 323,
+    "broadTopics": 149,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
-    "appTopics": 10,
+    "appTopics": 8,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 11,
+    "splitUnrelatedGroupedSources": 9,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 12,
+    "regroupedTopics": 16,
     "topicRegrouping": "title_summary_story_signature_v7",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -943,14 +850,14 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization",
-      "attempts": 7,
+      "attempts": 6,
       "repaired": 2,
-      "missing": 5
+      "missing": 4
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry",
-      "kept": 13,
-      "missing": 5,
+      "kept": 14,
+      "missing": 4,
       "missingItems": [
         {
           "id": "the-2026-alien-soft-launch-missing-scientists-aliens-gov-pentagon-secrets-y01qlmdfznb",
@@ -975,26 +882,20 @@
           "title": "UAP whistleblower: Pilots are 'still having' these encounters",
           "source": "MSN",
           "reason": "missing_article_content_summary_kept_visible"
-        },
-        {
-          "id": "trump-declassifies-162-ufo-files-for-public-to-judge-the-evidence",
-          "title": "Trump declassifies 162 UFO files for public to judge the 'evidence'",
-          "source": "Euronews.com",
-          "reason": "missing_article_content_summary_kept_visible"
         }
       ]
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v6_title_only_bridge",
-      "inputArticles": 13,
-      "outputArticles": 10,
-      "clearedConflictingSummaries": 5
+      "inputArticles": 14,
+      "outputArticles": 8,
+      "clearedConflictingSummaries": 4
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v3_keep_missing_summaries_notify_visible_topic_updates",
-      "inputArticles": 10,
-      "outputArticles": 10,
-      "missingSummaries": 5,
+      "inputArticles": 8,
+      "outputArticles": 8,
+      "missingSummaries": 4,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -1002,21 +903,20 @@
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 10,
-      "newSources": 9
+      "updatedTopics": 8,
+      "newSources": 3
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
       "correctedExistingTopics": 6,
-      "newTopics": 4,
-      "topicsWithNewSources": 4
+      "newTopics": 2,
+      "topicsWithNewSources": 2
     },
     "finalNewEvents": {
-      "policy": "published_date_required_for_new_topic_or_source_after_final_feed_cleanup",
-      "maxNewAgeHours": 30,
+      "policy": "new_marker_for_topics_or_sources_not_in_previous_app_feed",
       "notifications": 2,
       "freshSources": 3,
-      "correctedOldSourceMarkers": 9
+      "correctedOldSourceMarkers": 1
     }
   },
   "translations": {
@@ -1051,28 +951,14 @@
     "film-how-to-watch-sleeping-dog-online-stream-controversial-uap-ufo-doc-from-anywhere": {
       "en": {
         "title": "How to watch 'Sleeping Dog' online – stream controversial UAP/UFO doc from anywhere",
-        "summary": "Sleeping Dog is a documentary that follows UFO journalist Jeremy Corbell over a decade of reporting, showing his interviews with figures such as aviator John Lear and physicist Bob Lazar. The film includes Corbell’s own testimony, voicemails, and footage of him dealing with death threats, phone taps, and alleged CIA and FBI surveillance. Corbell’s mother expresses fear that the intelligence agencies have a hit on him, while his mentor George Knapp describes the threats as “over the edge” and notes that Knapp’s phone was tapped.",
-        "sourceHash": "1ccc69e81fb54f2242f1ed581ceb7f0e4086fd11",
+        "summary": "\"Sleeping Dog\" is a documentary directed by Michael Lazovsky that follows UFO journalist Jeremy Corbell over a decade of reporting, intercutting his own interviews with footage of voicemails, testimonies, and personal moments. S. military.",
+        "sourceHash": "c4a700892bc8be57f8e2641e2f31ecb0d646f74f",
         "provider": "original"
       },
       "de": {
         "title": "So schauen Sie sich „Sleeping Dog“ online an – streamen Sie die umstrittene UAP/UFO-Dokumentation von überall aus",
-        "summary": "„Sleeping Dog“ ist ein Dokumentarfilm, der den UFO-Journalisten Jeremy Corbell über ein Jahrzehnt der Berichterstattung begleitet und seine Interviews mit Persönlichkeiten wie dem Flieger John Lear und dem Physiker Bob Lazar zeigt. Der Film enthält Corbells eigene Aussage, Voicemails und Aufnahmen von ihm im Umgang mit Morddrohungen, Telefonabhörungen und angeblicher Überwachung durch CIA und FBI. Corbells Mutter äußert ihre Befürchtung, dass die Geheimdienste ihn angreifen könnten, während sein Mentor George Knapp die Drohungen als „übertrieben“ beschreibt und anmerkt, dass Knapps Telefon abgehört wurde.",
-        "sourceHash": "1ccc69e81fb54f2242f1ed581ceb7f0e4086fd11",
-        "provider": "google"
-      }
-    },
-    "what-is-the-secret-behind-the-pentagon-s-8-pointed-ufo-viral-uap-footage-has-internet-users-linking-alien": {
-      "en": {
-        "title": "What is the secret behind the Pentagon’s 8-Pointed UFO? Viral UAP footage has internet users linking Alien",
-        "summary": "A 2013 infrared clip released by the Pentagon shows a glowing object that the UAP archive describes as an area of contrast resembling an eight‑pointed star with arms of alternating length. Pentagon officials emphasize that the description does not constitute proof of extraterrestrial activity or a final investigative conclusion.",
-        "sourceHash": "28ad835053428572b8ad0842fa479d959d617252",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Was ist das Geheimnis hinter dem achtzackigen UFO des Pentagons? Auf viralem UAP-Material verlinken Internetnutzer Alien",
-        "summary": "Ein 2013 vom Pentagon veröffentlichter Infrarotclip zeigt ein leuchtendes Objekt, das das UAP-Archiv als einen Kontrastbereich beschreibt, der einem achtzackigen Stern mit Armen unterschiedlicher Länge ähnelt. Pentagon-Beamte betonen, dass die Beschreibung keinen Beweis für außerirdische Aktivitäten oder eine endgültige Schlussfolgerung der Ermittlungen darstellt.",
-        "sourceHash": "28ad835053428572b8ad0842fa479d959d617252",
+        "summary": "„Sleeping Dog“ ist ein Dokumentarfilm von Michael Lazovsky, der den UFO-Journalisten Jeremy Corbell über ein Jahrzehnt der Berichterstattung begleitet und seine eigenen Interviews mit Aufnahmen von Voicemails, Zeugenaussagen und persönlichen Momenten unterbricht. S. Militär.",
+        "sourceHash": "c4a700892bc8be57f8e2641e2f31ecb0d646f74f",
         "provider": "google"
       }
     },
@@ -1092,7 +978,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 5,
+    "prepared": 4,
     "failed": 0,
     "summary": "compact app summary only",
     "target": "de for English articles, en for German articles",
