@@ -51,9 +51,11 @@
     var style = document.createElement('style');
     style.id = STYLE_ID;
     style.textContent = [
-      '.source-meta{display:flex!important;align-items:center!important;gap:8px!important;flex-wrap:wrap!important;margin-top:5px!important;color:#7896a4!important;font-family:"Share Tech Mono",monospace!important;font-size:10px!important;letter-spacing:1px!important;text-transform:uppercase!important}',
-      '.source-date{display:inline-flex!important;align-items:center!important;color:#b8d6e0!important;border:1px solid rgba(0,212,255,.24)!important;background:rgba(0,212,255,.045)!important;padding:2px 6px!important;line-height:1.2!important}',
-      '.source-date::before{content:"DATUM";color:#00d4ff!important;margin-right:6px!important;font-size:9px!important;letter-spacing:1.1px!important}'
+      '.source-name{display:flex!important;align-items:flex-start!important;gap:7px!important;flex-wrap:wrap!important;line-height:1.35!important}',
+      '.source-date{order:-2!important;display:inline-flex!important;align-items:center!important;flex:0 0 auto!important;color:#b8d6e0!important;border:1px solid rgba(0,212,255,.24)!important;background:rgba(0,212,255,.045)!important;padding:2px 6px!important;line-height:1.2!important;font-family:"Share Tech Mono",monospace!important;font-size:10px!important;letter-spacing:1px!important;text-transform:uppercase!important}',
+      '.source-date::before{content:"DATUM";color:#00d4ff!important;margin-right:6px!important;font-size:9px!important;letter-spacing:1.1px!important}',
+      '.source-new-badge{order:3!important}',
+      '.source-meta{display:none!important}'
     ].join('\n');
     (document.head || document.documentElement).appendChild(style);
   }
@@ -63,19 +65,19 @@
       var href = linkKey(link.getAttribute('href') || link.href || '');
       var date = sourceDateByLink[href];
       if (!date) return;
-      var meta = link.querySelector('.source-meta');
-      if (!meta) {
-        meta = document.createElement('div');
-        meta.className = 'source-meta';
-        var headline = link.querySelector('.source-headline');
-        if (headline && headline.nextSibling) link.insertBefore(meta, headline.nextSibling);
-        else link.appendChild(meta);
-      }
-      var badge = meta.querySelector('.source-date');
+
+      var sourceName = link.querySelector('.source-name');
+      if (!sourceName) return;
+
+      Array.prototype.slice.call(link.querySelectorAll('.source-meta .source-date')).forEach(function(oldBadge){
+        oldBadge.parentNode && oldBadge.parentNode.removeChild(oldBadge);
+      });
+
+      var badge = sourceName.querySelector(':scope > .source-date');
       if (!badge) {
         badge = document.createElement('span');
         badge.className = 'source-date';
-        meta.insertBefore(badge, meta.firstChild);
+        sourceName.insertBefore(badge, sourceName.firstChild);
       }
       if (badge.textContent !== date) badge.textContent = date;
     });
