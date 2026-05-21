@@ -20,6 +20,7 @@ SPACE_RE = re.compile(r"\s+")
 WORD_RE = re.compile(r"[a-z0-9]+")
 LOW_TRUST_RE = re.compile(r"\b(tmz|daily mail|the sun|latestly|bollywoodshaadis|stupiddope|mashable india)\b", re.I)
 TRUSTED_RE = re.compile(r"\b(\.gov|department|pbs|ap news|associated press|bbc|abc|sky|cbc|al jazeera|axios|reuters|npr|guardian)\b", re.I)
+TITLE_ONLY_SUMMARY_CHARS = 120
 
 STOP = set(
     "a an the to of for in on at by with from and or is are was were be been has have had "
@@ -31,9 +32,40 @@ STOP = set(
 STRONG = set(
     "aaro alien archive archives congress crash declassified disclosure document documents dod federal files foia "
     "government hearing image images military nasa nonhuman pentagon photos pilot radar records release released "
-    "senate sighting sightings trump video videos war whistleblower ministry defense defence advisor website portal transparency"
+    "senate sighting sightings trump video videos war whistleblower ministry defense defence advisor website portal transparency "
+    "allege claim recover retrieval species remains biological physicist researcher cia puthoff program"
     .split()
 )
+TOKEN_ALIASES = {
+    "alleges": "claim",
+    "alleged": "claim",
+    "allegedly": "claim",
+    "claims": "claim",
+    "claimed": "claim",
+    "claiming": "claim",
+    "retrieved": "recover",
+    "retrieves": "recover",
+    "recovering": "recover",
+    "recovered": "recover",
+    "recovery": "recover",
+    "retrieval": "recover",
+    "retrievals": "recover",
+    "crashed": "crash",
+    "crashes": "crash",
+    "forms": "species",
+    "species": "species",
+    "beings": "species",
+    "lifeforms": "species",
+    "lifeform": "species",
+    "remains": "remains",
+    "bodies": "remains",
+    "biologics": "remains",
+    "biological": "biological",
+    "researchers": "researcher",
+    "physicists": "physicist",
+    "linked": "link",
+    "programs": "program",
+}
 
 
 def clean(value: Any) -> str:
@@ -44,8 +76,16 @@ def slug(value: Any) -> str:
     return re.sub(r"[^a-z0-9]+", "-", clean(value).lower()).strip("-") or "article"
 
 
+def normalize_word(word: str) -> str:
+    return TOKEN_ALIASES.get(word, word)
+
+
 def words(text: Any) -> set[str]:
-    return {word for word in WORD_RE.findall(clean(text).lower()) if len(word) > 2 and word not in STOP}
+    return {
+        normalize_word(word)
+        for word in WORD_RE.findall(clean(text).lower())
+        if len(word) > 2 and word not in STOP
+    }
 
 
 def source_key(source: dict[str, Any]) -> str:
@@ -53,13 +93,17 @@ def source_key(source: dict[str, Any]) -> str:
 
 
 def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
-    return {
+    source = {
         "title": article.get("title", ""),
         "url": article.get("url") or article.get("link", ""),
         "link": article.get("link") or article.get("url", ""),
         "source": article.get("source", ""),
         "publishedAt": article.get("publishedAt") or article.get("detectedAt") or article.get("date"),
     }
+    for key in ("displayedAt", "sourceDisplayedAt", "isNew", "sourceIsNew"):
+        if key in article:
+            source[key] = article[key]
+    return source
 
 
 def core_article_text(article: dict[str, Any]) -> str:
@@ -77,6 +121,53 @@ def article_match_text(article: dict[str, Any]) -> str:
 
 def source_text(source: dict[str, Any]) -> str:
     return clean(" ".join([source.get("title", ""), source.get("source", "")]))
+
+
+def article_has_thin_context(article: dict[str, Any]) -> bool:
+    return len(clean(article.get("summary"))) < TITLE_ONLY_SUMMARY_CHARS and not clean(article.get("description"))
+
+
+def title_candidates(article: dict[str, Any]) -> list[str]:
+    candidates = [clean(article.get("title"))]
+    for source in article.get("otherSources") or []:
+        if isinstance(source, dict):
+            candidates.append(clean(source.get("title")))
+    candidates.extend(clean(title) for title in article.get("clusterTitles") or [])
+    seen: set[str] = set()
+    result: list[str] = []
+    for candidate in candidates:
+        key = candidate.lower()
+        if candidate and key not in seen:
+            seen.add(key)
+            result.append(candidate)
+    return result
+
+
+def title_pair_same_story(a_title: str, b_title: str) -> bool:
+    a_words = words(a_title)
+    b_words = words(b_title)
+    if not a_words or not b_words:
+        return False
+    shared = a_words & b_words
+    shared_strong = shared & STRONG
+    ratio = overlap_ratio(a_words, b_words)
+    if ratio >= 0.50 and len(shared) >= 4:
+        return True
+    if ratio >= 0.34 and len(shared_strong) >= 3:
+        return True
+    if {"alien", "recover", "species"}.issubset(shared) and ("claim" in shared or "remains" in shared or "biological" in shared):
+        return True
+    if {"alien", "recover", "remains"}.issubset(shared) and ("species" in shared or "biological" in shared):
+        return True
+    return False
+
+
+def title_bridge_same_story(a: dict[str, Any], b: dict[str, Any]) -> bool:
+    for a_title in title_candidates(a):
+        for b_title in title_candidates(b):
+            if title_pair_same_story(a_title, b_title):
+                return True
+    return False
 
 
 def story_signature(text: Any) -> str:
@@ -177,10 +268,15 @@ def same_story_text(a_text: str, b_text: str) -> bool:
 
 
 def same_story_article(a: dict[str, Any], b: dict[str, Any]) -> bool:
+    if (article_has_thin_context(a) or article_has_thin_context(b)) and title_bridge_same_story(a, b):
+        return True
     return same_story_text(article_match_text(a), article_match_text(b))
 
 
 def same_story_source(article: dict[str, Any], source: dict[str, Any]) -> bool:
+    source_article = {"title": source.get("title", ""), "source": source.get("source", "")}
+    if article_has_thin_context(article) and title_bridge_same_story(article, source_article):
+        return True
     return same_story_text(article_match_text(article), source_text(source))
 
 
@@ -314,7 +410,7 @@ def main() -> None:
     payload["summaries"] = {article["id"]: article.get("summary", "") for article in articles if article.get("id") and article.get("summary")}
     meta = payload.setdefault("scanMeta", {})
     meta["finalFeedIntegrity"] = {
-        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v5_ignore_stale_cluster_titles",
+        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v6_title_only_bridge",
         "inputArticles": len(raw_articles),
         "outputArticles": len(articles),
         "clearedConflictingSummaries": sum(1 for article in articles if not clean(article.get("summary"))),
