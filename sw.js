@@ -1,18 +1,18 @@
-var CACHE = 'uap-v218-fast-app-no-start';
+var CACHE = 'uap-v219-fast-app-header-notify';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '218';
+var OVERRIDE_VERSION = '219';
 var OVERRIDE_FILES = [
   'uap-fast-app.js',
+  'uap-header-retry-fix.js',
+  'uap-notify-button-fix.js',
   'uap-fast-start-hide.js'
 ];
 var OLD_OVERRIDE_FILES = [
   'uap-feed-normalize.js',
   'uap-app-overrides.js',
   'uap-source-new-badge-fix.js',
-  'uap-notify-button-fix.js',
   'uap-quality-overlay-fix.js',
   'uap-controls-layout-fix.js',
-  'uap-header-retry-fix.js',
   'uap-final-stability-fix.js',
   'uap-open-guard-fix.js',
   'uap-new-badge-guard-fix.js',
