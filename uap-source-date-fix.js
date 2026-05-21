@@ -52,9 +52,9 @@
     style.id = STYLE_ID;
     style.textContent = [
       '.source-name{display:flex!important;align-items:flex-start!important;gap:7px!important;flex-wrap:wrap!important;line-height:1.35!important}',
+      '.source-new-badge{order:-3!important;margin-left:0!important;flex:0 0 auto!important}',
       '.source-date{order:-2!important;display:inline-flex!important;align-items:center!important;flex:0 0 auto!important;color:#b8d6e0!important;border:1px solid rgba(0,212,255,.24)!important;background:rgba(0,212,255,.045)!important;padding:2px 6px!important;line-height:1.2!important;font-family:"Share Tech Mono",monospace!important;font-size:10px!important;letter-spacing:1px!important;text-transform:uppercase!important}',
       '.source-date::before{content:"DATUM";color:#00d4ff!important;margin-right:6px!important;font-size:9px!important;letter-spacing:1.1px!important}',
-      '.source-new-badge{order:3!important}',
       '.source-meta{display:none!important}'
     ].join('\n');
     (document.head || document.documentElement).appendChild(style);
