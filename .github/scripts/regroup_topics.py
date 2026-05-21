@@ -27,8 +27,8 @@ STOP = set(
 )
 
 STRONG_TERMS = set(
-    "aaro alien archive archives congress crash declassified disclosure document documents dod "
-    "federal files foia government hearing image images military nasa nonhuman pentagon photos pilot "
+    "aaro alien apollo archive archives astrophysicist congress crash declassified disclosure document documents dod "
+    "federal files foia government hearing image images loeb lunar military moon nasa nonhuman pentagon photos pilot "
     "radar records release released senate sighting sightings trump video videos war whistleblower "
     "ukraine ukrainian russia russian defense defence ministry cia lazar corbell cyprus pursue website japan"
     .split()
@@ -42,6 +42,8 @@ WEBSITE_RE = re.compile(r"\b(website|site|portal|war\.gov|hits|launch|launched|p
 UKRAINE_RE = re.compile(r"\b(ukraine|ukrainian)\b")
 UKRAINE_CONTEXT_RE = re.compile(r"\b(advisor|minister|ministry|armed forces|military|russia|russian|defence|defense|wartime|war)\b")
 JAPAN_RE = re.compile(r"\bjapan\b")
+AVI_MOON_RE = re.compile(r"\b(avi\s+loeb|loeb|apollo|moon|lunar)\b")
+AVI_MOON_CONTEXT_RE = re.compile(r"\b(blue\s+lights?|lights?|astronauts?|recorded|decoded?|mysterious)\b")
 
 
 def clean(value: Any) -> str:
@@ -67,6 +69,8 @@ def story_key(text: str) -> str:
     has_gov = bool(US_GOV_RE.search(raw))
     has_site = bool(WEBSITE_RE.search(raw))
 
+    if has_uap and AVI_MOON_RE.search(raw) and AVI_MOON_CONTEXT_RE.search(raw):
+        return "avi-loeb-moon-lights"
     if UKRAINE_RE.search(raw) and UKRAINE_CONTEXT_RE.search(raw):
         return "ukraine-uap-program"
     if JAPAN_RE.search(raw) and has_uap and (has_files or has_release or "disclosure" in raw):
@@ -248,8 +252,8 @@ def main() -> None:
 
     meta = payload.setdefault("scanMeta", {})
     meta["regroupedTopics"] = before - len(payload["articles"])
-    meta["topicRegrouping"] = "title_summary_story_signature_v7"
-    meta["topicGroupingPolicy"] = "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release"
+    meta["topicRegrouping"] = "title_summary_story_signature_v8_distinctive_moon_uap"
+    meta["topicGroupingPolicy"] = "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights"
 
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
