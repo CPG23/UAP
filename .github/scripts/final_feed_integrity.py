@@ -175,6 +175,7 @@ def story_signature(text: Any) -> str:
     has_uap = bool(re.search(r"\b(uap|uaps|ufo|ufos|unidentified anomalous|unidentified aerial|unidentified flying|alien)\b", raw))
     has_files = bool(re.search(r"\b(file|files|record|records|archive|archives|document|documents|transcript|transcripts|video|videos|photo|photos|material|materials)\b", raw))
     has_release = bool(re.search(r"\b(release|released|releases|releasing|declassif|unseal|unsealed|unsealing|publish|published|posting|posted|opens?|drops?|transparency|public archive)\b", raw))
+    has_document_context = bool(re.search(r"\b(report|reports|investigation|investigations|document|documents|file|files|record|records|archive|archives|pentagon|department of war|war\.gov|declassif|released|release)\b", raw))
     has_us = bool(re.search(r"\b(us|u\.s\.|united states|american|pentagon|department of war|defense department|defence department|dod|war\.gov|federal|trump|state department|fbi|white house|ap news|associated press)\b", raw))
     file_release_phrase = bool(re.search(r"\b(shed light|same old material|draw their own conclusions|public view|public archive|pursue|presidential unsealing|reporting system|new batch|massive ufo file archive)\b", raw))
 
@@ -187,7 +188,9 @@ def story_signature(text: Any) -> str:
     if re.search(r"\b(longmont)\b", raw):
         return "sighting:longmont"
     if re.search(r"\b(az|arizona)\b", raw) and has_uap:
-        return "sighting:arizona"
+        has_arizona_sighting_context = bool(re.search(r"\b(sighting|sightings|spotted|seen|encounter|encountered|lights|orbs|object|objects|witness|witnesses)\b", raw))
+        if has_arizona_sighting_context and not (has_files or has_release or has_document_context or file_release_phrase):
+            return "sighting:arizona"
     if re.search(r"\b(oregon|mcminnville|ufo festival|mcmenamins)\b", raw):
         return "event:oregon-festival"
     if re.search(r"\b(pastor|pastors|biblical|prophecy|nephilim|boebert|translucent beings)\b", raw):
@@ -410,7 +413,7 @@ def main() -> None:
     payload["summaries"] = {article["id"]: article.get("summary", "") for article in articles if article.get("id") and article.get("summary")}
     meta = payload.setdefault("scanMeta", {})
     meta["finalFeedIntegrity"] = {
-        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v6_title_only_bridge",
+        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v7_arizona_report_guard",
         "inputArticles": len(raw_articles),
         "outputArticles": len(articles),
         "clearedConflictingSummaries": sum(1 for article in articles if not clean(article.get("summary"))),
