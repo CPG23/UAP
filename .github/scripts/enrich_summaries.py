@@ -30,7 +30,7 @@ META_RE = re.compile(r'<meta\s+([^>]+)>', re.I)
 ATTR_RE = re.compile(r'([\w:-]+)\s*=\s*(["\'])(.*?)\2', re.I | re.S)
 WORD_RE = re.compile(r'[a-z0-9]+', re.I)
 BOILERPLATE_RE = re.compile(
-    r'^(advertisement|sponsored|subscribe|sign up|log in|cookie|cookies|privacy|terms|share|follow us|watch live|read more|related|recommended|caption|image source|skip to|enable javascript|newsletter)\b',
+    r'^(advertisement|sponsored|subscribe|sign up|log in|cookie|cookies|privacy|terms|share|follow us|watch live|read more|related|recommended|caption|image source|skip to|enable javascript|newsletter|up next)\b',
     re.I,
 )
 UAP_RE = re.compile(r'\b(uap|ufo|ufos|uaps|unidentified anomalous|unidentified aerial|unidentified flying|alien|pentagon|aaro|nasa|congress|disclosure|whistleblower|sighting|orb|orbs)\b', re.I)
@@ -39,6 +39,7 @@ STOP_WORDS = set(
 )
 MIN_EXTRACT_CHARS = 450
 STRONG_EXTRACT_CHARS = 650
+HTML_READ_BYTES = 1_600_000
 
 
 def is_bad_summary(text):
@@ -235,6 +236,24 @@ def extract_jsonld_text(raw_html):
     return snippets
 
 
+def best_contiguous_text(lines, article):
+    runs = []
+    current = []
+    for line in lines:
+        if useful_line(line, article):
+            current.append(line)
+            continue
+        if current:
+            runs.append(current)
+            current = []
+    if current:
+        runs.append(current)
+    if not runs:
+        return ''
+    best = max(runs, key=lambda run: (sum(len(line) for line in run), len(run)))
+    return clean_text(' '.join(best))
+
+
 def paragraph_fallback(raw_html, article):
     if not raw_html:
         return ''
@@ -258,6 +277,10 @@ def paragraph_fallback(raw_html, article):
     if len(text) >= MIN_EXTRACT_CHARS:
         return text[:12000]
 
+    contiguous = best_contiguous_text(lines, article)
+    if len(contiguous) >= MIN_EXTRACT_CHARS:
+        return contiguous[:12000]
+
     meta = [item for item in extract_meta_descriptions(raw_html) + jsonld if useful_line(item, article) or len(item) >= 90]
     meta_text = clean_text(' '.join(dict.fromkeys(meta)))
     if len(meta_text) >= 180:
@@ -269,9 +292,13 @@ def fetch_html_fallback(url, article):
     if not url or 'news.google.' in url:
         return ''
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; UAP-News-Bot/1.0)'})
+        req = urllib.request.Request(url, headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9',
+        })
         with urllib.request.urlopen(req, timeout=25) as resp:
-            raw = resp.read(320000).decode(resp.headers.get_content_charset() or 'utf-8', errors='replace')
+            raw = resp.read(HTML_READ_BYTES).decode(resp.headers.get_content_charset() or 'utf-8', errors='replace')
         text = paragraph_fallback(raw, article)
         return text if len(text) >= 180 else ''
     except Exception:
@@ -306,7 +333,7 @@ def fetch_jina(url):
         try:
             req = urllib.request.Request(reader_url, headers={'User-Agent': 'UAP-News-Bot/1.0'})
             with urllib.request.urlopen(req, timeout=25) as resp:
-                text = resp.read(180000).decode('utf-8', errors='replace')
+                text = resp.read(HTML_READ_BYTES).decode('utf-8', errors='replace')
             text = clean_text(text)
             if len(text) >= MIN_EXTRACT_CHARS:
                 return text[:12000]
