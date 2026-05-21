@@ -2,9 +2,9 @@
 """Finalize app New markers and push notification events.
 
 The scan pipeline can regroup articles after the initial RSS pass. This final pass
-uses the finished app feed, article/source publish dates, and a dedicated seen-key
-namespace so old resurfaced sources are not marked New and visible new items still
-produce ntfy payloads.
+uses the finished app feed and the previous app feed as the source of truth for
+New markers: if a topic or source was not visible in the previous app feed, it is
+New in the app, regardless of the original article publish date.
 """
 
 from __future__ import annotations
@@ -213,7 +213,6 @@ def finalize(data: dict[str, Any], previous: dict[str, Any]) -> None:
             continue
 
         article_time = natural_article_time(article)
-        article_recent = is_recent(article_time, now)
         current_keys = source_keys(article)
         previous_keys = matched_sources(article, by_match, all_previous_sources)
         known_as_existing = bool(previous_keys or (current_keys & all_previous_sources))
@@ -226,12 +225,11 @@ def finalize(data: dict[str, Any], previous: dict[str, Any]) -> None:
             if not key:
                 continue
             source_time = natural_source_time(source, article)
-            source_recent = is_recent(source_time, now)
             source_known = key in previous_keys or key in all_previous_sources
             prior = source_state.get(key, {})
             prior_new = bool(prior.get("isNew")) and is_recent(prior.get("displayedAt"), now)
 
-            if not source_known and source_recent:
+            if not source_known:
                 if primary:
                     set_primary_new(article, timestamp)
                 else:
@@ -256,7 +254,7 @@ def finalize(data: dict[str, Any], previous: dict[str, Any]) -> None:
                         corrected_old_sources += 1
                     source["displayedAt"] = source_time or compact(prior.get("displayedAt")) or previous_article_time(article, article_times) or article_time or timestamp
 
-        is_new_topic = article_recent and not known_as_existing
+        is_new_topic = not known_as_existing
         if is_new_topic:
             event_keys.add("final:topic:" + article_id + ":" + stable_hash(article_time or compact(article.get("title"))))
 
@@ -268,7 +266,7 @@ def finalize(data: dict[str, Any], previous: dict[str, Any]) -> None:
         elif has_preserved_new_source:
             previous_time = previous_article_time(article, article_times)
             article["displayedAt"] = previous_time or compact(article.get("displayedAt")) or timestamp
-        elif has_fresh_source:
+        elif has_fresh_source or is_new_topic:
             article["displayedAt"] = timestamp
         else:
             article["displayedAt"] = previous_article_time(article, article_times) or article_time or timestamp
@@ -290,8 +288,7 @@ def finalize(data: dict[str, Any], previous: dict[str, Any]) -> None:
 
     meta = data.setdefault("scanMeta", {})
     meta["finalNewEvents"] = {
-        "policy": "published_date_required_for_new_topic_or_source_after_final_feed_cleanup",
-        "maxNewAgeHours": MAX_NEW_AGE_HOURS,
+        "policy": "new_marker_for_topics_or_sources_not_in_previous_app_feed",
         "notifications": len(notification_ids),
         "freshSources": fresh_source_count,
         "correctedOldSourceMarkers": corrected_old_sources,
