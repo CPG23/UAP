@@ -1,0 +1,3 @@
+Manual news scan trigger
+Timestamp: 2026-05-21T00:00:00+02:00
+Reason: retry article extraction after media-page full-text fix
