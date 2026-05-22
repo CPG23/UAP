@@ -28,6 +28,7 @@
   function injectStyle(){
     if (document.getElementById(STYLE_ID)) return;
     var css = [
+      '#refresh-btn{display:none!important}',
       '.scan-btn{border-color:rgba(0,255,157,.52)!important;background:linear-gradient(135deg,rgba(0,255,157,.11),rgba(0,212,255,.07))!important;color:#caffea!important;box-shadow:0 0 14px rgba(0,255,157,.13)!important}',
       '.scan-btn svg{width:19px!important;height:19px!important;display:block!important;stroke:currentColor!important;stroke-width:2!important;stroke-linecap:round!important;stroke-linejoin:round!important;fill:none!important}',
       '.scan-btn.is-running{opacity:.72!important;cursor:wait!important;animation:uapScanPulse 1.2s ease-in-out infinite}',
@@ -57,8 +58,14 @@
     return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12a8 8 0 0 1 8-8"/><path d="M12 4h5v5"/><path d="M20 12a8 8 0 0 1-8 8"/><path d="M12 20H7v-5"/></svg>';
   }
 
+  function removeRefreshButton(){
+    var old = document.getElementById('refresh-btn');
+    if (old && old.parentNode) old.parentNode.removeChild(old);
+  }
+
   function ensureButton(){
     injectStyle();
+    removeRefreshButton();
     var row = document.querySelector('.button-row');
     if (!row || document.getElementById('manual-scan-btn')) return;
     var btn = document.createElement('button');
