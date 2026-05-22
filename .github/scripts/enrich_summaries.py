@@ -33,7 +33,7 @@ BOILERPLATE_RE = re.compile(
     r'^(advertisement|sponsored|subscribe|sign up|log in|cookie|cookies|privacy|terms|share|follow us|watch live|read more|related|recommended|caption|image source|skip to|enable javascript|newsletter|up next)\b',
     re.I,
 )
-UAP_RE = re.compile(r'\b(uap|ufo|ufos|uaps|unidentified anomalous|unidentified aerial|unidentified flying|alien|pentagon|aaro|nasa|congress|disclosure|whistleblower|sighting|orb|orbs)\b', re.I)
+UAP_RE = re.compile(r'\b(uap|ufo|ufos|uaps|unidentified anomalous|unidentified aerial|unidentified flying|alien|pentagon|aaro|nasa|congress|disclosure|whistleblower|sighting|orb|orbs|war\.gov|pursue)\b', re.I)
 STOP_WORDS = set(
     'a an the to of for in on at by with from and or is are was were be been has have had will would could should may might this that these those article report story piece headline title about into after before over under'.split()
 )
@@ -342,15 +342,28 @@ def fetch_jina(url):
     return ''
 
 
+def publisher_direct_urls(article):
+    title = clean_text(article.get('title', '')).lower()
+    source = clean_text(article.get('source', '')).lower()
+    urls = []
+    if 'department of war' in source or 'war.gov' in source or 'department of war publishes' in title:
+        if 'second release' in title and 'unidentified anomalous phenomena' in title:
+            urls.append('https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/')
+    return urls
+
+
 def article_urls(article):
     urls = []
+    for value in publisher_direct_urls(article):
+        if value and value not in urls:
+            urls.append(value)
     for item in [article] + [s for s in article.get('otherSources', []) if isinstance(s, dict)]:
         raw = item.get('link', '') or item.get('url', '')
         decoded = decode_url(raw)
         for value in [decoded, raw]:
             if value and value not in urls:
                 urls.append(value)
-    return urls[:8]
+    return urls[:10]
 
 
 def fetch_article_text(article):
