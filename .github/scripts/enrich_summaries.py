@@ -229,11 +229,6 @@ def extract_war_release_text(raw_html, article):
             start = i
             break
     if start is None:
-        for i, line in enumerate(lines):
-            if title_overlap(line, article) >= 0.45:
-                start = i
-                break
-    if start is None:
         return ''
 
     selected = []
@@ -366,8 +361,10 @@ def fetch_html_fallback(url, article):
         })
         with urllib.request.urlopen(req, timeout=25) as resp:
             raw = resp.read(HTML_READ_BYTES).decode(resp.headers.get_content_charset() or 'utf-8', errors='replace')
-        text = extract_war_release_text(raw, article) if is_war_release_url(url) else ''
-        text = text or paragraph_fallback(raw, article)
+        if is_war_release_url(url):
+            text = extract_war_release_text(raw, article)
+            return text if len(text) >= 180 else ''
+        text = paragraph_fallback(raw, article)
         return text if len(text) >= 180 else ''
     except Exception:
         return ''
@@ -382,8 +379,7 @@ def fetch_trafilatura(url, article=None):
             return ''
         if is_war_release_url(url):
             war_text = extract_war_release_text(downloaded, article or {})
-            if len(war_text) >= 180:
-                return war_text
+            return war_text if len(war_text) >= 180 else ''
         text = trafilatura.extract(downloaded, include_comments=False, include_tables=False, favor_recall=True)
         text = clean_text(text)
         if len(text) >= STRONG_EXTRACT_CHARS:
@@ -395,7 +391,7 @@ def fetch_trafilatura(url, article=None):
 
 
 def fetch_jina(url):
-    if not url or 'news.google.' in url:
+    if not url or 'news.google.' in url or is_war_release_url(url):
         return ''
     variants = []
     no_scheme = re.sub(r'^https?://', '', url)
