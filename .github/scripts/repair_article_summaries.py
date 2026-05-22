@@ -114,6 +114,11 @@ def is_good_summary(value: Any, article: dict[str, Any]) -> bool:
     return True
 
 
+def mark_source_grounded(article: dict[str, Any]) -> None:
+    article["summarySource"] = "source_page"
+    article["summaryPolicy"] = "source_page_article_text"
+
+
 def main() -> None:
     data = json.loads(LATEST_FILE.read_text(encoding="utf-8"))
     summaries = data.setdefault("summaries", {})
@@ -129,6 +134,8 @@ def main() -> None:
         current = article.get("summary") or summaries.get(article_id)
         if is_good_summary(current, article):
             article["summary"] = compact(current)
+            if article.get("summarySource") == "source_page":
+                mark_source_grounded(article)
             if article_id:
                 summaries[article_id] = article["summary"]
             continue
@@ -140,12 +147,15 @@ def main() -> None:
         summary = summarize_article_text(article, text)
         if is_good_summary(summary, article):
             article["summary"] = compact(summary)
+            mark_source_grounded(article)
             article.pop("summaryStatus", None)
             if article_id:
                 summaries[article_id] = article["summary"]
             repaired += 1
         else:
             article["summary"] = ""
+            article.pop("summarySource", None)
+            article.pop("summaryPolicy", None)
             if article_id:
                 summaries.pop(article_id, None)
             article.setdefault("summaryStatus", {})["articleContentSummary"] = "missing"
@@ -161,7 +171,7 @@ def main() -> None:
 
     meta = data.setdefault("scanMeta", {})
     meta["summaryRepair"] = {
-        "policy": "repair_after_cluster_normalization_v3_trust_source_page_summary",
+        "policy": "repair_after_cluster_normalization_v4_mark_source_grounded",
         "attempts": attempts,
         "repaired": repaired,
         "missing": missing,
