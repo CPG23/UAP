@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-22T13:55:32Z",
+  "timestamp": "2026-05-22T14:04:00Z",
   "articles": [
     {
       "id": "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases",
@@ -64,7 +64,7 @@
         },
         "de": {
           "title": "Außerirdischer Whistleblower behauptet, die USA hätten „graue Körper zerstückelt“, die in unterirdischen Militärstützpunkten versteckt seien",
-          "summary": "Laut einem Interview auf der Plattform Redacted hat die südafrikanische Regierung außerirdische Leichen geborgen und versteckt sie in unterirdischen Militärbasen. Er sagte, dass Bergungsoperationen nach Unfällen mit nichtmenschlichen Fahrzeugen und Leichen außerhalb der Aufsicht gewählter Beamter durchgeführt und von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert würden.",
+          "summary": "Laut einem Interview auf der Plattform Redacted hat die südafrikanische Regierung außerirdische Leichen geborgen und versteckt sie in unterirdischen Militärbasen. Er sagte, dass Bergungsoperationen nach einem Absturz mit nichtmenschlichen Fahrzeugen und Körpern außerhalb der Aufsicht gewählter Amtsträger durchgeführt würden und von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert würden.",
           "sourceHash": "80a9031de77caa06c98899ba4a597698c4b3f17a",
           "provider": "google"
         }
@@ -252,13 +252,13 @@
       "sourceDisplayedAt": "2026-05-19T06:40:05Z"
     },
     {
-      "id": "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
+      "id": "film-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
       "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
       "source": "USA Herald",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNXRCWG5NWEtkeVNFVHlvanh6TVhIMjFEQ016a2FPRTBScEI4STlSN1FJeWdSV3Rmem5hUm5xOVNRWTdQUm9RTDBrUEludkZiblNRalpkRFFaZkV0eTVCbkZKRHRUX1RhREwyWVlEQUlibHNtNEVNTlhZZHRpNWxnSkZVLVZlX3otMmxuNjlVMW5ta0RoQ1FLbkxkLUVpbVM4bnk0WmR2eWx2R1V2UzNvaTNablBMOHdZeGlTTXJPd2x4bTJucUV0RlYyc2c2RVkteWNfemMxU1pDUk5XdjFhTkx4blI?oc=5",
       "date": "2026-05-16",
       "publishedAt": "2026-05-19T18:58:23Z",
-      "summary": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites.",
+      "summary": "Former CIA‑funded researcher Dr. S. has recovered four distinct extraterrestrial species from crashed UFOs.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -272,12 +272,12 @@
         {
           "label": "Begriffe",
           "points": 6,
-          "text": "ALIEN, CIA als relevante Themenbegriffe erkannt."
+          "text": "ALIEN, GOVERNMENT als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
           "points": 4,
-          "text": "CIA als offizieller Kontext erkannt."
+          "text": "GOVERNMENT als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
@@ -293,7 +293,7 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "ALIEN",
-        "CIA"
+        "GOVERNMENT"
       ],
       "sourceQuality": 54,
       "displayedAt": "2026-05-22T07:34:25Z",
@@ -302,81 +302,14 @@
       "translation": {
         "en": {
           "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-          "summary": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites.",
-          "sourceHash": "fe02b03a4ff7455a91c369bd03df8dba1eabb200",
+          "summary": "Former CIA‑funded researcher Dr. S. has recovered four distinct extraterrestrial species from crashed UFOs.",
+          "sourceHash": "a5c00aa7acc630dfc4adac34edc4f82e4f5b4440",
           "provider": "original"
         },
         "de": {
           "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
-          "summary": "Hal Puthoff, ein ehemaliger von der CIA finanzierter Physiker, behauptete in einem Podcast, dass die Vereinigten Staaten möglicherweise vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen hätten, obwohl er die Beweise selbst nicht gesehen hat. S. besaß „nichtmenschliche Biologika“ von nicht identifizierten Absturzstellen mit anomalen Phänomenen.",
-          "sourceHash": "fe02b03a4ff7455a91c369bd03df8dba1eabb200",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "film-new-documentary-follows-journalist-jeremy-corbell-s-hunt-for-the-truth-on-ufos",
-      "title": "New documentary follows journalist Jeremy Corbell’s hunt for the truth on UFOs",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWi1TdkJpdmZ2VXZWc2FueVE2MmxYTlJSeWJDNnRXSk9hb1RwZHNpVWswa1RYRE1oV2tCVFNES2NuUHF4aVNfak9RVEl4akdyRmNNc3RxcnQ5YTh0eHZWY0hKakEybWEtTGtUcVc4cUNjNVNhS0RQZm5QU2V0NFJGNjI4VDhRc1luaUQ4VHRFMTdMaUNMbzQyZUFZT0RHNWdCWE5DajZYTjJzYjBlNTU1S0FpVUx5RFRKZHNkN2hR?oc=5",
-      "date": "2026-05-13",
-      "publishedAt": "2026-05-13T07:00:00Z",
-      "summary": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "Sleeping Dog Documentary Exposes UAP Secrets And Risks",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
-          "source": "Evrim Ağacı",
-          "publishedAt": "2026-05-09T00:10:35Z",
-          "displayedAt": "2026-05-22T13:55:32Z",
-          "isNew": true
-        }
-      ],
-      "clusterTitles": [
-        "Sleeping Dog Documentary Exposes UAP Secrets And Risks"
-      ],
-      "quality": 54,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 54,
-      "displayedAt": "2026-05-22T13:55:32Z",
-      "sourceDisplayedAt": "2026-05-22T13:55:32Z",
-      "sourceIsNew": true,
-      "translation": {
-        "en": {
-          "title": "New documentary follows journalist Jeremy Corbell’s hunt for the truth on UFOs",
-          "summary": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
-          "sourceHash": "f8ced33a4bc8b5143b70f898defbcdd442ffcbc3",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Neuer Dokumentarfilm folgt der Suche des Journalisten Jeremy Corbell nach der Wahrheit über UFOs",
-          "summary": "Der Journalist und Filmemacher Jeremy Corbell bespricht seinen neuen Dokumentarfilm mit NBC News-Korrespondent Gadi Schwartz. Der Dokumentarfilm trägt den Titel „Sleeping Dog“. Es untersucht Corbells Umgang mit Regierungsgeheimnissen. Es geht auch um Whistleblower und seine Suche nach der Wahrheit über UFOs.",
-          "sourceHash": "f8ced33a4bc8b5143b70f898defbcdd442ffcbc3",
+          "summary": "Der ehemalige von der CIA finanzierte Forscher Dr. S. hat vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen.",
+          "sourceHash": "a5c00aa7acc630dfc4adac34edc4f82e4f5b4440",
           "provider": "google"
         }
       }
@@ -434,13 +367,63 @@
       "sourceIsNew": true
     },
     {
+      "id": "sighting-harvard-astrophysicist-avi-loeb-decodes-the-mysterious-blue-lights-uap-recorded-by-apollo-astronauts-on-moon",
+      "title": "Harvard Astrophysicist Avi Loeb Decodes The Mysterious Blue Lights UAP Recorded By Apollo Astronauts On Moon",
+      "source": "Mashable India",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaEd6ZVB0MDFZRFlQeDlELUhXOEtEZlUzTGF2UGUwQnZCNnltaGFJMThNTXVzbXpWQVhIalZodmhRazhVQ2xFQmhwY2FaNEZ6OGE2eDNjcjVsbjN0YnZOSGdWaGV4alY3MmliMFFPV3dmdC1vc2IyelFHbEE1QU5MbXRvdmtXY2FyOWtjMnd5UmUyTHZTUFcwckhUQXE5cTBHMUxVMF95N05HcmJjUm1NbHB0Vnhxb2ozYkJzb3l6VTFEVjRMbjlYU3FfbTFXRWEyTVo2U1p3?oc=5",
+      "date": "2026-05-22",
+      "publishedAt": "2026-05-20T05:26:24Z",
+      "summary": "S. Department of War released 162 previously classified UFO files, including NASA documents about UAP sightings by Apollo astronauts such as Buzz Aldrin during the 1969 lunar landing. A private briefing for pastors on May 8 2026 showed them media depicting translucent beings with long limbs in wooded settings.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 47,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 47,
+      "displayedAt": "2026-05-22T14:04:00Z",
+      "sourceDisplayedAt": "2026-05-22T14:04:00Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Harvard Astrophysicist Avi Loeb Decodes The Mysterious Blue Lights UAP Recorded By Apollo Astronauts On Moon",
+          "summary": "S. Department of War released 162 previously classified UFO files, including NASA documents about UAP sightings by Apollo astronauts such as Buzz Aldrin during the 1969 lunar landing. A private briefing for pastors on May 8 2026 showed them media depicting translucent beings with long limbs in wooded settings.",
+          "sourceHash": "fd4f74e8941e36af459b3c046e9dacffa0ab3b23",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Der Harvard-Astrophysiker Avi Loeb entschlüsselt die mysteriösen blauen UAP-Lichter, die von Apollo-Astronauten auf dem Mond aufgezeichnet wurden",
+          "summary": "Das US-Kriegsministerium veröffentlichte 162 zuvor geheime UFO-Dateien, darunter NASA-Dokumente über UAP-Sichtungen durch Apollo-Astronauten wie Buzz Aldrin während der Mondlandung 1969. Bei einem privaten Briefing für Pfarrer am 8. Mai 2026 wurden ihnen Medien gezeigt, die durchscheinende Wesen mit langen Gliedmaßen in bewaldeten Umgebungen zeigten.",
+          "sourceHash": "fd4f74e8941e36af459b3c046e9dacffa0ab3b23",
+          "provider": "google"
+        }
+      }
+    },
+    {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
       "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
       "source": "U.S. Department of War (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-      "date": "2026-05-10",
+      "date": "2026-05-09",
       "publishedAt": "2026-05-22T12:07:07Z",
-      "summary": "President Donald Trump and the Department of War released the UFO Files, but a preliminary review shows only blurry photographs, grainy videos, artist reconstructions, and anecdotal reports, with no new evidence of alien visitation. The files contain documents such as an artist’s composite sketch of an alleged ellipsoid bronze metallic object, a 2001 Georgian Foreign Ministry report claiming a Russian aircraft was a UFO, a 2023 Mexican Congress testimony on UAP that includes debunked fake alien corpses, and heavily redacted documents with a disclaimer protecting eyewitness identities and sensitive locations.",
+      "summary": "At President Trump’s order, the Defense Department released about 160 previously classified documents, photos and videos of unidentified anomalous phenomena, including a 1947 report, grainy Apollo 12 lunar photos, and a transcript of Apollo 17 crew describing bright particles. Trump called the release “unprecedented transparency,” and representatives Tim Burchett and Anna Paulina Luna said additional material would be declassified in roughly 30 days.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -466,14 +449,14 @@
       "translation": {
         "en": {
           "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "summary": "President Donald Trump and the Department of War released the UFO Files, but a preliminary review shows only blurry photographs, grainy videos, artist reconstructions, and anecdotal reports, with no new evidence of alien visitation. The files contain documents such as an artist’s composite sketch of an alleged ellipsoid bronze metallic object, a 2001 Georgian Foreign Ministry report claiming a Russian aircraft was a UFO, a 2023 Mexican Congress testimony on UAP that includes debunked fake alien corpses, and heavily redacted documents with a disclaimer protecting eyewitness identities and sensitive locations.",
-          "sourceHash": "8a44d53a055d0e657837a8efbab8e03ee23696cf",
+          "summary": "At President Trump’s order, the Defense Department released about 160 previously classified documents, photos and videos of unidentified anomalous phenomena, including a 1947 report, grainy Apollo 12 lunar photos, and a transcript of Apollo 17 crew describing bright particles. Trump called the release “unprecedented transparency,” and representatives Tim Burchett and Anna Paulina Luna said additional material would be declassified in roughly 30 days.",
+          "sourceHash": "00a84137d99a4dcbeb671d8566486b0fcdd9a296",
           "provider": "original"
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Präsident Donald Trump und das Kriegsministerium haben die UFO-Akten veröffentlicht, aber eine vorläufige Überprüfung zeigt nur verschwommene Fotos, körnige Videos, Künstlerrekonstruktionen und anekdotische Berichte, ohne neue Beweise für den Besuch von Außerirdischen. Die Akten enthalten Dokumente wie eine von einem Künstler zusammengesetzte Skizze eines angeblich ellipsoiden bronzenen Metallobjekts, einen Bericht des georgischen Außenministeriums aus dem Jahr 2001, in dem behauptet wird, ein russisches Flugzeug sei ein UFO, eine Zeugenaussage des mexikanischen Kongresses zu UAP aus dem Jahr 2023, die entlarvte gefälschte Alienleichen enthält, sowie stark redigierte Dokumente mit einem Haftungsausschluss, der die Identität von Augenzeugen und sensible Orte schützt.",
-          "sourceHash": "8a44d53a055d0e657837a8efbab8e03ee23696cf",
+          "summary": "Auf Befehl von Präsident Trump veröffentlichte das Verteidigungsministerium etwa 160 zuvor geheime Dokumente, Fotos und Videos von nicht identifizierten anomalen Phänomenen, darunter einen Bericht aus dem Jahr 1947, körnige Apollo-12-Mondfotos und eine Abschrift der Apollo-17-Besatzung, die helle Teilchen beschreibt. Trump bezeichnete die Veröffentlichung als „beispiellose Transparenz“, und die Vertreter Tim Burchett und Anna Paulina Luna sagten, dass zusätzliches Material in etwa 30 Tagen freigegeben werde.",
+          "sourceHash": "00a84137d99a4dcbeb671d8566486b0fcdd9a296",
           "provider": "google"
         }
       }
@@ -482,21 +465,29 @@
   "summaries": {
     "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases": "Investigative writer Timothy Alberino claimed that the U.S. government has recovered alien bodies and hides them in underground military bases, according to an interview on the platform Redacted. He said that crash‑retrieval operations involving non‑human craft and bodies are conducted outside the oversight of elected officials and are controlled by private aerospace contractors and highly compartmentalised defence programmes. Alberino referenced anecdotal eyewitness accounts of “gray aliens” at alleged retrieval sites, describing dismembered bodies and transparent fluids, and cited former intelligence official David Grusch’s 2023 testimony that the U.S. had recovered “non‑human biologics.” No publicly available evidence has been produced to substantiate Alberino’s allegations, and U.S. defence agencies have not confirmed the existence of such programmes. Congressional interest in UAP investigations remains high, with lawmakers calling for greater transparency, but the Pentagon maintains that its All‑domain Anomaly Resolution Office has not produced verified evidence of extraterrestrial activity.",
     "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released. The FBI is investigating a series of missing and dead scientists linked to secret nuclear and UFO programs, including the disappearance of retired General William Neil McCasland. Other scientists, such as David Wilcock, have also died under suspicious circumstances, adding to the pattern of unexplained losses.",
-    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. His remarks echo earlier testimony by former Air Force intelligence officer David Grusch, who said the U.S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites. Puthoff’s associate Eric Davis described the recovered beings in intelligence reports as “gray,” “Nordic,” “insect‑like,” and “reptilian,” all humanoid with two arms and two legs, but no detailed evidence was provided. The documentary “The Age of Disclosure,” directed by Dan Farah, features interviews with military officials, intelligence figures, and political leaders discussing alleged UAP encounters, government secrecy, and a supposed secret “Legacy Program.” Despite these claims, no verified public evidence has emerged, and U.S. officials continue to state that there is no confirmed evidence linking UAP sightings to extraterrestrial origins.",
-    "film-new-documentary-follows-journalist-jeremy-corbell-s-hunt-for-the-truth-on-ufos": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "President Donald Trump and the Department of War released the UFO Files, but a preliminary review shows only blurry photographs, grainy videos, artist reconstructions, and anecdotal reports, with no new evidence of alien visitation. The files contain documents such as an artist’s composite sketch of an alleged ellipsoid bronze metallic object, a 2001 Georgian Foreign Ministry report claiming a Russian aircraft was a UFO, a 2023 Mexican Congress testimony on UAP that includes debunked fake alien corpses, and heavily redacted documents with a disclaimer protecting eyewitness identities and sensitive locations. Photographic stills from videos shot in the Southwestern United States show a small dot that could be a balloon, drone, or aircraft, while a 2024 report describes a football‑shaped UAP near Japan and an image of a Chinese UAV, but the author does not confirm these as extraterrestrial. Light anomalies captured by Apollo 17 astronauts are noted in the files, with the government stating no consensus on their nature and that further analysis will be released, and a video posted by Steven Greenstreet shows a parachute and flare. Pilot Scott Kelly and other experts are quoted explaining that optical illusion and misidentification can account for many reported sightings, and the author remains skeptical until new evidence emerges."
+    "film-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Former CIA‑funded researcher Dr. Hal Puthoff said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs. Puthoff, who has not seen the specimens himself, reports that people involved in recoveries have identified at least four types. Dr. Eric Davis, a former AAWSAP colleague, identified the species as Grays, Nordics, Insectoids, and Reptilians, describing each as humanoid with two arms and legs and giving size and appearance details. Former Air Force intelligence officer David Grusch testified in 2023 that the U.S. possessed “non‑human biologics” recovered from dozens of crashed UFOs. Director Dan Farrah of the film *Age of Disclosure* said he has spoken off‑record with recovery participants who declined to appear on camera, and one potential interview was canceled after the participant withdrew.",
+    "sighting-harvard-astrophysicist-avi-loeb-decodes-the-mysterious-blue-lights-uap-recorded-by-apollo-astronauts-on-moon": "The U.S. Department of War released 162 previously classified UFO files, including NASA documents about UAP sightings by Apollo astronauts such as Buzz Aldrin during the 1969 lunar landing. A private briefing for pastors on May 8 2026 showed them media depicting translucent beings with long limbs in wooded settings. The pastors, including Joseph Zupetz and Tony Merkel, said the images could relate to biblical prophecies and warned that the disclosure might be a “great deception” that could lead to demonic influence. Some pastors tweeted that the UFO disclosures are a cover‑up for a demonic release and that the events could signal the end times, while it remains unclear how the released files will be interpreted.",
+    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "At President Trump’s order, the Defense Department released about 160 previously classified documents, photos and videos of unidentified anomalous phenomena, including a 1947 report, grainy Apollo 12 lunar photos, and a transcript of Apollo 17 crew describing bright particles. Trump called the release “unprecedented transparency,” and representatives Tim Burchett and Anna Paulina Luna said additional material would be declassified in roughly 30 days. Experts such as Harvard astrophysicist Avi Loeb and journalist Leslie Kean said the new material does not provide evidence of alien technology or extraterrestrial life and that the images could be explained by asteroid impacts or other mundane sources. Critics, including former Rep. Marjorie Taylor Greene, called the disclosure a distraction from Trump’s political woes, while UAP investigator Mick West noted that similar information had already been released by the Biden administration."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-22T13:55:32Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-05-22T14:04:00Z",
+    "ids": [
+      "sighting-harvard-astrophysicist-avi-loeb-decodes-the-mysterious-blue-lights-uap-recorded-by-apollo-astronauts-on-moon"
+    ],
+    "articles": [
+      {
+        "id": "sighting-harvard-astrophysicist-avi-loeb-decodes-the-mysterious-blue-lights-uap-recorded-by-apollo-astronauts-on-moon",
+        "title": "Harvard Astrophysicist Avi Loeb Decodes The Mysterious Blue Lights UAP Recorded By Apollo Astronauts On Moon",
+        "source": "Mashable India"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 327,
-    "broadTopics": 150,
+    "broadArticles": 326,
+    "broadTopics": 155,
     "notificationArticles": 3,
     "notificationTopics": 3,
-    "newNotificationTopics": 1,
+    "newNotificationTopics": 0,
     "appTopics": 8,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -504,7 +495,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 6,
+    "regroupedTopics": 7,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -518,7 +509,7 @@
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
-      "kept": 9,
+      "kept": 11,
       "missing": 3,
       "missingItems": [
         {
@@ -543,7 +534,7 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v11_trust_source_summaries",
-      "inputArticles": 9,
+      "inputArticles": 11,
       "outputArticles": 8,
       "preservedSourceSummaries": 5
     },
@@ -560,7 +551,7 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 8,
-      "newSources": 2
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -570,8 +561,8 @@
     },
     "finalNewEvents": {
       "policy": "new_marker_for_topics_or_sources_not_in_previous_app_feed",
-      "notifications": 0,
-      "freshSources": 2,
+      "notifications": 1,
+      "freshSources": 1,
       "correctedOldSourceMarkers": 0
     }
   },
@@ -585,7 +576,7 @@
       },
       "de": {
         "title": "Außerirdischer Whistleblower behauptet, die USA hätten „graue Körper zerstückelt“, die in unterirdischen Militärstützpunkten versteckt seien",
-        "summary": "Laut einem Interview auf der Plattform Redacted hat die südafrikanische Regierung außerirdische Leichen geborgen und versteckt sie in unterirdischen Militärbasen. Er sagte, dass Bergungsoperationen nach Unfällen mit nichtmenschlichen Fahrzeugen und Leichen außerhalb der Aufsicht gewählter Beamter durchgeführt und von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert würden.",
+        "summary": "Laut einem Interview auf der Plattform Redacted hat die südafrikanische Regierung außerirdische Leichen geborgen und versteckt sie in unterirdischen Militärbasen. Er sagte, dass Bergungsoperationen nach einem Absturz mit nichtmenschlichen Fahrzeugen und Körpern außerhalb der Aufsicht gewählter Amtsträger durchgeführt würden und von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert würden.",
         "sourceHash": "80a9031de77caa06c98899ba4a597698c4b3f17a",
         "provider": "google"
       }
@@ -604,45 +595,45 @@
         "provider": "google"
       }
     },
-    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": {
+    "film-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": {
       "en": {
         "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-        "summary": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites.",
-        "sourceHash": "fe02b03a4ff7455a91c369bd03df8dba1eabb200",
+        "summary": "Former CIA‑funded researcher Dr. S. has recovered four distinct extraterrestrial species from crashed UFOs.",
+        "sourceHash": "a5c00aa7acc630dfc4adac34edc4f82e4f5b4440",
         "provider": "original"
       },
       "de": {
         "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
-        "summary": "Hal Puthoff, ein ehemaliger von der CIA finanzierter Physiker, behauptete in einem Podcast, dass die Vereinigten Staaten möglicherweise vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen hätten, obwohl er die Beweise selbst nicht gesehen hat. S. besaß „nichtmenschliche Biologika“ von nicht identifizierten Absturzstellen mit anomalen Phänomenen.",
-        "sourceHash": "fe02b03a4ff7455a91c369bd03df8dba1eabb200",
+        "summary": "Der ehemalige von der CIA finanzierte Forscher Dr. S. hat vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen.",
+        "sourceHash": "a5c00aa7acc630dfc4adac34edc4f82e4f5b4440",
         "provider": "google"
       }
     },
-    "film-new-documentary-follows-journalist-jeremy-corbell-s-hunt-for-the-truth-on-ufos": {
+    "sighting-harvard-astrophysicist-avi-loeb-decodes-the-mysterious-blue-lights-uap-recorded-by-apollo-astronauts-on-moon": {
       "en": {
-        "title": "New documentary follows journalist Jeremy Corbell’s hunt for the truth on UFOs",
-        "summary": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
-        "sourceHash": "f8ced33a4bc8b5143b70f898defbcdd442ffcbc3",
+        "title": "Harvard Astrophysicist Avi Loeb Decodes The Mysterious Blue Lights UAP Recorded By Apollo Astronauts On Moon",
+        "summary": "S. Department of War released 162 previously classified UFO files, including NASA documents about UAP sightings by Apollo astronauts such as Buzz Aldrin during the 1969 lunar landing. A private briefing for pastors on May 8 2026 showed them media depicting translucent beings with long limbs in wooded settings.",
+        "sourceHash": "fd4f74e8941e36af459b3c046e9dacffa0ab3b23",
         "provider": "original"
       },
       "de": {
-        "title": "Neuer Dokumentarfilm folgt der Suche des Journalisten Jeremy Corbell nach der Wahrheit über UFOs",
-        "summary": "Der Journalist und Filmemacher Jeremy Corbell bespricht seinen neuen Dokumentarfilm mit NBC News-Korrespondent Gadi Schwartz. Der Dokumentarfilm trägt den Titel „Sleeping Dog“. Es untersucht Corbells Umgang mit Regierungsgeheimnissen. Es geht auch um Whistleblower und seine Suche nach der Wahrheit über UFOs.",
-        "sourceHash": "f8ced33a4bc8b5143b70f898defbcdd442ffcbc3",
+        "title": "Der Harvard-Astrophysiker Avi Loeb entschlüsselt die mysteriösen blauen UAP-Lichter, die von Apollo-Astronauten auf dem Mond aufgezeichnet wurden",
+        "summary": "Das US-Kriegsministerium veröffentlichte 162 zuvor geheime UFO-Dateien, darunter NASA-Dokumente über UAP-Sichtungen durch Apollo-Astronauten wie Buzz Aldrin während der Mondlandung 1969. Bei einem privaten Briefing für Pfarrer am 8. Mai 2026 wurden ihnen Medien gezeigt, die durchscheinende Wesen mit langen Gliedmaßen in bewaldeten Umgebungen zeigten.",
+        "sourceHash": "fd4f74e8941e36af459b3c046e9dacffa0ab3b23",
         "provider": "google"
       }
     },
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
       "en": {
         "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "summary": "President Donald Trump and the Department of War released the UFO Files, but a preliminary review shows only blurry photographs, grainy videos, artist reconstructions, and anecdotal reports, with no new evidence of alien visitation. The files contain documents such as an artist’s composite sketch of an alleged ellipsoid bronze metallic object, a 2001 Georgian Foreign Ministry report claiming a Russian aircraft was a UFO, a 2023 Mexican Congress testimony on UAP that includes debunked fake alien corpses, and heavily redacted documents with a disclaimer protecting eyewitness identities and sensitive locations.",
-        "sourceHash": "8a44d53a055d0e657837a8efbab8e03ee23696cf",
+        "summary": "At President Trump’s order, the Defense Department released about 160 previously classified documents, photos and videos of unidentified anomalous phenomena, including a 1947 report, grainy Apollo 12 lunar photos, and a transcript of Apollo 17 crew describing bright particles. Trump called the release “unprecedented transparency,” and representatives Tim Burchett and Anna Paulina Luna said additional material would be declassified in roughly 30 days.",
+        "sourceHash": "00a84137d99a4dcbeb671d8566486b0fcdd9a296",
         "provider": "original"
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Präsident Donald Trump und das Kriegsministerium haben die UFO-Akten veröffentlicht, aber eine vorläufige Überprüfung zeigt nur verschwommene Fotos, körnige Videos, Künstlerrekonstruktionen und anekdotische Berichte, ohne neue Beweise für den Besuch von Außerirdischen. Die Akten enthalten Dokumente wie eine von einem Künstler zusammengesetzte Skizze eines angeblich ellipsoiden bronzenen Metallobjekts, einen Bericht des georgischen Außenministeriums aus dem Jahr 2001, in dem behauptet wird, ein russisches Flugzeug sei ein UFO, eine Zeugenaussage des mexikanischen Kongresses zu UAP aus dem Jahr 2023, die entlarvte gefälschte Alienleichen enthält, sowie stark redigierte Dokumente mit einem Haftungsausschluss, der die Identität von Augenzeugen und sensible Orte schützt.",
-        "sourceHash": "8a44d53a055d0e657837a8efbab8e03ee23696cf",
+        "summary": "Auf Befehl von Präsident Trump veröffentlichte das Verteidigungsministerium etwa 160 zuvor geheime Dokumente, Fotos und Videos von nicht identifizierten anomalen Phänomenen, darunter einen Bericht aus dem Jahr 1947, körnige Apollo-12-Mondfotos und eine Abschrift der Apollo-17-Besatzung, die helle Teilchen beschreibt. Trump bezeichnete die Veröffentlichung als „beispiellose Transparenz“, und die Vertreter Tim Burchett und Anna Paulina Luna sagten, dass zusätzliches Material in etwa 30 Tagen freigegeben werde.",
+        "sourceHash": "00a84137d99a4dcbeb671d8566486b0fcdd9a296",
         "provider": "google"
       }
     }
