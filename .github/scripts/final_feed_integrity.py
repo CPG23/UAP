@@ -144,6 +144,12 @@ def title_candidates(article: dict[str, Any], include_related: bool = True) -> l
     return result
 
 
+def overlap_ratio(a: set[str], b: set[str]) -> float:
+    if not a or not b:
+        return 0.0
+    return len(a & b) / min(len(a), len(b))
+
+
 def title_pair_same_story(a_title: str, b_title: str) -> bool:
     a_words = words(a_title)
     b_words = words(b_title)
@@ -211,10 +217,7 @@ def story_signature(text: Any) -> str:
                 location = candidate
                 break
         return "sighting:" + location if location else "sighting:generic"
-    return ""    repaired = clear_conflicting_summary(deepcopy(article))
-    match_article = deepcopy(repaired)
-    match_article["otherSources"] = []
-    match_article["clusterTitles"] = []
+    return ""
 
 
 def summary_conflicts(article: dict[str, Any], summary: str | None = None) -> bool:
@@ -239,12 +242,6 @@ def clear_conflicting_summary(article: dict[str, Any]) -> dict[str, Any]:
         article.pop("translation", None)
         article.pop("translations", None)
     return article
-
-
-def overlap_ratio(a: set[str], b: set[str]) -> float:
-    if not a or not b:
-        return 0.0
-    return len(a & b) / min(len(a), len(b))
 
 
 def lexical_same_story(a_text: str, b_text: str) -> bool:
@@ -305,16 +302,20 @@ def dedupe_sources(sources: list[dict[str, Any]], primary: dict[str, Any] | None
     return result
 
 
+def source_match_article(article: dict[str, Any]) -> dict[str, Any]:
+    match_article = deepcopy(article)
+    match_article["otherSources"] = []
+    match_article["clusterTitles"] = []
+    return match_article
+
+
 def prune_article_sources(article: dict[str, Any]) -> dict[str, Any]:
-same_story_source(match_article, source)
+    repaired = clear_conflicting_summary(deepcopy(article))
+    match_article = source_match_article(repaired)
     kept = [
         deepcopy(source)
         for source in repaired.get("otherSources") or []
-        if isinstance(source, dict) and prune_unrelated_sources_merge_same_story_recalculate_quality_v9_post_merge_source_prune
-    match_article = deepcopy(merged)
-    match_article["otherSources"] = []
-    match_article["clusterTitles"] = []
-    sources = [source for source in sources if same_story_source(match_article, source)]
+        if isinstance(source, dict) and same_story_source(match_article, source)
     ]
     repaired["otherSources"] = dedupe_sources(kept, repaired)
     repaired["mentions"] = max(1, 1 + len(repaired["otherSources"]))
@@ -383,6 +384,8 @@ def merge_group(group: list[dict[str, Any]]) -> dict[str, Any]:
         sources.append(source_from_article(article))
         sources.extend(article.get("otherSources") or [])
     sources = sorted(dedupe_sources(sources, merged), key=source_rank, reverse=True)
+    match_article = source_match_article(merged)
+    sources = [source for source in sources if same_story_source(match_article, source)]
     merged["otherSources"] = sources
     merged["mentions"] = max(1, 1 + len(sources))
     merged["clusterTitles"] = [clean(source.get("title")) for source in sources if clean(source.get("title"))][:10]
@@ -421,7 +424,7 @@ def main() -> None:
     payload["summaries"] = {article["id"]: article.get("summary", "") for article in articles if article.get("id") and article.get("summary")}
     meta = payload.setdefault("scanMeta", {})
     meta["finalFeedIntegrity"] = {
-        "policy": "main()",
+        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v10_post_merge_source_prune",
         "inputArticles": len(raw_articles),
         "outputArticles": len(articles),
         "clearedConflictingSummaries": sum(1 for article in articles if not clean(article.get("summary"))),
@@ -431,4 +434,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()#
+    main()
