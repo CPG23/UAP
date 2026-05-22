@@ -21,6 +21,7 @@ on:
       - .github/scripts/summary_quality_gate.py
       - .github/scripts/final_feed_integrity.py
       - .github/scripts/finalize_app_feed.py
+      - .github/scripts/fix_war_release_summary.py
       - .github/scripts/mark_new_sources.py
       - .github/scripts/normalize_new_markers.py
       - .github/scripts/finalize_new_events.py
@@ -77,6 +78,7 @@ jobs:
           python3 .github/scripts/summary_quality_gate.py
           python3 .github/scripts/final_feed_integrity.py
           python3 .github/scripts/finalize_app_feed.py
+          python3 .github/scripts/fix_war_release_summary.py
           python3 .github/scripts/mark_new_sources.py
           python3 .github/scripts/normalize_new_markers.py
           python3 .github/scripts/finalize_new_events.py
