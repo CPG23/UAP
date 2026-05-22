@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Mark weak summaries without removing articles from the app feed.
 
-The mobile app should never show scanner/meta fallback text as a summary. If the
-pipeline cannot extract enough article text to produce a content summary, the item
-stays visible and is marked so the app can show a clear placeholder. Later scans
-will keep trying to repair the summary.
+The app should never show scanner/meta fallback text as a summary. But if a
+summary was created from article text, this gate no longer rejects it by trying
+to reclassify the topic from the generated wording.
 """
 
 from __future__ import annotations
@@ -63,8 +62,6 @@ GENERIC_LEAD_RE = re.compile(
     r"(states|says|discusses|highlights|appears|covers|focuses|is about|falls under)",
     re.I,
 )
-UAP_RE = re.compile(r"\b(uap|uaps|ufo|ufos|unidentified anomalous|unidentified aerial|unidentified flying|alien|pentagon|aaro|nasa|congress|disclosure|whistleblower|sighting|sightings|orb|orbs)\b", re.I)
-TOPIC_RE = re.compile(r"\b(report|reports|document|documents|release|released|government|investigation|investigations|sighting|sightings|arizona|az|pentagon|uap|uaps|ufo|ufos|alien|disclosure|file|files|archive|archives)\b", re.I)
 WORD_RE = re.compile(r"[a-z0-9]+", re.I)
 STOP_WORDS = set(
     "a an the to of for in on at by with from and or is are was were be been has have had "
@@ -91,10 +88,6 @@ def words(value: Any) -> set[str]:
     }
 
 
-def topic_words(value: Any) -> set[str]:
-    return {word.lower() for word in TOPIC_RE.findall(compact(value))}
-
-
 def sentence_count(text: str) -> int:
     return len(re.findall(r"[.!?](?:\s|$)", text))
 
@@ -108,32 +101,6 @@ def title_echo(summary: str, title: str) -> bool:
     return overlap >= 0.82 and len(summary_words) < 42
 
 
-def has_content_overlap(summary: str, article: dict[str, Any]) -> bool:
-    source_text = " ".join(
-        compact(part)
-        for part in [
-            article.get("title"),
-            article.get("description"),
-            article.get("source"),
-            " ".join(compact(src.get("title")) for src in article.get("otherSources", []) if isinstance(src, dict)),
-        ]
-        if compact(part)
-    )
-    source_words = words(source_text)
-    summary_words = words(summary)
-    if not source_words or not summary_words:
-        return True
-    shared = source_words & summary_words
-    if len(shared) >= 3 or len(shared) / max(1, min(len(source_words), len(summary_words))) >= 0.18:
-        return True
-
-    source_topics = topic_words(source_text)
-    summary_topics = topic_words(summary)
-    if UAP_RE.search(source_text) and UAP_RE.search(summary) and source_topics & summary_topics:
-        return True
-    return False
-
-
 def is_good_summary(value: Any, article: dict[str, Any] | None = None) -> bool:
     text = compact(value)
     if len(text) < MIN_SUMMARY_CHARS:
@@ -143,8 +110,6 @@ def is_good_summary(value: Any, article: dict[str, Any] | None = None) -> bool:
     if sentence_count(text) < 2:
         return False
     if article and title_echo(text, compact(article.get("title"))):
-        return False
-    if article and not has_content_overlap(text, article):
         return False
     return True
 
@@ -236,7 +201,7 @@ def main() -> None:
 
     meta = data.setdefault("scanMeta", {})
     meta["summaryQualityGate"] = {
-        "policy": "missing_article_content_summary_kept_visible_for_retry_v2_topic_overlap",
+        "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
         "kept": len(kept),
         "missing": len(missing),
         "missingItems": missing[:20],
