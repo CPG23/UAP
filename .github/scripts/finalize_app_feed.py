@@ -62,6 +62,15 @@ BAD_SUMMARY_RE = re.compile(
     r"der artikel behandelt:",
     re.I,
 )
+WAR_RELEASE_TITLE_RE = re.compile(r"department of war publishes second release of unidentified anomalous phenomena", re.I)
+WAR_RELEASE_WRONG_SUMMARY_RE = re.compile(r"blurry photographs|grainy videos|apollo 17|mexican congress|georgian foreign ministry|fake alien corpses", re.I)
+WAR_RELEASE_SUMMARY = (
+    "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. "
+    "The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. "
+    "Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. "
+    "The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. "
+    "The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
+)
 MIN_SUMMARY_CHARS = 180
 MISSING_SUMMARY_STATUS = {
     "articleContentSummary": "missing",
@@ -79,6 +88,10 @@ def title_key(value: Any) -> str:
 
 def stable_hash(value: str) -> str:
     return hashlib.sha1(value.encode("utf-8", errors="ignore")).hexdigest()[:16]
+
+
+def is_war_release_article(article: dict[str, Any]) -> bool:
+    return bool(WAR_RELEASE_TITLE_RE.search(compact(article.get("title"))))
 
 
 def source_key(source: dict[str, Any]) -> str:
@@ -221,6 +234,10 @@ def assign_displayed_at(article: dict[str, Any], previous: dict[str, str], fallb
 
 
 def mark_summary_status(article: dict[str, Any]) -> None:
+    if is_war_release_article(article) and WAR_RELEASE_WRONG_SUMMARY_RE.search(compact(article.get("summary"))):
+        article["summary"] = WAR_RELEASE_SUMMARY
+        article.pop("summaryStatus", None)
+        return
     if is_good_summary(article.get("summary")):
         article["summary"] = compact(article.get("summary"))
         article.pop("summaryStatus", None)
@@ -237,6 +254,12 @@ def merge_article(target: dict[str, Any], incoming: dict[str, Any]) -> dict[str,
     target["otherSources"] = sources
     target["mentions"] = max(int(target.get("mentions") or 1), int(incoming.get("mentions") or 1), 1 + len(sources))
     target["clusterTitles"] = [compact(source.get("title")) for source in sources if compact(source.get("title"))][:10]
+    if is_war_release_article(target):
+        if WAR_RELEASE_WRONG_SUMMARY_RE.search(compact(target.get("summary"))):
+            target["summary"] = WAR_RELEASE_SUMMARY
+        if WAR_RELEASE_WRONG_SUMMARY_RE.search(compact(incoming.get("summary"))):
+            incoming = dict(incoming)
+            incoming["summary"] = WAR_RELEASE_SUMMARY
     if is_good_summary(incoming.get("summary")) and len(compact(incoming.get("summary"))) > len(compact(target.get("summary"))):
         target["summary"] = incoming.get("summary", "")
     if parse_quality(incoming) > parse_quality(target):
@@ -367,7 +390,7 @@ def main() -> None:
     missing_count = sum(1 for article in articles if not is_good_summary(article.get("summary")))
     meta = data.setdefault("scanMeta", {})
     meta["finalAppFeedContract"] = {
-        "policy": "display_ready_feed_v3_keep_missing_summaries_notify_visible_topic_updates",
+        "policy": "display_ready_feed_v4_keep_war_release_source_summary",
         "inputArticles": original_count,
         "outputArticles": len(articles),
         "missingSummaries": missing_count,
