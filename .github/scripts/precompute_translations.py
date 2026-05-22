@@ -27,7 +27,7 @@ GERMAN_MARKERS = re.compile(
     r"[äöüß]|\b(der|die|das|den|dem|des|und|oder|nicht|eine|einer|einen|mit|von|für|über|heute|wird|wurden|nachrichten|quelle|artikel)\b",
     re.IGNORECASE,
 )
-SENTENCE_RE = re.compile(r"[^.!?]+[.!?]+(?:\s|$)")
+SENTENCE_RE = re.compile(r".*?[.!?]+(?=\s+[A-Z0-9]|$)")
 WEAK_ENDINGS = {
     "auf", "in", "im", "am", "an", "mit", "von", "für", "über", "und", "oder", "the", "a", "an", "of", "to", "for", "with", "on", "in",
 }
@@ -40,20 +40,21 @@ def compact(text: object) -> str:
 
 
 def display_summary(text: object) -> str:
-    """Keep the app summary compact: important points, not the full article."""
+    """Keep translated summaries compact without mutating the source summary."""
     clean = compact(text)
     if len(clean) <= 380:
         return clean
 
-    sentences = SENTENCE_RE.findall(clean)
+    sentences = [compact(match.group(0)) for match in SENTENCE_RE.finditer(clean)]
     if sentences:
-        candidate = compact("".join(sentences[:3]))
+        candidate = compact(" ".join(sentences[:3]))
         if len(candidate) > 560 and len(sentences) >= 2:
-            candidate = compact("".join(sentences[:2]))
-        if candidate:
+            candidate = compact(" ".join(sentences[:2]))
+        if candidate and candidate[-1:] in ".!?":
             return candidate
 
-    return clean[:420].replace("\n", " ").rsplit(" ", 1)[0].rstrip(" ,:;") + "."
+    cut = clean[:420].replace("\n", " ").rsplit(" ", 1)[0].rstrip(" ,:;")
+    return cut + ("" if cut[-1:] in ".!?" else ".")
 
 
 def source_hash(title: str, summary: str) -> str:
@@ -236,15 +237,12 @@ def main() -> None:
 
         article_id = compact(article.get("id"))
         title = compact(article.get("title"))
-        summary = display_summary(article.get("summary"))
+        full_summary = compact(article.get("summary"))
+        summary = display_summary(full_summary)
         if not article_id or not title or not summary:
             continue
 
-        if compact(article.get("summary")) != summary:
-            article["summary"] = summary
-            changed = True
-
-        current_hash = source_hash(title, summary)
+        current_hash = source_hash(title, full_summary)
         existing = article.get("translation") if isinstance(article.get("translation"), dict) else {}
         if not existing and isinstance(top_level_translations.get(article_id), dict):
             existing = top_level_translations[article_id]
@@ -277,7 +275,7 @@ def main() -> None:
     data["translationMeta"] = {
         "prepared": prepared,
         "failed": failed,
-        "summary": "compact app summary only",
+        "summary": "compact app translation only; source summaries are not overwritten",
         "target": "de for English articles, en for German articles",
         "source": "github-actions-precompute",
     }
