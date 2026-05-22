@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "UAP News - 1 new report",
+  "message": "1. UFO Files Reveal … the Same Old Material",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "Open app",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
