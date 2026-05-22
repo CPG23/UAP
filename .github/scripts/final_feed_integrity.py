@@ -211,7 +211,10 @@ def story_signature(text: Any) -> str:
                 location = candidate
                 break
         return "sighting:" + location if location else "sighting:generic"
-    return ""
+    return ""    repaired = clear_conflicting_summary(deepcopy(article))
+    match_article = deepcopy(repaired)
+    match_article["otherSources"] = []
+    match_article["clusterTitles"] = []
 
 
 def summary_conflicts(article: dict[str, Any], summary: str | None = None) -> bool:
@@ -303,11 +306,15 @@ def dedupe_sources(sources: list[dict[str, Any]], primary: dict[str, Any] | None
 
 
 def prune_article_sources(article: dict[str, Any]) -> dict[str, Any]:
-    repaired = clear_conflicting_summary(deepcopy(article))
+same_story_source(match_article, source)
     kept = [
         deepcopy(source)
         for source in repaired.get("otherSources") or []
-        if isinstance(source, dict) and same_story_source(repaired, source)
+        if isinstance(source, dict) and prune_unrelated_sources_merge_same_story_recalculate_quality_v9_post_merge_source_prune
+    match_article = deepcopy(merged)
+    match_article["otherSources"] = []
+    match_article["clusterTitles"] = []
+    sources = [source for source in sources if same_story_source(match_article, source)]
     ]
     repaired["otherSources"] = dedupe_sources(kept, repaired)
     repaired["mentions"] = max(1, 1 + len(repaired["otherSources"]))
@@ -414,7 +421,7 @@ def main() -> None:
     payload["summaries"] = {article["id"]: article.get("summary", "") for article in articles if article.get("id") and article.get("summary")}
     meta = payload.setdefault("scanMeta", {})
     meta["finalFeedIntegrity"] = {
-        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v8_primary_title_guard",
+        "policy": "main()",
         "inputArticles": len(raw_articles),
         "outputArticles": len(articles),
         "clearedConflictingSummaries": sum(1 for article in articles if not clean(article.get("summary"))),
