@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-22T14:16:49Z",
+  "timestamp": "2026-05-22T14:21:34Z",
   "articles": [
     {
       "id": "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases",
@@ -434,13 +434,63 @@
       "sourceIsNew": true
     },
     {
+      "id": "ufo-files-reveal-the-same-old-material",
+      "title": "UFO Files Reveal … the Same Old Material",
+      "source": "skeptic.com",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94Uklfay1UY1NQSlhmZUxIQlZBOXpkSUtWb0Mxa1BXcVZSbkxFWXhJYWRyc2s5M2RDN2FDUFdLNjAteTdQRTN4ZHI2elZEcHdwN2M2NkQweGF3SkVLRm1KNlpsSDF1WTVpUHFvT3dhT241ZjkwRXpXODBnTQ?oc=5",
+      "date": "2026-05-22",
+      "publishedAt": "2026-05-10T07:00:00Z",
+      "summary": "The Department of War has released a second batch of declassified Unidentified Anomalous Phenomena (UAP) files under the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE). GOV/UFO website, which has attracted more than 1 billion hits worldwide since its launch on May 8, 2026. Additional UAP files will be added to the site on a rolling basis.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 47,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 47,
+      "displayedAt": "2026-05-22T14:16:49Z",
+      "sourceDisplayedAt": "2026-05-22T14:16:49Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "UFO Files Reveal … the Same Old Material",
+          "summary": "The Department of War has released a second batch of declassified Unidentified Anomalous Phenomena (UAP) files under the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE). GOV/UFO website, which has attracted more than 1 billion hits worldwide since its launch on May 8, 2026. Additional UAP files will be added to the site on a rolling basis.",
+          "sourceHash": "2d0a0960600eaa53ea85270b9cd886671b7131b5",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UFO-Dateien enthüllen … das gleiche alte Material",
+          "summary": "Das Kriegsministerium hat einen zweiten Stapel freigegebener UAP-Dateien (Unidentified Anomalous Phenomena) im Rahmen des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. GOV/UFO-Website, die seit ihrem Start am 8. Mai 2026 weltweit mehr als 1 Milliarde Zugriffe verzeichnet hat. Weitere UAP-Dateien werden fortlaufend zur Website hinzugefügt.",
+          "sourceHash": "2d0a0960600eaa53ea85270b9cd886671b7131b5",
+          "provider": "google"
+        }
+      }
+    },
+    {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
       "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
       "source": "U.S. Department of War (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-      "date": "2026-05-13",
+      "date": "2026-05-10",
       "publishedAt": "2026-05-22T12:07:07Z",
-      "summary": "S. Department of War released 162 declassified documents, photos and videos on unidentified anomalous phenomena under President Donald Trump, with further releases planned through the PURSUE program. The release involves the White House, NASA, FBI, Office of the Director of National Intelligence and the All‑Domain Anomaly Resolution Office, and includes footage of UAPs over Greece, Iraq, the UAE and a football‑shaped object near Japan.",
+      "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -466,52 +516,17 @@
       "translation": {
         "en": {
           "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "summary": "S. Department of War released 162 declassified documents, photos and videos on unidentified anomalous phenomena under President Donald Trump, with further releases planned through the PURSUE program. The release involves the White House, NASA, FBI, Office of the Director of National Intelligence and the All‑Domain Anomaly Resolution Office, and includes footage of UAPs over Greece, Iraq, the UAE and a football‑shaped object near Japan.",
-          "sourceHash": "653827397f4bbf60c6c6a214c264c86c3fa2722f",
+          "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
+          "sourceHash": "098320c8d770557fba92ae7c23efca66bd7a4b6f",
           "provider": "original"
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das US-Kriegsministerium veröffentlichte unter Präsident Donald Trump 162 freigegebene Dokumente, Fotos und Videos zu nicht identifizierten anomalen Phänomenen. Weitere Veröffentlichungen sind im Rahmen des PURSUE-Programms geplant. An der Veröffentlichung sind das Weiße Haus, die NASA, das FBI, das Büro des Direktors des Nationalen Geheimdienstes und das All-Domain Anomaly Resolution Office beteiligt. Sie umfasst Aufnahmen von UAPs über Griechenland, dem Irak, den Vereinigten Arabischen Emiraten und einem fußballförmigen Objekt in der Nähe von Japan.",
-          "sourceHash": "653827397f4bbf60c6c6a214c264c86c3fa2722f",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. GOV/UFO und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "sourceHash": "098320c8d770557fba92ae7c23efca66bd7a4b6f",
           "provider": "google"
         }
       }
-    },
-    {
-      "id": "ufo-files-reveal-the-same-old-material",
-      "title": "UFO Files Reveal … the Same Old Material",
-      "source": "skeptic.com",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94Uklfay1UY1NQSlhmZUxIQlZBOXpkSUtWb0Mxa1BXcVZSbkxFWXhJYWRyc2s5M2RDN2FDUFdLNjAteTdQRTN4ZHI2elZEcHdwN2M2NkQweGF3SkVLRm1KNlpsSDF1WTVpUHFvT3dhT241ZjkwRXpXODBnTQ?oc=5",
-      "date": "2026-05-10",
-      "publishedAt": "2026-05-10T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "sourceQuality": 40,
-      "displayedAt": "2026-05-22T14:16:49Z",
-      "sourceDisplayedAt": "2026-05-22T14:16:49Z",
-      "sourceIsNew": true
     }
   ],
   "summaries": {
@@ -519,26 +534,19 @@
     "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released. The FBI is investigating a series of missing and dead scientists linked to secret nuclear and UFO programs, including the disappearance of retired General William Neil McCasland. Other scientists, such as David Wilcock, have also died under suspicious circumstances, adding to the pattern of unexplained losses.",
     "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. His remarks echo earlier testimony by former Air Force intelligence officer David Grusch, who said the U.S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites. Puthoff’s associate Eric Davis described the recovered beings in intelligence reports as “gray,” “Nordic,” “insect‑like,” and “reptilian,” all humanoid with two arms and two legs, but no detailed evidence was provided. The documentary “The Age of Disclosure,” directed by Dan Farah, features interviews with military officials, intelligence figures, and political leaders discussing alleged UAP encounters, government secrecy, and a supposed secret “Legacy Program.” Despite these claims, no verified public evidence has emerged, and U.S. officials continue to state that there is no confirmed evidence linking UAP sightings to extraterrestrial origins.",
     "film-new-documentary-follows-journalist-jeremy-corbell-s-hunt-for-the-truth-on-ufos": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "On May 8 the U.S. Department of War released 162 declassified documents, photos and videos on unidentified anomalous phenomena under President Donald Trump, with further releases planned through the PURSUE program. The release involves the White House, NASA, FBI, Office of the Director of National Intelligence and the All‑Domain Anomaly Resolution Office, and includes footage of UAPs over Greece, Iraq, the UAE and a football‑shaped object near Japan. Most of the files are heavily redacted—108 contain black masking and four were retracted—according to the Pentagon to protect eyewitness identities, facility locations and unrelated sensitive military information. AARO’s 2024 report added hundreds of new UAP sightings but found no confirmation of alien technology, and a second report is expected soon with low expectations for new revelations. The release has drawn criticism that it fuels speculation and that the Trump administration’s transparency is limited, while the site received over 340 million hits in the first half‑day, reaching more than 97 % of the U.S. population."
+    "ufo-files-reveal-the-same-old-material": "The Department of War has released a second batch of declassified Unidentified Anomalous Phenomena (UAP) files under the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE). The files are available on the WAR.GOV/UFO website, which has attracted more than 1 billion hits worldwide since its launch on May 8, 2026. Additional UAP files will be added to the site on a rolling basis. The Department and its partners are preparing a third release, which will be announced in the near future.",
+    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-22T14:16:49Z",
-    "ids": [
-      "ufo-files-reveal-the-same-old-material"
-    ],
-    "articles": [
-      {
-        "id": "ufo-files-reveal-the-same-old-material",
-        "title": "UFO Files Reveal … the Same Old Material",
-        "source": "skeptic.com"
-      }
-    ]
+    "timestamp": "2026-05-22T14:21:34Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 328,
-    "broadTopics": 151,
-    "notificationArticles": 3,
-    "notificationTopics": 3,
+    "broadArticles": 323,
+    "broadTopics": 153,
+    "notificationArticles": 4,
+    "notificationTopics": 4,
     "newNotificationTopics": 0,
     "appTopics": 9,
     "retentionDays": 14,
@@ -555,14 +563,14 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v3_trust_source_page_summary",
-      "attempts": 4,
+      "attempts": 3,
       "repaired": 0,
-      "missing": 4
+      "missing": 3
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
       "kept": 10,
-      "missing": 4,
+      "missing": 3,
       "missingItems": [
         {
           "id": "the-2026-alien-soft-launch-missing-scientists-aliens-gov-pentagon-secrets-y01qlmdfznb",
@@ -581,12 +589,6 @@
           "title": "The US government finally admitted these UFO encounters are real",
           "source": "MSN",
           "reason": "missing_article_content_summary_kept_visible"
-        },
-        {
-          "id": "ufo-files-reveal-the-same-old-material",
-          "title": "UFO Files Reveal … the Same Old Material",
-          "source": "skeptic.com",
-          "reason": "missing_article_content_summary_kept_visible"
         }
       ]
     },
@@ -594,22 +596,26 @@
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v11_trust_source_summaries",
       "inputArticles": 10,
       "outputArticles": 9,
-      "preservedSourceSummaries": 5
+      "preservedSourceSummaries": 6
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
       "inputArticles": 9,
       "outputArticles": 9,
-      "missingSummaries": 4,
+      "missingSummaries": 3,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
       "notification": "new_visible_topics_or_new_sources_inside_visible_topics"
     },
+    "warReleaseSummaryGuard": {
+      "policy": "department_of_war_release_summary_from_release_page_v1",
+      "updatedArticles": 1
+    },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 9,
-      "newSources": 1
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -619,8 +625,8 @@
     },
     "finalNewEvents": {
       "policy": "new_marker_for_topics_or_sources_not_in_previous_app_feed",
-      "notifications": 1,
-      "freshSources": 1,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0
     }
   },
@@ -681,23 +687,37 @@
         "provider": "google"
       }
     },
+    "ufo-files-reveal-the-same-old-material": {
+      "en": {
+        "title": "UFO Files Reveal … the Same Old Material",
+        "summary": "The Department of War has released a second batch of declassified Unidentified Anomalous Phenomena (UAP) files under the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE). GOV/UFO website, which has attracted more than 1 billion hits worldwide since its launch on May 8, 2026. Additional UAP files will be added to the site on a rolling basis.",
+        "sourceHash": "2d0a0960600eaa53ea85270b9cd886671b7131b5",
+        "provider": "original"
+      },
+      "de": {
+        "title": "UFO-Dateien enthüllen … das gleiche alte Material",
+        "summary": "Das Kriegsministerium hat einen zweiten Stapel freigegebener UAP-Dateien (Unidentified Anomalous Phenomena) im Rahmen des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. GOV/UFO-Website, die seit ihrem Start am 8. Mai 2026 weltweit mehr als 1 Milliarde Zugriffe verzeichnet hat. Weitere UAP-Dateien werden fortlaufend zur Website hinzugefügt.",
+        "sourceHash": "2d0a0960600eaa53ea85270b9cd886671b7131b5",
+        "provider": "google"
+      }
+    },
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
       "en": {
         "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "summary": "S. Department of War released 162 declassified documents, photos and videos on unidentified anomalous phenomena under President Donald Trump, with further releases planned through the PURSUE program. The release involves the White House, NASA, FBI, Office of the Director of National Intelligence and the All‑Domain Anomaly Resolution Office, and includes footage of UAPs over Greece, Iraq, the UAE and a football‑shaped object near Japan.",
-        "sourceHash": "653827397f4bbf60c6c6a214c264c86c3fa2722f",
+        "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
+        "sourceHash": "098320c8d770557fba92ae7c23efca66bd7a4b6f",
         "provider": "original"
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das US-Kriegsministerium veröffentlichte unter Präsident Donald Trump 162 freigegebene Dokumente, Fotos und Videos zu nicht identifizierten anomalen Phänomenen. Weitere Veröffentlichungen sind im Rahmen des PURSUE-Programms geplant. An der Veröffentlichung sind das Weiße Haus, die NASA, das FBI, das Büro des Direktors des Nationalen Geheimdienstes und das All-Domain Anomaly Resolution Office beteiligt. Sie umfasst Aufnahmen von UAPs über Griechenland, dem Irak, den Vereinigten Arabischen Emiraten und einem fußballförmigen Objekt in der Nähe von Japan.",
-        "sourceHash": "653827397f4bbf60c6c6a214c264c86c3fa2722f",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. GOV/UFO und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "sourceHash": "098320c8d770557fba92ae7c23efca66bd7a4b6f",
         "provider": "google"
       }
     }
   },
   "translationMeta": {
-    "prepared": 5,
+    "prepared": 6,
     "failed": 0,
     "summary": "compact app summary only",
     "target": "de for English articles, en for German articles",
