@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Final guard for display-ready UAP feed clusters.
 
-Earlier pipeline stages may promote sources, regroup stories and repair summaries.
 This last pass keeps the mobile app data honest: unrelated sources are removed
 from a cluster, duplicate top-level stories are merged, source counts are rebuilt,
-rating is recalculated from the final visible source set, and stale summaries are
-cleared when they clearly describe a different topic than the article title.
+and rating is recalculated from the final visible source set. Summaries created
+from source-page content are preserved; topic signatures are used for clustering,
+not for rejecting extracted summaries.
 """
 from __future__ import annotations
 
@@ -104,10 +104,6 @@ def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
         if key in article:
             source[key] = article[key]
     return source
-
-
-def core_article_text(article: dict[str, Any]) -> str:
-    return clean(" ".join([article.get("title", ""), article.get("description", ""), article.get("source", "")]))
 
 
 def article_match_text(article: dict[str, Any]) -> str:
@@ -220,27 +216,7 @@ def story_signature(text: Any) -> str:
     return ""
 
 
-def summary_conflicts(article: dict[str, Any], summary: str | None = None) -> bool:
-    summary = clean(summary if summary is not None else article.get("summary", ""))
-    if not summary:
-        return False
-    core_sig = story_signature(core_article_text(article))
-    summary_sig = story_signature(summary)
-    if core_sig and summary_sig and core_sig != summary_sig:
-        return True
-    core = core_article_text(article).lower()
-    if summary_sig == "program:immaculate-constellation" and "immaculate constellation" not in core:
-        return True
-    if summary_sig == "program:ukraine" and not re.search(r"\b(ukraine|ukrainian)\b", core, re.I):
-        return True
-    return False
-
-
 def clear_conflicting_summary(article: dict[str, Any]) -> dict[str, Any]:
-    if summary_conflicts(article):
-        article["summary"] = ""
-        article.pop("translation", None)
-        article.pop("translations", None)
     return article
 
 
@@ -370,10 +346,7 @@ def normalize_quality(article: dict[str, Any]) -> dict[str, Any]:
 
 def best_valid_summary(merged: dict[str, Any], group: list[dict[str, Any]]) -> str:
     candidates = sorted((clean(article.get("summary")) for article in group), key=len, reverse=True)
-    for candidate in candidates:
-        if candidate and not summary_conflicts(merged, candidate):
-            return candidate
-    return ""
+    return next((candidate for candidate in candidates if candidate), "")
 
 
 def merge_group(group: list[dict[str, Any]]) -> dict[str, Any]:
@@ -424,10 +397,10 @@ def main() -> None:
     payload["summaries"] = {article["id"]: article.get("summary", "") for article in articles if article.get("id") and article.get("summary")}
     meta = payload.setdefault("scanMeta", {})
     meta["finalFeedIntegrity"] = {
-        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v10_post_merge_source_prune",
+        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v11_trust_source_summaries",
         "inputArticles": len(raw_articles),
         "outputArticles": len(articles),
-        "clearedConflictingSummaries": sum(1 for article in articles if not clean(article.get("summary"))),
+        "preservedSourceSummaries": sum(1 for article in articles if clean(article.get("summary"))),
     }
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"final feed integrity: input={len(raw_articles)} output={len(articles)}")
