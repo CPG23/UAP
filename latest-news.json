@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-22T13:41:30Z",
+  "timestamp": "2026-05-22T13:45:56Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -503,30 +503,22 @@
     "film-new-documentary-follows-journalist-jeremy-corbell-s-hunt-for-the-truth-on-ufos": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-22T13:41:30Z",
-    "ids": [
-      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
-    ],
-    "articles": [
-      {
-        "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "source": "U.S. Department of War (.gov)"
-      }
-    ]
+    "timestamp": "2026-05-22T13:45:56Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 326,
-    "broadTopics": 151,
+    "broadArticles": 329,
+    "broadTopics": 152,
     "notificationArticles": 2,
     "notificationTopics": 2,
-    "newNotificationTopics": 1,
+    "newNotificationTopics": 0,
     "appTopics": 8,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 1,
+    "splitUnrelatedGroupedSources": 2,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
     "regroupedTopics": 5,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
@@ -584,18 +576,18 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 8,
-      "newSources": 3
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 7,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 8,
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_topics_or_sources_not_in_previous_app_feed",
-      "notifications": 1,
-      "freshSources": 3,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0
     }
   },
