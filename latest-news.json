@@ -1,6 +1,91 @@
 {
-  "timestamp": "2026-05-22T14:28:28Z",
+  "timestamp": "2026-05-22T16:39:26Z",
   "articles": [
+    {
+      "id": "file-release-us-releases-second-batch-of-government-declassified-ufo-files",
+      "title": "US releases second batch of government declassified UFO files",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
+      "date": "2026-05-22",
+      "publishedAt": "2026-05-22T12:45:24Z",
+      "summary": "The Department of War released a second batch of declassified Unidentified Anomalous Phenomena files, adding 222 documents and 5.6 GB of video to the public archive, bringing the total to 384 files. The first batch, published on May 8 2026 after President Trump ordered agencies to declassify UAP records, contained 162 files from the FBI, NASA, War Department, and State Department covering incidents from the 1940s to 2026, including Apollo 12 and 17 photographs of unexplained lights above the lunar horizon. The new batch expands the scope to include incidents from Apollo and Gemini missions, sightings over Germany, the Netherlands, Iraq, Iran, Syria, Greece, Kazakhstan, and Mexico, and maritime encounters in the Arabian Gulf, Gulf of Oman, and Strait of Hormuz. Several FBI photographs and videos in the files depict single or multiple UFOs in formation. Secretary of War Pete Hegseth said the files have long fueled speculation and that it is time the public could see them. The Department and its partners are preparing a third release, with additional files being added on a rolling basis.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "White House releases UFO files, more expected",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUzdlRnljdWZMRlhEWW55RlNZMExmSFpEN3JGOWdRdEY0TTFDWGJ4dlNUV2lLeUtxOUY3dGdQZFdGdjcyekFBMmozQlAtTzBUYXB0MlEtSDZRWGZpS3JvSWdROUx2NnNYM2VYRThDdkRzZ29XMVhMMm1iTGE4TmVSamoxWThfMHZIOExwVw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUzdlRnljdWZMRlhEWW55RlNZMExmSFpEN3JGOWdRdEY0TTFDWGJ4dlNUV2lLeUtxOUY3dGdQZFdGdjcyekFBMmozQlAtTzBUYXB0MlEtSDZRWGZpS3JvSWdROUx2NnNYM2VYRThDdkRzZ29XMVhMMm1iTGE4TmVSamoxWThfMHZIOExwVw?oc=5",
+          "source": "RNZ",
+          "publishedAt": "2026-05-09T07:00:00Z",
+          "displayedAt": "2026-05-22T16:39:26Z",
+          "isNew": true
+        }
+      ],
+      "clusterTitles": [
+        "White House releases UFO files, more expected"
+      ],
+      "quality": 72,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DECLASSIFIED, GOVERNMENT als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "DECLASSIFIED, GOVERNMENT als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DECLASSIFIED",
+        "GOVERNMENT"
+      ],
+      "sourceQuality": 72,
+      "displayedAt": "2026-05-22T16:39:26Z",
+      "sourceDisplayedAt": "2026-05-22T16:39:26Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "US releases second batch of government declassified UFO files",
+          "summary": "The Department of War released a second batch of declassified Unidentified Anomalous Phenomena files, adding 222 documents and 5.6 GB of video to the public archive, bringing the total to 384 files. The first batch, published on May 8 2026 after President Trump ordered agencies to declassify UAP records, contained 162 files from the FBI, NASA, War Department, and State Department covering incidents from the 1940s to 2026, including Apollo 12 and 17 photographs of unexplained lights above the lunar horizon.",
+          "sourceHash": "120cc83306241bf428bca1b2afe6c7fd6132374e",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Die USA veröffentlichen den zweiten Stapel von von der Regierung freigegebenen UFO-Dateien",
+          "summary": "Das Kriegsministerium veröffentlichte einen zweiten Stapel freigegebener Dateien zu nicht identifizierten anomalen Phänomenen und fügte dem öffentlichen Archiv 222 Dokumente und 5,6 GB Video hinzu, sodass sich die Gesamtzahl auf 384 Dateien erhöhte. Der erste Stapel, der am 8. Mai 2026 veröffentlicht wurde, nachdem Präsident Trump die Behörden angewiesen hatte, UAP-Aufzeichnungen freizugeben, enthielt 162 Dateien des FBI, der NASA, des Kriegsministeriums und des Außenministeriums zu Vorfällen aus den 1940er Jahren bis 2026, darunter Apollo 12 und 17 Fotos von ungeklärten Lichtern über dem Mondhorizont.",
+          "sourceHash": "120cc83306241bf428bca1b2afe6c7fd6132374e",
+          "provider": "google"
+        }
+      }
+    },
     {
       "id": "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases",
       "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
@@ -66,6 +151,78 @@
           "title": "Außerirdischer Whistleblower behauptet, die USA hätten „graue Körper zerstückelt“, die in unterirdischen Militärstützpunkten versteckt seien",
           "summary": "Laut einem Interview auf der Plattform Redacted behauptete der investigative Autor Timothy Alberino, die US-Regierung habe außerirdische Leichen geborgen und sie in unterirdischen Militärstützpunkten versteckt. Er sagte, dass Bergungsoperationen nach Unfällen mit nichtmenschlichen Fahrzeugen und Leichen außerhalb der Aufsicht gewählter Beamter durchgeführt und von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert würden.",
           "sourceHash": "a3bf5fd5f5e25ce3dde691b7403810c7a705d808",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "uap-whistleblower-pilots-are-still-having-these-encounters",
+      "title": "UAP whistleblower: Pilots are ‘still having' these encounters",
+      "source": "Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpMGFlckx5Uml6RTFNMTc2ZF9mcWE5UGtuNFJqdnlHRHVrT1M5R3h2bGt3QTF2eTZ0UU1oOHBQWHVqLVMwSTQwczlKcXpHeF9FRUtBcXFB?oc=5",
+      "date": "2026-05-09",
+      "publishedAt": "2026-05-09T07:00:00Z",
+      "summary": "Former Navy F‑18 pilot Ryan Graves, who has called himself a UAP whistleblower, spoke on Fox News’ “The Big Weekend Show” about the Pentagon’s release of UFO and UAP footage. Graves said the footage shows pilots still encountering unidentified aerial phenomena. The segment was part of Fox News Channel’s coverage, which includes news reporting, opinion and analysis. The article does not provide further details on the content of the footage or the Pentagon’s response.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 65,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "WHISTLEBLOWER"
+      ],
+      "sourceQuality": 65,
+      "displayedAt": "2026-05-22T16:39:26Z",
+      "sourceDisplayedAt": "2026-05-22T16:39:26Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "UAP whistleblower: Pilots are ‘still having' these encounters",
+          "summary": "Former Navy F‑18 pilot Ryan Graves, who has called himself a UAP whistleblower, spoke on Fox News’ “The Big Weekend Show” about the Pentagon’s release of UFO and UAP footage. Graves said the footage shows pilots still encountering unidentified aerial phenomena. The segment was part of Fox News Channel’s coverage, which includes news reporting, opinion and analysis.",
+          "sourceHash": "5fd6f15cfb773a8ea0df7a7b6349cf667e8b84e8",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UAP-Whistleblower: Piloten haben diese Begegnungen „immer noch“.",
+          "summary": "Der ehemalige Navy-F-18-Pilot Ryan Graves, der sich selbst als UAP-Whistleblower bezeichnet hat, sprach in der Sendung „The Big Weekend Show“ von Fox News über die Veröffentlichung von UFO- und UAP-Aufnahmen durch das Pentagon. Graves sagte, das Filmmaterial zeige, wie Piloten immer noch auf unbekannte Luftphänomene stoßen. Das Segment war Teil der Berichterstattung des Fox News Channel, die Nachrichtenberichterstattung, Meinungen und Analysen umfasst.",
+          "sourceHash": "5fd6f15cfb773a8ea0df7a7b6349cf667e8b84e8",
           "provider": "google"
         }
       }
@@ -194,62 +351,6 @@
           "provider": "google"
         }
       }
-    },
-    {
-      "id": "uap-whistleblower-pilots-are-still-having-these-encounters",
-      "title": "UAP whistleblower: Pilots are 'still having' these encounters",
-      "source": "MSN",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeDE4S3dEYVZkdXA5SEdxdGMzUGVYVlZpTlZLeG9jaGh5RUNJSjYyYmRKcklwTXRrUVBDNnhyODJnZlNzcE9pSVRucXFaMHBYZkRrOXlTTk5lOFhuRW5KX3RLQUR4NmNtbjNnRV9yWXZqcHlySjU0WWE2T0RRR0tvWDMtQVhabUpYcUpBRnoxVzZYOXliV25xRlR4RzhYdjBJYnYyTXNzaXk3dnQ4bGlGanpB?oc=5",
-      "date": "2026-05-09",
-      "publishedAt": "2026-05-09T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 56,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "WHISTLEBLOWER"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "sourceQuality": 56,
-      "displayedAt": "2026-05-19T06:40:05Z",
-      "sourceDisplayedAt": "2026-05-19T06:40:05Z"
     },
     {
       "id": "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
@@ -432,70 +533,40 @@
       "displayedAt": "2026-05-21T20:05:44Z",
       "sourceDisplayedAt": "2026-05-21T20:05:44Z",
       "sourceIsNew": true
-    },
-    {
-      "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-      "source": "U.S. Department of War (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-      "date": "2026-05-10",
-      "publishedAt": "2026-05-22T12:07:07Z",
-      "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "displayedAt": "2026-05-22T13:41:30Z",
-      "sourceDisplayedAt": "2026-05-22T13:25:53Z",
-      "sourceIsNew": true,
-      "translation": {
-        "en": {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-          "provider": "google"
-        }
-      }
     }
   ],
   "summaries": {
+    "file-release-us-releases-second-batch-of-government-declassified-ufo-files": "The Department of War released a second batch of declassified Unidentified Anomalous Phenomena files, adding 222 documents and 5.6 GB of video to the public archive, bringing the total to 384 files. The first batch, published on May 8 2026 after President Trump ordered agencies to declassify UAP records, contained 162 files from the FBI, NASA, War Department, and State Department covering incidents from the 1940s to 2026, including Apollo 12 and 17 photographs of unexplained lights above the lunar horizon. The new batch expands the scope to include incidents from Apollo and Gemini missions, sightings over Germany, the Netherlands, Iraq, Iran, Syria, Greece, Kazakhstan, and Mexico, and maritime encounters in the Arabian Gulf, Gulf of Oman, and Strait of Hormuz. Several FBI photographs and videos in the files depict single or multiple UFOs in formation. Secretary of War Pete Hegseth said the files have long fueled speculation and that it is time the public could see them. The Department and its partners are preparing a third release, with additional files being added on a rolling basis.",
     "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases": "Investigative writer Timothy Alberino claimed that the U.S. government has recovered alien bodies and hides them in underground military bases, according to an interview on the platform Redacted. He said that crash‑retrieval operations involving non‑human craft and bodies are conducted outside the oversight of elected officials and are controlled by private aerospace contractors and highly compartmentalised defence programmes. Alberino referenced anecdotal eyewitness accounts of “gray aliens” at alleged retrieval sites, describing dismembered bodies and transparent fluids, and cited former intelligence official David Grusch’s 2023 testimony that the U.S. had recovered “non‑human biologics.” No publicly available evidence has been produced to substantiate Alberino’s allegations, and U.S. defence agencies have not confirmed the existence of such programmes. Congressional interest in UAP investigations remains high, with lawmakers calling for greater transparency, but the Pentagon maintains that its All‑domain Anomaly Resolution Office has not produced verified evidence of extraterrestrial activity.",
+    "uap-whistleblower-pilots-are-still-having-these-encounters": "Former Navy F‑18 pilot Ryan Graves, who has called himself a UAP whistleblower, spoke on Fox News’ “The Big Weekend Show” about the Pentagon’s release of UFO and UAP footage. Graves said the footage shows pilots still encountering unidentified aerial phenomena. The segment was part of Fox News Channel’s coverage, which includes news reporting, opinion and analysis. The article does not provide further details on the content of the footage or the Pentagon’s response.",
     "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released. The FBI is investigating a series of missing and dead scientists linked to secret nuclear and UFO programs, including the disappearance of retired General William Neil McCasland. Other scientists, such as David Wilcock, have also died under suspicious circumstances, adding to the pattern of unexplained losses.",
     "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. His remarks echo earlier testimony by former Air Force intelligence officer David Grusch, who said the U.S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites. Puthoff’s associate Eric Davis described the recovered beings in intelligence reports as “gray,” “Nordic,” “insect‑like,” and “reptilian,” all humanoid with two arms and two legs, but no detailed evidence was provided. The documentary “The Age of Disclosure,” directed by Dan Farah, features interviews with military officials, intelligence figures, and political leaders discussing alleged UAP encounters, government secrecy, and a supposed secret “Legacy Program.” Despite these claims, no verified public evidence has emerged, and U.S. officials continue to state that there is no confirmed evidence linking UAP sightings to extraterrestrial origins.",
-    "film-new-documentary-follows-journalist-jeremy-corbell-s-hunt-for-the-truth-on-ufos": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
+    "film-new-documentary-follows-journalist-jeremy-corbell-s-hunt-for-the-truth-on-ufos": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-22T14:28:28Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-05-22T16:39:26Z",
+    "ids": [
+      "file-release-us-releases-second-batch-of-government-declassified-ufo-files",
+      "uap-whistleblower-pilots-are-still-having-these-encounters"
+    ],
+    "articles": [
+      {
+        "id": "file-release-us-releases-second-batch-of-government-declassified-ufo-files",
+        "title": "US releases second batch of government declassified UFO files",
+        "source": "Reuters"
+      },
+      {
+        "id": "uap-whistleblower-pilots-are-still-having-these-encounters",
+        "title": "UAP whistleblower: Pilots are ‘still having' these encounters",
+        "source": "Fox News"
+      }
+    ]
   },
   "scanMeta": {
     "broadArticles": 330,
-    "broadTopics": 151,
+    "broadTopics": 149,
     "notificationArticles": 4,
-    "notificationTopics": 4,
+    "notificationTopics": 3,
     "newNotificationTopics": 0,
     "appTopics": 8,
     "retentionDays": 14,
@@ -504,7 +575,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 6,
+    "regroupedTopics": 5,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -512,25 +583,19 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v4_mark_source_grounded",
-      "attempts": 3,
+      "attempts": 2,
       "repaired": 0,
-      "missing": 3
+      "missing": 2
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
       "kept": 9,
-      "missing": 3,
+      "missing": 2,
       "missingItems": [
         {
           "id": "the-2026-alien-soft-launch-missing-scientists-aliens-gov-pentagon-secrets-y01qlmdfznb",
           "title": "The 2026 Alien Soft Launch: Missing Scientists, Aliens.gov & Pentagon Secrets (y01QlMdFZnb)",
           "source": "folha do es",
-          "reason": "missing_article_content_summary_kept_visible"
-        },
-        {
-          "id": "uap-whistleblower-pilots-are-still-having-these-encounters",
-          "title": "UAP whistleblower: Pilots are 'still having' these encounters",
-          "source": "MSN",
           "reason": "missing_article_content_summary_kept_visible"
         },
         {
@@ -545,41 +610,51 @@
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v11_trust_source_summaries",
       "inputArticles": 9,
       "outputArticles": 8,
-      "preservedSourceSummaries": 5
+      "preservedSourceSummaries": 6
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
       "inputArticles": 8,
       "outputArticles": 8,
-      "missingSummaries": 3,
+      "missingSummaries": 2,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
       "notification": "new_visible_topics_or_new_sources_inside_visible_topics"
     },
-    "warReleaseSummaryGuard": {
-      "policy": "department_of_war_release_summary_from_release_page_v1",
-      "updatedArticles": 1
-    },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 8,
-      "newSources": 0
+      "newSources": 3
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 8,
-      "newTopics": 0,
-      "topicsWithNewSources": 0
+      "correctedExistingTopics": 7,
+      "newTopics": 1,
+      "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_topics_or_sources_not_in_previous_app_feed",
-      "notifications": 0,
-      "freshSources": 0,
+      "notifications": 2,
+      "freshSources": 3,
       "correctedOldSourceMarkers": 0
     }
   },
   "translations": {
+    "file-release-us-releases-second-batch-of-government-declassified-ufo-files": {
+      "en": {
+        "title": "US releases second batch of government declassified UFO files",
+        "summary": "The Department of War released a second batch of declassified Unidentified Anomalous Phenomena files, adding 222 documents and 5.6 GB of video to the public archive, bringing the total to 384 files. The first batch, published on May 8 2026 after President Trump ordered agencies to declassify UAP records, contained 162 files from the FBI, NASA, War Department, and State Department covering incidents from the 1940s to 2026, including Apollo 12 and 17 photographs of unexplained lights above the lunar horizon.",
+        "sourceHash": "120cc83306241bf428bca1b2afe6c7fd6132374e",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Die USA veröffentlichen den zweiten Stapel von von der Regierung freigegebenen UFO-Dateien",
+        "summary": "Das Kriegsministerium veröffentlichte einen zweiten Stapel freigegebener Dateien zu nicht identifizierten anomalen Phänomenen und fügte dem öffentlichen Archiv 222 Dokumente und 5,6 GB Video hinzu, sodass sich die Gesamtzahl auf 384 Dateien erhöhte. Der erste Stapel, der am 8. Mai 2026 veröffentlicht wurde, nachdem Präsident Trump die Behörden angewiesen hatte, UAP-Aufzeichnungen freizugeben, enthielt 162 Dateien des FBI, der NASA, des Kriegsministeriums und des Außenministeriums zu Vorfällen aus den 1940er Jahren bis 2026, darunter Apollo 12 und 17 Fotos von ungeklärten Lichtern über dem Mondhorizont.",
+        "sourceHash": "120cc83306241bf428bca1b2afe6c7fd6132374e",
+        "provider": "google"
+      }
+    },
     "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases": {
       "en": {
         "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
@@ -591,6 +666,20 @@
         "title": "Außerirdischer Whistleblower behauptet, die USA hätten „graue Körper zerstückelt“, die in unterirdischen Militärstützpunkten versteckt seien",
         "summary": "Laut einem Interview auf der Plattform Redacted behauptete der investigative Autor Timothy Alberino, die US-Regierung habe außerirdische Leichen geborgen und sie in unterirdischen Militärstützpunkten versteckt. Er sagte, dass Bergungsoperationen nach Unfällen mit nichtmenschlichen Fahrzeugen und Leichen außerhalb der Aufsicht gewählter Beamter durchgeführt und von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert würden.",
         "sourceHash": "a3bf5fd5f5e25ce3dde691b7403810c7a705d808",
+        "provider": "google"
+      }
+    },
+    "uap-whistleblower-pilots-are-still-having-these-encounters": {
+      "en": {
+        "title": "UAP whistleblower: Pilots are ‘still having' these encounters",
+        "summary": "Former Navy F‑18 pilot Ryan Graves, who has called himself a UAP whistleblower, spoke on Fox News’ “The Big Weekend Show” about the Pentagon’s release of UFO and UAP footage. Graves said the footage shows pilots still encountering unidentified aerial phenomena. The segment was part of Fox News Channel’s coverage, which includes news reporting, opinion and analysis.",
+        "sourceHash": "5fd6f15cfb773a8ea0df7a7b6349cf667e8b84e8",
+        "provider": "original"
+      },
+      "de": {
+        "title": "UAP-Whistleblower: Piloten haben diese Begegnungen „immer noch“.",
+        "summary": "Der ehemalige Navy-F-18-Pilot Ryan Graves, der sich selbst als UAP-Whistleblower bezeichnet hat, sprach in der Sendung „The Big Weekend Show“ von Fox News über die Veröffentlichung von UFO- und UAP-Aufnahmen durch das Pentagon. Graves sagte, das Filmmaterial zeige, wie Piloten immer noch auf unbekannte Luftphänomene stoßen. Das Segment war Teil der Berichterstattung des Fox News Channel, die Nachrichtenberichterstattung, Meinungen und Analysen umfasst.",
+        "sourceHash": "5fd6f15cfb773a8ea0df7a7b6349cf667e8b84e8",
         "provider": "google"
       }
     },
@@ -635,24 +724,10 @@
         "sourceHash": "f8ced33a4bc8b5143b70f898defbcdd442ffcbc3",
         "provider": "google"
       }
-    },
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
-      "en": {
-        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-        "provider": "google"
-      }
     }
   },
   "translationMeta": {
-    "prepared": 5,
+    "prepared": 6,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
