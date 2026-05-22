@@ -1,68 +1,6 @@
 {
-  "timestamp": "2026-05-22T13:45:56Z",
+  "timestamp": "2026-05-22T13:49:46Z",
   "articles": [
-    {
-      "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-      "source": "U.S. Department of War (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-      "date": "2026-05-10",
-      "publishedAt": "2026-05-22T12:07:07Z",
-      "summary": "",
-      "mentions": 3,
-      "otherSources": [
-        {
-          "title": "US releases second batch of government declassified UFO files",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2026-05-22T12:45:24Z",
-          "displayedAt": "2026-05-22T13:41:30Z",
-          "isNew": true
-        },
-        {
-          "title": "White House releases UFO files, more expected",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUzdlRnljdWZMRlhEWW55RlNZMExmSFpEN3JGOWdRdEY0TTFDWGJ4dlNUV2lLeUtxOUY3dGdQZFdGdjcyekFBMmozQlAtTzBUYXB0MlEtSDZRWGZpS3JvSWdROUx2NnNYM2VYRThDdkRzZ29XMVhMMm1iTGE4TmVSamoxWThfMHZIOExwVw?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUzdlRnljdWZMRlhEWW55RlNZMExmSFpEN3JGOWdRdEY0TTFDWGJ4dlNUV2lLeUtxOUY3dGdQZFdGdjcyekFBMmozQlAtTzBUYXB0MlEtSDZRWGZpS3JvSWdROUx2NnNYM2VYRThDdkRzZ29XMVhMMm1iTGE4TmVSamoxWThfMHZIOExwVw?oc=5",
-          "source": "RNZ",
-          "publishedAt": "2026-05-09T07:00:00Z",
-          "displayedAt": "2026-05-22T13:25:53Z",
-          "isNew": true
-        }
-      ],
-      "clusterTitles": [
-        "US releases second batch of government declassified UFO files",
-        "White House releases UFO files, more expected"
-      ],
-      "quality": 82,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 82,
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "displayedAt": "2026-05-22T13:41:30Z",
-      "sourceDisplayedAt": "2026-05-22T13:25:53Z",
-      "sourceIsNew": true
-    },
     {
       "id": "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases",
       "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
@@ -126,7 +64,7 @@
         },
         "de": {
           "title": "Außerirdischer Whistleblower behauptet, die USA hätten „graue Körper zerstückelt“, die in unterirdischen Militärstützpunkten versteckt seien",
-          "summary": "Laut einem Interview auf der Plattform Redacted hat die südafrikanische Regierung außerirdische Leichen geborgen und versteckt sie in unterirdischen Militärbasen. Er sagte, dass Bergungsoperationen nach Unfällen mit nichtmenschlichen Fahrzeugen und Leichen außerhalb der Aufsicht gewählter Beamter durchgeführt und von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert würden.",
+          "summary": "Laut einem Interview auf der Plattform Redacted hat die südafrikanische Regierung außerirdische Leichen geborgen und versteckt sie in unterirdischen Militärbasen. Er sagte, dass Bergungsoperationen nach einem Absturz mit nichtmenschlichen Fahrzeugen und Körpern außerhalb der Aufsicht gewählter Amtsträger durchgeführt würden und von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert würden.",
           "sourceHash": "80a9031de77caa06c98899ba4a597698c4b3f17a",
           "provider": "google"
         }
@@ -314,13 +252,13 @@
       "sourceDisplayedAt": "2026-05-19T06:40:05Z"
     },
     {
-      "id": "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
+      "id": "film-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
       "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
       "source": "USA Herald",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNXRCWG5NWEtkeVNFVHlvanh6TVhIMjFEQ016a2FPRTBScEI4STlSN1FJeWdSV3Rmem5hUm5xOVNRWTdQUm9RTDBrUEludkZiblNRalpkRFFaZkV0eTVCbkZKRHRUX1RhREwyWVlEQUlibHNtNEVNTlhZZHRpNWxnSkZVLVZlX3otMmxuNjlVMW5ta0RoQ1FLbkxkLUVpbVM4bnk0WmR2eWx2R1V2UzNvaTNablBMOHdZeGlTTXJPd2x4bTJucUV0RlYyc2c2RVkteWNfemMxU1pDUk5XdjFhTkx4blI?oc=5",
       "date": "2026-05-16",
       "publishedAt": "2026-05-19T18:58:23Z",
-      "summary": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites.",
+      "summary": "Former CIA‑funded researcher Dr. S. has recovered four distinct extraterrestrial species from crashed UFOs.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -334,12 +272,12 @@
         {
           "label": "Begriffe",
           "points": 6,
-          "text": "ALIEN, CIA als relevante Themenbegriffe erkannt."
+          "text": "ALIEN, GOVERNMENT als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
           "points": 4,
-          "text": "CIA als offizieller Kontext erkannt."
+          "text": "GOVERNMENT als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
@@ -355,7 +293,7 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "ALIEN",
-        "CIA"
+        "GOVERNMENT"
       ],
       "sourceQuality": 54,
       "displayedAt": "2026-05-22T07:34:25Z",
@@ -364,81 +302,14 @@
       "translation": {
         "en": {
           "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-          "summary": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites.",
-          "sourceHash": "fe02b03a4ff7455a91c369bd03df8dba1eabb200",
+          "summary": "Former CIA‑funded researcher Dr. S. has recovered four distinct extraterrestrial species from crashed UFOs.",
+          "sourceHash": "a5c00aa7acc630dfc4adac34edc4f82e4f5b4440",
           "provider": "original"
         },
         "de": {
           "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
-          "summary": "Hal Puthoff, ein ehemaliger von der CIA finanzierter Physiker, behauptete in einem Podcast, dass die Vereinigten Staaten möglicherweise vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen hätten, obwohl er die Beweise selbst nicht gesehen hat. S. besaß „nichtmenschliche Biologika“ von nicht identifizierten Absturzstellen mit anomalen Phänomenen.",
-          "sourceHash": "fe02b03a4ff7455a91c369bd03df8dba1eabb200",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "film-new-documentary-follows-journalist-jeremy-corbell-s-hunt-for-the-truth-on-ufos",
-      "title": "New documentary follows journalist Jeremy Corbell’s hunt for the truth on UFOs",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWi1TdkJpdmZ2VXZWc2FueVE2MmxYTlJSeWJDNnRXSk9hb1RwZHNpVWswa1RYRE1oV2tCVFNES2NuUHF4aVNfak9RVEl4akdyRmNNc3RxcnQ5YTh0eHZWY0hKakEybWEtTGtUcVc4cUNjNVNhS0RQZm5QU2V0NFJGNjI4VDhRc1luaUQ4VHRFMTdMaUNMbzQyZUFZT0RHNWdCWE5DajZYTjJzYjBlNTU1S0FpVUx5RFRKZHNkN2hR?oc=5",
-      "date": "2026-05-13",
-      "publishedAt": "2026-05-13T07:00:00Z",
-      "summary": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "Sleeping Dog Documentary Exposes UAP Secrets And Risks",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZ6VDBxeEEta0l4OUY4M01nZmpsMksycEdfaHRxdlFkaDc5eDMzQ0tQX0tHVHBrN1NvOTdnMGxPRmxNUXl5VThhaWRfc1ZCNkRBaDFTZ0NtdnZQTHRjZnZweHh0UFE4cVlWbTZWWVlfM0p6djJGeU90QUlpck8xU1RCSFJUZ0ZHNVhKc1pHWXpnUQ?oc=5",
-          "source": "Evrim Ağacı",
-          "publishedAt": "2026-05-09T00:10:35Z",
-          "displayedAt": "2026-05-22T13:41:30Z",
-          "isNew": true
-        }
-      ],
-      "clusterTitles": [
-        "Sleeping Dog Documentary Exposes UAP Secrets And Risks"
-      ],
-      "quality": 54,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 54,
-      "displayedAt": "2026-05-22T13:41:30Z",
-      "sourceDisplayedAt": "2026-05-22T13:41:30Z",
-      "sourceIsNew": true,
-      "translation": {
-        "en": {
-          "title": "New documentary follows journalist Jeremy Corbell’s hunt for the truth on UFOs",
-          "summary": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
-          "sourceHash": "f8ced33a4bc8b5143b70f898defbcdd442ffcbc3",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Neuer Dokumentarfilm folgt der Suche des Journalisten Jeremy Corbell nach der Wahrheit über UFOs",
-          "summary": "Der Journalist und Filmemacher Jeremy Corbell bespricht seinen neuen Dokumentarfilm mit NBC News-Korrespondent Gadi Schwartz. Der Dokumentarfilm trägt den Titel „Sleeping Dog“. Es untersucht Corbells Umgang mit Regierungsgeheimnissen. Es geht auch um Whistleblower und seine Suche nach der Wahrheit über UFOs.",
-          "sourceHash": "f8ced33a4bc8b5143b70f898defbcdd442ffcbc3",
+          "summary": "Der ehemalige von der CIA finanzierte Forscher Dr. S. hat vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen.",
+          "sourceHash": "a5c00aa7acc630dfc4adac34edc4f82e4f5b4440",
           "provider": "google"
         }
       }
@@ -494,26 +365,71 @@
       "displayedAt": "2026-05-21T20:05:44Z",
       "sourceDisplayedAt": "2026-05-21T20:05:44Z",
       "sourceIsNew": true
+    },
+    {
+      "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+      "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+      "source": "U.S. Department of War (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
+      "date": "2026-05-10",
+      "publishedAt": "2026-05-22T12:07:07Z",
+      "summary": "President Donald Trump and the Department of War released the UFO Files, but a preliminary review shows only blurry photographs, grainy videos, artist reconstructions, and anecdotal reports, with no new evidence of alien visitation. The files contain documents such as an artist’s composite sketch of an alleged ellipsoid bronze metallic object, a 2001 Georgian Foreign Ministry report claiming a Russian aircraft was a UFO, a 2023 Mexican Congress testimony on UAP that includes debunked fake alien corpses, and heavily redacted documents with a disclaimer protecting eyewitness identities and sensitive locations.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "displayedAt": "2026-05-22T13:41:30Z",
+      "sourceDisplayedAt": "2026-05-22T13:25:53Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+          "summary": "President Donald Trump and the Department of War released the UFO Files, but a preliminary review shows only blurry photographs, grainy videos, artist reconstructions, and anecdotal reports, with no new evidence of alien visitation. The files contain documents such as an artist’s composite sketch of an alleged ellipsoid bronze metallic object, a 2001 Georgian Foreign Ministry report claiming a Russian aircraft was a UFO, a 2023 Mexican Congress testimony on UAP that includes debunked fake alien corpses, and heavily redacted documents with a disclaimer protecting eyewitness identities and sensitive locations.",
+          "sourceHash": "8a44d53a055d0e657837a8efbab8e03ee23696cf",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+          "summary": "Präsident Donald Trump und das Kriegsministerium haben die UFO-Akten veröffentlicht, aber eine vorläufige Überprüfung zeigt nur verschwommene Fotos, körnige Videos, Künstlerrekonstruktionen und anekdotische Berichte, ohne neue Beweise für den Besuch von Außerirdischen. Die Akten enthalten Dokumente wie eine von einem Künstler zusammengesetzte Skizze eines angeblich ellipsoiden bronzenen Metallobjekts, einen Bericht des georgischen Außenministeriums aus dem Jahr 2001, in dem behauptet wird, ein russisches Flugzeug sei ein UFO, eine Zeugenaussage des mexikanischen Kongresses zu UAP aus dem Jahr 2023, die entlarvte gefälschte Alienleichen enthält, sowie stark redigierte Dokumente mit einem Haftungsausschluss, der die Identität von Augenzeugen und sensible Orte schützt.",
+          "sourceHash": "8a44d53a055d0e657837a8efbab8e03ee23696cf",
+          "provider": "google"
+        }
+      }
     }
   ],
   "summaries": {
     "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases": "Investigative writer Timothy Alberino claimed that the U.S. government has recovered alien bodies and hides them in underground military bases, according to an interview on the platform Redacted. He said that crash‑retrieval operations involving non‑human craft and bodies are conducted outside the oversight of elected officials and are controlled by private aerospace contractors and highly compartmentalised defence programmes. Alberino referenced anecdotal eyewitness accounts of “gray aliens” at alleged retrieval sites, describing dismembered bodies and transparent fluids, and cited former intelligence official David Grusch’s 2023 testimony that the U.S. had recovered “non‑human biologics.” No publicly available evidence has been produced to substantiate Alberino’s allegations, and U.S. defence agencies have not confirmed the existence of such programmes. Congressional interest in UAP investigations remains high, with lawmakers calling for greater transparency, but the Pentagon maintains that its All‑domain Anomaly Resolution Office has not produced verified evidence of extraterrestrial activity.",
     "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released. The FBI is investigating a series of missing and dead scientists linked to secret nuclear and UFO programs, including the disappearance of retired General William Neil McCasland. Other scientists, such as David Wilcock, have also died under suspicious circumstances, adding to the pattern of unexplained losses.",
-    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. His remarks echo earlier testimony by former Air Force intelligence officer David Grusch, who said the U.S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites. Puthoff’s associate Eric Davis described the recovered beings in intelligence reports as “gray,” “Nordic,” “insect‑like,” and “reptilian,” all humanoid with two arms and two legs, but no detailed evidence was provided. The documentary “The Age of Disclosure,” directed by Dan Farah, features interviews with military officials, intelligence figures, and political leaders discussing alleged UAP encounters, government secrecy, and a supposed secret “Legacy Program.” Despite these claims, no verified public evidence has emerged, and U.S. officials continue to state that there is no confirmed evidence linking UAP sightings to extraterrestrial origins.",
-    "film-new-documentary-follows-journalist-jeremy-corbell-s-hunt-for-the-truth-on-ufos": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs."
+    "film-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Former CIA‑funded researcher Dr. Hal Puthoff said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs. Puthoff, who has not seen the specimens himself, reports that people involved in recoveries have identified at least four types. Dr. Eric Davis, a former AAWSAP colleague, identified the species as Grays, Nordics, Insectoids, and Reptilians, describing each as humanoid with two arms and legs and giving size and appearance details. Former Air Force intelligence officer David Grusch testified in 2023 that the U.S. possessed “non‑human biologics” recovered from dozens of crashed UFOs. Director Dan Farrah of the film *Age of Disclosure* said he has spoken off‑record with recovery participants who declined to appear on camera, and one potential interview was canceled after the participant withdrew.",
+    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "President Donald Trump and the Department of War released the UFO Files, but a preliminary review shows only blurry photographs, grainy videos, artist reconstructions, and anecdotal reports, with no new evidence of alien visitation. The files contain documents such as an artist’s composite sketch of an alleged ellipsoid bronze metallic object, a 2001 Georgian Foreign Ministry report claiming a Russian aircraft was a UFO, a 2023 Mexican Congress testimony on UAP that includes debunked fake alien corpses, and heavily redacted documents with a disclaimer protecting eyewitness identities and sensitive locations. Photographic stills from videos shot in the Southwestern United States show a small dot that could be a balloon, drone, or aircraft, while a 2024 report describes a football‑shaped UAP near Japan and an image of a Chinese UAV, but the author does not confirm these as extraterrestrial. Light anomalies captured by Apollo 17 astronauts are noted in the files, with the government stating no consensus on their nature and that further analysis will be released, and a video posted by Steven Greenstreet shows a parachute and flare. Pilot Scott Kelly and other experts are quoted explaining that optical illusion and misidentification can account for many reported sightings, and the author remains skeptical until new evidence emerges."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-22T13:45:56Z",
+    "timestamp": "2026-05-22T13:49:46Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 329,
-    "broadTopics": 152,
+    "broadArticles": 338,
+    "broadTopics": 160,
     "notificationArticles": 2,
     "notificationTopics": 2,
     "newNotificationTopics": 0,
-    "appTopics": 8,
+    "appTopics": 7,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
@@ -558,16 +474,16 @@
       ]
     },
     "finalFeedIntegrity": {
-      "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v10_post_merge_source_prune",
+      "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v11_trust_source_summaries",
       "inputArticles": 9,
-      "outputArticles": 8,
-      "clearedConflictingSummaries": 4
+      "outputArticles": 7,
+      "preservedSourceSummaries": 4
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v3_keep_missing_summaries_notify_visible_topic_updates",
-      "inputArticles": 8,
-      "outputArticles": 8,
-      "missingSummaries": 4,
+      "inputArticles": 7,
+      "outputArticles": 7,
+      "missingSummaries": 3,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -575,12 +491,12 @@
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 8,
+      "updatedTopics": 7,
       "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 8,
+      "correctedExistingTopics": 7,
       "newTopics": 0,
       "topicsWithNewSources": 0
     },
@@ -601,7 +517,7 @@
       },
       "de": {
         "title": "Außerirdischer Whistleblower behauptet, die USA hätten „graue Körper zerstückelt“, die in unterirdischen Militärstützpunkten versteckt seien",
-        "summary": "Laut einem Interview auf der Plattform Redacted hat die südafrikanische Regierung außerirdische Leichen geborgen und versteckt sie in unterirdischen Militärbasen. Er sagte, dass Bergungsoperationen nach Unfällen mit nichtmenschlichen Fahrzeugen und Leichen außerhalb der Aufsicht gewählter Beamter durchgeführt und von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert würden.",
+        "summary": "Laut einem Interview auf der Plattform Redacted hat die südafrikanische Regierung außerirdische Leichen geborgen und versteckt sie in unterirdischen Militärbasen. Er sagte, dass Bergungsoperationen nach einem Absturz mit nichtmenschlichen Fahrzeugen und Körpern außerhalb der Aufsicht gewählter Amtsträger durchgeführt würden und von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert würden.",
         "sourceHash": "80a9031de77caa06c98899ba4a597698c4b3f17a",
         "provider": "google"
       }
@@ -620,31 +536,31 @@
         "provider": "google"
       }
     },
-    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": {
+    "film-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": {
       "en": {
         "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-        "summary": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites.",
-        "sourceHash": "fe02b03a4ff7455a91c369bd03df8dba1eabb200",
+        "summary": "Former CIA‑funded researcher Dr. S. has recovered four distinct extraterrestrial species from crashed UFOs.",
+        "sourceHash": "a5c00aa7acc630dfc4adac34edc4f82e4f5b4440",
         "provider": "original"
       },
       "de": {
         "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
-        "summary": "Hal Puthoff, ein ehemaliger von der CIA finanzierter Physiker, behauptete in einem Podcast, dass die Vereinigten Staaten möglicherweise vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen hätten, obwohl er die Beweise selbst nicht gesehen hat. S. besaß „nichtmenschliche Biologika“ von nicht identifizierten Absturzstellen mit anomalen Phänomenen.",
-        "sourceHash": "fe02b03a4ff7455a91c369bd03df8dba1eabb200",
+        "summary": "Der ehemalige von der CIA finanzierte Forscher Dr. S. hat vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen.",
+        "sourceHash": "a5c00aa7acc630dfc4adac34edc4f82e4f5b4440",
         "provider": "google"
       }
     },
-    "film-new-documentary-follows-journalist-jeremy-corbell-s-hunt-for-the-truth-on-ufos": {
+    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
       "en": {
-        "title": "New documentary follows journalist Jeremy Corbell’s hunt for the truth on UFOs",
-        "summary": "Journalist and filmmaker Jeremy Corbell discusses his new documentary with NBC News correspondent Gadi Schwartz. The documentary is titled “Sleeping Dog.” It explores Corbell’s navigation of government secrecy. It also covers whistleblowers and his search for truth about UFOs.",
-        "sourceHash": "f8ced33a4bc8b5143b70f898defbcdd442ffcbc3",
+        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+        "summary": "President Donald Trump and the Department of War released the UFO Files, but a preliminary review shows only blurry photographs, grainy videos, artist reconstructions, and anecdotal reports, with no new evidence of alien visitation. The files contain documents such as an artist’s composite sketch of an alleged ellipsoid bronze metallic object, a 2001 Georgian Foreign Ministry report claiming a Russian aircraft was a UFO, a 2023 Mexican Congress testimony on UAP that includes debunked fake alien corpses, and heavily redacted documents with a disclaimer protecting eyewitness identities and sensitive locations.",
+        "sourceHash": "8a44d53a055d0e657837a8efbab8e03ee23696cf",
         "provider": "original"
       },
       "de": {
-        "title": "Neuer Dokumentarfilm folgt der Suche des Journalisten Jeremy Corbell nach der Wahrheit über UFOs",
-        "summary": "Der Journalist und Filmemacher Jeremy Corbell bespricht seinen neuen Dokumentarfilm mit NBC News-Korrespondent Gadi Schwartz. Der Dokumentarfilm trägt den Titel „Sleeping Dog“. Es untersucht Corbells Umgang mit Regierungsgeheimnissen. Es geht auch um Whistleblower und seine Suche nach der Wahrheit über UFOs.",
-        "sourceHash": "f8ced33a4bc8b5143b70f898defbcdd442ffcbc3",
+        "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+        "summary": "Präsident Donald Trump und das Kriegsministerium haben die UFO-Akten veröffentlicht, aber eine vorläufige Überprüfung zeigt nur verschwommene Fotos, körnige Videos, Künstlerrekonstruktionen und anekdotische Berichte, ohne neue Beweise für den Besuch von Außerirdischen. Die Akten enthalten Dokumente wie eine von einem Künstler zusammengesetzte Skizze eines angeblich ellipsoiden bronzenen Metallobjekts, einen Bericht des georgischen Außenministeriums aus dem Jahr 2001, in dem behauptet wird, ein russisches Flugzeug sei ein UFO, eine Zeugenaussage des mexikanischen Kongresses zu UAP aus dem Jahr 2023, die entlarvte gefälschte Alienleichen enthält, sowie stark redigierte Dokumente mit einem Haftungsausschluss, der die Identität von Augenzeugen und sensible Orte schützt.",
+        "sourceHash": "8a44d53a055d0e657837a8efbab8e03ee23696cf",
         "provider": "google"
       }
     }
