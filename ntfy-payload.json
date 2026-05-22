@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "UAP News - 1 new report",
+  "message": "1. Translucent Beings? Pastors At UFO Disclosure Meet Shown Images Of Entities That May Herald A Dark Biblical Prophecy",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "Open app",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
