@@ -1,6 +1,6 @@
-var CACHE = 'uap-v223-manual-scan';
+var CACHE = 'uap-v224-manual-scan-no-refresh';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '223';
+var OVERRIDE_VERSION = '224';
 var OVERRIDE_FILES = [
   'uap-fast-app.js',
   'uap-header-retry-fix.js',
