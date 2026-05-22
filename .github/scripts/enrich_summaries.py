@@ -41,6 +41,13 @@ MIN_EXTRACT_CHARS = 450
 STRONG_EXTRACT_CHARS = 650
 HTML_READ_BYTES = 1_600_000
 WAR_SECOND_RELEASE_URL = 'https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/'
+WAR_SECOND_RELEASE_TEXT = (
+    'Statement Attributable to Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell: '
+    'Today, the Department of War is publishing the second release of declassified and historical Unidentified Anomalous Phenomena (UAP) files as part of the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE). '
+    'The collection continues to be housed on WAR.GOV/UFO, and additional files will be released on a rolling basis. '
+    "Since the site's launch on May 8, 2026, WAR.GOV/UFO has received over 1 billion hits worldwide, highlighting the unprecedented levels of interest in both this topic and the Trump administration's historic transparency effort. "
+    'The Department of War and our agency partners are actively working on the third release of UAP files, which will be announced in the near future.'
+)
 
 
 def is_bad_summary(text):
@@ -432,6 +439,14 @@ def article_urls(article):
 
 
 def fetch_article_text(article):
+    if is_war_second_release_article(article):
+        for url in publisher_direct_urls(article):
+            text = fetch_trafilatura(url, article) or fetch_html_fallback(url, article)
+            if text:
+                print('extracted article text:', article.get('title', '')[:70], '=>', url[:100], 'chars=', len(text))
+                return text
+        print('using pinned War.gov release text:', article.get('title', '')[:90])
+        return WAR_SECOND_RELEASE_TEXT
     for url in article_urls(article):
         text = fetch_trafilatura(url, article) or fetch_html_fallback(url, article) or fetch_jina(url)
         if text:
