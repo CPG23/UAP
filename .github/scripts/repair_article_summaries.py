@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Repair weak summaries after clustering and rating.
 
-Some summaries are lost or weakened after topic normalization because articles and
-sources are merged into new top-level clusters. This pass runs late in the
-pipeline, fetches article text for weak/missing summaries, and only keeps a
-summary if it reads like real article content rather than scanner metadata.
+This late pass fetches text from the article's own source page and keeps a
+summary when it reads like real article content. It deliberately does not run a
+second topic-classification check against the summary: once the text came from
+the selected source page, the summary should not be rejected for using wording
+that differs from the feed headline.
 """
 
 from __future__ import annotations
@@ -66,8 +67,6 @@ GENERIC_LEAD_RE = re.compile(
     r"(states|says|discusses|highlights|appears|covers|focuses|is about|falls under)",
     re.I,
 )
-UAP_RE = re.compile(r"\b(uap|uaps|ufo|ufos|unidentified anomalous|unidentified aerial|unidentified flying|alien|pentagon|aaro|nasa|congress|disclosure|whistleblower|sighting|sightings|orb|orbs)\b", re.I)
-TOPIC_RE = re.compile(r"\b(report|reports|document|documents|release|released|government|investigation|investigations|sighting|sightings|arizona|az|pentagon|uap|uaps|ufo|ufos|alien|disclosure|file|files|archive|archives)\b", re.I)
 WORD_RE = re.compile(r"[a-z0-9]+", re.I)
 STOP_WORDS = set(
     "a an the to of for in on at by with from and or is are was were be been has have had "
@@ -89,10 +88,6 @@ def words(value: Any) -> set[str]:
     }
 
 
-def topic_words(value: Any) -> set[str]:
-    return {word.lower() for word in TOPIC_RE.findall(compact(value))}
-
-
 def sentence_count(text: str) -> int:
     return len(re.findall(r"[.!?](?:\s|$)", text))
 
@@ -106,37 +101,6 @@ def title_echo(summary: str, title: str) -> bool:
     return overlap >= 0.82 and len(summary_words) < 42
 
 
-def has_feed_overlap(summary: str, article: dict[str, Any]) -> bool:
-    source_text = " ".join(
-        compact(part)
-        for part in [
-            article.get("title"),
-            article.get("description"),
-            article.get("source"),
-            " ".join(compact(src.get("title")) for src in article.get("otherSources", []) if isinstance(src, dict)),
-        ]
-        if compact(part)
-    )
-    source_words = words(source_text)
-    summary_words = words(summary)
-    if not source_words or not summary_words:
-        return True
-    shared = source_words & summary_words
-    if len(shared) >= 3 or len(shared) / max(1, min(len(source_words), len(summary_words))) >= 0.18:
-        return True
-
-    # Some publisher pages expose a short "Story Summary" whose factual wording
-    # shares only broad UAP/report terms with a terse headline. Keep those when
-    # both sides are clearly on the same UAP/document topic instead of throwing
-    # away a legitimate article-content summary.
-    source_topics = topic_words(source_text)
-    summary_topics = topic_words(summary)
-    shared_topics = source_topics & summary_topics
-    if UAP_RE.search(source_text) and UAP_RE.search(summary) and shared_topics:
-        return True
-    return False
-
-
 def is_good_summary(value: Any, article: dict[str, Any]) -> bool:
     text = compact(value)
     if len(text) < 180:
@@ -146,8 +110,6 @@ def is_good_summary(value: Any, article: dict[str, Any]) -> bool:
     if sentence_count(text) < 2:
         return False
     if title_echo(text, compact(article.get("title"))):
-        return False
-    if not has_feed_overlap(text, article):
         return False
     return True
 
@@ -178,6 +140,7 @@ def main() -> None:
         summary = summarize_article_text(article, text)
         if is_good_summary(summary, article):
             article["summary"] = compact(summary)
+            article.pop("summaryStatus", None)
             if article_id:
                 summaries[article_id] = article["summary"]
             repaired += 1
@@ -198,7 +161,7 @@ def main() -> None:
 
     meta = data.setdefault("scanMeta", {})
     meta["summaryRepair"] = {
-        "policy": "repair_after_cluster_normalization_v2_short_story_summary_overlap",
+        "policy": "repair_after_cluster_normalization_v3_trust_source_page_summary",
         "attempts": attempts,
         "repaired": repaired,
         "missing": missing,
