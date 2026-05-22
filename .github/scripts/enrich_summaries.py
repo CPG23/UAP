@@ -40,6 +40,7 @@ STOP_WORDS = set(
 MIN_EXTRACT_CHARS = 450
 STRONG_EXTRACT_CHARS = 650
 HTML_READ_BYTES = 1_600_000
+WAR_SECOND_RELEASE_URL = 'https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/'
 
 
 def is_bad_summary(text):
@@ -196,6 +197,72 @@ def clean_html_for_lines(raw_html):
     return [clean_text(line) for line in doc.splitlines()]
 
 
+def is_war_release_url(url):
+    return bool(url and 'war.gov/News/Releases/Release/Article/' in url)
+
+
+def is_war_second_release_article(article):
+    title = clean_text(article.get('title', '')).lower()
+    source = clean_text(article.get('source', '')).lower()
+    return (
+        ('department of war' in source or 'war.gov' in source or 'department of war publishes' in title)
+        and 'second release' in title
+        and 'unidentified anomalous phenomena' in title
+    )
+
+
+def force_refresh_summary(article):
+    return is_war_second_release_article(article)
+
+
+def extract_war_release_text(raw_html, article):
+    if not raw_html:
+        return ''
+    lines = [line for line in clean_html_for_lines(raw_html) if line]
+    start = None
+    for i, line in enumerate(lines):
+        low = line.lower()
+        if 'statement attributable to assistant to the secretary' in low:
+            start = i
+            break
+        if low.startswith('today, the department of war is publishing'):
+            start = i
+            break
+    if start is None:
+        for i, line in enumerate(lines):
+            if title_overlap(line, article) >= 0.45:
+                start = i
+                break
+    if start is None:
+        return ''
+
+    selected = []
+    for line in lines[start:]:
+        low = line.lower().strip()
+        if (
+            'subscribe to war.gov products' in low
+            or low == 'pursue uap ufo'
+            or low.startswith('hosted by defense media activity')
+            or low.startswith('dod social media')
+            or low.startswith('web policy')
+        ):
+            break
+        if BOILERPLATE_RE.search(line):
+            continue
+        if len(line) < 35:
+            continue
+        if re.search(r'^(release|immediate release|press operations|duty officer|defense.gov)\b', line, re.I):
+            continue
+        selected.append(line)
+        if len(' '.join(selected)) >= 2200:
+            break
+
+    text = clean_text(' '.join(dict.fromkeys(selected)))
+    if len(text) >= 180:
+        return text[:4000]
+    return ''
+
+
 def extract_meta_descriptions(raw_html):
     snippets = []
     for match in META_RE.finditer(raw_html or ''):
@@ -299,7 +366,8 @@ def fetch_html_fallback(url, article):
         })
         with urllib.request.urlopen(req, timeout=25) as resp:
             raw = resp.read(HTML_READ_BYTES).decode(resp.headers.get_content_charset() or 'utf-8', errors='replace')
-        text = paragraph_fallback(raw, article)
+        text = extract_war_release_text(raw, article) if is_war_release_url(url) else ''
+        text = text or paragraph_fallback(raw, article)
         return text if len(text) >= 180 else ''
     except Exception:
         return ''
@@ -312,6 +380,10 @@ def fetch_trafilatura(url, article=None):
         downloaded = trafilatura.fetch_url(url, no_ssl=True)
         if not downloaded:
             return ''
+        if is_war_release_url(url):
+            war_text = extract_war_release_text(downloaded, article or {})
+            if len(war_text) >= 180:
+                return war_text
         text = trafilatura.extract(downloaded, include_comments=False, include_tables=False, favor_recall=True)
         text = clean_text(text)
         if len(text) >= STRONG_EXTRACT_CHARS:
@@ -343,12 +415,9 @@ def fetch_jina(url):
 
 
 def publisher_direct_urls(article):
-    title = clean_text(article.get('title', '')).lower()
-    source = clean_text(article.get('source', '')).lower()
     urls = []
-    if 'department of war' in source or 'war.gov' in source or 'department of war publishes' in title:
-        if 'second release' in title and 'unidentified anomalous phenomena' in title:
-            urls.append('https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/')
+    if is_war_second_release_article(article):
+        urls.append(WAR_SECOND_RELEASE_URL)
     return urls
 
 
@@ -427,7 +496,7 @@ def main():
     for article in data.get('articles', [])[:24]:
         aid = article.get('id')
         current = article.get('summary') or summaries.get(aid)
-        if not is_bad_summary(current):
+        if not force_refresh_summary(article) and not is_bad_summary(current):
             continue
         text = fetch_article_text(article)
         summary = summarize_article_text(article, text)
