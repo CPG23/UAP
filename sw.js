@@ -1,9 +1,10 @@
-var CACHE = 'uap-v222-source-new-date-left';
+var CACHE = 'uap-v223-manual-scan';
 var META  = 'uap-meta-v1';
-var OVERRIDE_VERSION = '222';
+var OVERRIDE_VERSION = '223';
 var OVERRIDE_FILES = [
   'uap-fast-app.js',
   'uap-header-retry-fix.js',
+  'uap-manual-scan.js',
   'uap-notify-button-fix.js',
   'uap-source-date-fix.js',
   'uap-fast-start-hide.js'
