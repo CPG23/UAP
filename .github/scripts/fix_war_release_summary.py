@@ -9,11 +9,13 @@ from pathlib import Path
 from typing import Any
 
 LATEST_FILE = Path("latest-news.json")
-TITLE_RE = re.compile(
-    r"(department of war publishes second release of unidentified anomalous phenomena|presidential unsealing and reporting system for uap encounters|pursue)",
+OFFICIAL_RELEASE_RE = re.compile(
+    r"(department of war publishes second release of unidentified anomalous phenomena|presidential unsealing and reporting system for uap encounters|pursue|war\.gov/ufo)",
     re.I,
 )
-OFFICIAL_SOURCE_RE = re.compile(r"\b(war\.gov|department of war|u\.s\. department of war)\b", re.I)
+SECOND_BATCH_RE = re.compile(r"\b(second batch|2nd batch|second release|new batch|what does the second batch)\b", re.I)
+UAP_FILE_RE = re.compile(r"\b(uap|ufo|ufos|unidentified anomalous).*\b(file|files|document|documents|video|videos)\b|\b(file|files|document|documents|video|videos).*\b(uap|ufo|ufos|unidentified anomalous)\b", re.I)
+SIGHTING_RE = re.compile(r"\b(sighting reports?|orbs? swarming|countless orange orbs|sighting|sightings)\b", re.I)
 SUMMARY = (
     "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. "
     "The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. "
@@ -27,9 +29,22 @@ def clean(value: Any) -> str:
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
 
+def cluster_text(article: dict[str, Any]) -> str:
+    parts = [article.get("title", ""), article.get("source", "")]
+    for source in article.get("otherSources") or []:
+        if isinstance(source, dict):
+            parts.extend([source.get("title", ""), source.get("source", "")])
+    return clean(" ".join(parts))
+
+
 def official_release_topic(article: dict[str, Any]) -> bool:
-    primary_text = clean(" ".join([article.get("title", ""), article.get("source", "")]))
-    return bool(TITLE_RE.search(primary_text) and OFFICIAL_SOURCE_RE.search(primary_text))
+    title = clean(article.get("title"))
+    text = cluster_text(article)
+    if SIGHTING_RE.search(title):
+        return False
+    if OFFICIAL_RELEASE_RE.search(text):
+        return True
+    return bool(SECOND_BATCH_RE.search(title) and UAP_FILE_RE.search(text))
 
 
 def main() -> None:
@@ -50,7 +65,7 @@ def main() -> None:
     if changed:
         meta = data.setdefault("scanMeta", {})
         meta["warReleaseSummaryGuard"] = {
-            "policy": "department_of_war_pursue_release_summary_from_release_page_v3_primary_only",
+            "policy": "department_of_war_pursue_release_summary_from_release_page_v4_second_batch_clusters",
             "updatedArticles": changed,
         }
         LATEST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
