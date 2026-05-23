@@ -1,105 +1,6 @@
 {
-  "timestamp": "2026-05-23T10:38:51Z",
+  "timestamp": "2026-05-23T11:56:40Z",
   "articles": [
-    {
-      "id": "file-release-ufo-sighting-reports-released-by-us-government-orbs-swarming-in-all-directions",
-      "title": "UFO sighting reports released by US government - 'Orbs swarming in all directions'",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ybGtBUGVOdkpkMmp6eE5acms0OXBUSnM4NFAzTHNlbl9yQXk4cmVoXzlNTHJ6QU14TllvNnc0RkRNNXE3cEhWcDZ6ZldrYjk1QTY3SHV5NERXUQ?oc=5",
-      "date": "2026-05-22",
-      "publishedAt": "2026-05-22T22:32:12Z",
-      "summary": "On Friday, the Pentagon released a second batch of 64 UFO-related files, including 51 videos, 7 audio files, and 6 PDFs, to its newly created UAP website. The videos show grainy infrared footage from military aircraft and sensors, many of which were requested by House lawmakers in March and were found by the All‑domain Anomaly Resolution Office. One clip appears to depict a fighter jet shooting down an unidentified object over Lake Huron in 2023, an incident later suggested might have involved a hobbyist balloon. The release also contains a 2025 first‑hand account from a senior intelligence officer who described being “virtually speechless” after observing orange orbs near a helicopter during a UAP encounter. Audio recordings from Apollo and Mercury astronauts are included, with NASA later explaining that the “fireflies” they saw were frozen condensation reflecting sunlight. The Pentagon notes that many of the materials lack a substantiated chain‑of‑custody, leaving the authenticity and context of some footage uncertain.",
-      "mentions": 3,
-      "otherSources": [
-        {
-          "title": "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOMi1WMzZYemRoZ0pUbDlWRWhfZDlxMlBITFlzaGFrNnNaMkU3bG1ZNzJyVWdyb2swdkJ2Y0hRUmdwZTY2TnNUYW9yd2NmQXhhWXNwNw?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOMi1WMzZYemRoZ0pUbDlWRWhfZDlxMlBITFlzaGFrNnNaMkU3bG1ZNzJyVWdyb2swdkJ2Y0hRUmdwZTY2TnNUYW9yd2NmQXhhWXNwNw?oc=5",
-          "source": "U.S. Department of War (.gov)",
-          "publishedAt": "2026-05-22T17:00:14Z",
-          "displayedAt": "2026-05-23T10:38:51Z",
-          "isNew": true
-        },
-        {
-          "title": "Pentagon releases more UFO files: \"Speechless after these observations\"",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZVHZwVVptMGl2OEVMcHdhaFVRTldiSURSTVFxZmtRYUxyUnZxRTBtdW0xRmZONnh5NU1LVVhfMURwX0UtdWZLRFpiUDVwN1JOV09ZR1p5MXVTZlp6SzFrNzRrbGhIUEY2Ym5oaHFqeURvdXPSAXhBVV95cUxPbmJnM2l3YlYzeVJNZjdjV2dlYUFqa1lJSXM2QmZYUFlkSG9TVDNPaHJyM2o1WHBVZjNoWFlvdl9yOXhIZlhLUWdDUkZjOVA4ZTI2aWFHRWpHV000dXJuT1BZcDJjamRQZHFROUw0Tmd0YmJaTFE1MGQ?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZVHZwVVptMGl2OEVMcHdhaFVRTldiSURSTVFxZmtRYUxyUnZxRTBtdW0xRmZONnh5NU1LVVhfMURwX0UtdWZLRFpiUDVwN1JOV09ZR1p5MXVTZlp6SzFrNzRrbGhIUEY2Ym5oaHFqeURvdXPSAXhBVV95cUxPbmJnM2l3YlYzeVJNZjdjV2dlYUFqa1lJSXM2QmZYUFlkSG9TVDNPaHJyM2o1WHBVZjNoWFlvdl9yOXhIZlhLUWdDUkZjOVA4ZTI2aWFHRWpHV000dXJuT1BZcDJjamRQZHFROUw0Tmd0YmJaTFE1MGQ?oc=5",
-          "source": "CBS News",
-          "publishedAt": "2026-05-22T13:06:00Z",
-          "displayedAt": "2026-05-23T10:38:51Z",
-          "isNew": true
-        }
-      ],
-      "clusterTitles": [
-        "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
-        "Pentagon releases more UFO files: \"Speechless after these observations\""
-      ],
-      "quality": 82,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "PENTAGON"
-      ],
-      "sourceQuality": 82,
-      "displayedAt": "2026-05-23T10:38:51Z",
-      "sourceDisplayedAt": "2026-05-23T10:38:51Z",
-      "sourceIsNew": true,
-      "translation": {
-        "en": {
-          "title": "UFO sighting reports released by US government - 'Orbs swarming in all directions'",
-          "summary": "On Friday, the Pentagon released a second batch of 64 UFO-related files, including 51 videos, 7 audio files, and 6 PDFs, to its newly created UAP website. The videos show grainy infrared footage from military aircraft and sensors, many of which were requested by House lawmakers in March and were found by the All‑domain Anomaly Resolution Office. One clip appears to depict a fighter jet shooting down an unidentified object over Lake Huron in 2023, an incident later suggested might have involved a hobbyist balloon.",
-          "sourceHash": "fa292dc871cd8df14b5fa5c8ef5b6ce9de551361",
-          "provider": "original"
-        },
-        "de": {
-          "title": "UFO-Sichtungsberichte von US-Regierung veröffentlicht – „Kugeln schwärmen in alle Richtungen“",
-          "summary": "Am Freitag veröffentlichte das Pentagon eine zweite Charge von 64 UFO-bezogenen Dateien, darunter 51 Videos, 7 Audiodateien und 6 PDFs, auf seiner neu erstellten UAP-Website. Die Videos zeigen körniges Infrarotmaterial von Militärflugzeugen und Sensoren, von denen viele im März vom Gesetzgeber des Repräsentantenhauses angefordert und vom All-Domain Anomaly Resolution Office gefunden wurden. Ein Clip scheint einen Kampfflugzeug abzuschießen, der ein nicht identifiziertes Objekt über dem Huronsee in 2023, ein Vorfall, der später vermutet wurde, könnte einen Hobbyballon involviert haben.",
-          "sourceHash": "fa292dc871cd8df14b5fa5c8ef5b6ce9de551361",
-          "provider": "google/mymemory"
-        }
-      }
-    },
     {
       "id": "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases",
       "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
@@ -164,6 +65,74 @@
           "title": "Außerirdischer Whistleblower behauptet, die USA hätten „graue Körper zerstückelt“, die in unterirdischen Militärstützpunkten versteckt seien",
           "summary": "Laut einem Interview auf der Plattform Redacted behauptete der investigative Autor Timothy Alberino, die US-Regierung habe außerirdische Leichen geborgen und sie in unterirdischen Militärstützpunkten versteckt. Er sagte, dass Bergungsoperationen nach Unfällen mit nichtmenschlichen Fahrzeugen und Leichen außerhalb der Aufsicht gewählter Beamter durchgeführt und von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert würden.",
           "sourceHash": "a3bf5fd5f5e25ce3dde691b7403810c7a705d808",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "presidential-unsealing-and-reporting-system-for-uap-encounters-pursue",
+      "title": "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
+      "source": "U.S. Department of War (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOMi1WMzZYemRoZ0pUbDlWRWhfZDlxMlBITFlzaGFrNnNaMkU3bG1ZNzJyVWdyb2swdkJ2Y0hRUmdwZTY2TnNUYW9yd2NmQXhhWXNwNw?oc=5",
+      "date": "2026-05-22",
+      "publishedAt": "2026-05-22T17:00:14Z",
+      "summary": "On Friday, the Pentagon released a second batch of 50 videos and documents on unidentified aerial phenomena, following the earlier release of 162 files earlier this month. The new footage includes infrared sensor recordings of three UAPs flying in formation over the Persian Gulf in 2019, a formation of four objects passing vessels off Iran in 2022, and a fast‑moving object over Syria in 2021, as well as a cigar‑shaped entity over a residential area in October 2022. None of the videos are accompanied by explanations, and the All‑Domain Anomaly Resolution Office has stated it has no evidence that any of the objects are of extraterrestrial origin. The batch also contains NASA recordings, such as astronaut Wally Schirra describing “little white objects” and a burst of light during the Mercury‑Atlas 8 mission, which astrophysicist Neil deGrasse Tyson said are not classified and likely have rational explanations. The Pentagon said the public can form its own conclusions and is preparing a third release of UAP files to be announced in the near future.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 67,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DECLASSIFIED, GOVERNMENT als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "DECLASSIFIED, GOVERNMENT als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DECLASSIFIED",
+        "GOVERNMENT"
+      ],
+      "sourceQuality": 67,
+      "displayedAt": "2026-05-22T17:00:14Z",
+      "sourceDisplayedAt": "2026-05-23T10:38:51Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
+          "summary": "On Friday, the Pentagon released a second batch of 50 videos and documents on unidentified aerial phenomena, following the earlier release of 162 files earlier this month. The new footage includes infrared sensor recordings of three UAPs flying in formation over the Persian Gulf in 2019, a formation of four objects passing vessels off Iran in 2022, and a fast‑moving object over Syria in 2021, as well as a cigar‑shaped entity over a residential area in October 2022.",
+          "sourceHash": "a2632e062edbdfd402bf8c8396fb0474216e0067",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Präsidiales Entsiegelungs- und Meldesystem für UAP-Begegnungen (PURSUE)",
+          "summary": "Am Freitag veröffentlichte das Pentagon eine zweite Serie von 50 Videos und Dokumenten zu nicht identifizierten Luftphänomenen, nachdem Anfang des Monats bereits 162 Dateien veröffentlicht worden waren. Das neue Filmmaterial umfasst Infrarotsensoraufzeichnungen von drei UAPs, die 2019 in Formation über dem Persischen Golf flogen, einer Formation aus vier Objekten, die Schiffe vor dem Iran passieren, im Jahr 2022 und eines sich schnell bewegenden Objekts über Syrien im Jahr 2021 sowie eines zigarrenförmigen Gebildes über einem Wohngebiet im Oktober 2022.",
+          "sourceHash": "a2632e062edbdfd402bf8c8396fb0474216e0067",
           "provider": "google"
         }
       }
@@ -303,13 +272,13 @@
       }
     },
     {
-      "id": "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
+      "id": "film-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
       "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
       "source": "USA Herald",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNXRCWG5NWEtkeVNFVHlvanh6TVhIMjFEQ016a2FPRTBScEI4STlSN1FJeWdSV3Rmem5hUm5xOVNRWTdQUm9RTDBrUEludkZiblNRalpkRFFaZkV0eTVCbkZKRHRUX1RhREwyWVlEQUlibHNtNEVNTlhZZHRpNWxnSkZVLVZlX3otMmxuNjlVMW5ta0RoQ1FLbkxkLUVpbVM4bnk0WmR2eWx2R1V2UzNvaTNablBMOHdZeGlTTXJPd2x4bTJucUV0RlYyc2c2RVkteWNfemMxU1pDUk5XdjFhTkx4blI?oc=5",
       "date": "2026-05-16",
       "publishedAt": "2026-05-19T18:58:23Z",
-      "summary": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. His remarks echo earlier testimony by former Air Force intelligence officer David Grusch, who said the U.S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites. Puthoff’s associate Eric Davis described the recovered beings in intelligence reports as “gray,” “Nordic,” “insect‑like,” and “reptilian,” all humanoid with two arms and two legs, but no detailed evidence was provided. The documentary “The Age of Disclosure,” directed by Dan Farah, features interviews with military officials, intelligence figures, and political leaders discussing alleged UAP encounters, government secrecy, and a supposed secret “Legacy Program.” Despite these claims, no verified public evidence has emerged, and U.S. officials continue to state that there is no confirmed evidence linking UAP sightings to extraterrestrial origins.",
+      "summary": "Former CIA‑funded researcher Dr. Hal Puthoff said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs. Puthoff, who has not seen the specimens himself, reports that people involved in recoveries have identified at least four types. Dr. Eric Davis, a former AAWSAP colleague, identified the species as Grays, Nordics, Insectoids, and Reptilians, describing each as humanoid with two arms and legs and giving size and appearance details. Former Air Force intelligence officer David Grusch testified in 2023 that the U.S. possessed “non‑human biologics” recovered from dozens of crashed UFOs. Director Dan Farrah of the film *Age of Disclosure* said he has spoken off‑record with recovery participants who declined to appear on camera, and one potential interview was canceled after the participant withdrew.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -323,12 +292,12 @@
         {
           "label": "Begriffe",
           "points": 6,
-          "text": "ALIEN, CIA als relevante Themenbegriffe erkannt."
+          "text": "ALIEN, GOVERNMENT als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
           "points": 4,
-          "text": "CIA als offizieller Kontext erkannt."
+          "text": "GOVERNMENT als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
@@ -344,7 +313,7 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "ALIEN",
-        "CIA"
+        "GOVERNMENT"
       ],
       "sourceQuality": 54,
       "displayedAt": "2026-05-22T07:34:25Z",
@@ -353,14 +322,14 @@
       "translation": {
         "en": {
           "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-          "summary": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. His remarks echo earlier testimony by former Air Force intelligence officer David Grusch, who said the U.S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites.",
-          "sourceHash": "057a26ea5f891c13b7bf589357ee72fd0795a764",
+          "summary": "Former CIA‑funded researcher Dr. Hal Puthoff said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs. Puthoff, who has not seen the specimens himself, reports that people involved in recoveries have identified at least four types.",
+          "sourceHash": "e5503af852a9887ce2df283ba23e17e41213532c",
           "provider": "original"
         },
         "de": {
           "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
-          "summary": "Hal Puthoff, ein ehemaliger von der CIA finanzierter Physiker, behauptete in einem Podcast, dass die Vereinigten Staaten möglicherweise vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen hätten, obwohl er die Beweise selbst nicht gesehen hat. Seine Äußerungen spiegeln frühere Aussagen des ehemaligen Geheimdienstoffiziers der Luftwaffe, David Grusch, wider, der sagte, die USA besäßen „nichtmenschliche Biologika“ von nicht identifizierten Absturzstellen mit anomalen Phänomenen.",
-          "sourceHash": "057a26ea5f891c13b7bf589357ee72fd0795a764",
+          "summary": "Der ehemalige von der CIA finanzierte Forscher Dr. Hal Puthoff sagte, die USA hätten vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen. Puthoff, der die Exemplare selbst nicht gesehen hat, berichtet, dass an der Bergung beteiligte Personen mindestens vier Arten identifiziert haben.",
+          "sourceHash": "e5503af852a9887ce2df283ba23e17e41213532c",
           "provider": "google"
         }
       }
@@ -415,42 +384,80 @@
       "sourceQuality": 49,
       "displayedAt": "2026-05-21T20:05:44Z",
       "sourceDisplayedAt": "2026-05-21T20:05:44Z"
+    },
+    {
+      "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+      "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+      "source": "U.S. Department of War (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
+      "date": "2026-05-10",
+      "publishedAt": "2026-05-22T12:07:07Z",
+      "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "displayedAt": "2026-05-23T11:56:40Z",
+      "sourceDisplayedAt": "2026-05-23T11:56:40Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+          "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
+          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+          "provider": "google"
+        }
+      }
     }
   ],
   "summaries": {
-    "file-release-ufo-sighting-reports-released-by-us-government-orbs-swarming-in-all-directions": "On Friday, the Pentagon released a second batch of 64 UFO-related files, including 51 videos, 7 audio files, and 6 PDFs, to its newly created UAP website. The videos show grainy infrared footage from military aircraft and sensors, many of which were requested by House lawmakers in March and were found by the All‑domain Anomaly Resolution Office. One clip appears to depict a fighter jet shooting down an unidentified object over Lake Huron in 2023, an incident later suggested might have involved a hobbyist balloon. The release also contains a 2025 first‑hand account from a senior intelligence officer who described being “virtually speechless” after observing orange orbs near a helicopter during a UAP encounter. Audio recordings from Apollo and Mercury astronauts are included, with NASA later explaining that the “fireflies” they saw were frozen condensation reflecting sunlight. The Pentagon notes that many of the materials lack a substantiated chain‑of‑custody, leaving the authenticity and context of some footage uncertain.",
     "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases": "Investigative writer Timothy Alberino claimed that the U.S. government has recovered alien bodies and hides them in underground military bases, according to an interview on the platform Redacted. He said that crash‑retrieval operations involving non‑human craft and bodies are conducted outside the oversight of elected officials and are controlled by private aerospace contractors and highly compartmentalised defence programmes. Alberino referenced anecdotal eyewitness accounts of “gray aliens” at alleged retrieval sites, describing dismembered bodies and transparent fluids, and cited former intelligence official David Grusch’s 2023 testimony that the U.S. had recovered “non‑human biologics.” No publicly available evidence has been produced to substantiate Alberino’s allegations, and U.S. defence agencies have not confirmed the existence of such programmes. Congressional interest in UAP investigations remains high, with lawmakers calling for greater transparency, but the Pentagon maintains that its All‑domain Anomaly Resolution Office has not produced verified evidence of extraterrestrial activity.",
+    "presidential-unsealing-and-reporting-system-for-uap-encounters-pursue": "On Friday, the Pentagon released a second batch of 50 videos and documents on unidentified aerial phenomena, following the earlier release of 162 files earlier this month. The new footage includes infrared sensor recordings of three UAPs flying in formation over the Persian Gulf in 2019, a formation of four objects passing vessels off Iran in 2022, and a fast‑moving object over Syria in 2021, as well as a cigar‑shaped entity over a residential area in October 2022. None of the videos are accompanied by explanations, and the All‑Domain Anomaly Resolution Office has stated it has no evidence that any of the objects are of extraterrestrial origin. The batch also contains NASA recordings, such as astronaut Wally Schirra describing “little white objects” and a burst of light during the Mercury‑Atlas 8 mission, which astrophysicist Neil deGrasse Tyson said are not classified and likely have rational explanations. The Pentagon said the public can form its own conclusions and is preparing a third release of UAP files to be announced in the near future.",
     "the-2026-alien-soft-launch-missing-scientists-aliens-gov-pentagon-secrets-y01qlmdfznb": "Página não encontrada – a página solicitada não existe no site Folha do ES. O site exibe um cabeçalho com o título “Página não encontrada” e oferece links para a página inicial, política de privacidade, colunas e redes sociais. O rodapé indica que os direitos autorais pertencem ao Folha do ES em 2026. No corpo da página não há mais informações além de navegação e avisos de copyright.",
     "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released. The FBI is investigating a series of missing and dead scientists linked to secret nuclear and UFO programs, including the disappearance of retired General William Neil McCasland. Other scientists, such as David Wilcock, have also died under suspicious circumstances, adding to the pattern of unexplained losses.",
-    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. His remarks echo earlier testimony by former Air Force intelligence officer David Grusch, who said the U.S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites. Puthoff’s associate Eric Davis described the recovered beings in intelligence reports as “gray,” “Nordic,” “insect‑like,” and “reptilian,” all humanoid with two arms and two legs, but no detailed evidence was provided. The documentary “The Age of Disclosure,” directed by Dan Farah, features interviews with military officials, intelligence figures, and political leaders discussing alleged UAP encounters, government secrecy, and a supposed secret “Legacy Program.” Despite these claims, no verified public evidence has emerged, and U.S. officials continue to state that there is no confirmed evidence linking UAP sightings to extraterrestrial origins."
+    "film-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Former CIA‑funded researcher Dr. Hal Puthoff said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs. Puthoff, who has not seen the specimens himself, reports that people involved in recoveries have identified at least four types. Dr. Eric Davis, a former AAWSAP colleague, identified the species as Grays, Nordics, Insectoids, and Reptilians, describing each as humanoid with two arms and legs and giving size and appearance details. Former Air Force intelligence officer David Grusch testified in 2023 that the U.S. possessed “non‑human biologics” recovered from dozens of crashed UFOs. Director Dan Farrah of the film *Age of Disclosure* said he has spoken off‑record with recovery participants who declined to appear on camera, and one potential interview was canceled after the participant withdrew.",
+    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-23T10:38:51Z",
-    "ids": [
-      "file-release-ufo-sighting-reports-released-by-us-government-orbs-swarming-in-all-directions"
-    ],
-    "articles": [
-      {
-        "id": "file-release-ufo-sighting-reports-released-by-us-government-orbs-swarming-in-all-directions",
-        "title": "UFO sighting reports released by US government - 'Orbs swarming in all directions'",
-        "source": "BBC"
-      }
-    ]
+    "timestamp": "2026-05-23T11:56:40Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 343,
-    "broadTopics": 157,
-    "notificationArticles": 10,
+    "broadArticles": 339,
+    "broadTopics": 156,
+    "notificationArticles": 11,
     "notificationTopics": 6,
-    "newNotificationTopics": 2,
-    "appTopics": 6,
+    "newNotificationTopics": 0,
+    "appTopics": 7,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 1,
+    "splitUnrelatedGroupedSources": 2,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 8,
+    "regroupedTopics": 5,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -464,7 +471,7 @@
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
-      "kept": 9,
+      "kept": 10,
       "missing": 1,
       "missingItems": [
         {
@@ -477,53 +484,43 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v11_trust_source_summaries",
-      "inputArticles": 9,
-      "outputArticles": 6,
-      "preservedSourceSummaries": 5
+      "inputArticles": 10,
+      "outputArticles": 7,
+      "preservedSourceSummaries": 6
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 6,
-      "outputArticles": 6,
+      "inputArticles": 7,
+      "outputArticles": 7,
       "missingSummaries": 1,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
       "notification": "new_visible_topics_or_new_sources_inside_visible_topics"
     },
+    "warReleaseSummaryGuard": {
+      "policy": "department_of_war_release_summary_from_release_page_v1",
+      "updatedArticles": 1
+    },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 6,
-      "newSources": 3
+      "updatedTopics": 7,
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 6,
+      "correctedExistingTopics": 7,
       "newTopics": 0,
       "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_topics_or_sources_not_in_previous_app_feed",
-      "notifications": 1,
-      "freshSources": 3,
+      "notifications": 0,
+      "freshSources": 1,
       "correctedOldSourceMarkers": 0
     }
   },
   "translations": {
-    "file-release-ufo-sighting-reports-released-by-us-government-orbs-swarming-in-all-directions": {
-      "en": {
-        "title": "UFO sighting reports released by US government - 'Orbs swarming in all directions'",
-        "summary": "On Friday, the Pentagon released a second batch of 64 UFO-related files, including 51 videos, 7 audio files, and 6 PDFs, to its newly created UAP website. The videos show grainy infrared footage from military aircraft and sensors, many of which were requested by House lawmakers in March and were found by the All‑domain Anomaly Resolution Office. One clip appears to depict a fighter jet shooting down an unidentified object over Lake Huron in 2023, an incident later suggested might have involved a hobbyist balloon.",
-        "sourceHash": "fa292dc871cd8df14b5fa5c8ef5b6ce9de551361",
-        "provider": "original"
-      },
-      "de": {
-        "title": "UFO-Sichtungsberichte von US-Regierung veröffentlicht – „Kugeln schwärmen in alle Richtungen“",
-        "summary": "Am Freitag veröffentlichte das Pentagon eine zweite Charge von 64 UFO-bezogenen Dateien, darunter 51 Videos, 7 Audiodateien und 6 PDFs, auf seiner neu erstellten UAP-Website. Die Videos zeigen körniges Infrarotmaterial von Militärflugzeugen und Sensoren, von denen viele im März vom Gesetzgeber des Repräsentantenhauses angefordert und vom All-Domain Anomaly Resolution Office gefunden wurden. Ein Clip scheint einen Kampfflugzeug abzuschießen, der ein nicht identifiziertes Objekt über dem Huronsee in 2023, ein Vorfall, der später vermutet wurde, könnte einen Hobbyballon involviert haben.",
-        "sourceHash": "fa292dc871cd8df14b5fa5c8ef5b6ce9de551361",
-        "provider": "google/mymemory"
-      }
-    },
     "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases": {
       "en": {
         "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
@@ -535,6 +532,20 @@
         "title": "Außerirdischer Whistleblower behauptet, die USA hätten „graue Körper zerstückelt“, die in unterirdischen Militärstützpunkten versteckt seien",
         "summary": "Laut einem Interview auf der Plattform Redacted behauptete der investigative Autor Timothy Alberino, die US-Regierung habe außerirdische Leichen geborgen und sie in unterirdischen Militärstützpunkten versteckt. Er sagte, dass Bergungsoperationen nach Unfällen mit nichtmenschlichen Fahrzeugen und Leichen außerhalb der Aufsicht gewählter Beamter durchgeführt und von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert würden.",
         "sourceHash": "a3bf5fd5f5e25ce3dde691b7403810c7a705d808",
+        "provider": "google"
+      }
+    },
+    "presidential-unsealing-and-reporting-system-for-uap-encounters-pursue": {
+      "en": {
+        "title": "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
+        "summary": "On Friday, the Pentagon released a second batch of 50 videos and documents on unidentified aerial phenomena, following the earlier release of 162 files earlier this month. The new footage includes infrared sensor recordings of three UAPs flying in formation over the Persian Gulf in 2019, a formation of four objects passing vessels off Iran in 2022, and a fast‑moving object over Syria in 2021, as well as a cigar‑shaped entity over a residential area in October 2022.",
+        "sourceHash": "a2632e062edbdfd402bf8c8396fb0474216e0067",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Präsidiales Entsiegelungs- und Meldesystem für UAP-Begegnungen (PURSUE)",
+        "summary": "Am Freitag veröffentlichte das Pentagon eine zweite Serie von 50 Videos und Dokumenten zu nicht identifizierten Luftphänomenen, nachdem Anfang des Monats bereits 162 Dateien veröffentlicht worden waren. Das neue Filmmaterial umfasst Infrarotsensoraufzeichnungen von drei UAPs, die 2019 in Formation über dem Persischen Golf flogen, einer Formation aus vier Objekten, die Schiffe vor dem Iran passieren, im Jahr 2022 und eines sich schnell bewegenden Objekts über Syrien im Jahr 2021 sowie eines zigarrenförmigen Gebildes über einem Wohngebiet im Oktober 2022.",
+        "sourceHash": "a2632e062edbdfd402bf8c8396fb0474216e0067",
         "provider": "google"
       }
     },
@@ -566,23 +577,37 @@
         "provider": "google"
       }
     },
-    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": {
+    "film-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": {
       "en": {
         "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-        "summary": "Hal Puthoff, a former CIA‑funded physicist, claimed on a podcast that the United States may have recovered four distinct alien species from crashed UFOs, though he has not seen the evidence himself. His remarks echo earlier testimony by former Air Force intelligence officer David Grusch, who said the U.S. possessed “non‑human biologics” from unidentified anomalous phenomena crash sites.",
-        "sourceHash": "057a26ea5f891c13b7bf589357ee72fd0795a764",
+        "summary": "Former CIA‑funded researcher Dr. Hal Puthoff said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs. Puthoff, who has not seen the specimens himself, reports that people involved in recoveries have identified at least four types.",
+        "sourceHash": "e5503af852a9887ce2df283ba23e17e41213532c",
         "provider": "original"
       },
       "de": {
         "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
-        "summary": "Hal Puthoff, ein ehemaliger von der CIA finanzierter Physiker, behauptete in einem Podcast, dass die Vereinigten Staaten möglicherweise vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen hätten, obwohl er die Beweise selbst nicht gesehen hat. Seine Äußerungen spiegeln frühere Aussagen des ehemaligen Geheimdienstoffiziers der Luftwaffe, David Grusch, wider, der sagte, die USA besäßen „nichtmenschliche Biologika“ von nicht identifizierten Absturzstellen mit anomalen Phänomenen.",
-        "sourceHash": "057a26ea5f891c13b7bf589357ee72fd0795a764",
+        "summary": "Der ehemalige von der CIA finanzierte Forscher Dr. Hal Puthoff sagte, die USA hätten vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen. Puthoff, der die Exemplare selbst nicht gesehen hat, berichtet, dass an der Bergung beteiligte Personen mindestens vier Arten identifiziert haben.",
+        "sourceHash": "e5503af852a9887ce2df283ba23e17e41213532c",
+        "provider": "google"
+      }
+    },
+    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
+      "en": {
+        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+        "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
+        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }
     }
   },
   "translationMeta": {
-    "prepared": 5,
+    "prepared": 6,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
