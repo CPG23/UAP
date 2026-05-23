@@ -27,7 +27,7 @@ FILE_RE = re.compile(r"\b(file|files|document|documents|record|records|archive|a
 US_RE = re.compile(r"\b(us|u\.s\.|united states|pentagon|department of war|department of defense|defense department|dod|war\.gov|federal|trump|reuters|newsnation|live science|ntd|fox)\b", re.I)
 SECOND_RELEASE_RE = re.compile(r"\b(second|2nd|release 02|new batch|new tranche|new set|second batch|second release|more than 40|162 declassified|war\.gov/ufo)\b", re.I)
 UNRELATED_RE = re.compile(
-    r"\b(pastor|pastors|translucent beings|avi loeb|harvard astrophysicist|moon lights|sleeping dog|corbell|bob lazar|alien species|biological remains|dismembered gray|ufo festival|arizona|smoking gun|whistleblower|missing scientists|soft launch|ukraine advisor|longmont)\b",
+    r"\b(pastor|pastors|translucent beings|avi loeb|harvard astrophysicist|moon lights|sleeping dog|corbell|bob lazar|alien species|biological remains|dismembered gray|ufo festival|arizona|smoking gun|whistleblower|missing scientists|soft launch|ukraine advisor|longmont|morning news brief|news brief|sergeant|reinstatement|phoenix)\b",
     re.I,
 )
 STOP = set(
@@ -272,7 +272,11 @@ def collect_candidates(article: dict[str, Any]) -> list[dict[str, Any]]:
 
 
 def backfill_article(article: dict[str, Any]) -> int:
-    existing = [source for source in article.get("otherSources") or [] if isinstance(source, dict)]
+    existing = [
+        source
+        for source in article.get("otherSources") or []
+        if isinstance(source, dict) and same_story_source(article, source)
+    ]
     candidates = [source for source in collect_candidates(article) if same_story_source(article, source)]
     combined = dedupe_sources(article, existing + candidates)
     combined.sort(key=source_rank, reverse=True)
@@ -281,6 +285,7 @@ def backfill_article(article: dict[str, Any]) -> int:
     article["otherSources"] = limited
     article["mentions"] = max(1, 1 + len(limited))
     article["clusterTitles"] = [clean(source.get("title")) for source in limited if clean(source.get("title"))][:10]
+    article.pop("translation", None)
     article.pop("translations", None)
     article.pop("translationMeta", None)
     refresh_quality(article)
@@ -301,7 +306,7 @@ def main() -> None:
             added_sources += added
     meta = payload.setdefault("scanMeta", {})
     meta["relatedSourceBackfill"] = {
-        "policy": "same_story_google_news_and_official_source_backfill_v1",
+        "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
         "updatedTopics": updated_topics,
         "addedSources": added_sources,
         "maxSourcesPerArticle": MAX_SOURCES_PER_ARTICLE,
