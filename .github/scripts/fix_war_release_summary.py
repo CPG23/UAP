@@ -13,6 +13,7 @@ TITLE_RE = re.compile(
     r"(department of war publishes second release of unidentified anomalous phenomena|presidential unsealing and reporting system for uap encounters|pursue)",
     re.I,
 )
+OFFICIAL_SOURCE_RE = re.compile(r"\b(war\.gov|department of war|u\.s\. department of war)\b", re.I)
 SUMMARY = (
     "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. "
     "The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. "
@@ -27,15 +28,8 @@ def clean(value: Any) -> str:
 
 
 def official_release_topic(article: dict[str, Any]) -> bool:
-    title = clean(article.get("title"))
-    source = clean(article.get("source"))
-    text = clean(" ".join([title, source, article.get("summary", "")]))
-    if TITLE_RE.search(text) and re.search(r"\b(war\.gov|department of war|u\.s\. department of war|pursue)\b", text, re.I):
-        return True
-    for source_item in article.get("otherSources") or []:
-        if isinstance(source_item, dict) and TITLE_RE.search(clean(" ".join([source_item.get("title", ""), source_item.get("source", "")]))):
-            return True
-    return False
+    primary_text = clean(" ".join([article.get("title", ""), article.get("source", "")]))
+    return bool(TITLE_RE.search(primary_text) and OFFICIAL_SOURCE_RE.search(primary_text))
 
 
 def main() -> None:
@@ -56,7 +50,7 @@ def main() -> None:
     if changed:
         meta = data.setdefault("scanMeta", {})
         meta["warReleaseSummaryGuard"] = {
-            "policy": "department_of_war_pursue_release_summary_from_release_page_v2",
+            "policy": "department_of_war_pursue_release_summary_from_release_page_v3_primary_only",
             "updatedArticles": changed,
         }
         LATEST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
