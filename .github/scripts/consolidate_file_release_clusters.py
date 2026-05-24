@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import json
 import re
-from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
@@ -20,6 +19,33 @@ NON_RELEASE_RE = re.compile(
     r"\b(alien soft launch|missing scientists|biological remains|life forms|dismembered|whistleblower|secret agent|coulthart|trump knows|pastor|translucent|avi loeb)\b",
     re.I,
 )
+TOKEN_RE = re.compile(r"[a-z0-9][a-z0-9'-]{3,}", re.I)
+STOPWORDS = {
+    "about",
+    "after",
+    "alleges",
+    "amid",
+    "also",
+    "been",
+    "being",
+    "from",
+    "have",
+    "into",
+    "more",
+    "news",
+    "over",
+    "said",
+    "says",
+    "that",
+    "their",
+    "these",
+    "this",
+    "those",
+    "through",
+    "united",
+    "with",
+    "would",
+}
 SUMMARY = (
     "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. "
     "The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. "
@@ -27,6 +53,10 @@ SUMMARY = (
     "The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. "
     "The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
 )
+MISSING_SUMMARY_STATUS = {
+    "articleContentSummary": "missing",
+    "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen.",
+}
 
 
 def clean(value: Any) -> str:
@@ -126,8 +156,43 @@ def refresh_quality(article: dict[str, Any]) -> None:
     article["sourceQuality"] = article["quality"]
 
 
+def distinctive_tokens(text: str) -> set[str]:
+    return {token.lower().strip("'-") for token in TOKEN_RE.findall(text) if token.lower().strip("'-") not in STOPWORDS}
+
+
+def looks_like_stale_summary(article: dict[str, Any]) -> bool:
+    title = clean(article.get("title"))
+    summary = clean(article.get("summary"))
+    if len(summary) < 80:
+        return False
+    title_tokens = distinctive_tokens(title)
+    summary_tokens = distinctive_tokens(summary)
+    if len(title_tokens) < 4:
+        return False
+    overlap = title_tokens & summary_tokens
+    if len(overlap) >= 2:
+        return False
+    if is_file_release_text(title) and is_file_release_text(summary):
+        return False
+    return True
+
+
+def clear_stale_summary(article: dict[str, Any], summaries: dict[str, Any]) -> bool:
+    if not looks_like_stale_summary(article):
+        return False
+    article["summary"] = ""
+    article["summaryStatus"] = dict(MISSING_SUMMARY_STATUS)
+    article.pop("translation", None)
+    article.pop("translations", None)
+    article.pop("translationMeta", None)
+    if article.get("id"):
+        summaries.pop(article["id"], None)
+    return True
+
+
 def main() -> None:
     payload = json.loads(NEWS_PATH.read_text(encoding="utf-8"))
+    summaries = payload.setdefault("summaries", {})
     articles = [article for article in payload.get("articles") or [] if isinstance(article, dict)]
     candidates = [article for article in articles if is_file_release_text(article_text(article)) or sum(1 for source in article.get("otherSources") or [] if isinstance(source, dict) and is_file_release_source(source)) >= 3]
     if not candidates:
@@ -139,6 +204,7 @@ def main() -> None:
     kept_articles: list[dict[str, Any]] = []
     removed_duplicates = 0
     cleaned_articles = 0
+    stale_summaries_cleared = 0
 
     for article in articles:
         is_candidate = article in candidates
@@ -158,6 +224,8 @@ def main() -> None:
                 article["clusterTitles"] = [clean(source.get("title")) for source in cleaned if clean(source.get("title"))][:10]
                 refresh_quality(article)
                 cleaned_articles += 1
+                if clear_stale_summary(article, summaries):
+                    stale_summaries_cleared += 1
         kept_articles.append(article)
 
     primary_sources = [source for source in primary.get("otherSources") or [] if isinstance(source, dict) and is_file_release_source(source)]
@@ -173,7 +241,6 @@ def main() -> None:
     refresh_quality(primary)
 
     payload["articles"] = kept_articles
-    summaries = payload.setdefault("summaries", {})
     if primary.get("id"):
         summaries[primary["id"]] = SUMMARY
     visible_ids = {article.get("id") for article in kept_articles if article.get("id")}
@@ -183,14 +250,19 @@ def main() -> None:
 
     meta = payload.setdefault("scanMeta", {})
     meta["fileReleaseConsolidation"] = {
-        "policy": "second_uap_file_release_single_visible_topic_v1",
+        "policy": "second_uap_file_release_single_visible_topic_v2_clear_stale_summaries",
         "primaryId": primary.get("id"),
         "sources": len(primary.get("otherSources") or []),
         "cleanedArticles": cleaned_articles,
         "removedDuplicateTopics": removed_duplicates,
+        "staleSummariesCleared": stale_summaries_cleared,
     }
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"file-release consolidation: primary={primary.get('id')} sources={len(primary.get('otherSources') or [])} cleaned={cleaned_articles} removed={removed_duplicates}")
+    print(
+        "file-release consolidation: "
+        f"primary={primary.get('id')} sources={len(primary.get('otherSources') or [])} "
+        f"cleaned={cleaned_articles} removed={removed_duplicates} stale_summaries={stale_summaries_cleared}"
+    )
 
 
 if __name__ == "__main__":
