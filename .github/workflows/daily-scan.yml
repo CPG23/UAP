@@ -22,6 +22,7 @@ on:
       - .github/scripts/final_feed_integrity.py
       - .github/scripts/finalize_app_feed.py
       - .github/scripts/separate_sighting_file_releases.py
+      - .github/scripts/consolidate_file_release_clusters.py
       - .github/scripts/fix_war_release_summary.py
       - .github/scripts/final_sync_visible_summaries.py
       - .github/scripts/backfill_related_sources.py
@@ -85,7 +86,9 @@ jobs:
           python3 .github/scripts/fix_war_release_summary.py
           python3 .github/scripts/final_sync_visible_summaries.py
           python3 .github/scripts/backfill_related_sources.py
+          python3 .github/scripts/consolidate_file_release_clusters.py
           python3 .github/scripts/separate_sighting_file_releases.py
+          python3 .github/scripts/fix_war_release_summary.py
           python3 .github/scripts/mark_new_sources.py
           python3 .github/scripts/normalize_new_markers.py
           python3 .github/scripts/finalize_new_events.py
