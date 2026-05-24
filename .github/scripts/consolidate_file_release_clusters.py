@@ -1,0 +1,197 @@
+#!/usr/bin/env python3
+"""Keep the second UAP file release as one visible topic only."""
+from __future__ import annotations
+
+import json
+import re
+from copy import deepcopy
+from pathlib import Path
+from typing import Any
+
+NEWS_PATH = Path("latest-news.json")
+SPACE_RE = re.compile(r"\s+")
+UAP_RE = re.compile(r"\b(uap|uaps|ufo|ufos|unidentified anomalous|unidentified aerial|unidentified flying)\b", re.I)
+SECOND_FILE_RE = re.compile(
+    r"\b(second batch|2nd batch|second release|release 02|new batch|new set|second set|new ufo files|more ufo files|declassified ufo files|government declassified ufo files|war\.gov/ufo|pursue|department of war publishes second release|what does the second batch)\b",
+    re.I,
+)
+FILE_TERMS_RE = re.compile(r"\b(file|files|document|documents|video|videos|declassified|release|released|batch|tranche|pursue|war\.gov)\b", re.I)
+NON_RELEASE_RE = re.compile(
+    r"\b(alien soft launch|missing scientists|biological remains|life forms|dismembered|whistleblower|secret agent|coulthart|trump knows|pastor|translucent|avi loeb)\b",
+    re.I,
+)
+SUMMARY = (
+    "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. "
+    "The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. "
+    "Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. "
+    "The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. "
+    "The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
+)
+
+
+def clean(value: Any) -> str:
+    return SPACE_RE.sub(" ", str(value or "")).strip()
+
+
+def text_of(*values: Any) -> str:
+    return clean(" ".join(clean(value) for value in values))
+
+
+def source_text(source: dict[str, Any]) -> str:
+    return text_of(source.get("title", ""), source.get("source", ""))
+
+
+def article_text(article: dict[str, Any]) -> str:
+    parts = [article.get("title", ""), article.get("source", ""), article.get("summary", "")]
+    parts.extend(article.get("clusterTitles") or [])
+    return text_of(*parts)
+
+
+def is_file_release_text(text: str) -> bool:
+    if NON_RELEASE_RE.search(text):
+        return False
+    return bool(UAP_RE.search(text) and FILE_TERMS_RE.search(text) and SECOND_FILE_RE.search(text))
+
+
+def is_file_release_source(source: dict[str, Any]) -> bool:
+    return is_file_release_text(source_text(source))
+
+
+def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
+    source = {
+        "title": article.get("title", ""),
+        "source": article.get("source", ""),
+        "link": article.get("link") or article.get("url", ""),
+        "url": article.get("url") or article.get("link", ""),
+        "publishedAt": article.get("publishedAt") or article.get("date", ""),
+    }
+    for key in ("displayedAt", "sourceDisplayedAt", "isNew", "sourceIsNew"):
+        if key in article:
+            source[key] = article[key]
+    return source
+
+
+def source_key(source: dict[str, Any]) -> str:
+    return clean(source.get("url") or source.get("link") or source.get("title") or source.get("source")).lower()
+
+
+def dedupe_sources(sources: list[dict[str, Any]], primary: dict[str, Any]) -> list[dict[str, Any]]:
+    primary_key = source_key(source_from_article(primary))
+    seen = {primary_key}
+    result: list[dict[str, Any]] = []
+    for source in sources:
+        key = source_key(source)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        result.append(source)
+    return result
+
+
+def rank_article(article: dict[str, Any]) -> tuple[int, int, int, str]:
+    title = clean(article.get("title"))
+    source = clean(article.get("source"))
+    score = 0
+    if re.search(r"what does the second batch|pentagon releases|department of war publishes", title, re.I):
+        score += 40
+    if re.search(r"newsnation|department of war|\.gov|reuters", source, re.I):
+        score += 20
+    if clean(article.get("summary")):
+        score += 10
+    release_sources = sum(1 for source_item in article.get("otherSources") or [] if isinstance(source_item, dict) and is_file_release_source(source_item))
+    return score, release_sources, int(article.get("mentions") or 1), clean(article.get("publishedAt") or article.get("date"))
+
+
+def source_points(mentions: int) -> int:
+    if mentions >= 20:
+        return 40
+    if mentions >= 10:
+        return 34
+    if mentions >= 5:
+        return 24
+    return max(0, (mentions - 1) * 5)
+
+
+def refresh_quality(article: dict[str, Any]) -> None:
+    mentions = max(1, int(article.get("mentions") or 1))
+    parts = [p for p in article.get("qualityBreakdown") or [] if isinstance(p, dict) and p.get("label") != "Mehrere Quellen"]
+    points = source_points(mentions)
+    if points:
+        parts.append({"label": "Mehrere Quellen", "points": points, "text": f"{mentions} Quellen im aktuellen Feed."})
+    score = sum(int(p.get("points") or 0) for p in parts) if parts else int(article.get("quality") or 50)
+    if mentions >= 10:
+        score = max(score, 84)
+    article["qualityBreakdown"] = parts
+    article["quality"] = max(20, min(100, score))
+    article["sourceQuality"] = article["quality"]
+
+
+def main() -> None:
+    payload = json.loads(NEWS_PATH.read_text(encoding="utf-8"))
+    articles = [article for article in payload.get("articles") or [] if isinstance(article, dict)]
+    candidates = [article for article in articles if is_file_release_text(article_text(article)) or sum(1 for source in article.get("otherSources") or [] if isinstance(source, dict) and is_file_release_source(source)) >= 3]
+    if not candidates:
+        print("file-release consolidation: no candidates")
+        return
+
+    primary = max(candidates, key=rank_article)
+    release_sources: list[dict[str, Any]] = []
+    kept_articles: list[dict[str, Any]] = []
+    removed_duplicates = 0
+    cleaned_articles = 0
+
+    for article in articles:
+        is_candidate = article in candidates
+        if is_candidate and article is not primary and is_file_release_text(article_text(article)):
+            release_sources.append(source_from_article(article))
+            release_sources.extend(source for source in article.get("otherSources") or [] if isinstance(source, dict) and is_file_release_source(source))
+            removed_duplicates += 1
+            continue
+
+        original_sources = [source for source in article.get("otherSources") or [] if isinstance(source, dict)]
+        release_sources.extend(source for source in original_sources if is_file_release_source(source))
+        if article is not primary:
+            cleaned = [source for source in original_sources if not is_file_release_source(source)]
+            if len(cleaned) != len(original_sources):
+                article["otherSources"] = cleaned
+                article["mentions"] = max(1, 1 + len(cleaned))
+                article["clusterTitles"] = [clean(source.get("title")) for source in cleaned if clean(source.get("title"))][:10]
+                refresh_quality(article)
+                cleaned_articles += 1
+        kept_articles.append(article)
+
+    primary_sources = [source for source in primary.get("otherSources") or [] if isinstance(source, dict) and is_file_release_source(source)]
+    primary_sources.extend(release_sources)
+    primary["otherSources"] = dedupe_sources(primary_sources, primary)[:24]
+    primary["mentions"] = max(1, 1 + len(primary["otherSources"]))
+    primary["clusterTitles"] = [clean(source.get("title")) for source in primary["otherSources"] if clean(source.get("title"))][:10]
+    primary["summary"] = SUMMARY
+    primary.pop("summaryStatus", None)
+    primary.pop("translation", None)
+    primary.pop("translations", None)
+    primary.pop("translationMeta", None)
+    refresh_quality(primary)
+
+    payload["articles"] = kept_articles
+    summaries = payload.setdefault("summaries", {})
+    if primary.get("id"):
+        summaries[primary["id"]] = SUMMARY
+    visible_ids = {article.get("id") for article in kept_articles if article.get("id")}
+    for key in list(summaries):
+        if key not in visible_ids:
+            summaries.pop(key, None)
+
+    meta = payload.setdefault("scanMeta", {})
+    meta["fileReleaseConsolidation"] = {
+        "policy": "second_uap_file_release_single_visible_topic_v1",
+        "primaryId": primary.get("id"),
+        "sources": len(primary.get("otherSources") or []),
+        "cleanedArticles": cleaned_articles,
+        "removedDuplicateTopics": removed_duplicates,
+    }
+    NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"file-release consolidation: primary={primary.get('id')} sources={len(primary.get('otherSources') or [])} cleaned={cleaned_articles} removed={removed_duplicates}")
+
+
+if __name__ == "__main__":
+    main()
