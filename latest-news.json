@@ -1,6 +1,74 @@
 {
-  "timestamp": "2026-05-24T06:13:58Z",
+  "timestamp": "2026-05-24T06:20:38Z",
   "articles": [
+    {
+      "id": "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
+      "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
+      "source": "USA Herald",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNXRCWG5NWEtkeVNFVHlvanh6TVhIMjFEQ016a2FPRTBScEI4STlSN1FJeWdSV3Rmem5hUm5xOVNRWTdQUm9RTDBrUEludkZiblNRalpkRFFaZkV0eTVCbkZKRHRUX1RhREwyWVlEQUlibHNtNEVNTlhZZHRpNWxnSkZVLVZlX3otMmxuNjlVMW5ta0RoQ1FLbkxkLUVpbVM4bnk0WmR2eWx2R1V2UzNvaTNablBMOHdZeGlTTXJPd2x4bTJucUV0RlYyc2c2RVkteWNfemMxU1pDUk5XdjFhTkx4blI?oc=5",
+      "date": "2026-05-19",
+      "publishedAt": "2026-05-19T18:58:23Z",
+      "summary": "Dr. Hal Puthoff, an 89‑year‑old physicist with a long history of work for the CIA and the Pentagon, said on the “Diary of a CEO” podcast that people involved in UFO crash‑retrieval operations have told him the United States has recovered biological remains from at least four distinct species of non‑human beings. Puthoff described the information as coming directly from credible insiders he trusts, rather than speculation. He has previously suggested that advanced technologies of non‑human origin may already be in classified military programs. Puthoff’s claim extends beyond recovered craft to the biology of the recovered entities. The article notes that his background—research on remote viewing, Stargate, and the Advanced Aerospace Weapon System Applications Program—gives him access to senior intelligence officials, aerospace insiders, and military personnel.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 60,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "ALIEN, PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "ALIEN",
+        "PENTAGON"
+      ],
+      "sourceQuality": 60,
+      "displayedAt": "2026-05-19T18:58:23Z",
+      "sourceDisplayedAt": "2026-05-23T23:03:50Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
+          "summary": "Dr. Hal Puthoff, an 89‑year‑old physicist with a long history of work for the CIA and the Pentagon, said on the “Diary of a CEO” podcast that people involved in UFO crash‑retrieval operations have told him the United States has recovered biological remains from at least four distinct species of non‑human beings. Puthoff described the information as coming directly from credible insiders he trusts, rather than speculation.",
+          "sourceHash": "c5414434f41e78cd88342248adb3be6de757d8c9",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
+          "summary": "Dr. Hal Puthoff, ein 89-jähriger Physiker mit langjähriger Arbeit für die CIA und das Pentagon, sagte im Podcast „Diary of a CEO“, dass Personen, die an UFO-Absturzbergungsoperationen beteiligt waren, ihm erzählt hätten, dass die Vereinigten Staaten biologische Überreste von mindestens vier verschiedenen Arten nichtmenschlicher Lebewesen geborgen hätten. Puthoff beschrieb die Informationen als direkt von glaubwürdigen Insidern stammend, denen er vertraut, und nicht als Spekulation.",
+          "sourceHash": "c5414434f41e78cd88342248adb3be6de757d8c9",
+          "provider": "google"
+        }
+      }
+    },
     {
       "id": "the-2026-alien-soft-launch-missing-scientists-aliens-gov-pentagon-secrets-y01qlmdfznb",
       "title": "The 2026 Alien Soft Launch: Missing Scientists, Aliens.gov & Pentagon Secrets (y01QlMdFZnb)",
@@ -135,14 +203,71 @@
       }
     },
     {
-      "id": "what-does-the-second-batch-of-ufo-files-tell-us",
-      "title": "What does the second batch of UFO files tell us?",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
+      "id": "coulthart-says-trump-knows-the-ufo-truth-but-reddit-isn-t-so-sure",
+      "title": "Coulthart says Trump knows the UFO truth, but Reddit isn’t so sure",
+      "source": "Cybernews",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GYkkxdUR4VXJkQ0lydlZrU01hQncxSE4xeTZxam5iazE1ejJzd24tYzVBb19nYUxNcEZ0RC1oMXF2S1Z0bTZHVVZRZkZOWEtSZS1wUDBzYUV2b2xWaXlrVHFHVXZMdzZxMjdoM1E5Zw?oc=5",
       "date": "2026-05-18",
-      "publishedAt": "2026-05-22T17:46:02Z",
+      "publishedAt": "2026-05-18T13:31:15Z",
+      "summary": "Australian journalist Ross Coulthart claimed on X that President Donald Trump has been briefed on the legacy UAP crash retrieval program, sparking debate about the timing and details of the briefing. The claim follows the May 8 release of previously restricted UFO evidence and rumors that Trump was briefed during his first term, as alleged by whistleblower David Grusch. Coulthart attributed the alleged briefing to pressure from figures such as Marco Rubio, Anna Paulina Luna, Eric Burlison, and Tim Burchett, and questioned what Trump will disclose to the public. Dr. Eric Davis, former UAP Task Force science advisor, said he briefed Trump on UAPs in late 2020 but excluded legacy crash retrieval programs, and later disputed Grusch’s claim that Trump received a full briefing on the program. Reddit and X users expressed skepticism, demanding concrete evidence and criticizing Coulthart’s reporting, while some suggested the story could be part of a psychological operation. The situation remains uncertain, with no definitive evidence of when or what Trump was briefed, leaving the debate unresolved.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "TRUMP als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "TRUMP"
+      ],
+      "sourceQuality": 45,
+      "displayedAt": "2026-05-24T06:20:38Z",
+      "sourceDisplayedAt": "2026-05-24T06:20:38Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Coulthart says Trump knows the UFO truth, but Reddit isn’t so sure",
+          "summary": "Australian journalist Ross Coulthart claimed on X that President Donald Trump has been briefed on the legacy UAP crash retrieval program, sparking debate about the timing and details of the briefing. The claim follows the May 8 release of previously restricted UFO evidence and rumors that Trump was briefed during his first term, as alleged by whistleblower David Grusch.",
+          "sourceHash": "b862b0de26c83db8f3262e9d43e598e59e88f6a6",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Coulthart sagt, Trump kenne die UFO-Wahrheit, aber Reddit sei sich nicht so sicher",
+          "summary": "Der australische Journalist Ross Coulthart behauptete auf X, dass Präsident Donald Trump über das alte UAP-Absturzrettungsprogramm informiert worden sei, was eine Debatte über den Zeitpunkt und die Einzelheiten des Briefings auslöste. Die Behauptung folgt auf die Veröffentlichung zuvor vertraulicher UFO-Beweise am 8. Mai und auf Gerüchte, dass Trump während seiner ersten Amtszeit informiert worden sei, wie der Whistleblower David Grusch behauptet.",
+          "sourceHash": "b862b0de26c83db8f3262e9d43e598e59e88f6a6",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+      "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+      "source": "U.S. Department of War (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
+      "date": "2026-05-13",
+      "publishedAt": "2026-05-22T12:07:07Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 20,
+      "mentions": 21,
       "otherSources": [
         {
           "title": "Pentagon releases new batch of UFO files",
@@ -173,9 +298,9 @@
         },
         {
           "title": "New videos from Pentagon’s second batch of UFO files",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
           "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
           "publishedAt": "2026-05-22T17:34:00Z",
           "displayedAt": "2026-05-23T22:33:01Z",
           "isNew": true
@@ -208,21 +333,12 @@
           "isNew": true
         },
         {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "source": "U.S. Department of War (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-          "publishedAt": "2026-05-22T12:07:07Z",
+          "title": "What does the second batch of UFO files tell us?",
+          "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
+          "publishedAt": "2026-05-22T17:46:02Z",
           "displayedAt": "2026-05-23T22:33:01Z",
-          "isNew": true
-        },
-        {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "source": "U.S. Department of War (.gov)",
-          "link": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-          "publishedAt": "2026-05-22T00:00:00Z",
-          "displayedAt": "2026-05-23T22:57:51Z",
           "isNew": true
         },
         {
@@ -314,6 +430,24 @@
           "publishedAt": "2026-05-23T12:37:44Z",
           "displayedAt": "2026-05-23T22:33:01Z",
           "isNew": true
+        },
+        {
+          "title": "US Recovered 4 Alien Species From Crashed UFOs: An 89-year-Old Former CIA-Funded Government Researcher Claims",
+          "source": "International Business Times UK",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQnpyR0xMZVNDWkdQcHNtQlVyNTRYTGhwZlpnNExrazItY1ljX0V1cmtqcmtYMF9NQkdfWGpxamI0REdHLUhtWmRMSC1HX2JCVVpHMlpkX2lxRWxGVnZnQ21LekdVcHMzclZBUk54NUd4eXA5MWVlT3FWQ0taU0syU2xPOTlEeEZBRVprTVQzVW8yV1JrNHo5ZlNR?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQnpyR0xMZVNDWkdQcHNtQlVyNTRYTGhwZlpnNExrazItY1ljX0V1cmtqcmtYMF9NQkdfWGpxamI0REdHLUhtWmRMSC1HX2JCVVpHMlpkX2lxRWxGVnZnQ21LekdVcHMzclZBUk54NUd4eXA5MWVlT3FWQ0taU0syU2xPOTlEeEZBRVprTVQzVW8yV1JrNHo5ZlNR?oc=5",
+          "publishedAt": "2026-05-16T19:07:18Z",
+          "displayedAt": "2026-05-24T06:20:38Z",
+          "isNew": true
+        },
+        {
+          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+          "source": "U.S. Department of War (.gov)",
+          "link": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
+          "publishedAt": "2026-05-22T00:00:00Z",
+          "displayedAt": "2026-05-23T22:57:51Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
@@ -324,11 +458,11 @@
         "Pentagon releases new batch of declassified UFO files",
         "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
         "Department of War relases new UFO files",
-        "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "Your Morning: New UFO files released"
+        "What does the second batch of UFO files tell us?",
+        "Your Morning: New UFO files released",
+        "US releases second batch of government declassified UFO files"
       ],
-      "quality": 85,
+      "quality": 84,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -336,209 +470,77 @@
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
         {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Quellenrisiko",
+          "points": -8,
+          "text": "Abzug, weil die einzige Quelle in diesem Themencluster eher Boulevard, Clickbait oder Unterhaltung ist."
         },
         {
           "label": "Mehrere Quellen",
           "points": 40,
-          "text": "20 Quellen im aktuellen Feed."
+          "text": "21 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files"
-      ],
-      "sourceQuality": 85,
-      "displayedAt": "2026-05-24T06:13:58Z",
+      "matchedTerms": [],
+      "sourceQuality": 84,
+      "displayedAt": "2026-05-24T06:20:38Z",
       "sourceDisplayedAt": "2026-05-23T22:33:01Z",
       "sourceIsNew": true,
       "translation": {
         "en": {
-          "title": "What does the second batch of UFO files tell us?",
+          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
           "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-          "sourceHash": "4bcc963b43fea52ec7d91966a0fb5abf91312e28",
+          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "original"
         },
         "de": {
-          "title": "Was sagt uns der zweite Stapel UFO-Dateien?",
+          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
           "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-          "sourceHash": "4bcc963b43fea52ec7d91966a0fb5abf91312e28",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "the-us-government-finally-admitted-these-ufo-encounters-are-real",
-      "title": "The US government finally admitted these UFO encounters are real",
-      "source": "MSN",
-      "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNSFBNX2lJV1cwd242T29vMDlDakFOYTB4aFZ2U3d0bnVaZkJnN3oxVnlLZEFiYjFlYmYzTndZSS1LSGVxMUxORTdVMHp2bklvRjMzaDE3eGg0MVNVRTJXMWxhVDJ4QWlySmZLaW94LU1YOUZyLVNfVlZaM0pFSDEtTlVxaDdFTjBnd1hRUVZBMkI3TnZReUJfTUtDR0YzTVh5dTctUDgtTlNJVlZTVi1VMDFrdEUzUFktOGRnZmlZVzdrMXBtdUJTUXd3dWxOYW1vajh5NVo2RExpcnA1aEhxdDBrdFZvYlpfWjVtMGloQmZpRGZtUzVWOXFZSWFhT1VzUlZfTDZZcWZwcWM0eWszTDVMNVdWWHRGTkdVWk5sN1N1YVZnb1JZOWJWdWNNSjFGcmpKSEZkbEUtUzl5YXk3R0diRVk4ZVZGYWxIaTlCNDhaLXBhN0c0akJER09hNWNXMnpHS2lLa21Da0g5NVNDRGlGRTlBeVRKMHR3bHBqMA?oc=5",
-      "date": "2026-05-17",
-      "publishedAt": "2026-05-17T09:33:28Z",
-      "summary": "",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "The U.S. Government Finally Admitted These UFO Encounters Are Real",
-          "source": "Asianet Newsable",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMk1KZTZ3bnNHN1pWZkRWcVlKb1EzN0xXdGRkdVZTWUhBSHNwa0ZtYlktRmtOT3piakxhTnFfdVpmUmVMTDdBelBuMjY4REJTa3BwQTRGaEdiLTBCelBpTzlSbXh5aldSd0lrUDZOczNpajRkY3RJdnVIUzdUeGNtY2xLOGpkZktxc29hdUVSUXU2VjB5N1hnSXlIQTh3VkE1dERUbHoxZWp4anRu0gGyAUFVX3lxTE5RMG1zOHpjRklnYTRlLVhXVDRMYmVlclNselU3RS1yVl85Sm9uQ2x4RFBUdFhoNmpDczRobG10c21wTUhlM1RmVkQ1WDFuX2o1VHVBMGtNS3NJX2lWbzAwLXNXWkFMTnRVN1RPU05IT09xYkJWZHZkTjdBNngxSk55eGhRbVY4dkE5Zy1kMjFJWU9QWlhLSDhwUGhvYWcxOWVnLUF3aWJ5d0t5VDkzYmJxRUE?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMk1KZTZ3bnNHN1pWZkRWcVlKb1EzN0xXdGRkdVZTWUhBSHNwa0ZtYlktRmtOT3piakxhTnFfdVpmUmVMTDdBelBuMjY4REJTa3BwQTRGaEdiLTBCelBpTzlSbXh5aldSd0lrUDZOczNpajRkY3RJdnVIUzdUeGNtY2xLOGpkZktxc29hdUVSUXU2VjB5N1hnSXlIQTh3VkE1dERUbHoxZWp4anRu0gGyAUFVX3lxTE5RMG1zOHpjRklnYTRlLVhXVDRMYmVlclNselU3RS1yVl85Sm9uQ2x4RFBUdFhoNmpDczRobG10c21wTUhlM1RmVkQ1WDFuX2o1VHVBMGtNS3NJX2lWbzAwLXNXWkFMTnRVN1RPU05IT09xYkJWZHZkTjdBNngxSk55eGhRbVY4dkE5Zy1kMjFJWU9QWlhLSDhwUGhvYWcxOWVnLUF3aWJ5d0t5VDkzYmJxRUE?oc=5",
-          "publishedAt": "2026-05-12T08:44:20Z",
-          "displayedAt": "2026-05-24T06:13:58Z",
-          "isNew": true
-        }
-      ],
-      "clusterTitles": [
-        "The U.S. Government Finally Admitted These UFO Encounters Are Real"
-      ],
-      "quality": 54,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "GOVERNMENT als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "GOVERNMENT als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "GOVERNMENT"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "sourceQuality": 54,
-      "displayedAt": "2026-05-24T06:13:58Z",
-      "sourceDisplayedAt": "2026-05-24T06:13:58Z",
-      "sourceIsNew": true
-    },
-    {
-      "id": "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
-      "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-      "source": "USA Herald",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNXRCWG5NWEtkeVNFVHlvanh6TVhIMjFEQ016a2FPRTBScEI4STlSN1FJeWdSV3Rmem5hUm5xOVNRWTdQUm9RTDBrUEludkZiblNRalpkRFFaZkV0eTVCbkZKRHRUX1RhREwyWVlEQUlibHNtNEVNTlhZZHRpNWxnSkZVLVZlX3otMmxuNjlVMW5ta0RoQ1FLbkxkLUVpbVM4bnk0WmR2eWx2R1V2UzNvaTNablBMOHdZeGlTTXJPd2x4bTJucUV0RlYyc2c2RVkteWNfemMxU1pDUk5XdjFhTkx4blI?oc=5",
-      "date": "2026-05-18",
-      "publishedAt": "2026-05-19T18:58:23Z",
-      "summary": "Australian journalist Ross Coulthart claimed on X that President Donald Trump has been briefed on the legacy UAP crash retrieval program, sparking debate about the timing and details of the briefing. The claim follows the May 8 release of previously restricted UFO evidence and rumors that Trump was briefed during his first term, as alleged by whistleblower David Grusch. Coulthart attributed the alleged briefing to pressure from figures such as Marco Rubio, Anna Paulina Luna, Eric Burlison, and Tim Burchett, and questioned what Trump will disclose to the public. Dr. Eric Davis, former UAP Task Force science advisor, said he briefed Trump on UAPs in late 2020 but excluded legacy crash retrieval programs, and later disputed Grusch’s claim that Trump received a full briefing on the program. Reddit and X users expressed skepticism, demanding concrete evidence and criticizing Coulthart’s reporting, while some suggested the story could be part of a psychological operation. The situation remains uncertain, with no definitive evidence of when or what Trump was briefed, leaving the debate unresolved.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "TRUMP"
-      ],
-      "sourceQuality": 45,
-      "displayedAt": "2026-05-19T18:58:23Z",
-      "sourceDisplayedAt": "2026-05-23T23:03:50Z",
-      "sourceIsNew": true,
-      "translation": {
-        "en": {
-          "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-          "summary": "Australian journalist Ross Coulthart claimed on X that President Donald Trump has been briefed on the legacy UAP crash retrieval program, sparking debate about the timing and details of the briefing. The claim follows the May 8 release of previously restricted UFO evidence and rumors that Trump was briefed during his first term, as alleged by whistleblower David Grusch.",
-          "sourceHash": "2c742786b1f47bd764e28a1c7c7c1aa3a52ca539",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
-          "summary": "Der australische Journalist Ross Coulthart behauptete auf X, dass Präsident Donald Trump über das alte UAP-Absturzrettungsprogramm informiert worden sei, was eine Debatte über den Zeitpunkt und die Einzelheiten des Briefings auslöste. Die Behauptung folgt auf die Veröffentlichung zuvor vertraulicher UFO-Beweise am 8. Mai und Gerüchte, dass Trump während seiner ersten Amtszeit informiert wurde, wie vom Whistleblower David Grusch behauptet.",
-          "sourceHash": "2c742786b1f47bd764e28a1c7c7c1aa3a52ca539",
+          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
       }
     }
   ],
   "summaries": {
+    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Dr. Hal Puthoff, an 89‑year‑old physicist with a long history of work for the CIA and the Pentagon, said on the “Diary of a CEO” podcast that people involved in UFO crash‑retrieval operations have told him the United States has recovered biological remains from at least four distinct species of non‑human beings. Puthoff described the information as coming directly from credible insiders he trusts, rather than speculation. He has previously suggested that advanced technologies of non‑human origin may already be in classified military programs. Puthoff’s claim extends beyond recovered craft to the biology of the recovered entities. The article notes that his background—research on remote viewing, Stargate, and the Advanced Aerospace Weapon System Applications Program—gives him access to senior intelligence officials, aerospace insiders, and military personnel.",
     "the-2026-alien-soft-launch-missing-scientists-aliens-gov-pentagon-secrets-y01qlmdfznb": "Página não encontrada – a página solicitada não existe no site Folha do ES. O site exibe um cabeçalho com o título “Página não encontrada” e oferece links para a página inicial, política de privacidade, colunas e redes sociais. O rodapé indica que os direitos autorais pertencem ao Folha do ES em 2026. No corpo da página não há mais informações além de navegação e avisos de copyright.",
     "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released. The FBI is investigating a series of missing and dead scientists linked to secret nuclear and UFO programs, including the disappearance of retired General William Neil McCasland. Other scientists, such as David Wilcock, have also died under suspicious circumstances, adding to the pattern of unexplained losses.",
-    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Australian journalist Ross Coulthart claimed on X that President Donald Trump has been briefed on the legacy UAP crash retrieval program, sparking debate about the timing and details of the briefing. The claim follows the May 8 release of previously restricted UFO evidence and rumors that Trump was briefed during his first term, as alleged by whistleblower David Grusch. Coulthart attributed the alleged briefing to pressure from figures such as Marco Rubio, Anna Paulina Luna, Eric Burlison, and Tim Burchett, and questioned what Trump will disclose to the public. Dr. Eric Davis, former UAP Task Force science advisor, said he briefed Trump on UAPs in late 2020 but excluded legacy crash retrieval programs, and later disputed Grusch’s claim that Trump received a full briefing on the program. Reddit and X users expressed skepticism, demanding concrete evidence and criticizing Coulthart’s reporting, while some suggested the story could be part of a psychological operation. The situation remains uncertain, with no definitive evidence of when or what Trump was briefed, leaving the debate unresolved.",
-    "what-does-the-second-batch-of-ufo-files-tell-us": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
+    "coulthart-says-trump-knows-the-ufo-truth-but-reddit-isn-t-so-sure": "Australian journalist Ross Coulthart claimed on X that President Donald Trump has been briefed on the legacy UAP crash retrieval program, sparking debate about the timing and details of the briefing. The claim follows the May 8 release of previously restricted UFO evidence and rumors that Trump was briefed during his first term, as alleged by whistleblower David Grusch. Coulthart attributed the alleged briefing to pressure from figures such as Marco Rubio, Anna Paulina Luna, Eric Burlison, and Tim Burchett, and questioned what Trump will disclose to the public. Dr. Eric Davis, former UAP Task Force science advisor, said he briefed Trump on UAPs in late 2020 but excluded legacy crash retrieval programs, and later disputed Grusch’s claim that Trump received a full briefing on the program. Reddit and X users expressed skepticism, demanding concrete evidence and criticizing Coulthart’s reporting, while some suggested the story could be part of a psychological operation. The situation remains uncertain, with no definitive evidence of when or what Trump was briefed, leaving the debate unresolved.",
+    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-24T06:13:58Z",
+    "timestamp": "2026-05-24T06:20:38Z",
     "ids": [
-      "what-does-the-second-batch-of-ufo-files-tell-us"
+      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
     ],
     "articles": [
       {
-        "id": "what-does-the-second-batch-of-ufo-files-tell-us",
-        "title": "What does the second batch of UFO files tell us?",
-        "source": "NewsNation"
+        "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+        "source": "U.S. Department of War (.gov)"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 324,
-    "broadTopics": 148,
+    "broadArticles": 337,
+    "broadTopics": 157,
     "notificationArticles": 1,
     "notificationTopics": 1,
     "newNotificationTopics": 0,
-    "appTopics": 6,
+    "appTopics": 7,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 18,
+    "splitUnrelatedGroupedSources": 6,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 5,
+    "regroupedTopics": 8,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -546,27 +548,15 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v4_mark_source_grounded",
-      "attempts": 3,
+      "attempts": 1,
       "repaired": 0,
-      "missing": 3
+      "missing": 1
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
-      "kept": 10,
-      "missing": 3,
+      "kept": 12,
+      "missing": 1,
       "missingItems": [
-        {
-          "id": "the-us-government-finally-admitted-these-ufo-encounters-are-real",
-          "title": "The US government finally admitted these UFO encounters are real",
-          "source": "MSN",
-          "reason": "missing_article_content_summary_kept_visible"
-        },
-        {
-          "id": "what-does-the-second-batch-of-ufo-files-tell-us",
-          "title": "What does the second batch of UFO files tell us?",
-          "source": "NewsNation",
-          "reason": "missing_article_content_summary_kept_visible"
-        },
         {
           "id": "new-videos-from-pentagon-s-second-batch-of-ufo-files",
           "title": "New videos from Pentagon’s second batch of UFO files",
@@ -577,15 +567,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v11_trust_source_summaries",
-      "inputArticles": 10,
-      "outputArticles": 6,
-      "preservedSourceSummaries": 4
+      "inputArticles": 12,
+      "outputArticles": 7,
+      "preservedSourceSummaries": 6
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 6,
-      "outputArticles": 6,
-      "missingSummaries": 2,
+      "inputArticles": 7,
+      "outputArticles": 7,
+      "missingSummaries": 1,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -597,36 +587,51 @@
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 4,
-      "addedSources": 54,
+      "updatedTopics": 5,
+      "addedSources": 72,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
-      "policy": "second_uap_file_release_single_visible_topic_v1",
-      "primaryId": "what-does-the-second-batch-of-ufo-files-tell-us",
-      "sources": 19,
+      "policy": "second_uap_file_release_single_visible_topic_v2_clear_stale_summaries",
+      "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+      "sources": 20,
       "cleanedArticles": 1,
-      "removedDuplicateTopics": 1
+      "removedDuplicateTopics": 2,
+      "staleSummariesCleared": 0
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 5,
-      "newSources": 5
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 4,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 5,
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_topics_or_sources_not_in_previous_app_feed",
       "notifications": 1,
-      "freshSources": 5,
+      "freshSources": 2,
       "correctedOldSourceMarkers": 0
     }
   },
   "translations": {
+    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": {
+      "en": {
+        "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
+        "summary": "Dr. Hal Puthoff, an 89‑year‑old physicist with a long history of work for the CIA and the Pentagon, said on the “Diary of a CEO” podcast that people involved in UFO crash‑retrieval operations have told him the United States has recovered biological remains from at least four distinct species of non‑human beings. Puthoff described the information as coming directly from credible insiders he trusts, rather than speculation.",
+        "sourceHash": "c5414434f41e78cd88342248adb3be6de757d8c9",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
+        "summary": "Dr. Hal Puthoff, ein 89-jähriger Physiker mit langjähriger Arbeit für die CIA und das Pentagon, sagte im Podcast „Diary of a CEO“, dass Personen, die an UFO-Absturzbergungsoperationen beteiligt waren, ihm erzählt hätten, dass die Vereinigten Staaten biologische Überreste von mindestens vier verschiedenen Arten nichtmenschlicher Lebewesen geborgen hätten. Puthoff beschrieb die Informationen als direkt von glaubwürdigen Insidern stammend, denen er vertraut, und nicht als Spekulation.",
+        "sourceHash": "c5414434f41e78cd88342248adb3be6de757d8c9",
+        "provider": "google"
+      }
+    },
     "the-2026-alien-soft-launch-missing-scientists-aliens-gov-pentagon-secrets-y01qlmdfznb": {
       "en": {
         "title": "The 2026 Alien Soft Launch: Missing Scientists, Aliens.gov & Pentagon Secrets (y01QlMdFZnb)",
@@ -655,37 +660,37 @@
         "provider": "google"
       }
     },
-    "what-does-the-second-batch-of-ufo-files-tell-us": {
+    "coulthart-says-trump-knows-the-ufo-truth-but-reddit-isn-t-so-sure": {
       "en": {
-        "title": "What does the second batch of UFO files tell us?",
-        "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-        "sourceHash": "4bcc963b43fea52ec7d91966a0fb5abf91312e28",
+        "title": "Coulthart says Trump knows the UFO truth, but Reddit isn’t so sure",
+        "summary": "Australian journalist Ross Coulthart claimed on X that President Donald Trump has been briefed on the legacy UAP crash retrieval program, sparking debate about the timing and details of the briefing. The claim follows the May 8 release of previously restricted UFO evidence and rumors that Trump was briefed during his first term, as alleged by whistleblower David Grusch.",
+        "sourceHash": "b862b0de26c83db8f3262e9d43e598e59e88f6a6",
         "provider": "original"
       },
       "de": {
-        "title": "Was sagt uns der zweite Stapel UFO-Dateien?",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-        "sourceHash": "4bcc963b43fea52ec7d91966a0fb5abf91312e28",
+        "title": "Coulthart sagt, Trump kenne die UFO-Wahrheit, aber Reddit sei sich nicht so sicher",
+        "summary": "Der australische Journalist Ross Coulthart behauptete auf X, dass Präsident Donald Trump über das alte UAP-Absturzrettungsprogramm informiert worden sei, was eine Debatte über den Zeitpunkt und die Einzelheiten des Briefings auslöste. Die Behauptung folgt auf die Veröffentlichung zuvor vertraulicher UFO-Beweise am 8. Mai und auf Gerüchte, dass Trump während seiner ersten Amtszeit informiert worden sei, wie der Whistleblower David Grusch behauptet.",
+        "sourceHash": "b862b0de26c83db8f3262e9d43e598e59e88f6a6",
         "provider": "google"
       }
     },
-    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": {
+    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
       "en": {
-        "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-        "summary": "Australian journalist Ross Coulthart claimed on X that President Donald Trump has been briefed on the legacy UAP crash retrieval program, sparking debate about the timing and details of the briefing. The claim follows the May 8 release of previously restricted UFO evidence and rumors that Trump was briefed during his first term, as alleged by whistleblower David Grusch.",
-        "sourceHash": "2c742786b1f47bd764e28a1c7c7c1aa3a52ca539",
+        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+        "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
+        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "original"
       },
       "de": {
-        "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
-        "summary": "Der australische Journalist Ross Coulthart behauptete auf X, dass Präsident Donald Trump über das alte UAP-Absturzrettungsprogramm informiert worden sei, was eine Debatte über den Zeitpunkt und die Einzelheiten des Briefings auslöste. Die Behauptung folgt auf die Veröffentlichung zuvor vertraulicher UFO-Beweise am 8. Mai und Gerüchte, dass Trump während seiner ersten Amtszeit informiert wurde, wie vom Whistleblower David Grusch behauptet.",
-        "sourceHash": "2c742786b1f47bd764e28a1c7c7c1aa3a52ca539",
+        "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }
     }
   },
   "translationMeta": {
-    "prepared": 4,
+    "prepared": 5,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
