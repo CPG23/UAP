@@ -16,35 +16,12 @@ SECOND_FILE_RE = re.compile(
 )
 FILE_TERMS_RE = re.compile(r"\b(file|files|document|documents|video|videos|declassified|release|released|batch|tranche|pursue|war\.gov)\b", re.I)
 NON_RELEASE_RE = re.compile(
-    r"\b(alien soft launch|missing scientists|biological remains|life forms|dismembered|whistleblower|secret agent|coulthart|trump knows|pastor|translucent|avi loeb)\b",
+    r"\b(alien soft launch|missing scientists|biological remains|life forms|dismembered|whistleblower|secret agent|coulthart|trump knows|pastor|translucent|avi loeb|alien species|crash retrieval|crashed ufos)\b",
     re.I,
 )
 TOKEN_RE = re.compile(r"[a-z0-9][a-z0-9'-]{3,}", re.I)
 STOPWORDS = {
-    "about",
-    "after",
-    "alleges",
-    "amid",
-    "also",
-    "been",
-    "being",
-    "from",
-    "have",
-    "into",
-    "more",
-    "news",
-    "over",
-    "said",
-    "says",
-    "that",
-    "their",
-    "these",
-    "this",
-    "those",
-    "through",
-    "united",
-    "with",
-    "would",
+    "about", "after", "alleges", "amid", "also", "been", "being", "from", "have", "into", "more", "news", "over", "said", "says", "that", "their", "these", "this", "those", "through", "united", "with", "would",
 }
 SUMMARY = (
     "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. "
@@ -71,10 +48,14 @@ def source_text(source: dict[str, Any]) -> str:
     return text_of(source.get("title", ""), source.get("source", ""))
 
 
-def article_text(article: dict[str, Any]) -> str:
-    parts = [article.get("title", ""), article.get("source", ""), article.get("summary", "")]
+def article_headline_text(article: dict[str, Any]) -> str:
+    parts = [article.get("title", ""), article.get("source", "")]
     parts.extend(article.get("clusterTitles") or [])
     return text_of(*parts)
+
+
+def article_text(article: dict[str, Any]) -> str:
+    return text_of(article_headline_text(article), article.get("summary", ""))
 
 
 def is_file_release_text(text: str) -> bool:
@@ -110,6 +91,8 @@ def dedupe_sources(sources: list[dict[str, Any]], primary: dict[str, Any]) -> li
     seen = {primary_key}
     result: list[dict[str, Any]] = []
     for source in sources:
+        if not is_file_release_source(source):
+            continue
         key = source_key(source)
         if not key or key in seen:
             continue
@@ -169,8 +152,7 @@ def looks_like_stale_summary(article: dict[str, Any]) -> bool:
     summary_tokens = distinctive_tokens(summary)
     if len(title_tokens) < 4:
         return False
-    overlap = title_tokens & summary_tokens
-    if len(overlap) >= 2:
+    if len(title_tokens & summary_tokens) >= 2:
         return False
     if is_file_release_text(title) and is_file_release_text(summary):
         return False
@@ -194,7 +176,11 @@ def main() -> None:
     payload = json.loads(NEWS_PATH.read_text(encoding="utf-8"))
     summaries = payload.setdefault("summaries", {})
     articles = [article for article in payload.get("articles") or [] if isinstance(article, dict)]
-    candidates = [article for article in articles if is_file_release_text(article_text(article)) or sum(1 for source in article.get("otherSources") or [] if isinstance(source, dict) and is_file_release_source(source)) >= 3]
+    candidates = [
+        article for article in articles
+        if is_file_release_text(article_text(article))
+        or sum(1 for source in article.get("otherSources") or [] if isinstance(source, dict) and is_file_release_source(source)) >= 3
+    ]
     if not candidates:
         print("file-release consolidation: no candidates")
         return
@@ -205,11 +191,17 @@ def main() -> None:
     removed_duplicates = 0
     cleaned_articles = 0
     stale_summaries_cleared = 0
+    rejected_article_sources = 0
 
     for article in articles:
         is_candidate = article in candidates
-        if is_candidate and article is not primary and is_file_release_text(article_text(article)):
-            release_sources.append(source_from_article(article))
+        headline_is_release = is_file_release_text(article_headline_text(article))
+        if is_candidate and article is not primary and headline_is_release:
+            article_source = source_from_article(article)
+            if is_file_release_source(article_source):
+                release_sources.append(article_source)
+            else:
+                rejected_article_sources += 1
             release_sources.extend(source for source in article.get("otherSources") or [] if isinstance(source, dict) and is_file_release_source(source))
             removed_duplicates += 1
             continue
@@ -228,7 +220,7 @@ def main() -> None:
                     stale_summaries_cleared += 1
         kept_articles.append(article)
 
-    primary_sources = [source for source in primary.get("otherSources") or [] if isinstance(source, dict) and is_file_release_source(source)]
+    primary_sources = [source for source in primary.get("otherSources") or [] if isinstance(source, dict)]
     primary_sources.extend(release_sources)
     primary["otherSources"] = dedupe_sources(primary_sources, primary)[:24]
     primary["mentions"] = max(1, 1 + len(primary["otherSources"]))
@@ -250,18 +242,20 @@ def main() -> None:
 
     meta = payload.setdefault("scanMeta", {})
     meta["fileReleaseConsolidation"] = {
-        "policy": "second_uap_file_release_single_visible_topic_v2_clear_stale_summaries",
+        "policy": "second_uap_file_release_single_visible_topic_v3_headline_strict",
         "primaryId": primary.get("id"),
         "sources": len(primary.get("otherSources") or []),
         "cleanedArticles": cleaned_articles,
         "removedDuplicateTopics": removed_duplicates,
         "staleSummariesCleared": stale_summaries_cleared,
+        "rejectedArticleSources": rejected_article_sources,
     }
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
         "file-release consolidation: "
         f"primary={primary.get('id')} sources={len(primary.get('otherSources') or [])} "
-        f"cleaned={cleaned_articles} removed={removed_duplicates} stale_summaries={stale_summaries_cleared}"
+        f"cleaned={cleaned_articles} removed={removed_duplicates} "
+        f"stale_summaries={stale_summaries_cleared} rejected_article_sources={rejected_article_sources}"
     )
 
 
