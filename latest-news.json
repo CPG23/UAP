@@ -1,86 +1,30 @@
 {
-  "timestamp": "2026-05-24T11:59:56Z",
+  "timestamp": "2026-05-25T07:01:42Z",
   "articles": [
     {
-      "id": "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
+      "id": "sighting-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
       "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
       "source": "USA Herald",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNXRCWG5NWEtkeVNFVHlvanh6TVhIMjFEQ016a2FPRTBScEI4STlSN1FJeWdSV3Rmem5hUm5xOVNRWTdQUm9RTDBrUEludkZiblNRalpkRFFaZkV0eTVCbkZKRHRUX1RhREwyWVlEQUlibHNtNEVNTlhZZHRpNWxnSkZVLVZlX3otMmxuNjlVMW5ta0RoQ1FLbkxkLUVpbVM4bnk0WmR2eWx2R1V2UzNvaTNablBMOHdZeGlTTXJPd2x4bTJucUV0RlYyc2c2RVkteWNfemMxU1pDUk5XdjFhTkx4blI?oc=5",
-      "date": "2026-05-19",
-      "publishedAt": "2026-05-19T18:58:23Z",
-      "summary": "Dr. Hal Puthoff, an 89‑year‑old physicist with a long history of work for the CIA and the Pentagon, said on the “Diary of a CEO” podcast that people involved in UFO crash‑retrieval operations have told him the United States has recovered biological remains from at least four distinct species of non‑human beings. Puthoff described the information as coming directly from credible insiders he trusts, rather than speculation. He has previously suggested that advanced technologies of non‑human origin may already be in classified military programs. Puthoff’s claim extends beyond recovered craft to the biology of the recovered entities. The article notes that his background—research on remote viewing, Stargate, and the Advanced Aerospace Weapon System Applications Program—gives him access to senior intelligence officials, aerospace insiders, and military personnel.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 60,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "ALIEN, PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "ALIEN",
-        "PENTAGON"
-      ],
-      "sourceQuality": 60,
-      "displayedAt": "2026-05-19T18:58:23Z",
-      "sourceDisplayedAt": "2026-05-23T23:03:50Z",
-      "sourceIsNew": true,
-      "translation": {
-        "en": {
-          "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-          "summary": "Dr. Hal Puthoff, an 89‑year‑old physicist with a long history of work for the CIA and the Pentagon, said on the “Diary of a CEO” podcast that people involved in UFO crash‑retrieval operations have told him the United States has recovered biological remains from at least four distinct species of non‑human beings. Puthoff described the information as coming directly from credible insiders he trusts, rather than speculation.",
-          "sourceHash": "c5414434f41e78cd88342248adb3be6de757d8c9",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
-          "summary": "Dr. Hal Puthoff, ein 89-jähriger Physiker mit langjähriger Arbeit für die CIA und das Pentagon, sagte im Podcast „Diary of a CEO“, dass Personen, die an UFO-Absturzbergungsoperationen beteiligt waren, ihm erzählt hätten, dass die Vereinigten Staaten biologische Überreste von mindestens vier verschiedenen Arten nichtmenschlicher Lebewesen geborgen hätten. Puthoff beschrieb die Informationen als direkt von glaubwürdigen Insidern stammend, denen er vertraut, und nicht als Spekulation.",
-          "sourceHash": "c5414434f41e78cd88342248adb3be6de757d8c9",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "sighting-us-recovered-4-alien-species-from-crashed-ufos-an-89-year-old-former-cia-funded-government-researcher-claims",
-      "title": "US Recovered 4 Alien Species From Crashed UFOs: An 89-year-Old Former CIA-Funded Government Researcher Claims",
-      "source": "International Business Times UK",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQnpyR0xMZVNDWkdQcHNtQlVyNTRYTGhwZlpnNExrazItY1ljX0V1cmtqcmtYMF9NQkdfWGpxamI0REdHLUhtWmRMSC1HX2JCVVpHMlpkX2lxRWxGVnZnQ21LekdVcHMzclZBUk54NUd4eXA5MWVlT3FWQ0taU0syU2xPOTlEeEZBRVprTVQzVW8yV1JrNHo5ZlNR?oc=5",
       "date": "2026-05-16",
-      "publishedAt": "2026-05-16T19:07:18Z",
+      "publishedAt": "2026-05-23T07:00:00Z",
       "summary": "Dr Hal Puthoff, an 89‑year‑old physicist who worked on CIA‑funded projects, said the United States secretly recovered four alien species from crashed UFOs over several decades. He listed the species as Grays, Nordics, Reptilians and Insectoids, noting that he had not seen them himself but relied on information from people with direct knowledge. Puthoff’s remarks echo former intelligence official David Grusch’s 2023 testimony that the U.S. had retrieved a non‑human craft and biologics, a claim that has sparked congressional debate. The Pentagon and the All‑Domain Anomaly Resolution Office have repeatedly denied possessing alien technology or remains, and a 2024 review found no verified evidence of such recoveries. No physical evidence has been released, and online reactions range from enthusiasm for disclosure to skepticism about the plausibility of repeated alien crashes.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 63,
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "Pentagon releases Lake Huron UAP shootdown video, likely balloon",
+          "source": "MSN",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQLVJIbVFiRThiSTZQS1c0b29mcWpQMUl1VlNaZnBxTG1UYVRMMk9uTEdNZGhXWG1kLWJoT3lNZEVnMG9JSXNnOEFwTm13djhsUDJiNE1jVkYxWHY3cE92NTlTY2JuaTkyb1FRaVlIT3A3Nm1DN1I4YnUwRl9xRWdYN1Z5bE4taHlSQVJMNGM3TFlHVTBNdnQwaWFjX2loVVpDNUhQNGFsT2RNd05zbUVGQ1ItRGZDcVZKUzRSeFliUFNPU0lOc1lXZFQzMGoyaGoxZk5PSWUzVi1KZmpCNkxrblF0bjZza3I3TVE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQLVJIbVFiRThiSTZQS1c0b29mcWpQMUl1VlNaZnBxTG1UYVRMMk9uTEdNZGhXWG1kLWJoT3lNZEVnMG9JSXNnOEFwTm13djhsUDJiNE1jVkYxWHY3cE92NTlTY2JuaTkyb1FRaVlIT3A3Nm1DN1I4YnUwRl9xRWdYN1Z5bE4taHlSQVJMNGM3TFlHVTBNdnQwaWFjX2loVVpDNUhQNGFsT2RNd05zbUVGQ1ItRGZDcVZKUzRSeFliUFNPU0lOc1lXZFQzMGoyaGoxZk5PSWUzVi1KZmpCNkxrblF0bjZza3I3TVE?oc=5",
+          "publishedAt": "2026-05-24T20:13:14Z",
+          "displayedAt": "2026-05-25T07:01:42Z",
+          "isNew": true
+        }
+      ],
+      "clusterTitles": [
+        "Pentagon releases Lake Huron UAP shootdown video, likely balloon"
+      ],
+      "quality": 68,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -106,6 +50,11 @@
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -114,21 +63,20 @@
         "CIA",
         "GOVERNMENT"
       ],
-      "sourceQuality": 63,
-      "displayedAt": "2026-05-16T19:07:18Z",
-      "sourceDisplayedAt": "2026-05-24T06:20:38Z",
-      "sourceIsNew": true,
+      "sourceQuality": 68,
+      "displayedAt": "2026-05-25T07:01:42Z",
+      "sourceDisplayedAt": "2026-05-23T23:03:50Z",
       "translation": {
         "en": {
-          "title": "US Recovered 4 Alien Species From Crashed UFOs: An 89-year-Old Former CIA-Funded Government Researcher Claims",
+          "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
           "summary": "Dr Hal Puthoff, an 89‑year‑old physicist who worked on CIA‑funded projects, said the United States secretly recovered four alien species from crashed UFOs over several decades. He listed the species as Grays, Nordics, Reptilians and Insectoids, noting that he had not seen them himself but relied on information from people with direct knowledge. Puthoff’s remarks echo former intelligence official David Grusch’s 2023 testimony that the U.S. had retrieved a non‑human craft and biologics, a claim that has sparked congressional debate.",
-          "sourceHash": "afb411540d0349599907520174f7bafaf8bfc46c",
+          "sourceHash": "817889dc9fd0e8831fcedd83fe0477466b15b683",
           "provider": "original"
         },
         "de": {
-          "title": "Die USA haben vier außerirdische Arten aus abgestürzten UFOs geborgen: Das behauptet ein 89-jähriger ehemaliger, von der CIA finanzierter Regierungsforscher",
+          "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
           "summary": "Dr. Hal Puthoff, ein 89-jähriger Physiker, der an von der CIA finanzierten Projekten arbeitete, sagte, die Vereinigten Staaten hätten über mehrere Jahrzehnte hinweg heimlich vier außerirdische Arten aus abgestürzten UFOs geborgen. Er listete die Arten als Graue, Nordische, Reptilien und Insektoide auf und bemerkte, dass er sie selbst nicht gesehen hatte, sondern sich auf Informationen von Menschen mit direktem Wissen verließ. Puthoffs Äußerungen spiegeln die Aussage des ehemaligen Geheimdienstmitarbeiters David Grusch aus dem Jahr 2023 wider, dass die USA ein nichtmenschliches Raumschiff und Biologika beschlagnahmt hätten, eine Behauptung, die eine Debatte im Kongress ausgelöst hat.",
-          "sourceHash": "afb411540d0349599907520174f7bafaf8bfc46c",
+          "sourceHash": "817889dc9fd0e8831fcedd83fe0477466b15b683",
           "provider": "google"
         }
       }
@@ -267,12 +215,12 @@
       }
     },
     {
-      "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-      "source": "U.S. Department of War (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
+      "id": "what-does-the-second-batch-of-ufo-files-tell-us",
+      "title": "What does the second batch of UFO files tell us?",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
       "date": "2026-05-13",
-      "publishedAt": "2026-05-22T12:07:07Z",
+      "publishedAt": "2026-05-22T17:46:02Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
       "mentions": 20,
       "otherSources": [
@@ -282,8 +230,7 @@
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1HZllzVVlvYXVvZmtNdjE5elBVUVpLal9idThid2NRZnNLMEMxVVdzNjYzVktTczEtaUhHRURYTktPUThZZUY4Y0IwSWEwNlc1Q3QwODQ5bWpyZ2s40gFiQVVfeXFMTXFUbV9acmtzdTY1S1hCcWtZWnpyLTVSZ1BKZmtoUVdYZERvODJqN1Z3WXZZR1BFVGFEU0ozeEw0X1F3YnlRSF8tWF8yUFJid04xVVI5UVJLZVgxZDRvdDFLMXc?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1HZllzVVlvYXVvZmtNdjE5elBVUVpLal9idThid2NRZnNLMEMxVVdzNjYzVktTczEtaUhHRURYTktPUThZZUY4Y0IwSWEwNlc1Q3QwODQ5bWpyZ2s40gFiQVVfeXFMTXFUbV9acmtzdTY1S1hCcWtZWnpyLTVSZ1BKZmtoUVdYZERvODJqN1Z3WXZZR1BFVGFEU0ozeEw0X1F3YnlRSF8tWF8yUFJid04xVVI5UVJLZVgxZDRvdDFLMXc?oc=5",
           "publishedAt": "2026-05-23T15:32:22Z",
-          "displayedAt": "2026-05-23T22:33:01Z",
-          "isNew": true
+          "displayedAt": "2026-05-23T15:32:22Z"
         },
         {
           "title": "Pentagon releases new batch of UFO files",
@@ -291,26 +238,15 @@
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
           "publishedAt": "2026-05-22T22:02:53Z",
-          "displayedAt": "2026-05-23T19:42:00Z",
-          "isNew": true
-        },
-        {
-          "title": "Pentagon Releases Second Batch of UFO, UAP Files",
-          "source": "mb.ntd.com",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcmRRekJIS3BZZXUyUDNDbko5VVNKTFUwb1hyTi1CVzVGa3hhR1Jrcnh3RGZrSmpNQk5vN0tDY2FNcUkwR1JLaG4wN05CMGdQUUJvYzY5MFU3dkloT2c5WmVrNmw2czlQZ3NjOXA0a1VkYkZUTGJ6alVXR0xQTmJhcmx5RndJQQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcmRRekJIS3BZZXUyUDNDbko5VVNKTFUwb1hyTi1CVzVGa3hhR1Jrcnh3RGZrSmpNQk5vN0tDY2FNcUkwR1JLaG4wN05CMGdQUUJvYzY5MFU3dkloT2c5WmVrNmw2czlQZ3NjOXA0a1VkYkZUTGJ6alVXR0xQTmJhcmx5RndJQQ?oc=5",
-          "publishedAt": "2026-05-22T19:30:31Z",
-          "displayedAt": "2026-05-23T22:33:01Z",
-          "isNew": true
+          "displayedAt": "2026-05-22T22:02:53Z"
         },
         {
           "title": "New videos from Pentagon’s second batch of UFO files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
+          "source": "NewsNation",
           "publishedAt": "2026-05-22T17:34:00Z",
-          "displayedAt": "2026-05-23T22:33:01Z",
-          "isNew": true
+          "displayedAt": "2026-05-22T17:34:00Z"
         },
         {
           "title": "Pentagon releases new batch of declassified UFO files",
@@ -318,43 +254,40 @@
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
           "publishedAt": "2026-05-22T15:16:21Z",
-          "displayedAt": "2026-05-23T22:33:01Z",
+          "displayedAt": "2026-05-22T15:16:21Z"
+        },
+        {
+          "title": "Watch Department of War relases new UFO files - LiveNow",
+          "source": "FOX One",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObmxKZnJsdGppU21xODg0NkpfY0drbGhrY1NJMWdSNEdEUTZCb1gzSXZrNVNnR29xVTNxT0xldDdfenFIVUNSazlVV00tVkdjTHUwS3F5RXBuNWQ2M1ZjZDFiVFRPVmphX3gzQ3pNdk1Ea1M2UWpSSXdEVE9rNFpLU25YVWc4T09weU1FbmstTU9xcmJISUE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObmxKZnJsdGppU21xODg0NkpfY0drbGhrY1NJMWdSNEdEUTZCb1gzSXZrNVNnR29xVTNxT0xldDdfenFIVUNSazlVV00tVkdjTHUwS3F5RXBuNWQ2M1ZjZDFiVFRPVmphX3gzQ3pNdk1Ea1M2UWpSSXdEVE9rNFpLU25YVWc4T09weU1FbmstTU9xcmJISUE?oc=5",
+          "publishedAt": "2026-05-22T13:10:07Z",
+          "displayedAt": "2026-05-25T07:01:42Z",
           "isNew": true
         },
         {
-          "title": "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
-          "source": "LiveNOW from FOX",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xVnhTemNheUdDeXB6aFJ0dFh5V3JWTjdINjFHb2JLTVliMy1XcHJYYUI2OVdMdHd6NjJkM05IMkV2YldILVhIVXE1aDZfZHZuMmhRbW1uandXbE5SQ2QtLU1CQdIBaEFVX3lxTE55VDNNRTdfV2dKQklCZUNoZ1FwM1hwVTZSLWxrSndVVlJJdm44Ukgxc0ZOc3BHbGxHdDh0YmFaVzFNZkw4NUEzWEEzd0FULUVGcWRyRmR3cndBaWo4RjE0WjYxdm9qS3FS?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xVnhTemNheUdDeXB6aFJ0dFh5V3JWTjdINjFHb2JLTVliMy1XcHJYYUI2OVdMdHd6NjJkM05IMkV2YldILVhIVXE1aDZfZHZuMmhRbW1uandXbE5SQ2QtLU1CQdIBaEFVX3lxTE55VDNNRTdfV2dKQklCZUNoZ1FwM1hwVTZSLWxrSndVVlJJdm44Ukgxc0ZOc3BHbGxHdDh0YmFaVzFNZkw4NUEzWEEzd0FULUVGcWRyRmR3cndBaWo4RjE0WjYxdm9qS3FS?oc=5",
-          "publishedAt": "2026-05-22T15:00:23Z",
-          "displayedAt": "2026-05-23T22:33:01Z",
-          "isNew": true
+          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+          "source": "U.S. Department of War (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
+          "publishedAt": "2026-05-22T12:07:07Z",
+          "displayedAt": "2026-05-22T12:07:07Z"
         },
         {
-          "title": "Department of War relases new UFO files",
-          "source": "LiveNOW from FOX",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WeTJaLTJsc2VTdEFMWlJOb0txZVVuaXhWby1IZ2lRTFV5bkxWNS1YWjF2Mks3OWg2anp5XzgtTUNpbldNXzAwLWdpSXFCM085SzBVNWNzSjdCTy04dmhEaXJjUWZmVGty0gFoQVVfeXFMT1Z5MlotMmxzZVN0QUxaUk5vS3FlVW5peFZvLUhnaVFMVXluTFY1LVhaMXYySzc5aDZqenlfOC1NQ2luV01fMDAtZ2lJcUIzTzlLMFU1Y3NKN0JPLTh2aERpcmNRZmZUa3I?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WeTJaLTJsc2VTdEFMWlJOb0txZVVuaXhWby1IZ2lRTFV5bkxWNS1YWjF2Mks3OWg2anp5XzgtTUNpbldNXzAwLWdpSXFCM085SzBVNWNzSjdCTy04dmhEaXJjUWZmVGty0gFoQVVfeXFMT1Z5MlotMmxzZVN0QUxaUk5vS3FlVW5peFZvLUhnaVFMVXluTFY1LVhaMXYySzc5aDZqenlfOC1NQ2luV01fMDAtZ2lJcUIzTzlLMFU1Y3NKN0JPLTh2aERpcmNRZmZUa3I?oc=5",
-          "publishedAt": "2026-05-22T13:10:06Z",
-          "displayedAt": "2026-05-23T22:33:01Z",
-          "isNew": true
-        },
-        {
-          "title": "What does the second batch of UFO files tell us?",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "publishedAt": "2026-05-22T17:46:02Z",
-          "displayedAt": "2026-05-23T22:33:01Z",
-          "isNew": true
+          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+          "source": "U.S. Department of War (.gov)",
+          "link": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
+          "publishedAt": "2026-05-22T00:00:00Z",
+          "displayedAt": "2026-05-22T00:00:00Z"
         },
         {
           "title": "Your Morning: New UFO files released",
           "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWlRvRFdJTXU1UWdNTTQ5ZUJZV2U2ZkgyN3NPLWREamFjNENwakthZzZXYVNtcUxJa2hlc2Rqa3IwN2ZFVm05eXRwLU5BcVJXUlpDWHozU1NGYTRzQnlHY3drd1ZZMHZ3c0NjdnVHNTliNEgtMnVNbVlsblhHVXVBNUU3Z1BLOXV3c1FxNkU5UVNhWERSWEp4bXFPU1Jlczk0a1duM1hfQ05yWGdCaW1ncDU1NEZzVDhDNnB6dlV1QWt3WUxlNzFKa1hmRE4yTXRLQmFmY2h6Y1VHdEVmSktacnZKeThNUdIBbkFVX3lxTFBfUlpjazF6SXhQM2JSekQ4VFplRVd3dUFnWElnUVF3TFFHZ1hqN0RYVmJBMjFLNS1fSlB5ZFI1UGlXUS02TFFfNnYwRVUyS3NLdVJkN3JpX0V6QWJfZHRzQ2NYeElORlZPdkRWOW1B?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWlRvRFdJTXU1UWdNTTQ5ZUJZV2U2ZkgyN3NPLWREamFjNENwakthZzZXYVNtcUxJa2hlc2Rqa3IwN2ZFVm05eXRwLU5BcVJXUlpDWHozU1NGYTRzQnlHY3drd1ZZMHZ3c0NjdnVHNTliNEgtMnVNbVlsblhHVXVBNUU3Z1BLOXV3c1FxNkU5UVNhWERSWEp4bXFPU1Jlczk0a1duM1hfQ05yWGdCaW1ncDU1NEZzVDhDNnB6dlV1QWt3WUxlNzFKa1hmRE4yTXRLQmFmY2h6Y1VHdEVmSktacnZKeThNUdIBbkFVX3lxTFBfUlpjazF6SXhQM2JSekQ4VFplRVd3dUFnWElnUVF3TFFHZ1hqN0RYVmJBMjFLNS1fSlB5ZFI1UGlXUS02TFFfNnYwRVUyS3NLdVJkN3JpX0V6QWJfZHRzQ2NYeElORlZPdkRWOW1B?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9IWDFoTzhDbURfWkp1WEw5QzBSODlCOTZhSllnRnJYSWFvMUVnOUlTTE8ybHlsOTVpWWo4Unp4WHJxU09GSExqWDRFV2FNU1AtM043QW1SWUFHeHhoWUU1NjdPQVNIcUlk0gFuQVVfeXFMUF9SWmNrMXpJeFAzYlJ6RDhUWmVFV3d1QWdYSWdRUXdMUUdnWGo3RFhWYkEyMUs1LV9KUHlkUjVQaVdRLTZMUV82djBFVTJLc0t1UmQ3cmlfRXpBYl9kdHNDY1h4SU5GVk92RFY5bUE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9IWDFoTzhDbURfWkp1WEw5QzBSODlCOTZhSllnRnJYSWFvMUVnOUlTTE8ybHlsOTVpWWo4Unp4WHJxU09GSExqWDRFV2FNU1AtM043QW1SWUFHeHhoWUU1NjdPQVNIcUlk0gFuQVVfeXFMUF9SWmNrMXpJeFAzYlJ6RDhUWmVFV3d1QWdYSWdRUXdMUUdnWGo3RFhWYkEyMUs1LV9KUHlkUjVQaVdRLTZMUV82djBFVTJLc0t1UmQ3cmlfRXpBYl9kdHNDY1h4SU5GVk92RFY5bUE?oc=5",
           "publishedAt": "2026-05-22T12:47:50Z",
-          "displayedAt": "2026-05-23T22:33:01Z",
+          "displayedAt": "2026-05-25T07:01:42Z",
           "isNew": true
         },
         {
@@ -363,35 +296,15 @@
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "publishedAt": "2026-05-22T12:45:24Z",
-          "displayedAt": "2026-05-23T22:33:01Z",
-          "isNew": true
-        },
-        {
-          "title": "Your Morning: New UFO files released",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfUlpjazF6SXhQM2JSekQ4VFplRVd3dUFnWElnUVF3TFFHZ1hqN0RYVmJBMjFLNS1fSlB5ZFI1UGlXUS02TFFfNnYwRVUyS3NLdVJkN3JpX0V6QWJfZHRzQ2NYeElORlZPdkRWOW1B0gFuQVVfeXFMUF9SWmNrMXpJeFAzYlJ6RDhUWmVFV3d1QWdYSWdRUXdMUUdnWGo3RFhWYkEyMUs1LV9KUHlkUjVQaVdRLTZMUV82djBFVTJLc0t1UmQ3cmlfRXpBYl9kdHNDY1h4SU5GVk92RFY5bUE?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfUlpjazF6SXhQM2JSekQ4VFplRVd3dUFnWElnUVF3TFFHZ1hqN0RYVmJBMjFLNS1fSlB5ZFI1UGlXUS02TFFfNnYwRVUyS3NLdVJkN3JpX0V6QWJfZHRzQ2NYeElORlZPdkRWOW1B0gFuQVVfeXFMUF9SWmNrMXpJeFAzYlJ6RDhUWmVFV3d1QWdYSWdRUXdMUUdnWGo3RFhWYkEyMUs1LV9KUHlkUjVQaVdRLTZMUV82djBFVTJLc0t1UmQ3cmlfRXpBYl9kdHNDY1h4SU5GVk92RFY5bUE?oc=5",
-          "publishedAt": "2026-05-22T07:44:11Z",
-          "displayedAt": "2026-05-24T06:13:58Z",
-          "isNew": true
+          "displayedAt": "2026-05-22T12:45:24Z"
         },
         {
           "title": "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
           "source": "Fox News",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
           "publishedAt": "2026-05-19T16:30:23Z",
-          "displayedAt": "2026-05-23T22:33:01Z",
-          "isNew": true
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPYkVrY0VGRUp3cmE5Qm5TR21xQjY5Z2txOTZZczRIelZWM1ExQUJidTB1OWsxSmFSaWtMTm5xZkJJaDBfSEl2blBsYm53Sk9GM283WHlTek5QVGcwNmZ2TFk0SEZOcWVjQzhxYnZJQjhxS2dGUkU1NjBCTS13R3M5bWp4TG9LRUJhR2gzX1hfZkZJdVFlWDI0TW9lZ2pBNEo4RXFyUFh4aWxNdF9DTTc5WVVmbW50RGVFTlNHY19rZU5YZWdMSk5TQms5TzR5QWVkekotQ3NHYldWU1dQTi1JRWxUUFFMNjZnZGJ0bXpxOVBZQl93VDVmQTVDZWRPWFFZN1FIU3p1ckp3R21DZWFLRnlXWUR1Nms4MVNZeE4wU18tamk2b1o2TlhSUUlzTDEyTmZoU1EwNF9IbUtVYldB?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPYkVrY0VGRUp3cmE5Qm5TR21xQjY5Z2txOTZZczRIelZWM1ExQUJidTB1OWsxSmFSaWtMTm5xZkJJaDBfSEl2blBsYm53Sk9GM283WHlTek5QVGcwNmZ2TFk0SEZOcWVjQzhxYnZJQjhxS2dGUkU1NjBCTS13R3M5bWp4TG9LRUJhR2gzX1hfZkZJdVFlWDI0TW9lZ2pBNEo4RXFyUFh4aWxNdF9DTTc5WVVmbW50RGVFTlNHY19rZU5YZWdMSk5TQms5TzR5QWVkekotQ3NHYldWU1dQTi1JRWxUUFFMNjZnZGJ0bXpxOVBZQl93VDVmQTVDZWRPWFFZN1FIU3p1ckp3R21DZWFLRnlXWUR1Nms4MVNZeE4wU18tamk2b1o2TlhSUUlzTDEyTmZoU1EwNF9IbUtVYldB?oc=5",
-          "publishedAt": "2026-05-24T06:22:30Z",
-          "displayedAt": "2026-05-24T11:59:56Z",
-          "isNew": true
+          "displayedAt": "2026-05-19T16:30:23Z"
         },
         {
           "title": "Pentagon releases new batch of UFO files: ‘Green orbs, discs and fireballs’",
@@ -399,8 +312,7 @@
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pRmcwMUpGR1JKQ3pmY09qT3FPOXZZNmFvNjFvdTR0RVl2bWF3OW1kUlRVLWVhdFpwTnBEdGlEYk8xN1NXMzFzcDRIY1BRdzc0eVpNV1NJV1N6Ym5MdFd6alJfS2hKM1l1QjlWbUR4MTc?oc=5",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pRmcwMUpGR1JKQ3pmY09qT3FPOXZZNmFvNjFvdTR0RVl2bWF3OW1kUlRVLWVhdFpwTnBEdGlEYk8xN1NXMzFzcDRIY1BRdzc0eVpNV1NJV1N6Ym5MdFd6alJfS2hKM1l1QjlWbUR4MTc?oc=5",
           "publishedAt": "2026-05-23T20:37:17Z",
-          "displayedAt": "2026-05-23T22:33:01Z",
-          "isNew": true
+          "displayedAt": "2026-05-23T20:37:17Z"
         },
         {
           "title": "Pentagon releases new batch of UFO files",
@@ -417,16 +329,15 @@
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNnBLS2RNRHlZWEs1OHRidk9VUWFfdDEzajZpNlFsejBlcFI5bDNiT2Ytcl9tREZidzI5bUdlaW5RU2ZmdGFwZlo3ZV9IalI4MDFYSnVIQVA1U3IzMlU4V0hEc2NjVE81YjI2OGZVNzV2V0hzTlFta0FIcVNfanhCc0ZFYi1yUlhPNC1VLXZfZWE5TDNWcmfSAZ4BQVVfeXFMUG5GaGJYU1ZFbWhwR2tLZnZIamlrTFV1UE82djdSRkpjWVdIek9jOXJERUwtblNpMlkzd2VQSzdFclNZUDdRUVhfY1RpTGxzWW9tUmxiNXZKMk94WGFBMTliRjlILXpJWnFwSDJBWW5YTXFmcDg0RXZ4SnV2YXpiS2JQQVBaeWx5cDRZZGM0TFMySlA1ZHRzMDhQRUdzZXc?oc=5",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNnBLS2RNRHlZWEs1OHRidk9VUWFfdDEzajZpNlFsejBlcFI5bDNiT2Ytcl9tREZidzI5bUdlaW5RU2ZmdGFwZlo3ZV9IalI4MDFYSnVIQVA1U3IzMlU4V0hEc2NjVE81YjI2OGZVNzV2V0hzTlFta0FIcVNfanhCc0ZFYi1yUlhPNC1VLXZfZWE5TDNWcmfSAZ4BQVVfeXFMUG5GaGJYU1ZFbWhwR2tLZnZIamlrTFV1UE82djdSRkpjWVdIek9jOXJERUwtblNpMlkzd2VQSzdFclNZUDdRUVhfY1RpTGxzWW9tUmxiNXZKMk94WGFBMTliRjlILXpJWnFwSDJBWW5YTXFmcDg0RXZ4SnV2YXpiS2JQQVBaeWx5cDRZZGM0TFMySlA1ZHRzMDhQRUdzZXc?oc=5",
           "publishedAt": "2026-05-23T17:57:41Z",
-          "displayedAt": "2026-05-23T22:33:01Z",
-          "isNew": true
+          "displayedAt": "2026-05-23T17:57:41Z"
         },
         {
           "title": "Pentagon Releases New UFO Files Describing 'Countless Orange Orbs Swarming' in US",
-          "source": "International Business Times UK",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWXQxTFpPWTQ0SjRuR1o2a0JOUUZOVEprZDBvTzBkWGY2eTMtVmZtS2FhY0lTNWdhdExKU0twZGNPZUpJTjFwOFAzckpxQ25zQUpLa2l3UUg4Z3hOSWxWY0E5RzAzSjdrTWlpN1Jla2Z2djRFcjVqdHJIenZQVE50UWtVOWRLaGNzdVZIemVtRzFpeEJodjB5VU1aRW43QUdEWlUwb0RMSGQ5bktIS2w4?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWXQxTFpPWTQ0SjRuR1o2a0JOUUZOVEprZDBvTzBkWGY2eTMtVmZtS2FhY0lTNWdhdExKU0twZGNPZUpJTjFwOFAzckpxQ25zQUpLa2l3UUg4Z3hOSWxWY0E5RzAzSjdrTWlpN1Jla2Z2djRFcjVqdHJIenZQVE50UWtVOWRLaGNzdVZIemVtRzFpeEJodjB5VU1aRW43QUdEWlUwb0RMSGQ5bktIS2w4?oc=5",
+          "source": "inkl",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaVloVHlkYzU5bTJ2dDQ5cnpCcDVRTzBqQjQydjJYWFlRLXZudFBIWGljX2x2dEp0RTczSXhJOHlUUWtIekVzc2xnY0VjbXpxNTBzeURudm0zdDJvbjBjeWIwYmdfNVlBZ3ZkS0txbHh2Qk93ZHY5M2E3VzNZUm9LOVplSWk2N1lUdnZpN2xweG9xS2ZhUmd1STFkMHV6WkhzZGxwZWtKc0o?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaVloVHlkYzU5bTJ2dDQ5cnpCcDVRTzBqQjQydjJYWFlRLXZudFBIWGljX2x2dEp0RTczSXhJOHlUUWtIekVzc2xnY0VjbXpxNTBzeURudm0zdDJvbjBjeWIwYmdfNVlBZ3ZkS0txbHh2Qk93ZHY5M2E3VzNZUm9LOVplSWk2N1lUdnZpN2xweG9xS2ZhUmd1STFkMHV6WkhzZGxwZWtKc0o?oc=5",
           "publishedAt": "2026-05-23T17:45:18Z",
-          "displayedAt": "2026-05-23T22:33:01Z",
+          "displayedAt": "2026-05-25T07:01:42Z",
           "isNew": true
         },
         {
@@ -439,26 +350,52 @@
           "isNew": true
         },
         {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+          "title": "“We were speechless.” Pentagon releases new batch of UFO files",
+          "source": "lnginnorthernbc.ca",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLWgwa1hvU05Ddm4wWTFDYmVuak9HeE94aXhKOUJ5NVJXMi15dFRTREJDUDd3d29PZmhYZ2xWWGVTSFBtbHhFX0sxckxKTmVLZklrZVl0Mlh1a2pZdnVOTkh4cDlhSjBoeVJhNlc0cm1EdEhyWEtvMzhYekVtMDRhNVpzdUlGakVIUFNlQU42Nl92ZWtSNFVPZm8zQVpkU0U?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLWgwa1hvU05Ddm4wWTFDYmVuak9HeE94aXhKOUJ5NVJXMi15dFRTREJDUDd3d29PZmhYZ2xWWGVTSFBtbHhFX0sxckxKTmVLZklrZVl0Mlh1a2pZdnVOTkh4cDlhSjBoeVJhNlc0cm1EdEhyWEtvMzhYekVtMDRhNVpzdUlGakVIUFNlQU42Nl92ZWtSNFVPZm8zQVpkU0U?oc=5",
+          "publishedAt": "2026-05-23T12:37:44Z",
+          "displayedAt": "2026-05-25T07:01:42Z",
+          "isNew": true
+        },
+        {
+          "title": "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
           "source": "U.S. Department of War (.gov)",
-          "link": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-          "publishedAt": "2026-05-22T00:00:00Z",
-          "displayedAt": "2026-05-23T22:57:51Z",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOMi1WMzZYemRoZ0pUbDlWRWhfZDlxMlBITFlzaGFrNnNaMkU3bG1ZNzJyVWdyb2swdkJ2Y0hRUmdwZTY2TnNUYW9yd2NmQXhhWXNwNw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOMi1WMzZYemRoZ0pUbDlWRWhfZDlxMlBITFlzaGFrNnNaMkU3bG1ZNzJyVWdyb2swdkJ2Y0hRUmdwZTY2TnNUYW9yd2NmQXhhWXNwNw?oc=5",
+          "publishedAt": "2026-05-22T17:00:14Z",
+          "displayedAt": "2026-05-25T07:01:42Z",
+          "isNew": true
+        },
+        {
+          "title": "Department of War relases new UFO files",
+          "source": "LiveNOW from FOX",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WeTJaLTJsc2VTdEFMWlJOb0txZVVuaXhWby1IZ2lRTFV5bkxWNS1YWjF2Mks3OWg2anp5XzgtTUNpbldNXzAwLWdpSXFCM085SzBVNWNzSjdCTy04dmhEaXJjUWZmVGty0gFoQVVfeXFMT1Z5MlotMmxzZVN0QUxaUk5vS3FlVW5peFZvLUhnaVFMVXluTFY1LVhaMXYySzc5aDZqenlfOC1NQ2luV01fMDAtZ2lJcUIzTzlLMFU1Y3NKN0JPLTh2aERpcmNRZmZUa3I?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WeTJaLTJsc2VTdEFMWlJOb0txZVVuaXhWby1IZ2lRTFV5bkxWNS1YWjF2Mks3OWg2anp5XzgtTUNpbldNXzAwLWdpSXFCM085SzBVNWNzSjdCTy04dmhEaXJjUWZmVGty0gFoQVVfeXFMT1Z5MlotMmxzZVN0QUxaUk5vS3FlVW5peFZvLUhnaVFMVXluTFY1LVhaMXYySzc5aDZqenlfOC1NQ2luV01fMDAtZ2lJcUIzTzlLMFU1Y3NKN0JPLTh2aERpcmNRZmZUa3I?oc=5",
+          "publishedAt": "2026-05-22T13:10:06Z",
+          "displayedAt": "2026-05-22T13:10:06Z"
+        },
+        {
+          "title": "Pentagon releases second batch of declassified UFO files with 51 videos, spanning 80 years",
+          "source": "artthreat.net",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZlRFT3NCNk9ibjBQc2luSlJTeHF1Qm9pVzkwX01rdWVvNmwxZm1jVURoenZQNFNFSEp4STBBSTNycnVuNjJ6bW1hdlRPaURtY01hem9laExZZV9ramVOQmd6Vnp1RzB1bjdGMjBrTUN0SWNiYWNTRG5uYnA3LUh3c1BfQlE4SEJIOEdLdlhQUEJsVTNYdU9PQS1NZE1RSkd3VVpjX0w3R1pGY3NqUGNmZE9fRGY2QQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZlRFT3NCNk9ibjBQc2luSlJTeHF1Qm9pVzkwX01rdWVvNmwxZm1jVURoenZQNFNFSEp4STBBSTNycnVuNjJ6bW1hdlRPaURtY01hem9laExZZV9ramVOQmd6Vnp1RzB1bjdGMjBrTUN0SWNiYWNTRG5uYnA3LUh3c1BfQlE4SEJIOEdLdlhQUEJsVTNYdU9PQS1NZE1RSkd3VVpjX0w3R1pGY3NqUGNmZE9fRGY2QQ?oc=5",
+          "publishedAt": "2026-05-23T09:30:52Z",
+          "displayedAt": "2026-05-25T07:01:42Z",
           "isNew": true
         }
       ],
       "clusterTitles": [
         "Pentagon releases new batch of UFO files",
         "Pentagon releases new batch of UFO files",
-        "Pentagon Releases Second Batch of UFO, UAP Files",
         "New videos from Pentagon’s second batch of UFO files",
         "Pentagon releases new batch of declassified UFO files",
-        "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
-        "Department of War relases new UFO files",
-        "What does the second batch of UFO files tell us?",
+        "Watch Department of War relases new UFO files - LiveNow",
+        "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+        "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "Your Morning: New UFO files released",
-        "US releases second batch of government declassified UFO files"
+        "US releases second batch of government declassified UFO files",
+        "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment"
       ],
       "quality": 84,
       "qualityBreakdown": [
@@ -480,61 +417,111 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "files",
-        "released"
+        "files"
       ],
       "sourceQuality": 84,
-      "displayedAt": "2026-05-24T11:59:56Z",
+      "displayedAt": "2026-05-25T07:01:42Z",
       "sourceDisplayedAt": "2026-05-23T22:33:01Z",
-      "sourceIsNew": true,
       "translation": {
         "en": {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+          "title": "What does the second batch of UFO files tell us?",
           "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+          "sourceHash": "4bcc963b43fea52ec7d91966a0fb5abf91312e28",
           "provider": "original"
         },
         "de": {
-          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+          "title": "Was sagt uns der zweite Stapel UFO-Dateien?",
           "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+          "sourceHash": "4bcc963b43fea52ec7d91966a0fb5abf91312e28",
           "provider": "google"
         }
       }
+    },
+    {
+      "id": "coulthart-says-trump-knows-the-ufo-truth-but-reddit-isn-t-so-sure",
+      "title": "Coulthart says Trump knows the UFO truth, but Reddit isn’t so sure",
+      "source": "Cybernews",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GYkkxdUR4VXJkQ0lydlZrU01hQncxSE4xeTZxam5iazE1ejJzd24tYzVBb19nYUxNcEZ0RC1oMXF2S1Z0bTZHVVZRZkZOWEtSZS1wUDBzYUV2b2xWaXlrVHFHVXZMdzZxMjdoM1E5Zw?oc=5",
+      "date": "2026-05-18",
+      "publishedAt": "2026-05-18T13:31:15Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "TRUMP als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "TRUMP"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "sourceQuality": 45,
+      "displayedAt": "2026-05-25T07:01:42Z",
+      "sourceDisplayedAt": "2026-05-25T07:01:42Z",
+      "sourceIsNew": true
     }
   ],
   "summaries": {
-    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Dr. Hal Puthoff, an 89‑year‑old physicist with a long history of work for the CIA and the Pentagon, said on the “Diary of a CEO” podcast that people involved in UFO crash‑retrieval operations have told him the United States has recovered biological remains from at least four distinct species of non‑human beings. Puthoff described the information as coming directly from credible insiders he trusts, rather than speculation. He has previously suggested that advanced technologies of non‑human origin may already be in classified military programs. Puthoff’s claim extends beyond recovered craft to the biology of the recovered entities. The article notes that his background—research on remote viewing, Stargate, and the Advanced Aerospace Weapon System Applications Program—gives him access to senior intelligence officials, aerospace insiders, and military personnel.",
-    "sighting-us-recovered-4-alien-species-from-crashed-ufos-an-89-year-old-former-cia-funded-government-researcher-claims": "Dr Hal Puthoff, an 89‑year‑old physicist who worked on CIA‑funded projects, said the United States secretly recovered four alien species from crashed UFOs over several decades. He listed the species as Grays, Nordics, Reptilians and Insectoids, noting that he had not seen them himself but relied on information from people with direct knowledge. Puthoff’s remarks echo former intelligence official David Grusch’s 2023 testimony that the U.S. had retrieved a non‑human craft and biologics, a claim that has sparked congressional debate. The Pentagon and the All‑Domain Anomaly Resolution Office have repeatedly denied possessing alien technology or remains, and a 2024 review found no verified evidence of such recoveries. No physical evidence has been released, and online reactions range from enthusiasm for disclosure to skepticism about the plausibility of repeated alien crashes.",
+    "sighting-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Dr Hal Puthoff, an 89‑year‑old physicist who worked on CIA‑funded projects, said the United States secretly recovered four alien species from crashed UFOs over several decades. He listed the species as Grays, Nordics, Reptilians and Insectoids, noting that he had not seen them himself but relied on information from people with direct knowledge. Puthoff’s remarks echo former intelligence official David Grusch’s 2023 testimony that the U.S. had retrieved a non‑human craft and biologics, a claim that has sparked congressional debate. The Pentagon and the All‑Domain Anomaly Resolution Office have repeatedly denied possessing alien technology or remains, and a 2024 review found no verified evidence of such recoveries. No physical evidence has been released, and online reactions range from enthusiasm for disclosure to skepticism about the plausibility of repeated alien crashes.",
     "the-2026-alien-soft-launch-missing-scientists-aliens-gov-pentagon-secrets-y01qlmdfznb": "Página não encontrada – a página solicitada não existe no site Folha do ES. O site exibe um cabeçalho com o título “Página não encontrada” e oferece links para a página inicial, política de privacidade, colunas e redes sociais. O rodapé indica que os direitos autorais pertencem ao Folha do ES em 2026. No corpo da página não há mais informações além de navegação e avisos de copyright.",
     "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released. The FBI is investigating a series of missing and dead scientists linked to secret nuclear and UFO programs, including the disappearance of retired General William Neil McCasland. Other scientists, such as David Wilcock, have also died under suspicious circumstances, adding to the pattern of unexplained losses.",
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
+    "what-does-the-second-batch-of-ufo-files-tell-us": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-24T11:59:56Z",
+    "timestamp": "2026-05-25T07:01:42Z",
     "ids": [
-      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
+      "sighting-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
+      "what-does-the-second-batch-of-ufo-files-tell-us"
     ],
     "articles": [
       {
-        "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "source": "U.S. Department of War (.gov)"
+        "id": "sighting-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
+        "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
+        "source": "USA Herald"
+      },
+      {
+        "id": "what-does-the-second-batch-of-ufo-files-tell-us",
+        "title": "What does the second batch of UFO files tell us?",
+        "source": "NewsNation"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 345,
-    "broadTopics": 166,
+    "broadArticles": 346,
+    "broadTopics": 171,
     "notificationArticles": 1,
     "notificationTopics": 1,
-    "newNotificationTopics": 0,
-    "appTopics": 6,
+    "newNotificationTopics": 1,
+    "appTopics": 7,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 9,
+    "splitUnrelatedGroupedSources": 7,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
     "regroupedTopics": 8,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
@@ -544,15 +531,27 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v4_mark_source_grounded",
-      "attempts": 1,
+      "attempts": 3,
       "repaired": 0,
-      "missing": 1
+      "missing": 3
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
-      "kept": 10,
-      "missing": 1,
+      "kept": 9,
+      "missing": 3,
       "missingItems": [
+        {
+          "id": "coulthart-says-trump-knows-the-ufo-truth-but-reddit-isn-t-so-sure",
+          "title": "Coulthart says Trump knows the UFO truth, but Reddit isn’t so sure",
+          "source": "Cybernews",
+          "reason": "missing_article_content_summary_kept_visible"
+        },
+        {
+          "id": "what-does-the-second-batch-of-ufo-files-tell-us",
+          "title": "What does the second batch of UFO files tell us?",
+          "source": "NewsNation",
+          "reason": "missing_article_content_summary_kept_visible"
+        },
         {
           "id": "new-videos-from-pentagon-s-second-batch-of-ufo-files",
           "title": "New videos from Pentagon’s second batch of UFO files",
@@ -563,15 +562,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v11_trust_source_summaries",
-      "inputArticles": 10,
-      "outputArticles": 6,
+      "inputArticles": 9,
+      "outputArticles": 7,
       "preservedSourceSummaries": 5
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 6,
-      "outputArticles": 6,
-      "missingSummaries": 1,
+      "inputArticles": 7,
+      "outputArticles": 7,
+      "missingSummaries": 2,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -584,62 +583,48 @@
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
       "updatedTopics": 4,
-      "addedSources": 53,
+      "addedSources": 71,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v3_headline_strict",
-      "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+      "primaryId": "what-does-the-second-batch-of-ufo-files-tell-us",
       "sources": 19,
       "cleanedArticles": 1,
-      "removedDuplicateTopics": 1,
+      "removedDuplicateTopics": 2,
       "staleSummariesCleared": 0,
       "rejectedArticleSources": 0
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 5,
-      "newSources": 3
+      "newSources": 7
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
       "correctedExistingTopics": 4,
       "newTopics": 1,
-      "topicsWithNewSources": 0
+      "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_topics_or_sources_not_in_previous_app_feed",
-      "notifications": 1,
-      "freshSources": 3,
+      "notifications": 2,
+      "freshSources": 8,
       "correctedOldSourceMarkers": 0
     }
   },
   "translations": {
-    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": {
+    "sighting-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": {
       "en": {
         "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-        "summary": "Dr. Hal Puthoff, an 89‑year‑old physicist with a long history of work for the CIA and the Pentagon, said on the “Diary of a CEO” podcast that people involved in UFO crash‑retrieval operations have told him the United States has recovered biological remains from at least four distinct species of non‑human beings. Puthoff described the information as coming directly from credible insiders he trusts, rather than speculation.",
-        "sourceHash": "c5414434f41e78cd88342248adb3be6de757d8c9",
+        "summary": "Dr Hal Puthoff, an 89‑year‑old physicist who worked on CIA‑funded projects, said the United States secretly recovered four alien species from crashed UFOs over several decades. He listed the species as Grays, Nordics, Reptilians and Insectoids, noting that he had not seen them himself but relied on information from people with direct knowledge. Puthoff’s remarks echo former intelligence official David Grusch’s 2023 testimony that the U.S. had retrieved a non‑human craft and biologics, a claim that has sparked congressional debate.",
+        "sourceHash": "817889dc9fd0e8831fcedd83fe0477466b15b683",
         "provider": "original"
       },
       "de": {
         "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
-        "summary": "Dr. Hal Puthoff, ein 89-jähriger Physiker mit langjähriger Arbeit für die CIA und das Pentagon, sagte im Podcast „Diary of a CEO“, dass Personen, die an UFO-Absturzbergungsoperationen beteiligt waren, ihm erzählt hätten, dass die Vereinigten Staaten biologische Überreste von mindestens vier verschiedenen Arten nichtmenschlicher Lebewesen geborgen hätten. Puthoff beschrieb die Informationen als direkt von glaubwürdigen Insidern stammend, denen er vertraut, und nicht als Spekulation.",
-        "sourceHash": "c5414434f41e78cd88342248adb3be6de757d8c9",
-        "provider": "google"
-      }
-    },
-    "sighting-us-recovered-4-alien-species-from-crashed-ufos-an-89-year-old-former-cia-funded-government-researcher-claims": {
-      "en": {
-        "title": "US Recovered 4 Alien Species From Crashed UFOs: An 89-year-Old Former CIA-Funded Government Researcher Claims",
-        "summary": "Dr Hal Puthoff, an 89‑year‑old physicist who worked on CIA‑funded projects, said the United States secretly recovered four alien species from crashed UFOs over several decades. He listed the species as Grays, Nordics, Reptilians and Insectoids, noting that he had not seen them himself but relied on information from people with direct knowledge. Puthoff’s remarks echo former intelligence official David Grusch’s 2023 testimony that the U.S. had retrieved a non‑human craft and biologics, a claim that has sparked congressional debate.",
-        "sourceHash": "afb411540d0349599907520174f7bafaf8bfc46c",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Die USA haben vier außerirdische Arten aus abgestürzten UFOs geborgen: Das behauptet ein 89-jähriger ehemaliger, von der CIA finanzierter Regierungsforscher",
         "summary": "Dr. Hal Puthoff, ein 89-jähriger Physiker, der an von der CIA finanzierten Projekten arbeitete, sagte, die Vereinigten Staaten hätten über mehrere Jahrzehnte hinweg heimlich vier außerirdische Arten aus abgestürzten UFOs geborgen. Er listete die Arten als Graue, Nordische, Reptilien und Insektoide auf und bemerkte, dass er sie selbst nicht gesehen hatte, sondern sich auf Informationen von Menschen mit direktem Wissen verließ. Puthoffs Äußerungen spiegeln die Aussage des ehemaligen Geheimdienstmitarbeiters David Grusch aus dem Jahr 2023 wider, dass die USA ein nichtmenschliches Raumschiff und Biologika beschlagnahmt hätten, eine Behauptung, die eine Debatte im Kongress ausgelöst hat.",
-        "sourceHash": "afb411540d0349599907520174f7bafaf8bfc46c",
+        "sourceHash": "817889dc9fd0e8831fcedd83fe0477466b15b683",
         "provider": "google"
       }
     },
@@ -671,23 +656,23 @@
         "provider": "google"
       }
     },
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
+    "what-does-the-second-batch-of-ufo-files-tell-us": {
       "en": {
-        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+        "title": "What does the second batch of UFO files tell us?",
         "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+        "sourceHash": "4bcc963b43fea52ec7d91966a0fb5abf91312e28",
         "provider": "original"
       },
       "de": {
-        "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+        "title": "Was sagt uns der zweite Stapel UFO-Dateien?",
         "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+        "sourceHash": "4bcc963b43fea52ec7d91966a0fb5abf91312e28",
         "provider": "google"
       }
     }
   },
   "translationMeta": {
-    "prepared": 5,
+    "prepared": 4,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
