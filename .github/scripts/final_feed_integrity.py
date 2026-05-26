@@ -33,7 +33,7 @@ STRONG = set(
     "aaro alien archive archives congress crash declassified disclosure document documents dod federal files foia "
     "government hearing image images military nasa nonhuman pentagon photos pilot radar records release released "
     "senate sighting sightings trump video videos war whistleblower ministry defense defence advisor website portal transparency "
-    "allege claim recover retrieval species remains biological physicist researcher cia puthoff program"
+    "allege claim recover retrieval species remains biological physicist researcher cia puthoff program lake huron shootdown los angeles spot"
     .split()
 )
 TOKEN_ALIASES = {
@@ -184,6 +184,10 @@ def story_signature(text: Any) -> str:
 
     if "sleeping dog" in raw or re.search(r"\b(corbell|bob lazar)\b", raw):
         return "film:sleeping-dog"
+    if re.search(r"\b(lake huron|shootdown|shot down|downed object|air force shot down|shoots down)\b", raw):
+        return "sighting:lake-huron"
+    if re.search(r"\b(los angeles|\bla\b|best places to spot|spot ufos)\b", raw):
+        return "sighting:la-spotting"
     if re.search(r"\b(ukraine|ukrainian)\b", raw) and re.search(r"\b(advisor|minister|ministry|armed forces|military|russia|russian|defence|defense|wartime|war|tracking|program)\b", raw):
         return "program:ukraine"
     if "immaculate constellation" in raw:
@@ -397,7 +401,7 @@ def main() -> None:
     payload["summaries"] = {article["id"]: article.get("summary", "") for article in articles if article.get("id") and article.get("summary")}
     meta = payload.setdefault("scanMeta", {})
     meta["finalFeedIntegrity"] = {
-        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v11_trust_source_summaries",
+        "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
         "inputArticles": len(raw_articles),
         "outputArticles": len(articles),
         "preservedSourceSummaries": sum(1 for article in articles if clean(article.get("summary"))),
