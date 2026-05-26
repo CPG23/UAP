@@ -35,7 +35,7 @@ ALIASES = {
 STRONG = set(
     "alien remains biological species recover crash spacecraft puthoff cia physicist researcher grusch "
     "coulthart trump briefed briefing legacy program file document video release declassify batch pentagon "
-    "department war pursue lake huron shootdown los angeles spot sequoia humanoid superman"
+    "department war pursue lake huron shootdown los angeles spot sequoia humanoid superman whistleblower died death"
     .split()
 )
 TRUSTED_RE = re.compile(r"\b(\.gov|department|reuters|ap news|associated press|bbc|abc|pbs|npr|guardian|axios)\b", re.I)
@@ -143,6 +143,10 @@ def same_story_text(a_text: str, b_text: str, title_only: bool = False) -> bool:
     return lexical_same_story(a_text, b_text, title_only=title_only)
 
 
+def is_source_grounded_summary(article: dict[str, Any]) -> bool:
+    return clean(article.get("summarySource")) == "source_page" or clean(article.get("summaryPolicy")).startswith("source_page")
+
+
 def summary_matches_title(article: dict[str, Any]) -> bool:
     summary = clean(article.get("summary"))
     if not summary:
@@ -150,11 +154,19 @@ def summary_matches_title(article: dict[str, Any]) -> bool:
     title = clean(article.get("title"))
     title_sig = story_signature(title)
     summary_sig = story_signature(summary)
-    if title_sig or summary_sig:
-        return bool(title_sig and summary_sig and title_sig == summary_sig)
+    if title_sig and summary_sig:
+        return title_sig == summary_sig
     title_words = words(title)
     summary_words = words(summary)
-    return not title_words or not summary_words or len((title_words & summary_words) & STRONG) >= 2 or overlap_ratio(title_words, summary_words) >= 0.22
+    if not title_words or not summary_words:
+        return True
+    shared_strong = (title_words & summary_words) & STRONG
+    ratio = overlap_ratio(title_words, summary_words)
+    if title_sig or summary_sig:
+        if is_source_grounded_summary(article):
+            return len(shared_strong) >= 1 or ratio >= 0.12
+        return len(shared_strong) >= 2 or ratio >= 0.22
+    return len(shared_strong) >= 2 or ratio >= 0.22
 
 
 def clear_bad_summary(article: dict[str, Any], summaries: dict[str, Any]) -> bool:
@@ -241,7 +253,7 @@ def article_same_story(a: dict[str, Any], b: dict[str, Any]) -> bool:
 
 def best_summary(primary: dict[str, Any], group: list[dict[str, Any]]) -> str:
     candidates = sorted((clean(article.get("summary")) for article in group if clean(article.get("summary"))), key=len, reverse=True)
-    probe = {"title": primary.get("title", ""), "summary": ""}
+    probe = {"title": primary.get("title", ""), "summary": "", "summarySource": primary.get("summarySource", ""), "summaryPolicy": primary.get("summaryPolicy", "")}
     for summary in candidates:
         probe["summary"] = summary
         if summary_matches_title(probe):
@@ -311,7 +323,7 @@ def main() -> None:
     payload["articles"] = merged
     payload["summaries"] = {article["id"]: article.get("summary", "") for article in merged if article.get("id") and clean(article.get("summary"))}
     payload.setdefault("scanMeta", {})["finalClusterGuard"] = {
-        "policy": "title_summary_cluster_guard_v1",
+        "policy": "title_summary_cluster_guard_v2_keep_source_grounded_summaries",
         "inputArticles": len(raw_articles),
         "outputArticles": len(merged),
         "mergedTopics": merged_topics,
