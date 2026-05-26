@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""Final title/summary based cluster guard for the app feed.
-
-The app should cluster articles that describe the same story, using title plus
-summary when available and falling back to title-only matching when a summary is
-missing. This pass runs after source backfills so late additions cannot mix
-unrelated stories into a visible card.
-"""
+"""Final title/summary based cluster guard for the app feed."""
 from __future__ import annotations
 
 import json
@@ -22,7 +16,6 @@ MISSING_STATUS = {
     "articleContentSummary": "missing",
     "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen.",
 }
-
 STOP = set(
     "a an the to of for in on at by with from and or is are was were be been has have had "
     "will would could should may might new latest update report reports news says said about into "
@@ -32,34 +25,12 @@ STOP = set(
     .split()
 )
 ALIASES = {
-    "alleges": "claim",
-    "alleged": "claim",
-    "claims": "claim",
-    "claimed": "claim",
-    "claiming": "claim",
-    "retrieved": "recover",
-    "retrieves": "recover",
-    "recovered": "recover",
-    "recovery": "recover",
-    "retrieval": "recover",
-    "retrievals": "recover",
-    "crashed": "crash",
-    "crashes": "crash",
-    "downed": "crash",
-    "bodies": "remains",
-    "biologics": "remains",
-    "biological": "biological",
-    "species": "species",
-    "beings": "species",
-    "lifeforms": "species",
-    "lifeform": "species",
-    "forms": "species",
-    "files": "file",
-    "documents": "document",
-    "videos": "video",
-    "released": "release",
-    "releases": "release",
-    "declassified": "declassify",
+    "alleges": "claim", "alleged": "claim", "claims": "claim", "claimed": "claim", "claiming": "claim",
+    "retrieved": "recover", "retrieves": "recover", "recovered": "recover", "recovery": "recover", "retrieval": "recover", "retrievals": "recover",
+    "crashed": "crash", "crashes": "crash", "downed": "crash",
+    "bodies": "remains", "biologics": "remains", "biological": "biological",
+    "species": "species", "beings": "species", "lifeforms": "species", "lifeform": "species", "forms": "species",
+    "files": "file", "documents": "document", "videos": "video", "released": "release", "releases": "release", "declassified": "declassify",
 }
 STRONG = set(
     "alien remains biological species recover crash spacecraft puthoff cia physicist researcher grusch "
@@ -81,9 +52,8 @@ def slug(value: Any) -> str:
 def words(text: Any) -> set[str]:
     result: set[str] = set()
     for word in WORD_RE.findall(clean(text).lower()):
-        if len(word) <= 2 or word in STOP:
-            continue
-        result.add(ALIASES.get(word, word))
+        if len(word) > 2 and word not in STOP:
+            result.add(ALIASES.get(word, word))
     return result
 
 
@@ -121,9 +91,7 @@ def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
 
 
 def overlap_ratio(a: set[str], b: set[str]) -> float:
-    if not a or not b:
-        return 0.0
-    return len(a & b) / min(len(a), len(b))
+    return 0.0 if not a or not b else len(a & b) / min(len(a), len(b))
 
 
 def story_signature(text: Any) -> str:
@@ -132,7 +100,6 @@ def story_signature(text: Any) -> str:
     has_uap = bool(re.search(r"\b(uap|uaps|ufo|ufos|unidentified anomalous|unidentified aerial|alien)\b", raw))
     has_file = bool({"file", "document", "video", "record", "archive", "transcript"} & token_set)
     has_release = bool({"release", "declassify", "batch", "pursue"} & token_set) or "war.gov" in raw
-
     if "sleeping dog" in raw or re.search(r"\b(corbell|bob lazar)\b", raw):
         return "film:sleeping-dog"
     if re.search(r"\b(lake huron|shootdown|shot down|downed object)\b", raw):
@@ -143,11 +110,8 @@ def story_signature(text: Any) -> str:
         return "sighting:la-spotting"
     if re.search(r"\b(coulthart|trump|briefed|briefing)\b", raw) and re.search(r"\b(grusch|legacy|crash retrieval|retrieval program)\b", raw):
         return "claim:trump-briefing"
-    if (
-        ("puthoff" in token_set or "physicist" in token_set or "researcher" in token_set or "cia" in token_set)
-        and {"alien", "species"} <= token_set
-        and ({"recover", "remains", "biological", "crash", "spacecraft"} & token_set)
-    ):
+    if (("puthoff" in token_set or "physicist" in token_set or "researcher" in token_set or "cia" in token_set)
+            and {"alien", "species"} <= token_set and ({"recover", "remains", "biological", "crash", "spacecraft"} & token_set)):
         return "claim:alien-species-recovered"
     if {"alien", "species", "recover"} <= token_set and ({"remains", "biological", "spacecraft", "crash"} & token_set):
         return "claim:alien-species-recovered"
@@ -173,13 +137,9 @@ def same_story_text(a_text: str, b_text: str, title_only: bool = False) -> bool:
     a_sig = story_signature(a_text)
     b_sig = story_signature(b_text)
     if a_sig or b_sig:
-        if not (a_sig and b_sig):
+        if not (a_sig and b_sig) or a_sig != b_sig:
             return False
-        if a_sig != b_sig:
-            return False
-        if a_sig == "sighting:generic":
-            return lexical_same_story(a_text, b_text, title_only=title_only)
-        return True
+        return a_sig != "sighting:generic" or lexical_same_story(a_text, b_text, title_only=title_only)
     return lexical_same_story(a_text, b_text, title_only=title_only)
 
 
@@ -194,10 +154,7 @@ def summary_matches_title(article: dict[str, Any]) -> bool:
         return bool(title_sig and summary_sig and title_sig == summary_sig)
     title_words = words(title)
     summary_words = words(summary)
-    if not title_words or not summary_words:
-        return True
-    shared = title_words & summary_words
-    return len(shared & STRONG) >= 2 or overlap_ratio(title_words, summary_words) >= 0.22
+    return not title_words or not summary_words or len((title_words & summary_words) & STRONG) >= 2 or overlap_ratio(title_words, summary_words) >= 0.22
 
 
 def clear_bad_summary(article: dict[str, Any], summaries: dict[str, Any]) -> bool:
@@ -214,8 +171,7 @@ def clear_bad_summary(article: dict[str, Any], summaries: dict[str, Any]) -> boo
 
 
 def match_basis(article: dict[str, Any]) -> tuple[str, bool]:
-    summary = clean(article.get("summary"))
-    if len(summary) >= TITLE_ONLY_SUMMARY_CHARS:
+    if len(clean(article.get("summary"))) >= TITLE_ONLY_SUMMARY_CHARS:
         return article_text(article, include_summary=True), False
     return article_text(article, include_summary=False), True
 
@@ -233,9 +189,7 @@ def dedupe_sources(sources: list[dict[str, Any]], primary: dict[str, Any]) -> li
         if not isinstance(source, dict):
             continue
         key = source_key(source)
-        if not key or key in seen:
-            continue
-        if primary_title and slug(source.get("title", "")) == primary_title:
+        if not key or key in seen or (primary_title and slug(source.get("title", "")) == primary_title):
             continue
         seen.add(key)
         result.append(source)
@@ -296,7 +250,7 @@ def best_summary(primary: dict[str, Any], group: list[dict[str, Any]]) -> str:
 
 
 def merge_group(group: list[dict[str, Any]]) -> dict[str, Any]:
-    primary = max(group, key=lambda article: (int(article.get("quality") or 0), int(article.get("mentions") or 1), len(clean(article.get("summary"))))) )
+    primary = max(group, key=lambda article: (int(article.get("quality") or 0), int(article.get("mentions") or 1), len(clean(article.get("summary")))))
     merged = deepcopy(primary)
     sources: list[dict[str, Any]] = []
     for article in group:
@@ -327,9 +281,7 @@ def merge_articles(articles: list[dict[str, Any]]) -> tuple[list[dict[str, Any]]
         group = [article]
         used.add(index)
         for other_index in range(index + 1, len(articles)):
-            if other_index in used:
-                continue
-            if article_same_story(article, articles[other_index]):
+            if other_index not in used and article_same_story(article, articles[other_index]):
                 group.append(articles[other_index])
                 used.add(other_index)
         if len(group) > 1:
@@ -344,7 +296,6 @@ def main() -> None:
     payload = json.loads(NEWS_PATH.read_text(encoding="utf-8"))
     summaries = payload.setdefault("summaries", {})
     raw_articles = [article for article in payload.get("articles") or [] if isinstance(article, dict)]
-
     summary_cleared = 0
     pruned_sources = 0
     cleaned: list[dict[str, Any]] = []
@@ -355,13 +306,11 @@ def main() -> None:
         repaired, removed = prune_sources(repaired)
         pruned_sources += removed
         cleaned.append(repaired)
-
     merged, merged_topics = merge_articles(cleaned)
     merged.sort(key=lambda article: (int(article.get("quality") or 0), clean(article.get("publishedAt") or article.get("date"))), reverse=True)
     payload["articles"] = merged
     payload["summaries"] = {article["id"]: article.get("summary", "") for article in merged if article.get("id") and clean(article.get("summary"))}
-    meta = payload.setdefault("scanMeta", {})
-    meta["finalClusterGuard"] = {
+    payload.setdefault("scanMeta", {})["finalClusterGuard"] = {
         "policy": "title_summary_cluster_guard_v1",
         "inputArticles": len(raw_articles),
         "outputArticles": len(merged),
@@ -370,11 +319,7 @@ def main() -> None:
         "clearedSummaries": summary_cleared,
     }
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(
-        "final cluster guard: "
-        f"input={len(raw_articles)} output={len(merged)} merged={merged_topics} "
-        f"pruned_sources={pruned_sources} cleared_summaries={summary_cleared}"
-    )
+    print(f"final cluster guard: input={len(raw_articles)} output={len(merged)} merged={merged_topics} pruned_sources={pruned_sources} cleared_summaries={summary_cleared}")
 
 
 if __name__ == "__main__":
