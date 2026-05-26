@@ -16,7 +16,7 @@ SECOND_FILE_RE = re.compile(
 )
 FILE_TERMS_RE = re.compile(r"\b(file|files|document|documents|video|videos|declassified|release|released|batch|tranche|pursue|war\.gov)\b", re.I)
 NON_RELEASE_RE = re.compile(
-    r"\b(alien soft launch|missing scientists|biological remains|life forms|dismembered|whistleblower|secret agent|coulthart|trump knows|pastor|translucent|avi loeb|alien species|crash retrieval|crashed ufos)\b",
+    r"\b(alien soft launch|missing scientists|biological remains|life forms|dismembered|whistleblower|secret agent|coulthart|trump knows|pastor|translucent|avi loeb|alien species|crash retrieval|crashed ufos|lake huron|shootdown|shot down|downed object|best places to spot|spot ufos|los angeles|apollo 12|light mystery)\b",
     re.I,
 )
 TOKEN_RE = re.compile(r"[a-z0-9][a-z0-9'-]{3,}", re.I)
@@ -242,7 +242,7 @@ def main() -> None:
 
     meta = payload.setdefault("scanMeta", {})
     meta["fileReleaseConsolidation"] = {
-        "policy": "second_uap_file_release_single_visible_topic_v3_headline_strict",
+        "policy": "second_uap_file_release_single_visible_topic_v4_exclude_distinct_sightings",
         "primaryId": primary.get("id"),
         "sources": len(primary.get("otherSources") or []),
         "cleanedArticles": cleaned_articles,
