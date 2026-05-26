@@ -68,11 +68,18 @@ GENERIC_LEAD_RE = re.compile(
     re.I,
 )
 WORD_RE = re.compile(r"[a-z0-9]+", re.I)
+SENTENCE_RE = re.compile(r"[^.!?]+[.!?]")
 STOP_WORDS = set(
     "a an the to of for in on at by with from and or is are was were be been has have had "
     "will would could should may might this that these those article report story piece headline title "
     "uap uaps ufo ufos news new latest update says said about into after before over under"
     .split()
+)
+BOILERPLATE_RE = re.compile(
+    r"^(advertisement|sponsored|subscribe|sign up|log in|cookie|cookies|privacy|terms|share|"
+    r"follow us|watch live|read more|related|recommended|caption|image source|skip to|"
+    r"enable javascript|newsletter|up next)\b",
+    re.I,
 )
 
 
@@ -119,10 +126,58 @@ def mark_source_grounded(article: dict[str, Any]) -> None:
     article["summaryPolicy"] = "source_page_article_text"
 
 
+def split_sentences(text: str) -> list[str]:
+    normalized = compact(text)
+    sentences = [compact(match.group(0)) for match in SENTENCE_RE.finditer(normalized)]
+    if not sentences and len(normalized) >= 180:
+        sentences = [normalized[:420].rstrip() + "."]
+    return sentences
+
+
+def useful_sentence(sentence: str, article: dict[str, Any]) -> bool:
+    if len(sentence) < 55 or BOILERPLATE_RE.search(sentence):
+        return False
+    sentence_words = words(sentence)
+    if len(sentence_words) < 8:
+        return False
+    title_words = words(article.get("title", ""))
+    overlap = len(sentence_words & title_words) / max(1, min(len(sentence_words), len(title_words))) if title_words else 0
+    return overlap >= 0.10 or len(sentence) >= 95
+
+
+def extractive_source_summary(article: dict[str, Any], text: str) -> str:
+    if len(compact(text)) < 180:
+        return ""
+    picked: list[str] = []
+    seen: set[str] = set()
+    for sentence in split_sentences(text):
+        key = sentence.lower()
+        if key in seen or not useful_sentence(sentence, article):
+            continue
+        seen.add(key)
+        picked.append(sentence)
+        summary = compact(" ".join(picked))
+        if len(picked) >= 5 or len(summary) >= 620:
+            break
+    summary = compact(" ".join(picked))
+    if len(summary) < 180:
+        for sentence in split_sentences(text):
+            key = sentence.lower()
+            if key in seen or BOILERPLATE_RE.search(sentence) or len(sentence) < 45:
+                continue
+            seen.add(key)
+            picked.append(sentence)
+            summary = compact(" ".join(picked))
+            if len(summary) >= 180 and sentence_count(summary) >= 2:
+                break
+    return summary
+
+
 def main() -> None:
     data = json.loads(LATEST_FILE.read_text(encoding="utf-8"))
     summaries = data.setdefault("summaries", {})
     repaired = 0
+    fallback_repaired = 0
     missing = 0
     attempts = 0
     changed = False
@@ -145,13 +200,21 @@ def main() -> None:
         attempts += 1
         text = fetch_article_text(article)
         summary = summarize_article_text(article, text)
+        used_fallback = False
+        if not is_good_summary(summary, article):
+            summary = extractive_source_summary(article, text)
+            used_fallback = True
         if is_good_summary(summary, article):
             article["summary"] = compact(summary)
             mark_source_grounded(article)
+            if used_fallback:
+                article["summaryPolicy"] = "source_page_article_text_extractive_fallback"
             article.pop("summaryStatus", None)
             if article_id:
                 summaries[article_id] = article["summary"]
             repaired += 1
+            if used_fallback:
+                fallback_repaired += 1
         else:
             article["summary"] = ""
             article.pop("summarySource", None)
@@ -171,16 +234,20 @@ def main() -> None:
 
     meta = data.setdefault("scanMeta", {})
     meta["summaryRepair"] = {
-        "policy": "repair_after_cluster_normalization_v4_mark_source_grounded",
+        "policy": "repair_after_cluster_normalization_v5_source_text_extractive_fallback",
         "attempts": attempts,
         "repaired": repaired,
+        "fallbackRepaired": fallback_repaired,
         "missing": missing,
     }
 
     if changed:
         LATEST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    print(f"summary repair after clustering: attempts={attempts}; repaired={repaired}; missing={missing}")
+    print(
+        "summary repair after clustering: "
+        f"attempts={attempts}; repaired={repaired}; fallback={fallback_repaired}; missing={missing}"
+    )
 
 
 if __name__ == "__main__":
