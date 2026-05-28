@@ -1,7 +1,7 @@
 {
   "topic": "UAP-News26",
-  "title": "UAP News - 1 new report",
-  "message": "1. Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+  "title": "1 neuer Artikel",
+  "message": "1 neuer Artikel\n\n• Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
   "priority": 3,
   "tags": [
     "flying_saucer"
@@ -10,7 +10,7 @@
   "actions": [
     {
       "action": "view",
-      "label": "Open app",
+      "label": "App öffnen",
       "url": "https://cpg23.github.io/UAP/"
     }
   ]
