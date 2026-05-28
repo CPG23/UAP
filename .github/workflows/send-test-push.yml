@@ -1,0 +1,35 @@
+name: Send Test Push Preview
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/send-test-push.yml
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send formatted ntfy preview
+        run: |
+          python3 << 'PYEOF'
+          import json, urllib.request
+          payload = {
+              "topic": "UAP-News26",
+              "title": "3 neue Artikel",
+              "message": "3 neue Artikel\n\n• Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO\n\n• Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms\n\n• Rep. Anna Paulina Luna Frames UFO Disclosure Through The Book of Enoch As A Window Into A Reality Beyond Human Perception",
+              "priority": 3,
+              "tags": ["flying_saucer"],
+              "click": "https://cpg23.github.io/UAP/",
+              "actions": [{"action": "view", "label": "App öffnen", "url": "https://cpg23.github.io/UAP/"}],
+          }
+          data = json.dumps(payload).encode("utf-8")
+          req = urllib.request.Request(
+              "https://ntfy.sh",
+              data=data,
+              headers={"Content-Type": "application/json", "User-Agent": "UAP-News-Bot/1.0"},
+              method="POST",
+          )
+          with urllib.request.urlopen(req, timeout=15) as response:
+              print(f"Test push sent (HTTP {response.status})")
+          PYEOF
