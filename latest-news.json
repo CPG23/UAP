@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-28T21:39:45Z",
+  "timestamp": "2026-05-28T21:47:51Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -9,7 +9,7 @@
       "date": "2026-05-19",
       "publishedAt": "2026-05-22T12:07:07Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 11,
+      "mentions": 10,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -27,15 +27,6 @@
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcDZxampSM29ibEJMVVUtVnFERy05ajd6SUdmMXNvWU9ZVnQtUlNzYmY1QkxHOUhzUDFwS01icGM0U3VPcVBtTk1uQ0swUlZSMW4xMTJNdEUyTGwxcll5dFFBZTBabjVic2o0UnFfQ21TMWt2bVlEaVpKTUFnblg5Umo5QWJZeU9GdW92Y19IZkNGb2NkMmp2YlphZHFFWks3WXBxVGlIOW9hRDY5c1hlVmlrY1VVdXZ1UTVJeQ?oc=5",
           "publishedAt": "2026-05-28T10:13:13Z",
           "displayedAt": "2026-05-28T12:38:45Z",
-          "isNew": true
-        },
-        {
-          "title": "Analysis of the Second Batch of UFO Files Released by the Pentagon",
-          "source": "Coast to Coast AM",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEdZQ1hPaVE2M0dmS3lPc3I5d2VxWEtBWGl1MHpQRDduQlNRSnl3eFNyRk1SdUF0LWVneTZoZ0EwS0UwNDJOcmxMMnhZd2hxbFFIcHNaUDB1OXF5OXlPME9iaHk4THZRMmx6Qy1IME9HcXBBak9tT2k4ZlAxczk1LWY0MmlLUjQzdkxrZ3BuZnU5aVpyTmQ4MUVuM0JxS0QtZUxRcmRoQ3l4dw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEdZQ1hPaVE2M0dmS3lPc3I5d2VxWEtBWGl1MHpQRDduQlNRSnl3eFNyRk1SdUF0LWVneTZoZ0EwS0UwNDJOcmxMMnhZd2hxbFFIcHNaUDB1OXF5OXlPME9iaHk4THZRMmx6Qy1IME9HcXBBak9tT2k4ZlAxczk1LWY0MmlLUjQzdkxrZ3BuZnU5aVpyTmQ4MUVuM0JxS0QtZUxRcmRoQ3l4dw?oc=5",
-          "publishedAt": "2026-05-27T13:24:57Z",
-          "displayedAt": "2026-05-28T21:39:45Z",
           "isNew": true
         },
         {
@@ -105,7 +96,6 @@
       "clusterTitles": [
         "US releases second batch of government declassified UFO files",
         "Pentagon releases second batch of declassified UFO files",
-        "Analysis of the Second Batch of UFO Files Released by the Pentagon",
         "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
         "Pentagon releases second batch of UFO files with rare footage",
         "Pentagon releases new batch of UFO files",
@@ -134,7 +124,7 @@
         {
           "label": "Mehrere Quellen",
           "points": 34,
-          "text": "11 Quellen im aktuellen Feed."
+          "text": "10 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -283,7 +273,8 @@
       },
       "sourceQuality": 60,
       "displayedAt": "2026-05-22T06:38:19Z",
-      "sourceDisplayedAt": "2026-05-22T06:38:19Z"
+      "sourceDisplayedAt": "2026-05-22T06:38:19Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception",
@@ -425,21 +416,13 @@
     "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released. The FBI is investigating a series of missing and dead scientists linked to secret nuclear and UFO programs, including the disappearance of retired General William Neil McCasland. Other scientists, such as David Wilcock, have also died under suspicious circumstances, adding to the pattern of unexplained losses."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-28T21:39:45Z",
-    "ids": [
-      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
-    ],
-    "articles": [
-      {
-        "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "source": "U.S. Department of War (.gov)"
-      }
-    ]
+    "timestamp": "2026-05-28T21:47:51Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 342,
-    "broadTopics": 158,
+    "broadArticles": 338,
+    "broadTopics": 153,
     "notificationArticles": 3,
     "notificationTopics": 2,
     "newNotificationTopics": 0,
@@ -505,7 +488,7 @@
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v4_exclude_distinct_sightings",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 12,
+      "sources": 11,
       "cleanedArticles": 0,
       "removedDuplicateTopics": 0,
       "staleSummariesCleared": 0,
@@ -519,29 +502,39 @@
       "prunedSources": 0,
       "clearedSummaries": 0
     },
+    "unreachableArticleFilter": {
+      "policy": "remove_unavailable_source_pages_before_retention_v1",
+      "inputArticles": 5,
+      "removedArticles": 1,
+      "removedTitles": [
+        "The 2026 Alien Soft Launch: Missing Scientists, Aliens.gov & Pentagon Secrets (y01QlMdFZnb)"
+      ]
+    },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v2_persistent_archive",
       "archiveCandidates": 5,
-      "currentBeforeRestore": 5,
-      "restoredArticles": 0,
+      "currentBeforeRestore": 4,
+      "restoredArticles": 1,
       "retentionDays": 14,
-      "restoredTitles": []
+      "restoredTitles": [
+        "The 2026 Alien Soft Launch: Missing Scientists, Aliens.gov & Pentagon Secrets (y01QlMdFZnb)"
+      ]
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 5,
-      "newSources": 1
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 4,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 5,
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_topics_or_sources_not_in_previous_app_feed",
-      "notifications": 1,
-      "freshSources": 1,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0
     }
   },

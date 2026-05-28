@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-28T21:39:45Z",
+  "timestamp": "2026-05-28T21:47:51Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -10,7 +10,7 @@
       "date": "2026-05-19",
       "publishedAt": "2026-05-22T12:07:07Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 11,
+      "mentions": 10,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -25,13 +25,6 @@
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcDZxampSM29ibEJMVVUtVnFERy05ajd6SUdmMXNvWU9ZVnQtUlNzYmY1QkxHOUhzUDFwS01icGM0U3VPcVBtTk1uQ0swUlZSMW4xMTJNdEUyTGwxcll5dFFBZTBabjVic2o0UnFfQ21TMWt2bVlEaVpKTUFnblg5Umo5QWJZeU9GdW92Y19IZkNGb2NkMmp2YlphZHFFWks3WXBxVGlIOW9hRDY5c1hlVmlrY1VVdXZ1UTVJeQ?oc=5",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcDZxampSM29ibEJMVVUtVnFERy05ajd6SUdmMXNvWU9ZVnQtUlNzYmY1QkxHOUhzUDFwS01icGM0U3VPcVBtTk1uQ0swUlZSMW4xMTJNdEUyTGwxcll5dFFBZTBabjVic2o0UnFfQ21TMWt2bVlEaVpKTUFnblg5Umo5QWJZeU9GdW92Y19IZkNGb2NkMmp2YlphZHFFWks3WXBxVGlIOW9hRDY5c1hlVmlrY1VVdXZ1UTVJeQ?oc=5",
           "publishedAt": "2026-05-28T10:13:13Z"
-        },
-        {
-          "title": "Analysis of the Second Batch of UFO Files Released by the Pentagon",
-          "source": "Coast to Coast AM",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEdZQ1hPaVE2M0dmS3lPc3I5d2VxWEtBWGl1MHpQRDduQlNRSnl3eFNyRk1SdUF0LWVneTZoZ0EwS0UwNDJOcmxMMnhZd2hxbFFIcHNaUDB1OXF5OXlPME9iaHk4THZRMmx6Qy1IME9HcXBBak9tT2k4ZlAxczk1LWY0MmlLUjQzdkxrZ3BuZnU5aVpyTmQ4MUVuM0JxS0QtZUxRcmRoQ3l4dw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEdZQ1hPaVE2M0dmS3lPc3I5d2VxWEtBWGl1MHpQRDduQlNRSnl3eFNyRk1SdUF0LWVneTZoZ0EwS0UwNDJOcmxMMnhZd2hxbFFIcHNaUDB1OXF5OXlPME9iaHk4THZRMmx6Qy1IME9HcXBBak9tT2k4ZlAxczk1LWY0MmlLUjQzdkxrZ3BuZnU5aVpyTmQ4MUVuM0JxS0QtZUxRcmRoQ3l4dw?oc=5",
-          "publishedAt": "2026-05-27T13:24:57Z"
         },
         {
           "title": "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
@@ -86,7 +79,6 @@
       "clusterTitles": [
         "US releases second batch of government declassified UFO files",
         "Pentagon releases second batch of declassified UFO files",
-        "Analysis of the Second Batch of UFO Files Released by the Pentagon",
         "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
         "Pentagon releases second batch of UFO files with rare footage",
         "Pentagon releases new batch of UFO files",
@@ -115,7 +107,7 @@
         {
           "label": "Mehrere Quellen",
           "points": 34,
-          "text": "11 Quellen im aktuellen Feed."
+          "text": "10 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -124,7 +116,7 @@
         "released"
       ],
       "sourceQuality": 83,
-      "displayedAt": "2026-05-22T12:07:07Z"
+      "displayedAt": "2026-05-28T21:39:45Z"
     },
     {
       "id": "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
@@ -232,7 +224,9 @@
         "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
       },
       "sourceQuality": 60,
-      "displayedAt": "2026-05-22T06:38:19Z"
+      "displayedAt": "2026-05-22T06:38:19Z",
+      "sourceDisplayedAt": "2026-05-22T06:38:19Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception",
