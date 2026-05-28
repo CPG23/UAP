@@ -14,11 +14,11 @@ jobs:
         run: |
           python3 << 'PYEOF'
           import json, urllib.request
-          separator = "────────────────────────────"
+          separator = "────────────────────"
           payload = {
               "topic": "UAP-News26",
               "title": "3 neue Artikel",
-              "message": separator + "\n\n• Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO\n\n" + separator + "\n\n• Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms\n\n" + separator + "\n\n• Rep. Anna Paulina Luna Frames UFO Disclosure Through The Book of Enoch As A Window Into A Reality Beyond Human Perception\n\n" + separator,
+              "message": separator + "\n\nDepartment of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO\n\n" + separator + "\n\nFormer Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms\n\n" + separator + "\n\nRep. Anna Paulina Luna Frames UFO Disclosure Through The Book of Enoch As A Window Into A Reality Beyond Human Perception\n\n" + separator,
               "priority": 3,
               "tags": ["flying_saucer"],
               "click": "https://cpg23.github.io/UAP/",
@@ -35,4 +35,4 @@ jobs:
               print(f"Test push sent (HTTP {response.status})")
           PYEOF
 
-# Triggered with visible separators at 2026-05-29T00:25:00Z
+# Triggered without bullets at 2026-05-29T00:33:00Z
