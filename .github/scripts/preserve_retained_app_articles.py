@@ -4,7 +4,8 @@
 Earlier passes build and clean the current scan result. This late pass enforces
 the app contract the user sees: once an article is visible, it remains visible
 until it ages out of the retention window, unless it is already represented by a
-current top-level article or source cluster.
+current top-level article or source cluster. Articles flagged as unreachable in
+the same scan are not retained.
 """
 
 from __future__ import annotations
@@ -171,12 +172,21 @@ def load(path: Path) -> dict[str, Any]:
     return data if isinstance(data, dict) else {"articles": []}
 
 
-def archive_candidates(previous: dict[str, Any], archive: dict[str, Any]) -> list[dict[str, Any]]:
+def blocked_titles(data: dict[str, Any]) -> set[str]:
+    filter_meta = (data.get("scanMeta") or {}).get("unreachableArticleFilter") or {}
+    return {title_key(title) for title in filter_meta.get("removedTitles") or [] if title_key(title)}
+
+
+def is_blocked(article: dict[str, Any], blocked: set[str]) -> bool:
+    return bool(title_key(article.get("title")) in blocked)
+
+
+def archive_candidates(previous: dict[str, Any], archive: dict[str, Any], blocked: set[str]) -> list[dict[str, Any]]:
     candidates: list[dict[str, Any]] = []
     seen: set[str] = set()
     for payload in (previous, archive):
         for article in payload.get("articles") or []:
-            if not isinstance(article, dict) or not compact(article.get("title")):
+            if not isinstance(article, dict) or not compact(article.get("title")) or is_blocked(article, blocked):
                 continue
             key = archive_key(article)
             if key in seen:
@@ -186,10 +196,10 @@ def archive_candidates(previous: dict[str, Any], archive: dict[str, Any]) -> lis
     return candidates
 
 
-def write_archive(articles: list[dict[str, Any]], now: datetime) -> None:
+def write_archive(articles: list[dict[str, Any]], now: datetime, blocked: set[str]) -> None:
     by_key: dict[str, dict[str, Any]] = {}
     for article in articles:
-        if not isinstance(article, dict) or not compact(article.get("title")) or not within_retention(article, now):
+        if not isinstance(article, dict) or not compact(article.get("title")) or not within_retention(article, now) or is_blocked(article, blocked):
             continue
         by_key[archive_key(article)] = dict(article)
     archived = sorted(by_key.values(), key=sort_key, reverse=True)
@@ -212,9 +222,13 @@ def main() -> None:
     data = load(LATEST_FILE)
     previous = load(PREVIOUS_FILE)
     archive = load(ARCHIVE_FILE)
+    blocked = blocked_titles(data)
     now = parse_time(data.get("timestamp")) or datetime.now(timezone.utc)
-    current = [article for article in data.get("articles") or [] if isinstance(article, dict) and compact(article.get("title"))]
-    candidates = archive_candidates(previous, archive)
+    current = [
+        article for article in data.get("articles") or []
+        if isinstance(article, dict) and compact(article.get("title")) and not is_blocked(article, blocked)
+    ]
+    candidates = archive_candidates(previous, archive, blocked)
 
     restored: list[dict[str, Any]] = []
     for article in candidates:
@@ -230,6 +244,8 @@ def main() -> None:
     data["articles"] = current
 
     summaries = data.setdefault("summaries", {}) if isinstance(data.get("summaries"), dict) else {}
+    active_ids = {compact(article.get("id")) for article in current if compact(article.get("id"))}
+    summaries = {key: value for key, value in summaries.items() if key in active_ids}
     for article in current:
         aid = compact(article.get("id"))
         summary = compact(article.get("summary"))
@@ -237,20 +253,21 @@ def main() -> None:
             summaries[aid] = summary
     data["summaries"] = summaries
 
-    write_archive(current, now)
+    write_archive(current, now, blocked)
 
     meta = data.setdefault("scanMeta", {})
     meta["retainedAppArticles"] = {
-        "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v2_persistent_archive",
+        "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v3_skip_unreachable",
         "archiveCandidates": len(candidates),
         "currentBeforeRestore": len(current) - len(restored),
         "restoredArticles": len(restored),
+        "blockedUnreachableTitles": len(blocked),
         "retentionDays": RETENTION_DAYS,
         "restoredTitles": [article.get("title", "") for article in restored[:20]],
     }
     meta["appTopics"] = len(data.get("articles") or [])
     LATEST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"retained app articles: restored={len(restored)}; total={len(data.get('articles') or [])}")
+    print(f"retained app articles: restored={len(restored)}; total={len(data.get('articles') or [])}; blocked={len(blocked)}")
 
 
 if __name__ == "__main__":
