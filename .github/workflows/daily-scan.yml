@@ -106,6 +106,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           cp latest-news.json /tmp/latest-news.json
+          cp app-feed-archive.json /tmp/app-feed-archive.json 2>/dev/null || true
           cp .seen-ids.json /tmp/.seen-ids.json 2>/dev/null || true
           cp ntfy-payload.json /tmp/ntfy-payload.json 2>/dev/null || true
           for attempt in 1 2 3; do
@@ -113,9 +114,11 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             cp /tmp/latest-news.json latest-news.json
+            cp /tmp/app-feed-archive.json app-feed-archive.json 2>/dev/null || true
             cp /tmp/.seen-ids.json .seen-ids.json 2>/dev/null || true
             cp /tmp/ntfy-payload.json ntfy-payload.json 2>/dev/null || rm -f ntfy-payload.json
             git add latest-news.json
+            if [ -f app-feed-archive.json ]; then git add app-feed-archive.json; fi
             if [ -f .seen-ids.json ]; then git add .seen-ids.json; fi
             if [ -f ntfy-payload.json ]; then
               git add ntfy-payload.json
