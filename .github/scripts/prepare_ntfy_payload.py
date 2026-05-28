@@ -8,6 +8,19 @@ APP_URL = 'https://cpg23.github.io/UAP/'
 TOPIC = os.environ.get('NTFY_TOPIC', 'UAP-News26').strip() or 'UAP-News26'
 
 
+def article_count_label(count):
+    return f'{count} neuer Artikel' if count == 1 else f'{count} neue Artikel'
+
+
+def notification_message(articles):
+    lines = [article_count_label(len(articles)), '']
+    for article in articles:
+        title = str(article.get('title') or 'UAP News').strip()
+        lines.append('• ' + title)
+        lines.append('')
+    return '\n'.join(lines).strip()
+
+
 def main():
     with open(LATEST_FILE, encoding='utf-8') as f:
         feed = json.load(f)
@@ -24,15 +37,15 @@ def main():
         return
 
     visible = visible[:10]
-    message = '\n'.join(f'{i + 1}. {article.get("title", "UAP News")}' for i, article in enumerate(visible))
+    count_label = article_count_label(len(visible))
     payload = {
         'topic': TOPIC,
-        'title': f'UAP News - {len(visible)} new report{"s" if len(visible) != 1 else ""}',
-        'message': message,
+        'title': count_label,
+        'message': notification_message(visible),
         'priority': 3,
         'tags': ['flying_saucer'],
         'click': APP_URL,
-        'actions': [{'action': 'view', 'label': 'Open app', 'url': APP_URL}],
+        'actions': [{'action': 'view', 'label': 'App öffnen', 'url': APP_URL}],
     }
 
     with open(PAYLOAD_FILE, 'w', encoding='utf-8') as f:
