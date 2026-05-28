@@ -22,6 +22,7 @@ except Exception:
 
 LATEST_FILE = Path("latest-news.json")
 PREVIOUS_FILE = Path("previous-latest-news.json")
+ARCHIVE_FILE = Path("app-feed-archive.json")
 RETENTION_DAYS = 14
 SPACE_RE = re.compile(r"\s+")
 WORD_RE = re.compile(r"[a-z0-9]+", re.I)
@@ -150,6 +151,16 @@ def sort_key(article: dict[str, Any]) -> tuple[int, str]:
     return quality, compact(article.get("publishedAt") or article.get("date") or article.get("displayedAt"))
 
 
+def archive_key(article: dict[str, Any]) -> str:
+    article_id = compact(article.get("id"))
+    if article_id:
+        return "id:" + article_id
+    keys = sorted(source_keys(article))
+    if keys:
+        return keys[0]
+    return "title:" + title_key(article.get("title"))
+
+
 def load(path: Path) -> dict[str, Any]:
     if not path.exists():
         return {"articles": []}
@@ -160,15 +171,53 @@ def load(path: Path) -> dict[str, Any]:
     return data if isinstance(data, dict) else {"articles": []}
 
 
+def archive_candidates(previous: dict[str, Any], archive: dict[str, Any]) -> list[dict[str, Any]]:
+    candidates: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for payload in (previous, archive):
+        for article in payload.get("articles") or []:
+            if not isinstance(article, dict) or not compact(article.get("title")):
+                continue
+            key = archive_key(article)
+            if key in seen:
+                continue
+            seen.add(key)
+            candidates.append(article)
+    return candidates
+
+
+def write_archive(articles: list[dict[str, Any]], now: datetime) -> None:
+    by_key: dict[str, dict[str, Any]] = {}
+    for article in articles:
+        if not isinstance(article, dict) or not compact(article.get("title")) or not within_retention(article, now):
+            continue
+        by_key[archive_key(article)] = dict(article)
+    archived = sorted(by_key.values(), key=sort_key, reverse=True)
+    ARCHIVE_FILE.write_text(
+        json.dumps(
+            {
+                "timestamp": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "retentionDays": RETENTION_DAYS,
+                "articles": archived,
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+
 def main() -> None:
     data = load(LATEST_FILE)
     previous = load(PREVIOUS_FILE)
+    archive = load(ARCHIVE_FILE)
     now = parse_time(data.get("timestamp")) or datetime.now(timezone.utc)
     current = [article for article in data.get("articles") or [] if isinstance(article, dict) and compact(article.get("title"))]
-    previous_articles = [article for article in previous.get("articles") or [] if isinstance(article, dict) and compact(article.get("title"))]
+    candidates = archive_candidates(previous, archive)
 
     restored: list[dict[str, Any]] = []
-    for article in previous_articles:
+    for article in candidates:
         if not within_retention(article, now):
             continue
         if represented(article, current + restored):
@@ -177,22 +226,23 @@ def main() -> None:
 
     if restored:
         current.extend(restored)
-        current.sort(key=sort_key, reverse=True)
-        data["articles"] = current
-        summaries = data.setdefault("summaries", {}) if isinstance(data.get("summaries"), dict) else {}
-        for article in current:
-            aid = compact(article.get("id"))
-            summary = compact(article.get("summary"))
-            if aid and summary and len(summary) >= 180:
-                summaries[aid] = summary
-        data["summaries"] = summaries
-    else:
-        data["articles"] = current
+    current.sort(key=sort_key, reverse=True)
+    data["articles"] = current
+
+    summaries = data.setdefault("summaries", {}) if isinstance(data.get("summaries"), dict) else {}
+    for article in current:
+        aid = compact(article.get("id"))
+        summary = compact(article.get("summary"))
+        if aid and summary and len(summary) >= 180:
+            summaries[aid] = summary
+    data["summaries"] = summaries
+
+    write_archive(current, now)
 
     meta = data.setdefault("scanMeta", {})
     meta["retainedAppArticles"] = {
-        "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v1",
-        "previousVisibleArticles": len(previous_articles),
+        "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v2_persistent_archive",
+        "archiveCandidates": len(candidates),
         "currentBeforeRestore": len(current) - len(restored),
         "restoredArticles": len(restored),
         "retentionDays": RETENTION_DAYS,
