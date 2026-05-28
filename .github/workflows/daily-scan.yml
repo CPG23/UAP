@@ -24,6 +24,7 @@ on:
       - .github/scripts/separate_sighting_file_releases.py
       - .github/scripts/consolidate_file_release_clusters.py
       - .github/scripts/final_cluster_guard.py
+      - .github/scripts/filter_unreachable_articles.py
       - .github/scripts/preserve_retained_app_articles.py
       - .github/scripts/fix_war_release_summary.py
       - .github/scripts/final_sync_visible_summaries.py
@@ -93,6 +94,7 @@ jobs:
           python3 .github/scripts/separate_sighting_file_releases.py
           python3 .github/scripts/fix_war_release_summary.py
           python3 .github/scripts/final_cluster_guard.py
+          python3 .github/scripts/filter_unreachable_articles.py
           python3 .github/scripts/preserve_retained_app_articles.py
           python3 .github/scripts/mark_new_sources.py
           python3 .github/scripts/normalize_new_markers.py
