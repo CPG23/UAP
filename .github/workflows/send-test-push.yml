@@ -17,7 +17,7 @@ jobs:
           payload = {
               "topic": "UAP-News26",
               "title": "3 neue Artikel",
-              "message": "3 neue Artikel\n\n• Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO\n\n• Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms\n\n• Rep. Anna Paulina Luna Frames UFO Disclosure Through The Book of Enoch As A Window Into A Reality Beyond Human Perception",
+              "message": "3 neue Artikel\n\n• Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO\n------------------------------\n\n• Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms\n------------------------------\n\n• Rep. Anna Paulina Luna Frames UFO Disclosure Through The Book of Enoch As A Window Into A Reality Beyond Human Perception",
               "priority": 3,
               "tags": ["flying_saucer"],
               "click": "https://cpg23.github.io/UAP/",
@@ -34,4 +34,4 @@ jobs:
               print(f"Test push sent (HTTP {response.status})")
           PYEOF
 
-# Triggered again at 2026-05-28T22:00:00Z
+# Triggered again at 2026-05-29T00:00:00Z
