@@ -6,7 +6,7 @@ LATEST_FILE = 'latest-news.json'
 PAYLOAD_FILE = 'ntfy-payload.json'
 APP_URL = 'https://cpg23.github.io/UAP/'
 TOPIC = os.environ.get('NTFY_TOPIC', 'UAP-News26').strip() or 'UAP-News26'
-SEPARATOR = '────────────────────'
+SEPARATOR = '──────────────'
 
 
 def article_count_label(count):
