@@ -14,7 +14,7 @@ jobs:
         run: |
           python3 << 'PYEOF'
           import json, urllib.request
-          separator = "────────────────────"
+          separator = "──────────────"
           payload = {
               "topic": "UAP-News26",
               "title": "3 neue Artikel",
@@ -35,4 +35,4 @@ jobs:
               print(f"Test push sent (HTTP {response.status})")
           PYEOF
 
-# Triggered without bullets at 2026-05-29T00:33:00Z
+# Triggered with shorter separator at 2026-05-29T00:40:00Z
