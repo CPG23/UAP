@@ -6,6 +6,7 @@ LATEST_FILE = 'latest-news.json'
 PAYLOAD_FILE = 'ntfy-payload.json'
 APP_URL = 'https://cpg23.github.io/UAP/'
 TOPIC = os.environ.get('NTFY_TOPIC', 'UAP-News26').strip() or 'UAP-News26'
+SEPARATOR = '------------------------------'
 
 
 def article_count_label(count):
@@ -14,10 +15,12 @@ def article_count_label(count):
 
 def notification_message(articles):
     lines = [article_count_label(len(articles)), '']
-    for article in articles:
+    for index, article in enumerate(articles):
         title = str(article.get('title') or 'UAP News').strip()
         lines.append('• ' + title)
-        lines.append('')
+        if index < len(articles) - 1:
+            lines.append(SEPARATOR)
+            lines.append('')
     return '\n'.join(lines).strip()
 
 
