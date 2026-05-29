@@ -14,6 +14,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -44,6 +45,8 @@ META_RE = re.compile(r'<meta\s+([^>]+)>', re.I)
 ATTR_RE = re.compile(r'([\w:-]+)\s*=\s*(["\'])(.*?)\2', re.I | re.S)
 TIME_RE = re.compile(r'<time\b([^>]*)>', re.I)
 TAG_RE = re.compile(r'<[^>]+>')
+HREF_RE = re.compile(r'href=["\']([^"\']+)["\']', re.I)
+WORD_RE = re.compile(r'[a-z0-9]+', re.I)
 MONTH_RE = re.compile(
     r'\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\s+'
     r'(\d{1,2}),\s*(20\d{2})\b',
@@ -63,6 +66,13 @@ MONTHS = {
     'aug': 8, 'august': 8, 'sep': 9, 'sept': 9, 'september': 9, 'oct': 10,
     'october': 10, 'nov': 11, 'november': 11, 'dec': 12, 'december': 12,
 }
+STOP_WORDS = set(
+    'a an the to of for in on at by with from and or is are was were be been has have had '
+    'will would could should may might this that these those article story report reports news '
+    'new latest update updated says said about into after before over under uap uaps ufo ufos'
+    .split()
+)
+BLOCKED_URL_RE = re.compile(r'(news\.google\.|google\.|youtube\.|youtu\.be|facebook\.|x\.com|twitter\.|instagram\.|tiktok\.|reddit\.|linkedin\.|pinterest\.)', re.I)
 
 
 def compact(value: Any) -> str:
@@ -74,6 +84,14 @@ def slugify(value: Any) -> str:
     text = text.replace('u.s.', 'us')
     text = re.sub(r'[^a-z0-9]+', '-', text)
     return text.strip('-')
+
+
+def words(value: Any) -> set[str]:
+    return {
+        word.lower()
+        for word in WORD_RE.findall(compact(value))
+        if len(word) > 2 and word.lower() not in STOP_WORDS
+    }
 
 
 def parse_time(value: Any) -> datetime | None:
@@ -225,20 +243,50 @@ def fetch_html(url: str) -> str:
         return ''
 
 
-def publisher_url(item: dict[str, Any]) -> str:
-    source = compact(item.get('source')).lower()
+def article_url_match(url: str, item: dict[str, Any]) -> bool:
+    if not url or BLOCKED_URL_RE.search(url):
+        return False
+    title_words = words(item.get('title'))
+    if not title_words:
+        return False
+    url_words = words(urllib.parse.unquote(url))
+    overlap = title_words & url_words
+    return len(overlap) >= min(5, max(3, len(title_words) // 2))
+
+
+def discover_publisher_urls(item: dict[str, Any]) -> list[str]:
     title = compact(item.get('title'))
-    if 'usa herald' in source and title:
-        return 'https://usaherald.com/' + slugify(title) + '/'
-    return ''
+    source = compact(item.get('source'))
+    if not title:
+        return []
+    query = '"' + title + '" ' + source
+    url = 'https://duckduckgo.com/html/?q=' + urllib.parse.quote_plus(query)
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept-Language': 'en-US,en;q=0.9'})
+        with urllib.request.urlopen(req, timeout=18) as resp:
+            raw = resp.read(350_000).decode('utf-8', errors='replace')
+    except Exception:
+        return []
+
+    found: list[str] = []
+    for raw_href in HREF_RE.findall(raw):
+        href = html.unescape(raw_href)
+        if href.startswith('//'):
+            href = 'https:' + href
+        if href.startswith('/l/') or 'uddg=' in href:
+            parsed = urllib.parse.urlparse(href)
+            qs = urllib.parse.parse_qs(parsed.query)
+            href = (qs.get('uddg') or [''])[0]
+        if href.startswith('http') and article_url_match(href, item) and href not in found:
+            found.append(href)
+        if len(found) >= 3:
+            break
+    return found
 
 
 def source_urls(item: dict[str, Any]) -> list[str]:
     raw = compact(item.get('link') or item.get('url'))
     urls: list[str] = []
-    direct = publisher_url(item)
-    if direct:
-        urls.append(direct)
     try:
         decoded = decode_url(raw)
     except Exception:
@@ -246,7 +294,9 @@ def source_urls(item: dict[str, Any]) -> list[str]:
     for candidate in (decoded, raw):
         if candidate and 'news.google.' not in candidate and candidate not in urls:
             urls.append(candidate)
-    return urls
+    if not urls:
+        urls.extend(discover_publisher_urls(item))
+    return urls[:4]
 
 
 def apply_source_date(item: dict[str, Any], dt: datetime | None) -> bool:
@@ -305,7 +355,7 @@ def main() -> None:
 
     meta = data.setdefault('scanMeta', {})
     meta['sourceDateEnrichment'] = {
-        'policy': 'publisher_sourcePublishedAt_from_structured_or_header_date_with_rss_plausibility_window',
+        'policy': 'publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window',
         'checkedSources': checked,
         'updatedSources': changed,
         'maxSourceAgeBeforeRssDays': MAX_SOURCE_AGE_BEFORE_RSS_DAYS,
