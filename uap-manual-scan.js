@@ -8,21 +8,37 @@
   var LAST_RUN_KEY = 'uapManualScanLastStartedAt';
   var WORKFLOW_URL = 'https://api.github.com/repos/CPG23/UAP/actions/workflows/daily-scan.yml/dispatches';
   var TOKEN_URL = 'https://github.com/settings/personal-access-tokens/new?name=UAP%20Manual%20Scan&description=Startet%20den%20Daily%20UAP%20Scan%20direkt%20aus%20der%20App&target_name=CPG23&expires_in=366&actions=write';
+  var latestFeedScanAt = '';
 
   function esc(value){ return String(value == null ? '' : value).replace(/[&<>"]/g, function(ch){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]; }); }
   function compact(value){ return String(value == null ? '' : value).replace(/\s+/g, ' ').trim(); }
   function token(){ try { return compact(localStorage.getItem(TOKEN_KEY)); } catch(e) { return ''; } }
   function saveToken(value){ try { localStorage.setItem(TOKEN_KEY, compact(value)); } catch(e) {} }
   function clearToken(){ try { localStorage.removeItem(TOKEN_KEY); } catch(e) {} }
+  function localManualRun(){ try { return compact(localStorage.getItem(LAST_RUN_KEY)); } catch(e) { return ''; } }
   function rememberRun(){ try { localStorage.setItem(LAST_RUN_KEY, new Date().toISOString()); } catch(e) {} }
-  function lastRunLabel(){
-    var value = '';
-    try { value = localStorage.getItem(LAST_RUN_KEY) || ''; } catch(e) {}
+  function parseTime(value){ var date = new Date(value || ''); return isNaN(date.getTime()) ? 0 : date.getTime(); }
+  function scanTimeValue(){
+    var local = localManualRun();
+    var feed = compact(latestFeedScanAt);
+    if (parseTime(local) > parseTime(feed)) return local;
+    return feed || local;
+  }
+  function formatScanLabel(value){
     if (!value) return '';
     var date = new Date(value);
     if (isNaN(date.getTime())) return '';
     try { return date.toLocaleString('de-AT', { day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit' }); }
     catch(e){ return value.slice(0, 16).replace('T', ' '); }
+  }
+  function lastRunLabel(){ return formatScanLabel(scanTimeValue()); }
+  function refreshLatestScan(){
+    return fetch('latest-news.json?lastScan=' + Date.now(), { cache: 'no-store' })
+      .then(function(resp){ return resp.ok ? resp.json() : {}; })
+      .then(function(feed){
+        latestFeedScanAt = compact(feed && ((feed.scanMeta || {}).scanStartedAt || feed.timestamp));
+      })
+      .catch(function(){});
   }
 
   function injectStyle(){
@@ -96,21 +112,21 @@
 
   function createSetupMarkup(){
     return '<h3>Daily Scan starten</h3>' +
-      '<p>Für den direkten Start braucht die App einmalig eine GitHub-Freigabe. Der Token bleibt nur auf diesem Gerät.</p>' +
+      '<p>Fuer den direkten Start braucht die App einmalig eine GitHub-Freigabe. Der Token bleibt nur auf diesem Geraet.</p>' +
       '<a class="manual-scan-help" href="' + esc(TOKEN_URL) + '" target="_blank" rel="noopener noreferrer">TOKEN ERSTELLEN</a>' +
-      '<input class="manual-scan-token" id="manual-scan-token" type="password" autocomplete="off" placeholder="GitHub Token einfügen">' +
+      '<input class="manual-scan-token" id="manual-scan-token" type="password" autocomplete="off" placeholder="GitHub Token einfuegen">' +
       '<div class="manual-scan-status"></div>' +
-      '<div class="manual-scan-actions"><button type="button" class="manual-scan-btn primary" id="manual-scan-save-start">Speichern & starten</button><button type="button" class="manual-scan-btn" data-manual-scan-close>Schließen</button></div>';
+      '<div class="manual-scan-actions"><button type="button" class="manual-scan-btn primary" id="manual-scan-save-start">Speichern & starten</button><button type="button" class="manual-scan-btn" data-manual-scan-close>Schliessen</button></div>';
   }
   function createReadyMarkup(){
     var last = lastRunLabel();
     return '<h3>Daily Scan</h3>' +
-      '<p>' + (last ? 'Zuletzt manuell gestartet: ' + esc(last) + '.' : 'Bereit zum manuellen Start.') + '</p>' +
+      '<p>' + (last ? 'Zuletzt gestarteter Scan: ' + esc(last) + '.' : 'Bereit zum manuellen Start.') + '</p>' +
       '<div class="manual-scan-status"></div>' +
-      '<div class="manual-scan-actions three"><button type="button" class="manual-scan-btn primary" id="manual-scan-start">Scan starten</button><button type="button" class="manual-scan-btn danger" id="manual-scan-clear">Token löschen</button><button type="button" class="manual-scan-btn" data-manual-scan-close>Schließen</button></div>';
+      '<div class="manual-scan-actions three"><button type="button" class="manual-scan-btn primary" id="manual-scan-start">Scan starten</button><button type="button" class="manual-scan-btn danger" id="manual-scan-clear">Token loeschen</button><button type="button" class="manual-scan-btn" data-manual-scan-close>Schliessen</button></div>';
   }
 
-  function show(){
+  function renderOverlay(){
     close();
     injectStyle();
     var overlay = document.createElement('div');
@@ -123,7 +139,7 @@
       if (event.target && event.target.id === 'manual-scan-save-start') {
         var input = document.getElementById('manual-scan-token');
         var value = input ? input.value : '';
-        if (!compact(value)) { status('Bitte zuerst den GitHub Token einfügen.', true); return; }
+        if (!compact(value)) { status('Bitte zuerst den GitHub Token einfuegen.', true); return; }
         saveToken(value);
         startScan();
       }
@@ -133,6 +149,13 @@
     document.body.appendChild(overlay);
     var input = document.getElementById('manual-scan-token');
     if (input) setTimeout(function(){ input.focus(); }, 50);
+  }
+
+  function show(){
+    renderOverlay();
+    refreshLatestScan().then(function(){
+      if (document.querySelector('.manual-scan-overlay')) renderOverlay();
+    });
   }
 
   function friendlyError(err, code){
@@ -166,7 +189,7 @@
       });
     }).then(function(){
       rememberRun();
-      status('Scan gestartet. Die neue Liste erscheint nach ein paar Minuten automatisch über GitHub.');
+      status('Scan gestartet. Die neue Liste erscheint nach ein paar Minuten automatisch ueber GitHub.');
       var btn = document.getElementById('manual-scan-btn');
       if (btn) btn.setAttribute('title', 'Daily Scan gestartet');
       setTimeout(function(){ setBusy(false); close(); }, 1600);
@@ -188,9 +211,9 @@
   }
 
   function apply(){ ensureButton(); }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function(){ apply(); bind(); }, { once: true });
-  else { apply(); bind(); }
-  window.addEventListener('load', apply, { once: true });
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function(){ apply(); bind(); refreshLatestScan(); }, { once: true });
+  else { apply(); bind(); refreshLatestScan(); }
+  window.addEventListener('load', function(){ apply(); refreshLatestScan(); }, { once: true });
   [150, 500, 1200, 2400].forEach(function(delay){ setTimeout(apply, delay); });
   if (window.MutationObserver) {
     new MutationObserver(function(){ window.requestAnimationFrame(apply); })
