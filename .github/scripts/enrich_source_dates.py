@@ -2,8 +2,11 @@
 """Add publisher-page publication dates without changing scan freshness dates.
 
 Google News RSS dates can be crawl/update times. The app should show the
-publisher's own publication date when it can be read from the source page, while
-keeping RSS/display timestamps for new markers, sorting, and retention.
+publisher's own publication date when it can be read from reliable source-page
+metadata, while keeping RSS/display timestamps for new markers, sorting, and
+retention. The extractor is intentionally conservative: old dates from related
+articles, archives, comments, scripts, or page boilerplate must not replace the
+visible article date.
 """
 
 from __future__ import annotations
@@ -31,31 +34,22 @@ except Exception:
 LATEST_FILE = Path("latest-news.json")
 HTML_READ_BYTES = 900_000
 NOW = datetime.now(timezone.utc)
-MIN_DATE = datetime(2004, 1, 1, tzinfo=timezone.utc)
+MIN_DATE = datetime(2020, 1, 1, tzinfo=timezone.utc)
 MAX_DATE = NOW + timedelta(days=1)
+MAX_SOURCE_AGE_BEFORE_RSS_DAYS = 60
+MAX_SOURCE_AGE_AFTER_RSS_DAYS = 2
 
 JSON_LD_RE = re.compile(r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>([\s\S]*?)</script>', re.I)
 META_RE = re.compile(r'<meta\s+([^>]+)>', re.I)
 ATTR_RE = re.compile(r'([\w:-]+)\s*=\s*(["\'])(.*?)\2', re.I | re.S)
 TIME_RE = re.compile(r'<time\b([^>]*)>', re.I)
-MONTH_RE = re.compile(
-    r'\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\s+'
-    r'(\d{1,2}),\s*(20\d{2})\b',
-    re.I,
-)
-ISO_RE = re.compile(r'\b(20\d{2}-\d{2}-\d{2})(?:[T\s][0-2]\d:[0-5]\d(?::[0-5]\d)?(?:\.\d+)?(?:Z|[+-][0-2]\d:?\d{2})?)?\b')
-DATE_KEYS = {
-    'article:published_time', 'article:published', 'og:published_time', 'og:updated_time',
-    'date', 'datepublished', 'publishdate', 'pubdate', 'pub_date', 'published-date',
-    'sailthru.date', 'parsely-pub-date', 'dc.date', 'dc.date.issued', 'dcterms.issued',
-    'citation_publication_date', 'publish_date', 'timestamp', 'datecreated', 'created',
+PUBLISHED_KEYS = {
+    'article:published_time', 'article:published', 'og:published_time',
+    'datepublished', 'publishdate', 'pubdate', 'pub_date', 'published-date',
+    'sailthru.date', 'parsely-pub-date', 'dc.date.issued', 'dcterms.issued',
+    'citation_publication_date', 'publish_date', 'datecreated', 'created',
 }
-MONTHS = {
-    'jan': 1, 'january': 1, 'feb': 2, 'february': 2, 'mar': 3, 'march': 3,
-    'apr': 4, 'april': 4, 'may': 5, 'jun': 6, 'june': 6, 'jul': 7, 'july': 7,
-    'aug': 8, 'august': 8, 'sep': 9, 'sept': 9, 'september': 9, 'oct': 10,
-    'october': 10, 'nov': 11, 'november': 11, 'dec': 12, 'december': 12,
-}
+TIME_ITEMPROPS = {'datepublished', 'datecreated'}
 
 
 def compact(value: Any) -> str:
@@ -90,21 +84,33 @@ def iso_date(dt: datetime) -> str:
     return dt.astimezone(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
 
-def walk_json(value: Any):
+def rss_time(item: dict[str, Any]) -> datetime | None:
+    return parse_time(item.get('rssPublishedAt') or item.get('publishedAt') or item.get('rssDate') or item.get('date'))
+
+
+def plausible_source_date(dt: datetime, item: dict[str, Any]) -> bool:
+    rss = rss_time(item)
+    if not rss:
+        return True
+    earliest = rss - timedelta(days=MAX_SOURCE_AGE_BEFORE_RSS_DAYS)
+    latest = rss + timedelta(days=MAX_SOURCE_AGE_AFTER_RSS_DAYS)
+    return earliest <= dt <= latest
+
+
+def walk_json_published(value: Any):
     if isinstance(value, dict):
         for key, item in value.items():
             low = str(key).lower()
-            if low in {'datepublished', 'datecreated', 'uploaddate', 'publisheddate', 'created'}:
+            if low in {'datepublished', 'datecreated', 'publisheddate'}:
                 yield item
-            elif low in {'dateupdated', 'datemodified', 'modified'}:
-                yield item
-            yield from walk_json(item)
+            elif isinstance(item, (dict, list)):
+                yield from walk_json_published(item)
     elif isinstance(value, list):
         for item in value:
-            yield from walk_json(item)
+            yield from walk_json_published(item)
 
 
-def candidate_dates(raw_html: str) -> list[datetime]:
+def metadata_dates(raw_html: str) -> list[datetime]:
     dates: list[datetime] = []
 
     for match in JSON_LD_RE.finditer(raw_html or ''):
@@ -113,7 +119,7 @@ def candidate_dates(raw_html: str) -> list[datetime]:
             parsed = json.loads(payload)
         except Exception:
             continue
-        for value in walk_json(parsed):
+        for value in walk_json_published(parsed):
             dt = parse_time(value)
             if dt:
                 dates.append(dt)
@@ -121,34 +127,31 @@ def candidate_dates(raw_html: str) -> list[datetime]:
     for match in META_RE.finditer(raw_html or ''):
         attrs = {name.lower(): html.unescape(value).strip() for name, _, value in ATTR_RE.findall(match.group(1))}
         key = (attrs.get('property') or attrs.get('name') or attrs.get('itemprop') or '').lower()
-        if key in DATE_KEYS or 'publish' in key or key.startswith('article:'):
+        if key in PUBLISHED_KEYS:
             dt = parse_time(attrs.get('content'))
             if dt:
                 dates.append(dt)
 
     for match in TIME_RE.finditer(raw_html or ''):
         attrs = {name.lower(): html.unescape(value).strip() for name, _, value in ATTR_RE.findall(match.group(1))}
-        dt = parse_time(attrs.get('datetime') or attrs.get('title'))
-        if dt:
-            dates.append(dt)
-
-    text = html.unescape(re.sub(r'<[^>]+>', ' ', raw_html or ''))
-    for match in MONTH_RE.finditer(text[:120_000]):
-        month = MONTHS.get(match.group(1).lower()[:3])
-        if not month:
-            continue
-        try:
-            dt = datetime(int(match.group(3)), month, int(match.group(2)), tzinfo=timezone.utc)
-            if MIN_DATE <= dt <= MAX_DATE:
+        itemprop = (attrs.get('itemprop') or '').lower()
+        class_name = (attrs.get('class') or '').lower()
+        if itemprop in TIME_ITEMPROPS or 'publish' in class_name or 'date-published' in class_name:
+            dt = parse_time(attrs.get('datetime') or attrs.get('title'))
+            if dt:
                 dates.append(dt)
-        except Exception:
-            pass
-    for match in ISO_RE.finditer(text[:80_000]):
-        dt = parse_time(match.group(0))
-        if dt:
-            dates.append(dt)
 
     return dates
+
+
+def best_source_date(raw_html: str, item: dict[str, Any]) -> datetime | None:
+    candidates = [dt for dt in metadata_dates(raw_html) if plausible_source_date(dt, item)]
+    if not candidates:
+        return None
+    rss = rss_time(item)
+    if not rss:
+        return min(candidates)
+    return min(candidates, key=lambda dt: abs((rss - dt).total_seconds()))
 
 
 def fetch_html(url: str) -> str:
@@ -182,7 +185,18 @@ def source_url(item: dict[str, Any]) -> str:
     return decoded if decoded and 'news.google.' not in decoded else raw
 
 
-def apply_source_date(item: dict[str, Any], dt: datetime) -> bool:
+def apply_source_date(item: dict[str, Any], dt: datetime | None) -> bool:
+    current = parse_time(item.get('sourcePublishedAt'))
+    if current and plausible_source_date(current, item) and dt is None:
+        return False
+    if dt is None:
+        changed = False
+        for key in ('sourcePublishedAt', 'sourceDate', 'publisherPublishedAt', 'publisherDate'):
+            if key in item:
+                item.pop(key, None)
+                changed = True
+        return changed
+
     value = iso_date(dt)
     if item.get('sourcePublishedAt') == value:
         return False
@@ -195,14 +209,16 @@ def apply_source_date(item: dict[str, Any], dt: datetime) -> bool:
 
 
 def enrich_item(item: dict[str, Any], cache: dict[str, datetime | None]) -> bool:
+    if item.get('sourcePublishedAt') and not plausible_source_date(parse_time(item.get('sourcePublishedAt')) or datetime(1900, 1, 1, tzinfo=timezone.utc), item):
+        return apply_source_date(item, None)
+
     url = source_url(item)
     if not url:
-        return False
+        return apply_source_date(item, None)
     if url not in cache:
         raw = fetch_html(url)
-        dates = candidate_dates(raw)
-        cache[url] = min(dates) if dates else None
-    return bool(cache[url] and apply_source_date(item, cache[url]))
+        cache[url] = best_source_date(raw, item) if raw else None
+    return apply_source_date(item, cache[url])
 
 
 def main() -> None:
@@ -225,9 +241,10 @@ def main() -> None:
 
     meta = data.setdefault('scanMeta', {})
     meta['sourceDateEnrichment'] = {
-        'policy': 'publisher_sourcePublishedAt_for_display_only_rss_dates_preserved_for_new_and_retention',
+        'policy': 'publisher_sourcePublishedAt_only_from_structured_metadata_with_rss_plausibility_window',
         'checkedSources': checked,
         'updatedSources': changed,
+        'maxSourceAgeBeforeRssDays': MAX_SOURCE_AGE_BEFORE_RSS_DAYS,
     }
 
     if changed:
