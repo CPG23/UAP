@@ -112,18 +112,18 @@
 
   function createSetupMarkup(){
     return '<h3>Daily Scan starten</h3>' +
-      '<p>Fuer den direkten Start braucht die App einmalig eine GitHub-Freigabe. Der Token bleibt nur auf diesem Geraet.</p>' +
+      '<p>Für den direkten Start braucht die App einmalig eine GitHub-Freigabe. Der Token bleibt nur auf diesem Gerät.</p>' +
       '<a class="manual-scan-help" href="' + esc(TOKEN_URL) + '" target="_blank" rel="noopener noreferrer">TOKEN ERSTELLEN</a>' +
-      '<input class="manual-scan-token" id="manual-scan-token" type="password" autocomplete="off" placeholder="GitHub Token einfuegen">' +
+      '<input class="manual-scan-token" id="manual-scan-token" type="password" autocomplete="off" placeholder="GitHub Token einfügen">' +
       '<div class="manual-scan-status"></div>' +
-      '<div class="manual-scan-actions"><button type="button" class="manual-scan-btn primary" id="manual-scan-save-start">Speichern & starten</button><button type="button" class="manual-scan-btn" data-manual-scan-close>Schliessen</button></div>';
+      '<div class="manual-scan-actions"><button type="button" class="manual-scan-btn primary" id="manual-scan-save-start">Speichern & starten</button><button type="button" class="manual-scan-btn" data-manual-scan-close>Schließen</button></div>';
   }
   function createReadyMarkup(){
     var last = lastRunLabel();
     return '<h3>Daily Scan</h3>' +
       '<p>' + (last ? 'Zuletzt gestarteter Scan: ' + esc(last) + '.' : 'Bereit zum manuellen Start.') + '</p>' +
       '<div class="manual-scan-status"></div>' +
-      '<div class="manual-scan-actions three"><button type="button" class="manual-scan-btn primary" id="manual-scan-start">Scan starten</button><button type="button" class="manual-scan-btn danger" id="manual-scan-clear">Token loeschen</button><button type="button" class="manual-scan-btn" data-manual-scan-close>Schliessen</button></div>';
+      '<div class="manual-scan-actions three"><button type="button" class="manual-scan-btn primary" id="manual-scan-start">Scan starten</button><button type="button" class="manual-scan-btn danger" id="manual-scan-clear">Token löschen</button><button type="button" class="manual-scan-btn" data-manual-scan-close>Schließen</button></div>';
   }
 
   function renderOverlay(){
@@ -139,7 +139,7 @@
       if (event.target && event.target.id === 'manual-scan-save-start') {
         var input = document.getElementById('manual-scan-token');
         var value = input ? input.value : '';
-        if (!compact(value)) { status('Bitte zuerst den GitHub Token einfuegen.', true); return; }
+        if (!compact(value)) { status('Bitte zuerst den GitHub Token einfügen.', true); return; }
         saveToken(value);
         startScan();
       }
@@ -153,6 +153,7 @@
 
   function show(){
     renderOverlay();
+    if (!token()) return;
     refreshLatestScan().then(function(){
       if (document.querySelector('.manual-scan-overlay')) renderOverlay();
     });
@@ -189,7 +190,7 @@
       });
     }).then(function(){
       rememberRun();
-      status('Scan gestartet. Die neue Liste erscheint nach ein paar Minuten automatisch ueber GitHub.');
+      status('Scan gestartet. Die neue Liste erscheint nach ein paar Minuten automatisch über GitHub.');
       var btn = document.getElementById('manual-scan-btn');
       if (btn) btn.setAttribute('title', 'Daily Scan gestartet');
       setTimeout(function(){ setBusy(false); close(); }, 1600);
