@@ -14,7 +14,6 @@ from __future__ import annotations
 import html
 import json
 import re
-import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -44,6 +43,13 @@ JSON_LD_RE = re.compile(r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(
 META_RE = re.compile(r'<meta\s+([^>]+)>', re.I)
 ATTR_RE = re.compile(r'([\w:-]+)\s*=\s*(["\'])(.*?)\2', re.I | re.S)
 TIME_RE = re.compile(r'<time\b([^>]*)>', re.I)
+TAG_RE = re.compile(r'<[^>]+>')
+MONTH_RE = re.compile(
+    r'\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\s+'
+    r'(\d{1,2}),\s*(20\d{2})\b',
+    re.I,
+)
+ISO_RE = re.compile(r'\b(20\d{2}-\d{2}-\d{2})(?:[T\s][0-2]\d:[0-5]\d(?::[0-5]\d)?(?:\.\d+)?(?:Z|[+-][0-2]\d:?\d{2})?)?\b')
 PUBLISHED_KEYS = {
     'article:published_time', 'article:published', 'og:published_time',
     'datepublished', 'publishdate', 'pubdate', 'pub_date', 'published-date',
@@ -51,6 +57,12 @@ PUBLISHED_KEYS = {
     'citation_publication_date', 'publish_date', 'datecreated', 'created',
 }
 TIME_ITEMPROPS = {'datepublished', 'datecreated'}
+MONTHS = {
+    'jan': 1, 'january': 1, 'feb': 2, 'february': 2, 'mar': 3, 'march': 3,
+    'apr': 4, 'april': 4, 'may': 5, 'jun': 6, 'june': 6, 'jul': 7, 'july': 7,
+    'aug': 8, 'august': 8, 'sep': 9, 'sept': 9, 'september': 9, 'oct': 10,
+    'october': 10, 'nov': 11, 'november': 11, 'dec': 12, 'december': 12,
+}
 
 
 def compact(value: Any) -> str:
@@ -152,8 +164,37 @@ def metadata_dates(raw_html: str) -> list[datetime]:
     return dates
 
 
+def visible_header_dates(raw_html: str, item: dict[str, Any]) -> list[datetime]:
+    text = html.unescape(TAG_RE.sub(' ', raw_html or ''))
+    title = compact(item.get('title'))
+    title_pos = text.lower().find(title.lower()[:80]) if title else -1
+    if title_pos >= 0:
+        window = text[title_pos:title_pos + 5000]
+    else:
+        window = text[:8000]
+
+    dates: list[datetime] = []
+    for match in MONTH_RE.finditer(window):
+        month = MONTHS.get(match.group(1).lower()[:3])
+        if not month:
+            continue
+        try:
+            dt = datetime(int(match.group(3)), month, int(match.group(2)), tzinfo=timezone.utc)
+            if plausible_source_date(dt, item):
+                dates.append(dt)
+        except Exception:
+            pass
+    for match in ISO_RE.finditer(window):
+        dt = parse_time(match.group(0))
+        if dt and plausible_source_date(dt, item):
+            dates.append(dt)
+    return dates
+
+
 def best_source_date(raw_html: str, item: dict[str, Any]) -> datetime | None:
     candidates = [dt for dt in metadata_dates(raw_html) if plausible_source_date(dt, item)]
+    if not candidates:
+        candidates = visible_header_dates(raw_html, item)
     if not candidates:
         return None
     rss = rss_time(item)
@@ -264,7 +305,7 @@ def main() -> None:
 
     meta = data.setdefault('scanMeta', {})
     meta['sourceDateEnrichment'] = {
-        'policy': 'publisher_sourcePublishedAt_only_from_structured_metadata_with_rss_plausibility_window',
+        'policy': 'publisher_sourcePublishedAt_from_structured_or_header_date_with_rss_plausibility_window',
         'checkedSources': checked,
         'updatedSources': changed,
         'maxSourceAgeBeforeRssDays': MAX_SOURCE_AGE_BEFORE_RSS_DAYS,
