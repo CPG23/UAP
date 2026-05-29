@@ -193,7 +193,7 @@
       status('Scan gestartet. Die neue Liste erscheint nach ein paar Minuten automatisch über GitHub.');
       var btn = document.getElementById('manual-scan-btn');
       if (btn) btn.setAttribute('title', 'Daily Scan gestartet');
-      setTimeout(function(){ setBusy(false); close(); }, 1600);
+      setTimeout(function(){ setBusy(false); close(); }, 6000);
     }).catch(function(err){
       setBusy(false);
       status(friendlyError(err, err && err.status), true);
