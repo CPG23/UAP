@@ -14,6 +14,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -54,6 +55,13 @@ TIME_ITEMPROPS = {'datepublished', 'datecreated'}
 
 def compact(value: Any) -> str:
     return re.sub(r'\s+', ' ', str(value or '')).strip()
+
+
+def slugify(value: Any) -> str:
+    text = compact(value).lower()
+    text = text.replace('u.s.', 'us')
+    text = re.sub(r'[^a-z0-9]+', '-', text)
+    return text.strip('-')
 
 
 def parse_time(value: Any) -> datetime | None:
@@ -176,13 +184,28 @@ def fetch_html(url: str) -> str:
         return ''
 
 
-def source_url(item: dict[str, Any]) -> str:
+def publisher_url(item: dict[str, Any]) -> str:
+    source = compact(item.get('source')).lower()
+    title = compact(item.get('title'))
+    if 'usa herald' in source and title:
+        return 'https://usaherald.com/' + slugify(title) + '/'
+    return ''
+
+
+def source_urls(item: dict[str, Any]) -> list[str]:
     raw = compact(item.get('link') or item.get('url'))
+    urls: list[str] = []
+    direct = publisher_url(item)
+    if direct:
+        urls.append(direct)
     try:
         decoded = decode_url(raw)
     except Exception:
         decoded = raw
-    return decoded if decoded and 'news.google.' not in decoded else raw
+    for candidate in (decoded, raw):
+        if candidate and 'news.google.' not in candidate and candidate not in urls:
+            urls.append(candidate)
+    return urls
 
 
 def apply_source_date(item: dict[str, Any], dt: datetime | None) -> bool:
@@ -212,13 +235,13 @@ def enrich_item(item: dict[str, Any], cache: dict[str, datetime | None]) -> bool
     if item.get('sourcePublishedAt') and not plausible_source_date(parse_time(item.get('sourcePublishedAt')) or datetime(1900, 1, 1, tzinfo=timezone.utc), item):
         return apply_source_date(item, None)
 
-    url = source_url(item)
-    if not url:
-        return apply_source_date(item, None)
-    if url not in cache:
-        raw = fetch_html(url)
-        cache[url] = best_source_date(raw, item) if raw else None
-    return apply_source_date(item, cache[url])
+    for url in source_urls(item):
+        if url not in cache:
+            raw = fetch_html(url)
+            cache[url] = best_source_date(raw, item) if raw else None
+        if cache[url]:
+            return apply_source_date(item, cache[url])
+    return apply_source_date(item, None)
 
 
 def main() -> None:
