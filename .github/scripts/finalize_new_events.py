@@ -2,9 +2,9 @@
 """Finalize app New markers and push notification events.
 
 The scan pipeline can regroup articles after the initial RSS pass. This final pass
-uses the finished app feed and the previous app feed as the source of truth for
-New markers: if a topic or source was not visible in the previous app feed, it is
-New in the app, regardless of the original article publish date.
+uses the finished app feed and a persistent seen-story ledger as the source of
+truth for New markers: if a topic or source was already visible in the app, it is
+not New again just because Google News later changes its RSS URL or date.
 """
 
 from __future__ import annotations
@@ -21,6 +21,13 @@ PREVIOUS_FILE = Path("previous-latest-news.json")
 SEEN_FILE = Path(".seen-ids.json")
 MAX_NEW_AGE_HOURS = 30
 SPACE_RE = re.compile(r"\s+")
+WORD_RE = re.compile(r"[a-z0-9]+", re.I)
+STOP_WORDS = set(
+    "a an the to of for in on at by with from and or is are was were be been has have had "
+    "will would could should may might this that these those article story report reports news "
+    "new latest update updated says said about into after before over under uap uaps ufo ufos"
+    .split()
+)
 
 
 def compact(value: Any) -> str:
@@ -33,6 +40,40 @@ def title_key(value: Any) -> str:
 
 def stable_hash(value: str) -> str:
     return hashlib.sha1(value.encode("utf-8", errors="ignore")).hexdigest()[:16]
+
+
+def words(value: Any) -> list[str]:
+    return [
+        word.lower()
+        for word in WORD_RE.findall(compact(value))
+        if len(word) > 2 and word.lower() not in STOP_WORDS
+    ]
+
+
+def topic_signature(article: dict[str, Any]) -> str:
+    article_id = compact(article.get("id"))
+    if article_id:
+        return "id:" + article_id
+    tokens = sorted(set(words(article.get("title"))))[:12]
+    return "title:" + " ".join(tokens) if tokens else "title:" + title_key(article.get("title"))
+
+
+def source_signature(source: dict[str, Any], article: dict[str, Any]) -> str:
+    publisher = title_key(source.get("source") or article.get("source"))
+    title = title_key(source.get("title") or article.get("title"))
+    source_date = compact(source.get("sourcePublishedAt") or source.get("sourceDate") or source.get("publisherPublishedAt") or source.get("publisherDate"))[:10]
+    if publisher or title:
+        return "publisher_title:" + publisher + ":" + title + (":" + source_date if source_date else "")
+    link = compact(source.get("link") or source.get("url"))
+    return "link:" + link.lower()
+
+
+def topic_seen_key(article: dict[str, Any]) -> str:
+    return "seen:topic:v2:" + stable_hash(topic_signature(article))
+
+
+def source_seen_key(source: dict[str, Any], article: dict[str, Any]) -> str:
+    return "seen:source:v2:" + stable_hash(topic_signature(article) + "|" + source_signature(source, article))
 
 
 def parse_dt(value: Any) -> datetime | None:
@@ -89,6 +130,10 @@ def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
         "url": article.get("url") or article.get("link") or "",
         "source": article.get("source", ""),
         "publishedAt": article.get("publishedAt") or article.get("date"),
+        "sourcePublishedAt": article.get("sourcePublishedAt"),
+        "sourceDate": article.get("sourceDate"),
+        "publisherPublishedAt": article.get("publisherPublishedAt"),
+        "publisherDate": article.get("publisherDate"),
         "displayedAt": article.get("sourceDisplayedAt") or article.get("displayedAt"),
         "isNew": article.get("sourceIsNew"),
     }
@@ -102,6 +147,10 @@ def source_items(article: dict[str, Any]) -> list[tuple[dict[str, Any], bool]]:
 
 def source_keys(article: dict[str, Any]) -> set[str]:
     return {key for source, _ in source_items(article) if (key := source_key(source))}
+
+
+def stable_source_keys(article: dict[str, Any]) -> set[str]:
+    return {source_seen_key(source, article) for source, _ in source_items(article) if source_signature(source, article)}
 
 
 def match_keys(article: dict[str, Any]) -> list[str]:
@@ -139,20 +188,25 @@ def load_seen() -> set[str]:
 
 
 def save_seen(seen: set[str]) -> None:
-    SEEN_FILE.write_text(json.dumps(sorted(seen)[-1200:], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    SEEN_FILE.write_text(json.dumps(sorted(seen)[-4000:], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def previous_indexes(previous: dict[str, Any]) -> tuple[dict[str, set[str]], set[str], dict[str, str], dict[str, dict[str, Any]]]:
+def previous_indexes(previous: dict[str, Any]) -> tuple[dict[str, set[str]], set[str], dict[str, str], dict[str, dict[str, Any]], set[str], set[str]]:
     by_match: dict[str, set[str]] = {}
     all_sources: set[str] = set()
     article_times: dict[str, str] = {}
     source_state: dict[str, dict[str, Any]] = {}
+    previous_topics: set[str] = set()
+    previous_stable_sources: set[str] = set()
 
     for article in previous.get("articles") or []:
         if not isinstance(article, dict):
             continue
         keys = source_keys(article)
+        stable_keys = stable_source_keys(article)
         all_sources.update(keys)
+        previous_stable_sources.update(stable_keys)
+        previous_topics.add(topic_seen_key(article))
         displayed = compact(article.get("displayedAt") or natural_article_time(article))
         for match in match_keys(article):
             by_match.setdefault(match, set()).update(keys)
@@ -160,12 +214,16 @@ def previous_indexes(previous: dict[str, Any]) -> tuple[dict[str, set[str]], set
                 article_times.setdefault(match, displayed)
         for source, primary in source_items(article):
             key = source_key(source)
-            if not key:
+            stable_key = source_seen_key(source, article)
+            if not key and not stable_key:
                 continue
             shown_at = compact(source.get("displayedAt") or source.get("sourceDisplayedAt") or article.get("sourceDisplayedAt") or article.get("displayedAt"))
             was_new = bool(source.get("isNew") or (primary and article.get("sourceIsNew")))
-            source_state.setdefault(key, {"displayedAt": shown_at, "isNew": was_new})
-    return by_match, all_sources, article_times, source_state
+            if key:
+                source_state.setdefault(key, {"displayedAt": shown_at, "isNew": was_new})
+            if stable_key:
+                source_state.setdefault(stable_key, {"displayedAt": shown_at, "isNew": was_new})
+    return by_match, all_sources, article_times, source_state, previous_topics, previous_stable_sources
 
 
 def matched_sources(article: dict[str, Any], by_match: dict[str, set[str]], all_previous_sources: set[str]) -> set[str]:
@@ -198,12 +256,21 @@ def clear_primary_new(article: dict[str, Any], fallback: str) -> None:
 def finalize(data: dict[str, Any], previous: dict[str, Any]) -> None:
     now = scan_time(data)
     timestamp = now.strftime("%Y-%m-%dT%H:%M:%SZ")
-    by_match, all_previous_sources, article_times, source_state = previous_indexes(previous)
+    by_match, all_previous_sources, article_times, source_state, previous_topics, previous_stable_sources = previous_indexes(previous)
     seen = load_seen()
+    seeded_seen: set[str] = set()
     fresh_seen: set[str] = set()
+    visible_seen: set[str] = set()
     notification_ids: list[str] = []
     corrected_old_sources = 0
     fresh_source_count = 0
+    resurfaced_suppressed = 0
+
+    for article in previous.get("articles") or []:
+        if isinstance(article, dict):
+            seeded_seen.add(topic_seen_key(article))
+            seeded_seen.update(stable_source_keys(article))
+    seen.update(seeded_seen)
 
     for article in data.get("articles") or []:
         if not isinstance(article, dict):
@@ -215,27 +282,33 @@ def finalize(data: dict[str, Any], previous: dict[str, Any]) -> None:
         article_time = natural_article_time(article)
         current_keys = source_keys(article)
         previous_keys = matched_sources(article, by_match, all_previous_sources)
-        known_as_existing = bool(previous_keys or (current_keys & all_previous_sources))
+        topic_key = topic_seen_key(article)
+        topic_already_seen = topic_key in seen or topic_key in previous_topics
+        known_as_existing = bool(previous_keys or (current_keys & all_previous_sources) or topic_already_seen)
         event_keys: set[str] = set()
         has_fresh_source = False
         has_preserved_new_source = False
 
+        visible_seen.add(topic_key)
+
         for source, primary in source_items(article):
             key = source_key(source)
-            if not key:
+            stable_key = source_seen_key(source, article)
+            if not key and not stable_key:
                 continue
             source_time = natural_source_time(source, article)
-            source_known = key in previous_keys or key in all_previous_sources
-            prior = source_state.get(key, {})
+            source_known = key in previous_keys or key in all_previous_sources or stable_key in seen or stable_key in previous_stable_sources
+            prior = source_state.get(key, {}) or source_state.get(stable_key, {})
             prior_new = bool(prior.get("isNew")) and is_recent(prior.get("displayedAt"), now)
+            visible_seen.add(stable_key)
 
-            if not source_known:
+            if not source_known and stable_key not in seen:
                 if primary:
                     set_primary_new(article, timestamp)
                 else:
                     source["isNew"] = True
                     source["displayedAt"] = timestamp
-                event_keys.add("final:source:" + article_id + ":" + stable_hash(key))
+                event_keys.add(stable_key)
                 has_fresh_source = True
                 fresh_source_count += 1
             elif prior_new:
@@ -253,10 +326,14 @@ def finalize(data: dict[str, Any], previous: dict[str, Any]) -> None:
                     if source.pop("isNew", None):
                         corrected_old_sources += 1
                     source["displayedAt"] = source_time or compact(prior.get("displayedAt")) or previous_article_time(article, article_times) or article_time or timestamp
+                if not source_known and stable_key in seen:
+                    resurfaced_suppressed += 1
 
-        is_new_topic = not known_as_existing
+        is_new_topic = not known_as_existing and topic_key not in seen
         if is_new_topic:
-            event_keys.add("final:topic:" + article_id + ":" + stable_hash(article_time or compact(article.get("title"))))
+            event_keys.add(topic_key)
+        elif not known_as_existing and topic_key in seen:
+            resurfaced_suppressed += 1
 
         fresh_events = {key for key in event_keys if key not in seen}
         if fresh_events:
@@ -282,16 +359,19 @@ def finalize(data: dict[str, Any], previous: dict[str, Any]) -> None:
             if article_id in by_id
         ],
     }
-    if fresh_seen:
+    if fresh_seen or visible_seen or seeded_seen:
         seen.update(fresh_seen)
+        seen.update(visible_seen)
         save_seen(seen)
 
     meta = data.setdefault("scanMeta", {})
     meta["finalNewEvents"] = {
-        "policy": "new_marker_for_topics_or_sources_not_in_previous_app_feed",
+        "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
         "notifications": len(notification_ids),
         "freshSources": fresh_source_count,
         "correctedOldSourceMarkers": corrected_old_sources,
+        "resurfacedSeenItemsSuppressed": resurfaced_suppressed,
+        "seededSeenFromPreviousFeed": len(seeded_seen),
     }
 
 
