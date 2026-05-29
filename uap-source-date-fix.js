@@ -6,6 +6,8 @@
   var STYLE_ID = 'uap-source-date-fix-style';
   var sourceDateByLink = {};
   var feedLoaded = false;
+  var MAX_BEFORE_MS = 60 * 24 * 60 * 60 * 1000;
+  var MAX_AFTER_MS = 2 * 24 * 60 * 60 * 1000;
 
   function compact(value){ return String(value == null ? '' : value).replace(/\s+/g, ' ').trim(); }
   function linkKey(value){ return compact(value).toLowerCase(); }
@@ -14,6 +16,11 @@
     if (!text) return 0;
     var time = Date.parse(text.length <= 10 ? text + 'T00:00:00Z' : text);
     return isNaN(time) ? 0 : time;
+  }
+  function plausible(candidate, reference){
+    if (!candidate) return false;
+    if (!reference) return true;
+    return candidate >= reference - MAX_BEFORE_MS && candidate <= reference + MAX_AFTER_MS;
   }
   function formatDate(value){
     var time = parseDate(value);
@@ -24,10 +31,12 @@
       return new Date(time).toISOString().slice(0, 10);
     }
   }
-  function sourceDate(source, article){
-    return compact(
-      source && (source.sourcePublishedAt || source.sourceDate || source.publisherPublishedAt || source.publisherDate || source.publishedAt || source.date || source.displayedAt || source.sourceDisplayedAt || source.firstDisplayedAt || source.detectedAt || source.createdAt)
-    ) || compact(article && (article.sourcePublishedAt || article.sourceDate || article.publisherPublishedAt || article.publisherDate || article.publishedAt || article.date || article.sourceDisplayedAt || article.displayedAt));
+  function preferredSourceDate(source, article){
+    var sourceDate = compact(source && (source.sourcePublishedAt || source.sourceDate || source.publisherPublishedAt || source.publisherDate));
+    var sourceTime = parseDate(sourceDate);
+    var referenceTime = parseDate(source && (source.rssPublishedAt || source.publishedAt || source.rssDate || source.date)) || parseDate(article && (article.rssPublishedAt || article.publishedAt || article.rssDate || article.date));
+    if (plausible(sourceTime, referenceTime)) return sourceDate;
+    return compact(source && (source.publishedAt || source.date || source.displayedAt || source.sourceDisplayedAt || source.firstDisplayedAt || source.detectedAt || source.createdAt)) || compact(article && (article.publishedAt || article.date || article.sourceDisplayedAt || article.displayedAt));
   }
   function remember(link, date){
     var key = linkKey(link);
@@ -38,10 +47,10 @@
     sourceDateByLink = {};
     (feed && feed.articles || []).forEach(function(article){
       if (!article || typeof article !== 'object') return;
-      remember(article.link || article.url, sourceDate(article, article));
+      remember(article.link || article.url, preferredSourceDate(article, article));
       (article.otherSources || []).forEach(function(source){
         if (!source || typeof source !== 'object') return;
-        remember(source.link || source.url, sourceDate(source, article));
+        remember(source.link || source.url, preferredSourceDate(source, article));
       });
     });
     feedLoaded = true;
