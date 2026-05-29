@@ -26,8 +26,8 @@
   }
   function sourceDate(source, article){
     return compact(
-      source && (source.publishedAt || source.date || source.displayedAt || source.sourceDisplayedAt || source.firstDisplayedAt || source.detectedAt || source.createdAt)
-    ) || compact(article && (article.publishedAt || article.date || article.sourceDisplayedAt || article.displayedAt));
+      source && (source.sourcePublishedAt || source.sourceDate || source.publisherPublishedAt || source.publisherDate || source.publishedAt || source.date || source.displayedAt || source.sourceDisplayedAt || source.firstDisplayedAt || source.detectedAt || source.createdAt)
+    ) || compact(article && (article.sourcePublishedAt || article.sourceDate || article.publisherPublishedAt || article.publisherDate || article.publishedAt || article.date || article.sourceDisplayedAt || article.displayedAt));
   }
   function remember(link, date){
     var key = linkKey(link);
