@@ -11,6 +11,7 @@ on:
       - .github/scripts/daily_scan.py
       - .github/scripts/split_unrelated_sources.py
       - .github/scripts/enrich_summaries.py
+      - .github/scripts/enrich_source_dates.py
       - .github/scripts/sync_summaries.py
       - .github/scripts/source_quality_adjust.py
       - .github/scripts/regroup_topics.py
@@ -96,6 +97,7 @@ jobs:
           python3 .github/scripts/final_cluster_guard.py
           python3 .github/scripts/filter_unreachable_articles.py
           python3 .github/scripts/preserve_retained_app_articles.py
+          python3 .github/scripts/enrich_source_dates.py
           python3 .github/scripts/mark_new_sources.py
           python3 .github/scripts/normalize_new_markers.py
           python3 .github/scripts/finalize_new_events.py
