@@ -163,7 +163,7 @@
     var message = compact(err && err.message) || 'Der Scan konnte nicht gestartet werden.';
     if (code === 401 || /bad credentials/i.test(message)) return 'GitHub hat den Token abgelehnt.';
     if (code === 403 || /resource not accessible|permission/i.test(message)) return 'Der Token darf diesen Workflow nicht starten.';
-    if (code === 404) return 'GitHub findet den Daily-Scan-Workflow nicht.';
+    if (code === 404) return 'Der Scan konnte in der App nicht gefunden werden.';
     return message;
   }
 
@@ -184,13 +184,13 @@
     }).then(function(resp){
       if (resp.status === 204) return null;
       return resp.json().catch(function(){ return {}; }).then(function(body){
-        var err = new Error(body && body.message || ('GitHub Antwort ' + resp.status));
+        var err = new Error(body && body.message || ('Antwort ' + resp.status));
         err.status = resp.status;
         throw err;
       });
     }).then(function(){
       rememberRun();
-      status('Scan gestartet. Die neue Liste erscheint nach ein paar Minuten automatisch über GitHub.');
+      status('Scan gestartet. Die neue Liste erscheint nach ein paar Minuten automatisch in der App.');
       var btn = document.getElementById('manual-scan-btn');
       if (btn) btn.setAttribute('title', 'Daily Scan gestartet');
       setTimeout(function(){ setBusy(false); close(); }, 6000);
