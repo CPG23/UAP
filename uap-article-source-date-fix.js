@@ -5,6 +5,8 @@
 
   var datesById = {};
   var loaded = false;
+  var MAX_BEFORE_MS = 60 * 24 * 60 * 60 * 1000;
+  var MAX_AFTER_MS = 2 * 24 * 60 * 60 * 1000;
 
   function compact(value){ return String(value == null ? '' : value).replace(/\s+/g, ' ').trim(); }
   function slug(value){ return compact(value).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'article'; }
@@ -14,6 +16,11 @@
     var time = Date.parse(text.length <= 10 ? text + 'T00:00:00Z' : text);
     return isNaN(time) ? 0 : time;
   }
+  function plausible(candidate, reference){
+    if (!candidate) return false;
+    if (!reference) return true;
+    return candidate >= reference - MAX_BEFORE_MS && candidate <= reference + MAX_AFTER_MS;
+  }
   function formatDate(value){
     var time = parseDate(value);
     if (!time) return '';
@@ -22,7 +29,10 @@
   }
   function articleId(article){ return compact(article && article.id) || slug(article && article.title); }
   function sourceDisplayDate(article){
-    return compact(article && (article.sourcePublishedAt || article.sourceDate || article.publisherPublishedAt || article.publisherDate));
+    var sourceDate = compact(article && (article.sourcePublishedAt || article.sourceDate || article.publisherPublishedAt || article.publisherDate));
+    var sourceTime = parseDate(sourceDate);
+    var referenceTime = parseDate(article && (article.rssPublishedAt || article.publishedAt || article.rssDate || article.date));
+    return plausible(sourceTime, referenceTime) ? sourceDate : '';
   }
   function buildMap(feed){
     datesById = {};
