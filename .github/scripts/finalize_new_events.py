@@ -61,9 +61,8 @@ def topic_signature(article: dict[str, Any]) -> str:
 def source_signature(source: dict[str, Any], article: dict[str, Any]) -> str:
     publisher = title_key(source.get("source") or article.get("source"))
     title = title_key(source.get("title") or article.get("title"))
-    source_date = compact(source.get("sourcePublishedAt") or source.get("sourceDate") or source.get("publisherPublishedAt") or source.get("publisherDate"))[:10]
     if publisher or title:
-        return "publisher_title:" + publisher + ":" + title + (":" + source_date if source_date else "")
+        return "publisher_title:" + publisher + ":" + title
     link = compact(source.get("link") or source.get("url"))
     return "link:" + link.lower()
 
