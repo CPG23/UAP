@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "1 neuer Artikel",
+  "message": "──────────────\n\nMITRE moves to comply with lawmaker’s request for UAP records and assets dating back to 1930\n\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
