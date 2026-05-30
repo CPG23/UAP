@@ -183,16 +183,26 @@ def is_blocked(article: dict[str, Any], blocked: set[str]) -> bool:
 
 def archive_candidates(previous: dict[str, Any], archive: dict[str, Any], blocked: set[str]) -> list[dict[str, Any]]:
     candidates: list[dict[str, Any]] = []
-    seen: set[str] = set()
+    by_key: dict[str, dict[str, Any]] = {}
     for payload in (previous, archive):
         for article in payload.get("articles") or []:
             if not isinstance(article, dict) or not compact(article.get("title")) or is_blocked(article, blocked):
                 continue
             key = archive_key(article)
-            if key in seen:
+            existing = by_key.get(key)
+            if not existing:
+                by_key[key] = article
                 continue
-            seen.add(key)
-            candidates.append(article)
+            existing_summary = compact(existing.get("summary"))
+            candidate_summary = compact(article.get("summary"))
+            if len(candidate_summary) >= 180 and len(candidate_summary) > len(existing_summary):
+                merged = dict(existing)
+                merged["summary"] = candidate_summary
+                merged.pop("summaryStatus", None)
+                if article.get("translation"):
+                    merged["translation"] = article.get("translation")
+                by_key[key] = merged
+    candidates.extend(by_key.values())
     return candidates
 
 
