@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-30T06:13:44Z",
+  "timestamp": "2026-05-30T08:52:15Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -559,24 +559,16 @@
     "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Dr. Hal Puthoff, a former CIA‑funded researcher, said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs, citing people involved in the recoveries. Dr. Eric Davis identified the species as Grays, Nordics, Insectoids, and Reptilians, describing each as humanoid with two arms and legs, and noting that Nordics and Reptilians are about six feet tall. Nordics are described as highly human‑like and resembling northern Europeans, while Reptilians are scaley, lizard‑like with human limbs and long tails; Grays are small, massive‑eyed, hairless, and Insectoids resemble mantises. Former Air Force Intelligence officer David Grusch testified in 2023 that the U.S. possessed non‑human biologics recovered from dozens of crashed UFOs. These claims are based on testimony from members of a crash‑retrieval program featured in Dan Farrah’s film “Age of Disclosure,” and Farrah reported that interviewees have declined to speak publicly."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-30T06:13:44Z",
-    "ids": [
-      "lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens"
-    ],
-    "articles": [
-      {
-        "id": "lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens",
-        "title": "Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens",
-        "source": "Washington Times"
-      }
-    ]
+    "timestamp": "2026-05-30T08:52:15Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 353,
-    "broadTopics": 166,
+    "broadArticles": 356,
+    "broadTopics": 170,
     "notificationArticles": 3,
     "notificationTopics": 3,
-    "newNotificationTopics": 1,
+    "newNotificationTopics": 0,
     "appTopics": 7,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -584,7 +576,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 3,
+    "regroupedTopics": 4,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -635,7 +627,7 @@
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v4_exclude_distinct_sightings",
       "primaryId": "file-release-multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure",
-      "sources": 14,
+      "sources": 12,
       "cleanedArticles": 0,
       "removedDuplicateTopics": 1,
       "staleSummariesCleared": 0,
@@ -657,7 +649,7 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v3_skip_unreachable",
-      "archiveCandidates": 6,
+      "archiveCandidates": 7,
       "currentBeforeRestore": 4,
       "restoredArticles": 3,
       "blockedUnreachableTitles": 0,
@@ -677,7 +669,7 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 7,
-      "newSources": 2
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -687,11 +679,11 @@
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 22
+      "seededSeenFromPreviousFeed": 24
     }
   },
   "translations": {
