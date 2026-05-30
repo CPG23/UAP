@@ -97,6 +97,9 @@ jobs:
           python3 .github/scripts/final_cluster_guard.py
           python3 .github/scripts/filter_unreachable_articles.py
           python3 .github/scripts/preserve_retained_app_articles.py
+          python3 .github/scripts/repair_article_summaries.py
+          python3 .github/scripts/summary_quality_gate.py
+          python3 .github/scripts/final_sync_visible_summaries.py
           python3 .github/scripts/enrich_source_dates.py
           python3 .github/scripts/mark_new_sources.py
           python3 .github/scripts/normalize_new_markers.py
