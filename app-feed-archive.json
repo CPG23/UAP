@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-30T12:01:38Z",
+  "timestamp": "2026-05-30T19:56:22Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -318,17 +318,17 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "file-release-multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure",
-      "title": "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure",
+      "id": "televangelist-s-ufo-warning-goes-viral-as-america-waits-for-disclosure-and-proof",
+      "title": "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof",
       "source": "USA Herald",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcW8xdnY3aHk4NS1GcGlFSkJfTkNSNE1iNllTZUF5TmpMc0Zibkc0dU5oQnpPV0JvV0YxWXptMGx4LWhJX2JkRkxjemRFSmRzenFsOElRaVdTTXVQTWZuelVVbHVyMlZVSWhzNkRBRGxJZ1hLN3ZTRG9HR0F0UGZwUWdrSlZkdDI2WVJ2elE4emNaNWxiOGUzWjAzcS0wdFhKeVI1a3MwenMwWklLS3VlbFVha0xyRW9wRU1heGxYVl9UVko1REJXRzktTThqUHFHcHlldUwycTIwMUlyb2NvTGZFZzBvQTg?oc=5",
-      "date": "2026-05-29",
-      "publishedAt": "2026-05-29T21:36:14Z",
-      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORjVrWDEzUHM5NF8zcjZDdlNZVkNvUUN6NkxHaGpVMTBYcl9Pd3lBZmpMZVJ0RnhENTh4SmNsY1VzQnNrNWVaRDlsWTQwQzgtQXdHWU43cXdqRkc4X3pVZ3NwZ0tib3hGT05pRzN5LV8tVHptZTRQb1hfRnE1TzRaSVFMNVZxd1poRXlfcTNrZXVVakpYYnhDYXRBME0yZGFMOHM5Zw?oc=5",
+      "date": "2026-05-30",
+      "publishedAt": "2026-05-30T05:59:45Z",
+      "summary": "The UFO disclosure debate has moved into the pulpit. Cleveland‑based televangelist Perry Stone said pastors in an undisclosed state were warned by people linked to the U.S. government to prepare their congregations for upcoming disclosures about non‑human craft and materials. Stone claims the warnings concern imminent UFO and alien disclosure. The allegations remain unverified. Congress, NASA, the Pentagon, and the Trump administration are facing growing pressure for UAP transparency.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 56,
+      "quality": 61,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -337,8 +337,8 @@
         },
         {
           "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+          "points": 6,
+          "text": "AMERICA, DISCLOSURE als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
@@ -347,7 +347,7 @@
         },
         {
           "label": "Titel",
-          "points": 2,
+          "points": 4,
           "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
@@ -363,19 +363,13 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
+        "AMERICA",
         "DISCLOSURE"
       ],
-      "sourceQuality": 56,
-      "displayedAt": "2026-05-29T06:44:27Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "rssPublishedAt": "2026-05-29T21:36:14Z",
-      "rssDate": "2026-05-29",
-      "sourcePublishedAt": "2026-05-06T04:39:09Z",
-      "sourceDisplayedAt": "2026-05-29T06:44:27Z",
-      "retainedFromPreviousScan": true
+      "sourceQuality": 61,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-05-30T19:56:22Z"
     },
     {
       "id": "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception",

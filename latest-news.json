@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-30T12:01:38Z",
+  "timestamp": "2026-05-30T19:56:22Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -317,17 +317,17 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "file-release-multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure",
-      "title": "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure",
+      "id": "televangelist-s-ufo-warning-goes-viral-as-america-waits-for-disclosure-and-proof",
+      "title": "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof",
       "source": "USA Herald",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcW8xdnY3aHk4NS1GcGlFSkJfTkNSNE1iNllTZUF5TmpMc0Zibkc0dU5oQnpPV0JvV0YxWXptMGx4LWhJX2JkRkxjemRFSmRzenFsOElRaVdTTXVQTWZuelVVbHVyMlZVSWhzNkRBRGxJZ1hLN3ZTRG9HR0F0UGZwUWdrSlZkdDI2WVJ2elE4emNaNWxiOGUzWjAzcS0wdFhKeVI1a3MwenMwWklLS3VlbFVha0xyRW9wRU1heGxYVl9UVko1REJXRzktTThqUHFHcHlldUwycTIwMUlyb2NvTGZFZzBvQTg?oc=5",
-      "date": "2026-05-29",
-      "publishedAt": "2026-05-29T21:36:14Z",
-      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORjVrWDEzUHM5NF8zcjZDdlNZVkNvUUN6NkxHaGpVMTBYcl9Pd3lBZmpMZVJ0RnhENTh4SmNsY1VzQnNrNWVaRDlsWTQwQzgtQXdHWU43cXdqRkc4X3pVZ3NwZ0tib3hGT05pRzN5LV8tVHptZTRQb1hfRnE1TzRaSVFMNVZxd1poRXlfcTNrZXVVakpYYnhDYXRBME0yZGFMOHM5Zw?oc=5",
+      "date": "2026-05-30",
+      "publishedAt": "2026-05-30T05:59:45Z",
+      "summary": "The UFO disclosure debate has moved into the pulpit. Cleveland‑based televangelist Perry Stone said pastors in an undisclosed state were warned by people linked to the U.S. government to prepare their congregations for upcoming disclosures about non‑human craft and materials. Stone claims the warnings concern imminent UFO and alien disclosure. The allegations remain unverified. Congress, NASA, the Pentagon, and the Trump administration are facing growing pressure for UAP transparency.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 56,
+      "quality": 61,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -336,8 +336,8 @@
         },
         {
           "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+          "points": 6,
+          "text": "AMERICA, DISCLOSURE als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
@@ -346,7 +346,7 @@
         },
         {
           "label": "Titel",
-          "points": 2,
+          "points": 4,
           "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
@@ -362,20 +362,32 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
+        "AMERICA",
         "DISCLOSURE"
       ],
-      "sourceQuality": 56,
-      "displayedAt": "2026-05-29T06:44:27Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "rssPublishedAt": "2026-05-29T21:36:14Z",
-      "rssDate": "2026-05-29",
-      "sourcePublishedAt": "2026-05-06T04:39:09Z",
-      "sourceDisplayedAt": "2026-05-29T06:44:27Z",
-      "retainedFromPreviousScan": true,
-      "sourceIsNew": true
+      "sourceQuality": 61,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-05-30T19:56:22Z",
+      "rssPublishedAt": "2026-05-30T05:59:45Z",
+      "rssDate": "2026-05-30",
+      "sourcePublishedAt": "2026-05-05T07:23:47Z",
+      "sourceDisplayedAt": "2026-05-30T19:56:22Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof",
+          "summary": "The UFO disclosure debate has moved into the pulpit. Cleveland‑based televangelist Perry Stone said pastors in an undisclosed state were warned by people linked to the U.S. government to prepare their congregations for upcoming disclosures about non‑human craft and materials. Stone claims the warnings concern imminent UFO and alien disclosure.",
+          "sourceHash": "bc9db29ef868e745e07076475925f7c55f5a7831",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Die UFO-Warnung von Televangelist geht viral, während Amerika auf Offenlegung und Beweise wartet",
+          "summary": "Die Debatte über die Enthüllung von UFOs ist auf die Kanzel gewandert. Der in Cleveland ansässige Fernsehevangelist Perry Stone sagte, Pastoren in einem unbekannten Staat seien von Personen mit Verbindungen zur US-Regierung gewarnt worden, ihre Gemeinden auf bevorstehende Enthüllungen über nichtmenschliche Handwerkskunst und Materialien vorzubereiten. Stone behauptet, die Warnungen beträfen die bevorstehende Enthüllung von UFOs und Außerirdischen.",
+          "sourceHash": "bc9db29ef868e745e07076475925f7c55f5a7831",
+          "provider": "google"
+        }
+      }
     },
     {
       "id": "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception",
@@ -522,7 +534,7 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNUtRemotYTJtb1cxekRuS1AwRmxWdVlnaGQyYmpfb2JrYUhkblJ4cGktRFVQU01LNjI0UHg3bDRZT0VXYnIyWEpOb3pzeFIwNld2eUtEQlZRUFZMNkZjMy1jY1J1T0xDODl0T1UxekkwZGh0MEJLRlhkOHFKU0JaRlFRSk1hbVIybm1vZA?oc=5",
       "date": "2026-05-27",
       "publishedAt": "2026-05-27T20:25:07Z",
-      "summary": "",
+      "summary": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work. A MITRE spokesperson said that if relevant material is found, the company will coordinate with federal agencies to provide the assets. The request is part of a broader congressional effort to increase UAP disclosure, though no evidence of extraterrestrial activity has been confirmed.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -548,15 +560,27 @@
       "matchedTerms": [],
       "sourceQuality": 49,
       "displayedAt": "2026-05-30T12:01:38Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
       "rssPublishedAt": "2026-05-27T20:25:07Z",
       "rssDate": "2026-05-27",
       "sourcePublishedAt": "2026-05-27T20:22:30Z",
       "sourceDisplayedAt": "2026-05-30T12:01:38Z",
-      "sourceIsNew": true
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "MITRE moves to comply with lawmaker’s request for UAP records and assets dating back to 1930",
+          "summary": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work.",
+          "sourceHash": "0b0b505182b773c6d362923ae7f0c4bf105c9b27",
+          "provider": "original"
+        },
+        "de": {
+          "title": "MITRE kommt der Forderung des Gesetzgebers nach UAP-Aufzeichnungen und Vermögenswerten aus dem Jahr 1930 nach",
+          "summary": "Die MITRE Corporation überprüft ihre Archive, um einer Anfrage des Abgeordneten Eric Burlison nach UAP-Aufzeichnungen aus dem Jahr 1930 nachzukommen und herauszufinden, ob die Organisation jemals Informationen über nicht identifizierte anomale Phänomene besessen oder verarbeitet hat. In der Anfrage, die mehr als 40 spezifische Datenanfragen und Anweisungen zur Benennung eines hochrangigen Beamten, zur Ausstellung einer Aufbewahrungssperre und zur Übermittlung nicht klassifizierter Unterlagen innerhalb von 45 Tagen umfasst, werden auch Unterlagen gefordert, die große Verteidigungsunternehmen und UAP-bezogene Arbeiten betreffen.",
+          "sourceHash": "0b0b505182b773c6d362923ae7f0c4bf105c9b27",
+          "provider": "google"
+        }
+      }
     },
     {
       "id": "lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens",
@@ -595,29 +619,31 @@
     }
   ],
   "summaries": {
-    "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception": "Florida Representative Anna Paulina Luna publicly linked the ongoing UAP discussion to themes in the Book of Enoch, suggesting a possible connection between unidentified aerial phenomena and ancient accounts of heavenly beings. Luna’s remarks contrast with the evidence‑driven tone that has characterized recent disclosure efforts, but she frames the link through the interdimensional hypothesis and Carl Sagan’s Flatland analogy, which explain how beings from other dimensions might appear incomprehensible. The modern UAP conversation, recognized by NASA and the Department of Defense, includes documented observations of objects that accelerate suddenly, travel across media, and behave in ways that do not match known propulsion or aerodynamics. The Book of Enoch describes Watchers who descend from the heavens, interact with humanity, and impart advanced knowledge, and Luna notes structural parallels between these narratives and the interdimensional hypothesis, though she does not claim the texts provide scientific evidence. At present there is no verified evidence that UAPs are linked to the entities described in the Book of Enoch; the connection remains speculative and will depend on future evidence. The discussion around UFOs has broadened to include questions of reality, perception, and long‑standing encounters with the unknown, challenging policymakers to distinguish belief, theory, and evidence.",
-    "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released. The FBI is investigating a series of missing and dead scientists linked to secret nuclear and UFO programs, including the disappearance of retired General William Neil McCasland. Other scientists, such as David Wilcock, have also died under suspicious circumstances, adding to the pattern of unexplained losses.",
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
     "sighting-trump-s-alien-gov-reveal-turns-into-immigration-satire-and-leaves-ufo-disclosure-community-furious": "The launch of Alien.gov, expected by many to be a historic UFO disclosure, instead delivered a political immigration message. The rollout sparked backlash from UFO researchers, disclosure advocates, and ordinary Americans who sought answers. Critics compared the event to former Arizona Governor Fife Symington’s handling of the Phoenix Lights, questioning government credibility. The controversy raises concerns about public trust and transparency.",
-    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Dr. Hal Puthoff, a former CIA‑funded researcher, said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs, citing people involved in the recoveries. Dr. Eric Davis identified the species as Grays, Nordics, Insectoids, and Reptilians, describing each as humanoid with two arms and legs, and noting that Nordics and Reptilians are about six feet tall. Nordics are described as highly human‑like and resembling northern Europeans, while Reptilians are scaley, lizard‑like with human limbs and long tails; Grays are small, massive‑eyed, hairless, and Insectoids resemble mantises. Former Air Force Intelligence officer David Grusch testified in 2023 that the U.S. possessed non‑human biologics recovered from dozens of crashed UFOs. These claims are based on testimony from members of a crash‑retrieval program featured in Dan Farrah’s film “Age of Disclosure,” and Farrah reported that interviewees have declined to speak publicly."
+    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Dr. Hal Puthoff, a former CIA‑funded researcher, said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs, citing people involved in the recoveries. Dr. Eric Davis identified the species as Grays, Nordics, Insectoids, and Reptilians, describing each as humanoid with two arms and legs, and noting that Nordics and Reptilians are about six feet tall. Nordics are described as highly human‑like and resembling northern Europeans, while Reptilians are scaley, lizard‑like with human limbs and long tails; Grays are small, massive‑eyed, hairless, and Insectoids resemble mantises. Former Air Force Intelligence officer David Grusch testified in 2023 that the U.S. possessed non‑human biologics recovered from dozens of crashed UFOs. These claims are based on testimony from members of a crash‑retrieval program featured in Dan Farrah’s film “Age of Disclosure,” and Farrah reported that interviewees have declined to speak publicly.",
+    "televangelist-s-ufo-warning-goes-viral-as-america-waits-for-disclosure-and-proof": "The UFO disclosure debate has moved into the pulpit. Cleveland‑based televangelist Perry Stone said pastors in an undisclosed state were warned by people linked to the U.S. government to prepare their congregations for upcoming disclosures about non‑human craft and materials. Stone claims the warnings concern imminent UFO and alien disclosure. The allegations remain unverified. Congress, NASA, the Pentagon, and the Trump administration are facing growing pressure for UAP transparency.",
+    "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception": "Florida Representative Anna Paulina Luna publicly linked the ongoing UAP discussion to themes in the Book of Enoch, suggesting a possible connection between unidentified aerial phenomena and ancient accounts of heavenly beings. Luna’s remarks contrast with the evidence‑driven tone that has characterized recent disclosure efforts, but she frames the link through the interdimensional hypothesis and Carl Sagan’s Flatland analogy, which explain how beings from other dimensions might appear incomprehensible. The modern UAP conversation, recognized by NASA and the Department of Defense, includes documented observations of objects that accelerate suddenly, travel across media, and behave in ways that do not match known propulsion or aerodynamics. The Book of Enoch describes Watchers who descend from the heavens, interact with humanity, and impart advanced knowledge, and Luna notes structural parallels between these narratives and the interdimensional hypothesis, though she does not claim the texts provide scientific evidence. At present there is no verified evidence that UAPs are linked to the entities described in the Book of Enoch; the connection remains speculative and will depend on future evidence. The discussion around UFOs has broadened to include questions of reality, perception, and long‑standing encounters with the unknown, challenging policymakers to distinguish belief, theory, and evidence.",
+    "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released. The FBI is investigating a series of missing and dead scientists linked to secret nuclear and UFO programs, including the disappearance of retired General William Neil McCasland. Other scientists, such as David Wilcock, have also died under suspicious circumstances, adding to the pattern of unexplained losses.",
+    "program-mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work. A MITRE spokesperson said that if relevant material is found, the company will coordinate with federal agencies to provide the assets. The request is part of a broader congressional effort to increase UAP disclosure, though no evidence of extraterrestrial activity has been confirmed."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-30T12:01:38Z",
+    "timestamp": "2026-05-30T19:56:22Z",
     "ids": [
-      "program-mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930"
+      "televangelist-s-ufo-warning-goes-viral-as-america-waits-for-disclosure-and-proof"
     ],
     "articles": [
       {
-        "id": "program-mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930",
-        "title": "MITRE moves to comply with lawmaker’s request for UAP records and assets dating back to 1930",
-        "source": "DefenseScoop"
+        "id": "televangelist-s-ufo-warning-goes-viral-as-america-waits-for-disclosure-and-proof",
+        "title": "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof",
+        "source": "USA Herald"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 359,
-    "broadTopics": 171,
-    "notificationArticles": 3,
+    "broadArticles": 336,
+    "broadTopics": 159,
+    "notificationArticles": 2,
     "notificationTopics": 2,
     "newNotificationTopics": 0,
     "appTopics": 8,
@@ -627,7 +653,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 3,
+    "regroupedTopics": 4,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -635,14 +661,14 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v6_source_text_overrides",
-      "attempts": 1,
-      "repaired": 0,
+      "attempts": 2,
+      "repaired": 1,
       "fallbackRepaired": 0,
       "missing": 1
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
-      "kept": 5,
+      "kept": 8,
       "missing": 1,
       "missingItems": [
         {
@@ -655,14 +681,14 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 5,
-      "outputArticles": 5,
-      "preservedSourceSummaries": 4
+      "inputArticles": 6,
+      "outputArticles": 6,
+      "preservedSourceSummaries": 5
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 5,
-      "outputArticles": 5,
+      "inputArticles": 6,
+      "outputArticles": 6,
       "missingSummaries": 1,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
@@ -678,7 +704,7 @@
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v4_exclude_distinct_sightings",
       "primaryId": "program-mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930",
-      "sources": 13,
+      "sources": 14,
       "cleanedArticles": 0,
       "removedDuplicateTopics": 1,
       "staleSummariesCleared": 0,
@@ -686,36 +712,35 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v2_keep_source_grounded_summaries",
-      "inputArticles": 4,
-      "outputArticles": 4,
+      "inputArticles": 5,
+      "outputArticles": 5,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 4,
+      "inputArticles": 5,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v3_skip_unreachable",
-      "archiveCandidates": 7,
-      "currentBeforeRestore": 4,
-      "restoredArticles": 4,
+      "archiveCandidates": 8,
+      "currentBeforeRestore": 5,
+      "restoredArticles": 3,
       "blockedUnreachableTitles": 0,
       "retentionDays": 14,
       "restoredTitles": [
         "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "Trump’s Alien.gov Reveal Turns Into Immigration Satire and Leaves UFO Disclosure Community Furious",
-        "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-        "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure"
+        "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms"
       ]
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
       "checkedSources": 18,
-      "updatedSources": 3,
+      "updatedSources": 4,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
@@ -735,7 +760,7 @@
       "freshSources": 1,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 24
+      "seededSeenFromPreviousFeed": 26
     }
   },
   "translations": {
@@ -781,6 +806,20 @@
         "provider": "google"
       }
     },
+    "televangelist-s-ufo-warning-goes-viral-as-america-waits-for-disclosure-and-proof": {
+      "en": {
+        "title": "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof",
+        "summary": "The UFO disclosure debate has moved into the pulpit. Cleveland‑based televangelist Perry Stone said pastors in an undisclosed state were warned by people linked to the U.S. government to prepare their congregations for upcoming disclosures about non‑human craft and materials. Stone claims the warnings concern imminent UFO and alien disclosure.",
+        "sourceHash": "bc9db29ef868e745e07076475925f7c55f5a7831",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Die UFO-Warnung von Televangelist geht viral, während Amerika auf Offenlegung und Beweise wartet",
+        "summary": "Die Debatte über die Enthüllung von UFOs ist auf die Kanzel gewandert. Der in Cleveland ansässige Fernsehevangelist Perry Stone sagte, Pastoren in einem unbekannten Staat seien von Personen mit Verbindungen zur US-Regierung gewarnt worden, ihre Gemeinden auf bevorstehende Enthüllungen über nichtmenschliche Handwerkskunst und Materialien vorzubereiten. Stone behauptet, die Warnungen beträfen die bevorstehende Enthüllung von UFOs und Außerirdischen.",
+        "sourceHash": "bc9db29ef868e745e07076475925f7c55f5a7831",
+        "provider": "google"
+      }
+    },
     "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception": {
       "en": {
         "title": "Rep. Anna Paulina Luna Frames UFO Disclosure Through The Book of Enoch As A Window Into A Reality Beyond Human Perception",
@@ -808,10 +847,24 @@
         "sourceHash": "8f6d20a998af7606c9cb0b3e3a4133bef4acd641",
         "provider": "google"
       }
+    },
+    "program-mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930": {
+      "en": {
+        "title": "MITRE moves to comply with lawmaker’s request for UAP records and assets dating back to 1930",
+        "summary": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work.",
+        "sourceHash": "0b0b505182b773c6d362923ae7f0c4bf105c9b27",
+        "provider": "original"
+      },
+      "de": {
+        "title": "MITRE kommt der Forderung des Gesetzgebers nach UAP-Aufzeichnungen und Vermögenswerten aus dem Jahr 1930 nach",
+        "summary": "Die MITRE Corporation überprüft ihre Archive, um einer Anfrage des Abgeordneten Eric Burlison nach UAP-Aufzeichnungen aus dem Jahr 1930 nachzukommen und herauszufinden, ob die Organisation jemals Informationen über nicht identifizierte anomale Phänomene besessen oder verarbeitet hat. In der Anfrage, die mehr als 40 spezifische Datenanfragen und Anweisungen zur Benennung eines hochrangigen Beamten, zur Ausstellung einer Aufbewahrungssperre und zur Übermittlung nicht klassifizierter Unterlagen innerhalb von 45 Tagen umfasst, werden auch Unterlagen gefordert, die große Verteidigungsunternehmen und UAP-bezogene Arbeiten betreffen.",
+        "sourceHash": "0b0b505182b773c6d362923ae7f0c4bf105c9b27",
+        "provider": "google"
+      }
     }
   },
   "translationMeta": {
-    "prepared": 5,
+    "prepared": 7,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
