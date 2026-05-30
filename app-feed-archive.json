@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-29T17:19:44Z",
+  "timestamp": "2026-05-30T06:13:44Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -17,70 +17,87 @@
           "source": "Reuters",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "publishedAt": "2026-05-22T12:45:24Z"
+          "publishedAt": "2026-05-22T12:45:24Z",
+          "displayedAt": "2026-05-22T12:45:24Z"
         },
         {
           "title": "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
           "source": "The National Desk",
           "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNZzNlUFNVZElVVDZmQUZrNjZIN1poX3FzcDlXN0JqZ0NKNUZRVkVxMzBaV2lCZkt4SWl2U24yOV93bF9VemxnRzRoVGUzTm5CUk1JY1ZtS29DSWJTUXBSdVFGMVdrWF9yLUJEWVNLQXhSWl9MUUJYejFNSmlfdWdTaHRpRXRaNzJnRkREVENCSU93am9jaDZVdEo5ZEZUSzU1ZFBUTGxuS0drYVJKdVFOaUxpMnVrTDFUSEF4QU9BYmZlakFQNWpEWjJuTXNrcGlKWElQR1pkdVhIbTM0cXMtLWlUcWpnYnVpaUFOV2JLRUVVYzlaR2IxMDBaWDFmVlVIYlVMU0k3b01aSV9ZUno1R1dBZHR2VGtXT3V2T0F3?oc=5",
           "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNZzNlUFNVZElVVDZmQUZrNjZIN1poX3FzcDlXN0JqZ0NKNUZRVkVxMzBaV2lCZkt4SWl2U24yOV93bF9VemxnRzRoVGUzTm5CUk1JY1ZtS29DSWJTUXBSdVFGMVdrWF9yLUJEWVNLQXhSWl9MUUJYejFNSmlfdWdTaHRpRXRaNzJnRkREVENCSU93am9jaDZVdEo5ZEZUSzU1ZFBUTGxuS0drYVJKdVFOaUxpMnVrTDFUSEF4QU9BYmZlakFQNWpEWjJuTXNrcGlKWElQR1pkdVhIbTM0cXMtLWlUcWpnYnVpaUFOV2JLRUVVYzlaR2IxMDBaWDFmVlVIYlVMU0k3b01aSV9ZUno1R1dBZHR2VGtXT3V2T0F3?oc=5",
-          "publishedAt": "2026-05-29T16:00:04Z"
+          "publishedAt": "2026-05-29T16:00:04Z",
+          "rssPublishedAt": "2026-05-29T16:00:04Z",
+          "sourcePublishedAt": "2026-05-29T16:00:04Z",
+          "displayedAt": "2026-05-29T17:19:44Z",
+          "isNew": true
         },
         {
           "title": "Pentagon releases second batch of declassified UFO files",
           "source": "MSN",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1J2QldGVF9ia3dpRGIzRExCYzhWUUhxU3I5WmxwLWk4TDNsX2hnU19hdFJQOEtZNTdQb2N6azF6Y2FENTZtVlQ5WWJtVl9EWS1uT2otZjVXSElVbzJEQzhPR2JPMk9jSWxzb0JTWTk0TnV1Yk90YXh4aGJlZXVudmhEb2N3dWdPbzZ0YVJGdjZvd2xZaW9PNTgxNV9JTVZmVDRwRXRLS1Y?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1J2QldGVF9ia3dpRGIzRExCYzhWUUhxU3I5WmxwLWk4TDNsX2hnU19hdFJQOEtZNTdQb2N6azF6Y2FENTZtVlQ5WWJtVl9EWS1uT2otZjVXSElVbzJEQzhPR2JPMk9jSWxzb0JTWTk0TnV1Yk90YXh4aGJlZXVudmhEb2N3dWdPbzZ0YVJGdjZvd2xZaW9PNTgxNV9JTVZmVDRwRXRLS1Y?oc=5",
-          "publishedAt": "2026-05-29T09:25:19Z"
+          "publishedAt": "2026-05-29T09:25:19Z",
+          "displayedAt": "2026-05-29T09:25:19Z"
         },
         {
           "title": "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
           "source": "The St Kitts Nevis Observer",
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
-          "publishedAt": "2026-05-26T23:10:33Z"
+          "publishedAt": "2026-05-26T23:10:33Z",
+          "rssPublishedAt": "2026-05-26T23:10:33Z",
+          "sourcePublishedAt": "2026-05-26T23:10:33Z",
+          "displayedAt": "2026-05-26T23:10:33Z"
         },
         {
           "title": "Pentagon releases second batch of UFO files with rare footage",
           "source": "MSN",
           "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1JMbVhnWVBScVVlQ28yOFZ5TXk4X1hOSHdzR3pLZzJvWkhjSlVQT1ZUM0xxSERCMHVkLTRhZmJYcmcxeC1hRlhTaEF4QVd0NGxqRXpfc1FucHpkUUIyQUJVU3RheHcwd0JJeW9DU1dxTXE0YjQ1bVloRGs4MzhTLTc2RXR4dG5hMS1QYnljeTRaekNJWnBPdFV0RnB0cDlZMTdRT0YzZG9CSnVSS2FRNFdTQW9uSzg5VF9VX01aVmtIOGFsYjZicDRORDJ1dkgxR3lBaGJISzF4ZEk5SXRqZGdISXh0UQ?oc=5",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1JMbVhnWVBScVVlQ28yOFZ5TXk4X1hOSHdzR3pLZzJvWkhjSlVQT1ZUM0xxSERCMHVkLTRhZmJYcmcxeC1hRlhTaEF4QVd0NGxqRXpfc1FucHpkUUIyQUJVU3RheHcwd0JJeW9DU1dxTXE0YjQ1bVloRGs4MzhTLTc2RXR4dG5hMS1QYnljeTRaekNJWnBPdFV0RnB0cDlZMTdRT0YzZG9CSnVSS2FRNFdTQW9uSzg5VF9VX01aVmtIOGFsYjZicDRORDJ1dkgxR3lBaGJISzF4ZEk5SXRqZGdISXh0UQ?oc=5",
-          "publishedAt": "2026-05-26T12:57:24Z"
+          "publishedAt": "2026-05-26T12:57:24Z",
+          "displayedAt": "2026-05-26T12:57:24Z"
         },
         {
           "title": "Pentagon releases new batch of UFO files",
           "source": "NewsNation",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
-          "publishedAt": "2026-05-22T22:02:53Z"
+          "publishedAt": "2026-05-22T22:02:53Z",
+          "displayedAt": "2026-05-22T22:02:53Z"
         },
         {
           "title": "What does the second batch of UFO files tell us?",
           "source": "NewsNation",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "publishedAt": "2026-05-22T17:46:02Z"
+          "publishedAt": "2026-05-22T17:46:02Z",
+          "displayedAt": "2026-05-22T17:46:02Z"
         },
         {
           "title": "New videos from Pentagon’s second batch of UFO files",
           "source": "NewsNation",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "publishedAt": "2026-05-22T17:34:00Z"
+          "publishedAt": "2026-05-22T17:34:00Z",
+          "displayedAt": "2026-05-22T17:34:00Z"
         },
         {
           "title": "Pentagon releases new batch of declassified UFO files",
           "source": "LiveNOW from FOX",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
-          "publishedAt": "2026-05-22T15:16:21Z"
+          "publishedAt": "2026-05-22T15:16:21Z",
+          "displayedAt": "2026-05-22T15:16:21Z"
         },
         {
           "title": "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
           "source": "Fox News",
-          "publishedAt": "2026-05-19T07:00:00Z"
+          "publishedAt": "2026-05-19T07:00:00Z",
+          "rssPublishedAt": "2026-05-19T07:00:00Z",
+          "sourcePublishedAt": "2026-05-19T16:30:23Z",
+          "displayedAt": "2026-05-19T07:00:00Z"
         }
       ],
       "clusterTitles": [
@@ -139,74 +156,19 @@
         "released"
       ],
       "sourceQuality": 97,
-      "displayedAt": "2026-05-29T17:19:44Z"
-    },
-    {
-      "id": "multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure",
-      "title": "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure",
-      "source": "USA Herald",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcW8xdnY3aHk4NS1GcGlFSkJfTkNSNE1iNllTZUF5TmpMc0Zibkc0dU5oQnpPV0JvV0YxWXptMGx4LWhJX2JkRkxjemRFSmRzenFsOElRaVdTTXVQTWZuelVVbHVyMlZVSWhzNkRBRGxJZ1hLN3ZTRG9HR0F0UGZwUWdrSlZkdDI2WVJ2elE4emNaNWxiOGUzWjAzcS0wdFhKeVI1a3MwenMwWklLS3VlbFVha0xyRW9wRU1heGxYVl9UVko1REJXRzktTThqUHFHcHlldUwycTIwMUlyb2NvTGZFZzBvQTg?oc=5",
-      "date": "2026-05-28",
-      "publishedAt": "2026-05-28T07:46:55Z",
-      "summary": "Pastor Perry Stone says a trusted associate informed him that a group of pastors was invited to a private briefing by U.S. military intelligence officers to prepare for an imminent UAP disclosure. Stone reports the briefing covered non‑human craft, beings not from Earth, and a coordinated propaganda plan already underway. Evangelist Tony Merkel says he has been in contact with the same officials for over a year and that they are Christians in intelligence operations tasked with preparing the Christian community for the disclosure. The state where the briefing occurred has not been disclosed, and no government memo, invitation, transcript, or attendee list has surfaced. The U.S. government has not issued a denial, and Washington’s silence is noted as significant.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 65,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DISCLOSURE, MILITARY als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "DISCLOSURE, MILITARY als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE",
-        "MILITARY"
-      ],
-      "sourceQuality": 65,
-      "displayedAt": "2026-05-29T06:44:27Z",
-      "rssPublishedAt": "2026-05-28T07:46:55Z",
-      "rssDate": "2026-05-28",
-      "sourcePublishedAt": "2026-05-06T04:39:09Z",
-      "sourceDisplayedAt": "2026-05-29T06:44:27Z",
+      "displayedAt": "2026-05-29T17:19:44Z",
+      "sourceDisplayedAt": "2026-05-22T12:07:07Z",
       "translation": {
         "en": {
-          "title": "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure",
-          "summary": "Pastor Perry Stone says a trusted associate informed him that a group of pastors was invited to a private briefing by U.S. military intelligence officers to prepare for an imminent UAP disclosure. Stone reports the briefing covered non‑human craft, beings not from Earth, and a coordinated propaganda plan already underway. Evangelist Tony Merkel says he has been in contact with the same officials for over a year and that they are Christians in intelligence operations tasked with preparing the Christian community for the disclosure.",
-          "sourceHash": "3106491f66dc1f2f4b47bc5587438d1a3370aaf1",
+          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+          "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
+          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "original"
         },
         "de": {
-          "title": "Mehrere Pastoren behaupten, US-Militärgeheimdienstoffiziere hätten sie heimlich informiert, um ihre Gemeinden auf die UAP-Offenlegung vorzubereiten",
-          "summary": "Pastor Perry Stone sagt, ein vertrauenswürdiger Mitarbeiter habe ihn darüber informiert, dass eine Gruppe von Pastoren von Offizieren des US-Militärgeheimdienstes zu einer privaten Besprechung eingeladen worden sei, um sich auf eine bevorstehende UAP-Enthüllung vorzubereiten. Stone berichtet, dass es sich bei dem Briefing um nichtmenschliche Raumfahrzeuge und Wesen handelte, die nicht von der Erde stammen, und dass ein koordinierter Propagandaplan bereits im Gange war. Der Evangelist Tony Merkel sagt, er stehe seit über einem Jahr mit denselben Beamten in Kontakt und sie seien Christen in Geheimdienstoperationen, deren Aufgabe es sei, die christliche Gemeinschaft auf die Enthüllung vorzubereiten.",
-          "sourceHash": "3106491f66dc1f2f4b47bc5587438d1a3370aaf1",
+          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
       },
@@ -263,7 +225,26 @@
         "government"
       ],
       "sourceQuality": 63,
-      "displayedAt": "2026-05-29T05:55:15Z"
+      "displayedAt": "2026-05-29T05:55:15Z",
+      "rssPublishedAt": "2026-05-29T03:34:27Z",
+      "rssDate": "2026-05-16",
+      "sourcePublishedAt": "2026-05-29T03:28:53Z",
+      "sourceDisplayedAt": "2026-05-29T05:55:15Z",
+      "translation": {
+        "en": {
+          "title": "Trump’s Alien.gov Reveal Turns Into Immigration Satire and Leaves UFO Disclosure Community Furious",
+          "summary": "The launch of Alien.gov, expected by many to be a historic UFO disclosure, instead delivered a political immigration message. The rollout sparked backlash from UFO researchers, disclosure advocates, and ordinary Americans who sought answers. Critics compared the event to former Arizona Governor Fife Symington’s handling of the Phoenix Lights, questioning government credibility.",
+          "sourceHash": "4f3734804e0396f1f09e7a9ec1de07ffbae4b705",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Trumps Alien.gov-Enthüllung wird zur Einwanderungssatire und versetzt die UFO-Enthüllungs-Community in Aufruhr",
+          "summary": "Der Start von Alien.gov, von dem viele eine historische UFO-Enthüllung erwarteten, übermittelte stattdessen eine politische Einwanderungsbotschaft. Die Einführung löste Gegenreaktionen von UFO-Forschern, Offenlegungsbefürwortern und einfachen Amerikanern aus, die nach Antworten suchten. Kritiker verglichen das Ereignis mit dem Umgang des ehemaligen Gouverneurs von Arizona, Fife Symington, mit den Phoenix Lights und stellten die Glaubwürdigkeit der Regierung in Frage.",
+          "sourceHash": "4f3734804e0396f1f09e7a9ec1de07ffbae4b705",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
@@ -315,7 +296,81 @@
         "government"
       ],
       "sourceQuality": 63,
-      "displayedAt": "2026-05-25T13:09:51Z"
+      "displayedAt": "2026-05-25T13:09:51Z",
+      "rssPublishedAt": "2026-05-19T18:58:23Z",
+      "rssDate": "2026-05-16",
+      "sourcePublishedAt": "2026-05-19T18:53:58Z",
+      "sourceDisplayedAt": "2026-05-27T06:53:34Z",
+      "translation": {
+        "en": {
+          "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
+          "summary": "Dr. Hal Puthoff, a former CIA‑funded researcher, said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs, citing people involved in the recoveries. Dr.",
+          "sourceHash": "353a5707fef3762b370ceaec8047f8f2ac968ab1",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
+          "summary": "Dr. Hal Puthoff, ein ehemaliger von der CIA finanzierter Forscher, sagte, die USA hätten vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen und verwies dabei auf Personen, die an den Bergungen beteiligt waren. Dr.",
+          "sourceHash": "353a5707fef3762b370ceaec8047f8f2ac968ab1",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
+    },
+    {
+      "id": "file-release-multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure",
+      "title": "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure",
+      "source": "USA Herald",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcW8xdnY3aHk4NS1GcGlFSkJfTkNSNE1iNllTZUF5TmpMc0Zibkc0dU5oQnpPV0JvV0YxWXptMGx4LWhJX2JkRkxjemRFSmRzenFsOElRaVdTTXVQTWZuelVVbHVyMlZVSWhzNkRBRGxJZ1hLN3ZTRG9HR0F0UGZwUWdrSlZkdDI2WVJ2elE4emNaNWxiOGUzWjAzcS0wdFhKeVI1a3MwenMwWklLS3VlbFVha0xyRW9wRU1heGxYVl9UVko1REJXRzktTThqUHFHcHlldUwycTIwMUlyb2NvTGZFZzBvQTg?oc=5",
+      "date": "2026-05-29",
+      "publishedAt": "2026-05-29T21:36:14Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 56,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE"
+      ],
+      "sourceQuality": 56,
+      "displayedAt": "2026-05-29T06:44:27Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      }
     },
     {
       "id": "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception",
@@ -418,6 +473,39 @@
       ],
       "sourceQuality": 56,
       "displayedAt": "2026-05-21T19:34:17Z"
+    },
+    {
+      "id": "lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens",
+      "title": "Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens",
+      "source": "Washington Times",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaEl1VXNQOUw3YmJJYlRMdnBsQmlldDhmVFA3dHRtWFdMTHhIcFNIRUNIMU9HcUNHQjZFZHBJb0dWWU9qdm5ZbWFqSzE2NEZXMHE4NzVOUkVPdEJQWEVtYVktRTBzZjlQSE1mUEhYQnhfb1czNHRfSzByMk0ySlRudTFKMHJIUk9Sb0s4elVMaHJ5dWVJZDhGOWZvSl9PaTJxSktDV1J5Q05ZeXcydW9vS203MXp1Qlk2aGRj?oc=5",
+      "date": "2026-05-29",
+      "publishedAt": "2026-05-29T19:39:10Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "sourceQuality": 40,
+      "displayedAt": "2026-05-30T06:13:44Z"
     }
   ]
 }
