@@ -213,12 +213,6 @@ def source_rank(source: dict[str, Any]) -> tuple[int, str]:
 
 
 def source_points(mentions: int) -> int:
-    if mentions >= 20:
-        return 50
-    if mentions >= 10:
-        return 45
-    if mentions >= 5:
-        return 28
     return max(0, (mentions - 1) * 5)
 
 
@@ -323,7 +317,7 @@ def main() -> None:
     payload["articles"] = merged
     payload["summaries"] = {article["id"]: article.get("summary", "") for article in merged if article.get("id") and clean(article.get("summary"))}
     payload.setdefault("scanMeta", {})["finalClusterGuard"] = {
-        "policy": "title_summary_cluster_guard_v2_keep_source_grounded_summaries",
+        "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
         "inputArticles": len(raw_articles),
         "outputArticles": len(merged),
         "mergedTopics": merged_topics,
