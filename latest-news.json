@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-31T17:58:24Z",
+  "timestamp": "2026-05-31T18:02:36Z",
   "articles": [
     {
       "id": "file-release-multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure",
@@ -79,6 +79,85 @@
       "retainedFromPreviousScan": true
     },
     {
+      "id": "whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens",
+      "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenRDZkpoaEEtZHJPUXlkTXpsOEhiQ1podXBiSVk0SGlrVWpWRG00dFIxTVBwMi1CUkp0OFcxTVV1S1E2QkZ2YUZSMjROYTB5VGdraU9pSTV2X1RkUWhyWVBEU0c1REhtbjJhODFhTlpHeGdsVFd2MmJ1dG91YlY3WFlpRFVtU2NmdFN4cGVFTUw1c3VHRklQTFAtbGlNUTlIXzkyNFJzVUhuaXBmVnhTUg?oc=5",
+      "date": "2026-05-18",
+      "publishedAt": "2026-05-27T14:16:30Z",
+      "summary": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 79,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 9,
+          "text": "ALIEN, CIA, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "CIA, WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 6,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "ALIEN",
+        "CIA",
+        "WHISTLEBLOWER"
+      ],
+      "sourceQuality": 79,
+      "displayedAt": "2026-05-31T06:47:10Z",
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
+      "rssPublishedAt": "2026-05-27T14:16:30Z",
+      "rssDate": "2026-05-18",
+      "sourcePublishedAt": "2026-05-26T15:24:37Z",
+      "sourceDisplayedAt": "2026-05-31T06:47:10Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
+          "summary": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor.",
+          "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Whistleblower behauptet, die CIA habe DNA-Daten von Ancestry- und 23andMe-Kunden bei der Suche nach Außerirdischen verwendet",
+          "summary": "Ein Whistleblower, Philosoph und Romanautor Jason Reza Jorjani, behauptet, die CIA habe angeblich eine Hintertür genutzt, um auf Daten von 23andMe und Ancestry.com zuzugreifen, um Personen mit einer genetischen Varianz zu identifizieren, die seiner Meinung nach mit außerirdischer DNA zusammenhängt. Jorjani sagt, er habe von dem Programm durch den Armeeveteranen Lyn Buchanan erfahren, der behauptet, er sei ein übersinnlicher Spion im Remote-Viewing-Programm der CIA gewesen und der ehemalige CIA-Analyst Christopher „Kit“ Green habe die Hintertür geschaffen.",
+          "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
+          "provider": "google"
+        }
+      }
+    },
+    {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
       "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
       "source": "U.S. Department of War (.gov)",
@@ -86,7 +165,7 @@
       "date": "2026-05-31",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 12,
+      "mentions": 11,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -95,6 +174,14 @@
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "publishedAt": "2026-05-22T07:00:00Z",
           "displayedAt": "2026-05-22T07:00:00Z"
+        },
+        {
+          "title": "Pentagon releases second batch of declassified UFO files",
+          "source": "MSN",
+          "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQU2dXZEhncDVxT2Y2VnBEa3gzWWFSWk9LRFdIcjc1Z3pITV9fTzgyLV91bW5Qa0FKaXNUNkhVVG1PRnBndXBCMG1oSUhORXg4aWZiYlNoeEllOHI2M3B6UVNtQ0FoLTJCOUlwaVBDdF9iVHRuT0NkT3pnajZOR0tHUlVScjhDUDBnSzBLa0ltazJZVEthWDVjYVh5dmJ1Mm04Yy1WNDJ6dW4wTmVYS3FrMDNucWd0TXNNZ2VCVWhnaDJCc3dOQXhHZzhGdm1aUlo1N1Q2WGpQSFpLVWpuc2NIZlY5NFJlQXIwZWxfYV9mVmh1Rm9rQmJXLUF2QVh6U0hoYVp0VlF6cEJBbEpXQS1jZjVRQ1d0bkpIRnFfQjB2bW1KdzNpWU1xQWk2X24xcWwtWS1xSFo4M1RFVl9KcEVmYjUzLVdKVndYbkx5NG9CNURRVm0xWkxfS2dVR05DX28w?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQU2dXZEhncDVxT2Y2VnBEa3gzWWFSWk9LRFdIcjc1Z3pITV9fTzgyLV91bW5Qa0FKaXNUNkhVVG1PRnBndXBCMG1oSUhORXg4aWZiYlNoeEllOHI2M3B6UVNtQ0FoLTJCOUlwaVBDdF9iVHRuT0NkT3pnajZOR0tHUlVScjhDUDBnSzBLa0ltazJZVEthWDVjYVh5dmJ1Mm04Yy1WNDJ6dW4wTmVYS3FrMDNucWd0TXNNZ2VCVWhnaDJCc3dOQXhHZzhGdm1aUlo1N1Q2WGpQSFpLVWpuc2NIZlY5NFJlQXIwZWxfYV9mVmh1Rm9rQmJXLUF2QVh6U0hoYVp0VlF6cEJBbEpXQS1jZjVRQ1d0bkpIRnFfQjB2bW1KdzNpWU1xQWk2X24xcWwtWS1xSFo4M1RFVl9KcEVmYjUzLVdKVndYbkx5NG9CNURRVm0xWkxfS2dVR05DX28w?oc=5",
+          "publishedAt": "2026-05-31T08:29:45Z",
+          "displayedAt": "2026-05-31T08:29:45Z"
         },
         {
           "title": "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
@@ -108,19 +195,11 @@
           "isNew": true
         },
         {
-          "title": "Pentagon releases second batch of declassified UFO files",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1J2QldGVF9ia3dpRGIzRExCYzhWUUhxU3I5WmxwLWk4TDNsX2hnU19hdFJQOEtZNTdQb2N6azF6Y2FENTZtVlQ5WWJtVl9EWS1uT2otZjVXSElVbzJEQzhPR2JPMk9jSWxzb0JTWTk0TnV1Yk90YXh4aGJlZXVudmhEb2N3dWdPbzZ0YVJGdjZvd2xZaW9PNTgxNV9JTVZmVDRwRXRLS1Y?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1J2QldGVF9ia3dpRGIzRExCYzhWUUhxU3I5WmxwLWk4TDNsX2hnU19hdFJQOEtZNTdQb2N6azF6Y2FENTZtVlQ5WWJtVl9EWS1uT2otZjVXSElVbzJEQzhPR2JPMk9jSWxzb0JTWTk0TnV1Yk90YXh4aGJlZXVudmhEb2N3dWdPbzZ0YVJGdjZvd2xZaW9PNTgxNV9JTVZmVDRwRXRLS1Y?oc=5",
-          "publishedAt": "2026-05-29T09:25:19Z",
-          "displayedAt": "2026-05-29T09:25:19Z"
-        },
-        {
           "title": "Pentagon releases second batch of UFO files: The 5 best videos",
           "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZEFQQ2I4ejBjQnRXREN5VndaY2J1VHhBcUhnM0cyckVHaGRxSFpVVUlSQXhKU09kYzkxRk95VlBtNEw0dEFJb1BSRk1HTHZaMW1jZGkyZ1Rselh3QXNrZzhYT1psNmtLa2dJWGZVaW9kdVdIVjdKcUVxYVJ5bGVVVV9KQ1R3anI5NkFPUDgtVmJMalpvRWdnMEpIb3FLdkNxeW9QOERqTF9zRjQ2UTZHdkxKWmFQc21rbjFSSnFNSzNDRk5V?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZEFQQ2I4ejBjQnRXREN5VndaY2J1VHhBcUhnM0cyckVHaGRxSFpVVUlSQXhKU09kYzkxRk95VlBtNEw0dEFJb1BSRk1HTHZaMW1jZGkyZ1Rselh3QXNrZzhYT1psNmtLa2dJWGZVaW9kdVdIVjdKcUVxYVJ5bGVVVV9KQ1R3anI5NkFPUDgtVmJMalpvRWdnMEpIb3FLdkNxeW9QOERqTF9zRjQ2UTZHdkxKWmFQc21rbjFSSnFNSzNDRk5V?oc=5",
-          "publishedAt": "2026-05-29T01:29:07Z",
+          "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOUjlVVm1lRWpiY2ZFLV9FX1BveFdoLTktVUVBeTUtdHZJbllBbUdhUGtvVm4tYjYxaTgtcXZlRk8yaktueVBnckJtV2dWUVlHaHN5NWZMdjkyN3NES3ZPdUxQaEdFN0pMdHR3N0l5V282MGpySE5FNHFraGhlb0NiZU9oNEJZM2dvVWlUUFdBRVcyUEhFVVNkdEZMOTZBb2E5S1d2UzVpczVzN1NmMXk4V2lRaDF0V2V6dWd3WGttT1V2ZkJVVDBENzB6d3E3bXN5aG5GXzJNclVqcUJQZElVOHlGT0F3STU5TGhKRnhpMmN5Nk9vZWgzd0JjZVVIUWdHb1A4R2k2a25KcHhzbW9JYmtiVDFRREV5UXBfa0toQ18tcWtLRU9rOXdyTUZZWHZqbTU3Q1NBN3dpaGEyUWNKbWJ6YXlUTzBYS0IzMThlSHlwU0l0aUdRVXBybw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOUjlVVm1lRWpiY2ZFLV9FX1BveFdoLTktVUVBeTUtdHZJbllBbUdhUGtvVm4tYjYxaTgtcXZlRk8yaktueVBnckJtV2dWUVlHaHN5NWZMdjkyN3NES3ZPdUxQaEdFN0pMdHR3N0l5V282MGpySE5FNHFraGhlb0NiZU9oNEJZM2dvVWlUUFdBRVcyUEhFVVNkdEZMOTZBb2E5S1d2UzVpczVzN1NmMXk4V2lRaDF0V2V6dWd3WGttT1V2ZkJVVDBENzB6d3E3bXN5aG5GXzJNclVqcUJQZElVOHlGT0F3STU5TGhKRnhpMmN5Nk9vZWgzd0JjZVVIUWdHb1A4R2k2a25KcHhzbW9JYmtiVDFRREV5UXBfa0toQ18tcWtLRU9rOXdyTUZZWHZqbTU3Q1NBN3dpaGEyUWNKbWJ6YXlUTzBYS0IzMThlSHlwU0l0aUdRVXBybw?oc=5",
+          "publishedAt": "2026-05-29T02:02:41Z",
           "displayedAt": "2026-05-31T17:44:50Z",
           "isNew": true
         },
@@ -133,14 +212,6 @@
           "rssPublishedAt": "2026-05-26T23:10:33Z",
           "sourcePublishedAt": "2026-05-26T23:10:33Z",
           "displayedAt": "2026-05-26T23:10:33Z"
-        },
-        {
-          "title": "Pentagon releases second batch of UFO files with rare footage",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1JMbVhnWVBScVVlQ28yOFZ5TXk4X1hOSHdzR3pLZzJvWkhjSlVQT1ZUM0xxSERCMHVkLTRhZmJYcmcxeC1hRlhTaEF4QVd0NGxqRXpfc1FucHpkUUIyQUJVU3RheHcwd0JJeW9DU1dxTXE0YjQ1bVloRGs4MzhTLTc2RXR4dG5hMS1QYnljeTRaekNJWnBPdFV0RnB0cDlZMTdRT0YzZG9CSnVSS2FRNFdTQW9uSzg5VF9VX01aVmtIOGFsYjZicDRORDJ1dkgxR3lBaGJISzF4ZEk5SXRqZGdISXh0UQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1JMbVhnWVBScVVlQ28yOFZ5TXk4X1hOSHdzR3pLZzJvWkhjSlVQT1ZUM0xxSERCMHVkLTRhZmJYcmcxeC1hRlhTaEF4QVd0NGxqRXpfc1FucHpkUUIyQUJVU3RheHcwd0JJeW9DU1dxTXE0YjQ1bVloRGs4MzhTLTc2RXR4dG5hMS1QYnljeTRaekNJWnBPdFV0RnB0cDlZMTdRT0YzZG9CSnVSS2FRNFdTQW9uSzg5VF9VX01aVmtIOGFsYjZicDRORDJ1dkgxR3lBaGJISzF4ZEk5SXRqZGdISXh0UQ?oc=5",
-          "publishedAt": "2026-05-26T12:57:24Z",
-          "displayedAt": "2026-05-26T12:57:24Z"
         },
         {
           "title": "What does the second batch of UFO files tell us?",
@@ -187,15 +258,15 @@
       ],
       "clusterTitles": [
         "US releases second batch of government declassified UFO files",
-        "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
         "Pentagon releases second batch of declassified UFO files",
+        "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
         "Pentagon releases second batch of UFO files: The 5 best videos",
         "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
-        "Pentagon releases second batch of UFO files with rare footage",
         "What does the second batch of UFO files tell us?",
         "Pentagon releases new batch of declassified UFO files",
         "New videos from Pentagon’s second batch of UFO files",
-        "Pentagon releases new batch of UFO files"
+        "Pentagon releases new batch of UFO files",
+        "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment"
       ],
       "quality": 79,
       "qualityBreakdown": [
@@ -222,7 +293,7 @@
         {
           "label": "Mehrere Quellen",
           "points": 34,
-          "text": "12 Quellen im aktuellen Feed."
+          "text": "11 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -241,7 +312,7 @@
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
@@ -320,17 +391,31 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms",
-      "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-      "source": "USA Herald",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNXRCWG5NWEtkeVNFVHlvanh6TVhIMjFEQ016a2FPRTBScEI4STlSN1FJeWdSV3Rmem5hUm5xOVNRWTdQUm9RTDBrUEludkZiblNRalpkRFFaZkV0eTVCbkZKRHRUX1RhREwyWVlEQUlibHNtNEVNTlhZZHRpNWxnSkZVLVZlX3otMmxuNjlVMW5ta0RoQ1FLbkxkLUVpbVM4bnk0WmR2eWx2R1V2UzNvaTNablBMOHdZeGlTTXJPd2x4bTJucUV0RlYyc2c2RVkteWNfemMxU1pDUk5XdjFhTkx4blI?oc=5",
-      "date": "2026-05-16",
-      "publishedAt": "2026-05-19T18:58:23Z",
-      "summary": "Dr. Hal Puthoff, a former CIA‑funded researcher, said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs, citing people involved in the recoveries. Dr. Eric Davis identified the species as Grays, Nordics, Insectoids, and Reptilians, describing each as humanoid with two arms and legs, and noting that Nordics and Reptilians are about six feet tall. Nordics are described as highly human‑like and resembling northern Europeans, while Reptilians are scaley, lizard‑like with human limbs and long tails; Grays are small, massive‑eyed, hairless, and Insectoids resemble mantises. Former Air Force Intelligence officer David Grusch testified in 2023 that the U.S. possessed non‑human biologics recovered from dozens of crashed UFOs. These claims are based on testimony from members of a crash‑retrieval program featured in Dan Farrah’s film “Age of Disclosure,” and Farrah reported that interviewees have declined to speak publicly.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 63,
+      "id": "trump-aliens-website-is-about-immigration-uap-journalist-not-amused",
+      "title": "Trump ‘aliens’ website is about immigration; UAP journalist not amused",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BdXhNQldnRFFfbUlzNndiYkNoRjgzSkl3TktXQVN2TGRuQjRHdnU4UnVlRWdyV1pzOTBDaW1wckhBaUJScEh2ZXpjUWg4aHFvUWVnQklUaG9idGtqbmdtNklTWC1vTzhRaXpLSWViOFZYdTTSAXhBVV95cUxPd0x2b21RVndTYnVaZ28wVWQ5QnZ0c0UyVlR3eXppOUN0VHBDWEJtOVdycEFXSW5WUkxUdklCb18zRkdlbDU0a1JOQ1d2MlRwMzIzT3kxam9DWlFkQkQxZmlGdHh6X0VRZWFuM0hsU290cVN6ZU1CUUI?oc=5",
+      "date": "2026-05-30",
+      "publishedAt": "2026-05-30T02:44:29Z",
+      "summary": "The launch of Alien.gov, expected by many to be a historic UFO disclosure, instead delivered a political immigration message. The rollout sparked backlash from UFO researchers, disclosure advocates, and ordinary Americans who sought answers. Critics compared the event to former Arizona Governor Fife Symington’s handling of the Phoenix Lights, questioning government credibility. The controversy raises concerns about public trust and transparency.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "Trump 'aliens' website is about immigration; UAP journalist not amused 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWWZlOTJpYUZiaE80VVZTZWtNNWJjcEZmWGlWek5LQU1EcnNnblExS0E0U0NYd1VzMkpGSkRUZkR0OXRhU1hDM0JSOGdiYm1CYlVKaXE3NTVvZ3lKUVlneGlWOG9UeXRUT3VpWGxSTHJPWWZNMnhyc1ROYlNJN2hmczVWbERvQQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWWZlOTJpYUZiaE80VVZTZWtNNWJjcEZmWGlWek5LQU1EcnNnblExS0E0U0NYd1VzMkpGSkRUZkR0OXRhU1hDM0JSOGdiYm1CYlVKaXE3NTVvZ3lKUVlneGlWOG9UeXRUT3VpWGxSTHJPWWZNMnhyc1ROYlNJN2hmczVWbERvQQ?oc=5",
+          "publishedAt": "2026-05-30T01:43:09Z",
+          "rssPublishedAt": "2026-05-30T01:43:09Z",
+          "sourcePublishedAt": "2026-05-30T01:43:09Z",
+          "displayedAt": "2026-05-31T17:31:52Z",
+          "isNew": true
+        }
+      ],
+      "clusterTitles": [
+        "Trump 'aliens' website is about immigration; UAP journalist not amused 2026 | JUSTICE - IUSTITIA.BG 2025"
+      ],
+      "quality": 59,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -339,17 +424,12 @@
         },
         {
           "label": "Begriffe",
-          "points": 6,
-          "text": "ALIEN, GOVERNMENT als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "GOVERNMENT als offizieller Kontext erkannt."
+          "points": 3,
+          "text": "TRUMP als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Titel",
-          "points": 4,
+          "points": 2,
           "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
@@ -361,34 +441,36 @@
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "alien",
-        "government"
+        "TRUMP"
       ],
-      "sourceQuality": 63,
-      "displayedAt": "2026-05-25T13:09:51Z",
-      "rssPublishedAt": "2026-05-19T18:58:23Z",
-      "rssDate": "2026-05-16",
-      "sourcePublishedAt": "2026-05-19T18:53:58Z",
-      "sourceDisplayedAt": "2026-05-27T06:53:34Z",
+      "sourceQuality": 59,
+      "displayedAt": "2026-05-30T02:44:29Z",
+      "summarySource": "related_visible_article",
+      "summaryPolicy": "same_story_summary_reuse",
+      "sourceDisplayedAt": "2026-05-31T18:02:36Z",
       "translation": {
         "en": {
-          "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-          "summary": "Dr. Hal Puthoff, a former CIA‑funded researcher, said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs, citing people involved in the recoveries. Dr.",
-          "sourceHash": "353a5707fef3762b370ceaec8047f8f2ac968ab1",
+          "title": "Trump ‘aliens’ website is about immigration; UAP journalist not amused",
+          "summary": "The launch of Alien.gov, expected by many to be a historic UFO disclosure, instead delivered a political immigration message. The rollout sparked backlash from UFO researchers, disclosure advocates, and ordinary Americans who sought answers. Critics compared the event to former Arizona Governor Fife Symington’s handling of the Phoenix Lights, questioning government credibility.",
+          "sourceHash": "0899e49bb41ad790a585bdc164dd76d00df4a4c4",
           "provider": "original"
         },
         "de": {
-          "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
-          "summary": "Dr. Hal Puthoff, ein ehemaliger von der CIA finanzierter Forscher, sagte, die USA hätten vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen und verwies dabei auf Personen, die an den Bergungen beteiligt waren. Dr.",
-          "sourceHash": "353a5707fef3762b370ceaec8047f8f2ac968ab1",
+          "title": "Auf der „Aliens“-Website von Trump geht es um Einwanderung; UAP-Journalist nicht amüsiert",
+          "summary": "Der Start von Alien.gov, von dem viele eine historische UFO-Enthüllung erwarteten, übermittelte stattdessen eine politische Einwanderungsbotschaft. Die Einführung löste Gegenreaktionen von UFO-Forschern, Offenlegungsbefürwortern und einfachen Amerikanern aus, die nach Antworten suchten. Kritiker verglichen das Ereignis mit dem Umgang des ehemaligen Gouverneurs von Arizona, Fife Symington, mit den Phoenix Lights und stellten die Glaubwürdigkeit der Regierung in Frage.",
+          "sourceHash": "0899e49bb41ad790a585bdc164dd76d00df4a4c4",
           "provider": "google"
         }
-      },
-      "retainedFromPreviousScan": true
+      }
     },
     {
       "id": "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception",
@@ -565,7 +647,6 @@
       "rssDate": "2026-05-27",
       "sourcePublishedAt": "2026-05-27T20:22:30Z",
       "sourceDisplayedAt": "2026-05-30T12:01:38Z",
-      "sourceIsNew": true,
       "translation": {
         "en": {
           "title": "MITRE moves to comply with lawmaker’s request for UAP records and assets dating back to 1930",
@@ -582,13 +663,13 @@
       }
     },
     {
-      "id": "trump-aliens-website-is-about-immigration-uap-journalist-not-amused-2026-justice-iustitia-bg-2025",
-      "title": "Trump 'aliens' website is about immigration; UAP journalist not amused 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWWZlOTJpYUZiaE80VVZTZWtNNWJjcEZmWGlWek5LQU1EcnNnblExS0E0U0NYd1VzMkpGSkRUZkR0OXRhU1hDM0JSOGdiYm1CYlVKaXE3NTVvZ3lKUVlneGlWOG9UeXRUT3VpWGxSTHJPWWZNMnhyc1ROYlNJN2hmczVWbERvQQ?oc=5",
+      "id": "film-non-human-bodies-allegedly-recovered-from-crashed-ufo-documentary-filmmaker-claims",
+      "title": "'Non-human' bodies allegedly recovered from crashed UFO, documentary filmmaker claims",
+      "source": "Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNci11T09sUGVYcFRodFZfX0xFUk5Md0VKYkd3MXQyUEVYLUtvNmh5b0IzcHV5QWJuX1YtZEh3aHpXN2tXM3hwSGZUWnFEY2hWNy01QkZjZ1ZWb2VBa2dMd2JVSi1CRUMzV1VNZU1ibDQyMmNScHlvRXl3dHR6NWl6S1M0RjNOYlotTEJLdWhyTVZiMUt5NThaWTZqT2pQZkRselljcmI1Q25ycWPSAbABQVVfeXFMTWdRZHVhQnB1em5WUGdiMjlhWTBpTk43NTNINkVSUjhRWi13MVp3ODg5R3NEakVuQWRoWW9jV1FOM0FYZHlKc0JhZlFoQ2psUHgzd1hTQjBWai1IVTVBMnRCMGRnWGltckNwWUVNSC14ZUxYM2s3UDItZ1VDbGF3aXZsYkdmVTJKanJIREZrTE5uUDRJZW1qR1lvRlZPWGRyOElQZW1Ta3NGakxZQ3NGWDM?oc=5",
       "date": "2026-05-31",
-      "publishedAt": "2026-05-30T01:43:09Z",
-      "summary": "A website titled “Trump ‘aliens’” proclaims “THEY WALK AMONG US” but is actually a data hub on federal encounters with migrants. The site focuses on immigration data rather than unidentified aerial phenomena. A journalist covering UAPs expressed disapproval of the site. The article was published on 2026‑05‑30 by iustitia.bg.",
+      "publishedAt": "2026-05-19T07:00:00Z",
+      "summary": "Documentary filmmaker Dan Farah says senior intelligence officials have confirmed that dozens of crashed UFOs of non‑human origin have been recovered by the U.S. government, including deceased bodies of varying species. The officials claim the bodies were not all the same type, implying multiple forms of extraterrestrial life may have visited Earth. Farah argues that internal resistance within the federal government has slowed public disclosure of these findings, citing a desire to maintain power and control. He notes that the Trump administration has pressured agencies to release UAP files, and the Department of War has declassified related material, but secrecy remains. Farah maintains that keeping the information secret would not give adversaries a strategic advantage because they likely already know about the phenomenon.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -621,85 +702,25 @@
         "released"
       ],
       "sourceQuality": 45,
-      "displayedAt": "2026-05-30T01:43:09Z",
+      "displayedAt": "2026-05-31T18:02:36Z",
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text",
-      "rssPublishedAt": "2026-05-30T01:43:09Z",
+      "rssPublishedAt": "2026-05-19T07:00:00Z",
       "rssDate": "2026-05-31",
-      "sourcePublishedAt": "2026-05-30T01:43:09Z",
-      "sourceDisplayedAt": "2026-05-31T17:31:52Z",
+      "sourcePublishedAt": "2026-05-19T17:27:31Z",
+      "sourceDisplayedAt": "2026-05-31T18:02:36Z",
       "sourceIsNew": true,
       "translation": {
         "en": {
-          "title": "Trump 'aliens' website is about immigration; UAP journalist not amused 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "summary": "A website titled “Trump ‘aliens’” proclaims “THEY WALK AMONG US” but is actually a data hub on federal encounters with migrants. The site focuses on immigration data rather than unidentified aerial phenomena. A journalist covering UAPs expressed disapproval of the site. The article was published on 2026‑05‑30 by iustitia.bg.",
-          "sourceHash": "31a25d0c9bbcc56b03c76e407910a1a79870b27b",
+          "title": "'Non-human' bodies allegedly recovered from crashed UFO, documentary filmmaker claims",
+          "summary": "Documentary filmmaker Dan Farah says senior intelligence officials have confirmed that dozens of crashed UFOs of non‑human origin have been recovered by the U.S. government, including deceased bodies of varying species. The officials claim the bodies were not all the same type, implying multiple forms of extraterrestrial life may have visited Earth. Farah argues that internal resistance within the federal government has slowed public disclosure of these findings, citing a desire to maintain power and control.",
+          "sourceHash": "1d6a1bd353be16d9e96fd2444d4c10b33d37096c",
           "provider": "original"
         },
         "de": {
-          "title": "Auf Trumps „Aliens“-Website geht es um Einwanderung; UAP-Journalist nicht amüsiert 2026 | GERECHTIGKEIT - IUSTITIA.BG 2025",
-          "summary": "Eine Website mit dem Titel „Trump ‚Aliens‘“ verkündet „SIE GEHEN UNTER UNS“, ist aber in Wirklichkeit eine Datendrehscheibe zu Begegnungen des Bundes mit Migranten. Die Website konzentriert sich eher auf Einwanderungsdaten als auf nicht identifizierte Luftphänomene. Ein Journalist, der über UAPs berichtet, äußerte seine Missbilligung der Website. Der Artikel wurde am 30.05.2026 von iustitia.bg veröffentlicht.",
-          "sourceHash": "31a25d0c9bbcc56b03c76e407910a1a79870b27b",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens",
-      "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenRDZkpoaEEtZHJPUXlkTXpsOEhiQ1podXBiSVk0SGlrVWpWRG00dFIxTVBwMi1CUkp0OFcxTVV1S1E2QkZ2YUZSMjROYTB5VGdraU9pSTV2X1RkUWhyWVBEU0c1REhtbjJhODFhTlpHeGdsVFd2MmJ1dG91YlY3WFlpRFVtU2NmdFN4cGVFTUw1c3VHRklQTFAtbGlNUTlIXzkyNFJzVUhuaXBmVnhTUg?oc=5",
-      "date": "2026-05-18",
-      "publishedAt": "2026-05-27T14:16:30Z",
-      "summary": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "TRUMP"
-      ],
-      "sourceQuality": 45,
-      "displayedAt": "2026-05-31T06:47:10Z",
-      "rssPublishedAt": "2026-05-27T14:16:30Z",
-      "rssDate": "2026-05-18",
-      "sourcePublishedAt": "2026-05-26T15:24:37Z",
-      "sourceDisplayedAt": "2026-05-31T06:47:10Z",
-      "sourceIsNew": true,
-      "translation": {
-        "en": {
-          "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
-          "summary": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor.",
-          "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Whistleblower behauptet, die CIA habe DNA-Daten von Ancestry- und 23andMe-Kunden bei der Suche nach Außerirdischen verwendet",
-          "summary": "Ein Whistleblower, Philosoph und Romanautor Jason Reza Jorjani, behauptet, die CIA habe angeblich eine Hintertür genutzt, um auf Daten von 23andMe und Ancestry.com zuzugreifen, um Personen mit einer genetischen Varianz zu identifizieren, die seiner Meinung nach mit außerirdischer DNA zusammenhängt. Jorjani sagt, er habe von dem Programm durch den Armeeveteranen Lyn Buchanan erfahren, der behauptet, er sei ein übersinnlicher Spion im Remote-Viewing-Programm der CIA gewesen und der ehemalige CIA-Analyst Christopher „Kit“ Green habe die Hintertür geschaffen.",
-          "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
+          "title": "„Nichtmenschliche“ Körper sollen angeblich aus abgestürztem UFO geborgen worden sein, behauptet Dokumentarfilmer",
+          "summary": "Der Dokumentarfilmer Dan Farah sagt, hochrangige Geheimdienstmitarbeiter hätten bestätigt, dass die US-Regierung Dutzende abgestürzter UFOs nichtmenschlichen Ursprungs geborgen habe, darunter auch verstorbene Körper verschiedener Arten. Die Beamten behaupten, die Leichen seien nicht alle vom gleichen Typ gewesen, was darauf hindeutet, dass mehrere Formen außerirdischen Lebens die Erde besucht haben könnten. Farah argumentiert, dass der interne Widerstand innerhalb der Bundesregierung die öffentliche Offenlegung dieser Ergebnisse verlangsamt habe, und begründet dies mit dem Wunsch, Macht und Kontrolle zu behalten.",
+          "sourceHash": "1d6a1bd353be16d9e96fd2444d4c10b33d37096c",
           "provider": "google"
         }
       }
@@ -832,7 +853,7 @@
           "provider": "original"
         },
         "de": {
-          "title": "Der mit UFOs verbundene General William Neil McCasland traf sich wenige Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
+          "title": "Der mit UFOs verbundene General William Neil McCasland traf sich Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
           "summary": "Der pensionierte Generalmajor der US-Luftwaffe, William Neil McCasland, 68, wurde am 27. Februar 2026 als vermisst gemeldet, nachdem er sein Haus in Albuquerque zu Fuß verlassen hatte; Sein Telefon, seine Brille und seine tragbaren Geräte wurden zurückgelassen, aber seine Wanderstiefel, seine Brieftasche und ein Revolver vom Kaliber .38 fehlten. Neu veröffentlichte Body-Cam-Audioshows McCasland nahm an einem Abendessen mit US-Amerikanern teil",
           "sourceHash": "2c315e297edee752331010a43348f7d819187439",
           "provider": "google"
@@ -842,25 +863,33 @@
   ],
   "summaries": {
     "file-release-multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure": "Investigative writer Timothy Alberino claims the U.S. government has recovered alien bodies and hides them in highly classified military programs, citing crash‑retrieval operations that operate beyond elected officials' oversight. He says sensitive UAP information is controlled by private aerospace contractors and deeply compartmentalised defence programmes, and that some data remains inaccessible even to senior officials. Alberino discussed recent UAP file releases from the Trump administration, describing them as underwhelming and predicting more significant material could appear later. He referenced eyewitness accounts of gray aliens, dismembered bodies, and transparent fluids, and cited former intelligence official David Grusch's 2023 testimony that the U.S. recovered non‑human biologics, though no independent verification exists. Scientists and mainstream researchers note that no publicly available physical evidence confirms extraterrestrial life or recovered alien technology, and the Pentagon maintains that All‑domain Anomaly Resolution Office investigations have not produced verified evidence of extraterrestrial activity. Lawmakers such as Representative Tim Burchett and Representative Anna Paulina Luna have called for greater transparency and whistleblower protections amid ongoing congressional interest in UAP investigations.",
+    "whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
     "sighting-trump-s-alien-gov-reveal-turns-into-immigration-satire-and-leaves-ufo-disclosure-community-furious": "The launch of Alien.gov, expected by many to be a historic UFO disclosure, instead delivered a political immigration message. The rollout sparked backlash from UFO researchers, disclosure advocates, and ordinary Americans who sought answers. Critics compared the event to former Arizona Governor Fife Symington’s handling of the Phoenix Lights, questioning government credibility. The controversy raises concerns about public trust and transparency.",
-    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Dr. Hal Puthoff, a former CIA‑funded researcher, said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs, citing people involved in the recoveries. Dr. Eric Davis identified the species as Grays, Nordics, Insectoids, and Reptilians, describing each as humanoid with two arms and legs, and noting that Nordics and Reptilians are about six feet tall. Nordics are described as highly human‑like and resembling northern Europeans, while Reptilians are scaley, lizard‑like with human limbs and long tails; Grays are small, massive‑eyed, hairless, and Insectoids resemble mantises. Former Air Force Intelligence officer David Grusch testified in 2023 that the U.S. possessed non‑human biologics recovered from dozens of crashed UFOs. These claims are based on testimony from members of a crash‑retrieval program featured in Dan Farrah’s film “Age of Disclosure,” and Farrah reported that interviewees have declined to speak publicly.",
+    "trump-aliens-website-is-about-immigration-uap-journalist-not-amused": "The launch of Alien.gov, expected by many to be a historic UFO disclosure, instead delivered a political immigration message. The rollout sparked backlash from UFO researchers, disclosure advocates, and ordinary Americans who sought answers. Critics compared the event to former Arizona Governor Fife Symington’s handling of the Phoenix Lights, questioning government credibility. The controversy raises concerns about public trust and transparency.",
     "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception": "Florida Representative Anna Paulina Luna publicly linked the ongoing UAP discussion to themes in the Book of Enoch, suggesting a possible connection between unidentified aerial phenomena and ancient accounts of heavenly beings. Luna’s remarks contrast with the evidence‑driven tone that has characterized recent disclosure efforts, but she frames the link through the interdimensional hypothesis and Carl Sagan’s Flatland analogy, which explain how beings from other dimensions might appear incomprehensible. The modern UAP conversation, recognized by NASA and the Department of Defense, includes documented observations of objects that accelerate suddenly, travel across media, and behave in ways that do not match known propulsion or aerodynamics. The Book of Enoch describes Watchers who descend from the heavens, interact with humanity, and impart advanced knowledge, and Luna notes structural parallels between these narratives and the interdimensional hypothesis, though she does not claim the texts provide scientific evidence. At present there is no verified evidence that UAPs are linked to the entities described in the Book of Enoch; the connection remains speculative and will depend on future evidence. The discussion around UFOs has broadened to include questions of reality, perception, and long‑standing encounters with the unknown, challenging policymakers to distinguish belief, theory, and evidence.",
     "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released. The FBI is investigating a series of missing and dead scientists linked to secret nuclear and UFO programs, including the disappearance of retired General William Neil McCasland. Other scientists, such as David Wilcock, have also died under suspicious circumstances, adding to the pattern of unexplained losses.",
     "mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work. A MITRE spokesperson said that if relevant material is found, the company will coordinate with federal agencies to provide the assets. The request is part of a broader congressional effort to increase UAP disclosure, though no evidence of extraterrestrial activity has been confirmed.",
-    "trump-aliens-website-is-about-immigration-uap-journalist-not-amused-2026-justice-iustitia-bg-2025": "A website titled “Trump ‘aliens’” proclaims “THEY WALK AMONG US” but is actually a data hub on federal encounters with migrants. The site focuses on immigration data rather than unidentified aerial phenomena. A journalist covering UAPs expressed disapproval of the site. The article was published on 2026‑05‑30 by iustitia.bg.",
-    "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
+    "film-non-human-bodies-allegedly-recovered-from-crashed-ufo-documentary-filmmaker-claims": "Documentary filmmaker Dan Farah says senior intelligence officials have confirmed that dozens of crashed UFOs of non‑human origin have been recovered by the U.S. government, including deceased bodies of varying species. The officials claim the bodies were not all the same type, implying multiple forms of extraterrestrial life may have visited Earth. Farah argues that internal resistance within the federal government has slowed public disclosure of these findings, citing a desire to maintain power and control. He notes that the Trump administration has pressured agencies to release UAP files, and the Department of War has declassified related material, but secrecy remains. Farah maintains that keeping the information secret would not give adversaries a strategic advantage because they likely already know about the phenomenon.",
     "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena. All of Thursday’s programming is free and open to the public. One‑day and five‑day passes are available at contactinthedesert.com.",
     "ufo-linked-general-william-neil-mccasland-met-us-space-force-personnel-hours-before-disappearance-audio": "Retired U.S. Air Force Major General William Neil McCasland, 68, was reported missing on February 27, 2026, after leaving his Albuquerque home on foot; his phone, glasses, and wearable devices were left behind, but his hiking boots, wallet, and a .38‑caliber revolver were missing. Newly released body‑cam audio shows McCasland attended a dinner with U.S. Space Force personnel the evening before he vanished, during which an unidentified woman discussed his high‑security clearance and ties to classified UFO programs. UFO whistleblower David Grusch has named McCasland among officials who allegedly managed legacy classified programs without proper oversight, and he expressed concern that the general’s disappearance may be related to those programs. The Bernalillo County Sheriff’s Office, FBI, and New Mexico Search and Rescue are conducting a multi‑agency search, while investigators have found no definitive evidence of foul play and note an unspecified medical condition. McCasland’s wife has stated that he has held only standard clearances since retiring 13 years ago, suggesting his disappearance may not be linked to older military secrets."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-31T17:58:24Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-05-31T18:02:36Z",
+    "ids": [
+      "film-non-human-bodies-allegedly-recovered-from-crashed-ufo-documentary-filmmaker-claims"
+    ],
+    "articles": [
+      {
+        "id": "film-non-human-bodies-allegedly-recovered-from-crashed-ufo-documentary-filmmaker-claims",
+        "title": "'Non-human' bodies allegedly recovered from crashed UFO, documentary filmmaker claims",
+        "source": "Fox News"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 353,
-    "broadTopics": 173,
+    "broadArticles": 357,
+    "broadTopics": 171,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -869,7 +898,7 @@
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 5,
+    "splitUnrelatedGroupedSources": 4,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
     "regroupedTopics": 5,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
@@ -879,8 +908,8 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 2,
-      "repaired": 1,
+      "attempts": 3,
+      "repaired": 3,
       "fallbackRepaired": 0,
       "missing": 1
     },
@@ -899,15 +928,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 12,
-      "outputArticles": 10,
+      "inputArticles": 13,
+      "outputArticles": 11,
       "preservedSourceSummaries": 8
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 10,
-      "outputArticles": 10,
-      "missingSummaries": 2,
+      "inputArticles": 11,
+      "outputArticles": 11,
+      "missingSummaries": 3,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -919,14 +948,14 @@
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 5,
-      "addedSources": 89,
+      "updatedTopics": 6,
+      "addedSources": 90,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 14,
+      "sources": 13,
       "cleanedArticles": 3,
       "removedDuplicateTopics": 1,
       "staleSummariesCleared": 1,
@@ -935,41 +964,40 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v2_keep_source_grounded_summaries",
-      "inputArticles": 9,
-      "outputArticles": 9,
+      "inputArticles": 10,
+      "outputArticles": 10,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 9,
+      "inputArticles": 10,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v3_skip_unreachable",
       "archiveCandidates": 12,
-      "currentBeforeRestore": 9,
-      "restoredArticles": 3,
+      "currentBeforeRestore": 10,
+      "restoredArticles": 2,
       "blockedUnreachableTitles": 0,
       "retentionDays": 14,
       "restoredTitles": [
         "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure",
-        "Trump’s Alien.gov Reveal Turns Into Immigration Satire and Leaves UFO Disclosure Community Furious",
-        "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms"
+        "Trump’s Alien.gov Reveal Turns Into Immigration Satire and Leaves UFO Disclosure Community Furious"
       ]
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
       "checkedSources": 23,
-      "updatedSources": 10,
+      "updatedSources": 11,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 12,
-      "newSources": 3
+      "newSources": 4
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -979,9 +1007,9 @@
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 0,
-      "freshSources": 0,
-      "correctedOldSourceMarkers": 2,
+      "notifications": 1,
+      "freshSources": 1,
+      "correctedOldSourceMarkers": 1,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 35
     }
@@ -1001,6 +1029,20 @@
         "provider": "google"
       }
     },
+    "whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens": {
+      "en": {
+        "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
+        "summary": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor.",
+        "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Whistleblower behauptet, die CIA habe DNA-Daten von Ancestry- und 23andMe-Kunden bei der Suche nach Außerirdischen verwendet",
+        "summary": "Ein Whistleblower, Philosoph und Romanautor Jason Reza Jorjani, behauptet, die CIA habe angeblich eine Hintertür genutzt, um auf Daten von 23andMe und Ancestry.com zuzugreifen, um Personen mit einer genetischen Varianz zu identifizieren, die seiner Meinung nach mit außerirdischer DNA zusammenhängt. Jorjani sagt, er habe von dem Programm durch den Armeeveteranen Lyn Buchanan erfahren, der behauptet, er sei ein übersinnlicher Spion im Remote-Viewing-Programm der CIA gewesen und der ehemalige CIA-Analyst Christopher „Kit“ Green habe die Hintertür geschaffen.",
+        "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
+        "provider": "google"
+      }
+    },
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
       "en": {
         "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
@@ -1010,7 +1052,7 @@
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }
@@ -1029,17 +1071,17 @@
         "provider": "google"
       }
     },
-    "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": {
+    "trump-aliens-website-is-about-immigration-uap-journalist-not-amused": {
       "en": {
-        "title": "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
-        "summary": "Dr. Hal Puthoff, a former CIA‑funded researcher, said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs, citing people involved in the recoveries. Dr.",
-        "sourceHash": "353a5707fef3762b370ceaec8047f8f2ac968ab1",
+        "title": "Trump ‘aliens’ website is about immigration; UAP journalist not amused",
+        "summary": "The launch of Alien.gov, expected by many to be a historic UFO disclosure, instead delivered a political immigration message. The rollout sparked backlash from UFO researchers, disclosure advocates, and ordinary Americans who sought answers. Critics compared the event to former Arizona Governor Fife Symington’s handling of the Phoenix Lights, questioning government credibility.",
+        "sourceHash": "0899e49bb41ad790a585bdc164dd76d00df4a4c4",
         "provider": "original"
       },
       "de": {
-        "title": "Ehemaliger mit dem Pentagon verbundener Physiker behauptet, die Vereinigten Staaten hätten biologische Überreste von vier Arten außerirdischer Lebensformen geborgen",
-        "summary": "Dr. Hal Puthoff, ein ehemaliger von der CIA finanzierter Forscher, sagte, die USA hätten vier verschiedene außerirdische Arten aus abgestürzten UFOs geborgen und verwies dabei auf Personen, die an den Bergungen beteiligt waren. Dr.",
-        "sourceHash": "353a5707fef3762b370ceaec8047f8f2ac968ab1",
+        "title": "Auf der „Aliens“-Website von Trump geht es um Einwanderung; UAP-Journalist nicht amüsiert",
+        "summary": "Der Start von Alien.gov, von dem viele eine historische UFO-Enthüllung erwarteten, übermittelte stattdessen eine politische Einwanderungsbotschaft. Die Einführung löste Gegenreaktionen von UFO-Forschern, Offenlegungsbefürwortern und einfachen Amerikanern aus, die nach Antworten suchten. Kritiker verglichen das Ereignis mit dem Umgang des ehemaligen Gouverneurs von Arizona, Fife Symington, mit den Phoenix Lights und stellten die Glaubwürdigkeit der Regierung in Frage.",
+        "sourceHash": "0899e49bb41ad790a585bdc164dd76d00df4a4c4",
         "provider": "google"
       }
     },
@@ -1085,31 +1127,17 @@
         "provider": "google"
       }
     },
-    "trump-aliens-website-is-about-immigration-uap-journalist-not-amused-2026-justice-iustitia-bg-2025": {
+    "film-non-human-bodies-allegedly-recovered-from-crashed-ufo-documentary-filmmaker-claims": {
       "en": {
-        "title": "Trump 'aliens' website is about immigration; UAP journalist not amused 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "summary": "A website titled “Trump ‘aliens’” proclaims “THEY WALK AMONG US” but is actually a data hub on federal encounters with migrants. The site focuses on immigration data rather than unidentified aerial phenomena. A journalist covering UAPs expressed disapproval of the site. The article was published on 2026‑05‑30 by iustitia.bg.",
-        "sourceHash": "31a25d0c9bbcc56b03c76e407910a1a79870b27b",
+        "title": "'Non-human' bodies allegedly recovered from crashed UFO, documentary filmmaker claims",
+        "summary": "Documentary filmmaker Dan Farah says senior intelligence officials have confirmed that dozens of crashed UFOs of non‑human origin have been recovered by the U.S. government, including deceased bodies of varying species. The officials claim the bodies were not all the same type, implying multiple forms of extraterrestrial life may have visited Earth. Farah argues that internal resistance within the federal government has slowed public disclosure of these findings, citing a desire to maintain power and control.",
+        "sourceHash": "1d6a1bd353be16d9e96fd2444d4c10b33d37096c",
         "provider": "original"
       },
       "de": {
-        "title": "Auf Trumps „Aliens“-Website geht es um Einwanderung; UAP-Journalist nicht amüsiert 2026 | GERECHTIGKEIT - IUSTITIA.BG 2025",
-        "summary": "Eine Website mit dem Titel „Trump ‚Aliens‘“ verkündet „SIE GEHEN UNTER UNS“, ist aber in Wirklichkeit eine Datendrehscheibe zu Begegnungen des Bundes mit Migranten. Die Website konzentriert sich eher auf Einwanderungsdaten als auf nicht identifizierte Luftphänomene. Ein Journalist, der über UAPs berichtet, äußerte seine Missbilligung der Website. Der Artikel wurde am 30.05.2026 von iustitia.bg veröffentlicht.",
-        "sourceHash": "31a25d0c9bbcc56b03c76e407910a1a79870b27b",
-        "provider": "google"
-      }
-    },
-    "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens": {
-      "en": {
-        "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
-        "summary": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor.",
-        "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Whistleblower behauptet, die CIA habe DNA-Daten von Ancestry- und 23andMe-Kunden bei der Suche nach Außerirdischen verwendet",
-        "summary": "Ein Whistleblower, Philosoph und Romanautor Jason Reza Jorjani, behauptet, die CIA habe angeblich eine Hintertür genutzt, um auf Daten von 23andMe und Ancestry.com zuzugreifen, um Personen mit einer genetischen Varianz zu identifizieren, die seiner Meinung nach mit außerirdischer DNA zusammenhängt. Jorjani sagt, er habe von dem Programm durch den Armeeveteranen Lyn Buchanan erfahren, der behauptet, er sei ein übersinnlicher Spion im Remote-Viewing-Programm der CIA gewesen und der ehemalige CIA-Analyst Christopher „Kit“ Green habe die Hintertür geschaffen.",
-        "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
+        "title": "„Nichtmenschliche“ Körper sollen angeblich aus abgestürztem UFO geborgen worden sein, behauptet Dokumentarfilmer",
+        "summary": "Der Dokumentarfilmer Dan Farah sagt, hochrangige Geheimdienstmitarbeiter hätten bestätigt, dass die US-Regierung Dutzende abgestürzter UFOs nichtmenschlichen Ursprungs geborgen habe, darunter auch verstorbene Körper verschiedener Arten. Die Beamten behaupten, die Leichen seien nicht alle vom gleichen Typ gewesen, was darauf hindeutet, dass mehrere Formen außerirdischen Lebens die Erde besucht haben könnten. Farah argumentiert, dass der interne Widerstand innerhalb der Bundesregierung die öffentliche Offenlegung dieser Ergebnisse verlangsamt habe, und begründet dies mit dem Wunsch, Macht und Kontrolle zu behalten.",
+        "sourceHash": "1d6a1bd353be16d9e96fd2444d4c10b33d37096c",
         "provider": "google"
       }
     },
@@ -1135,7 +1163,7 @@
         "provider": "original"
       },
       "de": {
-        "title": "Der mit UFOs verbundene General William Neil McCasland traf sich wenige Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
+        "title": "Der mit UFOs verbundene General William Neil McCasland traf sich Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
         "summary": "Der pensionierte Generalmajor der US-Luftwaffe, William Neil McCasland, 68, wurde am 27. Februar 2026 als vermisst gemeldet, nachdem er sein Haus in Albuquerque zu Fuß verlassen hatte; Sein Telefon, seine Brille und seine tragbaren Geräte wurden zurückgelassen, aber seine Wanderstiefel, seine Brieftasche und ein Revolver vom Kaliber .38 fehlten. Neu veröffentlichte Body-Cam-Audioshows McCasland nahm an einem Abendessen mit US-Amerikanern teil",
         "sourceHash": "2c315e297edee752331010a43348f7d819187439",
         "provider": "google"
