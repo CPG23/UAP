@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-31T17:31:52Z",
+  "timestamp": "2026-05-31T17:39:14Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -237,7 +237,11 @@
           "source": "iustitia.bg",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWWZlOTJpYUZiaE80VVZTZWtNNWJjcEZmWGlWek5LQU1EcnNnblExS0E0U0NYd1VzMkpGSkRUZkR0OXRhU1hDM0JSOGdiYm1CYlVKaXE3NTVvZ3lKUVlneGlWOG9UeXRUT3VpWGxSTHJPWWZNMnhyc1ROYlNJN2hmczVWbERvQQ?oc=5",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWWZlOTJpYUZiaE80VVZTZWtNNWJjcEZmWGlWek5LQU1EcnNnblExS0E0U0NYd1VzMkpGSkRUZkR0OXRhU1hDM0JSOGdiYm1CYlVKaXE3NTVvZ3lKUVlneGlWOG9UeXRUT3VpWGxSTHJPWWZNMnhyc1ROYlNJN2hmczVWbERvQQ?oc=5",
-          "publishedAt": "2026-05-30T01:43:09Z"
+          "publishedAt": "2026-05-30T01:43:09Z",
+          "rssPublishedAt": "2026-05-30T01:43:09Z",
+          "sourcePublishedAt": "2026-05-30T01:43:09Z",
+          "displayedAt": "2026-05-31T17:31:52Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
@@ -285,7 +289,9 @@
         "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
       },
       "sourceQuality": 59,
-      "displayedAt": "2026-05-31T17:31:52Z"
+      "displayedAt": "2026-05-31T17:31:52Z",
+      "sourceDisplayedAt": "2026-05-31T17:31:52Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception",
@@ -496,7 +502,7 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenRDZkpoaEEtZHJPUXlkTXpsOEhiQ1podXBiSVk0SGlrVWpWRG00dFIxTVBwMi1CUkp0OFcxTVV1S1E2QkZ2YUZSMjROYTB5VGdraU9pSTV2X1RkUWhyWVBEU0c1REhtbjJhODFhTlpHeGdsVFd2MmJ1dG91YlY3WFlpRFVtU2NmdFN4cGVFTUw1c3VHRklQTFAtbGlNUTlIXzkyNFJzVUhuaXBmVnhTUg?oc=5",
       "date": "2026-05-18",
       "publishedAt": "2026-05-27T14:16:30Z",
-      "summary": "",
+      "summary": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -528,11 +534,7 @@
         "TRUMP"
       ],
       "sourceQuality": 45,
-      "displayedAt": "2026-05-31T06:47:10Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      }
+      "displayedAt": "2026-05-31T06:47:10Z"
     },
     {
       "id": "lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens",
