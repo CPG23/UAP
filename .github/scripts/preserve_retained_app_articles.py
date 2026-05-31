@@ -212,6 +212,30 @@ def represented(previous: dict[str, Any], current_articles: list[dict[str, Any]]
     return False
 
 
+def merge_if_represented(previous: dict[str, Any], current_articles: list[dict[str, Any]]) -> bool:
+    previous_id = compact(previous.get("id"))
+    previous_title = title_key(previous.get("title"))
+    previous_sources = source_keys(previous)
+    retained = normalize_retained(previous)
+    for current in current_articles:
+        same = False
+        if previous_id and previous_id == compact(current.get("id")):
+            same = True
+        elif previous_title and previous_title == title_key(current.get("title")):
+            same = True
+        elif previous_sources and previous_sources & source_keys(current):
+            same = True
+        elif same_story_article:
+            try:
+                same = bool(same_story_article(current, previous))
+            except Exception:
+                same = False
+        if same or fallback_same_story(current, previous):
+            merge_duplicate_into(current, retained)
+            return True
+    return False
+
+
 def normalize_retained(article: dict[str, Any]) -> dict[str, Any]:
     retained = dict(article)
     retained.setdefault("otherSources", [])
@@ -329,7 +353,7 @@ def main() -> None:
     for article in candidates:
         if not within_retention(article, now):
             continue
-        if represented(article, current + restored):
+        if merge_if_represented(article, current + restored):
             continue
         restored.append(normalize_retained(article))
 
