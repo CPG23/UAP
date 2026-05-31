@@ -14,7 +14,7 @@ WORD_RE = re.compile(r"[a-z0-9]+")
 TITLE_ONLY_SUMMARY_CHARS = 140
 MISSING_STATUS = {
     "articleContentSummary": "missing",
-    "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen.",
+    "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen.",
 }
 STOP = set(
     "a an the to of for in on at by with from and or is are was were be been has have had "
@@ -214,11 +214,11 @@ def source_rank(source: dict[str, Any]) -> tuple[int, str]:
 
 def source_points(mentions: int) -> int:
     if mentions >= 20:
-        return 40
+        return 50
     if mentions >= 10:
-        return 34
+        return 45
     if mentions >= 5:
-        return 24
+        return 28
     return max(0, (mentions - 1) * 5)
 
 
