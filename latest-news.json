@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-30T19:56:22Z",
+  "timestamp": "2026-05-31T06:47:10Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -27,8 +27,7 @@
           "publishedAt": "2026-05-29T16:00:04Z",
           "rssPublishedAt": "2026-05-29T16:00:04Z",
           "sourcePublishedAt": "2026-05-29T16:00:04Z",
-          "displayedAt": "2026-05-29T17:19:44Z",
-          "isNew": true
+          "displayedAt": "2026-05-29T16:00:04Z"
         },
         {
           "title": "Pentagon releases second batch of declassified UFO files",
@@ -174,6 +173,159 @@
       "retainedFromPreviousScan": true
     },
     {
+      "id": "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases",
+      "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
+      "source": "International Business Times UK",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWGFmTVlQQS1TS2NnYTVTVFM4RGVXenRzcnJXaHY3RjZUSVAtMWZrSkM2OEhQcGlLXzhzQm9zZGdXSjFOblpxaWpBNno2RnR1bE8zRU5zWEs0QTEtVXRmeE9HdjNsSHluUjUyMEJrZzFVOFVpay1YUDdGYXF2cU11UWRBdzlqRzQ?oc=5",
+      "date": "2026-05-18",
+      "publishedAt": "2026-05-27T14:16:30Z",
+      "summary": "Investigative writer Timothy Alberino claims the U.S. government secretly stores recovered alien bodies in underground military bases, citing crash‑retrieval operations that bypass elected oversight. He says sensitive UAP information is controlled by private aerospace contractors and deeply compartmentalised defence programmes, but no publicly available evidence has been produced to support these assertions. Alberino referenced eyewitness accounts of gray aliens and dismembered bodies, as well as former intelligence official David Grusch’s 2023 testimony that the U.S. recovered non‑human biologics, though these claims remain unverified. Scientists and mainstream researchers note that no physical evidence confirming extraterrestrial life or recovered alien technology has been released. Lawmakers such as Representative Tim Burchett and Representative Anna Paulina Luna have called for greater transparency and whistleblower protections amid ongoing UAP investigations.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 79,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 9,
+          "text": "ALIEN, CIA, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "CIA, WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 6,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "alien",
+        "military",
+        "whistleblower"
+      ],
+      "sourceQuality": 79,
+      "displayedAt": "2026-05-31T06:47:10Z",
+      "rssPublishedAt": "2026-05-27T14:16:30Z",
+      "rssDate": "2026-05-18",
+      "sourcePublishedAt": "2026-05-18T07:41:28Z",
+      "sourceDisplayedAt": "2026-05-31T06:47:10Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
+          "summary": "Investigative writer Timothy Alberino claims the U.S. government secretly stores recovered alien bodies in underground military bases, citing crash‑retrieval operations that bypass elected oversight. He says sensitive UAP information is controlled by private aerospace contractors and deeply compartmentalised defence programmes, but no publicly available evidence has been produced to support these assertions.",
+          "sourceHash": "fe247f011385dc5675cc83cb0e302f783674fb1e",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Außerirdischer Whistleblower behauptet, die USA hätten „graue Körper zerstückelt“, die in unterirdischen Militärstützpunkten versteckt seien",
+          "summary": "Der investigative Autor Timothy Alberino behauptet, dass die US-Regierung geborgene außerirdische Leichen heimlich in unterirdischen Militärstützpunkten lagert, und verweist auf Bergungsoperationen, bei denen die gewählte Kontrolle umgangen wird. Er sagt, sensible UAP-Informationen würden von privaten Luft- und Raumfahrtunternehmen und stark abgegrenzten Verteidigungsprogrammen kontrolliert, es seien jedoch keine öffentlich zugänglichen Beweise vorgelegt worden, die diese Behauptungen stützen könnten.",
+          "sourceHash": "fe247f011385dc5675cc83cb0e302f783674fb1e",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens",
+      "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenRDZkpoaEEtZHJPUXlkTXpsOEhiQ1podXBiSVk0SGlrVWpWRG00dFIxTVBwMi1CUkp0OFcxTVV1S1E2QkZ2YUZSMjROYTB5VGdraU9pSTV2X1RkUWhyWVBEU0c1REhtbjJhODFhTlpHeGdsVFd2MmJ1dG91YlY3WFlpRFVtU2NmdFN4cGVFTUw1c3VHRklQTFAtbGlNUTlIXzkyNFJzVUhuaXBmVnhTUg?oc=5",
+      "date": "2026-05-18",
+      "publishedAt": "2026-05-27T14:16:30Z",
+      "summary": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 79,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 9,
+          "text": "ALIEN, CIA, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "CIA, WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 6,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "cia",
+        "whistleblower"
+      ],
+      "sourceQuality": 79,
+      "displayedAt": "2026-05-31T06:47:10Z",
+      "rssPublishedAt": "2026-05-27T14:16:30Z",
+      "rssDate": "2026-05-18",
+      "sourcePublishedAt": "2026-05-26T15:24:37Z",
+      "sourceDisplayedAt": "2026-05-31T06:47:10Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
+          "summary": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor.",
+          "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Whistleblower behauptet, die CIA habe DNA-Daten von Ancestry- und 23andMe-Kunden bei der Suche nach Außerirdischen verwendet",
+          "summary": "Ein Whistleblower, Philosoph und Romanautor Jason Reza Jorjani, behauptet, die CIA habe angeblich eine Hintertür genutzt, um auf Daten von 23andMe und Ancestry.com zuzugreifen, um Personen mit einer genetischen Varianz zu identifizieren, die seiner Meinung nach mit außerirdischer DNA zusammenhängt. Jorjani sagt, er habe von dem Programm durch den Armeeveteranen Lyn Buchanan erfahren, der behauptet, er sei ein übersinnlicher Spion im Remote-Viewing-Programm der CIA gewesen und der ehemalige CIA-Analyst Christopher „Kit“ Green habe die Hintertür geschaffen.",
+          "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
+          "provider": "google"
+        }
+      }
+    },
+    {
       "id": "sighting-trump-s-alien-gov-reveal-turns-into-immigration-satire-and-leaves-ufo-disclosure-community-furious",
       "title": "Trump’s Alien.gov Reveal Turns Into Immigration Satire and Leaves UFO Disclosure Community Furious",
       "source": "USA Herald",
@@ -317,13 +469,13 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "televangelist-s-ufo-warning-goes-viral-as-america-waits-for-disclosure-and-proof",
-      "title": "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof",
+      "id": "file-release-multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure",
+      "title": "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure",
       "source": "USA Herald",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORjVrWDEzUHM5NF8zcjZDdlNZVkNvUUN6NkxHaGpVMTBYcl9Pd3lBZmpMZVJ0RnhENTh4SmNsY1VzQnNrNWVaRDlsWTQwQzgtQXdHWU43cXdqRkc4X3pVZ3NwZ0tib3hGT05pRzN5LV8tVHptZTRQb1hfRnE1TzRaSVFMNVZxd1poRXlfcTNrZXVVakpYYnhDYXRBME0yZGFMOHM5Zw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcW8xdnY3aHk4NS1GcGlFSkJfTkNSNE1iNllTZUF5TmpMc0Zibkc0dU5oQnpPV0JvV0YxWXptMGx4LWhJX2JkRkxjemRFSmRzenFsOElRaVdTTXVQTWZuelVVbHVyMlZVSWhzNkRBRGxJZ1hLN3ZTRG9HR0F0UGZwUWdrSlZkdDI2WVJ2elE4emNaNWxiOGUzWjAzcS0wdFhKeVI1a3MwenMwWklLS3VlbFVha0xyRW9wRU1heGxYVl9UVko1REJXRzktTThqUHFHcHlldUwycTIwMUlyb2NvTGZFZzBvQTg?oc=5",
       "date": "2026-05-30",
-      "publishedAt": "2026-05-30T05:59:45Z",
-      "summary": "The UFO disclosure debate has moved into the pulpit. Cleveland‑based televangelist Perry Stone said pastors in an undisclosed state were warned by people linked to the U.S. government to prepare their congregations for upcoming disclosures about non‑human craft and materials. Stone claims the warnings concern imminent UFO and alien disclosure. The allegations remain unverified. Congress, NASA, the Pentagon, and the Trump administration are facing growing pressure for UAP transparency.",
+      "publishedAt": "2026-05-29T07:00:00Z",
+      "summary": "Several religious leaders say they were privately briefed by U.S. military intelligence officers to prepare their congregations for UAP disclosure. The White House has not denied these claims. President Trump has promised that “never‑before‑seen” UAP files will arrive “very, very soon.” Televangelist Perry Stone’s viral UFO warning coincides with Trump’s promised file release and congressional pressure for disclosure. The situation reflects a growing demand for transparency and public accountability regarding UAPs.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -366,25 +518,24 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 61,
+      "displayedAt": "2026-05-29T07:00:00Z",
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text",
-      "displayedAt": "2026-05-30T19:56:22Z",
-      "rssPublishedAt": "2026-05-30T05:59:45Z",
+      "rssPublishedAt": "2026-05-29T07:00:00Z",
       "rssDate": "2026-05-30",
-      "sourcePublishedAt": "2026-05-05T07:23:47Z",
-      "sourceDisplayedAt": "2026-05-30T19:56:22Z",
-      "sourceIsNew": true,
+      "sourcePublishedAt": "2026-05-06T04:39:09Z",
+      "sourceDisplayedAt": "2026-05-31T06:47:10Z",
       "translation": {
         "en": {
-          "title": "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof",
-          "summary": "The UFO disclosure debate has moved into the pulpit. Cleveland‑based televangelist Perry Stone said pastors in an undisclosed state were warned by people linked to the U.S. government to prepare their congregations for upcoming disclosures about non‑human craft and materials. Stone claims the warnings concern imminent UFO and alien disclosure.",
-          "sourceHash": "bc9db29ef868e745e07076475925f7c55f5a7831",
+          "title": "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure",
+          "summary": "Several religious leaders say they were privately briefed by U.S. military intelligence officers to prepare their congregations for UAP disclosure. The White House has not denied these claims. President Trump has promised that “never‑before‑seen” UAP files will arrive “very, very soon.” Televangelist Perry Stone’s viral UFO warning coincides with Trump’s promised file release and congressional pressure for disclosure.",
+          "sourceHash": "4e20fab607d85c74a2d86a0f10008ef80ea43512",
           "provider": "original"
         },
         "de": {
-          "title": "Die UFO-Warnung von Televangelist geht viral, während Amerika auf Offenlegung und Beweise wartet",
-          "summary": "Die Debatte über die Enthüllung von UFOs ist auf die Kanzel gewandert. Der in Cleveland ansässige Fernsehevangelist Perry Stone sagte, Pastoren in einem unbekannten Staat seien von Personen mit Verbindungen zur US-Regierung gewarnt worden, ihre Gemeinden auf bevorstehende Enthüllungen über nichtmenschliche Handwerkskunst und Materialien vorzubereiten. Stone behauptet, die Warnungen beträfen die bevorstehende Enthüllung von UFOs und Außerirdischen.",
-          "sourceHash": "bc9db29ef868e745e07076475925f7c55f5a7831",
+          "title": "Mehrere Pastoren behaupten, US-Militärgeheimdienstoffiziere hätten sie heimlich informiert, um ihre Gemeinden auf die UAP-Offenlegung vorzubereiten",
+          "summary": "Mehrere religiöse Führer gaben an, dass sie privat von Offizieren des US-Militärgeheimdienstes informiert wurden, um ihre Gemeinden auf die Offenlegung der UAP vorzubereiten. Das Weiße Haus hat diese Behauptungen nicht bestritten. Präsident Trump hat versprochen, dass „noch nie dagewesene“ UAP-Dateien „sehr, sehr bald“ eintreffen werden. Die virale UFO-Warnung des Fernsehevangelisten Perry Stone fällt mit Trumps versprochener Aktenveröffentlichung und dem Druck des Kongresses zur Offenlegung zusammen.",
+          "sourceHash": "4e20fab607d85c74a2d86a0f10008ef80ea43512",
           "provider": "google"
         }
       }
@@ -566,7 +717,6 @@
       "rssDate": "2026-05-27",
       "sourcePublishedAt": "2026-05-27T20:22:30Z",
       "sourceDisplayedAt": "2026-05-30T12:01:38Z",
-      "sourceIsNew": true,
       "translation": {
         "en": {
           "title": "MITRE moves to comply with lawmaker’s request for UAP records and assets dating back to 1930",
@@ -580,7 +730,9 @@
           "sourceHash": "0b0b505182b773c6d362923ae7f0c4bf105c9b27",
           "provider": "google"
         }
-      }
+      },
+      "retainedFromPreviousScan": true,
+      "sourceIsNew": true
     },
     {
       "id": "lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens",
@@ -616,44 +768,107 @@
       "displayedAt": "2026-05-30T06:13:44Z",
       "sourceDisplayedAt": "2026-05-30T06:13:44Z",
       "sourceIsNew": true
+    },
+    {
+      "id": "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free",
+      "title": "The World's Largest UFO Conference Is Open Today, and It's Free",
+      "source": "NBC Palm Springs",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUXB1VUl2Z2FTWUhYWXFXeDl4TV9UWG1rbnNRVnFNRWNEYW4tOTNOX2t6VThtd0FraVF3dTNIb1hqbDN6aTVqMllvX1pJMjJ3MndPSGhJZ2RCalNZdlYxQ29lNF9Xelc0SldNWnJWZmN2YVNNZ0JSVkxCTFZESGpUUGFRS21EVGRqa2c3Zm9ITEg5VEppejFYSXJWMG5SWmpDaXhlVw?oc=5",
+      "date": "2026-05-28",
+      "publishedAt": "2026-05-28T18:00:00Z",
+      "summary": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena. All of Thursday’s programming is free and open to the public. One‑day and five‑day passes are available at contactinthedesert.com.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "displayedAt": "2026-05-31T06:47:10Z",
+      "rssPublishedAt": "2026-05-28T18:00:00Z",
+      "rssDate": "2026-05-28",
+      "sourcePublishedAt": "2026-05-28T18:00:00Z",
+      "sourceDisplayedAt": "2026-05-31T06:47:10Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "The World's Largest UFO Conference Is Open Today, and It's Free",
+          "summary": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena.",
+          "sourceHash": "ce7a4f31a01b0655259dea2618a1d897751b73dd",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Die weltweit größte UFO-Konferenz ist heute geöffnet und kostenlos",
+          "summary": "Im Coachella Valley findet die weltweit größte UFO- und UAP-Konferenz statt. Contact in the Desert eröffnete am Donnerstag im Renaissance Esmeralda Resort in Indian Wells seine 12. jährliche Veranstaltung, die bis zum 1. Juni läuft. Die Konferenz bringt Wissenschaftler, Forscher und Journalisten aus der ganzen Welt zu Panels und Diskussionen über außerirdisches Leben, UAP-Offenlegung und andere ungeklärte Phänomene zusammen.",
+          "sourceHash": "ce7a4f31a01b0655259dea2618a1d897751b73dd",
+          "provider": "google"
+        }
+      }
     }
   ],
   "summaries": {
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
+    "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases": "Investigative writer Timothy Alberino claims the U.S. government secretly stores recovered alien bodies in underground military bases, citing crash‑retrieval operations that bypass elected oversight. He says sensitive UAP information is controlled by private aerospace contractors and deeply compartmentalised defence programmes, but no publicly available evidence has been produced to support these assertions. Alberino referenced eyewitness accounts of gray aliens and dismembered bodies, as well as former intelligence official David Grusch’s 2023 testimony that the U.S. recovered non‑human biologics, though these claims remain unverified. Scientists and mainstream researchers note that no physical evidence confirming extraterrestrial life or recovered alien technology has been released. Lawmakers such as Representative Tim Burchett and Representative Anna Paulina Luna have called for greater transparency and whistleblower protections amid ongoing UAP investigations.",
+    "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
     "sighting-trump-s-alien-gov-reveal-turns-into-immigration-satire-and-leaves-ufo-disclosure-community-furious": "The launch of Alien.gov, expected by many to be a historic UFO disclosure, instead delivered a political immigration message. The rollout sparked backlash from UFO researchers, disclosure advocates, and ordinary Americans who sought answers. Critics compared the event to former Arizona Governor Fife Symington’s handling of the Phoenix Lights, questioning government credibility. The controversy raises concerns about public trust and transparency.",
     "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Dr. Hal Puthoff, a former CIA‑funded researcher, said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs, citing people involved in the recoveries. Dr. Eric Davis identified the species as Grays, Nordics, Insectoids, and Reptilians, describing each as humanoid with two arms and legs, and noting that Nordics and Reptilians are about six feet tall. Nordics are described as highly human‑like and resembling northern Europeans, while Reptilians are scaley, lizard‑like with human limbs and long tails; Grays are small, massive‑eyed, hairless, and Insectoids resemble mantises. Former Air Force Intelligence officer David Grusch testified in 2023 that the U.S. possessed non‑human biologics recovered from dozens of crashed UFOs. These claims are based on testimony from members of a crash‑retrieval program featured in Dan Farrah’s film “Age of Disclosure,” and Farrah reported that interviewees have declined to speak publicly.",
-    "televangelist-s-ufo-warning-goes-viral-as-america-waits-for-disclosure-and-proof": "The UFO disclosure debate has moved into the pulpit. Cleveland‑based televangelist Perry Stone said pastors in an undisclosed state were warned by people linked to the U.S. government to prepare their congregations for upcoming disclosures about non‑human craft and materials. Stone claims the warnings concern imminent UFO and alien disclosure. The allegations remain unverified. Congress, NASA, the Pentagon, and the Trump administration are facing growing pressure for UAP transparency.",
+    "file-release-multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure": "Several religious leaders say they were privately briefed by U.S. military intelligence officers to prepare their congregations for UAP disclosure. The White House has not denied these claims. President Trump has promised that “never‑before‑seen” UAP files will arrive “very, very soon.” Televangelist Perry Stone’s viral UFO warning coincides with Trump’s promised file release and congressional pressure for disclosure. The situation reflects a growing demand for transparency and public accountability regarding UAPs.",
     "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception": "Florida Representative Anna Paulina Luna publicly linked the ongoing UAP discussion to themes in the Book of Enoch, suggesting a possible connection between unidentified aerial phenomena and ancient accounts of heavenly beings. Luna’s remarks contrast with the evidence‑driven tone that has characterized recent disclosure efforts, but she frames the link through the interdimensional hypothesis and Carl Sagan’s Flatland analogy, which explain how beings from other dimensions might appear incomprehensible. The modern UAP conversation, recognized by NASA and the Department of Defense, includes documented observations of objects that accelerate suddenly, travel across media, and behave in ways that do not match known propulsion or aerodynamics. The Book of Enoch describes Watchers who descend from the heavens, interact with humanity, and impart advanced knowledge, and Luna notes structural parallels between these narratives and the interdimensional hypothesis, though she does not claim the texts provide scientific evidence. At present there is no verified evidence that UAPs are linked to the entities described in the Book of Enoch; the connection remains speculative and will depend on future evidence. The discussion around UFOs has broadened to include questions of reality, perception, and long‑standing encounters with the unknown, challenging policymakers to distinguish belief, theory, and evidence.",
     "secret-agent-who-was-about-to-blow-the-lid-off-ufo-secrets-died-5-years-ago-a-whistleblower-has-now-raised-suspicion": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released. The FBI is investigating a series of missing and dead scientists linked to secret nuclear and UFO programs, including the disappearance of retired General William Neil McCasland. Other scientists, such as David Wilcock, have also died under suspicious circumstances, adding to the pattern of unexplained losses.",
-    "program-mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work. A MITRE spokesperson said that if relevant material is found, the company will coordinate with federal agencies to provide the assets. The request is part of a broader congressional effort to increase UAP disclosure, though no evidence of extraterrestrial activity has been confirmed."
+    "program-mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work. A MITRE spokesperson said that if relevant material is found, the company will coordinate with federal agencies to provide the assets. The request is part of a broader congressional effort to increase UAP disclosure, though no evidence of extraterrestrial activity has been confirmed.",
+    "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena. All of Thursday’s programming is free and open to the public. One‑day and five‑day passes are available at contactinthedesert.com."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-30T19:56:22Z",
+    "timestamp": "2026-05-31T06:47:10Z",
     "ids": [
-      "televangelist-s-ufo-warning-goes-viral-as-america-waits-for-disclosure-and-proof"
+      "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases",
+      "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens",
+      "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free"
     ],
     "articles": [
       {
-        "id": "televangelist-s-ufo-warning-goes-viral-as-america-waits-for-disclosure-and-proof",
-        "title": "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof",
-        "source": "USA Herald"
+        "id": "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases",
+        "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
+        "source": "International Business Times UK"
+      },
+      {
+        "id": "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens",
+        "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
+        "source": "New York Post"
+      },
+      {
+        "id": "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free",
+        "title": "The World's Largest UFO Conference Is Open Today, and It's Free",
+        "source": "NBC Palm Springs"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 336,
-    "broadTopics": 159,
-    "notificationArticles": 2,
-    "notificationTopics": 2,
+    "broadArticles": 350,
+    "broadTopics": 169,
+    "notificationArticles": 1,
+    "notificationTopics": 1,
     "newNotificationTopics": 0,
-    "appTopics": 8,
+    "appTopics": 11,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 0,
+    "splitUnrelatedGroupedSources": 2,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 4,
+    "regroupedTopics": 2,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -668,7 +883,7 @@
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
-      "kept": 8,
+      "kept": 11,
       "missing": 1,
       "missingItems": [
         {
@@ -681,14 +896,14 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 6,
-      "outputArticles": 6,
-      "preservedSourceSummaries": 5
+      "inputArticles": 8,
+      "outputArticles": 8,
+      "preservedSourceSummaries": 7
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 6,
-      "outputArticles": 6,
+      "inputArticles": 8,
+      "outputArticles": 8,
       "missingSummaries": 1,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
@@ -697,67 +912,68 @@
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 2,
-      "addedSources": 36,
+      "updatedTopics": 3,
+      "addedSources": 54,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v4_exclude_distinct_sightings",
-      "primaryId": "program-mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930",
+      "primaryId": "file-release-multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure",
       "sources": 14,
-      "cleanedArticles": 0,
+      "cleanedArticles": 1,
       "removedDuplicateTopics": 1,
       "staleSummariesCleared": 0,
       "rejectedArticleSources": 1
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v2_keep_source_grounded_summaries",
-      "inputArticles": 5,
-      "outputArticles": 5,
+      "inputArticles": 7,
+      "outputArticles": 7,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 5,
+      "inputArticles": 7,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v3_skip_unreachable",
       "archiveCandidates": 8,
-      "currentBeforeRestore": 5,
-      "restoredArticles": 3,
+      "currentBeforeRestore": 7,
+      "restoredArticles": 4,
       "blockedUnreachableTitles": 0,
       "retentionDays": 14,
       "restoredTitles": [
         "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "Trump’s Alien.gov Reveal Turns Into Immigration Satire and Leaves UFO Disclosure Community Furious",
-        "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms"
+        "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
+        "MITRE moves to comply with lawmaker’s request for UAP records and assets dating back to 1930"
       ]
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 18,
-      "updatedSources": 4,
+      "checkedSources": 21,
+      "updatedSources": 6,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 8,
-      "newSources": 2
+      "updatedTopics": 11,
+      "newSources": 5
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 8,
+      "correctedExistingTopics": 11,
       "newTopics": 0,
       "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
+      "notifications": 3,
+      "freshSources": 3,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 26
@@ -775,6 +991,34 @@
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
         "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+        "provider": "google"
+      }
+    },
+    "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases": {
+      "en": {
+        "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
+        "summary": "Investigative writer Timothy Alberino claims the U.S. government secretly stores recovered alien bodies in underground military bases, citing crash‑retrieval operations that bypass elected oversight. He says sensitive UAP information is controlled by private aerospace contractors and deeply compartmentalised defence programmes, but no publicly available evidence has been produced to support these assertions.",
+        "sourceHash": "fe247f011385dc5675cc83cb0e302f783674fb1e",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Außerirdischer Whistleblower behauptet, die USA hätten „graue Körper zerstückelt“, die in unterirdischen Militärstützpunkten versteckt seien",
+        "summary": "Der investigative Autor Timothy Alberino behauptet, dass die US-Regierung geborgene außerirdische Leichen heimlich in unterirdischen Militärstützpunkten lagert, und verweist auf Bergungsoperationen, bei denen die gewählte Kontrolle umgangen wird. Er sagt, sensible UAP-Informationen würden von privaten Luft- und Raumfahrtunternehmen und stark abgegrenzten Verteidigungsprogrammen kontrolliert, es seien jedoch keine öffentlich zugänglichen Beweise vorgelegt worden, die diese Behauptungen stützen könnten.",
+        "sourceHash": "fe247f011385dc5675cc83cb0e302f783674fb1e",
+        "provider": "google"
+      }
+    },
+    "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens": {
+      "en": {
+        "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
+        "summary": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor.",
+        "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Whistleblower behauptet, die CIA habe DNA-Daten von Ancestry- und 23andMe-Kunden bei der Suche nach Außerirdischen verwendet",
+        "summary": "Ein Whistleblower, Philosoph und Romanautor Jason Reza Jorjani, behauptet, die CIA habe angeblich eine Hintertür genutzt, um auf Daten von 23andMe und Ancestry.com zuzugreifen, um Personen mit einer genetischen Varianz zu identifizieren, die seiner Meinung nach mit außerirdischer DNA zusammenhängt. Jorjani sagt, er habe von dem Programm durch den Armeeveteranen Lyn Buchanan erfahren, der behauptet, er sei ein übersinnlicher Spion im Remote-Viewing-Programm der CIA gewesen und der ehemalige CIA-Analyst Christopher „Kit“ Green habe die Hintertür geschaffen.",
+        "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
         "provider": "google"
       }
     },
@@ -806,17 +1050,17 @@
         "provider": "google"
       }
     },
-    "televangelist-s-ufo-warning-goes-viral-as-america-waits-for-disclosure-and-proof": {
+    "file-release-multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure": {
       "en": {
-        "title": "Televangelist’s UFO Warning Goes Viral As America Waits For Disclosure And Proof",
-        "summary": "The UFO disclosure debate has moved into the pulpit. Cleveland‑based televangelist Perry Stone said pastors in an undisclosed state were warned by people linked to the U.S. government to prepare their congregations for upcoming disclosures about non‑human craft and materials. Stone claims the warnings concern imminent UFO and alien disclosure.",
-        "sourceHash": "bc9db29ef868e745e07076475925f7c55f5a7831",
+        "title": "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure",
+        "summary": "Several religious leaders say they were privately briefed by U.S. military intelligence officers to prepare their congregations for UAP disclosure. The White House has not denied these claims. President Trump has promised that “never‑before‑seen” UAP files will arrive “very, very soon.” Televangelist Perry Stone’s viral UFO warning coincides with Trump’s promised file release and congressional pressure for disclosure.",
+        "sourceHash": "4e20fab607d85c74a2d86a0f10008ef80ea43512",
         "provider": "original"
       },
       "de": {
-        "title": "Die UFO-Warnung von Televangelist geht viral, während Amerika auf Offenlegung und Beweise wartet",
-        "summary": "Die Debatte über die Enthüllung von UFOs ist auf die Kanzel gewandert. Der in Cleveland ansässige Fernsehevangelist Perry Stone sagte, Pastoren in einem unbekannten Staat seien von Personen mit Verbindungen zur US-Regierung gewarnt worden, ihre Gemeinden auf bevorstehende Enthüllungen über nichtmenschliche Handwerkskunst und Materialien vorzubereiten. Stone behauptet, die Warnungen beträfen die bevorstehende Enthüllung von UFOs und Außerirdischen.",
-        "sourceHash": "bc9db29ef868e745e07076475925f7c55f5a7831",
+        "title": "Mehrere Pastoren behaupten, US-Militärgeheimdienstoffiziere hätten sie heimlich informiert, um ihre Gemeinden auf die UAP-Offenlegung vorzubereiten",
+        "summary": "Mehrere religiöse Führer gaben an, dass sie privat von Offizieren des US-Militärgeheimdienstes informiert wurden, um ihre Gemeinden auf die Offenlegung der UAP vorzubereiten. Das Weiße Haus hat diese Behauptungen nicht bestritten. Präsident Trump hat versprochen, dass „noch nie dagewesene“ UAP-Dateien „sehr, sehr bald“ eintreffen werden. Die virale UFO-Warnung des Fernsehevangelisten Perry Stone fällt mit Trumps versprochener Aktenveröffentlichung und dem Druck des Kongresses zur Offenlegung zusammen.",
+        "sourceHash": "4e20fab607d85c74a2d86a0f10008ef80ea43512",
         "provider": "google"
       }
     },
@@ -861,10 +1105,24 @@
         "sourceHash": "0b0b505182b773c6d362923ae7f0c4bf105c9b27",
         "provider": "google"
       }
+    },
+    "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": {
+      "en": {
+        "title": "The World's Largest UFO Conference Is Open Today, and It's Free",
+        "summary": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena.",
+        "sourceHash": "ce7a4f31a01b0655259dea2618a1d897751b73dd",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Die weltweit größte UFO-Konferenz ist heute geöffnet und kostenlos",
+        "summary": "Im Coachella Valley findet die weltweit größte UFO- und UAP-Konferenz statt. Contact in the Desert eröffnete am Donnerstag im Renaissance Esmeralda Resort in Indian Wells seine 12. jährliche Veranstaltung, die bis zum 1. Juni läuft. Die Konferenz bringt Wissenschaftler, Forscher und Journalisten aus der ganzen Welt zu Panels und Diskussionen über außerirdisches Leben, UAP-Offenlegung und andere ungeklärte Phänomene zusammen.",
+        "sourceHash": "ce7a4f31a01b0655259dea2618a1d897751b73dd",
+        "provider": "google"
+      }
     }
   },
   "translationMeta": {
-    "prepared": 7,
+    "prepared": 10,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
