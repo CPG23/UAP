@@ -1,6 +1,5 @@
 import json
 import os
-import urllib.parse
 
 LATEST_FILE = 'latest-news.json'
 PAYLOAD_FILE = 'ntfy-payload.json'
@@ -17,7 +16,7 @@ def notification_message(articles):
     lines = [SEPARATOR]
     for article in articles:
         title = str(article.get('title') or 'UAP News').strip()
-        lines.extend(['', title, '', SEPARATOR])
+        lines.extend([title, SEPARATOR])
     return '\n'.join(lines).strip()
 
 
@@ -36,7 +35,6 @@ def main():
         print('Notification payload removed: no notification articles are visible in final feed.')
         return
 
-    visible = visible[:10]
     count_label = article_count_label(len(visible))
     payload = {
         'topic': TOPIC,
