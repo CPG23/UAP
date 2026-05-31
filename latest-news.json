@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-31T18:37:38Z",
+  "timestamp": "2026-05-31T18:44:03Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -9,7 +9,7 @@
       "date": "2026-05-31",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 12,
+      "mentions": 10,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -20,14 +20,22 @@
           "displayedAt": "2026-05-22T07:00:00Z"
         },
         {
+          "title": "Pentagon releases second batch of declassified UFO files",
+          "source": "MSN",
+          "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQU2dXZEhncDVxT2Y2VnBEa3gzWWFSWk9LRFdIcjc1Z3pITV9fTzgyLV91bW5Qa0FKaXNUNkhVVG1PRnBndXBCMG1oSUhORXg4aWZiYlNoeEllOHI2M3B6UVNtQ0FoLTJCOUlwaVBDdF9iVHRuT0NkT3pnajZOR0tHUlVScjhDUDBnSzBLa0ltazJZVEthWDVjYVh5dmJ1Mm04Yy1WNDJ6dW4wTmVYS3FrMDNucWd0TXNNZ2VCVWhnaDJCc3dOQXhHZzhGdm1aUlo1N1Q2WGpQSFpLVWpuc2NIZlY5NFJlQXIwZWxfYV9mVmh1Rm9rQmJXLUF2QVh6U0hoYVp0VlF6cEJBbEpXQS1jZjVRQ1d0bkpIRnFfQjB2bW1KdzNpWU1xQWk2X24xcWwtWS1xSFo4M1RFVl9KcEVmYjUzLVdKVndYbkx5NG9CNURRVm0xWkxfS2dVR05DX28w?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQU2dXZEhncDVxT2Y2VnBEa3gzWWFSWk9LRFdIcjc1Z3pITV9fTzgyLV91bW5Qa0FKaXNUNkhVVG1PRnBndXBCMG1oSUhORXg4aWZiYlNoeEllOHI2M3B6UVNtQ0FoLTJCOUlwaVBDdF9iVHRuT0NkT3pnajZOR0tHUlVScjhDUDBnSzBLa0ltazJZVEthWDVjYVh5dmJ1Mm04Yy1WNDJ6dW4wTmVYS3FrMDNucWd0TXNNZ2VCVWhnaDJCc3dOQXhHZzhGdm1aUlo1N1Q2WGpQSFpLVWpuc2NIZlY5NFJlQXIwZWxfYV9mVmh1Rm9rQmJXLUF2QVh6U0hoYVp0VlF6cEJBbEpXQS1jZjVRQ1d0bkpIRnFfQjB2bW1KdzNpWU1xQWk2X24xcWwtWS1xSFo4M1RFVl9KcEVmYjUzLVdKVndYbkx5NG9CNURRVm0xWkxfS2dVR05DX28w?oc=5",
+          "publishedAt": "2026-05-31T08:29:45Z",
+          "displayedAt": "2026-05-31T08:29:45Z"
+        },
+        {
           "title": "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
-          "source": "National News Desk",
-          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNZzNlUFNVZElVVDZmQUZrNjZIN1poX3FzcDlXN0JqZ0NKNUZRVkVxMzBaV2lCZkt4SWl2U24yOV93bF9VemxnRzRoVGUzTm5CUk1JY1ZtS29DSWJTUXBSdVFGMVdrWF9yLUJEWVNLQXhSWl9MUUJYejFNSmlfdWdTaHRpRXRaNzJnRkREVENCSU93am9jaDZVdEo5ZEZUSzU1ZFBUTGxuS0drYVJKdVFOaUxpMnVrTDFUSEF4QU9BYmZlakFQNWpEWjJuTXNrcGlKWElQR1pkdVhIbTM0cXMtLWlUcWpnYnVpaUFOV2JLRUVVYzlaR2IxMDBaWDFmVlVIYlVMU0k3b01aSV9ZUno1R1dBZHR2VGtXT3V2T0F3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNZzNlUFNVZElVVDZmQUZrNjZIN1poX3FzcDlXN0JqZ0NKNUZRVkVxMzBaV2lCZkt4SWl2U24yOV93bF9VemxnRzRoVGUzTm5CUk1JY1ZtS29DSWJTUXBSdVFGMVdrWF9yLUJEWVNLQXhSWl9MUUJYejFNSmlfdWdTaHRpRXRaNzJnRkREVENCSU93am9jaDZVdEo5ZEZUSzU1ZFBUTGxuS0drYVJKdVFOaUxpMnVrTDFUSEF4QU9BYmZlakFQNWpEWjJuTXNrcGlKWElQR1pkdVhIbTM0cXMtLWlUcWpnYnVpaUFOV2JLRUVVYzlaR2IxMDBaWDFmVlVIYlVMU0k3b01aSV9ZUno1R1dBZHR2VGtXT3V2T0F3?oc=5",
-          "publishedAt": "2026-05-29T16:00:04Z",
-          "rssPublishedAt": "2026-05-29T16:00:04Z",
+          "source": "WTVC",
+          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPLU1nMk9HUk1jOC1fcXU5VXFKb0NDcnBDeFJ6RWJsNXl2OXRjOVVvZUpYOTZraUtpV2hCMU9pa291ZE5zbTJJX2pFUDFDMmJKQkxNMDhHUk5yaERUblhLV3hhaXBBWHpfcGVDZlpabTZnbDVwZU4tT0pncS0yVDhENUlkMnR5OXNjR21DMllmbFlQWHdleS1hV3A5bndSQ3ZDWDM5SEZaNnFDUUd3WmdmNWVtTDVhOWd1R2s5UjFrOW44b2lJZjE0QzhoLWk0a1NDYXlwMDhfM0VST01MUXVicFpRTngxRnpVdjBKM1NaVGs0bWFYYUY2dlNoenJCQWVGb0pLNFJKWlNyTWNqd0I4bjRtT0lrQQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPLU1nMk9HUk1jOC1fcXU5VXFKb0NDcnBDeFJ6RWJsNXl2OXRjOVVvZUpYOTZraUtpV2hCMU9pa291ZE5zbTJJX2pFUDFDMmJKQkxNMDhHUk5yaERUblhLV3hhaXBBWHpfcGVDZlpabTZnbDVwZU4tT0pncS0yVDhENUlkMnR5OXNjR21DMllmbFlQWHdleS1hV3A5bndSQ3ZDWDM5SEZaNnFDUUd3WmdmNWVtTDVhOWd1R2s5UjFrOW44b2lJZjE0QzhoLWk0a1NDYXlwMDhfM0VST01MUXVicFpRTngxRnpVdjBKM1NaVGs0bWFYYUY2dlNoenJCQWVGb0pLNFJKWlNyTWNqd0I4bjRtT0lrQQ?oc=5",
+          "publishedAt": "2026-05-29T16:02:19Z",
+          "rssPublishedAt": "2026-05-29T16:02:19Z",
           "sourcePublishedAt": "2026-05-29T16:00:04Z",
-          "displayedAt": "2026-05-31T17:44:50Z",
+          "displayedAt": "2026-05-31T18:44:03Z",
           "isNew": true
         },
         {
@@ -38,32 +46,6 @@
           "publishedAt": "2026-05-29T02:02:41Z",
           "displayedAt": "2026-05-31T17:44:50Z",
           "isNew": true
-        },
-        {
-          "title": "Pentagon releases second batch of declassified UFO files",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUJfQ3Nqc3ZoYjlqbkhrdXdUaW0tVWFkbXZmQW45a2ZIRnA3dlpxZGo2THJkOFBPRzhSdTAtckhzdFVDaUdJQm14cGt0UVhHRS1KSmVyWXpsMjNHYUJxbTNOSDM1b3hwelo5ZDRuU2Z5TEs2NFZfUW1KdHRPMXZBcV9URlNDZWlIWUwtOVhrR05GYk9lSXFDN2tBaFdlTkc1ZUl2SjNfQUtSVFdzMHZfc1ZVX25TRHRy?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUJfQ3Nqc3ZoYjlqbkhrdXdUaW0tVWFkbXZmQW45a2ZIRnA3dlpxZGo2THJkOFBPRzhSdTAtckhzdFVDaUdJQm14cGt0UVhHRS1KSmVyWXpsMjNHYUJxbTNOSDM1b3hwelo5ZDRuU2Z5TEs2NFZfUW1KdHRPMXZBcV9URlNDZWlIWUwtOVhrR05GYk9lSXFDN2tBaFdlTkc1ZUl2SjNfQUtSVFdzMHZfc1ZVX25TRHRy?oc=5",
-          "publishedAt": "2026-05-28T06:22:30Z",
-          "displayedAt": "2026-05-28T06:22:30Z"
-        },
-        {
-          "title": "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
-          "source": "The St Kitts Nevis Observer",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
-          "publishedAt": "2026-05-26T23:10:33Z",
-          "rssPublishedAt": "2026-05-26T23:10:33Z",
-          "sourcePublishedAt": "2026-05-26T23:10:33Z",
-          "displayedAt": "2026-05-26T23:10:33Z"
-        },
-        {
-          "title": "Pentagon releases second batch of UFO files with rare footage",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1JMbVhnWVBScVVlQ28yOFZ5TXk4X1hOSHdzR3pLZzJvWkhjSlVQT1ZUM0xxSERCMHVkLTRhZmJYcmcxeC1hRlhTaEF4QVd0NGxqRXpfc1FucHpkUUIyQUJVU3RheHcwd0JJeW9DU1dxTXE0YjQ1bVloRGs4MzhTLTc2RXR4dG5hMS1QYnljeTRaekNJWnBPdFV0RnB0cDlZMTdRT0YzZG9CSnVSS2FRNFdTQW9uSzg5VF9VX01aVmtIOGFsYjZicDRORDJ1dkgxR3lBaGJISzF4ZEk5SXRqZGdISXh0UQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1JMbVhnWVBScVVlQ28yOFZ5TXk4X1hOSHdzR3pLZzJvWkhjSlVQT1ZUM0xxSERCMHVkLTRhZmJYcmcxeC1hRlhTaEF4QVd0NGxqRXpfc1FucHpkUUIyQUJVU3RheHcwd0JJeW9DU1dxTXE0YjQ1bVloRGs4MzhTLTc2RXR4dG5hMS1QYnljeTRaekNJWnBPdFV0RnB0cDlZMTdRT0YzZG9CSnVSS2FRNFdTQW9uSzg5VF9VX01aVmtIOGFsYjZicDRORDJ1dkgxR3lBaGJISzF4ZEk5SXRqZGdISXh0UQ?oc=5",
-          "publishedAt": "2026-05-26T12:57:24Z",
-          "displayedAt": "2026-05-26T12:57:24Z"
         },
         {
           "title": "What does the second batch of UFO files tell us?",
@@ -99,9 +81,9 @@
         },
         {
           "title": "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
-          "source": "Fox News",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
+          "source": "Fox News",
           "publishedAt": "2026-05-19T07:00:00Z",
           "rssPublishedAt": "2026-05-19T07:00:00Z",
           "sourcePublishedAt": "2026-05-19T16:30:23Z",
@@ -110,17 +92,16 @@
       ],
       "clusterTitles": [
         "US releases second batch of government declassified UFO files",
+        "Pentagon releases second batch of declassified UFO files",
         "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
         "Pentagon releases second batch of UFO files: The 5 best videos",
-        "Pentagon releases second batch of declassified UFO files",
-        "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
-        "Pentagon releases second batch of UFO files with rare footage",
         "What does the second batch of UFO files tell us?",
         "Pentagon releases new batch of declassified UFO files",
         "New videos from Pentagon’s second batch of UFO files",
-        "Pentagon releases new batch of UFO files"
+        "Pentagon releases new batch of UFO files",
+        "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment"
       ],
-      "quality": 100,
+      "quality": 90,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -144,16 +125,17 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 55,
-          "text": "12 Quellen im aktuellen Feed."
+          "points": 45,
+          "text": "10 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "ALIEN"
+        "files",
+        "released"
       ],
-      "sourceQuality": 100,
-      "displayedAt": "2026-05-22T07:00:00Z",
+      "sourceQuality": 90,
+      "displayedAt": "2026-05-31T18:44:03Z",
       "sourceDisplayedAt": "2026-05-22T07:00:00Z",
       "translation": {
         "en": {
@@ -164,7 +146,7 @@
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
@@ -315,7 +297,8 @@
       },
       "sourceQuality": 59,
       "displayedAt": "2026-05-30T02:44:29Z",
-      "sourceDisplayedAt": "2026-05-31T18:37:38Z"
+      "sourceDisplayedAt": "2026-05-31T18:37:38Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception",
@@ -655,8 +638,6 @@
       ],
       "sourceQuality": 45,
       "displayedAt": "2026-05-31T06:47:10Z",
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
       "rssPublishedAt": "2026-05-27T14:16:30Z",
       "rssDate": "2026-05-18",
       "sourcePublishedAt": "2026-05-26T15:24:37Z",
@@ -771,21 +752,21 @@
     "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena. All of Thursday’s programming is free and open to the public. One‑day and five‑day passes are available at contactinthedesert.com."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-31T18:37:38Z",
+    "timestamp": "2026-05-31T18:44:03Z",
     "ids": [
-      "ufo-videos-show-we-re-not-the-apex-predator-anymore-ross-coulthart"
+      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
     ],
     "articles": [
       {
-        "id": "ufo-videos-show-we-re-not-the-apex-predator-anymore-ross-coulthart",
-        "title": "UFO videos show ‘we’re not the apex predator anymore’: Ross Coulthart",
-        "source": "NewsNation"
+        "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+        "source": "U.S. Department of War (.gov)"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 361,
-    "broadTopics": 173,
+    "broadArticles": 315,
+    "broadTopics": 151,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -794,7 +775,7 @@
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 4,
+    "splitUnrelatedGroupedSources": 6,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
     "regroupedTopics": 5,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
@@ -804,8 +785,8 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 4,
-      "repaired": 1,
+      "attempts": 3,
+      "repaired": 0,
       "fallbackRepaired": 0,
       "missing": 3
     },
@@ -836,15 +817,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 13,
-      "outputArticles": 10,
+      "inputArticles": 14,
+      "outputArticles": 9,
       "preservedSourceSummaries": 6
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 10,
-      "outputArticles": 10,
-      "missingSummaries": 4,
+      "inputArticles": 9,
+      "outputArticles": 9,
+      "missingSummaries": 3,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -856,57 +837,58 @@
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 6,
-      "addedSources": 90,
+      "updatedTopics": 4,
+      "addedSources": 70,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 14,
-      "cleanedArticles": 3,
+      "sources": 12,
+      "cleanedArticles": 2,
       "removedDuplicateTopics": 1,
-      "staleSummariesCleared": 1,
+      "staleSummariesCleared": 0,
       "rejectedArticleSources": 0,
       "promotedPrimaryFromSource": false
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 9,
-      "outputArticles": 9,
+      "inputArticles": 8,
+      "outputArticles": 8,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 9,
+      "inputArticles": 8,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 11,
-      "currentBeforeRestore": 9,
-      "restoredArticles": 2,
+      "currentBeforeRestore": 8,
+      "restoredArticles": 3,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
         "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure",
+        "Trump ‘aliens’ website is about immigration; UAP journalist not amused",
         "Secret agent, who was about to blow the lid off UFO secrets, died 5 years ago. A whistleblower has now raised suspicion"
       ]
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 24,
-      "updatedSources": 9,
+      "checkedSources": 22,
+      "updatedSources": 7,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 11,
-      "newSources": 5
+      "newSources": 4
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -918,9 +900,9 @@
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
       "notifications": 1,
       "freshSources": 1,
-      "correctedOldSourceMarkers": 2,
+      "correctedOldSourceMarkers": 1,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 33
+      "seededSeenFromPreviousFeed": 35
     }
   },
   "translations": {
@@ -933,7 +915,7 @@
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }
