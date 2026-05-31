@@ -113,9 +113,17 @@ def rank_article(article: dict[str, Any]) -> tuple[int, int, int, str]:
     title = clean(article.get("title"))
     source = clean(article.get("source"))
     score = 0
-    if re.search(r"what does the second batch|pentagon releases|department of war publishes", title, re.I):
+    if re.search(r"department of war publishes second release|war\.gov/ufo", title, re.I):
+        score += 140
+    elif re.search(r"department of war publishes|u\.s\. department of war", title, re.I):
+        score += 100
+    elif re.search(r"what does the second batch|pentagon releases", title, re.I):
         score += 40
-    if re.search(r"newsnation|department of war|\.gov|reuters", source, re.I):
+    if re.search(r"department of war|\.gov", source, re.I):
+        score += 80
+    elif re.search(r"reuters", source, re.I):
+        score += 35
+    elif re.search(r"newsnation", source, re.I):
         score += 20
     if clean(article.get("summary")):
         score += 10
