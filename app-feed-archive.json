@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-31T18:22:03Z",
+  "timestamp": "2026-05-31T18:25:35Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -10,7 +10,7 @@
       "date": "2026-05-31",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 12,
+      "mentions": 11,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -46,13 +46,6 @@
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
           "publishedAt": "2026-05-26T23:10:33Z"
-        },
-        {
-          "title": "Pentagon releases second batch of UFO files with rare footage",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1JMbVhnWVBScVVlQ28yOFZ5TXk4X1hOSHdzR3pLZzJvWkhjSlVQT1ZUM0xxSERCMHVkLTRhZmJYcmcxeC1hRlhTaEF4QVd0NGxqRXpfc1FucHpkUUIyQUJVU3RheHcwd0JJeW9DU1dxTXE0YjQ1bVloRGs4MzhTLTc2RXR4dG5hMS1QYnljeTRaekNJWnBPdFV0RnB0cDlZMTdRT0YzZG9CSnVSS2FRNFdTQW9uSzg5VF9VX01aVmtIOGFsYjZicDRORDJ1dkgxR3lBaGJISzF4ZEk5SXRqZGdISXh0UQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1JMbVhnWVBScVVlQ28yOFZ5TXk4X1hOSHdzR3pLZzJvWkhjSlVQT1ZUM0xxSERCMHVkLTRhZmJYcmcxeC1hRlhTaEF4QVd0NGxqRXpfc1FucHpkUUIyQUJVU3RheHcwd0JJeW9DU1dxTXE0YjQ1bVloRGs4MzhTLTc2RXR4dG5hMS1QYnljeTRaekNJWnBPdFV0RnB0cDlZMTdRT0YzZG9CSnVSS2FRNFdTQW9uSzg5VF9VX01aVmtIOGFsYjZicDRORDJ1dkgxR3lBaGJISzF4ZEk5SXRqZGdISXh0UQ?oc=5",
-          "publishedAt": "2026-05-26T12:57:24Z"
         },
         {
           "title": "What does the second batch of UFO files tell us?",
@@ -96,13 +89,13 @@
         "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
         "Pentagon releases second batch of UFO files: The 5 best videos",
         "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
-        "Pentagon releases second batch of UFO files with rare footage",
         "What does the second batch of UFO files tell us?",
         "Pentagon releases new batch of declassified UFO files",
         "New videos from Pentagon’s second batch of UFO files",
-        "Pentagon releases new batch of UFO files"
+        "Pentagon releases new batch of UFO files",
+        "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment"
       ],
-      "quality": 100,
+      "quality": 95,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -126,15 +119,15 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 55,
-          "text": "12 Quellen im aktuellen Feed."
+          "points": 50,
+          "text": "11 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "ALIEN"
       ],
-      "sourceQuality": 100,
+      "sourceQuality": 95,
       "displayedAt": "2026-05-22T07:00:00Z"
     },
     {
@@ -540,59 +533,13 @@
       "displayedAt": "2026-05-31T18:11:26Z"
     },
     {
-      "id": "are-aliens-for-real-white-house-released-new-website-amid-ufo-disclosure-triggering-the-internet-here-s-why",
-      "title": "Are Aliens For Real? White House Released New Website Amid UFO Disclosure Triggering The Internet: Here’s Why",
-      "source": "Mashable India",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQU41azJMdERCbERtbV9WZ2lTN092SFJTeGhIZWQ5WXVMRE5YNHc0enE2R2ZnazFvQWNYLW1GdGxNejJVUjRKWlQ4aUxyUlZJMF9TOC03MmY5UEk0Y0htcEFfWDBKZU82WDdNYy1UVHdVUUZReF9VeWJ0Q2daeHFTVHZmM1VaZTA1S3R0UExlSjZwenl2N0Z1NGZQdHNDRDZFZEREQURhanVYVG9XYUtCUDZfaElhNkRnc2sweHBiOTVjV3duMG1sMUlaV1hwQkdZdGY4d2dB?oc=5",
-      "date": "2026-05-31",
-      "publishedAt": "2026-05-29T08:06:55Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "ALIEN als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "released"
-      ],
-      "sourceQuality": 45,
-      "displayedAt": "2026-05-31T18:22:03Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlaessliche Zusammenfassung verfuegbar. GitHub versucht beim naechsten Scan automatisch, diese zu ergaenzen."
-      }
-    },
-    {
       "id": "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens",
       "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
       "source": "New York Post",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenRDZkpoaEEtZHJPUXlkTXpsOEhiQ1podXBiSVk0SGlrVWpWRG00dFIxTVBwMi1CUkp0OFcxTVV1S1E2QkZ2YUZSMjROYTB5VGdraU9pSTV2X1RkUWhyWVBEU0c1REhtbjJhODFhTlpHeGdsVFd2MmJ1dG91YlY3WFlpRFVtU2NmdFN4cGVFTUw1c3VHRklQTFAtbGlNUTlIXzkyNFJzVUhuaXBmVnhTUg?oc=5",
       "date": "2026-05-18",
       "publishedAt": "2026-05-27T14:16:30Z",
-      "summary": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
+      "summary": "",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -624,7 +571,11 @@
         "TRUMP"
       ],
       "sourceQuality": 45,
-      "displayedAt": "2026-05-31T06:47:10Z"
+      "displayedAt": "2026-05-31T06:47:10Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlaessliche Zusammenfassung verfuegbar. GitHub versucht beim naechsten Scan automatisch, diese zu ergaenzen."
+      }
     },
     {
       "id": "lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens",

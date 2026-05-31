@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-31T18:22:03Z",
+  "timestamp": "2026-05-31T18:25:35Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -9,7 +9,7 @@
       "date": "2026-05-31",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 12,
+      "mentions": 11,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -56,14 +56,6 @@
           "rssPublishedAt": "2026-05-26T23:10:33Z",
           "sourcePublishedAt": "2026-05-26T23:10:33Z",
           "displayedAt": "2026-05-26T23:10:33Z"
-        },
-        {
-          "title": "Pentagon releases second batch of UFO files with rare footage",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1JMbVhnWVBScVVlQ28yOFZ5TXk4X1hOSHdzR3pLZzJvWkhjSlVQT1ZUM0xxSERCMHVkLTRhZmJYcmcxeC1hRlhTaEF4QVd0NGxqRXpfc1FucHpkUUIyQUJVU3RheHcwd0JJeW9DU1dxTXE0YjQ1bVloRGs4MzhTLTc2RXR4dG5hMS1QYnljeTRaekNJWnBPdFV0RnB0cDlZMTdRT0YzZG9CSnVSS2FRNFdTQW9uSzg5VF9VX01aVmtIOGFsYjZicDRORDJ1dkgxR3lBaGJISzF4ZEk5SXRqZGdISXh0UQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1JMbVhnWVBScVVlQ28yOFZ5TXk4X1hOSHdzR3pLZzJvWkhjSlVQT1ZUM0xxSERCMHVkLTRhZmJYcmcxeC1hRlhTaEF4QVd0NGxqRXpfc1FucHpkUUIyQUJVU3RheHcwd0JJeW9DU1dxTXE0YjQ1bVloRGs4MzhTLTc2RXR4dG5hMS1QYnljeTRaekNJWnBPdFV0RnB0cDlZMTdRT0YzZG9CSnVSS2FRNFdTQW9uSzg5VF9VX01aVmtIOGFsYjZicDRORDJ1dkgxR3lBaGJISzF4ZEk5SXRqZGdISXh0UQ?oc=5",
-          "publishedAt": "2026-05-26T12:57:24Z",
-          "displayedAt": "2026-05-26T12:57:24Z"
         },
         {
           "title": "What does the second batch of UFO files tell us?",
@@ -114,13 +106,13 @@
         "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
         "Pentagon releases second batch of UFO files: The 5 best videos",
         "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
-        "Pentagon releases second batch of UFO files with rare footage",
         "What does the second batch of UFO files tell us?",
         "Pentagon releases new batch of declassified UFO files",
         "New videos from Pentagon’s second batch of UFO files",
-        "Pentagon releases new batch of UFO files"
+        "Pentagon releases new batch of UFO files",
+        "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment"
       ],
-      "quality": 100,
+      "quality": 95,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -144,15 +136,15 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 55,
-          "text": "12 Quellen im aktuellen Feed."
+          "points": 50,
+          "text": "11 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "ALIEN"
       ],
-      "sourceQuality": 100,
+      "sourceQuality": 95,
       "displayedAt": "2026-05-22T07:00:00Z",
       "sourceDisplayedAt": "2026-05-22T07:00:00Z",
       "translation": {
@@ -164,7 +156,7 @@
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
@@ -637,71 +629,9 @@
           "provider": "original"
         },
         "de": {
-          "title": "Der mit UFOs verbundene General William Neil McCasland traf sich wenige Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
+          "title": "Der mit UFOs verbundene General William Neil McCasland traf sich Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
           "summary": "Der pensionierte Generalmajor der US-Luftwaffe, William Neil McCasland, 68, wurde am 27. Februar 2026 in seinem Haus in Albuquerque als vermisst gemeldet. Von Law & Crime erhaltene Bodycam-Aufnahmen zeigen, dass McCasland an einem Abendessen mit US-Amerikanern teilnahm.",
           "sourceHash": "2cd2e1a990037001c8fa1878bbc1312bcb3c3dea",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "are-aliens-for-real-white-house-released-new-website-amid-ufo-disclosure-triggering-the-internet-here-s-why",
-      "title": "Are Aliens For Real? White House Released New Website Amid UFO Disclosure Triggering The Internet: Here’s Why",
-      "source": "Mashable India",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQU41azJMdERCbERtbV9WZ2lTN092SFJTeGhIZWQ5WXVMRE5YNHc0enE2R2ZnazFvQWNYLW1GdGxNejJVUjRKWlQ4aUxyUlZJMF9TOC03MmY5UEk0Y0htcEFfWDBKZU82WDdNYy1UVHdVUUZReF9VeWJ0Q2daeHFTVHZmM1VaZTA1S3R0UExlSjZwenl2N0Z1NGZQdHNDRDZFZEREQURhanVYVG9XYUtCUDZfaElhNkRnc2sweHBiOTVjV3duMG1sMUlaV1hwQkdZdGY4d2dB?oc=5",
-      "date": "2026-05-31",
-      "publishedAt": "2026-05-29T08:06:55Z",
-      "summary": "The White House released a teaser for a new website, Aliens.gov, amid ongoing UFO disclosure after earlier UAP documents were issued that contained no extraterrestrial information. The site’s landing page claims that aliens have lived among Americans for 60 years, displays a counter of alien encounters, a live “Alien Arrest Map,” and asks citizens to report sightings, but the data actually reflects ICE immigration statistics. Online reactions have criticized the site for dehumanizing immigrants and mocking the UFO disclosure movement, calling it a joke and a distraction. It remains unclear whether the site contains any credible evidence of extraterrestrial presence, as the claims are unsubstantiated and the data presented is unrelated to alien encounters.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "ALIEN als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "released"
-      ],
-      "sourceQuality": 45,
-      "displayedAt": "2026-05-29T08:06:55Z",
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "rssPublishedAt": "2026-05-29T08:06:55Z",
-      "rssDate": "2026-05-31",
-      "sourcePublishedAt": "2026-05-29T08:06:55Z",
-      "sourceDisplayedAt": "2026-05-31T18:22:03Z",
-      "translation": {
-        "en": {
-          "title": "Are Aliens For Real? White House Released New Website Amid UFO Disclosure Triggering The Internet: Here’s Why",
-          "summary": "The White House released a teaser for a new website, Aliens.gov, amid ongoing UFO disclosure after earlier UAP documents were issued that contained no extraterrestrial information. The site’s landing page claims that aliens have lived among Americans for 60 years, displays a counter of alien encounters, a live “Alien Arrest Map,” and asks citizens to report sightings, but the data actually reflects ICE immigration statistics.",
-          "sourceHash": "1f6e3a94dfd9d2d753573150039b26c6631ac084",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Gibt es Außerirdische wirklich? Weißes Haus veröffentlichte neue Website inmitten der UFO-Enthüllung, die das Internet auslöste: Hier ist der Grund dafür",
-          "summary": "Das Weiße Haus veröffentlichte einen Teaser für eine neue Website, Aliens.gov, inmitten der laufenden UFO-Enthüllungen, nachdem frühere UAP-Dokumente herausgegeben wurden, die keine außerirdischen Informationen enthielten. Auf der Landingpage der Website wird behauptet, dass Außerirdische seit 60 Jahren unter Amerikanern leben, es werden ein Zähler mit Begegnungen mit Außerirdischen und eine aktuelle „Alien Arrest Map“ angezeigt und die Bürger werden aufgefordert, Sichtungen zu melden, aber die Daten spiegeln tatsächlich die ICE-Einwanderungsstatistik wider.",
-          "sourceHash": "1f6e3a94dfd9d2d753573150039b26c6631ac084",
           "provider": "google"
         }
       }
@@ -746,6 +676,8 @@
       ],
       "sourceQuality": 45,
       "displayedAt": "2026-05-31T06:47:10Z",
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
       "rssPublishedAt": "2026-05-27T14:16:30Z",
       "rssDate": "2026-05-18",
       "sourcePublishedAt": "2026-05-26T15:24:37Z",
@@ -858,22 +790,21 @@
     "sighting-trump-aliens-website-is-about-immigration-uap-journalist-not-amused-2026-justice-iustitia-bg-2025": "The launch of Alien.gov, expected by many to be a historic UFO disclosure, instead delivered a political immigration message. The rollout sparked backlash from UFO researchers, disclosure advocates, and ordinary Americans who sought answers. Critics compared the event to former Arizona Governor Fife Symington’s handling of the Phoenix Lights, questioning government credibility. The controversy raises concerns about public trust and transparency.",
     "mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work. A MITRE spokesperson said that if relevant material is found, the company will coordinate with federal agencies to provide the assets. The request is part of a broader congressional effort to increase UAP disclosure, though no evidence of extraterrestrial activity has been confirmed.",
     "ufo-linked-general-william-neil-mccasland-met-us-space-force-personnel-hours-before-disappearance-audio": "Retired U.S. Air Force Major General William Neil McCasland, 68, was reported missing on February 27, 2026 from his Albuquerque home. Body‑cam audio obtained by Law & Crime shows McCasland attended a dinner with U.S. Space Force personnel and an unidentified woman the evening before he vanished, during which the woman discussed his high‑security clearance and ties to classified UFO programs. UFO whistleblower David Grusch had earlier named McCasland as uncooperative with congressional oversight and listed him among officials who managed legacy classified programs. The Bernalillo County Sheriff’s Office, FBI, and New Mexico Search and Rescue have been conducting a multi‑agency search after a Silver Alert; investigators note he left his home on foot, left behind his phone, glasses, and wearable devices, but missing items include hiking boots, wallet, and a .38‑caliber revolver. No definitive evidence of foul play has been found, and McCasland’s wife says he has held only standard clearances since retirement, suggesting his disappearance may not be linked to old military secrets. The investigation remains ongoing, with uncertainty about the cause of his disappearance.",
-    "are-aliens-for-real-white-house-released-new-website-amid-ufo-disclosure-triggering-the-internet-here-s-why": "The White House released a teaser for a new website, Aliens.gov, amid ongoing UFO disclosure after earlier UAP documents were issued that contained no extraterrestrial information. The site’s landing page claims that aliens have lived among Americans for 60 years, displays a counter of alien encounters, a live “Alien Arrest Map,” and asks citizens to report sightings, but the data actually reflects ICE immigration statistics. Online reactions have criticized the site for dehumanizing immigrants and mocking the UFO disclosure movement, calling it a joke and a distraction. It remains unclear whether the site contains any credible evidence of extraterrestrial presence, as the claims are unsubstantiated and the data presented is unrelated to alien encounters.",
     "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
     "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena. All of Thursday’s programming is free and open to the public. One‑day and five‑day passes are available at contactinthedesert.com."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-31T18:22:03Z",
+    "timestamp": "2026-05-31T18:25:35Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 357,
+    "broadArticles": 359,
     "broadTopics": 168,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
-    "appTopics": 12,
+    "appTopics": 11,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
@@ -895,7 +826,7 @@
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
-      "kept": 12,
+      "kept": 11,
       "missing": 1,
       "missingItems": [
         {
@@ -909,13 +840,13 @@
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
       "inputArticles": 13,
-      "outputArticles": 10,
-      "preservedSourceSummaries": 8
+      "outputArticles": 9,
+      "preservedSourceSummaries": 7
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 10,
-      "outputArticles": 10,
+      "inputArticles": 9,
+      "outputArticles": 9,
       "missingSummaries": 2,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
@@ -935,7 +866,7 @@
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 14,
+      "sources": 13,
       "cleanedArticles": 2,
       "removedDuplicateTopics": 1,
       "staleSummariesCleared": 1,
@@ -944,22 +875,22 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 9,
-      "outputArticles": 9,
+      "inputArticles": 8,
+      "outputArticles": 8,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 9,
+      "inputArticles": 8,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v3_skip_unreachable",
-      "archiveCandidates": 11,
-      "currentBeforeRestore": 9,
+      "archiveCandidates": 12,
+      "currentBeforeRestore": 8,
       "restoredArticles": 3,
       "blockedUnreachableTitles": 0,
       "retentionDays": 14,
@@ -971,28 +902,28 @@
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 24,
-      "updatedSources": 10,
+      "checkedSources": 22,
+      "updatedSources": 9,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 12,
-      "newSources": 3
+      "updatedTopics": 11,
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
       "correctedExistingTopics": 11,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
       "notifications": 0,
       "freshSources": 0,
-      "correctedOldSourceMarkers": 1,
+      "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 33
+      "seededSeenFromPreviousFeed": 36
     }
   },
   "translations": {
@@ -1005,7 +936,7 @@
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }
@@ -1102,23 +1033,9 @@
         "provider": "original"
       },
       "de": {
-        "title": "Der mit UFOs verbundene General William Neil McCasland traf sich wenige Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
+        "title": "Der mit UFOs verbundene General William Neil McCasland traf sich Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
         "summary": "Der pensionierte Generalmajor der US-Luftwaffe, William Neil McCasland, 68, wurde am 27. Februar 2026 in seinem Haus in Albuquerque als vermisst gemeldet. Von Law & Crime erhaltene Bodycam-Aufnahmen zeigen, dass McCasland an einem Abendessen mit US-Amerikanern teilnahm.",
         "sourceHash": "2cd2e1a990037001c8fa1878bbc1312bcb3c3dea",
-        "provider": "google"
-      }
-    },
-    "are-aliens-for-real-white-house-released-new-website-amid-ufo-disclosure-triggering-the-internet-here-s-why": {
-      "en": {
-        "title": "Are Aliens For Real? White House Released New Website Amid UFO Disclosure Triggering The Internet: Here’s Why",
-        "summary": "The White House released a teaser for a new website, Aliens.gov, amid ongoing UFO disclosure after earlier UAP documents were issued that contained no extraterrestrial information. The site’s landing page claims that aliens have lived among Americans for 60 years, displays a counter of alien encounters, a live “Alien Arrest Map,” and asks citizens to report sightings, but the data actually reflects ICE immigration statistics.",
-        "sourceHash": "1f6e3a94dfd9d2d753573150039b26c6631ac084",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Gibt es Außerirdische wirklich? Weißes Haus veröffentlichte neue Website inmitten der UFO-Enthüllung, die das Internet auslöste: Hier ist der Grund dafür",
-        "summary": "Das Weiße Haus veröffentlichte einen Teaser für eine neue Website, Aliens.gov, inmitten der laufenden UFO-Enthüllungen, nachdem frühere UAP-Dokumente herausgegeben wurden, die keine außerirdischen Informationen enthielten. Auf der Landingpage der Website wird behauptet, dass Außerirdische seit 60 Jahren unter Amerikanern leben, es werden ein Zähler mit Begegnungen mit Außerirdischen und eine aktuelle „Alien Arrest Map“ angezeigt und die Bürger werden aufgefordert, Sichtungen zu melden, aber die Daten spiegeln tatsächlich die ICE-Einwanderungsstatistik wider.",
-        "sourceHash": "1f6e3a94dfd9d2d753573150039b26c6631ac084",
         "provider": "google"
       }
     },
@@ -1152,7 +1069,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 11,
+    "prepared": 10,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
