@@ -144,12 +144,16 @@ def normalize_retained(article: dict[str, Any]) -> dict[str, Any]:
     return retained
 
 
-def sort_key(article: dict[str, Any]) -> tuple[int, str]:
+def sort_key(article: dict[str, Any]) -> tuple[int, int, str]:
     try:
         quality = int(article.get("quality") or article.get("sourceQuality") or 0)
     except Exception:
         quality = 0
-    return quality, compact(article.get("publishedAt") or article.get("date") or article.get("displayedAt"))
+    try:
+        mentions = int(article.get("mentions") or 1)
+    except Exception:
+        mentions = 1
+    return quality, mentions, compact(article.get("publishedAt") or article.get("date") or article.get("displayedAt"))
 
 
 def archive_key(article: dict[str, Any]) -> str:
