@@ -27,6 +27,14 @@
     return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"/><path d="M10 21h4"/></svg>';
   }
 
+  function keepToolbarOrder(){
+    var row = document.querySelector('.button-row');
+    var scan = document.getElementById('manual-scan-btn');
+    var notify = document.getElementById('notify-btn');
+    if (!row || !scan || !notify) return;
+    if (scan.nextSibling !== notify) row.insertBefore(scan, notify);
+  }
+
   function patchGuideText(){
     var sheet = document.querySelector('.notify-guide-sheet');
     if (!sheet || sheet.dataset.notifyFixed === '1') return;
@@ -50,6 +58,7 @@
       btn.setAttribute('title', 'ntfy-Push-Info und Kanal öffnen');
       if (btn.innerHTML !== icon()) btn.innerHTML = icon();
     }
+    keepToolbarOrder();
     patchGuideText();
   }
 
