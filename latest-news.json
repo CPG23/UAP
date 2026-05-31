@@ -1,185 +1,14 @@
 {
-  "timestamp": "2026-05-31T11:46:43Z",
+  "timestamp": "2026-05-31T12:06:30Z",
   "articles": [
-    {
-      "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-      "source": "U.S. Department of War (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-      "date": "2026-05-16",
-      "publishedAt": "2026-05-22T12:07:07Z",
-      "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 11,
-      "otherSources": [
-        {
-          "title": "US releases second batch of government declassified UFO files",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "publishedAt": "2026-05-22T12:45:24Z",
-          "displayedAt": "2026-05-22T12:45:24Z"
-        },
-        {
-          "title": "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
-          "source": "The National Desk",
-          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNZzNlUFNVZElVVDZmQUZrNjZIN1poX3FzcDlXN0JqZ0NKNUZRVkVxMzBaV2lCZkt4SWl2U24yOV93bF9VemxnRzRoVGUzTm5CUk1JY1ZtS29DSWJTUXBSdVFGMVdrWF9yLUJEWVNLQXhSWl9MUUJYejFNSmlfdWdTaHRpRXRaNzJnRkREVENCSU93am9jaDZVdEo5ZEZUSzU1ZFBUTGxuS0drYVJKdVFOaUxpMnVrTDFUSEF4QU9BYmZlakFQNWpEWjJuTXNrcGlKWElQR1pkdVhIbTM0cXMtLWlUcWpnYnVpaUFOV2JLRUVVYzlaR2IxMDBaWDFmVlVIYlVMU0k3b01aSV9ZUno1R1dBZHR2VGtXT3V2T0F3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNZzNlUFNVZElVVDZmQUZrNjZIN1poX3FzcDlXN0JqZ0NKNUZRVkVxMzBaV2lCZkt4SWl2U24yOV93bF9VemxnRzRoVGUzTm5CUk1JY1ZtS29DSWJTUXBSdVFGMVdrWF9yLUJEWVNLQXhSWl9MUUJYejFNSmlfdWdTaHRpRXRaNzJnRkREVENCSU93am9jaDZVdEo5ZEZUSzU1ZFBUTGxuS0drYVJKdVFOaUxpMnVrTDFUSEF4QU9BYmZlakFQNWpEWjJuTXNrcGlKWElQR1pkdVhIbTM0cXMtLWlUcWpnYnVpaUFOV2JLRUVVYzlaR2IxMDBaWDFmVlVIYlVMU0k3b01aSV9ZUno1R1dBZHR2VGtXT3V2T0F3?oc=5",
-          "publishedAt": "2026-05-29T16:00:04Z",
-          "rssPublishedAt": "2026-05-29T16:00:04Z",
-          "sourcePublishedAt": "2026-05-29T16:00:04Z",
-          "displayedAt": "2026-05-29T16:00:04Z"
-        },
-        {
-          "title": "Pentagon releases second batch of declassified UFO files",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1J2QldGVF9ia3dpRGIzRExCYzhWUUhxU3I5WmxwLWk4TDNsX2hnU19hdFJQOEtZNTdQb2N6azF6Y2FENTZtVlQ5WWJtVl9EWS1uT2otZjVXSElVbzJEQzhPR2JPMk9jSWxzb0JTWTk0TnV1Yk90YXh4aGJlZXVudmhEb2N3dWdPbzZ0YVJGdjZvd2xZaW9PNTgxNV9JTVZmVDRwRXRLS1Y?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1J2QldGVF9ia3dpRGIzRExCYzhWUUhxU3I5WmxwLWk4TDNsX2hnU19hdFJQOEtZNTdQb2N6azF6Y2FENTZtVlQ5WWJtVl9EWS1uT2otZjVXSElVbzJEQzhPR2JPMk9jSWxzb0JTWTk0TnV1Yk90YXh4aGJlZXVudmhEb2N3dWdPbzZ0YVJGdjZvd2xZaW9PNTgxNV9JTVZmVDRwRXRLS1Y?oc=5",
-          "publishedAt": "2026-05-29T09:25:19Z",
-          "displayedAt": "2026-05-29T09:25:19Z"
-        },
-        {
-          "title": "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
-          "source": "The St Kitts Nevis Observer",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
-          "publishedAt": "2026-05-26T23:10:33Z",
-          "rssPublishedAt": "2026-05-26T23:10:33Z",
-          "sourcePublishedAt": "2026-05-26T23:10:33Z",
-          "displayedAt": "2026-05-26T23:10:33Z"
-        },
-        {
-          "title": "Pentagon releases second batch of UFO files with rare footage",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1JMbVhnWVBScVVlQ28yOFZ5TXk4X1hOSHdzR3pLZzJvWkhjSlVQT1ZUM0xxSERCMHVkLTRhZmJYcmcxeC1hRlhTaEF4QVd0NGxqRXpfc1FucHpkUUIyQUJVU3RheHcwd0JJeW9DU1dxTXE0YjQ1bVloRGs4MzhTLTc2RXR4dG5hMS1QYnljeTRaekNJWnBPdFV0RnB0cDlZMTdRT0YzZG9CSnVSS2FRNFdTQW9uSzg5VF9VX01aVmtIOGFsYjZicDRORDJ1dkgxR3lBaGJISzF4ZEk5SXRqZGdISXh0UQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1JMbVhnWVBScVVlQ28yOFZ5TXk4X1hOSHdzR3pLZzJvWkhjSlVQT1ZUM0xxSERCMHVkLTRhZmJYcmcxeC1hRlhTaEF4QVd0NGxqRXpfc1FucHpkUUIyQUJVU3RheHcwd0JJeW9DU1dxTXE0YjQ1bVloRGs4MzhTLTc2RXR4dG5hMS1QYnljeTRaekNJWnBPdFV0RnB0cDlZMTdRT0YzZG9CSnVSS2FRNFdTQW9uSzg5VF9VX01aVmtIOGFsYjZicDRORDJ1dkgxR3lBaGJISzF4ZEk5SXRqZGdISXh0UQ?oc=5",
-          "publishedAt": "2026-05-26T12:57:24Z",
-          "displayedAt": "2026-05-26T12:57:24Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
-          "publishedAt": "2026-05-22T22:02:53Z",
-          "displayedAt": "2026-05-22T22:02:53Z"
-        },
-        {
-          "title": "What does the second batch of UFO files tell us?",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "publishedAt": "2026-05-22T17:46:02Z",
-          "displayedAt": "2026-05-22T17:46:02Z"
-        },
-        {
-          "title": "New videos from Pentagon’s second batch of UFO files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "publishedAt": "2026-05-22T17:34:00Z",
-          "displayedAt": "2026-05-22T17:34:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of declassified UFO files",
-          "source": "LiveNOW from FOX",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
-          "publishedAt": "2026-05-22T15:16:21Z",
-          "displayedAt": "2026-05-22T15:16:21Z"
-        },
-        {
-          "title": "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
-          "source": "Fox News",
-          "publishedAt": "2026-05-19T07:00:00Z",
-          "rssPublishedAt": "2026-05-19T07:00:00Z",
-          "sourcePublishedAt": "2026-05-19T16:30:23Z",
-          "displayedAt": "2026-05-19T07:00:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "US releases second batch of government declassified UFO files",
-        "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
-        "Pentagon releases second batch of declassified UFO files",
-        "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
-        "Pentagon releases second batch of UFO files with rare footage",
-        "Pentagon releases new batch of UFO files",
-        "What does the second batch of UFO files tell us?",
-        "New videos from Pentagon’s second batch of UFO files",
-        "Pentagon releases new batch of declassified UFO files",
-        "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment"
-      ],
-      "quality": 97,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "ALIEN, GOVERNMENT als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "GOVERNMENT als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 34,
-          "text": "11 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "released"
-      ],
-      "sourceQuality": 97,
-      "displayedAt": "2026-05-29T17:19:44Z",
-      "sourceDisplayedAt": "2026-05-22T12:07:07Z",
-      "translation": {
-        "en": {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
     {
       "id": "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases",
       "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
-      "source": "International Business Times UK",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWGFmTVlQQS1TS2NnYTVTVFM4RGVXenRzcnJXaHY3RjZUSVAtMWZrSkM2OEhQcGlLXzhzQm9zZGdXSjFOblpxaWpBNno2RnR1bE8zRU5zWEs0QTEtVXRmeE9HdjNsSHluUjUyMEJrZzFVOFVpay1YUDdGYXF2cU11UWRBdzlqRzQ?oc=5",
+      "source": "inkl",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ1JQVnc1dmI1elZkakFQbF9lNEJlWEtUdkdrd2N1cEd0b1ZiY1Y2amZkend1eXVzVzZGVTdyYU1UQ2FQZzRXdVRJV0Uzdjl1T1BySy1fQ18xRGZPejU3MFBuQWJmUkU0aHpQQktoTW9GUTVSRmhzalZ2bmFBSU1VZjJacFZaQXFYTm56S3FSdkRoY3p1ZjJUYkdzd0RoaFUyVHRRLW16Sk9hVEM2LVRFZ2tVR1pBUlZ1NDdtWWFUclctQQ?oc=5",
       "date": "2026-05-18",
       "publishedAt": "2026-05-27T14:16:30Z",
-      "summary": "Investigative writer Timothy Alberino claims the U.S. government secretly stores recovered alien bodies in underground military bases, citing crash‑retrieval operations that bypass elected oversight. He says sensitive UAP information is controlled by private aerospace contractors and deeply compartmentalised defence programmes, but no publicly available evidence has been produced to support these assertions. Alberino referenced eyewitness accounts of gray aliens and dismembered bodies, as well as former intelligence official David Grusch’s 2023 testimony that the U.S. recovered non‑human biologics, though these claims remain unverified. Scientists and mainstream researchers note that no physical evidence confirming extraterrestrial life or recovered alien technology has been released. Lawmakers such as Representative Tim Burchett and Representative Anna Paulina Luna have called for greater transparency and whistleblower protections amid ongoing UAP investigations.",
+      "summary": "Timothy Alberino, an investigative writer, claimed in an interview on Redacted that the U.S. government has recovered alien biologics and that crash‑retrieval operations involving non‑human craft and bodies exist outside elected officials’ oversight. He said that the most sensitive UAP information is controlled by private aerospace contractors and highly compartmentalised defence programmes, and that some operations are designed to avoid congressional oversight. Alberino referenced anecdotal eyewitness accounts of “gray aliens,” dismembered bodies, and transparent fluids at alleged crash‑retrieval sites, and cited former intelligence official David Grusch’s 2023 testimony that the government recovered non‑human biologics. No publicly available evidence has been produced to substantiate these claims, and U.S. defence agencies have not confirmed the existence of programmes involving recovered non‑human craft or biological material. Congressional interest has increased, with lawmakers calling for greater transparency and whistleblower protections, but the Pentagon maintains that investigations by the All‑Domain Anomaly Resolution Office have not yielded verified evidence of extraterrestrial activity.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -223,30 +52,28 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "alien",
-        "military",
-        "whistleblower"
+        "ALIEN",
+        "CIA",
+        "WHISTLEBLOWER"
       ],
       "sourceQuality": 79,
-      "displayedAt": "2026-05-31T06:47:10Z",
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-05-31T12:06:30Z",
       "rssPublishedAt": "2026-05-27T14:16:30Z",
       "rssDate": "2026-05-18",
       "sourcePublishedAt": "2026-05-18T07:41:28Z",
-      "sourceDisplayedAt": "2026-05-31T06:47:10Z",
+      "sourceDisplayedAt": "2026-05-31T12:06:30Z",
       "sourceIsNew": true,
       "translation": {
         "en": {
           "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
-          "summary": "Investigative writer Timothy Alberino claims the U.S. government secretly stores recovered alien bodies in underground military bases, citing crash‑retrieval operations that bypass elected oversight. He says sensitive UAP information is controlled by private aerospace contractors and deeply compartmentalised defence programmes, but no publicly available evidence has been produced to support these assertions.",
-          "sourceHash": "fe247f011385dc5675cc83cb0e302f783674fb1e",
+          "summary": "Timothy Alberino, an investigative writer, claimed in an interview on Redacted that the U.S. government has recovered alien biologics and that crash‑retrieval operations involving non‑human craft and bodies exist outside elected officials’ oversight. He said that the most sensitive UAP information is controlled by private aerospace contractors and highly compartmentalised defence programmes, and that some operations are designed to avoid congressional oversight.",
+          "sourceHash": "d6d7d60be4c902d55d978c0c8061b9f644f72a74",
           "provider": "original"
         },
         "de": {
           "title": "Außerirdischer Whistleblower behauptet, die USA hätten „graue Körper zerstückelt“, die in unterirdischen Militärstützpunkten versteckt seien",
-          "summary": "Der investigative Autor Timothy Alberino behauptet, dass die US-Regierung geborgene außerirdische Leichen heimlich in unterirdischen Militärstützpunkten lagert, und verweist auf Bergungsoperationen, bei denen die gewählte Kontrolle umgangen wird. Er sagt, sensible UAP-Informationen würden von privaten Luft- und Raumfahrtunternehmen und stark abgegrenzten Verteidigungsprogrammen kontrolliert, es seien jedoch keine öffentlich zugänglichen Beweise vorgelegt worden, die diese Behauptungen stützen könnten.",
-          "sourceHash": "fe247f011385dc5675cc83cb0e302f783674fb1e",
+          "summary": "Timothy Alberino, ein investigativer Autor, behauptete in einem Interview auf Redacted, dass die US-Regierung außerirdische Biologika geborgen habe und dass Absturzbergungsoperationen mit nichtmenschlichen Fahrzeugen und Leichen außerhalb der Aufsicht gewählter Beamter stünden. Er sagte, dass die sensibelsten UAP-Informationen von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert werden und dass einige Operationen darauf ausgelegt seien, der Aufsicht des Kongresses zu entgehen.",
+          "sourceHash": "d6d7d60be4c902d55d978c0c8061b9f644f72a74",
           "provider": "google"
         }
       }
@@ -811,8 +638,7 @@
     }
   ],
   "summaries": {
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-    "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases": "Investigative writer Timothy Alberino claims the U.S. government secretly stores recovered alien bodies in underground military bases, citing crash‑retrieval operations that bypass elected oversight. He says sensitive UAP information is controlled by private aerospace contractors and deeply compartmentalised defence programmes, but no publicly available evidence has been produced to support these assertions. Alberino referenced eyewitness accounts of gray aliens and dismembered bodies, as well as former intelligence official David Grusch’s 2023 testimony that the U.S. recovered non‑human biologics, though these claims remain unverified. Scientists and mainstream researchers note that no physical evidence confirming extraterrestrial life or recovered alien technology has been released. Lawmakers such as Representative Tim Burchett and Representative Anna Paulina Luna have called for greater transparency and whistleblower protections amid ongoing UAP investigations.",
+    "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases": "Timothy Alberino, an investigative writer, claimed in an interview on Redacted that the U.S. government has recovered alien biologics and that crash‑retrieval operations involving non‑human craft and bodies exist outside elected officials’ oversight. He said that the most sensitive UAP information is controlled by private aerospace contractors and highly compartmentalised defence programmes, and that some operations are designed to avoid congressional oversight. Alberino referenced anecdotal eyewitness accounts of “gray aliens,” dismembered bodies, and transparent fluids at alleged crash‑retrieval sites, and cited former intelligence official David Grusch’s 2023 testimony that the government recovered non‑human biologics. No publicly available evidence has been produced to substantiate these claims, and U.S. defence agencies have not confirmed the existence of programmes involving recovered non‑human craft or biological material. Congressional interest has increased, with lawmakers calling for greater transparency and whistleblower protections, but the Pentagon maintains that investigations by the All‑Domain Anomaly Resolution Office have not yielded verified evidence of extraterrestrial activity.",
     "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
     "sighting-trump-s-alien-gov-reveal-turns-into-immigration-satire-and-leaves-ufo-disclosure-community-furious": "The launch of Alien.gov, expected by many to be a historic UFO disclosure, instead delivered a political immigration message. The rollout sparked backlash from UFO researchers, disclosure advocates, and ordinary Americans who sought answers. Critics compared the event to former Arizona Governor Fife Symington’s handling of the Phoenix Lights, questioning government credibility. The controversy raises concerns about public trust and transparency.",
     "program-former-pentagon-linked-physicist-alleges-the-united-states-has-retrieved-biological-remains-from-four-types-of-alien-life-forms": "Dr. Hal Puthoff, a former CIA‑funded researcher, said the U.S. has recovered four distinct extraterrestrial species from crashed UFOs, citing people involved in the recoveries. Dr. Eric Davis identified the species as Grays, Nordics, Insectoids, and Reptilians, describing each as humanoid with two arms and legs, and noting that Nordics and Reptilians are about six feet tall. Nordics are described as highly human‑like and resembling northern Europeans, while Reptilians are scaley, lizard‑like with human limbs and long tails; Grays are small, massive‑eyed, hairless, and Insectoids resemble mantises. Former Air Force Intelligence officer David Grusch testified in 2023 that the U.S. possessed non‑human biologics recovered from dozens of crashed UFOs. These claims are based on testimony from members of a crash‑retrieval program featured in Dan Farrah’s film “Age of Disclosure,” and Farrah reported that interviewees have declined to speak publicly.",
@@ -823,24 +649,32 @@
     "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena. All of Thursday’s programming is free and open to the public. One‑day and five‑day passes are available at contactinthedesert.com."
   },
   "notificationBatch": {
-    "timestamp": "2026-05-31T11:46:43Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-05-31T12:06:30Z",
+    "ids": [
+      "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases"
+    ],
+    "articles": [
+      {
+        "id": "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases",
+        "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
+        "source": "inkl"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 351,
-    "broadTopics": 160,
+    "broadArticles": 348,
+    "broadTopics": 170,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
-    "appTopics": 11,
+    "appTopics": 10,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 3,
+    "regroupedTopics": 4,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -848,14 +682,14 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v6_source_text_overrides",
-      "attempts": 3,
-      "repaired": 2,
+      "attempts": 2,
+      "repaired": 1,
       "fallbackRepaired": 0,
       "missing": 1
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
-      "kept": 11,
+      "kept": 10,
       "missing": 1,
       "missingItems": [
         {
@@ -884,15 +718,15 @@
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 3,
-      "addedSources": 54,
+      "updatedTopics": 2,
+      "addedSources": 36,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v4_exclude_distinct_sightings",
       "primaryId": "file-release-multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure",
       "sources": 14,
-      "cleanedArticles": 1,
+      "cleanedArticles": 0,
       "removedDuplicateTopics": 1,
       "staleSummariesCleared": 0,
       "rejectedArticleSources": 1
@@ -915,11 +749,10 @@
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v3_skip_unreachable",
       "archiveCandidates": 11,
       "currentBeforeRestore": 6,
-      "restoredArticles": 5,
+      "restoredArticles": 4,
       "blockedUnreachableTitles": 0,
       "retentionDays": 14,
       "restoredTitles": [
-        "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
         "Trump’s Alien.gov Reveal Turns Into Immigration Satire and Leaves UFO Disclosure Community Furious",
         "Former Pentagon-Linked Physicist Alleges the United States Has Retrieved Biological Remains From Four Types of Alien Life Forms",
@@ -928,56 +761,42 @@
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 21,
+      "checkedSources": 10,
       "updatedSources": 5,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 11,
-      "newSources": 0
+      "updatedTopics": 10,
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 11,
-      "newTopics": 0,
-      "topicsWithNewSources": 0
+      "correctedExistingTopics": 9,
+      "newTopics": 1,
+      "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 0,
-      "freshSources": 0,
+      "notifications": 1,
+      "freshSources": 1,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 32
     }
   },
   "translations": {
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
-      "en": {
-        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-        "provider": "google"
-      }
-    },
     "alien-whistleblower-claims-us-has-dismembered-gray-bodies-hidden-inside-underground-military-bases": {
       "en": {
         "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
-        "summary": "Investigative writer Timothy Alberino claims the U.S. government secretly stores recovered alien bodies in underground military bases, citing crash‑retrieval operations that bypass elected oversight. He says sensitive UAP information is controlled by private aerospace contractors and deeply compartmentalised defence programmes, but no publicly available evidence has been produced to support these assertions.",
-        "sourceHash": "fe247f011385dc5675cc83cb0e302f783674fb1e",
+        "summary": "Timothy Alberino, an investigative writer, claimed in an interview on Redacted that the U.S. government has recovered alien biologics and that crash‑retrieval operations involving non‑human craft and bodies exist outside elected officials’ oversight. He said that the most sensitive UAP information is controlled by private aerospace contractors and highly compartmentalised defence programmes, and that some operations are designed to avoid congressional oversight.",
+        "sourceHash": "d6d7d60be4c902d55d978c0c8061b9f644f72a74",
         "provider": "original"
       },
       "de": {
         "title": "Außerirdischer Whistleblower behauptet, die USA hätten „graue Körper zerstückelt“, die in unterirdischen Militärstützpunkten versteckt seien",
-        "summary": "Der investigative Autor Timothy Alberino behauptet, dass die US-Regierung geborgene außerirdische Leichen heimlich in unterirdischen Militärstützpunkten lagert, und verweist auf Bergungsoperationen, bei denen die gewählte Kontrolle umgangen wird. Er sagt, sensible UAP-Informationen würden von privaten Luft- und Raumfahrtunternehmen und stark abgegrenzten Verteidigungsprogrammen kontrolliert, es seien jedoch keine öffentlich zugänglichen Beweise vorgelegt worden, die diese Behauptungen stützen könnten.",
-        "sourceHash": "fe247f011385dc5675cc83cb0e302f783674fb1e",
+        "summary": "Timothy Alberino, ein investigativer Autor, behauptete in einem Interview auf Redacted, dass die US-Regierung außerirdische Biologika geborgen habe und dass Absturzbergungsoperationen mit nichtmenschlichen Fahrzeugen und Leichen außerhalb der Aufsicht gewählter Beamter stünden. Er sagte, dass die sensibelsten UAP-Informationen von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert werden und dass einige Operationen darauf ausgelegt seien, der Aufsicht des Kongresses zu entgehen.",
+        "sourceHash": "d6d7d60be4c902d55d978c0c8061b9f644f72a74",
         "provider": "google"
       }
     },
@@ -1095,7 +914,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 10,
+    "prepared": 9,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
