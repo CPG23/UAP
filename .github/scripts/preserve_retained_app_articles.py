@@ -125,6 +125,12 @@ def fallback_same_story(a: dict[str, Any], b: dict[str, Any]) -> bool:
         return True
     a_text = article_match_text(a)
     b_text = article_match_text(b)
+    alien_site_a = bool(re.search(r"\baliens?\.gov\b|\baliens?\s+website\b", a_text))
+    alien_site_b = bool(re.search(r"\baliens?\.gov\b|\baliens?\s+website\b", b_text))
+    immigration_a = bool(re.search(r"\b(immigration|ice|migrant|migrants|alien arrest|federal encounters)\b", a_text))
+    immigration_b = bool(re.search(r"\b(immigration|ice|migrant|migrants|alien arrest|federal encounters)\b", b_text))
+    if alien_site_a and alien_site_b and immigration_a and immigration_b:
+        return True
     if (
         "immigration" in a_text
         and "immigration" in b_text
