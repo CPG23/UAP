@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-31T12:06:30Z",
+  "timestamp": "2026-05-31T17:31:52Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -58,79 +58,22 @@
         "WHISTLEBLOWER"
       ],
       "sourceQuality": 79,
-      "displayedAt": "2026-05-31T12:06:30Z"
-    },
-    {
-      "id": "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens",
-      "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenRDZkpoaEEtZHJPUXlkTXpsOEhiQ1podXBiSVk0SGlrVWpWRG00dFIxTVBwMi1CUkp0OFcxTVV1S1E2QkZ2YUZSMjROYTB5VGdraU9pSTV2X1RkUWhyWVBEU0c1REhtbjJhODFhTlpHeGdsVFd2MmJ1dG91YlY3WFlpRFVtU2NmdFN4cGVFTUw1c3VHRklQTFAtbGlNUTlIXzkyNFJzVUhuaXBmVnhTUg?oc=5",
-      "date": "2026-05-18",
-      "publishedAt": "2026-05-27T14:16:30Z",
-      "summary": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 79,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 9,
-          "text": "ALIEN, CIA, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "CIA, WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 6,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "cia",
-        "whistleblower"
-      ],
-      "sourceQuality": 79,
-      "displayedAt": "2026-05-31T06:47:10Z",
+      "displayedAt": "2026-05-31T12:06:30Z",
       "rssPublishedAt": "2026-05-27T14:16:30Z",
       "rssDate": "2026-05-18",
-      "sourcePublishedAt": "2026-05-26T15:24:37Z",
-      "sourceDisplayedAt": "2026-05-31T06:47:10Z",
+      "sourcePublishedAt": "2026-05-18T07:41:28Z",
+      "sourceDisplayedAt": "2026-05-31T12:06:30Z",
       "translation": {
         "en": {
-          "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
-          "summary": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor.",
-          "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
+          "title": "Alien Whistleblower Claims US Has 'Dismembered Gray Bodies' Hidden Inside Underground Military Bases",
+          "summary": "Timothy Alberino, an investigative writer, claimed in an interview on Redacted that the U.S. government has recovered alien biologics and that crash‑retrieval operations involving non‑human craft and bodies exist outside elected officials’ oversight. He said that the most sensitive UAP information is controlled by private aerospace contractors and highly compartmentalised defence programmes, and that some operations are designed to avoid congressional oversight.",
+          "sourceHash": "d6d7d60be4c902d55d978c0c8061b9f644f72a74",
           "provider": "original"
         },
         "de": {
-          "title": "Whistleblower behauptet, die CIA habe DNA-Daten von Ancestry- und 23andMe-Kunden bei der Suche nach Außerirdischen verwendet",
-          "summary": "Ein Whistleblower, Philosoph und Romanautor Jason Reza Jorjani, behauptet, die CIA habe angeblich eine Hintertür genutzt, um auf Daten von 23andMe und Ancestry.com zuzugreifen, um Personen mit einer genetischen Varianz zu identifizieren, die seiner Meinung nach mit außerirdischer DNA zusammenhängt. Jorjani sagt, er habe von dem Programm durch den Armeeveteranen Lyn Buchanan erfahren, der behauptet, er sei ein übersinnlicher Spion im Remote-Viewing-Programm der CIA gewesen und der ehemalige CIA-Analyst Christopher „Kit“ Green habe die Hintertür geschaffen.",
-          "sourceHash": "373033e4c7aada4ba6a5c2211e36f0cce21b3152",
+          "title": "Außerirdischer Whistleblower behauptet, die USA hätten „graue Körper zerstückelt“, die in unterirdischen Militärstützpunkten versteckt seien",
+          "summary": "Timothy Alberino, ein investigativer Autor, behauptete in einem Interview auf Redacted, dass die US-Regierung außerirdische Biologika geborgen habe und dass Absturzbergungsoperationen mit nichtmenschlichen Fahrzeugen und Leichen außerhalb der Aufsicht gewählter Beamter stünden. Er sagte, dass die sensibelsten UAP-Informationen von privaten Luft- und Raumfahrtunternehmen und stark abgeschotteten Verteidigungsprogrammen kontrolliert werden und dass einige Operationen darauf ausgelegt seien, der Aufsicht des Kongresses zu entgehen.",
+          "sourceHash": "d6d7d60be4c902d55d978c0c8061b9f644f72a74",
           "provider": "google"
         }
       },
@@ -278,6 +221,71 @@
         }
       },
       "retainedFromPreviousScan": true
+    },
+    {
+      "id": "trump-aliens-website-is-about-immigration-uap-journalist-not-amused",
+      "title": "Trump ‘aliens’ website is about immigration; UAP journalist not amused",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BdXhNQldnRFFfbUlzNndiYkNoRjgzSkl3TktXQVN2TGRuQjRHdnU4UnVlRWdyV1pzOTBDaW1wckhBaUJScEh2ZXpjUWg4aHFvUWVnQklUaG9idGtqbmdtNklTWC1vTzhRaXpLSWViOFZYdTTSAXhBVV95cUxPd0x2b21RVndTYnVaZ28wVWQ5QnZ0c0UyVlR3eXppOUN0VHBDWEJtOVdycEFXSW5WUkxUdklCb18zRkdlbDU0a1JOQ1d2MlRwMzIzT3kxam9DWlFkQkQxZmlGdHh6X0VRZWFuM0hsU290cVN6ZU1CUUI?oc=5",
+      "date": "2026-05-30",
+      "publishedAt": "2026-05-30T02:44:29Z",
+      "summary": "",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "Trump 'aliens' website is about immigration; UAP journalist not amused 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWWZlOTJpYUZiaE80VVZTZWtNNWJjcEZmWGlWek5LQU1EcnNnblExS0E0U0NYd1VzMkpGSkRUZkR0OXRhU1hDM0JSOGdiYm1CYlVKaXE3NTVvZ3lKUVlneGlWOG9UeXRUT3VpWGxSTHJPWWZNMnhyc1ROYlNJN2hmczVWbERvQQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWWZlOTJpYUZiaE80VVZTZWtNNWJjcEZmWGlWek5LQU1EcnNnblExS0E0U0NYd1VzMkpGSkRUZkR0OXRhU1hDM0JSOGdiYm1CYlVKaXE3NTVvZ3lKUVlneGlWOG9UeXRUT3VpWGxSTHJPWWZNMnhyc1ROYlNJN2hmczVWbERvQQ?oc=5",
+          "publishedAt": "2026-05-30T01:43:09Z"
+        }
+      ],
+      "clusterTitles": [
+        "Trump 'aliens' website is about immigration; UAP journalist not amused 2026 | JUSTICE - IUSTITIA.BG 2025"
+      ],
+      "quality": 59,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "TRUMP als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "TRUMP"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "sourceQuality": 59,
+      "displayedAt": "2026-05-31T17:31:52Z"
     },
     {
       "id": "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception",
@@ -442,7 +450,7 @@
       "source": "USA Herald",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcW8xdnY3aHk4NS1GcGlFSkJfTkNSNE1iNllTZUF5TmpMc0Zibkc0dU5oQnpPV0JvV0YxWXptMGx4LWhJX2JkRkxjemRFSmRzenFsOElRaVdTTXVQTWZuelVVbHVyMlZVSWhzNkRBRGxJZ1hLN3ZTRG9HR0F0UGZwUWdrSlZkdDI2WVJ2elE4emNaNWxiOGUzWjAzcS0wdFhKeVI1a3MwenMwWklLS3VlbFVha0xyRW9wRU1heGxYVl9UVko1REJXRzktTThqUHFHcHlldUwycTIwMUlyb2NvTGZFZzBvQTg?oc=5",
       "date": "2026-05-31",
-      "publishedAt": "2026-05-29T07:00:00Z",
+      "publishedAt": "2026-05-30T07:00:00Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
@@ -476,6 +484,51 @@
       ],
       "sourceQuality": 45,
       "displayedAt": "2026-05-29T07:00:00Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      }
+    },
+    {
+      "id": "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens",
+      "title": "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenRDZkpoaEEtZHJPUXlkTXpsOEhiQ1podXBiSVk0SGlrVWpWRG00dFIxTVBwMi1CUkp0OFcxTVV1S1E2QkZ2YUZSMjROYTB5VGdraU9pSTV2X1RkUWhyWVBEU0c1REhtbjJhODFhTlpHeGdsVFd2MmJ1dG91YlY3WFlpRFVtU2NmdFN4cGVFTUw1c3VHRklQTFAtbGlNUTlIXzkyNFJzVUhuaXBmVnhTUg?oc=5",
+      "date": "2026-05-18",
+      "publishedAt": "2026-05-27T14:16:30Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "TRUMP als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "TRUMP"
+      ],
+      "sourceQuality": 45,
+      "displayedAt": "2026-05-31T06:47:10Z",
       "summaryStatus": {
         "articleContentSummary": "missing",
         "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
