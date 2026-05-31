@@ -158,6 +158,41 @@ def is_good_summary(value: Any, article: dict[str, Any]) -> bool:
     return True
 
 
+def title_similarity(a: dict[str, Any], b: dict[str, Any]) -> float:
+    a_words = words(a.get("title", ""))
+    b_words = words(b.get("title", ""))
+    if not a_words or not b_words:
+        return 0.0
+    return len(a_words & b_words) / max(1, min(len(a_words), len(b_words)))
+
+
+def same_summary_story(a: dict[str, Any], b: dict[str, Any]) -> bool:
+    a_title = compact(a.get("title")).lower()
+    b_title = compact(b.get("title")).lower()
+    if a_title and b_title and a_title == b_title:
+        return True
+    similarity = title_similarity(a, b)
+    shared = words(a.get("title", "")) & words(b.get("title", ""))
+    if similarity >= 0.62 and len(shared) >= 4:
+        return True
+    if {"trump", "alien", "immigration"} <= shared:
+        return True
+    if {"alien", "disclosure", "furious"} <= shared and ("trump" in shared or "immigration" in shared):
+        return True
+    return False
+
+
+def reusable_cluster_summary(article: dict[str, Any], articles: list[dict[str, Any]], summaries: dict[str, Any]) -> str:
+    for candidate in articles:
+        if candidate is article or not isinstance(candidate, dict):
+            continue
+        candidate_id = compact(candidate.get("id"))
+        candidate_summary = candidate.get("summary") or summaries.get(candidate_id)
+        if is_good_summary(candidate_summary, candidate) and same_summary_story(article, candidate):
+            return compact(candidate_summary)
+    return ""
+
+
 def mark_source_grounded(article: dict[str, Any]) -> None:
     article["summarySource"] = "source_page"
     article["summaryPolicy"] = "source_page_article_text"
@@ -218,8 +253,9 @@ def main() -> None:
     missing = 0
     attempts = 0
     changed = False
+    articles = [article for article in data.get("articles", []) if isinstance(article, dict)]
 
-    for article in data.get("articles", [])[:MAX_REPAIR_ARTICLES]:
+    for article in articles[:MAX_REPAIR_ARTICLES]:
         if not isinstance(article, dict):
             continue
         article_id = compact(article.get("id"))
@@ -231,6 +267,19 @@ def main() -> None:
             if article_id:
                 summaries[article_id] = article["summary"]
             continue
+
+        reused = reusable_cluster_summary(article, articles, summaries)
+        if is_good_summary(reused, article):
+            article["summary"] = reused
+            article["summarySource"] = "related_visible_article"
+            article["summaryPolicy"] = "same_story_summary_reuse"
+            article.pop("summaryStatus", None)
+            if article_id:
+                summaries[article_id] = reused
+            repaired += 1
+            changed = True
+            continue
+
         if attempts >= MAX_REPAIR_ATTEMPTS:
             continue
 
@@ -271,7 +320,7 @@ def main() -> None:
 
     meta = data.setdefault("scanMeta", {})
     meta["summaryRepair"] = {
-        "policy": "repair_after_cluster_normalization_v6_source_text_overrides",
+        "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
         "attempts": attempts,
         "repaired": repaired,
         "fallbackRepaired": fallback_repaired,
