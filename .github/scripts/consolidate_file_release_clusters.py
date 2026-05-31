@@ -32,12 +32,16 @@ SUMMARY = (
 )
 MISSING_SUMMARY_STATUS = {
     "articleContentSummary": "missing",
-    "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen.",
+    "message": "Keine verlaessliche Zusammenfassung verfuegbar. GitHub versucht beim naechsten Scan automatisch, diese zu ergaenzen.",
 }
 
 
 def clean(value: Any) -> str:
     return SPACE_RE.sub(" ", str(value or "")).strip()
+
+
+def slug(value: Any) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", clean(value).lower()).strip("-") or "article"
 
 
 def text_of(*values: Any) -> str:
@@ -52,6 +56,10 @@ def article_headline_text(article: dict[str, Any]) -> str:
     parts = [article.get("title", ""), article.get("source", "")]
     parts.extend(article.get("clusterTitles") or [])
     return text_of(*parts)
+
+
+def article_own_headline_text(article: dict[str, Any]) -> str:
+    return text_of(article.get("title", ""), article.get("source", ""))
 
 
 def article_text(article: dict[str, Any]) -> str:
@@ -113,6 +121,51 @@ def rank_article(article: dict[str, Any]) -> tuple[int, int, int, str]:
         score += 10
     release_sources = sum(1 for source_item in article.get("otherSources") or [] if isinstance(source_item, dict) and is_file_release_source(source_item))
     return score, release_sources, int(article.get("mentions") or 1), clean(article.get("publishedAt") or article.get("date"))
+
+
+def rank_source(source: dict[str, Any]) -> tuple[int, str]:
+    title = clean(source.get("title"))
+    publisher = clean(source.get("source"))
+    text = source_text(source)
+    score = 0
+    if re.search(r"department of war publishes|war\.gov/ufo|pursue", text, re.I):
+        score += 50
+    if re.search(r"second batch|second release|new batch|declassified ufo files", title, re.I):
+        score += 30
+    if re.search(r"department of war|\.gov|reuters|newsnation|associated press|ap news", publisher, re.I):
+        score += 20
+    return score, clean(source.get("publishedAt") or source.get("sourcePublishedAt") or source.get("rssPublishedAt"))
+
+
+def promoted_article_from_source(source: dict[str, Any]) -> dict[str, Any]:
+    published = clean(source.get("publishedAt") or source.get("sourcePublishedAt") or source.get("rssPublishedAt"))
+    title = clean(source.get("title")) or "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO"
+    return {
+        "id": "file-release-" + slug(title),
+        "title": title,
+        "source": clean(source.get("source")) or "UAP files source",
+        "link": clean(source.get("link") or source.get("url")),
+        "url": clean(source.get("url") or source.get("link")),
+        "date": published[:10] if published else "",
+        "publishedAt": published,
+        "summary": SUMMARY,
+        "mentions": 1,
+        "otherSources": [],
+        "clusterTitles": [],
+        "quality": 84,
+        "qualityBreakdown": [
+            {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
+            {"label": "Quelle", "points": 9, "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."},
+            {"label": "Starker Titel", "points": 13, "text": "Der Titel enthaelt einen klaren UAP/UFO-Bezug."},
+            {"label": "Mehrere Quellen", "points": 34, "text": "Mehrere Quellen im aktuellen Feed."},
+        ],
+        "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+        "matchedTerms": ["files", "released"],
+        "sourceQuality": 84,
+        "displayedAt": clean(source.get("displayedAt") or source.get("sourceDisplayedAt") or published),
+        "sourceDisplayedAt": clean(source.get("displayedAt") or source.get("sourceDisplayedAt") or published),
+        "retainedFromPreviousScan": True,
+    }
 
 
 def source_points(mentions: int) -> int:
@@ -185,7 +238,30 @@ def main() -> None:
         print("file-release consolidation: no candidates")
         return
 
-    primary = max(candidates, key=rank_article)
+    primary_candidates = [
+        article for article in candidates
+        if is_file_release_text(article_own_headline_text(article))
+    ]
+    promoted_primary = False
+    if primary_candidates:
+        primary = max(primary_candidates, key=rank_article)
+    else:
+        releasable_sources: list[dict[str, Any]] = []
+        for article in candidates:
+            article_source = source_from_article(article)
+            if is_file_release_source(article_source):
+                releasable_sources.append(article_source)
+            releasable_sources.extend(
+                source for source in article.get("otherSources") or []
+                if isinstance(source, dict) and is_file_release_source(source)
+            )
+        if not releasable_sources:
+            print("file-release consolidation: no direct release topic")
+            return
+        primary = promoted_article_from_source(max(releasable_sources, key=rank_source))
+        articles.insert(0, primary)
+        candidates.append(primary)
+        promoted_primary = True
     release_sources: list[dict[str, Any]] = []
     kept_articles: list[dict[str, Any]] = []
     removed_duplicates = 0
@@ -195,7 +271,7 @@ def main() -> None:
 
     for article in articles:
         is_candidate = article in candidates
-        headline_is_release = is_file_release_text(article_headline_text(article))
+        headline_is_release = is_file_release_text(article_own_headline_text(article))
         if is_candidate and article is not primary and headline_is_release:
             article_source = source_from_article(article)
             if is_file_release_source(article_source):
@@ -242,13 +318,14 @@ def main() -> None:
 
     meta = payload.setdefault("scanMeta", {})
     meta["fileReleaseConsolidation"] = {
-        "policy": "second_uap_file_release_single_visible_topic_v4_exclude_distinct_sightings",
+        "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
         "primaryId": primary.get("id"),
         "sources": len(primary.get("otherSources") or []),
         "cleanedArticles": cleaned_articles,
         "removedDuplicateTopics": removed_duplicates,
         "staleSummariesCleared": stale_summaries_cleared,
         "rejectedArticleSources": rejected_article_sources,
+        "promotedPrimaryFromSource": promoted_primary,
     }
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
