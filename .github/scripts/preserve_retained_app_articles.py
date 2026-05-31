@@ -47,6 +47,20 @@ def words(value: Any) -> set[str]:
     return {word.lower() for word in WORD_RE.findall(compact(value)) if len(word) > 2 and word.lower() not in STOP}
 
 
+def article_match_text(article: dict[str, Any]) -> str:
+    parts = [
+        article.get("title", ""),
+        article.get("summary", ""),
+        " ".join(article.get("clusterTitles") or []),
+    ]
+    parts.extend(
+        compact(source.get("title"))
+        for source in article.get("otherSources") or []
+        if isinstance(source, dict)
+    )
+    return compact(" ".join(parts)).lower()
+
+
 def source_key(source: dict[str, Any]) -> str:
     link = compact(source.get("link") or source.get("url"))
     if link:
@@ -105,8 +119,69 @@ def within_retention(article: dict[str, Any], now: datetime) -> bool:
 def fallback_same_story(a: dict[str, Any], b: dict[str, Any]) -> bool:
     if title_key(a.get("title")) and title_key(a.get("title")) == title_key(b.get("title")):
         return True
-    overlap = words(a.get("title")) & words(b.get("title"))
-    return len(overlap) >= 5 and len(overlap) / max(1, min(len(words(a.get("title"))), len(words(b.get("title"))))) >= 0.55
+    a_summary = compact(a.get("summary")).lower()
+    b_summary = compact(b.get("summary")).lower()
+    if len(a_summary) >= 180 and a_summary == b_summary:
+        return True
+    a_text = article_match_text(a)
+    b_text = article_match_text(b)
+    if (
+        "immigration" in a_text
+        and "immigration" in b_text
+        and "trump" in a_text
+        and "trump" in b_text
+        and re.search(r"\balien(?:s|\.gov)?\b", a_text)
+        and re.search(r"\balien(?:s|\.gov)?\b", b_text)
+    ):
+        return True
+    a_words = words(a.get("title") or a.get("summary"))
+    b_words = words(b.get("title") or b.get("summary"))
+    overlap = a_words & b_words
+    return len(overlap) >= 5 and len(overlap) / max(1, min(len(a_words), len(b_words))) >= 0.55
+
+
+def dedupe_sources_for(article: dict[str, Any]) -> None:
+    primary_keys = source_keys({**article, "otherSources": []})
+    seen: set[str] = set()
+    deduped: list[dict[str, Any]] = []
+    for source in article.get("otherSources") or []:
+        if not isinstance(source, dict):
+            continue
+        key = source_key(source)
+        if not key or key in seen or key in primary_keys:
+            continue
+        seen.add(key)
+        deduped.append(source)
+    article["otherSources"] = deduped
+    article["mentions"] = max(1, 1 + len(deduped))
+    article["clusterTitles"] = [compact(source.get("title")) for source in deduped if compact(source.get("title"))][:10]
+
+
+def merge_duplicate_into(target: dict[str, Any], duplicate: dict[str, Any]) -> None:
+    target.setdefault("otherSources", [])
+    if source_key(source_from_article(target)) != source_key(source_from_article(duplicate)):
+        target["otherSources"].append(source_from_article(duplicate))
+    target["otherSources"].extend(source for source in duplicate.get("otherSources") or [] if isinstance(source, dict))
+    if len(compact(duplicate.get("summary"))) > len(compact(target.get("summary"))):
+        target["summary"] = duplicate.get("summary", "")
+        target.pop("summaryStatus", None)
+        if duplicate.get("translation"):
+            target["translation"] = duplicate.get("translation")
+    dedupe_sources_for(target)
+
+
+def merge_visible_duplicates(articles: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
+    merged: list[dict[str, Any]] = []
+    removed = 0
+    for article in sorted(articles, key=sort_key, reverse=True):
+        for existing in merged:
+            if fallback_same_story(existing, article):
+                merge_duplicate_into(existing, article)
+                removed += 1
+                break
+        else:
+            merged.append(article)
+    return sorted(merged, key=sort_key, reverse=True), removed
 
 
 def represented(previous: dict[str, Any], current_articles: list[dict[str, Any]]) -> bool:
@@ -254,6 +329,7 @@ def main() -> None:
 
     if restored:
         current.extend(restored)
+    current, merged_duplicates = merge_visible_duplicates(current)
     current.sort(key=sort_key, reverse=True)
     data["articles"] = current
 
@@ -271,11 +347,12 @@ def main() -> None:
 
     meta = data.setdefault("scanMeta", {})
     meta["retainedAppArticles"] = {
-        "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v3_skip_unreachable",
+        "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
         "archiveCandidates": len(candidates),
         "currentBeforeRestore": len(current) - len(restored),
         "restoredArticles": len(restored),
         "blockedUnreachableTitles": len(blocked),
+        "mergedDuplicateVisibleArticles": merged_duplicates,
         "retentionDays": RETENTION_DAYS,
         "restoredTitles": [article.get("title", "") for article in restored[:20]],
     }
