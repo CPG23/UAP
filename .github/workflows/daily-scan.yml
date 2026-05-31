@@ -71,7 +71,7 @@ jobs:
           NTFY_TOPIC: UAP-News26
         run: |
           echo "Running refreshed UAP scan with final notification validation"
-          echo "Manual refresh trigger: 2026-05-31T20:33:00+02:00"
+          echo "Manual refresh trigger: 2026-05-31T20:48:00+02:00"
           cp latest-news.json previous-latest-news.json 2>/dev/null || true
           python3 .github/scripts/daily_scan.py
           python3 .github/scripts/split_unrelated_sources.py
