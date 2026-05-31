@@ -175,6 +175,8 @@ def same_summary_story(a: dict[str, Any], b: dict[str, Any]) -> bool:
     shared = words(a.get("title", "")) & words(b.get("title", ""))
     if similarity >= 0.62 and len(shared) >= 4:
         return True
+    if "trump" in shared and "immigration" in shared and re.search(r"\balien", a_title) and re.search(r"\balien", b_title):
+        return True
     if {"trump", "alien", "immigration"} <= shared:
         return True
     if {"alien", "disclosure", "furious"} <= shared and ("trump" in shared or "immigration" in shared):
