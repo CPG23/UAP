@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-01T15:27:48Z",
+  "timestamp": "2026-06-01T16:34:14Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -10,7 +10,7 @@
       "date": "2026-05-31",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 15,
+      "mentions": 17,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -18,6 +18,13 @@
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "publishedAt": "2026-05-22T07:00:00Z"
+        },
+        {
+          "title": "Pentagon releases second batch of declassified UFO files",
+          "source": "MSN",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1J2QldGVF9ia3dpRGIzRExCYzhWUUhxU3I5WmxwLWk4TDNsX2hnU19hdFJQOEtZNTdQb2N6azF6Y2FENTZtVlQ5WWJtVl9EWS1uT2otZjVXSElVbzJEQzhPR2JPMk9jSWxzb0JTWTk0TnV1Yk90YXh4aGJlZXVudmhEb2N3dWdPbzZ0YVJGdjZvd2xZaW9PNTgxNV9JTVZmVDRwRXRLS1Y?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1J2QldGVF9ia3dpRGIzRExCYzhWUUhxU3I5WmxwLWk4TDNsX2hnU19hdFJQOEtZNTdQb2N6azF6Y2FENTZtVlQ5WWJtVl9EWS1uT2otZjVXSElVbzJEQzhPR2JPMk9jSWxzb0JTWTk0TnV1Yk90YXh4aGJlZXVudmhEb2N3dWdPbzZ0YVJGdjZvd2xZaW9PNTgxNV9JTVZmVDRwRXRLS1Y?oc=5",
+          "publishedAt": "2026-05-30T04:48:00Z"
         },
         {
           "title": "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
@@ -34,11 +41,11 @@
           "publishedAt": "2026-05-29T01:29:07Z"
         },
         {
-          "title": "Pentagon releases second batch of declassified UFO files",
+          "title": "Green orbs, discs and fireballs: Pentagon releases second batch of declassified UFO files",
           "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUJfQ3Nqc3ZoYjlqbkhrdXdUaW0tVWFkbXZmQW45a2ZIRnA3dlpxZGo2THJkOFBPRzhSdTAtckhzdFVDaUdJQm14cGt0UVhHRS1KSmVyWXpsMjNHYUJxbTNOSDM1b3hwelo5ZDRuU2Z5TEs2NFZfUW1KdHRPMXZBcV9URlNDZWlIWUwtOVhrR05GYk9lSXFDN2tBaFdlTkc1ZUl2SjNfQUtSVFdzMHZfc1ZVX25TRHRy?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUJfQ3Nqc3ZoYjlqbkhrdXdUaW0tVWFkbXZmQW45a2ZIRnA3dlpxZGo2THJkOFBPRzhSdTAtckhzdFVDaUdJQm14cGt0UVhHRS1KSmVyWXpsMjNHYUJxbTNOSDM1b3hwelo5ZDRuU2Z5TEs2NFZfUW1KdHRPMXZBcV9URlNDZWlIWUwtOVhrR05GYk9lSXFDN2tBaFdlTkc1ZUl2SjNfQUtSVFdzMHZfc1ZVX25TRHRy?oc=5",
-          "publishedAt": "2026-05-28T06:22:30Z"
+          "link": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxNMm5DOG5BUDI5OGVjZ1ZFRHg1dkVZVDVfQjhZTlZnMF8zVHRGRy1PdXFfd3ZKNERKczQ2SXd6dlpweUM1T2NFdW54dzJDbHdsMTZDSGVKR0JORHJPdHVVOGZueEFlS2N1c1ltVTF6SVRaX1E2UkFZZDQxMENjWFhSMjctWkZDc3RYd2QwT1ZWWmU4VkZjRnlYWTBaaWxjd1VHc2IySEFSdTVCclRXdFBtTVMzZFdHZ2dCd0VRYUI0Z2pLRjA0cXBIMElYSTdfdm9QblNacFh2aGZCZzN2YlNFMEdRMUUwTG1XSUxIYXJSeUFWZU40dm5IdW8xMGV3azBMeS1ycGRxYTJLbXFzdE1Fb25EX24xYlcyYjE0Z0V5eHNZVVBPdUVnZ0M2YzZYLTVSZjFqYjJNNmd0NFlMWlN0dVk4UWs5cm91bHZwUEFXcy1PamVVNUdLZllJQXpzV0NZRFBqM1RBbHdFb0RjdkRaT2hRYk9ucldwbk1pcHhJNGEtVEdPbEE3WFhWNHhGZXdWRzBHbEh6MDR2MGVHZEtCY29QT1VaNzQ2Tnc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxNMm5DOG5BUDI5OGVjZ1ZFRHg1dkVZVDVfQjhZTlZnMF8zVHRGRy1PdXFfd3ZKNERKczQ2SXd6dlpweUM1T2NFdW54dzJDbHdsMTZDSGVKR0JORHJPdHVVOGZueEFlS2N1c1ltVTF6SVRaX1E2UkFZZDQxMENjWFhSMjctWkZDc3RYd2QwT1ZWWmU4VkZjRnlYWTBaaWxjd1VHc2IySEFSdTVCclRXdFBtTVMzZFdHZ2dCd0VRYUI0Z2pLRjA0cXBIMElYSTdfdm9QblNacFh2aGZCZzN2YlNFMEdRMUUwTG1XSUxIYXJSeUFWZU40dm5IdW8xMGV3azBMeS1ycGRxYTJLbXFzdE1Fb25EX24xYlcyYjE0Z0V5eHNZVVBPdUVnZ0M2YzZYLTVSZjFqYjJNNmd0NFlMWlN0dVk4UWs5cm91bHZwUEFXcy1PamVVNUdLZllJQXpzV0NZRFBqM1RBbHdFb0RjdkRaT2hRYk9ucldwbk1pcHhJNGEtVEdPbEE3WFhWNHhGZXdWRzBHbEh6MDR2MGVHZEtCY29QT1VaNzQ2Tnc?oc=5",
+          "publishedAt": "2026-05-28T09:36:56Z"
         },
         {
           "title": "What does the second batch of UFO files tell us?",
@@ -74,6 +81,14 @@
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
           "publishedAt": "2026-05-19T07:00:00Z"
+        },
+        {
+          "title": "Pentagon releases second batch of declassified UFO files",
+          "source": "MSN",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUJfQ3Nqc3ZoYjlqbkhrdXdUaW0tVWFkbXZmQW45a2ZIRnA3dlpxZGo2THJkOFBPRzhSdTAtckhzdFVDaUdJQm14cGt0UVhHRS1KSmVyWXpsMjNHYUJxbTNOSDM1b3hwelo5ZDRuU2Z5TEs2NFZfUW1KdHRPMXZBcV9URlNDZWlIWUwtOVhrR05GYk9lSXFDN2tBaFdlTkc1ZUl2SjNfQUtSVFdzMHZfc1ZVX25TRHRy?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUJfQ3Nqc3ZoYjlqbkhrdXdUaW0tVWFkbXZmQW45a2ZIRnA3dlpxZGo2THJkOFBPRzhSdTAtckhzdFVDaUdJQm14cGt0UVhHRS1KSmVyWXpsMjNHYUJxbTNOSDM1b3hwelo5ZDRuU2Z5TEs2NFZfUW1KdHRPMXZBcV9URlNDZWlIWUwtOVhrR05GYk9lSXFDN2tBaFdlTkc1ZUl2SjNfQUtSVFdzMHZfc1ZVX25TRHRy?oc=5",
+          "publishedAt": "2026-05-28T06:22:30Z",
+          "displayedAt": "2026-05-28T06:22:30Z"
         },
         {
           "title": "Pentagon releases second batch of declassified UFO files",
@@ -118,22 +133,25 @@
           "source": "Mashable India",
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQU41azJMdERCbERtbV9WZ2lTN092SFJTeGhIZWQ5WXVMRE5YNHc0enE2R2ZnazFvQWNYLW1GdGxNejJVUjRKWlQ4aUxyUlZJMF9TOC03MmY5UEk0Y0htcEFfWDBKZU82WDdNYy1UVHdVUUZReF9VeWJ0Q2daeHFTVHZmM1VaZTA1S3R0UExlSjZwenl2N0Z1NGZQdHNDRDZFZEREQURhanVYVG9XYUtCUDZfaElhNkRnc2sweHBiOTVjV3duMG1sMUlaV1hwQkdZdGY4d2dB?oc=5",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQU41azJMdERCbERtbV9WZ2lTN092SFJTeGhIZWQ5WXVMRE5YNHc0enE2R2ZnazFvQWNYLW1GdGxNejJVUjRKWlQ4aUxyUlZJMF9TOC03MmY5UEk0Y0htcEFfWDBKZU82WDdNYy1UVHdVUUZReF9VeWJ0Q2daeHFTVHZmM1VaZTA1S3R0UExlSjZwenl2N0Z1NGZQdHNDRDZFZEREQURhanVYVG9XYUtCUDZfaElhNkRnc2sweHBiOTVjV3duMG1sMUlaV1hwQkdZdGY4d2dB?oc=5",
-          "publishedAt": "2026-05-29T08:06:55Z"
+          "publishedAt": "2026-05-29T08:06:55Z",
+          "rssPublishedAt": "2026-05-29T08:06:55Z",
+          "sourcePublishedAt": "2026-05-29T08:06:55Z",
+          "displayedAt": "2026-05-29T08:06:55Z"
         }
       ],
       "clusterTitles": [
         "US releases second batch of government declassified UFO files",
+        "Pentagon releases second batch of declassified UFO files",
         "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
         "Pentagon releases second batch of UFO files: The 5 best videos",
-        "Pentagon releases second batch of declassified UFO files",
+        "Green orbs, discs and fireballs: Pentagon releases second batch of declassified UFO files",
         "What does the second batch of UFO files tell us?",
         "Pentagon releases new batch of declassified UFO files",
         "New videos from Pentagon’s second batch of UFO files",
         "Pentagon releases new batch of UFO files",
-        "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
-        "Pentagon releases second batch of declassified UFO files"
+        "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment"
       ],
-      "quality": 90,
+      "quality": 95,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -157,15 +175,15 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 45,
-          "text": "10 Quellen im aktuellen Feed."
+          "points": 50,
+          "text": "11 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "ALIEN"
       ],
-      "sourceQuality": 90,
+      "sourceQuality": 95,
       "displayedAt": "2026-05-31T18:44:03Z"
     },
     {
@@ -365,7 +383,9 @@
         "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
       },
       "sourceQuality": 59,
-      "displayedAt": "2026-05-30T01:43:09Z"
+      "displayedAt": "2026-05-30T01:43:09Z",
+      "sourceDisplayedAt": "2026-05-31T17:31:52Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-rep-anna-paulina-luna-frames-ufo-disclosure-through-the-book-of-enoch-as-a-window-into-a-reality-beyond-human-perception",
@@ -558,7 +578,9 @@
         "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
       },
       "sourceQuality": 49,
-      "displayedAt": "2026-05-31T18:37:38Z"
+      "displayedAt": "2026-05-31T18:37:38Z",
+      "sourceDisplayedAt": "2026-05-31T18:37:38Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "ufo-linked-general-william-neil-mccasland-met-us-space-force-personnel-hours-before-disappearance-audio",
