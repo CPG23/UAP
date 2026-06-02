@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-02T18:26:52Z",
+  "timestamp": "2026-06-02T18:58:38Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -10,7 +10,7 @@
       "date": "2026-05-31",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 20,
+      "mentions": 21,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -27,25 +27,18 @@
           "publishedAt": "2026-06-02T11:42:08Z"
         },
         {
+          "title": "US Government: Pentagon Releases New UFO Files Sparking Fresh Questions as Declassified UAP Evidence Surges",
+          "source": "USA Herald",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ3pOX2x5QzFEM0UweEctRXY1Zm9fT2t0ZkJQamZ2aGNBZzgwTk41UERtX2JPaUFOU2hHY1ZsdW9UYldwLTFnekxURkZkRlZXY1NHU2tRbHNYY043TlJxWDNnM0dJaVN0SkgxaVJsSkpMcks5SFEtVC1OclJWcTFQcUlGOHZqRmlrRWNwS1RyRDFMVmxJZkZ5ZGpnVjRsRmY0VVIzTGc1SWpiZXVLVklkMTJocmZPTzRGbVdfZWNpR0ZzanNPSTN2bA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ3pOX2x5QzFEM0UweEctRXY1Zm9fT2t0ZkJQamZ2aGNBZzgwTk41UERtX2JPaUFOU2hHY1ZsdW9UYldwLTFnekxURkZkRlZXY1NHU2tRbHNYY043TlJxWDNnM0dJaVN0SkgxaVJsSkpMcks5SFEtVC1OclJWcTFQcUlGOHZqRmlrRWNwS1RyRDFMVmxJZkZ5ZGpnVjRsRmY0VVIzTGc1SWpiZXVLVklkMTJocmZPTzRGbVdfZWNpR0ZzanNPSTN2bA?oc=5",
+          "publishedAt": "2026-06-01T01:00:36Z"
+        },
+        {
           "title": "Pentagon releases second batch of declassified UFO files",
           "source": "MSN",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1J2QldGVF9ia3dpRGIzRExCYzhWUUhxU3I5WmxwLWk4TDNsX2hnU19hdFJQOEtZNTdQb2N6azF6Y2FENTZtVlQ5WWJtVl9EWS1uT2otZjVXSElVbzJEQzhPR2JPMk9jSWxzb0JTWTk0TnV1Yk90YXh4aGJlZXVudmhEb2N3dWdPbzZ0YVJGdjZvd2xZaW9PNTgxNV9JTVZmVDRwRXRLS1Y?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1J2QldGVF9ia3dpRGIzRExCYzhWUUhxU3I5WmxwLWk4TDNsX2hnU19hdFJQOEtZNTdQb2N6azF6Y2FENTZtVlQ5WWJtVl9EWS1uT2otZjVXSElVbzJEQzhPR2JPMk9jSWxzb0JTWTk0TnV1Yk90YXh4aGJlZXVudmhEb2N3dWdPbzZ0YVJGdjZvd2xZaW9PNTgxNV9JTVZmVDRwRXRLS1Y?oc=5",
           "publishedAt": "2026-05-30T04:48:00Z"
-        },
-        {
-          "title": "Pentagon releases second batch of UFO files: The 5 best videos",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZEFQQ2I4ejBjQnRXREN5VndaY2J1VHhBcUhnM0cyckVHaGRxSFpVVUlSQXhKU09kYzkxRk95VlBtNEw0dEFJb1BSRk1HTHZaMW1jZGkyZ1Rselh3QXNrZzhYT1psNmtLa2dJWGZVaW9kdVdIVjdKcUVxYVJ5bGVVVV9KQ1R3anI5NkFPUDgtVmJMalpvRWdnMEpIb3FLdkNxeW9QOERqTF9zRjQ2UTZHdkxKWmFQc21rbjFSSnFNSzNDRk5V?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZEFQQ2I4ejBjQnRXREN5VndaY2J1VHhBcUhnM0cyckVHaGRxSFpVVUlSQXhKU09kYzkxRk95VlBtNEw0dEFJb1BSRk1HTHZaMW1jZGkyZ1Rselh3QXNrZzhYT1psNmtLa2dJWGZVaW9kdVdIVjdKcUVxYVJ5bGVVVV9KQ1R3anI5NkFPUDgtVmJMalpvRWdnMEpIb3FLdkNxeW9QOERqTF9zRjQ2UTZHdkxKWmFQc21rbjFSSnFNSzNDRk5V?oc=5",
-          "publishedAt": "2026-05-29T01:29:07Z"
-        },
-        {
-          "title": "Analysis of the Second Batch of UFO Files Released by the Pentagon",
-          "source": "Coast to Coast AM",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEdZQ1hPaVE2M0dmS3lPc3I5d2VxWEtBWGl1MHpQRDduQlNRSnl3eFNyRk1SdUF0LWVneTZoZ0EwS0UwNDJOcmxMMnhZd2hxbFFIcHNaUDB1OXF5OXlPME9iaHk4THZRMmx6Qy1IME9HcXBBak9tT2k4ZlAxczk1LWY0MmlLUjQzdkxrZ3BuZnU5aVpyTmQ4MUVuM0JxS0QtZUxRcmRoQ3l4dw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEdZQ1hPaVE2M0dmS3lPc3I5d2VxWEtBWGl1MHpQRDduQlNRSnl3eFNyRk1SdUF0LWVneTZoZ0EwS0UwNDJOcmxMMnhZd2hxbFFIcHNaUDB1OXF5OXlPME9iaHk4THZRMmx6Qy1IME9HcXBBak9tT2k4ZlAxczk1LWY0MmlLUjQzdkxrZ3BuZnU5aVpyTmQ4MUVuM0JxS0QtZUxRcmRoQ3l4dw?oc=5",
-          "publishedAt": "2026-05-27T13:24:57Z"
         },
         {
           "title": "What does the second batch of UFO files tell us?",
@@ -76,18 +69,32 @@
           "publishedAt": "2026-05-22T07:00:00Z"
         },
         {
-          "title": "War Dept. Releases Second UFO Files on WAR.GOV/UFO",
-          "source": "Mirage News",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdHU1VGItWG9KUng2R1c1WUh0cXE2enBPZXN3SW9wN3VGRG5KT2ZuYTBlek82RHAwWjJBbWkwbEltTnBsUU84WkZRQjFnd1A4YkV3Q3MzSHJOb1Q4MmtqbkZmTW96em93MWNndkpFa1VHbXdtVElRSFMydjZyUmt4ZF9BUFVTQ0xNUGJr?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdHU1VGItWG9KUng2R1c1WUh0cXE2enBPZXN3SW9wN3VGRG5KT2ZuYTBlek82RHAwWjJBbWkwbEltTnBsUU84WkZRQjFnd1A4YkV3Q3MzSHJOb1Q4MmtqbkZmTW96em93MWNndkpFa1VHbXdtVElRSFMydjZyUmt4ZF9BUFVTQ0xNUGJr?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
           "title": "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
           "source": "Fox News",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
           "publishedAt": "2026-05-19T07:00:00Z"
+        },
+        {
+          "title": "Pentagon releases second batch of UFO files: The 5 best videos",
+          "source": "MSN",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZEFQQ2I4ejBjQnRXREN5VndaY2J1VHhBcUhnM0cyckVHaGRxSFpVVUlSQXhKU09kYzkxRk95VlBtNEw0dEFJb1BSRk1HTHZaMW1jZGkyZ1Rselh3QXNrZzhYT1psNmtLa2dJWGZVaW9kdVdIVjdKcUVxYVJ5bGVVVV9KQ1R3anI5NkFPUDgtVmJMalpvRWdnMEpIb3FLdkNxeW9QOERqTF9zRjQ2UTZHdkxKWmFQc21rbjFSSnFNSzNDRk5V?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZEFQQ2I4ejBjQnRXREN5VndaY2J1VHhBcUhnM0cyckVHaGRxSFpVVUlSQXhKU09kYzkxRk95VlBtNEw0dEFJb1BSRk1HTHZaMW1jZGkyZ1Rselh3QXNrZzhYT1psNmtLa2dJWGZVaW9kdVdIVjdKcUVxYVJ5bGVVVV9KQ1R3anI5NkFPUDgtVmJMalpvRWdnMEpIb3FLdkNxeW9QOERqTF9zRjQ2UTZHdkxKWmFQc21rbjFSSnFNSzNDRk5V?oc=5",
+          "publishedAt": "2026-05-29T01:29:07Z"
+        },
+        {
+          "title": "Analysis of the Second Batch of UFO Files Released by the Pentagon",
+          "source": "Coast to Coast AM",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEdZQ1hPaVE2M0dmS3lPc3I5d2VxWEtBWGl1MHpQRDduQlNRSnl3eFNyRk1SdUF0LWVneTZoZ0EwS0UwNDJOcmxMMnhZd2hxbFFIcHNaUDB1OXF5OXlPME9iaHk4THZRMmx6Qy1IME9HcXBBak9tT2k4ZlAxczk1LWY0MmlLUjQzdkxrZ3BuZnU5aVpyTmQ4MUVuM0JxS0QtZUxRcmRoQ3l4dw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEdZQ1hPaVE2M0dmS3lPc3I5d2VxWEtBWGl1MHpQRDduQlNRSnl3eFNyRk1SdUF0LWVneTZoZ0EwS0UwNDJOcmxMMnhZd2hxbFFIcHNaUDB1OXF5OXlPME9iaHk4THZRMmx6Qy1IME9HcXBBak9tT2k4ZlAxczk1LWY0MmlLUjQzdkxrZ3BuZnU5aVpyTmQ4MUVuM0JxS0QtZUxRcmRoQ3l4dw?oc=5",
+          "publishedAt": "2026-05-27T13:24:57Z"
+        },
+        {
+          "title": "War Dept. Releases Second UFO Files on WAR.GOV/UFO",
+          "source": "Mirage News",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdHU1VGItWG9KUng2R1c1WUh0cXE2enBPZXN3SW9wN3VGRG5KT2ZuYTBlek82RHAwWjJBbWkwbEltTnBsUU84WkZRQjFnd1A4YkV3Q3MzSHJOb1Q4MmtqbkZmTW96em93MWNndkpFa1VHbXdtVElRSFMydjZyUmt4ZF9BUFVTQ0xNUGJr?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdHU1VGItWG9KUng2R1c1WUh0cXE2enBPZXN3SW9wN3VGRG5KT2ZuYTBlek82RHAwWjJBbWkwbEltTnBsUU84WkZRQjFnd1A4YkV3Q3MzSHJOb1Q4MmtqbkZmTW96em93MWNndkpFa1VHbXdtVElRSFMydjZyUmt4ZF9BUFVTQ0xNUGJr?oc=5",
+          "publishedAt": "2026-05-22T07:00:00Z"
         },
         {
           "title": "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
@@ -166,16 +173,16 @@
       "clusterTitles": [
         "US releases second batch of government declassified UFO files",
         "Pentagon releases new batch of UFO files",
+        "US Government: Pentagon Releases New UFO Files Sparking Fresh Questions as Declassified UAP Evidence Surges",
         "Pentagon releases second batch of declassified UFO files",
-        "Pentagon releases second batch of UFO files: The 5 best videos",
-        "Analysis of the Second Batch of UFO Files Released by the Pentagon",
         "What does the second batch of UFO files tell us?",
         "Pentagon releases new batch of declassified UFO files",
         "New videos from Pentagon’s second batch of UFO files",
         "Pentagon releases new batch of UFO files",
-        "War Dept. Releases Second UFO Files on WAR.GOV/UFO"
+        "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
+        "Pentagon releases second batch of UFO files: The 5 best videos"
       ],
-      "quality": 100,
+      "quality": 90,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -199,15 +206,15 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 55,
-          "text": "12 Quellen im aktuellen Feed."
+          "points": 45,
+          "text": "10 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "ALIEN"
       ],
-      "sourceQuality": 100,
+      "sourceQuality": 90,
       "displayedAt": "2026-06-02T14:45:56Z"
     },
     {
@@ -514,29 +521,10 @@
         "WHISTLEBLOWER"
       ],
       "sourceQuality": 56,
-      "displayedAt": "2026-05-21T19:34:17Z",
-      "rssPublishedAt": "2026-05-20T06:55:00Z",
-      "rssDate": "2026-05-20",
-      "sourcePublishedAt": "2026-05-20T00:00:00Z",
-      "sourceDisplayedAt": "2026-05-21T19:34:17Z",
-      "translation": {
-        "en": {
-          "title": "Secret agent, who was about to blow the lid off UFO secrets, died 5 years ago. A whistleblower has now raised suspicion",
-          "summary": "Kevin Childress, a 30‑year Department of Energy criminal investigator, died unexpectedly in 2021 at his Georgia home, with authorities citing complications from COVID‑19. UFO whistleblower Luis Elizondo claims Childress was healthy before his death and had warned that the DOE had a significant role in UAP programs. Elizondo says the DOE is trying to silence him and notes that no public autopsy or detailed cause of death has been released.",
-          "sourceHash": "8f6d20a998af7606c9cb0b3e3a4133bef4acd641",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Der Geheimagent, der UFO-Geheimnisse enthüllen wollte, starb vor fünf Jahren. Ein Whistleblower hat nun Verdacht geäußert",
-          "summary": "Kevin Childress, ein 30-jähriger Kriminalermittler des Energieministeriums, starb 2021 unerwartet in seinem Haus in Georgia, wobei die Behörden Komplikationen durch COVID-19 anführten. UFO-Whistleblower Luis Elizondo behauptet, Childress sei vor seinem Tod gesund gewesen und habe gewarnt, dass das DOE eine wichtige Rolle in UAP-Programmen gespielt habe. Elizondo sagt, das Energieministerium versuche ihn zum Schweigen zu bringen und stellt fest, dass weder eine öffentliche Autopsie noch eine detaillierte Todesursache veröffentlicht wurden.",
-          "sourceHash": "8f6d20a998af7606c9cb0b3e3a4133bef4acd641",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
+      "displayedAt": "2026-06-02T18:58:38Z"
     },
     {
-      "id": "mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930",
+      "id": "program-mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930",
       "title": "MITRE moves to comply with lawmaker’s request for UAP records and assets dating back to 1930",
       "source": "DefenseScoop",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNUtRemotYTJtb1cxekRuS1AwRmxWdVlnaGQyYmpfb2JrYUhkblJ4cGktRFVQU01LNjI0UHg3bDRZT0VXYnIyWEpOb3pzeFIwNld2eUtEQlZRUFZMNkZjMy1jY1J1T0xDODl0T1UxekkwZGh0MEJLRlhkOHFKU0JaRlFRSk1hbVIybm1vZA?oc=5",
@@ -652,6 +640,8 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 45,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
       "displayedAt": "2026-05-31T18:11:26Z"
     },
     {
@@ -746,6 +736,39 @@
       },
       "sourceQuality": 40,
       "displayedAt": "2026-05-30T06:13:44Z"
+    },
+    {
+      "id": "lawmakers-and-whistleblowers-to-demand-ufo-evidence-release-june-9",
+      "title": "Lawmakers and whistleblowers to demand UFO evidence release June 9",
+      "source": "MSN",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNbEgxMlU5bG1HYi1HbUxmVkpsdGRRaF91Q2lwQkZ6UDJDcGZHZVJPdHAwd0E4c2xXdndWLTNmLUFYQ1NOT3U0TmVOTWdaYVlVZTlIWGtqZ0pYTmQ3MWxPclVjMk8zbVFTY3dkeUVoOFNnYlhkeGVuTU9FdTdOMndPMjNvbVNHOUdwUlR1YmJoOXB4eXgxWm1PdlA5ZnIzM1BJcktvZDdPb2drWmlmT1ZkNXhXSVNaa09LRDRyckNZZ09PaktRVE1iTWpzcVdiZ0FkQk9aRG9aWUVfd3Z0U0Q3REUwRWpLRHVBMkFybkVFcnZzbnpWaGFvY240aWQ?oc=5",
+      "date": "2026-05-29",
+      "publishedAt": "2026-05-29T18:46:43Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "sourceQuality": 40,
+      "displayedAt": "2026-06-02T18:58:38Z"
     },
     {
       "id": "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free",
