@@ -10,7 +10,7 @@ from typing import Any
 
 NEWS_PATH = Path("latest-news.json")
 SPACE_RE = re.compile(r"\s+")
-ALIEN_SITE_RE = re.compile(r"\baliens?\.gov\b|\baliens?\s+website\b", re.I)
+ALIEN_SITE_RE = re.compile(r"\baliens?\.gov\b|\baliens?(?:['\u2019])?\s+website\b", re.I)
 IMMIGRATION_RE = re.compile(r"\b(immigration|ice|migrant|migrants|alien arrest|federal encounters)\b", re.I)
 
 
@@ -116,12 +116,21 @@ def refresh_quality(article: dict[str, Any]) -> None:
     article["sourceQuality"] = article["quality"]
 
 
-def relocate_alien_gov_sources(articles: list[dict[str, Any]]) -> int:
+def relocate_alien_gov_sources(articles: list[dict[str, Any]]) -> tuple[int, int]:
     targets = [article for article in articles if is_alien_gov_immigration_article(article)]
     if not targets:
-        return 0
+        return 0, 0
     target = max(targets, key=lambda article: (int(article.get("quality") or 0), int(article.get("mentions") or 1)))
     moved = 0
+    removed_unrelated = 0
+    for alien_article in targets:
+        kept: list[dict[str, Any]] = []
+        for source in alien_article.get("otherSources") or []:
+            if isinstance(source, dict) and is_alien_gov_immigration_source(source):
+                kept.append(source)
+            elif isinstance(source, dict):
+                removed_unrelated += 1
+        alien_article["otherSources"] = kept
     for article in articles:
         if article is target:
             continue
@@ -133,13 +142,13 @@ def relocate_alien_gov_sources(articles: list[dict[str, Any]]) -> int:
             elif isinstance(source, dict):
                 kept.append(source)
         article["otherSources"] = kept
-    return moved
+    return moved, removed_unrelated
 
 
 def main() -> None:
     payload = json.loads(NEWS_PATH.read_text(encoding="utf-8"))
     articles = [article for article in payload.get("articles") or [] if isinstance(article, dict)]
-    moved = relocate_alien_gov_sources(articles)
+    moved, removed_unrelated = relocate_alien_gov_sources(articles)
     for article in articles:
         dedupe_sources(article)
         refresh_quality(article)
@@ -153,12 +162,13 @@ def main() -> None:
     )
     payload["articles"] = articles
     payload.setdefault("scanMeta", {})["finalFeedSourceConsistency"] = {
-        "policy": "relocate_alien_gov_immigration_sources_and_refresh_linear_source_scores_v1",
+        "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v2",
         "relocatedAlienGovImmigrationSources": moved,
+        "removedUnrelatedAlienGovClusterSources": removed_unrelated,
         "articlesRefreshed": len(articles),
     }
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"final feed source consistency: moved_alien_gov_sources={moved}; refreshed={len(articles)}")
+    print(f"final feed source consistency: moved_alien_gov_sources={moved}; removed_unrelated_alien_gov_sources={removed_unrelated}; refreshed={len(articles)}")
 
 
 if __name__ == "__main__":
