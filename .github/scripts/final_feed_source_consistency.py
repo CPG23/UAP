@@ -199,7 +199,7 @@ def main() -> None:
     )
     payload["articles"] = articles
     payload.setdefault("scanMeta", {})["finalFeedSourceConsistency"] = {
-        "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v4",
+        "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v4_restore_source_base",
         "relocatedAlienGovImmigrationSources": moved,
         "removedUnrelatedAlienGovClusterSources": removed_unrelated,
         "articlesRefreshed": len(articles),
