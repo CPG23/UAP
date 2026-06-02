@@ -9,9 +9,16 @@ from pathlib import Path
 from typing import Any
 
 NEWS_PATH = Path("latest-news.json")
+ARCHIVE_PATH = Path("app-feed-archive.json")
+DEPARTMENT_ID = "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
 SPACE_RE = re.compile(r"\s+")
 ALIEN_SITE_RE = re.compile(r"\baliens?\.gov\b|\baliens?(?:['\u2019])?\s+website\b", re.I)
 IMMIGRATION_RE = re.compile(r"\b(immigration|ice|migrant|migrants|alien arrest|federal encounters)\b", re.I)
+FILE_RELEASE_RE = re.compile(
+    r"\b(second batch|second release|new batch|declassified ufo files|government declassified ufo files|"
+    r"war\.gov/ufo|pursue|department of war publishes|pentagon releases|ufo files|uap files)\b",
+    re.I,
+)
 
 
 def clean(value: Any) -> str:
@@ -99,6 +106,10 @@ def is_alien_gov_immigration_source(source: dict[str, Any]) -> bool:
     return is_alien_gov_immigration_text(source_text(source))
 
 
+def is_department_file_release_source(source: dict[str, Any]) -> bool:
+    return bool(FILE_RELEASE_RE.search(source_text(source))) and not is_alien_gov_immigration_source(source)
+
+
 def dedupe_sources(article: dict[str, Any]) -> None:
     primary_key = source_key(source_from_article(article))
     seen: set[str] = set()
@@ -182,10 +193,56 @@ def relocate_alien_gov_sources(articles: list[dict[str, Any]]) -> tuple[int, int
     return moved, removed_unrelated
 
 
+def find_department_article(payload: dict[str, Any]) -> dict[str, Any] | None:
+    for article in payload.get("articles") or []:
+        if isinstance(article, dict) and article.get("id") == DEPARTMENT_ID:
+            return article
+    return None
+
+
+def restore_department_file_release_sources(payload: dict[str, Any]) -> int:
+    if not ARCHIVE_PATH.exists():
+        return 0
+    try:
+        archive = json.loads(ARCHIVE_PATH.read_text(encoding="utf-8-sig"))
+    except Exception:
+        return 0
+    department = find_department_article(payload)
+    archived_department = find_department_article(archive)
+    if not department or not archived_department:
+        return 0
+
+    existing = {source_key(source_from_article(department))}
+    restored = 0
+    sources: list[dict[str, Any]] = []
+    for source in department.get("otherSources") or []:
+        if not isinstance(source, dict) or is_alien_gov_immigration_source(source):
+            continue
+        key = source_key(source)
+        if key and key not in existing:
+            existing.add(key)
+            sources.append(source)
+
+    for source in archived_department.get("otherSources") or []:
+        if not isinstance(source, dict) or not is_department_file_release_source(source):
+            continue
+        key = source_key(source)
+        if key and key not in existing:
+            existing.add(key)
+            sources.append(source)
+            restored += 1
+
+    department["otherSources"] = sources
+    department["mentions"] = max(1, 1 + len(sources))
+    department["clusterTitles"] = [clean(source.get("title")) for source in sources if clean(source.get("title"))][:10]
+    return restored
+
+
 def main() -> None:
     payload = json.loads(NEWS_PATH.read_text(encoding="utf-8-sig"))
     articles = [article for article in payload.get("articles") or [] if isinstance(article, dict)]
     moved, removed_unrelated = relocate_alien_gov_sources(articles)
+    restored_department_sources = restore_department_file_release_sources(payload)
     for article in articles:
         dedupe_sources(article)
         refresh_quality(article)
@@ -199,9 +256,10 @@ def main() -> None:
     )
     payload["articles"] = articles
     payload.setdefault("scanMeta", {})["finalFeedSourceConsistency"] = {
-        "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v4_restore_source_base",
+        "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v5_restore_department_sources",
         "relocatedAlienGovImmigrationSources": moved,
         "removedUnrelatedAlienGovClusterSources": removed_unrelated,
+        "restoredDepartmentFileReleaseSources": restored_department_sources,
         "articlesRefreshed": len(articles),
     }
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
