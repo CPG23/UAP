@@ -30,13 +30,9 @@ def article_text(article: dict[str, Any]) -> str:
     parts = [
         article.get("title", ""),
         article.get("summary", ""),
-        " ".join(article.get("clusterTitles") or []),
+        article.get("description", ""),
+        article.get("source", ""),
     ]
-    parts.extend(
-        clean(source.get("title"))
-        for source in article.get("otherSources") or []
-        if isinstance(source, dict)
-    )
     return clean(" ".join(parts)).lower()
 
 
@@ -146,7 +142,7 @@ def relocate_alien_gov_sources(articles: list[dict[str, Any]]) -> tuple[int, int
 
 
 def main() -> None:
-    payload = json.loads(NEWS_PATH.read_text(encoding="utf-8"))
+    payload = json.loads(NEWS_PATH.read_text(encoding="utf-8-sig"))
     articles = [article for article in payload.get("articles") or [] if isinstance(article, dict)]
     moved, removed_unrelated = relocate_alien_gov_sources(articles)
     for article in articles:
@@ -162,7 +158,7 @@ def main() -> None:
     )
     payload["articles"] = articles
     payload.setdefault("scanMeta", {})["finalFeedSourceConsistency"] = {
-        "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v2",
+        "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v3",
         "relocatedAlienGovImmigrationSources": moved,
         "removedUnrelatedAlienGovClusterSources": removed_unrelated,
         "articlesRefreshed": len(articles),
