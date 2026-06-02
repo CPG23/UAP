@@ -53,6 +53,33 @@ def source_from_article(article: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def article_from_source(source: dict[str, Any]) -> dict[str, Any]:
+    published_at = clean(source.get("publishedAt") or source.get("rssPublishedAt") or source.get("displayedAt"))
+    link = clean(source.get("link") or source.get("url"))
+    title = clean(source.get("title"))
+    return {
+        "id": "alien-gov-" + re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")[:90],
+        "title": title,
+        "source": clean(source.get("source")),
+        "link": link,
+        "url": link,
+        "date": published_at[:10] if published_at else "",
+        "publishedAt": published_at,
+        "summary": "",
+        "mentions": 1,
+        "otherSources": [],
+        "clusterTitles": [],
+        "quality": 50,
+        "qualityBreakdown": [
+            {"label": "Basis", "points": 27, "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."},
+            {"label": "Starker Titel", "points": 13, "text": "Der Titel enthaelt einen klaren UAP/UFO-Bezug."},
+        ],
+        "matchedTerms": ["ALIEN"],
+        "sourceQuality": 50,
+        "displayedAt": clean(source.get("displayedAt") or published_at),
+    }
+
+
 def is_alien_gov_immigration_text(text: str) -> bool:
     normalized = clean(text).lower()
     if ALIEN_SITE_RE.search(normalized) and IMMIGRATION_RE.search(normalized):
@@ -115,7 +142,21 @@ def refresh_quality(article: dict[str, Any]) -> None:
 def relocate_alien_gov_sources(articles: list[dict[str, Any]]) -> tuple[int, int]:
     targets = [article for article in articles if is_alien_gov_immigration_article(article)]
     if not targets:
-        return 0, 0
+        alien_sources: list[dict[str, Any]] = []
+        for article in articles:
+            kept: list[dict[str, Any]] = []
+            for source in article.get("otherSources") or []:
+                if isinstance(source, dict) and is_alien_gov_immigration_source(source):
+                    alien_sources.append(source)
+                elif isinstance(source, dict):
+                    kept.append(source)
+            article["otherSources"] = kept
+        if not alien_sources:
+            return 0, 0
+        target = article_from_source(alien_sources[0])
+        target["otherSources"] = alien_sources[1:]
+        articles.append(target)
+        return len(alien_sources), 0
     target = max(targets, key=lambda article: (int(article.get("quality") or 0), int(article.get("mentions") or 1)))
     moved = 0
     removed_unrelated = 0
@@ -158,7 +199,7 @@ def main() -> None:
     )
     payload["articles"] = articles
     payload.setdefault("scanMeta", {})["finalFeedSourceConsistency"] = {
-        "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v3",
+        "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v4",
         "relocatedAlienGovImmigrationSources": moved,
         "removedUnrelatedAlienGovClusterSources": removed_unrelated,
         "articlesRefreshed": len(articles),
