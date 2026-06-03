@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-03T07:30:03Z",
+  "timestamp": "2026-06-03T15:26:08Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -143,8 +143,7 @@
           "link": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxNMm5DOG5BUDI5OGVjZ1ZFRHg1dkVZVDVfQjhZTlZnMF8zVHRGRy1PdXFfd3ZKNERKczQ2SXd6dlpweUM1T2NFdW54dzJDbHdsMTZDSGVKR0JORHJPdHVVOGZueEFlS2N1c1ltVTF6SVRaX1E2UkFZZDQxMENjWFhSMjctWkZDc3RYd2QwT1ZWWmU4VkZjRnlYWTBaaWxjd1VHc2IySEFSdTVCclRXdFBtTVMzZFdHZ2dCd0VRYUI0Z2pLRjA0cXBIMElYSTdfdm9QblNacFh2aGZCZzN2YlNFMEdRMUUwTG1XSUxIYXJSeUFWZU40dm5IdW8xMGV3azBMeS1ycGRxYTJLbXFzdE1Fb25EX24xYlcyYjE0Z0V5eHNZVVBPdUVnZ0M2YzZYLTVSZjFqYjJNNmd0NFlMWlN0dVk4UWs5cm91bHZwUEFXcy1PamVVNUdLZllJQXpzV0NZRFBqM1RBbHdFb0RjdkRaT2hRYk9ucldwbk1pcHhJNGEtVEdPbEE3WFhWNHhGZXdWRzBHbEh6MDR2MGVHZEtCY29QT1VaNzQ2Tnc?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxNMm5DOG5BUDI5OGVjZ1ZFRHg1dkVZVDVfQjhZTlZnMF8zVHRGRy1PdXFfd3ZKNERKczQ2SXd6dlpweUM1T2NFdW54dzJDbHdsMTZDSGVKR0JORHJPdHVVOGZueEFlS2N1c1ltVTF6SVRaX1E2UkFZZDQxMENjWFhSMjctWkZDc3RYd2QwT1ZWWmU4VkZjRnlYWTBaaWxjd1VHc2IySEFSdTVCclRXdFBtTVMzZFdHZ2dCd0VRYUI0Z2pLRjA0cXBIMElYSTdfdm9QblNacFh2aGZCZzN2YlNFMEdRMUUwTG1XSUxIYXJSeUFWZU40dm5IdW8xMGV3azBMeS1ycGRxYTJLbXFzdE1Fb25EX24xYlcyYjE0Z0V5eHNZVVBPdUVnZ0M2YzZYLTVSZjFqYjJNNmd0NFlMWlN0dVk4UWs5cm91bHZwUEFXcy1PamVVNUdLZllJQXpzV0NZRFBqM1RBbHdFb0RjdkRaT2hRYk9ucldwbk1pcHhJNGEtVEdPbEE3WFhWNHhGZXdWRzBHbEh6MDR2MGVHZEtCY29QT1VaNzQ2Tnc?oc=5",
           "publishedAt": "2026-05-28T09:36:56Z",
-          "displayedAt": "2026-06-01T16:34:14Z",
-          "isNew": true
+          "displayedAt": "2026-05-28T09:36:56Z"
         },
         {
           "title": "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
@@ -220,7 +219,7 @@
       "sourceQuality": 100,
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-06-03T07:30:03Z"
+      "displayedAt": "2026-06-02T14:45:56Z"
     },
     {
       "id": "file-release-multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure",

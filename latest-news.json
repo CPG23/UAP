@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-03T07:30:03Z",
+  "timestamp": "2026-06-03T15:26:08Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -690,6 +690,9 @@
       "matchedTerms": [],
       "sourceQuality": 45,
       "displayedAt": "2026-05-31T18:11:26Z",
+      "rssPublishedAt": "2026-05-27T17:29:17Z",
+      "rssDate": "2026-05-27",
+      "sourcePublishedAt": "2026-05-27T17:29:17Z",
       "sourceDisplayedAt": "2026-05-31T18:11:26Z",
       "translation": {
         "en": {
@@ -894,13 +897,13 @@
     "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena. All of Thursday’s programming is free and open to the public. One‑day and five‑day passes are available at contactinthedesert.com."
   },
   "notificationBatch": {
-    "timestamp": "2026-06-03T07:30:03Z",
+    "timestamp": "2026-06-03T15:26:08Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 349,
-    "broadTopics": 159,
+    "broadArticles": 351,
+    "broadTopics": 166,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -911,7 +914,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 5,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 4,
+    "regroupedTopics": 3,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -1001,7 +1004,7 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 13,
+      "archiveCandidates": 12,
       "currentBeforeRestore": 10,
       "restoredArticles": 2,
       "blockedUnreachableTitles": 0,
@@ -1022,18 +1025,18 @@
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
       "checkedSources": 34,
-      "updatedSources": 6,
+      "updatedSources": 7,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 12,
-      "newSources": 1
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 11,
-      "newTopics": 1,
+      "correctedExistingTopics": 12,
+      "newTopics": 0,
       "topicsWithNewSources": 0
     },
     "finalNewEvents": {
@@ -1042,7 +1045,7 @@
       "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 45
+      "seededSeenFromPreviousFeed": 43
     }
   },
   "translations": {
