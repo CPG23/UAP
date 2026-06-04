@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "1 neuer Artikel",
+  "message": "──────────────\nClose Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
