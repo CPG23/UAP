@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-05T06:56:52Z",
+  "timestamp": "2026-06-05T13:49:46Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -9,7 +9,7 @@
       "date": "2026-05-31",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 21,
+      "mentions": 13,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -56,42 +56,13 @@
           "displayedAt": "2026-05-30T04:48:00Z"
         },
         {
-          "title": "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
-          "source": "WTVC",
-          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPLU1nMk9HUk1jOC1fcXU5VXFKb0NDcnBDeFJ6RWJsNXl2OXRjOVVvZUpYOTZraUtpV2hCMU9pa291ZE5zbTJJX2pFUDFDMmJKQkxNMDhHUk5yaERUblhLV3hhaXBBWHpfcGVDZlpabTZnbDVwZU4tT0pncS0yVDhENUlkMnR5OXNjR21DMllmbFlQWHdleS1hV3A5bndSQ3ZDWDM5SEZaNnFDUUd3WmdmNWVtTDVhOWd1R2s5UjFrOW44b2lJZjE0QzhoLWk0a1NDYXlwMDhfM0VST01MUXVicFpRTngxRnpVdjBKM1NaVGs0bWFYYUY2dlNoenJCQWVGb0pLNFJKWlNyTWNqd0I4bjRtT0lrQQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPLU1nMk9HUk1jOC1fcXU5VXFKb0NDcnBDeFJ6RWJsNXl2OXRjOVVvZUpYOTZraUtpV2hCMU9pa291ZE5zbTJJX2pFUDFDMmJKQkxNMDhHUk5yaERUblhLV3hhaXBBWHpfcGVDZlpabTZnbDVwZU4tT0pncS0yVDhENUlkMnR5OXNjR21DMllmbFlQWHdleS1hV3A5bndSQ3ZDWDM5SEZaNnFDUUd3WmdmNWVtTDVhOWd1R2s5UjFrOW44b2lJZjE0QzhoLWk0a1NDYXlwMDhfM0VST01MUXVicFpRTngxRnpVdjBKM1NaVGs0bWFYYUY2dlNoenJCQWVGb0pLNFJKWlNyTWNqd0I4bjRtT0lrQQ?oc=5",
-          "publishedAt": "2026-05-29T16:02:19Z",
-          "rssPublishedAt": "2026-05-29T16:02:19Z",
-          "sourcePublishedAt": "2026-05-29T16:00:04Z",
-          "displayedAt": "2026-05-29T16:02:19Z"
-        },
-        {
-          "title": "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
-          "source": "National News Desk",
-          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNZzNlUFNVZElVVDZmQUZrNjZIN1poX3FzcDlXN0JqZ0NKNUZRVkVxMzBaV2lCZkt4SWl2U24yOV93bF9VemxnRzRoVGUzTm5CUk1JY1ZtS29DSWJTUXBSdVFGMVdrWF9yLUJEWVNLQXhSWl9MUUJYejFNSmlfdWdTaHRpRXRaNzJnRkREVENCSU93am9jaDZVdEo5ZEZUSzU1ZFBUTGxuS0drYVJKdVFOaUxpMnVrTDFUSEF4QU9BYmZlakFQNWpEWjJuTXNrcGlKWElQR1pkdVhIbTM0cXMtLWlUcWpnYnVpaUFOV2JLRUVVYzlaR2IxMDBaWDFmVlVIYlVMU0k3b01aSV9ZUno1R1dBZHR2VGtXT3V2T0F3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNZzNlUFNVZElVVDZmQUZrNjZIN1poX3FzcDlXN0JqZ0NKNUZRVkVxMzBaV2lCZkt4SWl2U24yOV93bF9VemxnRzRoVGUzTm5CUk1JY1ZtS29DSWJTUXBSdVFGMVdrWF9yLUJEWVNLQXhSWl9MUUJYejFNSmlfdWdTaHRpRXRaNzJnRkREVENCSU93am9jaDZVdEo5ZEZUSzU1ZFBUTGxuS0drYVJKdVFOaUxpMnVrTDFUSEF4QU9BYmZlakFQNWpEWjJuTXNrcGlKWElQR1pkdVhIbTM0cXMtLWlUcWpnYnVpaUFOV2JLRUVVYzlaR2IxMDBaWDFmVlVIYlVMU0k3b01aSV9ZUno1R1dBZHR2VGtXT3V2T0F3?oc=5",
-          "publishedAt": "2026-05-29T16:00:04Z",
-          "rssPublishedAt": "2026-05-29T16:00:04Z",
-          "sourcePublishedAt": "2026-05-29T16:00:04Z",
-          "displayedAt": "2026-05-29T16:00:04Z"
-        },
-        {
-          "title": "Pentagon releases second batch of UFO files: The 5 best videos",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZEFQQ2I4ejBjQnRXREN5VndaY2J1VHhBcUhnM0cyckVHaGRxSFpVVUlSQXhKU09kYzkxRk95VlBtNEw0dEFJb1BSRk1HTHZaMW1jZGkyZ1Rselh3QXNrZzhYT1psNmtLa2dJWGZVaW9kdVdIVjdKcUVxYVJ5bGVVVV9KQ1R3anI5NkFPUDgtVmJMalpvRWdnMEpIb3FLdkNxeW9QOERqTF9zRjQ2UTZHdkxKWmFQc21rbjFSSnFNSzNDRk5V?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZEFQQ2I4ejBjQnRXREN5VndaY2J1VHhBcUhnM0cyckVHaGRxSFpVVUlSQXhKU09kYzkxRk95VlBtNEw0dEFJb1BSRk1HTHZaMW1jZGkyZ1Rselh3QXNrZzhYT1psNmtLa2dJWGZVaW9kdVdIVjdKcUVxYVJ5bGVVVV9KQ1R3anI5NkFPUDgtVmJMalpvRWdnMEpIb3FLdkNxeW9QOERqTF9zRjQ2UTZHdkxKWmFQc21rbjFSSnFNSzNDRk5V?oc=5",
-          "publishedAt": "2026-05-29T01:29:07Z",
-          "displayedAt": "2026-05-29T01:29:07Z"
-        },
-        {
-          "title": "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
-          "source": "The St Kitts Nevis Observer",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
-          "publishedAt": "2026-05-26T23:10:33Z",
-          "rssPublishedAt": "2026-05-26T23:10:33Z",
-          "sourcePublishedAt": "2026-05-26T23:10:33Z",
-          "displayedAt": "2026-05-26T23:10:33Z"
+          "title": "Highlights From 2nd Batch of Declassified UFO Files",
+          "source": "NTD News",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
+          "publishedAt": "2026-05-22T19:30:31Z",
+          "displayedAt": "2026-06-05T13:49:46Z",
+          "isNew": true
         },
         {
           "title": "Pentagon releases new batch of declassified UFO files",
@@ -144,46 +115,6 @@
           "rssPublishedAt": "2026-05-19T07:00:00Z",
           "sourcePublishedAt": "2026-05-19T16:30:23Z",
           "displayedAt": "2026-05-19T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases second batch of UFO files: The 5 best videos",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOUjlVVm1lRWpiY2ZFLV9FX1BveFdoLTktVUVBeTUtdHZJbllBbUdhUGtvVm4tYjYxaTgtcXZlRk8yaktueVBnckJtV2dWUVlHaHN5NWZMdjkyN3NES3ZPdUxQaEdFN0pMdHR3N0l5V282MGpySE5FNHFraGhlb0NiZU9oNEJZM2dvVWlUUFdBRVcyUEhFVVNkdEZMOTZBb2E5S1d2UzVpczVzN1NmMXk4V2lRaDF0V2V6dWd3WGttT1V2ZkJVVDBENzB6d3E3bXN5aG5GXzJNclVqcUJQZElVOHlGT0F3STU5TGhKRnhpMmN5Nk9vZWgzd0JjZVVIUWdHb1A4R2k2a25KcHhzbW9JYmtiVDFRREV5UXBfa0toQ18tcWtLRU9rOXdyTUZZWHZqbTU3Q1NBN3dpaGEyUWNKbWJ6YXlUTzBYS0IzMThlSHlwU0l0aUdRVXBybw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOUjlVVm1lRWpiY2ZFLV9FX1BveFdoLTktVUVBeTUtdHZJbllBbUdhUGtvVm4tYjYxaTgtcXZlRk8yaktueVBnckJtV2dWUVlHaHN5NWZMdjkyN3NES3ZPdUxQaEdFN0pMdHR3N0l5V282MGpySE5FNHFraGhlb0NiZU9oNEJZM2dvVWlUUFdBRVcyUEhFVVNkdEZMOTZBb2E5S1d2UzVpczVzN1NmMXk4V2lRaDF0V2V6dWd3WGttT1V2ZkJVVDBENzB6d3E3bXN5aG5GXzJNclVqcUJQZElVOHlGT0F3STU5TGhKRnhpMmN5Nk9vZWgzd0JjZVVIUWdHb1A4R2k2a25KcHhzbW9JYmtiVDFRREV5UXBfa0toQ18tcWtLRU9rOXdyTUZZWHZqbTU3Q1NBN3dpaGEyUWNKbWJ6YXlUTzBYS0IzMThlSHlwU0l0aUdRVXBybw?oc=5",
-          "publishedAt": "2026-05-29T02:02:41Z",
-          "displayedAt": "2026-05-29T02:02:41Z"
-        },
-        {
-          "title": "Pentagon releases second batch of UFO files with rare footage",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQMHl4SnFDVW9GZ0o3aEw5QmJBSkEyaF9JdXhZWnVSM2NfV2xXWThzQ1cxaTRlZFU1QkVCUVU4VmFld3dHTHFURmk1WkF5WldXelhPYVVobFRmN1J6TmVSU3lsNGt1enB1SFYyV0Z3V21rd0FUWFYwZ2E2RmlhUlJ2bTVFWTBtRE5xemxhUTd3TGhHSGlUT0pzX3pUZEZHOXg1NDN3YldnU1dIOFFCdXNfU3ppZG1sZWhjYzlIUnVGRHRuUVc4ZVRaaHB4WDBwUTRjQjR5QzdtWDBTVHN2SUc3TFpJbW9NQ0tQc19iaXZGekhFOVUzOHc?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQMHl4SnFDVW9GZ0o3aEw5QmJBSkEyaF9JdXhZWnVSM2NfV2xXWThzQ1cxaTRlZFU1QkVCUVU4VmFld3dHTHFURmk1WkF5WldXelhPYVVobFRmN1J6TmVSU3lsNGt1enB1SFYyV0Z3V21rd0FUWFYwZ2E2RmlhUlJ2bTVFWTBtRE5xemxhUTd3TGhHSGlUT0pzX3pUZEZHOXg1NDN3YldnU1dIOFFCdXNfU3ppZG1sZWhjYzlIUnVGRHRuUVc4ZVRaaHB4WDBwUTRjQjR5QzdtWDBTVHN2SUc3TFpJbW9NQ0tQc19iaXZGekhFOVUzOHc?oc=5",
-          "publishedAt": "2026-05-26T12:57:24Z",
-          "displayedAt": "2026-05-26T12:57:24Z"
-        },
-        {
-          "title": "Analysis of the Second Batch of UFO Files Released by the Pentagon",
-          "source": "Coast to Coast AM",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEdZQ1hPaVE2M0dmS3lPc3I5d2VxWEtBWGl1MHpQRDduQlNRSnl3eFNyRk1SdUF0LWVneTZoZ0EwS0UwNDJOcmxMMnhZd2hxbFFIcHNaUDB1OXF5OXlPME9iaHk4THZRMmx6Qy1IME9HcXBBak9tT2k4ZlAxczk1LWY0MmlLUjQzdkxrZ3BuZnU5aVpyTmQ4MUVuM0JxS0QtZUxRcmRoQ3l4dw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEdZQ1hPaVE2M0dmS3lPc3I5d2VxWEtBWGl1MHpQRDduQlNRSnl3eFNyRk1SdUF0LWVneTZoZ0EwS0UwNDJOcmxMMnhZd2hxbFFIcHNaUDB1OXF5OXlPME9iaHk4THZRMmx6Qy1IME9HcXBBak9tT2k4ZlAxczk1LWY0MmlLUjQzdkxrZ3BuZnU5aVpyTmQ4MUVuM0JxS0QtZUxRcmRoQ3l4dw?oc=5",
-          "publishedAt": "2026-05-27T13:24:57Z",
-          "displayedAt": "2026-05-27T13:24:57Z"
-        },
-        {
-          "title": "Green orbs, discs and fireballs: Pentagon releases second batch of declassified UFO files",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxNMm5DOG5BUDI5OGVjZ1ZFRHg1dkVZVDVfQjhZTlZnMF8zVHRGRy1PdXFfd3ZKNERKczQ2SXd6dlpweUM1T2NFdW54dzJDbHdsMTZDSGVKR0JORHJPdHVVOGZueEFlS2N1c1ltVTF6SVRaX1E2UkFZZDQxMENjWFhSMjctWkZDc3RYd2QwT1ZWWmU4VkZjRnlYWTBaaWxjd1VHc2IySEFSdTVCclRXdFBtTVMzZFdHZ2dCd0VRYUI0Z2pLRjA0cXBIMElYSTdfdm9QblNacFh2aGZCZzN2YlNFMEdRMUUwTG1XSUxIYXJSeUFWZU40dm5IdW8xMGV3azBMeS1ycGRxYTJLbXFzdE1Fb25EX24xYlcyYjE0Z0V5eHNZVVBPdUVnZ0M2YzZYLTVSZjFqYjJNNmd0NFlMWlN0dVk4UWs5cm91bHZwUEFXcy1PamVVNUdLZllJQXpzV0NZRFBqM1RBbHdFb0RjdkRaT2hRYk9ucldwbk1pcHhJNGEtVEdPbEE3WFhWNHhGZXdWRzBHbEh6MDR2MGVHZEtCY29QT1VaNzQ2Tnc?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxNMm5DOG5BUDI5OGVjZ1ZFRHg1dkVZVDVfQjhZTlZnMF8zVHRGRy1PdXFfd3ZKNERKczQ2SXd6dlpweUM1T2NFdW54dzJDbHdsMTZDSGVKR0JORHJPdHVVOGZueEFlS2N1c1ltVTF6SVRaX1E2UkFZZDQxMENjWFhSMjctWkZDc3RYd2QwT1ZWWmU4VkZjRnlYWTBaaWxjd1VHc2IySEFSdTVCclRXdFBtTVMzZFdHZ2dCd0VRYUI0Z2pLRjA0cXBIMElYSTdfdm9QblNacFh2aGZCZzN2YlNFMEdRMUUwTG1XSUxIYXJSeUFWZU40dm5IdW8xMGV3azBMeS1ycGRxYTJLbXFzdE1Fb25EX24xYlcyYjE0Z0V5eHNZVVBPdUVnZ0M2YzZYLTVSZjFqYjJNNmd0NFlMWlN0dVk4UWs5cm91bHZwUEFXcy1PamVVNUdLZllJQXpzV0NZRFBqM1RBbHdFb0RjdkRaT2hRYk9ucldwbk1pcHhJNGEtVEdPbEE3WFhWNHhGZXdWRzBHbEh6MDR2MGVHZEtCY29QT1VaNzQ2Tnc?oc=5",
-          "publishedAt": "2026-05-28T09:36:56Z",
-          "displayedAt": "2026-05-28T09:36:56Z"
-        },
-        {
-          "title": "Pentagon releases second batch of declassified UFO files",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUJfQ3Nqc3ZoYjlqbkhrdXdUaW0tVWFkbXZmQW45a2ZIRnA3dlpxZGo2THJkOFBPRzhSdTAtckhzdFVDaUdJQm14cGt0UVhHRS1KSmVyWXpsMjNHYUJxbTNOSDM1b3hwelo5ZDRuU2Z5TEs2NFZfUW1KdHRPMXZBcV9URlNDZWlIWUwtOVhrR05GYk9lSXFDN2tBaFdlTkc1ZUl2SjNfQUtSVFdzMHZfc1ZVX25TRHRy?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUJfQ3Nqc3ZoYjlqbkhrdXdUaW0tVWFkbXZmQW45a2ZIRnA3dlpxZGo2THJkOFBPRzhSdTAtckhzdFVDaUdJQm14cGt0UVhHRS1KSmVyWXpsMjNHYUJxbTNOSDM1b3hwelo5ZDRuU2Z5TEs2NFZfUW1KdHRPMXZBcV9URlNDZWlIWUwtOVhrR05GYk9lSXFDN2tBaFdlTkc1ZUl2SjNfQUtSVFdzMHZfc1ZVX25TRHRy?oc=5",
-          "publishedAt": "2026-05-28T06:22:30Z",
-          "displayedAt": "2026-05-28T06:22:30Z"
         }
       ],
       "clusterTitles": [
@@ -192,11 +123,11 @@
         "US Government: Pentagon Releases New UFO Files Sparking Fresh Questions as Declassified UAP Evidence Surges",
         "Pentagon releases second batch of declassified UFO files",
         "Pentagon releases second batch of declassified UFO files",
-        "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
-        "Fact Check Team: Pentagon releases new UFO files, but no evidence of aliens found",
-        "Pentagon releases second batch of UFO files: The 5 best videos",
-        "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
-        "Pentagon releases new batch of declassified UFO files"
+        "Highlights From 2nd Batch of Declassified UFO Files",
+        "Pentagon releases new batch of declassified UFO files",
+        "New videos from Pentagon’s second batch of UFO files",
+        "War Dept. Releases Second UFO Files on WAR.GOV/UFO",
+        "Pentagon releases new batch of UFO files"
       ],
       "quality": 100,
       "qualityBreakdown": [
@@ -222,8 +153,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 100,
-          "text": "21 Quellen im aktuellen Feed."
+          "points": 60,
+          "text": "13 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -233,7 +164,7 @@
       "sourceQuality": 100,
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text",
-      "displayedAt": "2026-06-02T14:45:56Z",
+      "displayedAt": "2026-06-05T13:49:46Z",
       "sourceDisplayedAt": "2026-06-02T14:45:56Z",
       "translation": {
         "en": {
@@ -244,7 +175,7 @@
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
@@ -599,7 +530,6 @@
       "rssDate": "2026-06-03",
       "sourcePublishedAt": "2026-06-03T11:00:00Z",
       "sourceDisplayedAt": "2026-06-04T07:13:41Z",
-      "sourceIsNew": true,
       "translation": {
         "en": {
           "title": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026",
@@ -752,9 +682,6 @@
       "matchedTerms": [],
       "sourceQuality": 45,
       "displayedAt": "2026-05-31T18:11:26Z",
-      "rssPublishedAt": "2026-05-27T17:29:17Z",
-      "rssDate": "2026-05-27",
-      "sourcePublishedAt": "2026-05-27T17:29:17Z",
       "sourceDisplayedAt": "2026-05-31T18:11:26Z",
       "translation": {
         "en": {
@@ -764,7 +691,7 @@
           "provider": "original"
         },
         "de": {
-          "title": "Der mit UFOs verbundene General William Neil McCasland traf sich Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
+          "title": "Der mit UFOs verbundene General William Neil McCasland traf sich wenige Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
           "summary": "Der pensionierte Generalmajor der US-Luftwaffe, William Neil McCasland, 68, wurde am 27. Februar 2026 in seinem Haus in Albuquerque als vermisst gemeldet. Von Law & Crime erhaltene Bodycam-Aufnahmen zeigen, dass McCasland an einem Abendessen mit US-Amerikanern teilnahm.",
           "sourceHash": "2cd2e1a990037001c8fa1878bbc1312bcb3c3dea",
           "provider": "google"
@@ -836,7 +763,7 @@
       "title": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping",
       "source": "International Business Times UK",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOU96c0M0Q05aZldWMmlXSjF4XzRXTzVYOWNYSFhZYjVCUlZobUhEUEQyUHRvc2x6Q1N5T21zVk5EMG92WHNyeXk2OFRHMTJlUUZQa21VR1Q5M2M3YVc4dXloNVN0OGMtREVSSmk3djJ3YzVxdzdTU2NTVFViMFZKVA?oc=5",
-      "date": "2026-05-26",
+      "date": "2026-05-31",
       "publishedAt": "2026-05-26T07:00:00Z",
       "summary": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping While believers see slow disclosure, sceptics call the latest UFO wave 'pure science fiction. ' Fresh UFO file releases and a viral claim about 'four alien species' have pushed extraterrestrial conspiracy theories back into the centre of internet culture — but not everyone is buying it. As newly declassified government documents circulate online, many social media users are calling the latest wave of UFO disclosure a carefully timed distraction rather than proof of alien life. The debate intensified after physicist Hal Puthoff claimed insiders involved in alleged crash-retrieval programmes described at least four different non-human species, reviving decades-old theories about Greys, Reptilians and other extraterrestrial beings long tied to UFO folklore.",
       "mentions": 1,
@@ -867,14 +794,16 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "ALIEN"
+        "declassified",
+        "files",
+        "government"
       ],
       "sourceQuality": 45,
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text",
       "displayedAt": "2026-06-05T06:56:52Z",
       "rssPublishedAt": "2026-05-26T07:00:00Z",
-      "rssDate": "2026-05-26",
+      "rssDate": "2026-05-31",
       "sourcePublishedAt": "2026-05-26T08:24:33Z",
       "sourceDisplayedAt": "2026-06-05T06:56:52Z",
       "sourceIsNew": true,
@@ -900,7 +829,7 @@
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaEl1VXNQOUw3YmJJYlRMdnBsQmlldDhmVFA3dHRtWFdMTHhIcFNIRUNIMU9HcUNHQjZFZHBJb0dWWU9qdm5ZbWFqSzE2NEZXMHE4NzVOUkVPdEJQWEVtYVktRTBzZjlQSE1mUEhYQnhfb1czNHRfSzByMk0ySlRudTFKMHJIUk9Sb0s4elVMaHJ5dWVJZDhGOWZvSl9PaTJxSktDV1J5Q05ZeXcydW9vS203MXp1Qlk2aGRj?oc=5",
       "date": "2026-05-29",
       "publishedAt": "2026-05-29T19:39:10Z",
-      "summary": "",
+      "summary": "Markdown Content: # Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens Skip to content Close Back _America's Newspaper_ 1 Subscribe Close Sign in Sign in)Subscribe {# Register for free to manage your followed authors and newsletters in one place. #} * Newsletter signup * Gift subscriptions * Customer service Sign Out)My Account * Manage newsletters * Following authors * Gift subscriptions * Today's E-Edition * Customer service Search Search Keyword: Search * News * Corrections * Politics * National * World * Security * The Advocates * Seen, Heard & Whispered * Business & Economy * D.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -919,13 +848,25 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
       "sourceQuality": 40,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
       "displayedAt": "2026-05-30T06:13:44Z",
-      "sourceDisplayedAt": "2026-05-30T06:13:44Z"
+      "sourceDisplayedAt": "2026-05-30T06:13:44Z",
+      "translation": {
+        "en": {
+          "title": "Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens",
+          "summary": "Markdown Content: # Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens Skip to content Close Back _America's Newspaper_ 1 Subscribe Close Sign in Sign in)Subscribe {# Register for free to manage your followed authors and newsletters in one place. #} * Newsletter signup * Gift subscriptions * Customer service Sign Out)My Account * Manage newsletters * Following authors * Gift subscriptions * Today's E-Edition * Customer service Search Search Keyword: Search * News * Corrections * Politics * National * World * Security * The Advocates * Seen, Heard & Whispered * Business & Economy * D.",
+          "sourceHash": "223ac11649b36f95798f03e9ed2fe4108c8d9b31",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Gesetzgeber beherbergen Whistleblower und UFO-Ermittler, um die Regierung dazu zu drängen, über Außerirdische aufzuklären",
+          "summary": "Markdown-Inhalt: # Gesetzgeber beherbergen Whistleblower und UFO-Ermittler, um die Regierung zu drängen, über Außerirdische aufzuklären. Zum Inhalt springen Schließen Zurück _America's Newspaper_ 1 Abonnieren Schließen Anmelden) Abonnieren {# Registrieren Sie sich kostenlos, um Ihre verfolgten Autoren und Newsletter an einem Ort zu verwalten. #} * Newsletter-Anmeldung * Geschenkabonnements * Kundenservice (Abmelden)Mein Konto * Newsletter verwalten * Autoren folgen * Geschenkabonnements * Heutige E-Ausgabe * Kundenservice Suche Suchbegriff: Suche * Nachrichten * Korrekturen * Politik * National * Welt * Sicherheit * The Advocates * Gesehen, gehört und geflüstert * Wirtschaft & Wirtschaft * D.",
+          "sourceHash": "223ac11649b36f95798f03e9ed2fe4108c8d9b31",
+          "provider": "google"
+        }
+      }
     },
     {
       "id": "lawmakers-and-whistleblowers-to-demand-ufo-evidence-release-june-9",
@@ -1020,24 +961,25 @@
     "ufo-linked-general-william-neil-mccasland-met-us-space-force-personnel-hours-before-disappearance-audio": "Retired U.S. Air Force Major General William Neil McCasland, 68, was reported missing on February 27, 2026 from his Albuquerque home. Body‑cam audio obtained by Law & Crime shows McCasland attended a dinner with U.S. Space Force personnel and an unidentified woman the evening before he vanished, during which the woman discussed his high‑security clearance and ties to classified UFO programs. UFO whistleblower David Grusch had earlier named McCasland as uncooperative with congressional oversight and listed him among officials who managed legacy classified programs. The Bernalillo County Sheriff’s Office, FBI, and New Mexico Search and Rescue have been conducting a multi‑agency search after a Silver Alert; investigators note he left his home on foot, left behind his phone, glasses, and wearable devices, but missing items include hiking boots, wallet, and a .38‑caliber revolver. No definitive evidence of foul play has been found, and McCasland’s wife says he has held only standard clearances since retirement, suggesting his disappearance may not be linked to old military secrets. The investigation remains ongoing, with uncertainty about the cause of his disappearance.",
     "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
     "internet-thinks-the-ufo-files-are-distractions-and-4-alien-species-theory-isn-t-helping": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping While believers see slow disclosure, sceptics call the latest UFO wave 'pure science fiction. ' Fresh UFO file releases and a viral claim about 'four alien species' have pushed extraterrestrial conspiracy theories back into the centre of internet culture — but not everyone is buying it. As newly declassified government documents circulate online, many social media users are calling the latest wave of UFO disclosure a carefully timed distraction rather than proof of alien life. The debate intensified after physicist Hal Puthoff claimed insiders involved in alleged crash-retrieval programmes described at least four different non-human species, reviving decades-old theories about Greys, Reptilians and other extraterrestrial beings long tied to UFO folklore.",
+    "lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens": "Markdown Content: # Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens Skip to content Close Back _America's Newspaper_ 1 Subscribe Close Sign in Sign in)Subscribe {# Register for free to manage your followed authors and newsletters in one place. #} * Newsletter signup * Gift subscriptions * Customer service Sign Out)My Account * Manage newsletters * Following authors * Gift subscriptions * Today's E-Edition * Customer service Search Search Keyword: Search * News * Corrections * Politics * National * World * Security * The Advocates * Seen, Heard & Whispered * Business & Economy * D.",
     "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena. All of Thursday’s programming is free and open to the public. One‑day and five‑day passes are available at contactinthedesert.com."
   },
   "notificationBatch": {
-    "timestamp": "2026-06-05T06:56:52Z",
+    "timestamp": "2026-06-05T13:49:46Z",
     "ids": [
-      "internet-thinks-the-ufo-files-are-distractions-and-4-alien-species-theory-isn-t-helping"
+      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
     ],
     "articles": [
       {
-        "id": "internet-thinks-the-ufo-files-are-distractions-and-4-alien-species-theory-isn-t-helping",
-        "title": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping",
-        "source": "International Business Times UK"
+        "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+        "source": "U.S. Department of War (.gov)"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 382,
-    "broadTopics": 168,
+    "broadArticles": 357,
+    "broadTopics": 164,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -1048,7 +990,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 5,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 3,
+    "regroupedTopics": 4,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -1056,26 +998,20 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 3,
+      "attempts": 2,
       "repaired": 0,
       "fallbackRepaired": 0,
-      "missing": 3
+      "missing": 2
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
       "kept": 14,
-      "missing": 3,
+      "missing": 2,
       "missingItems": [
         {
           "id": "ufo-videos-show-we-re-not-the-apex-predator-anymore-ross-coulthart",
           "title": "UFO videos show ‘we’re not the apex predator anymore’: Ross Coulthart",
           "source": "NewsNation",
-          "reason": "missing_article_content_summary_kept_visible"
-        },
-        {
-          "id": "lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens",
-          "title": "Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens",
-          "source": "Washington Times",
           "reason": "missing_article_content_summary_kept_visible"
         },
         {
@@ -1088,15 +1024,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 16,
+      "inputArticles": 14,
       "outputArticles": 12,
-      "preservedSourceSummaries": 8
+      "preservedSourceSummaries": 9
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
       "inputArticles": 12,
       "outputArticles": 12,
-      "missingSummaries": 4,
+      "missingSummaries": 3,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -1115,7 +1051,7 @@
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 19,
+      "sources": 15,
       "cleanedArticles": 2,
       "removedDuplicateTopics": 1,
       "staleSummariesCleared": 0,
@@ -1138,7 +1074,7 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 13,
+      "archiveCandidates": 14,
       "currentBeforeRestore": 11,
       "restoredArticles": 3,
       "blockedUnreachableTitles": 0,
@@ -1159,8 +1095,8 @@
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 37,
-      "updatedSources": 9,
+      "checkedSources": 29,
+      "updatedSources": 7,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
@@ -1170,9 +1106,9 @@
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 14,
-      "newTopics": 0,
-      "topicsWithNewSources": 0
+      "correctedExistingTopics": 13,
+      "newTopics": 1,
+      "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
@@ -1180,7 +1116,7 @@
       "freshSources": 1,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 46
+      "seededSeenFromPreviousFeed": 48
     }
   },
   "translations": {
@@ -1193,7 +1129,7 @@
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }
@@ -1290,7 +1226,7 @@
         "provider": "original"
       },
       "de": {
-        "title": "Der mit UFOs verbundene General William Neil McCasland traf sich Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
+        "title": "Der mit UFOs verbundene General William Neil McCasland traf sich wenige Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
         "summary": "Der pensionierte Generalmajor der US-Luftwaffe, William Neil McCasland, 68, wurde am 27. Februar 2026 in seinem Haus in Albuquerque als vermisst gemeldet. Von Law & Crime erhaltene Bodycam-Aufnahmen zeigen, dass McCasland an einem Abendessen mit US-Amerikanern teilnahm.",
         "sourceHash": "2cd2e1a990037001c8fa1878bbc1312bcb3c3dea",
         "provider": "google"
@@ -1324,6 +1260,20 @@
         "provider": "google"
       }
     },
+    "lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens": {
+      "en": {
+        "title": "Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens",
+        "summary": "Markdown Content: # Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens Skip to content Close Back _America's Newspaper_ 1 Subscribe Close Sign in Sign in)Subscribe {# Register for free to manage your followed authors and newsletters in one place. #} * Newsletter signup * Gift subscriptions * Customer service Sign Out)My Account * Manage newsletters * Following authors * Gift subscriptions * Today's E-Edition * Customer service Search Search Keyword: Search * News * Corrections * Politics * National * World * Security * The Advocates * Seen, Heard & Whispered * Business & Economy * D.",
+        "sourceHash": "223ac11649b36f95798f03e9ed2fe4108c8d9b31",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Gesetzgeber beherbergen Whistleblower und UFO-Ermittler, um die Regierung dazu zu drängen, über Außerirdische aufzuklären",
+        "summary": "Markdown-Inhalt: # Gesetzgeber beherbergen Whistleblower und UFO-Ermittler, um die Regierung zu drängen, über Außerirdische aufzuklären. Zum Inhalt springen Schließen Zurück _America's Newspaper_ 1 Abonnieren Schließen Anmelden) Abonnieren {# Registrieren Sie sich kostenlos, um Ihre verfolgten Autoren und Newsletter an einem Ort zu verwalten. #} * Newsletter-Anmeldung * Geschenkabonnements * Kundenservice (Abmelden)Mein Konto * Newsletter verwalten * Autoren folgen * Geschenkabonnements * Heutige E-Ausgabe * Kundenservice Suche Suchbegriff: Suche * Nachrichten * Korrekturen * Politik * National * Welt * Sicherheit * The Advocates * Gesehen, gehört und geflüstert * Wirtschaft & Wirtschaft * D.",
+        "sourceHash": "223ac11649b36f95798f03e9ed2fe4108c8d9b31",
+        "provider": "google"
+      }
+    },
     "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": {
       "en": {
         "title": "The World's Largest UFO Conference Is Open Today, and It's Free",
@@ -1340,7 +1290,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 11,
+    "prepared": 12,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
