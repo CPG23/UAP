@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "1 neuer Artikel",
+  "message": "──────────────\nInternet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}

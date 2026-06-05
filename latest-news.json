@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-04T13:54:44Z",
+  "timestamp": "2026-06-05T06:56:52Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -89,6 +89,8 @@
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
           "publishedAt": "2026-05-26T23:10:33Z",
+          "rssPublishedAt": "2026-05-26T23:10:33Z",
+          "sourcePublishedAt": "2026-05-26T23:10:33Z",
           "displayedAt": "2026-05-26T23:10:33Z"
         },
         {
@@ -242,7 +244,7 @@
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
@@ -830,6 +832,68 @@
       "retainedFromPreviousScan": true
     },
     {
+      "id": "internet-thinks-the-ufo-files-are-distractions-and-4-alien-species-theory-isn-t-helping",
+      "title": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping",
+      "source": "International Business Times UK",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOU96c0M0Q05aZldWMmlXSjF4XzRXTzVYOWNYSFhZYjVCUlZobUhEUEQyUHRvc2x6Q1N5T21zVk5EMG92WHNyeXk2OFRHMTJlUUZQa21VR1Q5M2M3YVc4dXloNVN0OGMtREVSSmk3djJ3YzVxdzdTU2NTVFViMFZKVA?oc=5",
+      "date": "2026-05-26",
+      "publishedAt": "2026-05-26T07:00:00Z",
+      "summary": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping While believers see slow disclosure, sceptics call the latest UFO wave 'pure science fiction. ' Fresh UFO file releases and a viral claim about 'four alien species' have pushed extraterrestrial conspiracy theories back into the centre of internet culture — but not everyone is buying it. As newly declassified government documents circulate online, many social media users are calling the latest wave of UFO disclosure a carefully timed distraction rather than proof of alien life. The debate intensified after physicist Hal Puthoff claimed insiders involved in alleged crash-retrieval programmes described at least four different non-human species, reviving decades-old theories about Greys, Reptilians and other extraterrestrial beings long tied to UFO folklore.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "ALIEN als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "ALIEN"
+      ],
+      "sourceQuality": 45,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-06-05T06:56:52Z",
+      "rssPublishedAt": "2026-05-26T07:00:00Z",
+      "rssDate": "2026-05-26",
+      "sourcePublishedAt": "2026-05-26T08:24:33Z",
+      "sourceDisplayedAt": "2026-06-05T06:56:52Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping",
+          "summary": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping While believers see slow disclosure, sceptics call the latest UFO wave 'pure science fiction. ' Fresh UFO file releases and a viral claim about 'four alien species' have pushed extraterrestrial conspiracy theories back into the centre of internet culture — but not everyone is buying it. As newly declassified government documents circulate online, many social media users are calling the latest wave of UFO disclosure a carefully timed distraction rather than proof of alien life.",
+          "sourceHash": "a658a8b1cc0dd280127d91ea43e91291515db98b",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Das Internet hält die UFO-Dateien für „Ablenkungen“ und die Theorie der „vier außerirdischen Arten“ hilft nicht weiter",
+          "summary": "Das Internet denkt, die UFO-Dateien seien „Ablenkungen“ und die „4 außerirdische Arten“-Theorie hilft nicht. Während Gläubige eine langsame Offenlegung sehen, bezeichnen Skeptiker die jüngste UFO-Welle als „reine Science-Fiction“. Neue Veröffentlichungen von UFO-Dateien und eine virale Behauptung über „vier außerirdische Arten“ haben außerirdische Verschwörungstheorien wieder in den Mittelpunkt der Internetkultur gerückt – aber nicht jeder glaubt das. Während neu freigegebene Regierungsdokumente online kursieren, bezeichnen viele Social-Media-Nutzer die jüngste Welle der UFO-Enthüllungen als eine sorgfältig geplante Ablenkung und nicht als Beweis für das Leben von Außerirdischen.",
+          "sourceHash": "a658a8b1cc0dd280127d91ea43e91291515db98b",
+          "provider": "google"
+        }
+      }
+    },
+    {
       "id": "lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens",
       "title": "Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens",
       "source": "Washington Times",
@@ -955,27 +1019,36 @@
     "mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work. A MITRE spokesperson said that if relevant material is found, the company will coordinate with federal agencies to provide the assets. The request is part of a broader congressional effort to increase UAP disclosure, though no evidence of extraterrestrial activity has been confirmed.",
     "ufo-linked-general-william-neil-mccasland-met-us-space-force-personnel-hours-before-disappearance-audio": "Retired U.S. Air Force Major General William Neil McCasland, 68, was reported missing on February 27, 2026 from his Albuquerque home. Body‑cam audio obtained by Law & Crime shows McCasland attended a dinner with U.S. Space Force personnel and an unidentified woman the evening before he vanished, during which the woman discussed his high‑security clearance and ties to classified UFO programs. UFO whistleblower David Grusch had earlier named McCasland as uncooperative with congressional oversight and listed him among officials who managed legacy classified programs. The Bernalillo County Sheriff’s Office, FBI, and New Mexico Search and Rescue have been conducting a multi‑agency search after a Silver Alert; investigators note he left his home on foot, left behind his phone, glasses, and wearable devices, but missing items include hiking boots, wallet, and a .38‑caliber revolver. No definitive evidence of foul play has been found, and McCasland’s wife says he has held only standard clearances since retirement, suggesting his disappearance may not be linked to old military secrets. The investigation remains ongoing, with uncertainty about the cause of his disappearance.",
     "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
+    "internet-thinks-the-ufo-files-are-distractions-and-4-alien-species-theory-isn-t-helping": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping While believers see slow disclosure, sceptics call the latest UFO wave 'pure science fiction. ' Fresh UFO file releases and a viral claim about 'four alien species' have pushed extraterrestrial conspiracy theories back into the centre of internet culture — but not everyone is buying it. As newly declassified government documents circulate online, many social media users are calling the latest wave of UFO disclosure a carefully timed distraction rather than proof of alien life. The debate intensified after physicist Hal Puthoff claimed insiders involved in alleged crash-retrieval programmes described at least four different non-human species, reviving decades-old theories about Greys, Reptilians and other extraterrestrial beings long tied to UFO folklore.",
     "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena. All of Thursday’s programming is free and open to the public. One‑day and five‑day passes are available at contactinthedesert.com."
   },
   "notificationBatch": {
-    "timestamp": "2026-06-04T13:54:44Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-06-05T06:56:52Z",
+    "ids": [
+      "internet-thinks-the-ufo-files-are-distractions-and-4-alien-species-theory-isn-t-helping"
+    ],
+    "articles": [
+      {
+        "id": "internet-thinks-the-ufo-files-are-distractions-and-4-alien-species-theory-isn-t-helping",
+        "title": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping",
+        "source": "International Business Times UK"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 388,
-    "broadTopics": 177,
+    "broadArticles": 382,
+    "broadTopics": 168,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
-    "appTopics": 13,
+    "appTopics": 14,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 5,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 4,
+    "regroupedTopics": 3,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -990,7 +1063,7 @@
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
-      "kept": 13,
+      "kept": 14,
       "missing": 3,
       "missingItems": [
         {
@@ -1015,14 +1088,14 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 14,
-      "outputArticles": 11,
-      "preservedSourceSummaries": 7
+      "inputArticles": 16,
+      "outputArticles": 12,
+      "preservedSourceSummaries": 8
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 11,
-      "outputArticles": 11,
+      "inputArticles": 12,
+      "outputArticles": 12,
       "missingSummaries": 4,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
@@ -1035,14 +1108,14 @@
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 4,
+      "updatedTopics": 3,
       "addedSources": 53,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 18,
+      "sources": 19,
       "cleanedArticles": 2,
       "removedDuplicateTopics": 1,
       "staleSummariesCleared": 0,
@@ -1051,22 +1124,22 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 10,
-      "outputArticles": 10,
+      "inputArticles": 11,
+      "outputArticles": 11,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 10,
+      "inputArticles": 11,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 13,
-      "currentBeforeRestore": 10,
+      "currentBeforeRestore": 11,
       "restoredArticles": 3,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
@@ -1082,29 +1155,29 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 13
+      "articlesRefreshed": 14
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 36,
-      "updatedSources": 7,
+      "checkedSources": 37,
+      "updatedSources": 9,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 13,
-      "newSources": 0
+      "updatedTopics": 14,
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 13,
+      "correctedExistingTopics": 14,
       "newTopics": 0,
       "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 0,
-      "freshSources": 0,
+      "notifications": 1,
+      "freshSources": 1,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 46
@@ -1120,7 +1193,7 @@
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }
@@ -1237,6 +1310,20 @@
         "provider": "google"
       }
     },
+    "internet-thinks-the-ufo-files-are-distractions-and-4-alien-species-theory-isn-t-helping": {
+      "en": {
+        "title": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping",
+        "summary": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping While believers see slow disclosure, sceptics call the latest UFO wave 'pure science fiction. ' Fresh UFO file releases and a viral claim about 'four alien species' have pushed extraterrestrial conspiracy theories back into the centre of internet culture — but not everyone is buying it. As newly declassified government documents circulate online, many social media users are calling the latest wave of UFO disclosure a carefully timed distraction rather than proof of alien life.",
+        "sourceHash": "a658a8b1cc0dd280127d91ea43e91291515db98b",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Das Internet hält die UFO-Dateien für „Ablenkungen“ und die Theorie der „vier außerirdischen Arten“ hilft nicht weiter",
+        "summary": "Das Internet denkt, die UFO-Dateien seien „Ablenkungen“ und die „4 außerirdische Arten“-Theorie hilft nicht. Während Gläubige eine langsame Offenlegung sehen, bezeichnen Skeptiker die jüngste UFO-Welle als „reine Science-Fiction“. Neue Veröffentlichungen von UFO-Dateien und eine virale Behauptung über „vier außerirdische Arten“ haben außerirdische Verschwörungstheorien wieder in den Mittelpunkt der Internetkultur gerückt – aber nicht jeder glaubt das. Während neu freigegebene Regierungsdokumente online kursieren, bezeichnen viele Social-Media-Nutzer die jüngste Welle der UFO-Enthüllungen als eine sorgfältig geplante Ablenkung und nicht als Beweis für das Leben von Außerirdischen.",
+        "sourceHash": "a658a8b1cc0dd280127d91ea43e91291515db98b",
+        "provider": "google"
+      }
+    },
     "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": {
       "en": {
         "title": "The World's Largest UFO Conference Is Open Today, and It's Free",
@@ -1253,7 +1340,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 10,
+    "prepared": 11,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
