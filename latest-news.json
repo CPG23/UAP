@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-06T12:04:26Z",
+  "timestamp": "2026-06-06T18:07:41Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -9,7 +9,7 @@
       "date": "2026-05-31",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 16,
+      "mentions": 15,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -71,14 +71,6 @@
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1J2QldGVF9ia3dpRGIzRExCYzhWUUhxU3I5WmxwLWk4TDNsX2hnU19hdFJQOEtZNTdQb2N6azF6Y2FENTZtVlQ5WWJtVl9EWS1uT2otZjVXSElVbzJEQzhPR2JPMk9jSWxzb0JTWTk0TnV1Yk90YXh4aGJlZXVudmhEb2N3dWdPbzZ0YVJGdjZvd2xZaW9PNTgxNV9JTVZmVDRwRXRLS1Y?oc=5",
           "publishedAt": "2026-05-30T04:48:00Z",
           "displayedAt": "2026-05-30T04:48:00Z"
-        },
-        {
-          "title": "Pentagon releases second batch of UFO files: The 5 best videos",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOUjlVVm1lRWpiY2ZFLV9FX1BveFdoLTktVUVBeTUtdHZJbllBbUdhUGtvVm4tYjYxaTgtcXZlRk8yaktueVBnckJtV2dWUVlHaHN5NWZMdjkyN3NES3ZPdUxQaEdFN0pMdHR3N0l5V282MGpySE5FNHFraGhlb0NiZU9oNEJZM2dvVWlUUFdBRVcyUEhFVVNkdEZMOTZBb2E5S1d2UzVpczVzN1NmMXk4V2lRaDF0V2V6dWd3WGttT1V2ZkJVVDBENzB6d3E3bXN5aG5GXzJNclVqcUJQZElVOHlGT0F3STU5TGhKRnhpMmN5Nk9vZWgzd0JjZVVIUWdHb1A4R2k2a25KcHhzbW9JYmtiVDFRREV5UXBfa0toQ18tcWtLRU9rOXdyTUZZWHZqbTU3Q1NBN3dpaGEyUWNKbWJ6YXlUTzBYS0IzMThlSHlwU0l0aUdRVXBybw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOUjlVVm1lRWpiY2ZFLV9FX1BveFdoLTktVUVBeTUtdHZJbllBbUdhUGtvVm4tYjYxaTgtcXZlRk8yaktueVBnckJtV2dWUVlHaHN5NWZMdjkyN3NES3ZPdUxQaEdFN0pMdHR3N0l5V282MGpySE5FNHFraGhlb0NiZU9oNEJZM2dvVWlUUFdBRVcyUEhFVVNkdEZMOTZBb2E5S1d2UzVpczVzN1NmMXk4V2lRaDF0V2V6dWd3WGttT1V2ZkJVVDBENzB6d3E3bXN5aG5GXzJNclVqcUJQZElVOHlGT0F3STU5TGhKRnhpMmN5Nk9vZWgzd0JjZVVIUWdHb1A4R2k2a25KcHhzbW9JYmtiVDFRREV5UXBfa0toQ18tcWtLRU9rOXdyTUZZWHZqbTU3Q1NBN3dpaGEyUWNKbWJ6YXlUTzBYS0IzMThlSHlwU0l0aUdRVXBybw?oc=5",
-          "publishedAt": "2026-05-29T02:02:41Z",
-          "displayedAt": "2026-05-29T02:02:41Z"
         },
         {
           "title": "Highlights From 2nd Batch of Declassified UFO Files",
@@ -150,9 +142,9 @@
         "US Government: Pentagon Releases New UFO Files Sparking Fresh Questions as Declassified UAP Evidence Surges",
         "Pentagon releases second batch of declassified UFO files",
         "Pentagon releases second batch of declassified UFO files",
-        "Pentagon releases second batch of UFO files: The 5 best videos",
         "Highlights From 2nd Batch of Declassified UFO Files",
-        "Pentagon releases new batch of declassified UFO files"
+        "Pentagon releases new batch of declassified UFO files",
+        "New videos from Pentagon’s second batch of UFO files"
       ],
       "quality": 100,
       "qualityBreakdown": [
@@ -178,8 +170,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 75,
-          "text": "16 Quellen im aktuellen Feed."
+          "points": 70,
+          "text": "15 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -594,6 +586,71 @@
       "retainedFromPreviousScan": true
     },
     {
+      "id": "sighting-did-brazilian-influencer-mayk-le-o-really-capture-a-ufo-over-his-rural-farm-in-campo-largo-here-s-what-we-know",
+      "title": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know",
+      "source": "Indiatimes",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWUdDeDhHSGFYRXlnejdsZ0xMSUVxZm1mcEpMMzVkZjkxYVg3NHBvSGFFc3hMSHRwOEpMU2IwZHJ2ZzRoeE5jeTloTUd4SGo4Q3JjSWNoRlNHZUl4VXhBdmY5ME9FZVZENWd4TTZJNk1rT2wzRWZJM3RBSV9ud0RHY2Y4VElBLVpwa0wtQV93YVhBVHJOa2tGRTBDdmF2VmhrMkNvU21kSlc2ZHd4UkFYOU1odUQySzNpZzNCMXJmR25meU1pdVFQank2Q196MGlDWDNBVFU5N3NNNHMtZzZLeTlXN0dxMXktS2tkQTdzLTVmeUJZbUZYZFEtd0pLMlRi0gGGAkFVX3lxTE5ROWZEb3VTemhXMUpfTW9aYURWRE9vN0tIRlVNdDIwRHhfbkVmS0F4NTBQaG5xYXc0TGhSN0JpbDBjbkZwSnJCVXhVRjZ4cUtJS1VtOEFPb1ExbnctNEtUeEZhQXpudG41ZVV3S3Rzc2NlaHg5dGRhSUwzZEpoVlhCZ3A5TFZzRkwyTzFKZldiR0FoOHktdC1YZDhBY05yUV9CSHBoaFUzVC1lcGpGRnlySW1rZ1JHNUx1aHdmQWFJY29aakJLaFptQXZrZnB4T1BkWEdxTVB0eVZhczl1TmZ0cHRLSnVvbUstRmdrT0tZY2RZN2hXYVItbXFCNjdmUU85UGJVdFE?oc=5",
+      "date": "2026-06-06",
+      "publishedAt": "2026-06-04T13:08:59Z",
+      "summary": "Markdown Content: Digital content producer Mayk Leão, widely recognized on virtual platforms for his work dedicated to rescuing and rehabilitating animals at risk, surprised his followers by changing the focus of his publications. Acostumado documenting his wildlife care routine, the influencer used his profiles to report an unusual experience on his rural property. The episode occurred on a site located in the municipality of Campo Largo, which is part of Região Metropolitana of Curitiba, in the state of Paraná. The change of agenda happened after the video recording of a supposed unidentified flying object crossing the sky in the region.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "Influencer Mayk Leão films alleged UFO at Campo Largo site and mobilizes social networks",
+          "source": "Mix Vale",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnM4akc5RnpsVWNwQUQ3WXJMVjhuNE5PTTdMUWxzVVpRUHlJRFVDWWFyLURXc1loQzQyVGZQZWQzTVFTWHRXTDdZREduc0ZhY2g2cXljOFNreEFQamFxREdISThsQ2ZaTkhxWE1KRi1JTlhPeElINnFyUUExWlkyTUQtZU1BTHJfZjNQS2k1RFlHY1pwWlNYdENmbWx2N3dDTTRyVzhtaEJKRmljdGtEbWV5alJadlhOOGZldDM5WW45QmVtcWJvOU930gHKAUFVX3lxTE9SczhqRzlGemxVY3BBRDdZckxWOG40Tk9NN0xRbHNVWlFQeUlEVUNZYXItRFdzWWhDNDJUZlBlZDNNUVNYdFdMN1lER25zRmFjaDZxeWM4U2t4QVBqYXFER0hJOGxDZlpOSHFYTUpGLUlOWE94SUg2cXJRQTFaWTJNRC1lTUFMcl9mM1BLaTVEWUdjWnBaU1h0Q2ZtbHY3d0NNNHJXOG1oQkpGaWN0a0RtZXlqUlp2WE44ZmV0MzlZbjlCZW1xYm85T3c?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnM4akc5RnpsVWNwQUQ3WXJMVjhuNE5PTTdMUWxzVVpRUHlJRFVDWWFyLURXc1loQzQyVGZQZWQzTVFTWHRXTDdZREduc0ZhY2g2cXljOFNreEFQamFxREdISThsQ2ZaTkhxWE1KRi1JTlhPeElINnFyUUExWlkyTUQtZU1BTHJfZjNQS2k1RFlHY1pwWlNYdENmbWx2N3dDTTRyVzhtaEJKRmljdGtEbWV5alJadlhOOGZldDM5WW45QmVtcWJvOU930gHKAUFVX3lxTE9SczhqRzlGemxVY3BBRDdZckxWOG40Tk9NN0xRbHNVWlFQeUlEVUNZYXItRFdzWWhDNDJUZlBlZDNNUVNYdFdMN1lER25zRmFjaDZxeWM4U2t4QVBqYXFER0hJOGxDZlpOSHFYTUpGLUlOWE94SUg2cXJRQTFaWTJNRC1lTUFMcl9mM1BLaTVEWUdjWnBaU1h0Q2ZtbHY3d0NNNHJXOG1oQkpGaWN0a0RtZXlqUlp2WE44ZmV0MzlZbjlCZW1xYm85T3c?oc=5",
+          "publishedAt": "2026-06-06T06:57:58Z",
+          "displayedAt": "2026-06-06T12:04:26Z",
+          "isNew": true
+        }
+      ],
+      "clusterTitles": [
+        "Influencer Mayk Leão films alleged UFO at Campo Largo site and mobilizes social networks"
+      ],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 45,
+      "displayedAt": "2026-06-06T06:19:58Z",
+      "rssPublishedAt": "2026-06-04T13:08:59Z",
+      "rssDate": "2026-06-06",
+      "sourcePublishedAt": "2026-06-04T13:08:59Z",
+      "sourceDisplayedAt": "2026-06-06T06:19:58Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know",
+          "summary": "Markdown Content: Digital content producer Mayk Leão, widely recognized on virtual platforms for his work dedicated to rescuing and rehabilitating animals at risk, surprised his followers by changing the focus of his publications. Acostumado documenting his wildlife care routine, the influencer used his profiles to report an unusual experience on his rural property. The episode occurred on a site located in the municipality of Campo Largo, which is part of Região Metropolitana of Curitiba, in the state of Paraná.",
+          "sourceHash": "51f32318cf8df0a2dc5fdb18bd0026d756c6a864",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Hat der brasilianische Influencer Mayk Leão wirklich ein UFO über seiner ländlichen Farm in Campo Largo eingefangen? Das wissen wir",
+          "summary": "Markdown-Inhalte: Mayk Leão, Produzent digitaler Inhalte, der auf virtuellen Plattformen weithin für seine Arbeit zur Rettung und Rehabilitation gefährdeter Tiere bekannt ist, überraschte seine Anhänger, indem er den Schwerpunkt seiner Veröffentlichungen änderte. Als Acostumado dokumentierte der Influencer seine Routine bei der Tierpflege und nutzte seine Profile, um über ein ungewöhnliches Erlebnis auf seinem Landgrundstück zu berichten. Der Vorfall ereignete sich an einem Ort in der Gemeinde Campo Largo, die zur Região Metropolitana Curitiba im Bundesstaat Paraná gehört.",
+          "sourceHash": "51f32318cf8df0a2dc5fdb18bd0026d756c6a864",
+          "provider": "google"
+        }
+      }
+    },
+    {
       "id": "ufo-linked-general-william-neil-mccasland-met-us-space-force-personnel-hours-before-disappearance-audio",
       "title": "UFO-Linked General William Neil McCasland Met US Space Force Personnel Hours Before Disappearance, Audio",
       "source": "LatestLY",
@@ -766,7 +823,6 @@
       "rssDate": "2026-05-31",
       "sourcePublishedAt": "2026-05-26T08:24:33Z",
       "sourceDisplayedAt": "2026-06-05T06:56:52Z",
-      "sourceIsNew": true,
       "translation": {
         "en": {
           "title": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping",
@@ -781,101 +837,6 @@
           "provider": "google"
         }
       }
-    },
-    {
-      "id": "influencer-mayk-le-o-films-alleged-ufo-at-campo-largo-site-and-mobilizes-social-networks",
-      "title": "Influencer Mayk Leão films alleged UFO at Campo Largo site and mobilizes social networks",
-      "source": "Mix Vale",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnM4akc5RnpsVWNwQUQ3WXJMVjhuNE5PTTdMUWxzVVpRUHlJRFVDWWFyLURXc1loQzQyVGZQZWQzTVFTWHRXTDdZREduc0ZhY2g2cXljOFNreEFQamFxREdISThsQ2ZaTkhxWE1KRi1JTlhPeElINnFyUUExWlkyTUQtZU1BTHJfZjNQS2k1RFlHY1pwWlNYdENmbWx2N3dDTTRyVzhtaEJKRmljdGtEbWV5alJadlhOOGZldDM5WW45QmVtcWJvOU930gHKAUFVX3lxTE9SczhqRzlGemxVY3BBRDdZckxWOG40Tk9NN0xRbHNVWlFQeUlEVUNZYXItRFdzWWhDNDJUZlBlZDNNUVNYdFdMN1lER25zRmFjaDZxeWM4U2t4QVBqYXFER0hJOGxDZlpOSHFYTUpGLUlOWE94SUg2cXJRQTFaWTJNRC1lTUFMcl9mM1BLaTVEWUdjWnBaU1h0Q2ZtbHY3d0NNNHJXOG1oQkpGaWN0a0RtZXlqUlp2WE44ZmV0MzlZbjlCZW1xYm85T3c?oc=5",
-      "date": "2026-06-06",
-      "publishedAt": "2026-06-06T06:57:58Z",
-      "summary": "Markdown Content: Digital content producer Mayk Leão, widely recognized on virtual platforms for his work dedicated to rescuing and rehabilitating animals at risk, surprised his followers by changing the focus of his publications. Acostumado documenting his wildlife care routine, the influencer used his profiles to report an unusual experience on his rural property. The episode occurred on a site located in the municipality of Campo Largo, which is part of Região Metropolitana of Curitiba, in the state of Paraná. The change of agenda happened after the video recording of a supposed unidentified flying object crossing the sky in the region.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "displayedAt": "2026-06-06T12:04:26Z",
-      "sourceDisplayedAt": "2026-06-06T12:04:26Z",
-      "sourceIsNew": true,
-      "translation": {
-        "en": {
-          "title": "Influencer Mayk Leão films alleged UFO at Campo Largo site and mobilizes social networks",
-          "summary": "Markdown Content: Digital content producer Mayk Leão, widely recognized on virtual platforms for his work dedicated to rescuing and rehabilitating animals at risk, surprised his followers by changing the focus of his publications. Acostumado documenting his wildlife care routine, the influencer used his profiles to report an unusual experience on his rural property. The episode occurred on a site located in the municipality of Campo Largo, which is part of Região Metropolitana of Curitiba, in the state of Paraná.",
-          "sourceHash": "0399dc95cd8404fece0bfecdf53451df7cf90cfe",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Influencer Mayk Leão filmt angebliches UFO auf dem Gelände von Campo Largo und mobilisiert soziale Netzwerke",
-          "summary": "Markdown-Inhalte: Mayk Leão, Produzent digitaler Inhalte, der auf virtuellen Plattformen weithin für seine Arbeit zur Rettung und Rehabilitation gefährdeter Tiere bekannt ist, überraschte seine Anhänger, indem er den Schwerpunkt seiner Veröffentlichungen änderte. Als Acostumado dokumentierte der Influencer seine Routine bei der Tierpflege und nutzte seine Profile, um über ein ungewöhnliches Erlebnis auf seinem Landgrundstück zu berichten. Der Vorfall ereignete sich an einem Ort in der Gemeinde Campo Largo, die zur Região Metropolitana Curitiba im Bundesstaat Paraná gehört.",
-          "sourceHash": "0399dc95cd8404fece0bfecdf53451df7cf90cfe",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "sighting-did-brazilian-influencer-mayk-le-o-really-capture-a-ufo-over-his-rural-farm-in-campo-largo-here-s-what-we-know",
-      "title": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know",
-      "source": "Indiatimes",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWUdDeDhHSGFYRXlnejdsZ0xMSUVxZm1mcEpMMzVkZjkxYVg3NHBvSGFFc3hMSHRwOEpMU2IwZHJ2ZzRoeE5jeTloTUd4SGo4Q3JjSWNoRlNHZUl4VXhBdmY5ME9FZVZENWd4TTZJNk1rT2wzRWZJM3RBSV9ud0RHY2Y4VElBLVpwa0wtQV93YVhBVHJOa2tGRTBDdmF2VmhrMkNvU21kSlc2ZHd4UkFYOU1odUQySzNpZzNCMXJmR25meU1pdVFQank2Q196MGlDWDNBVFU5N3NNNHMtZzZLeTlXN0dxMXktS2tkQTdzLTVmeUJZbUZYZFEtd0pLMlRi0gGGAkFVX3lxTE5ROWZEb3VTemhXMUpfTW9aYURWRE9vN0tIRlVNdDIwRHhfbkVmS0F4NTBQaG5xYXc0TGhSN0JpbDBjbkZwSnJCVXhVRjZ4cUtJS1VtOEFPb1ExbnctNEtUeEZhQXpudG41ZVV3S3Rzc2NlaHg5dGRhSUwzZEpoVlhCZ3A5TFZzRkwyTzFKZldiR0FoOHktdC1YZDhBY05yUV9CSHBoaFUzVC1lcGpGRnlySW1rZ1JHNUx1aHdmQWFJY29aakJLaFptQXZrZnB4T1BkWEdxTVB0eVZhczl1TmZ0cHRLSnVvbUstRmdrT0tZY2RZN2hXYVItbXFCNjdmUU85UGJVdFE?oc=5",
-      "date": "2026-05-29",
-      "publishedAt": "2026-06-04T13:08:59Z",
-      "summary": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know Brazilian influencer Mayk Leão claims his life has been disrupted after he recorded mysterious lights over his rural farm in Campo Largo. He says unusual events followed, including sightings of unidentified vehicles near his property. The viral footage has sparked widespread debate online, with users divided over what really happened. — 永倉盛照 nagakura moriteru (@uBF2fV1cVQxRjQo) June 4, 2026 Mayk Leão filmed a massive UFO in Campo Largo, Brazil.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "displayedAt": "2026-06-06T06:19:58Z",
-      "translation": {
-        "en": {
-          "title": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know",
-          "summary": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know Brazilian influencer Mayk Leão claims his life has been disrupted after he recorded mysterious lights over his rural farm in Campo Largo. He says unusual events followed, including sightings of unidentified vehicles near his property.",
-          "sourceHash": "bd707c6213fb3eaf72c47bd725b087d2d6f18e99",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Hat der brasilianische Influencer Mayk Leão wirklich ein UFO über seiner ländlichen Farm in Campo Largo eingefangen? Das wissen wir",
-          "summary": "Hat der brasilianische Influencer Mayk Leão wirklich ein UFO über seiner ländlichen Farm in Campo Largo eingefangen? Folgendes wissen wir: Der brasilianische Influencer Mayk Leão behauptet, sein Leben sei gestört worden, nachdem er mysteriöse Lichter über seiner ländlichen Farm in Campo Largo aufgenommen hatte. Er sagt, es folgten ungewöhnliche Ereignisse, darunter die Sichtung nicht identifizierter Fahrzeuge in der Nähe seines Grundstücks.",
-          "sourceHash": "bd707c6213fb3eaf72c47bd725b087d2d6f18e99",
-          "provider": "google"
-        }
-      },
-      "rssPublishedAt": "2026-06-04T13:08:59Z",
-      "rssDate": "2026-05-29",
-      "sourcePublishedAt": "2026-06-04T13:08:59Z",
-      "sourceDisplayedAt": "2026-06-06T06:19:58Z",
-      "sourceIsNew": true
     },
     {
       "id": "sighting-lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens",
@@ -1011,41 +972,32 @@
     "trump-aliens-website-is-about-immigration-uap-journalist-not-amused-2026-justice-iustitia-bg-2025": "gov' website and immigration satire Skip to content NewsNation Sponsored By Toggle Menu [](https://www. com/) Newsletter GoGo Go ## Primary Menu * Trending * MISSING SCIENTISTS * FAKE CANCER CASE * KYLE BUSCH * All Topics * Politics * 2026 Election * Crime * Your Money * Social Security calculator * Budget calculator * Mortgage calculator * Credit card debt calculator * Savings calculator * Border Report * Space * UFOs * Entertainment * Missing * Shows * Morning In America * NewsNation Live * Elizabeth Vargas Reports * The Hill on NewsNation * On Balance with Leland Vittert * [[CUOMO]](https://www. com/cuomo-show/) * Katie Pavlich Tonight * Jesse Weber Live * NewsNation PRIME * The Hill Sunday * Batya!",
     "film-close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026 Steven Spielberg's 1977 classic tapped into anxieties about the US government hiding UFO information from the public. When trailers for Steven Spielberg's Disclosure Day confirmed that it deals with extraterrestrials, the internet exploded with speculation that it was a sequel to his 1977 classic, Close Encounters of the Third Kind. The guesswork became so rampant that the press notes for the new film cheekily announce it is \"not a sequel to Close Encounters (sorry, internet)\". Emily Blunt, one of Disclosure Day's stars, has described it as resembling \"a third act\" along with Close Encounters and ET The Extra-Terrestrial (1982).",
     "mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work. A MITRE spokesperson said that if relevant material is found, the company will coordinate with federal agencies to provide the assets. The request is part of a broader congressional effort to increase UAP disclosure, though no evidence of extraterrestrial activity has been confirmed.",
+    "sighting-did-brazilian-influencer-mayk-le-o-really-capture-a-ufo-over-his-rural-farm-in-campo-largo-here-s-what-we-know": "Markdown Content: Digital content producer Mayk Leão, widely recognized on virtual platforms for his work dedicated to rescuing and rehabilitating animals at risk, surprised his followers by changing the focus of his publications. Acostumado documenting his wildlife care routine, the influencer used his profiles to report an unusual experience on his rural property. The episode occurred on a site located in the municipality of Campo Largo, which is part of Região Metropolitana of Curitiba, in the state of Paraná. The change of agenda happened after the video recording of a supposed unidentified flying object crossing the sky in the region.",
     "ufo-linked-general-william-neil-mccasland-met-us-space-force-personnel-hours-before-disappearance-audio": "Retired U.S. Air Force Major General William Neil McCasland, 68, was reported missing on February 27, 2026 from his Albuquerque home. Body‑cam audio obtained by Law & Crime shows McCasland attended a dinner with U.S. Space Force personnel and an unidentified woman the evening before he vanished, during which the woman discussed his high‑security clearance and ties to classified UFO programs. UFO whistleblower David Grusch had earlier named McCasland as uncooperative with congressional oversight and listed him among officials who managed legacy classified programs. The Bernalillo County Sheriff’s Office, FBI, and New Mexico Search and Rescue have been conducting a multi‑agency search after a Silver Alert; investigators note he left his home on foot, left behind his phone, glasses, and wearable devices, but missing items include hiking boots, wallet, and a .38‑caliber revolver. No definitive evidence of foul play has been found, and McCasland’s wife says he has held only standard clearances since retirement, suggesting his disappearance may not be linked to old military secrets. The investigation remains ongoing, with uncertainty about the cause of his disappearance.",
     "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens": "A whistleblower, philosopher and novelist Jason Reza Jorjani, claims the CIA allegedly used a backdoor to access 23andMe and Ancestry.com data to identify individuals with a genetic variance he says is linked to extraterrestrial DNA. Jorjani says he learned of the program from army veteran Lyn Buchanan, who claims he was a psychic spy in the CIA’s remote‑viewing program and that former CIA analyst Christopher “Kit” Green created the backdoor. Buchanan reports that he was approached by three people who identified themselves as Nordic aliens and that they asked him to help avoid CIA detection, while also claiming aliens have interbred with humans and that a “wedge” labeled “other” on ethnicity charts may contain unknown genetic markers. The Pentagon has stated there is no evidence of extraterrestrial existence, and a separate geneticist, Dr. Max Rempel, has suggested that alien DNA could have been inserted into humans, though he says it may not be harmful.",
     "internet-thinks-the-ufo-files-are-distractions-and-4-alien-species-theory-isn-t-helping": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping While believers see slow disclosure, sceptics call the latest UFO wave 'pure science fiction. ' Fresh UFO file releases and a viral claim about 'four alien species' have pushed extraterrestrial conspiracy theories back into the centre of internet culture — but not everyone is buying it. As newly declassified government documents circulate online, many social media users are calling the latest wave of UFO disclosure a carefully timed distraction rather than proof of alien life. The debate intensified after physicist Hal Puthoff claimed insiders involved in alleged crash-retrieval programmes described at least four different non-human species, reviving decades-old theories about Greys, Reptilians and other extraterrestrial beings long tied to UFO folklore.",
-    "influencer-mayk-le-o-films-alleged-ufo-at-campo-largo-site-and-mobilizes-social-networks": "Markdown Content: Digital content producer Mayk Leão, widely recognized on virtual platforms for his work dedicated to rescuing and rehabilitating animals at risk, surprised his followers by changing the focus of his publications. Acostumado documenting his wildlife care routine, the influencer used his profiles to report an unusual experience on his rural property. The episode occurred on a site located in the municipality of Campo Largo, which is part of Região Metropolitana of Curitiba, in the state of Paraná. The change of agenda happened after the video recording of a supposed unidentified flying object crossing the sky in the region.",
-    "sighting-did-brazilian-influencer-mayk-le-o-really-capture-a-ufo-over-his-rural-farm-in-campo-largo-here-s-what-we-know": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know Brazilian influencer Mayk Leão claims his life has been disrupted after he recorded mysterious lights over his rural farm in Campo Largo. He says unusual events followed, including sightings of unidentified vehicles near his property. The viral footage has sparked widespread debate online, with users divided over what really happened. — 永倉盛照 nagakura moriteru (@uBF2fV1cVQxRjQo) June 4, 2026 Mayk Leão filmed a massive UFO in Campo Largo, Brazil.",
     "sighting-lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens": "Markdown Content: # Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens Skip to content Close Back _America's Newspaper_ 1 Subscribe Close Sign in Sign in)Subscribe {# Register for free to manage your followed authors and newsletters in one place. #} * Newsletter signup * Gift subscriptions * Customer service Sign Out)My Account * Manage newsletters * Following authors * Gift subscriptions * Today's E-Edition * Customer service Search Search Keyword: Search * News * Corrections * Politics * National * World * Security * The Advocates * Seen, Heard & Whispered * Business & Economy * D.",
     "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena. All of Thursday’s programming is free and open to the public. One‑day and five‑day passes are available at contactinthedesert.com."
   },
   "notificationBatch": {
-    "timestamp": "2026-06-06T12:04:26Z",
-    "ids": [
-      "influencer-mayk-le-o-films-alleged-ufo-at-campo-largo-site-and-mobilizes-social-networks"
-    ],
-    "articles": [
-      {
-        "id": "influencer-mayk-le-o-films-alleged-ufo-at-campo-largo-site-and-mobilizes-social-networks",
-        "title": "Influencer Mayk Leão films alleged UFO at Campo Largo site and mobilizes social networks",
-        "source": "Mix Vale"
-      }
-    ]
+    "timestamp": "2026-06-06T18:07:41Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 366,
-    "broadTopics": 169,
-    "notificationArticles": 1,
-    "notificationTopics": 1,
-    "newNotificationTopics": 1,
-    "appTopics": 15,
+    "broadArticles": 365,
+    "broadTopics": 166,
+    "notificationArticles": 0,
+    "notificationTopics": 0,
+    "newNotificationTopics": 0,
+    "appTopics": 14,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 6,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 8,
+    "regroupedTopics": 7,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -1060,7 +1012,7 @@
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
-      "kept": 15,
+      "kept": 14,
       "missing": 2,
       "missingItems": [
         {
@@ -1079,15 +1031,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 14,
-      "outputArticles": 12,
-      "preservedSourceSummaries": 11
+      "inputArticles": 13,
+      "outputArticles": 11,
+      "preservedSourceSummaries": 9
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 12,
-      "outputArticles": 12,
-      "missingSummaries": 1,
+      "inputArticles": 11,
+      "outputArticles": 11,
+      "missingSummaries": 2,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -1100,13 +1052,13 @@
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
       "updatedTopics": 4,
-      "addedSources": 63,
+      "addedSources": 61,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 18,
+      "sources": 17,
       "cleanedArticles": 1,
       "removedDuplicateTopics": 2,
       "staleSummariesCleared": 0,
@@ -1115,22 +1067,22 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 10,
-      "outputArticles": 10,
+      "inputArticles": 9,
+      "outputArticles": 9,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 10,
+      "inputArticles": 9,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 15,
-      "currentBeforeRestore": 10,
+      "currentBeforeRestore": 9,
       "restoredArticles": 5,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
@@ -1148,32 +1100,32 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 15
+      "articlesRefreshed": 14
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 33,
+      "checkedSources": 32,
       "updatedSources": 8,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 15,
-      "newSources": 4
+      "updatedTopics": 14,
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 14,
+      "correctedExistingTopics": 13,
       "newTopics": 1,
       "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
-      "correctedOldSourceMarkers": 2,
+      "notifications": 0,
+      "freshSources": 0,
+      "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 45
+      "seededSeenFromPreviousFeed": 46
     }
   },
   "translations": {
@@ -1261,6 +1213,20 @@
         "provider": "google"
       }
     },
+    "sighting-did-brazilian-influencer-mayk-le-o-really-capture-a-ufo-over-his-rural-farm-in-campo-largo-here-s-what-we-know": {
+      "en": {
+        "title": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know",
+        "summary": "Markdown Content: Digital content producer Mayk Leão, widely recognized on virtual platforms for his work dedicated to rescuing and rehabilitating animals at risk, surprised his followers by changing the focus of his publications. Acostumado documenting his wildlife care routine, the influencer used his profiles to report an unusual experience on his rural property. The episode occurred on a site located in the municipality of Campo Largo, which is part of Região Metropolitana of Curitiba, in the state of Paraná.",
+        "sourceHash": "51f32318cf8df0a2dc5fdb18bd0026d756c6a864",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Hat der brasilianische Influencer Mayk Leão wirklich ein UFO über seiner ländlichen Farm in Campo Largo eingefangen? Das wissen wir",
+        "summary": "Markdown-Inhalte: Mayk Leão, Produzent digitaler Inhalte, der auf virtuellen Plattformen weithin für seine Arbeit zur Rettung und Rehabilitation gefährdeter Tiere bekannt ist, überraschte seine Anhänger, indem er den Schwerpunkt seiner Veröffentlichungen änderte. Als Acostumado dokumentierte der Influencer seine Routine bei der Tierpflege und nutzte seine Profile, um über ein ungewöhnliches Erlebnis auf seinem Landgrundstück zu berichten. Der Vorfall ereignete sich an einem Ort in der Gemeinde Campo Largo, die zur Região Metropolitana Curitiba im Bundesstaat Paraná gehört.",
+        "sourceHash": "51f32318cf8df0a2dc5fdb18bd0026d756c6a864",
+        "provider": "google"
+      }
+    },
     "ufo-linked-general-william-neil-mccasland-met-us-space-force-personnel-hours-before-disappearance-audio": {
       "en": {
         "title": "UFO-Linked General William Neil McCasland Met US Space Force Personnel Hours Before Disappearance, Audio",
@@ -1303,34 +1269,6 @@
         "provider": "google"
       }
     },
-    "influencer-mayk-le-o-films-alleged-ufo-at-campo-largo-site-and-mobilizes-social-networks": {
-      "en": {
-        "title": "Influencer Mayk Leão films alleged UFO at Campo Largo site and mobilizes social networks",
-        "summary": "Markdown Content: Digital content producer Mayk Leão, widely recognized on virtual platforms for his work dedicated to rescuing and rehabilitating animals at risk, surprised his followers by changing the focus of his publications. Acostumado documenting his wildlife care routine, the influencer used his profiles to report an unusual experience on his rural property. The episode occurred on a site located in the municipality of Campo Largo, which is part of Região Metropolitana of Curitiba, in the state of Paraná.",
-        "sourceHash": "0399dc95cd8404fece0bfecdf53451df7cf90cfe",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Influencer Mayk Leão filmt angebliches UFO auf dem Gelände von Campo Largo und mobilisiert soziale Netzwerke",
-        "summary": "Markdown-Inhalte: Mayk Leão, Produzent digitaler Inhalte, der auf virtuellen Plattformen weithin für seine Arbeit zur Rettung und Rehabilitation gefährdeter Tiere bekannt ist, überraschte seine Anhänger, indem er den Schwerpunkt seiner Veröffentlichungen änderte. Als Acostumado dokumentierte der Influencer seine Routine bei der Tierpflege und nutzte seine Profile, um über ein ungewöhnliches Erlebnis auf seinem Landgrundstück zu berichten. Der Vorfall ereignete sich an einem Ort in der Gemeinde Campo Largo, die zur Região Metropolitana Curitiba im Bundesstaat Paraná gehört.",
-        "sourceHash": "0399dc95cd8404fece0bfecdf53451df7cf90cfe",
-        "provider": "google"
-      }
-    },
-    "sighting-did-brazilian-influencer-mayk-le-o-really-capture-a-ufo-over-his-rural-farm-in-campo-largo-here-s-what-we-know": {
-      "en": {
-        "title": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know",
-        "summary": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know Brazilian influencer Mayk Leão claims his life has been disrupted after he recorded mysterious lights over his rural farm in Campo Largo. He says unusual events followed, including sightings of unidentified vehicles near his property.",
-        "sourceHash": "bd707c6213fb3eaf72c47bd725b087d2d6f18e99",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Hat der brasilianische Influencer Mayk Leão wirklich ein UFO über seiner ländlichen Farm in Campo Largo eingefangen? Das wissen wir",
-        "summary": "Hat der brasilianische Influencer Mayk Leão wirklich ein UFO über seiner ländlichen Farm in Campo Largo eingefangen? Folgendes wissen wir: Der brasilianische Influencer Mayk Leão behauptet, sein Leben sei gestört worden, nachdem er mysteriöse Lichter über seiner ländlichen Farm in Campo Largo aufgenommen hatte. Er sagt, es folgten ungewöhnliche Ereignisse, darunter die Sichtung nicht identifizierter Fahrzeuge in der Nähe seines Grundstücks.",
-        "sourceHash": "bd707c6213fb3eaf72c47bd725b087d2d6f18e99",
-        "provider": "google"
-      }
-    },
     "sighting-lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens": {
       "en": {
         "title": "Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens",
@@ -1361,7 +1299,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 13,
+    "prepared": 12,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
