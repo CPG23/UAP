@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-07T06:56:35Z",
+  "timestamp": "2026-06-07T12:17:09Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -472,7 +472,7 @@
       "title": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping",
       "source": "International Business Times UK",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOU96c0M0Q05aZldWMmlXSjF4XzRXTzVYOWNYSFhZYjVCUlZobUhEUEQyUHRvc2x6Q1N5T21zVk5EMG92WHNyeXk2OFRHMTJlUUZQa21VR1Q5M2M3YVc4dXloNVN0OGMtREVSSmk3djJ3YzVxdzdTU2NTVFViMFZKVA?oc=5",
-      "date": "2026-05-31",
+      "date": "2026-05-26",
       "publishedAt": "2026-05-26T07:00:00Z",
       "summary": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping While believers see slow disclosure, sceptics call the latest UFO wave 'pure science fiction. ' Fresh UFO file releases and a viral claim about 'four alien species' have pushed extraterrestrial conspiracy theories back into the centre of internet culture — but not everyone is buying it. As newly declassified government documents circulate online, many social media users are calling the latest wave of UFO disclosure a carefully timed distraction rather than proof of alien life. The debate intensified after physicist Hal Puthoff claimed insiders involved in alleged crash-retrieval programmes described at least four different non-human species, reviving decades-old theories about Greys, Reptilians and other extraterrestrial beings long tied to UFO folklore.",
       "mentions": 1,
@@ -503,9 +503,7 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "declassified",
-        "files",
-        "government"
+        "ALIEN"
       ],
       "sourceQuality": 45,
       "summarySource": "source_page",
@@ -519,7 +517,7 @@
       "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQMUNkck53M2ZSak40MVdaSUx3MzNvZmZnTGhvVXBWQjlfaW9ub0FTU3Z2cWYyTHlBUWFUSXJ2bEJEazF4Smk2bzEyY2pXWUNiRzByWlBZU1puaEd2RDdxTHVlWUlISThJYXNUVmVlbmZrZ2NmcWh1RnluZmdBd1hZdUYtVkhlbzF0VFNTeTgzYXBPdjBDeEJKTkFOdm5oSWZtNHMtby1jZzlCT3hGZ3NtaEhGZE1WZHBRZFRhbzNtcFY4T0llRWVpTTlORkM3S0RLcGQ3VkpfWVEwRWNILV90LWRBQkdXTlhwRURlc0xtc0R0QWdEWGV3NjBBMDhUWUpOWV9NWUpUMzlVZmd6bmZOTw?oc=5",
       "date": "2026-06-06",
       "publishedAt": "2026-06-03T15:38:00Z",
-      "summary": "",
+      "summary": "Lights recorded in the rural area of Campo Largo, unusual sounds in the forest, and an object observed for dozens of minutes transformed the routine of a content creator and mobilized specialists, curious people, and researchers of aerial phenomena A supposed UFO sighting in the rural area of Campo Largo, in the Metropolitan Region of Curitiba, transformed the life of digital influencer Mayk Leão, 31, in recent days. The case, recorded on the night of May 31, 2026, gained national attention after videos posted on social media accumulated millions of views and sparked debates about the possibility of an unusual aerial phenomenon.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -540,9 +538,19 @@
       "matchedTerms": [],
       "sourceQuality": 40,
       "displayedAt": "2026-06-07T06:56:35Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
+      "translation": {
+        "en": {
+          "title": "Influencer reports alleged UFO sighting in Paraná, goes viral with millions of views, and says he lives between fascination and fear after mysterious phenomenon",
+          "summary": "Lights recorded in the rural area of Campo Largo, unusual sounds in the forest, and an object observed for dozens of minutes transformed the routine of a content creator and mobilized specialists, curious people, and researchers of aerial phenomena A supposed UFO sighting in the rural area of Campo Largo, in the Metropolitan Region of Curitiba, transformed the life of digital influencer Mayk Leão, 31, in recent days. The case, recorded on the night of May 31, 2026, gained national attention after videos posted on social media accumulated millions of views and sparked debates about the possibility of an unusual aerial phenomenon.",
+          "sourceHash": "936165479f79614104837ff709831945b2363462",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Influencer meldet angebliche UFO-Sichtung in Paraná, wird millionenfach viral und sagt, er lebe zwischen Faszination und Angst nach einem mysteriösen Phänomen",
+          "summary": "In der ländlichen Gegend von Campo Largo aufgenommene Lichter, ungewöhnliche Geräusche im Wald und ein Dutzende Minuten lang beobachtetes Objekt veränderten die Routine eines Content-Erstellers und mobilisierten Spezialisten, Neugierige und Forscher von Luftphänomenen. Eine angebliche UFO-Sichtung in der ländlichen Gegend von Campo Largo in der Metropolregion Curitiba veränderte in den letzten Tagen das Leben der digitalen Influencerin Mayk Leão, 31. Der in der Nacht des 31. Mai 2026 aufgezeichnete Fall erlangte landesweite Aufmerksamkeit, nachdem in den sozialen Medien veröffentlichte Videos millionenfach angeklickt wurden und Debatten über die Möglichkeit eines ungewöhnlichen Luftphänomens auslösten.",
+          "sourceHash": "936165479f79614104837ff709831945b2363462",
+          "provider": "google"
+        }
       }
     },
     {
