@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-09T06:38:44Z",
+  "timestamp": "2026-06-09T13:39:55Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -154,7 +154,72 @@
         "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
       },
       "sourceQuality": 70,
-      "displayedAt": "2026-06-07T02:29:24Z"
+      "displayedAt": "2026-06-07T02:29:24Z",
+      "rssPublishedAt": "2026-06-07T02:29:24Z",
+      "rssDate": "2026-06-07",
+      "sourcePublishedAt": "2026-06-07T02:29:24Z",
+      "sourceDisplayedAt": "2026-06-08T07:21:01Z",
+      "retainedFromPreviousScan": true
+    },
+    {
+      "id": "ufo-whistleblower-and-lawmakers-aim-to-declassify-uap-files",
+      "title": "UFO whistleblower and lawmakers aim to declassify UAP files",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTRqLUZpbE1pd2R6Si1rSWtVMGRQSGxXN2FRZkNFWVlSTk5XNndLUlNYUU10WGVvWUw5d2lMWGNGVzE4a0tweTI3OVZOaFFxdy1ZOTdqdlhIaUFkb3dlSVNiRy1UOUFvVFRSU0RKMjY4bmlzNzZFbno4UGJQSnE3R0xBc01ITDdZaGlXVmlUY1dMdXJVOEpTd0Zn0gGfAUFVX3lxTE9fcjJoZlNndXhQcEd3N3VBZDc5Nm10ODF2b0ZxRW5VNEgxMFRacGNlNkJpRS15MVBZZnNrY0JLejZYaVpMdGwxQlA5VV9SS1VsTGxla2FDNWV2MnZkQ2RHY3U1WGI5RGpQTGYxRnNLS3lHdzVzRHVMOHBsakZIcEdZNkZ2Sk91cENxQ0lmYUlPQlo4bHJtUEZTODdhWjlOOA?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T09:45:36Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 65,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "WHISTLEBLOWER"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "sourceQuality": 65,
+      "displayedAt": "2026-06-09T13:39:55Z"
     },
     {
       "id": "film-bone-chilling-preview-released-for-steven-spielberg-s-highly-anticipated-ufo-movie-disclosure-day",
@@ -373,6 +438,44 @@
       "displayedAt": "2026-05-30T12:01:38Z"
     },
     {
+      "id": "feds-investigate-after-minnesota-police-officer-says-they-saw-a-ufo",
+      "title": "Feds investigate after Minnesota police officer says they saw a UFO",
+      "source": "CBS News",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWGZpQlR5MllqdlBXbElZeXZjM2tXWVRZdUxadkV1a0QzSUxEaGprMnJSWjJJRzJEMXloWWFhWktWTDJaVkUtS1N0Tno0cHFoMTVqSTJtTGhjYXdMOXBMekZwZ1AxS1FDWm1TSk1SbE82NjZ6UFZuV05xU2tTQTd3amc2dFhFVWFHUlFoRzNRZ3BXYzF3Ml80bUR2T2lXc2FFMzJEWkZiUXpLX3hy?oc=5",
+      "date": "2026-05-27",
+      "publishedAt": "2026-05-27T07:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 49,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "sourceQuality": 49,
+      "displayedAt": "2026-06-09T13:39:55Z"
+    },
+    {
       "id": "file-release-jeremy-corbell-issues-ufo-warning-release-reverse-engineering-and-non-human-biologics-files-or-i-will",
       "title": "Jeremy Corbell Issues UFO Warning: Release Reverse-Engineering and Non-Human Biologics Files — or I Will",
       "source": "USA Herald",
@@ -577,68 +680,6 @@
       "rssDate": "2026-05-18",
       "sourcePublishedAt": "2026-05-26T15:24:37Z",
       "sourceDisplayedAt": "2026-05-31T06:47:10Z",
-      "retainedFromPreviousScan": true
-    },
-    {
-      "id": "internet-thinks-the-ufo-files-are-distractions-and-4-alien-species-theory-isn-t-helping",
-      "title": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping",
-      "source": "International Business Times UK",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOU96c0M0Q05aZldWMmlXSjF4XzRXTzVYOWNYSFhZYjVCUlZobUhEUEQyUHRvc2x6Q1N5T21zVk5EMG92WHNyeXk2OFRHMTJlUUZQa21VR1Q5M2M3YVc4dXloNVN0OGMtREVSSmk3djJ3YzVxdzdTU2NTVFViMFZKVA?oc=5",
-      "date": "2026-05-26",
-      "publishedAt": "2026-05-26T07:00:00Z",
-      "summary": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping While believers see slow disclosure, sceptics call the latest UFO wave 'pure science fiction. ' Fresh UFO file releases and a viral claim about 'four alien species' have pushed extraterrestrial conspiracy theories back into the centre of internet culture — but not everyone is buying it. As newly declassified government documents circulate online, many social media users are calling the latest wave of UFO disclosure a carefully timed distraction rather than proof of alien life. The debate intensified after physicist Hal Puthoff claimed insiders involved in alleged crash-retrieval programmes described at least four different non-human species, reviving decades-old theories about Greys, Reptilians and other extraterrestrial beings long tied to UFO folklore.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "ALIEN als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "ALIEN"
-      ],
-      "sourceQuality": 45,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "displayedAt": "2026-06-05T06:56:52Z",
-      "rssPublishedAt": "2026-05-26T07:00:00Z",
-      "rssDate": "2026-05-26",
-      "sourcePublishedAt": "2026-05-26T08:24:33Z",
-      "sourceDisplayedAt": "2026-06-05T06:56:52Z",
-      "translation": {
-        "en": {
-          "title": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping",
-          "summary": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping While believers see slow disclosure, sceptics call the latest UFO wave 'pure science fiction. ' Fresh UFO file releases and a viral claim about 'four alien species' have pushed extraterrestrial conspiracy theories back into the centre of internet culture — but not everyone is buying it. As newly declassified government documents circulate online, many social media users are calling the latest wave of UFO disclosure a carefully timed distraction rather than proof of alien life.",
-          "sourceHash": "a658a8b1cc0dd280127d91ea43e91291515db98b",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Das Internet hält die UFO-Dateien für „Ablenkungen“ und die Theorie der „vier außerirdischen Arten“ hilft nicht weiter",
-          "summary": "Das Internet denkt, die UFO-Dateien seien „Ablenkungen“ und die „4 außerirdische Arten“-Theorie hilft nicht. Während Gläubige eine langsame Offenlegung sehen, bezeichnen Skeptiker die jüngste UFO-Welle als „reine Science-Fiction“. Neue Veröffentlichungen von UFO-Dateien und eine virale Behauptung über „vier außerirdische Arten“ haben außerirdische Verschwörungstheorien wieder in den Mittelpunkt der Internetkultur gerückt – aber nicht jeder glaubt das. Während neu freigegebene Regierungsdokumente online kursieren, bezeichnen viele Social-Media-Nutzer die jüngste Welle der UFO-Enthüllungen als eine sorgfältig geplante Ablenkung und nicht als Beweis für das Leben von Außerirdischen.",
-          "sourceHash": "a658a8b1cc0dd280127d91ea43e91291515db98b",
-          "provider": "google"
-        }
-      },
       "retainedFromPreviousScan": true
     },
     {
