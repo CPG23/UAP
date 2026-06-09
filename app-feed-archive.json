@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-09T13:39:55Z",
+  "timestamp": "2026-06-09T17:40:17Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -80,94 +80,12 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025",
-      "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
-      "date": "2026-06-07",
-      "publishedAt": "2026-06-07T02:29:24Z",
-      "summary": "",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-06-07T13:17:58Z",
-          "displayedAt": "2026-06-08T07:21:01Z",
-          "isNew": true
-        }
-      ],
-      "clusterTitles": [
-        "UAP disclosure advocates set to demand transparency measures Tuesday"
-      ],
-      "quality": 70,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "sourceQuality": 70,
-      "displayedAt": "2026-06-07T02:29:24Z",
-      "rssPublishedAt": "2026-06-07T02:29:24Z",
-      "rssDate": "2026-06-07",
-      "sourcePublishedAt": "2026-06-07T02:29:24Z",
-      "sourceDisplayedAt": "2026-06-08T07:21:01Z",
-      "retainedFromPreviousScan": true
-    },
-    {
       "id": "ufo-whistleblower-and-lawmakers-aim-to-declassify-uap-files",
       "title": "UFO whistleblower and lawmakers aim to declassify UAP files",
       "source": "NewsNation",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTRqLUZpbE1pd2R6Si1rSWtVMGRQSGxXN2FRZkNFWVlSTk5XNndLUlNYUU10WGVvWUw5d2lMWGNGVzE4a0tweTI3OVZOaFFxdy1ZOTdqdlhIaUFkb3dlSVNiRy1UOUFvVFRSU0RKMjY4bmlzNzZFbno4UGJQSnE3R0xBc01ITDdZaGlXVmlUY1dMdXJVOEpTd0Zn0gGfAUFVX3lxTE9fcjJoZlNndXhQcEd3N3VBZDc5Nm10ODF2b0ZxRW5VNEgxMFRacGNlNkJpRS15MVBZZnNrY0JLejZYaVpMdGwxQlA5VV9SS1VsTGxla2FDNWV2MnZkQ2RHY3U1WGI5RGpQTGYxRnNLS3lHdzVzRHVMOHBsakZIcEdZNkZ2Sk91cENxQ0lmYUlPQlo4bHJtUEZTODdhWjlOOA?oc=5",
       "date": "2026-06-09",
-      "publishedAt": "2026-06-09T09:45:36Z",
+      "publishedAt": "2026-06-09T09:26:32Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
@@ -370,22 +288,85 @@
       "displayedAt": "2026-05-30T01:43:09Z"
     },
     {
-      "id": "film-close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026",
-      "title": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd0tCb24xOFU4N3VFWVNTejByZzVYazFRQURFbWpsMHVTTHlvVzNIdmVOenVuUk91MmNwQ3FSN1hmNzYzVUNLdk1sMS1ZUk5fS3oxN0dwRElNMzI4bkpDQ3pneTM0QWJ6Wkc3VG9XTVZ5Q1MyNHhSNnp5dVNnSG4xVkxmLU1tbl9FX0Z4cEFiMWVpQ0F5cmNGRk13?oc=5",
-      "date": "2026-06-03",
-      "publishedAt": "2026-06-03T11:00:00Z",
-      "summary": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026 Steven Spielberg's 1977 classic tapped into anxieties about the US government hiding UFO information from the public. When trailers for Steven Spielberg's Disclosure Day confirmed that it deals with extraterrestrials, the internet exploded with speculation that it was a sequel to his 1977 classic, Close Encounters of the Third Kind. The guesswork became so rampant that the press notes for the new film cheekily announce it is \"not a sequel to Close Encounters (sorry, internet)\". Emily Blunt, one of Disclosure Day's stars, has described it as resembling \"a third act\" along with Close Encounters and ET The Extra-Terrestrial (1982).",
+      "id": "ufo-whistleblower-david-grusch-returns-to-capitol-hill-tuesday",
+      "title": "UFO Whistleblower David Grusch Returns to Capitol Hill Tuesday",
+      "source": "LAmag",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQazY0amRSdFNTUUE5TG5Eb2NoN1FtZkZNY3djUGRKS3lxWS05OFFIUGY1Y0ZscjI0eC1ZQV90OFJUOEx2aUVUSGR6Z3JXLWZMRndKY3lYX2pMZ0MxN3JMNWRucHRQZFFHdUZJOUxRRnlZYlI0UlFzcWdBNnpQNDZMc0lrckdXRERIYTZ4ZE5pcTBMaUV5?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T14:32:37Z",
+      "summary": "The man who ignited one of the biggest UFO firestorms in modern history is heading back to Capitol Hill, and he’s demanding action. David Grusch, the former intelligence officer whose explosive testimony about alleged secret UFO retrieval and reverse-engineering programs stunned Congress in 2023, is set to appear in Washington, D. Grusch will speak alongside a bipartisan group of lawmakers calling for the public release of what’s believed to be detailed, hidden government records involving unidentified anomalous phenomena, or UAPs. The press conference will focus on a major push for government transparency on UFOs and possible non-human intelligence.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 49,
+      "quality": 56,
       "qualityBreakdown": [
         {
           "label": "Basis",
           "points": 27,
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "WHISTLEBLOWER"
+      ],
+      "sourceQuality": 56,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-06-09T17:40:17Z"
+    },
+    {
+      "id": "close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026",
+      "title": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd0tCb24xOFU4N3VFWVNTejByZzVYazFRQURFbWpsMHVTTHlvVzNIdmVOenVuUk91MmNwQ3FSN1hmNzYzVUNLdk1sMS1ZUk5fS3oxN0dwRElNMzI4bkpDQ3pneTM0QWJ6Wkc3VG9XTVZ5Q1MyNHhSNnp5dVNnSG4xVkxmLU1tbl9FX0Z4cEFiMWVpQ0F5cmNGRk13?oc=5",
+      "date": "2026-05-30",
+      "publishedAt": "2026-06-03T11:00:00Z",
+      "summary": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026 Steven Spielberg's 1977 classic tapped into anxieties about the US government hiding UFO information from the public. When trailers for Steven Spielberg's Disclosure Day confirmed that it deals with extraterrestrials, the internet exploded with speculation that it was a sequel to his 1977 classic, Close Encounters of the Third Kind. The guesswork became so rampant that the press notes for the new film cheekily announce it is \"not a sequel to Close Encounters (sorry, internet)\". Emily Blunt, one of Disclosure Day's stars, has described it as resembling \"a third act\" along with Close Encounters and ET The Extra-Terrestrial (1982).",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 54,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "TRUMP als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
           "label": "Quelle",
@@ -399,8 +380,12 @@
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 49,
+      "matchedTerms": [
+        "disclosure",
+        "released",
+        "website"
+      ],
+      "sourceQuality": 54,
       "displayedAt": "2026-06-04T07:13:41Z"
     },
     {
