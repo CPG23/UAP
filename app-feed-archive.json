@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-08T14:43:30Z",
+  "timestamp": "2026-06-09T06:38:44Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -94,7 +94,9 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
           "source": "NewsNation",
-          "publishedAt": "2026-06-07T13:17:58Z"
+          "publishedAt": "2026-06-07T13:17:58Z",
+          "displayedAt": "2026-06-08T07:21:01Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
@@ -152,7 +154,7 @@
         "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
       },
       "sourceQuality": 70,
-      "displayedAt": "2026-06-08T14:43:30Z"
+      "displayedAt": "2026-06-07T02:29:24Z"
     },
     {
       "id": "film-bone-chilling-preview-released-for-steven-spielberg-s-highly-anticipated-ufo-movie-disclosure-day",
@@ -617,8 +619,27 @@
       ],
       "sourceQuality": 45,
       "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-06-05T06:56:52Z"
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-06-05T06:56:52Z",
+      "rssPublishedAt": "2026-05-26T07:00:00Z",
+      "rssDate": "2026-05-26",
+      "sourcePublishedAt": "2026-05-26T08:24:33Z",
+      "sourceDisplayedAt": "2026-06-05T06:56:52Z",
+      "translation": {
+        "en": {
+          "title": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping",
+          "summary": "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping While believers see slow disclosure, sceptics call the latest UFO wave 'pure science fiction. ' Fresh UFO file releases and a viral claim about 'four alien species' have pushed extraterrestrial conspiracy theories back into the centre of internet culture — but not everyone is buying it. As newly declassified government documents circulate online, many social media users are calling the latest wave of UFO disclosure a carefully timed distraction rather than proof of alien life.",
+          "sourceHash": "a658a8b1cc0dd280127d91ea43e91291515db98b",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Das Internet hält die UFO-Dateien für „Ablenkungen“ und die Theorie der „vier außerirdischen Arten“ hilft nicht weiter",
+          "summary": "Das Internet denkt, die UFO-Dateien seien „Ablenkungen“ und die „4 außerirdische Arten“-Theorie hilft nicht. Während Gläubige eine langsame Offenlegung sehen, bezeichnen Skeptiker die jüngste UFO-Welle als „reine Science-Fiction“. Neue Veröffentlichungen von UFO-Dateien und eine virale Behauptung über „vier außerirdische Arten“ haben außerirdische Verschwörungstheorien wieder in den Mittelpunkt der Internetkultur gerückt – aber nicht jeder glaubt das. Während neu freigegebene Regierungsdokumente online kursieren, bezeichnen viele Social-Media-Nutzer die jüngste Welle der UFO-Enthüllungen als eine sorgfältig geplante Ablenkung und nicht als Beweis für das Leben von Außerirdischen.",
+          "sourceHash": "a658a8b1cc0dd280127d91ea43e91291515db98b",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-influencer-reports-alleged-ufo-sighting-in-paran-goes-viral-with-millions-of-views-and-says-he-lives-between-fascination-and-fear-after-mysterious-phenomenon",

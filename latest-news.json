@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-08T14:43:30Z",
+  "timestamp": "2026-06-09T06:38:44Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -208,7 +208,7 @@
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
@@ -692,7 +692,7 @@
         },
         "de": {
           "title": "Jeremy Corbell gibt UFO-Warnung heraus: Veröffentlichung von Reverse-Engineering- und nicht-humanen Biologika-Dateien – oder ich werde es tun",
-          "summary": "Von Samuel López | USA Herald Der Krieg um die UFO-Geheimhaltung der Regierung könnte in seine bisher explosivste Phase eintreten. Der investigative Filmemacher Jeremy Corbell hat herausgebracht, was viele als direkte Herausforderung an die US-Regierung interpretieren: Entweder er beginnt mit der Offenlegung dessen, was die Beamten über angebliche UFO-Absturz-Bergungsprogramme, Reverse-Engineering-Bemühungen und nichtmenschliche Biologika wissen – oder Jeremy Corbell warnt davor, dass er Hunderte von UFO-Dateien veröffentlichen könnte, wenn die Regierung es versäumt, auf Reverse Engineering, nichtmenschliche Kunsthandwerk und Biologika-Behauptungen einzugehen.",
+          "summary": "Von Samuel López | USA Herald Der Krieg um die UFO-Geheimhaltung der Regierung könnte in seine bisher explosivste Phase eintreten. Der investigative Filmemacher Jeremy Corbell hat herausgebracht, was viele als direkte Herausforderung an die US-Regierung interpretieren: Entweder er beginnt mit der Offenlegung dessen, was die Beamten über angebliche UFO-Absturz-Bergungsprogramme, Reverse-Engineering-Bemühungen und nicht-menschliche Biologika wissen – oder Jeremy Corbell warnt davor, dass er Hunderte von UFO-Dateien veröffentlichen könnte, wenn die Regierung es versäumt, auf Reverse Engineering-, nicht-menschliche Kunsthandwerk- und Biologika-Behauptungen einzugehen.",
           "sourceHash": "c766511098b0677934469ff3da4432bd791c52bd",
           "provider": "google"
         }
@@ -820,7 +820,7 @@
           "provider": "original"
         },
         "de": {
-          "title": "Der mit UFOs verbundene General William Neil McCasland traf sich wenige Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
+          "title": "Der mit UFOs verbundene General William Neil McCasland traf sich Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
           "summary": "Der pensionierte Generalmajor der US-Luftwaffe, William Neil McCasland, 68, wurde am 27. Februar 2026 in seinem Haus in Albuquerque als vermisst gemeldet. Von Law & Crime erhaltene Bodycam-Aufnahmen zeigen, dass McCasland an einem Abendessen mit US-Amerikanern teilnahm.",
           "sourceHash": "2cd2e1a990037001c8fa1878bbc1312bcb3c3dea",
           "provider": "google"
@@ -946,7 +946,8 @@
           "sourceHash": "a658a8b1cc0dd280127d91ea43e91291515db98b",
           "provider": "google"
         }
-      }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-influencer-reports-alleged-ufo-sighting-in-paran-goes-viral-with-millions-of-views-and-says-he-lives-between-fascination-and-fear-after-mysterious-phenomenon",
@@ -1139,16 +1140,16 @@
     "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena. All of Thursday’s programming is free and open to the public. One‑day and five‑day passes are available at contactinthedesert.com."
   },
   "notificationBatch": {
-    "timestamp": "2026-06-08T14:43:30Z",
+    "timestamp": "2026-06-09T06:38:44Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 383,
-    "broadTopics": 173,
-    "notificationArticles": 0,
-    "notificationTopics": 0,
-    "newNotificationTopics": 0,
+    "broadArticles": 367,
+    "broadTopics": 171,
+    "notificationArticles": 1,
+    "notificationTopics": 1,
+    "newNotificationTopics": 1,
     "appTopics": 16,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -1156,7 +1157,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 6,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 9,
+    "regroupedTopics": 8,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -1190,14 +1191,14 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 16,
-      "outputArticles": 13,
-      "preservedSourceSummaries": 10
+      "inputArticles": 15,
+      "outputArticles": 12,
+      "preservedSourceSummaries": 9
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 13,
-      "outputArticles": 13,
+      "inputArticles": 12,
+      "outputArticles": 12,
       "missingSummaries": 3,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
@@ -1226,23 +1227,23 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 11,
-      "outputArticles": 11,
+      "inputArticles": 10,
+      "outputArticles": 10,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 11,
+      "inputArticles": 10,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 16,
-      "currentBeforeRestore": 11,
-      "restoredArticles": 5,
+      "currentBeforeRestore": 10,
+      "restoredArticles": 6,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
@@ -1251,6 +1252,7 @@
         "Bone-chilling preview released for Steven Spielberg's highly anticipated UFO movie 'Disclosure Day'",
         "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know",
         "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
+        "Internet Thinks the UFO Files Are 'Distractions' And '4 Alien Species' Theory Isn't Helping",
         "Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens"
       ]
     },
@@ -1264,13 +1266,13 @@
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
       "checkedSources": 37,
-      "updatedSources": 11,
+      "updatedSources": 10,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 16,
-      "newSources": 0
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -1297,7 +1299,7 @@
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }
@@ -1381,7 +1383,7 @@
       },
       "de": {
         "title": "Jeremy Corbell gibt UFO-Warnung heraus: Veröffentlichung von Reverse-Engineering- und nicht-humanen Biologika-Dateien – oder ich werde es tun",
-        "summary": "Von Samuel López | USA Herald Der Krieg um die UFO-Geheimhaltung der Regierung könnte in seine bisher explosivste Phase eintreten. Der investigative Filmemacher Jeremy Corbell hat herausgebracht, was viele als direkte Herausforderung an die US-Regierung interpretieren: Entweder er beginnt mit der Offenlegung dessen, was die Beamten über angebliche UFO-Absturz-Bergungsprogramme, Reverse-Engineering-Bemühungen und nichtmenschliche Biologika wissen – oder Jeremy Corbell warnt davor, dass er Hunderte von UFO-Dateien veröffentlichen könnte, wenn die Regierung es versäumt, auf Reverse Engineering, nichtmenschliche Kunsthandwerk und Biologika-Behauptungen einzugehen.",
+        "summary": "Von Samuel López | USA Herald Der Krieg um die UFO-Geheimhaltung der Regierung könnte in seine bisher explosivste Phase eintreten. Der investigative Filmemacher Jeremy Corbell hat herausgebracht, was viele als direkte Herausforderung an die US-Regierung interpretieren: Entweder er beginnt mit der Offenlegung dessen, was die Beamten über angebliche UFO-Absturz-Bergungsprogramme, Reverse-Engineering-Bemühungen und nicht-menschliche Biologika wissen – oder Jeremy Corbell warnt davor, dass er Hunderte von UFO-Dateien veröffentlichen könnte, wenn die Regierung es versäumt, auf Reverse Engineering-, nicht-menschliche Kunsthandwerk- und Biologika-Behauptungen einzugehen.",
         "sourceHash": "c766511098b0677934469ff3da4432bd791c52bd",
         "provider": "google"
       }
@@ -1408,7 +1410,7 @@
         "provider": "original"
       },
       "de": {
-        "title": "Der mit UFOs verbundene General William Neil McCasland traf sich wenige Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
+        "title": "Der mit UFOs verbundene General William Neil McCasland traf sich Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
         "summary": "Der pensionierte Generalmajor der US-Luftwaffe, William Neil McCasland, 68, wurde am 27. Februar 2026 in seinem Haus in Albuquerque als vermisst gemeldet. Von Law & Crime erhaltene Bodycam-Aufnahmen zeigen, dass McCasland an einem Abendessen mit US-Amerikanern teilnahm.",
         "sourceHash": "2cd2e1a990037001c8fa1878bbc1312bcb3c3dea",
         "provider": "google"
