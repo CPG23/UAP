@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "3 neue Artikel",
+  "message": "──────────────\nUFO push for disclosure shattering greatest cover-up in US history: Expert\n──────────────\nUFO Whistleblower David Grusch Says Pentagon Insiders Are Too Afraid to Talk\n──────────────\nDavid Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
