@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-09T17:40:17Z",
+  "timestamp": "2026-06-10T05:40:03Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -80,16 +80,101 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "ufo-whistleblower-and-lawmakers-aim-to-declassify-uap-files",
-      "title": "UFO whistleblower and lawmakers aim to declassify UAP files",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTRqLUZpbE1pd2R6Si1rSWtVMGRQSGxXN2FRZkNFWVlSTk5XNndLUlNYUU10WGVvWUw5d2lMWGNGVzE4a0tweTI3OVZOaFFxdy1ZOTdqdlhIaUFkb3dlSVNiRy1UOUFvVFRSU0RKMjY4bmlzNzZFbno4UGJQSnE3R0xBc01ITDdZaGlXVmlUY1dMdXJVOEpTd0Zn0gGfAUFVX3lxTE9fcjJoZlNndXhQcEd3N3VBZDc5Nm10ODF2b0ZxRW5VNEgxMFRacGNlNkJpRS15MVBZZnNrY0JLejZYaVpMdGwxQlA5VV9SS1VsTGxla2FDNWV2MnZkQ2RHY3U1WGI5RGpQTGYxRnNLS3lHdzVzRHVMOHBsakZIcEdZNkZ2Sk91cENxQ0lmYUlPQlo4bHJtUEZTODdhWjlOOA?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-09T09:26:32Z",
+      "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025",
+      "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
+      "date": "2026-06-07",
+      "publishedAt": "2026-06-07T02:29:24Z",
       "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
+          "source": "NewsNation",
+          "publishedAt": "2026-06-09T16:31:09Z"
+        }
+      ],
+      "clusterTitles": [
+        "UAP disclosure advocates set to demand transparency measures Tuesday"
+      ],
+      "quality": 70,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "disclosure"
+      ],
+      "sourceQuality": 70,
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "displayedAt": "2026-06-10T05:40:03Z"
+    },
+    {
+      "id": "ufo-whistleblower-and-lawmakers-aim-to-declassify-uap-files-2026-justice-iustitia-bg-2025",
+      "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
+      "date": "2026-06-07",
+      "publishedAt": "2026-06-09T08:20:08Z",
+      "summary": "",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "UFO whistleblower and lawmakers aim to declassify UAP files",
+          "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTRqLUZpbE1pd2R6Si1rSWtVMGRQSGxXN2FRZkNFWVlSTk5XNndLUlNYUU10WGVvWUw5d2lMWGNGVzE4a0tweTI3OVZOaFFxdy1ZOTdqdlhIaUFkb3dlSVNiRy1UOUFvVFRSU0RKMjY4bmlzNzZFbno4UGJQSnE3R0xBc01ITDdZaGlXVmlUY1dMdXJVOEpTd0Zn0gGfAUFVX3lxTE9fcjJoZlNndXhQcEd3N3VBZDc5Nm10ODF2b0ZxRW5VNEgxMFRacGNlNkJpRS15MVBZZnNrY0JLejZYaVpMdGwxQlA5VV9SS1VsTGxla2FDNWV2MnZkQ2RHY3U1WGI5RGpQTGYxRnNLS3lHdzVzRHVMOHBsakZIcEdZNkZ2Sk91cENxQ0lmYUlPQlo4bHJtUEZTODdhWjlOOA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTRqLUZpbE1pd2R6Si1rSWtVMGRQSGxXN2FRZkNFWVlSTk5XNndLUlNYUU10WGVvWUw5d2lMWGNGVzE4a0tweTI3OVZOaFFxdy1ZOTdqdlhIaUFkb3dlSVNiRy1UOUFvVFRSU0RKMjY4bmlzNzZFbno4UGJQSnE3R0xBc01ITDdZaGlXVmlUY1dMdXJVOEpTd0Zn0gGfAUFVX3lxTE9fcjJoZlNndXhQcEd3N3VBZDc5Nm10ODF2b0ZxRW5VNEgxMFRacGNlNkJpRS15MVBZZnNrY0JLejZYaVpMdGwxQlA5VV9SS1VsTGxla2FDNWV2MnZkQ2RHY3U1WGI5RGpQTGYxRnNLS3lHdzVzRHVMOHBsakZIcEdZNkZ2Sk91cENxQ0lmYUlPQlo4bHJtUEZTODdhWjlOOA?oc=5",
+          "publishedAt": "2026-06-09T09:26:32Z"
+        }
+      ],
+      "clusterTitles": [
+        "UFO whistleblower and lawmakers aim to declassify UAP files"
+      ],
       "quality": 65,
       "qualityBreakdown": [
         {
@@ -100,12 +185,12 @@
         {
           "label": "Begriffe",
           "points": 3,
-          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
           "points": 4,
-          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
@@ -130,14 +215,18 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "WHISTLEBLOWER"
+        "declassified",
+        "files",
+        "government"
       ],
+      "sourceQuality": 65,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-06-10T05:40:03Z",
       "summaryStatus": {
         "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "sourceQuality": 65,
-      "displayedAt": "2026-06-09T13:39:55Z"
+        "message": "Keine verlaessliche Zusammenfassung verfuegbar. GitHub versucht beim naechsten Scan automatisch, diese zu ergaenzen."
+      }
     },
     {
       "id": "film-bone-chilling-preview-released-for-steven-spielberg-s-highly-anticipated-ufo-movie-disclosure-day",
@@ -288,7 +377,7 @@
       "displayedAt": "2026-05-30T01:43:09Z"
     },
     {
-      "id": "ufo-whistleblower-david-grusch-returns-to-capitol-hill-tuesday",
+      "id": "file-release-ufo-whistleblower-david-grusch-returns-to-capitol-hill-tuesday",
       "title": "UFO Whistleblower David Grusch Returns to Capitol Hill Tuesday",
       "source": "LAmag",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQazY0amRSdFNTUUE5TG5Eb2NoN1FtZkZNY3djUGRKS3lxWS05OFFIUGY1Y0ZscjI0eC1ZQV90OFJUOEx2aUVUSGR6Z3JXLWZMRndKY3lYX2pMZ0MxN3JMNWRucHRQZFFHdUZJOUxRRnlZYlI0UlFzcWdBNnpQNDZMc0lrckdXRERIYTZ4ZE5pcTBMaUV5?oc=5",
@@ -336,9 +425,60 @@
         "WHISTLEBLOWER"
       ],
       "sourceQuality": 56,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-06-09T17:40:17Z"
+    },
+    {
+      "id": "lawmakers-want-ufo-whistleblowers-to-have-immunity",
+      "title": "Lawmakers want UFO whistleblowers to have immunity",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T20:28:58Z",
+      "summary": "",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
+          "publishedAt": "2026-06-09T18:44:52Z"
+        }
+      ],
+      "clusterTitles": [
+        "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025"
+      ],
+      "quality": 54,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "sourceQuality": 54,
+      "displayedAt": "2026-06-10T05:40:03Z"
     },
     {
       "id": "close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026",
@@ -389,6 +529,44 @@
       "displayedAt": "2026-06-04T07:13:41Z"
     },
     {
+      "id": "your-morning-ufo-whistleblowers-demand-transparency",
+      "title": "Your Morning: UFO whistleblowers demand transparency",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjFuQkFTSDFudjVuVk5WRTctZ0NQWmZRNWlOeVlCNWZjckVhTnJYZzBqOC1ZbDNoczlLUUhDVXkxdE5fMWVFWnByNm14Z1k5S1FtdXdJaWxDbkt1TjNvMjNycE1mcDZUVVdRMExUbVoyUkx4dE96enYtQ1NkeTFtZjRtLWVERGtKcWfSAY8BQVVfeXFMTnI3VTZia0NJSTZwZFR4dkh6UUlxRE15QUhaMGlJR1lSVWNjWUgzbnlOaHZjdUc0UDM4ekNRWVlPN1dZS2F5czFqQUJlSjFpRFczVzFTY1Eza0tFZ09NMWRZVTZqVzZBbm16Tnpvazl6SHZFcWhDTkRMel9IQ1p3YXFxT1hsdWpocXhTVjlUNFk?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T12:23:43Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 49,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "sourceQuality": 49,
+      "displayedAt": "2026-06-10T05:40:03Z"
+    },
+    {
       "id": "mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930",
       "title": "MITRE moves to comply with lawmaker’s request for UAP records and assets dating back to 1930",
       "source": "DefenseScoop",
@@ -420,7 +598,26 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 49,
-      "displayedAt": "2026-05-30T12:01:38Z"
+      "displayedAt": "2026-05-30T12:01:38Z",
+      "rssPublishedAt": "2026-05-27T20:25:07Z",
+      "rssDate": "2026-05-27",
+      "sourcePublishedAt": "2026-05-27T20:22:30Z",
+      "sourceDisplayedAt": "2026-05-30T12:01:38Z",
+      "translation": {
+        "en": {
+          "title": "MITRE moves to comply with lawmaker’s request for UAP records and assets dating back to 1930",
+          "summary": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work.",
+          "sourceHash": "0b0b505182b773c6d362923ae7f0c4bf105c9b27",
+          "provider": "original"
+        },
+        "de": {
+          "title": "MITRE kommt der Forderung des Gesetzgebers nach UAP-Aufzeichnungen und Vermögenswerten aus dem Jahr 1930 nach",
+          "summary": "Die MITRE Corporation überprüft ihre Archive, um einer Anfrage des Abgeordneten Eric Burlison nach UAP-Aufzeichnungen aus dem Jahr 1930 nachzukommen und herauszufinden, ob die Organisation jemals Informationen über nicht identifizierte anomale Phänomene besessen oder verarbeitet hat. In der Anfrage, die mehr als 40 spezifische Datenanfragen und Anweisungen zur Benennung eines hochrangigen Beamten, zur Ausstellung einer Aufbewahrungssperre und zur Übermittlung nicht klassifizierter Unterlagen innerhalb von 45 Tagen umfasst, werden auch Unterlagen gefordert, die große Verteidigungsunternehmen und UAP-bezogene Arbeiten betreffen.",
+          "sourceHash": "0b0b505182b773c6d362923ae7f0c4bf105c9b27",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "feds-investigate-after-minnesota-police-officer-says-they-saw-a-ufo",
@@ -458,7 +655,12 @@
         "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
       },
       "sourceQuality": 49,
-      "displayedAt": "2026-06-09T13:39:55Z"
+      "displayedAt": "2026-06-09T13:39:55Z",
+      "rssPublishedAt": "2026-05-27T07:00:00Z",
+      "rssDate": "2026-05-27",
+      "sourcePublishedAt": "2026-05-28T03:21:00Z",
+      "sourceDisplayedAt": "2026-06-09T13:39:55Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "file-release-jeremy-corbell-issues-ufo-warning-release-reverse-engineering-and-non-human-biologics-files-or-i-will",
@@ -605,7 +807,26 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 45,
-      "displayedAt": "2026-05-31T18:11:26Z"
+      "displayedAt": "2026-05-31T18:11:26Z",
+      "rssPublishedAt": "2026-05-27T17:29:17Z",
+      "rssDate": "2026-05-27",
+      "sourcePublishedAt": "2026-05-27T17:29:17Z",
+      "sourceDisplayedAt": "2026-05-31T18:11:26Z",
+      "translation": {
+        "en": {
+          "title": "UFO-Linked General William Neil McCasland Met US Space Force Personnel Hours Before Disappearance, Audio",
+          "summary": "Retired U.S. Air Force Major General William Neil McCasland, 68, was reported missing on February 27, 2026 from his Albuquerque home. Body‑cam audio obtained by Law & Crime shows McCasland attended a dinner with U.S.",
+          "sourceHash": "2cd2e1a990037001c8fa1878bbc1312bcb3c3dea",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Der mit UFOs verbundene General William Neil McCasland traf sich Stunden vor seinem Verschwinden mit Personal der US-Raumstreitkräfte, Audio",
+          "summary": "Der pensionierte Generalmajor der US-Luftwaffe, William Neil McCasland, 68, wurde am 27. Februar 2026 in seinem Haus in Albuquerque als vermisst gemeldet. Von Law & Crime erhaltene Bodycam-Aufnahmen zeigen, dass McCasland an einem Abendessen mit US-Amerikanern teilnahm.",
+          "sourceHash": "2cd2e1a990037001c8fa1878bbc1312bcb3c3dea",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "program-whistleblower-claims-cia-used-dna-data-from-ancestry-and-23andme-customers-in-search-for-aliens",
