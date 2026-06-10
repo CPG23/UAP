@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-10T06:56:24Z",
+  "timestamp": "2026-06-10T09:19:52Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -183,7 +183,7 @@
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
@@ -267,6 +267,96 @@
       "retainedFromPreviousScan": true
     },
     {
+      "id": "ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs",
+      "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
+      "source": "Washington Examiner",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTDViT3dLSEphWnJjM1lQRlJWaHRYVGRGMFp5T1RNYTlyZ1NOVFJ3ODlqYk5rNUc1b2VvX25Ldk5aTmpUNVRNU0o5X3BZdXgwT1NLMncxR3RHbkUtUnhlYlNnV1FmVFhSdktyTmVnYWZNczhqaWFPQXVSUXRiem5tWC1LZHB3a1NaWWYtMkpjelZabkxpekJUeFpqQWxnVHpRbXlN?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T20:50:00Z",
+      "summary": "The man who ignited one of the biggest UFO firestorms in modern history is heading back to Capitol Hill, and he’s demanding action. David Grusch, the former intelligence officer whose explosive testimony about alleged secret UFO retrieval and reverse-engineering programs stunned Congress in 2023, is set to appear in Washington, D. Grusch will speak alongside a bipartisan group of lawmakers calling for the public release of what’s believed to be detailed, hidden government records involving unidentified anomalous phenomena, or UAPs. The press conference will focus on a major push for government transparency on UFOs and possible non-human intelligence.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "UFO Whistleblower David Grusch Returns to Capitol Hill Tuesday",
+          "source": "LAmag",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQazY0amRSdFNTUUE5TG5Eb2NoN1FtZkZNY3djUGRKS3lxWS05OFFIUGY1Y0ZscjI0eC1ZQV90OFJUOEx2aUVUSGR6Z3JXLWZMRndKY3lYX2pMZ0MxN3JMNWRucHRQZFFHdUZJOUxRRnlZYlI0UlFzcWdBNnpQNDZMc0lrckdXRERIYTZ4ZE5pcTBMaUV5?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQazY0amRSdFNTUUE5TG5Eb2NoN1FtZkZNY3djUGRKS3lxWS05OFFIUGY1Y0ZscjI0eC1ZQV90OFJUOEx2aUVUSGR6Z3JXLWZMRndKY3lYX2pMZ0MxN3JMNWRucHRQZFFHdUZJOUxRRnlZYlI0UlFzcWdBNnpQNDZMc0lrckdXRERIYTZ4ZE5pcTBMaUV5?oc=5",
+          "publishedAt": "2026-06-09T14:32:37Z",
+          "rssPublishedAt": "2026-06-09T14:32:37Z",
+          "sourcePublishedAt": "2026-06-09T14:32:29Z",
+          "displayedAt": "2026-06-09T17:40:17Z",
+          "isNew": true
+        }
+      ],
+      "clusterTitles": [
+        "UFO Whistleblower David Grusch Returns to Capitol Hill Tuesday"
+      ],
+      "quality": 70,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "CLASSIFIED, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "CLASSIFIED, WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "CLASSIFIED",
+        "WHISTLEBLOWER"
+      ],
+      "sourceQuality": 70,
+      "displayedAt": "2026-06-10T06:56:24Z",
+      "translation": {
+        "en": {
+          "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
+          "summary": "The man who ignited one of the biggest UFO firestorms in modern history is heading back to Capitol Hill, and he’s demanding action. David Grusch, the former intelligence officer whose explosive testimony about alleged secret UFO retrieval and reverse-engineering programs stunned Congress in 2023, is set to appear in Washington, D. Grusch will speak alongside a bipartisan group of lawmakers calling for the public release of what’s believed to be detailed, hidden government records involving unidentified anomalous phenomena, or UAPs.",
+          "sourceHash": "5183ff77b262cf4866bca8827313078eaf9aa858",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UFO-Whistleblower drängt Vance, angebliche Milliarden von „schwarzen Geldern“ des Bundes zu untersuchen, die mit geheimen Programmen in Zusammenhang stehen",
+          "summary": "Der Mann, der einen der größten UFO-Feuerstürme der modernen Geschichte entfacht hat, kehrt zum Capitol Hill zurück und fordert Maßnahmen. David Grusch, der ehemalige Geheimdienstoffizier, dessen explosive Aussage über angebliche geheime UFO-Bergungs- und Reverse-Engineering-Programme den Kongress im Jahr 2023 verblüffte, wird voraussichtlich in Washington erscheinen. D. Grusch wird zusammen mit einer überparteilichen Gruppe von Gesetzgebern sprechen, die die öffentliche Veröffentlichung von vermutlich detaillierten, versteckten Regierungsaufzeichnungen über nicht identifizierte anomale Phänomene oder UAPs fordern.",
+          "sourceHash": "5183ff77b262cf4866bca8827313078eaf9aa858",
+          "provider": "google"
+        }
+      },
+      "rssPublishedAt": "2026-06-09T20:50:00Z",
+      "rssDate": "2026-06-09",
+      "sourcePublishedAt": "2026-06-09T20:50:52Z",
+      "sourceDisplayedAt": "2026-06-10T06:56:24Z",
+      "sourceIsNew": true
+    },
+    {
       "id": "ufo-whistleblower-and-lawmakers-aim-to-declassify-uap-files-2026-justice-iustitia-bg-2025",
       "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
       "source": "iustitia.bg",
@@ -343,7 +433,6 @@
       "summaryPolicy": "source_page_article_text",
       "displayedAt": "2026-06-10T05:40:03Z",
       "sourceDisplayedAt": "2026-06-10T05:40:03Z",
-      "sourceIsNew": true,
       "translation": {
         "de": {
           "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
@@ -357,112 +446,21 @@
           "sourceHash": "922c64e0dbbe3d27437fca28bed6011eb4360fdb",
           "provider": "google"
         }
-      }
-    },
-    {
-      "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025",
-      "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-07T02:29:24Z",
-      "summary": "Lawmakers called for the release of specific records, including those related to the 1996 Varginha incident in Brazil. com/space/ufo/lawmakers-ufo-whistleblowers-immunity/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
-      "mentions": 5,
-      "otherSources": [
-        {
-          "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
-          "publishedAt": "2026-06-09T18:44:52Z",
-          "rssPublishedAt": "2026-06-09T18:44:52Z",
-          "sourcePublishedAt": "2026-06-09T18:44:52Z",
-          "displayedAt": "2026-06-10T05:40:03Z",
-          "isNew": true
-        },
-        {
-          "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-06-09T16:31:09Z",
-          "displayedAt": "2026-06-09T16:31:09Z"
-        },
-        {
-          "title": "Lawmakers want UFO whistleblowers to have immunity",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-          "publishedAt": "2026-06-09T20:28:58Z",
-          "displayedAt": "2026-06-10T05:40:03Z",
-          "isNew": true
-        },
-        {
-          "title": "Lawmakers and whistleblowers to demand UFO evidence release June 9",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNbEgxMlU5bG1HYi1HbUxmVkpsdGRRaF91Q2lwQkZ6UDJDcGZHZVJPdHAwd0E4c2xXdndWLTNmLUFYQ1NOT3U0TmVOTWdaYVlVZTlIWGtqZ0pYTmQ3MWxPclVjMk8zbVFTY3dkeUVoOFNnYlhkeGVuTU9FdTdOMndPMjNvbVNHOUdwUlR1YmJoOXB4eXgxWm1PdlA5ZnIzM1BJcktvZDdPb2drWmlmT1ZkNXhXSVNaa09LRDRyckNZZ09PaktRVE1iTWpzcVdiZ0FkQk9aRG9aWUVfd3Z0U0Q3REUwRWpLRHVBMkFybkVFcnZzbnpWaGFvY240aWQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNbEgxMlU5bG1HYi1HbUxmVkpsdGRRaF91Q2lwQkZ6UDJDcGZHZVJPdHAwd0E4c2xXdndWLTNmLUFYQ1NOT3U0TmVOTWdaYVlVZTlIWGtqZ0pYTmQ3MWxPclVjMk8zbVFTY3dkeUVoOFNnYlhkeGVuTU9FdTdOMndPMjNvbVNHOUdwUlR1YmJoOXB4eXgxWm1PdlA5ZnIzM1BJcktvZDdPb2drWmlmT1ZkNXhXSVNaa09LRDRyckNZZ09PaktRVE1iTWpzcVdiZ0FkQk9aRG9aWUVfd3Z0U0Q3REUwRWpLRHVBMkFybkVFcnZzbnpWaGFvY240aWQ?oc=5",
-          "publishedAt": "2026-05-29T18:46:43Z",
-          "displayedAt": "2026-05-29T18:46:43Z"
-        }
-      ],
-      "clusterTitles": [
-        "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "UAP disclosure advocates set to demand transparency measures Tuesday",
-        "Lawmakers want UFO whistleblowers to have immunity",
-        "Lawmakers and whistleblowers to demand UFO evidence release June 9"
-      ],
-      "quality": 69,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 20,
-          "text": "5 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 69,
-      "displayedAt": "2026-06-07T02:29:24Z",
-      "translation": {
-        "en": {
-          "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "summary": "Lawmakers called for the release of specific records, including those related to the 1996 Varginha incident in Brazil. com/space/ufo/lawmakers-ufo-whistleblowers-immunity/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
-          "sourceHash": "e10476ac2cccb284892f17b4d56578d214cbb385",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Befürworter der UAP-Offenlegung werden am Dienstag 2026 Transparenzmaßnahmen fordern | GERECHTIGKEIT - IUSTITIA.BG 2025",
-          "summary": "Der Gesetzgeber forderte die Veröffentlichung spezifischer Aufzeichnungen, darunter auch derjenigen im Zusammenhang mit dem Varginha-Vorfall 1996 in Brasilien. com/space/ufo/lawmakers-ufo-whistleblowers-immunity/ Neueste Nachrichten Weltnachrichten Ländernachrichten Wichtigste Nachrichten Neueste Nachrichten Wichtigstes Neueste des Tages Gerechtigkeit Petar Nizamov Federn Petar Nizamov- Federn Gerechtigkeit bg iustitia.",
-          "sourceHash": "e10476ac2cccb284892f17b4d56578d214cbb385",
-          "provider": "google"
-        }
       },
-      "sourceDisplayedAt": "2026-06-07T02:29:24Z"
+      "retainedFromPreviousScan": true,
+      "rssPublishedAt": "2026-06-09T08:20:08Z",
+      "rssDate": "2026-06-07",
+      "sourcePublishedAt": "2026-06-09T08:20:08Z",
+      "sourceIsNew": true
     },
     {
-      "id": "ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs",
-      "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
-      "source": "Washington Examiner",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTDViT3dLSEphWnJjM1lQRlJWaHRYVGRGMFp5T1RNYTlyZ1NOVFJ3ODlqYk5rNUc1b2VvX25Ldk5aTmpUNVRNU0o5X3BZdXgwT1NLMncxR3RHbkUtUnhlYlNnV1FmVFhSdktyTmVnYWZNczhqaWFPQXVSUXRiem5tWC1LZHB3a1NaWWYtMkpjelZabkxpekJUeFpqQWxnVHpRbXlN?oc=5",
+      "id": "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb",
+      "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
+      "source": "Avi Loeb – Medium",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlISTA4clhQRVV1SzQ2UGxENm8wck12NkVrN3pjcDYxRC11eDI3U2ZKM2xOUjVBT18ydEdvVDJnRmt6ZmtUcGVzRjloZ1B2dnlJTVRuVkhwdWVJRVpCRnIwMG5halpGcVRGSmRRS3hNc3BzQjlrUWt2QzZjVnhJMVE1Nk5RWGlab29FdThPN3pSTFI4eE81THlmWmVDd3RKUjVLWVgxVkxwQk5VLUE?oc=5",
       "date": "2026-06-09",
-      "publishedAt": "2026-06-09T20:50:00Z",
-      "summary": "UFO Whistleblower David Grusch on Tuesday suggested the White House should investigate billions of dollars he suggested are being funneled to secret programs operated by the federal government. Grusch, a former intelligence officer who gave NewsNation his first on-the-record interview as a whistleblower in 2023, before testifying to Congress, claimed there are massive “slush funds” tied to UFO programs, including allegedly classified UFO crash‑retrieval initiatives largely shielded from Congress and the public. He alleged the government is aware of “several dozen” cases involving “non-human biologies,” claiming there is U.",
+      "publishedAt": "2026-06-09T21:05:29Z",
+      "summary": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 12 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -476,12 +474,12 @@
         {
           "label": "Begriffe",
           "points": 6,
-          "text": "CLASSIFIED, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+          "text": "CLASSIFIED, DISCLOSURE als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
           "points": 8,
-          "text": "CLASSIFIED, WHISTLEBLOWER als offizieller Kontext erkannt."
+          "text": "CLASSIFIED, DISCLOSURE als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
@@ -502,28 +500,25 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "CLASSIFIED",
-        "WHISTLEBLOWER"
+        "DISCLOSURE"
       ],
       "sourceQuality": 65,
       "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-06-10T06:56:24Z",
-      "rssPublishedAt": "2026-06-09T20:50:00Z",
-      "rssDate": "2026-06-09",
-      "sourcePublishedAt": "2026-06-09T20:50:52Z",
-      "sourceDisplayedAt": "2026-06-10T06:56:24Z",
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-06-10T09:19:52Z",
+      "sourceDisplayedAt": "2026-06-10T09:19:52Z",
       "sourceIsNew": true,
       "translation": {
         "en": {
-          "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
-          "summary": "UFO Whistleblower David Grusch on Tuesday suggested the White House should investigate billions of dollars he suggested are being funneled to secret programs operated by the federal government. Grusch, a former intelligence officer who gave NewsNation his first on-the-record interview as a whistleblower in 2023, before testifying to Congress, claimed there are massive “slush funds” tied to UFO programs, including allegedly classified UFO crash‑retrieval initiatives largely shielded from Congress and the public.",
-          "sourceHash": "baac09c71314ca65e72edcdb2dc0620452101d92",
+          "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
+          "summary": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 12 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
+          "sourceHash": "6b5a548a169c2ad1d3d03b85adaeb1bd7df31b8f",
           "provider": "original"
         },
         "de": {
-          "title": "UFO-Whistleblower drängt Vance, angebliche Milliarden von „schwarzen Geldern“ des Bundes zu untersuchen, die mit geheimen Programmen in Zusammenhang stehen",
-          "summary": "Der UFO-Whistleblower David Grusch schlug am Dienstag vor, dass das Weiße Haus Milliarden von Dollar untersuchen sollte, die seiner Meinung nach in geheime Programme der Bundesregierung fließen. Grusch, ein ehemaliger Geheimdienstoffizier, der NewsNation im Jahr 2023 sein erstes offizielles Interview als Whistleblower gab, bevor er vor dem Kongress aussagte, behauptete, dass mit UFO-Programmen riesige „Schwarzgelder“ verbunden seien, darunter angeblich geheime Initiativen zur UFO-Absturzbergung, die weitgehend vor dem Kongress und der Öffentlichkeit geschützt seien.",
-          "sourceHash": "baac09c71314ca65e72edcdb2dc0620452101d92",
+          "title": "Die Realität sollte nicht geheim gehalten werden: Ein Aufruf zum Handeln zur UAP-Offenlegung – Avi Loeb",
+          "summary": "source=post_page---byline--6569862d1eba-----------------------------------------------------) 5 Min. gelesen vor 12 Stunden Drücken Sie die Eingabetaste oder klicken Sie, um das Bild in voller Größe anzuzeigen (Bildnachweis: NewsNation) Heute, am 9. Juni 2026, forderte eine Pressekonferenz von Gesetzgebern und UAP-Whistleblowern (Unidentified Anomalous Phenomena) in Washington DC Maßnahmen zur UAP-Offenlegung (für den Zugriff auf das vollständige Video). klicken Sie hier). Kurz darauf wurde ich von Nichole Berlie von NewsNation gebeten, meine Sicht auf diese Pressekonferenz mitzuteilen. *** **Hinweis:** Hier geht es um die Offenlegungsbemühungen der UAP und um das, was wir in den letzten Wochen aus der Regierungsmitteilung gesehen haben, Avi Loeb, Professor für Naturwissenschaften an der Harvard University.",
+          "sourceHash": "6b5a548a169c2ad1d3d03b85adaeb1bd7df31b8f",
           "provider": "google"
         }
       }
@@ -675,6 +670,9 @@
       ],
       "sourceQuality": 64,
       "displayedAt": "2026-05-30T01:43:09Z",
+      "rssPublishedAt": "2026-05-30T01:43:09Z",
+      "rssDate": "2026-05-30",
+      "sourcePublishedAt": "2026-05-30T01:43:09Z",
       "sourceDisplayedAt": "2026-05-30T01:43:09Z",
       "translation": {
         "en": {
@@ -690,77 +688,6 @@
           "provider": "google"
         }
       }
-    },
-    {
-      "id": "file-release-ufo-whistleblower-david-grusch-returns-to-capitol-hill-tuesday",
-      "title": "UFO Whistleblower David Grusch Returns to Capitol Hill Tuesday",
-      "source": "LAmag",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQazY0amRSdFNTUUE5TG5Eb2NoN1FtZkZNY3djUGRKS3lxWS05OFFIUGY1Y0ZscjI0eC1ZQV90OFJUOEx2aUVUSGR6Z3JXLWZMRndKY3lYX2pMZ0MxN3JMNWRucHRQZFFHdUZJOUxRRnlZYlI0UlFzcWdBNnpQNDZMc0lrckdXRERIYTZ4ZE5pcTBMaUV5?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-09T14:32:37Z",
-      "summary": "The man who ignited one of the biggest UFO firestorms in modern history is heading back to Capitol Hill, and he’s demanding action. David Grusch, the former intelligence officer whose explosive testimony about alleged secret UFO retrieval and reverse-engineering programs stunned Congress in 2023, is set to appear in Washington, D. Grusch will speak alongside a bipartisan group of lawmakers calling for the public release of what’s believed to be detailed, hidden government records involving unidentified anomalous phenomena, or UAPs. The press conference will focus on a major push for government transparency on UFOs and possible non-human intelligence.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 56,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "WHISTLEBLOWER"
-      ],
-      "sourceQuality": 56,
-      "displayedAt": "2026-06-09T17:40:17Z",
-      "rssPublishedAt": "2026-06-09T14:32:37Z",
-      "rssDate": "2026-06-09",
-      "sourcePublishedAt": "2026-06-09T14:32:29Z",
-      "sourceDisplayedAt": "2026-06-09T17:40:17Z",
-      "translation": {
-        "en": {
-          "title": "UFO Whistleblower David Grusch Returns to Capitol Hill Tuesday",
-          "summary": "The man who ignited one of the biggest UFO firestorms in modern history is heading back to Capitol Hill, and he’s demanding action. David Grusch, the former intelligence officer whose explosive testimony about alleged secret UFO retrieval and reverse-engineering programs stunned Congress in 2023, is set to appear in Washington, D. Grusch will speak alongside a bipartisan group of lawmakers calling for the public release of what’s believed to be detailed, hidden government records involving unidentified anomalous phenomena, or UAPs.",
-          "sourceHash": "05be31817b62764a438d4ba6dbbfb35e9ec18f57",
-          "provider": "original"
-        },
-        "de": {
-          "title": "UFO-Whistleblower David Grusch kehrt am Dienstag zum Capitol Hill zurück",
-          "summary": "Der Mann, der einen der größten UFO-Feuerstürme der modernen Geschichte entfacht hat, kehrt zum Capitol Hill zurück und fordert Maßnahmen. David Grusch, der ehemalige Geheimdienstoffizier, dessen explosive Aussage über angebliche geheime UFO-Bergungs- und Reverse-Engineering-Programme den Kongress im Jahr 2023 verblüffte, wird voraussichtlich in Washington erscheinen. D. Grusch wird zusammen mit einer überparteilichen Gruppe von Gesetzgebern sprechen, die die öffentliche Veröffentlichung von vermutlich detaillierten, versteckten Regierungsaufzeichnungen über nicht identifizierte anomale Phänomene oder UAPs fordern.",
-          "sourceHash": "05be31817b62764a438d4ba6dbbfb35e9ec18f57",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true,
-      "sourceIsNew": true
     },
     {
       "id": "close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026",
@@ -829,6 +756,45 @@
       }
     },
     {
+      "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday",
+      "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T16:31:09Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 49,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 49,
+      "displayedAt": "2026-06-09T16:31:09Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "sourceDisplayedAt": "2026-06-09T16:31:09Z"
+    },
+    {
       "id": "your-morning-ufo-whistleblowers-demand-transparency",
       "title": "Your Morning: UFO whistleblowers demand transparency",
       "source": "NewsNation",
@@ -866,6 +832,7 @@
       "sourceQuality": 49,
       "displayedAt": "2026-06-10T05:40:03Z",
       "sourceDisplayedAt": "2026-06-10T05:40:03Z",
+      "retainedFromPreviousScan": true,
       "sourceIsNew": true
     },
     {
@@ -922,50 +889,6 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "feds-investigate-after-minnesota-police-officer-says-they-saw-a-ufo",
-      "title": "Feds investigate after Minnesota police officer says they saw a UFO",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWGZpQlR5MllqdlBXbElZeXZjM2tXWVRZdUxadkV1a0QzSUxEaGprMnJSWjJJRzJEMXloWWFhWktWTDJaVkUtS1N0Tno0cHFoMTVqSTJtTGhjYXdMOXBMekZwZ1AxS1FDWm1TSk1SbE82NjZ6UFZuV05xU2tTQTd3amc2dFhFVWFHUlFoRzNRZ3BXYzF3Ml80bUR2T2lXc2FFMzJEWkZiUXpLX3hy?oc=5",
-      "date": "2026-05-27",
-      "publishedAt": "2026-05-27T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 49,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "sourceQuality": 49,
-      "displayedAt": "2026-06-09T13:39:55Z",
-      "rssPublishedAt": "2026-05-27T07:00:00Z",
-      "rssDate": "2026-05-27",
-      "sourcePublishedAt": "2026-05-28T03:21:00Z",
-      "sourceDisplayedAt": "2026-06-09T13:39:55Z",
-      "retainedFromPreviousScan": true,
-      "sourceIsNew": true
-    },
-    {
       "id": "file-release-jeremy-corbell-issues-ufo-warning-release-reverse-engineering-and-non-human-biologics-files-or-i-will",
       "title": "Jeremy Corbell Issues UFO Warning: Release Reverse-Engineering and Non-Human Biologics Files — or I Will",
       "source": "USA Herald",
@@ -1013,7 +936,7 @@
         },
         "de": {
           "title": "Jeremy Corbell gibt UFO-Warnung heraus: Veröffentlichung von Reverse-Engineering- und nicht-humanen Biologika-Dateien – oder ich werde es tun",
-          "summary": "Von Samuel López | USA Herald Der Krieg um die UFO-Geheimhaltung der Regierung könnte in seine bisher explosivste Phase eintreten. Der investigative Filmemacher Jeremy Corbell hat herausgebracht, was viele als direkte Herausforderung an die US-Regierung interpretieren: Entweder er beginnt mit der Offenlegung dessen, was die Beamten über angebliche UFO-Absturz-Bergungsprogramme, Reverse-Engineering-Bemühungen und nicht-menschliche Biologika wissen – oder Jeremy Corbell warnt davor, dass er Hunderte von UFO-Dateien veröffentlichen könnte, wenn die Regierung es versäumt, auf Reverse Engineering-, nicht-menschliche Kunsthandwerk- und Biologika-Behauptungen einzugehen.",
+          "summary": "Von Samuel López | USA Herald Der Krieg um die UFO-Geheimhaltung der Regierung könnte in seine bisher explosivste Phase eintreten. Der investigative Filmemacher Jeremy Corbell hat herausgebracht, was viele als direkte Herausforderung an die US-Regierung interpretieren: Entweder er beginnt mit der Offenlegung dessen, was die Beamten über angebliche UFO-Absturz-Bergungsprogramme, Reverse-Engineering-Bemühungen und nichtmenschliche Biologika wissen – oder Jeremy Corbell warnt davor, dass er Hunderte von UFO-Dateien veröffentlichen könnte, wenn die Regierung es versäumt, auf Reverse Engineering, nichtmenschliche Kunsthandwerk und Biologika-Behauptungen einzugehen.",
           "sourceHash": "c766511098b0677934469ff3da4432bd791c52bd",
           "provider": "google"
         }
@@ -1352,12 +1275,11 @@
   "summaries": {
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
     "file-release-multiple-pastors-claim-u-s-military-intelligence-officers-secretly-briefed-them-to-prepare-their-congregations-for-uap-disclosure": "Investigative writer Timothy Alberino claims the U.S. government has recovered alien bodies and hides them in highly classified military programs, citing crash‑retrieval operations that operate beyond elected officials' oversight. He says sensitive UAP information is controlled by private aerospace contractors and deeply compartmentalised defence programmes, and that some data remains inaccessible even to senior officials. Alberino discussed recent UAP file releases from the Trump administration, describing them as underwhelming and predicting more significant material could appear later. He referenced eyewitness accounts of gray aliens, dismembered bodies, and transparent fluids, and cited former intelligence official David Grusch's 2023 testimony that the U.S. recovered non‑human biologics, though no independent verification exists. Scientists and mainstream researchers note that no publicly available physical evidence confirms extraterrestrial life or recovered alien technology, and the Pentagon maintains that All‑domain Anomaly Resolution Office investigations have not produced verified evidence of extraterrestrial activity. Lawmakers such as Representative Tim Burchett and Representative Anna Paulina Luna have called for greater transparency and whistleblower protections amid ongoing congressional interest in UAP investigations.",
+    "ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs": "The man who ignited one of the biggest UFO firestorms in modern history is heading back to Capitol Hill, and he’s demanding action. David Grusch, the former intelligence officer whose explosive testimony about alleged secret UFO retrieval and reverse-engineering programs stunned Congress in 2023, is set to appear in Washington, D. Grusch will speak alongside a bipartisan group of lawmakers calling for the public release of what’s believed to be detailed, hidden government records involving unidentified anomalous phenomena, or UAPs. The press conference will focus on a major push for government transparency on UFOs and possible non-human intelligence.",
     "ufo-whistleblower-and-lawmakers-aim-to-declassify-uap-files-2026-justice-iustitia-bg-2025": "Markdown Content: # UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyses * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor’s Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
-    "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025": "Lawmakers called for the release of specific records, including those related to the 1996 Varginha incident in Brazil. com/space/ufo/lawmakers-ufo-whistleblowers-immunity/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
-    "ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs": "UFO Whistleblower David Grusch on Tuesday suggested the White House should investigate billions of dollars he suggested are being funneled to secret programs operated by the federal government. Grusch, a former intelligence officer who gave NewsNation his first on-the-record interview as a whistleblower in 2023, before testifying to Congress, claimed there are massive “slush funds” tied to UFO programs, including allegedly classified UFO crash‑retrieval initiatives largely shielded from Congress and the public. He alleged the government is aware of “several dozen” cases involving “non-human biologies,” claiming there is U.",
+    "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 12 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
     "film-bone-chilling-preview-released-for-steven-spielberg-s-highly-anticipated-ufo-movie-disclosure-day": "Steven Spielberg’s upcoming UFO film “Disclosure Day” has released its final preview, described as intense. The film stars Emily Blunt, Josh O’Connor, Colin Firth, Eve Hewson, and Colman Domingo, and is directed by Spielberg. The plot centers on the idea of discovering that humanity is not alone and the potential fear that would bring. The trailer for the film has accumulated more than 4.3 million views on YouTube in under 24 hours. “Disclosure Day” will be released in theaters on June 12, 2026.",
     "trump-aliens-website-is-about-immigration-uap-journalist-not-amused-2026-justice-iustitia-bg-2025": "gov' website and immigration satire Skip to content NewsNation Sponsored By Toggle Menu [](https://www. com/) Newsletter GoGo Go ## Primary Menu * Trending * MISSING SCIENTISTS * FAKE CANCER CASE * KYLE BUSCH * All Topics * Politics * 2026 Election * Crime * Your Money * Social Security calculator * Budget calculator * Mortgage calculator * Credit card debt calculator * Savings calculator * Border Report * Space * UFOs * Entertainment * Missing * Shows * Morning In America * NewsNation Live * Elizabeth Vargas Reports * The Hill on NewsNation * On Balance with Leland Vittert * [[CUOMO]](https://www. com/cuomo-show/) * Katie Pavlich Tonight * Jesse Weber Live * NewsNation PRIME * The Hill Sunday * Batya!",
-    "file-release-ufo-whistleblower-david-grusch-returns-to-capitol-hill-tuesday": "The man who ignited one of the biggest UFO firestorms in modern history is heading back to Capitol Hill, and he’s demanding action. David Grusch, the former intelligence officer whose explosive testimony about alleged secret UFO retrieval and reverse-engineering programs stunned Congress in 2023, is set to appear in Washington, D. Grusch will speak alongside a bipartisan group of lawmakers calling for the public release of what’s believed to be detailed, hidden government records involving unidentified anomalous phenomena, or UAPs. The press conference will focus on a major push for government transparency on UFOs and possible non-human intelligence.",
     "close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026 Steven Spielberg's 1977 classic tapped into anxieties about the US government hiding UFO information from the public. When trailers for Steven Spielberg's Disclosure Day confirmed that it deals with extraterrestrials, the internet exploded with speculation that it was a sequel to his 1977 classic, Close Encounters of the Third Kind. The guesswork became so rampant that the press notes for the new film cheekily announce it is \"not a sequel to Close Encounters (sorry, internet)\". Emily Blunt, one of Disclosure Day's stars, has described it as resembling \"a third act\" along with Close Encounters and ET The Extra-Terrestrial (1982).",
     "mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work. A MITRE spokesperson said that if relevant material is found, the company will coordinate with federal agencies to provide the assets. The request is part of a broader congressional effort to increase UAP disclosure, though no evidence of extraterrestrial activity has been confirmed.",
     "file-release-jeremy-corbell-issues-ufo-warning-release-reverse-engineering-and-non-human-biologics-files-or-i-will": "By Samuel López | USA Herald The war over government UFO secrecy may be entering its most explosive phase yet. Investigative filmmaker Jeremy Corbell has issued what many are interpreting as a direct challenge to the U. government: either begin disclosing what officials know about alleged UFO crash retrieval programs, reverse-engineering efforts, and non-human biologics—or Jeremy Corbell warns he may release hundreds of UFO files if the government fails to address reverse engineering, non-human craft, and biologics claims.",
@@ -1369,32 +1291,32 @@
     "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena. All of Thursday’s programming is free and open to the public. One‑day and five‑day passes are available at contactinthedesert.com."
   },
   "notificationBatch": {
-    "timestamp": "2026-06-10T06:56:24Z",
+    "timestamp": "2026-06-10T09:19:52Z",
     "ids": [
-      "ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs"
+      "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb"
     ],
     "articles": [
       {
-        "id": "ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs",
-        "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
-        "source": "Washington Examiner"
+        "id": "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb",
+        "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
+        "source": "Avi Loeb – Medium"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 366,
-    "broadTopics": 167,
+    "broadArticles": 393,
+    "broadTopics": 180,
     "notificationArticles": 9,
     "notificationTopics": 6,
-    "newNotificationTopics": 0,
-    "appTopics": 19,
+    "newNotificationTopics": 1,
+    "appTopics": 18,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 6,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 13,
+    "regroupedTopics": 12,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -1402,41 +1324,41 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 3,
-      "repaired": 1,
-      "fallbackRepaired": 1,
+      "attempts": 2,
+      "repaired": 0,
+      "fallbackRepaired": 0,
       "missing": 2
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
-      "kept": 19,
+      "kept": 18,
       "missing": 2,
       "missingItems": [
         {
-          "id": "your-morning-ufo-whistleblowers-demand-transparency",
-          "title": "Your Morning: UFO whistleblowers demand transparency",
+          "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday",
+          "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
           "source": "NewsNation",
           "reason": "missing_article_content_summary_kept_visible"
         },
         {
-          "id": "feds-investigate-after-minnesota-police-officer-says-they-saw-a-ufo",
-          "title": "Feds investigate after Minnesota police officer says they saw a UFO",
-          "source": "CBS News",
+          "id": "your-morning-ufo-whistleblowers-demand-transparency",
+          "title": "Your Morning: UFO whistleblowers demand transparency",
+          "source": "NewsNation",
           "reason": "missing_article_content_summary_kept_visible"
         }
       ]
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 17,
-      "outputArticles": 12,
+      "inputArticles": 19,
+      "outputArticles": 11,
       "preservedSourceSummaries": 10
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 12,
-      "outputArticles": 12,
-      "missingSummaries": 2,
+      "inputArticles": 11,
+      "outputArticles": 11,
+      "missingSummaries": 1,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -1449,47 +1371,47 @@
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
       "updatedTopics": 6,
-      "addedSources": 79,
+      "addedSources": 98,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
       "sources": 17,
-      "cleanedArticles": 2,
+      "cleanedArticles": 3,
       "removedDuplicateTopics": 2,
-      "staleSummariesCleared": 0,
+      "staleSummariesCleared": 1,
       "rejectedArticleSources": 0,
       "promotedPrimaryFromSource": false
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 10,
-      "outputArticles": 10,
+      "inputArticles": 9,
+      "outputArticles": 9,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 10,
+      "inputArticles": 9,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 20,
-      "currentBeforeRestore": 10,
+      "archiveCandidates": 19,
+      "currentBeforeRestore": 9,
       "restoredArticles": 9,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
         "Multiple Pastors Claim U.S. Military Intelligence Officers Secretly Briefed Them To Prepare Their Congregations For UAP Disclosure",
+        "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
         "Bone-chilling preview released for Steven Spielberg's highly anticipated UFO movie 'Disclosure Day'",
-        "UFO Whistleblower David Grusch Returns to Capitol Hill Tuesday",
+        "Your Morning: UFO whistleblowers demand transparency",
         "MITRE moves to comply with lawmaker’s request for UAP records and assets dating back to 1930",
-        "Feds investigate after Minnesota police officer says they saw a UFO",
         "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know",
         "UFO-Linked General William Neil McCasland Met US Space Force Personnel Hours Before Disappearance, Audio",
         "Whistleblower claims CIA used DNA data from Ancestry and 23andMe customers in search for aliens",
@@ -1499,32 +1421,32 @@
     "finalFeedSourceConsistency": {
       "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v5_restore_department_sources",
       "relocatedAlienGovImmigrationSources": 0,
-      "removedUnrelatedAlienGovClusterSources": 0,
+      "removedUnrelatedAlienGovClusterSources": 5,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 19
+      "articlesRefreshed": 18
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 42,
-      "updatedSources": 7,
+      "checkedSources": 38,
+      "updatedSources": 10,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 19,
-      "newSources": 3
+      "updatedTopics": 18,
+      "newSources": 2
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 18,
-      "newTopics": 1,
+      "correctedExistingTopics": 16,
+      "newTopics": 2,
       "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
       "notifications": 1,
       "freshSources": 1,
-      "correctedOldSourceMarkers": 1,
+      "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 60
     }
@@ -1539,7 +1461,7 @@
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }
@@ -1558,6 +1480,20 @@
         "provider": "google"
       }
     },
+    "ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs": {
+      "en": {
+        "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
+        "summary": "The man who ignited one of the biggest UFO firestorms in modern history is heading back to Capitol Hill, and he’s demanding action. David Grusch, the former intelligence officer whose explosive testimony about alleged secret UFO retrieval and reverse-engineering programs stunned Congress in 2023, is set to appear in Washington, D. Grusch will speak alongside a bipartisan group of lawmakers calling for the public release of what’s believed to be detailed, hidden government records involving unidentified anomalous phenomena, or UAPs.",
+        "sourceHash": "5183ff77b262cf4866bca8827313078eaf9aa858",
+        "provider": "original"
+      },
+      "de": {
+        "title": "UFO-Whistleblower drängt Vance, angebliche Milliarden von „schwarzen Geldern“ des Bundes zu untersuchen, die mit geheimen Programmen in Zusammenhang stehen",
+        "summary": "Der Mann, der einen der größten UFO-Feuerstürme der modernen Geschichte entfacht hat, kehrt zum Capitol Hill zurück und fordert Maßnahmen. David Grusch, der ehemalige Geheimdienstoffizier, dessen explosive Aussage über angebliche geheime UFO-Bergungs- und Reverse-Engineering-Programme den Kongress im Jahr 2023 verblüffte, wird voraussichtlich in Washington erscheinen. D. Grusch wird zusammen mit einer überparteilichen Gruppe von Gesetzgebern sprechen, die die öffentliche Veröffentlichung von vermutlich detaillierten, versteckten Regierungsaufzeichnungen über nicht identifizierte anomale Phänomene oder UAPs fordern.",
+        "sourceHash": "5183ff77b262cf4866bca8827313078eaf9aa858",
+        "provider": "google"
+      }
+    },
     "ufo-whistleblower-and-lawmakers-aim-to-declassify-uap-files-2026-justice-iustitia-bg-2025": {
       "de": {
         "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
@@ -1572,31 +1508,17 @@
         "provider": "google"
       }
     },
-    "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025": {
+    "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb": {
       "en": {
-        "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "summary": "Lawmakers called for the release of specific records, including those related to the 1996 Varginha incident in Brazil. com/space/ufo/lawmakers-ufo-whistleblowers-immunity/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
-        "sourceHash": "e10476ac2cccb284892f17b4d56578d214cbb385",
+        "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
+        "summary": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 12 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
+        "sourceHash": "6b5a548a169c2ad1d3d03b85adaeb1bd7df31b8f",
         "provider": "original"
       },
       "de": {
-        "title": "Befürworter der UAP-Offenlegung werden am Dienstag 2026 Transparenzmaßnahmen fordern | GERECHTIGKEIT - IUSTITIA.BG 2025",
-        "summary": "Der Gesetzgeber forderte die Veröffentlichung spezifischer Aufzeichnungen, darunter auch derjenigen im Zusammenhang mit dem Varginha-Vorfall 1996 in Brasilien. com/space/ufo/lawmakers-ufo-whistleblowers-immunity/ Neueste Nachrichten Weltnachrichten Ländernachrichten Wichtigste Nachrichten Neueste Nachrichten Wichtigstes Neueste des Tages Gerechtigkeit Petar Nizamov Federn Petar Nizamov- Federn Gerechtigkeit bg iustitia.",
-        "sourceHash": "e10476ac2cccb284892f17b4d56578d214cbb385",
-        "provider": "google"
-      }
-    },
-    "ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs": {
-      "en": {
-        "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
-        "summary": "UFO Whistleblower David Grusch on Tuesday suggested the White House should investigate billions of dollars he suggested are being funneled to secret programs operated by the federal government. Grusch, a former intelligence officer who gave NewsNation his first on-the-record interview as a whistleblower in 2023, before testifying to Congress, claimed there are massive “slush funds” tied to UFO programs, including allegedly classified UFO crash‑retrieval initiatives largely shielded from Congress and the public.",
-        "sourceHash": "baac09c71314ca65e72edcdb2dc0620452101d92",
-        "provider": "original"
-      },
-      "de": {
-        "title": "UFO-Whistleblower drängt Vance, angebliche Milliarden von „schwarzen Geldern“ des Bundes zu untersuchen, die mit geheimen Programmen in Zusammenhang stehen",
-        "summary": "Der UFO-Whistleblower David Grusch schlug am Dienstag vor, dass das Weiße Haus Milliarden von Dollar untersuchen sollte, die seiner Meinung nach in geheime Programme der Bundesregierung fließen. Grusch, ein ehemaliger Geheimdienstoffizier, der NewsNation im Jahr 2023 sein erstes offizielles Interview als Whistleblower gab, bevor er vor dem Kongress aussagte, behauptete, dass mit UFO-Programmen riesige „Schwarzgelder“ verbunden seien, darunter angeblich geheime Initiativen zur UFO-Absturzbergung, die weitgehend vor dem Kongress und der Öffentlichkeit geschützt seien.",
-        "sourceHash": "baac09c71314ca65e72edcdb2dc0620452101d92",
+        "title": "Die Realität sollte nicht geheim gehalten werden: Ein Aufruf zum Handeln zur UAP-Offenlegung – Avi Loeb",
+        "summary": "source=post_page---byline--6569862d1eba-----------------------------------------------------) 5 Min. gelesen vor 12 Stunden Drücken Sie die Eingabetaste oder klicken Sie, um das Bild in voller Größe anzuzeigen (Bildnachweis: NewsNation) Heute, am 9. Juni 2026, forderte eine Pressekonferenz von Gesetzgebern und UAP-Whistleblowern (Unidentified Anomalous Phenomena) in Washington DC Maßnahmen zur UAP-Offenlegung (für den Zugriff auf das vollständige Video). klicken Sie hier). Kurz darauf wurde ich von Nichole Berlie von NewsNation gebeten, meine Sicht auf diese Pressekonferenz mitzuteilen. *** **Hinweis:** Hier geht es um die Offenlegungsbemühungen der UAP und um das, was wir in den letzten Wochen aus der Regierungsmitteilung gesehen haben, Avi Loeb, Professor für Naturwissenschaften an der Harvard University.",
+        "sourceHash": "6b5a548a169c2ad1d3d03b85adaeb1bd7df31b8f",
         "provider": "google"
       }
     },
@@ -1625,20 +1547,6 @@
         "title": "Auf Trumps „Aliens“-Website geht es um Einwanderung; UAP-Journalist nicht amüsiert 2026 | GERECHTIGKEIT - IUSTITIA.BG 2025",
         "summary": "Regierungswebsite und Einwanderungssatire Zum Inhalt springen NewsNation Gesponsert von Menü umschalten [](https://www. com/) Newsletter GoGo Go ## Hauptmenü * Trending * FEHLENDE WISSENSCHAFTLER * FALSCHER KREBSFALL * KYLE BUSCH * Alle Themen * Politik * Wahl 2026 * Kriminalität * Ihr Geld * Sozialversicherungsrechner * Budgetrechner * Hypothekenrechner * Kreditkartenschuldenrechner * Sparrechner * Grenzbericht * Weltraum * UFOs * Unterhaltung * Fehlende * Shows * Morning In America * NewsNation Live * Elizabeth Vargas Reports * The Hill auf NewsNation * Im Gleichgewicht mit Leland Vittert * [[CUOMO]](https://www. com/cuomo-show/) * Katie Pavlich Tonight * Jesse Weber Live * NewsNation PRIME * The Hill Sunday * Batya!",
         "sourceHash": "750211368d26694dffd3ffa589d39983bf8ff508",
-        "provider": "google"
-      }
-    },
-    "file-release-ufo-whistleblower-david-grusch-returns-to-capitol-hill-tuesday": {
-      "en": {
-        "title": "UFO Whistleblower David Grusch Returns to Capitol Hill Tuesday",
-        "summary": "The man who ignited one of the biggest UFO firestorms in modern history is heading back to Capitol Hill, and he’s demanding action. David Grusch, the former intelligence officer whose explosive testimony about alleged secret UFO retrieval and reverse-engineering programs stunned Congress in 2023, is set to appear in Washington, D. Grusch will speak alongside a bipartisan group of lawmakers calling for the public release of what’s believed to be detailed, hidden government records involving unidentified anomalous phenomena, or UAPs.",
-        "sourceHash": "05be31817b62764a438d4ba6dbbfb35e9ec18f57",
-        "provider": "original"
-      },
-      "de": {
-        "title": "UFO-Whistleblower David Grusch kehrt am Dienstag zum Capitol Hill zurück",
-        "summary": "Der Mann, der einen der größten UFO-Feuerstürme der modernen Geschichte entfacht hat, kehrt zum Capitol Hill zurück und fordert Maßnahmen. David Grusch, der ehemalige Geheimdienstoffizier, dessen explosive Aussage über angebliche geheime UFO-Bergungs- und Reverse-Engineering-Programme den Kongress im Jahr 2023 verblüffte, wird voraussichtlich in Washington erscheinen. D. Grusch wird zusammen mit einer überparteilichen Gruppe von Gesetzgebern sprechen, die die öffentliche Veröffentlichung von vermutlich detaillierten, versteckten Regierungsaufzeichnungen über nicht identifizierte anomale Phänomene oder UAPs fordern.",
-        "sourceHash": "05be31817b62764a438d4ba6dbbfb35e9ec18f57",
         "provider": "google"
       }
     },
@@ -1679,7 +1587,7 @@
       },
       "de": {
         "title": "Jeremy Corbell gibt UFO-Warnung heraus: Veröffentlichung von Reverse-Engineering- und nicht-humanen Biologika-Dateien – oder ich werde es tun",
-        "summary": "Von Samuel López | USA Herald Der Krieg um die UFO-Geheimhaltung der Regierung könnte in seine bisher explosivste Phase eintreten. Der investigative Filmemacher Jeremy Corbell hat herausgebracht, was viele als direkte Herausforderung an die US-Regierung interpretieren: Entweder er beginnt mit der Offenlegung dessen, was die Beamten über angebliche UFO-Absturz-Bergungsprogramme, Reverse-Engineering-Bemühungen und nicht-menschliche Biologika wissen – oder Jeremy Corbell warnt davor, dass er Hunderte von UFO-Dateien veröffentlichen könnte, wenn die Regierung es versäumt, auf Reverse Engineering-, nicht-menschliche Kunsthandwerk- und Biologika-Behauptungen einzugehen.",
+        "summary": "Von Samuel López | USA Herald Der Krieg um die UFO-Geheimhaltung der Regierung könnte in seine bisher explosivste Phase eintreten. Der investigative Filmemacher Jeremy Corbell hat herausgebracht, was viele als direkte Herausforderung an die US-Regierung interpretieren: Entweder er beginnt mit der Offenlegung dessen, was die Beamten über angebliche UFO-Absturz-Bergungsprogramme, Reverse-Engineering-Bemühungen und nichtmenschliche Biologika wissen – oder Jeremy Corbell warnt davor, dass er Hunderte von UFO-Dateien veröffentlichen könnte, wenn die Regierung es versäumt, auf Reverse Engineering, nichtmenschliche Kunsthandwerk und Biologika-Behauptungen einzugehen.",
         "sourceHash": "c766511098b0677934469ff3da4432bd791c52bd",
         "provider": "google"
       }
@@ -1770,7 +1678,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 17,
+    "prepared": 16,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-10T06:56:24Z",
+  "timestamp": "2026-06-10T09:19:52Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -102,7 +102,7 @@
       "clusterTitles": [
         "UFO whistleblower and lawmakers aim to declassify UAP files"
       ],
-      "quality": 65,
+      "quality": 70,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -138,6 +138,11 @@
           "label": "Kernaussage",
           "points": 7,
           "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -146,10 +151,26 @@
         "files",
         "government"
       ],
-      "sourceQuality": 65,
+      "sourceQuality": 70,
       "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-06-10T05:40:03Z"
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-06-10T05:40:03Z",
+      "sourceDisplayedAt": "2026-06-10T05:40:03Z",
+      "translation": {
+        "de": {
+          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "summary": "Markdown Content: # UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyses * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor’s Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
+          "sourceHash": "922c64e0dbbe3d27437fca28bed6011eb4360fdb",
+          "provider": "original"
+        },
+        "en": {
+          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "summary": "Markdown Content: # UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyzes * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor's Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
+          "sourceHash": "922c64e0dbbe3d27437fca28bed6011eb4360fdb",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs",
@@ -158,10 +179,20 @@
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTDViT3dLSEphWnJjM1lQRlJWaHRYVGRGMFp5T1RNYTlyZ1NOVFJ3ODlqYk5rNUc1b2VvX25Ldk5aTmpUNVRNU0o5X3BZdXgwT1NLMncxR3RHbkUtUnhlYlNnV1FmVFhSdktyTmVnYWZNczhqaWFPQXVSUXRiem5tWC1LZHB3a1NaWWYtMkpjelZabkxpekJUeFpqQWxnVHpRbXlN?oc=5",
       "date": "2026-06-09",
       "publishedAt": "2026-06-09T20:50:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
+      "summary": "The man who ignited one of the biggest UFO firestorms in modern history is heading back to Capitol Hill, and he’s demanding action. David Grusch, the former intelligence officer whose explosive testimony about alleged secret UFO retrieval and reverse-engineering programs stunned Congress in 2023, is set to appear in Washington, D. Grusch will speak alongside a bipartisan group of lawmakers calling for the public release of what’s believed to be detailed, hidden government records involving unidentified anomalous phenomena, or UAPs. The press conference will focus on a major push for government transparency on UFOs and possible non-human intelligence.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "UFO Whistleblower David Grusch Returns to Capitol Hill Tuesday",
+          "source": "LAmag",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQazY0amRSdFNTUUE5TG5Eb2NoN1FtZkZNY3djUGRKS3lxWS05OFFIUGY1Y0ZscjI0eC1ZQV90OFJUOEx2aUVUSGR6Z3JXLWZMRndKY3lYX2pMZ0MxN3JMNWRucHRQZFFHdUZJOUxRRnlZYlI0UlFzcWdBNnpQNDZMc0lrckdXRERIYTZ4ZE5pcTBMaUV5?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQazY0amRSdFNTUUE5TG5Eb2NoN1FtZkZNY3djUGRKS3lxWS05OFFIUGY1Y0ZscjI0eC1ZQV90OFJUOEx2aUVUSGR6Z3JXLWZMRndKY3lYX2pMZ0MxN3JMNWRucHRQZFFHdUZJOUxRRnlZYlI0UlFzcWdBNnpQNDZMc0lrckdXRERIYTZ4ZE5pcTBMaUV5?oc=5",
+          "publishedAt": "2026-06-09T14:32:37Z"
+        }
+      ],
+      "clusterTitles": [
+        "UFO Whistleblower David Grusch Returns to Capitol Hill Tuesday"
+      ],
       "quality": 65,
       "qualityBreakdown": [
         {
@@ -201,13 +232,75 @@
         "WHISTLEBLOWER"
       ],
       "sourceQuality": 65,
+      "displayedAt": "2026-06-10T09:19:52Z",
+      "translation": {
+        "en": {
+          "title": "UFO Whistleblower David Grusch Returns to Capitol Hill Tuesday",
+          "summary": "The man who ignited one of the biggest UFO firestorms in modern history is heading back to Capitol Hill, and he’s demanding action. David Grusch, the former intelligence officer whose explosive testimony about alleged secret UFO retrieval and reverse-engineering programs stunned Congress in 2023, is set to appear in Washington, D. Grusch will speak alongside a bipartisan group of lawmakers calling for the public release of what’s believed to be detailed, hidden government records involving unidentified anomalous phenomena, or UAPs.",
+          "sourceHash": "05be31817b62764a438d4ba6dbbfb35e9ec18f57",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UFO-Whistleblower David Grusch kehrt am Dienstag zum Capitol Hill zurück",
+          "summary": "Der Mann, der einen der größten UFO-Feuerstürme der modernen Geschichte entfacht hat, kehrt zum Capitol Hill zurück und fordert Maßnahmen. David Grusch, der ehemalige Geheimdienstoffizier, dessen explosive Aussage über angebliche geheime UFO-Bergungs- und Reverse-Engineering-Programme den Kongress im Jahr 2023 verblüffte, wird voraussichtlich in Washington erscheinen. D. Grusch wird zusammen mit einer überparteilichen Gruppe von Gesetzgebern sprechen, die die öffentliche Veröffentlichung von vermutlich detaillierten, versteckten Regierungsaufzeichnungen über nicht identifizierte anomale Phänomene oder UAPs fordern.",
+          "sourceHash": "05be31817b62764a438d4ba6dbbfb35e9ec18f57",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb",
+      "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
+      "source": "Avi Loeb – Medium",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlISTA4clhQRVV1SzQ2UGxENm8wck12NkVrN3pjcDYxRC11eDI3U2ZKM2xOUjVBT18ydEdvVDJnRmt6ZmtUcGVzRjloZ1B2dnlJTVRuVkhwdWVJRVpCRnIwMG5halpGcVRGSmRRS3hNc3BzQjlrUWt2QzZjVnhJMVE1Nk5RWGlab29FdThPN3pSTFI4eE81THlmWmVDd3RKUjVLWVgxVkxwQk5VLUE?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T21:05:29Z",
+      "summary": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 12 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 65,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "CLASSIFIED, DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "CLASSIFIED, DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "CLASSIFIED",
+        "DISCLOSURE"
+      ],
+      "sourceQuality": 65,
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-06-10T06:56:24Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
-      }
+      "displayedAt": "2026-06-10T09:19:52Z"
     },
     {
       "id": "film-bone-chilling-preview-released-for-steven-spielberg-s-highly-anticipated-ufo-movie-disclosure-day",
@@ -285,14 +378,14 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025",
-      "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "id": "trump-aliens-website-is-about-immigration-uap-journalist-not-amused-2026-justice-iustitia-bg-2025",
+      "title": "Trump 'aliens' website is about immigration; UAP journalist not amused 2026 | JUSTICE - IUSTITIA.BG 2025",
       "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-07T02:29:24Z",
-      "summary": "Lawmakers called for the release of specific records, including those related to the 1996 Varginha incident in Brazil. com/space/ufo/lawmakers-ufo-whistleblowers-immunity/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
-      "mentions": 5,
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWWZlOTJpYUZiaE80VVZTZWtNNWJjcEZmWGlWek5LQU1EcnNnblExS0E0U0NYd1VzMkpGSkRUZkR0OXRhU1hDM0JSOGdiYm1CYlVKaXE3NTVvZ3lKUVlneGlWOG9UeXRUT3VpWGxSTHJPWWZNMnhyc1ROYlNJN2hmczVWbERvQQ?oc=5",
+      "date": "2026-05-30",
+      "publishedAt": "2026-05-30T01:43:09Z",
+      "summary": "gov' website and immigration satire Skip to content NewsNation Sponsored By Toggle Menu [](https://www. com/) Newsletter GoGo Go ## Primary Menu * Trending * MISSING SCIENTISTS * FAKE CANCER CASE * KYLE BUSCH * All Topics * Politics * 2026 Election * Crime * Your Money * Social Security calculator * Budget calculator * Mortgage calculator * Credit card debt calculator * Savings calculator * Border Report * Space * UFOs * Entertainment * Missing * Shows * Morning In America * NewsNation Live * Elizabeth Vargas Reports * The Hill on NewsNation * On Balance with Leland Vittert * [[CUOMO]](https://www. com/cuomo-show/) * Katie Pavlich Tonight * Jesse Weber Live * NewsNation PRIME * The Hill Sunday * Batya!",
+      "mentions": 8,
       "otherSources": [
         {
           "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
@@ -304,6 +397,21 @@
           "sourcePublishedAt": "2026-06-09T18:44:52Z",
           "displayedAt": "2026-06-10T05:40:03Z",
           "isNew": true
+        },
+        {
+          "title": "Trump ‘aliens’ website is about immigration; UAP journalist not amused",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BdXhNQldnRFFfbUlzNndiYkNoRjgzSkl3TktXQVN2TGRuQjRHdnU4UnVlRWdyV1pzOTBDaW1wckhBaUJScEh2ZXpjUWg4aHFvUWVnQklUaG9idGtqbmdtNklTWC1vTzhRaXpLSWViOFZYdTTSAXhBVV95cUxPd0x2b21RVndTYnVaZ28wVWQ5QnZ0c0UyVlR3eXppOUN0VHBDWEJtOVdycEFXSW5WUkxUdklCb18zRkdlbDU0a1JOQ1d2MlRwMzIzT3kxam9DWlFkQkQxZmlGdHh6X0VRZWFuM0hsU290cVN6ZU1CUUI?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BdXhNQldnRFFfbUlzNndiYkNoRjgzSkl3TktXQVN2TGRuQjRHdnU4UnVlRWdyV1pzOTBDaW1wckhBaUJScEh2ZXpjUWg4aHFvUWVnQklUaG9idGtqbmdtNklTWC1vTzhRaXpLSWViOFZYdTTSAXhBVV95cUxPd0x2b21RVndTYnVaZ28wVWQ5QnZ0c0UyVlR3eXppOUN0VHBDWEJtOVdycEFXSW5WUkxUdklCb18zRkdlbDU0a1JOQ1d2MlRwMzIzT3kxam9DWlFkQkQxZmlGdHh6X0VRZWFuM0hsU290cVN6ZU1CUUI?oc=5",
+          "source": "NewsNation",
+          "publishedAt": "2026-05-30T02:44:29Z",
+          "displayedAt": "2026-05-30T02:44:29Z"
+        },
+        {
+          "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
+          "publishedAt": "2026-06-07T02:29:24Z"
         },
         {
           "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
@@ -318,81 +426,17 @@
           "source": "NewsNation",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-          "publishedAt": "2026-06-09T20:28:58Z"
+          "publishedAt": "2026-06-09T20:28:58Z",
+          "displayedAt": "2026-06-10T05:40:03Z",
+          "isNew": true
         },
         {
           "title": "Lawmakers and whistleblowers to demand UFO evidence release June 9",
           "source": "MSN",
           "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNbEgxMlU5bG1HYi1HbUxmVkpsdGRRaF91Q2lwQkZ6UDJDcGZHZVJPdHAwd0E4c2xXdndWLTNmLUFYQ1NOT3U0TmVOTWdaYVlVZTlIWGtqZ0pYTmQ3MWxPclVjMk8zbVFTY3dkeUVoOFNnYlhkeGVuTU9FdTdOMndPMjNvbVNHOUdwUlR1YmJoOXB4eXgxWm1PdlA5ZnIzM1BJcktvZDdPb2drWmlmT1ZkNXhXSVNaa09LRDRyckNZZ09PaktRVE1iTWpzcVdiZ0FkQk9aRG9aWUVfd3Z0U0Q3REUwRWpLRHVBMkFybkVFcnZzbnpWaGFvY240aWQ?oc=5",
           "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNbEgxMlU5bG1HYi1HbUxmVkpsdGRRaF91Q2lwQkZ6UDJDcGZHZVJPdHAwd0E4c2xXdndWLTNmLUFYQ1NOT3U0TmVOTWdaYVlVZTlIWGtqZ0pYTmQ3MWxPclVjMk8zbVFTY3dkeUVoOFNnYlhkeGVuTU9FdTdOMndPMjNvbVNHOUdwUlR1YmJoOXB4eXgxWm1PdlA5ZnIzM1BJcktvZDdPb2drWmlmT1ZkNXhXSVNaa09LRDRyckNZZ09PaktRVE1iTWpzcVdiZ0FkQk9aRG9aWUVfd3Z0U0Q3REUwRWpLRHVBMkFybkVFcnZzbnpWaGFvY240aWQ?oc=5",
-          "publishedAt": "2026-05-29T18:46:43Z"
-        }
-      ],
-      "clusterTitles": [
-        "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "UAP disclosure advocates set to demand transparency measures Tuesday",
-        "Lawmakers want UFO whistleblowers to have immunity",
-        "Lawmakers and whistleblowers to demand UFO evidence release June 9"
-      ],
-      "quality": 59,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 59,
-      "displayedAt": "2026-06-10T06:56:24Z",
-      "translation": {
-        "en": {
-          "title": "Lawmakers want UFO whistleblowers to have immunity",
-          "summary": "Lawmakers called for the release of specific records, including those related to the 1996 Varginha incident in Brazil. com/space/ufo/lawmakers-ufo-whistleblowers-immunity/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
-          "sourceHash": "d2ad77bce91b26df3405d6febd1b0d87b0645bdc",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Der Gesetzgeber möchte, dass UFO-Whistleblower Immunität genießen",
-          "summary": "Der Gesetzgeber forderte die Veröffentlichung spezifischer Aufzeichnungen, darunter auch derjenigen im Zusammenhang mit dem Varginha-Vorfall 1996 in Brasilien. com/space/ufo/lawmakers-ufo-whistleblowers-immunity/ Neueste Nachrichten Weltnachrichten Ländernachrichten Wichtigste Nachrichten Neueste Nachrichten Wichtigstes Neueste des Tages Gerechtigkeit Petar Nizamov Federn Petar Nizamov- Federn Gerechtigkeit bg iustitia.",
-          "sourceHash": "d2ad77bce91b26df3405d6febd1b0d87b0645bdc",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "trump-aliens-website-is-about-immigration-uap-journalist-not-amused-2026-justice-iustitia-bg-2025",
-      "title": "Trump 'aliens' website is about immigration; UAP journalist not amused 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWWZlOTJpYUZiaE80VVZTZWtNNWJjcEZmWGlWek5LQU1EcnNnblExS0E0U0NYd1VzMkpGSkRUZkR0OXRhU1hDM0JSOGdiYm1CYlVKaXE3NTVvZ3lKUVlneGlWOG9UeXRUT3VpWGxSTHJPWWZNMnhyc1ROYlNJN2hmczVWbERvQQ?oc=5",
-      "date": "2026-05-30",
-      "publishedAt": "2026-05-30T01:43:09Z",
-      "summary": "gov' website and immigration satire Skip to content NewsNation Sponsored By Toggle Menu [](https://www. com/) Newsletter GoGo Go ## Primary Menu * Trending * MISSING SCIENTISTS * FAKE CANCER CASE * KYLE BUSCH * All Topics * Politics * 2026 Election * Crime * Your Money * Social Security calculator * Budget calculator * Mortgage calculator * Credit card debt calculator * Savings calculator * Border Report * Space * UFOs * Entertainment * Missing * Shows * Morning In America * NewsNation Live * Elizabeth Vargas Reports * The Hill on NewsNation * On Balance with Leland Vittert * [[CUOMO]](https://www. com/cuomo-show/) * Katie Pavlich Tonight * Jesse Weber Live * NewsNation PRIME * The Hill Sunday * Batya!",
-      "mentions": 3,
-      "otherSources": [
-        {
-          "title": "Trump ‘aliens’ website is about immigration; UAP journalist not amused",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BdXhNQldnRFFfbUlzNndiYkNoRjgzSkl3TktXQVN2TGRuQjRHdnU4UnVlRWdyV1pzOTBDaW1wckhBaUJScEh2ZXpjUWg4aHFvUWVnQklUaG9idGtqbmdtNklTWC1vTzhRaXpLSWViOFZYdTTSAXhBVV95cUxPd0x2b21RVndTYnVaZ28wVWQ5QnZ0c0UyVlR3eXppOUN0VHBDWEJtOVdycEFXSW5WUkxUdklCb18zRkdlbDU0a1JOQ1d2MlRwMzIzT3kxam9DWlFkQkQxZmlGdHh6X0VRZWFuM0hsU290cVN6ZU1CUUI?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BdXhNQldnRFFfbUlzNndiYkNoRjgzSkl3TktXQVN2TGRuQjRHdnU4UnVlRWdyV1pzOTBDaW1wckhBaUJScEh2ZXpjUWg4aHFvUWVnQklUaG9idGtqbmdtNklTWC1vTzhRaXpLSWViOFZYdTTSAXhBVV95cUxPd0x2b21RVndTYnVaZ28wVWQ5QnZ0c0UyVlR3eXppOUN0VHBDWEJtOVdycEFXSW5WUkxUdklCb18zRkdlbDU0a1JOQ1d2MlRwMzIzT3kxam9DWlFkQkQxZmlGdHh6X0VRZWFuM0hsU290cVN6ZU1CUUI?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-05-30T02:44:29Z",
-          "displayedAt": "2026-05-30T02:44:29Z"
+          "publishedAt": "2026-05-29T18:46:43Z",
+          "displayedAt": "2026-05-29T18:46:43Z"
         },
         {
           "title": "Are Aliens For Real? White House Released New Website Amid UFO Disclosure Triggering The Internet: Here’s Why",
@@ -406,10 +450,15 @@
         }
       ],
       "clusterTitles": [
+        "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
         "Trump ‘aliens’ website is about immigration; UAP journalist not amused",
+        "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
+        "UAP disclosure advocates set to demand transparency measures Tuesday",
+        "Lawmakers want UFO whistleblowers to have immunity",
+        "Lawmakers and whistleblowers to demand UFO evidence release June 9",
         "Are Aliens For Real? White House Released New Website Amid UFO Disclosure Triggering The Internet: Here’s Why"
       ],
-      "quality": 59,
+      "quality": 64,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -438,86 +487,16 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
+          "points": 10,
+          "text": "3 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "TRUMP"
       ],
-      "sourceQuality": 59,
-      "displayedAt": "2026-05-30T01:43:09Z"
-    },
-    {
-      "id": "file-release-ufo-whistleblower-david-grusch-returns-to-capitol-hill-tuesday",
-      "title": "UFO Whistleblower David Grusch Returns to Capitol Hill Tuesday",
-      "source": "LAmag",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQazY0amRSdFNTUUE5TG5Eb2NoN1FtZkZNY3djUGRKS3lxWS05OFFIUGY1Y0ZscjI0eC1ZQV90OFJUOEx2aUVUSGR6Z3JXLWZMRndKY3lYX2pMZ0MxN3JMNWRucHRQZFFHdUZJOUxRRnlZYlI0UlFzcWdBNnpQNDZMc0lrckdXRERIYTZ4ZE5pcTBMaUV5?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-09T14:32:37Z",
-      "summary": "The man who ignited one of the biggest UFO firestorms in modern history is heading back to Capitol Hill, and he’s demanding action. David Grusch, the former intelligence officer whose explosive testimony about alleged secret UFO retrieval and reverse-engineering programs stunned Congress in 2023, is set to appear in Washington, D. Grusch will speak alongside a bipartisan group of lawmakers calling for the public release of what’s believed to be detailed, hidden government records involving unidentified anomalous phenomena, or UAPs. The press conference will focus on a major push for government transparency on UFOs and possible non-human intelligence.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 56,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "WHISTLEBLOWER"
-      ],
-      "sourceQuality": 56,
-      "displayedAt": "2026-06-09T17:40:17Z",
-      "rssPublishedAt": "2026-06-09T14:32:37Z",
-      "rssDate": "2026-06-09",
-      "sourcePublishedAt": "2026-06-09T14:32:29Z",
-      "sourceDisplayedAt": "2026-06-09T17:40:17Z",
-      "translation": {
-        "en": {
-          "title": "UFO Whistleblower David Grusch Returns to Capitol Hill Tuesday",
-          "summary": "The man who ignited one of the biggest UFO firestorms in modern history is heading back to Capitol Hill, and he’s demanding action. David Grusch, the former intelligence officer whose explosive testimony about alleged secret UFO retrieval and reverse-engineering programs stunned Congress in 2023, is set to appear in Washington, D. Grusch will speak alongside a bipartisan group of lawmakers calling for the public release of what’s believed to be detailed, hidden government records involving unidentified anomalous phenomena, or UAPs.",
-          "sourceHash": "05be31817b62764a438d4ba6dbbfb35e9ec18f57",
-          "provider": "original"
-        },
-        "de": {
-          "title": "UFO-Whistleblower David Grusch kehrt am Dienstag zum Capitol Hill zurück",
-          "summary": "Der Mann, der einen der größten UFO-Feuerstürme der modernen Geschichte entfacht hat, kehrt zum Capitol Hill zurück und fordert Maßnahmen. David Grusch, der ehemalige Geheimdienstoffizier, dessen explosive Aussage über angebliche geheime UFO-Bergungs- und Reverse-Engineering-Programme den Kongress im Jahr 2023 verblüffte, wird voraussichtlich in Washington erscheinen. D. Grusch wird zusammen mit einer überparteilichen Gruppe von Gesetzgebern sprechen, die die öffentliche Veröffentlichung von vermutlich detaillierten, versteckten Regierungsaufzeichnungen über nicht identifizierte anomale Phänomene oder UAPs fordern.",
-          "sourceHash": "05be31817b62764a438d4ba6dbbfb35e9ec18f57",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
+      "sourceQuality": 64,
+      "displayedAt": "2026-06-10T09:19:52Z"
     },
     {
       "id": "close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026",
@@ -568,6 +547,44 @@
       "displayedAt": "2026-06-04T07:13:41Z"
     },
     {
+      "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday",
+      "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T16:31:09Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 49,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 49,
+      "displayedAt": "2026-06-10T09:19:52Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlaessliche Zusammenfassung verfuegbar. GitHub versucht beim naechsten Scan automatisch, diese zu ergaenzen."
+      }
+    },
+    {
       "id": "your-morning-ufo-whistleblowers-demand-transparency",
       "title": "Your Morning: UFO whistleblowers demand transparency",
       "source": "NewsNation",
@@ -603,7 +620,9 @@
         "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
       },
       "sourceQuality": 49,
-      "displayedAt": "2026-06-10T05:40:03Z"
+      "displayedAt": "2026-06-10T05:40:03Z",
+      "sourceDisplayedAt": "2026-06-10T05:40:03Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930",
@@ -656,49 +675,6 @@
           "provider": "google"
         }
       },
-      "retainedFromPreviousScan": true
-    },
-    {
-      "id": "feds-investigate-after-minnesota-police-officer-says-they-saw-a-ufo",
-      "title": "Feds investigate after Minnesota police officer says they saw a UFO",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWGZpQlR5MllqdlBXbElZeXZjM2tXWVRZdUxadkV1a0QzSUxEaGprMnJSWjJJRzJEMXloWWFhWktWTDJaVkUtS1N0Tno0cHFoMTVqSTJtTGhjYXdMOXBMekZwZ1AxS1FDWm1TSk1SbE82NjZ6UFZuV05xU2tTQTd3amc2dFhFVWFHUlFoRzNRZ3BXYzF3Ml80bUR2T2lXc2FFMzJEWkZiUXpLX3hy?oc=5",
-      "date": "2026-05-27",
-      "publishedAt": "2026-05-27T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 49,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "sourceQuality": 49,
-      "displayedAt": "2026-06-09T13:39:55Z",
-      "rssPublishedAt": "2026-05-27T07:00:00Z",
-      "rssDate": "2026-05-27",
-      "sourcePublishedAt": "2026-05-28T03:21:00Z",
-      "sourceDisplayedAt": "2026-06-09T13:39:55Z",
       "retainedFromPreviousScan": true
     },
     {
