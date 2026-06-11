@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-10T19:47:29Z",
+  "timestamp": "2026-06-11T07:21:08Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -62,9 +62,7 @@
         "WHISTLEBLOWER"
       ],
       "sourceQuality": 80,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-06-10T19:47:29Z"
+      "displayedAt": "2026-06-11T07:21:08Z"
     },
     {
       "id": "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb",
@@ -119,11 +117,27 @@
       ],
       "sourceQuality": 79,
       "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-06-10T09:19:52Z"
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-06-10T09:19:52Z",
+      "sourceDisplayedAt": "2026-06-10T09:19:52Z",
+      "translation": {
+        "en": {
+          "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
+          "summary": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 22 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
+          "sourceHash": "1cc82aba91bbc621691e9d4bea366ca1357e353c",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Die Realität sollte nicht geheim gehalten werden: Ein Aufruf zum Handeln zur UAP-Offenlegung – Avi Loeb",
+          "summary": "source=post_page---byline--6569862d1eba-----------------------------------------------------) 5 Min. gelesen vor 22 Stunden Drücken Sie die Eingabetaste oder klicken Sie, um das Bild in voller Größe anzuzeigen (Bildnachweis: NewsNation) Heute, am 9. Juni 2026, forderte eine Pressekonferenz von Gesetzgebern und UAP-Whistleblowern (Unidentified Anomalous Phenomena) in Washington DC Maßnahmen zur UAP-Offenlegung (für den Zugriff auf das vollständige Video). klicken Sie hier). Kurz darauf wurde ich von Nichole Berlie von NewsNation gebeten, meine Sicht auf diese Pressekonferenz mitzuteilen. *** **Hinweis:** Hier geht es um die Offenlegungsbemühungen der UAP und um das, was wir in den letzten Wochen aus der Regierungsmitteilung gesehen haben, Avi Loeb, Professor für Naturwissenschaften an der Harvard University.",
+          "sourceHash": "1cc82aba91bbc621691e9d4bea366ca1357e353c",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
-      "id": "close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026",
+      "id": "film-close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026",
       "title": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd0tCb24xOFU4N3VFWVNTejByZzVYazFRQURFbWpsMHVTTHlvVzNIdmVOenVuUk91MmNwQ3FSN1hmNzYzVUNLdk1sMS1ZUk5fS3oxN0dwRElNMzI4bkpDQ3pneTM0QWJ6Wkc3VG9XTVZ5Q1MyNHhSNnp5dVNnSG4xVkxmLU1tbl9FX0Z4cEFiMWVpQ0F5cmNGRk13?oc=5",
@@ -254,11 +268,133 @@
       "retainedFromPreviousScan": true
     },
     {
+      "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025",
+      "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-07T02:29:24Z",
+      "summary": "Markdown Content: # UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyses * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor’s Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
+      "mentions": 6,
+      "otherSources": [
+        {
+          "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
+          "publishedAt": "2026-06-09T18:44:52Z",
+          "displayedAt": "2026-06-09T18:44:52Z",
+          "rssPublishedAt": "2026-06-09T18:44:52Z",
+          "sourcePublishedAt": "2026-06-09T18:44:52Z"
+        },
+        {
+          "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
+          "source": "NewsNation",
+          "publishedAt": "2026-06-09T16:31:09Z"
+        },
+        {
+          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
+          "publishedAt": "2026-06-09T08:20:08Z"
+        },
+        {
+          "title": "UFO whistleblower and lawmakers aim to declassify UAP files",
+          "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTRqLUZpbE1pd2R6Si1rSWtVMGRQSGxXN2FRZkNFWVlSTk5XNndLUlNYUU10WGVvWUw5d2lMWGNGVzE4a0tweTI3OVZOaFFxdy1ZOTdqdlhIaUFkb3dlSVNiRy1UOUFvVFRSU0RKMjY4bmlzNzZFbno4UGJQSnE3R0xBc01ITDdZaGlXVmlUY1dMdXJVOEpTd0Zn0gGfAUFVX3lxTE9fcjJoZlNndXhQcEd3N3VBZDc5Nm10ODF2b0ZxRW5VNEgxMFRacGNlNkJpRS15MVBZZnNrY0JLejZYaVpMdGwxQlA5VV9SS1VsTGxla2FDNWV2MnZkQ2RHY3U1WGI5RGpQTGYxRnNLS3lHdzVzRHVMOHBsakZIcEdZNkZ2Sk91cENxQ0lmYUlPQlo4bHJtUEZTODdhWjlOOA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTRqLUZpbE1pd2R6Si1rSWtVMGRQSGxXN2FRZkNFWVlSTk5XNndLUlNYUU10WGVvWUw5d2lMWGNGVzE4a0tweTI3OVZOaFFxdy1ZOTdqdlhIaUFkb3dlSVNiRy1UOUFvVFRSU0RKMjY4bmlzNzZFbno4UGJQSnE3R0xBc01ITDdZaGlXVmlUY1dMdXJVOEpTd0Zn0gGfAUFVX3lxTE9fcjJoZlNndXhQcEd3N3VBZDc5Nm10ODF2b0ZxRW5VNEgxMFRacGNlNkJpRS15MVBZZnNrY0JLejZYaVpMdGwxQlA5VV9SS1VsTGxla2FDNWV2MnZkQ2RHY3U1WGI5RGpQTGYxRnNLS3lHdzVzRHVMOHBsakZIcEdZNkZ2Sk91cENxQ0lmYUlPQlo4bHJtUEZTODdhWjlOOA?oc=5",
+          "publishedAt": "2026-06-09T09:26:32Z",
+          "displayedAt": "2026-06-09T09:26:32Z"
+        },
+        {
+          "title": "Lawmakers want UFO whistleblowers to have immunity",
+          "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
+          "publishedAt": "2026-06-09T21:44:38Z",
+          "displayedAt": "2026-06-09T21:44:38Z"
+        }
+      ],
+      "clusterTitles": [
+        "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
+        "UAP disclosure advocates set to demand transparency measures Tuesday",
+        "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
+        "UFO whistleblower and lawmakers aim to declassify UAP files",
+        "Lawmakers want UFO whistleblowers to have immunity"
+      ],
+      "quality": 75,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 10,
+          "text": "3 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "disclosure"
+      ],
+      "sourceQuality": 75,
+      "displayedAt": "2026-06-11T07:21:08Z",
+      "translation": {
+        "de": {
+          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "summary": "Markdown Content: # UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyses * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor’s Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
+          "sourceHash": "922c64e0dbbe3d27437fca28bed6011eb4360fdb",
+          "provider": "original"
+        },
+        "en": {
+          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "summary": "Markdown Content: # UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyzes * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor's Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
+          "sourceHash": "922c64e0dbbe3d27437fca28bed6011eb4360fdb",
+          "provider": "google"
+        }
+      }
+    },
+    {
       "id": "ufo-push-for-disclosure-shattering-greatest-cover-up-in-us-history-expert",
       "title": "UFO push for disclosure shattering greatest cover-up in US history: Expert",
       "source": "NewsNation",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZFYwZE1lY01OVk5iWktSM2ZFeHZub3F4NHM5Z2dQQ00yLS1hLTQ5dnlobkNjY2RXZXRVemp1cUdQY2dxdnpRSnBmX3hRTXUzU2F1c1lNYzJmNW8tdWNlcWxXQ0R6MG45OF9IaVRPbkRVMkR6b3BnWF9pSkdtQmxSakkxbzFjSS1OcEIxeDhUVFI4VUFua0JhOdIBngFBVV95cUxQZ1hrVmREUUVYM2x5c19PeUdsU2RqaU5ISDFTb01QMXU5TEliMXBSeDJUOV83OUdid3FVVFA2Ym1Zb21IdnJFSTJEdk1tLWxmZGQtam16RXdvdUpNc2JhNy1td18tOGN0VWwtNURsYzl4X3JtamlPMHNDRmt6SUNsQWFERVhPWjl4RGl3Qi1QdVBWSWs4UnpaSmFvZmVWQQ?oc=5",
-      "date": "2026-06-10",
+      "date": "2026-06-09",
       "publishedAt": "2026-06-10T12:15:10Z",
       "summary": "",
       "mentions": 1,
@@ -448,112 +584,7 @@
         "WHISTLEBLOWER"
       ],
       "sourceQuality": 63,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-06-10T19:47:29Z"
-    },
-    {
-      "id": "ufo-whistleblower-and-lawmakers-aim-to-declassify-uap-files-2026-justice-iustitia-bg-2025",
-      "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-09T08:20:08Z",
-      "summary": "Markdown Content: # UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyses * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor’s Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
-      "mentions": 4,
-      "otherSources": [
-        {
-          "title": "UFO whistleblower and lawmakers aim to declassify UAP files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTRqLUZpbE1pd2R6Si1rSWtVMGRQSGxXN2FRZkNFWVlSTk5XNndLUlNYUU10WGVvWUw5d2lMWGNGVzE4a0tweTI3OVZOaFFxdy1ZOTdqdlhIaUFkb3dlSVNiRy1UOUFvVFRSU0RKMjY4bmlzNzZFbno4UGJQSnE3R0xBc01ITDdZaGlXVmlUY1dMdXJVOEpTd0Zn0gGfAUFVX3lxTE9fcjJoZlNndXhQcEd3N3VBZDc5Nm10ODF2b0ZxRW5VNEgxMFRacGNlNkJpRS15MVBZZnNrY0JLejZYaVpMdGwxQlA5VV9SS1VsTGxla2FDNWV2MnZkQ2RHY3U1WGI5RGpQTGYxRnNLS3lHdzVzRHVMOHBsakZIcEdZNkZ2Sk91cENxQ0lmYUlPQlo4bHJtUEZTODdhWjlOOA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTRqLUZpbE1pd2R6Si1rSWtVMGRQSGxXN2FRZkNFWVlSTk5XNndLUlNYUU10WGVvWUw5d2lMWGNGVzE4a0tweTI3OVZOaFFxdy1ZOTdqdlhIaUFkb3dlSVNiRy1UOUFvVFRSU0RKMjY4bmlzNzZFbno4UGJQSnE3R0xBc01ITDdZaGlXVmlUY1dMdXJVOEpTd0Zn0gGfAUFVX3lxTE9fcjJoZlNndXhQcEd3N3VBZDc5Nm10ODF2b0ZxRW5VNEgxMFRacGNlNkJpRS15MVBZZnNrY0JLejZYaVpMdGwxQlA5VV9SS1VsTGxla2FDNWV2MnZkQ2RHY3U1WGI5RGpQTGYxRnNLS3lHdzVzRHVMOHBsakZIcEdZNkZ2Sk91cENxQ0lmYUlPQlo4bHJtUEZTODdhWjlOOA?oc=5",
-          "publishedAt": "2026-06-09T09:26:32Z",
-          "displayedAt": "2026-06-09T13:39:55Z",
-          "isNew": true
-        },
-        {
-          "title": "Lawmakers want UFO whistleblowers to have immunity",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-          "publishedAt": "2026-06-09T21:44:38Z"
-        },
-        {
-          "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
-          "publishedAt": "2026-06-09T18:44:52Z",
-          "displayedAt": "2026-06-09T18:44:52Z"
-        }
-      ],
-      "clusterTitles": [
-        "UFO whistleblower and lawmakers aim to declassify UAP files",
-        "Lawmakers want UFO whistleblowers to have immunity",
-        "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025"
-      ],
-      "quality": 61,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "WHISTLEBLOWER"
-      ],
-      "sourceQuality": 61,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "displayedAt": "2026-06-10T05:40:03Z",
-      "sourceDisplayedAt": "2026-06-10T05:40:03Z",
-      "translation": {
-        "de": {
-          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "summary": "Markdown Content: # UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyses * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor’s Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
-          "sourceHash": "922c64e0dbbe3d27437fca28bed6011eb4360fdb",
-          "provider": "original"
-        },
-        "en": {
-          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "summary": "Markdown Content: # UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyzes * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor's Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
-          "sourceHash": "922c64e0dbbe3d27437fca28bed6011eb4360fdb",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
     },
     {
       "id": "trump-aliens-website-is-about-immigration-uap-journalist-not-amused-2026-justice-iustitia-bg-2025",
@@ -629,12 +660,65 @@
       "displayedAt": "2026-05-30T01:43:09Z"
     },
     {
+      "id": "lawmakers-want-ufo-whistleblowers-to-have-immunity",
+      "title": "Lawmakers want UFO whistleblowers to have immunity",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T21:44:38Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 56,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 56,
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "displayedAt": "2026-06-11T07:21:08Z"
+    },
+    {
       "id": "david-grusch-returns-to-capitol-steps-as-ufo-disclosure-fight-moves-from-testimony-to-action",
       "title": "David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action",
       "source": "USA Herald",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNDd5UlZMUzNEVE9rTVVsckxBVWIybWZRVjYtRmVsOXhaMGVyWkxCYm9DQ3o2aFFxTDNSSk5vZWMwVjdraFhqWkFZbkM0bkRFU0gwZW84aDFiTFNXSE5nV1NSWHFRRXBKeUUtakJEUHM1d2hJVGo2LWxvMW9xUDdPSTRFQ0dCZGduNm9SalI5MzdNVHozSldJLWQwVEVzVnRwM09SU0NLOWVCMFVBcDhBc0FaMVhiZw?oc=5",
       "date": "2026-06-08",
-      "publishedAt": "2026-06-09T14:45:35Z",
+      "publishedAt": "2026-06-09T14:35:18Z",
       "summary": "David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action - USA Herald David Grusch Returns To Capitol Steps As UFO Disclosure Fight David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action On Tuesday, June 9 at 1:00 p. , David Grusch, James Fox, Leslie Kean, bipartisan lawmakers, whistleblowers, journalists, and filmmakers are expected to gather on the steps of the U. The event is being framed as a direct call for declassification, stronger whistleblower protections, and passage of disclosure-related legislation. Grusch, the former intelligence officer who previously testified under oath before Congress, is expected to discuss non-human intelligence-related evidence he says he encountered through classified channels.",
       "mentions": 1,
       "otherSources": [],
@@ -720,59 +804,6 @@
       "displayedAt": "2026-06-10T05:40:03Z"
     },
     {
-      "id": "mitre-moves-to-comply-with-lawmaker-s-request-for-uap-records-and-assets-dating-back-to-1930",
-      "title": "MITRE moves to comply with lawmaker’s request for UAP records and assets dating back to 1930",
-      "source": "DefenseScoop",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNUtRemotYTJtb1cxekRuS1AwRmxWdVlnaGQyYmpfb2JrYUhkblJ4cGktRFVQU01LNjI0UHg3bDRZT0VXYnIyWEpOb3pzeFIwNld2eUtEQlZRUFZMNkZjMy1jY1J1T0xDODl0T1UxekkwZGh0MEJLRlhkOHFKU0JaRlFRSk1hbVIybm1vZA?oc=5",
-      "date": "2026-05-27",
-      "publishedAt": "2026-05-27T20:25:07Z",
-      "summary": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work. A MITRE spokesperson said that if relevant material is found, the company will coordinate with federal agencies to provide the assets. The request is part of a broader congressional effort to increase UAP disclosure, though no evidence of extraterrestrial activity has been confirmed.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 49,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 49,
-      "displayedAt": "2026-05-30T12:01:38Z",
-      "rssPublishedAt": "2026-05-27T20:25:07Z",
-      "rssDate": "2026-05-27",
-      "sourcePublishedAt": "2026-05-27T20:22:30Z",
-      "sourceDisplayedAt": "2026-05-30T12:01:38Z",
-      "translation": {
-        "en": {
-          "title": "MITRE moves to comply with lawmaker’s request for UAP records and assets dating back to 1930",
-          "summary": "MITRE Corporation is reviewing its archives to comply with a request from Rep. Eric Burlison for UAP records dating back to 1930, seeking to determine whether the organization has ever possessed or handled information on unidentified anomalous phenomena. The request, which includes more than 40 specific data requests and instructions to designate a senior official, issue a preservation hold, and deliver unclassified records within 45 days, also asks for records involving major defense contractors and UAP‑related work.",
-          "sourceHash": "0b0b505182b773c6d362923ae7f0c4bf105c9b27",
-          "provider": "original"
-        },
-        "de": {
-          "title": "MITRE kommt der Forderung des Gesetzgebers nach UAP-Aufzeichnungen und Vermögenswerten aus dem Jahr 1930 nach",
-          "summary": "Die MITRE Corporation überprüft ihre Archive, um einer Anfrage des Abgeordneten Eric Burlison nach UAP-Aufzeichnungen aus dem Jahr 1930 nachzukommen und herauszufinden, ob die Organisation jemals Informationen über nicht identifizierte anomale Phänomene besessen oder verarbeitet hat. In der Anfrage, die mehr als 40 spezifische Datenanfragen und Anweisungen zur Benennung eines hochrangigen Beamten, zur Ausstellung einer Aufbewahrungssperre und zur Übermittlung nicht klassifizierter Unterlagen innerhalb von 45 Tagen umfasst, werden auch Unterlagen gefordert, die große Verteidigungsunternehmen und UAP-bezogene Arbeiten betreffen.",
-          "sourceHash": "0b0b505182b773c6d362923ae7f0c4bf105c9b27",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
-    {
       "id": "file-release-jeremy-corbell-issues-ufo-warning-release-reverse-engineering-and-non-human-biologics-files-or-i-will",
       "title": "Jeremy Corbell Issues UFO Warning: Release Reverse-Engineering and Non-Human Biologics Files — or I Will",
       "source": "USA Herald",
@@ -804,6 +835,8 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 47,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-06-08T07:21:01Z"
     },
     {
@@ -985,7 +1018,26 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
-      "displayedAt": "2026-05-31T06:47:10Z"
+      "displayedAt": "2026-05-31T06:47:10Z",
+      "rssPublishedAt": "2026-05-28T18:00:00Z",
+      "rssDate": "2026-05-28",
+      "sourcePublishedAt": "2026-05-28T18:00:00Z",
+      "sourceDisplayedAt": "2026-05-31T06:47:10Z",
+      "translation": {
+        "en": {
+          "title": "The World's Largest UFO Conference Is Open Today, and It's Free",
+          "summary": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena.",
+          "sourceHash": "ce7a4f31a01b0655259dea2618a1d897751b73dd",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Die weltweit größte UFO-Konferenz ist heute geöffnet und kostenlos",
+          "summary": "Im Coachella Valley findet die weltweit größte UFO- und UAP-Konferenz statt. Contact in the Desert eröffnete am Donnerstag im Renaissance Esmeralda Resort in Indian Wells seine 12. jährliche Veranstaltung, die bis zum 1. Juni läuft. Die Konferenz bringt Wissenschaftler, Forscher und Journalisten aus der ganzen Welt zu Panels und Diskussionen über außerirdisches Leben, UAP-Offenlegung und andere ungeklärte Phänomene zusammen.",
+          "sourceHash": "ce7a4f31a01b0655259dea2618a1d897751b73dd",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     }
   ]
 }
