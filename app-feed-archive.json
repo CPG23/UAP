@@ -1,7 +1,72 @@
 {
-  "timestamp": "2026-06-11T07:21:08Z",
+  "timestamp": "2026-06-11T13:36:20Z",
   "retentionDays": 14,
   "articles": [
+    {
+      "id": "whistleblower-accuses-intelligence-agencies-of-hiding-uap-spending",
+      "title": "Whistleblower Accuses Intelligence Agencies of Hiding UAP Spending",
+      "source": "HarianBasis.co",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVlZvOEdHV01DYTV4TEZkRl9BaDQ3UGlGdlU1MmZEbzJNTGlfeEdBdm9tZ2RlYTVpVXA1eldBbmlNR24xelVTeWZwVmc0UDBRS1BXenpVaENpTFlhV2VyVkNMdFMzS0VrSHhrNTNHazRobUV4NWxLVndYNnFyNGg2anRBdw?oc=5",
+      "date": "2026-06-10",
+      "publishedAt": "2026-06-10T16:57:58Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 80,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "CONGRESS, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "CONGRESS, WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "whistleblower"
+      ],
+      "sourceQuality": 80,
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "displayedAt": "2026-06-11T13:36:20Z"
+    },
     {
       "id": "ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs",
       "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
@@ -62,7 +127,9 @@
         "WHISTLEBLOWER"
       ],
       "sourceQuality": 80,
-      "displayedAt": "2026-06-11T07:21:08Z"
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-06-10T06:56:24Z"
     },
     {
       "id": "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb",
@@ -268,128 +335,6 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025",
-      "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-07T02:29:24Z",
-      "summary": "Markdown Content: # UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyses * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor’s Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
-      "mentions": 6,
-      "otherSources": [
-        {
-          "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
-          "publishedAt": "2026-06-09T18:44:52Z",
-          "displayedAt": "2026-06-09T18:44:52Z",
-          "rssPublishedAt": "2026-06-09T18:44:52Z",
-          "sourcePublishedAt": "2026-06-09T18:44:52Z"
-        },
-        {
-          "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-06-09T16:31:09Z"
-        },
-        {
-          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
-          "publishedAt": "2026-06-09T08:20:08Z"
-        },
-        {
-          "title": "UFO whistleblower and lawmakers aim to declassify UAP files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTRqLUZpbE1pd2R6Si1rSWtVMGRQSGxXN2FRZkNFWVlSTk5XNndLUlNYUU10WGVvWUw5d2lMWGNGVzE4a0tweTI3OVZOaFFxdy1ZOTdqdlhIaUFkb3dlSVNiRy1UOUFvVFRSU0RKMjY4bmlzNzZFbno4UGJQSnE3R0xBc01ITDdZaGlXVmlUY1dMdXJVOEpTd0Zn0gGfAUFVX3lxTE9fcjJoZlNndXhQcEd3N3VBZDc5Nm10ODF2b0ZxRW5VNEgxMFRacGNlNkJpRS15MVBZZnNrY0JLejZYaVpMdGwxQlA5VV9SS1VsTGxla2FDNWV2MnZkQ2RHY3U1WGI5RGpQTGYxRnNLS3lHdzVzRHVMOHBsakZIcEdZNkZ2Sk91cENxQ0lmYUlPQlo4bHJtUEZTODdhWjlOOA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTRqLUZpbE1pd2R6Si1rSWtVMGRQSGxXN2FRZkNFWVlSTk5XNndLUlNYUU10WGVvWUw5d2lMWGNGVzE4a0tweTI3OVZOaFFxdy1ZOTdqdlhIaUFkb3dlSVNiRy1UOUFvVFRSU0RKMjY4bmlzNzZFbno4UGJQSnE3R0xBc01ITDdZaGlXVmlUY1dMdXJVOEpTd0Zn0gGfAUFVX3lxTE9fcjJoZlNndXhQcEd3N3VBZDc5Nm10ODF2b0ZxRW5VNEgxMFRacGNlNkJpRS15MVBZZnNrY0JLejZYaVpMdGwxQlA5VV9SS1VsTGxla2FDNWV2MnZkQ2RHY3U1WGI5RGpQTGYxRnNLS3lHdzVzRHVMOHBsakZIcEdZNkZ2Sk91cENxQ0lmYUlPQlo4bHJtUEZTODdhWjlOOA?oc=5",
-          "publishedAt": "2026-06-09T09:26:32Z",
-          "displayedAt": "2026-06-09T09:26:32Z"
-        },
-        {
-          "title": "Lawmakers want UFO whistleblowers to have immunity",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-          "publishedAt": "2026-06-09T21:44:38Z",
-          "displayedAt": "2026-06-09T21:44:38Z"
-        }
-      ],
-      "clusterTitles": [
-        "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "UAP disclosure advocates set to demand transparency measures Tuesday",
-        "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "UFO whistleblower and lawmakers aim to declassify UAP files",
-        "Lawmakers want UFO whistleblowers to have immunity"
-      ],
-      "quality": 75,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "disclosure"
-      ],
-      "sourceQuality": 75,
-      "displayedAt": "2026-06-11T07:21:08Z",
-      "translation": {
-        "de": {
-          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "summary": "Markdown Content: # UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyses * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor’s Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
-          "sourceHash": "922c64e0dbbe3d27437fca28bed6011eb4360fdb",
-          "provider": "original"
-        },
-        "en": {
-          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "summary": "Markdown Content: # UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyzes * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor's Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
-          "sourceHash": "922c64e0dbbe3d27437fca28bed6011eb4360fdb",
-          "provider": "google"
-        }
-      }
-    },
-    {
       "id": "ufo-push-for-disclosure-shattering-greatest-cover-up-in-us-history-expert",
       "title": "UFO push for disclosure shattering greatest cover-up in US history: Expert",
       "source": "NewsNation",
@@ -448,6 +393,64 @@
       },
       "sourceQuality": 65,
       "displayedAt": "2026-06-10T19:47:29Z"
+    },
+    {
+      "id": "lawmakers-want-ufo-whistleblowers-to-have-immunity",
+      "title": "Lawmakers want UFO whistleblowers to have immunity",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T21:44:38Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 65,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 65,
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "displayedAt": "2026-06-09T21:44:38Z"
     },
     {
       "id": "film-bone-chilling-preview-released-for-steven-spielberg-s-highly-anticipated-ufo-movie-disclosure-day",
@@ -660,59 +663,6 @@
       "displayedAt": "2026-05-30T01:43:09Z"
     },
     {
-      "id": "lawmakers-want-ufo-whistleblowers-to-have-immunity",
-      "title": "Lawmakers want UFO whistleblowers to have immunity",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-09T21:44:38Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 56,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 56,
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "displayedAt": "2026-06-11T07:21:08Z"
-    },
-    {
       "id": "david-grusch-returns-to-capitol-steps-as-ufo-disclosure-fight-moves-from-testimony-to-action",
       "title": "David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action",
       "source": "USA Herald",
@@ -762,8 +712,147 @@
       ],
       "sourceQuality": 56,
       "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-06-10T19:47:29Z"
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-06-10T19:47:29Z",
+      "rssPublishedAt": "2026-06-09T14:35:18Z",
+      "rssDate": "2026-06-08",
+      "sourcePublishedAt": "2026-06-08T07:30:42Z",
+      "sourceDisplayedAt": "2026-06-10T19:47:29Z",
+      "translation": {
+        "en": {
+          "title": "David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action",
+          "summary": "David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action - USA Herald David Grusch Returns To Capitol Steps As UFO Disclosure Fight David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action On Tuesday, June 9 at 1:00 p. , David Grusch, James Fox, Leslie Kean, bipartisan lawmakers, whistleblowers, journalists, and filmmakers are expected to gather on the steps of the U. The event is being framed as a direct call for declassification, stronger whistleblower protections, and passage of disclosure-related legislation.",
+          "sourceHash": "094a97246fbd1a90a9b4190742ecadb2f14cd46a",
+          "provider": "original"
+        },
+        "de": {
+          "title": "David Grusch kehrt zu den Stufen des Kapitols zurück, während der UFO-Enthüllungskampf von der Aussage zur Tat übergeht",
+          "summary": "David Grusch kehrt zu den Stufen des Kapitols zurück, während der UFO-Enthüllungskampf von Zeugenaussagen zu Taten übergeht - USA Herald David Grusch kehrt zu den Stufen des Kapitols zurück, während UFO-Enthüllungskämpfe von Zeugenaussagen zu Taten übergehen David Grusch kehrt zu den Stufen des Kapitols zurück, während UFO-Enthüllungskämpfe von Zeugenaussagen zu Taten übergehen Am Dienstag, den 9. Juni um 13:00 Uhr. , David Grusch, James Fox, Leslie Kean, überparteiliche Gesetzgeber, Whistleblower, Journalisten und Filmemacher werden sich voraussichtlich auf den Stufen der Vereinigten Staaten versammeln. Die Veranstaltung wird als direkter Aufruf zur Freigabe, einem stärkeren Whistleblower-Schutz und der Verabschiedung von Offenlegungsgesetzen dargestellt.",
+          "sourceHash": "094a97246fbd1a90a9b4190742ecadb2f14cd46a",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
+    },
+    {
+      "id": "ufo-whistleblower-and-lawmakers-aim-to-declassify-uap-files-2026-justice-iustitia-bg-2025",
+      "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T08:20:08Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 56,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "WHISTLEBLOWER"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "sourceQuality": 56,
+      "displayedAt": "2026-06-11T13:36:20Z"
+    },
+    {
+      "id": "sighting-influencer-reports-alleged-ufo-sighting-in-paran-goes-viral-with-millions-of-views-and-says-he-lives-between-fascination-and-fear-after-mysterious-phenomenon",
+      "title": "Influencer reports alleged UFO sighting in Paraná, goes viral with millions of views, and says he lives between fascination and fear after mysterious phenomenon",
+      "source": "CPG Click Petróleo e Gás",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQMUNkck53M2ZSak40MVdaSUx3MzNvZmZnTGhvVXBWQjlfaW9ub0FTU3Z2cWYyTHlBUWFUSXJ2bEJEazF4Smk2bzEyY2pXWUNiRzByWlBZU1puaEd2RDdxTHVlWUlISThJYXNUVmVlbmZrZ2NmcWh1RnluZmdBd1hZdUYtVkhlbzF0VFNTeTgzYXBPdjBDeEJKTkFOdm5oSWZtNHMtby1jZzlCT3hGZ3NtaEhGZE1WZHBRZFRhbzNtcFY4T0llRWVpTTlORkM3S0RLcGQ3VkpfWVEwRWNILV90LWRBQkdXTlhwRURlc0xtc0R0QWdEWGV3NjBBMDhUWUpOWV9NWUpUMzlVZmd6bmZOTw?oc=5",
+      "date": "2026-06-08",
+      "publishedAt": "2026-06-03T15:38:00Z",
+      "summary": "Lights recorded in the rural area of Campo Largo, unusual sounds in the forest, and an object observed for dozens of minutes transformed the routine of a content creator and mobilized specialists, curious people, and researchers of aerial phenomena A supposed UFO sighting in the rural area of Campo Largo, in the Metropolitan Region of Curitiba, transformed the life of digital influencer Mayk Leão, 31, in recent days. The case, recorded on the night of May 31, 2026, gained national attention after videos posted on social media accumulated millions of views and sparked debates about the possibility of an unusual aerial phenomenon.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 56,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "WHISTLEBLOWER"
+      ],
+      "sourceQuality": 56,
+      "displayedAt": "2026-06-07T06:56:35Z",
+      "translation": {
+        "en": {
+          "title": "Influencer reports alleged UFO sighting in Paraná, goes viral with millions of views, and says he lives between fascination and fear after mysterious phenomenon",
+          "summary": "Lights recorded in the rural area of Campo Largo, unusual sounds in the forest, and an object observed for dozens of minutes transformed the routine of a content creator and mobilized specialists, curious people, and researchers of aerial phenomena A supposed UFO sighting in the rural area of Campo Largo, in the Metropolitan Region of Curitiba, transformed the life of digital influencer Mayk Leão, 31, in recent days. The case, recorded on the night of May 31, 2026, gained national attention after videos posted on social media accumulated millions of views and sparked debates about the possibility of an unusual aerial phenomenon.",
+          "sourceHash": "936165479f79614104837ff709831945b2363462",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Influencer meldet angebliche UFO-Sichtung in Paraná, wird millionenfach viral und sagt, er lebe zwischen Faszination und Angst nach einem mysteriösen Phänomen",
+          "summary": "In der ländlichen Gegend von Campo Largo aufgenommene Lichter, ungewöhnliche Geräusche im Wald und ein Dutzende Minuten lang beobachtetes Objekt veränderten die Routine eines Content-Erstellers und mobilisierten Spezialisten, Neugierige und Forscher von Luftphänomenen. Eine angebliche UFO-Sichtung in der ländlichen Gegend von Campo Largo in der Metropolregion Curitiba veränderte in den letzten Tagen das Leben der digitalen Influencerin Mayk Leão, 31. Der in der Nacht des 31. Mai 2026 aufgezeichnete Fall erlangte landesweite Aufmerksamkeit, nachdem in den sozialen Medien veröffentlichte Videos millionenfach angeklickt wurden und Debatten über die Möglichkeit eines ungewöhnlichen Luftphänomens auslösten.",
+          "sourceHash": "936165479f79614104837ff709831945b2363462",
+          "provider": "google"
+        }
+      }
     },
     {
       "id": "your-morning-ufo-whistleblowers-demand-transparency",
@@ -902,49 +991,6 @@
         }
       },
       "retainedFromPreviousScan": true
-    },
-    {
-      "id": "sighting-influencer-reports-alleged-ufo-sighting-in-paran-goes-viral-with-millions-of-views-and-says-he-lives-between-fascination-and-fear-after-mysterious-phenomenon",
-      "title": "Influencer reports alleged UFO sighting in Paraná, goes viral with millions of views, and says he lives between fascination and fear after mysterious phenomenon",
-      "source": "CPG Click Petróleo e Gás",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQMUNkck53M2ZSak40MVdaSUx3MzNvZmZnTGhvVXBWQjlfaW9ub0FTU3Z2cWYyTHlBUWFUSXJ2bEJEazF4Smk2bzEyY2pXWUNiRzByWlBZU1puaEd2RDdxTHVlWUlISThJYXNUVmVlbmZrZ2NmcWh1RnluZmdBd1hZdUYtVkhlbzF0VFNTeTgzYXBPdjBDeEJKTkFOdm5oSWZtNHMtby1jZzlCT3hGZ3NtaEhGZE1WZHBRZFRhbzNtcFY4T0llRWVpTTlORkM3S0RLcGQ3VkpfWVEwRWNILV90LWRBQkdXTlhwRURlc0xtc0R0QWdEWGV3NjBBMDhUWUpOWV9NWUpUMzlVZmd6bmZOTw?oc=5",
-      "date": "2026-06-06",
-      "publishedAt": "2026-06-03T15:38:00Z",
-      "summary": "Lights recorded in the rural area of Campo Largo, unusual sounds in the forest, and an object observed for dozens of minutes transformed the routine of a content creator and mobilized specialists, curious people, and researchers of aerial phenomena A supposed UFO sighting in the rural area of Campo Largo, in the Metropolitan Region of Curitiba, transformed the life of digital influencer Mayk Leão, 31, in recent days. The case, recorded on the night of May 31, 2026, gained national attention after videos posted on social media accumulated millions of views and sparked debates about the possibility of an unusual aerial phenomenon.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "displayedAt": "2026-06-07T06:56:35Z",
-      "translation": {
-        "en": {
-          "title": "Influencer reports alleged UFO sighting in Paraná, goes viral with millions of views, and says he lives between fascination and fear after mysterious phenomenon",
-          "summary": "Lights recorded in the rural area of Campo Largo, unusual sounds in the forest, and an object observed for dozens of minutes transformed the routine of a content creator and mobilized specialists, curious people, and researchers of aerial phenomena A supposed UFO sighting in the rural area of Campo Largo, in the Metropolitan Region of Curitiba, transformed the life of digital influencer Mayk Leão, 31, in recent days. The case, recorded on the night of May 31, 2026, gained national attention after videos posted on social media accumulated millions of views and sparked debates about the possibility of an unusual aerial phenomenon.",
-          "sourceHash": "936165479f79614104837ff709831945b2363462",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Influencer meldet angebliche UFO-Sichtung in Paraná, wird millionenfach viral und sagt, er lebe zwischen Faszination und Angst nach einem mysteriösen Phänomen",
-          "summary": "In der ländlichen Gegend von Campo Largo aufgenommene Lichter, ungewöhnliche Geräusche im Wald und ein Dutzende Minuten lang beobachtetes Objekt veränderten die Routine eines Content-Erstellers und mobilisierten Spezialisten, Neugierige und Forscher von Luftphänomenen. Eine angebliche UFO-Sichtung in der ländlichen Gegend von Campo Largo in der Metropolregion Curitiba veränderte in den letzten Tagen das Leben der digitalen Influencerin Mayk Leão, 31. Der in der Nacht des 31. Mai 2026 aufgezeichnete Fall erlangte landesweite Aufmerksamkeit, nachdem in den sozialen Medien veröffentlichte Videos millionenfach angeklickt wurden und Debatten über die Möglichkeit eines ungewöhnlichen Luftphänomens auslösten.",
-          "sourceHash": "936165479f79614104837ff709831945b2363462",
-          "provider": "google"
-        }
-      }
     },
     {
       "id": "sighting-lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens",
