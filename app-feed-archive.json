@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-11T14:32:13Z",
+  "timestamp": "2026-06-12T05:25:51Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -17,14 +17,18 @@
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
           "source": "iustitia.bg",
-          "publishedAt": "2026-06-09T18:44:52Z"
+          "publishedAt": "2026-06-09T18:44:52Z",
+          "rssPublishedAt": "2026-06-09T18:44:52Z",
+          "sourcePublishedAt": "2026-06-09T18:44:52Z",
+          "displayedAt": "2026-06-09T18:44:52Z"
         },
         {
           "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
           "source": "NewsNation",
-          "publishedAt": "2026-06-09T16:31:09Z"
+          "publishedAt": "2026-06-09T16:31:09Z",
+          "displayedAt": "2026-06-09T16:31:09Z"
         }
       ],
       "clusterTitles": [
@@ -73,12 +77,80 @@
       "matchedTerms": [
         "disclosure"
       ],
-      "sourceQuality": 89,
       "summaryStatus": {
         "articleContentSummary": "missing",
         "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
       },
-      "displayedAt": "2026-06-11T14:32:13Z"
+      "sourceQuality": 89,
+      "displayedAt": "2026-06-07T02:29:24Z"
+    },
+    {
+      "id": "lawmakers-want-ufo-whistleblowers-to-have-immunity",
+      "title": "Lawmakers want UFO whistleblowers to have immunity",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T21:44:38Z",
+      "summary": "",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
+          "publishedAt": "2026-06-09T18:44:52Z"
+        }
+      ],
+      "clusterTitles": [
+        "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025"
+      ],
+      "quality": 84,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 12,
+          "text": "DISCLOSURE, EXTRATERRESTRIAL, GOVERNMENT, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 12,
+          "text": "DISCLOSURE, GOVERNMENT, WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 8,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
+      },
+      "sourceQuality": 84,
+      "displayedAt": "2026-06-09T21:44:38Z"
     },
     {
       "id": "whistleblower-accuses-intelligence-agencies-of-hiding-uap-spending",
@@ -138,11 +210,11 @@
       "matchedTerms": [
         "whistleblower"
       ],
-      "sourceQuality": 80,
       "summaryStatus": {
         "articleContentSummary": "missing",
         "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
       },
+      "sourceQuality": 80,
       "displayedAt": "2026-06-11T13:36:20Z"
     },
     {
@@ -206,61 +278,27 @@
       ],
       "sourceQuality": 80,
       "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-06-10T06:56:24Z"
-    },
-    {
-      "id": "lawmakers-want-ufo-whistleblowers-to-have-immunity",
-      "title": "Lawmakers want UFO whistleblowers to have immunity",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-09T21:44:38Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 79,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-06-10T06:56:24Z",
+      "rssPublishedAt": "2026-06-09T20:50:00Z",
+      "rssDate": "2026-06-10",
+      "sourcePublishedAt": "2026-06-09T20:50:52Z",
+      "sourceDisplayedAt": "2026-06-10T06:56:24Z",
+      "translation": {
+        "en": {
+          "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
+          "summary": "UFO Whistleblower David Grusch on Tuesday suggested the White House should investigate billions of dollars he suggested are being funneled to secret programs operated by the federal government. Grusch, a former intelligence officer who gave NewsNation his first on-the-record interview as a whistleblower in 2023, before testifying to Congress, claimed there are massive “slush funds” tied to UFO programs, including allegedly classified UFO crash‑retrieval initiatives largely shielded from Congress and the public.",
+          "sourceHash": "baac09c71314ca65e72edcdb2dc0620452101d92",
+          "provider": "original"
         },
-        {
-          "label": "Begriffe",
-          "points": 12,
-          "text": "DISCLOSURE, EXTRATERRESTRIAL, GOVERNMENT, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 12,
-          "text": "DISCLOSURE, GOVERNMENT, WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 8,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        "de": {
+          "title": "UFO-Whistleblower drängt Vance, angebliche Milliarden von „schwarzen Geldern“ des Bundes zu untersuchen, die mit geheimen Programmen in Zusammenhang stehen",
+          "summary": "Der UFO-Whistleblower David Grusch schlug am Dienstag vor, dass das Weiße Haus Milliarden von Dollar untersuchen sollte, die seiner Meinung nach in geheime Programme der Bundesregierung fließen. Grusch, ein ehemaliger Geheimdienstoffizier, der NewsNation im Jahr 2023 sein erstes offizielles Interview als Whistleblower gab, bevor er vor dem Kongress aussagte, behauptete, dass mit UFO-Programmen riesige „Schwarzgelder“ verbunden seien, darunter angeblich geheime Initiativen zur UFO-Absturzbergung, die weitgehend vor dem Kongress und der Öffentlichkeit geschützt seien.",
+          "sourceHash": "baac09c71314ca65e72edcdb2dc0620452101d92",
+          "provider": "google"
         }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 79,
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
       },
-      "displayedAt": "2026-06-09T21:44:38Z"
+      "retainedFromPreviousScan": true
     },
     {
       "id": "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb",
@@ -333,6 +371,73 @@
         }
       },
       "retainedFromPreviousScan": true
+    },
+    {
+      "id": "ufo-whistleblower-and-lawmakers-aim-to-declassify-uap-files-2026-justice-iustitia-bg-2025",
+      "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T08:20:08Z",
+      "summary": "In 2023, Grusch gave NewsNation his first on-the-record interview, claiming the government had vehicles of non-human origin. BG – Investigations 2009-2025 2026-06-09 11:20:08 Read more at: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 79,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 12,
+          "text": "DISCLOSURE, EXTRATERRESTRIAL, GOVERNMENT, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 12,
+          "text": "DISCLOSURE, GOVERNMENT, WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 8,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "disclosure"
+      ],
+      "sourceQuality": 79,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-06-12T05:25:51Z",
+      "translation": {
+        "en": {
+          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "summary": "In 2023, Grusch gave NewsNation his first on-the-record interview, claiming the government had vehicles of non-human origin. BG – Investigations 2009-2025 2026-06-09 11:20:08 Read more at: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
+          "sourceHash": "7f78511e5451d14a45fc3d67d2549f94d1192b74",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UFO-Whistleblower und Gesetzgeber wollen UAP-Dateien 2026 freigeben | GERECHTIGKEIT - IUSTITIA.BG 2025",
+          "summary": "Im Jahr 2023 gab Grusch NewsNation sein erstes offizielles Interview und behauptete, die Regierung verfüge über Fahrzeuge nichtmenschlichen Ursprungs. BG – Untersuchungen 2009–2025 2026-06-09 11:20:08 Lesen Sie mehr unter: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Neueste Nachrichten Weltnachrichten Ländernachrichten Wichtigste Nachrichten Neueste Nachrichten Wichtigstes Neueste des Tages Gerechtigkeit Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
+          "sourceHash": "7f78511e5451d14a45fc3d67d2549f94d1192b74",
+          "provider": "google"
+        }
+      }
     },
     {
       "id": "film-close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026",
@@ -809,63 +914,6 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "ufo-whistleblower-and-lawmakers-aim-to-declassify-uap-files-2026-justice-iustitia-bg-2025",
-      "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-09T08:20:08Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 56,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "WHISTLEBLOWER"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "sourceQuality": 56,
-      "displayedAt": "2026-06-09T08:20:08Z",
-      "sourceDisplayedAt": "2026-06-10T05:40:03Z",
-      "retainedFromPreviousScan": true
-    },
-    {
       "id": "sighting-influencer-reports-alleged-ufo-sighting-in-paran-goes-viral-with-millions-of-views-and-says-he-lives-between-fascination-and-fear-after-mysterious-phenomenon",
       "title": "Influencer reports alleged UFO sighting in Paraná, goes viral with millions of views, and says he lives between fascination and fear after mysterious phenomenon",
       "source": "CPG Click Petróleo e Gás",
@@ -1010,6 +1058,56 @@
       "displayedAt": "2026-06-08T07:21:01Z"
     },
     {
+      "id": "rep-burlison-and-others-on-uap-declassification-c-span",
+      "title": "Rep. Burlison and Others on UAP Declassification - C-SPAN",
+      "source": "C-SPAN",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMUFJUVRLYWJxc3lfOE9IaVJ4ZDk5dEFGUEhOdkc2NW42dHltLXJGQnZWcUdYMUVRcERRR1Q4MHRwQVlPejhNYUxmR3hkTENzMDlwT0lCcl9pOGFBUEdNdEtYWTh2dTNha1NPeHA4VEFvcXpGOWFPS0ZuOFZKRUJmYXBjQ3l6bFVoUG43SUdTY3p4RThORFNrWWRONS1PMFl0WnpF?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T18:01:01Z",
+      "summary": "",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "Rep. Burlison and Others on UAP Declassification",
+          "source": "C-SPAN",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWFpQR3h6VFlSZFh3ZDJOTmFXTHk3aXNReTBOQS1jZEd2ZkVxUkVEbGplMFkzMHZzbWRzdkF0bHBUMU8teFZZOFBKSmdWMEs5WFoxalhLZmVnYjN5enRNN0RGQ09PMlduN2xycGprRWtJcUpmSXVuZHo2ckcxel9JYlBGR0N2ZWpsYXA4Q2pqQlQ4NDEzM3Z6NG5WS2FRaU1n?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWFpQR3h6VFlSZFh3ZDJOTmFXTHk3aXNReTBOQS1jZEd2ZkVxUkVEbGplMFkzMHZzbWRzdkF0bHBUMU8teFZZOFBKSmdWMEs5WFoxalhLZmVnYjN5enRNN0RGQ09PMlduN2xycGprRWtJcUpmSXVuZHo2ckcxel9JYlBGR0N2ZWpsYXA4Q2pqQlQ4NDEzM3Z6NG5WS2FRaU1n?oc=5",
+          "publishedAt": "2026-06-09T04:00:00Z"
+        }
+      ],
+      "clusterTitles": [
+        "Rep. Burlison and Others on UAP Declassification"
+      ],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 45,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-06-12T05:25:51Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
+      }
+    },
+    {
       "id": "sighting-lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens",
       "title": "Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens",
       "source": "Washington Times",
@@ -1049,54 +1147,6 @@
           "title": "Gesetzgeber beherbergen Whistleblower und UFO-Ermittler, um die Regierung dazu zu drängen, über Außerirdische aufzuklären",
           "summary": "Markdown-Inhalt: # Gesetzgeber beherbergen Whistleblower und UFO-Ermittler, um die Regierung zu drängen, über Außerirdische aufzuklären. Zum Inhalt springen Schließen Zurück _America's Newspaper_ 1 Abonnieren Schließen Anmelden) Abonnieren {# Registrieren Sie sich kostenlos, um Ihre verfolgten Autoren und Newsletter an einem Ort zu verwalten. #} * Newsletter-Anmeldung * Geschenkabonnements * Kundenservice (Abmelden)Mein Konto * Newsletter verwalten * Autoren folgen * Geschenkabonnements * Heutige E-Ausgabe * Kundenservice Suche Suchbegriff: Suche * Nachrichten * Korrekturen * Politik * National * Welt * Sicherheit * The Advocates * Gesehen, gehört und geflüstert * Wirtschaft & Wirtschaft * D.",
           "sourceHash": "223ac11649b36f95798f03e9ed2fe4108c8d9b31",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
-    {
-      "id": "the-world-s-largest-ufo-conference-is-open-today-and-it-s-free",
-      "title": "The World's Largest UFO Conference Is Open Today, and It's Free",
-      "source": "NBC Palm Springs",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUXB1VUl2Z2FTWUhYWXFXeDl4TV9UWG1rbnNRVnFNRWNEYW4tOTNOX2t6VThtd0FraVF3dTNIb1hqbDN6aTVqMllvX1pJMjJ3MndPSGhJZ2RCalNZdlYxQ29lNF9Xelc0SldNWnJWZmN2YVNNZ0JSVkxCTFZESGpUUGFRS21EVGRqa2c3Zm9ITEg5VEppejFYSXJWMG5SWmpDaXhlVw?oc=5",
-      "date": "2026-05-28",
-      "publishedAt": "2026-05-28T18:00:00Z",
-      "summary": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena. All of Thursday’s programming is free and open to the public. One‑day and five‑day passes are available at contactinthedesert.com.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "displayedAt": "2026-05-31T06:47:10Z",
-      "rssPublishedAt": "2026-05-28T18:00:00Z",
-      "rssDate": "2026-05-28",
-      "sourcePublishedAt": "2026-05-28T18:00:00Z",
-      "sourceDisplayedAt": "2026-05-31T06:47:10Z",
-      "translation": {
-        "en": {
-          "title": "The World's Largest UFO Conference Is Open Today, and It's Free",
-          "summary": "The world's largest UFO and UAP conference is underway in the Coachella Valley. Contact in the Desert opened its 12th annual event Thursday at the Renaissance Esmeralda Resort in Indian Wells, running through June 1. The conference brings together scientists, researchers, and journalists from around the world for panels and discussions on extraterrestrial life, UAP disclosure, and other unexplained phenomena.",
-          "sourceHash": "ce7a4f31a01b0655259dea2618a1d897751b73dd",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Die weltweit größte UFO-Konferenz ist heute geöffnet und kostenlos",
-          "summary": "Im Coachella Valley findet die weltweit größte UFO- und UAP-Konferenz statt. Contact in the Desert eröffnete am Donnerstag im Renaissance Esmeralda Resort in Indian Wells seine 12. jährliche Veranstaltung, die bis zum 1. Juni läuft. Die Konferenz bringt Wissenschaftler, Forscher und Journalisten aus der ganzen Welt zu Panels und Diskussionen über außerirdisches Leben, UAP-Offenlegung und andere ungeklärte Phänomene zusammen.",
-          "sourceHash": "ce7a4f31a01b0655259dea2618a1d897751b73dd",
           "provider": "google"
         }
       },
