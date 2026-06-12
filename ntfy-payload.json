@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "1 neuer Artikel",
+  "message": "──────────────\nAs UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
