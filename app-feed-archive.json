@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-12T05:25:51Z",
+  "timestamp": "2026-06-12T07:10:57Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -9,8 +9,8 @@
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
       "date": "2026-06-09",
       "publishedAt": "2026-06-07T02:29:24Z",
-      "summary": "",
-      "mentions": 3,
+      "summary": "In 2023, Grusch gave NewsNation his first on-the-record interview, claiming the government had vehicles of non-human origin. BG – Investigations 2009-2025 2026-06-09 11:20:08 Read more at: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
+      "mentions": 5,
       "otherSources": [
         {
           "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
@@ -29,11 +29,27 @@
           "source": "NewsNation",
           "publishedAt": "2026-06-09T16:31:09Z",
           "displayedAt": "2026-06-09T16:31:09Z"
+        },
+        {
+          "title": "Lawmakers want UFO whistleblowers to have immunity",
+          "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
+          "publishedAt": "2026-06-09T21:44:38Z"
+        },
+        {
+          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
+          "publishedAt": "2026-06-09T08:20:08Z"
         }
       ],
       "clusterTitles": [
         "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "UAP disclosure advocates set to demand transparency measures Tuesday"
+        "UAP disclosure advocates set to demand transparency measures Tuesday",
+        "Lawmakers want UFO whistleblowers to have immunity",
+        "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025"
       ],
       "quality": 89,
       "qualityBreakdown": [
@@ -77,80 +93,22 @@
       "matchedTerms": [
         "disclosure"
       ],
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
       "sourceQuality": 89,
-      "displayedAt": "2026-06-07T02:29:24Z"
-    },
-    {
-      "id": "lawmakers-want-ufo-whistleblowers-to-have-immunity",
-      "title": "Lawmakers want UFO whistleblowers to have immunity",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-09T21:44:38Z",
-      "summary": "",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
-          "publishedAt": "2026-06-09T18:44:52Z"
+      "displayedAt": "2026-06-07T02:29:24Z",
+      "translation": {
+        "en": {
+          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "summary": "In 2023, Grusch gave NewsNation his first on-the-record interview, claiming the government had vehicles of non-human origin. BG – Investigations 2009-2025 2026-06-09 11:20:08 Read more at: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
+          "sourceHash": "7f78511e5451d14a45fc3d67d2549f94d1192b74",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UFO-Whistleblower und Gesetzgeber wollen UAP-Dateien 2026 freigeben | GERECHTIGKEIT - IUSTITIA.BG 2025",
+          "summary": "Im Jahr 2023 gab Grusch NewsNation sein erstes offizielles Interview und behauptete, die Regierung verfüge über Fahrzeuge nichtmenschlichen Ursprungs. BG – Untersuchungen 2009–2025 2026-06-09 11:20:08 Lesen Sie mehr unter: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Neueste Nachrichten Weltnachrichten Ländernachrichten Wichtigste Nachrichten Neueste Nachrichten Wichtigstes Neueste des Tages Gerechtigkeit Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
+          "sourceHash": "7f78511e5451d14a45fc3d67d2549f94d1192b74",
+          "provider": "google"
         }
-      ],
-      "clusterTitles": [
-        "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025"
-      ],
-      "quality": 84,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 12,
-          "text": "DISCLOSURE, EXTRATERRESTRIAL, GOVERNMENT, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 12,
-          "text": "DISCLOSURE, GOVERNMENT, WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 8,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "sourceQuality": 84,
-      "displayedAt": "2026-06-09T21:44:38Z"
+      }
     },
     {
       "id": "whistleblower-accuses-intelligence-agencies-of-hiding-uap-spending",
@@ -379,7 +337,7 @@
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
       "date": "2026-06-09",
       "publishedAt": "2026-06-09T08:20:08Z",
-      "summary": "In 2023, Grusch gave NewsNation his first on-the-record interview, claiming the government had vehicles of non-human origin. BG – Investigations 2009-2025 2026-06-09 11:20:08 Read more at: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
+      "summary": "",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -423,20 +381,10 @@
       "sourceQuality": 79,
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-06-12T05:25:51Z",
-      "translation": {
-        "en": {
-          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "summary": "In 2023, Grusch gave NewsNation his first on-the-record interview, claiming the government had vehicles of non-human origin. BG – Investigations 2009-2025 2026-06-09 11:20:08 Read more at: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
-          "sourceHash": "7f78511e5451d14a45fc3d67d2549f94d1192b74",
-          "provider": "original"
-        },
-        "de": {
-          "title": "UFO-Whistleblower und Gesetzgeber wollen UAP-Dateien 2026 freigeben | GERECHTIGKEIT - IUSTITIA.BG 2025",
-          "summary": "Im Jahr 2023 gab Grusch NewsNation sein erstes offizielles Interview und behauptete, die Regierung verfüge über Fahrzeuge nichtmenschlichen Ursprungs. BG – Untersuchungen 2009–2025 2026-06-09 11:20:08 Lesen Sie mehr unter: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Neueste Nachrichten Weltnachrichten Ländernachrichten Wichtigste Nachrichten Neueste Nachrichten Wichtigstes Neueste des Tages Gerechtigkeit Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
-          "sourceHash": "7f78511e5451d14a45fc3d67d2549f94d1192b74",
-          "provider": "google"
-        }
+      "displayedAt": "2026-06-09T08:20:08Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlaessliche Zusammenfassung verfuegbar. GitHub versucht beim naechsten Scan automatisch, diese zu ergaenzen."
       }
     },
     {
@@ -781,7 +729,9 @@
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnM4akc5RnpsVWNwQUQ3WXJMVjhuNE5PTTdMUWxzVVpRUHlJRFVDWWFyLURXc1loQzQyVGZQZWQzTVFTWHRXTDdZREduc0ZhY2g2cXljOFNreEFQamFxREdISThsQ2ZaTkhxWE1KRi1JTlhPeElINnFyUUExWlkyTUQtZU1BTHJfZjNQS2k1RFlHY1pwWlNYdENmbWx2N3dDTTRyVzhtaEJKRmljdGtEbWV5alJadlhOOGZldDM5WW45QmVtcWJvOU930gHKAUFVX3lxTE9SczhqRzlGemxVY3BBRDdZckxWOG40Tk9NN0xRbHNVWlFQeUlEVUNZYXItRFdzWWhDNDJUZlBlZDNNUVNYdFdMN1lER25zRmFjaDZxeWM4U2t4QVBqYXFER0hJOGxDZlpOSHFYTUpGLUlOWE94SUg2cXJRQTFaWTJNRC1lTUFMcl9mM1BLaTVEWUdjWnBaU1h0Q2ZtbHY3d0NNNHJXOG1oQkpGaWN0a0RtZXlqUlp2WE44ZmV0MzlZbjlCZW1xYm85T3c?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnM4akc5RnpsVWNwQUQ3WXJMVjhuNE5PTTdMUWxzVVpRUHlJRFVDWWFyLURXc1loQzQyVGZQZWQzTVFTWHRXTDdZREduc0ZhY2g2cXljOFNreEFQamFxREdISThsQ2ZaTkhxWE1KRi1JTlhPeElINnFyUUExWlkyTUQtZU1BTHJfZjNQS2k1RFlHY1pwWlNYdENmbWx2N3dDTTRyVzhtaEJKRmljdGtEbWV5alJadlhOOGZldDM5WW45QmVtcWJvOU930gHKAUFVX3lxTE9SczhqRzlGemxVY3BBRDdZckxWOG40Tk9NN0xRbHNVWlFQeUlEVUNZYXItRFdzWWhDNDJUZlBlZDNNUVNYdFdMN1lER25zRmFjaDZxeWM4U2t4QVBqYXFER0hJOGxDZlpOSHFYTUpGLUlOWE94SUg2cXJRQTFaWTJNRC1lTUFMcl9mM1BLaTVEWUdjWnBaU1h0Q2ZtbHY3d0NNNHJXOG1oQkpGaWN0a0RtZXlqUlp2WE44ZmV0MzlZbjlCZW1xYm85T3c?oc=5",
           "publishedAt": "2026-06-06T06:57:58Z",
-          "displayedAt": "2026-06-06T06:57:58Z"
+          "displayedAt": "2026-06-06T06:57:58Z",
+          "rssPublishedAt": "2026-06-06T06:57:58Z",
+          "sourcePublishedAt": "2026-06-06T06:57:58Z"
         }
       ],
       "clusterTitles": [
@@ -1064,7 +1014,7 @@
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMUFJUVRLYWJxc3lfOE9IaVJ4ZDk5dEFGUEhOdkc2NW42dHltLXJGQnZWcUdYMUVRcERRR1Q4MHRwQVlPejhNYUxmR3hkTENzMDlwT0lCcl9pOGFBUEdNdEtYWTh2dTNha1NPeHA4VEFvcXpGOWFPS0ZuOFZKRUJmYXBjQ3l6bFVoUG43SUdTY3p4RThORFNrWWRONS1PMFl0WnpF?oc=5",
       "date": "2026-06-09",
       "publishedAt": "2026-06-09T18:01:01Z",
-      "summary": "",
+      "summary": ":::title::: :::description::: :::itemcount::: LIVE :::seriesTitle::: :::title::: :::description::: :::notice::: For quick viewing, C-SPAN provides Points of Interest markers for some events. Taken from C-SPAN's gavel-to-gavel coverage and condensed down to the key moments. org offers links to books featured on the C-SPAN networks to make it simpler for viewers to purchase them. C-SPAN has agreements with retailers that share a small percentage of your purchase price with our network. For example, as an Amazon Associate, C-SPAN earns money from your qualifying purchases.",
       "mentions": 2,
       "otherSources": [
         {
@@ -1072,7 +1022,9 @@
           "source": "C-SPAN",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWFpQR3h6VFlSZFh3ZDJOTmFXTHk3aXNReTBOQS1jZEd2ZkVxUkVEbGplMFkzMHZzbWRzdkF0bHBUMU8teFZZOFBKSmdWMEs5WFoxalhLZmVnYjN5enRNN0RGQ09PMlduN2xycGprRWtJcUpmSXVuZHo2ckcxel9JYlBGR0N2ZWpsYXA4Q2pqQlQ4NDEzM3Z6NG5WS2FRaU1n?oc=5",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWFpQR3h6VFlSZFh3ZDJOTmFXTHk3aXNReTBOQS1jZEd2ZkVxUkVEbGplMFkzMHZzbWRzdkF0bHBUMU8teFZZOFBKSmdWMEs5WFoxalhLZmVnYjN5enRNN0RGQ09PMlduN2xycGprRWtJcUpmSXVuZHo2ckcxel9JYlBGR0N2ZWpsYXA4Q2pqQlQ4NDEzM3Z6NG5WS2FRaU1n?oc=5",
-          "publishedAt": "2026-06-09T04:00:00Z"
+          "publishedAt": "2026-06-09T04:00:00Z",
+          "displayedAt": "2026-06-12T05:25:51Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
@@ -1099,12 +1051,20 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 45,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-06-12T05:25:51Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
+      "translation": {
+        "en": {
+          "title": "Rep. Burlison and Others on UAP Declassification - C-SPAN",
+          "summary": ":::title::: :::description::: :::itemcount::: LIVE :::seriesTitle::: :::title::: :::description::: :::notice::: For quick viewing, C-SPAN provides Points of Interest markers for some events. Taken from C-SPAN's gavel-to-gavel coverage and condensed down to the key moments. org offers links to books featured on the C-SPAN networks to make it simpler for viewers to purchase them. C-SPAN has agreements with retailers that share a small percentage of your purchase price with our network.",
+          "sourceHash": "828356276cc19f61f3515ceb499a576128c3ad8b",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Rep. Burlison und andere zur UAP-Deklassifizierung – C-SPAN",
+          "summary": ":::title::: :::description::: :::itemcount::: LIVE :::seriesTitle::: :::title::: :::description::: :::notice::: Zur schnellen Anzeige stellt C-SPAN Points of Interest-Markierungen für einige Ereignisse bereit. Aus der umfassenden Berichterstattung von C-SPAN entnommen und auf die Schlüsselmomente reduziert. org bietet Links zu Büchern, die in den C-SPAN-Netzwerken vorgestellt werden, um den Zuschauern den Kauf zu erleichtern. C-SPAN hat Vereinbarungen mit Einzelhändlern, die einen kleinen Prozentsatz Ihres Einkaufspreises mit unserem Netzwerk teilen.",
+          "sourceHash": "828356276cc19f61f3515ceb499a576128c3ad8b",
+          "provider": "google"
+        }
       }
     },
     {
