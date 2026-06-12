@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-12T12:47:06Z",
+  "timestamp": "2026-06-12T13:59:35Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -9,7 +9,7 @@
       "date": "2026-06-08",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 14,
+      "mentions": 13,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -18,6 +18,17 @@
           "source": "Reuters",
           "publishedAt": "2026-05-22T07:00:00Z",
           "displayedAt": "2026-05-22T07:00:00Z"
+        },
+        {
+          "title": "Pentagon releases new batch of UFO files, with dozens more documents and videos",
+          "source": "CBS News",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOThBb3E0X0N2czQwSjBFRmJ6djRJbzhPc2xxSmxMei1DbW1iY0NfZ3JZUVZyNXMwQVNMSnI5NFZBaXo2M3poT0oyNmZwTVhNTnJoZkJSRzQtSF9JREY5b042RVVrX2VOZ1FiSGViNEZmRGdfUDBMRzB5VnJ2RVRFYkYtdw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOThBb3E0X0N2czQwSjBFRmJ6djRJbzhPc2xxSmxMei1DbW1iY0NfZ3JZUVZyNXMwQVNMSnI5NFZBaXo2M3poT0oyNmZwTVhNTnJoZkJSRzQtSF9JREY5b042RVVrX2VOZ1FiSGViNEZmRGdfUDBMRzB5VnJ2RVRFYkYtdw?oc=5",
+          "publishedAt": "2026-06-12T13:11:07Z",
+          "rssPublishedAt": "2026-06-12T13:11:07Z",
+          "sourcePublishedAt": "2026-06-12T13:11:00Z",
+          "displayedAt": "2026-06-12T13:59:35Z",
+          "isNew": true
         },
         {
           "title": "Watch: Pentagon releases second batch of UFO files with videos of unexplained objects",
@@ -44,26 +55,6 @@
           "rssPublishedAt": "2026-06-02T11:42:08Z",
           "sourcePublishedAt": "2026-05-08T12:46:49Z",
           "displayedAt": "2026-06-02T11:42:08Z"
-        },
-        {
-          "title": "US Government: Pentagon Releases New UFO Files Sparking Fresh Questions as Declassified UAP Evidence Surges",
-          "source": "USA Herald",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ3pOX2x5QzFEM0UweEctRXY1Zm9fT2t0ZkJQamZ2aGNBZzgwTk41UERtX2JPaUFOU2hHY1ZsdW9UYldwLTFnekxURkZkRlZXY1NHU2tRbHNYY043TlJxWDNnM0dJaVN0SkgxaVJsSkpMcks5SFEtVC1OclJWcTFQcUlGOHZqRmlrRWNwS1RyRDFMVmxJZkZ5ZGpnVjRsRmY0VVIzTGc1SWpiZXVLVklkMTJocmZPTzRGbVdfZWNpR0ZzanNPSTN2bA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ3pOX2x5QzFEM0UweEctRXY1Zm9fT2t0ZkJQamZ2aGNBZzgwTk41UERtX2JPaUFOU2hHY1ZsdW9UYldwLTFnekxURkZkRlZXY1NHU2tRbHNYY043TlJxWDNnM0dJaVN0SkgxaVJsSkpMcks5SFEtVC1OclJWcTFQcUlGOHZqRmlrRWNwS1RyRDFMVmxJZkZ5ZGpnVjRsRmY0VVIzTGc1SWpiZXVLVklkMTJocmZPTzRGbVdfZWNpR0ZzanNPSTN2bA?oc=5",
-          "publishedAt": "2026-06-01T01:00:36Z",
-          "rssPublishedAt": "2026-06-01T01:00:36Z",
-          "sourcePublishedAt": "2026-05-26T09:15:42Z",
-          "displayedAt": "2026-06-01T01:00:36Z"
-        },
-        {
-          "title": "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
-          "source": "The St Kitts Nevis Observer",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWZ4Slc1dE1MaXdCaVRqd1BjVUhmbDB1X0ZmMVQzNjVWS3BlY3I0UVIzRHlnSGVlQUJuYTJKWVB5RGRFbzBIdHRZWkhrY0s3SWxNcUswUmZtbG1GaWsxb3o3THRIbDc5ekJ1Ni1wbXdUNnVuQzJJdnAwTjM4VDB1QS1hMDVSWjZBUGVJc0RIbFZxRHFoNGdheWN1NmFoQmN5M19HSUM4TTl1SDhwNnpJOHdQalBhR1VLeWdkMjhaTUlKTEhnM1lfVjM5ZmtYQ0lpV0lfOExR?oc=5",
-          "publishedAt": "2026-05-26T23:10:33Z",
-          "rssPublishedAt": "2026-05-26T23:10:33Z",
-          "sourcePublishedAt": "2026-05-26T23:10:33Z",
-          "displayedAt": "2026-05-26T23:10:33Z"
         },
         {
           "title": "Pentagon releases new batch of declassified UFO files",
@@ -128,15 +119,15 @@
       ],
       "clusterTitles": [
         "US releases second batch of government declassified UFO files",
+        "Pentagon releases new batch of UFO files, with dozens more documents and videos",
         "Watch: Pentagon releases second batch of UFO files with videos of unexplained objects",
         "Pentagon releases second batch of declassified UFO files",
         "Pentagon releases new batch of UFO files",
-        "US Government: Pentagon Releases New UFO Files Sparking Fresh Questions as Declassified UAP Evidence Surges",
-        "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
         "Pentagon releases new batch of declassified UFO files",
         "New videos from Pentagon’s second batch of UFO files",
         "War Dept. Releases Second UFO Files on WAR.GOV/UFO",
-        "Pentagon releases new batch of UFO files"
+        "Pentagon releases new batch of UFO files",
+        "Highlights From 2nd Batch of Declassified UFO Files"
       ],
       "quality": 100,
       "qualityBreakdown": [
@@ -172,8 +163,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 65,
-          "text": "14 Quellen im aktuellen Feed."
+          "points": 60,
+          "text": "13 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -181,7 +172,7 @@
         "WHISTLEBLOWER"
       ],
       "sourceQuality": 100,
-      "displayedAt": "2026-06-06T06:19:58Z",
+      "displayedAt": "2026-06-12T13:59:35Z",
       "sourceDisplayedAt": "2026-06-02T14:45:56Z",
       "translation": {
         "en": {
@@ -199,34 +190,24 @@
       }
     },
     {
-      "id": "lawmakers-want-ufo-whistleblowers-to-have-immunity",
-      "title": "Lawmakers want UFO whistleblowers to have immunity",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
+      "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025",
+      "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
       "date": "2026-06-09",
-      "publishedAt": "2026-06-09T21:44:38Z",
+      "publishedAt": "2026-06-07T02:29:24Z",
       "summary": "In 2023, Grusch gave NewsNation his first on-the-record interview, claiming the government had vehicles of non-human origin. BG – Investigations 2009-2025 2026-06-09 11:20:08 Read more at: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
       "mentions": 5,
       "otherSources": [
         {
           "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
+          "source": "iustitia.bg",
           "publishedAt": "2026-06-09T18:44:52Z",
           "rssPublishedAt": "2026-06-09T18:44:52Z",
           "sourcePublishedAt": "2026-06-09T18:44:52Z",
           "displayedAt": "2026-06-09T18:44:52Z"
-        },
-        {
-          "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
-          "publishedAt": "2026-06-07T02:29:24Z",
-          "rssPublishedAt": "2026-06-07T02:29:24Z",
-          "sourcePublishedAt": "2026-06-07T02:29:24Z",
-          "displayedAt": "2026-06-07T02:29:24Z"
         },
         {
           "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
@@ -235,6 +216,14 @@
           "source": "NewsNation",
           "publishedAt": "2026-06-09T16:31:09Z",
           "displayedAt": "2026-06-09T16:31:09Z"
+        },
+        {
+          "title": "Lawmakers want UFO whistleblowers to have immunity",
+          "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
+          "publishedAt": "2026-06-09T21:44:38Z",
+          "displayedAt": "2026-06-09T21:44:38Z"
         },
         {
           "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
@@ -249,8 +238,8 @@
       ],
       "clusterTitles": [
         "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
         "UAP disclosure advocates set to demand transparency measures Tuesday",
+        "Lawmakers want UFO whistleblowers to have immunity",
         "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025"
       ],
       "quality": 99,
@@ -292,24 +281,29 @@
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
+      "matchedTerms": [
+        "disclosure"
+      ],
       "sourceQuality": 99,
-      "displayedAt": "2026-06-09T21:44:38Z",
+      "displayedAt": "2026-06-07T02:29:24Z",
       "translation": {
         "en": {
-          "title": "Lawmakers want UFO whistleblowers to have immunity",
+          "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
           "summary": "In 2023, Grusch gave NewsNation his first on-the-record interview, claiming the government had vehicles of non-human origin. BG – Investigations 2009-2025 2026-06-09 11:20:08 Read more at: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
-          "sourceHash": "ce34ab90615ed48824a1e5bb877dc786f8283be0",
+          "sourceHash": "3d7f949d9d3746efa32ac3e438dfb3acd7c71287",
           "provider": "original"
         },
         "de": {
-          "title": "Der Gesetzgeber möchte, dass UFO-Whistleblower Immunität genießen",
+          "title": "Befürworter der UAP-Offenlegung werden am Dienstag 2026 Transparenzmaßnahmen fordern | GERECHTIGKEIT - IUSTITIA.BG 2025",
           "summary": "Im Jahr 2023 gab Grusch NewsNation sein erstes offizielles Interview und behauptete, die Regierung verfüge über Fahrzeuge nichtmenschlichen Ursprungs. BG – Untersuchungen 2009–2025 2026-06-09 11:20:08 Lesen Sie mehr unter: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Neueste Nachrichten Weltnachrichten Ländernachrichten Wichtigste Nachrichten Neueste Nachrichten Wichtigstes Neueste des Tages Gerechtigkeit Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
-          "sourceHash": "ce34ab90615ed48824a1e5bb877dc786f8283be0",
+          "sourceHash": "3d7f949d9d3746efa32ac3e438dfb3acd7c71287",
           "provider": "google"
         }
       },
-      "sourceDisplayedAt": "2026-06-09T21:44:38Z"
+      "rssPublishedAt": "2026-06-07T02:29:24Z",
+      "rssDate": "2026-06-09",
+      "sourcePublishedAt": "2026-06-07T02:29:24Z",
+      "sourceDisplayedAt": "2026-06-07T02:29:24Z"
     },
     {
       "id": "whistleblower-accuses-intelligence-agencies-of-hiding-uap-spending",
@@ -678,94 +672,6 @@
         }
       },
       "retainedFromPreviousScan": true
-    },
-    {
-      "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025",
-      "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
-      "date": "2026-06-08",
-      "publishedAt": "2026-06-07T02:29:24Z",
-      "summary": "",
-      "mentions": 3,
-      "otherSources": [
-        {
-          "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
-          "source": "iustitia.bg",
-          "publishedAt": "2026-06-09T18:44:52Z",
-          "rssPublishedAt": "2026-06-09T18:44:52Z",
-          "sourcePublishedAt": "2026-06-09T18:44:52Z",
-          "displayedAt": "2026-06-09T18:44:52Z"
-        },
-        {
-          "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-06-09T16:31:09Z",
-          "displayedAt": "2026-06-09T16:31:09Z"
-        }
-      ],
-      "clusterTitles": [
-        "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "UAP disclosure advocates set to demand transparency measures Tuesday"
-      ],
-      "quality": 66,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "declassified",
-        "files",
-        "government"
-      ],
-      "sourceQuality": 66,
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen."
-      },
-      "displayedAt": "2026-06-07T02:29:24Z",
-      "rssPublishedAt": "2026-06-07T02:29:24Z",
-      "rssDate": "2026-06-08",
-      "sourcePublishedAt": "2026-06-07T02:29:24Z",
-      "sourceDisplayedAt": "2026-06-07T02:29:24Z"
     },
     {
       "id": "ufo-push-for-disclosure-shattering-greatest-cover-up-in-us-history-expert",
@@ -1427,8 +1333,6 @@
         "ALIEN"
       ],
       "sourceQuality": 45,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
       "displayedAt": "2026-06-12T12:47:06Z",
       "rssPublishedAt": "2026-06-12T11:48:51Z",
       "rssDate": "2026-06-12",
@@ -1443,7 +1347,7 @@
           "provider": "original"
         },
         "de": {
-          "title": "Da UFOs immer beliebter werden, ist sich die Jury nicht einig, welche Bedeutung die Existenz außerirdischen Lebens für die Religion haben könnte",
+          "title": "Während UFOs zum Mainstream werden, ist sich die Jury nicht einig, welche Bedeutung die Existenz außerirdischen Lebens für die Religion haben könnte",
           "summary": "Da UFOs immer beliebter werden, ist sich die Jury nicht einig, was die Existenz außerirdischen Lebens für die Religion bedeuten könnte. Gepostet am 12. Juni 2026 um 08:01:58 Uhr. LOS ANGELES (AP) – In „Disclosure Day“, der am Freitag erscheint, lädt Steven Spielberg das Publikum erneut dazu ein, über die Existenz außerirdischen Lebens nachzudenken – und über die Auswirkungen, die es auf die Religion auf der Erde haben würde. Aber Spielberg ist nicht der Einzige, der in letzter Zeit Schlagzeilen über UFOs und die Möglichkeit von Leben auf anderen Planeten macht.",
           "sourceHash": "84c31ac560abe4f7bb42dde33b50bfe98eadab16",
           "provider": "google"
@@ -1498,7 +1402,7 @@
   ],
   "summaries": {
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-    "lawmakers-want-ufo-whistleblowers-to-have-immunity": "In 2023, Grusch gave NewsNation his first on-the-record interview, claiming the government had vehicles of non-human origin. BG – Investigations 2009-2025 2026-06-09 11:20:08 Read more at: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
+    "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025": "In 2023, Grusch gave NewsNation his first on-the-record interview, claiming the government had vehicles of non-human origin. BG – Investigations 2009-2025 2026-06-09 11:20:08 Read more at: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
     "ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs": "UFO Whistleblower David Grusch on Tuesday suggested the White House should investigate billions of dollars he suggested are being funneled to secret programs operated by the federal government. Grusch, a former intelligence officer who gave NewsNation his first on-the-record interview as a whistleblower in 2023, before testifying to Congress, claimed there are massive “slush funds” tied to UFO programs, including allegedly classified UFO crash‑retrieval initiatives largely shielded from Congress and the public. He alleged the government is aware of “several dozen” cases involving “non-human biologies,” claiming there is U.",
     "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 22 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
     "film-close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026 Steven Spielberg's 1977 classic tapped into anxieties about the US government hiding UFO information from the public. When trailers for Steven Spielberg's Disclosure Day confirmed that it deals with extraterrestrials, the internet exploded with speculation that it was a sequel to his 1977 classic, Close Encounters of the Third Kind. The guesswork became so rampant that the press notes for the new film cheekily announce it is \"not a sequel to Close Encounters (sorry, internet)\". Emily Blunt, one of Disclosure Day's stars, has described it as resembling \"a third act\" along with Close Encounters and ET The Extra-Terrestrial (1982).",
@@ -1514,32 +1418,32 @@
     "sighting-lawmakers-host-whistleblowers-ufo-investigators-to-press-feds-to-come-clean-about-space-aliens": "Markdown Content: # Lawmakers host whistleblowers, UFO investigators to press feds to come clean about space aliens Skip to content Close Back _America's Newspaper_ 1 Subscribe Close Sign in Sign in)Subscribe {# Register for free to manage your followed authors and newsletters in one place. #} * Newsletter signup * Gift subscriptions * Customer service Sign Out)My Account * Manage newsletters * Following authors * Gift subscriptions * Today's E-Edition * Customer service Search Search Keyword: Search * News * Corrections * Politics * National * World * Security * The Advocates * Seen, Heard & Whispered * Business & Economy * D."
   },
   "notificationBatch": {
-    "timestamp": "2026-06-12T12:47:06Z",
+    "timestamp": "2026-06-12T13:59:35Z",
     "ids": [
-      "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion"
+      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
     ],
     "articles": [
       {
-        "id": "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion",
-        "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion",
-        "source": "CityNews Halifax"
+        "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+        "source": "U.S. Department of War (.gov)"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 347,
-    "broadTopics": 164,
-    "notificationArticles": 0,
-    "notificationTopics": 0,
-    "newNotificationTopics": 0,
-    "appTopics": 19,
+    "broadArticles": 339,
+    "broadTopics": 165,
+    "notificationArticles": 1,
+    "notificationTopics": 1,
+    "newNotificationTopics": 1,
+    "appTopics": 18,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 7,
+    "splitUnrelatedGroupedSources": 8,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 8,
+    "regroupedTopics": 11,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -1547,26 +1451,20 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 4,
+      "attempts": 3,
       "repaired": 0,
       "fallbackRepaired": 0,
-      "missing": 4
+      "missing": 3
     },
     "summaryQualityGate": {
       "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
-      "kept": 19,
-      "missing": 4,
+      "kept": 18,
+      "missing": 3,
       "missingItems": [
         {
           "id": "whistleblower-accuses-intelligence-agencies-of-hiding-uap-spending",
           "title": "Whistleblower Accuses Intelligence Agencies of Hiding UAP Spending",
           "source": "HarianBasis.co",
-          "reason": "missing_article_content_summary_kept_visible"
-        },
-        {
-          "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025",
-          "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
           "reason": "missing_article_content_summary_kept_visible"
         },
         {
@@ -1585,15 +1483,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 22,
-      "outputArticles": 17,
+      "inputArticles": 23,
+      "outputArticles": 16,
       "preservedSourceSummaries": 11
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 17,
-      "outputArticles": 17,
-      "missingSummaries": 6,
+      "inputArticles": 16,
+      "outputArticles": 16,
+      "missingSummaries": 5,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -1605,14 +1503,14 @@
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 5,
-      "addedSources": 65,
+      "updatedTopics": 4,
+      "addedSources": 63,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 16,
+      "sources": 15,
       "cleanedArticles": 1,
       "removedDuplicateTopics": 2,
       "staleSummariesCleared": 0,
@@ -1621,22 +1519,22 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 14,
-      "outputArticles": 14,
+      "inputArticles": 13,
+      "outputArticles": 13,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 14,
+      "inputArticles": 13,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 18,
-      "currentBeforeRestore": 14,
+      "archiveCandidates": 19,
+      "currentBeforeRestore": 13,
       "restoredArticles": 5,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
@@ -1654,32 +1552,32 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 19
+      "articlesRefreshed": 18
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 42,
-      "updatedSources": 13,
+      "checkedSources": 38,
+      "updatedSources": 11,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 19,
-      "newSources": 3
+      "updatedTopics": 18,
+      "newSources": 2
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 18,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 16,
+      "newTopics": 2,
+      "topicsWithNewSources": 2
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
       "notifications": 1,
       "freshSources": 1,
-      "correctedOldSourceMarkers": 1,
+      "correctedOldSourceMarkers": 2,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 56
+      "seededSeenFromPreviousFeed": 61
     }
   },
   "translations": {
@@ -1697,17 +1595,17 @@
         "provider": "google"
       }
     },
-    "lawmakers-want-ufo-whistleblowers-to-have-immunity": {
+    "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025": {
       "en": {
-        "title": "Lawmakers want UFO whistleblowers to have immunity",
+        "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
         "summary": "In 2023, Grusch gave NewsNation his first on-the-record interview, claiming the government had vehicles of non-human origin. BG – Investigations 2009-2025 2026-06-09 11:20:08 Read more at: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Latest news World news Country news Most important news latest news most important latest of the day Justice Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
-        "sourceHash": "ce34ab90615ed48824a1e5bb877dc786f8283be0",
+        "sourceHash": "3d7f949d9d3746efa32ac3e438dfb3acd7c71287",
         "provider": "original"
       },
       "de": {
-        "title": "Der Gesetzgeber möchte, dass UFO-Whistleblower Immunität genießen",
+        "title": "Befürworter der UAP-Offenlegung werden am Dienstag 2026 Transparenzmaßnahmen fordern | GERECHTIGKEIT - IUSTITIA.BG 2025",
         "summary": "Im Jahr 2023 gab Grusch NewsNation sein erstes offizielles Interview und behauptete, die Regierung verfüge über Fahrzeuge nichtmenschlichen Ursprungs. BG – Untersuchungen 2009–2025 2026-06-09 11:20:08 Lesen Sie mehr unter: https://www. com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/ Neueste Nachrichten Weltnachrichten Ländernachrichten Wichtigste Nachrichten Neueste Nachrichten Wichtigstes Neueste des Tages Gerechtigkeit Petar Nizamov Feathers Petar Nizamov- Feathers Justice bg iustitia.",
-        "sourceHash": "ce34ab90615ed48824a1e5bb877dc786f8283be0",
+        "sourceHash": "3d7f949d9d3746efa32ac3e438dfb3acd7c71287",
         "provider": "google"
       }
     },
@@ -1873,7 +1771,7 @@
         "provider": "original"
       },
       "de": {
-        "title": "Da UFOs immer beliebter werden, ist sich die Jury nicht einig, welche Bedeutung die Existenz außerirdischen Lebens für die Religion haben könnte",
+        "title": "Während UFOs zum Mainstream werden, ist sich die Jury nicht einig, welche Bedeutung die Existenz außerirdischen Lebens für die Religion haben könnte",
         "summary": "Da UFOs immer beliebter werden, ist sich die Jury nicht einig, was die Existenz außerirdischen Lebens für die Religion bedeuten könnte. Gepostet am 12. Juni 2026 um 08:01:58 Uhr. LOS ANGELES (AP) – In „Disclosure Day“, der am Freitag erscheint, lädt Steven Spielberg das Publikum erneut dazu ein, über die Existenz außerirdischen Lebens nachzudenken – und über die Auswirkungen, die es auf die Religion auf der Erde haben würde. Aber Spielberg ist nicht der Einzige, der in letzter Zeit Schlagzeilen über UFOs und die Möglichkeit von Leben auf anderen Planeten macht.",
         "sourceHash": "84c31ac560abe4f7bb42dde33b50bfe98eadab16",
         "provider": "google"
