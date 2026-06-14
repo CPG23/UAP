@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Synchronize only validated visible article summaries."""
+"""Synchronize validated summaries and apply the final feed ordering."""
 
 from __future__ import annotations
 
@@ -38,17 +38,13 @@ def compact(value: Any) -> str:
 
 def is_good_summary(value: Any, article: dict[str, Any] | None = None) -> bool:
     text = compact(value)
-    if len(text) < MIN_SUMMARY_CHARS:
-        return False
-    if has_extraction_garbage(text):
+    if len(text) < MIN_SUMMARY_CHARS or has_extraction_garbage(text):
         return False
     if BAD_SUMMARY_RE.search(text) or GENERIC_LEAD_RE.search(text):
         return False
     if len(re.findall(r"[.!?](?:\s|$)", text)) < 2:
         return False
-    if article and not summary_matches_article(text, article):
-        return False
-    return True
+    return not article or summary_matches_article(text, article)
 
 
 def clear_summary(article: dict[str, Any]) -> None:
@@ -61,11 +57,41 @@ def clear_summary(article: dict[str, Any]) -> None:
     article.pop("translationMeta", None)
 
 
+def source_key(source: dict[str, Any]) -> str:
+    return compact(source.get("link") or source.get("url") or source.get("title")).lower()
+
+
+def source_count(article: dict[str, Any]) -> int:
+    seen: set[str] = set()
+    primary = source_key(article)
+    if primary:
+        seen.add(primary)
+    for source in article.get("otherSources") or []:
+        if isinstance(source, dict):
+            key = source_key(source)
+            if key:
+                seen.add(key)
+    return max(1, len(seen))
+
+
+def sort_key(article: dict[str, Any]) -> tuple[int, int, str]:
+    try:
+        quality = int(article.get("quality") or article.get("sourceQuality") or 0)
+    except (TypeError, ValueError):
+        quality = 0
+    return (
+        source_count(article),
+        quality,
+        compact(article.get("publishedAt") or article.get("date") or article.get("displayedAt")),
+    )
+
+
 def main() -> None:
     data = json.loads(LATEST_FILE.read_text(encoding="utf-8"))
     summaries = data.get("summaries") if isinstance(data.get("summaries"), dict) else {}
     updated = 0
     cleared_translations = 0
+    order_before = [compact(a.get("id") or a.get("title")) for a in data.get("articles") or [] if isinstance(a, dict)]
 
     for article in data.get("articles") or []:
         if not isinstance(article, dict):
@@ -75,7 +101,6 @@ def main() -> None:
         visible = compact(article.get("summary"))
         canonical_good = bool(article_id and is_good_summary(canonical, article))
         visible_good = is_good_summary(visible, article)
-
         if not canonical_good and not visible_good:
             clear_summary(article)
             if article_id:
@@ -95,15 +120,23 @@ def main() -> None:
             updated += 1
             cleared_translations += 1
 
-    if updated:
+    for article in data.get("articles") or []:
+        if isinstance(article, dict):
+            article["mentions"] = source_count(article)
+    data["articles"].sort(key=sort_key, reverse=True)
+    order_after = [compact(a.get("id") or a.get("title")) for a in data.get("articles") or [] if isinstance(a, dict)]
+    reordered = order_before != order_after
+
+    if updated or reordered:
         meta = data.setdefault("scanMeta", {})
         meta["finalVisibleSummarySync"] = {
-            "policy": "validated_canonical_summary_map_over_visible_summary_v2",
+            "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
             "updatedArticles": updated,
             "clearedTranslations": cleared_translations,
+            "reorderedBySourceCount": reordered,
         }
         LATEST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"final visible summary sync: updated={updated}")
+    print(f"final visible summary sync: updated={updated}; reordered_by_source_count={reordered}")
 
 
 if __name__ == "__main__":
