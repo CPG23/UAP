@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Mark weak summaries without removing articles from the app feed.
-
-The app should never show scanner/meta fallback text as a summary. But if a
-summary was created from article text, this gate no longer rejects it by trying
-to reclassify the topic from the generated wording.
-"""
+"""Mark weak or mismatched summaries without removing articles from the feed."""
 
 from __future__ import annotations
 
@@ -13,48 +8,23 @@ import re
 from pathlib import Path
 from typing import Any
 
+from summary_validation import has_extraction_garbage, summary_matches_article
+
 LATEST_FILE = Path("latest-news.json")
 NTFY_PAYLOAD_FILE = Path("ntfy-payload.json")
 APP_URL = "https://cpg23.github.io/UAP/"
-
 BAD_SUMMARY_RE = re.compile(
-    r"full article text could not be reliably extracted|"
-    r"summary is limited to verified feed metadata|"
-    r"the feed lists an article|"
-    r"this item tracks a |"
-    r"publisher text could not be safely extracted|"
-    r"the headline states|"
-    r"the headline says|"
-    r"the headline is treated|"
-    r"based on the headline|"
-    r"based only on the headline|"
-    r"according to the headline|"
-    r"the title states|"
-    r"the title suggests|"
-    r"the article falls under|"
-    r"falls under the uap category|"
-    r"categorized as uap|"
-    r"uap category|"
-    r"the article discusses|"
-    r"the article appears to|"
-    r"the article is about|"
-    r"the piece discusses|"
-    r"the piece highlights|"
-    r"the story discusses|"
-    r"the story highlights|"
-    r"the report discusses|"
-    r"the report highlights|"
-    r"the report appears to|"
-    r"available feed metadata|"
-    r"listed headline|"
-    r"matched uap terms|"
-    r"for deeper context|"
-    r"source claim|"
-    r"the scanner connects|"
-    r"uap news does not add details|"
-    r"mehrere quellen berichten über die veröffentlichung oder freigabe|"
-    r"die ausführliche zusammenfassung wird beim nächsten github-scan|"
-    r"der artikel behandelt:",
+    r"full article text could not be reliably extracted|summary is limited to verified feed metadata|"
+    r"the feed lists an article|this item tracks a |publisher text could not be safely extracted|"
+    r"the headline states|the headline says|the headline is treated|based on the headline|"
+    r"based only on the headline|according to the headline|the title states|the title suggests|"
+    r"the article falls under|falls under the uap category|categorized as uap|uap category|"
+    r"the article discusses|the article appears to|the article is about|the piece discusses|"
+    r"the piece highlights|the story discusses|the story highlights|the report discusses|"
+    r"the report highlights|the report appears to|available feed metadata|listed headline|"
+    r"matched uap terms|for deeper context|source claim|the scanner connects|"
+    r"uap news does not add details|mehrere quellen berichten über die veröffentlichung oder freigabe|"
+    r"die ausführliche zusammenfassung wird beim nächsten github-scan|der artikel behandelt:",
     re.I,
 )
 GENERIC_LEAD_RE = re.compile(
@@ -66,13 +36,12 @@ WORD_RE = re.compile(r"[a-z0-9]+", re.I)
 STOP_WORDS = set(
     "a an the to of for in on at by with from and or is are was were be been has have had "
     "will would could should may might this that these those article report story piece headline title "
-    "uap uaps ufo ufos news new latest update says said about into after before over under"
-    .split()
+    "uap uaps ufo ufos news new latest update says said about into after before over under".split()
 )
 MIN_SUMMARY_CHARS = 180
 MISSING_SUMMARY_STATUS = {
     "articleContentSummary": "missing",
-    "message": "Keine verlässliche Zusammenfassung verfügbar. GitHub versucht beim nächsten Scan automatisch, diese zu ergänzen.",
+    "message": "Keine verlässliche Zusammenfassung verfügbar. Beim nächsten Scan wird automatisch erneut versucht, sie zu ergänzen.",
 }
 
 
@@ -105,11 +74,15 @@ def is_good_summary(value: Any, article: dict[str, Any] | None = None) -> bool:
     text = compact(value)
     if len(text) < MIN_SUMMARY_CHARS:
         return False
+    if has_extraction_garbage(text):
+        return False
     if BAD_SUMMARY_RE.search(text) or GENERIC_LEAD_RE.search(text):
         return False
     if sentence_count(text) < 2:
         return False
     if article and title_echo(text, compact(article.get("title"))):
+        return False
+    if article and not summary_matches_article(text, article):
         return False
     return True
 
@@ -117,13 +90,16 @@ def is_good_summary(value: Any, article: dict[str, Any] | None = None) -> bool:
 def mark_missing(article: dict[str, Any]) -> None:
     article["summary"] = ""
     article["summaryStatus"] = dict(MISSING_SUMMARY_STATUS)
+    article.pop("summarySource", None)
+    article.pop("summaryPolicy", None)
+    article.pop("translation", None)
+    article.pop("translations", None)
+    article.pop("translationMeta", None)
 
 
 def rebuild_ntfy_payload(data: dict[str, Any]) -> None:
-    """Make the push notification match only top-level articles visible in the app."""
     if not NTFY_PAYLOAD_FILE.exists():
         return
-
     try:
         payload = json.loads(NTFY_PAYLOAD_FILE.read_text(encoding="utf-8"))
     except Exception:
@@ -138,14 +114,12 @@ def rebuild_ntfy_payload(data: dict[str, Any]) -> None:
         if isinstance(article, dict) and compact(article.get("id"))
     }
     visible_articles = [visible_by_id[item_id] for item_id in notification_ids if item_id in visible_by_id][:10]
-
     if not visible_articles:
         NTFY_PAYLOAD_FILE.unlink(missing_ok=True)
-        print("summary quality gate: removed ntfy payload because no notified articles remain visible")
         return
 
-    title_count = len(visible_articles)
-    payload["title"] = f"UAP News - {title_count} new report{'s' if title_count != 1 else ''}"
+    count = len(visible_articles)
+    payload["title"] = f"UAP News - {count} new report{'s' if count != 1 else ''}"
     payload["message"] = "\n".join(
         f"{index + 1}. {compact(article.get('title'))}"
         for index, article in enumerate(visible_articles)
@@ -154,18 +128,16 @@ def rebuild_ntfy_payload(data: dict[str, Any]) -> None:
     payload["actions"] = [{"action": "view", "label": "Open app", "url": APP_URL}]
     payload.pop("attach", None)
     payload["tags"] = ["flying_saucer"]
-
     NTFY_PAYLOAD_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"summary quality gate: rebuilt ntfy payload from {title_count} visible app articles")
 
 
 def main() -> None:
     data = json.loads(LATEST_FILE.read_text(encoding="utf-8"))
     articles = data.get("articles") or []
     summaries = data.get("summaries") if isinstance(data.get("summaries"), dict) else {}
-
     kept = []
     missing = []
+
     for article in articles:
         if not isinstance(article, dict):
             continue
@@ -174,26 +146,27 @@ def main() -> None:
         if is_good_summary(summary, article):
             article["summary"] = compact(summary)
             article.pop("summaryStatus", None)
-            kept.append(article)
         else:
             mark_missing(article)
-            kept.append(article)
-            missing.append(
-                {
-                    "id": article_id,
-                    "title": article.get("title", ""),
-                    "source": article.get("source", ""),
-                    "reason": "missing_article_content_summary_kept_visible",
-                }
-            )
+            missing.append({
+                "id": article_id,
+                "title": article.get("title", ""),
+                "source": article.get("source", ""),
+                "reason": "missing_or_mismatched_article_content_summary",
+            })
+        kept.append(article)
 
     data["articles"] = kept
-    data["summaries"] = {article["id"]: article["summary"] for article in kept if article.get("id") and is_good_summary(article.get("summary"), article)}
+    data["summaries"] = {
+        article["id"]: article["summary"]
+        for article in kept
+        if article.get("id") and is_good_summary(article.get("summary"), article)
+    }
 
     notification = data.get("notificationBatch")
     active_ids = {article.get("id") for article in kept if article.get("id")}
     if isinstance(notification, dict):
-        notification["ids"] = [article_id for article_id in notification.get("ids", []) if article_id in active_ids]
+        notification["ids"] = [item for item in notification.get("ids", []) if item in active_ids]
         notification["articles"] = [
             item for item in notification.get("articles", [])
             if isinstance(item, dict) and item.get("id") in active_ids
@@ -201,13 +174,12 @@ def main() -> None:
 
     meta = data.setdefault("scanMeta", {})
     meta["summaryQualityGate"] = {
-        "policy": "missing_article_content_summary_kept_visible_for_retry_v3_no_topic_rejection",
+        "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
         "kept": len(kept),
         "missing": len(missing),
         "missingItems": missing[:20],
     }
     meta["appTopics"] = len(kept)
-
     LATEST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     rebuild_ntfy_payload(data)
     print(f"summary quality gate: kept={len(kept)} missing={len(missing)}")
