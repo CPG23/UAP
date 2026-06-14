@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-13T12:21:25Z",
+  "timestamp": "2026-06-14T07:13:34Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -9,7 +9,7 @@
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVlZvOEdHV01DYTV4TEZkRl9BaDQ3UGlGdlU1MmZEbzJNTGlfeEdBdm9tZ2RlYTVpVXA1eldBbmlNR24xelVTeWZwVmc0UDBRS1BXenpVaENpTFlhV2VyVkNMdFMzS0VrSHhrNTNHazRobUV4NWxLVndYNnFyNGg2anRBdw?oc=5",
       "date": "2026-06-10",
       "publishedAt": "2026-06-10T16:57:58Z",
-      "summary": "",
+      "summary": "Warning: Target URL returned error 403: Forbidden Markdown Content: ## Incompatible browser extension or network configuration Your browser extensions or network settings have blocked the security verification process required by www. Verify if your internet or firewall settings have blocked your device from reaching “challenges. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings. If you do not have permission to adjust network settings, try connecting to a different network. If these steps do not resolve the issue, refer to Cloudflare's troubleshooting documentation for more help.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -61,12 +61,20 @@
         "whistleblower"
       ],
       "sourceQuality": 80,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-06-11T13:36:20Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
+      "translation": {
+        "en": {
+          "title": "Whistleblower Accuses Intelligence Agencies of Hiding UAP Spending",
+          "summary": "Warning: Target URL returned error 403: Forbidden Markdown Content: ## Incompatible browser extension or network configuration Your browser extensions or network settings have blocked the security verification process required by www. Verify if your internet or firewall settings have blocked your device from reaching “challenges. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.",
+          "sourceHash": "47a650aa5667a4e50b76891b2a507459779bc7b6",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Whistleblower wirft Geheimdiensten vor, UAP-Ausgaben zu verbergen",
+          "summary": "Warnung: Ziel-URL hat Fehler 403 zurückgegeben: Verbotener Markdown-Inhalt: ## Inkompatible Browsererweiterung oder Netzwerkkonfiguration Ihre Browsererweiterungen oder Netzwerkeinstellungen haben den von www geforderten Sicherheitsüberprüfungsprozess blockiert. Überprüfen Sie, ob Ihre Internet- oder Firewall-Einstellungen Ihr Gerät daran gehindert haben, „Herausforderungen“ zu erreichen. Möglicherweise müssen Sie die Hilfedokumentation Ihres Betriebssystems konsultieren oder Ihren Netzwerkadministrator um Rat zum Anpassen der Firewall-Einstellungen bitten.",
+          "sourceHash": "47a650aa5667a4e50b76891b2a507459779bc7b6",
+          "provider": "google"
+        }
       }
     },
     {
@@ -132,25 +140,25 @@
       "displayedAt": "2026-06-10T06:56:24Z"
     },
     {
-      "id": "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb",
-      "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
+      "id": "uap-disclosure-3-is-the-most-intriguing-release-thus-far-avi-loeb",
+      "title": "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb",
       "source": "Avi Loeb – Medium",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlISTA4clhQRVV1SzQ2UGxENm8wck12NkVrN3pjcDYxRC11eDI3U2ZKM2xOUjVBT18ydEdvVDJnRmt6ZmtUcGVzRjloZ1B2dnlJTVRuVkhwdWVJRVpCRnIwMG5halpGcVRGSmRRS3hNc3BzQjlrUWt2QzZjVnhJMVE1Nk5RWGlab29FdThPN3pSTFI4eE81THlmWmVDd3RKUjVLWVgxVkxwQk5VLUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFEQ3Z5M2I3cGp2S2liSHBTdDhsaUtNNklqamNPS1VPamxoWWkyR2N0bEx5aWhaMXZWNkN2QVZRY3lBWjBFWDM5aW9LY19EQ3NJTUdRZmpwTkprSHBrVWV4Sk4ycnF3d05WUDJ2c3ZOeEp4UXlwTmZtYUZXT29wS3RkUEtTd2dKelNYR3h6eFhRWGlrRC1Vcg?oc=5",
       "date": "2026-06-09",
-      "publishedAt": "2026-06-09T21:05:29Z",
+      "publishedAt": "2026-06-12T17:32:31Z",
       "summary": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 22 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
       "mentions": 2,
       "otherSources": [
         {
-          "title": "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb",
+          "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
           "source": "Avi Loeb – Medium",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFEQ3Z5M2I3cGp2S2liSHBTdDhsaUtNNklqamNPS1VPamxoWWkyR2N0bEx5aWhaMXZWNkN2QVZRY3lBWjBFWDM5aW9LY19EQ3NJTUdRZmpwTkprSHBrVWV4Sk4ycnF3d05WUDJ2c3ZOeEp4UXlwTmZtYUZXT29wS3RkUEtTd2dKelNYR3h6eFhRWGlrRC1Vcg?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFEQ3Z5M2I3cGp2S2liSHBTdDhsaUtNNklqamNPS1VPamxoWWkyR2N0bEx5aWhaMXZWNkN2QVZRY3lBWjBFWDM5aW9LY19EQ3NJTUdRZmpwTkprSHBrVWV4Sk4ycnF3d05WUDJ2c3ZOeEp4UXlwTmZtYUZXT29wS3RkUEtTd2dKelNYR3h6eFhRWGlrRC1Vcg?oc=5",
-          "publishedAt": "2026-06-12T17:32:31Z"
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlISTA4clhQRVV1SzQ2UGxENm8wck12NkVrN3pjcDYxRC11eDI3U2ZKM2xOUjVBT18ydEdvVDJnRmt6ZmtUcGVzRjloZ1B2dnlJTVRuVkhwdWVJRVpCRnIwMG5halpGcVRGSmRRS3hNc3BzQjlrUWt2QzZjVnhJMVE1Nk5RWGlab29FdThPN3pSTFI4eE81THlmWmVDd3RKUjVLWVgxVkxwQk5VLUE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlISTA4clhQRVV1SzQ2UGxENm8wck12NkVrN3pjcDYxRC11eDI3U2ZKM2xOUjVBT18ydEdvVDJnRmt6ZmtUcGVzRjloZ1B2dnlJTVRuVkhwdWVJRVpCRnIwMG5halpGcVRGSmRRS3hNc3BzQjlrUWt2QzZjVnhJMVE1Nk5RWGlab29FdThPN3pSTFI4eE81THlmWmVDd3RKUjVLWVgxVkxwQk5VLUE?oc=5",
+          "publishedAt": "2026-06-09T21:05:29Z"
         }
       ],
       "clusterTitles": [
-        "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb"
+        "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb"
       ],
       "quality": 79,
       "qualityBreakdown": [
@@ -193,7 +201,7 @@
         "WHISTLEBLOWER"
       ],
       "sourceQuality": 79,
-      "displayedAt": "2026-06-13T12:21:25Z"
+      "displayedAt": "2026-06-14T07:13:34Z"
     },
     {
       "id": "film-close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026",
@@ -372,28 +380,53 @@
       "displayedAt": "2026-06-10T19:47:29Z"
     },
     {
-      "id": "sighting-did-brazilian-influencer-mayk-le-o-really-capture-a-ufo-over-his-rural-farm-in-campo-largo-here-s-what-we-know",
-      "title": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know",
-      "source": "Indiatimes",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWUdDeDhHSGFYRXlnejdsZ0xMSUVxZm1mcEpMMzVkZjkxYVg3NHBvSGFFc3hMSHRwOEpMU2IwZHJ2ZzRoeE5jeTloTUd4SGo4Q3JjSWNoRlNHZUl4VXhBdmY5ME9FZVZENWd4TTZJNk1rT2wzRWZJM3RBSV9ud0RHY2Y4VElBLVpwa0wtQV93YVhBVHJOa2tGRTBDdmF2VmhrMkNvU21kSlc2ZHd4UkFYOU1odUQySzNpZzNCMXJmR25meU1pdVFQank2Q196MGlDWDNBVFU5N3NNNHMtZzZLeTlXN0dxMXktS2tkQTdzLTVmeUJZbUZYZFEtd0pLMlRi0gGGAkFVX3lxTE5ROWZEb3VTemhXMUpfTW9aYURWRE9vN0tIRlVNdDIwRHhfbkVmS0F4NTBQaG5xYXc0TGhSN0JpbDBjbkZwSnJCVXhVRjZ4cUtJS1VtOEFPb1ExbnctNEtUeEZhQXpudG41ZVV3S3Rzc2NlaHg5dGRhSUwzZEpoVlhCZ3A5TFZzRkwyTzFKZldiR0FoOHktdC1YZDhBY05yUV9CSHBoaFUzVC1lcGpGRnlySW1rZ1JHNUx1aHdmQWFJY29aakJLaFptQXZrZnB4T1BkWEdxTVB0eVZhczl1TmZ0cHRLSnVvbUstRmdrT0tZY2RZN2hXYVItbXFCNjdmUU85UGJVdFE?oc=5",
+      "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025",
+      "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
       "date": "2026-06-08",
-      "publishedAt": "2026-06-04T13:08:59Z",
-      "summary": "Markdown Content: Digital content producer Mayk Leão, widely recognized on virtual platforms for his work dedicated to rescuing and rehabilitating animals at risk, surprised his followers by changing the focus of his publications. Acostumado documenting his wildlife care routine, the influencer used his profiles to report an unusual experience on his rural property. The episode occurred on a site located in the municipality of Campo Largo, which is part of Região Metropolitana of Curitiba, in the state of Paraná. The change of agenda happened after the video recording of a supposed unidentified flying object crossing the sky in the region.",
-      "mentions": 2,
+      "publishedAt": "2026-06-07T02:29:24Z",
+      "summary": "Markdown Content: # Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyses * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor’s Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
+      "mentions": 5,
       "otherSources": [
         {
-          "title": "Influencer Mayk Leão films alleged UFO at Campo Largo site and mobilizes social networks",
-          "source": "Mix Vale",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnM4akc5RnpsVWNwQUQ3WXJMVjhuNE5PTTdMUWxzVVpRUHlJRFVDWWFyLURXc1loQzQyVGZQZWQzTVFTWHRXTDdZREduc0ZhY2g2cXljOFNreEFQamFxREdISThsQ2ZaTkhxWE1KRi1JTlhPeElINnFyUUExWlkyTUQtZU1BTHJfZjNQS2k1RFlHY1pwWlNYdENmbWx2N3dDTTRyVzhtaEJKRmljdGtEbWV5alJadlhOOGZldDM5WW45QmVtcWJvOU930gHKAUFVX3lxTE9SczhqRzlGemxVY3BBRDdZckxWOG40Tk9NN0xRbHNVWlFQeUlEVUNZYXItRFdzWWhDNDJUZlBlZDNNUVNYdFdMN1lER25zRmFjaDZxeWM4U2t4QVBqYXFER0hJOGxDZlpOSHFYTUpGLUlOWE94SUg2cXJRQTFaWTJNRC1lTUFMcl9mM1BLaTVEWUdjWnBaU1h0Q2ZtbHY3d0NNNHJXOG1oQkpGaWN0a0RtZXlqUlp2WE44ZmV0MzlZbjlCZW1xYm85T3c?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnM4akc5RnpsVWNwQUQ3WXJMVjhuNE5PTTdMUWxzVVpRUHlJRFVDWWFyLURXc1loQzQyVGZQZWQzTVFTWHRXTDdZREduc0ZhY2g2cXljOFNreEFQamFxREdISThsQ2ZaTkhxWE1KRi1JTlhPeElINnFyUUExWlkyTUQtZU1BTHJfZjNQS2k1RFlHY1pwWlNYdENmbWx2N3dDTTRyVzhtaEJKRmljdGtEbWV5alJadlhOOGZldDM5WW45QmVtcWJvOU930gHKAUFVX3lxTE9SczhqRzlGemxVY3BBRDdZckxWOG40Tk9NN0xRbHNVWlFQeUlEVUNZYXItRFdzWWhDNDJUZlBlZDNNUVNYdFdMN1lER25zRmFjaDZxeWM4U2t4QVBqYXFER0hJOGxDZlpOSHFYTUpGLUlOWE94SUg2cXJRQTFaWTJNRC1lTUFMcl9mM1BLaTVEWUdjWnBaU1h0Q2ZtbHY3d0NNNHJXOG1oQkpGaWN0a0RtZXlqUlp2WE44ZmV0MzlZbjlCZW1xYm85T3c?oc=5",
-          "publishedAt": "2026-06-06T06:57:58Z",
-          "displayedAt": "2026-06-06T06:57:58Z",
-          "rssPublishedAt": "2026-06-06T06:57:58Z",
-          "sourcePublishedAt": "2026-06-06T06:57:58Z"
+          "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
+          "source": "NewsNation",
+          "publishedAt": "2026-06-09T16:31:09Z"
+        },
+        {
+          "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
+          "publishedAt": "2026-06-09T18:44:52Z"
+        },
+        {
+          "title": "Lawmakers want UFO whistleblowers to have immunity",
+          "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
+          "publishedAt": "2026-06-09T21:44:38Z",
+          "displayedAt": "2026-06-09T21:44:38Z"
+        },
+        {
+          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
+          "publishedAt": "2026-06-09T08:20:08Z",
+          "rssPublishedAt": "2026-06-09T08:20:08Z",
+          "sourcePublishedAt": "2026-06-09T08:20:08Z",
+          "displayedAt": "2026-06-09T08:20:08Z"
         }
       ],
       "clusterTitles": [
-        "Influencer Mayk Leão films alleged UFO at Campo Largo site and mobilizes social networks"
+        "UAP disclosure advocates set to demand transparency measures Tuesday",
+        "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
+        "Lawmakers want UFO whistleblowers to have immunity",
+        "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025"
       ],
       "quality": 61,
       "qualityBreakdown": [
@@ -435,79 +468,48 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "WHISTLEBLOWER"
+        "disclosure"
       ],
       "sourceQuality": 61,
-      "displayedAt": "2026-06-06T06:19:58Z",
+      "displayedAt": "2026-06-14T07:13:34Z",
       "translation": {
-        "en": {
-          "title": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know",
-          "summary": "Markdown Content: Digital content producer Mayk Leão, widely recognized on virtual platforms for his work dedicated to rescuing and rehabilitating animals at risk, surprised his followers by changing the focus of his publications. Acostumado documenting his wildlife care routine, the influencer used his profiles to report an unusual experience on his rural property. The episode occurred on a site located in the municipality of Campo Largo, which is part of Região Metropolitana of Curitiba, in the state of Paraná.",
-          "sourceHash": "51f32318cf8df0a2dc5fdb18bd0026d756c6a864",
+        "de": {
+          "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "summary": "Markdown Content: # Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyses * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor’s Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
+          "sourceHash": "e9608bb41b4c0525010773cb8e65c21c3288c125",
           "provider": "original"
         },
-        "de": {
-          "title": "Hat der brasilianische Influencer Mayk Leão wirklich ein UFO über seiner ländlichen Farm in Campo Largo eingefangen? Das wissen wir",
-          "summary": "Markdown-Inhalte: Mayk Leão, Produzent digitaler Inhalte, der auf virtuellen Plattformen weithin für seine Arbeit zur Rettung und Rehabilitation gefährdeter Tiere bekannt ist, überraschte seine Anhänger, indem er den Schwerpunkt seiner Veröffentlichungen änderte. Als Acostumado dokumentierte der Influencer seine Routine bei der Tierpflege und nutzte seine Profile, um über ein ungewöhnliches Erlebnis auf seinem Landgrundstück zu berichten. Der Vorfall ereignete sich an einem Ort in der Gemeinde Campo Largo, die zur Região Metropolitana Curitiba im Bundesstaat Paraná gehört.",
-          "sourceHash": "51f32318cf8df0a2dc5fdb18bd0026d756c6a864",
+        "en": {
+          "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "summary": "Markdown Content: # Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyzes * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor's Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Video from Bulgaria Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
+          "sourceHash": "e9608bb41b4c0525010773cb8e65c21c3288c125",
           "provider": "google"
         }
-      },
-      "rssPublishedAt": "2026-06-04T13:08:59Z",
-      "rssDate": "2026-06-08",
-      "sourcePublishedAt": "2026-06-04T13:08:59Z",
-      "sourceDisplayedAt": "2026-06-06T06:19:58Z",
-      "retainedFromPreviousScan": true
+      }
     },
     {
-      "id": "lawmakers-want-ufo-whistleblowers-to-have-immunity-2026-justice-iustitia-bg-2025",
-      "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
+      "id": "sighting-did-brazilian-influencer-mayk-le-o-really-capture-a-ufo-over-his-rural-farm-in-campo-largo-here-s-what-we-know",
+      "title": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know",
+      "source": "Indiatimes",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWUdDeDhHSGFYRXlnejdsZ0xMSUVxZm1mcEpMMzVkZjkxYVg3NHBvSGFFc3hMSHRwOEpMU2IwZHJ2ZzRoeE5jeTloTUd4SGo4Q3JjSWNoRlNHZUl4VXhBdmY5ME9FZVZENWd4TTZJNk1rT2wzRWZJM3RBSV9ud0RHY2Y4VElBLVpwa0wtQV93YVhBVHJOa2tGRTBDdmF2VmhrMkNvU21kSlc2ZHd4UkFYOU1odUQySzNpZzNCMXJmR25meU1pdVFQank2Q196MGlDWDNBVFU5N3NNNHMtZzZLeTlXN0dxMXktS2tkQTdzLTVmeUJZbUZYZFEtd0pLMlRi0gGGAkFVX3lxTE5ROWZEb3VTemhXMUpfTW9aYURWRE9vN0tIRlVNdDIwRHhfbkVmS0F4NTBQaG5xYXc0TGhSN0JpbDBjbkZwSnJCVXhVRjZ4cUtJS1VtOEFPb1ExbnctNEtUeEZhQXpudG41ZVV3S3Rzc2NlaHg5dGRhSUwzZEpoVlhCZ3A5TFZzRkwyTzFKZldiR0FoOHktdC1YZDhBY05yUV9CSHBoaFUzVC1lcGpGRnlySW1rZ1JHNUx1aHdmQWFJY29aakJLaFptQXZrZnB4T1BkWEdxTVB0eVZhczl1TmZ0cHRLSnVvbUstRmdrT0tZY2RZN2hXYVItbXFCNjdmUU85UGJVdFE?oc=5",
       "date": "2026-06-08",
-      "publishedAt": "2026-06-09T18:44:52Z",
-      "summary": "Markdown Content: # Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA. BG * About Us – investigative journalism agency IUSTITIA – Burgas, Bulgaria * World News * Israel Today | News from Israel * Middle east Today | Arabic News * Dubai Today | UAE Dubai News * Germany Today | News from Germany and Austria * News in Russian | News from Russia * Netherlands Today | News from Belgium and Holland * Italy Today | Italian News * Spain Today | Spanish News * Germany Today | The News from Germany * Greece Today | The News from Greece and Cyprus * Poland Today | News from Poland * Czech Republic Today | News from Prague Brno * Hungary Today | News from Hungary * Slovenia Today | News from Slovenia * Romania Today | News from Romania * News from Bulgaria * Turkey Today | News from Turkey * 2025 News * Analyses * Interview from Bulgaria * Bulgarian Court System * DISTRICT COURT – BURGAS and Burgas Prosecutor’s Office * Fitness * Corruption in Bulgaria * Investigations * News from Bulgaria * Politics in Bulgaria * Scientific articles from Bulgaria * Sports from Bulgaria * The latest from Bulgaria * The news from Burgas Bulgaria * The most important from Bulgaria * Videos from Bulgaria * Women’s fashion * Men’s fashion * Questions * English * العربية * Dansk * Deutsch * Ελληνικά * English * български * Čeština * Español * Français * עברית * Hrvatski * Magyar * Italiano * Lietuviškai * Latviešu valoda * македонски јазик * Norsk Bokmål * Nederlands * Polski * Português * Română * Русский * Slovenčina * Slovenščina * Српски језик * Svenska * Türkçe * Українська * 日本語 * ไทย * فارسی * 中文 (中国) * Беларуская мова * Deutsch Austria * Deutsch Switzerland * shqiperia * English USA * Contact us Впиши се Добре дошли!",
-      "mentions": 5,
+      "publishedAt": "2026-06-04T13:08:59Z",
+      "summary": "Markdown Content: Digital content producer Mayk Leão, widely recognized on virtual platforms for his work dedicated to rescuing and rehabilitating animals at risk, surprised his followers by changing the focus of his publications. Acostumado documenting his wildlife care routine, the influencer used his profiles to report an unusual experience on his rural property. The episode occurred on a site located in the municipality of Campo Largo, which is part of Região Metropolitana of Curitiba, in the state of Paraná. The change of agenda happened after the video recording of a supposed unidentified flying object crossing the sky in the region.",
+      "mentions": 2,
       "otherSources": [
         {
-          "title": "Lawmakers want UFO whistleblowers to have immunity",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-          "publishedAt": "2026-06-09T21:44:38Z"
-        },
-        {
-          "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
-          "publishedAt": "2026-06-07T02:29:24Z",
-          "displayedAt": "2026-06-07T02:29:24Z"
-        },
-        {
-          "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-06-09T16:31:09Z",
-          "displayedAt": "2026-06-09T16:31:09Z"
-        },
-        {
-          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
-          "publishedAt": "2026-06-09T08:20:08Z",
-          "rssPublishedAt": "2026-06-09T08:20:08Z",
-          "sourcePublishedAt": "2026-06-09T08:20:08Z",
-          "displayedAt": "2026-06-09T08:20:08Z"
+          "title": "Influencer Mayk Leão films alleged UFO at Campo Largo site and mobilizes social networks",
+          "source": "Mix Vale",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnM4akc5RnpsVWNwQUQ3WXJMVjhuNE5PTTdMUWxzVVpRUHlJRFVDWWFyLURXc1loQzQyVGZQZWQzTVFTWHRXTDdZREduc0ZhY2g2cXljOFNreEFQamFxREdISThsQ2ZaTkhxWE1KRi1JTlhPeElINnFyUUExWlkyTUQtZU1BTHJfZjNQS2k1RFlHY1pwWlNYdENmbWx2N3dDTTRyVzhtaEJKRmljdGtEbWV5alJadlhOOGZldDM5WW45QmVtcWJvOU930gHKAUFVX3lxTE9SczhqRzlGemxVY3BBRDdZckxWOG40Tk9NN0xRbHNVWlFQeUlEVUNZYXItRFdzWWhDNDJUZlBlZDNNUVNYdFdMN1lER25zRmFjaDZxeWM4U2t4QVBqYXFER0hJOGxDZlpOSHFYTUpGLUlOWE94SUg2cXJRQTFaWTJNRC1lTUFMcl9mM1BLaTVEWUdjWnBaU1h0Q2ZtbHY3d0NNNHJXOG1oQkpGaWN0a0RtZXlqUlp2WE44ZmV0MzlZbjlCZW1xYm85T3c?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnM4akc5RnpsVWNwQUQ3WXJMVjhuNE5PTTdMUWxzVVpRUHlJRFVDWWFyLURXc1loQzQyVGZQZWQzTVFTWHRXTDdZREduc0ZhY2g2cXljOFNreEFQamFxREdISThsQ2ZaTkhxWE1KRi1JTlhPeElINnFyUUExWlkyTUQtZU1BTHJfZjNQS2k1RFlHY1pwWlNYdENmbWx2N3dDTTRyVzhtaEJKRmljdGtEbWV5alJadlhOOGZldDM5WW45QmVtcWJvOU930gHKAUFVX3lxTE9SczhqRzlGemxVY3BBRDdZckxWOG40Tk9NN0xRbHNVWlFQeUlEVUNZYXItRFdzWWhDNDJUZlBlZDNNUVNYdFdMN1lER25zRmFjaDZxeWM4U2t4QVBqYXFER0hJOGxDZlpOSHFYTUpGLUlOWE94SUg2cXJRQTFaWTJNRC1lTUFMcl9mM1BLaTVEWUdjWnBaU1h0Q2ZtbHY3d0NNNHJXOG1oQkpGaWN0a0RtZXlqUlp2WE44ZmV0MzlZbjlCZW1xYm85T3c?oc=5",
+          "publishedAt": "2026-06-06T06:57:58Z",
+          "displayedAt": "2026-06-06T06:57:58Z",
+          "rssPublishedAt": "2026-06-06T06:57:58Z",
+          "sourcePublishedAt": "2026-06-06T06:57:58Z"
         }
       ],
       "clusterTitles": [
-        "Lawmakers want UFO whistleblowers to have immunity",
-        "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "UAP disclosure advocates set to demand transparency measures Tuesday",
-        "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025"
+        "Influencer Mayk Leão films alleged UFO at Campo Largo site and mobilizes social networks"
       ],
       "quality": 56,
       "qualityBreakdown": [
@@ -544,14 +546,24 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "declassified",
-        "files",
-        "government"
+        "WHISTLEBLOWER"
       ],
       "sourceQuality": 56,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-06-13T12:21:25Z"
+      "displayedAt": "2026-06-06T06:19:58Z",
+      "translation": {
+        "en": {
+          "title": "Did Brazilian influencer Mayk Leão really capture a UFO over his rural farm in Campo Largo? Here's what we know",
+          "summary": "Markdown Content: Digital content producer Mayk Leão, widely recognized on virtual platforms for his work dedicated to rescuing and rehabilitating animals at risk, surprised his followers by changing the focus of his publications. Acostumado documenting his wildlife care routine, the influencer used his profiles to report an unusual experience on his rural property. The episode occurred on a site located in the municipality of Campo Largo, which is part of Região Metropolitana of Curitiba, in the state of Paraná.",
+          "sourceHash": "51f32318cf8df0a2dc5fdb18bd0026d756c6a864",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Hat der brasilianische Influencer Mayk Leão wirklich ein UFO über seiner ländlichen Farm in Campo Largo eingefangen? Das wissen wir",
+          "summary": "Markdown-Inhalte: Mayk Leão, Produzent digitaler Inhalte, der auf virtuellen Plattformen weithin für seine Arbeit zur Rettung und Rehabilitation gefährdeter Tiere bekannt ist, überraschte seine Anhänger, indem er den Schwerpunkt seiner Veröffentlichungen änderte. Als Acostumado dokumentierte der Influencer seine Routine bei der Tierpflege und nutzte seine Profile, um über ein ungewöhnliches Erlebnis auf seinem Landgrundstück zu berichten. Der Vorfall ereignete sich an einem Ort in der Gemeinde Campo Largo, die zur Região Metropolitana Curitiba im Bundesstaat Paraná gehört.",
+          "sourceHash": "51f32318cf8df0a2dc5fdb18bd0026d756c6a864",
+          "provider": "google"
+        }
+      }
     },
     {
       "id": "sighting-david-grusch-returns-to-capitol-steps-as-ufo-disclosure-fight-moves-from-testimony-to-action",
@@ -602,7 +614,26 @@
         "WHISTLEBLOWER"
       ],
       "sourceQuality": 56,
-      "displayedAt": "2026-06-10T19:47:29Z"
+      "displayedAt": "2026-06-10T19:47:29Z",
+      "rssPublishedAt": "2026-06-09T14:35:18Z",
+      "rssDate": "2026-06-08",
+      "sourcePublishedAt": "2026-06-08T07:30:42Z",
+      "sourceDisplayedAt": "2026-06-10T19:47:29Z",
+      "translation": {
+        "en": {
+          "title": "David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action",
+          "summary": "David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action - USA Herald David Grusch Returns To Capitol Steps As UFO Disclosure Fight David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action On Tuesday, June 9 at 1:00 p. , David Grusch, James Fox, Leslie Kean, bipartisan lawmakers, whistleblowers, journalists, and filmmakers are expected to gather on the steps of the U. The event is being framed as a direct call for declassification, stronger whistleblower protections, and passage of disclosure-related legislation.",
+          "sourceHash": "094a97246fbd1a90a9b4190742ecadb2f14cd46a",
+          "provider": "original"
+        },
+        "de": {
+          "title": "David Grusch kehrt zu den Stufen des Kapitols zurück, während der UFO-Enthüllungskampf von der Aussage zur Tat übergeht",
+          "summary": "David Grusch kehrt zu den Stufen des Kapitols zurück, während der UFO-Enthüllungskampf von Zeugenaussagen zu Taten übergeht - USA Herald David Grusch kehrt zu den Stufen des Kapitols zurück, während UFO-Enthüllungskämpfe von Zeugenaussagen zu Taten übergehen David Grusch kehrt zu den Stufen des Kapitols zurück, während UFO-Enthüllungskämpfe von Zeugenaussagen zu Taten übergehen Am Dienstag, den 9. Juni um 13:00 Uhr. , David Grusch, James Fox, Leslie Kean, überparteiliche Gesetzgeber, Whistleblower, Journalisten und Filmemacher werden sich voraussichtlich auf den Stufen der Vereinigten Staaten versammeln. Die Veranstaltung wird als direkter Aufruf zur Freigabe, einem stärkeren Whistleblower-Schutz und der Verabschiedung von Offenlegungsgesetzen dargestellt.",
+          "sourceHash": "094a97246fbd1a90a9b4190742ecadb2f14cd46a",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-influencer-reports-alleged-ufo-sighting-in-paran-goes-viral-with-millions-of-views-and-says-he-lives-between-fascination-and-fear-after-mysterious-phenomenon",
@@ -745,27 +776,8 @@
       "matchedTerms": [],
       "sourceQuality": 47,
       "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "displayedAt": "2026-06-08T07:21:01Z",
-      "rssPublishedAt": "2026-06-08T07:13:11Z",
-      "rssDate": "2026-06-08",
-      "sourcePublishedAt": "2026-06-08T07:11:47Z",
-      "sourceDisplayedAt": "2026-06-08T07:21:01Z",
-      "translation": {
-        "en": {
-          "title": "Jeremy Corbell Issues UFO Warning: Release Reverse-Engineering and Non-Human Biologics Files — or I Will",
-          "summary": "By Samuel López | USA Herald The war over government UFO secrecy may be entering its most explosive phase yet. Investigative filmmaker Jeremy Corbell has issued what many are interpreting as a direct challenge to the U. government: either begin disclosing what officials know about alleged UFO crash retrieval programs, reverse-engineering efforts, and non-human biologics—or Jeremy Corbell warns he may release hundreds of UFO files if the government fails to address reverse engineering, non-human craft, and biologics claims.",
-          "sourceHash": "c766511098b0677934469ff3da4432bd791c52bd",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Jeremy Corbell gibt UFO-Warnung heraus: Veröffentlichung von Reverse-Engineering- und nicht-humanen Biologika-Dateien – oder ich werde es tun",
-          "summary": "Von Samuel López | USA Herald Der Krieg um die UFO-Geheimhaltung der Regierung könnte in seine bisher explosivste Phase eintreten. Der investigative Filmemacher Jeremy Corbell hat herausgebracht, was viele als direkte Herausforderung an die US-Regierung interpretieren: Entweder er beginnt mit der Offenlegung dessen, was die Beamten über angebliche UFO-Absturz-Bergungsprogramme, Reverse-Engineering-Bemühungen und nichtmenschliche Biologika wissen – oder Jeremy Corbell warnt davor, dass er Hunderte von UFO-Dateien veröffentlichen könnte, wenn die Regierung es versäumt, auf Reverse Engineering, nichtmenschliche Kunsthandwerk und Biologika-Behauptungen einzugehen.",
-          "sourceHash": "c766511098b0677934469ff3da4432bd791c52bd",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-06-08T07:21:01Z"
     },
     {
       "id": "rep-burlison-and-others-on-uap-declassification-c-span",
@@ -783,10 +795,9 @@
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWFpQR3h6VFlSZFh3ZDJOTmFXTHk3aXNReTBOQS1jZEd2ZkVxUkVEbGplMFkzMHZzbWRzdkF0bHBUMU8teFZZOFBKSmdWMEs5WFoxalhLZmVnYjN5enRNN0RGQ09PMlduN2xycGprRWtJcUpmSXVuZHo2ckcxel9JYlBGR0N2ZWpsYXA4Q2pqQlQ4NDEzM3Z6NG5WS2FRaU1n?oc=5",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWFpQR3h6VFlSZFh3ZDJOTmFXTHk3aXNReTBOQS1jZEd2ZkVxUkVEbGplMFkzMHZzbWRzdkF0bHBUMU8teFZZOFBKSmdWMEs5WFoxalhLZmVnYjN5enRNN0RGQ09PMlduN2xycGprRWtJcUpmSXVuZHo2ckcxel9JYlBGR0N2ZWpsYXA4Q2pqQlQ4NDEzM3Z6NG5WS2FRaU1n?oc=5",
           "publishedAt": "2026-06-09T04:00:00Z",
-          "displayedAt": "2026-06-12T05:25:51Z",
+          "displayedAt": "2026-06-09T04:00:00Z",
           "rssPublishedAt": "2026-06-09T04:00:00Z",
-          "sourcePublishedAt": "2026-06-09T04:00:00Z",
-          "isNew": true
+          "sourcePublishedAt": "2026-06-09T04:00:00Z"
         }
       ],
       "clusterTitles": [
