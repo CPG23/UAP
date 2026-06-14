@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Synchronize visible article summaries from the canonical summary map.
-
-Late feed steps merge, sort, and compact articles. They must not leave a visible
-article with an older or shorter summary when the canonical summaries map already
-contains a stronger article-content summary for the same article id.
-"""
+"""Synchronize only validated visible article summaries."""
 
 from __future__ import annotations
 
@@ -13,46 +8,21 @@ import re
 from pathlib import Path
 from typing import Any
 
+from summary_validation import has_extraction_garbage, summary_matches_article
+
 LATEST_FILE = Path("latest-news.json")
 MIN_SUMMARY_CHARS = 180
 BAD_SUMMARY_RE = re.compile(
-    r"full article text could not be reliably extracted|"
-    r"summary is limited to verified feed metadata|"
-    r"the feed lists an article|"
-    r"this item tracks a |"
-    r"publisher text could not be safely extracted|"
-    r"the headline states|"
-    r"the headline says|"
-    r"the headline is treated|"
-    r"based on the headline|"
-    r"based only on the headline|"
-    r"according to the headline|"
-    r"the title states|"
-    r"the title suggests|"
-    r"the article falls under|"
-    r"falls under the uap category|"
-    r"categorized as uap|"
-    r"uap category|"
-    r"the article discusses|"
-    r"the article appears to|"
-    r"the article is about|"
-    r"the piece discusses|"
-    r"the piece highlights|"
-    r"the story discusses|"
-    r"the story highlights|"
-    r"the report discusses|"
-    r"the report highlights|"
-    r"the report appears to|"
-    r"available feed metadata|"
-    r"listed headline|"
-    r"matched uap terms|"
-    r"for deeper context|"
-    r"source claim|"
-    r"the scanner connects|"
-    r"uap news does not add details|"
-    r"mehrere quellen berichten über die veröffentlichung oder freigabe|"
-    r"die ausführliche zusammenfassung wird beim nächsten github-scan|"
-    r"der artikel behandelt:",
+    r"full article text could not be reliably extracted|summary is limited to verified feed metadata|"
+    r"the feed lists an article|this item tracks a |publisher text could not be safely extracted|"
+    r"the headline states|the headline says|the headline is treated|based on the headline|"
+    r"based only on the headline|according to the headline|the title states|the title suggests|"
+    r"the article falls under|falls under the uap category|categorized as uap|uap category|"
+    r"the article discusses|the article appears to|the article is about|the piece discusses|"
+    r"the piece highlights|the story discusses|the story highlights|the report discusses|"
+    r"the report highlights|the report appears to|available feed metadata|listed headline|"
+    r"matched uap terms|for deeper context|source claim|the scanner connects|"
+    r"uap news does not add details|der artikel behandelt:",
     re.I,
 )
 GENERIC_LEAD_RE = re.compile(
@@ -66,15 +36,29 @@ def compact(value: Any) -> str:
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
 
-def is_good_summary(value: Any) -> bool:
+def is_good_summary(value: Any, article: dict[str, Any] | None = None) -> bool:
     text = compact(value)
     if len(text) < MIN_SUMMARY_CHARS:
+        return False
+    if has_extraction_garbage(text):
         return False
     if BAD_SUMMARY_RE.search(text) or GENERIC_LEAD_RE.search(text):
         return False
     if len(re.findall(r"[.!?](?:\s|$)", text)) < 2:
         return False
+    if article and not summary_matches_article(text, article):
+        return False
     return True
+
+
+def clear_summary(article: dict[str, Any]) -> None:
+    article["summary"] = ""
+    article["summaryStatus"] = {"articleContentSummary": "missing"}
+    article.pop("summarySource", None)
+    article.pop("summaryPolicy", None)
+    article.pop("translation", None)
+    article.pop("translations", None)
+    article.pop("translationMeta", None)
 
 
 def main() -> None:
@@ -89,11 +73,19 @@ def main() -> None:
         article_id = compact(article.get("id"))
         canonical = compact(summaries.get(article_id))
         visible = compact(article.get("summary"))
-        if not article_id or not is_good_summary(canonical):
+        canonical_good = bool(article_id and is_good_summary(canonical, article))
+        visible_good = is_good_summary(visible, article)
+
+        if not canonical_good and not visible_good:
+            clear_summary(article)
+            if article_id:
+                summaries.pop(article_id, None)
+            updated += 1
+            cleared_translations += 1
             continue
-        if visible == canonical:
+        if not canonical_good or visible == canonical:
             continue
-        if not is_good_summary(visible) or len(canonical) >= len(visible) or article.get("summarySource") == "source_page":
+        if not visible_good or len(canonical) >= len(visible) or article.get("summarySource") == "source_page":
             article["summary"] = canonical
             article.pop("summaryStatus", None)
             article.pop("translation", None)
@@ -106,7 +98,7 @@ def main() -> None:
     if updated:
         meta = data.setdefault("scanMeta", {})
         meta["finalVisibleSummarySync"] = {
-            "policy": "canonical_summary_map_over_visible_article_summary_v1",
+            "policy": "validated_canonical_summary_map_over_visible_summary_v2",
             "updatedArticles": updated,
             "clearedTranslations": cleared_translations,
         }
