@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-18T14:03:34Z",
+  "timestamp": "2026-06-19T08:30:56Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -9,7 +9,7 @@
       "date": "2026-06-09",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 13,
+      "mentions": 12,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -18,15 +18,6 @@
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "publishedAt": "2026-05-22T07:00:00Z",
           "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Declassified Pentagon files detail UAP sightings in Oklahoma City",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUXhCUlZUNG5wSVZuSkV2NHprRXNWQWRMd0NvWVBValZDakF1Z0I2NGYxcFFCUHVYT2FWV3k0SmI3REFtcjg0LWxTbDdpOFVNX3pFejdSTWFKRC1OdFltM08wNTI3VzhFbFdZSkttN0pOWWpkeWFKSjA3RGpBQ2hiR3ZDbVFka1BBSWRVTmJFUGp6OGNVdlNhNmtsRmtnOXhNbTdQX082ZVE2SksxYjU5eGpkcG42Mm9fYzBmTVdEZm5UY0ZoLWlHYjFablRVSU9IVmVSbmY3bXVzdXZpcEVLZGx6YTRJYmdQYnJtWVVUakRQS0dvMVE?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUXhCUlZUNG5wSVZuSkV2NHprRXNWQWRMd0NvWVBValZDakF1Z0I2NGYxcFFCUHVYT2FWV3k0SmI3REFtcjg0LWxTbDdpOFVNX3pFejdSTWFKRC1OdFltM08wNTI3VzhFbFdZSkttN0pOWWpkeWFKSjA3RGpBQ2hiR3ZDbVFka1BBSWRVTmJFUGp6OGNVdlNhNmtsRmtnOXhNbTdQX082ZVE2SksxYjU5eGpkcG42Mm9fYzBmTVdEZm5UY0ZoLWlHYjFablRVSU9IVmVSbmY3bXVzdXZpcEVLZGx6YTRJYmdQYnJtWVVUakRQS0dvMVE?oc=5",
-          "publishedAt": "2026-06-17T11:43:20Z",
-          "displayedAt": "2026-06-18T14:03:34Z",
-          "isNew": true
         },
         {
           "title": "Pentagon releases new UFO files, including videos of mysterious objects in Northeast",
@@ -120,7 +111,6 @@
       ],
       "clusterTitles": [
         "US releases second batch of government declassified UFO files",
-        "Declassified Pentagon files detail UAP sightings in Oklahoma City",
         "Pentagon releases new UFO files, including videos of mysterious objects in Northeast",
         "Pentagon releases new batch of UFO files",
         "Pentagon releases new batch of UFO files",
@@ -128,7 +118,8 @@
         "Pentagon releases new batch of declassified UFO files",
         "New videos from Pentagon’s second batch of UFO files",
         "Pentagon releases new batch of UFO files",
-        "Highlights From 2nd Batch of Declassified UFO Files"
+        "Highlights From 2nd Batch of Declassified UFO Files",
+        "What does the second batch of UFO files tell us?"
       ],
       "quality": 100,
       "qualityBreakdown": [
@@ -164,8 +155,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 60,
-          "text": "13 Quellen im aktuellen Feed."
+          "points": 55,
+          "text": "12 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -187,123 +178,6 @@
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
           "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025",
-      "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-07T02:29:24Z",
-      "summary": "Congressional members of the UAP Caucus and whistleblower David Grusch will speak with reporters on Tuesday. They plan to demand transparency measures regarding UAP disclosures. The event is scheduled for Tuesday, 2026, and is covered by NewsNation. The article was published on June 7, 2026. It includes a link to NewsNation’s coverage of the UAP disclosure news conference on June 9.",
-      "mentions": 5,
-      "otherSources": [
-        {
-          "title": "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEdwcXVzeFNXVUxaM2FmZjQzUFh0NFNGTTJtd2pYMUpsMkt3Tjd6X2F1UDBBUDllNzdpb1V3OWhlTXF5NFk2YVkwMVB2Nm5yTlpocW4tS0Z6UEdFcVUzRmFBVVk0clZ4S3hnZDR1bHVwY1l2dW9RTVgyWUJ2Y3dLeEdqWm8xUQ?oc=5",
-          "publishedAt": "2026-06-09T08:20:08Z",
-          "rssPublishedAt": "2026-06-09T08:20:08Z",
-          "sourcePublishedAt": "2026-06-09T08:20:08Z",
-          "displayedAt": "2026-06-09T08:20:08Z"
-        },
-        {
-          "title": "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3oxYl9VWXpSM1ZKSXdjVVFIZ1RJdk5wb25VclVsb3lubzdCSjNjNzEtcXhBV2dWbGdVaGVlU09lU3piaTJLbUhZdm5OWjFqdHRxR1pMNG95YzZzTVdWaEY3MVNLZWFQaFJ0S1g5RGs1Tmd3aVRtbGFHQVBsVVhBTW93?oc=5",
-          "publishedAt": "2026-06-09T18:44:52Z",
-          "rssPublishedAt": "2026-06-09T18:44:52Z",
-          "sourcePublishedAt": "2026-06-09T18:44:52Z",
-          "displayedAt": "2026-06-09T18:44:52Z"
-        },
-        {
-          "title": "Lawmakers want UFO whistleblowers to have immunity",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFF0SXNUX2s3QWNuMGJPTjN1NlZfUzZheUlOakNzUkF2UWw5SHEwdnd1M19IZU50bU5wdTlxTjBHdDJVOXJPS004enFnSklnZGViVm5GSlNyZWtfWWtfYjNLQXBfbktlQXlBRGNob1pVc01CSHJsdXQ1VmRNYlRWY29UUUrSAYoBQVVfeXFMUGtLbEs2SXplZVllNTRZQV91VDBtUjZzaFB5eFJ3YjgwNmtwNVJ5M3ljbzFUNW1aNWRJS19ydUtaZWliS3N2dDJTbkhpd2tQa19tUGVUSFdxUXM2dlhoMk9vMnJqT3hsTk1VSDdlc1BJVzhRWlg1Sm1pVmVfdlI3TmNlN3V0OXg2M3d3?oc=5",
-          "publishedAt": "2026-06-09T21:44:38Z",
-          "displayedAt": "2026-06-09T21:44:38Z"
-        },
-        {
-          "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzc0xJTmptYXB4dWZfZERSYUx3ektuSmxLalJ2VTljdnlPQ2hsWTBVYkI4OFV5VFRza1Y1akhTZ08ybFMwV3g3UlBBYTBaVDcyZFNTb1A4ekdSNXZ5b1FPQVpUcGtRTTJpenVHT05xaE9WLU5Ldm1pUUhGZ1NVaknSAYQBQVVfeXFMTmI0NGNIdllVMHdHSElkZmd2bVFlNHp3cEJMOW8yRDh3bE5meFNEZzNWT2pBU3REaFJ6REEwR0x0RkRNcUlFUUF0R1ZkVVFVZThsRzZWNHcyWFNIVTZUVjEwUE0tR25TbG1QQV9pUjV6ZkFqZGx4c1NieGRueTQzZDJvSE9n?oc=5",
-          "publishedAt": "2026-06-09T16:31:09Z",
-          "displayedAt": "2026-06-09T16:31:09Z"
-        }
-      ],
-      "clusterTitles": [
-        "UFO whistleblower and lawmakers aim to declassify UAP files 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "Lawmakers want UFO whistleblowers to have immunity 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "Lawmakers want UFO whistleblowers to have immunity",
-        "UAP disclosure advocates set to demand transparency measures Tuesday"
-      ],
-      "quality": 85,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "CLASSIFIED, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "CLASSIFIED, WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 20,
-          "text": "5 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "released"
-      ],
-      "sourceQuality": 85,
-      "displayedAt": "2026-06-07T02:29:24Z",
-      "rssPublishedAt": "2026-06-07T02:29:24Z",
-      "rssDate": "2026-06-09",
-      "sourcePublishedAt": "2026-06-07T02:29:24Z",
-      "sourceDisplayedAt": "2026-06-07T02:29:24Z",
-      "translation": {
-        "en": {
-          "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "summary": "Congressional members of the UAP Caucus and whistleblower David Grusch will speak with reporters on Tuesday. They plan to demand transparency measures regarding UAP disclosures. The event is scheduled for Tuesday, 2026, and is covered by NewsNation.",
-          "sourceHash": "bf1526908d04abd1a09ab002f3c58af2a781e49f",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Befürworter der UAP-Offenlegung werden am Dienstag 2026 Transparenzmaßnahmen fordern | GERECHTIGKEIT - IUSTITIA.BG 2025",
-          "summary": "Kongressabgeordnete des UAP Caucus und Whistleblower David Grusch werden am Dienstag mit Reportern sprechen. Sie planen, Transparenzmaßnahmen in Bezug auf UAP-Offenlegungen zu fordern. Die Veranstaltung ist für Dienstag, 2026, geplant und wird von NewsNation berichtet.",
-          "sourceHash": "bf1526908d04abd1a09ab002f3c58af2a781e49f",
           "provider": "google"
         }
       }
@@ -342,8 +216,7 @@
           "publishedAt": "2026-06-10T12:15:10Z",
           "rssPublishedAt": "2026-06-10T12:15:10Z",
           "sourcePublishedAt": "2026-06-09T00:00:00Z",
-          "displayedAt": "2026-06-17T08:24:49Z",
-          "isNew": true
+          "displayedAt": "2026-06-10T12:15:10Z"
         }
       ],
       "clusterTitles": [
@@ -413,7 +286,8 @@
       "rssPublishedAt": "2026-06-09T20:50:00Z",
       "rssDate": "2026-06-09",
       "sourcePublishedAt": "2026-06-09T20:50:52Z",
-      "sourceDisplayedAt": "2026-06-09T20:50:00Z"
+      "sourceDisplayedAt": "2026-06-09T20:50:00Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press",
@@ -433,8 +307,7 @@
           "publishedAt": "2026-06-12T15:23:33Z",
           "rssPublishedAt": "2026-06-12T15:23:33Z",
           "sourcePublishedAt": "2026-06-12T15:10:31Z",
-          "displayedAt": "2026-06-17T14:27:50Z",
-          "isNew": true
+          "displayedAt": "2026-06-12T15:23:33Z"
         },
         {
           "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion",
@@ -510,30 +383,29 @@
           "provider": "google"
         }
       },
-      "sourceDisplayedAt": "2026-06-17T14:27:50Z",
-      "sourceIsNew": true
+      "sourceDisplayedAt": "2026-06-17T14:27:50Z"
     },
     {
-      "id": "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb",
-      "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
+      "id": "uap-disclosure-3-is-the-most-intriguing-release-thus-far-avi-loeb",
+      "title": "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb",
       "source": "Avi Loeb – Medium",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlISTA4clhQRVV1SzQ2UGxENm8wck12NkVrN3pjcDYxRC11eDI3U2ZKM2xOUjVBT18ydEdvVDJnRmt6ZmtUcGVzRjloZ1B2dnlJTVRuVkhwdWVJRVpCRnIwMG5halpGcVRGSmRRS3hNc3BzQjlrUWt2QzZjVnhJMVE1Nk5RWGlab29FdThPN3pSTFI4eE81THlmWmVDd3RKUjVLWVgxVkxwQk5VLUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFEQ3Z5M2I3cGp2S2liSHBTdDhsaUtNNklqamNPS1VPamxoWWkyR2N0bEx5aWhaMXZWNkN2QVZRY3lBWjBFWDM5aW9LY19EQ3NJTUdRZmpwTkprSHBrVWV4Sk4ycnF3d05WUDJ2c3ZOeEp4UXlwTmZtYUZXT29wS3RkUEtTd2dKelNYR3h6eFhRWGlrRC1Vcg?oc=5",
       "date": "2026-06-09",
-      "publishedAt": "2026-06-09T21:05:29Z",
+      "publishedAt": "2026-06-12T17:32:31Z",
       "summary": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 22 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
       "mentions": 2,
       "otherSources": [
         {
-          "title": "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb",
+          "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
           "source": "Avi Loeb – Medium",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFEQ3Z5M2I3cGp2S2liSHBTdDhsaUtNNklqamNPS1VPamxoWWkyR2N0bEx5aWhaMXZWNkN2QVZRY3lBWjBFWDM5aW9LY19EQ3NJTUdRZmpwTkprSHBrVWV4Sk4ycnF3d05WUDJ2c3ZOeEp4UXlwTmZtYUZXT29wS3RkUEtTd2dKelNYR3h6eFhRWGlrRC1Vcg?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFEQ3Z5M2I3cGp2S2liSHBTdDhsaUtNNklqamNPS1VPamxoWWkyR2N0bEx5aWhaMXZWNkN2QVZRY3lBWjBFWDM5aW9LY19EQ3NJTUdRZmpwTkprSHBrVWV4Sk4ycnF3d05WUDJ2c3ZOeEp4UXlwTmZtYUZXT29wS3RkUEtTd2dKelNYR3h6eFhRWGlrRC1Vcg?oc=5",
-          "publishedAt": "2026-06-12T17:32:31Z",
-          "displayedAt": "2026-06-12T17:32:31Z"
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlISTA4clhQRVV1SzQ2UGxENm8wck12NkVrN3pjcDYxRC11eDI3U2ZKM2xOUjVBT18ydEdvVDJnRmt6ZmtUcGVzRjloZ1B2dnlJTVRuVkhwdWVJRVpCRnIwMG5halpGcVRGSmRRS3hNc3BzQjlrUWt2QzZjVnhJMVE1Nk5RWGlab29FdThPN3pSTFI4eE81THlmWmVDd3RKUjVLWVgxVkxwQk5VLUE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlISTA4clhQRVV1SzQ2UGxENm8wck12NkVrN3pjcDYxRC11eDI3U2ZKM2xOUjVBT18ydEdvVDJnRmt6ZmtUcGVzRjloZ1B2dnlJTVRuVkhwdWVJRVpCRnIwMG5halpGcVRGSmRRS3hNc3BzQjlrUWt2QzZjVnhJMVE1Nk5RWGlab29FdThPN3pSTFI4eE81THlmWmVDd3RKUjVLWVgxVkxwQk5VLUE?oc=5",
+          "publishedAt": "2026-06-09T21:05:29Z",
+          "displayedAt": "2026-06-09T21:05:29Z"
         }
       ],
       "clusterTitles": [
-        "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb"
+        "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb"
       ],
       "quality": 84,
       "qualityBreakdown": [
@@ -581,19 +453,19 @@
         "WHISTLEBLOWER"
       ],
       "sourceQuality": 84,
-      "displayedAt": "2026-06-09T21:05:29Z",
-      "sourceDisplayedAt": "2026-06-09T21:05:29Z",
+      "displayedAt": "2026-06-12T17:32:31Z",
+      "sourceDisplayedAt": "2026-06-12T17:32:31Z",
       "translation": {
         "en": {
-          "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
+          "title": "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb",
           "summary": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 22 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
-          "sourceHash": "1cc82aba91bbc621691e9d4bea366ca1357e353c",
+          "sourceHash": "8ba032dec06c978f32d7faba42c49130d54e5ff0",
           "provider": "original"
         },
         "de": {
-          "title": "Die Realität sollte nicht geheim gehalten werden: Ein Aufruf zum Handeln zur UAP-Offenlegung – Avi Loeb",
+          "title": "UAP Disclosure #3 ist die bisher faszinierendste Veröffentlichung! - Avi Loeb",
           "summary": "source=post_page---byline--6569862d1eba-----------------------------------------------------) 5 Minuten gelesen vor 22 Stunden Drücken Sie die Eingabetaste oder klicken Sie, um das Bild in voller Größe anzuzeigen (Bildnachweis: NewsNation) Heute, am 9. Juni 2026, forderte eine Pressekonferenz von Gesetzgebern und UAP-Whistleblowern (Unidentified Anomalous Phenomena) in Washington DC Maßnahmen zur UAP-Offenlegung (für den Zugriff auf das vollständige Video). klicken Sie hier). Kurz darauf wurde ich von Nichole Berlie von NewsNation gebeten, meine Sicht auf diese Pressekonferenz mitzuteilen. *** **Hinweis:** Hier geht es um die Offenlegungsbemühungen der UAP und um das, was wir in den letzten Wochen aus der Regierungsmitteilung gesehen haben, Avi Loeb, Professor für Naturwissenschaften an der Harvard University.",
-          "sourceHash": "1cc82aba91bbc621691e9d4bea366ca1357e353c",
+          "sourceHash": "8ba032dec06c978f32d7faba42c49130d54e5ff0",
           "provider": "google"
         }
       }
@@ -789,78 +661,6 @@
       "sourceDisplayedAt": "2026-06-11T13:36:20Z"
     },
     {
-      "id": "film-close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026",
-      "title": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd0tCb24xOFU4N3VFWVNTejByZzVYazFRQURFbWpsMHVTTHlvVzNIdmVOenVuUk91MmNwQ3FSN1hmNzYzVUNLdk1sMS1ZUk5fS3oxN0dwRElNMzI4bkpDQ3pneTM0QWJ6Wkc3VG9XTVZ5Q1MyNHhSNnp5dVNnSG4xVkxmLU1tbl9FX0Z4cEFiMWVpQ0F5cmNGRk13?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-03T11:00:00Z",
-      "summary": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026 Steven Spielberg's 1977 classic tapped into anxieties about the US government hiding UFO information from the public. When trailers for Steven Spielberg's Disclosure Day confirmed that it deals with extraterrestrials, the internet exploded with speculation that it was a sequel to his 1977 classic, Close Encounters of the Third Kind. The guesswork became so rampant that the press notes for the new film cheekily announce it is \"not a sequel to Close Encounters (sorry, internet)\". Emily Blunt, one of Disclosure Day's stars, has described it as resembling \"a third act\" along with Close Encounters and ET The Extra-Terrestrial (1982).",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 79,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 12,
-          "text": "DISCLOSURE, EXTRATERRESTRIAL, GOVERNMENT, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 12,
-          "text": "DISCLOSURE, GOVERNMENT, WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 8,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE",
-        "EXTRATERRESTRIAL",
-        "GOVERNMENT",
-        "WHISTLEBLOWER"
-      ],
-      "sourceQuality": 79,
-      "displayedAt": "2026-06-04T07:13:41Z",
-      "rssPublishedAt": "2026-06-03T11:00:00Z",
-      "rssDate": "2026-06-09",
-      "sourcePublishedAt": "2026-06-03T11:00:00Z",
-      "sourceDisplayedAt": "2026-06-04T07:13:41Z",
-      "translation": {
-        "en": {
-          "title": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026",
-          "summary": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026 Steven Spielberg's 1977 classic tapped into anxieties about the US government hiding UFO information from the public. When trailers for Steven Spielberg's Disclosure Day confirmed that it deals with extraterrestrials, the internet exploded with speculation that it was a sequel to his 1977 classic, Close Encounters of the Third Kind.",
-          "sourceHash": "0606c06ccacc76cab6650b3f7a115d74416d7aec",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Unheimliche Begegnungen, UFOs und Vertuschungen: Warum Spielbergs Verschwörungstheorie-Klassiker von 1977 im Jahr 2026 so relevant ist",
-          "summary": "Unheimliche Begegnungen, UFOs und Vertuschungen: Warum Spielbergs Verschwörungstheorie-Klassiker von 1977 im Jahr 2026 so relevant ist. Steven Spielbergs Klassiker von 1977 griff die Befürchtungen auf, die US-Regierung könnte UFO-Informationen vor der Öffentlichkeit verbergen. Als Trailer zu Steven Spielbergs „Disclosure Day“ bestätigten, dass es sich dabei um Außerirdische handelt, explodierten im Internet Spekulationen darüber, dass es sich um eine Fortsetzung seines Klassikers „Unheimliche Begegnung der dritten Art“ aus dem Jahr 1977 handeln könnte.",
-          "sourceHash": "0606c06ccacc76cab6650b3f7a115d74416d7aec",
-          "provider": "google"
-        }
-      }
-    },
-    {
       "id": "exclusive-investigation-aliens-among-us-pentagon-files-revealed-four-different-races-discovered",
       "title": "EXCLUSIVE INVESTIGATION: Aliens Among Us! Pentagon Files Revealed FOUR Different Races Discovered",
       "source": "RadarOnline",
@@ -1015,6 +815,154 @@
       }
     },
     {
+      "id": "new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery",
+      "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
+      "source": "DefenseScoop",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaXdKWW9VLVg1RVF2Rkdlbm1BU2JvS252WS1tMnpNOXNyMi1NdUJmaXBOa2FTdmdsNEUyeDNSbWx2RUZqY0ZYZEpOMF8xbndkQzQzdHU3VEYtcmtvOThic0hIQ1BGQ3Zwb0E3NFE2ZF9RYkpacTBfUzZ2NVRPajRDaUo4U2xnVWxMX3VlOThjZ1lFc0p6SDFjWmw1Q3ZvUExzN0ZtMTJHR0xjOUo2N0V1WkYxWlV5Q2Jj?oc=5",
+      "date": "2026-06-17",
+      "publishedAt": "2026-06-17T21:31:14Z",
+      "summary": "A new UAP Science Advisory Council, led by Harvard professor Avi Loeb, has been formed to provide scientific guidance to the U.S. government on unidentified anomalous phenomena investigations. The council will support the All‑domain Anomaly Resolution Office and the UAP Governance Board, which met for the first time recently, by interpreting unclassified data and recommending new data collection to determine whether UAPs pose national security threats or represent new discoveries. The latest AARO report (June 5 2026) notes that about 40 % of reported phenomena lack a reasonable explanation, and the council includes experts in anomaly identification, AI, oceanography, biology, and psychology. It remains uncertain whether the observed phenomena are human‑made technologies or unknown adversarial systems, and the council’s meeting cadence has not yet been decided.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 58,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "GOVERNMENT als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "GOVERNMENT als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "GOVERNMENT"
+      ],
+      "sourceQuality": 58,
+      "displayedAt": "2026-06-19T08:30:56Z",
+      "rssPublishedAt": "2026-06-17T21:31:14Z",
+      "rssDate": "2026-06-17",
+      "sourcePublishedAt": "2026-06-17T21:31:11Z",
+      "sourceDisplayedAt": "2026-06-19T08:30:56Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
+          "summary": "A new UAP Science Advisory Council, led by Harvard professor Avi Loeb, has been formed to provide scientific guidance to the U.S. government on unidentified anomalous phenomena investigations. The council will support the All‑domain Anomaly Resolution Office and the UAP Governance Board, which met for the first time recently, by interpreting unclassified data and recommending new data collection to determine whether UAPs pose national security threats or represent new discoveries.",
+          "sourceHash": "036254d1949946c4c47cfc9506974c936f478b2b",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Neue wissenschaftliche Beratungsgremien bilden sich, um der US-Regierung dabei zu helfen, „das UAP-Rätsel zu lösen“",
+          "summary": "Ein neuer UAP-Wissenschaftsbeirat unter der Leitung von Harvard-Professor Avi Loeb wurde gegründet, um der US-Regierung wissenschaftliche Leitlinien für die Untersuchung nicht identifizierter anomaler Phänomene bereitzustellen. Der Rat wird das All-domain Anomaly Resolution Office und das UAP Governance Board, die kürzlich zum ersten Mal zusammentraten, unterstützen, indem er nicht klassifizierte Daten interpretiert und eine neue Datenerfassung empfiehlt, um festzustellen, ob UAPs eine Bedrohung für die nationale Sicherheit darstellen oder neue Entdeckungen darstellen.",
+          "sourceHash": "036254d1949946c4c47cfc9506974c936f478b2b",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "film-close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026",
+      "title": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd0tCb24xOFU4N3VFWVNTejByZzVYazFRQURFbWpsMHVTTHlvVzNIdmVOenVuUk91MmNwQ3FSN1hmNzYzVUNLdk1sMS1ZUk5fS3oxN0dwRElNMzI4bkpDQ3pneTM0QWJ6Wkc3VG9XTVZ5Q1MyNHhSNnp5dVNnSG4xVkxmLU1tbl9FX0Z4cEFiMWVpQ0F5cmNGRk13?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-03T11:00:00Z",
+      "summary": "Spielberg’s 1977 film *Close Encounters of the Third Kind* focused on government secrecy about UFOs and has become a key reference for his 2026 film *Disclosure Day*, which the director says is not a sequel but shares thematic ties. *Disclosure Day*, released on 12 June 2026 and starring Emily Blunt, follows a whistleblower named Daniel who tries to expose decades of hidden evidence of extraterrestrial visitations, echoing the conspiracy‑thriller style of 1970s movies like *Three Days of the Condor*. The piece notes that real‑world UAP investigations, such as the Pentagon’s 2025 report and 2023 congressional hearings, have produced limited evidence and continued public speculation, mirroring the film’s portrayal of government obfuscation. Spielberg’s trailers and statements emphasize that the new film is part of a growing public fascination with whether we are alone in the universe, centering on the tension between truth‑seeking characters and a clandestine agency that seeks to suppress information.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 57,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "CLASSIFIED, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "CLASSIFIED, WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Quellenrisiko",
+          "points": -8,
+          "text": "Abzug, weil die einzige Quelle in diesem Themencluster eher Boulevard, Clickbait oder Unterhaltung ist."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "declassified",
+        "files",
+        "government"
+      ],
+      "sourceQuality": 57,
+      "displayedAt": "2026-06-04T07:13:41Z",
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
+      "rssPublishedAt": "2026-06-03T11:00:00Z",
+      "rssDate": "2026-06-09",
+      "sourcePublishedAt": "2026-06-03T11:00:00Z",
+      "sourceDisplayedAt": "2026-06-04T07:13:41Z",
+      "translation": {
+        "en": {
+          "title": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026",
+          "summary": "Spielberg’s 1977 film *Close Encounters of the Third Kind* focused on government secrecy about UFOs and has become a key reference for his 2026 film *Disclosure Day*, which the director says is not a sequel but shares thematic ties. *Disclosure Day*, released on 12 June 2026 and starring Emily Blunt, follows a whistleblower named Daniel who tries to expose decades of hidden evidence of extraterrestrial visitations, echoing the conspiracy‑thriller style of 1970s movies like *Three Days of the Condor*. The piece notes that real‑world UAP investigations, such as the Pentagon’s 2025 report and 2023 congressional hearings, have produced limited evidence and continued public speculation, mirroring the film’s portrayal of government obfuscation.",
+          "sourceHash": "f0c994a27766d6bf0736449ade6181ee8a59556a",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Unheimliche Begegnungen, UFOs und Vertuschungen: Warum Spielbergs Verschwörungstheorie-Klassiker von 1977 im Jahr 2026 so relevant ist",
+          "summary": "Spielbergs Film „Close Encounters of the Third Kind“ aus dem Jahr 1977 konzentrierte sich auf Regierungsgeheimnisse über UFOs und ist zu einer wichtigen Referenz für seinen Film „Disclosure Day“ aus dem Jahr 2026 geworden, der nach Aussage des Regisseurs keine Fortsetzung ist, aber thematische Verbindungen aufweist. *Disclosure Day*, veröffentlicht am 12. Juni 2026 und mit Emily Blunt in der Hauptrolle, handelt von einem Whistleblower namens Daniel, der versucht, jahrzehntelang verborgene Beweise für außerirdische Besuche aufzudecken, und greift damit den Verschwörungsthriller-Stil von Filmen der 1970er Jahre wie „Drei Tage des Kondors“ auf. Der Artikel stellt fest, dass reale UAP-Untersuchungen, wie der Bericht des Pentagons aus dem Jahr 2025 und die Anhörungen vor dem Kongress aus dem Jahr 2023, nur begrenzte Beweise und anhaltende öffentliche Spekulationen erbracht haben, was die Darstellung der Verschleierung durch die Regierung im Film widerspiegelt.",
+          "sourceHash": "f0c994a27766d6bf0736449ade6181ee8a59556a",
+          "provider": "google"
+        }
+      }
+    },
+    {
       "id": "sighting-david-grusch-returns-to-capitol-steps-as-ufo-disclosure-fight-moves-from-testimony-to-action",
       "title": "David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action",
       "source": "USA Herald",
@@ -1116,10 +1064,6 @@
       "matchedTerms": [],
       "sourceQuality": 47,
       "displayedAt": "2026-06-08T07:21:01Z",
-      "rssPublishedAt": "2026-06-08T07:00:00Z",
-      "rssDate": "2026-06-08",
-      "sourcePublishedAt": "2026-06-08T07:11:47Z",
-      "sourceDisplayedAt": "2026-06-08T07:21:01Z",
       "translation": {
         "en": {
           "title": "Jeremy Corbell Issues UFO Warning: Release Reverse-Engineering and Non-Human Biologics Files — or I Will",
@@ -1133,48 +1077,107 @@
           "sourceHash": "7cb5f38f674ad81aceb7f87f8146ae0babcd7efa",
           "provider": "google"
         }
+      },
+      "rssPublishedAt": "2026-06-08T07:00:00Z",
+      "rssDate": "2026-06-08",
+      "sourcePublishedAt": "2026-06-08T07:11:47Z",
+      "sourceDisplayedAt": "2026-06-08T07:21:01Z"
+    },
+    {
+      "id": "file-release-newly-released-ufo-files-allege-china-and-russia-retrieved-downed-uaps-and-attempted-to-reverse-engineer-them",
+      "title": "Newly released UFO files allege China and Russia retrieved downed UAPs and attempted to reverse-engineer them",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNeEZpaE5vMjIzc2Z2cnVvVlRHbDJrcWdyT3hmNE8tUWdLUzROdFVkY3RMQVVfWGo1SFNsR2NoYWtEbEZMUUQ2RlYyWm12ZG0tMWt4bXkzM3JiV2VhMGw4c25xVFZqdFVEQzNJanpHMF9YblFUamwteHF3cXYycWg3clVfaTVidmlDOV8tdG9rVDRqU1E0RTJvNzlwR3Jfdk5jbVpDQjVnYktNcEJ6QnhWRkdxRGNkUG5CUDJRM2Z1a1M1ZktYVS03Q2JjVHhPUklkZFFOWTVYT2E5QzZOdFN1Z2J3?oc=5",
+      "date": "2026-06-18",
+      "publishedAt": "2026-06-18T05:49:00Z",
+      "summary": "Newly released UFO files made public on June 12 allege that China and Russia have retrieved downed UAPs and attempted to reverse‑engineer them. Jordan Flowers, executive director of the UAP Disclosure Foundation, said the files show foreign adversaries are engaged in research that could threaten U.S. national security. Flowers cited whistleblower David Grusch, who warned that the U.S. is aware of Russian and Chinese surveillance of its UAP programs and that a global race to reverse‑engineer the objects has extreme national‑security implications. The UAP Disclosure Foundation announced a forum in Washington, D.C., on June 25 to discuss the national‑security, technological, and religious implications of UAP disclosure. A CIA cable from July 2, 2008 placed U.S. assets in Zimbabwe on high alert after a UFO hovered over Harare airport, with beams and rotating lights, sparking debate over whether the craft was a foreign reconnaissance device or an extraterrestrial object.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "displayedAt": "2026-06-19T08:30:56Z",
+      "rssPublishedAt": "2026-06-18T05:49:00Z",
+      "rssDate": "2026-06-18",
+      "sourcePublishedAt": "2026-06-18T05:49:07Z",
+      "sourceDisplayedAt": "2026-06-19T08:30:56Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Newly released UFO files allege China and Russia retrieved downed UAPs and attempted to reverse-engineer them",
+          "summary": "Newly released UFO files made public on June 12 allege that China and Russia have retrieved downed UAPs and attempted to reverse‑engineer them. Jordan Flowers, executive director of the UAP Disclosure Foundation, said the files show foreign adversaries are engaged in research that could threaten U.S. national security. Flowers cited whistleblower David Grusch, who warned that the U.S. is aware of Russian and Chinese surveillance of its UAP programs and that a global race to reverse‑engineer the objects has extreme national‑security implications.",
+          "sourceHash": "654201b69e7d2c75da12aac8c55f524967d66ebe",
+          "provider": "original"
+        },
+        "de": {
+          "title": "In neu veröffentlichten UFO-Dateien wird behauptet, dass China und Russland abgeschossene UAPs zurückgeholt und versucht hätten, sie zurückzuentwickeln",
+          "summary": "Neu veröffentlichte UFO-Dateien, die am 12. Juni veröffentlicht wurden, behaupten, dass China und Russland abgeschossene UAPs geborgen und versucht haben, sie zurückzuentwickeln. Jordan Flowers, Geschäftsführer der UAP Disclosure Foundation, sagte, die Akten zeigten, dass ausländische Gegner an Forschungsarbeiten beteiligt seien, die die nationale Sicherheit der USA gefährden könnten. Flowers zitierte den Whistleblower David Grusch, der warnte, dass die USA sich der Überwachung ihrer UAP-Programme durch Russland und China bewusst seien und dass ein weltweiter Wettlauf um die Rückentwicklung der Objekte extreme Auswirkungen auf die nationale Sicherheit habe.",
+          "sourceHash": "654201b69e7d2c75da12aac8c55f524967d66ebe",
+          "provider": "google"
+        }
       }
     }
   ],
   "summaries": {
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-    "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025": "Congressional members of the UAP Caucus and whistleblower David Grusch will speak with reporters on Tuesday. They plan to demand transparency measures regarding UAP disclosures. The event is scheduled for Tuesday, 2026, and is covered by NewsNation. The article was published on June 7, 2026. It includes a link to NewsNation’s coverage of the UAP disclosure news conference on June 9.",
-    "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 22 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
+    "uap-disclosure-3-is-the-most-intriguing-release-thus-far-avi-loeb": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 22 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
     "ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs": "Former intelligence officer David Grusch told reporters that billions of dollars are being funneled into secret federal programs tied to UFO crash‑retrieval initiatives that are shielded from Congress and the public. He claims the government knows of several dozen cases involving non‑human biologies and holds audio, video, and images of recovered craft. Grusch urged President Donald Trump’s special task force, led by Vice President JD Vance, to investigate the alleged slush funds and called the situation a fraud, waste and abuse issue. Lawmakers from the House Oversight and Government Committee’s Task Force on Declassification of Federal Secrets, including Reps. Burlison, Moskowitz, Luna and Burchett, joined the briefing and called for permanent immunity for insiders and for the UAP Disclosure Act to strengthen whistleblower protections. War Secretary Pete Hegseth said the Trump administration is releasing declassified UFO files and is committed to unprecedented transparency, while noting that a dozen scientists and associates have recently gone missing, died or been murdered.",
-    "film-close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026 Steven Spielberg's 1977 classic tapped into anxieties about the US government hiding UFO information from the public. When trailers for Steven Spielberg's Disclosure Day confirmed that it deals with extraterrestrials, the internet exploded with speculation that it was a sequel to his 1977 classic, Close Encounters of the Third Kind. The guesswork became so rampant that the press notes for the new film cheekily announce it is \"not a sequel to Close Encounters (sorry, internet)\". Emily Blunt, one of Disclosure Day's stars, has described it as resembling \"a third act\" along with Close Encounters and ET The Extra-Terrestrial (1982).",
     "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion Posted Jun 12, 2026 08:01:58 AM. LOS ANGELES (AP) — In “Disclosure Day,” out Friday, Steven Spielberg is once again inviting audiences to ponder the existence of extraterrestrial life — and the implications it would have for religion on Earth. But Spielberg is hardly the only one making headlines of late about UFOs and the possibility of life on other planets. What was once considered fringe or conspiratorial has in recent months popped up everywhere from the White House to the Catholic Church, as public fascination with unidentified anomalous phenomena — or UAPs, as the government calls them — becomes more mainstream.",
     "exclusive-investigation-aliens-among-us-pentagon-files-revealed-four-different-races-discovered": "Dr. Hal Puthoff, a former CIA‑funded researcher and former Pentagon AAWSAP adviser, says that people involved in UFO crash recoveries have identified four distinct alien species recovered from crashed UFOs. Dr. Eric Davis, a former AAWSAP colleague, categorizes the species as Grays, Nordics, Insectoids, and Reptilians, describing each as humanoid with two arms and legs, with Nordics and Reptilians about six feet tall, Grays small with large eyes, and Insectoids bug‑like. Former Air Force intelligence officer David Grusch testified in 2023 that the U.S. government has held “non‑human biologics” from UFO crash sites, supporting the claim that such alien life has been recovered. A documentary called The Age of Disclosure alleges that former President George H.W. Bush was aware of alien contact at Holloman Air Force Base in 1964, where an extraterrestrial allegedly interacted with Air Force and CIA personnel, but Bush was told he did not need to know further details.",
     "ufo-whistleblower-david-grusch-says-pentagon-insiders-are-too-afraid-to-talk": "UFO Whistleblower David Grusch PENTAGON KNOWS MORE ABOUT UFOs THAN IT'S LETTING ON The government's biggest UFO whistleblower says there are a bunch of folks who know what's going on behind closed doors . and asked him if people inside the Pentagon are afraid to speak out about UFOs and extraterrestrials. David says the fallout from his own whistleblower experience has had a chilling effect on current and former federal employees . and David became one of the most prominent figures in UFO conspiracy circles after claiming the government was hiding information about alleged non-human craft . Jacob also asked David whether greater transparency around UFOs might come with unintended consequences .",
+    "new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery": "A new UAP Science Advisory Council, led by Harvard professor Avi Loeb, has been formed to provide scientific guidance to the U.S. government on unidentified anomalous phenomena investigations. The council will support the All‑domain Anomaly Resolution Office and the UAP Governance Board, which met for the first time recently, by interpreting unclassified data and recommending new data collection to determine whether UAPs pose national security threats or represent new discoveries. The latest AARO report (June 5 2026) notes that about 40 % of reported phenomena lack a reasonable explanation, and the council includes experts in anomaly identification, AI, oceanography, biology, and psychology. It remains uncertain whether the observed phenomena are human‑made technologies or unknown adversarial systems, and the council’s meeting cadence has not yet been decided.",
+    "film-close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026": "Spielberg’s 1977 film *Close Encounters of the Third Kind* focused on government secrecy about UFOs and has become a key reference for his 2026 film *Disclosure Day*, which the director says is not a sequel but shares thematic ties. *Disclosure Day*, released on 12 June 2026 and starring Emily Blunt, follows a whistleblower named Daniel who tries to expose decades of hidden evidence of extraterrestrial visitations, echoing the conspiracy‑thriller style of 1970s movies like *Three Days of the Condor*. The piece notes that real‑world UAP investigations, such as the Pentagon’s 2025 report and 2023 congressional hearings, have produced limited evidence and continued public speculation, mirroring the film’s portrayal of government obfuscation. Spielberg’s trailers and statements emphasize that the new film is part of a growing public fascination with whether we are alone in the universe, centering on the tension between truth‑seeking characters and a clandestine agency that seeks to suppress information.",
     "sighting-david-grusch-returns-to-capitol-steps-as-ufo-disclosure-fight-moves-from-testimony-to-action": "David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action - USA Herald David Grusch Returns To Capitol Steps As UFO Disclosure Fight David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action On Tuesday, June 9 at 1:00 p. , David Grusch, James Fox, Leslie Kean, bipartisan lawmakers, whistleblowers, journalists, and filmmakers are expected to gather on the steps of the U. The event is being framed as a direct call for declassification, stronger whistleblower protections, and passage of disclosure-related legislation. Grusch, the former intelligence officer who previously testified under oath before Congress, is expected to discuss non-human intelligence-related evidence he says he encountered through classified channels.",
-    "file-release-jeremy-corbell-issues-ufo-warning-release-reverse-engineering-and-non-human-biologics-files-or-i-will": "Investigative filmmaker Jeremy Corbell has issued a warning to the U.S. government demanding disclosure of alleged UFO crash retrieval, reverse‑engineering, and non‑human biologics programs or else he will release hundreds of undisclosed files. Corbell said that if the government does not provide new information on reverse engineering, non‑human intelligence craft, or biologics, he will release the files he calls “Sleeping Dog.” He claimed that the information is no longer limited to a small group and is not only in his hands or in George Knapp’s. Corbell referenced former intelligence officer David Grusch’s 2023 congressional testimony, which alleged decades‑long crash retrieval and reverse‑engineering of non‑human technology and the existence of biological evidence. No publicly released evidence has independently verified Grusch’s allegations, but his testimony is considered a significant whistleblower claim about UAPs. Corbell’s statement suggests that additional evidence may exist outside official channels."
+    "file-release-jeremy-corbell-issues-ufo-warning-release-reverse-engineering-and-non-human-biologics-files-or-i-will": "Investigative filmmaker Jeremy Corbell has issued a warning to the U.S. government demanding disclosure of alleged UFO crash retrieval, reverse‑engineering, and non‑human biologics programs or else he will release hundreds of undisclosed files. Corbell said that if the government does not provide new information on reverse engineering, non‑human intelligence craft, or biologics, he will release the files he calls “Sleeping Dog.” He claimed that the information is no longer limited to a small group and is not only in his hands or in George Knapp’s. Corbell referenced former intelligence officer David Grusch’s 2023 congressional testimony, which alleged decades‑long crash retrieval and reverse‑engineering of non‑human technology and the existence of biological evidence. No publicly released evidence has independently verified Grusch’s allegations, but his testimony is considered a significant whistleblower claim about UAPs. Corbell’s statement suggests that additional evidence may exist outside official channels.",
+    "file-release-newly-released-ufo-files-allege-china-and-russia-retrieved-downed-uaps-and-attempted-to-reverse-engineer-them": "Newly released UFO files made public on June 12 allege that China and Russia have retrieved downed UAPs and attempted to reverse‑engineer them. Jordan Flowers, executive director of the UAP Disclosure Foundation, said the files show foreign adversaries are engaged in research that could threaten U.S. national security. Flowers cited whistleblower David Grusch, who warned that the U.S. is aware of Russian and Chinese surveillance of its UAP programs and that a global race to reverse‑engineer the objects has extreme national‑security implications. The UAP Disclosure Foundation announced a forum in Washington, D.C., on June 25 to discuss the national‑security, technological, and religious implications of UAP disclosure. A CIA cable from July 2, 2008 placed U.S. assets in Zimbabwe on high alert after a UFO hovered over Harare airport, with beams and rotating lights, sparking debate over whether the craft was a foreign reconnaissance device or an extraterrestrial object."
   },
   "notificationBatch": {
-    "timestamp": "2026-06-18T14:03:34Z",
+    "timestamp": "2026-06-19T08:30:56Z",
     "ids": [
-      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
+      "new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery",
+      "file-release-newly-released-ufo-files-allege-china-and-russia-retrieved-downed-uaps-and-attempted-to-reverse-engineer-them"
     ],
     "articles": [
       {
-        "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "source": "U.S. Department of War (.gov)"
+        "id": "new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery",
+        "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
+        "source": "DefenseScoop"
+      },
+      {
+        "id": "file-release-newly-released-ufo-files-allege-china-and-russia-retrieved-downed-uaps-and-attempted-to-reverse-engineer-them",
+        "title": "Newly released UFO files allege China and Russia retrieved downed UAPs and attempted to reverse-engineer them",
+        "source": "New York Post"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 371,
-    "broadTopics": 159,
+    "broadArticles": 369,
+    "broadTopics": 169,
     "notificationArticles": 1,
     "notificationTopics": 1,
-    "newNotificationTopics": 1,
-    "appTopics": 13,
+    "newNotificationTopics": 0,
+    "appTopics": 14,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 12,
+    "splitUnrelatedGroupedSources": 11,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 16,
+    "regroupedTopics": 13,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -1182,14 +1185,14 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 1,
-      "repaired": 0,
+      "attempts": 2,
+      "repaired": 1,
       "fallbackRepaired": 0,
       "missing": 1
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 13,
+      "kept": 14,
       "missing": 3,
       "missingItems": [
         {
@@ -1214,15 +1217,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 17,
-      "outputArticles": 14,
-      "preservedSourceSummaries": 8
+      "inputArticles": 22,
+      "outputArticles": 17,
+      "preservedSourceSummaries": 10
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 14,
-      "outputArticles": 14,
-      "missingSummaries": 6,
+      "inputArticles": 17,
+      "outputArticles": 17,
+      "missingSummaries": 7,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -1241,44 +1244,46 @@
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
       "updatedTopics": 5,
-      "addedSources": 72,
+      "addedSources": 90,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
       "sources": 14,
-      "cleanedArticles": 3,
-      "removedDuplicateTopics": 0,
+      "cleanedArticles": 2,
+      "removedDuplicateTopics": 2,
       "staleSummariesCleared": 0,
       "rejectedArticleSources": 0,
       "promotedPrimaryFromSource": false
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 13,
-      "outputArticles": 13,
+      "inputArticles": 14,
+      "outputArticles": 14,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 13,
-      "removedArticles": 1,
+      "inputArticles": 14,
+      "removedArticles": 2,
       "removedTitles": [
-        "Hungry for a real ‘disclosure day,’ some UFO watchers are miffed at Trump"
+        "Hungry for a real ‘disclosure day,’ some UFO watchers are miffed at Trump",
+        "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025"
       ]
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 17,
+      "archiveCandidates": 12,
       "currentBeforeRestore": 12,
-      "restoredArticles": 1,
-      "blockedUnreachableTitles": 1,
+      "restoredArticles": 2,
+      "blockedUnreachableTitles": 2,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
+        "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
         "EXCLUSIVE INVESTIGATION: Aliens Among Us! Pentagon Files Revealed FOUR Different Races Discovered"
       ]
     },
@@ -1287,32 +1292,32 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 13
+      "articlesRefreshed": 14
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 37,
-      "updatedSources": 13,
+      "checkedSources": 33,
+      "updatedSources": 12,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 13,
+      "updatedTopics": 14,
       "newSources": 3
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 10,
-      "newTopics": 3,
-      "topicsWithNewSources": 3
+      "correctedExistingTopics": 14,
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
-      "correctedOldSourceMarkers": 6,
+      "notifications": 2,
+      "freshSources": 2,
+      "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 61
+      "seededSeenFromPreviousFeed": 49
     }
   },
   "translations": {
@@ -1327,20 +1332,6 @@
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
         "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-        "provider": "google"
-      }
-    },
-    "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday-2026-justice-iustitia-bg-2025": {
-      "en": {
-        "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "summary": "Congressional members of the UAP Caucus and whistleblower David Grusch will speak with reporters on Tuesday. They plan to demand transparency measures regarding UAP disclosures. The event is scheduled for Tuesday, 2026, and is covered by NewsNation.",
-        "sourceHash": "bf1526908d04abd1a09ab002f3c58af2a781e49f",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Befürworter der UAP-Offenlegung werden am Dienstag 2026 Transparenzmaßnahmen fordern | GERECHTIGKEIT - IUSTITIA.BG 2025",
-        "summary": "Kongressabgeordnete des UAP Caucus und Whistleblower David Grusch werden am Dienstag mit Reportern sprechen. Sie planen, Transparenzmaßnahmen in Bezug auf UAP-Offenlegungen zu fordern. Die Veranstaltung ist für Dienstag, 2026, geplant und wird von NewsNation berichtet.",
-        "sourceHash": "bf1526908d04abd1a09ab002f3c58af2a781e49f",
         "provider": "google"
       }
     },
@@ -1372,31 +1363,17 @@
         "provider": "google"
       }
     },
-    "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb": {
+    "uap-disclosure-3-is-the-most-intriguing-release-thus-far-avi-loeb": {
       "en": {
-        "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
+        "title": "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb",
         "summary": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 22 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
-        "sourceHash": "1cc82aba91bbc621691e9d4bea366ca1357e353c",
+        "sourceHash": "8ba032dec06c978f32d7faba42c49130d54e5ff0",
         "provider": "original"
       },
       "de": {
-        "title": "Die Realität sollte nicht geheim gehalten werden: Ein Aufruf zum Handeln zur UAP-Offenlegung – Avi Loeb",
+        "title": "UAP Disclosure #3 ist die bisher faszinierendste Veröffentlichung! - Avi Loeb",
         "summary": "source=post_page---byline--6569862d1eba-----------------------------------------------------) 5 Minuten gelesen vor 22 Stunden Drücken Sie die Eingabetaste oder klicken Sie, um das Bild in voller Größe anzuzeigen (Bildnachweis: NewsNation) Heute, am 9. Juni 2026, forderte eine Pressekonferenz von Gesetzgebern und UAP-Whistleblowern (Unidentified Anomalous Phenomena) in Washington DC Maßnahmen zur UAP-Offenlegung (für den Zugriff auf das vollständige Video). klicken Sie hier). Kurz darauf wurde ich von Nichole Berlie von NewsNation gebeten, meine Sicht auf diese Pressekonferenz mitzuteilen. *** **Hinweis:** Hier geht es um die Offenlegungsbemühungen der UAP und um das, was wir in den letzten Wochen aus der Regierungsmitteilung gesehen haben, Avi Loeb, Professor für Naturwissenschaften an der Harvard University.",
-        "sourceHash": "1cc82aba91bbc621691e9d4bea366ca1357e353c",
-        "provider": "google"
-      }
-    },
-    "film-close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026": {
-      "en": {
-        "title": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026",
-        "summary": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026 Steven Spielberg's 1977 classic tapped into anxieties about the US government hiding UFO information from the public. When trailers for Steven Spielberg's Disclosure Day confirmed that it deals with extraterrestrials, the internet exploded with speculation that it was a sequel to his 1977 classic, Close Encounters of the Third Kind.",
-        "sourceHash": "0606c06ccacc76cab6650b3f7a115d74416d7aec",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Unheimliche Begegnungen, UFOs und Vertuschungen: Warum Spielbergs Verschwörungstheorie-Klassiker von 1977 im Jahr 2026 so relevant ist",
-        "summary": "Unheimliche Begegnungen, UFOs und Vertuschungen: Warum Spielbergs Verschwörungstheorie-Klassiker von 1977 im Jahr 2026 so relevant ist. Steven Spielbergs Klassiker von 1977 griff die Befürchtungen auf, die US-Regierung könnte UFO-Informationen vor der Öffentlichkeit verbergen. Als Trailer zu Steven Spielbergs „Disclosure Day“ bestätigten, dass es sich dabei um Außerirdische handelt, explodierten im Internet Spekulationen darüber, dass es sich um eine Fortsetzung seines Klassikers „Unheimliche Begegnung der dritten Art“ aus dem Jahr 1977 handeln könnte.",
-        "sourceHash": "0606c06ccacc76cab6650b3f7a115d74416d7aec",
+        "sourceHash": "8ba032dec06c978f32d7faba42c49130d54e5ff0",
         "provider": "google"
       }
     },
@@ -1428,6 +1405,34 @@
         "provider": "google"
       }
     },
+    "new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery": {
+      "en": {
+        "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
+        "summary": "A new UAP Science Advisory Council, led by Harvard professor Avi Loeb, has been formed to provide scientific guidance to the U.S. government on unidentified anomalous phenomena investigations. The council will support the All‑domain Anomaly Resolution Office and the UAP Governance Board, which met for the first time recently, by interpreting unclassified data and recommending new data collection to determine whether UAPs pose national security threats or represent new discoveries.",
+        "sourceHash": "036254d1949946c4c47cfc9506974c936f478b2b",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Neue wissenschaftliche Beratungsgremien bilden sich, um der US-Regierung dabei zu helfen, „das UAP-Rätsel zu lösen“",
+        "summary": "Ein neuer UAP-Wissenschaftsbeirat unter der Leitung von Harvard-Professor Avi Loeb wurde gegründet, um der US-Regierung wissenschaftliche Leitlinien für die Untersuchung nicht identifizierter anomaler Phänomene bereitzustellen. Der Rat wird das All-domain Anomaly Resolution Office und das UAP Governance Board, die kürzlich zum ersten Mal zusammentraten, unterstützen, indem er nicht klassifizierte Daten interpretiert und eine neue Datenerfassung empfiehlt, um festzustellen, ob UAPs eine Bedrohung für die nationale Sicherheit darstellen oder neue Entdeckungen darstellen.",
+        "sourceHash": "036254d1949946c4c47cfc9506974c936f478b2b",
+        "provider": "google"
+      }
+    },
+    "film-close-encounters-ufos-and-cover-ups-why-spielberg-s-1977-conspiracy-theory-classic-is-so-relevant-in-2026": {
+      "en": {
+        "title": "Close Encounters, UFOs and cover-ups: Why Spielberg's 1977 conspiracy theory classic is so relevant in 2026",
+        "summary": "Spielberg’s 1977 film *Close Encounters of the Third Kind* focused on government secrecy about UFOs and has become a key reference for his 2026 film *Disclosure Day*, which the director says is not a sequel but shares thematic ties. *Disclosure Day*, released on 12 June 2026 and starring Emily Blunt, follows a whistleblower named Daniel who tries to expose decades of hidden evidence of extraterrestrial visitations, echoing the conspiracy‑thriller style of 1970s movies like *Three Days of the Condor*. The piece notes that real‑world UAP investigations, such as the Pentagon’s 2025 report and 2023 congressional hearings, have produced limited evidence and continued public speculation, mirroring the film’s portrayal of government obfuscation.",
+        "sourceHash": "f0c994a27766d6bf0736449ade6181ee8a59556a",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Unheimliche Begegnungen, UFOs und Vertuschungen: Warum Spielbergs Verschwörungstheorie-Klassiker von 1977 im Jahr 2026 so relevant ist",
+        "summary": "Spielbergs Film „Close Encounters of the Third Kind“ aus dem Jahr 1977 konzentrierte sich auf Regierungsgeheimnisse über UFOs und ist zu einer wichtigen Referenz für seinen Film „Disclosure Day“ aus dem Jahr 2026 geworden, der nach Aussage des Regisseurs keine Fortsetzung ist, aber thematische Verbindungen aufweist. *Disclosure Day*, veröffentlicht am 12. Juni 2026 und mit Emily Blunt in der Hauptrolle, handelt von einem Whistleblower namens Daniel, der versucht, jahrzehntelang verborgene Beweise für außerirdische Besuche aufzudecken, und greift damit den Verschwörungsthriller-Stil von Filmen der 1970er Jahre wie „Drei Tage des Kondors“ auf. Der Artikel stellt fest, dass reale UAP-Untersuchungen, wie der Bericht des Pentagons aus dem Jahr 2025 und die Anhörungen vor dem Kongress aus dem Jahr 2023, nur begrenzte Beweise und anhaltende öffentliche Spekulationen erbracht haben, was die Darstellung der Verschleierung durch die Regierung im Film widerspiegelt.",
+        "sourceHash": "f0c994a27766d6bf0736449ade6181ee8a59556a",
+        "provider": "google"
+      }
+    },
     "sighting-david-grusch-returns-to-capitol-steps-as-ufo-disclosure-fight-moves-from-testimony-to-action": {
       "en": {
         "title": "David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action",
@@ -1455,10 +1460,24 @@
         "sourceHash": "7cb5f38f674ad81aceb7f87f8146ae0babcd7efa",
         "provider": "google"
       }
+    },
+    "file-release-newly-released-ufo-files-allege-china-and-russia-retrieved-downed-uaps-and-attempted-to-reverse-engineer-them": {
+      "en": {
+        "title": "Newly released UFO files allege China and Russia retrieved downed UAPs and attempted to reverse-engineer them",
+        "summary": "Newly released UFO files made public on June 12 allege that China and Russia have retrieved downed UAPs and attempted to reverse‑engineer them. Jordan Flowers, executive director of the UAP Disclosure Foundation, said the files show foreign adversaries are engaged in research that could threaten U.S. national security. Flowers cited whistleblower David Grusch, who warned that the U.S. is aware of Russian and Chinese surveillance of its UAP programs and that a global race to reverse‑engineer the objects has extreme national‑security implications.",
+        "sourceHash": "654201b69e7d2c75da12aac8c55f524967d66ebe",
+        "provider": "original"
+      },
+      "de": {
+        "title": "In neu veröffentlichten UFO-Dateien wird behauptet, dass China und Russland abgeschossene UAPs zurückgeholt und versucht hätten, sie zurückzuentwickeln",
+        "summary": "Neu veröffentlichte UFO-Dateien, die am 12. Juni veröffentlicht wurden, behaupten, dass China und Russland abgeschossene UAPs geborgen und versucht haben, sie zurückzuentwickeln. Jordan Flowers, Geschäftsführer der UAP Disclosure Foundation, sagte, die Akten zeigten, dass ausländische Gegner an Forschungsarbeiten beteiligt seien, die die nationale Sicherheit der USA gefährden könnten. Flowers zitierte den Whistleblower David Grusch, der warnte, dass die USA sich der Überwachung ihrer UAP-Programme durch Russland und China bewusst seien und dass ein weltweiter Wettlauf um die Rückentwicklung der Objekte extreme Auswirkungen auf die nationale Sicherheit habe.",
+        "sourceHash": "654201b69e7d2c75da12aac8c55f524967d66ebe",
+        "provider": "google"
+      }
     }
   },
   "translationMeta": {
-    "prepared": 10,
+    "prepared": 11,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
