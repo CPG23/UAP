@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T08:30:56Z",
+  "timestamp": "2026-06-19T14:04:29Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -36,8 +36,7 @@
           "publishedAt": "2026-06-10T12:15:10Z",
           "rssPublishedAt": "2026-06-10T12:15:10Z",
           "sourcePublishedAt": "2026-06-09T00:00:00Z",
-          "displayedAt": "2026-06-17T08:24:49Z",
-          "isNew": true
+          "displayedAt": "2026-06-10T12:15:10Z"
         }
       ],
       "clusterTitles": [
@@ -186,25 +185,25 @@
       }
     },
     {
-      "id": "uap-disclosure-3-is-the-most-intriguing-release-thus-far-avi-loeb",
-      "title": "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb",
+      "id": "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb",
+      "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
       "source": "Avi Loeb – Medium",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFEQ3Z5M2I3cGp2S2liSHBTdDhsaUtNNklqamNPS1VPamxoWWkyR2N0bEx5aWhaMXZWNkN2QVZRY3lBWjBFWDM5aW9LY19EQ3NJTUdRZmpwTkprSHBrVWV4Sk4ycnF3d05WUDJ2c3ZOeEp4UXlwTmZtYUZXT29wS3RkUEtTd2dKelNYR3h6eFhRWGlrRC1Vcg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlISTA4clhQRVV1SzQ2UGxENm8wck12NkVrN3pjcDYxRC11eDI3U2ZKM2xOUjVBT18ydEdvVDJnRmt6ZmtUcGVzRjloZ1B2dnlJTVRuVkhwdWVJRVpCRnIwMG5halpGcVRGSmRRS3hNc3BzQjlrUWt2QzZjVnhJMVE1Nk5RWGlab29FdThPN3pSTFI4eE81THlmWmVDd3RKUjVLWVgxVkxwQk5VLUE?oc=5",
       "date": "2026-06-09",
-      "publishedAt": "2026-06-12T17:32:31Z",
+      "publishedAt": "2026-06-09T21:05:29Z",
       "summary": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 22 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
       "mentions": 2,
       "otherSources": [
         {
-          "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
+          "title": "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb",
           "source": "Avi Loeb – Medium",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlISTA4clhQRVV1SzQ2UGxENm8wck12NkVrN3pjcDYxRC11eDI3U2ZKM2xOUjVBT18ydEdvVDJnRmt6ZmtUcGVzRjloZ1B2dnlJTVRuVkhwdWVJRVpCRnIwMG5halpGcVRGSmRRS3hNc3BzQjlrUWt2QzZjVnhJMVE1Nk5RWGlab29FdThPN3pSTFI4eE81THlmWmVDd3RKUjVLWVgxVkxwQk5VLUE?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlISTA4clhQRVV1SzQ2UGxENm8wck12NkVrN3pjcDYxRC11eDI3U2ZKM2xOUjVBT18ydEdvVDJnRmt6ZmtUcGVzRjloZ1B2dnlJTVRuVkhwdWVJRVpCRnIwMG5halpGcVRGSmRRS3hNc3BzQjlrUWt2QzZjVnhJMVE1Nk5RWGlab29FdThPN3pSTFI4eE81THlmWmVDd3RKUjVLWVgxVkxwQk5VLUE?oc=5",
-          "publishedAt": "2026-06-09T21:05:29Z"
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFEQ3Z5M2I3cGp2S2liSHBTdDhsaUtNNklqamNPS1VPamxoWWkyR2N0bEx5aWhaMXZWNkN2QVZRY3lBWjBFWDM5aW9LY19EQ3NJTUdRZmpwTkprSHBrVWV4Sk4ycnF3d05WUDJ2c3ZOeEp4UXlwTmZtYUZXT29wS3RkUEtTd2dKelNYR3h6eFhRWGlrRC1Vcg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFEQ3Z5M2I3cGp2S2liSHBTdDhsaUtNNklqamNPS1VPamxoWWkyR2N0bEx5aWhaMXZWNkN2QVZRY3lBWjBFWDM5aW9LY19EQ3NJTUdRZmpwTkprSHBrVWV4Sk4ycnF3d05WUDJ2c3ZOeEp4UXlwTmZtYUZXT29wS3RkUEtTd2dKelNYR3h6eFhRWGlrRC1Vcg?oc=5",
+          "publishedAt": "2026-06-12T17:32:31Z"
         }
       ],
       "clusterTitles": [
-        "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb"
+        "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb"
       ],
       "quality": 79,
       "qualityBreakdown": [
@@ -247,7 +246,7 @@
         "WHISTLEBLOWER"
       ],
       "sourceQuality": 79,
-      "displayedAt": "2026-06-19T08:30:56Z"
+      "displayedAt": "2026-06-19T14:04:29Z"
     },
     {
       "id": "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press",
@@ -478,13 +477,13 @@
       "displayedAt": "2026-06-10T19:47:29Z"
     },
     {
-      "id": "new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery",
+      "id": "program-new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery",
       "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
       "source": "DefenseScoop",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaXdKWW9VLVg1RVF2Rkdlbm1BU2JvS252WS1tMnpNOXNyMi1NdUJmaXBOa2FTdmdsNEUyeDNSbWx2RUZqY0ZYZEpOMF8xbndkQzQzdHU3VEYtcmtvOThic0hIQ1BGQ3Zwb0E3NFE2ZF9RYkpacTBfUzZ2NVRPajRDaUo4U2xnVWxMX3VlOThjZ1lFc0p6SDFjWmw1Q3ZvUExzN0ZtMTJHR0xjOUo2N0V1WkYxWlV5Q2Jj?oc=5",
       "date": "2026-06-17",
       "publishedAt": "2026-06-17T21:31:14Z",
-      "summary": "A new UAP Science Advisory Council, led by Harvard professor Avi Loeb, has been formed to provide scientific guidance to the U.S. government on unidentified anomalous phenomena investigations. The council will support the All‑domain Anomaly Resolution Office and the UAP Governance Board, which met for the first time recently, by interpreting unclassified data and recommending new data collection to determine whether UAPs pose national security threats or represent new discoveries. The latest AARO report (June 5 2026) notes that about 40 % of reported phenomena lack a reasonable explanation, and the council includes experts in anomaly identification, AI, oceanography, biology, and psychology. It remains uncertain whether the observed phenomena are human‑made technologies or unknown adversarial systems, and the council’s meeting cadence has not yet been decided.",
+      "summary": "A new UAP Science Advisory Council, led by Harvard professor Avi Loeb, has been created to provide scientific guidance to U.S. government agencies investigating unidentified anomalous phenomena. The council will advise the UAP Governance Board, an interagency body established under a Trump administration directive, which coordinates the declassification of UAP information in line with Executive Order 13526. The council’s membership includes experts in anomaly identification, AI, oceanography, psychology, and materials science, and all data shared with the council will be unclassified. AARO’s latest report, dated June 5 2026, documents anomalous phenomena observed in October 2023, noting that about 40 % of the cases lack a reasonable explanation and remain unresolved. While the council aims to determine whether UAPs pose national‑security threats or represent new discoveries, no evidence to date confirms extraterrestrial activity, and the exact nature of the phenomena remains uncertain.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -676,21 +675,7 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 47,
-      "displayedAt": "2026-06-08T07:21:01Z",
-      "translation": {
-        "en": {
-          "title": "Jeremy Corbell Issues UFO Warning: Release Reverse-Engineering and Non-Human Biologics Files — or I Will",
-          "summary": "Investigative filmmaker Jeremy Corbell has issued a warning to the U.S. government demanding disclosure of alleged UFO crash retrieval, reverse‑engineering, and non‑human biologics programs or else he will release hundreds of undisclosed files. Corbell said that if the government does not provide new information on reverse engineering, non‑human intelligence craft, or biologics, he will release the files he calls “Sleeping Dog.” He claimed that the information is no longer limited to a small group and is not only in his hands or in George Knapp’s.",
-          "sourceHash": "7cb5f38f674ad81aceb7f87f8146ae0babcd7efa",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Jeremy Corbell gibt UFO-Warnung heraus: Veröffentlichung von Reverse-Engineering- und nicht-humanen Biologika-Dateien – oder ich werde es tun",
-          "summary": "Der investigative Filmemacher Jeremy Corbell hat eine Warnung an die US-Regierung gerichtet und fordert die Offenlegung angeblicher UFO-Absturz-Bergungs-, Reverse-Engineering- und nicht-humaner Biologika-Programme, andernfalls werde er Hunderte von nicht veröffentlichten Dateien veröffentlichen. Corbell sagte, wenn die Regierung keine neuen Informationen über Reverse Engineering, nichtmenschliche Geheimdienste oder Biologika bereitstellt, werde er die Dateien veröffentlichen, die er „Sleeping Dog“ nennt. Er behauptete, dass die Informationen nicht mehr auf eine kleine Gruppe beschränkt seien und nicht nur in seinen Händen oder in denen von George Knapp lägen.",
-          "sourceHash": "7cb5f38f674ad81aceb7f87f8146ae0babcd7efa",
-          "provider": "google"
-        }
-      }
+      "displayedAt": "2026-06-08T07:21:01Z"
     },
     {
       "id": "rep-burlison-and-others-on-uap-declassification-c-span",
