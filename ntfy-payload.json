@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "2 neue Artikel",
+  "message": "──────────────\nDepartment of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO\n──────────────\nCosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
