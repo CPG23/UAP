@@ -1,7 +1,93 @@
 {
-  "timestamp": "2026-06-22T15:52:08Z",
+  "timestamp": "2026-06-23T05:15:16Z",
   "retentionDays": 14,
   "articles": [
+    {
+      "id": "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb",
+      "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
+      "source": "Avi Loeb – Medium",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlISTA4clhQRVV1SzQ2UGxENm8wck12NkVrN3pjcDYxRC11eDI3U2ZKM2xOUjVBT18ydEdvVDJnRmt6ZmtUcGVzRjloZ1B2dnlJTVRuVkhwdWVJRVpCRnIwMG5halpGcVRGSmRRS3hNc3BzQjlrUWt2QzZjVnhJMVE1Nk5RWGlab29FdThPN3pSTFI4eE81THlmWmVDd3RKUjVLWVgxVkxwQk5VLUE?oc=5",
+      "date": "2026-06-09",
+      "publishedAt": "2026-06-09T21:05:29Z",
+      "summary": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 22 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb",
+          "source": "Avi Loeb – Medium",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFEQ3Z5M2I3cGp2S2liSHBTdDhsaUtNNklqamNPS1VPamxoWWkyR2N0bEx5aWhaMXZWNkN2QVZRY3lBWjBFWDM5aW9LY19EQ3NJTUdRZmpwTkprSHBrVWV4Sk4ycnF3d05WUDJ2c3ZOeEp4UXlwTmZtYUZXT29wS3RkUEtTd2dKelNYR3h6eFhRWGlrRC1Vcg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFEQ3Z5M2I3cGp2S2liSHBTdDhsaUtNNklqamNPS1VPamxoWWkyR2N0bEx5aWhaMXZWNkN2QVZRY3lBWjBFWDM5aW9LY19EQ3NJTUdRZmpwTkprSHBrVWV4Sk4ycnF3d05WUDJ2c3ZOeEp4UXlwTmZtYUZXT29wS3RkUEtTd2dKelNYR3h6eFhRWGlrRC1Vcg?oc=5",
+          "publishedAt": "2026-06-12T17:32:31Z",
+          "displayedAt": "2026-06-12T17:32:31Z"
+        }
+      ],
+      "clusterTitles": [
+        "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb"
+      ],
+      "quality": 84,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 12,
+          "text": "DISCLOSURE, EXTRATERRESTRIAL, GOVERNMENT, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 12,
+          "text": "DISCLOSURE, GOVERNMENT, WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 8,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE",
+        "EXTRATERRESTRIAL",
+        "GOVERNMENT",
+        "WHISTLEBLOWER"
+      ],
+      "sourceQuality": 84,
+      "displayedAt": "2026-06-09T21:05:29Z",
+      "sourceDisplayedAt": "2026-06-09T21:05:29Z",
+      "translation": {
+        "en": {
+          "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
+          "summary": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 22 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
+          "sourceHash": "1cc82aba91bbc621691e9d4bea366ca1357e353c",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Die Realität sollte nicht geheim gehalten werden: Ein Aufruf zum Handeln zur UAP-Offenlegung – Avi Loeb",
+          "summary": "source=post_page---byline--6569862d1eba-----------------------------------------------------) 5 Minuten gelesen vor 22 Stunden Drücken Sie die Eingabetaste oder klicken Sie, um das Bild in voller Größe anzuzeigen (Bildnachweis: NewsNation) Heute, am 9. Juni 2026, forderte eine Pressekonferenz von Gesetzgebern und UAP-Whistleblowern (Unidentified Anomalous Phenomena) in Washington DC Maßnahmen zur UAP-Offenlegung (für den Zugriff auf das vollständige Video). klicken Sie hier). Kurz darauf wurde ich von Nichole Berlie von NewsNation gebeten, meine Sicht auf diese Pressekonferenz mitzuteilen. *** **Hinweis:** Hier geht es um die Offenlegungsbemühungen der UAP und um das, was wir in den letzten Wochen aus der Regierungsmitteilung gesehen haben, Avi Loeb, Professor für Naturwissenschaften an der Harvard University.",
+          "sourceHash": "1cc82aba91bbc621691e9d4bea366ca1357e353c",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
+    },
     {
       "id": "whistleblower-accuses-intelligence-agencies-of-hiding-uap-spending",
       "title": "Whistleblower Accuses Intelligence Agencies of Hiding UAP Spending",
@@ -78,27 +164,41 @@
       }
     },
     {
-      "id": "reality-should-not-be-classified-a-call-for-action-on-uap-disclosure-avi-loeb",
-      "title": "Reality Should Not be Classified: A Call for Action on UAP Disclosure - Avi Loeb",
-      "source": "Avi Loeb – Medium",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlISTA4clhQRVV1SzQ2UGxENm8wck12NkVrN3pjcDYxRC11eDI3U2ZKM2xOUjVBT18ydEdvVDJnRmt6ZmtUcGVzRjloZ1B2dnlJTVRuVkhwdWVJRVpCRnIwMG5halpGcVRGSmRRS3hNc3BzQjlrUWt2QzZjVnhJMVE1Nk5RWGlab29FdThPN3pSTFI4eE81THlmWmVDd3RKUjVLWVgxVkxwQk5VLUE?oc=5",
+      "id": "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press",
+      "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion - Associated Press",
+      "source": "Prescott eNews",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOcTZqTi1yQmVMRjRVSXMtTWtGWjFTMHRjUDl6YmEza0k3MlhHeGIxX3FYUUtuU29DcVZIc202VEpYeDU1ZGdibW54YWxLb3BTbU5Fb0lnVU1ueVRfaFIza0gwc05IYlh5VlItbTFfUGlqV2FFeTRKd0lkZnRyRUlLN3FZUzRhRWlIZ0I3d1NLLVBTa1ZkNXBRZ0pfSUg2MmowUFFqaUlKS0hEa0RTM0Z1QlBZRERtVU5WLVNSUTdXUjZGSUw4VlIwQ2M5TGQwbmY1MzNfRVRxc1djTzJMMHdYQXVnZDBNVmc?oc=5",
       "date": "2026-06-09",
-      "publishedAt": "2026-06-09T21:05:29Z",
-      "summary": "source=post_page---byline--6569862d1eba---------------------------------------) 5 min read 22 hours ago Press enter or click to view image in full size (Image credit: NewsNation) Today, June 9, 2026, a press conference of lawmakers and UAP (Unidentified Anomalous Phenomena) whistleblowers in Washington DC, called for action on UAP disclosure (for access to its full video, click here). Shortly afterwards, I was asked by Nichole Berlie from NewsNation to share my perspective on this press conference. *** **NB:** Here to discuss the UAP disclosure effort and what we have seen from the government release in recent weeks, Professor of Science at Harvard University, Avi Loeb.",
-      "mentions": 2,
+      "publishedAt": "2026-06-14T05:05:28Z",
+      "summary": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion Posted Jun 12, 2026 08:01:58 AM. LOS ANGELES (AP) — In “Disclosure Day,” out Friday, Steven Spielberg is once again inviting audiences to ponder the existence of extraterrestrial life — and the implications it would have for religion on Earth. But Spielberg is hardly the only one making headlines of late about UFOs and the possibility of life on other planets. What was once considered fringe or conspiratorial has in recent months popped up everywhere from the White House to the Catholic Church, as public fascination with unidentified anomalous phenomena — or UAPs, as the government calls them — becomes more mainstream.",
+      "mentions": 3,
       "otherSources": [
         {
-          "title": "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb",
-          "source": "Avi Loeb – Medium",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFEQ3Z5M2I3cGp2S2liSHBTdDhsaUtNNklqamNPS1VPamxoWWkyR2N0bEx5aWhaMXZWNkN2QVZRY3lBWjBFWDM5aW9LY19EQ3NJTUdRZmpwTkprSHBrVWV4Sk4ycnF3d05WUDJ2c3ZOeEp4UXlwTmZtYUZXT29wS3RkUEtTd2dKelNYR3h6eFhRWGlrRC1Vcg?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFEQ3Z5M2I3cGp2S2liSHBTdDhsaUtNNklqamNPS1VPamxoWWkyR2N0bEx5aWhaMXZWNkN2QVZRY3lBWjBFWDM5aW9LY19EQ3NJTUdRZmpwTkprSHBrVWV4Sk4ycnF3d05WUDJ2c3ZOeEp4UXlwTmZtYUZXT29wS3RkUEtTd2dKelNYR3h6eFhRWGlrRC1Vcg?oc=5",
-          "publishedAt": "2026-06-12T17:32:31Z"
+          "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUjNKUnh5by1rVjRITHBsaGpfTmNIaU5wN1RTbk41RkdaQzNqYzJNRjAtU09YdjJucE5HdkRLbVUwT0JUV2E0T2JKX1c4RkUwV0oyQ0hFQ2xCTUlTcE1ncUdUZDZiMUVTS2ptY3VncnNVR0F0S3Y0b1ZxVFc3c3ZXTHd3QVVrWWZFOEM0cnZnNDQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUjNKUnh5by1rVjRITHBsaGpfTmNIaU5wN1RTbk41RkdaQzNqYzJNRjAtU09YdjJucE5HdkRLbVUwT0JUV2E0T2JKX1c4RkUwV0oyQ0hFQ2xCTUlTcE1ncUdUZDZiMUVTS2ptY3VncnNVR0F0S3Y0b1ZxVFc3c3ZXTHd3QVVrWWZFOEM0cnZnNDQ?oc=5",
+          "source": "Boston Herald",
+          "publishedAt": "2026-06-12T15:23:33Z",
+          "rssPublishedAt": "2026-06-12T15:23:33Z",
+          "sourcePublishedAt": "2026-06-12T15:10:31Z",
+          "displayedAt": "2026-06-12T15:23:33Z"
+        },
+        {
+          "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion",
+          "source": "CityNews Halifax",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ2N1X0QwYktnenIxTzFBQXNjQjhWc0paR0M3dm9VMzh6RjluMU9rUllEUlBqd3UxRWI4Y25NUzRwRkVhWF9zX25tSDc5N1Y2V0Nsek8tZGZBYlFsQ09MM0c2NzZqVGpJUS1vY0dxUF93Z1dhZjJ3YzA3QlJJVk5vOUJpc3BIZVEzT3Q3a2w3MGNCTkl0eDhsaERWbHROTVZvazhWeGJ0WG4yZUxhb2hHY1JjTUpINzYyZ1BNdndwdkt6a250QU9yWktCZnZjUi0taERJ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ2N1X0QwYktnenIxTzFBQXNjQjhWc0paR0M3dm9VMzh6RjluMU9rUllEUlBqd3UxRWI4Y25NUzRwRkVhWF9zX25tSDc5N1Y2V0Nsek8tZGZBYlFsQ09MM0c2NzZqVGpJUS1vY0dxUF93Z1dhZjJ3YzA3QlJJVk5vOUJpc3BIZVEzT3Q3a2w3MGNCTkl0eDhsaERWbHROTVZvazhWeGJ0WG4yZUxhb2hHY1JjTUpINzYyZ1BNdndwdkt6a250QU9yWktCZnZjUi0taERJ?oc=5",
+          "publishedAt": "2026-06-12T11:48:51Z",
+          "rssPublishedAt": "2026-06-12T11:48:51Z",
+          "sourcePublishedAt": "2026-06-12T11:01:58Z",
+          "displayedAt": "2026-06-12T11:48:51Z"
         }
       ],
       "clusterTitles": [
-        "UAP Disclosure #3 is the Most Intriguing Release Thus Far! - Avi Loeb"
+        "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion",
+        "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion"
       ],
-      "quality": 79,
+      "quality": 75,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -107,17 +207,17 @@
         },
         {
           "label": "Begriffe",
-          "points": 12,
-          "text": "DISCLOSURE, EXTRATERRESTRIAL, GOVERNMENT, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+          "points": 6,
+          "text": "CLASSIFIED, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
-          "points": 12,
-          "text": "DISCLOSURE, GOVERNMENT, WHISTLEBLOWER als offizieller Kontext erkannt."
+          "points": 8,
+          "text": "CLASSIFIED, WHISTLEBLOWER als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
-          "points": 8,
+          "points": 4,
           "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
@@ -129,17 +229,36 @@
           "label": "Kernaussage",
           "points": 7,
           "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 10,
+          "text": "3 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "DISCLOSURE",
-        "EXTRATERRESTRIAL",
-        "GOVERNMENT",
-        "WHISTLEBLOWER"
+        "files",
+        "released"
       ],
-      "sourceQuality": 79,
-      "displayedAt": "2026-06-22T15:52:08Z"
+      "sourceQuality": 75,
+      "displayedAt": "2026-06-14T05:05:28Z",
+      "sourceDisplayedAt": "2026-06-17T14:27:50Z",
+      "translation": {
+        "en": {
+          "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion - Associated Press",
+          "summary": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion Posted Jun 12, 2026 08:01:58 AM. LOS ANGELES (AP) — In “Disclosure Day,” out Friday, Steven Spielberg is once again inviting audiences to ponder the existence of extraterrestrial life — and the implications it would have for religion on Earth. But Spielberg is hardly the only one making headlines of late about UFOs and the possibility of life on other planets.",
+          "sourceHash": "ce81677c788e026bc8c79fdce4c9632110a9cfd3",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Da UFOs immer beliebter werden, ist sich die Jury nicht einig, was die Existenz außerirdischen Lebens für die Religion bedeuten könnte – Associated Press",
+          "summary": "Da UFOs immer beliebter werden, ist sich die Jury nicht einig, was die Existenz außerirdischen Lebens für die Religion bedeuten könnte. Gepostet am 12. Juni 2026 um 08:01:58 Uhr. LOS ANGELES (AP) – In „Disclosure Day“, der am Freitag erscheint, lädt Steven Spielberg das Publikum erneut dazu ein, über die Existenz außerirdischen Lebens nachzudenken – und über die Auswirkungen, die es auf die Religion auf der Erde haben würde. Aber Spielberg ist nicht der Einzige, der in letzter Zeit Schlagzeilen über UFOs und die Möglichkeit von Leben auf anderen Planeten macht.",
+          "sourceHash": "ce81677c788e026bc8c79fdce4c9632110a9cfd3",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "uap-disclosure-advocates-set-to-demand-transparency-measures-tuesday",
@@ -156,7 +275,10 @@
           "source": "iustitia.bg",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3dUWGFTOTVwWXZfRzMxQm1GQmpTeGlCNG84am16NHNhbm45bWVNSy15ZTBoSHhVWkFUQ3JiNmpxQ1Z6c3BZa1BZUDgyXzBub2hKSGFSenlvdUUyUlgtY2RVTWhoZDZiR0ItMlMzWTNEbGM5Zy00Vm1ndGdiWXg5aG1ycG5HZw?oc=5",
-          "publishedAt": "2026-06-07T02:29:24Z"
+          "publishedAt": "2026-06-07T02:29:24Z",
+          "rssPublishedAt": "2026-06-07T02:29:24Z",
+          "sourcePublishedAt": "2026-06-07T02:29:24Z",
+          "displayedAt": "2026-06-07T02:29:24Z"
         }
       ],
       "clusterTitles": [
@@ -210,38 +332,48 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 70,
-      "displayedAt": "2026-06-22T15:52:08Z",
+      "displayedAt": "2026-06-09T07:00:00Z",
       "translation": {
         "en": {
-          "title": "UAP disclosure advocates set to demand transparency measures Tuesday 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "title": "UAP disclosure advocates set to demand transparency measures Tuesday",
           "summary": "On Tuesday, congressional members of the UAP Caucus and whistleblower David Grusch will speak with reporters. They are expected to demand new transparency measures for UAP disclosures. The event is being covered by NewsNation. The article was published on June 7, 2026. No further details about the specific measures or outcomes are provided.",
-          "sourceHash": "e7be2da33c141e8d7e300ffc00b0e2751e09b0a9",
+          "sourceHash": "19e03c978095f508d29a398df73ba3869db7339e",
           "provider": "original"
         },
         "de": {
-          "title": "Befürworter der UAP-Offenlegung werden am Dienstag 2026 Transparenzmaßnahmen fordern | GERECHTIGKEIT - IUSTITIA.BG 2025",
+          "title": "Befürworter der UAP-Offenlegung werden am Dienstag Transparenzmaßnahmen fordern",
           "summary": "Am Dienstag werden Kongressabgeordnete des UAP Caucus und Whistleblower David Grusch mit Reportern sprechen. Es wird erwartet, dass sie neue Transparenzmaßnahmen für UAP-Offenlegungen fordern. Über die Veranstaltung wird von NewsNation berichtet. Der Artikel wurde am 7. Juni 2026 veröffentlicht. Nähere Angaben zu den konkreten Maßnahmen oder Ergebnissen werden nicht gemacht.",
-          "sourceHash": "e7be2da33c141e8d7e300ffc00b0e2751e09b0a9",
+          "sourceHash": "19e03c978095f508d29a398df73ba3869db7339e",
           "provider": "google"
         }
-      }
+      },
+      "sourceDisplayedAt": "2026-06-09T07:00:00Z",
+      "retainedFromPreviousScan": true
     },
     {
-      "id": "ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs",
-      "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
-      "source": "Washington Examiner",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTDViT3dLSEphWnJjM1lQRlJWaHRYVGRGMFp5T1RNYTlyZ1NOVFJ3ODlqYk5rNUc1b2VvX25Ldk5aTmpUNVRNU0o5X3BZdXgwT1NLMncxR3RHbkUtUnhlYlNnV1FmVFhSdktyTmVnYWZNczhqaWFPQXVSUXRiem5tWC1LZHB3a1NaWWYtMkpjelZabkxpekJUeFpqQWxnVHpRbXlN?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-09T20:50:00Z",
+      "id": "sighting-uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure",
+      "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGlaZ3FUeWZqYzlJNHAxbnFpelNmWmZrcEhucEZueTFuWU40ektCejNQUTJ5X3dWRzJCUXFaODhJVWI2cmhnSU9yQ2tBQ3ZNdTN1REtYY0k0WmJIZ1VqVnNqQl9hbjhsNzBmLXU1OWIyRnpvUWh4QjFORFhfWUdUMUVmZzVUU1V5aGc2edIBkgFBVV95cUxNSVRMU281c1FwLXVUbE5KekxmYnhEZ3BnR2kzcEpiR2RYX1QwWGotbUJ2eWtYRnlHNV9JNFBMcmNQQV9xalZMQWZGTThkVnNiNVJtcnIwS3NnTFNSTjZXcE1vNktubGFnVVI2VzdObEtzSEhWWnYxS0piemdhdFVxWF9rczljS3hBX0xYN0wyRDZndw?oc=5",
+      "date": "2026-06-22",
+      "publishedAt": "2026-06-22T07:06:05Z",
       "summary": "Former intelligence officer David Grusch told reporters that billions of dollars are being funneled into secret federal programs tied to UFO crash‑retrieval initiatives that are shielded from Congress and the public. He claims the government knows of several dozen cases involving non‑human biologies and holds audio, video, and images of recovered craft. Grusch urged President Donald Trump’s special task force, led by Vice President JD Vance, to investigate the alleged slush funds and called the situation a fraud, waste and abuse issue. Lawmakers from the House Oversight and Government Committee’s Task Force on Declassification of Federal Secrets, including Reps. Burlison, Moskowitz, Luna and Burchett, joined the briefing and called for permanent immunity for insiders and for the UAP Disclosure Act to strengthen whistleblower protections. War Secretary Pete Hegseth said the Trump administration is releasing declassified UFO files and is committed to unprecedented transparency, while noting that a dozen scientists and associates have recently gone missing, died or been murdered.",
-      "mentions": 4,
+      "mentions": 6,
       "otherSources": [
+        {
+          "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
+          "source": "Washington Examiner",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTDViT3dLSEphWnJjM1lQRlJWaHRYVGRGMFp5T1RNYTlyZ1NOVFJ3ODlqYk5rNUc1b2VvX25Ldk5aTmpUNVRNU0o5X3BZdXgwT1NLMncxR3RHbkUtUnhlYlNnV1FmVFhSdktyTmVnYWZNczhqaWFPQXVSUXRiem5tWC1LZHB3a1NaWWYtMkpjelZabkxpekJUeFpqQWxnVHpRbXlN?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTDViT3dLSEphWnJjM1lQRlJWaHRYVGRGMFp5T1RNYTlyZ1NOVFJ3ODlqYk5rNUc1b2VvX25Ldk5aTmpUNVRNU0o5X3BZdXgwT1NLMncxR3RHbkUtUnhlYlNnV1FmVFhSdktyTmVnYWZNczhqaWFPQXVSUXRiem5tWC1LZHB3a1NaWWYtMkpjelZabkxpekJUeFpqQWxnVHpRbXlN?oc=5",
+          "publishedAt": "2026-06-09T20:50:00Z"
+        },
         {
           "title": "Push For UAP Disclosure Comes To U.S. Capitol",
           "source": "iHeart",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVG1oT2d6SXVmd1pNUjItRE9XT1pKN2JKUndnSlFjOGxYamVNMTBISXFMbkVNRF9HdFZpOFVFU0JRY05YRXRSVmJXeGlEQWx3WjV5RTlkZUdfaWNnTUJfczdUQmxha1lRMjg5M0czMG1OTkpBU2tpX19YcXRTSU1vbmhmWFkwNEI0Tl9iR2p4UdIBlwFBVV95cUxNbnNjeDNBOWJoQzdhZ1FZS3ZPT1JHNkN2WFlCd21nQlVBVnoyOWJPQklZZHI4cTBUTkR4bWZEVlVmQm5saWlwdUVXSG5WMnFoUDQ4cnJSZWdCQUcxNjhLNUhsV2VpMU9icU5Mb2RMbjBPMmFmaUJjV3IzNXF1Wk50SUROMGgtc1pWZUNpWHFiZEV6UWxvRGJV?oc=5",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVG1oT2d6SXVmd1pNUjItRE9XT1pKN2JKUndnSlFjOGxYamVNMTBISXFMbkVNRF9HdFZpOFVFU0JRY05YRXRSVmJXeGlEQWx3WjV5RTlkZUdfaWNnTUJfczdUQmxha1lRMjg5M0czMG1OTkpBU2tpX19YcXRTSU1vbmhmWFkwNEI0Tl9iR2p4UdIBlwFBVV95cUxNbnNjeDNBOWJoQzdhZ1FZS3ZPT1JHNkN2WFlCd21nQlVBVnoyOWJPQklZZHI4cTBUTkR4bWZEVlVmQm5saWlwdUVXSG5WMnFoUDQ4cnJSZWdCQUcxNjhLNUhsV2VpMU9icU5Mb2RMbjBPMmFmaUJjV3IzNXF1Wk50SUROMGgtc1pWZUNpWHFiZEV6UWxvRGJV?oc=5",
-          "publishedAt": "2026-06-10T12:15:10Z"
+          "publishedAt": "2026-06-10T12:15:10Z",
+          "displayedAt": "2026-06-10T12:15:10Z"
         },
         {
           "title": "UFO push for disclosure shattering greatest cover-up in US history: Expert",
@@ -260,12 +392,21 @@
           "rssPublishedAt": "2026-06-10T12:15:10Z",
           "sourcePublishedAt": "2026-06-09T00:00:00Z",
           "displayedAt": "2026-06-10T12:15:10Z"
+        },
+        {
+          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGNMbWhFdE5ORFR1RTc2SExWWmIxSl9KYU9RcFhNXzdwbFpHMm13OU5QaWYtR0g3aGc1ZHBEenVzTUoya1o3NHdqenFRMUlkemUwV1N6VFowd2dNbjYtN1RtcmJTMTA3SU9icy14OUZ5Z2JPNHI4NUdTYnFkSGpBY0tMREVQQQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGNMbWhFdE5ORFR1RTc2SExWWmIxSl9KYU9RcFhNXzdwbFpHMm13OU5QaWYtR0g3aGc1ZHBEenVzTUoya1o3NHdqenFRMUlkemUwV1N6VFowd2dNbjYtN1RtcmJTMTA3SU9icy14OUZ5Z2JPNHI4NUdTYnFkSGpBY0tMREVQQQ?oc=5",
+          "publishedAt": "2026-06-22T07:06:05Z"
         }
       ],
       "clusterTitles": [
+        "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
         "Push For UAP Disclosure Comes To U.S. Capitol",
         "UFO push for disclosure shattering greatest cover-up in US history: Expert",
-        "Push For UAP Disclosure Comes To U.S. Capitol"
+        "Push For UAP Disclosure Comes To U.S. Capitol",
+        "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025"
       ],
       "quality": 65,
       "qualityBreakdown": [
@@ -276,18 +417,23 @@
         },
         {
           "label": "Begriffe",
-          "points": 6,
-          "text": "CLASSIFIED, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
-          "points": 8,
-          "text": "CLASSIFIED, WHISTLEBLOWER als offizieller Kontext erkannt."
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
-          "points": 4,
+          "points": 2,
           "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
         },
         {
           "label": "Starker Titel",
@@ -302,156 +448,23 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "files",
-        "released"
+        "DISCLOSURE"
       ],
       "sourceQuality": 65,
-      "displayedAt": "2026-06-22T15:52:08Z",
+      "displayedAt": "2026-06-23T05:15:16Z",
       "translation": {
         "en": {
-          "title": "Push For UAP Disclosure Comes To U.S. Capitol",
+          "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
           "summary": "Former intelligence officer David Grusch told reporters that billions of dollars are being funneled into secret federal programs tied to UFO crash‑retrieval initiatives that are shielded from Congress and the public. He claims the government knows of several dozen cases involving non‑human biologies and holds audio, video, and images of recovered craft. Grusch urged President Donald Trump’s special task force, led by Vice President JD Vance, to investigate the alleged slush funds and called the situation a fraud, waste and abuse issue.",
-          "sourceHash": "db96e367fbec5a691fee94aa6fc801f15535ac07",
+          "sourceHash": "e99654e69fcd218b6f8d6d3e6e933b840b043130",
           "provider": "original"
         },
         "de": {
-          "title": "Drängen auf UAP-Offenlegung erreicht das US-Kapitol",
+          "title": "UFO-Whistleblower drängt Vance, angebliche Milliarden von „schwarzen Geldern“ des Bundes zu untersuchen, die mit geheimen Programmen in Zusammenhang stehen",
           "summary": "Der ehemalige Geheimdienstoffizier David Grusch sagte Reportern, dass Milliarden von Dollar in geheime Bundesprogramme fließen, die mit Initiativen zur UFO-Absturzbergung in Verbindung stehen und vor dem Kongress und der Öffentlichkeit geschützt sind. Er behauptet, der Regierung seien mehrere Dutzend Fälle mit nichtmenschlichen Biologien bekannt und sie verfüge über Audio-, Video- und Bildmaterial von geborgenen Fahrzeugen. Grusch forderte die Sondereinsatzgruppe von Präsident Donald Trump unter der Leitung von Vizepräsident JD Vance auf, die angeblichen Schwarzgelder zu untersuchen, und nannte die Situation ein Betrugs-, Verschwendungs- und Missbrauchsproblem.",
-          "sourceHash": "db96e367fbec5a691fee94aa6fc801f15535ac07",
+          "sourceHash": "e99654e69fcd218b6f8d6d3e6e933b840b043130",
           "provider": "google"
         }
-      }
-    },
-    {
-      "id": "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press",
-      "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion - Associated Press",
-      "source": "Prescott eNews",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOcTZqTi1yQmVMRjRVSXMtTWtGWjFTMHRjUDl6YmEza0k3MlhHeGIxX3FYUUtuU29DcVZIc202VEpYeDU1ZGdibW54YWxLb3BTbU5Fb0lnVU1ueVRfaFIza0gwc05IYlh5VlItbTFfUGlqV2FFeTRKd0lkZnRyRUlLN3FZUzRhRWlIZ0I3d1NLLVBTa1ZkNXBRZ0pfSUg2MmowUFFqaUlKS0hEa0RTM0Z1QlBZRERtVU5WLVNSUTdXUjZGSUw4VlIwQ2M5TGQwbmY1MzNfRVRxc1djTzJMMHdYQXVnZDBNVmc?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-14T05:05:28Z",
-      "summary": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion Posted Jun 12, 2026 08:01:58 AM. LOS ANGELES (AP) — In “Disclosure Day,” out Friday, Steven Spielberg is once again inviting audiences to ponder the existence of extraterrestrial life — and the implications it would have for religion on Earth. But Spielberg is hardly the only one making headlines of late about UFOs and the possibility of life on other planets. What was once considered fringe or conspiratorial has in recent months popped up everywhere from the White House to the Catholic Church, as public fascination with unidentified anomalous phenomena — or UAPs, as the government calls them — becomes more mainstream.",
-      "mentions": 3,
-      "otherSources": [
-        {
-          "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUjNKUnh5by1rVjRITHBsaGpfTmNIaU5wN1RTbk41RkdaQzNqYzJNRjAtU09YdjJucE5HdkRLbVUwT0JUV2E0T2JKX1c4RkUwV0oyQ0hFQ2xCTUlTcE1ncUdUZDZiMUVTS2ptY3VncnNVR0F0S3Y0b1ZxVFc3c3ZXTHd3QVVrWWZFOEM0cnZnNDQ?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUjNKUnh5by1rVjRITHBsaGpfTmNIaU5wN1RTbk41RkdaQzNqYzJNRjAtU09YdjJucE5HdkRLbVUwT0JUV2E0T2JKX1c4RkUwV0oyQ0hFQ2xCTUlTcE1ncUdUZDZiMUVTS2ptY3VncnNVR0F0S3Y0b1ZxVFc3c3ZXTHd3QVVrWWZFOEM0cnZnNDQ?oc=5",
-          "source": "Boston Herald",
-          "publishedAt": "2026-06-12T15:23:33Z",
-          "rssPublishedAt": "2026-06-12T15:23:33Z",
-          "sourcePublishedAt": "2026-06-12T15:10:31Z",
-          "displayedAt": "2026-06-12T15:23:33Z"
-        },
-        {
-          "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion",
-          "source": "CityNews Halifax",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ2N1X0QwYktnenIxTzFBQXNjQjhWc0paR0M3dm9VMzh6RjluMU9rUllEUlBqd3UxRWI4Y25NUzRwRkVhWF9zX25tSDc5N1Y2V0Nsek8tZGZBYlFsQ09MM0c2NzZqVGpJUS1vY0dxUF93Z1dhZjJ3YzA3QlJJVk5vOUJpc3BIZVEzT3Q3a2w3MGNCTkl0eDhsaERWbHROTVZvazhWeGJ0WG4yZUxhb2hHY1JjTUpINzYyZ1BNdndwdkt6a250QU9yWktCZnZjUi0taERJ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ2N1X0QwYktnenIxTzFBQXNjQjhWc0paR0M3dm9VMzh6RjluMU9rUllEUlBqd3UxRWI4Y25NUzRwRkVhWF9zX25tSDc5N1Y2V0Nsek8tZGZBYlFsQ09MM0c2NzZqVGpJUS1vY0dxUF93Z1dhZjJ3YzA3QlJJVk5vOUJpc3BIZVEzT3Q3a2w3MGNCTkl0eDhsaERWbHROTVZvazhWeGJ0WG4yZUxhb2hHY1JjTUpINzYyZ1BNdndwdkt6a250QU9yWktCZnZjUi0taERJ?oc=5",
-          "publishedAt": "2026-06-12T11:48:51Z",
-          "rssPublishedAt": "2026-06-12T11:48:51Z",
-          "sourcePublishedAt": "2026-06-12T11:01:58Z",
-          "displayedAt": "2026-06-12T11:48:51Z"
-        }
-      ],
-      "clusterTitles": [
-        "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion",
-        "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion"
-      ],
-      "quality": 65,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "CLASSIFIED, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "CLASSIFIED, WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "released"
-      ],
-      "sourceQuality": 65,
-      "displayedAt": "2026-06-14T05:05:28Z"
-    },
-    {
-      "id": "uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
-      "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGNMbWhFdE5ORFR1RTc2SExWWmIxSl9KYU9RcFhNXzdwbFpHMm13OU5QaWYtR0g3aGc1ZHBEenVzTUoya1o3NHdqenFRMUlkemUwV1N6VFowd2dNbjYtN1RtcmJTMTA3SU9icy14OUZ5Z2JPNHI4NUdTYnFkSGpBY0tMREVQQQ?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-22T07:06:05Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 65,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "CLASSIFIED, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "CLASSIFIED, WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "released"
-      ],
-      "sourceQuality": 65,
-      "displayedAt": "2026-06-22T15:52:08Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
       }
     },
     {
@@ -507,7 +520,91 @@
       "sourceQuality": 65,
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text",
-      "displayedAt": "2026-06-21T07:13:09Z"
+      "displayedAt": "2026-06-21T07:13:09Z",
+      "rssPublishedAt": "2026-06-20T12:40:00Z",
+      "rssDate": "2026-06-09",
+      "sourcePublishedAt": "2026-06-20T12:40:54Z",
+      "sourceDisplayedAt": "2026-06-21T07:13:09Z",
+      "translation": {
+        "en": {
+          "title": "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
+          "summary": "The Trump administration has created a UAP Governance Board to address unidentified anomalous phenomena, holding its first meeting on Tuesday and aiming to improve transparency and interagency coordination. Harvard astrophysicist Avi Loeb will serve as an advisor and head the board’s UAP Science Advisory Council, bringing a scientific perspective to the investigation of UAP incidents.",
+          "sourceHash": "828524f9789fe3dd263ec09988c410840d97fd59",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Kosmischer Rat: Trump gründet ein UFO-Gremium, das von Harvard-Mitarbeiter Avi Loeb beraten wird",
+          "summary": "Die Trump-Administration hat ein UAP-Governance-Board eingerichtet, um sich mit nicht identifizierten anomalen Phänomenen zu befassen. Die erste Sitzung findet am Dienstag statt und zielt darauf ab, die Transparenz und die Koordination zwischen den Behörden zu verbessern. Der Harvard-Astrophysiker Avi Loeb wird als Berater fungieren und den UAP Science Advisory Council des Vorstands leiten und eine wissenschaftliche Perspektive in die Untersuchung von UAP-Vorfällen einbringen.",
+          "sourceHash": "828524f9789fe3dd263ec09988c410840d97fd59",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
+    },
+    {
+      "id": "program-new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery",
+      "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
+      "source": "DefenseScoop",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaXdKWW9VLVg1RVF2Rkdlbm1BU2JvS252WS1tMnpNOXNyMi1NdUJmaXBOa2FTdmdsNEUyeDNSbWx2RUZqY0ZYZEpOMF8xbndkQzQzdHU3VEYtcmtvOThic0hIQ1BGQ3Zwb0E3NFE2ZF9RYkpacTBfUzZ2NVRPajRDaUo4U2xnVWxMX3VlOThjZ1lFc0p6SDFjWmw1Q3ZvUExzN0ZtMTJHR0xjOUo2N0V1WkYxWlV5Q2Jj?oc=5",
+      "date": "2026-06-17",
+      "publishedAt": "2026-06-17T21:31:14Z",
+      "summary": "Investigative journalist Ross Coulthart said a skeptic on the new UAP Science Advisory Council could help the panel, but he worries that Michael Shermer, founder of The Skeptics Society, may be too biased against the topic. Coulthart cited Shermer’s pejorative remarks about whistleblower David Grusch, who claims the government has a secret program to retrieve alien technology, and said he prefers skeptics who are not debunkers. Shermer, who was named to the council, replied that he generally tries to be non‑disparaging and that Grusch deflects when asked for evidence, saying details are classified. The council, which also includes Harvard physicist Avi Loeb, will advise the federal government on how to collect better data on unidentified anomalous phenomena and assess potential national‑security threats. Shermer said most UFO sightings are explainable, wants detailed data to analyze, and believes it is unlikely that extraterrestrials have visited Earth, while offering to join Coulthart on a podcast for a thoughtful conversation.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 58,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "GOVERNMENT als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "GOVERNMENT als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "GOVERNMENT"
+      ],
+      "sourceQuality": 58,
+      "displayedAt": "2026-06-19T08:30:56Z",
+      "translation": {
+        "en": {
+          "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
+          "summary": "Investigative journalist Ross Coulthart said a skeptic on the new UAP Science Advisory Council could help the panel, but he worries that Michael Shermer, founder of The Skeptics Society, may be too biased against the topic. Coulthart cited Shermer’s pejorative remarks about whistleblower David Grusch, who claims the government has a secret program to retrieve alien technology, and said he prefers skeptics who are not debunkers.",
+          "sourceHash": "01a2386f656403de88451b6e7ca6a22b0b1c188c",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Neue wissenschaftliche Beiräte bilden sich, um der US-Regierung dabei zu helfen, „das UAP-Rätsel zu lösen“",
+          "summary": "Der investigative Journalist Ross Coulthart sagte, ein Skeptiker des neuen UAP Science Advisory Council könnte dem Gremium helfen, er befürchtet jedoch, dass Michael Shermer, Gründer der Skeptics Society, zu voreingenommen gegenüber dem Thema sein könnte. Coulthart zitierte Shermers abwertende Bemerkungen über den Whistleblower David Grusch, der behauptet, die Regierung habe ein geheimes Programm zur Rückgewinnung außerirdischer Technologie, und sagte, er bevorzuge Skeptiker, die keine Entlarver seien.",
+          "sourceHash": "01a2386f656403de88451b6e7ca6a22b0b1c188c",
+          "provider": "google"
+        }
+      }
     },
     {
       "id": "uap-whistleblower-says-he-s-paid-a-severe-price-since-coming-forward",
@@ -645,13 +742,13 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "program-new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery",
-      "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
-      "source": "DefenseScoop",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaXdKWW9VLVg1RVF2Rkdlbm1BU2JvS252WS1tMnpNOXNyMi1NdUJmaXBOa2FTdmdsNEUyeDNSbWx2RUZqY0ZYZEpOMF8xbndkQzQzdHU3VEYtcmtvOThic0hIQ1BGQ3Zwb0E3NFE2ZF9RYkpacTBfUzZ2NVRPajRDaUo4U2xnVWxMX3VlOThjZ1lFc0p6SDFjWmw1Q3ZvUExzN0ZtMTJHR0xjOUo2N0V1WkYxWlV5Q2Jj?oc=5",
-      "date": "2026-06-21",
-      "publishedAt": "2026-06-17T21:31:14Z",
-      "summary": "Investigative journalist Ross Coulthart said a skeptic on the new UAP Science Advisory Council could help the panel, but he worries that Michael Shermer, founder of The Skeptics Society, may be too biased against the topic. Coulthart cited Shermer’s pejorative remarks about whistleblower David Grusch, who claims the government has a secret program to retrieve alien technology, and said he prefers skeptics who are not debunkers. Shermer, who was named to the council, replied that he generally tries to be non‑disparaging and that Grusch deflects when asked for evidence, saying details are classified. The council, which also includes Harvard physicist Avi Loeb, will advise the federal government on how to collect better data on unidentified anomalous phenomena and assess potential national‑security threats. Shermer said most UFO sightings are explainable, wants detailed data to analyze, and believes it is unlikely that extraterrestrials have visited Earth, while offering to join Coulthart on a podcast for a thoughtful conversation.",
+      "id": "file-release-ufo-conference-lands-in-canada-as-trump-administration-continues-to-release-documents",
+      "title": "UFO conference lands in Canada as Trump administration continues to release documents",
+      "source": "CTV News",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN0lDSHpndFFrTy1vaEZuU1J2NmY0OEVFVTVpbFN2MXRKTnZkSzQzVkRvbEh6Nmhqa2VfV21uMHhMU0VKaFdDOUs1cXhkVi10amZSclJ0NU9hRUplUUU4THl6OEtVMDRJelV6X2dRQnRTTzA4VUpSSjVUYmhDblpEUTRUdHh6Ui0tcUQ5NUdVLVRaUkNHTnVpd0pKR1hQWTZ4U0NHYUkyX3JHSUg4ODNpUEVOYllveUhhaG5rU0UzNVY0UQ?oc=5",
+      "date": "2026-06-22",
+      "publishedAt": "2026-06-15T14:35:56Z",
+      "summary": "",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -663,9 +760,19 @@
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
         {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+          "label": "Begriffe",
+          "points": 3,
+          "text": "GOVERNMENT als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "GOVERNMENT als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
           "label": "Starker Titel",
@@ -674,9 +781,14 @@
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
+      "matchedTerms": [
+        "GOVERNMENT"
+      ],
       "sourceQuality": 49,
-      "displayedAt": "2026-06-19T08:30:56Z"
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-06-23T05:15:16Z"
     },
     {
       "id": "rep-burlison-and-others-on-uap-declassification-c-span",
@@ -724,6 +836,10 @@
       "matchedTerms": [],
       "sourceQuality": 45,
       "displayedAt": "2026-06-12T05:25:51Z",
+      "rssPublishedAt": "2026-06-09T18:01:01Z",
+      "rssDate": "2026-06-09",
+      "sourcePublishedAt": "2026-06-09T18:01:01Z",
+      "sourceDisplayedAt": "2026-06-12T05:25:51Z",
       "translation": {
         "en": {
           "title": "Rep. Burlison and Others on UAP Declassification - C-SPAN",
@@ -737,7 +853,8 @@
           "sourceHash": "828356276cc19f61f3515ceb499a576128c3ad8b",
           "provider": "google"
         }
-      }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "file-release-newly-released-ufo-files-allege-china-and-russia-retrieved-downed-uaps-and-attempted-to-reverse-engineer-them",
