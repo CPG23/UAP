@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-23T11:45:51Z",
+  "timestamp": "2026-06-23T13:39:54Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -335,6 +335,65 @@
       "retainedFromPreviousScan": true
     },
     {
+      "id": "file-release-mystery-orb-videos-other-ufo-records-released-by-white-house",
+      "title": "Mystery orb videos, other UFO records released by White House",
+      "source": "Axios",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DYklfUUZpQ1lOVXpIQ1FEanI0YTN3ajZKaUFhQkp3TTZ5bFFzTlp2bkVOY0t3VGtCX01GQzBHd1ljVXhTekVNNzZvVURpbVkyTGZVcGxfc3FpZ3hHbS1GU1FSaXE4UlE?oc=5",
+      "date": "2026-06-22",
+      "publishedAt": "2026-06-12T07:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 65,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE"
+      ],
+      "sourceQuality": 65,
+      "displayedAt": "2026-06-23T13:39:54Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      }
+    },
+    {
       "id": "file-release-ufo-whistleblower-pushes-vance-to-investigate-alleged-billions-of-federal-slush-funds-tied-to-classified-programs",
       "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
       "source": "Washington Examiner",
@@ -388,7 +447,7 @@
         "disclosure"
       ],
       "sourceQuality": 65,
-      "displayedAt": "2026-06-23T11:45:51Z",
+      "displayedAt": "2026-06-09T20:50:00Z",
       "translation": {
         "en": {
           "title": "UFO whistleblower pushes Vance to investigate alleged billions of federal ‘slush funds’ tied to classified programs",
@@ -402,7 +461,12 @@
           "sourceHash": "e99654e69fcd218b6f8d6d3e6e933b840b043130",
           "provider": "google/cache"
         }
-      }
+      },
+      "rssPublishedAt": "2026-06-09T20:50:00Z",
+      "rssDate": "2026-06-22",
+      "sourcePublishedAt": "2026-06-09T20:50:52Z",
+      "sourceDisplayedAt": "2026-06-09T20:50:00Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "program-does-the-uk-have-a-blind-spot-on-ufo-sightings",
@@ -419,14 +483,22 @@
           "source": "Gateway 97.8",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbkM2eUYxYlhIMVloMDVWc2RqbXZUalcydDN5dDI3Rm43Z1g0R0lCa1JndXFjdndPaW9EcmVYTVpZYVdlZW55NWRFSGMyWFVQamw5a1djM1Q3QnhWZm05ZlRXeENWYmNRUXN1OXFUUkxjZU02MlJrM3FQTVB2ZFlpLVNKMW41MVNyMEgw?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbkM2eUYxYlhIMVloMDVWc2RqbXZUalcydDN5dDI3Rm43Z1g0R0lCa1JndXFjdndPaW9EcmVYTVpZYVdlZW55NWRFSGMyWFVQamw5a1djM1Q3QnhWZm05ZlRXeENWYmNRUXN1OXFUUkxjZU02MlJrM3FQTVB2ZFlpLVNKMW41MVNyMEgw?oc=5",
-          "publishedAt": "2026-06-14T07:47:38Z"
+          "publishedAt": "2026-06-14T07:47:38Z",
+          "rssPublishedAt": "2026-06-14T07:47:38Z",
+          "sourcePublishedAt": "2026-06-13T23:36:41Z",
+          "displayedAt": "2026-06-23T11:45:51Z",
+          "isNew": true
         },
         {
           "title": "BBC Essex News: Does the UK have a blind spot on UFO sightings?",
           "source": "Gateway 97.8",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeFE5TWQ5M0hWTWpKbHlqbzl5dGIzVGZROWd6ZFoyOTVDRFBGMVFQMDhMbU5iMWZyTGY0SThLMnptQjNCYTBuUG5paFNsbVVXOWZfZUc0WC1oQi1UdFRGOU9fNFVQVkNHdDJhaldwdWU5Yy1IZjJEbnY5ZlBGbmdfQkJnUXZ1WVpDR0plUFBB?oc=5",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeFE5TWQ5M0hWTWpKbHlqbzl5dGIzVGZROWd6ZFoyOTVDRFBGMVFQMDhMbU5iMWZyTGY0SThLMnptQjNCYTBuUG5paFNsbVVXOWZfZUc0WC1oQi1UdFRGOU9fNFVQVkNHdDJhaldwdWU5Yy1IZjJEbnY5ZlBGbmdfQkJnUXZ1WVpDR0plUFBB?oc=5",
-          "publishedAt": "2026-06-14T07:00:00Z"
+          "publishedAt": "2026-06-14T07:00:00Z",
+          "rssPublishedAt": "2026-06-14T07:00:00Z",
+          "sourcePublishedAt": "2026-06-13T23:36:41Z",
+          "displayedAt": "2026-06-23T11:45:51Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
@@ -679,6 +751,56 @@
       "retainedFromPreviousScan": true
     },
     {
+      "id": "government-files-detail-1958-detroit-ufo-report",
+      "title": "Government files detail 1958 Detroit UFO report",
+      "source": "Detroit Free Press",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcVNMZXFHQS1kVF9ZYkpENkNoWC1uOWZLVWQ5UVg0Z29MZTk0c1lYUEl3TzhOTjNJT1FQVFB6TWRqRWkxRndlZzVWaDA4bjA4M25WdHdTRXgzMmV1aHlMSkU0V3FqZng1Y04zanhjNjNmRlRlcVBfbllGaFdhV2NRNnhSbm9nVGpfY3VEWGQ5LUxTME01N0xFRF8wdjFXY2xpaHNjc2lsNmNhUHJZQW55Q3plVzZSVHBpMzU3WFJNOA?oc=5",
+      "date": "2026-06-12",
+      "publishedAt": "2026-06-22T17:47:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 54,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "ORB als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "ORB"
+      ],
+      "sourceQuality": 54,
+      "displayedAt": "2026-06-23T13:39:54Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlaessliche Zusammenfassung verfuegbar. GitHub versucht beim naechsten Scan automatisch, diese zu ergaenzen."
+      }
+    },
+    {
       "id": "rep-burlison-and-others-on-uap-declassification-c-span",
       "title": "Rep. Burlison and Others on UAP Declassification - C-SPAN",
       "source": "C-SPAN",
@@ -771,7 +893,26 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
-      "displayedAt": "2026-06-19T08:30:56Z"
+      "displayedAt": "2026-06-19T08:30:56Z",
+      "rssPublishedAt": "2026-06-18T05:49:00Z",
+      "rssDate": "2026-06-18",
+      "sourcePublishedAt": "2026-06-18T05:49:07Z",
+      "sourceDisplayedAt": "2026-06-19T08:30:56Z",
+      "translation": {
+        "en": {
+          "title": "Newly released UFO files allege China and Russia retrieved downed UAPs and attempted to reverse-engineer them",
+          "summary": "Newly released UFO files made public on June 12 allege that China and Russia have retrieved downed UAPs and attempted to reverse‑engineer them. Jordan Flowers, executive director of the UAP Disclosure Foundation, said the files show foreign adversaries are engaged in research that could threaten U.S. national security. Flowers cited whistleblower David Grusch, who warned that the U.S. is aware of Russian and Chinese surveillance of its UAP programs and that a global race to reverse‑engineer the objects has extreme national‑security implications.",
+          "sourceHash": "654201b69e7d2c75da12aac8c55f524967d66ebe",
+          "provider": "original"
+        },
+        "de": {
+          "title": "In neu veröffentlichten UFO-Dateien wird behauptet, dass China und Russland abgeschossene UAPs zurückgeholt und versucht hätten, sie zurückzuentwickeln",
+          "summary": "Neu veröffentlichte UFO-Dateien, die am 12. Juni veröffentlicht wurden, behaupten, dass China und Russland abgeschossene UAPs geborgen und versucht haben, sie zurückzuentwickeln. Jordan Flowers, Geschäftsführer der UAP Disclosure Foundation, sagte, die Akten zeigten, dass ausländische Gegner an Forschungsarbeiten beteiligt seien, die die nationale Sicherheit der USA gefährden könnten. Flowers zitierte den Whistleblower David Grusch, der warnte, dass die USA sich der Überwachung ihrer UAP-Programme durch Russland und China bewusst seien und dass ein weltweiter Wettlauf um die Rückentwicklung der Objekte extreme Auswirkungen auf die nationale Sicherheit habe.",
+          "sourceHash": "654201b69e7d2c75da12aac8c55f524967d66ebe",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     }
   ]
 }
