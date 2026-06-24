@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-24T06:34:35Z",
+  "timestamp": "2026-06-24T13:15:24Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -332,14 +332,10 @@
       "otherSources": [
         {
           "title": "BBC Essex News: Does the UK have a blind spot on UFO sightings?",
-          "source": "Gateway 97.8",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbkM2eUYxYlhIMVloMDVWc2RqbXZUalcydDN5dDI3Rm43Z1g0R0lCa1JndXFjdndPaW9EcmVYTVpZYVdlZW55NWRFSGMyWFVQamw5a1djM1Q3QnhWZm05ZlRXeENWYmNRUXN1OXFUUkxjZU02MlJrM3FQTVB2ZFlpLVNKMW41MVNyMEgw?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbkM2eUYxYlhIMVloMDVWc2RqbXZUalcydDN5dDI3Rm43Z1g0R0lCa1JndXFjdndPaW9EcmVYTVpZYVdlZW55NWRFSGMyWFVQamw5a1djM1Q3QnhWZm05ZlRXeENWYmNRUXN1OXFUUkxjZU02MlJrM3FQTVB2ZFlpLVNKMW41MVNyMEgw?oc=5",
-          "publishedAt": "2026-06-14T07:47:38Z",
-          "rssPublishedAt": "2026-06-14T07:47:38Z",
-          "sourcePublishedAt": "2026-06-13T23:36:41Z",
-          "displayedAt": "2026-06-23T11:45:51Z",
-          "isNew": true
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbkM2eUYxYlhIMVloMDVWc2RqbXZUalcydDN5dDI3Rm43Z1g0R0lCa1JndXFjdndPaW9EcmVYTVpZYVdlZW55NWRFSGMyWFVQamw5a1djM1Q3QnhWZm05ZlRXeENWYmNRUXN1OXFUUkxjZU02MlJrM3FQTVB2ZFlpLVNKMW41MVNyMEgw?oc=5",
+          "source": "Gateway 97.8",
+          "publishedAt": "2026-06-14T07:47:38Z"
         },
         {
           "title": "BBC Essex News: Does the UK have a blind spot on UFO sightings?",
@@ -531,6 +527,114 @@
       },
       "sourceQuality": 56,
       "displayedAt": "2026-06-14T12:59:51Z"
+    },
+    {
+      "id": "highlights-from-the-most-recent-batch-of-ufo-files",
+      "title": "Highlights from the most recent batch of UFO files",
+      "source": "CBS News",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRUdHNVdQY2UySHpON0c4MXVEOXZJenhHQkgzc0h2bUFHSEY1Ujc3Mzgxel95OWNiTldvVEpLYVVnR055TlE5cTRkUzFoRUxwUFpCSGFQTDBsYlE4NjU3ZlBhZ2prY3ROUGozZWlGQmJOck0ycDNpUFVMWE5HUFNzM21IMm84dGpa?oc=5",
+      "date": "2026-06-17",
+      "publishedAt": "2026-06-13T07:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 55,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "PENTAGON"
+      ],
+      "sourceQuality": 55,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-06-24T13:15:24Z"
+    },
+    {
+      "id": "file-release-mystery-orb-videos-other-ufo-records-released-by-white-house",
+      "title": "Mystery orb videos, other UFO records released by White House",
+      "source": "Axios",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DYklfUUZpQ1lOVXpIQ1FEanI0YTN3ajZKaUFhQkp3TTZ5bFFzTlp2bkVOY0t3VGtCX01GQzBHd1ljVXhTekVNNzZvVURpbVkyTGZVcGxfc3FpZ3hHbS1GU1FSaXE4UlE?oc=5",
+      "date": "2026-06-17",
+      "publishedAt": "2026-06-12T07:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 55,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "PENTAGON"
+      ],
+      "sourceQuality": 55,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-06-24T13:15:24Z"
     },
     {
       "id": "file-release-newly-released-ufo-files-allege-china-and-russia-retrieved-downed-uaps-and-attempted-to-reverse-engineer-them",
