@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-24T05:36:18Z",
+  "timestamp": "2026-06-24T06:34:35Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -63,6 +63,7 @@
       "sourceQuality": 80,
       "displayedAt": "2026-06-11T13:36:20Z",
       "sourceDisplayedAt": "2026-06-11T13:36:20Z",
+      "retainedFromPreviousScan": true,
       "translation": {
         "en": {
           "title": "Whistleblower Accuses Intelligence Agencies of Hiding UAP Spending",
@@ -76,8 +77,7 @@
           "sourceHash": "47a650aa5667a4e50b76891b2a507459779bc7b6",
           "provider": "google"
         }
-      },
-      "retainedFromPreviousScan": true
+      }
     },
     {
       "id": "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press",
@@ -177,7 +177,7 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "sighting-uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
+      "id": "uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
       "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
       "source": "iustitia.bg",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGNMbWhFdE5ORFR1RTc2SExWWmIxSl9KYU9RcFhNXzdwbFpHMm13OU5QaWYtR0g3aGc1ZHBEenVzTUoya1o3NHdqenFRMUlkemUwV1N6VFowd2dNbjYtN1RtcmJTMTA3SU9icy14OUZ5Z2JPNHI4NUdTYnFkSGpBY0tMREVQQQ?oc=5",
@@ -230,7 +230,21 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 65,
-      "displayedAt": "2026-06-24T05:36:18Z"
+      "displayedAt": "2026-06-24T05:36:18Z",
+      "translation": {
+        "en": {
+          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep.",
+          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Im UAP-Forum wird die Öffentlichkeit von Gesetzgebern und Whistleblowern zur Offenlegung 2026 hören | GERECHTIGKEIT - IUSTITIA.BG 2025",
+          "summary": "Das Disclosure Forum 2026, das am Donnerstag in Washington, D.C. stattfand, brachte fast zwei Dutzend Gesetzgeber, ehemalige Geheimdienstmitarbeiter, Forscher und Whistleblower zusammen, um über die Offenlegung von UAP zu diskutieren. In den Podiumsdiskussionen und Rundtischgesprächen unter dem Motto „Die Menschheit am Rande der Entdeckung“ ging es um Fragen zu Sicherheit, Verteidigung und Politik. Redner waren unter anderem Senatorin Kirsten Gillibrand, Rep.",
+          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
+          "provider": "google"
+        }
+      }
     },
     {
       "id": "cosmic-council-trump-creates-ufo-panel-to-be-advised-by-harvard-s-avi-loeb",
@@ -517,57 +531,6 @@
       },
       "sourceQuality": 56,
       "displayedAt": "2026-06-14T12:59:51Z"
-    },
-    {
-      "id": "file-release-the-world-cup-venue-that-s-home-to-ufo-sightings-they-re-objects-that-don-t-have-an-explanation-the-athletic",
-      "title": "The World Cup venue that’s home to UFO sightings: ‘They’re objects that don’t have an explanation’ - The Athletic",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQUxkRXR1alFFMlFGU3JETFdxRmdsVS1ueUVHcHFoaUJrX3Utd3BYbjdzaVJCVGR4LUgweUxJNW9TY2NUV2lseVdXbTNXdy13VXdBUDZka2hvcWp6VzU5Rm9PNF9TQkpTWGdlU3dHOHJsLXFfeWplTjB2aXY5N05RTm1jNHNSbS1BM3NMQlIxUFJpYTRVZUlV?oc=5",
-      "date": "2026-06-17",
-      "publishedAt": "2026-06-13T07:00:00Z",
-      "summary": "In February 2022, five U.S. Army service members near Cheyenne, Colorado, observed a translucent, milky, potato‑shaped object that shimmered and had irregular, fish‑scale‑like panels that shifted in slow waves before vanishing after about two minutes; the witness reported it cloaked quickly and cast no shadow. A Department of Defense report attributes the sighting to possible backscattering of sunlight from the sun over the mountain, offering a potential natural explanation. Wyoming attorney Rich Barrett, who saw a massive noiseless device with his father in 1991, says he does not expect answers for either that event or the 2022 Army sighting, though he notes increased transparency under the Trump administration. New Jersey Army National Guard Colonel David Melendez considers the object could be an experimental U.S. craft but remains open to extraterrestrial possibilities, noting that the U.S. military may withhold details on a need‑to‑know basis and that UAP videos are often grainy. Wyoming officials, including Adjutant General Greg Porter and lawmakers, have reported no UAP incidents over state airspace, though some sightings near federal facilities have been noted; a bill to allow the governor to activate the National Guard against drone incursions was vetoed and later overridden. Eight Wyoming sheriffs confirmed reports of strange drone‑like sightings in January 2025, with the Sweetwater County Sheriff describing them as the \"new normal\" and stating that the objects have not caused harm but would be acted upon if they posed imminent danger.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 55,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "PENTAGON"
-      ],
-      "sourceQuality": 55,
-      "displayedAt": "2026-06-24T05:36:18Z"
     },
     {
       "id": "file-release-newly-released-ufo-files-allege-china-and-russia-retrieved-downed-uaps-and-attempted-to-reverse-engineer-them",
