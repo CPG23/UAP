@@ -1,138 +1,58 @@
 {
-  "timestamp": "2026-06-24T13:15:24Z",
+  "timestamp": "2026-06-25T06:40:27Z",
   "articles": [
     {
-      "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-      "source": "U.S. Department of War (.gov)",
-      "link": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-      "url": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-      "date": "2026-05-22",
-      "publishedAt": "2026-05-22T00:00:00Z",
-      "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 13,
+      "id": "uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
+      "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGNMbWhFdE5ORFR1RTc2SExWWmIxSl9KYU9RcFhNXzdwbFpHMm13OU5QaWYtR0g3aGc1ZHBEenVzTUoya1o3NHdqenFRMUlkemUwV1N6VFowd2dNbjYtN1RtcmJTMTA3SU9icy14OUZ5Z2JPNHI4NUdTYnFkSGpBY0tMREVQQQ?oc=5",
+      "date": "2026-06-22",
+      "publishedAt": "2026-06-22T07:06:05Z",
+      "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep. Eric Burlison, and Rep. Tim Burchett. Disclosure Foundation board members Professor Avi Loeb and Mike Gold spoke, with Gold noting that a poll shows 89 % of Republicans and 88 % of Democrats want more UAP information and describing UAP as a national security issue. Loeb, recently appointed by the White House to lead the UAP Science Advisory Council, said the federal government must allocate resources to analyze existing data and gather clearer new data on UAP. The forum also highlighted a 2015 Department of Defense video labeled Gimbal that shows an unexplained object, underscoring the need for further investigation. Some advisory council members are skeptical of UAP claims, indicating that belief in UAP is not universal among participants.",
+      "mentions": 3,
       "otherSources": [
         {
-          "title": "US releases second batch of government declassified UFO files",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMEZIN3BIS05fV1F2TWRFSlNwUmdNcERRcENHcHp6VGsxZ3h1NDM3N09vR21LZTl5ZWplX19rSTA4blRXYi1nVGRzUHMyMXNidWxhdUVZM3hoVWF1UWNJUUpEZmpwSTd5ZGlpSEhmR0p0dDdVZU8zY0tINXEwZ3R0cjNfejAyQ2dPb0RneGJjYWVOQ0trbHI2VWp3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMEZIN3BIS05fV1F2TWRFSlNwUmdNcERRcENHcHp6VGsxZ3h1NDM3N09vR21LZTl5ZWplX19rSTA4blRXYi1nVGRzUHMyMXNidWxhdUVZM3hoVWF1UWNJUUpEZmpwSTd5ZGlpSEhmR0p0dDdVZU8zY0tINXEwZ3R0cjNfejAyQ2dPb0RneGJjYWVOQ0trbHI2VWp3?oc=5",
-          "publishedAt": "2026-06-15T13:50:44Z",
-          "displayedAt": "2026-06-15T13:50:44Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files",
-          "source": "Boston 25 News",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeE5Zb2NIc1FJNmYxMk55ZzFZbEQxY2xYNVh4TzJqaGFVSDBwYnN4U1Q0cDVTZDY3SW9NLUc2WWM0eDlrbVgxU0NhZVVYTmE2R181RC1uMFdpRnI4NmRfakJCdU9jNzVwWU5EZTMzZHZ0RzhxSno2alRqUkdscEJlTkhQc2J0em9PSHJZWV84R3ZabUNJREZoaWx6aFdWQXhKN0M4THNQM241dXg3U0E?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeE5Zb2NIc1FJNmYxMk55ZzFZbEQxY2xYNVh4TzJqaGFVSDBwYnN4U1Q0cDVTZDY3SW9NLUc2WWM0eDlrbVgxU0NhZVVYTmE2R181RC1uMFdpRnI4NmRfakJCdU9jNzVwWU5EZTMzZHZ0RzhxSno2alRqUkdscEJlTkhQc2J0em9PSHJZWV84R3ZabUNJREZoaWx6aFdWQXhKN0M4THNQM241dXg3U0E?oc=5",
-          "publishedAt": "2026-06-15T12:11:37Z",
-          "rssPublishedAt": "2026-06-15T12:11:37Z",
-          "sourcePublishedAt": "2026-06-15T12:15:58Z",
-          "displayedAt": "2026-06-15T12:11:37Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR1RRd1ZTQm5xbVBhZHBydXpFc0VObHJacHpRN2ZRQkM1UEp5Rkt5dkJkNUpXREJQdVBCV3hKamt0Z21ZdnZGZ0txRHZkeER1Z1N5R2FwNlNkVllxdzJHY1BrTlpLR3UzNkhvb0dQYTZSdU45R0JDdE5KMlFVTXlPa29ETFV0WkZsb0kxSmgyZy1jUUp5WjgxTTViUGpwNklWel9Pa2p5Z3NpUQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR1RRd1ZTQm5xbVBhZHBydXpFc0VObHJacHpRN2ZRQkM1UEp5Rkt5dkJkNUpXREJQdVBCV3hKamt0Z21ZdnZGZ0txRHZkeER1Z1N5R2FwNlNkVllxdzJHY1BrTlpLR3UzNkhvb0dQYTZSdU45R0JDdE5KMlFVTXlPa29ETFV0WkZsb0kxSmgyZy1jUUp5WjgxTTViUGpwNklWel9Pa2p5Z3NpUQ?oc=5",
-          "publishedAt": "2026-06-15T07:00:00Z",
-          "displayedAt": "2026-06-15T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files",
-          "source": "MSN",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRXdlbjBTU2VFTDBMdmZ6ZEx0ckdvdUJ2cERxYUdyWERLaVhXVVo2aEtkNnhnS0poQUUxUVpJRkJZLWp2dldpRDg2VnotMFJHb1lNbTlDR0ZLdDZsZ1pQWUJSbldjS0RNU0haUVZfSVhlNDRZXzczU09MSUtuZ0VRLTdwUUhDZUdKUG1MT3l5RHdiUE5fdjRHYlkyTHV2enU4T3M3dUpmOA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRXdlbjBTU2VFTDBMdmZ6ZEx0ckdvdUJ2cERxYUdyWERLaVhXVVo2aEtkNnhnS0poQUUxUVpJRkJZLWp2dldpRDg2VnotMFJHb1lNbTlDR0ZLdDZsZ1pQWUJSbldjS0RNU0haUVZfSVhlNDRZXzczU09MSUtuZ0VRLTdwUUhDZUdKUG1MT3l5RHdiUE5fdjRHYlkyTHV2enU4T3M3dUpmOA?oc=5",
-          "publishedAt": "2026-06-15T07:00:00Z",
-          "displayedAt": "2026-06-15T07:00:00Z"
-        },
-        {
-          "title": "The Pentagon Just Released Its Third Batch of UAP Files—What Have We Learned from the PURSUE Releases So Far?",
-          "source": "The Debrief",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOS2gwSXZRdEoxWXVtTTFNbXZBWFpBSFU5djlFTElhTS1xYy1qdHZXTG1wdzJHT3BDa0pic3pWaDJqOXM5ZFQ5TXBZUVhxdkR4ek82Xzg2YTNtZmdCOXp5NjdEQjRKY0RKVC16RU5uU3FHLWx5RjBmdUdCaXh3NHEtdVJMQzdSNC1GTWdhTDEyZ3VIZUlYenF2U09NeGwzdVpLakM5UENEZnBvRUdWRE56ZW9YTlVyYWRDbXUyM3Z5MnFOblhqUjlBdkRpOE0?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOS2gwSXZRdEoxWXVtTTFNbXZBWFpBSFU5djlFTElhTS1xYy1qdHZXTG1wdzJHT3BDa0pic3pWaDJqOXM5ZFQ5TXBZUVhxdkR4ek82Xzg2YTNtZmdCOXp5NjdEQjRKY0RKVC16RU5uU3FHLWx5RjBmdUdCaXh3NHEtdVJMQzdSNC1GTWdhTDEyZ3VIZUlYenF2U09NeGwzdVpLakM5UENEZnBvRUdWRE56ZW9YTlVyYWRDbXUyM3Z5MnFOblhqUjlBdkRpOE0?oc=5",
-          "publishedAt": "2026-06-14T19:08:07Z",
-          "rssPublishedAt": "2026-06-14T19:08:07Z",
-          "sourcePublishedAt": "2026-06-14T19:08:07Z",
-          "displayedAt": "2026-06-14T19:08:07Z"
-        },
-        {
-          "title": "Pentagon releases new batch of declassified UFO files",
-          "source": "LiveNOW from FOX",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "New videos from Pentagon’s second batch of UFO files",
+          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGlaZ3FUeWZqYzlJNHAxbnFpelNmWmZrcEhucEZueTFuWU40ektCejNQUTJ5X3dWRzJCUXFaODhJVWI2cmhnSU9yQ2tBQ3ZNdTN1REtYY0k0WmJIZ1VqVnNqQl9hbjhsNzBmLXU1OWIyRnpvUWh4QjFORFhfWUdUMUVmZzVUU1V5aGc2edIBkgFBVV95cUxNSVRMU281c1FwLXVUbE5KekxmYnhEZ3BnR2kzcEpiR2RYX1QwWGotbUJ2eWtYRnlHNV9JNFBMcmNQQV9xalZMQWZGTThkVnNiNVJtcnIwS3NnTFNSTjZXcE1vNktubGFnVVI2VzdObEtzSEhWWnYxS0piemdhdFVxWF9rczljS3hBX0xYN0wyRDZndw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGlaZ3FUeWZqYzlJNHAxbnFpelNmWmZrcEhucEZueTFuWU40ektCejNQUTJ5X3dWRzJCUXFaODhJVWI2cmhnSU9yQ2tBQ3ZNdTN1REtYY0k0WmJIZ1VqVnNqQl9hbjhsNzBmLXU1OWIyRnpvUWh4QjFORFhfWUdUMUVmZzVUU1V5aGc2edIBkgFBVV95cUxNSVRMU281c1FwLXVUbE5KekxmYnhEZ3BnR2kzcEpiR2RYX1QwWGotbUJ2eWtYRnlHNV9JNFBMcmNQQV9xalZMQWZGTThkVnNiNVJtcnIwS3NnTFNSTjZXcE1vNktubGFnVVI2VzdObEtzSEhWWnYxS0piemdhdFVxWF9rczljS3hBX0xYN0wyRDZndw?oc=5",
           "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
+          "publishedAt": "2026-06-22T07:06:05Z",
+          "displayedAt": "2026-06-22T07:06:05Z"
         },
         {
-          "title": "Pentagon releases new batch of UFO files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Highlights From 2nd Batch of Declassified UFO Files",
-          "source": "NTD News",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "What does the second batch of UFO files tell us?",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
-          "source": "Fox News",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
-          "publishedAt": "2026-05-19T07:00:00Z",
-          "rssPublishedAt": "2026-05-19T07:00:00Z",
-          "sourcePublishedAt": "2026-05-19T16:30:23Z",
-          "displayedAt": "2026-05-19T07:00:00Z"
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ncG96ZFQ2a3JMZ1hWV21wdnpYOE1GLVc1bVFTY0NuSWVEbGM3TlFGZ1FaOURseklwU1VERlpmNUJMckdOM2NHYW1hajNlMVFoWHk5T2ROZ3dRSUwtM0ZDYzhJLV9NcTVuNXMtRld5UlJwVHVwemlIQ2tObzFsQQ?oc=5",
+          "title": "UFO experts, lawmakers to speak at Disclosure Forum 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "sourcePublishedAt": "2026-06-24T15:00:28Z",
+          "displayedAt": "2026-06-25T06:40:27Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
-        "US releases second batch of government declassified UFO files",
-        "Pentagon releases new batch of UFO files",
-        "Pentagon releases new batch of UFO files",
-        "Pentagon releases new batch of UFO files",
-        "Pentagon releases new batch of UFO files",
-        "The Pentagon Just Released Its Third Batch of UAP Files—What Have We Learned from the PURSUE Releases So Far?",
-        "Pentagon releases new batch of declassified UFO files",
-        "New videos from Pentagon’s second batch of UFO files",
-        "Pentagon releases new batch of UFO files",
-        "Highlights From 2nd Batch of Declassified UFO Files"
+        "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
+        "UFO experts, lawmakers to speak at Disclosure Forum 2026 | JUSTICE - IUSTITIA.BG 2025"
       ],
-      "quality": 100,
+      "quality": 75,
       "qualityBreakdown": [
         {
           "label": "Basis",
           "points": 27,
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
           "label": "Quelle",
@@ -142,37 +62,44 @@
         {
           "label": "Starker Titel",
           "points": 13,
-          "text": "Der Titel enthaelt einen klaren UAP/UFO-Bezug."
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
         },
         {
           "label": "Mehrere Quellen",
-          "points": 60,
-          "text": "13 Quellen im aktuellen Feed."
+          "points": 10,
+          "text": "3 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "files",
-        "released"
+        "DISCLOSURE"
       ],
-      "sourceQuality": 100,
-      "displayedAt": "2026-06-21T07:13:09Z",
-      "sourceDisplayedAt": "2026-06-24T13:15:24Z",
-      "retainedFromPreviousScan": true,
+      "sourceQuality": 75,
+      "displayedAt": "2026-06-25T06:40:27Z",
       "translation": {
         "en": {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep.",
+          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
           "provider": "original"
         },
         "de": {
-          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+          "title": "Im UAP-Forum wird die Öffentlichkeit von Gesetzgebern und Whistleblowern zur Offenlegung 2026 hören | GERECHTIGKEIT - IUSTITIA.BG 2025",
+          "summary": "Das Disclosure Forum 2026, das am Donnerstag in Washington, D.C. stattfand, brachte fast zwei Dutzend Gesetzgeber, ehemalige Geheimdienstmitarbeiter, Forscher und Whistleblower zusammen, um über die Offenlegung von UAP zu diskutieren. In den Podiumsdiskussionen und Rundtischgesprächen unter dem Motto „Die Menschheit am Rande der Entdeckung“ ging es um Fragen zu Sicherheit, Verteidigung und Politik. Redner waren unter anderem Senatorin Kirsten Gillibrand, Rep.",
+          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
           "provider": "google"
         }
-      }
+      },
+      "rssPublishedAt": "2026-06-22T07:06:05Z",
+      "rssDate": "2026-06-22",
+      "sourcePublishedAt": "2026-06-22T03:49:10Z",
+      "sourceDisplayedAt": "2026-06-24T05:36:18Z",
+      "sourceIsNew": true
     },
     {
       "id": "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press",
@@ -289,8 +216,7 @@
           "publishedAt": "2026-06-14T07:47:38Z",
           "rssPublishedAt": "2026-06-14T07:47:38Z",
           "sourcePublishedAt": "2026-06-13T23:36:41Z",
-          "displayedAt": "2026-06-23T11:45:51Z",
-          "isNew": true
+          "displayedAt": "2026-06-14T07:47:38Z"
         },
         {
           "title": "BBC Essex News: Does the UK have a blind spot on UFO sightings?",
@@ -300,8 +226,7 @@
           "publishedAt": "2026-06-14T07:00:00Z",
           "rssPublishedAt": "2026-06-14T07:00:00Z",
           "sourcePublishedAt": "2026-06-13T23:36:41Z",
-          "displayedAt": "2026-06-23T11:45:51Z",
-          "isNew": true
+          "displayedAt": "2026-06-14T07:00:00Z"
         }
       ],
       "clusterTitles": [
@@ -351,7 +276,6 @@
       "rssDate": "2026-06-13",
       "sourcePublishedAt": "2026-06-13T23:36:41Z",
       "sourceDisplayedAt": "2026-06-23T11:45:51Z",
-      "sourceIsNew": true,
       "translation": {
         "en": {
           "title": "Does the UK have a blind spot on UFO sightings?",
@@ -439,83 +363,31 @@
       "sourceDisplayedAt": "2026-06-14T12:59:51Z"
     },
     {
-      "id": "whistleblower-accuses-intelligence-agencies-of-hiding-uap-spending",
-      "title": "Whistleblower Accuses Intelligence Agencies of Hiding UAP Spending",
-      "source": "HarianBasis.co",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVlZvOEdHV01DYTV4TEZkRl9BaDQ3UGlGdlU1MmZEbzJNTGlfeEdBdm9tZ2RlYTVpVXA1eldBbmlNR24xelVTeWZwVmc0UDBRS1BXenpVaENpTFlhV2VyVkNMdFMzS0VrSHhrNTNHazRobUV4NWxLVndYNnFyNGg2anRBdw?oc=5",
-      "date": "2026-06-10",
-      "publishedAt": "2026-06-10T16:57:58Z",
+      "id": "file-release-mystery-orb-videos-other-ufo-records-released-by-white-house",
+      "title": "Mystery orb videos, other UFO records released by White House",
+      "source": "Axios",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DYklfUUZpQ1lOVXpIQ1FEanI0YTN3ajZKaUFhQkp3TTZ5bFFzTlp2bkVOY0t3VGtCX01GQzBHd1ljVXhTekVNNzZvVURpbVkyTGZVcGxfc3FpZ3hHbS1GU1FSaXE4UlE?oc=5",
+      "date": "2026-06-13",
+      "publishedAt": "2026-06-12T07:00:00Z",
       "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 80,
-      "qualityBreakdown": [
+      "mentions": 2,
+      "otherSources": [
         {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "CONGRESS, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "CONGRESS, WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+          "title": "Highlights from the most recent batch of UFO files",
+          "source": "CBS News",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRUdHNVdQY2UySHpON0c4MXVEOXZJenhHQkgzc0h2bUFHSEY1Ujc3Mzgxel95OWNiTldvVEpLYVVnR055TlE5cTRkUzFoRUxwUFpCSGFQTDBsYlE4NjU3ZlBhZ2prY3ROUGozZWlGQmJOck0ycDNpUFVMWE5HUFNzM21IMm84dGpa?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRUdHNVdQY2UySHpON0c4MXVEOXZJenhHQkgzc0h2bUFHSEY1Ujc3Mzgxel95OWNiTldvVEpLYVVnR055TlE5cTRkUzFoRUxwUFpCSGFQTDBsYlE4NjU3ZlBhZ2prY3ROUGozZWlGQmJOck0ycDNpUFVMWE5HUFNzM21IMm84dGpa?oc=5",
+          "publishedAt": "2026-06-13T07:00:00Z",
+          "rssPublishedAt": "2026-06-13T07:00:00Z",
+          "sourcePublishedAt": "2026-06-13T14:17:01Z",
+          "displayedAt": "2026-06-24T13:15:24Z",
+          "isNew": true
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "whistleblower"
+      "clusterTitles": [
+        "Highlights from the most recent batch of UFO files"
       ],
-      "sourceQuality": 80,
-      "displayedAt": "2026-06-11T13:36:20Z",
-      "sourceDisplayedAt": "2026-06-11T13:36:20Z",
-      "retainedFromPreviousScan": true,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      }
-    },
-    {
-      "id": "uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
-      "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGNMbWhFdE5ORFR1RTc2SExWWmIxSl9KYU9RcFhNXzdwbFpHMm13OU5QaWYtR0g3aGc1ZHBEenVzTUoya1o3NHdqenFRMUlkemUwV1N6VFowd2dNbjYtN1RtcmJTMTA3SU9icy14OUZ5Z2JPNHI4NUdTYnFkSGpBY0tMREVQQQ?oc=5",
-      "date": "2026-06-22",
-      "publishedAt": "2026-06-22T07:06:05Z",
-      "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep. Eric Burlison, and Rep. Tim Burchett. Disclosure Foundation board members Professor Avi Loeb and Mike Gold spoke, with Gold noting that a poll shows 89 % of Republicans and 88 % of Democrats want more UAP information and describing UAP as a national security issue. Loeb, recently appointed by the White House to lead the UAP Science Advisory Council, said the federal government must allocate resources to analyze existing data and gather clearer new data on UAP. The forum also highlighted a 2015 Department of Defense video labeled Gimbal that shows an unexplained object, underscoring the need for further investigation. Some advisory council members are skeptical of UAP claims, indicating that belief in UAP is not universal among participants.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 65,
+      "quality": 59,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -525,12 +397,7 @@
         {
           "label": "Begriffe",
           "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
+          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Titel",
@@ -548,33 +415,21 @@
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
         },
         {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "DISCLOSURE"
+        "SIGHTINGS"
       ],
-      "sourceQuality": 65,
-      "displayedAt": "2026-06-24T05:36:18Z",
-      "translation": {
-        "en": {
-          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep.",
-          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Im UAP-Forum wird die Öffentlichkeit von Gesetzgebern und Whistleblowern zur Offenlegung 2026 hören | GERECHTIGKEIT - IUSTITIA.BG 2025",
-          "summary": "Das Disclosure Forum 2026, das am Donnerstag in Washington, D.C. stattfand, brachte fast zwei Dutzend Gesetzgeber, ehemalige Geheimdienstmitarbeiter, Forscher und Whistleblower zusammen, um über die Offenlegung von UAP zu diskutieren. In den Podiumsdiskussionen und Rundtischgesprächen unter dem Motto „Die Menschheit am Rande der Entdeckung“ ging es um Fragen zu Sicherheit, Verteidigung und Politik. Redner waren unter anderem Senatorin Kirsten Gillibrand, Rep.",
-          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
-          "provider": "google"
-        }
+      "sourceQuality": 59,
+      "displayedAt": "2026-06-12T07:00:00Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing"
       },
-      "sourceDisplayedAt": "2026-06-24T05:36:18Z",
-      "sourceIsNew": true
+      "sourceDisplayedAt": "2026-06-24T13:15:24Z"
     },
     {
       "id": "cosmic-council-trump-creates-ufo-panel-to-be-advised-by-harvard-s-avi-loeb",
@@ -721,17 +576,17 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "highlights-from-the-most-recent-batch-of-ufo-files",
-      "title": "Highlights from the most recent batch of UFO files",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRUdHNVdQY2UySHpON0c4MXVEOXZJenhHQkgzc0h2bUFHSEY1Ujc3Mzgxel95OWNiTldvVEpLYVVnR055TlE5cTRkUzFoRUxwUFpCSGFQTDBsYlE4NjU3ZlBhZ2prY3ROUGozZWlGQmJOck0ycDNpUFVMWE5HUFNzM21IMm84dGpa?oc=5",
-      "date": "2026-06-17",
-      "publishedAt": "2026-06-13T07:00:00Z",
-      "summary": "The Pentagon released a third batch of UFO files on Friday. This release is part of the Trump administration’s ongoing wave of disclosures. The files were made public by the Pentagon as part of this series of releases.",
+      "id": "film-disclosure-day-2026-box-office-performance-crashes-like-a-ufo-in-roswell",
+      "title": "Disclosure Day (2026) Box Office performance crashes like a UFO in Roswell",
+      "source": "Scified",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVDlUbXVwd2k3ZXV3b2Ruc2s5LUhRa1piczBWam9WcU5KODNxZFQ4ZUs3a0VPSXR3b1RFZmRNaHkyUGlnbEpCbjh4dTM3MnUyem9OZThnMEJSSkd5Y1JjNDl2M25tb1Y2QkF0WVVEdF94Z1VINWE2NHdsN0dqQUJWZ2ZDajZWUElKdDdVWXBnTEFJcXhPeERV?oc=5",
+      "date": "2026-06-24",
+      "publishedAt": "2026-06-24T13:15:39Z",
+      "summary": "Steven Spielberg's alien invasion film \"Disclosure Day\" opened in theaters on June 12, 2026. After just under two weeks, the movie has earned $162.7 million worldwide, with only $80.8 million coming from North America. The film's revenue fell 62 % in its second weekend, and its $115 million production cost means it would need about $280 million at the box office to break even. Because of the weak performance, Universal may pull the film from theatrical rotation if the trend continues, while the studio plans to accelerate online and digital releases. The movie stars Emily Blunt and is still currently playing in theaters, encouraging viewers to book tickets before it potentially closes.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 55,
+      "quality": 56,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -741,12 +596,12 @@
         {
           "label": "Begriffe",
           "points": 3,
-          "text": "PENTAGON als relevante Themenbegriffe erkannt."
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
           "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
@@ -759,93 +614,36 @@
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
         },
         {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "PENTAGON"
+        "DISCLOSURE"
       ],
-      "sourceQuality": 55,
-      "displayedAt": "2026-06-24T13:15:24Z",
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "rssPublishedAt": "2026-06-13T07:00:00Z",
-      "rssDate": "2026-06-17",
-      "sourcePublishedAt": "2026-06-13T14:17:01Z",
-      "sourceDisplayedAt": "2026-06-24T13:15:24Z",
+      "sourceQuality": 56,
+      "displayedAt": "2026-06-25T06:40:27Z",
+      "rssPublishedAt": "2026-06-24T13:15:39Z",
+      "rssDate": "2026-06-24",
+      "sourcePublishedAt": "2026-06-24T13:15:39Z",
+      "sourceDisplayedAt": "2026-06-25T06:40:27Z",
       "sourceIsNew": true,
       "translation": {
         "en": {
-          "title": "Highlights from the most recent batch of UFO files",
-          "summary": "The Pentagon released a third batch of UFO files on Friday. This release is part of the Trump administration’s ongoing wave of disclosures. The files were made public by the Pentagon as part of this series of releases.",
-          "sourceHash": "586cac7cd560d103b6b278f133cb322eed108d9e",
+          "title": "Disclosure Day (2026) Box Office performance crashes like a UFO in Roswell",
+          "summary": "Steven Spielberg's alien invasion film \"Disclosure Day\" opened in theaters on June 12, 2026. After just under two weeks, the movie has earned $162.7 million worldwide, with only $80.8 million coming from North America. The film's revenue fell 62 % in its second weekend, and its $115 million production cost means it would need about $280 million at the box office to break even.",
+          "sourceHash": "00f1c84e0fbb97b668bf349dbadbf3e095a6666e",
           "provider": "original"
         },
         "de": {
-          "title": "Highlights aus dem neuesten Stapel von UFO-Dateien",
-          "summary": "Das Pentagon hat am Freitag einen dritten Stapel UFO-Dateien veröffentlicht. Diese Veröffentlichung ist Teil der anhaltenden Enthüllungswelle der Trump-Regierung. Die Dateien wurden vom Pentagon im Rahmen dieser Veröffentlichungsserie veröffentlicht.",
-          "sourceHash": "586cac7cd560d103b6b278f133cb322eed108d9e",
+          "title": "Disclosure Day (2026) Die Vorstellung an den Kinokassen stürzt wie ein UFO in Roswell ab",
+          "summary": "Steven Spielbergs Alien-Invasionsfilm „Disclosure Day“ startete am 12. Juni 2026 in den Kinos. Nach knapp zwei Wochen hat der Film weltweit 162,7 Millionen US-Dollar eingespielt, davon kamen nur 80,8 Millionen US-Dollar aus Nordamerika. Die Einnahmen des Films gingen am zweiten Wochenende um 62 % zurück, und die Produktionskosten von 115 Millionen US-Dollar bedeuten, dass an den Kinokassen etwa 280 Millionen US-Dollar nötig wären, um die Gewinnschwelle zu erreichen.",
+          "sourceHash": "00f1c84e0fbb97b668bf349dbadbf3e095a6666e",
           "provider": "google"
         }
       }
-    },
-    {
-      "id": "file-release-mystery-orb-videos-other-ufo-records-released-by-white-house",
-      "title": "Mystery orb videos, other UFO records released by White House",
-      "source": "Axios",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DYklfUUZpQ1lOVXpIQ1FEanI0YTN3ajZKaUFhQkp3TTZ5bFFzTlp2bkVOY0t3VGtCX01GQzBHd1ljVXhTekVNNzZvVURpbVkyTGZVcGxfc3FpZ3hHbS1GU1FSaXE4UlE?oc=5",
-      "date": "2026-06-17",
-      "publishedAt": "2026-06-12T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 55,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "PENTAGON"
-      ],
-      "sourceQuality": 55,
-      "displayedAt": "2026-06-12T07:00:00Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceDisplayedAt": "2026-06-24T13:15:24Z"
     },
     {
       "id": "file-release-newly-released-ufo-files-allege-china-and-russia-retrieved-downed-uaps-and-attempted-to-reverse-engineer-them",
@@ -896,42 +694,47 @@
     }
   ],
   "summaries": {
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-    "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion Posted Jun 12, 2026 08:01:58 AM. LOS ANGELES (AP) — In “Disclosure Day,” out Friday, Steven Spielberg is once again inviting audiences to ponder the existence of extraterrestrial life — and the implications it would have for religion on Earth. But Spielberg is hardly the only one making headlines of late about UFOs and the possibility of life on other planets. What was once considered fringe or conspiratorial has in recent months popped up everywhere from the White House to the Catholic Church, as public fascination with unidentified anomalous phenomena — or UAPs, as the government calls them — becomes more mainstream.",
     "uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep. Eric Burlison, and Rep. Tim Burchett. Disclosure Foundation board members Professor Avi Loeb and Mike Gold spoke, with Gold noting that a poll shows 89 % of Republicans and 88 % of Democrats want more UAP information and describing UAP as a national security issue. Loeb, recently appointed by the White House to lead the UAP Science Advisory Council, said the federal government must allocate resources to analyze existing data and gather clearer new data on UAP. The forum also highlighted a 2015 Department of Defense video labeled Gimbal that shows an unexplained object, underscoring the need for further investigation. Some advisory council members are skeptical of UAP claims, indicating that belief in UAP is not universal among participants.",
+    "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion Posted Jun 12, 2026 08:01:58 AM. LOS ANGELES (AP) — In “Disclosure Day,” out Friday, Steven Spielberg is once again inviting audiences to ponder the existence of extraterrestrial life — and the implications it would have for religion on Earth. But Spielberg is hardly the only one making headlines of late about UFOs and the possibility of life on other planets. What was once considered fringe or conspiratorial has in recent months popped up everywhere from the White House to the Catholic Church, as public fascination with unidentified anomalous phenomena — or UAPs, as the government calls them — becomes more mainstream.",
     "cosmic-council-trump-creates-ufo-panel-to-be-advised-by-harvard-s-avi-loeb": "The Trump administration has created a UAP Governance Board to address unidentified anomalous phenomena, holding its first meeting on Tuesday and aiming to improve transparency and interagency coordination. Harvard astrophysicist Avi Loeb will serve as an advisor and head the board’s UAP Science Advisory Council, bringing a scientific perspective to the investigation of UAP incidents. The board will operate without a budget, rely only on declassified information, and may help resolve cases such as the 2023 glowing mothership orb near Cheyenne Mountain, while Loeb notes that about 40 % of observed phenomena remain unexplained by known technology. Loeb has assembled a team of scientists and UFO researchers, including Michael Shermer, Gary Nolan, Kevin Knuth, Matthew Szydagis, and retired Rear Admiral Gallaudet, who has urged the government to prioritize UAP research.",
     "program-does-the-uk-have-a-blind-spot-on-ufo-sightings": "Retired pilot Chris Crowther, who logged 22,000 flying hours, reported in 1978 a fast‑moving, unidentified object that passed his light aircraft near Norwich Airport, describing a dozen dark shapes that vanished after passing his wing tip; he did not file a report. The UK has no central system for recording UFO sightings, as the Ministry of Defence closed its UFO desk in 2009, leaving pilots and the public without an official channel to report such encounters. Independent groups, such as David Jon’s SEPI Agency, argue that about 20 % of the 32 cases they investigate remain unexplained and call for a government‑run reporting office, while the MoD maintains that no sightings pose a direct military threat. High‑profile incidents like the 1980 Rendlesham Forest event and recent drone‑related investigations have prompted official reviews, but the MoD and Civil Aviation Authority say there is no active monitoring of UAPs and advise reporting safety concerns through existing channels. With no formal reporting structure, many sightings risk going unrecorded, leaving the phenomenon largely unexplained and subject to speculation.",
     "program-new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery": "Investigative journalist Ross Coulthart said a skeptic on the new UAP Science Advisory Council could help the panel, but he worries that Michael Shermer, founder of The Skeptics Society, may be too biased against the topic. Coulthart cited Shermer’s pejorative remarks about whistleblower David Grusch, who claims the government has a secret program to retrieve alien technology, and said he prefers skeptics who are not debunkers. Shermer, who was named to the council, replied that he generally tries to be non‑disparaging and that Grusch deflects when asked for evidence, saying details are classified. The council, which also includes Harvard physicist Avi Loeb, will advise the federal government on how to collect better data on unidentified anomalous phenomena and assess potential national‑security threats. Shermer said most UFO sightings are explainable, wants detailed data to analyze, and believes it is unlikely that extraterrestrials have visited Earth, while offering to join Coulthart on a podcast for a thoughtful conversation.",
-    "highlights-from-the-most-recent-batch-of-ufo-files": "The Pentagon released a third batch of UFO files on Friday. This release is part of the Trump administration’s ongoing wave of disclosures. The files were made public by the Pentagon as part of this series of releases.",
+    "film-disclosure-day-2026-box-office-performance-crashes-like-a-ufo-in-roswell": "Steven Spielberg's alien invasion film \"Disclosure Day\" opened in theaters on June 12, 2026. After just under two weeks, the movie has earned $162.7 million worldwide, with only $80.8 million coming from North America. The film's revenue fell 62 % in its second weekend, and its $115 million production cost means it would need about $280 million at the box office to break even. Because of the weak performance, Universal may pull the film from theatrical rotation if the trend continues, while the studio plans to accelerate online and digital releases. The movie stars Emily Blunt and is still currently playing in theaters, encouraging viewers to book tickets before it potentially closes.",
     "file-release-newly-released-ufo-files-allege-china-and-russia-retrieved-downed-uaps-and-attempted-to-reverse-engineer-them": "Newly released UFO files made public on June 12 allege that China and Russia have retrieved downed UAPs and attempted to reverse‑engineer them. Jordan Flowers, executive director of the UAP Disclosure Foundation, said the files show foreign adversaries are engaged in research that could threaten U.S. national security. Flowers cited whistleblower David Grusch, who warned that the U.S. is aware of Russian and Chinese surveillance of its UAP programs and that a global race to reverse‑engineer the objects has extreme national‑security implications. The UAP Disclosure Foundation announced a forum in Washington, D.C., on June 25 to discuss the national‑security, technological, and religious implications of UAP disclosure. A CIA cable from July 2, 2008 placed U.S. assets in Zimbabwe on high alert after a UFO hovered over Harare airport, with beams and rotating lights, sparking debate over whether the craft was a foreign reconnaissance device or an extraterrestrial object."
   },
   "notificationBatch": {
-    "timestamp": "2026-06-24T13:15:24Z",
+    "timestamp": "2026-06-25T06:40:27Z",
     "ids": [
-      "highlights-from-the-most-recent-batch-of-ufo-files"
+      "uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
+      "film-disclosure-day-2026-box-office-performance-crashes-like-a-ufo-in-roswell"
     ],
     "articles": [
       {
-        "id": "highlights-from-the-most-recent-batch-of-ufo-files",
-        "title": "Highlights from the most recent batch of UFO files",
-        "source": "CBS News"
+        "id": "uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
+        "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
+        "source": "iustitia.bg"
+      },
+      {
+        "id": "film-disclosure-day-2026-box-office-performance-crashes-like-a-ufo-in-roswell",
+        "title": "Disclosure Day (2026) Box Office performance crashes like a UFO in Roswell",
+        "source": "Scified"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 351,
-    "broadTopics": 149,
-    "notificationArticles": 0,
-    "notificationTopics": 0,
-    "newNotificationTopics": 0,
-    "appTopics": 11,
+    "broadArticles": 353,
+    "broadTopics": 156,
+    "notificationArticles": 3,
+    "notificationTopics": 3,
+    "newNotificationTopics": 3,
+    "appTopics": 9,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 4,
+    "regroupedTopics": 5,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -939,22 +742,16 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 3,
-      "repaired": 2,
+      "attempts": 1,
+      "repaired": 0,
       "fallbackRepaired": 0,
       "missing": 1
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 11,
-      "missing": 3,
+      "kept": 9,
+      "missing": 2,
       "missingItems": [
-        {
-          "id": "whistleblower-accuses-intelligence-agencies-of-hiding-uap-spending",
-          "title": "Whistleblower Accuses Intelligence Agencies of Hiding UAP Spending",
-          "source": "HarianBasis.co",
-          "reason": "missing_or_mismatched_article_content_summary"
-        },
         {
           "id": "uap-whistleblower-says-he-s-paid-a-severe-price-since-coming-forward",
           "title": "UAP whistleblower says he’s paid a 'severe price' since coming forward",
@@ -973,73 +770,54 @@
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
       "inputArticles": 7,
       "outputArticles": 6,
-      "preservedSourceSummaries": 3
+      "preservedSourceSummaries": 4
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
       "inputArticles": 6,
       "outputArticles": 6,
-      "missingSummaries": 3,
+      "missingSummaries": 2,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
       "notification": "new_visible_topics_or_new_sources_inside_visible_topics"
     },
-    "sightingFileReleaseSeparation": {
-      "policy": "keep_sighting_reports_separate_from_document_file_releases_v2_clear_stale_summary_quality",
-      "updatedArticles": 1
-    },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
-      "updatedArticles": 3,
-      "clearedTranslations": 3,
+      "updatedArticles": 2,
+      "clearedTranslations": 2,
       "reorderedBySourceCount": true
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
       "updatedTopics": 1,
-      "addedSources": 18,
+      "addedSources": 0,
       "maxSourcesPerArticle": 18
-    },
-    "fileReleaseConsolidation": {
-      "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
-      "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 14,
-      "cleanedArticles": 1,
-      "removedDuplicateTopics": 0,
-      "staleSummariesCleared": 0,
-      "rejectedArticleSources": 0,
-      "promotedPrimaryFromSource": true
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 7,
-      "outputArticles": 7,
+      "inputArticles": 6,
+      "outputArticles": 6,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
-    "warReleaseSummaryGuard": {
-      "policy": "department_of_war_pursue_release_summary_from_release_page_v4_second_batch_clusters",
-      "updatedArticles": 1
-    },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 7,
+      "inputArticles": 6,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 9,
-      "currentBeforeRestore": 7,
-      "restoredArticles": 4,
+      "archiveCandidates": 11,
+      "currentBeforeRestore": 6,
+      "restoredArticles": 3,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
         "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion - Associated Press",
-        "Whistleblower Accuses Intelligence Agencies of Hiding UAP Spending",
         "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
         "New science advisory council forms to help US government ‘resolve the UAP mystery’"
       ]
@@ -1049,46 +827,46 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 11
+      "articlesRefreshed": 9
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 28,
+      "checkedSources": 17,
       "updatedSources": 7,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 11,
-      "newSources": 5
+      "updatedTopics": 9,
+      "newSources": 4
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 10,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 7,
+      "newTopics": 2,
+      "topicsWithNewSources": 2
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
-      "correctedOldSourceMarkers": 2,
+      "notifications": 2,
+      "freshSources": 2,
+      "correctedOldSourceMarkers": 1,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 33
+      "seededSeenFromPreviousFeed": 35
     }
   },
   "translations": {
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
+    "uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025": {
       "en": {
-        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+        "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
+        "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep.",
+        "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
         "provider": "original"
       },
       "de": {
-        "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+        "title": "Im UAP-Forum wird die Öffentlichkeit von Gesetzgebern und Whistleblowern zur Offenlegung 2026 hören | GERECHTIGKEIT - IUSTITIA.BG 2025",
+        "summary": "Das Disclosure Forum 2026, das am Donnerstag in Washington, D.C. stattfand, brachte fast zwei Dutzend Gesetzgeber, ehemalige Geheimdienstmitarbeiter, Forscher und Whistleblower zusammen, um über die Offenlegung von UAP zu diskutieren. In den Podiumsdiskussionen und Rundtischgesprächen unter dem Motto „Die Menschheit am Rande der Entdeckung“ ging es um Fragen zu Sicherheit, Verteidigung und Politik. Redner waren unter anderem Senatorin Kirsten Gillibrand, Rep.",
+        "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
         "provider": "google"
       }
     },
@@ -1120,20 +898,6 @@
         "provider": "google"
       }
     },
-    "uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025": {
-      "en": {
-        "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep.",
-        "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Im UAP-Forum wird die Öffentlichkeit von Gesetzgebern und Whistleblowern zur Offenlegung 2026 hören | GERECHTIGKEIT - IUSTITIA.BG 2025",
-        "summary": "Das Disclosure Forum 2026, das am Donnerstag in Washington, D.C. stattfand, brachte fast zwei Dutzend Gesetzgeber, ehemalige Geheimdienstmitarbeiter, Forscher und Whistleblower zusammen, um über die Offenlegung von UAP zu diskutieren. In den Podiumsdiskussionen und Rundtischgesprächen unter dem Motto „Die Menschheit am Rande der Entdeckung“ ging es um Fragen zu Sicherheit, Verteidigung und Politik. Redner waren unter anderem Senatorin Kirsten Gillibrand, Rep.",
-        "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
-        "provider": "google"
-      }
-    },
     "cosmic-council-trump-creates-ufo-panel-to-be-advised-by-harvard-s-avi-loeb": {
       "en": {
         "title": "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
@@ -1162,17 +926,17 @@
         "provider": "google"
       }
     },
-    "highlights-from-the-most-recent-batch-of-ufo-files": {
+    "film-disclosure-day-2026-box-office-performance-crashes-like-a-ufo-in-roswell": {
       "en": {
-        "title": "Highlights from the most recent batch of UFO files",
-        "summary": "The Pentagon released a third batch of UFO files on Friday. This release is part of the Trump administration’s ongoing wave of disclosures. The files were made public by the Pentagon as part of this series of releases.",
-        "sourceHash": "586cac7cd560d103b6b278f133cb322eed108d9e",
+        "title": "Disclosure Day (2026) Box Office performance crashes like a UFO in Roswell",
+        "summary": "Steven Spielberg's alien invasion film \"Disclosure Day\" opened in theaters on June 12, 2026. After just under two weeks, the movie has earned $162.7 million worldwide, with only $80.8 million coming from North America. The film's revenue fell 62 % in its second weekend, and its $115 million production cost means it would need about $280 million at the box office to break even.",
+        "sourceHash": "00f1c84e0fbb97b668bf349dbadbf3e095a6666e",
         "provider": "original"
       },
       "de": {
-        "title": "Highlights aus dem neuesten Stapel von UFO-Dateien",
-        "summary": "Das Pentagon hat am Freitag einen dritten Stapel UFO-Dateien veröffentlicht. Diese Veröffentlichung ist Teil der anhaltenden Enthüllungswelle der Trump-Regierung. Die Dateien wurden vom Pentagon im Rahmen dieser Veröffentlichungsserie veröffentlicht.",
-        "sourceHash": "586cac7cd560d103b6b278f133cb322eed108d9e",
+        "title": "Disclosure Day (2026) Die Vorstellung an den Kinokassen stürzt wie ein UFO in Roswell ab",
+        "summary": "Steven Spielbergs Alien-Invasionsfilm „Disclosure Day“ startete am 12. Juni 2026 in den Kinos. Nach knapp zwei Wochen hat der Film weltweit 162,7 Millionen US-Dollar eingespielt, davon kamen nur 80,8 Millionen US-Dollar aus Nordamerika. Die Einnahmen des Films gingen am zweiten Wochenende um 62 % zurück, und die Produktionskosten von 115 Millionen US-Dollar bedeuten, dass an den Kinokassen etwa 280 Millionen US-Dollar nötig wären, um die Gewinnschwelle zu erreichen.",
+        "sourceHash": "00f1c84e0fbb97b668bf349dbadbf3e095a6666e",
         "provider": "google"
       }
     },
@@ -1192,7 +956,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 8,
+    "prepared": 7,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",

@@ -1,19 +1,35 @@
 {
-  "timestamp": "2026-06-24T13:15:24Z",
+  "timestamp": "2026-06-25T06:40:27Z",
   "retentionDays": 14,
   "articles": [
     {
-      "id": "whistleblower-accuses-intelligence-agencies-of-hiding-uap-spending",
-      "title": "Whistleblower Accuses Intelligence Agencies of Hiding UAP Spending",
-      "source": "HarianBasis.co",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVlZvOEdHV01DYTV4TEZkRl9BaDQ3UGlGdlU1MmZEbzJNTGlfeEdBdm9tZ2RlYTVpVXA1eldBbmlNR24xelVTeWZwVmc0UDBRS1BXenpVaENpTFlhV2VyVkNMdFMzS0VrSHhrNTNHazRobUV4NWxLVndYNnFyNGg2anRBdw?oc=5",
-      "date": "2026-06-10",
-      "publishedAt": "2026-06-10T16:57:58Z",
-      "summary": "Warning: Target URL returned error 403: Forbidden Markdown Content: ## Incompatible browser extension or network configuration Your browser extensions or network settings have blocked the security verification process required by www. Verify if your internet or firewall settings have blocked your device from reaching “challenges. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings. If you do not have permission to adjust network settings, try connecting to a different network. If these steps do not resolve the issue, refer to Cloudflare's troubleshooting documentation for more help.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 80,
+      "id": "uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
+      "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGNMbWhFdE5ORFR1RTc2SExWWmIxSl9KYU9RcFhNXzdwbFpHMm13OU5QaWYtR0g3aGc1ZHBEenVzTUoya1o3NHdqenFRMUlkemUwV1N6VFowd2dNbjYtN1RtcmJTMTA3SU9icy14OUZ5Z2JPNHI4NUdTYnFkSGpBY0tMREVQQQ?oc=5",
+      "date": "2026-06-22",
+      "publishedAt": "2026-06-22T07:06:05Z",
+      "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep. Eric Burlison, and Rep. Tim Burchett. Disclosure Foundation board members Professor Avi Loeb and Mike Gold spoke, with Gold noting that a poll shows 89 % of Republicans and 88 % of Democrats want more UAP information and describing UAP as a national security issue. Loeb, recently appointed by the White House to lead the UAP Science Advisory Council, said the federal government must allocate resources to analyze existing data and gather clearer new data on UAP. The forum also highlighted a 2015 Department of Defense video labeled Gimbal that shows an unexplained object, underscoring the need for further investigation. Some advisory council members are skeptical of UAP claims, indicating that belief in UAP is not universal among participants.",
+      "mentions": 3,
+      "otherSources": [
+        {
+          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGlaZ3FUeWZqYzlJNHAxbnFpelNmWmZrcEhucEZueTFuWU40ektCejNQUTJ5X3dWRzJCUXFaODhJVWI2cmhnSU9yQ2tBQ3ZNdTN1REtYY0k0WmJIZ1VqVnNqQl9hbjhsNzBmLXU1OWIyRnpvUWh4QjFORFhfWUdUMUVmZzVUU1V5aGc2edIBkgFBVV95cUxNSVRMU281c1FwLXVUbE5KekxmYnhEZ3BnR2kzcEpiR2RYX1QwWGotbUJ2eWtYRnlHNV9JNFBMcmNQQV9xalZMQWZGTThkVnNiNVJtcnIwS3NnTFNSTjZXcE1vNktubGFnVVI2VzdObEtzSEhWWnYxS0piemdhdFVxWF9rczljS3hBX0xYN0wyRDZndw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGlaZ3FUeWZqYzlJNHAxbnFpelNmWmZrcEhucEZueTFuWU40ektCejNQUTJ5X3dWRzJCUXFaODhJVWI2cmhnSU9yQ2tBQ3ZNdTN1REtYY0k0WmJIZ1VqVnNqQl9hbjhsNzBmLXU1OWIyRnpvUWh4QjFORFhfWUdUMUVmZzVUU1V5aGc2edIBkgFBVV95cUxNSVRMU281c1FwLXVUbE5KekxmYnhEZ3BnR2kzcEpiR2RYX1QwWGotbUJ2eWtYRnlHNV9JNFBMcmNQQV9xalZMQWZGTThkVnNiNVJtcnIwS3NnTFNSTjZXcE1vNktubGFnVVI2VzdObEtzSEhWWnYxS0piemdhdFVxWF9rczljS3hBX0xYN0wyRDZndw?oc=5",
+          "source": "NewsNation",
+          "publishedAt": "2026-06-22T07:06:05Z"
+        },
+        {
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ncG96ZFQ2a3JMZ1hWV21wdnpYOE1GLVc1bVFTY0NuSWVEbGM3TlFGZ1FaOURseklwU1VERlpmNUJMckdOM2NHYW1hajNlMVFoWHk5T2ROZ3dRSUwtM0ZDYzhJLV9NcTVuNXMtRld5UlJwVHVwemlIQ2tObzFsQQ?oc=5",
+          "title": "UFO experts, lawmakers to speak at Disclosure Forum 2026 | JUSTICE - IUSTITIA.BG 2025"
+        }
+      ],
+      "clusterTitles": [
+        "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
+        "UFO experts, lawmakers to speak at Disclosure Forum 2026 | JUSTICE - IUSTITIA.BG 2025"
+      ],
+      "quality": 75,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -22,17 +38,17 @@
         },
         {
           "label": "Begriffe",
-          "points": 6,
-          "text": "CONGRESS, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
-          "points": 8,
-          "text": "CONGRESS, WHISTLEBLOWER als offizieller Kontext erkannt."
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
-          "points": 4,
+          "points": 2,
           "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
@@ -51,30 +67,28 @@
           "text": "Ein besonders relevantes UAP-Thema wird erkannt."
         },
         {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+          "label": "Mehrere Quellen",
+          "points": 10,
+          "text": "3 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "whistleblower"
+        "DISCLOSURE"
       ],
-      "sourceQuality": 80,
-      "displayedAt": "2026-06-11T13:36:20Z",
-      "sourceDisplayedAt": "2026-06-11T13:36:20Z",
-      "retainedFromPreviousScan": true,
+      "sourceQuality": 75,
+      "displayedAt": "2026-06-25T06:40:27Z",
       "translation": {
         "en": {
-          "title": "Whistleblower Accuses Intelligence Agencies of Hiding UAP Spending",
-          "summary": "Warning: Target URL returned error 403: Forbidden Markdown Content: ## Incompatible browser extension or network configuration Your browser extensions or network settings have blocked the security verification process required by www. Verify if your internet or firewall settings have blocked your device from reaching “challenges. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.",
-          "sourceHash": "47a650aa5667a4e50b76891b2a507459779bc7b6",
+          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep.",
+          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
           "provider": "original"
         },
         "de": {
-          "title": "Whistleblower wirft Geheimdiensten vor, UAP-Ausgaben zu verbergen",
-          "summary": "Warnung: Ziel-URL hat Fehler 403 zurückgegeben: Verbotener Markdown-Inhalt: ## Inkompatible Browsererweiterung oder Netzwerkkonfiguration Ihre Browsererweiterungen oder Netzwerkeinstellungen haben den von www geforderten Sicherheitsüberprüfungsprozess blockiert. Überprüfen Sie, ob Ihre Internet- oder Firewall-Einstellungen Ihr Gerät daran gehindert haben, „Herausforderungen“ zu erreichen. Möglicherweise müssen Sie die Hilfedokumentation Ihres Betriebssystems konsultieren oder Ihren Netzwerkadministrator um Rat zum Anpassen der Firewall-Einstellungen bitten.",
-          "sourceHash": "47a650aa5667a4e50b76891b2a507459779bc7b6",
+          "title": "Im UAP-Forum wird die Öffentlichkeit von Gesetzgebern und Whistleblowern zur Offenlegung 2026 hören | GERECHTIGKEIT - IUSTITIA.BG 2025",
+          "summary": "Das Disclosure Forum 2026, das am Donnerstag in Washington, D.C. stattfand, brachte fast zwei Dutzend Gesetzgeber, ehemalige Geheimdienstmitarbeiter, Forscher und Whistleblower zusammen, um über die Offenlegung von UAP zu diskutieren. In den Podiumsdiskussionen und Rundtischgesprächen unter dem Motto „Die Menschheit am Rande der Entdeckung“ ging es um Fragen zu Sicherheit, Verteidigung und Politik. Redner waren unter anderem Senatorin Kirsten Gillibrand, Rep.",
+          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
           "provider": "google"
         }
       }
@@ -175,76 +189,6 @@
         }
       },
       "retainedFromPreviousScan": true
-    },
-    {
-      "id": "uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
-      "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGNMbWhFdE5ORFR1RTc2SExWWmIxSl9KYU9RcFhNXzdwbFpHMm13OU5QaWYtR0g3aGc1ZHBEenVzTUoya1o3NHdqenFRMUlkemUwV1N6VFowd2dNbjYtN1RtcmJTMTA3SU9icy14OUZ5Z2JPNHI4NUdTYnFkSGpBY0tMREVQQQ?oc=5",
-      "date": "2026-06-22",
-      "publishedAt": "2026-06-22T07:06:05Z",
-      "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep. Eric Burlison, and Rep. Tim Burchett. Disclosure Foundation board members Professor Avi Loeb and Mike Gold spoke, with Gold noting that a poll shows 89 % of Republicans and 88 % of Democrats want more UAP information and describing UAP as a national security issue. Loeb, recently appointed by the White House to lead the UAP Science Advisory Council, said the federal government must allocate resources to analyze existing data and gather clearer new data on UAP. The forum also highlighted a 2015 Department of Defense video labeled Gimbal that shows an unexplained object, underscoring the need for further investigation. Some advisory council members are skeptical of UAP claims, indicating that belief in UAP is not universal among participants.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 65,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE"
-      ],
-      "sourceQuality": 65,
-      "displayedAt": "2026-06-24T05:36:18Z",
-      "translation": {
-        "en": {
-          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep.",
-          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Im UAP-Forum wird die Öffentlichkeit von Gesetzgebern und Whistleblowern zur Offenlegung 2026 hören | GERECHTIGKEIT - IUSTITIA.BG 2025",
-          "summary": "Das Disclosure Forum 2026, das am Donnerstag in Washington, D.C. stattfand, brachte fast zwei Dutzend Gesetzgeber, ehemalige Geheimdienstmitarbeiter, Forscher und Whistleblower zusammen, um über die Offenlegung von UAP zu diskutieren. In den Podiumsdiskussionen und Rundtischgesprächen unter dem Motto „Die Menschheit am Rande der Entdeckung“ ging es um Fragen zu Sicherheit, Verteidigung und Politik. Redner waren unter anderem Senatorin Kirsten Gillibrand, Rep.",
-          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
-          "provider": "google"
-        }
-      }
     },
     {
       "id": "cosmic-council-trump-creates-ufo-panel-to-be-advised-by-harvard-s-avi-loeb",
@@ -529,17 +473,17 @@
       "displayedAt": "2026-06-14T12:59:51Z"
     },
     {
-      "id": "highlights-from-the-most-recent-batch-of-ufo-files",
-      "title": "Highlights from the most recent batch of UFO files",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRUdHNVdQY2UySHpON0c4MXVEOXZJenhHQkgzc0h2bUFHSEY1Ujc3Mzgxel95OWNiTldvVEpLYVVnR055TlE5cTRkUzFoRUxwUFpCSGFQTDBsYlE4NjU3ZlBhZ2prY3ROUGozZWlGQmJOck0ycDNpUFVMWE5HUFNzM21IMm84dGpa?oc=5",
-      "date": "2026-06-17",
-      "publishedAt": "2026-06-13T07:00:00Z",
-      "summary": "",
+      "id": "film-disclosure-day-2026-box-office-performance-crashes-like-a-ufo-in-roswell",
+      "title": "Disclosure Day (2026) Box Office performance crashes like a UFO in Roswell",
+      "source": "Scified",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVDlUbXVwd2k3ZXV3b2Ruc2s5LUhRa1piczBWam9WcU5KODNxZFQ4ZUs3a0VPSXR3b1RFZmRNaHkyUGlnbEpCbjh4dTM3MnUyem9OZThnMEJSSkd5Y1JjNDl2M25tb1Y2QkF0WVVEdF94Z1VINWE2NHdsN0dqQUJWZ2ZDajZWUElKdDdVWXBnTEFJcXhPeERV?oc=5",
+      "date": "2026-06-24",
+      "publishedAt": "2026-06-24T13:15:39Z",
+      "summary": "Steven Spielberg's alien invasion film \"Disclosure Day\" opened in theaters on June 12, 2026. After just under two weeks, the movie has earned $162.7 million worldwide, with only $80.8 million coming from North America. The film's revenue fell 62 % in its second weekend, and its $115 million production cost means it would need about $280 million at the box office to break even. Because of the weak performance, Universal may pull the film from theatrical rotation if the trend continues, while the studio plans to accelerate online and digital releases. The movie stars Emily Blunt and is still currently playing in theaters, encouraging viewers to book tickets before it potentially closes.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 55,
+      "quality": 56,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -549,12 +493,12 @@
         {
           "label": "Begriffe",
           "points": 3,
-          "text": "PENTAGON als relevante Themenbegriffe erkannt."
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
           "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
@@ -567,33 +511,40 @@
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
         },
         {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "PENTAGON"
+        "DISCLOSURE"
       ],
-      "sourceQuality": 55,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "displayedAt": "2026-06-24T13:15:24Z"
+      "sourceQuality": 56,
+      "displayedAt": "2026-06-25T06:40:27Z"
     },
     {
       "id": "file-release-mystery-orb-videos-other-ufo-records-released-by-white-house",
       "title": "Mystery orb videos, other UFO records released by White House",
       "source": "Axios",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DYklfUUZpQ1lOVXpIQ1FEanI0YTN3ajZKaUFhQkp3TTZ5bFFzTlp2bkVOY0t3VGtCX01GQzBHd1ljVXhTekVNNzZvVURpbVkyTGZVcGxfc3FpZ3hHbS1GU1FSaXE4UlE?oc=5",
-      "date": "2026-06-17",
+      "date": "2026-06-13",
       "publishedAt": "2026-06-12T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 55,
+      "summary": "The Pentagon released a third batch of UFO files on Friday. This release is part of the Trump administration’s ongoing wave of disclosures. The files were made public by the Pentagon as part of this series of releases.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "Highlights from the most recent batch of UFO files",
+          "source": "CBS News",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRUdHNVdQY2UySHpON0c4MXVEOXZJenhHQkgzc0h2bUFHSEY1Ujc3Mzgxel95OWNiTldvVEpLYVVnR055TlE5cTRkUzFoRUxwUFpCSGFQTDBsYlE4NjU3ZlBhZ2prY3ROUGozZWlGQmJOck0ycDNpUFVMWE5HUFNzM21IMm84dGpa?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRUdHNVdQY2UySHpON0c4MXVEOXZJenhHQkgzc0h2bUFHSEY1Ujc3Mzgxel95OWNiTldvVEpLYVVnR055TlE5cTRkUzFoRUxwUFpCSGFQTDBsYlE4NjU3ZlBhZ2prY3ROUGozZWlGQmJOck0ycDNpUFVMWE5HUFNzM21IMm84dGpa?oc=5",
+          "publishedAt": "2026-06-13T07:00:00Z"
+        }
+      ],
+      "clusterTitles": [
+        "Highlights from the most recent batch of UFO files"
+      ],
+      "quality": 54,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -603,12 +554,7 @@
         {
           "label": "Begriffe",
           "points": 3,
-          "text": "PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
+          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Titel",
@@ -616,25 +562,36 @@
           "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "PENTAGON"
+        "SIGHTINGS"
       ],
-      "sourceQuality": 55,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "displayedAt": "2026-06-24T13:15:24Z"
+      "sourceQuality": 54,
+      "displayedAt": "2026-06-12T07:00:00Z",
+      "translation": {
+        "en": {
+          "title": "Highlights from the most recent batch of UFO files",
+          "summary": "The Pentagon released a third batch of UFO files on Friday. This release is part of the Trump administration’s ongoing wave of disclosures. The files were made public by the Pentagon as part of this series of releases.",
+          "sourceHash": "586cac7cd560d103b6b278f133cb322eed108d9e",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Highlights aus dem neuesten Stapel von UFO-Dateien",
+          "summary": "Das Pentagon hat am Freitag einen dritten Stapel UFO-Dateien veröffentlicht. Diese Veröffentlichung ist Teil der anhaltenden Enthüllungswelle der Trump-Regierung. Die Dateien wurden vom Pentagon im Rahmen dieser Veröffentlichungsserie veröffentlicht.",
+          "sourceHash": "586cac7cd560d103b6b278f133cb322eed108d9e",
+          "provider": "google"
+        }
+      }
     },
     {
       "id": "file-release-newly-released-ufo-files-allege-china-and-russia-retrieved-downed-uaps-and-attempted-to-reverse-engineer-them",
