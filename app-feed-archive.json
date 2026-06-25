@@ -1,98 +1,7 @@
 {
-  "timestamp": "2026-06-25T06:40:27Z",
+  "timestamp": "2026-06-25T13:13:43Z",
   "retentionDays": 14,
   "articles": [
-    {
-      "id": "uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
-      "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGNMbWhFdE5ORFR1RTc2SExWWmIxSl9KYU9RcFhNXzdwbFpHMm13OU5QaWYtR0g3aGc1ZHBEenVzTUoya1o3NHdqenFRMUlkemUwV1N6VFowd2dNbjYtN1RtcmJTMTA3SU9icy14OUZ5Z2JPNHI4NUdTYnFkSGpBY0tMREVQQQ?oc=5",
-      "date": "2026-06-22",
-      "publishedAt": "2026-06-22T07:06:05Z",
-      "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep. Eric Burlison, and Rep. Tim Burchett. Disclosure Foundation board members Professor Avi Loeb and Mike Gold spoke, with Gold noting that a poll shows 89 % of Republicans and 88 % of Democrats want more UAP information and describing UAP as a national security issue. Loeb, recently appointed by the White House to lead the UAP Science Advisory Council, said the federal government must allocate resources to analyze existing data and gather clearer new data on UAP. The forum also highlighted a 2015 Department of Defense video labeled Gimbal that shows an unexplained object, underscoring the need for further investigation. Some advisory council members are skeptical of UAP claims, indicating that belief in UAP is not universal among participants.",
-      "mentions": 3,
-      "otherSources": [
-        {
-          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGlaZ3FUeWZqYzlJNHAxbnFpelNmWmZrcEhucEZueTFuWU40ektCejNQUTJ5X3dWRzJCUXFaODhJVWI2cmhnSU9yQ2tBQ3ZNdTN1REtYY0k0WmJIZ1VqVnNqQl9hbjhsNzBmLXU1OWIyRnpvUWh4QjFORFhfWUdUMUVmZzVUU1V5aGc2edIBkgFBVV95cUxNSVRMU281c1FwLXVUbE5KekxmYnhEZ3BnR2kzcEpiR2RYX1QwWGotbUJ2eWtYRnlHNV9JNFBMcmNQQV9xalZMQWZGTThkVnNiNVJtcnIwS3NnTFNSTjZXcE1vNktubGFnVVI2VzdObEtzSEhWWnYxS0piemdhdFVxWF9rczljS3hBX0xYN0wyRDZndw?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGlaZ3FUeWZqYzlJNHAxbnFpelNmWmZrcEhucEZueTFuWU40ektCejNQUTJ5X3dWRzJCUXFaODhJVWI2cmhnSU9yQ2tBQ3ZNdTN1REtYY0k0WmJIZ1VqVnNqQl9hbjhsNzBmLXU1OWIyRnpvUWh4QjFORFhfWUdUMUVmZzVUU1V5aGc2edIBkgFBVV95cUxNSVRMU281c1FwLXVUbE5KekxmYnhEZ3BnR2kzcEpiR2RYX1QwWGotbUJ2eWtYRnlHNV9JNFBMcmNQQV9xalZMQWZGTThkVnNiNVJtcnIwS3NnTFNSTjZXcE1vNktubGFnVVI2VzdObEtzSEhWWnYxS0piemdhdFVxWF9rczljS3hBX0xYN0wyRDZndw?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-06-22T07:06:05Z"
-        },
-        {
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ncG96ZFQ2a3JMZ1hWV21wdnpYOE1GLVc1bVFTY0NuSWVEbGM3TlFGZ1FaOURseklwU1VERlpmNUJMckdOM2NHYW1hajNlMVFoWHk5T2ROZ3dRSUwtM0ZDYzhJLV9NcTVuNXMtRld5UlJwVHVwemlIQ2tObzFsQQ?oc=5",
-          "title": "UFO experts, lawmakers to speak at Disclosure Forum 2026 | JUSTICE - IUSTITIA.BG 2025"
-        }
-      ],
-      "clusterTitles": [
-        "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
-        "UFO experts, lawmakers to speak at Disclosure Forum 2026 | JUSTICE - IUSTITIA.BG 2025"
-      ],
-      "quality": 75,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE"
-      ],
-      "sourceQuality": 75,
-      "displayedAt": "2026-06-25T06:40:27Z",
-      "translation": {
-        "en": {
-          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep.",
-          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Im UAP-Forum wird die Öffentlichkeit von Gesetzgebern und Whistleblowern zur Offenlegung 2026 hören | GERECHTIGKEIT - IUSTITIA.BG 2025",
-          "summary": "Das Disclosure Forum 2026, das am Donnerstag in Washington, D.C. stattfand, brachte fast zwei Dutzend Gesetzgeber, ehemalige Geheimdienstmitarbeiter, Forscher und Whistleblower zusammen, um über die Offenlegung von UAP zu diskutieren. In den Podiumsdiskussionen und Rundtischgesprächen unter dem Motto „Die Menschheit am Rande der Entdeckung“ ging es um Fragen zu Sicherheit, Verteidigung und Politik. Redner waren unter anderem Senatorin Kirsten Gillibrand, Rep.",
-          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
-          "provider": "google"
-        }
-      }
-    },
     {
       "id": "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press",
       "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion - Associated Press",
@@ -191,6 +100,82 @@
       "retainedFromPreviousScan": true
     },
     {
+      "id": "sighting-uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
+      "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGNMbWhFdE5ORFR1RTc2SExWWmIxSl9KYU9RcFhNXzdwbFpHMm13OU5QaWYtR0g3aGc1ZHBEenVzTUoya1o3NHdqenFRMUlkemUwV1N6VFowd2dNbjYtN1RtcmJTMTA3SU9icy14OUZ5Z2JPNHI4NUdTYnFkSGpBY0tMREVQQQ?oc=5",
+      "date": "2026-06-22",
+      "publishedAt": "2026-06-22T07:06:05Z",
+      "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep. Eric Burlison, and Rep. Tim Burchett. Disclosure Foundation board members Professor Avi Loeb and Mike Gold spoke, with Gold noting that a poll shows 89 % of Republicans and 88 % of Democrats want more UAP information and describing UAP as a national security issue. Loeb, recently appointed by the White House to lead the UAP Science Advisory Council, said the federal government must allocate resources to analyze existing data and gather clearer new data on UAP. The forum also highlighted a 2015 Department of Defense video labeled Gimbal that shows an unexplained object, underscoring the need for further investigation. Some advisory council members are skeptical of UAP claims, indicating that belief in UAP is not universal among participants.",
+      "mentions": 3,
+      "otherSources": [
+        {
+          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGlaZ3FUeWZqYzlJNHAxbnFpelNmWmZrcEhucEZueTFuWU40ektCejNQUTJ5X3dWRzJCUXFaODhJVWI2cmhnSU9yQ2tBQ3ZNdTN1REtYY0k0WmJIZ1VqVnNqQl9hbjhsNzBmLXU1OWIyRnpvUWh4QjFORFhfWUdUMUVmZzVUU1V5aGc2edIBkgFBVV95cUxNSVRMU281c1FwLXVUbE5KekxmYnhEZ3BnR2kzcEpiR2RYX1QwWGotbUJ2eWtYRnlHNV9JNFBMcmNQQV9xalZMQWZGTThkVnNiNVJtcnIwS3NnTFNSTjZXcE1vNktubGFnVVI2VzdObEtzSEhWWnYxS0piemdhdFVxWF9rczljS3hBX0xYN0wyRDZndw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGlaZ3FUeWZqYzlJNHAxbnFpelNmWmZrcEhucEZueTFuWU40ektCejNQUTJ5X3dWRzJCUXFaODhJVWI2cmhnSU9yQ2tBQ3ZNdTN1REtYY0k0WmJIZ1VqVnNqQl9hbjhsNzBmLXU1OWIyRnpvUWh4QjFORFhfWUdUMUVmZzVUU1V5aGc2edIBkgFBVV95cUxNSVRMU281c1FwLXVUbE5KekxmYnhEZ3BnR2kzcEpiR2RYX1QwWGotbUJ2eWtYRnlHNV9JNFBMcmNQQV9xalZMQWZGTThkVnNiNVJtcnIwS3NnTFNSTjZXcE1vNktubGFnVVI2VzdObEtzSEhWWnYxS0piemdhdFVxWF9rczljS3hBX0xYN0wyRDZndw?oc=5",
+          "source": "NewsNation",
+          "publishedAt": "2026-06-22T07:06:05Z",
+          "displayedAt": "2026-06-22T07:06:05Z"
+        },
+        {
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ncG96ZFQ2a3JMZ1hWV21wdnpYOE1GLVc1bVFTY0NuSWVEbGM3TlFGZ1FaOURseklwU1VERlpmNUJMckdOM2NHYW1hajNlMVFoWHk5T2ROZ3dRSUwtM0ZDYzhJLV9NcTVuNXMtRld5UlJwVHVwemlIQ2tObzFsQQ?oc=5",
+          "title": "UFO experts, lawmakers to speak at Disclosure Forum 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "sourcePublishedAt": "2026-06-24T15:00:28Z",
+          "displayedAt": "2026-06-25T06:40:27Z",
+          "isNew": true
+        }
+      ],
+      "clusterTitles": [
+        "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
+        "UFO experts, lawmakers to speak at Disclosure Forum 2026 | JUSTICE - IUSTITIA.BG 2025"
+      ],
+      "quality": 65,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE"
+      ],
+      "sourceQuality": 65,
+      "displayedAt": "2026-06-25T06:40:27Z"
+    },
+    {
       "id": "cosmic-council-trump-creates-ufo-panel-to-be-advised-by-harvard-s-avi-loeb",
       "title": "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
       "source": "New York Post",
@@ -279,7 +264,10 @@
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbkM2eUYxYlhIMVloMDVWc2RqbXZUalcydDN5dDI3Rm43Z1g0R0lCa1JndXFjdndPaW9EcmVYTVpZYVdlZW55NWRFSGMyWFVQamw5a1djM1Q3QnhWZm05ZlRXeENWYmNRUXN1OXFUUkxjZU02MlJrM3FQTVB2ZFlpLVNKMW41MVNyMEgw?oc=5",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbkM2eUYxYlhIMVloMDVWc2RqbXZUalcydDN5dDI3Rm43Z1g0R0lCa1JndXFjdndPaW9EcmVYTVpZYVdlZW55NWRFSGMyWFVQamw5a1djM1Q3QnhWZm05ZlRXeENWYmNRUXN1OXFUUkxjZU02MlJrM3FQTVB2ZFlpLVNKMW41MVNyMEgw?oc=5",
           "source": "Gateway 97.8",
-          "publishedAt": "2026-06-14T07:47:38Z"
+          "publishedAt": "2026-06-14T07:47:38Z",
+          "rssPublishedAt": "2026-06-14T07:47:38Z",
+          "sourcePublishedAt": "2026-06-13T23:36:41Z",
+          "displayedAt": "2026-06-14T07:47:38Z"
         },
         {
           "title": "BBC Essex News: Does the UK have a blind spot on UFO sightings?",
@@ -289,8 +277,7 @@
           "publishedAt": "2026-06-14T07:00:00Z",
           "rssPublishedAt": "2026-06-14T07:00:00Z",
           "sourcePublishedAt": "2026-06-13T23:36:41Z",
-          "displayedAt": "2026-06-23T11:45:51Z",
-          "isNew": true
+          "displayedAt": "2026-06-14T07:00:00Z"
         }
       ],
       "clusterTitles": [
@@ -524,26 +511,65 @@
       "displayedAt": "2026-06-25T06:40:27Z"
     },
     {
+      "id": "trump-ufo-adviser-reveals-scientists-biggest-unanswered-questions",
+      "title": "Trump UFO adviser reveals scientists’ biggest unanswered questions",
+      "source": "Newsweek",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMUZ1UHpKX3k0N0kxNDVKckxURjJ3QnoxQVhxdENWdzFnZ0tiWmdCTHRtQk5jelF6TDlvS1dHUWdVb0pSTXBIbnlmMzFRV0FpV1VJTlltaVNfOUpURVhvV0RKQlhCM0NsX05CSmRxaUlIaVQzaWFsTUQwUXlZTDl3aDc0VngwSGkyMGc?oc=5",
+      "date": "2026-06-13",
+      "publishedAt": "2026-06-24T17:24:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 54,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "files"
+      ],
+      "sourceQuality": 54,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-06-25T13:13:43Z"
+    },
+    {
       "id": "file-release-mystery-orb-videos-other-ufo-records-released-by-white-house",
       "title": "Mystery orb videos, other UFO records released by White House",
       "source": "Axios",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DYklfUUZpQ1lOVXpIQ1FEanI0YTN3ajZKaUFhQkp3TTZ5bFFzTlp2bkVOY0t3VGtCX01GQzBHd1ljVXhTekVNNzZvVURpbVkyTGZVcGxfc3FpZ3hHbS1GU1FSaXE4UlE?oc=5",
       "date": "2026-06-13",
       "publishedAt": "2026-06-12T07:00:00Z",
-      "summary": "The Pentagon released a third batch of UFO files on Friday. This release is part of the Trump administration’s ongoing wave of disclosures. The files were made public by the Pentagon as part of this series of releases.",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "Highlights from the most recent batch of UFO files",
-          "source": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRUdHNVdQY2UySHpON0c4MXVEOXZJenhHQkgzc0h2bUFHSEY1Ujc3Mzgxel95OWNiTldvVEpLYVVnR055TlE5cTRkUzFoRUxwUFpCSGFQTDBsYlE4NjU3ZlBhZ2prY3ROUGozZWlGQmJOck0ycDNpUFVMWE5HUFNzM21IMm84dGpa?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRUdHNVdQY2UySHpON0c4MXVEOXZJenhHQkgzc0h2bUFHSEY1Ujc3Mzgxel95OWNiTldvVEpLYVVnR055TlE5cTRkUzFoRUxwUFpCSGFQTDBsYlE4NjU3ZlBhZ2prY3ROUGozZWlGQmJOck0ycDNpUFVMWE5HUFNzM21IMm84dGpa?oc=5",
-          "publishedAt": "2026-06-13T07:00:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "Highlights from the most recent batch of UFO files"
-      ],
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
       "quality": 54,
       "qualityBreakdown": [
         {
@@ -577,21 +603,54 @@
         "SIGHTINGS"
       ],
       "sourceQuality": 54,
-      "displayedAt": "2026-06-12T07:00:00Z",
-      "translation": {
-        "en": {
-          "title": "Highlights from the most recent batch of UFO files",
-          "summary": "The Pentagon released a third batch of UFO files on Friday. This release is part of the Trump administration’s ongoing wave of disclosures. The files were made public by the Pentagon as part of this series of releases.",
-          "sourceHash": "586cac7cd560d103b6b278f133cb322eed108d9e",
-          "provider": "original"
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-06-25T13:13:43Z"
+    },
+    {
+      "id": "sighting-russian-astronomer-reports-possible-ufo-sighting-in-omsk-region",
+      "title": "Russian astronomer reports possible UFO sighting in Omsk region",
+      "source": "Caliber.Az",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVGNTaVJsU0VRZzdMa3ZFVVVaeV9kY1hXOTMxbmM2UlNfSWZ4Q19PMXpDME9DZlFPaERaallleklWUDRndDBaOUFCZlFZc2NmUjVMM0xpYjVCVVR1RG53cVpvYkNjQTJkQWRhSzBfenhwWkJoNHF0NE9PX01ST19yT3daSkVRT2llS0ZUckpxYURIMXpf?oc=5",
+      "date": "2026-06-22",
+      "publishedAt": "2026-06-22T16:22:15Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
-        "de": {
-          "title": "Highlights aus dem neuesten Stapel von UFO-Dateien",
-          "summary": "Das Pentagon hat am Freitag einen dritten Stapel UFO-Dateien veröffentlicht. Diese Veröffentlichung ist Teil der anhaltenden Enthüllungswelle der Trump-Regierung. Die Dateien wurden vom Pentagon im Rahmen dieser Veröffentlichungsserie veröffentlicht.",
-          "sourceHash": "586cac7cd560d103b6b278f133cb322eed108d9e",
-          "provider": "google"
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "SIGHTING als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
         }
-      }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "SIGHTING"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 45,
+      "displayedAt": "2026-06-25T13:13:43Z"
     },
     {
       "id": "file-release-newly-released-ufo-files-allege-china-and-russia-retrieved-downed-uaps-and-attempted-to-reverse-engineer-them",
