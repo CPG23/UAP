@@ -1,7 +1,101 @@
 {
-  "timestamp": "2026-06-27T06:20:08Z",
+  "timestamp": "2026-06-27T12:06:37Z",
   "retentionDays": 14,
   "articles": [
+    {
+      "id": "program-new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery",
+      "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
+      "source": "DefenseScoop",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaXdKWW9VLVg1RVF2Rkdlbm1BU2JvS252WS1tMnpNOXNyMi1NdUJmaXBOa2FTdmdsNEUyeDNSbWx2RUZqY0ZYZEpOMF8xbndkQzQzdHU3VEYtcmtvOThic0hIQ1BGQ3Zwb0E3NFE2ZF9RYkpacTBfUzZ2NVRPajRDaUo4U2xnVWxMX3VlOThjZ1lFc0p6SDFjWmw1Q3ZvUExzN0ZtMTJHR0xjOUo2N0V1WkYxWlV5Q2Jj?oc=5",
+      "date": "2026-06-26",
+      "publishedAt": "2026-06-17T07:00:00Z",
+      "summary": "Investigative journalist Ross Coulthart said a skeptic on the new UAP Science Advisory Council could help the panel, but he worries that Michael Shermer, founder of The Skeptics Society, may be too biased against the topic. Coulthart cited Shermer’s pejorative remarks about whistleblower David Grusch, who claims the government has a secret program to retrieve alien technology, and said he prefers skeptics who are not debunkers. Shermer, who was named to the council, replied that he generally tries to be non‑disparaging and that Grusch deflects when asked for evidence, saying details are classified. The council, which also includes Harvard physicist Avi Loeb, will advise the federal government on how to collect better data on unidentified anomalous phenomena and assess potential national‑security threats. Shermer said most UFO sightings are explainable, wants detailed data to analyze, and believes it is unlikely that extraterrestrials have visited Earth, while offering to join Coulthart on a podcast for a thoughtful conversation.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
+          "source": "New York Post",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb29JUDFVdU1OTG1CYndETVdFX0xHSTFIdmVwUUZFOE1VdVd4WTNtVGg1YjFFUHYwaVNzTmx5c2ZtRGpkTkNBdDl6RFRqLVcyNjAzUUZDMzNmQURVY2pITFRXYkpobFA4SjZTTHA1YWZzVWlEaHFGSHp0TFZWSnkzdWFpWmJ5M3Y0c1ZBY2EtV0xwSl9BdDdHeEwzeXhKV1dpT09QX0NxaGw3SFo2MHJSeUVn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb29JUDFVdU1OTG1CYndETVdFX0xHSTFIdmVwUUZFOE1VdVd4WTNtVGg1YjFFUHYwaVNzTmx5c2ZtRGpkTkNBdDl6RFRqLVcyNjAzUUZDMzNmQURVY2pITFRXYkpobFA4SjZTTHA1YWZzVWlEaHFGSHp0TFZWSnkzdWFpWmJ5M3Y0c1ZBY2EtV0xwSl9BdDdHeEwzeXhKV1dpT09QX0NxaGw3SFo2MHJSeUVn?oc=5",
+          "publishedAt": "2026-06-20T12:40:00Z",
+          "rssPublishedAt": "2026-06-20T12:40:00Z",
+          "sourcePublishedAt": "2026-06-20T12:40:54Z",
+          "displayedAt": "2026-06-20T12:40:00Z"
+        }
+      ],
+      "clusterTitles": [
+        "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb"
+      ],
+      "quality": 76,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DISCLOSURE, SENATE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "DISCLOSURE, SENATE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE",
+        "SENATE"
+      ],
+      "sourceQuality": 76,
+      "displayedAt": "2026-06-19T08:30:56Z",
+      "translation": {
+        "en": {
+          "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
+          "summary": "Investigative journalist Ross Coulthart said a skeptic on the new UAP Science Advisory Council could help the panel, but he worries that Michael Shermer, founder of The Skeptics Society, may be too biased against the topic. Coulthart cited Shermer’s pejorative remarks about whistleblower David Grusch, who claims the government has a secret program to retrieve alien technology, and said he prefers skeptics who are not debunkers.",
+          "sourceHash": "01a2386f656403de88451b6e7ca6a22b0b1c188c",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Neue wissenschaftliche Beiräte bilden sich, um der US-Regierung dabei zu helfen, „das UAP-Rätsel zu lösen“",
+          "summary": "Der investigative Journalist Ross Coulthart sagte, ein Skeptiker des neuen UAP Science Advisory Council könnte dem Gremium helfen, er befürchtet jedoch, dass Michael Shermer, Gründer der Skeptics Society, zu voreingenommen gegenüber dem Thema sein könnte. Coulthart zitierte Shermers abwertende Bemerkungen über den Whistleblower David Grusch, der behauptet, die Regierung habe ein geheimes Programm zur Rückgewinnung außerirdischer Technologie, und sagte, er bevorzuge Skeptiker, die keine Entlarver seien.",
+          "sourceHash": "01a2386f656403de88451b6e7ca6a22b0b1c188c",
+          "provider": "google"
+        }
+      },
+      "rssPublishedAt": "2026-06-17T07:00:00Z",
+      "rssDate": "2026-06-26",
+      "sourcePublishedAt": "2026-06-17T21:31:11Z",
+      "sourceDisplayedAt": "2026-06-19T08:30:56Z",
+      "retainedFromPreviousScan": true
+    },
     {
       "id": "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press",
       "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion - Associated Press",
@@ -100,87 +194,6 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "program-new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery",
-      "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
-      "source": "DefenseScoop",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaXdKWW9VLVg1RVF2Rkdlbm1BU2JvS252WS1tMnpNOXNyMi1NdUJmaXBOa2FTdmdsNEUyeDNSbWx2RUZqY0ZYZEpOMF8xbndkQzQzdHU3VEYtcmtvOThic0hIQ1BGQ3Zwb0E3NFE2ZF9RYkpacTBfUzZ2NVRPajRDaUo4U2xnVWxMX3VlOThjZ1lFc0p6SDFjWmw1Q3ZvUExzN0ZtMTJHR0xjOUo2N0V1WkYxWlV5Q2Jj?oc=5",
-      "date": "2026-06-26",
-      "publishedAt": "2026-06-17T07:00:00Z",
-      "summary": "Investigative journalist Ross Coulthart said a skeptic on the new UAP Science Advisory Council could help the panel, but he worries that Michael Shermer, founder of The Skeptics Society, may be too biased against the topic. Coulthart cited Shermer’s pejorative remarks about whistleblower David Grusch, who claims the government has a secret program to retrieve alien technology, and said he prefers skeptics who are not debunkers. Shermer, who was named to the council, replied that he generally tries to be non‑disparaging and that Grusch deflects when asked for evidence, saying details are classified. The council, which also includes Harvard physicist Avi Loeb, will advise the federal government on how to collect better data on unidentified anomalous phenomena and assess potential national‑security threats. Shermer said most UFO sightings are explainable, wants detailed data to analyze, and believes it is unlikely that extraterrestrials have visited Earth, while offering to join Coulthart on a podcast for a thoughtful conversation.",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
-          "source": "New York Post",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb29JUDFVdU1OTG1CYndETVdFX0xHSTFIdmVwUUZFOE1VdVd4WTNtVGg1YjFFUHYwaVNzTmx5c2ZtRGpkTkNBdDl6RFRqLVcyNjAzUUZDMzNmQURVY2pITFRXYkpobFA4SjZTTHA1YWZzVWlEaHFGSHp0TFZWSnkzdWFpWmJ5M3Y0c1ZBY2EtV0xwSl9BdDdHeEwzeXhKV1dpT09QX0NxaGw3SFo2MHJSeUVn?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb29JUDFVdU1OTG1CYndETVdFX0xHSTFIdmVwUUZFOE1VdVd4WTNtVGg1YjFFUHYwaVNzTmx5c2ZtRGpkTkNBdDl6RFRqLVcyNjAzUUZDMzNmQURVY2pITFRXYkpobFA4SjZTTHA1YWZzVWlEaHFGSHp0TFZWSnkzdWFpWmJ5M3Y0c1ZBY2EtV0xwSl9BdDdHeEwzeXhKV1dpT09QX0NxaGw3SFo2MHJSeUVn?oc=5",
-          "publishedAt": "2026-06-20T12:40:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb"
-      ],
-      "quality": 71,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DISCLOSURE, SENATE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "DISCLOSURE, SENATE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE",
-        "SENATE"
-      ],
-      "sourceQuality": 71,
-      "displayedAt": "2026-06-27T06:20:08Z",
-      "translation": {
-        "en": {
-          "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
-          "summary": "Investigative journalist Ross Coulthart said a skeptic on the new UAP Science Advisory Council could help the panel, but he worries that Michael Shermer, founder of The Skeptics Society, may be too biased against the topic. Coulthart cited Shermer’s pejorative remarks about whistleblower David Grusch, who claims the government has a secret program to retrieve alien technology, and said he prefers skeptics who are not debunkers.",
-          "sourceHash": "01a2386f656403de88451b6e7ca6a22b0b1c188c",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Neue wissenschaftliche Beiräte bilden sich, um der US-Regierung dabei zu helfen, „das UAP-Rätsel zu lösen“",
-          "summary": "Der investigative Journalist Ross Coulthart sagte, ein Skeptiker des neuen UAP Science Advisory Council könnte dem Gremium helfen, er befürchtet jedoch, dass Michael Shermer, Gründer der Skeptics Society, zu voreingenommen gegenüber dem Thema sein könnte. Coulthart zitierte Shermers abwertende Bemerkungen über den Whistleblower David Grusch, der behauptet, die Regierung habe ein geheimes Programm zur Rückgewinnung außerirdischer Technologie, und sagte, er bevorzuge Skeptiker, die keine Entlarver seien.",
-          "sourceHash": "01a2386f656403de88451b6e7ca6a22b0b1c188c",
-          "provider": "google"
-        }
-      }
-    },
-    {
       "id": "uap-disclosure-forum-in-dc-key-takeaways",
       "title": "UAP Disclosure Forum in DC: Key takeaways",
       "source": "NewsNation",
@@ -233,32 +246,92 @@
       "matchedTerms": [
         "disclosure"
       ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 71,
+      "displayedAt": "2026-06-27T06:20:08Z"
+    },
+    {
+      "id": "program-ufo-conference-lands-in-canada-as-trump-administration-continues-to-release-documents",
+      "title": "UFO conference lands in Canada as Trump administration continues to release documents",
+      "source": "CTV News",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN0lDSHpndFFrTy1vaEZuU1J2NmY0OEVFVTVpbFN2MXRKTnZkSzQzVkRvbEh6Nmhqa2VfV21uMHhMU0VKaFdDOUs1cXhkVi10amZSclJ0NU9hRUplUUU4THl6OEtVMDRJelV6X2dRQnRTTzA4VUpSSjVUYmhDblpEUTRUdHh6Ui0tcUQ5NUdVLVRaUkNHTnVpd0pKR1hQWTZ4U0NHYUkyX3JHSUg4ODNpUEVOYllveUhhaG5rU0UzNVY0UQ?oc=5",
+      "date": "2026-06-26",
+      "publishedAt": "2026-06-15T07:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 71,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DISCLOSURE, SENATE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "DISCLOSURE, SENATE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE",
+        "SENATE"
+      ],
       "sourceQuality": 71,
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "displayedAt": "2026-06-27T06:20:08Z"
+      "displayedAt": "2026-06-27T12:06:37Z"
     },
     {
-      "id": "latest-push-for-uap-disclosure-could-be-dead-end-plot-researcher",
-      "title": "Latest push for UAP disclosure could be ‘dead end’ plot: Researcher",
+      "id": "latest-push-for-uap-disclosure-could-be-dead-end-plot-researcher-katie-pavlich-tonight",
+      "title": "Latest push for UAP disclosure could be ‘dead end’ plot: Researcher | Katie Pavlich Tonight",
       "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5LcTQ2c0xXVDhsVVhfMHVqbFBfZlJvbzl0UVl2UDlFRnRsUE9ROWszakhJQ0ExQTJscWVzbGZyNXd1Slg3SkJkZFdNLXlWbTBJa3dLSjEzeG9GVmQtOHBhR0JZa2F6cjdBenhQY0x5ZGV6Wmtyc2haUEdn0gF_QVVfeXFMT2RoUkNqd1Z2dFJyVnZsWVJTU3pYUUUzZDNoQlZ1Vkgtd2x6M0JqWDk3NXdZdklxMXpRcEF6VHFhNU5SRXFIWHBfbGViLXZ6azFFOUZKQW9OVHRGVDJjNlFwVjdkdURUV1Fwdms2M2pBellQblVpdHRFeTN4a1VHQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQendQdjE5OE96S3J6ZWsxTmkwclJJeVJaeWxNSE03d0NHTmNzTDNDRVhnU2hybHIwY2hYWFVwaGFRbXd6QzA2dUtiVmFRUzE1ei1Ha3NOcGJoSS0xSEluamExaVFGRmpfRVFhanlIendyZTJXOHRfUjBrVDdrNnZ5SG9pTURtWXZNZTUzNW16N2pvNFRFMjUxamhDYkt2SGpsbkZkeFV4Yk5YRlRnb2h5T1JGZi1XM3ZDUHZWcDRXTjJkYmJVLWNQaWFfUlp0ZjFfbFk5dWpCXzFENERKSE1aMTFONmk?oc=5",
       "date": "2026-06-26",
-      "publishedAt": "2026-06-26T07:19:43Z",
+      "publishedAt": "2026-06-26T02:55:59Z",
       "summary": "",
       "mentions": 2,
       "otherSources": [
         {
-          "title": "Latest push for UAP disclosure could be ‘dead end’ plot: Researcher | Katie Pavlich Tonight",
+          "title": "Latest push for UAP disclosure could be ‘dead end’ plot: Researcher",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5LcTQ2c0xXVDhsVVhfMHVqbFBfZlJvbzl0UVl2UDlFRnRsUE9ROWszakhJQ0ExQTJscWVzbGZyNXd1Slg3SkJkZFdNLXlWbTBJa3dLSjEzeG9GVmQtOHBhR0JZa2F6cjdBenhQY0x5ZGV6Wmtyc2haUEdn0gF_QVVfeXFMT2RoUkNqd1Z2dFJyVnZsWVJTU3pYUUUzZDNoQlZ1Vkgtd2x6M0JqWDk3NXdZdklxMXpRcEF6VHFhNU5SRXFIWHBfbGViLXZ6azFFOUZKQW9OVHRGVDJjNlFwVjdkdURUV1Fwdms2M2pBellQblVpdHRFeTN4a1VHQQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5LcTQ2c0xXVDhsVVhfMHVqbFBfZlJvbzl0UVl2UDlFRnRsUE9ROWszakhJQ0ExQTJscWVzbGZyNXd1Slg3SkJkZFdNLXlWbTBJa3dLSjEzeG9GVmQtOHBhR0JZa2F6cjdBenhQY0x5ZGV6Wmtyc2haUEdn0gF_QVVfeXFMT2RoUkNqd1Z2dFJyVnZsWVJTU3pYUUUzZDNoQlZ1Vkgtd2x6M0JqWDk3NXdZdklxMXpRcEF6VHFhNU5SRXFIWHBfbGViLXZ6azFFOUZKQW9OVHRGVDJjNlFwVjdkdURUV1Fwdms2M2pBellQblVpdHRFeTN4a1VHQQ?oc=5",
           "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQendQdjE5OE96S3J6ZWsxTmkwclJJeVJaeWxNSE03d0NHTmNzTDNDRVhnU2hybHIwY2hYWFVwaGFRbXd6QzA2dUtiVmFRUzE1ei1Ha3NOcGJoSS0xSEluamExaVFGRmpfRVFhanlIendyZTJXOHRfUjBrVDdrNnZ5SG9pTURtWXZNZTUzNW16N2pvNFRFMjUxamhDYkt2SGpsbkZkeFV4Yk5YRlRnb2h5T1JGZi1XM3ZDUHZWcDRXTjJkYmJVLWNQaWFfUlp0ZjFfbFk5dWpCXzFENERKSE1aMTFONmk?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQendQdjE5OE96S3J6ZWsxTmkwclJJeVJaeWxNSE03d0NHTmNzTDNDRVhnU2hybHIwY2hYWFVwaGFRbXd6QzA2dUtiVmFRUzE1ei1Ha3NOcGJoSS0xSEluamExaVFGRmpfRVFhanlIendyZTJXOHRfUjBrVDdrNnZ5SG9pTURtWXZNZTUzNW16N2pvNFRFMjUxamhDYkt2SGpsbkZkeFV4Yk5YRlRnb2h5T1JGZi1XM3ZDUHZWcDRXTjJkYmJVLWNQaWFfUlp0ZjFfbFk5dWpCXzFENERKSE1aMTFONmk?oc=5",
-          "publishedAt": "2026-06-26T02:55:59Z"
+          "publishedAt": "2026-06-26T07:19:43Z"
         }
       ],
       "clusterTitles": [
-        "Latest push for UAP disclosure could be ‘dead end’ plot: Researcher | Katie Pavlich Tonight"
+        "Latest push for UAP disclosure could be ‘dead end’ plot: Researcher"
       ],
       "quality": 70,
       "qualityBreakdown": [
@@ -311,7 +384,7 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 70,
-      "displayedAt": "2026-06-27T06:20:08Z"
+      "displayedAt": "2026-06-27T12:06:37Z"
     },
     {
       "id": "sighting-uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
@@ -446,100 +519,6 @@
       },
       "sourceQuality": 65,
       "displayedAt": "2026-06-26T06:42:14Z"
-    },
-    {
-      "id": "program-does-the-uk-have-a-blind-spot-on-ufo-sightings",
-      "title": "Does the UK have a blind spot on UFO sightings?",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VdmZOOS1HWFdCcTVab3k1Uy00Ul93RjQ0MlRyaFNfdThTMWMzOThoalRFdE1iRkxLZ21fN2FqUlctcGpQUVlSb090a1NZbzREX2JKX1ZFazBndw?oc=5",
-      "date": "2026-06-13",
-      "publishedAt": "2026-06-13T07:00:00Z",
-      "summary": "Retired pilot Chris Crowther, who logged 22,000 flying hours, reported in 1978 a fast‑moving, unidentified object that passed his light aircraft near Norwich Airport, describing a dozen dark shapes that vanished after passing his wing tip; he did not file a report. The UK has no central system for recording UFO sightings, as the Ministry of Defence closed its UFO desk in 2009, leaving pilots and the public without an official channel to report such encounters. Independent groups, such as David Jon’s SEPI Agency, argue that about 20 % of the 32 cases they investigate remain unexplained and call for a government‑run reporting office, while the MoD maintains that no sightings pose a direct military threat. High‑profile incidents like the 1980 Rendlesham Forest event and recent drone‑related investigations have prompted official reviews, but the MoD and Civil Aviation Authority say there is no active monitoring of UAPs and advise reporting safety concerns through existing channels. With no formal reporting structure, many sightings risk going unrecorded, leaving the phenomenon largely unexplained and subject to speculation.",
-      "mentions": 3,
-      "otherSources": [
-        {
-          "title": "BBC Essex News: Does the UK have a blind spot on UFO sightings?",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbkM2eUYxYlhIMVloMDVWc2RqbXZUalcydDN5dDI3Rm43Z1g0R0lCa1JndXFjdndPaW9EcmVYTVpZYVdlZW55NWRFSGMyWFVQamw5a1djM1Q3QnhWZm05ZlRXeENWYmNRUXN1OXFUUkxjZU02MlJrM3FQTVB2ZFlpLVNKMW41MVNyMEgw?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbkM2eUYxYlhIMVloMDVWc2RqbXZUalcydDN5dDI3Rm43Z1g0R0lCa1JndXFjdndPaW9EcmVYTVpZYVdlZW55NWRFSGMyWFVQamw5a1djM1Q3QnhWZm05ZlRXeENWYmNRUXN1OXFUUkxjZU02MlJrM3FQTVB2ZFlpLVNKMW41MVNyMEgw?oc=5",
-          "source": "Gateway 97.8",
-          "publishedAt": "2026-06-14T07:47:38Z",
-          "rssPublishedAt": "2026-06-14T07:47:38Z",
-          "sourcePublishedAt": "2026-06-13T23:36:41Z",
-          "displayedAt": "2026-06-14T07:47:38Z"
-        },
-        {
-          "title": "BBC Essex News: Does the UK have a blind spot on UFO sightings?",
-          "source": "Gateway 97.8",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeFE5TWQ5M0hWTWpKbHlqbzl5dGIzVGZROWd6ZFoyOTVDRFBGMVFQMDhMbU5iMWZyTGY0SThLMnptQjNCYTBuUG5paFNsbVVXOWZfZUc0WC1oQi1UdFRGOU9fNFVQVkNHdDJhaldwdWU5Yy1IZjJEbnY5ZlBGbmdfQkJnUXZ1WVpDR0plUFBB?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeFE5TWQ5M0hWTWpKbHlqbzl5dGIzVGZROWd6ZFoyOTVDRFBGMVFQMDhMbU5iMWZyTGY0SThLMnptQjNCYTBuUG5paFNsbVVXOWZfZUc0WC1oQi1UdFRGOU9fNFVQVkNHdDJhaldwdWU5Yy1IZjJEbnY5ZlBGbmdfQkJnUXZ1WVpDR0plUFBB?oc=5",
-          "publishedAt": "2026-06-14T07:00:00Z",
-          "rssPublishedAt": "2026-06-14T07:00:00Z",
-          "sourcePublishedAt": "2026-06-13T23:36:41Z",
-          "displayedAt": "2026-06-14T07:00:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "BBC Essex News: Does the UK have a blind spot on UFO sightings?",
-        "BBC Essex News: Does the UK have a blind spot on UFO sightings?"
-      ],
-      "quality": 64,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "SIGHTINGS"
-      ],
-      "sourceQuality": 64,
-      "displayedAt": "2026-06-23T11:45:51Z",
-      "rssPublishedAt": "2026-06-13T07:00:00Z",
-      "rssDate": "2026-06-13",
-      "sourcePublishedAt": "2026-06-13T23:36:41Z",
-      "sourceDisplayedAt": "2026-06-23T11:45:51Z",
-      "translation": {
-        "en": {
-          "title": "Does the UK have a blind spot on UFO sightings?",
-          "summary": "Retired pilot Chris Crowther, who logged 22,000 flying hours, reported in 1978 a fast‑moving, unidentified object that passed his light aircraft near Norwich Airport, describing a dozen dark shapes that vanished after passing his wing tip; he did not file a report. The UK has no central system for recording UFO sightings, as the Ministry of Defence closed its UFO desk in 2009, leaving pilots and the public without an official channel to report such encounters.",
-          "sourceHash": "4a7a21452897085dc0b1341bd8e3dba286f15199",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Hat Großbritannien einen blinden Fleck bei UFO-Sichtungen?",
-          "summary": "Der pensionierte Pilot Chris Crowther, der 22.000 Flugstunden absolvierte, berichtete 1978 von einem sich schnell bewegenden, nicht identifizierten Objekt, das sein Kleinflugzeug in der Nähe des Flughafens Norwich passierte, und beschrieb ein Dutzend dunkler Formen, die verschwanden, nachdem es seine Flügelspitze passiert hatte; er hat keine Anzeige erstattet. Das Vereinigte Königreich verfügt über kein zentrales System zur Aufzeichnung von UFO-Sichtungen, da das Verteidigungsministerium 2009 seinen UFO-Schalter geschlossen hat und Piloten und die Öffentlichkeit keinen offiziellen Kanal zur Meldung solcher Begegnungen haben.",
-          "sourceHash": "4a7a21452897085dc0b1341bd8e3dba286f15199",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
     },
     {
       "id": "uap-whistleblower-says-he-s-paid-a-severe-price-since-coming-forward",
