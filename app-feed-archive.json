@@ -1,77 +1,7 @@
 {
-  "timestamp": "2026-06-28T06:51:50Z",
+  "timestamp": "2026-06-28T12:13:44Z",
   "retentionDays": 14,
   "articles": [
-    {
-      "id": "program-new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery",
-      "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
-      "source": "DefenseScoop",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaXdKWW9VLVg1RVF2Rkdlbm1BU2JvS252WS1tMnpNOXNyMi1NdUJmaXBOa2FTdmdsNEUyeDNSbWx2RUZqY0ZYZEpOMF8xbndkQzQzdHU3VEYtcmtvOThic0hIQ1BGQ3Zwb0E3NFE2ZF9RYkpacTBfUzZ2NVRPajRDaUo4U2xnVWxMX3VlOThjZ1lFc0p6SDFjWmw1Q3ZvUExzN0ZtMTJHR0xjOUo2N0V1WkYxWlV5Q2Jj?oc=5",
-      "date": "2026-06-26",
-      "publishedAt": "2026-06-17T07:00:00Z",
-      "summary": "Investigative journalist Ross Coulthart said a skeptic on the new UAP Science Advisory Council could help the panel, but he worries that Michael Shermer, founder of The Skeptics Society, may be too biased against the topic. Coulthart cited Shermer’s pejorative remarks about whistleblower David Grusch, who claims the government has a secret program to retrieve alien technology, and said he prefers skeptics who are not debunkers. Shermer, who was named to the council, replied that he generally tries to be non‑disparaging and that Grusch deflects when asked for evidence, saying details are classified. The council, which also includes Harvard physicist Avi Loeb, will advise the federal government on how to collect better data on unidentified anomalous phenomena and assess potential national‑security threats. Shermer said most UFO sightings are explainable, wants detailed data to analyze, and believes it is unlikely that extraterrestrials have visited Earth, while offering to join Coulthart on a podcast for a thoughtful conversation.",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
-          "source": "New York Post",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb29JUDFVdU1OTG1CYndETVdFX0xHSTFIdmVwUUZFOE1VdVd4WTNtVGg1YjFFUHYwaVNzTmx5c2ZtRGpkTkNBdDl6RFRqLVcyNjAzUUZDMzNmQURVY2pITFRXYkpobFA4SjZTTHA1YWZzVWlEaHFGSHp0TFZWSnkzdWFpWmJ5M3Y0c1ZBY2EtV0xwSl9BdDdHeEwzeXhKV1dpT09QX0NxaGw3SFo2MHJSeUVn?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb29JUDFVdU1OTG1CYndETVdFX0xHSTFIdmVwUUZFOE1VdVd4WTNtVGg1YjFFUHYwaVNzTmx5c2ZtRGpkTkNBdDl6RFRqLVcyNjAzUUZDMzNmQURVY2pITFRXYkpobFA4SjZTTHA1YWZzVWlEaHFGSHp0TFZWSnkzdWFpWmJ5M3Y0c1ZBY2EtV0xwSl9BdDdHeEwzeXhKV1dpT09QX0NxaGw3SFo2MHJSeUVn?oc=5",
-          "publishedAt": "2026-06-20T12:40:00Z",
-          "rssPublishedAt": "2026-06-20T12:40:00Z",
-          "sourcePublishedAt": "2026-06-20T12:40:54Z",
-          "displayedAt": "2026-06-20T12:40:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb"
-      ],
-      "quality": 71,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DISCLOSURE, SENATE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "DISCLOSURE, SENATE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE",
-        "SENATE"
-      ],
-      "sourceQuality": 71,
-      "displayedAt": "2026-06-19T08:30:56Z"
-    },
     {
       "id": "uap-disclosure-forum-in-dc-key-takeaways",
       "title": "UAP Disclosure Forum in DC: Key takeaways",
@@ -283,6 +213,65 @@
       "displayedAt": "2026-06-25T06:40:27Z"
     },
     {
+      "id": "ufo-disclosure-details-emerge-on-invasion-of-washington-tape",
+      "title": "UFO disclosure: Details emerge on ‘Invasion of Washington’ tape",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yQWdXTjVzTGl6NzZMMS1qMUhpWGdiU21reV9sZGRENS1rNFJmVWg3NlRPb215M0thMXRNTV8tSGVTUU1KbHVadkRNYjQzMERidTZJU2Y5Y1BUM0hOWmZmRjZmckx6M3ItcjhNbk9VLTQzN0g1TTJza3FMR1rSAYIBQVVfeXFMTVNTaTVueFZTRi1TSzMyQjBGRGFESjJTLVRGUWRqLXA1WlkxVDRUVXJTaUh6QnhlZVV2TWNpSW1PZGE0SnpZVnVzSEdvanNKN0JiaHhRdHJ4MnpqWWJ5ektRVWlfLXFKb2R0SFZrNGhGaG9oazBPTWJNUFlFNlpna2g3dw?oc=5",
+      "date": "2026-06-28",
+      "publishedAt": "2026-06-28T04:12:10Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 65,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 65,
+      "displayedAt": "2026-06-28T12:13:44Z"
+    },
+    {
       "id": "ufo-transparency-at-the-heart-of-disclosure-forum",
       "title": "UFO transparency at the heart of Disclosure Forum",
       "source": "NewsNation",
@@ -458,17 +447,30 @@
       "displayedAt": "2026-06-25T06:40:27Z"
     },
     {
-      "id": "file-release-ufo-conference-lands-in-canada-as-trump-administration-continues-to-release-documents",
-      "title": "UFO conference lands in Canada as Trump administration continues to release documents",
-      "source": "CTV News",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN0lDSHpndFFrTy1vaEZuU1J2NmY0OEVFVTVpbFN2MXRKTnZkSzQzVkRvbEh6Nmhqa2VfV21uMHhMU0VKaFdDOUs1cXhkVi10amZSclJ0NU9hRUplUUU4THl6OEtVMDRJelV6X2dRQnRTTzA4VUpSSjVUYmhDblpEUTRUdHh6Ui0tcUQ5NUdVLVRaUkNHTnVpd0pKR1hQWTZ4U0NHYUkyX3JHSUg4ODNpUEVOYllveUhhaG5rU0UzNVY0UQ?oc=5",
-      "date": "2026-06-17",
-      "publishedAt": "2026-06-15T07:00:00Z",
-      "summary": "In February 2022, five U.S. Army service members near Cheyenne, Colorado, observed a translucent, milky, potato‑shaped object that shimmered and had irregular, fish‑scale‑like panels that shifted in slow waves before vanishing after about two minutes; the witness reported it cloaked quickly and cast no shadow. A Department of Defense report attributes the sighting to possible backscattering of sunlight from the sun over the mountain, offering a potential natural explanation. Wyoming attorney Rich Barrett, who saw a massive noiseless device with his father in 1991, says he does not expect answers for either that event or the 2022 Army sighting, though he notes increased transparency under the Trump administration. New Jersey Army National Guard Colonel David Melendez considers the object could be an experimental U.S. craft but remains open to extraterrestrial possibilities, noting that the U.S. military may withhold details on a need‑to‑know basis and that UAP videos are often grainy. Wyoming officials, including Adjutant General Greg Porter and lawmakers, have reported no UAP incidents over state airspace, though some sightings near federal facilities have been noted; a bill to allow the governor to activate the National Guard against drone incursions was vetoed and later overridden. Eight Wyoming sheriffs confirmed reports of strange drone‑like sightings in January 2025, with the Sweetwater County Sheriff describing them as the \"new normal\" and stating that the objects have not caused harm but would be acted upon if they posed imminent danger.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 55,
+      "id": "program-new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery",
+      "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
+      "source": "DefenseScoop",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaXdKWW9VLVg1RVF2Rkdlbm1BU2JvS252WS1tMnpNOXNyMi1NdUJmaXBOa2FTdmdsNEUyeDNSbWx2RUZqY0ZYZEpOMF8xbndkQzQzdHU3VEYtcmtvOThic0hIQ1BGQ3Zwb0E3NFE2ZF9RYkpacTBfUzZ2NVRPajRDaUo4U2xnVWxMX3VlOThjZ1lFc0p6SDFjWmw1Q3ZvUExzN0ZtMTJHR0xjOUo2N0V1WkYxWlV5Q2Jj?oc=5",
+      "date": "2026-06-20",
+      "publishedAt": "2026-06-17T07:00:00Z",
+      "summary": "The Trump administration has created a new UAP Governance Board to address unidentified anomalous phenomena, holding its first meeting on Tuesday. The board’s mission is to support the President’s directive on UAP transparency, integrate interagency processes, and coordinate the declassification of UAP information among military, law enforcement, intelligence, and civilian agencies. Harvard astrophysicist Avi Loeb has been appointed as an advisor and will lead the board’s UAP Science Advisory Council, a smaller working group focused on data-driven analysis. Loeb, who previously highlighted the interstellar object 3I/Atlas as a possible alien probe, says the program will have no budget, rely only on declassified data, and avoid public distraction. The board may investigate cases such as the 2023 glowing mothership orb near Cheyenne Mountain, and Loeb notes that 40% of observed phenomena cannot be explained by known U.S. or adversary technology. Loeb’s advisory team includes scientists Michael Shermer, Gary Nolan, Kevin Knuth, Matthew Szydagis, and retired Rear Admiral Gallaudet, who says the government is overdue to adopt a scientific perspective on UAP.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
+          "source": "New York Post",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb29JUDFVdU1OTG1CYndETVdFX0xHSTFIdmVwUUZFOE1VdVd4WTNtVGg1YjFFUHYwaVNzTmx5c2ZtRGpkTkNBdDl6RFRqLVcyNjAzUUZDMzNmQURVY2pITFRXYkpobFA4SjZTTHA1YWZzVWlEaHFGSHp0TFZWSnkzdWFpWmJ5M3Y0c1ZBY2EtV0xwSl9BdDdHeEwzeXhKV1dpT09QX0NxaGw3SFo2MHJSeUVn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb29JUDFVdU1OTG1CYndETVdFX0xHSTFIdmVwUUZFOE1VdVd4WTNtVGg1YjFFUHYwaVNzTmx5c2ZtRGpkTkNBdDl6RFRqLVcyNjAzUUZDMzNmQURVY2pITFRXYkpobFA4SjZTTHA1YWZzVWlEaHFGSHp0TFZWSnkzdWFpWmJ5M3Y0c1ZBY2EtV0xwSl9BdDdHeEwzeXhKV1dpT09QX0NxaGw3SFo2MHJSeUVn?oc=5",
+          "publishedAt": "2026-06-20T12:40:00Z",
+          "rssPublishedAt": "2026-06-20T12:40:00Z",
+          "sourcePublishedAt": "2026-06-20T12:40:54Z",
+          "displayedAt": "2026-06-20T12:40:00Z"
+        }
+      ],
+      "clusterTitles": [
+        "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb"
+      ],
+      "quality": 45,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -478,12 +480,7 @@
         {
           "label": "Begriffe",
           "points": 3,
-          "text": "PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
+          "text": "TRUMP als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Titel",
@@ -494,19 +491,14 @@
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "PENTAGON"
+        "TRUMP"
       ],
-      "sourceQuality": 55,
-      "displayedAt": "2026-06-27T12:06:37Z"
+      "sourceQuality": 45,
+      "displayedAt": "2026-06-19T08:30:56Z"
     },
     {
       "id": "sighting-russian-astronomer-reports-possible-ufo-sighting-in-omsk-region",
