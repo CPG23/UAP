@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-27T12:06:37Z",
+  "timestamp": "2026-06-28T06:51:50Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -10,7 +10,7 @@
       "date": "2026-05-22",
       "publishedAt": "2026-05-22T00:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 13,
+      "mentions": 14,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -113,6 +113,17 @@
           "rssPublishedAt": "2026-05-19T07:00:00Z",
           "sourcePublishedAt": "2026-05-19T16:30:23Z",
           "displayedAt": "2026-05-19T07:00:00Z"
+        },
+        {
+          "title": "UFO conference lands in Canada as Trump administration continues to release documents",
+          "source": "CTV News",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN0lDSHpndFFrTy1vaEZuU1J2NmY0OEVFVTVpbFN2MXRKTnZkSzQzVkRvbEh6Nmhqa2VfV21uMHhMU0VKaFdDOUs1cXhkVi10amZSclJ0NU9hRUplUUU4THl6OEtVMDRJelV6X2dRQnRTTzA4VUpSSjVUYmhDblpEUTRUdHh6Ui0tcUQ5NUdVLVRaUkNHTnVpd0pKR1hQWTZ4U0NHYUkyX3JHSUg4ODNpUEVOYllveUhhaG5rU0UzNVY0UQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN0lDSHpndFFrTy1vaEZuU1J2NmY0OEVFVTVpbFN2MXRKTnZkSzQzVkRvbEh6Nmhqa2VfV21uMHhMU0VKaFdDOUs1cXhkVi10amZSclJ0NU9hRUplUUU4THl6OEtVMDRJelV6X2dRQnRTTzA4VUpSSjVUYmhDblpEUTRUdHh6Ui0tcUQ5NUdVLVRaUkNHTnVpd0pKR1hQWTZ4U0NHYUkyX3JHSUg4ODNpUEVOYllveUhhaG5rU0UzNVY0UQ?oc=5",
+          "publishedAt": "2026-06-15T07:00:00Z",
+          "rssPublishedAt": "2026-06-15T07:00:00Z",
+          "sourcePublishedAt": "2026-06-15T21:17:18Z",
+          "displayedAt": "2026-06-27T12:06:37Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
@@ -146,8 +157,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 60,
-          "text": "13 Quellen im aktuellen Feed."
+          "points": 65,
+          "text": "14 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -168,7 +179,7 @@
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
@@ -273,103 +284,6 @@
       }
     },
     {
-      "id": "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press",
-      "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion - Associated Press",
-      "source": "Prescott eNews",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOcTZqTi1yQmVMRjRVSXMtTWtGWjFTMHRjUDl6YmEza0k3MlhHeGIxX3FYUUtuU29DcVZIc202VEpYeDU1ZGdibW54YWxLb3BTbU5Fb0lnVU1ueVRfaFIza0gwc05IYlh5VlItbTFfUGlqV2FFeTRKd0lkZnRyRUlLN3FZUzRhRWlIZ0I3d1NLLVBTa1ZkNXBRZ0pfSUg2MmowUFFqaUlKS0hEa0RTM0Z1QlBZRERtVU5WLVNSUTdXUjZGSUw4VlIwQ2M5TGQwbmY1MzNfRVRxc1djTzJMMHdYQXVnZDBNVmc?oc=5",
-      "date": "2026-06-09",
-      "publishedAt": "2026-06-14T05:05:28Z",
-      "summary": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion Posted Jun 12, 2026 08:01:58 AM. LOS ANGELES (AP) — In “Disclosure Day,” out Friday, Steven Spielberg is once again inviting audiences to ponder the existence of extraterrestrial life — and the implications it would have for religion on Earth. But Spielberg is hardly the only one making headlines of late about UFOs and the possibility of life on other planets. What was once considered fringe or conspiratorial has in recent months popped up everywhere from the White House to the Catholic Church, as public fascination with unidentified anomalous phenomena — or UAPs, as the government calls them — becomes more mainstream.",
-      "mentions": 3,
-      "otherSources": [
-        {
-          "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUjNKUnh5by1rVjRITHBsaGpfTmNIaU5wN1RTbk41RkdaQzNqYzJNRjAtU09YdjJucE5HdkRLbVUwT0JUV2E0T2JKX1c4RkUwV0oyQ0hFQ2xCTUlTcE1ncUdUZDZiMUVTS2ptY3VncnNVR0F0S3Y0b1ZxVFc3c3ZXTHd3QVVrWWZFOEM0cnZnNDQ?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUjNKUnh5by1rVjRITHBsaGpfTmNIaU5wN1RTbk41RkdaQzNqYzJNRjAtU09YdjJucE5HdkRLbVUwT0JUV2E0T2JKX1c4RkUwV0oyQ0hFQ2xCTUlTcE1ncUdUZDZiMUVTS2ptY3VncnNVR0F0S3Y0b1ZxVFc3c3ZXTHd3QVVrWWZFOEM0cnZnNDQ?oc=5",
-          "source": "Boston Herald",
-          "publishedAt": "2026-06-12T15:23:33Z",
-          "rssPublishedAt": "2026-06-12T15:23:33Z",
-          "sourcePublishedAt": "2026-06-12T15:10:31Z",
-          "displayedAt": "2026-06-12T15:23:33Z"
-        },
-        {
-          "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion",
-          "source": "CityNews Halifax",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ2N1X0QwYktnenIxTzFBQXNjQjhWc0paR0M3dm9VMzh6RjluMU9rUllEUlBqd3UxRWI4Y25NUzRwRkVhWF9zX25tSDc5N1Y2V0Nsek8tZGZBYlFsQ09MM0c2NzZqVGpJUS1vY0dxUF93Z1dhZjJ3YzA3QlJJVk5vOUJpc3BIZVEzT3Q3a2w3MGNCTkl0eDhsaERWbHROTVZvazhWeGJ0WG4yZUxhb2hHY1JjTUpINzYyZ1BNdndwdkt6a250QU9yWktCZnZjUi0taERJ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ2N1X0QwYktnenIxTzFBQXNjQjhWc0paR0M3dm9VMzh6RjluMU9rUllEUlBqd3UxRWI4Y25NUzRwRkVhWF9zX25tSDc5N1Y2V0Nsek8tZGZBYlFsQ09MM0c2NzZqVGpJUS1vY0dxUF93Z1dhZjJ3YzA3QlJJVk5vOUJpc3BIZVEzT3Q3a2w3MGNCTkl0eDhsaERWbHROTVZvazhWeGJ0WG4yZUxhb2hHY1JjTUpINzYyZ1BNdndwdkt6a250QU9yWktCZnZjUi0taERJ?oc=5",
-          "publishedAt": "2026-06-12T11:48:51Z",
-          "rssPublishedAt": "2026-06-12T11:48:51Z",
-          "sourcePublishedAt": "2026-06-12T11:01:58Z",
-          "displayedAt": "2026-06-12T11:48:51Z"
-        }
-      ],
-      "clusterTitles": [
-        "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion",
-        "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion"
-      ],
-      "quality": 75,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "CLASSIFIED, WHISTLEBLOWER als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "CLASSIFIED, WHISTLEBLOWER als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "released"
-      ],
-      "sourceQuality": 75,
-      "displayedAt": "2026-06-14T05:05:28Z",
-      "sourceDisplayedAt": "2026-06-17T14:27:50Z",
-      "translation": {
-        "en": {
-          "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion - Associated Press",
-          "summary": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion Posted Jun 12, 2026 08:01:58 AM. LOS ANGELES (AP) — In “Disclosure Day,” out Friday, Steven Spielberg is once again inviting audiences to ponder the existence of extraterrestrial life — and the implications it would have for religion on Earth. But Spielberg is hardly the only one making headlines of late about UFOs and the possibility of life on other planets.",
-          "sourceHash": "ce81677c788e026bc8c79fdce4c9632110a9cfd3",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Da UFOs immer beliebter werden, ist sich die Jury nicht einig, was die Existenz außerirdischen Lebens für die Religion bedeuten könnte – Associated Press",
-          "summary": "Da UFOs immer beliebter werden, ist sich die Jury nicht einig, was die Existenz außerirdischen Lebens für die Religion bedeuten könnte. Gepostet am 12. Juni 2026 um 08:01:58 Uhr. LOS ANGELES (AP) – In „Disclosure Day“, der am Freitag erscheint, lädt Steven Spielberg das Publikum erneut dazu ein, über die Existenz außerirdischen Lebens nachzudenken – und über die Auswirkungen, die es auf die Religion auf der Erde haben würde. Aber Spielberg ist nicht der Einzige, der in letzter Zeit Schlagzeilen über UFOs und die Möglichkeit von Leben auf anderen Planeten macht.",
-          "sourceHash": "ce81677c788e026bc8c79fdce4c9632110a9cfd3",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
-    {
       "id": "program-new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery",
       "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
       "source": "DefenseScoop",
@@ -443,6 +357,10 @@
       ],
       "sourceQuality": 76,
       "displayedAt": "2026-06-19T08:30:56Z",
+      "rssPublishedAt": "2026-06-17T07:00:00Z",
+      "rssDate": "2026-06-26",
+      "sourcePublishedAt": "2026-06-17T21:31:11Z",
+      "sourceDisplayedAt": "2026-06-19T08:30:56Z",
       "translation": {
         "en": {
           "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
@@ -456,12 +374,7 @@
           "sourceHash": "01a2386f656403de88451b6e7ca6a22b0b1c188c",
           "provider": "google"
         }
-      },
-      "rssPublishedAt": "2026-06-17T07:00:00Z",
-      "rssDate": "2026-06-26",
-      "sourcePublishedAt": "2026-06-17T21:31:11Z",
-      "sourceDisplayedAt": "2026-06-19T08:30:56Z",
-      "retainedFromPreviousScan": true
+      }
     },
     {
       "id": "latest-push-for-uap-disclosure-could-be-dead-end-plot-researcher-katie-pavlich-tonight",
@@ -674,84 +587,6 @@
       "sourceIsNew": true
     },
     {
-      "id": "program-ufo-conference-lands-in-canada-as-trump-administration-continues-to-release-documents",
-      "title": "UFO conference lands in Canada as Trump administration continues to release documents",
-      "source": "CTV News",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN0lDSHpndFFrTy1vaEZuU1J2NmY0OEVFVTVpbFN2MXRKTnZkSzQzVkRvbEh6Nmhqa2VfV21uMHhMU0VKaFdDOUs1cXhkVi10amZSclJ0NU9hRUplUUU4THl6OEtVMDRJelV6X2dRQnRTTzA4VUpSSjVUYmhDblpEUTRUdHh6Ui0tcUQ5NUdVLVRaUkNHTnVpd0pKR1hQWTZ4U0NHYUkyX3JHSUg4ODNpUEVOYllveUhhaG5rU0UzNVY0UQ?oc=5",
-      "date": "2026-06-26",
-      "publishedAt": "2026-06-15T07:00:00Z",
-      "summary": "A leading scientific UFO conference will take place in Canada this summer. The Trump administration is continuing its rolling release of decades of unusual videos, images, and reports. The conference coincides with the release of these documents.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 71,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DISCLOSURE, SENATE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "DISCLOSURE, SENATE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE",
-        "SENATE"
-      ],
-      "sourceQuality": 71,
-      "displayedAt": "2026-06-27T12:06:37Z",
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "rssPublishedAt": "2026-06-15T07:00:00Z",
-      "rssDate": "2026-06-26",
-      "sourcePublishedAt": "2026-06-15T21:17:18Z",
-      "sourceDisplayedAt": "2026-06-27T12:06:37Z",
-      "sourceIsNew": true,
-      "translation": {
-        "en": {
-          "title": "UFO conference lands in Canada as Trump administration continues to release documents",
-          "summary": "A leading scientific UFO conference will take place in Canada this summer. The Trump administration is continuing its rolling release of decades of unusual videos, images, and reports. The conference coincides with the release of these documents.",
-          "sourceHash": "dcf923e1b485e95cb166c5df43972d6598818199",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Die UFO-Konferenz findet in Kanada statt, während die Trump-Regierung weiterhin Dokumente veröffentlicht",
-          "summary": "Diesen Sommer findet in Kanada eine führende wissenschaftliche UFO-Konferenz statt. Die Trump-Administration setzt die fortlaufende Veröffentlichung ungewöhnlicher Videos, Bilder und Berichte über Jahrzehnte fort. Die Konferenz fällt mit der Veröffentlichung dieser Dokumente zusammen.",
-          "sourceHash": "dcf923e1b485e95cb166c5df43972d6598818199",
-          "provider": "google"
-        }
-      }
-    },
-    {
       "id": "ufo-transparency-at-the-heart-of-disclosure-forum",
       "title": "UFO transparency at the heart of Disclosure Forum",
       "source": "NewsNation",
@@ -809,8 +644,7 @@
       },
       "sourceQuality": 65,
       "displayedAt": "2026-06-26T06:42:14Z",
-      "sourceDisplayedAt": "2026-06-26T06:42:14Z",
-      "sourceIsNew": true
+      "sourceDisplayedAt": "2026-06-26T06:42:14Z"
     },
     {
       "id": "film-disclosure-day-2026-box-office-performance-crashes-like-a-ufo-in-roswell",
@@ -862,9 +696,6 @@
       ],
       "sourceQuality": 56,
       "displayedAt": "2026-06-25T06:40:27Z",
-      "rssPublishedAt": "2026-06-24T13:15:39Z",
-      "rssDate": "2026-06-24",
-      "sourcePublishedAt": "2026-06-24T13:15:39Z",
       "sourceDisplayedAt": "2026-06-25T06:40:27Z",
       "translation": {
         "en": {
@@ -877,6 +708,76 @@
           "title": "Disclosure Day (2026) Die Vorstellung an den Kinokassen stürzt wie ein UFO in Roswell ab",
           "summary": "Steven Spielbergs Alien-Invasionsfilm „Disclosure Day“ startete am 12. Juni 2026 in den Kinos. Nach knapp zwei Wochen hat der Film weltweit 162,7 Millionen US-Dollar eingespielt, davon kamen nur 80,8 Millionen US-Dollar aus Nordamerika. Die Einnahmen des Films gingen am zweiten Wochenende um 62 % zurück, und die Produktionskosten von 115 Millionen US-Dollar bedeuten, dass an den Kinokassen etwa 280 Millionen US-Dollar nötig wären, um die Gewinnschwelle zu erreichen.",
           "sourceHash": "00f1c84e0fbb97b668bf349dbadbf3e095a6666e",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "file-release-ufo-conference-lands-in-canada-as-trump-administration-continues-to-release-documents",
+      "title": "UFO conference lands in Canada as Trump administration continues to release documents",
+      "source": "CTV News",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN0lDSHpndFFrTy1vaEZuU1J2NmY0OEVFVTVpbFN2MXRKTnZkSzQzVkRvbEh6Nmhqa2VfV21uMHhMU0VKaFdDOUs1cXhkVi10amZSclJ0NU9hRUplUUU4THl6OEtVMDRJelV6X2dRQnRTTzA4VUpSSjVUYmhDblpEUTRUdHh6Ui0tcUQ5NUdVLVRaUkNHTnVpd0pKR1hQWTZ4U0NHYUkyX3JHSUg4ODNpUEVOYllveUhhaG5rU0UzNVY0UQ?oc=5",
+      "date": "2026-06-17",
+      "publishedAt": "2026-06-15T07:00:00Z",
+      "summary": "In February 2022, five U.S. Army service members near Cheyenne, Colorado, observed a translucent, milky, potato‑shaped object that shimmered and had irregular, fish‑scale‑like panels that shifted in slow waves before vanishing after about two minutes; the witness reported it cloaked quickly and cast no shadow. A Department of Defense report attributes the sighting to possible backscattering of sunlight from the sun over the mountain, offering a potential natural explanation. Wyoming attorney Rich Barrett, who saw a massive noiseless device with his father in 1991, says he does not expect answers for either that event or the 2022 Army sighting, though he notes increased transparency under the Trump administration. New Jersey Army National Guard Colonel David Melendez considers the object could be an experimental U.S. craft but remains open to extraterrestrial possibilities, noting that the U.S. military may withhold details on a need‑to‑know basis and that UAP videos are often grainy. Wyoming officials, including Adjutant General Greg Porter and lawmakers, have reported no UAP incidents over state airspace, though some sightings near federal facilities have been noted; a bill to allow the governor to activate the National Guard against drone incursions was vetoed and later overridden. Eight Wyoming sheriffs confirmed reports of strange drone‑like sightings in January 2025, with the Sweetwater County Sheriff describing them as the \"new normal\" and stating that the objects have not caused harm but would be acted upon if they posed imminent danger.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 55,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "PENTAGON"
+      ],
+      "sourceQuality": 55,
+      "displayedAt": "2026-06-27T12:06:37Z",
+      "rssPublishedAt": "2026-06-15T07:00:00Z",
+      "rssDate": "2026-06-17",
+      "sourcePublishedAt": "2026-06-15T21:17:18Z",
+      "sourceDisplayedAt": "2026-06-27T12:06:37Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "UFO conference lands in Canada as Trump administration continues to release documents",
+          "summary": "In February 2022, five U.S. Army service members near Cheyenne, Colorado, observed a translucent, milky, potato‑shaped object that shimmered and had irregular, fish‑scale‑like panels that shifted in slow waves before vanishing after about two minutes; the witness reported it cloaked quickly and cast no shadow. A Department of Defense report attributes the sighting to possible backscattering of sunlight from the sun over the mountain, offering a potential natural explanation.",
+          "sourceHash": "6d43237550ada38d83dd2cba8d30bbbddb2b07e9",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Die UFO-Konferenz findet in Kanada statt, während die Trump-Regierung weiterhin Dokumente veröffentlicht",
+          "summary": "Im Februar 2022 beobachteten fünf Angehörige der US-Armee in der Nähe von Cheyenne, Colorado, ein durchscheinendes, milchiges, kartoffelförmiges Objekt, das schimmerte und unregelmäßige, fischschuppenartige Felder aufwies, die sich in langsamen Wellen bewegten, bevor sie nach etwa zwei Minuten verschwanden; Der Zeuge berichtete, dass es sich schnell verhüllte und keinen Schatten warf. Ein Bericht des Verteidigungsministeriums führt die Sichtung auf eine mögliche Rückstreuung des Sonnenlichts von der Sonne über dem Berg zurück und bietet damit eine mögliche natürliche Erklärung.",
+          "sourceHash": "6d43237550ada38d83dd2cba8d30bbbddb2b07e9",
           "provider": "google"
         }
       }
@@ -978,31 +879,22 @@
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
     "program-new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery": "Investigative journalist Ross Coulthart said a skeptic on the new UAP Science Advisory Council could help the panel, but he worries that Michael Shermer, founder of The Skeptics Society, may be too biased against the topic. Coulthart cited Shermer’s pejorative remarks about whistleblower David Grusch, who claims the government has a secret program to retrieve alien technology, and said he prefers skeptics who are not debunkers. Shermer, who was named to the council, replied that he generally tries to be non‑disparaging and that Grusch deflects when asked for evidence, saying details are classified. The council, which also includes Harvard physicist Avi Loeb, will advise the federal government on how to collect better data on unidentified anomalous phenomena and assess potential national‑security threats. Shermer said most UFO sightings are explainable, wants detailed data to analyze, and believes it is unlikely that extraterrestrials have visited Earth, while offering to join Coulthart on a podcast for a thoughtful conversation.",
     "sighting-uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep. Eric Burlison, and Rep. Tim Burchett. Disclosure Foundation board members Professor Avi Loeb and Mike Gold spoke, with Gold noting that a poll shows 89 % of Republicans and 88 % of Democrats want more UAP information and describing UAP as a national security issue. Loeb, recently appointed by the White House to lead the UAP Science Advisory Council, said the federal government must allocate resources to analyze existing data and gather clearer new data on UAP. The forum also highlighted a 2015 Department of Defense video labeled Gimbal that shows an unexplained object, underscoring the need for further investigation. Some advisory council members are skeptical of UAP claims, indicating that belief in UAP is not universal among participants.",
-    "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion Posted Jun 12, 2026 08:01:58 AM. LOS ANGELES (AP) — In “Disclosure Day,” out Friday, Steven Spielberg is once again inviting audiences to ponder the existence of extraterrestrial life — and the implications it would have for religion on Earth. But Spielberg is hardly the only one making headlines of late about UFOs and the possibility of life on other planets. What was once considered fringe or conspiratorial has in recent months popped up everywhere from the White House to the Catholic Church, as public fascination with unidentified anomalous phenomena — or UAPs, as the government calls them — becomes more mainstream.",
-    "program-ufo-conference-lands-in-canada-as-trump-administration-continues-to-release-documents": "A leading scientific UFO conference will take place in Canada this summer. The Trump administration is continuing its rolling release of decades of unusual videos, images, and reports. The conference coincides with the release of these documents.",
     "film-disclosure-day-2026-box-office-performance-crashes-like-a-ufo-in-roswell": "Steven Spielberg's alien invasion film \"Disclosure Day\" opened in theaters on June 12, 2026. After just under two weeks, the movie has earned $162.7 million worldwide, with only $80.8 million coming from North America. The film's revenue fell 62 % in its second weekend, and its $115 million production cost means it would need about $280 million at the box office to break even. Because of the weak performance, Universal may pull the film from theatrical rotation if the trend continues, while the studio plans to accelerate online and digital releases. The movie stars Emily Blunt and is still currently playing in theaters, encouraging viewers to book tickets before it potentially closes.",
+    "file-release-ufo-conference-lands-in-canada-as-trump-administration-continues-to-release-documents": "In February 2022, five U.S. Army service members near Cheyenne, Colorado, observed a translucent, milky, potato‑shaped object that shimmered and had irregular, fish‑scale‑like panels that shifted in slow waves before vanishing after about two minutes; the witness reported it cloaked quickly and cast no shadow. A Department of Defense report attributes the sighting to possible backscattering of sunlight from the sun over the mountain, offering a potential natural explanation. Wyoming attorney Rich Barrett, who saw a massive noiseless device with his father in 1991, says he does not expect answers for either that event or the 2022 Army sighting, though he notes increased transparency under the Trump administration. New Jersey Army National Guard Colonel David Melendez considers the object could be an experimental U.S. craft but remains open to extraterrestrial possibilities, noting that the U.S. military may withhold details on a need‑to‑know basis and that UAP videos are often grainy. Wyoming officials, including Adjutant General Greg Porter and lawmakers, have reported no UAP incidents over state airspace, though some sightings near federal facilities have been noted; a bill to allow the governor to activate the National Guard against drone incursions was vetoed and later overridden. Eight Wyoming sheriffs confirmed reports of strange drone‑like sightings in January 2025, with the Sweetwater County Sheriff describing them as the \"new normal\" and stating that the objects have not caused harm but would be acted upon if they posed imminent danger.",
     "file-release-newly-released-ufo-files-allege-china-and-russia-retrieved-downed-uaps-and-attempted-to-reverse-engineer-them": "Newly released UFO files made public on June 12 allege that China and Russia have retrieved downed UAPs and attempted to reverse‑engineer them. Jordan Flowers, executive director of the UAP Disclosure Foundation, said the files show foreign adversaries are engaged in research that could threaten U.S. national security. Flowers cited whistleblower David Grusch, who warned that the U.S. is aware of Russian and Chinese surveillance of its UAP programs and that a global race to reverse‑engineer the objects has extreme national‑security implications. The UAP Disclosure Foundation announced a forum in Washington, D.C., on June 25 to discuss the national‑security, technological, and religious implications of UAP disclosure. A CIA cable from July 2, 2008 placed U.S. assets in Zimbabwe on high alert after a UFO hovered over Harare airport, with beams and rotating lights, sparking debate over whether the craft was a foreign reconnaissance device or an extraterrestrial object."
   },
   "notificationBatch": {
-    "timestamp": "2026-06-27T12:06:37Z",
-    "ids": [
-      "program-ufo-conference-lands-in-canada-as-trump-administration-continues-to-release-documents"
-    ],
-    "articles": [
-      {
-        "id": "program-ufo-conference-lands-in-canada-as-trump-administration-continues-to-release-documents",
-        "title": "UFO conference lands in Canada as Trump administration continues to release documents",
-        "source": "CTV News"
-      }
-    ]
+    "timestamp": "2026-06-28T06:51:50Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 363,
+    "broadArticles": 362,
     "broadTopics": 151,
     "notificationArticles": 1,
     "notificationTopics": 1,
-    "newNotificationTopics": 0,
-    "appTopics": 12,
+    "newNotificationTopics": 1,
+    "appTopics": 11,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
@@ -1017,14 +909,14 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 6,
-      "repaired": 1,
+      "attempts": 5,
+      "repaired": 0,
       "fallbackRepaired": 0,
       "missing": 5
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 12,
+      "kept": 11,
       "missing": 5,
       "missingItems": [
         {
@@ -1061,15 +953,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 11,
-      "outputArticles": 9,
-      "preservedSourceSummaries": 3
+      "inputArticles": 12,
+      "outputArticles": 10,
+      "preservedSourceSummaries": 5
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 9,
-      "outputArticles": 9,
-      "missingSummaries": 6,
+      "inputArticles": 10,
+      "outputArticles": 10,
+      "missingSummaries": 5,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -1099,8 +991,8 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 10,
-      "outputArticles": 10,
+      "inputArticles": 11,
+      "outputArticles": 11,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
@@ -1111,54 +1003,51 @@
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 10,
+      "inputArticles": 11,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 12,
-      "currentBeforeRestore": 10,
-      "restoredArticles": 2,
+      "currentBeforeRestore": 11,
+      "restoredArticles": 0,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
-      "restoredTitles": [
-        "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion - Associated Press",
-        "New science advisory council forms to help US government ‘resolve the UAP mystery’"
-      ]
+      "restoredTitles": []
     },
     "finalFeedSourceConsistency": {
       "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v5_restore_department_sources",
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 12
+      "articlesRefreshed": 11
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 31,
-      "updatedSources": 7,
+      "checkedSources": 29,
+      "updatedSources": 8,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 12,
+      "updatedTopics": 11,
       "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 12,
-      "newTopics": 0,
-      "topicsWithNewSources": 0
+      "correctedExistingTopics": 10,
+      "newTopics": 1,
+      "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 44
+      "seededSeenFromPreviousFeed": 41
     }
   },
   "translations": {
@@ -1171,7 +1060,7 @@
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }
@@ -1190,20 +1079,6 @@
         "provider": "google"
       }
     },
-    "as-ufos-go-mainstream-the-jury-is-out-on-what-the-existence-of-alien-life-might-mean-for-religion-associated-press": {
-      "en": {
-        "title": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion - Associated Press",
-        "summary": "As UFOs go mainstream, the jury is out on what the existence of alien life might mean for religion Posted Jun 12, 2026 08:01:58 AM. LOS ANGELES (AP) — In “Disclosure Day,” out Friday, Steven Spielberg is once again inviting audiences to ponder the existence of extraterrestrial life — and the implications it would have for religion on Earth. But Spielberg is hardly the only one making headlines of late about UFOs and the possibility of life on other planets.",
-        "sourceHash": "ce81677c788e026bc8c79fdce4c9632110a9cfd3",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Da UFOs immer beliebter werden, ist sich die Jury nicht einig, was die Existenz außerirdischen Lebens für die Religion bedeuten könnte – Associated Press",
-        "summary": "Da UFOs immer beliebter werden, ist sich die Jury nicht einig, was die Existenz außerirdischen Lebens für die Religion bedeuten könnte. Gepostet am 12. Juni 2026 um 08:01:58 Uhr. LOS ANGELES (AP) – In „Disclosure Day“, der am Freitag erscheint, lädt Steven Spielberg das Publikum erneut dazu ein, über die Existenz außerirdischen Lebens nachzudenken – und über die Auswirkungen, die es auf die Religion auf der Erde haben würde. Aber Spielberg ist nicht der Einzige, der in letzter Zeit Schlagzeilen über UFOs und die Möglichkeit von Leben auf anderen Planeten macht.",
-        "sourceHash": "ce81677c788e026bc8c79fdce4c9632110a9cfd3",
-        "provider": "google"
-      }
-    },
     "program-new-science-advisory-council-forms-to-help-us-government-resolve-the-uap-mystery": {
       "en": {
         "title": "New science advisory council forms to help US government ‘resolve the UAP mystery’",
@@ -1218,20 +1093,6 @@
         "provider": "google"
       }
     },
-    "program-ufo-conference-lands-in-canada-as-trump-administration-continues-to-release-documents": {
-      "en": {
-        "title": "UFO conference lands in Canada as Trump administration continues to release documents",
-        "summary": "A leading scientific UFO conference will take place in Canada this summer. The Trump administration is continuing its rolling release of decades of unusual videos, images, and reports. The conference coincides with the release of these documents.",
-        "sourceHash": "dcf923e1b485e95cb166c5df43972d6598818199",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Die UFO-Konferenz findet in Kanada statt, während die Trump-Regierung weiterhin Dokumente veröffentlicht",
-        "summary": "Diesen Sommer findet in Kanada eine führende wissenschaftliche UFO-Konferenz statt. Die Trump-Administration setzt die fortlaufende Veröffentlichung ungewöhnlicher Videos, Bilder und Berichte über Jahrzehnte fort. Die Konferenz fällt mit der Veröffentlichung dieser Dokumente zusammen.",
-        "sourceHash": "dcf923e1b485e95cb166c5df43972d6598818199",
-        "provider": "google"
-      }
-    },
     "film-disclosure-day-2026-box-office-performance-crashes-like-a-ufo-in-roswell": {
       "en": {
         "title": "Disclosure Day (2026) Box Office performance crashes like a UFO in Roswell",
@@ -1243,6 +1104,20 @@
         "title": "Disclosure Day (2026) Die Vorstellung an den Kinokassen stürzt wie ein UFO in Roswell ab",
         "summary": "Steven Spielbergs Alien-Invasionsfilm „Disclosure Day“ startete am 12. Juni 2026 in den Kinos. Nach knapp zwei Wochen hat der Film weltweit 162,7 Millionen US-Dollar eingespielt, davon kamen nur 80,8 Millionen US-Dollar aus Nordamerika. Die Einnahmen des Films gingen am zweiten Wochenende um 62 % zurück, und die Produktionskosten von 115 Millionen US-Dollar bedeuten, dass an den Kinokassen etwa 280 Millionen US-Dollar nötig wären, um die Gewinnschwelle zu erreichen.",
         "sourceHash": "00f1c84e0fbb97b668bf349dbadbf3e095a6666e",
+        "provider": "google"
+      }
+    },
+    "file-release-ufo-conference-lands-in-canada-as-trump-administration-continues-to-release-documents": {
+      "en": {
+        "title": "UFO conference lands in Canada as Trump administration continues to release documents",
+        "summary": "In February 2022, five U.S. Army service members near Cheyenne, Colorado, observed a translucent, milky, potato‑shaped object that shimmered and had irregular, fish‑scale‑like panels that shifted in slow waves before vanishing after about two minutes; the witness reported it cloaked quickly and cast no shadow. A Department of Defense report attributes the sighting to possible backscattering of sunlight from the sun over the mountain, offering a potential natural explanation.",
+        "sourceHash": "6d43237550ada38d83dd2cba8d30bbbddb2b07e9",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Die UFO-Konferenz findet in Kanada statt, während die Trump-Regierung weiterhin Dokumente veröffentlicht",
+        "summary": "Im Februar 2022 beobachteten fünf Angehörige der US-Armee in der Nähe von Cheyenne, Colorado, ein durchscheinendes, milchiges, kartoffelförmiges Objekt, das schimmerte und unregelmäßige, fischschuppenartige Felder aufwies, die sich in langsamen Wellen bewegten, bevor sie nach etwa zwei Minuten verschwanden; Der Zeuge berichtete, dass es sich schnell verhüllte und keinen Schatten warf. Ein Bericht des Verteidigungsministeriums führt die Sichtung auf eine mögliche Rückstreuung des Sonnenlichts von der Sonne über dem Berg zurück und bietet damit eine mögliche natürliche Erklärung.",
+        "sourceHash": "6d43237550ada38d83dd2cba8d30bbbddb2b07e9",
         "provider": "google"
       }
     },
@@ -1262,7 +1137,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 7,
+    "prepared": 6,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
