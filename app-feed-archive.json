@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-30T06:43:40Z",
+  "timestamp": "2026-06-30T13:05:32Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -77,8 +77,7 @@
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yQWdXTjVzTGl6NzZMMS1qMUhpWGdiU21reV9sZGRENS1rNFJmVWg3NlRPb215M0thMXRNTV8tSGVTUU1KbHVadkRNYjQzMERidTZJU2Y5Y1BUM0hOWmZmRjZmckx6M3ItcjhNbk9VLTQzN0g1TTJza3FMR1rSAYIBQVVfeXFMTVNTaTVueFZTRi1TSzMyQjBGRGFESjJTLVRGUWRqLXA1WlkxVDRUVXJTaUh6QnhlZVV2TWNpSW1PZGE0SnpZVnVzSEdvanNKN0JiaHhRdHJ4MnpqWWJ5ektRVWlfLXFKb2R0SFZrNGhGaG9oazBPTWJNUFlFNlpna2g3dw?oc=5",
           "source": "NewsNation",
           "publishedAt": "2026-06-28T04:12:10Z",
-          "displayedAt": "2026-06-28T12:13:44Z",
-          "isNew": true
+          "displayedAt": "2026-06-28T04:12:10Z"
         }
       ],
       "clusterTitles": [
@@ -558,7 +557,7 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 54,
-      "displayedAt": "2026-06-30T06:43:40Z"
+      "displayedAt": "2026-06-19T07:00:00Z"
     },
     {
       "id": "uap-expert-says-whistleblowers-need-legal-protections-from-threats-retribution",
