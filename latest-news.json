@@ -1,40 +1,23 @@
 {
-  "timestamp": "2026-07-03T06:20:40Z",
+  "timestamp": "2026-07-03T12:53:48Z",
   "articles": [
     {
-      "id": "what-does-the-second-batch-of-ufo-files-tell-us",
-      "title": "What does the second batch of UFO files tell us?",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
+      "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+      "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+      "source": "U.S. Department of War (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
       "date": "2026-07-01",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 14,
+      "mentions": 12,
       "otherSources": [
         {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "source": "U.S. Department of War (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-07-02T06:30:05Z",
-          "isNew": true
-        },
-        {
           "title": "US releases second batch of government declassified UFO files",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
+          "source": "Reuters",
           "publishedAt": "2026-05-22T07:00:00Z",
           "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "source": "U.S. Department of War (.gov)",
-          "link": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-          "publishedAt": "2026-05-22T00:00:00Z",
-          "displayedAt": "2026-05-22T00:00:00Z"
         },
         {
           "title": "Pentagon releases new batch of UFO files",
@@ -58,9 +41,9 @@
         },
         {
           "title": "Pentagon unveils new batch of UFO files",
-          "source": "Big News Network.com",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZllVRGhOOUhwNmpSNk1aRkFlZl9ud3V1eTFOcHRJT2FPdGFBMzVoUlE4V0hxM01May1pWXlBMGsyRUxZeThPWUFrZ3VLWnJhRUVlUDYtZjByUWdEblB1T0VvWnRnZVZkUFhYLUZVTkppbE5GNDM1UUEzc2FZQ2hpbWoyOVBmMzNZZTFMV3NB?oc=5",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZllVRGhOOUhwNmpSNk1aRkFlZl9ud3V1eTFOcHRJT2FPdGFBMzVoUlE4V0hxM01May1pWXlBMGsyRUxZeThPWUFrZ3VLWnJhRUVlUDYtZjByUWdEblB1T0VvWnRnZVZkUFhYLUZVTkppbE5GNDM1UUEzc2FZQ2hpbWoyOVBmMzNZZTFMV3NB?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZllVRGhOOUhwNmpSNk1aRkFlZl9ud3V1eTFOcHRJT2FPdGFBMzVoUlE4V0hxM01May1pWXlBMGsyRUxZeThPWUFrZ3VLWnJhRUVlUDYtZjByUWdEblB1T0VvWnRnZVZkUFhYLUZVTkppbE5GNDM1UUEzc2FZQ2hpbWoyOVBmMzNZZTFMV3NB?oc=5",
+          "source": "Big News Network.com",
           "publishedAt": "2026-06-13T07:00:00Z",
           "displayedAt": "2026-06-13T07:00:00Z"
         },
@@ -72,8 +55,7 @@
           "publishedAt": "2026-06-12T07:00:00Z",
           "rssPublishedAt": "2026-06-12T07:00:00Z",
           "sourcePublishedAt": "2026-06-12T14:07:50Z",
-          "displayedAt": "2026-07-02T06:30:05Z",
-          "isNew": true
+          "displayedAt": "2026-06-12T07:00:00Z"
         },
         {
           "title": "Pentagon releases new batch of declassified UFO files",
@@ -108,6 +90,14 @@
           "displayedAt": "2026-05-22T07:00:00Z"
         },
         {
+          "title": "What does the second batch of UFO files tell us?",
+          "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
+          "publishedAt": "2026-05-22T07:00:00Z",
+          "displayedAt": "2026-05-22T07:00:00Z"
+        },
+        {
           "title": "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
           "source": "Fox News",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
@@ -116,30 +106,19 @@
           "rssPublishedAt": "2026-05-19T07:00:00Z",
           "sourcePublishedAt": "2026-05-19T16:30:23Z",
           "displayedAt": "2026-05-19T07:00:00Z"
-        },
-        {
-          "title": "The Harvard astronomer dubbed Trump’s chief alien hunter starts by assuming UFOs human-made",
-          "source": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82TnJHdURjY2ZLYm12OVZCLTZ4X3BqdXNrekIxZkMyVnJjdjJacTEyTXpXRE9seHk1VER4dF9sWFZjdmFXSmxsdVpQTFRZOHFRYUxRYld1YWhWOWtvWlhac3ZaejZlYlRJdGNMd1FqRjY3VTdEcER0Q3VUeTB4dw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82TnJHdURjY2ZLYm12OVZCLTZ4X3BqdXNrekIxZkMyVnJjdjJacTEyTXpXRE9seHk1VER4dF9sWFZjdmFXSmxsdVpQTFRZOHFRYUxRYld1YWhWOWtvWlhac3ZaejZlYlRJdGNMd1FqRjY3VTdEcER0Q3VUeTB4dw?oc=5",
-          "publishedAt": "2026-07-01T18:16:00Z",
-          "rssPublishedAt": "2026-07-01T18:16:00Z",
-          "sourcePublishedAt": "2026-07-01T18:16:56Z",
-          "displayedAt": "2026-07-02T12:54:35Z",
-          "isNew": true
         }
       ],
       "clusterTitles": [
-        "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "US releases second batch of government declassified UFO files",
-        "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "Pentagon releases new batch of UFO files",
         "The Pentagon Just Released Its Third Batch of UAP Files—What Have We Learned from the PURSUE Releases So Far?",
         "Pentagon unveils new batch of UFO files",
         "Pentagon Releases New Batch of UFO Files Including New Mystery Orb Images, Videos",
         "Pentagon releases new batch of declassified UFO files",
         "New videos from Pentagon’s second batch of UFO files",
-        "Pentagon releases new batch of UFO files"
+        "Pentagon releases new batch of UFO files",
+        "Highlights From 2nd Batch of Declassified UFO Files",
+        "What does the second batch of UFO files tell us?"
       ],
       "quality": 100,
       "qualityBreakdown": [
@@ -180,28 +159,29 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 65,
-          "text": "14 Quellen im aktuellen Feed."
+          "points": 55,
+          "text": "12 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "files"
+        "alien",
+        "trump"
       ],
       "sourceQuality": 100,
       "displayedAt": "2026-05-22T07:00:00Z",
-      "sourceDisplayedAt": "2026-05-22T07:00:00Z",
+      "sourceDisplayedAt": "2026-07-02T06:30:05Z",
       "translation": {
         "en": {
-          "title": "What does the second batch of UFO files tell us?",
+          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
           "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-          "sourceHash": "4bcc963b43fea52ec7d91966a0fb5abf91312e28",
+          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "original"
         },
         "de": {
-          "title": "Was sagt uns der zweite Stapel UFO-Dateien?",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-          "sourceHash": "4bcc963b43fea52ec7d91966a0fb5abf91312e28",
+          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
       }
@@ -294,13 +274,12 @@
           "provider": "original"
         },
         "de": {
-          "title": "Im UAP-Forum wird die Öffentlichkeit von Gesetzgebern und Whistleblowern zur Offenlegung 2026 hören | GERECHTIGKEIT - IUSTITIA.BG 2025",
+          "title": "Das UAP-Forum wird der Öffentlichkeit Gelegenheit geben, sich von Gesetzgebern und Whistleblowern über die Offenlegung 2026 zu informieren | GERECHTIGKEIT - IUSTITIA.BG 2025",
           "summary": "Das Disclosure Forum 2026, das am Donnerstag in Washington, D.C. stattfand, brachte fast zwei Dutzend Gesetzgeber, ehemalige Geheimdienstmitarbeiter, Forscher und Whistleblower zusammen, um über die Offenlegung von UAP zu diskutieren. In den Podiumsdiskussionen und Rundtischgesprächen unter dem Motto „Die Menschheit am Rande der Entdeckung“ ging es um Fragen zu Sicherheit, Verteidigung und Politik. Redner waren unter anderem Senatorin Kirsten Gillibrand, Rep.",
           "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
           "provider": "google"
         }
-      },
-      "retainedFromPreviousScan": true
+      }
     },
     {
       "id": "ufo-disclosure-details-emerge-on-invasion-of-washington-tape-newsnation-prime",
@@ -538,75 +517,6 @@
       }
     },
     {
-      "id": "new-uap-panel-to-advise-feds-a-completely-different-mindset-elizabeth-vargas-reports",
-      "title": "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports",
-      "source": "Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQWM5M1lZTHV6aVhVaHNyMTFHYmNib3JubExIXzdfeG9zVmxqT1hKYjdGeGJrTDVsMV92cVplZ0gySjhoOVIybTlHdFg3Y2YyNnQ0MUJGUlFzVVV4VXhPTThXbkRkVTJrR3FFZEVqVzI2NkljUUduRHAxbGlxcUF0cEJjcGx5d3lZ?oc=5",
-      "date": "2026-06-19",
-      "publishedAt": "2026-06-19T07:00:00Z",
-      "summary": "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports Harvard astrophysicist Avi Loeb tells \"Elizabeth Vargas Reports\" there are reasons to be optimistic about the new UAP Advisory Council he'll lead under the Trump administration: \"We are trying to figure it out together, in cooperation, and I hope that all the suspicion against government hiding things will be forgotten once we get to the bottom of this. \"#UFO #Trump By Andrew Mills, Parisa Hafezi and Humeyra Pamuk DUBAI/WASHINGTON, June 29 (Reuters) - Iranian and U. technical teams working on the implementation of an interim peace deal are expected to meet in By Emma Farge GENEVA, June 29 (Reuters) - An ex-political prisoner from Belarus on Monday raised doubts about easing sanctions on the Eastern European country in return for releasing political By Vivian Sequera and Aida Pelaez-Fernandez CARACAS, June 29 (Reuters) - Residents of Caracas woke up on Monday to an aftershock that rocked their houses, while rescue teams continued their fourth day The Supreme Court on Monday ruled that states can count mail ballots that are cast by Election Day but arrive later, rejecting a GOP challenge to a Mississippi law.",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "New UAP panel to advise feds: ‘A completely different mindset’",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qakpEdGk3TE1lNklIV0c2aDFYM083eG5WOWlMV2NtT3VGckd3M0prU1BacWtEa2dDaGFUS3lRSzBfZTY5V0hhWDhkWG43djk2OXh6Y2RReW9kTkR3OWFOVGk2VHJCdVJHblF6QkRCMy1MSU5pdV9R0gF8QVVfeXFMUDMxVkpNX3NWSlh3aG5Kc0dZUGhvdHlLa0xXRUZHd2tSWWtIaDZqd1JuUEFJQVZYVmFmaTk0bktLTEpLWFlIVXdsOERIRURJN2N2TkY0TEtRMlRCcFhDbXJ1RTJ5ZGFzMF96bFBSN2FlWFZ6NWItcnVJQXlkVA?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qakpEdGk3TE1lNklIV0c2aDFYM083eG5WOWlMV2NtT3VGckd3M0prU1BacWtEa2dDaGFUS3lRSzBfZTY5V0hhWDhkWG43djk2OXh6Y2RReW9kTkR3OWFOVGk2VHJCdVJHblF6QkRCMy1MSU5pdV9R0gF8QVVfeXFMUDMxVkpNX3NWSlh3aG5Kc0dZUGhvdHlLa0xXRUZHd2tSWWtIaDZqd1JuUEFJQVZYVmFmaTk0bktLTEpLWFlIVXdsOERIRURJN2N2TkY0TEtRMlRCcFhDbXJ1RTJ5ZGFzMF96bFBSN2FlWFZ6NWItcnVJQXlkVA?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-06-19T07:00:00Z",
-          "displayedAt": "2026-06-19T07:00:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "New UAP panel to advise feds: ‘A completely different mindset’"
-      ],
-      "quality": 54,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 54,
-      "displayedAt": "2026-06-19T07:00:00Z",
-      "rssPublishedAt": "2026-06-19T07:00:00Z",
-      "rssDate": "2026-06-19",
-      "sourcePublishedAt": "2026-06-20T00:21:22Z",
-      "sourceDisplayedAt": "2026-06-29T07:20:53Z",
-      "translation": {
-        "en": {
-          "title": "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports",
-          "summary": "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports Harvard astrophysicist Avi Loeb tells \"Elizabeth Vargas Reports\" there are reasons to be optimistic about the new UAP Advisory Council he'll lead under the Trump administration: \"We are trying to figure it out together, in cooperation, and I hope that all the suspicion against government hiding things will be forgotten once we get to the bottom of this. \"#UFO #Trump By Andrew Mills, Parisa Hafezi and Humeyra Pamuk DUBAI/WASHINGTON, June 29 (Reuters) - Iranian and U. technical teams working on the implementation of an interim peace deal are expected to meet in By Emma Farge GENEVA, June 29 (Reuters) - An ex-political prisoner from Belarus on Monday raised doubts about easing sanctions on the Eastern European country in return for releasing political By Vivian Sequera and Aida Pelaez-Fernandez CARACAS, June 29 (Reuters) - Residents of Caracas woke up on Monday to an aftershock that rocked their houses, while rescue teams continued their fourth day The Supreme Court on Monday ruled that states can count mail ballots that are cast by Election Day but arrive later, rejecting a GOP challenge to a Mississippi law.",
-          "sourceHash": "46507a6b1de04ff51b7a89fa32c89eb9e3c0d7a6",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Neues UAP-Gremium berät die Regierung: „Eine völlig andere Denkweise“ | Elizabeth Vargas Berichte",
-          "summary": "Neues UAP-Gremium berät die Regierung: „Eine völlig andere Denkweise“ | Elizabeth Vargas Reports Der Harvard-Astrophysiker Avi Loeb sagt gegenüber „Elizabeth Vargas Reports“, dass es Gründe gibt, optimistisch zu sein, was den neuen UAP-Beirat angeht, den er unter der Trump-Administration leiten wird: „Wir versuchen, es gemeinsam und in Zusammenarbeit herauszufinden, und ich hoffe, dass der ganze Verdacht gegen die Regierung, Dinge zu verbergen, vergessen wird, wenn wir der Sache auf den Grund gehen.“ #UFO #Trump Von Andrew Mills, Parisa Hafezi und Humeyra Pamuk DUBAI/WASHINGTON, 29. Juni (Reuters) – Es wird erwartet, dass sich iranische und US-amerikanische technische Teams, die an der Umsetzung eines vorläufigen Friedensabkommens arbeiten, im Jahr treffen. Von Emma Farge GENF, 29. Juni (Reuters) – Ein ehemaliger politischer Gefangener aus Weißrussland äußerte am Montag Zweifel an einer Lockerung der Sanktionen gegen das osteuropäische Land als Gegenleistung für die Freilassung politischer Maßnahmen. Von Vivian Sequera und Aida Pelaez-Fernandez CARACAS, 29. Juni (Reuters) – Einwohner von Caracas erwachten am Montag zu einem Nachbeben, das ihre Häuser erschütterte, während Rettungsteams ihren vierten Tag fortsetzten. Der Oberste Gerichtshof entschied am Montag, dass Staaten Briefwahlzettel zählen können, die bis zum Wahltag abgegeben wurden, aber später eintreffen, und lehnte eine Anfechtung der Republikanischen Partei gegen einen ab Mississippi-Gesetz.",
-          "sourceHash": "46507a6b1de04ff51b7a89fa32c89eb9e3c0d7a6",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
-    {
       "id": "cosmic-council-trump-creates-ufo-panel-to-be-advised-by-harvard-s-avi-loeb",
       "title": "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
       "source": "New York Post",
@@ -681,9 +591,8 @@
       },
       "rssPublishedAt": "2026-06-20T07:00:00Z",
       "rssDate": "2026-07-01",
-      "sourcePublishedAt": "2026-06-20T08:40:54Z",
-      "sourceDisplayedAt": "2026-07-02T06:30:05Z",
-      "sourceIsNew": true
+      "sourcePublishedAt": "2026-06-20T05:40:54Z",
+      "sourceDisplayedAt": "2026-07-02T06:30:05Z"
     },
     {
       "id": "uap-disclosure-forum-in-dc-key-takeaways",
@@ -876,6 +785,45 @@
       "retainedFromPreviousScan": true
     },
     {
+      "id": "skeptic-on-uap-panel-that-s-fine-up-to-a-point-ross-coulthart-says",
+      "title": "Skeptic on UAP panel? That’s fine, up to a point, Ross Coulthart says",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zNHZVMks5S3hCX09xT3RzS1hHcmhJNWtUMFdQbWdSOFlLRWdtUWxkeGlCbWJQUmtCbjViOTZmZTkyMS1zcFh3dlRSU2FpMkJIeE91OGVkTUVjTHZ2cGtCR1ZkbmJMR21zRkJFUTJ1bkJDOHRmMjlXdmtpVUU2QdIBgwFBVV95cUxOSzVicmFkU3g0RWlSRW1SdUNYc0VCLTNhTGJZWFZXei1jN0t1UkN4aFM0Qk02YzNoUVZQdTJzZkI5eFR1aEUzZ0ZzWHFWQTU3VkNZbnlwQ0VtU1hlUm9paHR0MHRWNEEwZVRzZkVQaE95U0JmT1BGdURwdTBYV015QUlkQQ?oc=5",
+      "date": "2026-06-21",
+      "publishedAt": "2026-06-21T07:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 49,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 49,
+      "displayedAt": "2026-07-03T12:53:48Z",
+      "sourceDisplayedAt": "2026-07-03T12:53:48Z",
+      "sourceIsNew": true
+    },
+    {
       "id": "sighting-russian-astronomer-reports-possible-ufo-sighting-in-omsk-region",
       "title": "Russian astronomer reports possible UFO sighting in Omsk region",
       "source": "Caliber.Az",
@@ -969,7 +917,7 @@
         },
         "de": {
           "title": "Der Welt-UFO-Tag lädt Gläubige, Skeptiker und Neugierige ein, in den Himmel zu blicken",
-          "summary": "Der Welt-UFO-Tag wird jedes Jahr am 2. Juli begangen und erinnert an den Roswell-Vorfall 1947 in New Mexico. Der Tag fördert die Diskussion über nicht identifizierte Flugobjekte, die heute als nicht identifizierte anomale Phänomene (UAPs) bezeichnet werden, und spiegelt das wachsende öffentliche Interesse wider, das durch Militärvideos und die Aufmerksamkeit des Kongresses angeheizt wird. Während viele Sichtungen später als Flugzeuge, Wetterphänomene oder Satelliten identifiziert werden, bleiben einige offiziell unbekannt, und Enthusiasten feiern dies mit Festivals, Filmvorführungen, Himmelsscans und dem Austausch von Geschichten.",
+          "summary": "Der Welt-UFO-Tag wird jedes Jahr am 2. Juli begangen und erinnert an den Roswell-Vorfall 1947 in New Mexico. Der Tag fördert die Diskussion über nicht identifizierte Flugobjekte, die heute als nicht identifizierte anomale Phänomene (UAPs) bezeichnet werden, und spiegelt das wachsende öffentliche Interesse wider, das durch Militärvideos und die Aufmerksamkeit des Kongresses angeheizt wird. Während viele Sichtungen später als Flugzeuge, Wetterphänomene oder Satelliten identifiziert werden, bleiben einige offiziell unbekannt und Enthusiasten feiern mit Festivals, Filmvorführungen, Himmelsscans und dem Austausch von Geschichten.",
           "sourceHash": "d97d1884ad1fb90d8c43ae83c985eff0ae71bdd2",
           "provider": "google"
         }
@@ -977,33 +925,32 @@
     }
   ],
   "summaries": {
-    "what-does-the-second-batch-of-ufo-files-tell-us": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
+    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
     "sighting-uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep. Eric Burlison, and Rep. Tim Burchett. Disclosure Foundation board members Professor Avi Loeb and Mike Gold spoke, with Gold noting that a poll shows 89 % of Republicans and 88 % of Democrats want more UAP information and describing UAP as a national security issue. Loeb, recently appointed by the White House to lead the UAP Science Advisory Council, said the federal government must allocate resources to analyze existing data and gather clearer new data on UAP. The forum also highlighted a 2015 Department of Defense video labeled Gimbal that shows an unexplained object, underscoring the need for further investigation. Some advisory council members are skeptical of UAP claims, indicating that belief in UAP is not universal among participants.",
     "cosmic-council-trump-creates-ufo-panel-to-be-advised-by-harvard-s-avi-loeb": "The Trump administration has created a new UAP Governance Board to address unidentified anomalous phenomena, holding its first meeting on Tuesday. The board’s mission is to support the President’s directive on UAP transparency, integrate interagency processes, and coordinate the declassification of UAP information among military, law enforcement, intelligence, and civilian agencies. Harvard astrophysicist Avi Loeb has been appointed as an advisor and will lead the board’s UAP Science Advisory Council, a smaller working group focused on data-driven analysis. Loeb, who previously highlighted the interstellar object 3I/Atlas as a possible alien probe, says the program will have no budget, rely only on declassified data, and avoid public distraction. The board may investigate cases such as the 2023 glowing mothership orb near Cheyenne Mountain, and Loeb notes that 40% of observed phenomena cannot be explained by known U.S. or adversary technology. Loeb’s advisory team includes scientists Michael Shermer, Gary Nolan, Kevin Knuth, Matthew Szydagis, and retired Rear Admiral Gallaudet, who says the government is overdue to adopt a scientific perspective on UAP.",
     "program-they-plan-to-eliminate-you-lue-elizondo-reports-congress-threats-for-uap-whistleblowing": "Lue Elizondo, a former Pentagon official, says he received phone calls from Congress workers warning that he and fellow UAP whistleblower David Grusch were targeted with a “plan to eliminate” them. The calls, one from an inebriated staffer who had left a confidential UAP briefing and another warning about bureaucratic disapproval, prompted Elizondo to heavily arm his home and keep five German shepherds for protection. On Sean Hannity’s podcast, Elizondo explained that UAP whistleblowers receive little government protection and that the government keeps UAP information secret to shield foreign adversaries, avoid public panic, and preserve social order, citing a RAND study and a White House committee debate. He warned that public disclosure of UAPs could trigger lawsuits from defense contractors claiming unfair denial of advanced technology, potentially creating a “legal cottage industry.” Elizondo also alleged that some elected leaders, including the president, were kept out of the loop on the issue and called for greater congressional oversight and whistleblower protections.",
     "film-disclosure-day-2026-box-office-performance-crashes-like-a-ufo-in-roswell": "Steven Spielberg's alien invasion film \"Disclosure Day\" opened in theaters on June 12, 2026. After just under two weeks, the movie has earned $162.7 million worldwide, with only $80.8 million coming from North America. The film's revenue fell 62 % in its second weekend, and its $115 million production cost means it would need about $280 million at the box office to break even. Because of the weak performance, Universal may pull the film from theatrical rotation if the trend continues, while the studio plans to accelerate online and digital releases. The movie stars Emily Blunt and is still currently playing in theaters, encouraging viewers to book tickets before it potentially closes.",
-    "new-uap-panel-to-advise-feds-a-completely-different-mindset-elizabeth-vargas-reports": "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports Harvard astrophysicist Avi Loeb tells \"Elizabeth Vargas Reports\" there are reasons to be optimistic about the new UAP Advisory Council he'll lead under the Trump administration: \"We are trying to figure it out together, in cooperation, and I hope that all the suspicion against government hiding things will be forgotten once we get to the bottom of this. \"#UFO #Trump By Andrew Mills, Parisa Hafezi and Humeyra Pamuk DUBAI/WASHINGTON, June 29 (Reuters) - Iranian and U. technical teams working on the implementation of an interim peace deal are expected to meet in By Emma Farge GENEVA, June 29 (Reuters) - An ex-political prisoner from Belarus on Monday raised doubts about easing sanctions on the Eastern European country in return for releasing political By Vivian Sequera and Aida Pelaez-Fernandez CARACAS, June 29 (Reuters) - Residents of Caracas woke up on Monday to an aftershock that rocked their houses, while rescue teams continued their fourth day The Supreme Court on Monday ruled that states can count mail ballots that are cast by Election Day but arrive later, rejecting a GOP challenge to a Mississippi law.",
     "film-world-ufo-day-invites-believers-skeptics-and-the-curious-to-look-to-the-skies": "World UFO Day is observed each year on July 2 and commemorates the 1947 Roswell incident in New Mexico. The day encourages discussion of unidentified flying objects, now referred to as unidentified anomalous phenomena (UAPs), and reflects growing public interest fueled by military videos and congressional attention. While many sightings are later identified as aircraft, weather phenomena, or satellites, some remain officially unidentified, and enthusiasts celebrate with festivals, film viewings, sky scanning, and story sharing. Scientists note that an unidentified object does not equal evidence of extraterrestrial life, as it simply means insufficient information to determine what was observed."
   },
   "notificationBatch": {
-    "timestamp": "2026-07-03T06:20:40Z",
+    "timestamp": "2026-07-03T12:53:48Z",
     "ids": [
-      "film-world-ufo-day-invites-believers-skeptics-and-the-curious-to-look-to-the-skies"
+      "skeptic-on-uap-panel-that-s-fine-up-to-a-point-ross-coulthart-says"
     ],
     "articles": [
       {
-        "id": "film-world-ufo-day-invites-believers-skeptics-and-the-curious-to-look-to-the-skies",
-        "title": "World UFO Day invites believers, skeptics and the curious to look to the skies",
-        "source": "Wausau Pilot & Review"
+        "id": "skeptic-on-uap-panel-that-s-fine-up-to-a-point-ross-coulthart-says",
+        "title": "Skeptic on UAP panel? That’s fine, up to a point, Ross Coulthart says",
+        "source": "NewsNation"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 420,
-    "broadTopics": 174,
+    "broadArticles": 419,
+    "broadTopics": 172,
     "notificationArticles": 1,
     "notificationTopics": 1,
-    "newNotificationTopics": 1,
+    "newNotificationTopics": 0,
     "appTopics": 12,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -1011,7 +958,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 6,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 6,
+    "regroupedTopics": 8,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -1019,15 +966,15 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 5,
+      "attempts": 6,
       "repaired": 0,
       "fallbackRepaired": 0,
-      "missing": 5
+      "missing": 6
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
       "kept": 12,
-      "missing": 5,
+      "missing": 6,
       "missingItems": [
         {
           "id": "uap-disclosure-forum-in-dc-key-takeaways",
@@ -1054,6 +1001,12 @@
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
+          "id": "skeptic-on-uap-panel-that-s-fine-up-to-a-point-ross-coulthart-says",
+          "title": "Skeptic on UAP panel? That’s fine, up to a point, Ross Coulthart says",
+          "source": "NewsNation",
+          "reason": "missing_or_mismatched_article_content_summary"
+        },
+        {
           "id": "sighting-russian-astronomer-reports-possible-ufo-sighting-in-omsk-region",
           "title": "Russian astronomer reports possible UFO sighting in Omsk region",
           "source": "Caliber.Az",
@@ -1063,7 +1016,7 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 16,
+      "inputArticles": 17,
       "outputArticles": 11,
       "preservedSourceSummaries": 5
     },
@@ -1083,51 +1036,49 @@
     },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
-      "updatedArticles": 5,
-      "clearedTranslations": 5,
+      "updatedArticles": 6,
+      "clearedTranslations": 6,
       "reorderedBySourceCount": true
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 5,
-      "addedSources": 72,
+      "updatedTopics": 4,
+      "addedSources": 47,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
-      "primaryId": "what-does-the-second-batch-of-ufo-files-tell-us",
+      "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
       "sources": 14,
-      "cleanedArticles": 1,
-      "removedDuplicateTopics": 2,
+      "cleanedArticles": 2,
+      "removedDuplicateTopics": 0,
       "staleSummariesCleared": 0,
       "rejectedArticleSources": 0,
       "promotedPrimaryFromSource": false
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 9,
-      "outputArticles": 9,
+      "inputArticles": 11,
+      "outputArticles": 11,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 9,
+      "inputArticles": 11,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 13,
-      "currentBeforeRestore": 9,
-      "restoredArticles": 3,
+      "archiveCandidates": 12,
+      "currentBeforeRestore": 11,
+      "restoredArticles": 1,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
-        "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports",
         "Disclosure Day (2026) Box Office performance crashes like a UFO in Roswell"
       ]
     },
@@ -1140,14 +1091,14 @@
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 31,
-      "updatedSources": 7,
+      "checkedSources": 28,
+      "updatedSources": 4,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 12,
-      "newSources": 1
+      "newSources": 2
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -1161,21 +1112,21 @@
       "freshSources": 1,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 43
+      "seededSeenFromPreviousFeed": 42
     }
   },
   "translations": {
-    "what-does-the-second-batch-of-ufo-files-tell-us": {
+    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
       "en": {
-        "title": "What does the second batch of UFO files tell us?",
+        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-        "sourceHash": "4bcc963b43fea52ec7d91966a0fb5abf91312e28",
+        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "original"
       },
       "de": {
-        "title": "Was sagt uns der zweite Stapel UFO-Dateien?",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-        "sourceHash": "4bcc963b43fea52ec7d91966a0fb5abf91312e28",
+        "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }
     },
@@ -1187,7 +1138,7 @@
         "provider": "original"
       },
       "de": {
-        "title": "Im UAP-Forum wird die Öffentlichkeit von Gesetzgebern und Whistleblowern zur Offenlegung 2026 hören | GERECHTIGKEIT - IUSTITIA.BG 2025",
+        "title": "Das UAP-Forum wird der Öffentlichkeit Gelegenheit geben, sich von Gesetzgebern und Whistleblowern über die Offenlegung 2026 zu informieren | GERECHTIGKEIT - IUSTITIA.BG 2025",
         "summary": "Das Disclosure Forum 2026, das am Donnerstag in Washington, D.C. stattfand, brachte fast zwei Dutzend Gesetzgeber, ehemalige Geheimdienstmitarbeiter, Forscher und Whistleblower zusammen, um über die Offenlegung von UAP zu diskutieren. In den Podiumsdiskussionen und Rundtischgesprächen unter dem Motto „Die Menschheit am Rande der Entdeckung“ ging es um Fragen zu Sicherheit, Verteidigung und Politik. Redner waren unter anderem Senatorin Kirsten Gillibrand, Rep.",
         "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
         "provider": "google"
@@ -1204,20 +1155,6 @@
         "title": "„Sie planen, Sie zu eliminieren.“ Lue Elizondo berichtet über Drohungen des Kongresses wegen UAP-Whistleblowing",
         "summary": "Lue Elizondo, ein ehemaliger Pentagon-Beamter, sagt, er habe Anrufe von Kongressmitarbeitern erhalten, in denen er warnte, dass er und sein UAP-Whistleblower David Grusch Ziel eines „Plans zu ihrer Eliminierung“ seien. Die Anrufe, einer von einem betrunkenen Mitarbeiter, der eine vertrauliche UAP-Besprechung hinterlassen hatte, und eine weitere Warnung vor bürokratischer Missbilligung veranlassten Elizondo, sein Haus schwer zu bewaffnen und fünf Deutsche Schäferhunde zum Schutz zu halten.",
         "sourceHash": "bf8ede0d8eeb05e2a024e127cffc8e469c8e7b46",
-        "provider": "google"
-      }
-    },
-    "new-uap-panel-to-advise-feds-a-completely-different-mindset-elizabeth-vargas-reports": {
-      "en": {
-        "title": "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports",
-        "summary": "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports Harvard astrophysicist Avi Loeb tells \"Elizabeth Vargas Reports\" there are reasons to be optimistic about the new UAP Advisory Council he'll lead under the Trump administration: \"We are trying to figure it out together, in cooperation, and I hope that all the suspicion against government hiding things will be forgotten once we get to the bottom of this. \"#UFO #Trump By Andrew Mills, Parisa Hafezi and Humeyra Pamuk DUBAI/WASHINGTON, June 29 (Reuters) - Iranian and U. technical teams working on the implementation of an interim peace deal are expected to meet in By Emma Farge GENEVA, June 29 (Reuters) - An ex-political prisoner from Belarus on Monday raised doubts about easing sanctions on the Eastern European country in return for releasing political By Vivian Sequera and Aida Pelaez-Fernandez CARACAS, June 29 (Reuters) - Residents of Caracas woke up on Monday to an aftershock that rocked their houses, while rescue teams continued their fourth day The Supreme Court on Monday ruled that states can count mail ballots that are cast by Election Day but arrive later, rejecting a GOP challenge to a Mississippi law.",
-        "sourceHash": "46507a6b1de04ff51b7a89fa32c89eb9e3c0d7a6",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Neues UAP-Gremium berät die Regierung: „Eine völlig andere Denkweise“ | Elizabeth Vargas Berichte",
-        "summary": "Neues UAP-Gremium berät die Regierung: „Eine völlig andere Denkweise“ | Elizabeth Vargas Reports Der Harvard-Astrophysiker Avi Loeb sagt gegenüber „Elizabeth Vargas Reports“, dass es Gründe gibt, optimistisch zu sein, was den neuen UAP-Beirat angeht, den er unter der Trump-Administration leiten wird: „Wir versuchen, es gemeinsam und in Zusammenarbeit herauszufinden, und ich hoffe, dass der ganze Verdacht gegen die Regierung, Dinge zu verbergen, vergessen wird, wenn wir der Sache auf den Grund gehen.“ #UFO #Trump Von Andrew Mills, Parisa Hafezi und Humeyra Pamuk DUBAI/WASHINGTON, 29. Juni (Reuters) – Es wird erwartet, dass sich iranische und US-amerikanische technische Teams, die an der Umsetzung eines vorläufigen Friedensabkommens arbeiten, im Jahr treffen. Von Emma Farge GENF, 29. Juni (Reuters) – Ein ehemaliger politischer Gefangener aus Weißrussland äußerte am Montag Zweifel an einer Lockerung der Sanktionen gegen das osteuropäische Land als Gegenleistung für die Freilassung politischer Maßnahmen. Von Vivian Sequera und Aida Pelaez-Fernandez CARACAS, 29. Juni (Reuters) – Einwohner von Caracas erwachten am Montag zu einem Nachbeben, das ihre Häuser erschütterte, während Rettungsteams ihren vierten Tag fortsetzten. Der Oberste Gerichtshof entschied am Montag, dass Staaten Briefwahlzettel zählen können, die bis zum Wahltag abgegeben wurden, aber später eintreffen, und lehnte eine Anfechtung der Republikanischen Partei gegen einen ab Mississippi-Gesetz.",
-        "sourceHash": "46507a6b1de04ff51b7a89fa32c89eb9e3c0d7a6",
         "provider": "google"
       }
     },
@@ -1258,14 +1195,14 @@
       },
       "de": {
         "title": "Der Welt-UFO-Tag lädt Gläubige, Skeptiker und Neugierige ein, in den Himmel zu blicken",
-        "summary": "Der Welt-UFO-Tag wird jedes Jahr am 2. Juli begangen und erinnert an den Roswell-Vorfall 1947 in New Mexico. Der Tag fördert die Diskussion über nicht identifizierte Flugobjekte, die heute als nicht identifizierte anomale Phänomene (UAPs) bezeichnet werden, und spiegelt das wachsende öffentliche Interesse wider, das durch Militärvideos und die Aufmerksamkeit des Kongresses angeheizt wird. Während viele Sichtungen später als Flugzeuge, Wetterphänomene oder Satelliten identifiziert werden, bleiben einige offiziell unbekannt, und Enthusiasten feiern dies mit Festivals, Filmvorführungen, Himmelsscans und dem Austausch von Geschichten.",
+        "summary": "Der Welt-UFO-Tag wird jedes Jahr am 2. Juli begangen und erinnert an den Roswell-Vorfall 1947 in New Mexico. Der Tag fördert die Diskussion über nicht identifizierte Flugobjekte, die heute als nicht identifizierte anomale Phänomene (UAPs) bezeichnet werden, und spiegelt das wachsende öffentliche Interesse wider, das durch Militärvideos und die Aufmerksamkeit des Kongresses angeheizt wird. Während viele Sichtungen später als Flugzeuge, Wetterphänomene oder Satelliten identifiziert werden, bleiben einige offiziell unbekannt und Enthusiasten feiern mit Festivals, Filmvorführungen, Himmelsscans und dem Austausch von Geschichten.",
         "sourceHash": "d97d1884ad1fb90d8c43ae83c985eff0ae71bdd2",
         "provider": "google"
       }
     }
   },
   "translationMeta": {
-    "prepared": 7,
+    "prepared": 6,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",

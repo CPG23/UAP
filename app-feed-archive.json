@@ -1,103 +1,7 @@
 {
-  "timestamp": "2026-07-03T06:20:40Z",
+  "timestamp": "2026-07-03T12:53:48Z",
   "retentionDays": 14,
   "articles": [
-    {
-      "id": "sighting-uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
-      "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGNMbWhFdE5ORFR1RTc2SExWWmIxSl9KYU9RcFhNXzdwbFpHMm13OU5QaWYtR0g3aGc1ZHBEenVzTUoya1o3NHdqenFRMUlkemUwV1N6VFowd2dNbjYtN1RtcmJTMTA3SU9icy14OUZ5Z2JPNHI4NUdTYnFkSGpBY0tMREVQQQ?oc=5",
-      "date": "2026-06-28",
-      "publishedAt": "2026-06-22T07:06:05Z",
-      "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep. Eric Burlison, and Rep. Tim Burchett. Disclosure Foundation board members Professor Avi Loeb and Mike Gold spoke, with Gold noting that a poll shows 89 % of Republicans and 88 % of Democrats want more UAP information and describing UAP as a national security issue. Loeb, recently appointed by the White House to lead the UAP Science Advisory Council, said the federal government must allocate resources to analyze existing data and gather clearer new data on UAP. The forum also highlighted a 2015 Department of Defense video labeled Gimbal that shows an unexplained object, underscoring the need for further investigation. Some advisory council members are skeptical of UAP claims, indicating that belief in UAP is not universal among participants.",
-      "mentions": 3,
-      "otherSources": [
-        {
-          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGlaZ3FUeWZqYzlJNHAxbnFpelNmWmZrcEhucEZueTFuWU40ektCejNQUTJ5X3dWRzJCUXFaODhJVWI2cmhnSU9yQ2tBQ3ZNdTN1REtYY0k0WmJIZ1VqVnNqQl9hbjhsNzBmLXU1OWIyRnpvUWh4QjFORFhfWUdUMUVmZzVUU1V5aGc2edIBkgFBVV95cUxNSVRMU281c1FwLXVUbE5KekxmYnhEZ3BnR2kzcEpiR2RYX1QwWGotbUJ2eWtYRnlHNV9JNFBMcmNQQV9xalZMQWZGTThkVnNiNVJtcnIwS3NnTFNSTjZXcE1vNktubGFnVVI2VzdObEtzSEhWWnYxS0piemdhdFVxWF9rczljS3hBX0xYN0wyRDZndw?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGlaZ3FUeWZqYzlJNHAxbnFpelNmWmZrcEhucEZueTFuWU40ektCejNQUTJ5X3dWRzJCUXFaODhJVWI2cmhnSU9yQ2tBQ3ZNdTN1REtYY0k0WmJIZ1VqVnNqQl9hbjhsNzBmLXU1OWIyRnpvUWh4QjFORFhfWUdUMUVmZzVUU1V5aGc2edIBkgFBVV95cUxNSVRMU281c1FwLXVUbE5KekxmYnhEZ3BnR2kzcEpiR2RYX1QwWGotbUJ2eWtYRnlHNV9JNFBMcmNQQV9xalZMQWZGTThkVnNiNVJtcnIwS3NnTFNSTjZXcE1vNktubGFnVVI2VzdObEtzSEhWWnYxS0piemdhdFVxWF9rczljS3hBX0xYN0wyRDZndw?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-06-22T07:06:05Z",
-          "displayedAt": "2026-06-22T07:06:05Z"
-        },
-        {
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ncG96ZFQ2a3JMZ1hWV21wdnpYOE1GLVc1bVFTY0NuSWVEbGM3TlFGZ1FaOURseklwU1VERlpmNUJMckdOM2NHYW1hajNlMVFoWHk5T2ROZ3dRSUwtM0ZDYzhJLV9NcTVuNXMtRld5UlJwVHVwemlIQ2tObzFsQQ?oc=5",
-          "title": "UFO experts, lawmakers to speak at Disclosure Forum 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "sourcePublishedAt": "2026-06-24T15:00:28Z",
-          "displayedAt": "2026-06-22T07:06:05Z"
-        }
-      ],
-      "clusterTitles": [
-        "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
-        "UFO experts, lawmakers to speak at Disclosure Forum 2026 | JUSTICE - IUSTITIA.BG 2025"
-      ],
-      "quality": 76,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 9,
-          "text": "ALIEN, DISCLOSURE, TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 6,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "ALIEN",
-        "DISCLOSURE",
-        "TRUMP"
-      ],
-      "sourceQuality": 76,
-      "displayedAt": "2026-06-25T06:40:27Z",
-      "rssPublishedAt": "2026-06-22T07:06:05Z",
-      "rssDate": "2026-06-28",
-      "sourcePublishedAt": "2026-06-22T03:49:10Z",
-      "sourceDisplayedAt": "2026-06-24T05:36:18Z",
-      "translation": {
-        "en": {
-          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep.",
-          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Im UAP-Forum wird die Öffentlichkeit von Gesetzgebern und Whistleblowern zur Offenlegung 2026 hören | GERECHTIGKEIT - IUSTITIA.BG 2025",
-          "summary": "Das Disclosure Forum 2026, das am Donnerstag in Washington, D.C. stattfand, brachte fast zwei Dutzend Gesetzgeber, ehemalige Geheimdienstmitarbeiter, Forscher und Whistleblower zusammen, um über die Offenlegung von UAP zu diskutieren. In den Podiumsdiskussionen und Rundtischgesprächen unter dem Motto „Die Menschheit am Rande der Entdeckung“ ging es um Fragen zu Sicherheit, Verteidigung und Politik. Redner waren unter anderem Senatorin Kirsten Gillibrand, Rep.",
-          "sourceHash": "be5fb8119336f9db1c27df86c98e3c87454f02ca",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
     {
       "id": "cosmic-council-trump-creates-ufo-panel-to-be-advised-by-harvard-s-avi-loeb",
       "title": "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
@@ -382,6 +286,78 @@
       "displayedAt": "2026-06-26T02:55:59Z"
     },
     {
+      "id": "sighting-uap-forum-will-let-public-hear-from-lawmakers-whistleblowers-on-disclosure-2026-justice-iustitia-bg-2025",
+      "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGNMbWhFdE5ORFR1RTc2SExWWmIxSl9KYU9RcFhNXzdwbFpHMm13OU5QaWYtR0g3aGc1ZHBEenVzTUoya1o3NHdqenFRMUlkemUwV1N6VFowd2dNbjYtN1RtcmJTMTA3SU9icy14OUZ5Z2JPNHI4NUdTYnFkSGpBY0tMREVQQQ?oc=5",
+      "date": "2026-06-28",
+      "publishedAt": "2026-06-22T07:06:05Z",
+      "summary": "The Disclosure Forum 2026, held Thursday in Washington, D.C., brought together nearly two dozen lawmakers, former intelligence officials, researchers, and whistleblowers to discuss UAP disclosure. Panels and roundtables, themed “Humanity at the Edge of Discovery,” covered security, defense, and policy implications and featured speakers such as Sen. Kirsten Gillibrand, Rep. Eric Burlison, and Rep. Tim Burchett. Disclosure Foundation board members Professor Avi Loeb and Mike Gold spoke, with Gold noting that a poll shows 89 % of Republicans and 88 % of Democrats want more UAP information and describing UAP as a national security issue. Loeb, recently appointed by the White House to lead the UAP Science Advisory Council, said the federal government must allocate resources to analyze existing data and gather clearer new data on UAP. The forum also highlighted a 2015 Department of Defense video labeled Gimbal that shows an unexplained object, underscoring the need for further investigation. Some advisory council members are skeptical of UAP claims, indicating that belief in UAP is not universal among participants.",
+      "mentions": 3,
+      "otherSources": [
+        {
+          "title": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGlaZ3FUeWZqYzlJNHAxbnFpelNmWmZrcEhucEZueTFuWU40ektCejNQUTJ5X3dWRzJCUXFaODhJVWI2cmhnSU9yQ2tBQ3ZNdTN1REtYY0k0WmJIZ1VqVnNqQl9hbjhsNzBmLXU1OWIyRnpvUWh4QjFORFhfWUdUMUVmZzVUU1V5aGc2edIBkgFBVV95cUxNSVRMU281c1FwLXVUbE5KekxmYnhEZ3BnR2kzcEpiR2RYX1QwWGotbUJ2eWtYRnlHNV9JNFBMcmNQQV9xalZMQWZGTThkVnNiNVJtcnIwS3NnTFNSTjZXcE1vNktubGFnVVI2VzdObEtzSEhWWnYxS0piemdhdFVxWF9rczljS3hBX0xYN0wyRDZndw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGlaZ3FUeWZqYzlJNHAxbnFpelNmWmZrcEhucEZueTFuWU40ektCejNQUTJ5X3dWRzJCUXFaODhJVWI2cmhnSU9yQ2tBQ3ZNdTN1REtYY0k0WmJIZ1VqVnNqQl9hbjhsNzBmLXU1OWIyRnpvUWh4QjFORFhfWUdUMUVmZzVUU1V5aGc2edIBkgFBVV95cUxNSVRMU281c1FwLXVUbE5KekxmYnhEZ3BnR2kzcEpiR2RYX1QwWGotbUJ2eWtYRnlHNV9JNFBMcmNQQV9xalZMQWZGTThkVnNiNVJtcnIwS3NnTFNSTjZXcE1vNktubGFnVVI2VzdObEtzSEhWWnYxS0piemdhdFVxWF9rczljS3hBX0xYN0wyRDZndw?oc=5",
+          "source": "NewsNation",
+          "publishedAt": "2026-06-22T07:06:05Z",
+          "displayedAt": "2026-06-22T07:06:05Z"
+        },
+        {
+          "source": "iustitia.bg",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ncG96ZFQ2a3JMZ1hWV21wdnpYOE1GLVc1bVFTY0NuSWVEbGM3TlFGZ1FaOURseklwU1VERlpmNUJMckdOM2NHYW1hajNlMVFoWHk5T2ROZ3dRSUwtM0ZDYzhJLV9NcTVuNXMtRld5UlJwVHVwemlIQ2tObzFsQQ?oc=5",
+          "title": "UFO experts, lawmakers to speak at Disclosure Forum 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "sourcePublishedAt": "2026-06-24T15:00:28Z",
+          "displayedAt": "2026-06-22T07:06:05Z"
+        }
+      ],
+      "clusterTitles": [
+        "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
+        "UFO experts, lawmakers to speak at Disclosure Forum 2026 | JUSTICE - IUSTITIA.BG 2025"
+      ],
+      "quality": 66,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 9,
+          "text": "ALIEN, DISCLOSURE, TRUMP als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 6,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "ALIEN",
+        "DISCLOSURE",
+        "TRUMP"
+      ],
+      "sourceQuality": 66,
+      "displayedAt": "2026-06-25T06:40:27Z"
+    },
+    {
       "id": "ufo-transparency-at-the-heart-of-disclosure-forum",
       "title": "UFO transparency at the heart of Disclosure Forum",
       "source": "NewsNation",
@@ -525,7 +501,8 @@
           "source": "NewsNation",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWXpWX1MzLWlwRUVhYUNWLUxGeGN1V3FxZ2tpNjg1cjFiTS1SNDB2SUlBWUg3RnBqV1lqRnVja29nVHhfVmUwSmUzZkdJaUpjVUVHYWdzMkVrQmxDUzVWNVhyN1hRMVZwWUxoU2RkMGNvck1vQmtmeml1SFE3Y0ktYWlJcHlmY0V0SXJ30gGQAUFVX3lxTE9mWi1UWEVKMUllUTNzbU1VclBUekNIYkFHWFE1S1FjTXR6ZmFIQWZfS3NJOVRyZjhMamhHWTZpSE9YRlRrZTF1SWE1OWtuZzZsVE9aclA3Mk9QeHUwd3BHUjV3bFZlcy1WaGE2ZTFzNGpkb0x6dzB5ZDl4ZGk1X3hZLTRkUUIzbDNIUVltWTVOdA?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWXpWX1MzLWlwRUVhYUNWLUxGeGN1V3FxZ2tpNjg1cjFiTS1SNDB2SUlBWUg3RnBqV1lqRnVja29nVHhfVmUwSmUzZkdJaUpjVUVHYWdzMkVrQmxDUzVWNVhyN1hRMVZwWUxoU2RkMGNvck1vQmtmeml1SFE3Y0ktYWlJcHlmY0V0SXJ30gGQAUFVX3lxTE9mWi1UWEVKMUllUTNzbU1VclBUekNIYkFHWFE1S1FjTXR6ZmFIQWZfS3NJOVRyZjhMamhHWTZpSE9YRlRrZTF1SWE1OWtuZzZsVE9aclA3Mk9QeHUwd3BHUjV3bFZlcy1WaGE2ZTFzNGpkb0x6dzB5ZDl4ZGk1X3hZLTRkUUIzbDNIUVltWTVOdA?oc=5",
-          "publishedAt": "2026-06-29T04:23:19Z"
+          "publishedAt": "2026-06-29T04:23:19Z",
+          "displayedAt": "2026-06-29T04:23:19Z"
         }
       ],
       "clusterTitles": [
@@ -569,31 +546,20 @@
         "CONGRESS"
       ],
       "sourceQuality": 55,
-      "displayedAt": "2026-07-03T06:20:40Z"
+      "displayedAt": "2026-07-02T12:48:35Z"
     },
     {
-      "id": "new-uap-panel-to-advise-feds-a-completely-different-mindset-elizabeth-vargas-reports",
-      "title": "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports",
-      "source": "Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQWM5M1lZTHV6aVhVaHNyMTFHYmNib3JubExIXzdfeG9zVmxqT1hKYjdGeGJrTDVsMV92cVplZ0gySjhoOVIybTlHdFg3Y2YyNnQ0MUJGUlFzVVV4VXhPTThXbkRkVTJrR3FFZEVqVzI2NkljUUduRHAxbGlxcUF0cEJjcGx5d3lZ?oc=5",
-      "date": "2026-06-19",
-      "publishedAt": "2026-06-19T07:00:00Z",
-      "summary": "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports Harvard astrophysicist Avi Loeb tells \"Elizabeth Vargas Reports\" there are reasons to be optimistic about the new UAP Advisory Council he'll lead under the Trump administration: \"We are trying to figure it out together, in cooperation, and I hope that all the suspicion against government hiding things will be forgotten once we get to the bottom of this. \"#UFO #Trump By Andrew Mills, Parisa Hafezi and Humeyra Pamuk DUBAI/WASHINGTON, June 29 (Reuters) - Iranian and U. technical teams working on the implementation of an interim peace deal are expected to meet in By Emma Farge GENEVA, June 29 (Reuters) - An ex-political prisoner from Belarus on Monday raised doubts about easing sanctions on the Eastern European country in return for releasing political By Vivian Sequera and Aida Pelaez-Fernandez CARACAS, June 29 (Reuters) - Residents of Caracas woke up on Monday to an aftershock that rocked their houses, while rescue teams continued their fourth day The Supreme Court on Monday ruled that states can count mail ballots that are cast by Election Day but arrive later, rejecting a GOP challenge to a Mississippi law.",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "New UAP panel to advise feds: ‘A completely different mindset’",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qakpEdGk3TE1lNklIV0c2aDFYM083eG5WOWlMV2NtT3VGckd3M0prU1BacWtEa2dDaGFUS3lRSzBfZTY5V0hhWDhkWG43djk2OXh6Y2RReW9kTkR3OWFOVGk2VHJCdVJHblF6QkRCMy1MSU5pdV9R0gF8QVVfeXFMUDMxVkpNX3NWSlh3aG5Kc0dZUGhvdHlLa0xXRUZHd2tSWWtIaDZqd1JuUEFJQVZYVmFmaTk0bktLTEpLWFlIVXdsOERIRURJN2N2TkY0TEtRMlRCcFhDbXJ1RTJ5ZGFzMF96bFBSN2FlWFZ6NWItcnVJQXlkVA?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qakpEdGk3TE1lNklIV0c2aDFYM083eG5WOWlMV2NtT3VGckd3M0prU1BacWtEa2dDaGFUS3lRSzBfZTY5V0hhWDhkWG43djk2OXh6Y2RReW9kTkR3OWFOVGk2VHJCdVJHblF6QkRCMy1MSU5pdV9R0gF8QVVfeXFMUDMxVkpNX3NWSlh3aG5Kc0dZUGhvdHlLa0xXRUZHd2tSWWtIaDZqd1JuUEFJQVZYVmFmaTk0bktLTEpLWFlIVXdsOERIRURJN2N2TkY0TEtRMlRCcFhDbXJ1RTJ5ZGFzMF96bFBSN2FlWFZ6NWItcnVJQXlkVA?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-06-19T07:00:00Z",
-          "displayedAt": "2026-06-19T07:00:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "New UAP panel to advise feds: ‘A completely different mindset’"
-      ],
-      "quality": 54,
+      "id": "skeptic-on-uap-panel-that-s-fine-up-to-a-point-ross-coulthart-says",
+      "title": "Skeptic on UAP panel? That’s fine, up to a point, Ross Coulthart says",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zNHZVMks5S3hCX09xT3RzS1hHcmhJNWtUMFdQbWdSOFlLRWdtUWxkeGlCbWJQUmtCbjViOTZmZTkyMS1zcFh3dlRSU2FpMkJIeE91OGVkTUVjTHZ2cGtCR1ZkbmJMR21zRkJFUTJ1bkJDOHRmMjlXdmtpVUU2QdIBgwFBVV95cUxOSzVicmFkU3g0RWlSRW1SdUNYc0VCLTNhTGJZWFZXei1jN0t1UkN4aFM0Qk02YzNoUVZQdTJzZkI5eFR1aEUzZ0ZzWHFWQTU3VkNZbnlwQ0VtU1hlUm9paHR0MHRWNEEwZVRzZkVQaE95U0JmT1BGdURwdTBYV015QUlkQQ?oc=5",
+      "date": "2026-06-21",
+      "publishedAt": "2026-06-21T07:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 49,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -609,36 +575,15 @@
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
-      "sourceQuality": 54,
-      "displayedAt": "2026-06-19T07:00:00Z",
-      "rssPublishedAt": "2026-06-19T07:00:00Z",
-      "rssDate": "2026-06-19",
-      "sourcePublishedAt": "2026-06-20T00:21:22Z",
-      "sourceDisplayedAt": "2026-06-29T07:20:53Z",
-      "translation": {
-        "en": {
-          "title": "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports",
-          "summary": "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports Harvard astrophysicist Avi Loeb tells \"Elizabeth Vargas Reports\" there are reasons to be optimistic about the new UAP Advisory Council he'll lead under the Trump administration: \"We are trying to figure it out together, in cooperation, and I hope that all the suspicion against government hiding things will be forgotten once we get to the bottom of this. \"#UFO #Trump By Andrew Mills, Parisa Hafezi and Humeyra Pamuk DUBAI/WASHINGTON, June 29 (Reuters) - Iranian and U. technical teams working on the implementation of an interim peace deal are expected to meet in By Emma Farge GENEVA, June 29 (Reuters) - An ex-political prisoner from Belarus on Monday raised doubts about easing sanctions on the Eastern European country in return for releasing political By Vivian Sequera and Aida Pelaez-Fernandez CARACAS, June 29 (Reuters) - Residents of Caracas woke up on Monday to an aftershock that rocked their houses, while rescue teams continued their fourth day The Supreme Court on Monday ruled that states can count mail ballots that are cast by Election Day but arrive later, rejecting a GOP challenge to a Mississippi law.",
-          "sourceHash": "46507a6b1de04ff51b7a89fa32c89eb9e3c0d7a6",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Neues UAP-Gremium berät die Regierung: „Eine völlig andere Denkweise“ | Elizabeth Vargas Berichte",
-          "summary": "Neues UAP-Gremium berät die Regierung: „Eine völlig andere Denkweise“ | Elizabeth Vargas Reports Der Harvard-Astrophysiker Avi Loeb sagt gegenüber „Elizabeth Vargas Reports“, dass es Gründe gibt, optimistisch zu sein, was den neuen UAP-Beirat angeht, den er unter der Trump-Administration leiten wird: „Wir versuchen, es gemeinsam und in Zusammenarbeit herauszufinden, und ich hoffe, dass der ganze Verdacht gegen die Regierung, Dinge zu verbergen, vergessen wird, wenn wir der Sache auf den Grund gehen.“ #UFO #Trump Von Andrew Mills, Parisa Hafezi und Humeyra Pamuk DUBAI/WASHINGTON, 29. Juni (Reuters) – Es wird erwartet, dass sich iranische und US-amerikanische technische Teams, die an der Umsetzung eines vorläufigen Friedensabkommens arbeiten, im Jahr treffen. Von Emma Farge GENF, 29. Juni (Reuters) – Ein ehemaliger politischer Gefangener aus Weißrussland äußerte am Montag Zweifel an einer Lockerung der Sanktionen gegen das osteuropäische Land als Gegenleistung für die Freilassung politischer Maßnahmen. Von Vivian Sequera und Aida Pelaez-Fernandez CARACAS, 29. Juni (Reuters) – Einwohner von Caracas erwachten am Montag zu einem Nachbeben, das ihre Häuser erschütterte, während Rettungsteams ihren vierten Tag fortsetzten. Der Oberste Gerichtshof entschied am Montag, dass Staaten Briefwahlzettel zählen können, die bis zum Wahltag abgegeben wurden, aber später eintreffen, und lehnte eine Anfechtung der Republikanischen Partei gegen einen ab Mississippi-Gesetz.",
-          "sourceHash": "46507a6b1de04ff51b7a89fa32c89eb9e3c0d7a6",
-          "provider": "google"
-        }
+      "summaryStatus": {
+        "articleContentSummary": "missing"
       },
-      "retainedFromPreviousScan": true
+      "sourceQuality": 49,
+      "displayedAt": "2026-07-03T12:53:48Z"
     },
     {
       "id": "sighting-russian-astronomer-reports-possible-ufo-sighting-in-omsk-region",
