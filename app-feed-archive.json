@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-02T12:54:35Z",
+  "timestamp": "2026-07-03T06:20:40Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -99,13 +99,13 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "the-harvard-astronomer-dubbed-trump-s-chief-alien-hunter-starts-by-assuming-ufos-human-made",
-      "title": "The Harvard astronomer dubbed Trump’s chief alien hunter starts by assuming UFOs human-made",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82TnJHdURjY2ZLYm12OVZCLTZ4X3BqdXNrekIxZkMyVnJjdjJacTEyTXpXRE9seHk1VER4dF9sWFZjdmFXSmxsdVpQTFRZOHFRYUxRYld1YWhWOWtvWlhac3ZaejZlYlRJdGNMd1FqRjY3VTdEcER0Q3VUeTB4dw?oc=5",
+      "id": "cosmic-council-trump-creates-ufo-panel-to-be-advised-by-harvard-s-avi-loeb",
+      "title": "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb29JUDFVdU1OTG1CYndETVdFX0xHSTFIdmVwUUZFOE1VdVd4WTNtVGg1YjFFUHYwaVNzTmx5c2ZtRGpkTkNBdDl6RFRqLVcyNjAzUUZDMzNmQURVY2pITFRXYkpobFA4SjZTTHA1YWZzVWlEaHFGSHp0TFZWSnkzdWFpWmJ5M3Y0c1ZBY2EtV0xwSl9BdDdHeEwzeXhKV1dpT09QX0NxaGw3SFo2MHJSeUVn?oc=5",
       "date": "2026-07-01",
-      "publishedAt": "2026-07-01T18:16:00Z",
-      "summary": "",
+      "publishedAt": "2026-06-20T07:00:00Z",
+      "summary": "The Trump administration has created a new UAP Governance Board to address unidentified anomalous phenomena, holding its first meeting on Tuesday. The board’s mission is to support the President’s directive on UAP transparency, integrate interagency processes, and coordinate the declassification of UAP information among military, law enforcement, intelligence, and civilian agencies. Harvard astrophysicist Avi Loeb has been appointed as an advisor and will lead the board’s UAP Science Advisory Council, a smaller working group focused on data-driven analysis. Loeb, who previously highlighted the interstellar object 3I/Atlas as a possible alien probe, says the program will have no budget, rely only on declassified data, and avoid public distraction. The board may investigate cases such as the 2023 glowing mothership orb near Cheyenne Mountain, and Loeb notes that 40% of observed phenomena cannot be explained by known U.S. or adversary technology. Loeb’s advisory team includes scientists Michael Shermer, Gary Nolan, Kevin Knuth, Matthew Szydagis, and retired Rear Admiral Gallaudet, who says the government is overdue to adopt a scientific perspective on UAP.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -149,14 +149,28 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
+        "declassified",
         "files",
-        "released"
+        "government"
       ],
       "sourceQuality": 73,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "displayedAt": "2026-07-02T12:54:35Z"
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-07-02T06:30:05Z",
+      "translation": {
+        "en": {
+          "title": "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
+          "summary": "The Trump administration has created a new UAP Governance Board to address unidentified anomalous phenomena, holding its first meeting on Tuesday. The board’s mission is to support the President’s directive on UAP transparency, integrate interagency processes, and coordinate the declassification of UAP information among military, law enforcement, intelligence, and civilian agencies.",
+          "sourceHash": "264cc38665026d64dd0f3d6e63c8180ec9bc668d",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Kosmischer Rat: Trump gründet ein UFO-Gremium, das von Harvard-Mitarbeiter Avi Loeb beraten wird",
+          "summary": "Die Trump-Administration hat ein neues UAP-Governance-Board eingerichtet, das sich mit nicht identifizierten anomalen Phänomenen befassen soll, und hält am Dienstag seine erste Sitzung ab. Die Aufgabe des Gremiums besteht darin, die Richtlinie des Präsidenten zur UAP-Transparenz zu unterstützen, behördenübergreifende Prozesse zu integrieren und die Freigabe von UAP-Informationen zwischen Militär, Strafverfolgungsbehörden, Geheimdiensten und zivilen Behörden zu koordinieren.",
+          "sourceHash": "264cc38665026d64dd0f3d6e63c8180ec9bc668d",
+          "provider": "google"
+        }
+      }
     },
     {
       "id": "uap-disclosure-forum-in-dc-key-takeaways",
@@ -475,7 +489,87 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 56,
-      "displayedAt": "2026-06-25T06:40:27Z"
+      "displayedAt": "2026-06-25T06:40:27Z",
+      "rssPublishedAt": "2026-06-24T13:15:39Z",
+      "rssDate": "2026-06-24",
+      "sourcePublishedAt": "2026-06-24T13:15:39Z",
+      "sourceDisplayedAt": "2026-06-25T06:40:27Z",
+      "translation": {
+        "en": {
+          "title": "Disclosure Day (2026) Box Office performance crashes like a UFO in Roswell",
+          "summary": "Steven Spielberg's alien invasion film \"Disclosure Day\" opened in theaters on June 12, 2026. After just under two weeks, the movie has earned $162.7 million worldwide, with only $80.8 million coming from North America. The film's revenue fell 62 % in its second weekend, and its $115 million production cost means it would need about $280 million at the box office to break even.",
+          "sourceHash": "00f1c84e0fbb97b668bf349dbadbf3e095a6666e",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Disclosure Day (2026) Die Vorstellung an den Kinokassen stürzt wie ein UFO in Roswell ab",
+          "summary": "Steven Spielbergs Alien-Invasionsfilm „Disclosure Day“ startete am 12. Juni 2026 in den Kinos. Nach knapp zwei Wochen hat der Film weltweit 162,7 Millionen US-Dollar eingespielt, davon kamen nur 80,8 Millionen US-Dollar aus Nordamerika. Die Einnahmen des Films gingen am zweiten Wochenende um 62 % zurück, und die Produktionskosten von 115 Millionen US-Dollar bedeuten, dass an den Kinokassen etwa 280 Millionen US-Dollar nötig wären, um die Gewinnschwelle zu erreichen.",
+          "sourceHash": "00f1c84e0fbb97b668bf349dbadbf3e095a6666e",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
+    },
+    {
+      "id": "program-they-plan-to-eliminate-you-lue-elizondo-reports-congress-threats-for-uap-whistleblowing",
+      "title": "“They plan to eliminate you:” Lue Elizondo reports Congress threats for UAP whistleblowing",
+      "source": "Cybernews",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA0RVU4bGhZTXgwbzJ0dEN0Wl9jV1A4elJuM1dJQ2ZNRTkzWFNWcmppdnBuTlI3Y0lVWjU2TzgxcTE5SWlJMmVubjBycTdhVW9tTkV4RVN5aUJpYlJjaWJYZ3l2MUpMQUNTQktOUkFLY2VVTlNkcXVnYklR?oc=5",
+      "date": "2026-07-02",
+      "publishedAt": "2026-07-02T12:48:35Z",
+      "summary": "Lue Elizondo, a former Pentagon official, says he received phone calls from Congress workers warning that he and fellow UAP whistleblower David Grusch were targeted with a “plan to eliminate” them. The calls, one from an inebriated staffer who had left a confidential UAP briefing and another warning about bureaucratic disapproval, prompted Elizondo to heavily arm his home and keep five German shepherds for protection. On Sean Hannity’s podcast, Elizondo explained that UAP whistleblowers receive little government protection and that the government keeps UAP information secret to shield foreign adversaries, avoid public panic, and preserve social order, citing a RAND study and a White House committee debate. He warned that public disclosure of UAPs could trigger lawsuits from defense contractors claiming unfair denial of advanced technology, potentially creating a “legal cottage industry.” Elizondo also alleged that some elected leaders, including the president, were kept out of the loop on the issue and called for greater congressional oversight and whistleblower protections.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "UAP expert says whistleblowers need legal protections from threats, retribution",
+          "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWXpWX1MzLWlwRUVhYUNWLUxGeGN1V3FxZ2tpNjg1cjFiTS1SNDB2SUlBWUg3RnBqV1lqRnVja29nVHhfVmUwSmUzZkdJaUpjVUVHYWdzMkVrQmxDUzVWNVhyN1hRMVZwWUxoU2RkMGNvck1vQmtmeml1SFE3Y0ktYWlJcHlmY0V0SXJ30gGQAUFVX3lxTE9mWi1UWEVKMUllUTNzbU1VclBUekNIYkFHWFE1S1FjTXR6ZmFIQWZfS3NJOVRyZjhMamhHWTZpSE9YRlRrZTF1SWE1OWtuZzZsVE9aclA3Mk9QeHUwd3BHUjV3bFZlcy1WaGE2ZTFzNGpkb0x6dzB5ZDl4ZGk1X3hZLTRkUUIzbDNIUVltWTVOdA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWXpWX1MzLWlwRUVhYUNWLUxGeGN1V3FxZ2tpNjg1cjFiTS1SNDB2SUlBWUg3RnBqV1lqRnVja29nVHhfVmUwSmUzZkdJaUpjVUVHYWdzMkVrQmxDUzVWNVhyN1hRMVZwWUxoU2RkMGNvck1vQmtmeml1SFE3Y0ktYWlJcHlmY0V0SXJ30gGQAUFVX3lxTE9mWi1UWEVKMUllUTNzbU1VclBUekNIYkFHWFE1S1FjTXR6ZmFIQWZfS3NJOVRyZjhMamhHWTZpSE9YRlRrZTF1SWE1OWtuZzZsVE9aclA3Mk9QeHUwd3BHUjV3bFZlcy1WaGE2ZTFzNGpkb0x6dzB5ZDl4ZGk1X3hZLTRkUUIzbDNIUVltWTVOdA?oc=5",
+          "publishedAt": "2026-06-29T04:23:19Z"
+        }
+      ],
+      "clusterTitles": [
+        "UAP expert says whistleblowers need legal protections from threats, retribution"
+      ],
+      "quality": 55,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "CONGRESS als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "CONGRESS als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "CONGRESS"
+      ],
+      "sourceQuality": 55,
+      "displayedAt": "2026-07-03T06:20:40Z"
     },
     {
       "id": "new-uap-panel-to-advise-feds-a-completely-different-mindset-elizabeth-vargas-reports",
@@ -525,44 +619,26 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 54,
-      "displayedAt": "2026-06-19T07:00:00Z"
-    },
-    {
-      "id": "uap-expert-says-whistleblowers-need-legal-protections-from-threats-retribution",
-      "title": "UAP expert says whistleblowers need legal protections from threats, retribution",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWXpWX1MzLWlwRUVhYUNWLUxGeGN1V3FxZ2tpNjg1cjFiTS1SNDB2SUlBWUg3RnBqV1lqRnVja29nVHhfVmUwSmUzZkdJaUpjVUVHYWdzMkVrQmxDUzVWNVhyN1hRMVZwWUxoU2RkMGNvck1vQmtmeml1SFE3Y0ktYWlJcHlmY0V0SXJ30gGQAUFVX3lxTE9mWi1UWEVKMUllUTNzbU1VclBUekNIYkFHWFE1S1FjTXR6ZmFIQWZfS3NJOVRyZjhMamhHWTZpSE9YRlRrZTF1SWE1OWtuZzZsVE9aclA3Mk9QeHUwd3BHUjV3bFZlcy1WaGE2ZTFzNGpkb0x6dzB5ZDl4ZGk1X3hZLTRkUUIzbDNIUVltWTVOdA?oc=5",
-      "date": "2026-06-29",
-      "publishedAt": "2026-06-29T04:23:19Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 49,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+      "displayedAt": "2026-06-19T07:00:00Z",
+      "rssPublishedAt": "2026-06-19T07:00:00Z",
+      "rssDate": "2026-06-19",
+      "sourcePublishedAt": "2026-06-20T00:21:22Z",
+      "sourceDisplayedAt": "2026-06-29T07:20:53Z",
+      "translation": {
+        "en": {
+          "title": "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports",
+          "summary": "New UAP panel to advise feds: ‘A completely different mindset’ | Elizabeth Vargas Reports Harvard astrophysicist Avi Loeb tells \"Elizabeth Vargas Reports\" there are reasons to be optimistic about the new UAP Advisory Council he'll lead under the Trump administration: \"We are trying to figure it out together, in cooperation, and I hope that all the suspicion against government hiding things will be forgotten once we get to the bottom of this. \"#UFO #Trump By Andrew Mills, Parisa Hafezi and Humeyra Pamuk DUBAI/WASHINGTON, June 29 (Reuters) - Iranian and U. technical teams working on the implementation of an interim peace deal are expected to meet in By Emma Farge GENEVA, June 29 (Reuters) - An ex-political prisoner from Belarus on Monday raised doubts about easing sanctions on the Eastern European country in return for releasing political By Vivian Sequera and Aida Pelaez-Fernandez CARACAS, June 29 (Reuters) - Residents of Caracas woke up on Monday to an aftershock that rocked their houses, while rescue teams continued their fourth day The Supreme Court on Monday ruled that states can count mail ballots that are cast by Election Day but arrive later, rejecting a GOP challenge to a Mississippi law.",
+          "sourceHash": "46507a6b1de04ff51b7a89fa32c89eb9e3c0d7a6",
+          "provider": "original"
         },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        "de": {
+          "title": "Neues UAP-Gremium berät die Regierung: „Eine völlig andere Denkweise“ | Elizabeth Vargas Berichte",
+          "summary": "Neues UAP-Gremium berät die Regierung: „Eine völlig andere Denkweise“ | Elizabeth Vargas Reports Der Harvard-Astrophysiker Avi Loeb sagt gegenüber „Elizabeth Vargas Reports“, dass es Gründe gibt, optimistisch zu sein, was den neuen UAP-Beirat angeht, den er unter der Trump-Administration leiten wird: „Wir versuchen, es gemeinsam und in Zusammenarbeit herauszufinden, und ich hoffe, dass der ganze Verdacht gegen die Regierung, Dinge zu verbergen, vergessen wird, wenn wir der Sache auf den Grund gehen.“ #UFO #Trump Von Andrew Mills, Parisa Hafezi und Humeyra Pamuk DUBAI/WASHINGTON, 29. Juni (Reuters) – Es wird erwartet, dass sich iranische und US-amerikanische technische Teams, die an der Umsetzung eines vorläufigen Friedensabkommens arbeiten, im Jahr treffen. Von Emma Farge GENF, 29. Juni (Reuters) – Ein ehemaliger politischer Gefangener aus Weißrussland äußerte am Montag Zweifel an einer Lockerung der Sanktionen gegen das osteuropäische Land als Gegenleistung für die Freilassung politischer Maßnahmen. Von Vivian Sequera und Aida Pelaez-Fernandez CARACAS, 29. Juni (Reuters) – Einwohner von Caracas erwachten am Montag zu einem Nachbeben, das ihre Häuser erschütterte, während Rettungsteams ihren vierten Tag fortsetzten. Der Oberste Gerichtshof entschied am Montag, dass Staaten Briefwahlzettel zählen können, die bis zum Wahltag abgegeben wurden, aber später eintreffen, und lehnte eine Anfechtung der Republikanischen Partei gegen einen ab Mississippi-Gesetz.",
+          "sourceHash": "46507a6b1de04ff51b7a89fa32c89eb9e3c0d7a6",
+          "provider": "google"
         }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
       },
-      "sourceQuality": 49,
-      "displayedAt": "2026-06-29T07:20:53Z"
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-russian-astronomer-reports-possible-ufo-sighting-in-omsk-region",
@@ -609,17 +685,17 @@
       "displayedAt": "2026-06-25T13:13:43Z"
     },
     {
-      "id": "program-cosmic-council-trump-creates-ufo-panel-to-be-advised-by-harvard-s-avi-loeb",
-      "title": "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb29JUDFVdU1OTG1CYndETVdFX0xHSTFIdmVwUUZFOE1VdVd4WTNtVGg1YjFFUHYwaVNzTmx5c2ZtRGpkTkNBdDl6RFRqLVcyNjAzUUZDMzNmQURVY2pITFRXYkpobFA4SjZTTHA1YWZzVWlEaHFGSHp0TFZWSnkzdWFpWmJ5M3Y0c1ZBY2EtV0xwSl9BdDdHeEwzeXhKV1dpT09QX0NxaGw3SFo2MHJSeUVn?oc=5",
-      "date": "2026-06-20",
-      "publishedAt": "2026-06-20T07:00:00Z",
-      "summary": "The Trump administration has created a new UAP Governance Board to address unidentified anomalous phenomena, holding its first meeting on Tuesday. The board’s mission is to support the President’s directive on UAP transparency, integrate interagency processes, and coordinate the declassification of UAP information among military, law enforcement, intelligence, and civilian agencies. Harvard astrophysicist Avi Loeb has been appointed as an advisor and will lead the board’s UAP Science Advisory Council, a smaller working group focused on data-driven analysis. Loeb, who previously highlighted the interstellar object 3I/Atlas as a possible alien probe, says the program will have no budget, rely only on declassified data, and avoid public distraction. The board may investigate cases such as the 2023 glowing mothership orb near Cheyenne Mountain, and Loeb notes that 40% of observed phenomena cannot be explained by known U.S. or adversary technology. Loeb’s advisory team includes scientists Michael Shermer, Gary Nolan, Kevin Knuth, Matthew Szydagis, and retired Rear Admiral Gallaudet, who says the government is overdue to adopt a scientific perspective on UAP.",
+      "id": "film-world-ufo-day-invites-believers-skeptics-and-the-curious-to-look-to-the-skies",
+      "title": "World UFO Day invites believers, skeptics and the curious to look to the skies",
+      "source": "Wausau Pilot & Review",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSEg1Y2FESU1WSHY3VGpHb1QzRTlsVXpiOEFCNTBjbEQtZGVGNk1GR1lxOTZON3YxNWdscmNjRF9GUzhrZlEyV0JUbk5na3VsYmplejBMSGdERTNSSjJic2NMUkw4aGh0bHdMdnI0ckFHRGdCaGNPTlhIbkZ4enlJRG5SNGtFUm9YamllQ1FOSG51V3ZyQXZ1dVVFVFhzNGVyYXU5RTdPR3daSTZVT2liTmVXVF9sdzZfa3ZRZ1RrYw?oc=5",
+      "date": "2026-07-02",
+      "publishedAt": "2026-07-02T14:10:54Z",
+      "summary": "World UFO Day is observed each year on July 2 and commemorates the 1947 Roswell incident in New Mexico. The day encourages discussion of unidentified flying objects, now referred to as unidentified anomalous phenomena (UAPs), and reflects growing public interest fueled by military videos and congressional attention. While many sightings are later identified as aircraft, weather phenomena, or satellites, some remain officially unidentified, and enthusiasts celebrate with festivals, film viewings, sky scanning, and story sharing. Scientists note that an unidentified object does not equal evidence of extraterrestrial life, as it simply means insufficient information to determine what was observed.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 45,
+      "quality": 43,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -629,12 +705,7 @@
         {
           "label": "Begriffe",
           "points": 3,
-          "text": "TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
+          "text": "PILOT als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Starker Titel",
@@ -644,58 +715,10 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "TRUMP"
+        "PILOT"
       ],
-      "sourceQuality": 45,
-      "displayedAt": "2026-07-02T06:30:05Z",
-      "rssPublishedAt": "2026-06-20T07:00:00Z",
-      "rssDate": "2026-06-20",
-      "sourcePublishedAt": "2026-06-20T05:40:54Z",
-      "sourceDisplayedAt": "2026-07-02T06:30:05Z",
-      "translation": {
-        "en": {
-          "title": "Cosmic Council: Trump creates UFO panel to be advised by Harvard's Avi Loeb",
-          "summary": "The Trump administration has created a new UAP Governance Board to address unidentified anomalous phenomena, holding its first meeting on Tuesday. The board’s mission is to support the President’s directive on UAP transparency, integrate interagency processes, and coordinate the declassification of UAP information among military, law enforcement, intelligence, and civilian agencies.",
-          "sourceHash": "264cc38665026d64dd0f3d6e63c8180ec9bc668d",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Kosmischer Rat: Trump gründet ein UFO-Gremium, das von Harvard-Mitarbeiter Avi Loeb beraten wird",
-          "summary": "Die Trump-Administration hat ein neues UAP-Governance-Board eingerichtet, das sich mit nicht identifizierten anomalen Phänomenen befassen soll, und hält am Dienstag seine erste Sitzung ab. Die Aufgabe des Gremiums besteht darin, die Richtlinie des Präsidenten zur UAP-Transparenz zu unterstützen, behördenübergreifende Prozesse zu integrieren und die Freigabe von UAP-Informationen zwischen Militär, Strafverfolgungsbehörden, Geheimdiensten und zivilen Behörden zu koordinieren.",
-          "sourceHash": "264cc38665026d64dd0f3d6e63c8180ec9bc668d",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
-    {
-      "id": "program-they-plan-to-eliminate-you-elizondo-on-threats-of-uap-whistleblowing",
-      "title": "“They plan to eliminate you:” Elizondo on threats of UAP whistleblowing",
-      "source": "Cybernews",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA0RVU4bGhZTXgwbzJ0dEN0Wl9jV1A4elJuM1dJQ2ZNRTkzWFNWcmppdnBuTlI3Y0lVWjU2TzgxcTE5SWlJMmVubjBycTdhVW9tTkV4RVN5aUJpYlJjaWJYZ3l2MUpMQUNTQktOUkFLY2VVTlNkcXVnYklR?oc=5",
-      "date": "2026-07-02",
-      "publishedAt": "2026-07-02T12:45:28Z",
-      "summary": "UAP whistleblower Lue Elizondo said he received phone calls from a Congress worker and another staffer warning that he and fellow whistleblower David Grusch were targeted with a “plan to eliminate” them. The calls prompted Elizondo to heavily arm his home, citing the lack of government protection for whistleblowers. Elizondo explained that governments keep UAP information secret to protect national security, prevent public panic, and avoid destabilizing markets and religions, referencing a RAND study and a White House committee debate. He warned that disclosure could trigger lawsuits from defense contractors and that some elected officials, including the president, are kept out of the loop on the issue. Elizondo called for greater congressional oversight and whistleblower protections to allow the public to learn the full story.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "displayedAt": "2026-07-02T12:54:35Z"
+      "sourceQuality": 43,
+      "displayedAt": "2026-07-03T06:20:40Z"
     }
   ]
 }
