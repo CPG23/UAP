@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-04T12:02:54Z",
+  "timestamp": "2026-07-05T06:29:31Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -180,7 +180,7 @@
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
@@ -590,7 +590,7 @@
       "displayedAt": "2026-07-02T06:30:05Z",
       "rssPublishedAt": "2026-06-20T07:00:00Z",
       "rssDate": "2026-07-01",
-      "sourcePublishedAt": "2026-06-20T05:40:54Z",
+      "sourcePublishedAt": "2026-06-20T08:40:54Z",
       "sourceDisplayedAt": "2026-07-02T06:30:05Z",
       "translation": {
         "en": {
@@ -798,6 +798,44 @@
       "retainedFromPreviousScan": true
     },
     {
+      "id": "uap-expert-says-whistleblowers-need-legal-protections-from-threats-retribution",
+      "title": "UAP expert says whistleblowers need legal protections from threats, retribution",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWXpWX1MzLWlwRUVhYUNWLUxGeGN1V3FxZ2tpNjg1cjFiTS1SNDB2SUlBWUg3RnBqV1lqRnVja29nVHhfVmUwSmUzZkdJaUpjVUVHYWdzMkVrQmxDUzVWNVhyN1hRMVZwWUxoU2RkMGNvck1vQmtmeml1SFE3Y0ktYWlJcHlmY0V0SXJ30gGQAUFVX3lxTE9mWi1UWEVKMUllUTNzbU1VclBUekNIYkFHWFE1S1FjTXR6ZmFIQWZfS3NJOVRyZjhMamhHWTZpSE9YRlRrZTF1SWE1OWtuZzZsVE9aclA3Mk9QeHUwd3BHUjV3bFZlcy1WaGE2ZTFzNGpkb0x6dzB5ZDl4ZGk1X3hZLTRkUUIzbDNIUVltWTVOdA?oc=5",
+      "date": "2026-06-29",
+      "publishedAt": "2026-06-29T16:48:46Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 49,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 49,
+      "displayedAt": "2026-06-29T16:48:46Z",
+      "sourceDisplayedAt": "2026-06-29T04:23:19Z"
+    },
+    {
       "id": "skeptic-on-uap-panel-that-s-fine-up-to-a-point-ross-coulthart-says",
       "title": "Skeptic on UAP panel? That’s fine, up to a point, Ross Coulthart says",
       "source": "NewsNation",
@@ -834,7 +872,7 @@
       "sourceQuality": 49,
       "displayedAt": "2026-07-03T12:53:48Z",
       "sourceDisplayedAt": "2026-07-03T12:53:48Z",
-      "sourceIsNew": true
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-russian-astronomer-reports-possible-ufo-sighting-in-omsk-region",
@@ -920,7 +958,6 @@
       "rssDate": "2026-07-02",
       "sourcePublishedAt": "2026-07-02T14:10:54Z",
       "sourceDisplayedAt": "2026-07-03T06:20:40Z",
-      "sourceIsNew": true,
       "translation": {
         "en": {
           "title": "World UFO Day invites believers, skeptics and the curious to look to the skies",
@@ -930,7 +967,7 @@
         },
         "de": {
           "title": "Der Welt-UFO-Tag lädt Gläubige, Skeptiker und Neugierige ein, in den Himmel zu blicken",
-          "summary": "Der Welt-UFO-Tag wird jedes Jahr am 2. Juli begangen und erinnert an den Roswell-Vorfall 1947 in New Mexico. Der Tag fördert die Diskussion über nicht identifizierte Flugobjekte, die heute als nicht identifizierte anomale Phänomene (UAPs) bezeichnet werden, und spiegelt das wachsende öffentliche Interesse wider, das durch Militärvideos und die Aufmerksamkeit des Kongresses angeheizt wird. Während viele Sichtungen später als Flugzeuge, Wetterphänomene oder Satelliten identifiziert werden, bleiben einige offiziell unbekannt und Enthusiasten feiern mit Festivals, Filmvorführungen, Himmelsscans und dem Austausch von Geschichten.",
+          "summary": "Der Welt-UFO-Tag wird jedes Jahr am 2. Juli begangen und erinnert an den Roswell-Vorfall 1947 in New Mexico. Der Tag fördert die Diskussion über nicht identifizierte Flugobjekte, die heute als nicht identifizierte anomale Phänomene (UAPs) bezeichnet werden, und spiegelt das wachsende öffentliche Interesse wider, das durch Militärvideos und die Aufmerksamkeit des Kongresses angeheizt wird. Während viele Sichtungen später als Flugzeuge, Wetterphänomene oder Satelliten identifiziert werden, bleiben einige offiziell unbekannt, und Enthusiasten feiern dies mit Festivals, Filmvorführungen, Himmelsscans und dem Austausch von Geschichten.",
           "sourceHash": "d97d1884ad1fb90d8c43ae83c985eff0ae71bdd2",
           "provider": "google"
         }
@@ -946,32 +983,24 @@
     "film-world-ufo-day-invites-believers-skeptics-and-the-curious-to-look-to-the-skies": "World UFO Day is observed each year on July 2 and commemorates the 1947 Roswell incident in New Mexico. The day encourages discussion of unidentified flying objects, now referred to as unidentified anomalous phenomena (UAPs), and reflects growing public interest fueled by military videos and congressional attention. While many sightings are later identified as aircraft, weather phenomena, or satellites, some remain officially unidentified, and enthusiasts celebrate with festivals, film viewings, sky scanning, and story sharing. Scientists note that an unidentified object does not equal evidence of extraterrestrial life, as it simply means insufficient information to determine what was observed."
   },
   "notificationBatch": {
-    "timestamp": "2026-07-04T12:02:54Z",
-    "ids": [
-      "program-uap-whistleblower-luis-elizondo-details-congressional-staffer-s-warning-of-a-plot-to-eliminate-him"
-    ],
-    "articles": [
-      {
-        "id": "program-uap-whistleblower-luis-elizondo-details-congressional-staffer-s-warning-of-a-plot-to-eliminate-him",
-        "title": "UAP whistleblower Luis Elizondo details congressional staffer’s warning of a plot to ‘eliminate’ him",
-        "source": "kotaradio.com"
-      }
-    ]
+    "timestamp": "2026-07-05T06:29:31Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 419,
-    "broadTopics": 182,
+    "broadArticles": 413,
+    "broadTopics": 181,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
-    "appTopics": 12,
+    "appTopics": 13,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 6,
+    "splitUnrelatedGroupedSources": 7,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 7,
+    "regroupedTopics": 6,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -979,15 +1008,15 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 6,
+      "attempts": 7,
       "repaired": 0,
       "fallbackRepaired": 0,
-      "missing": 6
+      "missing": 7
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 12,
-      "missing": 6,
+      "kept": 13,
+      "missing": 7,
       "missingItems": [
         {
           "id": "uap-disclosure-forum-in-dc-key-takeaways",
@@ -1010,6 +1039,12 @@
         {
           "id": "ufo-transparency-at-the-heart-of-disclosure-forum",
           "title": "UFO transparency at the heart of Disclosure Forum",
+          "source": "NewsNation",
+          "reason": "missing_or_mismatched_article_content_summary"
+        },
+        {
+          "id": "uap-expert-says-whistleblowers-need-legal-protections-from-threats-retribution",
+          "title": "UAP expert says whistleblowers need legal protections from threats, retribution",
           "source": "NewsNation",
           "reason": "missing_or_mismatched_article_content_summary"
         },
@@ -1049,8 +1084,8 @@
     },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
-      "updatedArticles": 6,
-      "clearedTranslations": 6,
+      "updatedArticles": 7,
+      "clearedTranslations": 7,
       "reorderedBySourceCount": true
     },
     "relatedSourceBackfill": {
@@ -1087,13 +1122,14 @@
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 12,
       "currentBeforeRestore": 10,
-      "restoredArticles": 2,
+      "restoredArticles": 3,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
         "UAP forum will let public hear from lawmakers, whistleblowers on disclosure 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "Disclosure Day (2026) Box Office performance crashes like a UFO in Roswell"
+        "Disclosure Day (2026) Box Office performance crashes like a UFO in Roswell",
+        "Skeptic on UAP panel? That’s fine, up to a point, Ross Coulthart says"
       ]
     },
     "finalFeedSourceConsistency": {
@@ -1101,29 +1137,29 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 12
+      "articlesRefreshed": 13
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 29,
+      "checkedSources": 30,
       "updatedSources": 7,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 12,
-      "newSources": 1
+      "updatedTopics": 13,
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 12,
+      "correctedExistingTopics": 13,
       "newTopics": 0,
       "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 41
@@ -1139,7 +1175,7 @@
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }
@@ -1209,7 +1245,7 @@
       },
       "de": {
         "title": "Der Welt-UFO-Tag lädt Gläubige, Skeptiker und Neugierige ein, in den Himmel zu blicken",
-        "summary": "Der Welt-UFO-Tag wird jedes Jahr am 2. Juli begangen und erinnert an den Roswell-Vorfall 1947 in New Mexico. Der Tag fördert die Diskussion über nicht identifizierte Flugobjekte, die heute als nicht identifizierte anomale Phänomene (UAPs) bezeichnet werden, und spiegelt das wachsende öffentliche Interesse wider, das durch Militärvideos und die Aufmerksamkeit des Kongresses angeheizt wird. Während viele Sichtungen später als Flugzeuge, Wetterphänomene oder Satelliten identifiziert werden, bleiben einige offiziell unbekannt und Enthusiasten feiern mit Festivals, Filmvorführungen, Himmelsscans und dem Austausch von Geschichten.",
+        "summary": "Der Welt-UFO-Tag wird jedes Jahr am 2. Juli begangen und erinnert an den Roswell-Vorfall 1947 in New Mexico. Der Tag fördert die Diskussion über nicht identifizierte Flugobjekte, die heute als nicht identifizierte anomale Phänomene (UAPs) bezeichnet werden, und spiegelt das wachsende öffentliche Interesse wider, das durch Militärvideos und die Aufmerksamkeit des Kongresses angeheizt wird. Während viele Sichtungen später als Flugzeuge, Wetterphänomene oder Satelliten identifiziert werden, bleiben einige offiziell unbekannt, und Enthusiasten feiern dies mit Festivals, Filmvorführungen, Himmelsscans und dem Austausch von Geschichten.",
         "sourceHash": "d97d1884ad1fb90d8c43ae83c985eff0ae71bdd2",
         "provider": "google"
       }
