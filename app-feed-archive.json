@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-05T06:29:31Z",
+  "timestamp": "2026-07-05T12:11:30Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -97,6 +97,66 @@
         }
       },
       "retainedFromPreviousScan": true
+    },
+    {
+      "id": "trump-ufo-advisors-accuse-private-corporations-of-operating-alien-craft-retrieval-programs",
+      "title": "Trump UFO advisors accuse private corporations of operating alien craft-retrieval programs",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbFBkblh5cTBVbnkzZElDdHVoendBZVNnYXpLdi1tRDExUkZyOGw4THZsQkV2dDBKUzg0aS1Xdmd0TTRHNTJrZnJTOWlESkoxNmM2Q3lOc1cyZ19MSjd1eXhoMjRWOUxyNGpGQ3c3XzVzQWlOUXk5WlBzRV9rVXczb3k4ZTlYMXBKQVJ3cDJNZ0h6ZkFMbU9tSk45cXpnVVBSZHdYU01JaEdHUV9OM0dMQ0lKaXphMDhtODhSOFB4eFJTRk9JcjZaWg?oc=5",
+      "date": "2026-07-01",
+      "publishedAt": "2026-07-04T13:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 73,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DECLASSIFIED, PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "DECLASSIFIED, PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "files",
+        "released"
+      ],
+      "sourceQuality": 73,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-07-05T12:11:30Z"
     },
     {
       "id": "uap-disclosure-forum-in-dc-key-takeaways",
@@ -542,46 +602,7 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 49,
-      "displayedAt": "2026-07-05T06:29:31Z"
-    },
-    {
-      "id": "skeptic-on-uap-panel-that-s-fine-up-to-a-point-ross-coulthart-says",
-      "title": "Skeptic on UAP panel? That’s fine, up to a point, Ross Coulthart says",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zNHZVMks5S3hCX09xT3RzS1hHcmhJNWtUMFdQbWdSOFlLRWdtUWxkeGlCbWJQUmtCbjViOTZmZTkyMS1zcFh3dlRSU2FpMkJIeE91OGVkTUVjTHZ2cGtCR1ZkbmJMR21zRkJFUTJ1bkJDOHRmMjlXdmtpVUU2QdIBgwFBVV95cUxOSzVicmFkU3g0RWlSRW1SdUNYc0VCLTNhTGJZWFZXei1jN0t1UkN4aFM0Qk02YzNoUVZQdTJzZkI5eFR1aEUzZ0ZzWHFWQTU3VkNZbnlwQ0VtU1hlUm9paHR0MHRWNEEwZVRzZkVQaE95U0JmT1BGdURwdTBYV015QUlkQQ?oc=5",
-      "date": "2026-06-21",
-      "publishedAt": "2026-06-21T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 49,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 49,
-      "displayedAt": "2026-07-03T12:53:48Z",
-      "sourceDisplayedAt": "2026-07-03T12:53:48Z",
-      "retainedFromPreviousScan": true
+      "displayedAt": "2026-06-29T16:48:46Z"
     },
     {
       "id": "sighting-russian-astronomer-reports-possible-ufo-sighting-in-omsk-region",
