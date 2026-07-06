@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-05T12:11:30Z",
+  "timestamp": "2026-07-06T07:00:02Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -105,7 +105,7 @@
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbFBkblh5cTBVbnkzZElDdHVoendBZVNnYXpLdi1tRDExUkZyOGw4THZsQkV2dDBKUzg0aS1Xdmd0TTRHNTJrZnJTOWlESkoxNmM2Q3lOc1cyZ19MSjd1eXhoMjRWOUxyNGpGQ3c3XzVzQWlOUXk5WlBzRV9rVXczb3k4ZTlYMXBKQVJ3cDJNZ0h6ZkFMbU9tSk45cXpnVVBSZHdYU01JaEdHUV9OM0dMQ0lKaXphMDhtODhSOFB4eFJTRk9JcjZaWg?oc=5",
       "date": "2026-07-01",
       "publishedAt": "2026-07-04T13:00:00Z",
-      "summary": "",
+      "summary": "Avi Loeb, head of Trump’s UAP Science Advisory Council, said a former Lockheed Martin executive confirmed the company runs a crashed‑UFO retrieval program and that the material could prove extraterrestrial intelligence. Hal Puthoff and Luis Elizondo added that Lockheed had been prepared to transfer such materials to the AATIP and later to the Navy’s Pax River Facility, a Special Access Program hangar funded with $10 million. Congressman Eric Burlison toured Pax River, demanded documents from MIT’s Lincoln Laboratory and MITRE Corporation, and warned that major defense contractors must be allowed to disclose reverse‑engineered non‑human technology. Chris Mellon stated that decisive UAP data remains hidden behind classification at the Air Force, CIA, DOE and other agencies, and that private corporations also hold evidence. Neither Lockheed Martin nor Northrop Grumman has responded to the allegations.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -153,10 +153,28 @@
         "released"
       ],
       "sourceQuality": 73,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
+      "displayedAt": "2026-07-05T12:11:30Z",
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
+      "rssPublishedAt": "2026-07-04T13:00:00Z",
+      "rssDate": "2026-07-01",
+      "sourcePublishedAt": "2026-07-04T13:00:00Z",
+      "sourceDisplayedAt": "2026-07-05T12:11:30Z",
+      "translation": {
+        "en": {
+          "title": "Trump UFO advisors accuse private corporations of operating alien craft-retrieval programs",
+          "summary": "Avi Loeb, head of Trump’s UAP Science Advisory Council, said a former Lockheed Martin executive confirmed the company runs a crashed‑UFO retrieval program and that the material could prove extraterrestrial intelligence. Hal Puthoff and Luis Elizondo added that Lockheed had been prepared to transfer such materials to the AATIP and later to the Navy’s Pax River Facility, a Special Access Program hangar funded with $10 million.",
+          "sourceHash": "0b7b615943a13f41e08e849801d911e28c54bc95",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Trumps UFO-Berater beschuldigen private Unternehmen, Programme zur Bergung außerirdischer Raumschiffe durchzuführen",
+          "summary": "Avi Loeb, Vorsitzender von Trumps UAP Science Advisory Council, sagte, ein ehemaliger Manager von Lockheed Martin habe bestätigt, dass das Unternehmen ein Programm zur Bergung abgestürzter UFOs betreibt und dass das Material außerirdische Intelligenz beweisen könnte. Hal Puthoff und Luis Elizondo fügten hinzu, dass Lockheed bereit gewesen sei, solche Materialien an die AATIP und später an die Pax River Facility der Marine zu übergeben, einen Hangar des Special Access Program, der mit 10 Millionen US-Dollar finanziert wurde.",
+          "sourceHash": "0b7b615943a13f41e08e849801d911e28c54bc95",
+          "provider": "google"
+        }
       },
-      "displayedAt": "2026-07-05T12:11:30Z"
+      "retainedFromPreviousScan": true
     },
     {
       "id": "uap-disclosure-forum-in-dc-key-takeaways",
@@ -475,26 +493,7 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 56,
-      "displayedAt": "2026-06-25T06:40:27Z",
-      "rssPublishedAt": "2026-06-24T13:15:39Z",
-      "rssDate": "2026-06-24",
-      "sourcePublishedAt": "2026-06-24T13:15:39Z",
-      "sourceDisplayedAt": "2026-06-25T06:40:27Z",
-      "translation": {
-        "en": {
-          "title": "Disclosure Day (2026) Box Office performance crashes like a UFO in Roswell",
-          "summary": "Steven Spielberg's alien invasion film \"Disclosure Day\" opened in theaters on June 12, 2026. After just under two weeks, the movie has earned $162.7 million worldwide, with only $80.8 million coming from North America. The film's revenue fell 62 % in its second weekend, and its $115 million production cost means it would need about $280 million at the box office to break even.",
-          "sourceHash": "00f1c84e0fbb97b668bf349dbadbf3e095a6666e",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Disclosure Day (2026) Die Vorstellung an den Kinokassen stürzt wie ein UFO in Roswell ab",
-          "summary": "Steven Spielbergs Alien-Invasionsfilm „Disclosure Day“ startete am 12. Juni 2026 in den Kinos. Nach knapp zwei Wochen hat der Film weltweit 162,7 Millionen US-Dollar eingespielt, davon kamen nur 80,8 Millionen US-Dollar aus Nordamerika. Die Einnahmen des Films gingen am zweiten Wochenende um 62 % zurück, und die Produktionskosten von 115 Millionen US-Dollar bedeuten, dass an den Kinokassen etwa 280 Millionen US-Dollar nötig wären, um die Gewinnschwelle zu erreichen.",
-          "sourceHash": "00f1c84e0fbb97b668bf349dbadbf3e095a6666e",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
+      "displayedAt": "2026-06-25T06:40:27Z"
     },
     {
       "id": "program-uap-whistleblower-luis-elizondo-details-congressional-staffer-s-warning-of-a-plot-to-eliminate-him",
@@ -572,50 +571,13 @@
       "title": "UAP expert says whistleblowers need legal protections from threats, retribution",
       "source": "NewsNation",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWXpWX1MzLWlwRUVhYUNWLUxGeGN1V3FxZ2tpNjg1cjFiTS1SNDB2SUlBWUg3RnBqV1lqRnVja29nVHhfVmUwSmUzZkdJaUpjVUVHYWdzMkVrQmxDUzVWNVhyN1hRMVZwWUxoU2RkMGNvck1vQmtmeml1SFE3Y0ktYWlJcHlmY0V0SXJ30gGQAUFVX3lxTE9mWi1UWEVKMUllUTNzbU1VclBUekNIYkFHWFE1S1FjTXR6ZmFIQWZfS3NJOVRyZjhMamhHWTZpSE9YRlRrZTF1SWE1OWtuZzZsVE9aclA3Mk9QeHUwd3BHUjV3bFZlcy1WaGE2ZTFzNGpkb0x6dzB5ZDl4ZGk1X3hZLTRkUUIzbDNIUVltWTVOdA?oc=5",
-      "date": "2026-06-29",
-      "publishedAt": "2026-06-29T16:48:46Z",
+      "date": "2026-07-02",
+      "publishedAt": "2026-06-29T04:23:19Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 49,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 49,
-      "displayedAt": "2026-06-29T16:48:46Z"
-    },
-    {
-      "id": "sighting-russian-astronomer-reports-possible-ufo-sighting-in-omsk-region",
-      "title": "Russian astronomer reports possible UFO sighting in Omsk region",
-      "source": "Caliber.Az",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVGNTaVJsU0VRZzdMa3ZFVVVaeV9kY1hXOTMxbmM2UlNfSWZ4Q19PMXpDME9DZlFPaERaallleklWUDRndDBaOUFCZlFZc2NmUjVMM0xpYjVCVVR1RG53cVpvYkNjQTJkQWRhSzBfenhwWkJoNHF0NE9PX01ST19yT3daSkVRT2llS0ZUckpxYURIMXpf?oc=5",
-      "date": "2026-06-22",
-      "publishedAt": "2026-06-22T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
+      "quality": 55,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -625,7 +587,12 @@
         {
           "label": "Begriffe",
           "points": 3,
-          "text": "SIGHTING als relevante Themenbegriffe erkannt."
+          "text": "CONGRESS als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "CONGRESS als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
@@ -636,17 +603,20 @@
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "SIGHTING"
-      ],
+      "matchedTerms": [],
+      "sourceQuality": 55,
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "sourceQuality": 45,
-      "displayedAt": "2026-06-25T13:13:43Z"
+      "displayedAt": "2026-06-29T16:48:46Z"
     },
     {
       "id": "film-world-ufo-day-invites-believers-skeptics-and-the-curious-to-look-to-the-skies",
@@ -682,7 +652,26 @@
         "PILOT"
       ],
       "sourceQuality": 43,
-      "displayedAt": "2026-07-03T06:20:40Z"
+      "displayedAt": "2026-07-03T06:20:40Z",
+      "rssPublishedAt": "2026-07-02T14:10:54Z",
+      "rssDate": "2026-07-02",
+      "sourcePublishedAt": "2026-07-02T14:10:54Z",
+      "sourceDisplayedAt": "2026-07-03T06:20:40Z",
+      "translation": {
+        "en": {
+          "title": "World UFO Day invites believers, skeptics and the curious to look to the skies",
+          "summary": "World UFO Day is observed each year on July 2 and commemorates the 1947 Roswell incident in New Mexico. The day encourages discussion of unidentified flying objects, now referred to as unidentified anomalous phenomena (UAPs), and reflects growing public interest fueled by military videos and congressional attention. While many sightings are later identified as aircraft, weather phenomena, or satellites, some remain officially unidentified, and enthusiasts celebrate with festivals, film viewings, sky scanning, and story sharing.",
+          "sourceHash": "d97d1884ad1fb90d8c43ae83c985eff0ae71bdd2",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Der Welt-UFO-Tag lädt Gläubige, Skeptiker und Neugierige ein, in den Himmel zu blicken",
+          "summary": "Der Welt-UFO-Tag wird jedes Jahr am 2. Juli begangen und erinnert an den Roswell-Vorfall 1947 in New Mexico. Der Tag fördert die Diskussion über nicht identifizierte Flugobjekte, die heute als nicht identifizierte anomale Phänomene (UAPs) bezeichnet werden, und spiegelt das wachsende öffentliche Interesse wider, das durch Militärvideos und die Aufmerksamkeit des Kongresses angeheizt wird. Während viele Sichtungen später als Flugzeuge, Wetterphänomene oder Satelliten identifiziert werden, bleiben einige offiziell unbekannt und Enthusiasten feiern mit Festivals, Filmvorführungen, Himmelsscans und dem Austausch von Geschichten.",
+          "sourceHash": "d97d1884ad1fb90d8c43ae83c985eff0ae71bdd2",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     }
   ]
 }
