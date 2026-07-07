@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "4 neue Artikel",
+  "message": "──────────────\nWhat does the second batch of UFO files tell us?\n──────────────\nWhite House picks Harvard professor with polarizing alien theories to lead new UFO council\n──────────────\nDavid Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action\n──────────────\nUAP footage eased lawmaker’s skepticism on subject\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
