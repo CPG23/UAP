@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-07T19:49:42Z",
+  "timestamp": "2026-07-08T05:41:47Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -79,66 +79,6 @@
         }
       },
       "retainedFromPreviousScan": true
-    },
-    {
-      "id": "file-release-white-house-picks-harvard-professor-with-polarizing-alien-theories-to-lead-new-ufo-council",
-      "title": "White House picks Harvard professor with polarizing alien theories to lead new UFO council",
-      "source": "PBS",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOVdBNF84bTZ2T2xQM245WVRBWUgyMHhWQ2hEdmNrS0drTnF3dVR5TFVpNHk3b1BQRzVQaUJ3eEpYTVRKdXpiaEJacGcwalJ6bGtzWXc5T1RDRWZCN0hwRC00S0F4N21vZkd1MkhwVjdMMVA1eGo5T1JkclVSSF9zVFpzWWlacl9kSUNoVGhIZjVLMDRlcHpxcVI0SEsxckVndGxqZVVGSkxvU3lRblVlUFpGZjFxc1l5RFFLdTJHdXplc2tvSWlv0gHMAUFVX3lxTE12cE5ndnNLcXRhcVJJM21hdUZQem5VRnpWekthR0wyY0VVWGs0Rm4ycEhPbHkyR3h6R1RVZWVGX0pyS2pWRVFrWWRvTkd2Ujc4UkNQSDdoY09IZ1pnX1BManpJbUZZOWc2bjF6RFJ1VEJNQTV5STliY0t1YTV1ajZmM1Z6dzBrcW9MM25XNUx5X2ZQY25JUjhrN3lCTWE4bWJ0d2JaRzZYR1B5emswQzU2d080dW5yTHNYUmtTVWhOaFFGTFB3cThVRkNkVA?oc=5",
-      "date": "2026-07-01",
-      "publishedAt": "2026-06-30T23:31:52Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 73,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DECLASSIFIED, PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "DECLASSIFIED, PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "trump"
-      ],
-      "sourceQuality": 73,
-      "displayedAt": "2026-07-07T19:49:42Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
-      }
     },
     {
       "id": "uap-disclosure-forum-in-dc-key-takeaways",
@@ -508,7 +448,26 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 56,
-      "displayedAt": "2026-06-25T06:40:27Z"
+      "displayedAt": "2026-06-25T06:40:27Z",
+      "rssPublishedAt": "2026-06-24T13:15:39Z",
+      "rssDate": "2026-06-24",
+      "sourcePublishedAt": "2026-06-24T13:15:39Z",
+      "sourceDisplayedAt": "2026-06-25T06:40:27Z",
+      "translation": {
+        "en": {
+          "title": "Disclosure Day (2026) Box Office performance crashes like a UFO in Roswell",
+          "summary": "Steven Spielberg's alien invasion film \"Disclosure Day\" opened in theaters on June 12, 2026. After just under two weeks, the movie has earned $162.7 million worldwide, with only $80.8 million coming from North America. The film's revenue fell 62 % in its second weekend, and its $115 million production cost means it would need about $280 million at the box office to break even.",
+          "sourceHash": "00f1c84e0fbb97b668bf349dbadbf3e095a6666e",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Disclosure Day (2026) Die Vorstellung an den Kinokassen stürzt wie ein UFO in Roswell ab",
+          "summary": "Steven Spielbergs Alien-Invasionsfilm „Disclosure Day“ startete am 12. Juni 2026 in den Kinos. Nach knapp zwei Wochen hat der Film weltweit 162,7 Millionen US-Dollar eingespielt, davon kamen nur 80,8 Millionen US-Dollar aus Nordamerika. Die Einnahmen des Films gingen am zweiten Wochenende um 62 % zurück, und die Produktionskosten von 115 Millionen US-Dollar bedeuten, dass an den Kinokassen etwa 280 Millionen US-Dollar nötig wären, um die Gewinnschwelle zu erreichen.",
+          "sourceHash": "00f1c84e0fbb97b668bf349dbadbf3e095a6666e",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "program-uap-whistleblower-luis-elizondo-details-congressional-staffer-s-warning-of-a-plot-to-eliminate-him",
@@ -726,6 +685,38 @@
         }
       },
       "retainedFromPreviousScan": true
+    },
+    {
+      "id": "sighting-think-you-ve-seen-a-ufo-here-s-what-to-do-next-according-to-an-expert",
+      "title": "Think You’ve Seen a UFO? Here’s What to Do Next, According to an Expert",
+      "source": "Popular Mechanics",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9paTZORnlMWGwzTEdsRmVnNXdhZVA1aUJYalRHWVJaMnJ1SG9nR2xzbWJJWXNucXdPUm5idi1GUFE1blhzWWZNTHdSZEQ2Q080ZXFuNGVDZDlVdjRzbGF3QjV6ZWUzZWtlRWhEdDYzRQ?oc=5",
+      "date": "2026-07-04",
+      "publishedAt": "2026-07-04T13:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-07-08T05:41:47Z"
     }
   ]
 }
