@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-09T06:34:09Z",
+  "timestamp": "2026-07-09T13:45:33Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -924,8 +924,7 @@
       "rssPublishedAt": "2026-07-04T13:00:00Z",
       "rssDate": "2026-07-04",
       "sourcePublishedAt": "2026-07-04T13:00:00Z",
-      "sourceDisplayedAt": "2026-07-08T05:41:47Z",
-      "sourceIsNew": true
+      "sourceDisplayedAt": "2026-07-08T05:41:47Z"
     }
   ],
   "summaries": {
@@ -937,21 +936,13 @@
     "roswell-ufo-festival-organizers-share-2026-attendance-numbers": "The Roswell UFO Festival ran from July 2 to July 4, 2026, and organizers reported it was a success. The event featured a variety of booths, shops, shows, and contests aimed at paranormal enthusiasts. Roswell Mainstreet estimated that more than 12,000 people attended, though those figures are preliminary. No further details about attendance or event outcomes were provided."
   },
   "notificationBatch": {
-    "timestamp": "2026-07-09T06:34:09Z",
-    "ids": [
-      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
-    ],
-    "articles": [
-      {
-        "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "source": "U.S. Department of War (.gov)"
-      }
-    ]
+    "timestamp": "2026-07-09T13:45:33Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 389,
-    "broadTopics": 171,
+    "broadArticles": 387,
+    "broadTopics": 174,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -1082,7 +1073,7 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 14,
+      "archiveCandidates": 13,
       "currentBeforeRestore": 11,
       "restoredArticles": 2,
       "blockedUnreachableTitles": 0,
@@ -1109,21 +1100,21 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 13,
-      "newSources": 2
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 12,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 13,
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
-      "correctedOldSourceMarkers": 1,
+      "notifications": 0,
+      "freshSources": 0,
+      "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 43
+      "seededSeenFromPreviousFeed": 42
     }
   },
   "translations": {
