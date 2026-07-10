@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "2 neue Artikel",
+  "message": "──────────────\nNASA insider hints bigger UFO file release as declassification ramps up\n──────────────\nNJ ranks high for UFO sightings. These Central Jersey reports are wild\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}

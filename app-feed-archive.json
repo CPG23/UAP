@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-09T13:45:33Z",
+  "timestamp": "2026-07-10T06:32:25Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -137,7 +137,9 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 71,
-      "displayedAt": "2026-06-27T06:20:08Z"
+      "displayedAt": "2026-06-27T06:20:08Z",
+      "sourceDisplayedAt": "2026-06-27T06:20:08Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "ufo-disclosure-details-emerge-on-invasion-of-washington-tape-newsnation-prime",
@@ -213,140 +215,6 @@
       },
       "sourceQuality": 70,
       "displayedAt": "2026-06-28T01:05:23Z"
-    },
-    {
-      "id": "latest-push-for-uap-disclosure-could-be-dead-end-plot-researcher-katie-pavlich-tonight",
-      "title": "Latest push for UAP disclosure could be ‘dead end’ plot: Researcher | Katie Pavlich Tonight",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQendQdjE5OE96S3J6ZWsxTmkwclJJeVJaeWxNSE03d0NHTmNzTDNDRVhnU2hybHIwY2hYWFVwaGFRbXd6QzA2dUtiVmFRUzE1ei1Ha3NOcGJoSS0xSEluamExaVFGRmpfRVFhanlIendyZTJXOHRfUjBrVDdrNnZ5SG9pTURtWXZNZTUzNW16N2pvNFRFMjUxamhDYkt2SGpsbkZkeFV4Yk5YRlRnb2h5T1JGZi1XM3ZDUHZWcDRXTjJkYmJVLWNQaWFfUlp0ZjFfbFk5dWpCXzFENERKSE1aMTFONmk?oc=5",
-      "date": "2026-06-26",
-      "publishedAt": "2026-06-26T02:55:59Z",
-      "summary": "",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "Latest push for UAP disclosure could be ‘dead end’ plot: Researcher",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5LcTQ2c0xXVDhsVVhfMHVqbFBfZlJvbzl0UVl2UDlFRnRsUE9ROWszakhJQ0ExQTJscWVzbGZyNXd1Slg3SkJkZFdNLXlWbTBJa3dLSjEzeG9GVmQtOHBhR0JZa2F6cjdBenhQY0x5ZGV6Wmtyc2haUEdn0gF_QVVfeXFMT2RoUkNqd1Z2dFJyVnZsWVJTU3pYUUUzZDNoQlZ1Vkgtd2x6M0JqWDk3NXdZdklxMXpRcEF6VHFhNU5SRXFIWHBfbGViLXZ6azFFOUZKQW9OVHRGVDJjNlFwVjdkdURUV1Fwdms2M2pBellQblVpdHRFeTN4a1VHQQ?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5LcTQ2c0xXVDhsVVhfMHVqbFBfZlJvbzl0UVl2UDlFRnRsUE9ROWszakhJQ0ExQTJscWVzbGZyNXd1Slg3SkJkZFdNLXlWbTBJa3dLSjEzeG9GVmQtOHBhR0JZa2F6cjdBenhQY0x5ZGV6Wmtyc2haUEdn0gF_QVVfeXFMT2RoUkNqd1Z2dFJyVnZsWVJTU3pYUUUzZDNoQlZ1Vkgtd2x6M0JqWDk3NXdZdklxMXpRcEF6VHFhNU5SRXFIWHBfbGViLXZ6azFFOUZKQW9OVHRGVDJjNlFwVjdkdURUV1Fwdms2M2pBellQblVpdHRFeTN4a1VHQQ?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-06-26T07:19:43Z",
-          "displayedAt": "2026-06-26T07:19:43Z"
-        }
-      ],
-      "clusterTitles": [
-        "Latest push for UAP disclosure could be ‘dead end’ plot: Researcher"
-      ],
-      "quality": 70,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 70,
-      "displayedAt": "2026-06-26T02:55:59Z"
-    },
-    {
-      "id": "ufo-transparency-at-the-heart-of-disclosure-forum",
-      "title": "UFO transparency at the heart of Disclosure Forum",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQejVLNGd6TFFnNTl3b09mNUU3YkdnYzY5TTE4dHQ3SDJhbHExTUFLdUVTckt2Nlk0Q19CR0VIY3lZR3JYajdDTGFDY1E2b3pfeVlBTXVRS3dISmFlWlBRazBJaFVsU0xtb1pvS2hsTXhPajhUUDdjb1pjcC1uRUZsMjNOTllGUdIBiwFBVV95cUxNYnBuWVNwQ05rYm56ajU0OHl1VVNPQXZmazVwci13S0E1ZUxfekdUblN2bWxJZXM4TEt1R3R4d3lpSHFLUm1jUFBCZWNFYjhOYUN3Q2hZNlFkbEtFTHAwbnBvWEZmMlktWTd6N29IeEZxTXFodURoYTRIWEYwY19FaExGdjNHQWZESnBn?oc=5",
-      "date": "2026-06-26",
-      "publishedAt": "2026-06-26T00:18:02Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 65,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 65,
-      "displayedAt": "2026-06-26T06:42:14Z"
     },
     {
       "id": "file-release-david-grusch-returns-to-capitol-steps-as-ufo-disclosure-fight-moves-from-testimony-to-action",
@@ -473,6 +341,61 @@
       "displayedAt": "2026-07-04T12:02:54Z"
     },
     {
+      "id": "file-release-nasa-insider-hints-bigger-ufo-file-release-as-declassification-ramps-up",
+      "title": "NASA insider hints bigger UFO file release as declassification ramps up",
+      "source": "Cybernews",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1yOWNmaDVZckoxYnU0UnUzMmlEVF94TG5OUlNQVFJqTU9Eb29vQWZvYTdXYXFMckY3dXQzbU1GTVZvSFVJREtGdXQ0YzFLNGpaa2dNN1pJRTNuUnZ0ZWVtTHpuaDFvZw?oc=5",
+      "date": "2026-07-09",
+      "publishedAt": "2026-07-09T09:48:03Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 55,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "NASA als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "NASA als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "NASA"
+      ],
+      "sourceQuality": 55,
+      "displayedAt": "2026-07-10T06:32:25Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlaessliche Zusammenfassung verfuegbar. GitHub versucht beim naechsten Scan automatisch, diese zu ergaenzen."
+      }
+    },
+    {
       "id": "uap-expert-says-whistleblowers-need-legal-protections-from-threats-retribution",
       "title": "UAP expert says whistleblowers need legal protections from threats, retribution",
       "source": "NewsNation",
@@ -562,6 +485,47 @@
       "displayedAt": "2026-07-07T19:49:42Z"
     },
     {
+      "id": "sighting-nj-ranks-high-for-ufo-sightings-these-central-jersey-reports-are-wild",
+      "title": "NJ ranks high for UFO sightings. These Central Jersey reports are wild",
+      "source": "Central New Jersey News",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmtSdUE1ek5sQjVlWWFiWC04U05KWDNGUWIzblYxU2dHYzUxVzBEWEFvV1pPcEtuOC1PcVUtN1BGTFdIdlcyV1lJUkh2VVdwSUM3ZVUtdWRpS1NQN1pTZ2hUSlFDN2tmaERVM0VkZzhRUEZpWGkyR1Y5ZTlGMlY5OF9KS1hXR1RhbU5WQ2JUNXFNYkxvUGRNM1gtNWViNWxRelJyZ0F3Y3dMbEFPMFdrYUNuRWkzYUpfOHpSWlZjaWVNTGlQ?oc=5",
+      "date": "2026-07-02",
+      "publishedAt": "2026-07-02T18:39:04Z",
+      "summary": "New Jersey logged 3,083 UFO reports in the past year, about 419.2 per 1,000 square miles, ranking second in the U.S. after Rhode Island for sighting density. Many reports are unconfirmed and could be misidentified drones, planes, satellites, or optical phenomena. Specific incidents include a driver on I‑78 reporting a stationary grey/blue orb that flashed white and vanished, a Somerville driver describing a metallic disk with a force‑field‑like aura that disappeared, and a South Brunswick witness whose video was blocked by a black fast‑moving object above planes. Edison residents reported five or more maroonish‑red gaseous lights forming a reverse Big Dipper that flickered and danced, while an East Brunswick family saw wispy lights changing direction and form. The NUFORC database collects these public submissions but does not verify them, and federal officials have said that many drone sightings were hobbyist drones, misidentified aircraft, or stars, posing no real threat.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "SIGHTINGS"
+      ],
+      "sourceQuality": 45,
+      "displayedAt": "2026-07-10T06:32:25Z"
+    },
+    {
       "id": "film-world-ufo-day-invites-believers-skeptics-and-the-curious-to-look-to-the-skies",
       "title": "World UFO Day invites believers, skeptics and the curious to look to the skies",
       "source": "Wausau Pilot & Review",
@@ -595,26 +559,7 @@
         "PILOT"
       ],
       "sourceQuality": 43,
-      "displayedAt": "2026-07-03T06:20:40Z",
-      "rssPublishedAt": "2026-07-02T14:10:54Z",
-      "rssDate": "2026-07-02",
-      "sourcePublishedAt": "2026-07-02T14:10:54Z",
-      "sourceDisplayedAt": "2026-07-03T06:20:40Z",
-      "translation": {
-        "en": {
-          "title": "World UFO Day invites believers, skeptics and the curious to look to the skies",
-          "summary": "World UFO Day is observed each year on July 2 and commemorates the 1947 Roswell incident in New Mexico. The day encourages discussion of unidentified flying objects, now referred to as unidentified anomalous phenomena (UAPs), and reflects growing public interest fueled by military videos and congressional attention. While many sightings are later identified as aircraft, weather phenomena, or satellites, some remain officially unidentified, and enthusiasts celebrate with festivals, film viewings, sky scanning, and story sharing.",
-          "sourceHash": "d97d1884ad1fb90d8c43ae83c985eff0ae71bdd2",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Der Welt-UFO-Tag lädt Gläubige, Skeptiker und Neugierige ein, in den Himmel zu blicken",
-          "summary": "Der Welt-UFO-Tag wird jedes Jahr am 2. Juli begangen und erinnert an den Roswell-Vorfall 1947 in New Mexico. Der Tag fördert die Diskussion über nicht identifizierte Flugobjekte, die heute als nicht identifizierte anomale Phänomene (UAPs) bezeichnet werden, und spiegelt das wachsende öffentliche Interesse wider, das durch Militärvideos und die Aufmerksamkeit des Kongresses angeheizt wird. Während viele Sichtungen später als Flugzeuge, Wetterphänomene oder Satelliten identifiziert werden, bleiben einige offiziell unbekannt und Enthusiasten feiern mit Festivals, Filmvorführungen, Himmelsscans und dem Austausch von Geschichten.",
-          "sourceHash": "d97d1884ad1fb90d8c43ae83c985eff0ae71bdd2",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
+      "displayedAt": "2026-07-03T06:20:40Z"
     },
     {
       "id": "roswell-ufo-festival-organizers-share-2026-attendance-numbers",
