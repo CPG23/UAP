@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-10T06:32:25Z",
+  "timestamp": "2026-07-10T13:05:56Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -341,61 +341,6 @@
       "displayedAt": "2026-07-04T12:02:54Z"
     },
     {
-      "id": "file-release-nasa-insider-hints-bigger-ufo-file-release-as-declassification-ramps-up",
-      "title": "NASA insider hints bigger UFO file release as declassification ramps up",
-      "source": "Cybernews",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1yOWNmaDVZckoxYnU0UnUzMmlEVF94TG5OUlNQVFJqTU9Eb29vQWZvYTdXYXFMckY3dXQzbU1GTVZvSFVJREtGdXQ0YzFLNGpaa2dNN1pJRTNuUnZ0ZWVtTHpuaDFvZw?oc=5",
-      "date": "2026-07-09",
-      "publishedAt": "2026-07-09T09:48:03Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 55,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "NASA als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "NASA als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "NASA"
-      ],
-      "sourceQuality": 55,
-      "displayedAt": "2026-07-10T06:32:25Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlaessliche Zusammenfassung verfuegbar. GitHub versucht beim naechsten Scan automatisch, diese zu ergaenzen."
-      }
-    },
-    {
       "id": "uap-expert-says-whistleblowers-need-legal-protections-from-threats-retribution",
       "title": "UAP expert says whistleblowers need legal protections from threats, retribution",
       "source": "NewsNation",
@@ -483,6 +428,61 @@
       },
       "sourceQuality": 49,
       "displayedAt": "2026-07-07T19:49:42Z"
+    },
+    {
+      "id": "file-release-nasa-insider-hints-bigger-ufo-file-release-as-declassification-ramps-up",
+      "title": "NASA insider hints bigger UFO file release as declassification ramps up",
+      "source": "Cybernews",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1yOWNmaDVZckoxYnU0UnUzMmlEVF94TG5OUlNQVFJqTU9Eb29vQWZvYTdXYXFMckY3dXQzbU1GTVZvSFVJREtGdXQ0YzFLNGpaa2dNN1pJRTNuUnZ0ZWVtTHpuaDFvZw?oc=5",
+      "date": "2026-07-10",
+      "publishedAt": "2026-07-09T09:48:03Z",
+      "summary": "Former NASA UAP study member Mike Gold said officials are discussing declassifying still‑secret UFO material and that earlier releases were only “low‑hanging fruit.” Gold said bureaucracy is slowing access to more sensitive records and urged investigators to focus on NASA’s space‑based archives, which have not yet been released. He told Newsnight that a fourth tranche of evidence is not imminent but that a declassification process is underway and could contain more interesting material. Supporters of UFO disclosure view the process as ongoing, while some remain skeptical after earlier releases lacked new evidence.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "TRUMP als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "TRUMP"
+      ],
+      "sourceQuality": 45,
+      "displayedAt": "2026-07-10T06:32:25Z",
+      "translation": {
+        "en": {
+          "title": "NASA insider hints bigger UFO file release as declassification ramps up",
+          "summary": "Former NASA UAP study member Mike Gold said officials are discussing declassifying still‑secret UFO material and that earlier releases were only “low‑hanging fruit.” Gold said bureaucracy is slowing access to more sensitive records and urged investigators to focus on NASA’s space‑based archives, which have not yet been released. He told Newsnight that a fourth tranche of evidence is not imminent but that a declassification process is underway and could contain more interesting material.",
+          "sourceHash": "b1c438707e080fb1cb195b14d8ad7f5c8f73bfef",
+          "provider": "original"
+        },
+        "de": {
+          "title": "NASA-Insider deuten auf eine größere Veröffentlichung von UFO-Dateien hin, da die Freigabe voranschreitet",
+          "summary": "Mike Gold, ehemaliges UAP-Studienmitglied der NASA, sagte, Beamte diskutieren über die Freigabe von noch geheimem UFO-Material und frühere Veröffentlichungen seien nur „unerwartete Früchte“. Gold sagte, die Bürokratie verlangsame den Zugang zu sensibleren Aufzeichnungen und forderte die Ermittler auf, sich auf die weltraumgestützten Archive der NASA zu konzentrieren, die noch nicht veröffentlicht wurden. Er sagte gegenüber Newsnight, dass eine vierte Beweistranche nicht unmittelbar bevorstehe, sondern dass ein Freigabeprozess im Gange sei und weiteres interessantes Material enthalten könnte.",
+          "sourceHash": "b1c438707e080fb1cb195b14d8ad7f5c8f73bfef",
+          "provider": "google"
+        }
+      }
     },
     {
       "id": "sighting-nj-ranks-high-for-ufo-sightings-these-central-jersey-reports-are-wild",
