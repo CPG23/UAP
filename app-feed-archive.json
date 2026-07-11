@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-11T05:31:58Z",
+  "timestamp": "2026-07-11T11:47:13Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -8,9 +8,9 @@
       "source": "U.S. Department of War (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOEpnVzBWdnB2c1d4d2V5QllCQjFZeVZ4RDJuSEw4eDdaVERyemd5c2hETGdYc0pqTy1aWHNqUGFhZTNYZ2h0bnFyZHFNN3RfR3hkcU5pUjdsT3p6OXJ6a1hRQ2NONXJiX18xUklzdjhuNnNweW54bGJEdExCcGFRQmE4c3NrNVRjREZ5WkxiMm4wd2hET0pzM1NTR1JyNE9iRWdPM3BQQm5IUk0yRVpvYjRjbEppVHNKRnMtS0daeUhjTGhDdFBaY2ZrRHk0MEl3VUo0?oc=5",
       "date": "2026-07-10",
-      "publishedAt": "2026-07-10T17:10:58Z",
+      "publishedAt": "2026-07-10T13:09:39Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 10,
+      "mentions": 11,
       "otherSources": [
         {
           "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
@@ -32,6 +32,13 @@
           "link": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
           "url": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
           "publishedAt": "2026-05-22T00:00:00Z"
+        },
+        {
+          "title": "\"Unlike Anything I Had Seen\": Pentagon Releases New Batch Of UFO Files",
+          "source": "NDTV",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUjVmbno4R0taWnpSay1vMF9FWnBRQVhDR0laMUZQSlR0anYzMWZYb1laTjN6VGwtNUx5LWZiRXpZQjVRWV9JR01Oc2lJWTRCR0FJUjJIeHF1U3Q4dFZvZkJDS05RdXdUUXptVnRxUGlLelUtbVgwZlc5MkI4cGZqNmFNbE5QNzEwLUI2X016ZXNJUFhNem40NXIwWTMtRHJ2U1BZYm9CTUTSAbABQVVfeXFMTlZyUnNvYXJybzMtZVVJeG9mS1p1aVN4UjI4ZHRfcjF6eG8wN1VlaXVNMDJKMDNHY1FPckk2TXpyT1Q5aXM1U2xiT3JfQjAxSk9lb3JKRGw1cDUzaUh4TlBYaHJJSmYzbGNlRVdsOHV2d1JSX3BEeFFobmZBSU84Rm5TVzFraVlsd0l5Mk4xRi1ZM3MyaWhaTklNREJSd3d3U2VjTU9fS1F0OTN2S2dJRXM?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUjVmbno4R0taWnpSay1vMF9FWnBRQVhDR0laMUZQSlR0anYzMWZYb1laTjN6VGwtNUx5LWZiRXpZQjVRWV9JR01Oc2lJWTRCR0FJUjJIeHF1U3Q4dFZvZkJDS05RdXdUUXptVnRxUGlLelUtbVgwZlc5MkI4cGZqNmFNbE5QNzEwLUI2X016ZXNJUFhNem40NXIwWTMtRHJ2U1BZYm9CTUTSAbABQVVfeXFMTlZyUnNvYXJybzMtZVVJeG9mS1p1aVN4UjI4ZHRfcjF6eG8wN1VlaXVNMDJKMDNHY1FPckk2TXpyT1Q5aXM1U2xiT3JfQjAxSk9lb3JKRGw1cDUzaUh4TlBYaHJJSmYzbGNlRVdsOHV2d1JSX3BEeFFobmZBSU84Rm5TVzFraVlsd0l5Mk4xRi1ZM3MyaWhaTklNREJSd3d3U2VjTU9fS1F0OTN2S2dJRXM?oc=5",
+          "publishedAt": "2026-07-11T06:33:59Z"
         },
         {
           "title": "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
@@ -80,6 +87,7 @@
         "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "US releases second batch of government declassified UFO files",
         "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+        "\"Unlike Anything I Had Seen\": Pentagon Releases New Batch Of UFO Files",
         "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
         "New videos from Pentagon’s second batch of UFO files",
         "Pentagon releases new batch of UFO files",
@@ -121,13 +129,14 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 45,
-          "text": "10 Quellen im aktuellen Feed."
+          "points": 50,
+          "text": "11 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "DISCLOSURE"
+        "declassified",
+        "files"
       ],
       "sourceQuality": 100,
       "displayedAt": "2026-07-11T05:31:58Z"
