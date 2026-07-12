@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-11T11:47:13Z",
+  "timestamp": "2026-07-12T05:47:36Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -10,8 +10,15 @@
       "date": "2026-07-10",
       "publishedAt": "2026-07-10T13:09:39Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 11,
+      "mentions": 15,
       "otherSources": [
+        {
+          "title": "Department of War Publishes Third Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+          "source": "U.S. Department of War (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVlJ2aHNkMUJYUUdySDRDQmMtVjlzMURseVVQY25WbGVRM2hneWdILVJ1ak9qb1hBZFRKV2tOeTJCMmlRa2Q1UDlycjk2M184eWlSM1RXLVdaMXdHalpvMmRZSE8yblFJWm9PZU5PN1hpbDhPbTRuOHl1RVhPUTBCVDhfSDdQTURMNjhXN0tyNU5Oa0Z6MmEyRFZsUXE2UFdSN1VnRnd0cEFTa1BBOWFsdzE3MHd5SHduNHoybHlyLXp4ODRzdTd3eDNsY2RNbkk2NDVvZg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVlJ2aHNkMUJYUUdySDRDQmMtVjlzMURseVVQY25WbGVRM2hneWdILVJ1ak9qb1hBZFRKV2tOeTJCMmlRa2Q1UDlycjk2M184eWlSM1RXLVdaMXdHalpvMmRZSE8yblFJWm9PZU5PN1hpbDhPbTRuOHl1RVhPUTBCVDhfSDdQTURMNjhXN0tyNU5Oa0Z6MmEyRFZsUXE2UFdSN1VnRnd0cEFTa1BBOWFsdzE3MHd5SHduNHoybHlyLXp4ODRzdTd3eDNsY2RNbkk2NDVvZg?oc=5",
+          "publishedAt": "2026-06-12T07:00:00Z"
+        },
         {
           "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
           "source": "U.S. Department of War (.gov)",
@@ -39,6 +46,13 @@
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUjVmbno4R0taWnpSay1vMF9FWnBRQVhDR0laMUZQSlR0anYzMWZYb1laTjN6VGwtNUx5LWZiRXpZQjVRWV9JR01Oc2lJWTRCR0FJUjJIeHF1U3Q4dFZvZkJDS05RdXdUUXptVnRxUGlLelUtbVgwZlc5MkI4cGZqNmFNbE5QNzEwLUI2X016ZXNJUFhNem40NXIwWTMtRHJ2U1BZYm9CTUTSAbABQVVfeXFMTlZyUnNvYXJybzMtZVVJeG9mS1p1aVN4UjI4ZHRfcjF6eG8wN1VlaXVNMDJKMDNHY1FPckk2TXpyT1Q5aXM1U2xiT3JfQjAxSk9lb3JKRGw1cDUzaUh4TlBYaHJJSmYzbGNlRVdsOHV2d1JSX3BEeFFobmZBSU84Rm5TVzFraVlsd0l5Mk4xRi1ZM3MyaWhaTklNREJSd3d3U2VjTU9fS1F0OTN2S2dJRXM?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUjVmbno4R0taWnpSay1vMF9FWnBRQVhDR0laMUZQSlR0anYzMWZYb1laTjN6VGwtNUx5LWZiRXpZQjVRWV9JR01Oc2lJWTRCR0FJUjJIeHF1U3Q4dFZvZkJDS05RdXdUUXptVnRxUGlLelUtbVgwZlc5MkI4cGZqNmFNbE5QNzEwLUI2X016ZXNJUFhNem40NXIwWTMtRHJ2U1BZYm9CTUTSAbABQVVfeXFMTlZyUnNvYXJybzMtZVVJeG9mS1p1aVN4UjI4ZHRfcjF6eG8wN1VlaXVNMDJKMDNHY1FPckk2TXpyT1Q5aXM1U2xiT3JfQjAxSk9lb3JKRGw1cDUzaUh4TlBYaHJJSmYzbGNlRVdsOHV2d1JSX3BEeFFobmZBSU84Rm5TVzFraVlsd0l5Mk4xRi1ZM3MyaWhaTklNREJSd3d3U2VjTU9fS1F0OTN2S2dJRXM?oc=5",
           "publishedAt": "2026-07-11T06:33:59Z"
+        },
+        {
+          "title": "War Dept. Publishes Third UFO Files on WAR.GOV/UFO",
+          "source": "Mirage News",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVVR2NEZVT0RvSUpEVnMweUJYbWNMeXhpOEhmX3hqaUZVMTJUY2gwQzZOWHVrWnNnM3NFbHZLekNuLXdYNnhqTmRqOGNIYnd6MG5ueDdJSDlna0NRZWd1R2JVUVRjUG1JX2N3R3pRSzZ2QmRJSW1zaGtUZXpXR2JNSEhmLVN3Z3V4NUdB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVVR2NEZVT0RvSUpEVnMweUJYbWNMeXhpOEhmX3hqaUZVMTJUY2gwQzZOWHVrWnNnM3NFbHZLekNuLXdYNnhqTmRqOGNIYnd6MG5ueDdJSDlna0NRZWd1R2JVUVRjUG1JX2N3R3pRSzZ2QmRJSW1zaGtUZXpXR2JNSEhmLVN3Z3V4NUdB?oc=5",
+          "publishedAt": "2026-06-12T07:00:00Z"
         },
         {
           "title": "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
@@ -76,24 +90,38 @@
           "publishedAt": "2026-05-22T07:00:00Z"
         },
         {
+          "title": "War Dept. Releases Second UFO Files on WAR.GOV/UFO",
+          "source": "Mirage News",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdHU1VGItWG9KUng2R1c1WUh0cXE2enBPZXN3SW9wN3VGRG5KT2ZuYTBlek82RHAwWjJBbWkwbEltTnBsUU84WkZRQjFnd1A4YkV3Q3MzSHJOb1Q4MmtqbkZmTW96em93MWNndkpFa1VHbXdtVElRSFMydjZyUmt4ZF9BUFVTQ0xNUGJr?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdHU1VGItWG9KUng2R1c1WUh0cXE2enBPZXN3SW9wN3VGRG5KT2ZuYTBlek82RHAwWjJBbWkwbEltTnBsUU84WkZRQjFnd1A4YkV3Q3MzSHJOb1Q4MmtqbkZmTW96em93MWNndkpFa1VHbXdtVElRSFMydjZyUmt4ZF9BUFVTQ0xNUGJr?oc=5",
+          "publishedAt": "2026-05-22T07:00:00Z"
+        },
+        {
           "title": "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
           "source": "Fox News",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
           "publishedAt": "2026-05-19T07:00:00Z"
+        },
+        {
+          "title": "UFO Files Memes and Jokes: Trump Admin’s Release of Documents Linked to UAP Encounters on WAR.GOV/UFO",
+          "source": "LatestLY",
+          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQai15eHpmaDFLMTlRUy1sMWdJU0xJUDFDM2VnOG9QNkUxNlhCVGlTWU9DTEwtUVVIaW1kaGlvaHZRSUV1aE9fakw2TUF3dlNyTGJPYlZDRHgtS09Mdm56MnMteV9TZnpjalhURHZSaEF2WjM5UUo5c2R4dGRSeHV2WVk2RE83RDJ6OHp2X0pmdFA4bWdjTFJmUmVYVTlSMlhuUXltQTFPQ251VlNrVmRwNGJMLTBEaGhIbmtxNWJpQUc5RzBvdmZTbGZWMEdkanNobjFBWmdRRWRGTktWZnVmVWpGWFFycVJnQ2VvSjlTem9iMTdoQ0J6eFZ6ZXnSAYICQVVfeXFMTnRHa1FvZXBnemJCamlQOXlCY2doc2VUdmRwRWlrZnV2NURLR1VZb1BSdkUwY0RGZ3NYMnVyNDdlc3Aydl9yX3h0OHhhMlphM1NxY1pmNVM3ZlM2Q3lDRWdqaWtIMTE5Z1pSX29POTkxS0xGdzZJYnJtQURYVXBsbXAwUF9xVFJRVEpWUVFtRU5nUndEbEJQVVpXOG03R1NNb2RfeXNLY2RBRkRlUGpINUNCd1ItWEltTTd0dzJ6RXZrM2pwUHBZZUFjQ0V2UmhyWFhtMTVSVWpuYmVldjB0bVlYTW1GbUw5RE9hMG9sNnFjb1RhQjVxdEpYUzRITURNRXln?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQai15eHpmaDFLMTlRUy1sMWdJU0xJUDFDM2VnOG9QNkUxNlhCVGlTWU9DTEwtUVVIaW1kaGlvaHZRSUV1aE9fakw2TUF3dlNyTGJPYlZDRHgtS09Mdm56MnMteV9TZnpjalhURHZSaEF2WjM5UUo5c2R4dGRSeHV2WVk2RE83RDJ6OHp2X0pmdFA4bWdjTFJmUmVYVTlSMlhuUXltQTFPQ251VlNrVmRwNGJMLTBEaGhIbmtxNWJpQUc5RzBvdmZTbGZWMEdkanNobjFBWmdRRWRGTktWZnVmVWpGWFFycVJnQ2VvSjlTem9iMTdoQ0J6eFZ6ZXnSAYICQVVfeXFMTnRHa1FvZXBnemJCamlQOXlCY2doc2VUdmRwRWlrZnV2NURLR1VZb1BSdkUwY0RGZ3NYMnVyNDdlc3Aydl9yX3h0OHhhMlphM1NxY1pmNVM3ZlM2Q3lDRWdqaWtIMTE5Z1pSX29POTkxS0xGdzZJYnJtQURYVXBsbXAwUF9xVFJRVEpWUVFtRU5nUndEbEJQVVpXOG03R1NNb2RfeXNLY2RBRkRlUGpINUNCd1ItWEltTTd0dzJ6RXZrM2pwUHBZZUFjQ0V2UmhyWFhtMTVSVWpuYmVldjB0bVlYTW1GbUw5RE9hMG9sNnFjb1RhQjVxdEpYUzRITURNRXln?oc=5",
+          "publishedAt": "2026-05-08T07:00:00Z"
         }
       ],
       "clusterTitles": [
+        "Department of War Publishes Third Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "US releases second batch of government declassified UFO files",
         "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "\"Unlike Anything I Had Seen\": Pentagon Releases New Batch Of UFO Files",
+        "War Dept. Publishes Third UFO Files on WAR.GOV/UFO",
         "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
         "New videos from Pentagon’s second batch of UFO files",
         "Pentagon releases new batch of UFO files",
-        "Highlights From 2nd Batch of Declassified UFO Files",
-        "What does the second batch of UFO files tell us?",
-        "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment"
+        "Highlights From 2nd Batch of Declassified UFO Files"
       ],
       "quality": 100,
       "qualityBreakdown": [
@@ -129,8 +157,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 50,
-          "text": "11 Quellen im aktuellen Feed."
+          "points": 70,
+          "text": "15 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -139,7 +167,7 @@
         "files"
       ],
       "sourceQuality": 100,
-      "displayedAt": "2026-07-11T05:31:58Z"
+      "displayedAt": "2026-07-11T11:47:13Z"
     },
     {
       "id": "trump-ufo-advisors-accuse-private-corporations-of-operating-alien-craft-retrieval-programs",
@@ -220,28 +248,17 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "ufo-disclosure-details-emerge-on-invasion-of-washington-tape-newsnation-prime",
-      "title": "UFO disclosure: Details emerge on ‘Invasion of Washington’ tape | NewsNation Prime",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOX3c0TVBoQlBsTVhHMXRDWk5qM0xlUnpockk2bk1rLThzTEwwdmVqM2ZveEhjemdPdjNNWk1SbEtqelh4akRHTTJOR1pQdHRTMTBHb1l2MHJDTjNLM29pakwya29ETmtQY3hoT2tMa3RyV09pdll3U2lDMmZwX1JjVlVTMFVtUmE0b1hIS1FmdFJBdExWNDFnT1NGckR6Ulp3RWNPeXlOTkZCY1BtODVzREhmRjFDa0J2MzVfenJJUk5OYTVnSHQ0dEFkcVYzajJEemNNb3l1eW4?oc=5",
-      "date": "2026-06-28",
-      "publishedAt": "2026-06-28T01:05:23Z",
-      "summary": "",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "UFO disclosure: Details emerge on ‘Invasion of Washington’ tape",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yQWdXTjVzTGl6NzZMMS1qMUhpWGdiU21reV9sZGRENS1rNFJmVWg3NlRPb215M0thMXRNTV8tSGVTUU1KbHVadkRNYjQzMERidTZJU2Y5Y1BUM0hOWmZmRjZmckx6M3ItcjhNbk9VLTQzN0g1TTJza3FMR1rSAYIBQVVfeXFMTVNTaTVueFZTRi1TSzMyQjBGRGFESjJTLVRGUWRqLXA1WlkxVDRUVXJTaUh6QnhlZVV2TWNpSW1PZGE0SnpZVnVzSEdvanNKN0JiaHhRdHJ4MnpqWWJ5ektRVWlfLXFKb2R0SFZrNGhGaG9oazBPTWJNUFlFNlpna2g3dw?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yQWdXTjVzTGl6NzZMMS1qMUhpWGdiU21reV9sZGRENS1rNFJmVWg3NlRPb215M0thMXRNTV8tSGVTUU1KbHVadkRNYjQzMERidTZJU2Y5Y1BUM0hOWmZmRjZmckx6M3ItcjhNbk9VLTQzN0g1TTJza3FMR1rSAYIBQVVfeXFMTVNTaTVueFZTRi1TSzMyQjBGRGFESjJTLVRGUWRqLXA1WlkxVDRUVXJTaUh6QnhlZVV2TWNpSW1PZGE0SnpZVnVzSEdvanNKN0JiaHhRdHJ4MnpqWWJ5ektRVWlfLXFKb2R0SFZrNGhGaG9oazBPTWJNUFlFNlpna2g3dw?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-06-28T04:12:10Z",
-          "displayedAt": "2026-06-28T04:12:10Z"
-        }
-      ],
-      "clusterTitles": [
-        "UFO disclosure: Details emerge on ‘Invasion of Washington’ tape"
-      ],
-      "quality": 70,
+      "id": "nasa-s-changing-stance-on-ufos-full-timeline",
+      "title": "NASA’s Changing Stance on UFOs: Full Timeline",
+      "source": "Newsweek",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT3R3dW9mOS1uMDVFQWRrU0ttZHlPSmNPUFpSVGFhVE1vSVpqTXNxNUFDbmgzWjBWVUh5VEhJeEhCUXBha0NaVGJpSEdFeDFkU3pBWXRxdHhISk01a0JieUhLOE5sblY0MDBDZHAybUItcDhsLV9wNnY1M0VibndMSA?oc=5",
+      "date": "2026-07-09",
+      "publishedAt": "2026-07-09T18:55:00Z",
+      "summary": "NASA's relationship with UFOs has evolved alongside broader changes in public and government interest in unexplained sightings. Newsweek spoke with experts about how the public's and scientific community's views have evolved over time. As new UFO—now commonly referred to as unidentified anomalous phenomena (UAPs)—reports, official investigations and congressional hearings have brought the topic back into the spotlight, the agency has increasingly emphasized a scientific approach to studying the phenomenon. Former NASA official and UAP study team member Michael Gold recently argued that the topic was not always viewed through the same lens.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 64,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -251,12 +268,12 @@
         {
           "label": "Begriffe",
           "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+          "text": "NASA als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
           "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
+          "text": "NASA als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
@@ -274,25 +291,19 @@
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
         },
         {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "DISCLOSURE"
+        "NASA"
       ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 70,
-      "displayedAt": "2026-06-28T01:05:23Z"
+      "sourceQuality": 64,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-07-12T05:47:36Z"
     },
     {
       "id": "file-release-david-grusch-returns-to-capitol-steps-as-ufo-disclosure-fight-moves-from-testimony-to-action",
@@ -508,6 +519,43 @@
       "displayedAt": "2026-07-07T19:49:42Z"
     },
     {
+      "id": "invasion-of-washington-ufo-tape-may-surface-as-lawmakers-push-release",
+      "title": "‘Invasion of Washington’ UFO tape may surface as lawmakers push release",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yQWdXTjVzTGl6NzZMMS1qMUhpWGdiU21reV9sZGRENS1rNFJmVWg3NlRPb215M0thMXRNTV8tSGVTUU1KbHVadkRNYjQzMERidTZJU2Y5Y1BUM0hOWmZmRjZmckx6M3ItcjhNbk9VLTQzN0g1TTJza3FMR1rSAYIBQVVfeXFMTVNTaTVueFZTRi1TSzMyQjBGRGFESjJTLVRGUWRqLXA1WlkxVDRUVXJTaUh6QnhlZVV2TWNpSW1PZGE0SnpZVnVzSEdvanNKN0JiaHhRdHJ4MnpqWWJ5ektRVWlfLXFKb2R0SFZrNGhGaG9oazBPTWJNUFlFNlpna2g3dw?oc=5",
+      "date": "2026-06-29",
+      "publishedAt": "2026-06-29T07:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 49,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 49,
+      "displayedAt": "2026-07-12T05:47:36Z"
+    },
+    {
       "id": "file-release-nasa-insider-hints-bigger-ufo-file-release-as-declassification-ramps-up",
       "title": "NASA insider hints bigger UFO file release as declassification ramps up",
       "source": "Cybernews",
@@ -639,26 +687,7 @@
         "PILOT"
       ],
       "sourceQuality": 43,
-      "displayedAt": "2026-07-03T06:20:40Z",
-      "rssPublishedAt": "2026-07-02T14:10:54Z",
-      "rssDate": "2026-07-02",
-      "sourcePublishedAt": "2026-07-02T14:10:54Z",
-      "sourceDisplayedAt": "2026-07-03T06:20:40Z",
-      "translation": {
-        "en": {
-          "title": "World UFO Day invites believers, skeptics and the curious to look to the skies",
-          "summary": "World UFO Day is observed each year on July 2 and commemorates the 1947 Roswell incident in New Mexico. The day encourages discussion of unidentified flying objects, now referred to as unidentified anomalous phenomena (UAPs), and reflects growing public interest fueled by military videos and congressional attention. While many sightings are later identified as aircraft, weather phenomena, or satellites, some remain officially unidentified, and enthusiasts celebrate with festivals, film viewings, sky scanning, and story sharing.",
-          "sourceHash": "d97d1884ad1fb90d8c43ae83c985eff0ae71bdd2",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Der Welt-UFO-Tag lädt Gläubige, Skeptiker und Neugierige ein, in den Himmel zu blicken",
-          "summary": "Der Welt-UFO-Tag wird jedes Jahr am 2. Juli begangen und erinnert an den Roswell-Vorfall 1947 in New Mexico. Der Tag fördert die Diskussion über nicht identifizierte Flugobjekte, die heute als nicht identifizierte anomale Phänomene (UAPs) bezeichnet werden, und spiegelt das wachsende öffentliche Interesse wider, das durch Militärvideos und die Aufmerksamkeit des Kongresses angeheizt wird. Während viele Sichtungen später als Flugzeuge, Wetterphänomene oder Satelliten identifiziert werden, bleiben einige offiziell unbekannt, und Enthusiasten feiern dies mit Festivals, Filmvorführungen, Himmelsscans und dem Austausch von Geschichten.",
-          "sourceHash": "d97d1884ad1fb90d8c43ae83c985eff0ae71bdd2",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
+      "displayedAt": "2026-07-03T06:20:40Z"
     },
     {
       "id": "roswell-ufo-festival-organizers-share-2026-attendance-numbers",
@@ -748,7 +777,26 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
-      "displayedAt": "2026-07-11T05:31:58Z"
+      "displayedAt": "2026-07-11T05:31:58Z",
+      "rssPublishedAt": "2026-06-28T07:00:00Z",
+      "rssDate": "2026-06-28",
+      "sourcePublishedAt": "2026-06-28T16:07:35Z",
+      "sourceDisplayedAt": "2026-07-11T05:31:58Z",
+      "translation": {
+        "de": {
+          "title": "There’s a secret tape of 1952 Washington insiders discussing UFOs — and the public will soon hear it",
+          "summary": "Rep. Eric Burlison (R‑Mo.) announced at Disclosure Forum 2026 that a secret tape of a 1952 conversation between Air Force officials and scientists about UFOs, currently held by MIT’s Lincoln Laboratory, will soon be released to the public. The tape is said to capture a discussion about a series of UFO sightings that occurred around Washington, D.C., in July 1952, when pilots and other witnesses reported multiple unidentified objects.",
+          "sourceHash": "36e9e6b819668d5c42ab14d5de702dc1d056c371",
+          "provider": "original"
+        },
+        "en": {
+          "title": "There’s a secret tape from 1952 Washington insiders discussing UFOs — and the public will soon hear it",
+          "summary": "Rep. Eric Burlison (R-Mo.) announced at Disclosure Forum 2026 that a secret tape of a 1952 conversation between Air Force officials and scientists about UFOs, currently held by MIT’s Lincoln Laboratory, will soon be released to the public. The tape is said to capture a discussion about a series of UFO sightings that occurred around Washington, D.C., in July 1952, when pilots and other witnesses reported multiple unidentified objects.",
+          "sourceHash": "36e9e6b819668d5c42ab14d5de702dc1d056c371",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     }
   ]
 }
