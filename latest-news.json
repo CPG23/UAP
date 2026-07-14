@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-14T05:20:21Z",
+  "timestamp": "2026-07-14T12:06:53Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-fourth-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -43,8 +43,7 @@
           "publishedAt": "2026-07-12T19:58:35Z",
           "rssPublishedAt": "2026-07-12T19:58:35Z",
           "sourcePublishedAt": "2026-07-12T19:58:35Z",
-          "displayedAt": "2026-07-13T05:59:49Z",
-          "isNew": true
+          "displayedAt": "2026-07-12T19:58:35Z"
         },
         {
           "title": "Unlike anything I had seen: Pentagon releases new batch of UFO files",
@@ -52,8 +51,7 @@
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLXpkRE1yVUxQVjJBSkg3Zk52UUxPSmZ0eUlLbnl3emZRRE41dEVyTVN3M1hEQUpXMmRIcm1GT0J2Sk9GNGlfT0E2UWFMVk9YTFltYUxraDVaRkQtMjI0aU5uLVhWajIwUVZib1laekY2RmhwWnRuS2drN2p4d1BBd0k4MFVWaDNWc2NIeDhrOWhoM2xtQmg5S1ExVVc0c2hxYVJqeks1cWVjcFRrbFMwTXE3MGNuQ28?oc=5",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLXpkRE1yVUxQVjJBSkg3Zk52UUxPSmZ0eUlLbnl3emZRRE41dEVyTVN3M1hEQUpXMmRIcm1GT0J2Sk9GNGlfT0E2UWFMVk9YTFltYUxraDVaRkQtMjI0aU5uLVhWajIwUVZib1laekY2RmhwWnRuS2drN2p4d1BBd0k4MFVWaDNWc2NIeDhrOWhoM2xtQmg5S1ExVVc0c2hxYVJqeks1cWVjcFRrbFMwTXE3MGNuQ28?oc=5",
           "publishedAt": "2026-07-11T08:05:58Z",
-          "displayedAt": "2026-07-13T05:59:49Z",
-          "isNew": true
+          "displayedAt": "2026-07-11T08:05:58Z"
         },
         {
           "title": "\"Unlike Anything I Had Seen\": Pentagon Releases New Batch Of UFO Files",
@@ -583,7 +581,7 @@
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90QjBhSlhtWDlvQTNwMU1jN2luTEYwN2NjVE8wX0F0amJzOEY5WmZBYWpkaHpVYUJPcW5pWnVJbjl0TGUwM1MtUUNldVlraHJnVmM1QkUwWWNZd3REdW5PRXJDX1JINUNDNE15eVhWUjFGY1V4Q1NTbXAtYTDSAYIBQVVfeXFMTndieWtmTlBsMndvS2JjNExCVmVMM0NmMElrcjBKRmlWamRiMUlxSHZKYndVZi1YMDc3akRRYnlBM0o5ODNYVDlBN21MZGd2LUJKWkdBbmlMQ3BUenoxNmJ6bUlibHJBekpTQTlwa2JyU0F1TWpKSjJxZ2VDOHBOekk0UQ?oc=5",
       "date": "2026-07-02",
       "publishedAt": "2026-07-02T01:59:27Z",
-      "summary": "",
+      "summary": "Rep. Eric Burlison said he has seen videos of unexplainable objects in secure briefings, which has shifted his skepticism about UAPs. He cited reports of “plasmoids,” glowing balls of plasma that move intelligently and are not explained by conventional flight, and noted that neither he nor the intelligence community knows what they are. Burlison explained that lawmakers are demanding declassification of files on incidents such as the 1952 D.C. UFO case and the 1996 Varginha incident, noting that agencies sometimes deny the existence of files until a specific file number is requested. He argued that the government’s use of private contractors and federally funded research centers keeps information hidden and that transparency is a constitutional issue. The article notes that the UAP issue is rare on Capitol Hill but has attracted bipartisan support, though the exact nature of the objects remains uncertain.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -607,12 +605,25 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
       "sourceQuality": 49,
       "displayedAt": "2026-07-07T19:49:42Z",
-      "sourceDisplayedAt": "2026-07-07T19:49:42Z"
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
+      "sourceDisplayedAt": "2026-07-07T19:49:42Z",
+      "translation": {
+        "en": {
+          "title": "UAP footage eased lawmaker’s skepticism on subject",
+          "summary": "Rep. Eric Burlison said he has seen videos of unexplainable objects in secure briefings, which has shifted his skepticism about UAPs. He cited reports of “plasmoids,” glowing balls of plasma that move intelligently and are not explained by conventional flight, and noted that neither he nor the intelligence community knows what they are.",
+          "sourceHash": "5e5092ac1b13037fe6bd5b4bbdf0741ebc67d13b",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UAP-Aufnahmen milderten die Skepsis des Gesetzgebers zu diesem Thema",
+          "summary": "Der Abgeordnete Eric Burlison sagte, er habe bei sicheren Briefings Videos von unerklärlichen Objekten gesehen, was seine Skepsis gegenüber UAPs verändert habe. Er zitierte Berichte über „Plasmoide“, leuchtende Plasmabälle, die sich intelligent bewegen und nicht durch konventionellen Flug erklärt werden können, und stellte fest, dass weder er noch die Geheimdienste wüssten, was sie seien.",
+          "sourceHash": "5e5092ac1b13037fe6bd5b4bbdf0741ebc67d13b",
+          "provider": "google"
+        }
+      }
     },
     {
       "id": "sighting-nj-ranks-high-for-ufo-sightings-these-central-jersey-reports-are-wild",
@@ -913,6 +924,7 @@
     "program-nasa-s-changing-stance-on-ufos-full-timeline": "NASA's relationship with UFOs has evolved alongside broader changes in public and government interest in unexplained sightings. Newsweek spoke with experts about how the public's and scientific community's views have evolved over time. As new UFO—now commonly referred to as unidentified anomalous phenomena (UAPs)—reports, official investigations and congressional hearings have brought the topic back into the spotlight, the agency has increasingly emphasized a scientific approach to studying the phenomenon. Former NASA official and UAP study team member Michael Gold recently argued that the topic was not always viewed through the same lens.",
     "file-release-david-grusch-returns-to-capitol-steps-as-ufo-disclosure-fight-moves-from-testimony-to-action": "On June 9, 2026, former intelligence officer David Grusch is scheduled to speak on the U.S. Capitol steps with filmmaker James Fox, author Leslie Kean, and several bipartisan representatives to demand the release of UFO and UAP files. The event is framed as a call for declassification, stronger whistleblower protections, and new disclosure legislation, with Grusch planning to discuss evidence of non‑human intelligence he claims to have seen through classified channels. Representatives Eric Burlison, Jared Moskowitz, Anna Paulina Luna, and Tim Burchett are expected to attend, while Kean and Fox will host the gathering. Grusch’s testimony has already moved the UAP topic from internet speculation to sworn congressional testimony, and the Capitol event aims to push for the review and public release of any existing classified records, subject to national‑security safeguards. The organizers argue that if such files exist, the issue shifts from public curiosity to whether intelligence agencies or contractors have operated beyond congressional oversight, and that secrecy cannot be a permanent shield for unlawful concealment or obstruction of Congress.",
     "program-uap-whistleblower-luis-elizondo-details-congressional-staffer-s-warning-of-a-plot-to-eliminate-him": "Lue Elizondo, a former Pentagon official, and fellow whistleblower David Grusch received a phone call from a Congress worker warning that there were plans to “eliminate” them for testifying about UAPs. The worker, who had left a confidential UAP briefing and was reportedly intoxicated, was followed by another staffer who cautioned that whistleblowing would face bureaucratic disapproval, prompting Elizondo to heavily arm his home and keep five German shepherds. On the Sean Hannity podcast, Elizondo said UAP whistleblowers receive little protection from the government and that the lack of safeguards made his situation “not a great day for Mrs. Elizondo.” He argued that governments keep UAP information secret to protect national security, avoid public panic, and prevent destabilization of markets and religions, citing a RAND study and a White House committee that unanimously decided the truth should not yet be released. Elizondo warned that disclosure could trigger lawsuits from defense contractors who claim they were denied access to advanced technology and that some elected leaders, including the president, were kept out of the loop, calling for greater congressional oversight and whistleblower protections.",
+    "uap-footage-eased-lawmaker-s-skepticism-on-subject": "Rep. Eric Burlison said he has seen videos of unexplainable objects in secure briefings, which has shifted his skepticism about UAPs. He cited reports of “plasmoids,” glowing balls of plasma that move intelligently and are not explained by conventional flight, and noted that neither he nor the intelligence community knows what they are. Burlison explained that lawmakers are demanding declassification of files on incidents such as the 1952 D.C. UFO case and the 1996 Varginha incident, noting that agencies sometimes deny the existence of files until a specific file number is requested. He argued that the government’s use of private contractors and federally funded research centers keeps information hidden and that transparency is a constitutional issue. The article notes that the UAP issue is rare on Capitol Hill but has attracted bipartisan support, though the exact nature of the objects remains uncertain.",
     "sighting-nj-ranks-high-for-ufo-sightings-these-central-jersey-reports-are-wild": "New Jersey logged 3,083 UFO reports in the past year, about 419.2 per 1,000 square miles, ranking second in the U.S. after Rhode Island for sighting density. Many reports are unconfirmed and could be misidentified drones, planes, satellites, or optical phenomena. Specific incidents include a driver on I‑78 reporting a stationary grey/blue orb that flashed white and vanished, a Somerville driver describing a metallic disk with a force‑field‑like aura that disappeared, and a South Brunswick witness whose video was blocked by a black fast‑moving object above planes. Edison residents reported five or more maroonish‑red gaseous lights forming a reverse Big Dipper that flickered and danced, while an East Brunswick family saw wispy lights changing direction and form. The NUFORC database collects these public submissions but does not verify them, and federal officials have said that many drone sightings were hobbyist drones, misidentified aircraft, or stars, posing no real threat.",
     "film-world-ufo-day-invites-believers-skeptics-and-the-curious-to-look-to-the-skies": "World UFO Day is observed each year on July 2 and commemorates the 1947 Roswell incident in New Mexico. The day encourages discussion of unidentified flying objects, now referred to as unidentified anomalous phenomena (UAPs), and reflects growing public interest fueled by military videos and congressional attention. While many sightings are later identified as aircraft, weather phenomena, or satellites, some remain officially unidentified, and enthusiasts celebrate with festivals, film viewings, sky scanning, and story sharing. Scientists note that an unidentified object does not equal evidence of extraterrestrial life, as it simply means insufficient information to determine what was observed.",
     "file-release-nasa-insider-hints-bigger-ufo-file-release-as-declassification-ramps-up": "Former NASA UAP study member Mike Gold said officials are discussing declassifying still‑secret UFO material and that earlier releases were only “low‑hanging fruit.” Gold said bureaucracy is slowing access to more sensitive records and urged investigators to focus on NASA’s space‑based archives, which have not yet been released. He told Newsnight that a fourth tranche of evidence is not imminent but that a declassification process is underway and could contain more interesting material. Supporters of UFO disclosure view the process as ongoing, while some remain skeptical after earlier releases lacked new evidence.",
@@ -920,24 +932,16 @@
     "white-house-picks-harvard-professor-with-polarizing-alien-theories-to-lead-new-ufo-council": "The White House has appointed Harvard astronomer Avi Loeb to lead a new scientific advisory council that will investigate the national‑security risks of UFOs, following President Trump’s push for greater transparency. Loeb, known for his controversial “light sail” theory that an interstellar object could be alien technology, has assembled a team of scientists, UFO activists and a billionaire, and has requested more than 50 videos, images and documents from the Pentagon. The council will report to a White House panel focused on unidentified anomalous phenomena, and Loeb says he will approach the investigation from a national‑security perspective while promising to brief the public and publish findings online. Critics such as Arizona State astrophysicist Steve Desch and physicist Sean Kirkpatrick argue that Loeb’s methods lack peer review and that his involvement may hinder scientific progress, while the Pentagon has released three batches of UAP files but reports no evidence of alien life."
   },
   "notificationBatch": {
-    "timestamp": "2026-07-14T05:20:21Z",
-    "ids": [
-      "ross-coulthart-pentagon-knows-a-lot-more-about-uap-than-it-admits"
-    ],
-    "articles": [
-      {
-        "id": "ross-coulthart-pentagon-knows-a-lot-more-about-uap-than-it-admits",
-        "title": "Ross Coulthart: Pentagon knows ‘a lot more’ about UAP than it admits",
-        "source": "NewsNation"
-      }
-    ]
+    "timestamp": "2026-07-14T12:06:53Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 378,
-    "broadTopics": 161,
+    "broadArticles": 375,
+    "broadTopics": 163,
     "notificationArticles": 1,
     "notificationTopics": 1,
-    "newNotificationTopics": 1,
+    "newNotificationTopics": 0,
     "appTopics": 13,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -945,7 +949,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 7,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 5,
+    "regroupedTopics": 7,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -954,24 +958,18 @@
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
       "attempts": 4,
-      "repaired": 2,
+      "repaired": 3,
       "fallbackRepaired": 0,
-      "missing": 2
+      "missing": 1
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
       "kept": 13,
-      "missing": 3,
+      "missing": 2,
       "missingItems": [
         {
           "id": "ross-coulthart-pentagon-knows-a-lot-more-about-uap-than-it-admits",
           "title": "Ross Coulthart: Pentagon knows ‘a lot more’ about UAP than it admits",
-          "source": "NewsNation",
-          "reason": "missing_or_mismatched_article_content_summary"
-        },
-        {
-          "id": "uap-footage-eased-lawmaker-s-skepticism-on-subject",
-          "title": "UAP footage eased lawmaker’s skepticism on subject",
           "source": "NewsNation",
           "reason": "missing_or_mismatched_article_content_summary"
         },
@@ -1005,8 +1003,8 @@
     },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
-      "updatedArticles": 3,
-      "clearedTranslations": 3,
+      "updatedArticles": 2,
+      "clearedTranslations": 2,
       "reorderedBySourceCount": false
     },
     "relatedSourceBackfill": {
@@ -1041,7 +1039,7 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 11,
+      "archiveCandidates": 13,
       "currentBeforeRestore": 11,
       "restoredArticles": 2,
       "blockedUnreachableTitles": 0,
@@ -1068,21 +1066,21 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 13,
-      "newSources": 2
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 12,
-      "newTopics": 1,
+      "correctedExistingTopics": 13,
+      "newTopics": 0,
       "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 39
+      "seededSeenFromPreviousFeed": 43
     }
   },
   "translations": {
@@ -1153,6 +1151,20 @@
         "title": "UAP-Whistleblower Luis Elizondo beschreibt detailliert die Warnung eines Kongressmitarbeiters vor einer Verschwörung, um ihn zu „eliminieren“.",
         "summary": "Lue Elizondo, ein ehemaliger Pentagon-Beamter, und sein Whistleblower-Kollege David Grusch erhielten einen Anruf von einem Kongressmitarbeiter mit der Warnung, dass es Pläne gebe, sie wegen ihrer Aussage über UAPs zu „eliminieren“. Der Arbeiter, der eine vertrauliche UAP-Besprechung verlassen hatte und Berichten zufolge betrunken war, wurde von einem anderen Mitarbeiter verfolgt, der warnte, dass Whistleblowing auf bürokratische Missbilligung stoßen würde, was Elizondo dazu veranlasste, sein Haus schwer zu bewaffnen und fünf Deutsche Schäferhunde zu halten.",
         "sourceHash": "881120333160f2966d09cbc6727c54d57d41cf68",
+        "provider": "google"
+      }
+    },
+    "uap-footage-eased-lawmaker-s-skepticism-on-subject": {
+      "en": {
+        "title": "UAP footage eased lawmaker’s skepticism on subject",
+        "summary": "Rep. Eric Burlison said he has seen videos of unexplainable objects in secure briefings, which has shifted his skepticism about UAPs. He cited reports of “plasmoids,” glowing balls of plasma that move intelligently and are not explained by conventional flight, and noted that neither he nor the intelligence community knows what they are.",
+        "sourceHash": "5e5092ac1b13037fe6bd5b4bbdf0741ebc67d13b",
+        "provider": "original"
+      },
+      "de": {
+        "title": "UAP-Aufnahmen milderten die Skepsis des Gesetzgebers zu diesem Thema",
+        "summary": "Der Abgeordnete Eric Burlison sagte, er habe bei sicheren Briefings Videos von unerklärlichen Objekten gesehen, was seine Skepsis gegenüber UAPs verändert habe. Er zitierte Berichte über „Plasmoide“, leuchtende Plasmabälle, die sich intelligent bewegen und nicht durch konventionellen Flug erklärt werden können, und stellte fest, dass weder er noch die Geheimdienste wüssten, was sie seien.",
+        "sourceHash": "5e5092ac1b13037fe6bd5b4bbdf0741ebc67d13b",
         "provider": "google"
       }
     },
@@ -1228,7 +1240,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 10,
+    "prepared": 11,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
