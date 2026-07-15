@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-14T12:06:53Z",
+  "timestamp": "2026-07-15T05:20:27Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -410,7 +410,12 @@
           "sourceHash": "d9c0c686cdbd526d66f142fcf3b6a60a8dd6155f",
           "provider": "google"
         }
-      }
+      },
+      "rssPublishedAt": "2026-07-09T18:55:00Z",
+      "rssDate": "2026-07-09",
+      "sourcePublishedAt": "2026-07-09T18:55:17Z",
+      "sourceDisplayedAt": "2026-07-12T05:47:36Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "file-release-david-grusch-returns-to-capitol-steps-as-ufo-disclosure-fight-moves-from-testimony-to-action",
@@ -464,17 +469,17 @@
       "displayedAt": "2026-07-07T19:49:42Z"
     },
     {
-      "id": "program-uap-whistleblower-luis-elizondo-details-congressional-staffer-s-warning-of-a-plot-to-eliminate-him",
-      "title": "UAP whistleblower Luis Elizondo details congressional staffer’s warning of a plot to ‘eliminate’ him",
-      "source": "kotaradio.com",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeDVWMS1jUF9wY0QzTEtlbGxvaGhPclhPU1dvZFNjdzdGZDlVZ1B2LXl3UldsS0dnbm82emhmd1k5ZDRQVE91bmNWam9xVktaMC0temlwV1RTREJ0WHpUcC1RXy1OakNabS1QV08tUnE4ejVUMWNSMXlKcU1CTVFMUVdfM3hyQnM3d1lHb1Z2MWRMMDg5SE1tWmNHckN2ZVNfS3pQNnZ0ZkFtTDdEOVE5djBqd3ducGJpZHF6UzAwY3RSN29SbWVzMWxrZnpRMi1m?oc=5",
-      "date": "2026-07-02",
-      "publishedAt": "2026-06-30T23:35:09Z",
-      "summary": "Lue Elizondo, a former Pentagon official, and fellow whistleblower David Grusch received a phone call from a Congress worker warning that there were plans to “eliminate” them for testifying about UAPs. The worker, who had left a confidential UAP briefing and was reportedly intoxicated, was followed by another staffer who cautioned that whistleblowing would face bureaucratic disapproval, prompting Elizondo to heavily arm his home and keep five German shepherds. On the Sean Hannity podcast, Elizondo said UAP whistleblowers receive little protection from the government and that the lack of safeguards made his situation “not a great day for Mrs. Elizondo.” He argued that governments keep UAP information secret to protect national security, avoid public panic, and prevent destabilization of markets and religions, citing a RAND study and a White House committee that unanimously decided the truth should not yet be released. Elizondo warned that disclosure could trigger lawsuits from defense contractors who claim they were denied access to advanced technology and that some elected leaders, including the president, were kept out of the loop, calling for greater congressional oversight and whistleblower protections.",
+      "id": "program-exclusive-2-sw-florida-cities-top-10-for-ufo-sightings",
+      "title": "Exclusive: 2 SW Florida cities top 10 for UFO sightings",
+      "source": "Naples Daily News",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc1h0QzBBUDA4YWJzX0pMQVY2NEVWbG9jMnN5ci04MVFGQ1FNaGJNY2tkY0dRUEZSNUItS0l6M1VCSFpxV09TdmNuNlBiXzFmcHV2MHZEeUpMZ2JOcjBONTRHYkVBUlhsSnRSb21UcHpOY2F6SkZpYnhod3VXLWxtVVMyUDFWSlVBWFRvM0RsNTlFZUhoTEpqZ2pZXzBBVDdvY0ZpVzd5am5HTm1vRGNLMEJEbnVUYWFxdHcxOWkwZjctSzBWeGxPVA?oc=5",
+      "date": "2026-07-09",
+      "publishedAt": "2026-07-09T00:21:00Z",
+      "summary": "Naples and Cape Coral are ranked No. 6 and No. 9 respectively among Florida cities for UFO sightings according to data from the National UFO Reporting Center (NUFORC). The NUFORC list, which tracks sightings submitted since 1995, shows Naples with 134 reports and Cape Coral with 117, while other Southwest Florida cities such as Captiva, Bonita Springs, and Fort Myers Beach have 22, 18, and 11 reports respectively. Naples Police Lt. Bryan McGinn said he has not received any service calls about UFO or UAP sightings, indicating that local authorities are not being notified of the reports. UFO experts note that about 5 % of sightings remain unexplained, a figure cited by journalist Leslie Kean, who has written on the subject and reported on a $22 million U.S. Department of Defense program investigating UFOs. Recent reports on NUFORC include a 2026 sighting in Port Charlotte of lights descending from the sky, a 2025 March report of a possible balloon in Naples, and a March 22, 2025 sighting of a black, shapeshifting object hovering over Green Cove Springs near Jacksonville. The article does not confirm whether any of these sightings were linked to rocket launches or drones, leaving the true nature of the objects uncertain.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 55,
+      "quality": 45,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -484,12 +489,7 @@
         {
           "label": "Begriffe",
           "points": 3,
-          "text": "CONGRESS als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "CONGRESS als offizieller Kontext erkannt."
+          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Titel",
@@ -500,56 +500,14 @@
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "CONGRESS"
+        "SIGHTINGS"
       ],
-      "sourceQuality": 55,
-      "displayedAt": "2026-06-30T23:35:09Z"
-    },
-    {
-      "id": "uap-footage-eased-lawmaker-s-skepticism-on-subject",
-      "title": "UAP footage eased lawmaker’s skepticism on subject",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90QjBhSlhtWDlvQTNwMU1jN2luTEYwN2NjVE8wX0F0amJzOEY5WmZBYWpkaHpVYUJPcW5pWnVJbjl0TGUwM1MtUUNldVlraHJnVmM1QkUwWWNZd3REdW5PRXJDX1JINUNDNE15eVhWUjFGY1V4Q1NTbXAtYTDSAYIBQVVfeXFMTndieWtmTlBsMndvS2JjNExCVmVMM0NmMElrcjBKRmlWamRiMUlxSHZKYndVZi1YMDc3akRRYnlBM0o5ODNYVDlBN21MZGd2LUJKWkdBbmlMQ3BUenoxNmJ6bUlibHJBekpTQTlwa2JyU0F1TWpKSjJxZ2VDOHBOekk0UQ?oc=5",
-      "date": "2026-07-02",
-      "publishedAt": "2026-07-02T01:59:27Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 49,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 49,
-      "displayedAt": "2026-07-07T19:49:42Z"
+      "sourceQuality": 45,
+      "displayedAt": "2026-07-15T05:20:27Z"
     },
     {
       "id": "sighting-nj-ranks-high-for-ufo-sightings-these-central-jersey-reports-are-wild",
@@ -735,6 +693,53 @@
         "articleContentSummary": "missing"
       },
       "displayedAt": "2026-07-08T05:41:47Z"
+    },
+    {
+      "id": "uap-footage-eased-lawmaker-s-skepticism-on-subject",
+      "title": "UAP footage eased lawmaker’s skepticism on subject",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90QjBhSlhtWDlvQTNwMU1jN2luTEYwN2NjVE8wX0F0amJzOEY5WmZBYWpkaHpVYUJPcW5pWnVJbjl0TGUwM1MtUUNldVlraHJnVmM1QkUwWWNZd3REdW5PRXJDX1JINUNDNE15eVhWUjFGY1V4Q1NTbXAtYTDSAYIBQVVfeXFMTndieWtmTlBsMndvS2JjNExCVmVMM0NmMElrcjBKRmlWamRiMUlxSHZKYndVZi1YMDc3akRRYnlBM0o5ODNYVDlBN21MZGd2LUJKWkdBbmlMQ3BUenoxNmJ6bUlibHJBekpTQTlwa2JyU0F1TWpKSjJxZ2VDOHBOekk0UQ?oc=5",
+      "date": "2026-07-02",
+      "publishedAt": "2026-07-02T01:59:27Z",
+      "summary": "Rep. Eric Burlison said he has seen videos of unexplainable objects in secure briefings, which has shifted his skepticism about UAPs. He cited reports of “plasmoids,” glowing balls of plasma that move intelligently and are not explained by conventional flight, and noted that neither he nor the intelligence community knows what they are. Burlison explained that lawmakers are demanding declassification of files on incidents such as the 1952 D.C. UFO case and the 1996 Varginha incident, noting that agencies sometimes deny the existence of files until a specific file number is requested. He argued that the government’s use of private contractors and federally funded research centers keeps information hidden and that transparency is a constitutional issue. The article notes that the UAP issue is rare on Capitol Hill but has attracted bipartisan support, though the exact nature of the objects remains uncertain.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "declassified",
+        "files",
+        "government"
+      ],
+      "sourceQuality": 40,
+      "displayedAt": "2026-07-07T19:49:42Z",
+      "translation": {
+        "en": {
+          "title": "UAP footage eased lawmaker’s skepticism on subject",
+          "summary": "Rep. Eric Burlison said he has seen videos of unexplainable objects in secure briefings, which has shifted his skepticism about UAPs. He cited reports of “plasmoids,” glowing balls of plasma that move intelligently and are not explained by conventional flight, and noted that neither he nor the intelligence community knows what they are.",
+          "sourceHash": "5e5092ac1b13037fe6bd5b4bbdf0741ebc67d13b",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UAP-Aufnahmen milderten die Skepsis des Gesetzgebers zu diesem Thema",
+          "summary": "Der Abgeordnete Eric Burlison sagte, er habe bei sicheren Briefings Videos von unerklärlichen Objekten gesehen, was seine Skepsis gegenüber UAPs verändert habe. Er zitierte Berichte über „Plasmoide“, leuchtende Plasmabälle, die sich intelligent bewegen und nicht durch konventionellen Flug erklärt werden können, und stellte fest, dass weder er noch die Geheimdienste wüssten, was sie seien.",
+          "sourceHash": "5e5092ac1b13037fe6bd5b4bbdf0741ebc67d13b",
+          "provider": "google"
+        }
+      }
     }
   ]
 }
