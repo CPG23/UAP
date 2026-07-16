@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "1 neuer Artikel",
+  "message": "──────────────\nThese 20 Tennessee cities report the most UFO sightings. Where yours ranks\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
