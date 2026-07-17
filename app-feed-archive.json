@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-16T12:14:56Z",
+  "timestamp": "2026-07-17T05:31:19Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -277,7 +277,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1yOWNmaDVZckoxYnU0UnUzMmlEVF94TG5OUlNQVFJqTU9Eb29vQWZvYTdXYXFMckY3dXQzbU1GTVZvSFVJREtGdXQ0YzFLNGpaa2dNN1pJRTNuUnZ0ZWVtTHpuaDFvZw?oc=5",
       "date": "2026-07-10",
       "publishedAt": "2026-07-10T07:00:00Z",
-      "summary": "Mike Gold, a former NASA UAP study member, says officials are discussing declassifying still‑secret UFO material and that earlier releases were only “low‑hanging fruit.” He argues that bureaucracy, not secrecy, is slowing access to more sensitive records and that the next wave of disclosures could contain more than recycled documents. Gold told Ross Coultart on Newsnight that there is no fourth tranche yet, but that a declassification process is underway. He urges investigators to focus on NASA’s space‑based archives, noting that current releases focus mainly on military and Earth‑based sightings and that no data from space‑based assets has been released. Supporters on Reddit welcomed Gold’s comments, seeing the process as ongoing, though some remain skeptical after earlier releases lacked new evidence.",
+      "summary": "Mike Gold, a former NASA UAP study member, says officials are discussing declassifying still‑secret UFO material beyond the previously released “low‑hanging fruit.” Gold told Ross Coultart on Newsnight that the National Archives are shifting toward declassifying material that remains classified and that bureaucracy is slowing the process. He argues that current disclosures focus too much on military and Earth‑based sightings and urges investigators to examine NASA’s space‑based archives, noting that no data from space assets has yet been released. Gold expects the forthcoming release to contain more sensitive material and believes it could be “even more interesting” than earlier tranches. Reddit users reacted to Gold’s comments, with some expressing optimism about the progress and others remaining skeptical after earlier releases lacked new evidence.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -363,118 +363,6 @@
       "displayedAt": "2026-07-15T05:20:27Z"
     },
     {
-      "id": "sighting-nj-ranks-high-for-ufo-sightings-these-central-jersey-reports-are-wild",
-      "title": "NJ ranks high for UFO sightings. These Central Jersey reports are wild",
-      "source": "Central New Jersey News",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmtSdUE1ek5sQjVlWWFiWC04U05KWDNGUWIzblYxU2dHYzUxVzBEWEFvV1pPcEtuOC1PcVUtN1BGTFdIdlcyV1lJUkh2VVdwSUM3ZVUtdWRpS1NQN1pTZ2hUSlFDN2tmaERVM0VkZzhRUEZpWGkyR1Y5ZTlGMlY5OF9KS1hXR1RhbU5WQ2JUNXFNYkxvUGRNM1gtNWViNWxRelJyZ0F3Y3dMbEFPMFdrYUNuRWkzYUpfOHpSWlZjaWVNTGlQ?oc=5",
-      "date": "2026-07-02",
-      "publishedAt": "2026-07-02T18:39:04Z",
-      "summary": "New Jersey logged 3,083 UFO reports in the past year, about 419.2 per 1,000 square miles, ranking second in the U.S. after Rhode Island for sighting density. Many reports are unconfirmed and could be misidentified drones, planes, satellites, or optical phenomena. Specific incidents include a driver on I‑78 reporting a stationary grey/blue orb that flashed white and vanished, a Somerville driver describing a metallic disk with a force‑field‑like aura that disappeared, and a South Brunswick witness whose video was blocked by a black fast‑moving object above planes. Edison residents reported five or more maroonish‑red gaseous lights forming a reverse Big Dipper that flickered and danced, while an East Brunswick family saw wispy lights changing direction and form. The NUFORC database collects these public submissions but does not verify them, and federal officials have said that many drone sightings were hobbyist drones, misidentified aircraft, or stars, posing no real threat.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "SIGHTINGS"
-      ],
-      "sourceQuality": 45,
-      "displayedAt": "2026-07-10T06:32:25Z",
-      "sourceDisplayedAt": "2026-07-10T06:32:25Z",
-      "translation": {
-        "en": {
-          "title": "NJ ranks high for UFO sightings. These Central Jersey reports are wild",
-          "summary": "New Jersey logged 3,083 UFO reports in the past year, about 419.2 per 1,000 square miles, ranking second in the U.S. after Rhode Island for sighting density. Many reports are unconfirmed and could be misidentified drones, planes, satellites, or optical phenomena.",
-          "sourceHash": "c885d3f5054aaa2dbce1954a35668ea3f1347b47",
-          "provider": "original"
-        },
-        "de": {
-          "title": "New Jersey hat bei UFO-Sichtungen einen Spitzenplatz. Diese Berichte aus Central Jersey sind wild",
-          "summary": "New Jersey verzeichnete im vergangenen Jahr 3.083 UFO-Meldungen, etwa 419,2 pro 1.000 Quadratmeilen, und belegte in den USA nach Rhode Island den zweiten Platz in Bezug auf die Sichtungsdichte. Viele Berichte sind unbestätigt und könnten fälschlicherweise als Drohnen, Flugzeuge, Satelliten oder optische Phänomene identifiziert werden.",
-          "sourceHash": "c885d3f5054aaa2dbce1954a35668ea3f1347b47",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
-    {
-      "id": "film-world-ufo-day-invites-believers-skeptics-and-the-curious-to-look-to-the-skies",
-      "title": "World UFO Day invites believers, skeptics and the curious to look to the skies",
-      "source": "Wausau Pilot & Review",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSEg1Y2FESU1WSHY3VGpHb1QzRTlsVXpiOEFCNTBjbEQtZGVGNk1GR1lxOTZON3YxNWdscmNjRF9GUzhrZlEyV0JUbk5na3VsYmplejBMSGdERTNSSjJic2NMUkw4aGh0bHdMdnI0ckFHRGdCaGNPTlhIbkZ4enlJRG5SNGtFUm9YamllQ1FOSG51V3ZyQXZ1dVVFVFhzNGVyYXU5RTdPR3daSTZVT2liTmVXVF9sdzZfa3ZRZ1RrYw?oc=5",
-      "date": "2026-07-02",
-      "publishedAt": "2026-07-02T14:10:54Z",
-      "summary": "World UFO Day is observed each year on July 2 and commemorates the 1947 Roswell incident in New Mexico. The day encourages discussion of unidentified flying objects, now referred to as unidentified anomalous phenomena (UAPs), and reflects growing public interest fueled by military videos and congressional attention. While many sightings are later identified as aircraft, weather phenomena, or satellites, some remain officially unidentified, and enthusiasts celebrate with festivals, film viewings, sky scanning, and story sharing. Scientists note that an unidentified object does not equal evidence of extraterrestrial life, as it simply means insufficient information to determine what was observed.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 43,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "PILOT als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "PILOT"
-      ],
-      "sourceQuality": 43,
-      "displayedAt": "2026-07-03T06:20:40Z",
-      "rssPublishedAt": "2026-07-02T14:10:54Z",
-      "rssDate": "2026-07-02",
-      "sourcePublishedAt": "2026-07-02T14:10:54Z",
-      "sourceDisplayedAt": "2026-07-03T06:20:40Z",
-      "translation": {
-        "en": {
-          "title": "World UFO Day invites believers, skeptics and the curious to look to the skies",
-          "summary": "World UFO Day is observed each year on July 2 and commemorates the 1947 Roswell incident in New Mexico. The day encourages discussion of unidentified flying objects, now referred to as unidentified anomalous phenomena (UAPs), and reflects growing public interest fueled by military videos and congressional attention. While many sightings are later identified as aircraft, weather phenomena, or satellites, some remain officially unidentified, and enthusiasts celebrate with festivals, film viewings, sky scanning, and story sharing.",
-          "sourceHash": "d97d1884ad1fb90d8c43ae83c985eff0ae71bdd2",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Der Welt-UFO-Tag lädt Gläubige, Skeptiker und Neugierige ein, in den Himmel zu blicken",
-          "summary": "Der Welt-UFO-Tag wird jedes Jahr am 2. Juli begangen und erinnert an den Roswell-Vorfall 1947 in New Mexico. Der Tag fördert die Diskussion über nicht identifizierte Flugobjekte, die heute als nicht identifizierte anomale Phänomene (UAPs) bezeichnet werden, und spiegelt das wachsende öffentliche Interesse wider, das durch Militärvideos und die Aufmerksamkeit des Kongresses angeheizt wird. Während viele Sichtungen später als Flugzeuge, Wetterphänomene oder Satelliten identifiziert werden, bleiben einige offiziell unbekannt und Enthusiasten feiern mit Festivals, Filmvorführungen, Himmelsscans und dem Austausch von Geschichten.",
-          "sourceHash": "d97d1884ad1fb90d8c43ae83c985eff0ae71bdd2",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
-    {
       "id": "sighting-these-20-tennessee-cities-report-the-most-ufo-sightings-where-yours-ranks",
       "title": "These 20 Tennessee cities report the most UFO sightings. Where yours ranks",
       "source": "Knoxville News Sentinel",
@@ -502,6 +390,35 @@
       "matchedTerms": [],
       "sourceQuality": 40,
       "displayedAt": "2026-07-16T05:29:47Z"
+    },
+    {
+      "id": "program-moon-monoliths-are-luis-elizondo-s-latest-ufo-bombshell",
+      "title": "Moon monoliths are Luis Elizondo's latest UFO bombshell",
+      "source": "Cybernews",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yRHRraGVKcWlPT25ubno3cTQwRlJHSnE5bkZaZVF3Y1AyUVBpY3FMUkNldktjTXVjNWlpMWdJNm5Fd2R4VENKRU9YcEYtWUVoMFJzblE4UEFLenc0bDYzYkJWQ1hpbGpLODVaWW9BSlA0QQ?oc=5",
+      "date": "2026-07-08",
+      "publishedAt": "2026-07-08T15:31:35Z",
+      "summary": "Luis Elizondo, a former Army counterintelligence special agent and long‑time UFO whistleblower, said that unreleased photographs of the Moon show monolithic structures with right‑angle cuts that he believes are artificial and may be released soon. He also described encounters with colored orbs—green, red, and blue—that he claims could be autonomous surveillance or weapon platforms, citing reports from the Pentagon’s former AATIP. The interview contains no new public evidence; the claims rely on photographs and reports that have not yet been made public. The Reddit UFO community reacted skeptically, demanding concrete proof rather than further announcements. Elizondo repeatedly used tentative language such as “appears to be” and noted that CIA, DIA, and NSA officials have concluded the objects are real and potentially threatening, but the existence of the alleged Moon structures remains unverified. He has previously claimed that a secret government program holds alien craft and that UAPs can disable nuclear missiles, but those claims are not substantiated in this interview.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "displayedAt": "2026-07-17T05:31:19Z"
     },
     {
       "id": "roswell-ufo-festival-organizers-share-2026-attendance-numbers",
