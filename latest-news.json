@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-18T11:36:45Z",
+  "timestamp": "2026-07-18T11:45:53Z",
   "articles": [
     {
       "id": "trump-ufo-advisors-accuse-private-corporations-of-operating-alien-craft-retrieval-programs",
@@ -408,7 +408,7 @@
         },
         "de": {
           "title": "Exklusiv: 2 Städte im Südwesten Floridas, Top 10 für UFO-Sichtungen",
-          "summary": "Nach Angaben des National UFO Reporting Center (NUFORC) liegen Naples und Cape Coral in Bezug auf UFO-Sichtungen auf Platz 6 bzw. 9 unter den Städten Floridas.",
+          "summary": "Nach Angaben des National UFO Reporting Center (NUFORC) liegen Naples und Cape Coral auf Platz 6 bzw. 9 unter den Städten Floridas für UFO-Sichtungen.",
           "sourceHash": "b635a46940abe391f0267eef52097e1938473a98",
           "provider": "google"
         }
@@ -603,13 +603,13 @@
     "roswell-ufo-festival-organizers-share-2026-attendance-numbers": "The Roswell UFO Festival ran from July 2 to July 4, 2026, and organizers reported it was a success. The event featured a variety of booths, shops, shows, and contests aimed at paranormal enthusiasts. Roswell Mainstreet estimated that more than 12,000 people attended, though those figures are preliminary. No further details about attendance or event outcomes were provided."
   },
   "notificationBatch": {
-    "timestamp": "2026-07-18T11:36:45Z",
+    "timestamp": "2026-07-18T11:45:53Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 377,
-    "broadTopics": 157,
+    "broadArticles": 376,
+    "broadTopics": 156,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -810,7 +810,7 @@
       },
       "de": {
         "title": "Exklusiv: 2 Städte im Südwesten Floridas, Top 10 für UFO-Sichtungen",
-        "summary": "Nach Angaben des National UFO Reporting Center (NUFORC) liegen Naples und Cape Coral in Bezug auf UFO-Sichtungen auf Platz 6 bzw. 9 unter den Städten Floridas.",
+        "summary": "Nach Angaben des National UFO Reporting Center (NUFORC) liegen Naples und Cape Coral auf Platz 6 bzw. 9 unter den Städten Floridas für UFO-Sichtungen.",
         "sourceHash": "b635a46940abe391f0267eef52097e1938473a98",
         "provider": "google"
       }
