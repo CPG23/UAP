@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-17T12:02:58Z",
+  "timestamp": "2026-07-18T05:14:07Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -419,7 +419,26 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
-      "displayedAt": "2026-07-16T05:29:47Z"
+      "displayedAt": "2026-07-16T05:29:47Z",
+      "rssPublishedAt": "2026-07-15T15:15:00Z",
+      "rssDate": "2026-07-04",
+      "sourcePublishedAt": "2026-07-15T00:00:00Z",
+      "sourceDisplayedAt": "2026-07-16T05:29:47Z",
+      "translation": {
+        "en": {
+          "title": "These 20 Tennessee cities report the most UFO sightings. Where yours ranks",
+          "summary": "Since the 2023 National Defense Authorization Act, U.S. reports of unidentified anomalous phenomena (UAPs) have risen, with the All‑Domain Anomaly Resolution Office (AARO) reviewing over 1,000 cases but finding no evidence of extraterrestrial technology. UFO investigator Mick West, who has examined roughly 1,000 cases and analyzed about 100 in depth, advises a methodical approach that cross‑checks sightings with flight data, weather, ground cameras, and satellite imagery to rule out mundane explanations.",
+          "sourceHash": "082d320c8ab080575c0dc11c738d71542c0ffc37",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Diese 20 Städte in Tennessee melden die meisten UFO-Sichtungen. Wo Ihr Rang liegt",
+          "summary": "Seit dem National Defense Authorization Act von 2023 sind in den USA die Meldungen über nicht identifizierte anomale Phänomene (UAPs) gestiegen. Das All-Domain Anomaly Resolution Office (AARO) hat über 1.000 Fälle geprüft, aber keine Hinweise auf außerirdische Technologie gefunden. Der UFO-Ermittler Mick West, der rund 1.000 Fälle untersucht und etwa 100 eingehend analysiert hat, rät zu einem methodischen Ansatz, bei dem Sichtungen mit Flugdaten, Wetter, Bodenkameras und Satellitenbildern abgeglichen werden, um banale Erklärungen auszuschließen.",
+          "sourceHash": "082d320c8ab080575c0dc11c738d71542c0ffc37",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "program-moon-monoliths-are-luis-elizondo-s-latest-ufo-bombshell",

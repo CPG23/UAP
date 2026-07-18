@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-17T12:02:58Z",
+  "timestamp": "2026-07-18T05:14:07Z",
   "articles": [
     {
       "id": "trump-ufo-advisors-accuse-private-corporations-of-operating-alien-craft-retrieval-programs",
@@ -459,7 +459,8 @@
           "sourceHash": "082d320c8ab080575c0dc11c738d71542c0ffc37",
           "provider": "google"
         }
-      }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "program-moon-monoliths-are-luis-elizondo-s-latest-ufo-bombshell",
@@ -603,13 +604,13 @@
     "roswell-ufo-festival-organizers-share-2026-attendance-numbers": "The Roswell UFO Festival ran from July 2 to July 4, 2026, and organizers reported it was a success. The event featured a variety of booths, shops, shows, and contests aimed at paranormal enthusiasts. Roswell Mainstreet estimated that more than 12,000 people attended, though those figures are preliminary. No further details about attendance or event outcomes were provided."
   },
   "notificationBatch": {
-    "timestamp": "2026-07-17T12:02:58Z",
+    "timestamp": "2026-07-18T05:14:07Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 382,
-    "broadTopics": 159,
+    "broadArticles": 379,
+    "broadTopics": 156,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -620,7 +621,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 2,
+    "regroupedTopics": 0,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -654,14 +655,14 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 5,
-      "outputArticles": 5,
-      "preservedSourceSummaries": 3
+      "inputArticles": 4,
+      "outputArticles": 4,
+      "preservedSourceSummaries": 2
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 5,
-      "outputArticles": 5,
+      "inputArticles": 4,
+      "outputArticles": 4,
       "missingSummaries": 2,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
@@ -682,23 +683,23 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 5,
-      "outputArticles": 5,
+      "inputArticles": 4,
+      "outputArticles": 4,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 5,
+      "inputArticles": 4,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 11,
-      "currentBeforeRestore": 5,
-      "restoredArticles": 5,
+      "archiveCandidates": 10,
+      "currentBeforeRestore": 4,
+      "restoredArticles": 6,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
@@ -706,6 +707,7 @@
         "Trump UFO advisors accuse private corporations of operating alien craft-retrieval programs",
         "NASA’s Changing Stance on UFOs: Full Timeline",
         "NASA insider hints bigger UFO file release as declassification ramps up",
+        "These 20 Tennessee cities report the most UFO sightings. Where yours ranks",
         "Moon monoliths are Luis Elizondo's latest UFO bombshell",
         "Think You’ve Seen a UFO? Here’s What to Do Next, According to an Expert"
       ]
@@ -720,7 +722,7 @@
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
       "checkedSources": 10,
-      "updatedSources": 4,
+      "updatedSources": 3,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
@@ -740,7 +742,7 @@
       "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 32
+      "seededSeenFromPreviousFeed": 20
     }
   },
   "translations": {
