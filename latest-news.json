@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-18T05:14:07Z",
+  "timestamp": "2026-07-18T11:36:45Z",
   "articles": [
     {
       "id": "trump-ufo-advisors-accuse-private-corporations-of-operating-alien-craft-retrieval-programs",
@@ -505,8 +505,7 @@
           "provider": "google"
         }
       },
-      "retainedFromPreviousScan": true,
-      "sourceIsNew": true
+      "retainedFromPreviousScan": true
     },
     {
       "id": "roswell-ufo-festival-organizers-share-2026-attendance-numbers",
@@ -604,13 +603,13 @@
     "roswell-ufo-festival-organizers-share-2026-attendance-numbers": "The Roswell UFO Festival ran from July 2 to July 4, 2026, and organizers reported it was a success. The event featured a variety of booths, shops, shows, and contests aimed at paranormal enthusiasts. Roswell Mainstreet estimated that more than 12,000 people attended, though those figures are preliminary. No further details about attendance or event outcomes were provided."
   },
   "notificationBatch": {
-    "timestamp": "2026-07-18T05:14:07Z",
+    "timestamp": "2026-07-18T11:36:45Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 379,
-    "broadTopics": 156,
+    "broadArticles": 377,
+    "broadTopics": 157,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
