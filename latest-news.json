@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-19T05:41:20Z",
+  "timestamp": "2026-07-19T11:49:39Z",
   "articles": [
     {
       "id": "ross-coulthart-pentagon-knows-a-lot-more-about-uap-than-it-admits",
@@ -461,7 +461,7 @@
         },
         "de": {
           "title": "Exklusiv: 2 Städte im Südwesten Floridas, Top 10 für UFO-Sichtungen",
-          "summary": "Nach Angaben des National UFO Reporting Center (NUFORC) liegen Naples und Cape Coral auf Platz 6 bzw. 9 unter den Städten Floridas für UFO-Sichtungen.",
+          "summary": "Nach Angaben des National UFO Reporting Center (NUFORC) liegen Naples und Cape Coral in Bezug auf UFO-Sichtungen auf Platz 6 bzw. 9 unter den Städten Floridas.",
           "sourceHash": "b635a46940abe391f0267eef52097e1938473a98",
           "provider": "google"
         }
@@ -620,30 +620,16 @@
     "roswell-ufo-festival-organizers-share-2026-attendance-numbers": "The Roswell UFO Festival ran from July 2 to July 4, 2026, and organizers reported it was a success. The event featured a variety of booths, shops, shows, and contests aimed at paranormal enthusiasts. Roswell Mainstreet estimated that more than 12,000 people attended, though those figures are preliminary. No further details about attendance or event outcomes were provided."
   },
   "notificationBatch": {
-    "timestamp": "2026-07-19T05:41:20Z",
-    "ids": [
-      "stream-disclosure-day-2026-online-at-home-starting-next-week",
-      "sighting-trump-ufo-advisors-have-explanations-for-glowing-orbs-except-for-one-recent-encounter"
-    ],
-    "articles": [
-      {
-        "id": "stream-disclosure-day-2026-online-at-home-starting-next-week",
-        "title": "Stream Disclosure Day (2026) online at home starting next week!",
-        "source": "Scified"
-      },
-      {
-        "id": "sighting-trump-ufo-advisors-have-explanations-for-glowing-orbs-except-for-one-recent-encounter",
-        "title": "Trump UFO advisors have explanations for glowing orbs — except for one recent encounter",
-        "source": "New York Post"
-      }
-    ]
+    "timestamp": "2026-07-19T11:49:39Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 378,
-    "broadTopics": 159,
+    "broadArticles": 376,
+    "broadTopics": 156,
     "notificationArticles": 2,
     "notificationTopics": 2,
-    "newNotificationTopics": 2,
+    "newNotificationTopics": 0,
     "appTopics": 10,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -651,7 +637,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 0,
+    "regroupedTopics": 2,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -750,7 +736,7 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 10,
-      "newSources": 2
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -760,8 +746,8 @@
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 2,
-      "freshSources": 2,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 20
@@ -847,7 +833,7 @@
       },
       "de": {
         "title": "Exklusiv: 2 Städte im Südwesten Floridas, Top 10 für UFO-Sichtungen",
-        "summary": "Nach Angaben des National UFO Reporting Center (NUFORC) liegen Naples und Cape Coral auf Platz 6 bzw. 9 unter den Städten Floridas für UFO-Sichtungen.",
+        "summary": "Nach Angaben des National UFO Reporting Center (NUFORC) liegen Naples und Cape Coral in Bezug auf UFO-Sichtungen auf Platz 6 bzw. 9 unter den Städten Floridas.",
         "sourceHash": "b635a46940abe391f0267eef52097e1938473a98",
         "provider": "google"
       }
