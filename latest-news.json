@@ -1,84 +1,6 @@
 {
-  "timestamp": "2026-07-18T11:45:53Z",
+  "timestamp": "2026-07-19T05:41:20Z",
   "articles": [
-    {
-      "id": "trump-ufo-advisors-accuse-private-corporations-of-operating-alien-craft-retrieval-programs",
-      "title": "Trump UFO advisors accuse private corporations of operating alien craft-retrieval programs",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbFBkblh5cTBVbnkzZElDdHVoendBZVNnYXpLdi1tRDExUkZyOGw4THZsQkV2dDBKUzg0aS1Xdmd0TTRHNTJrZnJTOWlESkoxNmM2Q3lOc1cyZ19MSjd1eXhoMjRWOUxyNGpGQ3c3XzVzQWlOUXk5WlBzRV9rVXczb3k4ZTlYMXBKQVJ3cDJNZ0h6ZkFMbU9tSk45cXpnVVBSZHdYU01JaEdHUV9OM0dMQ0lKaXphMDhtODhSOFB4eFJTRk9JcjZaWg?oc=5",
-      "date": "2026-07-01",
-      "publishedAt": "2026-07-04T13:00:00Z",
-      "summary": "Avi Loeb, head of Trump’s UAP Science Advisory Council, said a former Lockheed Martin executive confirmed the company runs a crashed‑UFO retrieval program and that the material could prove extraterrestrial intelligence. Hal Puthoff and Luis Elizondo added that Lockheed had been prepared to transfer such materials to the AATIP and later to the Navy’s Pax River Facility, a Special Access Program hangar funded with $10 million. Congressman Eric Burlison toured Pax River, demanded documents from MIT’s Lincoln Laboratory and MITRE Corporation, and warned that major defense contractors must be allowed to disclose reverse‑engineered non‑human technology. Chris Mellon stated that decisive UAP data remains hidden behind classification at the Air Force, CIA, DOE and other agencies, and that private corporations also hold evidence. Neither Lockheed Martin nor Northrop Grumman has responded to the allegations.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 73,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DECLASSIFIED, PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "DECLASSIFIED, PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "released"
-      ],
-      "sourceQuality": 73,
-      "displayedAt": "2026-07-05T12:11:30Z",
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "rssPublishedAt": "2026-07-04T13:00:00Z",
-      "rssDate": "2026-07-01",
-      "sourcePublishedAt": "2026-07-04T13:00:00Z",
-      "sourceDisplayedAt": "2026-07-05T12:11:30Z",
-      "translation": {
-        "en": {
-          "title": "Trump UFO advisors accuse private corporations of operating alien craft-retrieval programs",
-          "summary": "Avi Loeb, head of Trump’s UAP Science Advisory Council, said a former Lockheed Martin executive confirmed the company runs a crashed‑UFO retrieval program and that the material could prove extraterrestrial intelligence. Hal Puthoff and Luis Elizondo added that Lockheed had been prepared to transfer such materials to the AATIP and later to the Navy’s Pax River Facility, a Special Access Program hangar funded with $10 million.",
-          "sourceHash": "0b7b615943a13f41e08e849801d911e28c54bc95",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Trumps UFO-Berater beschuldigen private Unternehmen, Programme zur Bergung außerirdischer Raumschiffe durchzuführen",
-          "summary": "Avi Loeb, Vorsitzender von Trumps UAP Science Advisory Council, sagte, ein ehemaliger Manager von Lockheed Martin habe bestätigt, dass das Unternehmen ein Programm zur Bergung abgestürzter UFOs betreibt und dass das Material außerirdische Intelligenz beweisen könnte. Hal Puthoff und Luis Elizondo fügten hinzu, dass Lockheed bereit gewesen sei, solche Materialien an die AATIP und später an die Pax River Facility der Marine zu übergeben, einen Hangar des Special Access Program, der mit 10 Millionen US-Dollar finanziert wurde.",
-          "sourceHash": "0b7b615943a13f41e08e849801d911e28c54bc95",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
     {
       "id": "ross-coulthart-pentagon-knows-a-lot-more-about-uap-than-it-admits",
       "title": "Ross Coulthart: Pentagon knows ‘a lot more’ about UAP than it admits",
@@ -289,6 +211,76 @@
       "sourceDisplayedAt": "2026-07-07T19:49:42Z"
     },
     {
+      "id": "stream-disclosure-day-2026-online-at-home-starting-next-week",
+      "title": "Stream Disclosure Day (2026) online at home starting next week!",
+      "source": "Scified",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYVFPSktJQUtGN1JiODJEQTIxQ29FN19TQ08xWWZReE0xUFdwb1VIN2tBaU1kMGZ3SnJQSEVHakZzb1dfdmljenoxVGFLRWU5cEVNN0RsajI2MG9UNlo0Q1lIRmJkZzhEUHJfZkhLX1kxcU5YT2FHbEVsblMxVko2YXJPZ3NwQTRMRnc?oc=5",
+      "date": "2026-07-18",
+      "publishedAt": "2026-07-18T15:35:31Z",
+      "summary": "Steven Spielberg’s science‑fiction film *Disclosure Day* will be available for digital purchase on Prime Video beginning July 21, 2026, with a release time of 1:00 AM EDT. The film is offered as a UHD pre‑order for $29.99, and Amazon’s Pre‑order Price Guarantee ensures customers pay the lowest listed price between ordering and release. The cast includes Emily Blunt, Josh O’Connor, Colin Firth, Eve Hewson and Colman Domingo, and the screenplay is by David Koepp. After a theatrical run earlier in 2026 that earned $233 million worldwide against a $115 million budget, the movie has sparked widespread discussion among science‑fiction fans. The synopsis poses the question, “If you found out we weren’t alone, would that frighten you?” and describes a world changed by the revelation of extraterrestrial life. The article notes that further home‑media releases such as Blu‑ray, 4K UHD or streaming subscription availability will be announced if they become available.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 56,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE"
+      ],
+      "sourceQuality": 56,
+      "displayedAt": "2026-07-19T05:41:20Z",
+      "rssPublishedAt": "2026-07-18T15:35:31Z",
+      "rssDate": "2026-07-18",
+      "sourcePublishedAt": "2026-07-18T15:35:31Z",
+      "sourceDisplayedAt": "2026-07-19T05:41:20Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Stream Disclosure Day (2026) online at home starting next week!",
+          "summary": "Steven Spielberg’s science‑fiction film *Disclosure Day* will be available for digital purchase on Prime Video beginning July 21, 2026, with a release time of 1:00 AM EDT. The film is offered as a UHD pre‑order for $29.99, and Amazon’s Pre‑order Price Guarantee ensures customers pay the lowest listed price between ordering and release. The cast includes Emily Blunt, Josh O’Connor, Colin Firth, Eve Hewson and Colman Domingo, and the screenplay is by David Koepp.",
+          "sourceHash": "6da88b9e8ca27901d71e01493b2d94011aae3013",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Streamen Sie Disclosure Day (2026) ab nächster Woche online zu Hause!",
+          "summary": "Steven Spielbergs Science-Fiction-Film *Disclosure Day* wird ab dem 21. Juli 2026 um 1:00 Uhr EDT digital auf Prime Video erhältlich sein. Der Film wird als UHD-Vorbestellung für 29,99 US-Dollar angeboten und die Vorbestellungspreisgarantie von Amazon stellt sicher, dass Kunden zwischen Bestellung und Veröffentlichung den niedrigsten Listenpreis zahlen. Zur Besetzung gehören Emily Blunt, Josh O’Connor, Colin Firth, Eve Hewson und Colman Domingo, das Drehbuch stammt von David Koepp.",
+          "sourceHash": "6da88b9e8ca27901d71e01493b2d94011aae3013",
+          "provider": "google"
+        }
+      }
+    },
+    {
       "id": "file-release-nasa-insider-hints-bigger-ufo-file-release-as-declassification-ramps-up",
       "title": "NASA insider hints bigger UFO file release as declassification ramps up",
       "source": "Cybernews",
@@ -354,6 +346,67 @@
         }
       },
       "retainedFromPreviousScan": true
+    },
+    {
+      "id": "sighting-trump-ufo-advisors-have-explanations-for-glowing-orbs-except-for-one-recent-encounter",
+      "title": "Trump UFO advisors have explanations for glowing orbs — except for one recent encounter",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWW5wX09tMlRXZHdnc1hidFdVMDBqNWFzQjh3cHl2QlBNV1pWX0tqdUhuRE5mREdMTXZ3Y2NFb0VlUFRSYmp2VXNJQ09MQTYyWmFOeEZ4bDEzTHc5M0FDOGo4VFhTeXJmT2FfXzJWTk1EV0M2YlRZMjZRRS1vc3JuQ3RkSl9jRk5zOUJZSnU4TUhRTy01eDFfV3FZbHF3SFAy?oc=5",
+      "date": "2026-07-18",
+      "publishedAt": "2026-07-18T17:13:00Z",
+      "summary": "Trump administration science advisors are providing conventional explanations for some UFO sightings but say one recent encounter remains unexplained. Dr. Avi Loeb, head of the UAP Science Advisory Council, argues that many glowing orbs could be plasmas produced by powerful lasers, which can move supersonically without generating a sonic boom or fireball. Loeb notes that these laser‑based explanations cannot account for the October 2023 sighting of orange and red orbs near a secured military facility in the western United States, which were observed by federal intelligence officers. The All‑Domain Anomaly Resolution Office (AARO) report, referenced by Loeb, describes an orange “mother orb” that launched smaller red orbs, remained stationary for hours, and exhibited coordinated horizontal motion and altitude changes, a behavior that does not match laser‑sustained plasma. Admiral Tim Gallaudet agrees that the “orbs launching orbs” case is a chief concern and cannot be explained by conventional means, while Loeb also considers ball lighting as a possibility but notes its brief duration compared to the hours‑long sighting.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 50,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "ORBS, TRUMP als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "ORBS",
+        "TRUMP"
+      ],
+      "sourceQuality": 50,
+      "displayedAt": "2026-07-19T05:41:20Z",
+      "rssPublishedAt": "2026-07-18T17:13:00Z",
+      "rssDate": "2026-07-18",
+      "sourcePublishedAt": "2026-07-18T17:13:20Z",
+      "sourceDisplayedAt": "2026-07-19T05:41:20Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Trump UFO advisors have explanations for glowing orbs — except for one recent encounter",
+          "summary": "Trump administration science advisors are providing conventional explanations for some UFO sightings but say one recent encounter remains unexplained. Dr. Avi Loeb, head of the UAP Science Advisory Council, argues that many glowing orbs could be plasmas produced by powerful lasers, which can move supersonically without generating a sonic boom or fireball.",
+          "sourceHash": "7a3ca02d0309eb1200fe9e393e0674a8b9910b40",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Trumps UFO-Berater haben Erklärungen für leuchtende Kugeln – mit Ausnahme einer kürzlichen Begegnung",
+          "summary": "Wissenschaftliche Berater der Trump-Administration liefern herkömmliche Erklärungen für einige UFO-Sichtungen, sagen jedoch, dass eine kürzliche Begegnung noch ungeklärt sei. Dr. Avi Loeb, Vorsitzender des UAP Science Advisory Council, argumentiert, dass viele leuchtende Kugeln Plasmen sein könnten, die von leistungsstarken Lasern erzeugt werden, die sich mit Überschall bewegen können, ohne einen Überschallknall oder Feuerball zu erzeugen.",
+          "sourceHash": "7a3ca02d0309eb1200fe9e393e0674a8b9910b40",
+          "provider": "google"
+        }
+      }
     },
     {
       "id": "program-exclusive-2-sw-florida-cities-top-10-for-ufo-sightings",
@@ -553,66 +606,44 @@
           "provider": "google"
         }
       }
-    },
-    {
-      "id": "sighting-think-you-ve-seen-a-ufo-here-s-what-to-do-next-according-to-an-expert",
-      "title": "Think You’ve Seen a UFO? Here’s What to Do Next, According to an Expert",
-      "source": "Popular Mechanics",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9paTZORnlMWGwzTEdsRmVnNXdhZVA1aUJYalRHWVJaMnJ1SG9nR2xzbWJJWXNucXdPUm5idi1GUFE1blhzWWZNTHdSZEQ2Q080ZXFuNGVDZDlVdjRzbGF3QjV6ZWUzZWtlRWhEdDYzRQ?oc=5",
-      "date": "2026-07-04",
-      "publishedAt": "2026-07-04T13:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "displayedAt": "2026-07-08T05:41:47Z",
-      "rssPublishedAt": "2026-07-04T13:00:00Z",
-      "rssDate": "2026-07-04",
-      "sourcePublishedAt": "2026-07-04T13:00:00Z",
-      "sourceDisplayedAt": "2026-07-08T05:41:47Z",
-      "retainedFromPreviousScan": true,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      }
     }
   ],
   "summaries": {
-    "trump-ufo-advisors-accuse-private-corporations-of-operating-alien-craft-retrieval-programs": "Avi Loeb, head of Trump’s UAP Science Advisory Council, said a former Lockheed Martin executive confirmed the company runs a crashed‑UFO retrieval program and that the material could prove extraterrestrial intelligence. Hal Puthoff and Luis Elizondo added that Lockheed had been prepared to transfer such materials to the AATIP and later to the Navy’s Pax River Facility, a Special Access Program hangar funded with $10 million. Congressman Eric Burlison toured Pax River, demanded documents from MIT’s Lincoln Laboratory and MITRE Corporation, and warned that major defense contractors must be allowed to disclose reverse‑engineered non‑human technology. Chris Mellon stated that decisive UAP data remains hidden behind classification at the Air Force, CIA, DOE and other agencies, and that private corporations also hold evidence. Neither Lockheed Martin nor Northrop Grumman has responded to the allegations.",
     "program-nasa-s-changing-stance-on-ufos-full-timeline": "NASA's relationship with UFOs has evolved alongside broader changes in public and government interest in unexplained sightings. Newsweek spoke with experts about how the public's and scientific community's views have evolved over time. As new UFO—now commonly referred to as unidentified anomalous phenomena (UAPs)—reports, official investigations and congressional hearings have brought the topic back into the spotlight, the agency has increasingly emphasized a scientific approach to studying the phenomenon. Former NASA official and UAP study team member Michael Gold recently argued that the topic was not always viewed through the same lens.",
     "file-release-david-grusch-returns-to-capitol-steps-as-ufo-disclosure-fight-moves-from-testimony-to-action": "On June 9, 2026, former intelligence officer David Grusch is scheduled to speak on the U.S. Capitol steps with filmmaker James Fox, author Leslie Kean, and several bipartisan representatives to demand the release of UFO and UAP files. The event is framed as a call for declassification, stronger whistleblower protections, and new disclosure legislation, with Grusch planning to discuss evidence of non‑human intelligence he claims to have seen through classified channels. Representatives Eric Burlison, Jared Moskowitz, Anna Paulina Luna, and Tim Burchett are expected to attend, while Kean and Fox will host the gathering. Grusch’s testimony has already moved the UAP topic from internet speculation to sworn congressional testimony, and the Capitol event aims to push for the review and public release of any existing classified records, subject to national‑security safeguards. The organizers argue that if such files exist, the issue shifts from public curiosity to whether intelligence agencies or contractors have operated beyond congressional oversight, and that secrecy cannot be a permanent shield for unlawful concealment or obstruction of Congress.",
+    "stream-disclosure-day-2026-online-at-home-starting-next-week": "Steven Spielberg’s science‑fiction film *Disclosure Day* will be available for digital purchase on Prime Video beginning July 21, 2026, with a release time of 1:00 AM EDT. The film is offered as a UHD pre‑order for $29.99, and Amazon’s Pre‑order Price Guarantee ensures customers pay the lowest listed price between ordering and release. The cast includes Emily Blunt, Josh O’Connor, Colin Firth, Eve Hewson and Colman Domingo, and the screenplay is by David Koepp. After a theatrical run earlier in 2026 that earned $233 million worldwide against a $115 million budget, the movie has sparked widespread discussion among science‑fiction fans. The synopsis poses the question, “If you found out we weren’t alone, would that frighten you?” and describes a world changed by the revelation of extraterrestrial life. The article notes that further home‑media releases such as Blu‑ray, 4K UHD or streaming subscription availability will be announced if they become available.",
     "file-release-nasa-insider-hints-bigger-ufo-file-release-as-declassification-ramps-up": "Mike Gold, a former NASA UAP study member, says officials are discussing declassifying still‑secret UFO material beyond the previously released “low‑hanging fruit.” Gold told Ross Coultart on Newsnight that the National Archives are shifting toward declassifying material that remains classified and that bureaucracy is slowing the process. He argues that current disclosures focus too much on military and Earth‑based sightings and urges investigators to examine NASA’s space‑based archives, noting that no data from space assets has yet been released. Gold expects the forthcoming release to contain more sensitive material and believes it could be “even more interesting” than earlier tranches. Reddit users reacted to Gold’s comments, with some expressing optimism about the progress and others remaining skeptical after earlier releases lacked new evidence.",
+    "sighting-trump-ufo-advisors-have-explanations-for-glowing-orbs-except-for-one-recent-encounter": "Trump administration science advisors are providing conventional explanations for some UFO sightings but say one recent encounter remains unexplained. Dr. Avi Loeb, head of the UAP Science Advisory Council, argues that many glowing orbs could be plasmas produced by powerful lasers, which can move supersonically without generating a sonic boom or fireball. Loeb notes that these laser‑based explanations cannot account for the October 2023 sighting of orange and red orbs near a secured military facility in the western United States, which were observed by federal intelligence officers. The All‑Domain Anomaly Resolution Office (AARO) report, referenced by Loeb, describes an orange “mother orb” that launched smaller red orbs, remained stationary for hours, and exhibited coordinated horizontal motion and altitude changes, a behavior that does not match laser‑sustained plasma. Admiral Tim Gallaudet agrees that the “orbs launching orbs” case is a chief concern and cannot be explained by conventional means, while Loeb also considers ball lighting as a possibility but notes its brief duration compared to the hours‑long sighting.",
     "program-exclusive-2-sw-florida-cities-top-10-for-ufo-sightings": "Naples and Cape Coral are ranked No. 6 and No. 9 respectively among Florida cities for UFO sightings according to data from the National UFO Reporting Center (NUFORC). The NUFORC list, which tracks sightings submitted since 1995, shows Naples with 134 reports and Cape Coral with 117, while other Southwest Florida cities such as Captiva, Bonita Springs, and Fort Myers Beach have 22, 18, and 11 reports respectively. Naples Police Lt. Bryan McGinn said he has not received any service calls about UFO or UAP sightings, indicating that local authorities are not being notified of the reports. UFO experts note that about 5 % of sightings remain unexplained, a figure cited by journalist Leslie Kean, who has written on the subject and reported on a $22 million U.S. Department of Defense program investigating UFOs. Recent reports on NUFORC include a 2026 sighting in Port Charlotte of lights descending from the sky, a 2025 March report of a possible balloon in Naples, and a March 22, 2025 sighting of a black, shapeshifting object hovering over Green Cove Springs near Jacksonville. The article does not confirm whether any of these sightings were linked to rocket launches or drones, leaving the true nature of the objects uncertain.",
     "sighting-these-20-tennessee-cities-report-the-most-ufo-sightings-where-yours-ranks": "Since the 2023 National Defense Authorization Act, U.S. reports of unidentified anomalous phenomena (UAPs) have risen, with the All‑Domain Anomaly Resolution Office (AARO) reviewing over 1,000 cases but finding no evidence of extraterrestrial technology. UFO investigator Mick West, who has examined roughly 1,000 cases and analyzed about 100 in depth, advises a methodical approach that cross‑checks sightings with flight data, weather, ground cameras, and satellite imagery to rule out mundane explanations. West recommends using tools such as Invisor to extract metadata from videos, FlightRadar24 to view contemporaneous aircraft positions, and his own Sitrec software to reconstruct the scene with satellite data. AARO accepts UAP reports only from official sources like the military and FAA, while civilians can share their footage on databases such as Enigma and MUFON for community analysis. The article notes that while most anomalies have logical explanations, some remain unexplained and could potentially be the first true alien encounter, though this remains uncertain.",
     "program-moon-monoliths-are-luis-elizondo-s-latest-ufo-bombshell": "Luis Elizondo, a former Army counterintelligence special agent and long‑time UFO whistleblower, said that unreleased photographs of the Moon show monolithic structures with right‑angle cuts that he believes are artificial and may be released soon. He also described encounters with colored orbs—green, red, and blue—that he claims could be autonomous surveillance or weapon platforms, citing reports from the Pentagon’s former AATIP. The interview contains no new public evidence; the claims rely on photographs and reports that have not yet been made public. The Reddit UFO community reacted skeptically, demanding concrete proof rather than further announcements. Elizondo repeatedly used tentative language such as “appears to be” and noted that CIA, DIA, and NSA officials have concluded the objects are real and potentially threatening, but the existence of the alleged Moon structures remains unverified. He has previously claimed that a secret government program holds alien craft and that UAPs can disable nuclear missiles, but those claims are not substantiated in this interview.",
     "roswell-ufo-festival-organizers-share-2026-attendance-numbers": "The Roswell UFO Festival ran from July 2 to July 4, 2026, and organizers reported it was a success. The event featured a variety of booths, shops, shows, and contests aimed at paranormal enthusiasts. Roswell Mainstreet estimated that more than 12,000 people attended, though those figures are preliminary. No further details about attendance or event outcomes were provided."
   },
   "notificationBatch": {
-    "timestamp": "2026-07-18T11:45:53Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-07-19T05:41:20Z",
+    "ids": [
+      "stream-disclosure-day-2026-online-at-home-starting-next-week",
+      "sighting-trump-ufo-advisors-have-explanations-for-glowing-orbs-except-for-one-recent-encounter"
+    ],
+    "articles": [
+      {
+        "id": "stream-disclosure-day-2026-online-at-home-starting-next-week",
+        "title": "Stream Disclosure Day (2026) online at home starting next week!",
+        "source": "Scified"
+      },
+      {
+        "id": "sighting-trump-ufo-advisors-have-explanations-for-glowing-orbs-except-for-one-recent-encounter",
+        "title": "Trump UFO advisors have explanations for glowing orbs — except for one recent encounter",
+        "source": "New York Post"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 376,
-    "broadTopics": 156,
-    "notificationArticles": 0,
-    "notificationTopics": 0,
-    "newNotificationTopics": 0,
+    "broadArticles": 378,
+    "broadTopics": 159,
+    "notificationArticles": 2,
+    "notificationTopics": 2,
+    "newNotificationTopics": 2,
     "appTopics": 10,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -628,40 +659,34 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 2,
-      "repaired": 1,
+      "attempts": 1,
+      "repaired": 0,
       "fallbackRepaired": 0,
       "missing": 1
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
       "kept": 10,
-      "missing": 2,
+      "missing": 1,
       "missingItems": [
         {
           "id": "ross-coulthart-pentagon-knows-a-lot-more-about-uap-than-it-admits",
           "title": "Ross Coulthart: Pentagon knows ‘a lot more’ about UAP than it admits",
           "source": "NewsNation",
           "reason": "missing_or_mismatched_article_content_summary"
-        },
-        {
-          "id": "sighting-think-you-ve-seen-a-ufo-here-s-what-to-do-next-according-to-an-expert",
-          "title": "Think You’ve Seen a UFO? Here’s What to Do Next, According to an Expert",
-          "source": "Popular Mechanics",
-          "reason": "missing_or_mismatched_article_content_summary"
         }
       ]
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 4,
-      "outputArticles": 4,
-      "preservedSourceSummaries": 2
+      "inputArticles": 6,
+      "outputArticles": 6,
+      "preservedSourceSummaries": 4
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 4,
-      "outputArticles": 4,
+      "inputArticles": 6,
+      "outputArticles": 6,
       "missingSummaries": 2,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
@@ -670,45 +695,43 @@
     },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
-      "updatedArticles": 2,
-      "clearedTranslations": 2,
+      "updatedArticles": 1,
+      "clearedTranslations": 1,
       "reorderedBySourceCount": false
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 1,
-      "addedSources": 1,
+      "updatedTopics": 0,
+      "addedSources": 0,
       "maxSourcesPerArticle": 18
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 4,
-      "outputArticles": 4,
+      "inputArticles": 6,
+      "outputArticles": 6,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 4,
+      "inputArticles": 6,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 10,
-      "currentBeforeRestore": 4,
-      "restoredArticles": 6,
+      "currentBeforeRestore": 6,
+      "restoredArticles": 4,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
-        "Trump UFO advisors accuse private corporations of operating alien craft-retrieval programs",
         "NASA’s Changing Stance on UFOs: Full Timeline",
         "NASA insider hints bigger UFO file release as declassification ramps up",
         "These 20 Tennessee cities report the most UFO sightings. Where yours ranks",
-        "Moon monoliths are Luis Elizondo's latest UFO bombshell",
-        "Think You’ve Seen a UFO? Here’s What to Do Next, According to an Expert"
+        "Moon monoliths are Luis Elizondo's latest UFO bombshell"
       ]
     },
     "finalFeedSourceConsistency": {
@@ -721,13 +744,13 @@
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
       "checkedSources": 10,
-      "updatedSources": 3,
+      "updatedSources": 5,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 10,
-      "newSources": 0
+      "newSources": 2
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -737,28 +760,14 @@
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 0,
-      "freshSources": 0,
+      "notifications": 2,
+      "freshSources": 2,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 20
     }
   },
   "translations": {
-    "trump-ufo-advisors-accuse-private-corporations-of-operating-alien-craft-retrieval-programs": {
-      "en": {
-        "title": "Trump UFO advisors accuse private corporations of operating alien craft-retrieval programs",
-        "summary": "Avi Loeb, head of Trump’s UAP Science Advisory Council, said a former Lockheed Martin executive confirmed the company runs a crashed‑UFO retrieval program and that the material could prove extraterrestrial intelligence. Hal Puthoff and Luis Elizondo added that Lockheed had been prepared to transfer such materials to the AATIP and later to the Navy’s Pax River Facility, a Special Access Program hangar funded with $10 million.",
-        "sourceHash": "0b7b615943a13f41e08e849801d911e28c54bc95",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Trumps UFO-Berater beschuldigen private Unternehmen, Programme zur Bergung außerirdischer Raumschiffe durchzuführen",
-        "summary": "Avi Loeb, Vorsitzender von Trumps UAP Science Advisory Council, sagte, ein ehemaliger Manager von Lockheed Martin habe bestätigt, dass das Unternehmen ein Programm zur Bergung abgestürzter UFOs betreibt und dass das Material außerirdische Intelligenz beweisen könnte. Hal Puthoff und Luis Elizondo fügten hinzu, dass Lockheed bereit gewesen sei, solche Materialien an die AATIP und später an die Pax River Facility der Marine zu übergeben, einen Hangar des Special Access Program, der mit 10 Millionen US-Dollar finanziert wurde.",
-        "sourceHash": "0b7b615943a13f41e08e849801d911e28c54bc95",
-        "provider": "google"
-      }
-    },
     "program-nasa-s-changing-stance-on-ufos-full-timeline": {
       "en": {
         "title": "NASA’s Changing Stance on UFOs: Full Timeline",
@@ -787,6 +796,20 @@
         "provider": "google"
       }
     },
+    "stream-disclosure-day-2026-online-at-home-starting-next-week": {
+      "en": {
+        "title": "Stream Disclosure Day (2026) online at home starting next week!",
+        "summary": "Steven Spielberg’s science‑fiction film *Disclosure Day* will be available for digital purchase on Prime Video beginning July 21, 2026, with a release time of 1:00 AM EDT. The film is offered as a UHD pre‑order for $29.99, and Amazon’s Pre‑order Price Guarantee ensures customers pay the lowest listed price between ordering and release. The cast includes Emily Blunt, Josh O’Connor, Colin Firth, Eve Hewson and Colman Domingo, and the screenplay is by David Koepp.",
+        "sourceHash": "6da88b9e8ca27901d71e01493b2d94011aae3013",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Streamen Sie Disclosure Day (2026) ab nächster Woche online zu Hause!",
+        "summary": "Steven Spielbergs Science-Fiction-Film *Disclosure Day* wird ab dem 21. Juli 2026 um 1:00 Uhr EDT digital auf Prime Video erhältlich sein. Der Film wird als UHD-Vorbestellung für 29,99 US-Dollar angeboten und die Vorbestellungspreisgarantie von Amazon stellt sicher, dass Kunden zwischen Bestellung und Veröffentlichung den niedrigsten Listenpreis zahlen. Zur Besetzung gehören Emily Blunt, Josh O’Connor, Colin Firth, Eve Hewson und Colman Domingo, das Drehbuch stammt von David Koepp.",
+        "sourceHash": "6da88b9e8ca27901d71e01493b2d94011aae3013",
+        "provider": "google"
+      }
+    },
     "file-release-nasa-insider-hints-bigger-ufo-file-release-as-declassification-ramps-up": {
       "en": {
         "title": "NASA insider hints bigger UFO file release as declassification ramps up",
@@ -798,6 +821,20 @@
         "title": "NASA-Insider deuten auf eine größere Veröffentlichung von UFO-Dateien hin, da die Freigabe voranschreitet",
         "summary": "Mike Gold, ein ehemaliges NASA-UAP-Studienmitglied, sagt, dass Beamte über die Freigabe von noch geheimem UFO-Material diskutieren, das über die zuvor veröffentlichten „Low-Hanging Fruits“ hinausgeht. Gold sagte Ross Coultart auf Newsnight, dass die Nationalarchive dazu übergehen, weiterhin geheim gehaltenes Material freizugeben, und dass die Bürokratie den Prozess verlangsame. Er argumentiert, dass sich die aktuellen Offenlegungen zu sehr auf militärische und erdbasierte Sichtungen konzentrieren, und fordert die Ermittler dringend auf, die weltraumgestützten Archive der NASA zu untersuchen, wobei er darauf hinweist, dass noch keine Daten von Weltraumanlagen veröffentlicht wurden.",
         "sourceHash": "890e7aadf54ce2257100ade2390cf9ce8a1ad4aa",
+        "provider": "google"
+      }
+    },
+    "sighting-trump-ufo-advisors-have-explanations-for-glowing-orbs-except-for-one-recent-encounter": {
+      "en": {
+        "title": "Trump UFO advisors have explanations for glowing orbs — except for one recent encounter",
+        "summary": "Trump administration science advisors are providing conventional explanations for some UFO sightings but say one recent encounter remains unexplained. Dr. Avi Loeb, head of the UAP Science Advisory Council, argues that many glowing orbs could be plasmas produced by powerful lasers, which can move supersonically without generating a sonic boom or fireball.",
+        "sourceHash": "7a3ca02d0309eb1200fe9e393e0674a8b9910b40",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Trumps UFO-Berater haben Erklärungen für leuchtende Kugeln – mit Ausnahme einer kürzlichen Begegnung",
+        "summary": "Wissenschaftliche Berater der Trump-Administration liefern herkömmliche Erklärungen für einige UFO-Sichtungen, sagen jedoch, dass eine kürzliche Begegnung noch ungeklärt sei. Dr. Avi Loeb, Vorsitzender des UAP Science Advisory Council, argumentiert, dass viele leuchtende Kugeln Plasmen sein könnten, die von leistungsstarken Lasern erzeugt werden, die sich mit Überschall bewegen können, ohne einen Überschallknall oder Feuerball zu erzeugen.",
+        "sourceHash": "7a3ca02d0309eb1200fe9e393e0674a8b9910b40",
         "provider": "google"
       }
     },
@@ -859,7 +896,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 8,
+    "prepared": 9,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",

@@ -1,85 +1,7 @@
 {
-  "timestamp": "2026-07-18T11:45:53Z",
+  "timestamp": "2026-07-19T05:41:20Z",
   "retentionDays": 14,
   "articles": [
-    {
-      "id": "trump-ufo-advisors-accuse-private-corporations-of-operating-alien-craft-retrieval-programs",
-      "title": "Trump UFO advisors accuse private corporations of operating alien craft-retrieval programs",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbFBkblh5cTBVbnkzZElDdHVoendBZVNnYXpLdi1tRDExUkZyOGw4THZsQkV2dDBKUzg0aS1Xdmd0TTRHNTJrZnJTOWlESkoxNmM2Q3lOc1cyZ19MSjd1eXhoMjRWOUxyNGpGQ3c3XzVzQWlOUXk5WlBzRV9rVXczb3k4ZTlYMXBKQVJ3cDJNZ0h6ZkFMbU9tSk45cXpnVVBSZHdYU01JaEdHUV9OM0dMQ0lKaXphMDhtODhSOFB4eFJTRk9JcjZaWg?oc=5",
-      "date": "2026-07-01",
-      "publishedAt": "2026-07-04T13:00:00Z",
-      "summary": "Avi Loeb, head of Trump’s UAP Science Advisory Council, said a former Lockheed Martin executive confirmed the company runs a crashed‑UFO retrieval program and that the material could prove extraterrestrial intelligence. Hal Puthoff and Luis Elizondo added that Lockheed had been prepared to transfer such materials to the AATIP and later to the Navy’s Pax River Facility, a Special Access Program hangar funded with $10 million. Congressman Eric Burlison toured Pax River, demanded documents from MIT’s Lincoln Laboratory and MITRE Corporation, and warned that major defense contractors must be allowed to disclose reverse‑engineered non‑human technology. Chris Mellon stated that decisive UAP data remains hidden behind classification at the Air Force, CIA, DOE and other agencies, and that private corporations also hold evidence. Neither Lockheed Martin nor Northrop Grumman has responded to the allegations.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 73,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DECLASSIFIED, PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "DECLASSIFIED, PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "released"
-      ],
-      "sourceQuality": 73,
-      "displayedAt": "2026-07-05T12:11:30Z",
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "rssPublishedAt": "2026-07-04T13:00:00Z",
-      "rssDate": "2026-07-01",
-      "sourcePublishedAt": "2026-07-04T13:00:00Z",
-      "sourceDisplayedAt": "2026-07-05T12:11:30Z",
-      "translation": {
-        "en": {
-          "title": "Trump UFO advisors accuse private corporations of operating alien craft-retrieval programs",
-          "summary": "Avi Loeb, head of Trump’s UAP Science Advisory Council, said a former Lockheed Martin executive confirmed the company runs a crashed‑UFO retrieval program and that the material could prove extraterrestrial intelligence. Hal Puthoff and Luis Elizondo added that Lockheed had been prepared to transfer such materials to the AATIP and later to the Navy’s Pax River Facility, a Special Access Program hangar funded with $10 million.",
-          "sourceHash": "0b7b615943a13f41e08e849801d911e28c54bc95",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Trumps UFO-Berater beschuldigen private Unternehmen, Programme zur Bergung außerirdischer Raumschiffe durchzuführen",
-          "summary": "Avi Loeb, Vorsitzender von Trumps UAP Science Advisory Council, sagte, ein ehemaliger Manager von Lockheed Martin habe bestätigt, dass das Unternehmen ein Programm zur Bergung abgestürzter UFOs betreibt und dass das Material außerirdische Intelligenz beweisen könnte. Hal Puthoff und Luis Elizondo fügten hinzu, dass Lockheed bereit gewesen sei, solche Materialien an die AATIP und später an die Pax River Facility der Marine zu übergeben, einen Hangar des Special Access Program, der mit 10 Millionen US-Dollar finanziert wurde.",
-          "sourceHash": "0b7b615943a13f41e08e849801d911e28c54bc95",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
     {
       "id": "ross-coulthart-pentagon-knows-a-lot-more-about-uap-than-it-admits",
       "title": "Ross Coulthart: Pentagon knows ‘a lot more’ about UAP than it admits",
@@ -285,6 +207,57 @@
       }
     },
     {
+      "id": "stream-disclosure-day-2026-online-at-home-starting-next-week",
+      "title": "Stream Disclosure Day (2026) online at home starting next week!",
+      "source": "Scified",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYVFPSktJQUtGN1JiODJEQTIxQ29FN19TQ08xWWZReE0xUFdwb1VIN2tBaU1kMGZ3SnJQSEVHakZzb1dfdmljenoxVGFLRWU5cEVNN0RsajI2MG9UNlo0Q1lIRmJkZzhEUHJfZkhLX1kxcU5YT2FHbEVsblMxVko2YXJPZ3NwQTRMRnc?oc=5",
+      "date": "2026-07-18",
+      "publishedAt": "2026-07-18T15:35:31Z",
+      "summary": "Steven Spielberg’s science‑fiction film *Disclosure Day* will be available for digital purchase on Prime Video beginning July 21, 2026, with a release time of 1:00 AM EDT. The film is offered as a UHD pre‑order for $29.99, and Amazon’s Pre‑order Price Guarantee ensures customers pay the lowest listed price between ordering and release. The cast includes Emily Blunt, Josh O’Connor, Colin Firth, Eve Hewson and Colman Domingo, and the screenplay is by David Koepp. After a theatrical run earlier in 2026 that earned $233 million worldwide against a $115 million budget, the movie has sparked widespread discussion among science‑fiction fans. The synopsis poses the question, “If you found out we weren’t alone, would that frighten you?” and describes a world changed by the revelation of extraterrestrial life. The article notes that further home‑media releases such as Blu‑ray, 4K UHD or streaming subscription availability will be announced if they become available.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 56,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE"
+      ],
+      "sourceQuality": 56,
+      "displayedAt": "2026-07-19T05:41:20Z"
+    },
+    {
       "id": "file-release-nasa-insider-hints-bigger-ufo-file-release-as-declassification-ramps-up",
       "title": "NASA insider hints bigger UFO file release as declassification ramps up",
       "source": "Cybernews",
@@ -350,6 +323,48 @@
         }
       },
       "retainedFromPreviousScan": true
+    },
+    {
+      "id": "sighting-trump-ufo-advisors-have-explanations-for-glowing-orbs-except-for-one-recent-encounter",
+      "title": "Trump UFO advisors have explanations for glowing orbs — except for one recent encounter",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWW5wX09tMlRXZHdnc1hidFdVMDBqNWFzQjh3cHl2QlBNV1pWX0tqdUhuRE5mREdMTXZ3Y2NFb0VlUFRSYmp2VXNJQ09MQTYyWmFOeEZ4bDEzTHc5M0FDOGo4VFhTeXJmT2FfXzJWTk1EV0M2YlRZMjZRRS1vc3JuQ3RkSl9jRk5zOUJZSnU4TUhRTy01eDFfV3FZbHF3SFAy?oc=5",
+      "date": "2026-07-18",
+      "publishedAt": "2026-07-18T17:13:00Z",
+      "summary": "Trump administration science advisors are providing conventional explanations for some UFO sightings but say one recent encounter remains unexplained. Dr. Avi Loeb, head of the UAP Science Advisory Council, argues that many glowing orbs could be plasmas produced by powerful lasers, which can move supersonically without generating a sonic boom or fireball. Loeb notes that these laser‑based explanations cannot account for the October 2023 sighting of orange and red orbs near a secured military facility in the western United States, which were observed by federal intelligence officers. The All‑Domain Anomaly Resolution Office (AARO) report, referenced by Loeb, describes an orange “mother orb” that launched smaller red orbs, remained stationary for hours, and exhibited coordinated horizontal motion and altitude changes, a behavior that does not match laser‑sustained plasma. Admiral Tim Gallaudet agrees that the “orbs launching orbs” case is a chief concern and cannot be explained by conventional means, while Loeb also considers ball lighting as a possibility but notes its brief duration compared to the hours‑long sighting.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 50,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "ORBS, TRUMP als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "ORBS",
+        "TRUMP"
+      ],
+      "sourceQuality": 50,
+      "displayedAt": "2026-07-19T05:41:20Z"
     },
     {
       "id": "program-exclusive-2-sw-florida-cities-top-10-for-ufo-sightings",
@@ -513,43 +528,6 @@
       "matchedTerms": [],
       "sourceQuality": 40,
       "displayedAt": "2026-07-08T12:16:09Z"
-    },
-    {
-      "id": "sighting-think-you-ve-seen-a-ufo-here-s-what-to-do-next-according-to-an-expert",
-      "title": "Think You’ve Seen a UFO? Here’s What to Do Next, According to an Expert",
-      "source": "Popular Mechanics",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9paTZORnlMWGwzTEdsRmVnNXdhZVA1aUJYalRHWVJaMnJ1SG9nR2xzbWJJWXNucXdPUm5idi1GUFE1blhzWWZNTHdSZEQ2Q080ZXFuNGVDZDlVdjRzbGF3QjV6ZWUzZWtlRWhEdDYzRQ?oc=5",
-      "date": "2026-07-04",
-      "publishedAt": "2026-07-04T13:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "displayedAt": "2026-07-08T05:41:47Z",
-      "rssPublishedAt": "2026-07-04T13:00:00Z",
-      "rssDate": "2026-07-04",
-      "sourcePublishedAt": "2026-07-04T13:00:00Z",
-      "sourceDisplayedAt": "2026-07-08T05:41:47Z",
-      "retainedFromPreviousScan": true,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      }
     }
   ]
 }
