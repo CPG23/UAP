@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-19T11:49:39Z",
+  "timestamp": "2026-07-20T05:57:43Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -190,21 +190,7 @@
         "NASA"
       ],
       "sourceQuality": 64,
-      "displayedAt": "2026-07-07T19:49:42Z",
-      "translation": {
-        "en": {
-          "title": "David Grusch Returns To Capitol Steps As UFO Disclosure Fight Moves From Testimony To Action",
-          "summary": "On June 9, 2026, former intelligence officer David Grusch is scheduled to speak on the U.S. Capitol steps with filmmaker James Fox, author Leslie Kean, and several bipartisan representatives to demand the release of UFO and UAP files. The event is framed as a call for declassification, stronger whistleblower protections, and new disclosure legislation, with Grusch planning to discuss evidence of non‑human intelligence he claims to have seen through classified channels.",
-          "sourceHash": "5cb802584d9005bf2919be8a84c71bc26c79c3a5",
-          "provider": "original"
-        },
-        "de": {
-          "title": "David Grusch kehrt zu den Stufen des Kapitols zurück, während der UFO-Enthüllungskampf von der Aussage zur Tat übergeht",
-          "summary": "Am 9. Juni 2026 soll der ehemalige Geheimdienstoffizier David Grusch auf den Stufen des US-Kapitols mit dem Filmemacher James Fox, dem Autor Leslie Kean und mehreren überparteilichen Vertretern sprechen, um die Freigabe von UFO- und UAP-Dateien zu fordern. Die Veranstaltung ist als Aufruf zur Freigabe, einem stärkeren Whistleblower-Schutz und einer neuen Offenlegungsgesetzgebung angelegt, wobei Grusch plant, Beweise für nichtmenschliche Geheimdienste zu diskutieren, die er angeblich über geheime Kanäle eingesehen hat.",
-          "sourceHash": "5cb802584d9005bf2919be8a84c71bc26c79c3a5",
-          "provider": "google"
-        }
-      }
+      "displayedAt": "2026-07-07T19:49:42Z"
     },
     {
       "id": "stream-disclosure-day-2026-online-at-home-starting-next-week",
@@ -307,7 +293,6 @@
       ],
       "sourceQuality": 55,
       "displayedAt": "2026-07-10T06:32:25Z",
-      "sourceDisplayedAt": "2026-07-10T06:32:25Z",
       "translation": {
         "en": {
           "title": "NASA insider hints bigger UFO file release as declassification ramps up",
@@ -321,8 +306,7 @@
           "sourceHash": "890e7aadf54ce2257100ade2390cf9ce8a1ad4aa",
           "provider": "google"
         }
-      },
-      "retainedFromPreviousScan": true
+      }
     },
     {
       "id": "sighting-trump-ufo-advisors-have-explanations-for-glowing-orbs-except-for-one-recent-encounter",
@@ -482,23 +466,7 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
-      "displayedAt": "2026-07-17T05:31:19Z",
-      "sourceDisplayedAt": "2026-07-17T05:31:19Z",
-      "translation": {
-        "en": {
-          "title": "Moon monoliths are Luis Elizondo's latest UFO bombshell",
-          "summary": "Luis Elizondo, a former Army counterintelligence special agent and long‑time UFO whistleblower, said that unreleased photographs of the Moon show monolithic structures with right‑angle cuts that he believes are artificial and may be released soon. He also described encounters with colored orbs—green, red, and blue—that he claims could be autonomous surveillance or weapon platforms, citing reports from the Pentagon’s former AATIP. The interview contains no new public evidence; the claims rely on photographs and reports that have not yet been made public.",
-          "sourceHash": "f0dbd7ef7db248bbcdcf90e4578ab5de5ff67e62",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Mondmonolithen sind Luis Elizondos neueste UFO-Bombe",
-          "summary": "Luis Elizondo, ein ehemaliger Spionageabwehr-Spezialagent der Armee und langjähriger UFO-Whistleblower, sagte, dass unveröffentlichte Fotos des Mondes monolithische Strukturen mit rechtwinkligen Schnitten zeigen, die seiner Meinung nach künstlich sind und möglicherweise bald veröffentlicht werden. Er beschrieb auch Begegnungen mit farbigen Kugeln – grün, rot und blau –, bei denen es sich seiner Meinung nach um autonome Überwachungs- oder Waffenplattformen handeln könnte, und berief sich dabei auf Berichte der früheren AATIP des Pentagons. Das Interview enthält keine neuen öffentlichen Beweise; Die Behauptungen stützen sich auf Fotos und Berichte, die noch nicht veröffentlicht wurden.",
-          "sourceHash": "f0dbd7ef7db248bbcdcf90e4578ab5de5ff67e62",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
+      "displayedAt": "2026-07-17T05:31:19Z"
     },
     {
       "id": "roswell-ufo-festival-organizers-share-2026-attendance-numbers",
