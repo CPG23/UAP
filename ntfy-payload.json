@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "2 neue Artikel",
+  "message": "──────────────\nPresidential Unsealing and Reporting System for UAP Encounters (PURSUE)\n──────────────\nUFO files: Lawmaker asks FBI, CIA for info on Brazil’s Roswell moment\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
