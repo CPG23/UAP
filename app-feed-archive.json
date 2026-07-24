@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-24T05:40:19Z",
+  "timestamp": "2026-07-24T12:15:31Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -136,7 +136,7 @@
       "displayedAt": "2026-07-15T10:08:58Z"
     },
     {
-      "id": "house-approves-burlison-amendment-creating-framework-for-uap-records-disclosure",
+      "id": "file-release-house-approves-burlison-amendment-creating-framework-for-uap-records-disclosure",
       "title": "House approves Burlison amendment creating framework for UAP records disclosure",
       "source": "Newstalk KZRG",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMXgzQWtiUW5XRF9yQWRXSjVKQVdSbkFpSjlmNkItSGFhdlp2SzhVc21weVJENFVJbmVEeDdYLXV6S2MxNlVwZmdwaFViR1BhWHRoeUI1VkoydUt5Vk4xRHNiY3JWLVBIUWNuMEJGNjZYSm1vTks2TVZveGF2U3JITUxDZHVjdG1aV1pOY1RrUnFCVC1xeFJqMmVfOS12RkYxSGVONDdGMTB3TEwzRy0tU3owUGx4WVJkQkY2Wg?oc=5",
@@ -184,8 +184,6 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 56,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-07-24T05:40:19Z"
     },
     {
@@ -238,73 +236,6 @@
       ],
       "sourceQuality": 56,
       "displayedAt": "2026-07-19T05:41:20Z"
-    },
-    {
-      "id": "file-release-nasa-insider-hints-bigger-ufo-file-release-as-declassification-ramps-up",
-      "title": "NASA insider hints bigger UFO file release as declassification ramps up",
-      "source": "Cybernews",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1yOWNmaDVZckoxYnU0UnUzMmlEVF94TG5OUlNQVFJqTU9Eb29vQWZvYTdXYXFMckY3dXQzbU1GTVZvSFVJREtGdXQ0YzFLNGpaa2dNN1pJRTNuUnZ0ZWVtTHpuaDFvZw?oc=5",
-      "date": "2026-07-10",
-      "publishedAt": "2026-07-10T07:00:00Z",
-      "summary": "Mike Gold, a former NASA UAP study member, says officials are discussing declassifying still‑secret UFO material beyond the previously released “low‑hanging fruit.” Gold told Ross Coultart on Newsnight that the National Archives are shifting toward declassifying material that remains classified and that bureaucracy is slowing the process. He argues that current disclosures focus too much on military and Earth‑based sightings and urges investigators to examine NASA’s space‑based archives, noting that no data from space assets has yet been released. Gold expects the forthcoming release to contain more sensitive material and believes it could be “even more interesting” than earlier tranches. Reddit users reacted to Gold’s comments, with some expressing optimism about the progress and others remaining skeptical after earlier releases lacked new evidence.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 55,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "NASA als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "NASA als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "NASA"
-      ],
-      "sourceQuality": 55,
-      "displayedAt": "2026-07-10T06:32:25Z",
-      "translation": {
-        "en": {
-          "title": "NASA insider hints bigger UFO file release as declassification ramps up",
-          "summary": "Mike Gold, a former NASA UAP study member, says officials are discussing declassifying still‑secret UFO material beyond the previously released “low‑hanging fruit.” Gold told Ross Coultart on Newsnight that the National Archives are shifting toward declassifying material that remains classified and that bureaucracy is slowing the process. He argues that current disclosures focus too much on military and Earth‑based sightings and urges investigators to examine NASA’s space‑based archives, noting that no data from space assets has yet been released.",
-          "sourceHash": "890e7aadf54ce2257100ade2390cf9ce8a1ad4aa",
-          "provider": "original"
-        },
-        "de": {
-          "title": "NASA-Insider deuten auf eine größere Veröffentlichung von UFO-Dateien hin, da die Freigabe voranschreitet",
-          "summary": "Mike Gold, ein ehemaliges NASA-UAP-Studienmitglied, sagt, dass Beamte über die Freigabe von noch geheimem UFO-Material diskutieren, das über die zuvor veröffentlichten „Low-Hanging Fruits“ hinausgeht. Gold sagte Ross Coultart auf Newsnight, dass die Nationalarchive dazu übergehen, weiterhin geheim gehaltenes Material freizugeben, und dass die Bürokratie den Prozess verlangsame. Er argumentiert, dass sich die aktuellen Offenlegungen zu sehr auf militärische und erdbasierte Sichtungen konzentrieren, und fordert die Ermittler dringend auf, die weltraumgestützten Archive der NASA zu untersuchen, wobei er darauf hinweist, dass noch keine Daten von Weltraumanlagen veröffentlicht wurden.",
-          "sourceHash": "890e7aadf54ce2257100ade2390cf9ce8a1ad4aa",
-          "provider": "google"
-        }
-      },
-      "sourceDisplayedAt": "2026-07-10T06:32:25Z",
-      "retainedFromPreviousScan": true
     },
     {
       "id": "long-hidden-ufo-information-at-center-of-trump-push-to-free-former-officials",
@@ -393,45 +324,6 @@
       ],
       "sourceQuality": 50,
       "displayedAt": "2026-07-19T05:41:20Z"
-    },
-    {
-      "id": "possible-jellyfish-ufo-video-captured-over-atlantic-ocean",
-      "title": "Possible ‘jellyfish’ UFO video captured over Atlantic Ocean",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbWQ1eWJZUHpCcWt4TXlnQWkwN292UTdiSnh4ZUxkTTRkUkFmWEpMeEluci02UnZGVGlQQ3VqdXZwY2RiQVFWRE0xRGY4RzB6cVVOZHM4X2pTY1hlX3YzUnl0MDBEai1Dem5BRnVBbTF5QUhpcXYwUGJzSTRHR21GY09DODnSAYoBQVVfeXFMUGRJcS1VdjdtQnVLWnRlSFpVMG9OMl9ZZUhPbWI2Q3N6YUNodWI4emdIY3FTSng0U01XZFQ5cTJ5T2VWZFBYUUtmeUNwVTZlY1BXNmJlOW9IUVNmdEtqR3hpM3NicUFPb2JwN2NsWUdoTFJ0OWFIS0hJTjFKVDFxMm95aWk0LVNDQml3?oc=5",
-      "date": "2026-07-10",
-      "publishedAt": "2026-07-10T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 49,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 49,
-      "displayedAt": "2026-07-23T05:44:10Z",
-      "sourceDisplayedAt": "2026-07-23T05:44:10Z",
-      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-these-20-tennessee-cities-report-the-most-ufo-sightings-where-yours-ranks",
