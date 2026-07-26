@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-25T11:58:34Z",
+  "timestamp": "2026-07-26T05:50:53Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -151,7 +151,7 @@
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPenk3NEZoZ2Q1VnJfYkFrallrWHdUeTRaWVFKVGRqZWVmZUJTUGF2RWtCUkdIbW1RdjdwdGo2NHdJMzl3WUlaN0F2eDlnOXpBRGFPcUExRmhZd0VtS2dKQWtpem85RUhCUDVTQ2tQQ1VCdVJ5WGw5RmtlLW9lZGdXQmtja1N6VDBuVEs4VE1sUXdrdW9XVW1iQkZSNFIyOFM4N3BFWUtJUUQzUjZMYWVjMDRmU0lEdzFHZmxQWkREa1FORk80?oc=5",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPenk3NEZoZ2Q1VnJfYkFrallrWHdUeTRaWVFKVGRqZWVmZUJTUGF2RWtCUkdIbW1RdjdwdGo2NHdJMzl3WUlaN0F2eDlnOXpBRGFPcUExRmhZd0VtS2dKQWtpem85RUhCUDVTQ2tQQ1VCdVJ5WGw5RmtlLW9lZGdXQmtja1N6VDBuVEs4VE1sUXdrdW9XVW1iQkZSNFIyOFM4N3BFWUtJUUQzUjZMYWVjMDRmU0lEdzFHZmxQWkREa1FORk80?oc=5",
           "publishedAt": "2026-07-24T17:23:30Z",
-          "displayedAt": "2026-07-25T11:58:34Z"
+          "displayedAt": "2026-07-26T05:50:53Z"
         }
       ],
       "clusterTitles": [
@@ -296,7 +296,7 @@
       "displayedAt": "2026-07-19T05:41:20Z"
     },
     {
-      "id": "michael-sheen-stars-in-comedy-about-ufos-after-claiming-he-saw-one-over-hometown",
+      "id": "film-michael-sheen-stars-in-comedy-about-ufos-after-claiming-he-saw-one-over-hometown",
       "title": "Michael Sheen stars in comedy about UFOs after claiming he saw one over hometown",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfWlJGclRUMGFpaTR0NWs1VHEzbTZKaTFfSjZWSDVzV2w5bS1qV19oR2hMTjVldEQ2QVB6Y3ZlNENzT2NpV3lfOFRUQkY1VjVoSF9yanEzU183QQ?oc=5",
@@ -327,8 +327,6 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 49,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-07-25T11:58:34Z"
     },
     {
@@ -370,10 +368,12 @@
         "ALIEN"
       ],
       "sourceQuality": 45,
+      "displayedAt": "2026-07-25T11:58:34Z",
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "displayedAt": "2026-07-25T11:58:34Z"
+      "sourceDisplayedAt": "2026-07-25T11:58:34Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-these-20-tennessee-cities-report-the-most-ufo-sightings-where-yours-ranks",
