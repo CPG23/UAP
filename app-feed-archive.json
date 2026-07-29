@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-28T12:49:55Z",
+  "timestamp": "2026-07-29T05:40:57Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -133,10 +133,12 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 67,
-      "displayedAt": "2026-07-15T10:08:58Z"
+      "displayedAt": "2026-07-15T10:08:58Z",
+      "sourceDisplayedAt": "2026-07-15T10:08:58Z",
+      "retainedFromPreviousScan": true
     },
     {
-      "id": "house-approves-burlison-amendment-creating-framework-for-uap-records-disclosure",
+      "id": "file-release-house-approves-burlison-amendment-creating-framework-for-uap-records-disclosure",
       "title": "House approves Burlison amendment creating framework for UAP records disclosure",
       "source": "Newstalk KZRG",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMXgzQWtiUW5XRF9yQWRXSjVKQVdSbkFpSjlmNkItSGFhdlp2SzhVc21weVJENFVJbmVEeDdYLXV6S2MxNlVwZmdwaFViR1BhWHRoeUI1VkoydUt5Vk4xRHNiY3JWLVBIUWNuMEJGNjZYSm1vTks2TVZveGF2U3JITUxDZHVjdG1aV1pOY1RrUnFCVC1xeFJqMmVfOS12RkYxSGVONDdGMTB3TEwzRy0tU3owUGx4WVJkQkY2Wg?oc=5",
@@ -151,7 +153,7 @@
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPenk3NEZoZ2Q1VnJfYkFrallrWHdUeTRaWVFKVGRqZWVmZUJTUGF2RWtCUkdIbW1RdjdwdGo2NHdJMzl3WUlaN0F2eDlnOXpBRGFPcUExRmhZd0VtS2dKQWtpem85RUhCUDVTQ2tQQ1VCdVJ5WGw5RmtlLW9lZGdXQmtja1N6VDBuVEs4VE1sUXdrdW9XVW1iQkZSNFIyOFM4N3BFWUtJUUQzUjZMYWVjMDRmU0lEdzFHZmxQWkREa1FORk80?oc=5",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPenk3NEZoZ2Q1VnJfYkFrallrWHdUeTRaWVFKVGRqZWVmZUJTUGF2RWtCUkdIbW1RdjdwdGo2NHdJMzl3WUlaN0F2eDlnOXpBRGFPcUExRmhZd0VtS2dKQWtpem85RUhCUDVTQ2tQQ1VCdVJ5WGw5RmtlLW9lZGdXQmtja1N6VDBuVEs4VE1sUXdrdW9XVW1iQkZSNFIyOFM4N3BFWUtJUUQzUjZMYWVjMDRmU0lEdzFHZmxQWkREa1FORk80?oc=5",
           "publishedAt": "2026-07-24T17:23:30Z",
-          "displayedAt": "2026-07-24T17:23:30Z"
+          "displayedAt": "2026-07-29T05:40:57Z"
         }
       ],
       "clusterTitles": [
@@ -201,9 +203,7 @@
         "records"
       ],
       "sourceQuality": 61,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-07-28T12:49:55Z"
+      "displayedAt": "2026-07-23T21:04:19Z"
     },
     {
       "id": "stream-disclosure-day-2026-online-at-home-starting-next-week",
@@ -330,7 +330,26 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 49,
-      "displayedAt": "2026-07-25T11:58:34Z"
+      "displayedAt": "2026-07-25T11:58:34Z",
+      "rssPublishedAt": "2026-07-15T07:00:00Z",
+      "rssDate": "2026-07-15",
+      "sourcePublishedAt": "2026-07-15T17:08:33Z",
+      "sourceDisplayedAt": "2026-07-25T11:58:34Z",
+      "translation": {
+        "en": {
+          "title": "Michael Sheen stars in comedy about UFOs after claiming he saw one over hometown",
+          "summary": "Michael Sheen stars in comedy about UFOs after claiming he saw one over hometown Michael Sheen is set to star in a Welsh comedy film about a UFO sighting - after sharing his own encounter with \"a phalanx of lights\" in his hometown. Out There celebrates the \"secret extraterrestrial history\" of west Wales through the tale of a rebellious 16-year-old astronomy enthusiast who spots a UFO over her sleepy seaside town and ropes in her sceptical best friend and an eccentric ufologist to uncover the truth.",
+          "sourceHash": "42b4c63867e19a6786583c8ac66a781afeb9c877",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Michael Sheen spielt in einer Komödie über UFOs die Hauptrolle, nachdem er behauptete, er habe eines über seiner Heimatstadt gesehen",
+          "summary": "Michael Sheen spielt die Hauptrolle in einer Komödie über UFOs, nachdem er behauptete, er habe eines über seiner Heimatstadt gesehen. Michael Sheen soll in einer walisischen Komödie über eine UFO-Sichtung mitspielen – nachdem er von seiner eigenen Begegnung mit „einer Phalanx aus Lichtern“ in seiner Heimatstadt erzählt hat. Out There feiert die „geheime außerirdische Geschichte“ Westwales anhand der Geschichte einer rebellischen 16-jährigen Astronomie-Enthusiastin, die über ihrer verschlafenen Küstenstadt ein UFO entdeckt und ihre skeptische beste Freundin und einen exzentrischen Ufologen an Bord holt, um die Wahrheit aufzudecken.",
+          "sourceHash": "42b4c63867e19a6786583c8ac66a781afeb9c877",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-these-20-tennessee-cities-report-the-most-ufo-sightings-where-yours-ranks",
