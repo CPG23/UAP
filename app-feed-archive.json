@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-29T12:56:29Z",
+  "timestamp": "2026-07-30T05:30:11Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -96,7 +96,7 @@
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPenk3NEZoZ2Q1VnJfYkFrallrWHdUeTRaWVFKVGRqZWVmZUJTUGF2RWtCUkdIbW1RdjdwdGo2NHdJMzl3WUlaN0F2eDlnOXpBRGFPcUExRmhZd0VtS2dKQWtpem85RUhCUDVTQ2tQQ1VCdVJ5WGw5RmtlLW9lZGdXQmtja1N6VDBuVEs4VE1sUXdrdW9XVW1iQkZSNFIyOFM4N3BFWUtJUUQzUjZMYWVjMDRmU0lEdzFHZmxQWkREa1FORk80?oc=5",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPenk3NEZoZ2Q1VnJfYkFrallrWHdUeTRaWVFKVGRqZWVmZUJTUGF2RWtCUkdIbW1RdjdwdGo2NHdJMzl3WUlaN0F2eDlnOXpBRGFPcUExRmhZd0VtS2dKQWtpem85RUhCUDVTQ2tQQ1VCdVJ5WGw5RmtlLW9lZGdXQmtja1N6VDBuVEs4VE1sUXdrdW9XVW1iQkZSNFIyOFM4N3BFWUtJUUQzUjZMYWVjMDRmU0lEdzFHZmxQWkREa1FORk80?oc=5",
           "publishedAt": "2026-07-24T17:23:30Z",
-          "displayedAt": "2026-07-29T12:56:29Z"
+          "displayedAt": "2026-07-30T05:30:11Z"
         }
       ],
       "clusterTitles": [
@@ -242,60 +242,26 @@
       "displayedAt": "2026-07-19T05:41:20Z"
     },
     {
-      "id": "alien-alert-ufo-days-2026-kicks-off-this-week",
-      "title": "Alien Alert: UFO Days 2026 kicks off this week",
+      "id": "gallery-never-ending-fun-at-elmwood-ufo-days",
+      "title": "GALLERY: Never-ending fun at Elmwood UFO Days",
       "source": "Pierce County Journal",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM2x2RlZPZm9CYzh6MjBOSVdPSk80bFdiUUt2SzZUWkx3NXdQVG1hUlNIWEZnYmFiWjl6ZUYyTWZXbjlHNExIV3pKb1ZENlZEZnd2NXlqRlRBNWptWUtBa1BaeHNfM2hKM21QbkJycmxCSnFubnpaX2d1NGgza1IyN0ZDSzNMTDFMRXJGcG1MZlJtcDdJSHNISXA4UmdIZw?oc=5",
-      "date": "2026-07-22",
-      "publishedAt": "2026-07-22T15:24:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNV9EaHBkX0txMnFoeFozLWVVUWhCU2ZyQUlVRldrX1JtQ0hqbFA0ZmZ3U21LN3dvdVROYjFGM19QMzg0bjJqcmlVLUFEaTdpWXJ3LUV2WmVNcFBGN3lwbTFWLTBIc3VleXB1WFRsUVU4aUhYZkx1Z2Z2a0tCMmt3dDdrTHJOY0lTdk9ZV29MTVl2T2V0Z3hGNWl3WFM?oc=5",
+      "date": "2026-07-29",
+      "publishedAt": "2026-07-29T19:48:00Z",
+      "summary": "The 2026-27 Elmwood UFO Days Queen Olivia Knegendorf (left) and Princess Nora Fish. Sarah Nigbor / Pierce County Journal UFO Royalty candidate Olivia Knegendorf, who will be a freshman at Elmwood High School in the fall, is interested in a mechanical engineering career. Sarah Nigbor / Pierce County Journal UFO royalty candidate Nora Fish is going into eighth grade this year. She said Elmwood is an amazing place to call home: a small town with big opportunities. Sarah Nigbor / Pierce County Journal Olivia Knegendorf was the first UFO Days Queen crowned since 2021.",
+      "mentions": 2,
+      "otherSources": [
         {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "ALIEN als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+          "title": "Alien Alert: UFO Days 2026 kicks off this week",
+          "source": "Pierce County Journal",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM2x2RlZPZm9CYzh6MjBOSVdPSk80bFdiUUt2SzZUWkx3NXdQVG1hUlNIWEZnYmFiWjl6ZUYyTWZXbjlHNExIV3pKb1ZENlZEZnd2NXlqRlRBNWptWUtBa1BaeHNfM2hKM21QbkJycmxCSnFubnpaX2d1NGgza1IyN0ZDSzNMTDFMRXJGcG1MZlJtcDdJSHNISXA4UmdIZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM2x2RlZPZm9CYzh6MjBOSVdPSk80bFdiUUt2SzZUWkx3NXdQVG1hUlNIWEZnYmFiWjl6ZUYyTWZXbjlHNExIV3pKb1ZENlZEZnd2NXlqRlRBNWptWUtBa1BaeHNfM2hKM21QbkJycmxCSnFubnpaX2d1NGgza1IyN0ZDSzNMTDFMRXJGcG1MZlJtcDdJSHNISXA4UmdIZw?oc=5",
+          "publishedAt": "2026-07-22T15:24:00Z"
         }
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "ALIEN"
+      "clusterTitles": [
+        "Alien Alert: UFO Days 2026 kicks off this week"
       ],
-      "sourceQuality": 45,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "displayedAt": "2026-07-29T12:56:29Z"
-    },
-    {
-      "id": "sighting-these-20-tennessee-cities-report-the-most-ufo-sightings-where-yours-ranks",
-      "title": "These 20 Tennessee cities report the most UFO sightings. Where yours ranks",
-      "source": "Knoxville News Sentinel",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeG9GeC1LRHlBUUowZGpEWGVQbmNOY3lDUklpY2dCYnJ6b2F4Z2VUZ042Ti1wWm9uSzVDVS1WMTFmcUo5ZWhZcVRKOElKbVFSWTJlNFB5WEtycHBqZ2loNmVsSzlfdHFKTTdrWmJCNzJ2NnVBN3NVMGpYVXd6SzRILXNlTHBNWnJrUWFsZERBUkRFOEgybUVHZ1ptRDJRSFJq?oc=5",
-      "date": "2026-07-04",
-      "publishedAt": "2026-07-15T15:15:00Z",
-      "summary": "Since the 2023 National Defense Authorization Act, U.S. reports of unidentified anomalous phenomena (UAPs) have risen, with the All‑Domain Anomaly Resolution Office (AARO) reviewing over 1,000 cases but finding no evidence of extraterrestrial technology. UFO investigator Mick West, who has examined roughly 1,000 cases and analyzed about 100 in depth, advises a methodical approach that cross‑checks sightings with flight data, weather, ground cameras, and satellite imagery to rule out mundane explanations. West recommends using tools such as Invisor to extract metadata from videos, FlightRadar24 to view contemporaneous aircraft positions, and his own Sitrec software to reconstruct the scene with satellite data. AARO accepts UAP reports only from official sources like the military and FAA, while civilians can share their footage on databases such as Enigma and MUFON for community analysis. The article notes that while most anomalies have logical explanations, some remain unexplained and could potentially be the first true alien encounter, though this remains uncertain.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
       "quality": 40,
       "qualityBreakdown": [
         {
@@ -312,26 +278,9 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
-      "displayedAt": "2026-07-16T05:29:47Z",
-      "rssPublishedAt": "2026-07-15T15:15:00Z",
-      "rssDate": "2026-07-04",
-      "sourcePublishedAt": "2026-07-15T00:00:00Z",
-      "sourceDisplayedAt": "2026-07-16T05:29:47Z",
-      "translation": {
-        "en": {
-          "title": "These 20 Tennessee cities report the most UFO sightings. Where yours ranks",
-          "summary": "Since the 2023 National Defense Authorization Act, U.S. reports of unidentified anomalous phenomena (UAPs) have risen, with the All‑Domain Anomaly Resolution Office (AARO) reviewing over 1,000 cases but finding no evidence of extraterrestrial technology. UFO investigator Mick West, who has examined roughly 1,000 cases and analyzed about 100 in depth, advises a methodical approach that cross‑checks sightings with flight data, weather, ground cameras, and satellite imagery to rule out mundane explanations.",
-          "sourceHash": "082d320c8ab080575c0dc11c738d71542c0ffc37",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Diese 20 Städte in Tennessee melden die meisten UFO-Sichtungen. Wo Ihr Rang liegt",
-          "summary": "Seit dem National Defense Authorization Act von 2023 sind in den USA die Meldungen über nicht identifizierte anomale Phänomene (UAPs) gestiegen. Das All-Domain Anomaly Resolution Office (AARO) hat über 1.000 Fälle geprüft, aber keine Hinweise auf außerirdische Technologie gefunden. Der UFO-Ermittler Mick West, der rund 1.000 Fälle untersucht und etwa 100 eingehend analysiert hat, rät zu einem methodischen Ansatz, bei dem Sichtungen mit Flugdaten, Wetter, Bodenkameras und Satellitenbildern abgeglichen werden, um banale Erklärungen auszuschließen.",
-          "sourceHash": "082d320c8ab080575c0dc11c738d71542c0ffc37",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-07-30T05:30:11Z"
     }
   ]
 }
