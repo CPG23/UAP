@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-31T05:54:52Z",
+  "timestamp": "2026-07-31T12:51:43Z",
   "articles": [
     {
       "id": "file-release-house-approves-burlison-amendment-creating-framework-for-uap-records-disclosure",
@@ -107,8 +107,7 @@
           "publishedAt": "2026-07-29T19:48:00Z",
           "rssPublishedAt": "2026-07-29T19:48:00Z",
           "sourcePublishedAt": "2026-07-29T00:00:00Z",
-          "displayedAt": "2026-07-30T05:30:11Z",
-          "isNew": true
+          "displayedAt": "2026-07-29T19:48:00Z"
         }
       ],
       "clusterTitles": [
@@ -136,9 +135,6 @@
       "matchedTerms": [],
       "sourceQuality": 45,
       "displayedAt": "2026-07-22T15:24:00Z",
-      "rssPublishedAt": "2026-07-22T15:24:00Z",
-      "rssDate": "2026-07-29",
-      "sourcePublishedAt": "2026-07-22T00:00:00Z",
       "sourceDisplayedAt": "2026-07-22T15:24:00Z",
       "translation": {
         "en": {
@@ -149,7 +145,7 @@
         },
         "de": {
           "title": "Alien Alert: UFO Days 2026 beginnt diese Woche",
-          "summary": "Die Elmwood UFO Days 2026–27, Königin Olivia Knegendorf (links) und Prinzessin Nora Fish. Sarah Nigbor / Pierce County Journal UFO-Königskandidatin Olivia Knegendorf, die im Herbst ein Neuling an der Elmwood High School sein wird, ist an einer Karriere als Maschinenbauingenieurin interessiert. Sarah Nigbor / Pierce County Journal Die UFO-Kandidatin Nora Fish geht dieses Jahr in die achte Klasse.",
+          "summary": "Die Elmwood UFO Days 2026–27, Königin Olivia Knegendorf (links) und Prinzessin Nora Fish. Sarah Nigbor / Pierce County Journal UFO-Königskandidatin Olivia Knegendorf, die im Herbst ein Neuling an der Elmwood High School sein wird, ist an einer Karriere als Maschinenbauingenieurin interessiert. Sarah Nigbor / Pierce County Journal Die UFO-Königskandidatin Nora Fish geht dieses Jahr in die achte Klasse.",
           "sourceHash": "30fd2b4441420927fc4393de0dd3950d3c3037d7",
           "provider": "google"
         }
@@ -371,16 +367,16 @@
     "alien-alert-ufo-days-2026-kicks-off-this-week": "The 2026-27 Elmwood UFO Days Queen Olivia Knegendorf (left) and Princess Nora Fish. Sarah Nigbor / Pierce County Journal UFO Royalty candidate Olivia Knegendorf, who will be a freshman at Elmwood High School in the fall, is interested in a mechanical engineering career. Sarah Nigbor / Pierce County Journal UFO royalty candidate Nora Fish is going into eighth grade this year. She said Elmwood is an amazing place to call home: a small town with big opportunities. Sarah Nigbor / Pierce County Journal Olivia Knegendorf was the first UFO Days Queen crowned since 2021."
   },
   "notificationBatch": {
-    "timestamp": "2026-07-31T05:54:52Z",
+    "timestamp": "2026-07-31T12:51:43Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 380,
+    "broadArticles": 379,
     "broadTopics": 171,
-    "notificationArticles": 1,
-    "notificationTopics": 1,
-    "newNotificationTopics": 1,
+    "notificationArticles": 0,
+    "notificationTopics": 0,
+    "newNotificationTopics": 0,
     "appTopics": 5,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -471,7 +467,7 @@
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
       "checkedSources": 7,
-      "updatedSources": 5,
+      "updatedSources": 4,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
@@ -518,7 +514,7 @@
       },
       "de": {
         "title": "Alien Alert: UFO Days 2026 beginnt diese Woche",
-        "summary": "Die Elmwood UFO Days 2026–27, Königin Olivia Knegendorf (links) und Prinzessin Nora Fish. Sarah Nigbor / Pierce County Journal UFO-Königskandidatin Olivia Knegendorf, die im Herbst ein Neuling an der Elmwood High School sein wird, ist an einer Karriere als Maschinenbauingenieurin interessiert. Sarah Nigbor / Pierce County Journal Die UFO-Kandidatin Nora Fish geht dieses Jahr in die achte Klasse.",
+        "summary": "Die Elmwood UFO Days 2026–27, Königin Olivia Knegendorf (links) und Prinzessin Nora Fish. Sarah Nigbor / Pierce County Journal UFO-Königskandidatin Olivia Knegendorf, die im Herbst ein Neuling an der Elmwood High School sein wird, ist an einer Karriere als Maschinenbauingenieurin interessiert. Sarah Nigbor / Pierce County Journal Die UFO-Königskandidatin Nora Fish geht dieses Jahr in die achte Klasse.",
         "sourceHash": "30fd2b4441420927fc4393de0dd3950d3c3037d7",
         "provider": "google"
       }
