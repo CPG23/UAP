@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-30T12:24:51Z",
+  "timestamp": "2026-07-31T05:54:52Z",
   "articles": [
     {
       "id": "file-release-house-approves-burlison-amendment-creating-framework-for-uap-records-disclosure",
@@ -371,16 +371,16 @@
     "alien-alert-ufo-days-2026-kicks-off-this-week": "The 2026-27 Elmwood UFO Days Queen Olivia Knegendorf (left) and Princess Nora Fish. Sarah Nigbor / Pierce County Journal UFO Royalty candidate Olivia Knegendorf, who will be a freshman at Elmwood High School in the fall, is interested in a mechanical engineering career. Sarah Nigbor / Pierce County Journal UFO royalty candidate Nora Fish is going into eighth grade this year. She said Elmwood is an amazing place to call home: a small town with big opportunities. Sarah Nigbor / Pierce County Journal Olivia Knegendorf was the first UFO Days Queen crowned since 2021."
   },
   "notificationBatch": {
-    "timestamp": "2026-07-30T12:24:51Z",
+    "timestamp": "2026-07-31T05:54:52Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 377,
-    "broadTopics": 176,
+    "broadArticles": 380,
+    "broadTopics": 171,
     "notificationArticles": 1,
     "notificationTopics": 1,
-    "newNotificationTopics": 0,
+    "newNotificationTopics": 1,
     "appTopics": 5,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -471,13 +471,13 @@
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
       "checkedSources": 7,
-      "updatedSources": 6,
+      "updatedSources": 5,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 5,
-      "newSources": 0
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
