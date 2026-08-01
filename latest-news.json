@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-01T05:45:51Z",
+  "timestamp": "2026-08-01T11:58:16Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -539,20 +539,12 @@
     "alien-alert-ufo-days-2026-kicks-off-this-week": "The 2026-27 Elmwood UFO Days Queen Olivia Knegendorf (left) and Princess Nora Fish. Sarah Nigbor / Pierce County Journal UFO Royalty candidate Olivia Knegendorf, who will be a freshman at Elmwood High School in the fall, is interested in a mechanical engineering career. Sarah Nigbor / Pierce County Journal UFO royalty candidate Nora Fish is going into eighth grade this year. She said Elmwood is an amazing place to call home: a small town with big opportunities. Sarah Nigbor / Pierce County Journal Olivia Knegendorf was the first UFO Days Queen crowned since 2021."
   },
   "notificationBatch": {
-    "timestamp": "2026-08-01T05:45:51Z",
-    "ids": [
-      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
-    ],
-    "articles": [
-      {
-        "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "source": "U.S. Department of War (.gov)"
-      }
-    ]
+    "timestamp": "2026-08-01T11:58:16Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 383,
+    "broadArticles": 381,
     "broadTopics": 175,
     "notificationArticles": 0,
     "notificationTopics": 0,
@@ -641,7 +633,7 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 5,
+      "archiveCandidates": 6,
       "currentBeforeRestore": 4,
       "restoredArticles": 2,
       "blockedUnreachableTitles": 0,
@@ -668,7 +660,7 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 6,
-      "newSources": 11
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -678,11 +670,11 @@
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 2,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 12
+      "seededSeenFromPreviousFeed": 25
     }
   },
   "translations": {
