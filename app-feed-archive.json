@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-31T12:51:43Z",
+  "timestamp": "2026-08-01T05:45:51Z",
   "retentionDays": 14,
   "articles": [
     {
-      "id": "pentagon-investigating-mysterious-uap-event-reported-by-the-navy-near-virginia-s-coast",
+      "id": "sighting-pentagon-investigating-mysterious-uap-event-reported-by-the-navy-near-virginia-s-coast",
       "title": "Pentagon investigating mysterious UAP event reported by the Navy near Virginia’s coast",
       "source": "DefenseScoop",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYWxCcElyT1lDTVFOSWd1bzdDMGllWGZFbV9ha1VDS0ljdml4ZmVscVVVY0VvbkwyaW5nREE4MmhRZS1TRlFVdF9sVGl4NEM5T2xRWkptbkxkS2d3UmRkVktXNnc0YVRReE1KZkl2eDhKX2k2SEpFVk9KeVF0TmVzZnFLMXVDRUI4amN1WE9VU1ItS3QxS1RXZw?oc=5",
@@ -57,28 +57,7 @@
         "PENTAGON"
       ],
       "sourceQuality": 73,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "displayedAt": "2026-07-22T05:39:57Z",
-      "rssPublishedAt": "2026-07-21T19:22:27Z",
-      "rssDate": "2026-07-21",
-      "sourcePublishedAt": "2026-07-21T19:19:16Z",
-      "sourceDisplayedAt": "2026-07-22T05:39:57Z",
-      "translation": {
-        "en": {
-          "title": "Pentagon investigating mysterious UAP event reported by the Navy near Virginia’s coast",
-          "summary": "Pentagon investigating mysterious UAP event reported by the Navy near Virginia’s coast Experts in the Pentagon’s All-domain Anomaly Resolution Office are investigating a report from the U. Navy involving roughly 100 mysterious airborne objects and watercraft that were recorded operating off the coast of Virginia.",
-          "sourceHash": "750dca79f6539b6760344532e118de65c6bd326a",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Pentagon untersucht mysteriöses UAP-Ereignis, das von der Marine nahe der Küste Virginias gemeldet wurde",
-          "summary": "Pentagon untersucht mysteriöses UAP-Ereignis, das von der Marine nahe der Küste Virginias gemeldet wurde. Experten im All-domain Anomaly Resolution Office des Pentagons untersuchen einen Bericht der US-Marine, in dem es um etwa 100 mysteriöse Flugobjekte und Wasserfahrzeuge geht, die vor der Küste Virginias im Einsatz waren.",
-          "sourceHash": "750dca79f6539b6760344532e118de65c6bd326a",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
+      "displayedAt": "2026-07-22T05:39:57Z"
     },
     {
       "id": "file-release-house-approves-burlison-amendment-creating-framework-for-uap-records-disclosure",
@@ -96,7 +75,7 @@
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPenk3NEZoZ2Q1VnJfYkFrallrWHdUeTRaWVFKVGRqZWVmZUJTUGF2RWtCUkdIbW1RdjdwdGo2NHdJMzl3WUlaN0F2eDlnOXpBRGFPcUExRmhZd0VtS2dKQWtpem85RUhCUDVTQ2tQQ1VCdVJ5WGw5RmtlLW9lZGdXQmtja1N6VDBuVEs4VE1sUXdrdW9XVW1iQkZSNFIyOFM4N3BFWUtJUUQzUjZMYWVjMDRmU0lEdzFHZmxQWkREa1FORk80?oc=5",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPenk3NEZoZ2Q1VnJfYkFrallrWHdUeTRaWVFKVGRqZWVmZUJTUGF2RWtCUkdIbW1RdjdwdGo2NHdJMzl3WUlaN0F2eDlnOXpBRGFPcUExRmhZd0VtS2dKQWtpem85RUhCUDVTQ2tQQ1VCdVJ5WGw5RmtlLW9lZGdXQmtja1N6VDBuVEs4VE1sUXdrdW9XVW1iQkZSNFIyOFM4N3BFWUtJUUQzUjZMYWVjMDRmU0lEdzFHZmxQWkREa1FORk80?oc=5",
           "publishedAt": "2026-07-24T17:23:30Z",
-          "displayedAt": "2026-07-31T12:51:43Z"
+          "displayedAt": "2026-08-01T05:45:51Z"
         }
       ],
       "clusterTitles": [
@@ -197,7 +176,26 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 56,
-      "displayedAt": "2026-07-19T05:41:20Z"
+      "displayedAt": "2026-07-19T05:41:20Z",
+      "rssPublishedAt": "2026-07-18T15:35:31Z",
+      "rssDate": "2026-07-18",
+      "sourcePublishedAt": "2026-07-18T15:35:31Z",
+      "sourceDisplayedAt": "2026-07-19T05:41:20Z",
+      "translation": {
+        "en": {
+          "title": "Stream Disclosure Day (2026) online at home starting next week!",
+          "summary": "Steven Spielberg’s science‑fiction film *Disclosure Day* will be available for digital purchase on Prime Video beginning July 21, 2026, with a release time of 1:00 AM EDT. The film is offered as a UHD pre‑order for $29.99, and Amazon’s Pre‑order Price Guarantee ensures customers pay the lowest listed price between ordering and release. The cast includes Emily Blunt, Josh O’Connor, Colin Firth, Eve Hewson and Colman Domingo, and the screenplay is by David Koepp.",
+          "sourceHash": "6da88b9e8ca27901d71e01493b2d94011aae3013",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Streamen Sie Disclosure Day (2026) ab nächster Woche online zu Hause!",
+          "summary": "Steven Spielbergs Science-Fiction-Film *Disclosure Day* wird ab dem 21. Juli 2026 um 1:00 Uhr EDT digital auf Prime Video erhältlich sein. Der Film wird als UHD-Vorbestellung für 29,99 US-Dollar angeboten und die Vorbestellungspreisgarantie von Amazon stellt sicher, dass Kunden zwischen Bestellung und Veröffentlichung den niedrigsten Listenpreis zahlen. Zur Besetzung gehören Emily Blunt, Josh O’Connor, Colin Firth, Eve Hewson und Colman Domingo, das Drehbuch stammt von David Koepp.",
+          "sourceHash": "6da88b9e8ca27901d71e01493b2d94011aae3013",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-trump-ufo-advisors-have-explanations-for-glowing-orbs-except-for-one-recent-encounter",
@@ -239,7 +237,26 @@
         "TRUMP"
       ],
       "sourceQuality": 50,
-      "displayedAt": "2026-07-19T05:41:20Z"
+      "displayedAt": "2026-07-19T05:41:20Z",
+      "rssPublishedAt": "2026-07-18T17:13:00Z",
+      "rssDate": "2026-07-18",
+      "sourcePublishedAt": "2026-07-18T17:13:20Z",
+      "sourceDisplayedAt": "2026-07-19T05:41:20Z",
+      "translation": {
+        "en": {
+          "title": "Trump UFO advisors have explanations for glowing orbs — except for one recent encounter",
+          "summary": "Trump administration science advisors are providing conventional explanations for some UFO sightings but say one recent encounter remains unexplained. Dr. Avi Loeb, head of the UAP Science Advisory Council, argues that many glowing orbs could be plasmas produced by powerful lasers, which can move supersonically without generating a sonic boom or fireball.",
+          "sourceHash": "7a3ca02d0309eb1200fe9e393e0674a8b9910b40",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Trumps UFO-Berater haben Erklärungen für leuchtende Kugeln – mit Ausnahme einer kürzlichen Begegnung",
+          "summary": "Wissenschaftliche Berater der Trump-Administration liefern herkömmliche Erklärungen für einige UFO-Sichtungen, sagen jedoch, dass eine kürzliche Begegnung noch ungeklärt sei. Dr. Avi Loeb, Leiter des UAP Science Advisory Council, argumentiert, dass viele leuchtende Kugeln Plasmen sein könnten, die von leistungsstarken Lasern erzeugt werden, die sich mit Überschall bewegen können, ohne einen Überschallknall oder Feuerball zu erzeugen.",
+          "sourceHash": "7a3ca02d0309eb1200fe9e393e0674a8b9910b40",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "alien-alert-ufo-days-2026-kicks-off-this-week",
@@ -259,8 +276,7 @@
           "publishedAt": "2026-07-29T19:48:00Z",
           "rssPublishedAt": "2026-07-29T19:48:00Z",
           "sourcePublishedAt": "2026-07-29T00:00:00Z",
-          "displayedAt": "2026-07-30T05:30:11Z",
-          "isNew": true
+          "displayedAt": "2026-07-29T19:48:00Z"
         }
       ],
       "clusterTitles": [
