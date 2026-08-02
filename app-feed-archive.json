@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-01T11:58:16Z",
+  "timestamp": "2026-08-02T05:46:51Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -75,13 +75,15 @@
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPenk3NEZoZ2Q1VnJfYkFrallrWHdUeTRaWVFKVGRqZWVmZUJTUGF2RWtCUkdIbW1RdjdwdGo2NHdJMzl3WUlaN0F2eDlnOXpBRGFPcUExRmhZd0VtS2dKQWtpem85RUhCUDVTQ2tQQ1VCdVJ5WGw5RmtlLW9lZGdXQmtja1N6VDBuVEs4VE1sUXdrdW9XVW1iQkZSNFIyOFM4N3BFWUtJUUQzUjZMYWVjMDRmU0lEdzFHZmxQWkREa1FORk80?oc=5",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPenk3NEZoZ2Q1VnJfYkFrallrWHdUeTRaWVFKVGRqZWVmZUJTUGF2RWtCUkdIbW1RdjdwdGo2NHdJMzl3WUlaN0F2eDlnOXpBRGFPcUExRmhZd0VtS2dKQWtpem85RUhCUDVTQ2tQQ1VCdVJ5WGw5RmtlLW9lZGdXQmtja1N6VDBuVEs4VE1sUXdrdW9XVW1iQkZSNFIyOFM4N3BFWUtJUUQzUjZMYWVjMDRmU0lEdzFHZmxQWkREa1FORk80?oc=5",
           "publishedAt": "2026-07-24T17:23:30Z",
-          "displayedAt": "2026-08-01T11:58:16Z"
+          "displayedAt": "2026-07-24T17:23:30Z",
+          "rssPublishedAt": "2026-07-24T17:23:30Z",
+          "sourcePublishedAt": "2026-07-24T17:23:30Z"
         }
       ],
       "clusterTitles": [
         "Burlison details fight to pass UAP disclosure amendment, touts healthcare bill support"
       ],
-      "quality": 61,
+      "quality": 56,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -112,11 +114,6 @@
           "label": "Kernaussage",
           "points": 7,
           "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -124,17 +121,17 @@
         "disclosure",
         "records"
       ],
-      "sourceQuality": 61,
+      "sourceQuality": 56,
       "displayedAt": "2026-07-23T21:04:19Z"
     },
     {
-      "id": "stream-disclosure-day-2026-online-at-home-starting-next-week",
-      "title": "Stream Disclosure Day (2026) online at home starting next week!",
-      "source": "Scified",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYVFPSktJQUtGN1JiODJEQTIxQ29FN19TQ08xWWZReE0xUFdwb1VIN2tBaU1kMGZ3SnJQSEVHakZzb1dfdmljenoxVGFLRWU5cEVNN0RsajI2MG9UNlo0Q1lIRmJkZzhEUHJfZkhLX1kxcU5YT2FHbEVsblMxVko2YXJPZ3NwQTRMRnc?oc=5",
-      "date": "2026-07-18",
-      "publishedAt": "2026-07-18T15:35:31Z",
-      "summary": "Steven Spielberg’s science‑fiction film *Disclosure Day* will be available for digital purchase on Prime Video beginning July 21, 2026, with a release time of 1:00 AM EDT. The film is offered as a UHD pre‑order for $29.99, and Amazon’s Pre‑order Price Guarantee ensures customers pay the lowest listed price between ordering and release. The cast includes Emily Blunt, Josh O’Connor, Colin Firth, Eve Hewson and Colman Domingo, and the screenplay is by David Koepp. After a theatrical run earlier in 2026 that earned $233 million worldwide against a $115 million budget, the movie has sparked widespread discussion among science‑fiction fans. The synopsis poses the question, “If you found out we weren’t alone, would that frighten you?” and describes a world changed by the revelation of extraterrestrial life. The article notes that further home‑media releases such as Blu‑ray, 4K UHD or streaming subscription availability will be announced if they become available.",
+      "id": "uap-disclosure-is-no-longer-optional-avi-loeb",
+      "title": "UAP Disclosure is No Longer Optional - Avi Loeb",
+      "source": "Avi Loeb – Medium",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNXVyTk1tMkN4RjBMNEtsQjR3Z3lWbnE2Z0VidDNtRWZOZVdvUThoLTY4VFVYQWFMaGJoYWJxUnkyejdqdm1JT2I4Q3laakh5SFRvRElxZ0t4czctRWJuOXByNjYwQl8xSHdBUmc0VEpVamFldl9JYjMxQm1MUGw0dlBBaw?oc=5",
+      "date": "2026-08-01",
+      "publishedAt": "2026-08-01T14:19:52Z",
+      "summary": "UAP Disclosure is No Longer Optional Disclosure of information related to Unidentified Anomalous Phenomena (UAP) with potential association with non-human made technologies, is no longer optional for former or current U. An unclassified memorandum by Aaron Lukas, Principal Deputy Director of National Intelligence, states as follows: “This memorandum provides preliminary guidance for the release of all Unidentified Anomalous Phenomena (UAP) information to the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) Task Force for review and declassification. Consistent with Presidential Direction, the Department of War (DoW) and the Intelligence Community (IC) will implement a process to ensure current and former government employees and contractors with relevant information on UAPs shall have prior non-disclosure agreements (NDA), agreements, oaths, or commitments waived when speaking with authorized government representatives of the All-Domain Anomaly Resolution Office (AARO) or PURSUE.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -176,87 +173,9 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 56,
-      "displayedAt": "2026-07-19T05:41:20Z",
-      "rssPublishedAt": "2026-07-18T15:35:31Z",
-      "rssDate": "2026-07-18",
-      "sourcePublishedAt": "2026-07-18T15:35:31Z",
-      "sourceDisplayedAt": "2026-07-19T05:41:20Z",
-      "translation": {
-        "en": {
-          "title": "Stream Disclosure Day (2026) online at home starting next week!",
-          "summary": "Steven Spielberg’s science‑fiction film *Disclosure Day* will be available for digital purchase on Prime Video beginning July 21, 2026, with a release time of 1:00 AM EDT. The film is offered as a UHD pre‑order for $29.99, and Amazon’s Pre‑order Price Guarantee ensures customers pay the lowest listed price between ordering and release. The cast includes Emily Blunt, Josh O’Connor, Colin Firth, Eve Hewson and Colman Domingo, and the screenplay is by David Koepp.",
-          "sourceHash": "6da88b9e8ca27901d71e01493b2d94011aae3013",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Streamen Sie Disclosure Day (2026) ab nächster Woche online zu Hause!",
-          "summary": "Steven Spielbergs Science-Fiction-Film *Disclosure Day* wird ab dem 21. Juli 2026 um 1:00 Uhr EDT digital auf Prime Video erhältlich sein. Der Film wird als UHD-Vorbestellung für 29,99 US-Dollar angeboten und die Vorbestellungspreisgarantie von Amazon stellt sicher, dass Kunden zwischen Bestellung und Veröffentlichung den niedrigsten Listenpreis zahlen. Zur Besetzung gehören Emily Blunt, Josh O’Connor, Colin Firth, Eve Hewson und Colman Domingo, das Drehbuch stammt von David Koepp.",
-          "sourceHash": "6da88b9e8ca27901d71e01493b2d94011aae3013",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
-    {
-      "id": "sighting-trump-ufo-advisors-have-explanations-for-glowing-orbs-except-for-one-recent-encounter",
-      "title": "Trump UFO advisors have explanations for glowing orbs — except for one recent encounter",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWW5wX09tMlRXZHdnc1hidFdVMDBqNWFzQjh3cHl2QlBNV1pWX0tqdUhuRE5mREdMTXZ3Y2NFb0VlUFRSYmp2VXNJQ09MQTYyWmFOeEZ4bDEzTHc5M0FDOGo4VFhTeXJmT2FfXzJWTk1EV0M2YlRZMjZRRS1vc3JuQ3RkSl9jRk5zOUJZSnU4TUhRTy01eDFfV3FZbHF3SFAy?oc=5",
-      "date": "2026-07-18",
-      "publishedAt": "2026-07-18T17:13:00Z",
-      "summary": "Trump administration science advisors are providing conventional explanations for some UFO sightings but say one recent encounter remains unexplained. Dr. Avi Loeb, head of the UAP Science Advisory Council, argues that many glowing orbs could be plasmas produced by powerful lasers, which can move supersonically without generating a sonic boom or fireball. Loeb notes that these laser‑based explanations cannot account for the October 2023 sighting of orange and red orbs near a secured military facility in the western United States, which were observed by federal intelligence officers. The All‑Domain Anomaly Resolution Office (AARO) report, referenced by Loeb, describes an orange “mother orb” that launched smaller red orbs, remained stationary for hours, and exhibited coordinated horizontal motion and altitude changes, a behavior that does not match laser‑sustained plasma. Admiral Tim Gallaudet agrees that the “orbs launching orbs” case is a chief concern and cannot be explained by conventional means, while Loeb also considers ball lighting as a possibility but notes its brief duration compared to the hours‑long sighting.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 50,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "ORBS, TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "ORBS",
-        "TRUMP"
-      ],
-      "sourceQuality": 50,
-      "displayedAt": "2026-07-19T05:41:20Z",
-      "rssPublishedAt": "2026-07-18T17:13:00Z",
-      "rssDate": "2026-07-18",
-      "sourcePublishedAt": "2026-07-18T17:13:20Z",
-      "sourceDisplayedAt": "2026-07-19T05:41:20Z",
-      "translation": {
-        "en": {
-          "title": "Trump UFO advisors have explanations for glowing orbs — except for one recent encounter",
-          "summary": "Trump administration science advisors are providing conventional explanations for some UFO sightings but say one recent encounter remains unexplained. Dr. Avi Loeb, head of the UAP Science Advisory Council, argues that many glowing orbs could be plasmas produced by powerful lasers, which can move supersonically without generating a sonic boom or fireball.",
-          "sourceHash": "7a3ca02d0309eb1200fe9e393e0674a8b9910b40",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Trumps UFO-Berater haben Erklärungen für leuchtende Kugeln – mit Ausnahme einer kürzlichen Begegnung",
-          "summary": "Wissenschaftliche Berater der Trump-Administration liefern herkömmliche Erklärungen für einige UFO-Sichtungen, sagen jedoch, dass eine kürzliche Begegnung noch ungeklärt sei. Dr. Avi Loeb, Leiter des UAP Science Advisory Council, argumentiert, dass viele leuchtende Kugeln Plasmen sein könnten, die von leistungsstarken Lasern erzeugt werden, die sich mit Überschall bewegen können, ohne einen Überschallknall oder Feuerball zu erzeugen.",
-          "sourceHash": "7a3ca02d0309eb1200fe9e393e0674a8b9910b40",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-08-02T05:46:51Z"
     },
     {
       "id": "alien-alert-ufo-days-2026-kicks-off-this-week",
