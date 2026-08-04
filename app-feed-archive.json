@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T05:36:43Z",
+  "timestamp": "2026-08-04T12:54:16Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -306,10 +306,10 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
+      "sourceQuality": 40,
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "sourceQuality": 40,
       "displayedAt": "2026-08-03T06:09:14Z"
     }
   ]
