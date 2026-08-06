@@ -1,181 +1,7 @@
 {
-  "timestamp": "2026-08-05T12:49:28Z",
+  "timestamp": "2026-08-06T05:38:54Z",
   "retentionDays": 14,
   "articles": [
-    {
-      "id": "film-presidential-unsealing-and-reporting-system-for-uap-encounters-pursue",
-      "title": "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)",
-      "source": "U.S. Department of War (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14VzNpMEZ3V21pVnY0aG9wWXl4Zk1jSmlzOVExVFlPcHRvb0NwWm9IZmJSTVZUS1NwdDBtaUxvdTRoMzJPT1JtaV9QZDUzOV8taEJnc0JKR0szSDA?oc=5",
-      "date": "2026-08-02",
-      "publishedAt": "2026-08-04T13:57:33Z",
-      "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 16,
-      "otherSources": [
-        {
-          "title": "Department of War Publishes Fourth Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "source": "U.S. Department of War (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOEpnVzBWdnB2c1d4d2V5QllCQjFZeVZ4RDJuSEw4eDdaVERyemd5c2hETGdYc0pqTy1aWHNqUGFhZTNYZ2h0bnFyZHFNN3RfR3hkcU5pUjdsT3p6OXJ6a1hRQ2NONXJiX18xUklzdjhuNnNweW54bGJEdExCcGFRQmE4c3NrNVRjREZ5WkxiMm4wd2hET0pzM1NTR1JyNE9iRWdPM3BQQm5IUk0yRVpvYjRjbEppVHNKRnMtS0daeUhjTGhDdFBaY2ZrRHk0MEl3VUo0?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOEpnVzBWdnB2c1d4d2V5QllCQjFZeVZ4RDJuSEw4eDdaVERyemd5c2hETGdYc0pqTy1aWHNqUGFhZTNYZ2h0bnFyZHFNN3RfR3hkcU5pUjdsT3p6OXJ6a1hRQ2NONXJiX18xUklzdjhuNnNweW54bGJEdExCcGFRQmE4c3NrNVRjREZ5WkxiMm4wd2hET0pzM1NTR1JyNE9iRWdPM3BQQm5IUk0yRVpvYjRjbEppVHNKRnMtS0daeUhjTGhDdFBaY2ZrRHk0MEl3VUo0?oc=5",
-          "publishedAt": "2026-07-10T07:00:00Z"
-        },
-        {
-          "title": "Department of War Publishes Third Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "source": "U.S. Department of War (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVlJ2aHNkMUJYUUdySDRDQmMtVjlzMURseVVQY25WbGVRM2hneWdILVJ1ak9qb1hBZFRKV2tOeTJCMmlRa2Q1UDlycjk2M184eWlSM1RXLVdaMXdHalpvMmRZSE8yblFJWm9PZU5PN1hpbDhPbTRuOHl1RVhPUTBCVDhfSDdQTURMNjhXN0tyNU5Oa0Z6MmEyRFZsUXE2UFdSN1VnRnd0cEFTa1BBOWFsdzE3MHd5SHduNHoybHlyLXp4ODRzdTd3eDNsY2RNbkk2NDVvZg?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVlJ2aHNkMUJYUUdySDRDQmMtVjlzMURseVVQY25WbGVRM2hneWdILVJ1ak9qb1hBZFRKV2tOeTJCMmlRa2Q1UDlycjk2M184eWlSM1RXLVdaMXdHalpvMmRZSE8yblFJWm9PZU5PN1hpbDhPbTRuOHl1RVhPUTBCVDhfSDdQTURMNjhXN0tyNU5Oa0Z6MmEyRFZsUXE2UFdSN1VnRnd0cEFTa1BBOWFsdzE3MHd5SHduNHoybHlyLXp4ODRzdTd3eDNsY2RNbkk2NDVvZg?oc=5",
-          "publishedAt": "2026-06-12T07:00:00Z"
-        },
-        {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "source": "U.S. Department of War (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "US releases second batch of government declassified UFO files",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "source": "U.S. Department of War (.gov)",
-          "link": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-          "publishedAt": "2026-05-22T00:00:00Z"
-        },
-        {
-          "title": "Pentagon releases third batch of declassified UFO files",
-          "source": "LiveNOW from FOX",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5XamE3MDI2amJGYkJyZllnVlhnRnVndi1CQUU0Y0xfTzVENklIMjRMYnh0YUxpQlhreUJ2dV9Ydm40S0ZEOV9kM1RiWktLWUdvUW94TXl6cUVkdk1sc0IyYUpXRTNFTFluWDhkelNFS2U2VExTRXpvVEd4VdIBgAFBVV95cUxNX1pfaUJVd2RBb1ZxWWYxNDRoYlBIQ29Mc0xldTBmODdvR3hwdkprR1p3RkZNakIyWGZKVVRrVzFDbGRoaEsyWVFXMDJ0XzMyb3NHT1lkeGoxNzJXc2E3dlNCYWFINTJIS3pHYkk0bms5UXZIanMwTU1jbm1MbGhrOQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5XamE3MDI2amJGYkJyZllnVlhnRnVndi1CQUU0Y0xfTzVENklIMjRMYnh0YUxpQlhreUJ2dV9Ydm40S0ZEOV9kM1RiWktLWUdvUW94TXl6cUVkdk1sc0IyYUpXRTNFTFluWDhkelNFS2U2VExTRXpvVEd4VdIBgAFBVV95cUxNX1pfaUJVd2RBb1ZxWWYxNDRoYlBIQ29Mc0xldTBmODdvR3hwdkprR1p3RkZNakIyWGZKVVRrVzFDbGRoaEsyWVFXMDJ0XzMyb3NHT1lkeGoxNzJXc2E3dlNCYWFINTJIS3pHYkk0bms5UXZIanMwTU1jbm1MbGhrOQ?oc=5",
-          "publishedAt": "2026-06-12T07:00:00Z"
-        },
-        {
-          "title": "War Dept. Publishes Third UFO Files on WAR.GOV/UFO",
-          "source": "miragenews.com",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVVR2NEZVT0RvSUpEVnMweUJYbWNMeXhpOEhmX3hqaUZVMTJUY2gwQzZOWHVrWnNnM3NFbHZLekNuLXdYNnhqTmRqOGNIYnd6MG5ueDdJSDlna0NRZWd1R2JVUVRjUG1JX2N3R3pRSzZ2QmRJSW1zaGtUZXpXR2JNSEhmLVN3Z3V4NUdB?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVVR2NEZVT0RvSUpEVnMweUJYbWNMeXhpOEhmX3hqaUZVMTJUY2gwQzZOWHVrWnNnM3NFbHZLekNuLXdYNnhqTmRqOGNIYnd6MG5ueDdJSDlna0NRZWd1R2JVUVRjUG1JX2N3R3pRSzZ2QmRJSW1zaGtUZXpXR2JNSEhmLVN3Z3V4NUdB?oc=5",
-          "publishedAt": "2026-06-12T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
-          "source": "LiveNOW from FOX",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "New videos from Pentagon’s second batch of UFO files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "War Dept. Releases Second UFO Files on WAR.GOV/UFO",
-          "source": "miragenews.com",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdHU1VGItWG9KUng2R1c1WUh0cXE2enBPZXN3SW9wN3VGRG5KT2ZuYTBlek82RHAwWjJBbWkwbEltTnBsUU84WkZRQjFnd1A4YkV3Q3MzSHJOb1Q4MmtqbkZmTW96em93MWNndkpFa1VHbXdtVElRSFMydjZyUmt4ZF9BUFVTQ0xNUGJr?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdHU1VGItWG9KUng2R1c1WUh0cXE2enBPZXN3SW9wN3VGRG5KT2ZuYTBlek82RHAwWjJBbWkwbEltTnBsUU84WkZRQjFnd1A4YkV3Q3MzSHJOb1Q4MmtqbkZmTW96em93MWNndkpFa1VHbXdtVElRSFMydjZyUmt4ZF9BUFVTQ0xNUGJr?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Highlights From 2nd Batch of Declassified UFO Files",
-          "source": "NTD News",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "What does the second batch of UFO files tell us?",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "UFO Files Memes and Jokes: Trump Admin’s Release of Documents Linked to UAP Encounters on WAR.GOV/UFO",
-          "source": "LatestLY",
-          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQai15eHpmaDFLMTlRUy1sMWdJU0xJUDFDM2VnOG9QNkUxNlhCVGlTWU9DTEwtUVVIaW1kaGlvaHZRSUV1aE9fakw2TUF3dlNyTGJPYlZDRHgtS09Mdm56MnMteV9TZnpjalhURHZSaEF2WjM5UUo5c2R4dGRSeHV2WVk2RE83RDJ6OHp2X0pmdFA4bWdjTFJmUmVYVTlSMlhuUXltQTFPQ251VlNrVmRwNGJMLTBEaGhIbmtxNWJpQUc5RzBvdmZTbGZWMEdkanNobjFBWmdRRWRGTktWZnVmVWpGWFFycVJnQ2VvSjlTem9iMTdoQ0J6eFZ6ZXnSAYICQVVfeXFMTnRHa1FvZXBnemJCamlQOXlCY2doc2VUdmRwRWlrZnV2NURLR1VZb1BSdkUwY0RGZ3NYMnVyNDdlc3Aydl9yX3h0OHhhMlphM1NxY1pmNVM3ZlM2Q3lDRWdqaWtIMTE5Z1pSX29POTkxS0xGdzZJYnJtQURYVXBsbXAwUF9xVFJRVEpWUVFtRU5nUndEbEJQVVpXOG03R1NNb2RfeXNLY2RBRkRlUGpINUNCd1ItWEltTTd0dzJ6RXZrM2pwUHBZZUFjQ0V2UmhyWFhtMTVSVWpuYmVldjB0bVlYTW1GbUw5RE9hMG9sNnFjb1RhQjVxdEpYUzRITURNRXln?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQai15eHpmaDFLMTlRUy1sMWdJU0xJUDFDM2VnOG9QNkUxNlhCVGlTWU9DTEwtUVVIaW1kaGlvaHZRSUV1aE9fakw2TUF3dlNyTGJPYlZDRHgtS09Mdm56MnMteV9TZnpjalhURHZSaEF2WjM5UUo5c2R4dGRSeHV2WVk2RE83RDJ6OHp2X0pmdFA4bWdjTFJmUmVYVTlSMlhuUXltQTFPQ251VlNrVmRwNGJMLTBEaGhIbmtxNWJpQUc5RzBvdmZTbGZWMEdkanNobjFBWmdRRWRGTktWZnVmVWpGWFFycVJnQ2VvSjlTem9iMTdoQ0J6eFZ6ZXnSAYICQVVfeXFMTnRHa1FvZXBnemJCamlQOXlCY2doc2VUdmRwRWlrZnV2NURLR1VZb1BSdkUwY0RGZ3NYMnVyNDdlc3Aydl9yX3h0OHhhMlphM1NxY1pmNVM3ZlM2Q3lDRWdqaWtIMTE5Z1pSX29POTkxS0xGdzZJYnJtQURYVXBsbXAwUF9xVFJRVEpWUVFtRU5nUndEbEJQVVpXOG03R1NNb2RfeXNLY2RBRkRlUGpINUNCd1ItWEltTTd0dzJ6RXZrM2pwUHBZZUFjQ0V2UmhyWFhtMTVSVWpuYmVldjB0bVlYTW1GbUw5RE9hMG9sNnFjb1RhQjVxdEpYUzRITURNRXln?oc=5",
-          "publishedAt": "2026-05-08T07:00:00Z"
-        },
-        {
-          "title": "Why Are There NDAs Prohibiting UAP Disclosure To President Trump? - Avi Loeb",
-          "source": "Avi Loeb – Medium",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd0VyQjkwMmpzSWlTcEUta1lwY2U0RElMQWxYLXV3bUV5SkVpOHM2SFlZblk5aWxZRWpHZnRBSndyR0xQeDVuR2hFVVFYdDAzdXdSM0ZTY0FOQy1ESHZCVy1RWUZyX3BVYnl1UHNXM05Uc3ZhNXpfOGw2Mng5TUlqdWc1RTZiV0ZEbEJKaFpEN3F4aThqUGFZTHE2ZzM0TG00dFZxZTZXSE8?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd0VyQjkwMmpzSWlTcEUta1lwY2U0RElMQWxYLXV3bUV5SkVpOHM2SFlZblk5aWxZRWpHZnRBSndyR0xQeDVuR2hFVVFYdDAzdXdSM0ZTY0FOQy1ESHZCVy1RWUZyX3BVYnl1UHNXM05Uc3ZhNXpfOGw2Mng5TUlqdWc1RTZiV0ZEbEJKaFpEN3F4aThqUGFZTHE2ZzM0TG00dFZxZTZXSE8?oc=5",
-          "publishedAt": "2026-08-02T14:04:16Z"
-        }
-      ],
-      "clusterTitles": [
-        "Department of War Publishes Fourth Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "Department of War Publishes Third Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "US releases second batch of government declassified UFO files",
-        "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "Pentagon releases third batch of declassified UFO files",
-        "War Dept. Publishes Third UFO Files on WAR.GOV/UFO",
-        "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
-        "New videos from Pentagon’s second batch of UFO files",
-        "War Dept. Releases Second UFO Files on WAR.GOV/UFO"
-      ],
-      "quality": 100,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DISCLOSURE, TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 70,
-          "text": "15 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE",
-        "TRUMP"
-      ],
-      "sourceQuality": 100,
-      "displayedAt": "2026-08-05T12:49:28Z"
-    },
     {
       "id": "file-release-house-approves-burlison-amendment-creating-framework-for-uap-records-disclosure",
       "title": "House approves Burlison amendment creating framework for UAP records disclosure",
@@ -200,7 +26,7 @@
       "clusterTitles": [
         "Burlison details fight to pass UAP disclosure amendment, touts healthcare bill support"
       ],
-      "quality": 56,
+      "quality": 61,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -231,6 +57,11 @@
           "label": "Kernaussage",
           "points": 7,
           "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -238,8 +69,82 @@
         "disclosure",
         "records"
       ],
-      "sourceQuality": 56,
-      "displayedAt": "2026-07-23T21:04:19Z"
+      "sourceQuality": 61,
+      "displayedAt": "2026-07-23T21:04:19Z",
+      "rssPublishedAt": "2026-07-23T21:04:19Z",
+      "rssDate": "2026-07-23",
+      "sourcePublishedAt": "2026-07-23T21:04:19Z",
+      "sourceDisplayedAt": "2026-07-23T21:04:19Z",
+      "translation": {
+        "en": {
+          "title": "House approves Burlison amendment creating framework for UAP records disclosure",
+          "summary": "House approves Burlison amendment creating framework for UAP records disclosure What do you think? , that would establish a formal process for preserving, reviewing and publicly releasing government records related to unidentified anomalous phenomena, commonly known as UAPs or UFOs, if it ultimately becomes law. The amendment was adopted as part of the Fiscal Year 2027 National Defense Authorization Act, the annual defense policy bill that now moves to the Senate for consideration.",
+          "sourceHash": "748e960c08d8d10c878c91c323459ee204a2dc67",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Das Repräsentantenhaus stimmt der Änderung von Burlison zu, die einen Rahmen für die Offenlegung von UAP-Daten schafft",
+          "summary": "Das Repräsentantenhaus stimmt dem Änderungsantrag von Burlison zu, der einen Rahmen für die Offenlegung von UAP-Daten schafft. Was denken Sie? , das einen formellen Prozess zur Aufbewahrung, Überprüfung und öffentlichen Veröffentlichung von Regierungsunterlagen im Zusammenhang mit nicht identifizierten anomalen Phänomenen, allgemein bekannt als UAPs oder UFOs, etablieren würde, wenn es letztendlich Gesetz wird. Die Änderung wurde im Rahmen des National Defense Authorization Act für das Haushaltsjahr 2027 angenommen, dem jährlichen Gesetzentwurf zur Verteidigungspolitik, der nun dem Senat zur Prüfung vorgelegt wird.",
+          "sourceHash": "748e960c08d8d10c878c91c323459ee204a2dc67",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
+    },
+    {
+      "id": "why-are-there-ndas-prohibiting-uap-disclosure-to-president-trump-avi-loeb",
+      "title": "Why Are There NDAs Prohibiting UAP Disclosure To President Trump? - Avi Loeb",
+      "source": "Avi Loeb – Medium",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd0VyQjkwMmpzSWlTcEUta1lwY2U0RElMQWxYLXV3bUV5SkVpOHM2SFlZblk5aWxZRWpHZnRBSndyR0xQeDVuR2hFVVFYdDAzdXdSM0ZTY0FOQy1ESHZCVy1RWUZyX3BVYnl1UHNXM05Uc3ZhNXpfOGw2Mng5TUlqdWc1RTZiV0ZEbEJKaFpEN3F4aThqUGFZTHE2ZzM0TG00dFZxZTZXSE8?oc=5",
+      "date": "2026-08-02",
+      "publishedAt": "2026-08-02T14:04:16Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 61,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DISCLOSURE, TRUMP als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "disclosure",
+        "trump"
+      ],
+      "sourceQuality": 61,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-08-06T05:38:54Z"
     },
     {
       "id": "sighting-ufo-sighting-in-a-dead-galaxy",
@@ -283,48 +188,6 @@
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-08-04T05:36:43Z"
-    },
-    {
-      "id": "alien-alert-ufo-days-2026-kicks-off-this-week",
-      "title": "Alien Alert: UFO Days 2026 kicks off this week",
-      "source": "Pierce County Journal",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM2x2RlZPZm9CYzh6MjBOSVdPSk80bFdiUUt2SzZUWkx3NXdQVG1hUlNIWEZnYmFiWjl6ZUYyTWZXbjlHNExIV3pKb1ZENlZEZnd2NXlqRlRBNWptWUtBa1BaeHNfM2hKM21QbkJycmxCSnFubnpaX2d1NGgza1IyN0ZDSzNMTDFMRXJGcG1MZlJtcDdJSHNISXA4UmdIZw?oc=5",
-      "date": "2026-07-29",
-      "publishedAt": "2026-07-22T15:24:00Z",
-      "summary": "The 2026-27 Elmwood UFO Days Queen Olivia Knegendorf (left) and Princess Nora Fish. Sarah Nigbor / Pierce County Journal UFO Royalty candidate Olivia Knegendorf, who will be a freshman at Elmwood High School in the fall, is interested in a mechanical engineering career. Sarah Nigbor / Pierce County Journal UFO royalty candidate Nora Fish is going into eighth grade this year. She said Elmwood is an amazing place to call home: a small town with big opportunities. Sarah Nigbor / Pierce County Journal Olivia Knegendorf was the first UFO Days Queen crowned since 2021.",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "GALLERY: Never-ending fun at Elmwood UFO Days",
-          "source": "Pierce County Journal",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNV9EaHBkX0txMnFoeFozLWVVUWhCU2ZyQUlVRldrX1JtQ0hqbFA0ZmZ3U21LN3dvdVROYjFGM19QMzg0bjJqcmlVLUFEaTdpWXJ3LUV2WmVNcFBGN3lwbTFWLTBIc3VleXB1WFRsUVU4aUhYZkx1Z2Z2a0tCMmt3dDdrTHJOY0lTdk9ZV29MTVl2T2V0Z3hGNWl3WFM?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNV9EaHBkX0txMnFoeFozLWVVUWhCU2ZyQUlVRldrX1JtQ0hqbFA0ZmZ3U21LN3dvdVROYjFGM19QMzg0bjJqcmlVLUFEaTdpWXJ3LUV2WmVNcFBGN3lwbTFWLTBIc3VleXB1WFRsUVU4aUhYZkx1Z2Z2a0tCMmt3dDdrTHJOY0lTdk9ZV29MTVl2T2V0Z3hGNWl3WFM?oc=5",
-          "publishedAt": "2026-07-29T19:48:00Z",
-          "rssPublishedAt": "2026-07-29T19:48:00Z",
-          "sourcePublishedAt": "2026-07-29T00:00:00Z",
-          "displayedAt": "2026-07-29T19:48:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "GALLERY: Never-ending fun at Elmwood UFO Days"
-      ],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "displayedAt": "2026-07-22T15:24:00Z"
     },
     {
       "id": "bay-area-ufo-buffs-assess-declassification-impact",
