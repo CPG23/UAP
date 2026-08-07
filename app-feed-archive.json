@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T11:39:38Z",
+  "timestamp": "2026-08-07T19:38:19Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -58,6 +58,61 @@
       "displayedAt": "2026-08-02T14:04:16Z"
     },
     {
+      "id": "sighting-ex-pentagon-employee-described-seeing-translucent-triangle-fly-overhead-in-2023-ufo-sighting",
+      "title": "Ex-Pentagon employee described seeing 'translucent triangle' fly overhead in 2023 UFO sighting",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQR2VTNmpaMmI4RUVJRDRybi0xYk9LQ0xZWmg3aXRrU3VKcXhScXRqTTc3ZjE2d0M3VEh1ZTZNaExsc05rYkFxM2NIdlhpaUY3NFBiYnJzdzBYUXRZVFkwem9GOHlKNHhta1I5c0I1bTJKZVZHd2pyVE9qRUp2ZlNiNFRxVGlJcmF1dzZ1TjQ0cmRnbjBqWllkN2tFZDRreUV1aHowZTVRS1RXQVFIbWJqQVc5dEdWamNDUTNUZXpPSXpEcEpEQzZsRG15QnRBSUcyd1ZwR3dQNW14YUVuel9CYy04R1QwYmF1eDlnN0VDc1BscDBqdWxjdkI1X3FzakR3?oc=5",
+      "date": "2026-08-07",
+      "publishedAt": "2026-08-07T12:57:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 60,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "PENTAGON, SIGHTING als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "PENTAGON",
+        "SIGHTING"
+      ],
+      "sourceQuality": 60,
+      "displayedAt": "2026-08-07T19:38:19Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      }
+    },
+    {
       "id": "sighting-ufo-sighting-in-a-dead-galaxy",
       "title": "UFO Sighting in a Dead Galaxy!",
       "source": "Astrobites",
@@ -97,8 +152,24 @@
       ],
       "sourceQuality": 45,
       "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-08-04T05:36:43Z"
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-08-04T05:36:43Z",
+      "sourceDisplayedAt": "2026-08-04T05:36:43Z",
+      "translation": {
+        "en": {
+          "title": "UFO Sighting in a Dead Galaxy!",
+          "summary": "Authors: Yerong Xu, Malgorzata Siudek, Victor Rodríguez Morales, Mar Mezcua, Hai-cheng Feng, Ciro Pinto, James N. At the center of some galaxies lies a supermassive black hole , accreting the gas and dust around it, called an active galactic nucleus (AGN). AGN are very energetic environments, generating winds and jets that can launch material at thousands of kilometers per second out of their host galaxy.",
+          "sourceHash": "6c4b0c5e9d2fdefc5818a1344a94bf6632c8924d",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UFO-Sichtung in einer toten Galaxie!",
+          "summary": "Autoren: Yerong Xu, Malgorzata Siudek, Victor Rodríguez Morales, Mar Mezcua, Hai-cheng Feng, Ciro Pinto, James N. Im Zentrum einiger Galaxien liegt ein supermassives Schwarzes Loch , das das Gas und den Staub um sich herum ansammelt und als aktiver galaktischer Kern (AGN) bezeichnet wird. AGN sind sehr energiereiche Umgebungen, die Winde und Jets erzeugen, die Material mit Tausenden von Kilometern pro Sekunde aus ihrer Wirtsgalaxie abschießen können.",
+          "sourceHash": "6c4b0c5e9d2fdefc5818a1344a94bf6632c8924d",
+          "provider": "google/mymemory"
+        }
+      },
+      "retainedFromPreviousScan": true
     }
   ]
 }
