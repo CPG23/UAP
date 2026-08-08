@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T04:04:17Z",
+  "timestamp": "2026-08-08T11:22:00Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -62,13 +62,13 @@
       "title": "Ex-Pentagon employee described seeing 'translucent triangle' fly overhead in 2023 UFO sighting",
       "source": "New York Post",
       "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQR2VTNmpaMmI4RUVJRDRybi0xYk9LQ0xZWmg3aXRrU3VKcXhScXRqTTc3ZjE2d0M3VEh1ZTZNaExsc05rYkFxM2NIdlhpaUY3NFBiYnJzdzBYUXRZVFkwem9GOHlKNHhta1I5c0I1bTJKZVZHd2pyVE9qRUp2ZlNiNFRxVGlJcmF1dzZ1TjQ0cmRnbjBqWllkN2tFZDRreUV1aHowZTVRS1RXQVFIbWJqQVc5dEdWamNDUTNUZXpPSXpEcEpEQzZsRG15QnRBSUcyd1ZwR3dQNW14YUVuel9CYy04R1QwYmF1eDlnN0VDc1BscDBqdWxjdkI1X3FzakR3?oc=5",
-      "date": "2026-08-07",
+      "date": "2026-07-30",
       "publishedAt": "2026-08-07T12:57:00Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 60,
+      "quality": 45,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -77,40 +77,29 @@
         },
         {
           "label": "Begriffe",
-          "points": 6,
-          "text": "PENTAGON, SIGHTING als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
+          "points": 3,
+          "text": "SIGHTING als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Titel",
-          "points": 4,
+          "points": 2,
           "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "PENTAGON",
         "SIGHTING"
       ],
-      "sourceQuality": 60,
-      "displayedAt": "2026-08-08T04:04:17Z",
+      "sourceQuality": 45,
       "summaryStatus": {
         "articleContentSummary": "missing"
-      }
+      },
+      "displayedAt": "2026-08-07T19:38:19Z"
     },
     {
       "id": "sighting-ufo-sighting-in-a-dead-galaxy",
