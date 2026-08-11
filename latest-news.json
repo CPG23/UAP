@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-10T11:44:50Z",
+  "timestamp": "2026-08-11T04:12:21Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -9,15 +9,37 @@
       "date": "2026-08-02",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 12,
+      "mentions": 13,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
-          "source": "Reuters",
+          "source": "reuters.com",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "publishedAt": "2026-05-22T07:00:00Z",
           "displayedAt": "2026-05-22T07:00:00Z"
+        },
+        {
+          "title": "Pentagon releases NEW batch of UFO files",
+          "source": "Fox News",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aS1pnN09Ha2lNSDZqeVVWSDhLRGpkcHdKOGlOWm9XVTd6YU1QNnM4Q0NNVXRkbmdWR0Zfbm1iNDZqZm0yZzNXXzlkY09ObDh0TS0tMFFn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aS1pnN09Ha2lNSDZqeVVWSDhLRGpkcHdKOGlOWm9XVTd6YU1QNnM4Q0NNVXRkbmdWR0Zfbm1iNDZqZm0yZzNXXzlkY09ObDh0TS0tMFFn?oc=5",
+          "publishedAt": "2026-08-08T16:48:21Z",
+          "rssPublishedAt": "2026-08-08T16:48:21Z",
+          "sourcePublishedAt": "2026-08-08T16:48:21Z",
+          "displayedAt": "2026-08-11T04:12:21Z",
+          "isNew": true
+        },
+        {
+          "title": "Pentagon releases new batch of UFO files: \"Did you see that?\"",
+          "source": "Yahoo",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWVRCVUdyaE9xbEt3WWFLYVNncHdZaFJ6bTFSOFVBZkZLaWliNTJlUURlS1RWajhVcU5udm45clBWTjdjMG1sX0xwbDlnLUV2aEstSmdmY2Q2VUViTXlvTGhKUDlkcGxyVzViRGpWMVN4RHJ4UDNHRjV1Tkl4TXdURDRZZmVzQk5FOXc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWVRCVUdyaE9xbEt3WWFLYVNncHdZaFJ6bTFSOFVBZkZLaWliNTJlUURlS1RWajhVcU5udm45clBWTjdjMG1sX0xwbDlnLUV2aEstSmdmY2Q2VUViTXlvTGhKUDlkcGxyVzViRGpWMVN4RHJ4UDNHRjV1Tkl4TXdURDRZZmVzQk5FOXc?oc=5",
+          "publishedAt": "2026-08-07T22:35:00Z",
+          "rssPublishedAt": "2026-08-07T22:35:00Z",
+          "sourcePublishedAt": "2026-08-07T22:35:00Z",
+          "displayedAt": "2026-08-11T04:12:21Z",
+          "isNew": true
         },
         {
           "title": "Pentagon releases new batch of UFO files: \"Did you see that?\"",
@@ -28,26 +50,6 @@
           "rssPublishedAt": "2026-08-07T22:35:00Z",
           "sourcePublishedAt": "2026-08-07T22:35:00Z",
           "displayedAt": "2026-08-07T22:35:00Z"
-        },
-        {
-          "title": "Pentagon Releases New UFO Files Including 2025 Military Encounter",
-          "source": "Koran Manado",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVWjBNYWtQNF9KNE9KdXNXb1JocnVCX1plaF85M09RUURxelh3Tl81dUJ4cXBzLV85NkNEMFFra1NqRTV3SENpT29TR21hZVZzSGFQWTNWMEF1eFduX3BVcXpMYVlQYlY1b2dUVA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVWjBNYWtQNF9KNE9KdXNXb1JocnVCX1plaF85M09RUURxelh3Tl81dUJ4cXBzLV85NkNEMFFra1NqRTV3SENpT29TR21hZVZzSGFQWTNWMEF1eFduX3BVcXpMYVlQYlY1b2dUVA?oc=5",
-          "publishedAt": "2026-08-07T18:30:00Z",
-          "rssPublishedAt": "2026-08-07T18:30:00Z",
-          "sourcePublishedAt": "2026-08-07T18:30:45Z",
-          "displayedAt": "2026-08-07T18:30:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-          "source": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORUplRUtwT19Zek1aWDdwMllOR0cySmwxb2ZUaEJWN2dIM2E2Uks1YmhETGkzMFkxU2hCLVA1NHdpc084elFhWjN3Sjh6Yzk0QWlwQjd0U1VDZ0kyOHYyVUdkeXJmMkUwcjIwb1lMTGJQU2VuLUtVZFVuSWswcVBackpHMA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORUplRUtwT19Zek1aWDdwMllOR0cySmwxb2ZUaEJWN2dIM2E2Uks1YmhETGkzMFkxU2hCLVA1NHdpc084elFhWjN3Sjh6Yzk0QWlwQjd0U1VDZ0kyOHYyVUdkeXJmMkUwcjIwb1lMTGJQU2VuLUtVZFVuSWswcVBackpHMA?oc=5",
-          "publishedAt": "2026-08-07T13:06:00Z",
-          "rssPublishedAt": "2026-08-07T13:06:00Z",
-          "sourcePublishedAt": "2026-08-07T13:06:00Z",
-          "displayedAt": "2026-08-07T13:06:00Z"
         },
         {
           "title": "War Dept. Publishes Third UFO Files on WAR.GOV/UFO",
@@ -110,12 +112,22 @@
           "rssPublishedAt": "2026-05-19T07:00:00Z",
           "sourcePublishedAt": "2026-05-19T16:30:23Z",
           "displayedAt": "2026-05-19T07:00:00Z"
+        },
+        {
+          "title": "Ex-Pentagon employee described seeing 'translucent triangle' fly overhead in 2023 UFO sighting",
+          "source": "New York Post",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQR2VTNmpaMmI4RUVJRDRybi0xYk9LQ0xZWmg3aXRrU3VKcXhScXRqTTc3ZjE2d0M3VEh1ZTZNaExsc05rYkFxM2NIdlhpaUY3NFBiYnJzdzBYUXRZVFkwem9GOHlKNHhta1I5c0I1bTJKZVZHd2pyVE9qRUp2ZlNiNFRxVGlJcmF1dzZ1TjQ0cmRnbjBqWllkN2tFZDRreUV1aHowZTVRS1RXQVFIbWJqQVc5dEdWamNDUTNUZXpPSXpEcEpEQzZsRG15QnRBSUcyd1ZwR3dQNW14YUVuel9CYy04R1QwYmF1eDlnN0VDc1BscDBqdWxjdkI1X3FzakR3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQR2VTNmpaMmI4RUVJRDRybi0xYk9LQ0xZWmg3aXRrU3VKcXhScXRqTTc3ZjE2d0M3VEh1ZTZNaExsc05rYkFxM2NIdlhpaUY3NFBiYnJzdzBYUXRZVFkwem9GOHlKNHhta1I5c0I1bTJKZVZHd2pyVE9qRUp2ZlNiNFRxVGlJcmF1dzZ1TjQ0cmRnbjBqWllkN2tFZDRreUV1aHowZTVRS1RXQVFIbWJqQVc5dEdWamNDUTNUZXpPSXpEcEpEQzZsRG15QnRBSUcyd1ZwR3dQNW14YUVuel9CYy04R1QwYmF1eDlnN0VDc1BscDBqdWxjdkI1X3FzakR3?oc=5",
+          "publishedAt": "2026-08-07T12:57:00Z",
+          "rssPublishedAt": "2026-08-07T12:57:00Z",
+          "sourcePublishedAt": "2026-08-07T12:57:14Z",
+          "displayedAt": "2026-08-07T12:57:00Z"
         }
       ],
       "clusterTitles": [
         "US releases second batch of government declassified UFO files",
+        "Pentagon releases NEW batch of UFO files",
         "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-        "Pentagon Releases New UFO Files Including 2025 Military Encounter",
         "Pentagon releases new batch of UFO files: \"Did you see that?\"",
         "War Dept. Publishes Third UFO Files on WAR.GOV/UFO",
         "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
@@ -158,8 +170,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 55,
-          "text": "12 Quellen im aktuellen Feed."
+          "points": 60,
+          "text": "13 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -168,7 +180,7 @@
         "files"
       ],
       "sourceQuality": 100,
-      "displayedAt": "2026-08-09T11:23:23Z",
+      "displayedAt": "2026-08-11T04:12:21Z",
       "sourceDisplayedAt": "2026-08-09T04:10:56Z",
       "translation": {
         "en": {
@@ -181,6 +193,67 @@
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
           "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "sighting-ufo-sighting-in-a-dead-galaxy",
+      "title": "UFO Sighting in a Dead Galaxy!",
+      "source": "Astrobites",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IZUV6TUlIOWdHRXNzYkFpNHQ4d0JaUHIwSUQ5TDNwdV9ycEdLTGh4UVpDd2RZT3F0SGpocjhXeVd4aTFza3ZqY1J6WllXenc1aVlqcUVtcDZITk9oWU8zSlZtT1FsdnRBY25MNzB0WXJndw?oc=5",
+      "date": "2026-08-07",
+      "publishedAt": "2026-07-30T07:00:00Z",
+      "summary": "2026 Exeter UFO Festival 2026 Exeter UFO Festival On September 3rd, 1965, 18-year-old Norman Muscarello reported to the Exeter Police his sighting of an unidentified flying object behind a barn in Kensington. As the Exeter police investigated the site, they too witnessed the object hovering where Muscarello had seen it. Headlines across the nation covered the story, and the rest became history as police and investigators nationwide sought to determine what young Muscarello observed that night. The Exeter Area Kiwanis Club annually sponsors a celebration of this event: The Exeter UFO Festival. Events, activities, and our speaker venue are centered in downtown Exeter NH.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "2026 Exeter UFO Festival",
+          "source": "New Hampshire Public Radio",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSEdEbWVhSm5xUzVrVmpZVXlnRmRWby1wMUFMNW0wamV3V0JvczJvOF92ZGhManZUM2FrOVA4dE4tdG92ZEZXUFQ1UU45M014ejVDTGt0MnpDNlU0VEIyMWp3aXZVQmtVUXlOWDRlTUVTQjhVeDRobXZ3d3BzS1EtNDZUWFQzMUFGU0pDTEoxd1o1ZnVy?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSEdEbWVhSm5xUzVrVmpZVXlnRmRWby1wMUFMNW0wamV3V0JvczJvOF92ZGhManZUM2FrOVA4dE4tdG92ZEZXUFQ1UU45M014ejVDTGt0MnpDNlU0VEIyMWp3aXZVQmtVUXlOWDRlTUVTQjhVeDRobXZ3d3BzS1EtNDZUWFQzMUFGU0pDTEoxd1o1ZnVy?oc=5",
+          "publishedAt": "2026-08-07T07:00:00Z",
+          "displayedAt": "2026-08-10T11:44:50Z",
+          "isNew": true
+        }
+      ],
+      "clusterTitles": [
+        "2026 Exeter UFO Festival"
+      ],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 45,
+      "displayedAt": "2026-08-04T05:36:43Z",
+      "sourceDisplayedAt": "2026-08-04T05:36:43Z",
+      "translation": {
+        "en": {
+          "title": "UFO Sighting in a Dead Galaxy!",
+          "summary": "2026 Exeter UFO Festival 2026 Exeter UFO Festival On September 3rd, 1965, 18-year-old Norman Muscarello reported to the Exeter Police his sighting of an unidentified flying object behind a barn in Kensington. As the Exeter police investigated the site, they too witnessed the object hovering where Muscarello had seen it. Headlines across the nation covered the story, and the rest became history as police and investigators nationwide sought to determine what young Muscarello observed that night.",
+          "sourceHash": "616ce168079f3ad4f2247c85e0af6e6dcd4d04c9",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UFO-Sichtung in einer toten Galaxie!",
+          "summary": "2026 Exeter UFO Festival 2026 Exeter UFO Festival Am 3. September 1965 meldete der 18-jährige Norman Muscarello der Polizei von Exeter die Sichtung eines unbekannten Flugobjekts hinter einer Scheune in Kensington. Als die Polizei von Exeter den Ort untersuchte, sahen auch sie, wie das Objekt dort schwebte, wo Muscarello es gesehen hatte. Schlagzeilen im ganzen Land berichteten über die Geschichte, und der Rest wurde Geschichte, als Polizei und Ermittler im ganzen Land herauszufinden versuchten, was der junge Muscarello in dieser Nacht beobachtete.",
+          "sourceHash": "616ce168079f3ad4f2247c85e0af6e6dcd4d04c9",
           "provider": "google"
         }
       }
@@ -285,7 +358,6 @@
       "rssDate": "2026-07-30",
       "sourcePublishedAt": "2026-08-09T07:10:00Z",
       "sourceDisplayedAt": "2026-08-09T11:23:23Z",
-      "sourceIsNew": true,
       "translation": {
         "en": {
           "title": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations",
@@ -302,134 +374,13 @@
       }
     },
     {
-      "id": "sighting-ex-pentagon-employee-described-seeing-translucent-triangle-fly-overhead-in-2023-ufo-sighting",
-      "title": "Ex-Pentagon employee described seeing 'translucent triangle' fly overhead in 2023 UFO sighting",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQR2VTNmpaMmI4RUVJRDRybi0xYk9LQ0xZWmg3aXRrU3VKcXhScXRqTTc3ZjE2d0M3VEh1ZTZNaExsc05rYkFxM2NIdlhpaUY3NFBiYnJzdzBYUXRZVFkwem9GOHlKNHhta1I5c0I1bTJKZVZHd2pyVE9qRUp2ZlNiNFRxVGlJcmF1dzZ1TjQ0cmRnbjBqWllkN2tFZDRreUV1aHowZTVRS1RXQVFIbWJqQVc5dEdWamNDUTNUZXpPSXpEcEpEQzZsRG15QnRBSUcyd1ZwR3dQNW14YUVuel9CYy04R1QwYmF1eDlnN0VDc1BscDBqdWxjdkI1X3FzakR3?oc=5",
-      "date": "2026-07-30",
-      "publishedAt": "2026-08-07T12:57:00Z",
-      "summary": "Ex-Pentagon employee described seeing ‘translucent triangle’ fly overhead in 2023 UFO sighting See more of our coverage in your search results. Add The New York Post on GoogleA former Pentagon employee and his wife saw a strange, triangle-shaped aircraft fly over their Colorado home late one night in October 2023, according to a startling account included in the fifth batch of UFO files released by the Trump administration Friday. The story, outlined in an FBI interview summary known as a Form 302 from January of this year, contains some of the most striking descriptions of any Unidentified Anomalous Phenomena — government-speak for UFOs.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "SIGHTING als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "SIGHTING"
-      ],
-      "sourceQuality": 45,
-      "displayedAt": "2026-08-07T12:57:00Z",
-      "sourceDisplayedAt": "2026-08-07T12:57:00Z",
-      "retainedFromPreviousScan": true,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "rssPublishedAt": "2026-08-07T12:57:00Z",
-      "rssDate": "2026-07-30",
-      "sourcePublishedAt": "2026-08-07T12:57:14Z",
-      "translation": {
-        "en": {
-          "title": "Ex-Pentagon employee described seeing 'translucent triangle' fly overhead in 2023 UFO sighting",
-          "summary": "Ex-Pentagon employee described seeing ‘translucent triangle’ fly overhead in 2023 UFO sighting See more of our coverage in your search results. Add The New York Post on GoogleA former Pentagon employee and his wife saw a strange, triangle-shaped aircraft fly over their Colorado home late one night in October 2023, according to a startling account included in the fifth batch of UFO files released by the Trump administration Friday.",
-          "sourceHash": "a3d28c0242bac190963442cae9ce44452176fea0",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Ein ehemaliger Mitarbeiter des Pentagon beschrieb, wie er bei einer UFO-Sichtung im Jahr 2023 ein „durchsichtiges Dreieck“ über sich fliegen sah",
-          "summary": "Ex-Pentagon-Mitarbeiter beschrieb, wie er im Jahr 2023 ein „durchsichtiges Dreieck“ über sich fliegen sah UFO-Sichtung Weitere Informationen zu unserer Berichterstattung finden Sie in Ihren Suchergebnissen. Fügen Sie The New York Post auf Google hinzuEin ehemaliger Pentagon-Mitarbeiter und seine Frau sahen spät in der Nacht im Oktober 2023 ein seltsames, dreieckiges Flugzeug über ihr Haus in Colorado fliegen, wie aus einem überraschenden Bericht hervorgeht, der im fünften Stapel von UFO-Dateien enthalten ist, die am Freitag von der Trump-Administration veröffentlicht wurden.",
-          "sourceHash": "a3d28c0242bac190963442cae9ce44452176fea0",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "sighting-ufo-sighting-in-a-dead-galaxy",
-      "title": "UFO Sighting in a Dead Galaxy!",
-      "source": "Astrobites",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IZUV6TUlIOWdHRXNzYkFpNHQ4d0JaUHIwSUQ5TDNwdV9ycEdLTGh4UVpDd2RZT3F0SGpocjhXeVd4aTFza3ZqY1J6WllXenc1aVlqcUVtcDZITk9oWU8zSlZtT1FsdnRBY25MNzB0WXJndw?oc=5",
-      "date": "2026-07-30",
-      "publishedAt": "2026-07-30T07:00:00Z",
-      "summary": "Authors: Yerong Xu, Malgorzata Siudek, Victor Rodríguez Morales, Mar Mezcua, Hai-cheng Feng, Ciro Pinto, James N. At the center of some galaxies lies a supermassive black hole , accreting the gas and dust around it, called an active galactic nucleus (AGN). AGN are very energetic environments, generating winds and jets that can launch material at thousands of kilometers per second out of their host galaxy. These winds won’t just give you a bad hair day, they can regulate the growth of the entire galaxy by either pushing out interstellar gas and limiting star formation or by compressing interstellar gas and enhancing star formation.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "SIGHTING als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "SIGHTING"
-      ],
-      "sourceQuality": 45,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "displayedAt": "2026-08-04T05:36:43Z",
-      "sourceDisplayedAt": "2026-08-04T05:36:43Z",
-      "translation": {
-        "en": {
-          "title": "UFO Sighting in a Dead Galaxy!",
-          "summary": "Authors: Yerong Xu, Malgorzata Siudek, Victor Rodríguez Morales, Mar Mezcua, Hai-cheng Feng, Ciro Pinto, James N. At the center of some galaxies lies a supermassive black hole , accreting the gas and dust around it, called an active galactic nucleus (AGN). AGN are very energetic environments, generating winds and jets that can launch material at thousands of kilometers per second out of their host galaxy.",
-          "sourceHash": "6c4b0c5e9d2fdefc5818a1344a94bf6632c8924d",
-          "provider": "original"
-        },
-        "de": {
-          "title": "UFO-Sichtung in einer toten Galaxie!",
-          "summary": "Autoren: Yerong Xu, Malgorzata Siudek, Victor Rodríguez Morales, Mar Mezcua, Hai-cheng Feng, Ciro Pinto, James N. Im Zentrum einiger Galaxien liegt ein supermassives Schwarzes Loch , das das Gas und den Staub um sich herum ansammelt und als aktiver galaktischer Kern (AGN) bezeichnet wird. AGN sind sehr energiereiche Umgebungen, die Winde und Jets erzeugen, die Material mit Tausenden von Kilometern pro Sekunde aus ihrer Wirtsgalaxie abschießen können.",
-          "sourceHash": "6c4b0c5e9d2fdefc5818a1344a94bf6632c8924d",
-          "provider": "google/mymemory"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
-    {
-      "id": "2026-exeter-ufo-festival",
-      "title": "2026 Exeter UFO Festival",
-      "source": "New Hampshire Public Radio",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSEdEbWVhSm5xUzVrVmpZVXlnRmRWby1wMUFMNW0wamV3V0JvczJvOF92ZGhManZUM2FrOVA4dE4tdG92ZEZXUFQ1UU45M014ejVDTGt0MnpDNlU0VEIyMWp3aXZVQmtVUXlOWDRlTUVTQjhVeDRobXZ3d3BzS1EtNDZUWFQzMUFGU0pDTEoxd1o1ZnVy?oc=5",
+      "id": "is-there-a-ufo-base-on-the-moon",
+      "title": "Is There a UFO Base on the Moon?",
+      "source": "Medium",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oLVh0YWlPd2pZUWxVd3kxMFExQmxzaGVlUWJFQ05YSUdMWnRYUFE1czNueXBPZG9aRUNiQy04NDc4QmowcFlvRDJwS0Rub29SNkdPTnBfLVZwTXhsVTMtd2pYQXZPaXIxVXAxUy1aT1pNS3hTUnI2ekZyOFg?oc=5",
       "date": "2026-08-07",
-      "publishedAt": "2026-08-07T07:00:00Z",
-      "summary": "2026 Exeter UFO Festival 2026 Exeter UFO Festival On September 3rd, 1965, 18-year-old Norman Muscarello reported to the Exeter Police his sighting of an unidentified flying object behind a barn in Kensington. As the Exeter police investigated the site, they too witnessed the object hovering where Muscarello had seen it. Headlines across the nation covered the story, and the rest became history as police and investigators nationwide sought to determine what young Muscarello observed that night. The Exeter Area Kiwanis Club annually sponsors a celebration of this event: The Exeter UFO Festival. Events, activities, and our speaker venue are centered in downtown Exeter NH.",
+      "publishedAt": "2026-08-07T15:08:03Z",
+      "summary": "source=post_page---byline--af6ebde72045---------------------------------------) 6 min read 3 days ago Press enter or click to view image in full size (Image credit: NewsNation) Below is a transcript of an interview I had on August 6, 2026 with Jesse Weber on _NewsNation_, regarding an unrefereed paper, written by the Ukrainian astronomers Boris Zhilayev, Vladimir Petukov and Sergey Pokhvala and posted here. The abstract of the paper states: “High-speed video recordings of the sky near the Moon have allowed us to detect numerous UFOs. The sizes of the objects vary from 14 to 36 kilometers, and their speeds range from 6 to 11 kilometers per second.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -450,21 +401,21 @@
       "matchedTerms": [],
       "sourceQuality": 40,
       "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "displayedAt": "2026-08-10T11:44:50Z",
-      "sourceDisplayedAt": "2026-08-10T11:44:50Z",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-08-11T04:12:21Z",
+      "sourceDisplayedAt": "2026-08-11T04:12:21Z",
       "sourceIsNew": true,
       "translation": {
         "en": {
-          "title": "2026 Exeter UFO Festival",
-          "summary": "2026 Exeter UFO Festival 2026 Exeter UFO Festival On September 3rd, 1965, 18-year-old Norman Muscarello reported to the Exeter Police his sighting of an unidentified flying object behind a barn in Kensington. As the Exeter police investigated the site, they too witnessed the object hovering where Muscarello had seen it. Headlines across the nation covered the story, and the rest became history as police and investigators nationwide sought to determine what young Muscarello observed that night.",
-          "sourceHash": "83339d0db2d9d095f78b45b97b4ce2dd9a2a172d",
+          "title": "Is There a UFO Base on the Moon?",
+          "summary": "source=post_page---byline--af6ebde72045---------------------------------------) 6 min read 3 days ago Press enter or click to view image in full size (Image credit: NewsNation) Below is a transcript of an interview I had on August 6, 2026 with Jesse Weber on _NewsNation_, regarding an unrefereed paper, written by the Ukrainian astronomers Boris Zhilayev, Vladimir Petukov and Sergey Pokhvala and posted here. The abstract of the paper states: “High-speed video recordings of the sky near the Moon have allowed us to detect numerous UFOs.",
+          "sourceHash": "12650fa6260b51c803684603d73b833b24da5d6c",
           "provider": "original"
         },
         "de": {
-          "title": "2026 Exeter UFO Festival",
-          "summary": "2026 Exeter UFO Festival 2026 Exeter UFO Festival Am 3. September 1965 meldete der 18-jährige Norman Muscarello der Polizei von Exeter die Sichtung eines unbekannten Flugobjekts hinter einer Scheune in Kensington. Als die Polizei von Exeter den Ort untersuchte, sahen auch sie, wie das Objekt dort schwebte, wo Muscarello es gesehen hatte. Schlagzeilen im ganzen Land berichteten über die Geschichte, und der Rest wurde Geschichte, als Polizei und Ermittler im ganzen Land herauszufinden versuchten, was der junge Muscarello in dieser Nacht beobachtete.",
-          "sourceHash": "83339d0db2d9d095f78b45b97b4ce2dd9a2a172d",
+          "title": "Gibt es eine UFO-Basis auf dem Mond?",
+          "summary": "source=post_page---byline--af6ebde72045---------------------------------------) 6 Minuten gelesen vor 3 Tagen Drücken Sie die Eingabetaste oder klicken Sie, um das Bild in voller Größe anzuzeigen (Bildnachweis: NewsNation) Unten finden Sie eine Abschrift eines Interviews, das ich am 6. August 2026 mit Jesse Weber auf _NewsNation_ geführt habe, bezüglich einer nicht referierten Arbeit, geschrieben von den ukrainischen Astronomen Boris Zhilayev und Vladimir Petukov und Sergey Pokhvala und hier gepostet. In der Zusammenfassung des Papiers heißt es: „Hochgeschwindigkeitsvideoaufnahmen des Himmels in der Nähe des Mondes haben es uns ermöglicht, zahlreiche UFOs zu entdecken.",
+          "sourceHash": "12650fa6260b51c803684603d73b833b24da5d6c",
           "provider": "google"
         }
       }
@@ -519,39 +470,44 @@
   ],
   "summaries": {
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
+    "sighting-ufo-sighting-in-a-dead-galaxy": "2026 Exeter UFO Festival 2026 Exeter UFO Festival On September 3rd, 1965, 18-year-old Norman Muscarello reported to the Exeter Police his sighting of an unidentified flying object behind a barn in Kensington. As the Exeter police investigated the site, they too witnessed the object hovering where Muscarello had seen it. Headlines across the nation covered the story, and the rest became history as police and investigators nationwide sought to determine what young Muscarello observed that night. The Exeter Area Kiwanis Club annually sponsors a celebration of this event: The Exeter UFO Festival. Events, activities, and our speaker venue are centered in downtown Exeter NH.",
     "film-cenap-germany-s-central-hub-for-ufo-sightings-and-scientific-explanations": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world. From amateur beginnings to a national clearinghouse Kohler, an amateur astronomer, said his involvement began with youthful recklessness while working at an observatory.",
-    "sighting-ex-pentagon-employee-described-seeing-translucent-triangle-fly-overhead-in-2023-ufo-sighting": "Ex-Pentagon employee described seeing ‘translucent triangle’ fly overhead in 2023 UFO sighting See more of our coverage in your search results. Add The New York Post on GoogleA former Pentagon employee and his wife saw a strange, triangle-shaped aircraft fly over their Colorado home late one night in October 2023, according to a startling account included in the fifth batch of UFO files released by the Trump administration Friday. The story, outlined in an FBI interview summary known as a Form 302 from January of this year, contains some of the most striking descriptions of any Unidentified Anomalous Phenomena — government-speak for UFOs.",
-    "sighting-ufo-sighting-in-a-dead-galaxy": "Authors: Yerong Xu, Malgorzata Siudek, Victor Rodríguez Morales, Mar Mezcua, Hai-cheng Feng, Ciro Pinto, James N. At the center of some galaxies lies a supermassive black hole , accreting the gas and dust around it, called an active galactic nucleus (AGN). AGN are very energetic environments, generating winds and jets that can launch material at thousands of kilometers per second out of their host galaxy. These winds won’t just give you a bad hair day, they can regulate the growth of the entire galaxy by either pushing out interstellar gas and limiting star formation or by compressing interstellar gas and enhancing star formation.",
-    "2026-exeter-ufo-festival": "2026 Exeter UFO Festival 2026 Exeter UFO Festival On September 3rd, 1965, 18-year-old Norman Muscarello reported to the Exeter Police his sighting of an unidentified flying object behind a barn in Kensington. As the Exeter police investigated the site, they too witnessed the object hovering where Muscarello had seen it. Headlines across the nation covered the story, and the rest became history as police and investigators nationwide sought to determine what young Muscarello observed that night. The Exeter Area Kiwanis Club annually sponsors a celebration of this event: The Exeter UFO Festival. Events, activities, and our speaker venue are centered in downtown Exeter NH.",
+    "is-there-a-ufo-base-on-the-moon": "source=post_page---byline--af6ebde72045---------------------------------------) 6 min read 3 days ago Press enter or click to view image in full size (Image credit: NewsNation) Below is a transcript of an interview I had on August 6, 2026 with Jesse Weber on _NewsNation_, regarding an unrefereed paper, written by the Ukrainian astronomers Boris Zhilayev, Vladimir Petukov and Sergey Pokhvala and posted here. The abstract of the paper states: “High-speed video recordings of the sky near the Moon have allowed us to detect numerous UFOs. The sizes of the objects vary from 14 to 36 kilometers, and their speeds range from 6 to 11 kilometers per second.",
     "alien-alert-ufo-days-2026-kicks-off-this-week": "The 2026-27 Elmwood UFO Days Queen Olivia Knegendorf (left) and Princess Nora Fish. Sarah Nigbor / Pierce County Journal UFO Royalty candidate Olivia Knegendorf, who will be a freshman at Elmwood High School in the fall, is interested in a mechanical engineering career. Sarah Nigbor / Pierce County Journal UFO royalty candidate Nora Fish is going into eighth grade this year. She said Elmwood is an amazing place to call home: a small town with big opportunities. Sarah Nigbor / Pierce County Journal Olivia Knegendorf was the first UFO Days Queen crowned since 2021."
   },
   "notificationBatch": {
-    "timestamp": "2026-08-10T11:44:50Z",
+    "timestamp": "2026-08-11T04:12:21Z",
     "ids": [
-      "2026-exeter-ufo-festival"
+      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+      "is-there-a-ufo-base-on-the-moon"
     ],
     "articles": [
       {
-        "id": "2026-exeter-ufo-festival",
-        "title": "2026 Exeter UFO Festival",
-        "source": "New Hampshire Public Radio"
+        "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+        "source": "U.S. Department of War (.gov)"
+      },
+      {
+        "id": "is-there-a-ufo-base-on-the-moon",
+        "title": "Is There a UFO Base on the Moon?",
+        "source": "Medium"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 394,
-    "broadTopics": 173,
+    "broadArticles": 401,
+    "broadTopics": 179,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
-    "appTopics": 7,
+    "appTopics": 6,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 2,
+    "splitUnrelatedGroupedSources": 5,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 1,
+    "regroupedTopics": 2,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -566,7 +522,7 @@
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 7,
+      "kept": 6,
       "missing": 1,
       "missingItems": [
         {
@@ -579,14 +535,14 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 10,
-      "outputArticles": 6,
-      "preservedSourceSummaries": 4
+      "inputArticles": 11,
+      "outputArticles": 8,
+      "preservedSourceSummaries": 6
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 6,
-      "outputArticles": 6,
+      "inputArticles": 8,
+      "outputArticles": 8,
       "missingSummaries": 2,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
@@ -601,82 +557,79 @@
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
       "updatedArticles": 1,
       "clearedTranslations": 1,
-      "reorderedBySourceCount": false
+      "reorderedBySourceCount": true
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 2,
-      "addedSources": 33,
+      "updatedTopics": 5,
+      "addedSources": 70,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 15,
-      "cleanedArticles": 0,
-      "removedDuplicateTopics": 1,
+      "sources": 14,
+      "cleanedArticles": 1,
+      "removedDuplicateTopics": 2,
       "staleSummariesCleared": 0,
       "rejectedArticleSources": 0,
       "promotedPrimaryFromSource": false
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 5,
-      "outputArticles": 5,
+      "inputArticles": 6,
+      "outputArticles": 6,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 5,
+      "inputArticles": 6,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 6,
-      "currentBeforeRestore": 5,
-      "restoredArticles": 2,
+      "archiveCandidates": 7,
+      "currentBeforeRestore": 6,
+      "restoredArticles": 0,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
-      "restoredTitles": [
-        "Ex-Pentagon employee described seeing 'translucent triangle' fly overhead in 2023 UFO sighting",
-        "UFO Sighting in a Dead Galaxy!"
-      ]
+      "restoredTitles": []
     },
     "finalFeedSourceConsistency": {
       "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v5_restore_department_sources",
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 7
+      "articlesRefreshed": 6
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 18,
+      "checkedSources": 19,
       "updatedSources": 9,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 7,
-      "newSources": 9
+      "updatedTopics": 6,
+      "newSources": 3
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 6,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 4,
+      "newTopics": 2,
+      "topicsWithNewSources": 2
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
-      "correctedOldSourceMarkers": 8,
+      "notifications": 2,
+      "freshSources": 3,
+      "correctedOldSourceMarkers": 1,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 15
+      "seededSeenFromPreviousFeed": 24
     }
   },
   "translations": {
@@ -694,6 +647,20 @@
         "provider": "google"
       }
     },
+    "sighting-ufo-sighting-in-a-dead-galaxy": {
+      "en": {
+        "title": "UFO Sighting in a Dead Galaxy!",
+        "summary": "2026 Exeter UFO Festival 2026 Exeter UFO Festival On September 3rd, 1965, 18-year-old Norman Muscarello reported to the Exeter Police his sighting of an unidentified flying object behind a barn in Kensington. As the Exeter police investigated the site, they too witnessed the object hovering where Muscarello had seen it. Headlines across the nation covered the story, and the rest became history as police and investigators nationwide sought to determine what young Muscarello observed that night.",
+        "sourceHash": "616ce168079f3ad4f2247c85e0af6e6dcd4d04c9",
+        "provider": "original"
+      },
+      "de": {
+        "title": "UFO-Sichtung in einer toten Galaxie!",
+        "summary": "2026 Exeter UFO Festival 2026 Exeter UFO Festival Am 3. September 1965 meldete der 18-jährige Norman Muscarello der Polizei von Exeter die Sichtung eines unbekannten Flugobjekts hinter einer Scheune in Kensington. Als die Polizei von Exeter den Ort untersuchte, sahen auch sie, wie das Objekt dort schwebte, wo Muscarello es gesehen hatte. Schlagzeilen im ganzen Land berichteten über die Geschichte, und der Rest wurde Geschichte, als Polizei und Ermittler im ganzen Land herauszufinden versuchten, was der junge Muscarello in dieser Nacht beobachtete.",
+        "sourceHash": "616ce168079f3ad4f2247c85e0af6e6dcd4d04c9",
+        "provider": "google"
+      }
+    },
     "film-cenap-germany-s-central-hub-for-ufo-sightings-and-scientific-explanations": {
       "en": {
         "title": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations",
@@ -708,45 +675,17 @@
         "provider": "google"
       }
     },
-    "sighting-ex-pentagon-employee-described-seeing-translucent-triangle-fly-overhead-in-2023-ufo-sighting": {
+    "is-there-a-ufo-base-on-the-moon": {
       "en": {
-        "title": "Ex-Pentagon employee described seeing 'translucent triangle' fly overhead in 2023 UFO sighting",
-        "summary": "Ex-Pentagon employee described seeing ‘translucent triangle’ fly overhead in 2023 UFO sighting See more of our coverage in your search results. Add The New York Post on GoogleA former Pentagon employee and his wife saw a strange, triangle-shaped aircraft fly over their Colorado home late one night in October 2023, according to a startling account included in the fifth batch of UFO files released by the Trump administration Friday.",
-        "sourceHash": "a3d28c0242bac190963442cae9ce44452176fea0",
+        "title": "Is There a UFO Base on the Moon?",
+        "summary": "source=post_page---byline--af6ebde72045---------------------------------------) 6 min read 3 days ago Press enter or click to view image in full size (Image credit: NewsNation) Below is a transcript of an interview I had on August 6, 2026 with Jesse Weber on _NewsNation_, regarding an unrefereed paper, written by the Ukrainian astronomers Boris Zhilayev, Vladimir Petukov and Sergey Pokhvala and posted here. The abstract of the paper states: “High-speed video recordings of the sky near the Moon have allowed us to detect numerous UFOs.",
+        "sourceHash": "12650fa6260b51c803684603d73b833b24da5d6c",
         "provider": "original"
       },
       "de": {
-        "title": "Ein ehemaliger Mitarbeiter des Pentagon beschrieb, wie er bei einer UFO-Sichtung im Jahr 2023 ein „durchsichtiges Dreieck“ über sich fliegen sah",
-        "summary": "Ex-Pentagon-Mitarbeiter beschrieb, wie er im Jahr 2023 ein „durchsichtiges Dreieck“ über sich fliegen sah UFO-Sichtung Weitere Informationen zu unserer Berichterstattung finden Sie in Ihren Suchergebnissen. Fügen Sie The New York Post auf Google hinzuEin ehemaliger Pentagon-Mitarbeiter und seine Frau sahen spät in der Nacht im Oktober 2023 ein seltsames, dreieckiges Flugzeug über ihr Haus in Colorado fliegen, wie aus einem überraschenden Bericht hervorgeht, der im fünften Stapel von UFO-Dateien enthalten ist, die am Freitag von der Trump-Administration veröffentlicht wurden.",
-        "sourceHash": "a3d28c0242bac190963442cae9ce44452176fea0",
-        "provider": "google"
-      }
-    },
-    "sighting-ufo-sighting-in-a-dead-galaxy": {
-      "en": {
-        "title": "UFO Sighting in a Dead Galaxy!",
-        "summary": "Authors: Yerong Xu, Malgorzata Siudek, Victor Rodríguez Morales, Mar Mezcua, Hai-cheng Feng, Ciro Pinto, James N. At the center of some galaxies lies a supermassive black hole , accreting the gas and dust around it, called an active galactic nucleus (AGN). AGN are very energetic environments, generating winds and jets that can launch material at thousands of kilometers per second out of their host galaxy.",
-        "sourceHash": "6c4b0c5e9d2fdefc5818a1344a94bf6632c8924d",
-        "provider": "original"
-      },
-      "de": {
-        "title": "UFO-Sichtung in einer toten Galaxie!",
-        "summary": "Autoren: Yerong Xu, Malgorzata Siudek, Victor Rodríguez Morales, Mar Mezcua, Hai-cheng Feng, Ciro Pinto, James N. Im Zentrum einiger Galaxien liegt ein supermassives Schwarzes Loch , das das Gas und den Staub um sich herum ansammelt und als aktiver galaktischer Kern (AGN) bezeichnet wird. AGN sind sehr energiereiche Umgebungen, die Winde und Jets erzeugen, die Material mit Tausenden von Kilometern pro Sekunde aus ihrer Wirtsgalaxie abschießen können.",
-        "sourceHash": "6c4b0c5e9d2fdefc5818a1344a94bf6632c8924d",
-        "provider": "google/mymemory"
-      }
-    },
-    "2026-exeter-ufo-festival": {
-      "en": {
-        "title": "2026 Exeter UFO Festival",
-        "summary": "2026 Exeter UFO Festival 2026 Exeter UFO Festival On September 3rd, 1965, 18-year-old Norman Muscarello reported to the Exeter Police his sighting of an unidentified flying object behind a barn in Kensington. As the Exeter police investigated the site, they too witnessed the object hovering where Muscarello had seen it. Headlines across the nation covered the story, and the rest became history as police and investigators nationwide sought to determine what young Muscarello observed that night.",
-        "sourceHash": "83339d0db2d9d095f78b45b97b4ce2dd9a2a172d",
-        "provider": "original"
-      },
-      "de": {
-        "title": "2026 Exeter UFO Festival",
-        "summary": "2026 Exeter UFO Festival 2026 Exeter UFO Festival Am 3. September 1965 meldete der 18-jährige Norman Muscarello der Polizei von Exeter die Sichtung eines unbekannten Flugobjekts hinter einer Scheune in Kensington. Als die Polizei von Exeter den Ort untersuchte, sahen auch sie, wie das Objekt dort schwebte, wo Muscarello es gesehen hatte. Schlagzeilen im ganzen Land berichteten über die Geschichte, und der Rest wurde Geschichte, als Polizei und Ermittler im ganzen Land herauszufinden versuchten, was der junge Muscarello in dieser Nacht beobachtete.",
-        "sourceHash": "83339d0db2d9d095f78b45b97b4ce2dd9a2a172d",
+        "title": "Gibt es eine UFO-Basis auf dem Mond?",
+        "summary": "source=post_page---byline--af6ebde72045---------------------------------------) 6 Minuten gelesen vor 3 Tagen Drücken Sie die Eingabetaste oder klicken Sie, um das Bild in voller Größe anzuzeigen (Bildnachweis: NewsNation) Unten finden Sie eine Abschrift eines Interviews, das ich am 6. August 2026 mit Jesse Weber auf _NewsNation_ geführt habe, bezüglich einer nicht referierten Arbeit, geschrieben von den ukrainischen Astronomen Boris Zhilayev und Vladimir Petukov und Sergey Pokhvala und hier gepostet. In der Zusammenfassung des Papiers heißt es: „Hochgeschwindigkeitsvideoaufnahmen des Himmels in der Nähe des Mondes haben es uns ermöglicht, zahlreiche UFOs zu entdecken.",
+        "sourceHash": "12650fa6260b51c803684603d73b833b24da5d6c",
         "provider": "google"
       }
     },
@@ -766,7 +705,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 6,
+    "prepared": 5,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
