@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-12T04:35:13Z",
+  "timestamp": "2026-08-12T11:42:59Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -129,8 +129,7 @@
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSEdEbWVhSm5xUzVrVmpZVXlnRmRWby1wMUFMNW0wamV3V0JvczJvOF92ZGhManZUM2FrOVA4dE4tdG92ZEZXUFQ1UU45M014ejVDTGt0MnpDNlU0VEIyMWp3aXZVQmtVUXlOWDRlTUVTQjhVeDRobXZ3d3BzS1EtNDZUWFQzMUFGU0pDTEoxd1o1ZnVy?oc=5",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSEdEbWVhSm5xUzVrVmpZVXlnRmRWby1wMUFMNW0wamV3V0JvczJvOF92ZGhManZUM2FrOVA4dE4tdG92ZEZXUFQ1UU45M014ejVDTGt0MnpDNlU0VEIyMWp3aXZVQmtVUXlOWDRlTUVTQjhVeDRobXZ3d3BzS1EtNDZUWFQzMUFGU0pDTEoxd1o1ZnVy?oc=5",
           "publishedAt": "2026-08-07T07:00:00Z",
-          "displayedAt": "2026-08-10T11:44:50Z",
-          "isNew": true
+          "displayedAt": "2026-08-07T07:00:00Z"
         }
       ],
       "clusterTitles": [
@@ -217,12 +216,12 @@
       "displayedAt": "2026-08-09T11:23:23Z"
     },
     {
-      "id": "sighting-feds-declassify-two-more-uap-sightings-that-took-place-above-colorado-springs",
-      "title": "Feds declassify two more UAP sightings that took place above Colorado Springs",
-      "source": "Colorado Springs Gazette",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQXVVRXFZUjMwUDdwNGZMUHgxd0R6c1dqU2hSRWRsMmVENTVQQ056dGxEUzlQb2xJLUlKeEw4UlBWckhlZmpJUngwZDdHMl9POXotNlBjNVh6bThkc0RZVlR4dVdTdXhIWExjcU1maEdTNm4waTNqVUNsalFzdWZVem5LOVAtWVp0M0hkVHJSTGt4Mm52dWV6WHB1cnJSX1dieUlwanNIV2ZUWHRwVnc?oc=5",
+      "id": "sighting-ex-pentagon-employee-described-seeing-translucent-triangle-fly-overhead-in-2023-ufo-sighting",
+      "title": "Ex-Pentagon employee described seeing 'translucent triangle' fly overhead in 2023 UFO sighting",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQR2VTNmpaMmI4RUVJRDRybi0xYk9LQ0xZWmg3aXRrU3VKcXhScXRqTTc3ZjE2d0M3VEh1ZTZNaExsc05rYkFxM2NIdlhpaUY3NFBiYnJzdzBYUXRZVFkwem9GOHlKNHhta1I5c0I1bTJKZVZHd2pyVE9qRUp2ZlNiNFRxVGlJcmF1dzZ1TjQ0cmRnbjBqWllkN2tFZDRreUV1aHowZTVRS1RXQVFIbWJqQVc5dEdWamNDUTNUZXpPSXpEcEpEQzZsRG15QnRBSUcyd1ZwR3dQNW14YUVuel9CYy04R1QwYmF1eDlnN0VDc1BscDBqdWxjdkI1X3FzakR3?oc=5",
       "date": "2026-07-30",
-      "publishedAt": "2026-08-08T15:41:08Z",
+      "publishedAt": "2026-08-07T12:57:00Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
@@ -258,7 +257,7 @@
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "displayedAt": "2026-08-12T04:35:13Z"
+      "displayedAt": "2026-08-12T11:42:59Z"
     },
     {
       "id": "is-there-a-ufo-base-on-the-moon",
@@ -289,7 +288,7 @@
       "sourceQuality": 40,
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-08-12T04:35:13Z",
+      "displayedAt": "2026-08-12T11:42:59Z",
       "summaryStatus": {
         "articleContentSummary": "missing",
         "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
