@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-13T11:43:02Z",
+  "timestamp": "2026-08-14T04:42:43Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -9,7 +9,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93WkZ2b2NkZFZaa0lLcW45ckRWY1VKX0xHLXlrOWkxWHJka1NEOTN4UEZwZ1NCWTNJYWhpejlFM1NZb2l3bzBHUUY5WjhqNHZWTkx6MjBvUG5nZG9P?oc=5",
       "date": "2026-08-11",
       "publishedAt": "2026-08-11T06:00:12Z",
-      "summary": "",
+      "summary": "Learn more Sign in # UFO Disclosure 2026: Why Is Nobody Paying Attention? | Government Secrets & Alien Encounters 371 views 2d ago 371 views • Aug 10, 2026 [](http://youtu. be/@Matrix_Fall) Matrix_Fall Matrix_Fall 256 subscribers Subscribe Subscribed 12 Download Who or what, holds Dominion over earth? UFO disclosure is happening — but why does it seem like almost nobody is paying attention? …more more ## Music 1 song # Bubbling Mystery #### EZB Pandemic Music Transcript Follow along using the transcript.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -52,10 +52,9 @@
         "DISCLOSURE",
         "GOVERNMENT"
       ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
       "sourceQuality": 70,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-08-12T04:35:13Z"
     },
     {
@@ -174,22 +173,32 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "is-there-a-ufo-base-on-the-moon",
-      "title": "Is There a UFO Base on the Moon?",
-      "source": "Medium",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oLVh0YWlPd2pZUWxVd3kxMFExQmxzaGVlUWJFQ05YSUdMWnRYUFE1czNueXBPZG9aRUNiQy04NDc4QmowcFlvRDJwS0Rub29SNkdPTnBfLVZwTXhsVTMtd2pYQXZPaXIxVXAxUy1aT1pNS3hTUnI2ekZyOFg?oc=5",
-      "date": "2026-08-07",
-      "publishedAt": "2026-08-07T15:08:03Z",
+      "id": "sighting-feds-declassify-two-more-uap-sightings-that-took-place-above-colorado-springs",
+      "title": "Feds declassify two more UAP sightings that took place above Colorado Springs",
+      "source": "Colorado Springs Gazette",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQXVVRXFZUjMwUDdwNGZMUHgxd0R6c1dqU2hSRWRsMmVENTVQQ056dGxEUzlQb2xJLUlKeEw4UlBWckhlZmpJUngwZDdHMl9POXotNlBjNVh6bThkc0RZVlR4dVdTdXhIWExjcU1maEdTNm4waTNqVUNsalFzdWZVem5LOVAtWVp0M0hkVHJSTGt4Mm52dWV6WHB1cnJSX1dieUlwanNIV2ZUWHRwVnc?oc=5",
+      "date": "2026-08-08",
+      "publishedAt": "2026-08-08T15:41:08Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 40,
+      "quality": 45,
       "qualityBreakdown": [
         {
           "label": "Basis",
           "points": 27,
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
           "label": "Starker Titel",
@@ -198,47 +207,14 @@
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-08-07T15:08:03Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
-      }
-    },
-    {
-      "id": "sighting-ex-pentagon-employee-described-seeing-translucent-triangle-fly-overhead-in-2023-ufo-sighting",
-      "title": "Ex-Pentagon employee described seeing 'translucent triangle' fly overhead in 2023 UFO sighting",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQR2VTNmpaMmI4RUVJRDRybi0xYk9LQ0xZWmg3aXRrU3VKcXhScXRqTTc3ZjE2d0M3VEh1ZTZNaExsc05rYkFxM2NIdlhpaUY3NFBiYnJzdzBYUXRZVFkwem9GOHlKNHhta1I5c0I1bTJKZVZHd2pyVE9qRUp2ZlNiNFRxVGlJcmF1dzZ1TjQ0cmRnbjBqWllkN2tFZDRreUV1aHowZTVRS1RXQVFIbWJqQVc5dEdWamNDUTNUZXpPSXpEcEpEQzZsRG15QnRBSUcyd1ZwR3dQNW14YUVuel9CYy04R1QwYmF1eDlnN0VDc1BscDBqdWxjdkI1X3FzakR3?oc=5",
-      "date": "2026-08-07",
-      "publishedAt": "2026-08-07T12:57:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
+      "matchedTerms": [
+        "SIGHTINGS"
       ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
+      "sourceQuality": 45,
+      "displayedAt": "2026-08-14T04:42:43Z",
       "summaryStatus": {
         "articleContentSummary": "missing"
-      },
-      "displayedAt": "2026-08-13T11:43:02Z"
+      }
     }
   ]
 }
