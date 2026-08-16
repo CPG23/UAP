@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-16T03:39:45Z",
+  "timestamp": "2026-08-16T11:16:35Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -106,11 +106,11 @@
       ],
       "sourceQuality": 61,
       "displayedAt": "2026-08-02T14:04:16Z",
+      "sourceDisplayedAt": "2026-08-02T14:04:16Z",
+      "retainedFromPreviousScan": true,
       "summaryStatus": {
         "articleContentSummary": "missing"
-      },
-      "sourceDisplayedAt": "2026-08-02T14:04:16Z",
-      "retainedFromPreviousScan": true
+      }
     },
     {
       "id": "rubio-says-there-s-no-ufo-cover-up-trump-would-be-showing-the-pictures",
@@ -262,7 +262,7 @@
       "sourceQuality": 45,
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-08-16T03:39:45Z",
+      "displayedAt": "2026-08-16T11:16:35Z",
       "summaryStatus": {
         "articleContentSummary": "missing",
         "message": "Keine verlaessliche Zusammenfassung verfuegbar. GitHub versucht beim naechsten Scan automatisch, diese zu ergaenzen."
