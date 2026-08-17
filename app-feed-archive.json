@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-16T11:16:35Z",
+  "timestamp": "2026-08-17T03:41:28Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -54,63 +54,6 @@
       ],
       "sourceQuality": 70,
       "displayedAt": "2026-08-12T04:35:13Z"
-    },
-    {
-      "id": "why-are-there-ndas-prohibiting-uap-disclosure-to-president-trump-avi-loeb",
-      "title": "Why Are There NDAs Prohibiting UAP Disclosure To President Trump? - Avi Loeb",
-      "source": "Avi Loeb – Medium",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd0VyQjkwMmpzSWlTcEUta1lwY2U0RElMQWxYLXV3bUV5SkVpOHM2SFlZblk5aWxZRWpHZnRBSndyR0xQeDVuR2hFVVFYdDAzdXdSM0ZTY0FOQy1ESHZCVy1RWUZyX3BVYnl1UHNXM05Uc3ZhNXpfOGw2Mng5TUlqdWc1RTZiV0ZEbEJKaFpEN3F4aThqUGFZTHE2ZzM0TG00dFZxZTZXSE8?oc=5",
-      "date": "2026-08-02",
-      "publishedAt": "2026-08-02T14:04:16Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 61,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DISCLOSURE, TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "disclosure",
-        "trump"
-      ],
-      "sourceQuality": 61,
-      "displayedAt": "2026-08-02T14:04:16Z",
-      "sourceDisplayedAt": "2026-08-02T14:04:16Z",
-      "retainedFromPreviousScan": true,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      }
     },
     {
       "id": "rubio-says-there-s-no-ufo-cover-up-trump-would-be-showing-the-pictures",
@@ -262,7 +205,7 @@
       "sourceQuality": 45,
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-08-16T11:16:35Z",
+      "displayedAt": "2026-08-08T15:41:08Z",
       "summaryStatus": {
         "articleContentSummary": "missing",
         "message": "Keine verlaessliche Zusammenfassung verfuegbar. GitHub versucht beim naechsten Scan automatisch, diese zu ergaenzen."
