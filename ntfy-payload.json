@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "3 neue Artikel",
+  "message": "──────────────\n14,000 UFO sightings in Germany: Reporting centre in Hesse investigates\n──────────────\nExclusive | 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources\n──────────────\nTexas UFO files have it all: A lockdown, a fake saucer and a glowing egg\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}

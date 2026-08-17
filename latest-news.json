@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T03:41:28Z",
+  "timestamp": "2026-08-17T11:21:00Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -166,11 +166,91 @@
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
       }
+    },
+    {
+      "id": "sighting-14-000-ufo-sightings-in-germany-reporting-centre-in-hesse-investigates",
+      "title": "14,000 UFO sightings in Germany: Reporting centre in Hesse investigates",
+      "source": "Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNExDM3lIRE5xUDQxTEFoZi1JQVdkV1JjcTlDd2thVEFmWEQtcHhNeXJ4TXZPX0dyTlZ0OFgtenk1RWktZk14NGM3UklVZHVMdlg3SGJuZl91dEpzVHVFNUFkc3diMW5PVy12Qm5wUXd0UzgyeGZaVVR4MFl4WWFDUVNVRDNmbXgyMzljTkx5MWlNMWpHMWRxUXppbE9OZk4xMUpoN3pDemxVVTVxZTc0?oc=5",
+      "date": "2026-08-09",
+      "publishedAt": "2026-08-09T06:45:37Z",
+      "summary": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world. From amateur beginnings to a national clearinghouse Kohler, an amateur astronomer, said his involvement began with youthful recklessness while working at an observatory.",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations",
+          "source": "IndexBox",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb2FhVmg3QkJsRXZVcmdaaXAtb1dSeWxBRk9nb1JNNVpRbHZuSnptQTl5cWhBa21ta0J5ZVBiYzFSYU16WEl3ZGdyak8xVmQtYTRXT3I5TVdtZ1F2QlpETG01NzU0TXB4TENUSVc2TzFHVDIwaXFDaWVWblJNSkp0X3pxTFp0Yk14WTFhN2o4OWM0bnpNVFFfYWpuNDFQN18wc0puMA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb2FhVmg3QkJsRXZVcmdaaXAtb1dSeWxBRk9nb1JNNVpRbHZuSnptQTl5cWhBa21ta0J5ZVBiYzFSYU16WEl3ZGdyak8xVmQtYTRXT3I5TVdtZ1F2QlpETG01NzU0TXB4TENUSVc2TzFHVDIwaXFDaWVWblJNSkp0X3pxTFp0Yk14WTFhN2o4OWM0bnpNVFFfYWpuNDFQN18wc0puMA?oc=5",
+          "publishedAt": "2026-08-09T07:10:00Z",
+          "rssPublishedAt": "2026-08-09T07:10:00Z",
+          "sourcePublishedAt": "2026-08-09T07:10:00Z",
+          "displayedAt": "2026-08-09T07:10:00Z"
+        }
+      ],
+      "clusterTitles": [
+        "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations"
+      ],
+      "quality": 50,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "SIGHTINGS"
+      ],
+      "sourceQuality": 50,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-08-17T11:21:00Z",
+      "translation": {
+        "en": {
+          "title": "14,000 UFO sightings in Germany: Reporting centre in Hesse investigates",
+          "summary": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world.",
+          "sourceHash": "0d11b5a9d37e0e628f50c20cd030ee40d9fbe65b",
+          "provider": "original"
+        },
+        "de": {
+          "title": "14.000 UFO-Sichtungen in Deutschland: Meldestelle in Hessen ermittelt",
+          "summary": "CENAP: Deutschlands zentrale Anlaufstelle für UFO-Sichtungen und wissenschaftliche Erklärungen Das Zentrale Forschungsnetzwerk für außergewöhnliche Himmelsphänomene (CENAP) ist in Deutschland zur ersten Anlaufstelle für Personen geworden, die wissenschaftliche Erklärungen für ungewöhnliche Himmelsbeobachtungen suchen. Laut CENAP-Direktor Hansjürgen Kohler hat die Organisation mit täglich drei bis sechs neuen Fällen noch nie so viele Meldungen erhalten wie jetzt und ist damit die am stärksten ausgelastete Meldestelle im deutschsprachigen Raum.",
+          "sourceHash": "0d11b5a9d37e0e628f50c20cd030ee40d9fbe65b",
+          "provider": "google"
+        }
+      },
+      "rssPublishedAt": "2026-08-09T06:45:37Z",
+      "rssDate": "2026-08-09",
+      "sourcePublishedAt": "2026-08-09T06:45:37Z",
+      "sourceDisplayedAt": "2026-08-17T11:21:00Z",
+      "sourceIsNew": true
     },
     {
       "id": "ufo-disclosure-2026-why-is-nobody-paying-attention-government-secrets-alien-encounters",
@@ -291,73 +371,13 @@
       "sourceDisplayedAt": "2026-08-15T03:30:26Z"
     },
     {
-      "id": "film-cenap-germany-s-central-hub-for-ufo-sightings-and-scientific-explanations",
-      "title": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations",
-      "source": "IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb2FhVmg3QkJsRXZVcmdaaXAtb1dSeWxBRk9nb1JNNVpRbHZuSnptQTl5cWhBa21ta0J5ZVBiYzFSYU16WEl3ZGdyak8xVmQtYTRXT3I5TVdtZ1F2QlpETG01NzU0TXB4TENUSVc2TzFHVDIwaXFDaWVWblJNSkp0X3pxTFp0Yk14WTFhN2o4OWM0bnpNVFFfYWpuNDFQN18wc0puMA?oc=5",
-      "date": "2026-07-30",
-      "publishedAt": "2026-08-09T07:10:00Z",
-      "summary": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world. From amateur beginnings to a national clearinghouse Kohler, an amateur astronomer, said his involvement began with youthful recklessness while working at an observatory.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "SIGHTING als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "SIGHTING"
-      ],
-      "sourceQuality": 45,
-      "displayedAt": "2026-08-09T11:23:23Z",
-      "rssPublishedAt": "2026-08-09T07:10:00Z",
-      "rssDate": "2026-07-30",
-      "sourcePublishedAt": "2026-08-09T07:10:00Z",
-      "sourceDisplayedAt": "2026-08-09T11:23:23Z",
-      "translation": {
-        "en": {
-          "title": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations",
-          "summary": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world.",
-          "sourceHash": "1057ab5d374d546b4d31e3ec31d00ffe38f59cd1",
-          "provider": "original"
-        },
-        "de": {
-          "title": "CENAP: Deutschlands zentrale Drehscheibe für UFO-Sichtungen und wissenschaftliche Erklärungen",
-          "summary": "CENAP: Deutschlands zentrale Anlaufstelle für UFO-Sichtungen und wissenschaftliche Erklärungen Das Zentrale Forschungsnetzwerk für außergewöhnliche Himmelsphänomene (CENAP) ist in Deutschland zur ersten Anlaufstelle für Personen geworden, die wissenschaftliche Erklärungen für ungewöhnliche Himmelsbeobachtungen suchen. Laut CENAP-Direktor Hansjürgen Kohler hat die Organisation mit täglich drei bis sechs neuen Fällen noch nie so viele Meldungen erhalten wie jetzt und ist damit die am stärksten ausgelastete Meldestelle im deutschsprachigen Raum.",
-          "sourceHash": "1057ab5d374d546b4d31e3ec31d00ffe38f59cd1",
-          "provider": "google"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
-    {
-      "id": "sighting-feds-declassify-two-more-uap-sightings-that-took-place-above-colorado-springs",
-      "title": "Feds declassify two more UAP sightings that took place above Colorado Springs",
-      "source": "Colorado Springs Gazette",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQXVVRXFZUjMwUDdwNGZMUHgxd0R6c1dqU2hSRWRsMmVENTVQQ056dGxEUzlQb2xJLUlKeEw4UlBWckhlZmpJUngwZDdHMl9POXotNlBjNVh6bThkc0RZVlR4dVdTdXhIWExjcU1maEdTNm4waTNqVUNsalFzdWZVem5LOVAtWVp0M0hkVHJSTGt4Mm52dWV6WHB1cnJSX1dieUlwanNIV2ZUWHRwVnc?oc=5",
+      "id": "file-release-exclusive-100-foot-triangular-ufo-over-colorado-base-captured-in-video-air-force-won-t-release-sources",
+      "title": "Exclusive | 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOFk4NkFSeTNRaGktazBZQ3VnRlRiUWNsZ0hNZHg4eVBEd3A1cmpIbnZwX2pYVlFkWUxZeEVxdklGbGpkSEJPMm0zNEkwWllMeG85VTNaSGhNal9YdzI2LTR2Wkp0cE5GZ1pUTDNndVpjSW1tZWUtV0Z6TWpfeVVrMG5Rb3AxQURkZVBNTHAxQ1JqaHgxUl9FQmFLMUFQNWxz?oc=5",
       "date": "2026-08-08",
-      "publishedAt": "2026-08-08T15:41:08Z",
-      "summary": "Feds declassify two more UAP sightings that took place above Colorado Springs On August 7, the Department of War released a fifth round of documents related to unidentified aerial phenomenon (UAP) reports – or as they were once called, UFOs – and Colorado Springs was mentioned two more times. While the reports of both Colorado Springs incidents are heavily redacted, the reports provide at least some insight into what occurred; both reports came with a rendering of what was seen. An unnamed employee working for an unnamed entity in Colorado Springs reportedly walked over to his co-worker and started to admire the stars in the night sky.",
+      "publishedAt": "2026-08-08T07:00:00Z",
+      "summary": "US News exclusive 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources See more of our coverage in your search results. Add The New York Post on GoogleA pair of classified videos allegedly showing a 100-foot black triangular UFO over a Colorado military base remain locked away despite President Trump’s new order aimed at encouraging more UFO whistleblowers to come forward, sources familiar with the footage told The Post. Two videos, recorded on a service member’s personal cellphone on consecutive nights in 2023, are among the pieces of evidence whistleblowers say still cannot be discussed or released publicly because they remain classified by the Air Force, sources said.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -389,24 +409,75 @@
         "SIGHTINGS"
       ],
       "sourceQuality": 45,
+      "displayedAt": "2026-08-17T11:21:00Z",
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-08-08T15:41:08Z",
-      "rssPublishedAt": "2026-08-08T15:41:08Z",
+      "rssPublishedAt": "2026-08-08T07:00:00Z",
       "rssDate": "2026-08-08",
-      "sourcePublishedAt": "2026-08-08T15:40:50Z",
-      "sourceDisplayedAt": "2026-08-08T15:41:08Z",
+      "sourcePublishedAt": "2026-08-08T11:36:19Z",
+      "sourceDisplayedAt": "2026-08-17T11:21:00Z",
+      "sourceIsNew": true,
       "translation": {
         "en": {
-          "title": "Feds declassify two more UAP sightings that took place above Colorado Springs",
-          "summary": "Feds declassify two more UAP sightings that took place above Colorado Springs On August 7, the Department of War released a fifth round of documents related to unidentified aerial phenomenon (UAP) reports – or as they were once called, UFOs – and Colorado Springs was mentioned two more times. While the reports of both Colorado Springs incidents are heavily redacted, the reports provide at least some insight into what occurred; both reports came with a rendering of what was seen.",
-          "sourceHash": "a5c72a8790795a4f9ab010c88c23c2babf0f1d1b",
+          "title": "Exclusive | 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources",
+          "summary": "US News exclusive 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources See more of our coverage in your search results. Add The New York Post on GoogleA pair of classified videos allegedly showing a 100-foot black triangular UFO over a Colorado military base remain locked away despite President Trump’s new order aimed at encouraging more UFO whistleblowers to come forward, sources familiar with the footage told The Post.",
+          "sourceHash": "615de8fbe7e77be42f79dd138213628d4385b624",
           "provider": "original"
         },
         "de": {
-          "title": "Die Feds geben zwei weitere UAP-Sichtungen frei, die über Colorado Springs stattfanden",
-          "summary": "Feds geben zwei weitere UAP-Sichtungen frei, die über Colorado Springs stattfanden. Am 7. August veröffentlichte das Kriegsministerium eine fünfte Runde von Dokumenten im Zusammenhang mit Berichten über nicht identifizierte Luftphänomene (UAP) – oder wie sie früher genannt wurden, UFOs – und Colorado Springs wurde noch zweimal erwähnt. Während die Berichte über beide Vorfälle in Colorado Springs stark geschwärzt sind, bieten die Berichte zumindest einen gewissen Einblick in die Ereignisse; Beide Berichte enthielten eine Darstellung dessen, was gesehen wurde.",
-          "sourceHash": "a5c72a8790795a4f9ab010c88c23c2babf0f1d1b",
+          "title": "Exklusiv | 100 Fuß großes dreieckiges UFO über dem Stützpunkt in Colorado, aufgenommen in einem Video, das die Luftwaffe nicht veröffentlichen wird: Quellen",
+          "summary": "Exklusives 100-Fuß-Dreiecks-UFO von US News über dem Stützpunkt in Colorado, aufgenommen in einem Video, das die Luftwaffe nicht veröffentlicht: Quellen Weitere Informationen zu unserer Berichterstattung finden Sie in Ihren Suchergebnissen. Fügen Sie The New York Post auf Google hinzu. Zwei geheime Videos, die angeblich ein 100 Fuß großes schwarzes dreieckiges UFO über einer Militärbasis in Colorado zeigen, bleiben trotz der neuen Anordnung von Präsident Trump, die darauf abzielt, mehr UFO-Whistleblower zu ermutigen, sich zu melden, unter Verschluss, teilten mit dem Filmmaterial vertraute Quellen der Post mit.",
+          "sourceHash": "615de8fbe7e77be42f79dd138213628d4385b624",
+          "provider": "google"
+        }
+      }
+    },
+    {
+      "id": "texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg",
+      "title": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg",
+      "source": "marshallnewsmessenger.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPamZteFZISnljQ2FKRnBwZkh1WnpfbmxLajdSa3p5eHZIMlJHbGJxdTV6ckd4V1g4VW1Xb2E0dEF2WHJQM2F3b1R5MkVxNjZ4SlZFX21JZjV1R0lCMVN3QWxkMEpNUEtELXpVbzRHTjAzcFNoS0R2SGpDWVMtTXVnLWJRUHAxdS1zdzVoMjBnQVJVWUFPcGxXN0UtcW5oLTc0OHc4VnM3cjFfQzUzUnJERUtiazJKZjg?oc=5",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17T10:22:42Z",
+      "summary": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg Published 5:20 am Monday, August 17, 2026 Something odd over an Amarillo nuclear weapons plant, strange lights around Camp Hood, a flying saucer hoax in Alice, an egg-shaped craft near Lackland AFB, Project Grudge and a special agent’s warning to J. Edgar Hoover are among the top Texas ties found in the Pentagon’s secret papers about unidentified flying objects and aliens. The incidents were described in the thousands of records the Pentagon has been posting on its UFO website since President Donald Trump called for more transparency into what the government calls Unidentified Anomalous Phenomena.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "displayedAt": "2026-08-17T11:21:00Z",
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "rssPublishedAt": "2026-08-17T10:22:42Z",
+      "rssDate": "2026-08-17",
+      "sourcePublishedAt": "2026-08-17T10:20:27Z",
+      "sourceDisplayedAt": "2026-08-17T11:21:00Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg",
+          "summary": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg Published 5:20 am Monday, August 17, 2026 Something odd over an Amarillo nuclear weapons plant, strange lights around Camp Hood, a flying saucer hoax in Alice, an egg-shaped craft near Lackland AFB, Project Grudge and a special agent’s warning to J. Edgar Hoover are among the top Texas ties found in the Pentagon’s secret papers about unidentified flying objects and aliens.",
+          "sourceHash": "1780efd2b15fb714504a8c6d53fe8f7fd16673f2",
+          "provider": "original"
+        },
+        "de": {
+          "title": "In den UFO-Dateien von Texas steckt alles: Eine Sperre, eine falsche Untertasse und ein leuchtendes Ei",
+          "summary": "Texas-UFO-Akten enthalten alles: Eine Sperre, eine gefälschte Untertasse und ein leuchtendes Ei. Veröffentlicht am Montag, 17. August 2026, 5:20 Uhr. Etwas Seltsames über einem Atomwaffenwerk in Amarillo, seltsame Lichter rund um Camp Hood, ein Schwindel über eine fliegende Untertasse in Alice, ein eiförmiges Raumschiff in der Nähe der Lackland AFB, Project Grudge und die Warnung eines Spezialagenten an J. Edgar Hoover gehören zu den wichtigsten texanischen Verbindungen, die in den Geheimpapieren des Pentagons über Unbekannte gefunden werden Flugobjekte und Außerirdische.",
+          "sourceHash": "1780efd2b15fb714504a8c6d53fe8f7fd16673f2",
           "provider": "google"
         }
       }
@@ -415,21 +486,42 @@
   "summaries": {
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
     "ufo-disclosure-2026-why-is-nobody-paying-attention-government-secrets-alien-encounters": "Learn more Sign in # UFO Disclosure 2026: Why Is Nobody Paying Attention? | Government Secrets & Alien Encounters 371 views 2d ago 371 views • Aug 10, 2026 [](http://youtu. be/@Matrix_Fall) Matrix_Fall Matrix_Fall 256 subscribers Subscribe Subscribed 12 Download Who or what, holds Dominion over earth? UFO disclosure is happening — but why does it seem like almost nobody is paying attention? …more more ## Music 1 song # Bubbling Mystery #### EZB Pandemic Music Transcript Follow along using the transcript.",
-    "film-cenap-germany-s-central-hub-for-ufo-sightings-and-scientific-explanations": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world. From amateur beginnings to a national clearinghouse Kohler, an amateur astronomer, said his involvement began with youthful recklessness while working at an observatory.",
-    "sighting-feds-declassify-two-more-uap-sightings-that-took-place-above-colorado-springs": "Feds declassify two more UAP sightings that took place above Colorado Springs On August 7, the Department of War released a fifth round of documents related to unidentified aerial phenomenon (UAP) reports – or as they were once called, UFOs – and Colorado Springs was mentioned two more times. While the reports of both Colorado Springs incidents are heavily redacted, the reports provide at least some insight into what occurred; both reports came with a rendering of what was seen. An unnamed employee working for an unnamed entity in Colorado Springs reportedly walked over to his co-worker and started to admire the stars in the night sky."
+    "sighting-14-000-ufo-sightings-in-germany-reporting-centre-in-hesse-investigates": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world. From amateur beginnings to a national clearinghouse Kohler, an amateur astronomer, said his involvement began with youthful recklessness while working at an observatory.",
+    "file-release-exclusive-100-foot-triangular-ufo-over-colorado-base-captured-in-video-air-force-won-t-release-sources": "US News exclusive 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources See more of our coverage in your search results. Add The New York Post on GoogleA pair of classified videos allegedly showing a 100-foot black triangular UFO over a Colorado military base remain locked away despite President Trump’s new order aimed at encouraging more UFO whistleblowers to come forward, sources familiar with the footage told The Post. Two videos, recorded on a service member’s personal cellphone on consecutive nights in 2023, are among the pieces of evidence whistleblowers say still cannot be discussed or released publicly because they remain classified by the Air Force, sources said.",
+    "texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg Published 5:20 am Monday, August 17, 2026 Something odd over an Amarillo nuclear weapons plant, strange lights around Camp Hood, a flying saucer hoax in Alice, an egg-shaped craft near Lackland AFB, Project Grudge and a special agent’s warning to J. Edgar Hoover are among the top Texas ties found in the Pentagon’s secret papers about unidentified flying objects and aliens. The incidents were described in the thousands of records the Pentagon has been posting on its UFO website since President Donald Trump called for more transparency into what the government calls Unidentified Anomalous Phenomena."
   },
   "notificationBatch": {
-    "timestamp": "2026-08-17T03:41:28Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-08-17T11:21:00Z",
+    "ids": [
+      "sighting-14-000-ufo-sightings-in-germany-reporting-centre-in-hesse-investigates",
+      "file-release-exclusive-100-foot-triangular-ufo-over-colorado-base-captured-in-video-air-force-won-t-release-sources",
+      "texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg"
+    ],
+    "articles": [
+      {
+        "id": "sighting-14-000-ufo-sightings-in-germany-reporting-centre-in-hesse-investigates",
+        "title": "14,000 UFO sightings in Germany: Reporting centre in Hesse investigates",
+        "source": "Euronews.com"
+      },
+      {
+        "id": "file-release-exclusive-100-foot-triangular-ufo-over-colorado-base-captured-in-video-air-force-won-t-release-sources",
+        "title": "Exclusive | 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources",
+        "source": "New York Post"
+      },
+      {
+        "id": "texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg",
+        "title": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg",
+        "source": "marshallnewsmessenger.com"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 396,
-    "broadTopics": 162,
-    "notificationArticles": 0,
-    "notificationTopics": 0,
-    "newNotificationTopics": 0,
-    "appTopics": 5,
+    "broadArticles": 392,
+    "broadTopics": 170,
+    "notificationArticles": 1,
+    "notificationTopics": 1,
+    "newNotificationTopics": 1,
+    "appTopics": 6,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
@@ -444,14 +536,14 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 2,
-      "repaired": 1,
-      "fallbackRepaired": 1,
+      "attempts": 3,
+      "repaired": 2,
+      "fallbackRepaired": 2,
       "missing": 1
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 5,
+      "kept": 6,
       "missing": 1,
       "missingItems": [
         {
@@ -464,33 +556,33 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 6,
-      "outputArticles": 3,
-      "preservedSourceSummaries": 2
+      "inputArticles": 7,
+      "outputArticles": 5,
+      "preservedSourceSummaries": 3
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 3,
-      "outputArticles": 3,
-      "missingSummaries": 1,
+      "inputArticles": 5,
+      "outputArticles": 5,
+      "missingSummaries": 2,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
       "notification": "new_visible_topics_or_new_sources_inside_visible_topics"
     },
-    "sightingFileReleaseSeparation": {
-      "policy": "keep_sighting_reports_separate_from_document_file_releases_v2_clear_stale_summary_quality",
+    "warReleaseSummaryGuard": {
+      "policy": "department_of_war_pursue_release_summary_from_release_page_v4_second_batch_clusters",
       "updatedArticles": 1
     },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
       "updatedArticles": 1,
       "clearedTranslations": 1,
-      "reorderedBySourceCount": false
+      "reorderedBySourceCount": true
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 1,
+      "updatedTopics": 2,
       "addedSources": 18,
       "maxSourcesPerArticle": 18
     },
@@ -500,71 +592,65 @@
       "sources": 13,
       "cleanedArticles": 1,
       "removedDuplicateTopics": 0,
-      "staleSummariesCleared": 1,
+      "staleSummariesCleared": 0,
       "rejectedArticleSources": 0,
       "promotedPrimaryFromSource": true
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 4,
-      "outputArticles": 4,
+      "inputArticles": 6,
+      "outputArticles": 6,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
-    "warReleaseSummaryGuard": {
-      "policy": "department_of_war_pursue_release_summary_from_release_page_v4_second_batch_clusters",
-      "updatedArticles": 1
-    },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 4,
+      "inputArticles": 6,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 6,
-      "currentBeforeRestore": 4,
-      "restoredArticles": 1,
+      "archiveCandidates": 5,
+      "currentBeforeRestore": 6,
+      "restoredArticles": 0,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
-      "restoredTitles": [
-        "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations"
-      ]
+      "restoredTitles": []
     },
     "finalFeedSourceConsistency": {
       "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v5_restore_department_sources",
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 5
+      "articlesRefreshed": 6
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 16,
-      "updatedSources": 7,
+      "checkedSources": 18,
+      "updatedSources": 10,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 5,
-      "newSources": 2
+      "updatedTopics": 6,
+      "newSources": 3
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 4,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 6,
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 0,
-      "freshSources": 0,
-      "correctedOldSourceMarkers": 2,
+      "notifications": 3,
+      "freshSources": 3,
+      "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 23
+      "seededSeenFromPreviousFeed": 21
     }
   },
   "translations": {
@@ -577,8 +663,22 @@
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+        "provider": "google"
+      }
+    },
+    "sighting-14-000-ufo-sightings-in-germany-reporting-centre-in-hesse-investigates": {
+      "en": {
+        "title": "14,000 UFO sightings in Germany: Reporting centre in Hesse investigates",
+        "summary": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world.",
+        "sourceHash": "0d11b5a9d37e0e628f50c20cd030ee40d9fbe65b",
+        "provider": "original"
+      },
+      "de": {
+        "title": "14.000 UFO-Sichtungen in Deutschland: Meldestelle in Hessen ermittelt",
+        "summary": "CENAP: Deutschlands zentrale Anlaufstelle für UFO-Sichtungen und wissenschaftliche Erklärungen Das Zentrale Forschungsnetzwerk für außergewöhnliche Himmelsphänomene (CENAP) ist in Deutschland zur ersten Anlaufstelle für Personen geworden, die wissenschaftliche Erklärungen für ungewöhnliche Himmelsbeobachtungen suchen. Laut CENAP-Direktor Hansjürgen Kohler hat die Organisation mit täglich drei bis sechs neuen Fällen noch nie so viele Meldungen erhalten wie jetzt und ist damit die am stärksten ausgelastete Meldestelle im deutschsprachigen Raum.",
+        "sourceHash": "0d11b5a9d37e0e628f50c20cd030ee40d9fbe65b",
         "provider": "google"
       }
     },
@@ -596,37 +696,37 @@
         "provider": "google"
       }
     },
-    "film-cenap-germany-s-central-hub-for-ufo-sightings-and-scientific-explanations": {
+    "file-release-exclusive-100-foot-triangular-ufo-over-colorado-base-captured-in-video-air-force-won-t-release-sources": {
       "en": {
-        "title": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations",
-        "summary": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world.",
-        "sourceHash": "1057ab5d374d546b4d31e3ec31d00ffe38f59cd1",
+        "title": "Exclusive | 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources",
+        "summary": "US News exclusive 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources See more of our coverage in your search results. Add The New York Post on GoogleA pair of classified videos allegedly showing a 100-foot black triangular UFO over a Colorado military base remain locked away despite President Trump’s new order aimed at encouraging more UFO whistleblowers to come forward, sources familiar with the footage told The Post.",
+        "sourceHash": "615de8fbe7e77be42f79dd138213628d4385b624",
         "provider": "original"
       },
       "de": {
-        "title": "CENAP: Deutschlands zentrale Drehscheibe für UFO-Sichtungen und wissenschaftliche Erklärungen",
-        "summary": "CENAP: Deutschlands zentrale Anlaufstelle für UFO-Sichtungen und wissenschaftliche Erklärungen Das Zentrale Forschungsnetzwerk für außergewöhnliche Himmelsphänomene (CENAP) ist in Deutschland zur ersten Anlaufstelle für Personen geworden, die wissenschaftliche Erklärungen für ungewöhnliche Himmelsbeobachtungen suchen. Laut CENAP-Direktor Hansjürgen Kohler hat die Organisation mit täglich drei bis sechs neuen Fällen noch nie so viele Meldungen erhalten wie jetzt und ist damit die am stärksten ausgelastete Meldestelle im deutschsprachigen Raum.",
-        "sourceHash": "1057ab5d374d546b4d31e3ec31d00ffe38f59cd1",
+        "title": "Exklusiv | 100 Fuß großes dreieckiges UFO über dem Stützpunkt in Colorado, aufgenommen in einem Video, das die Luftwaffe nicht veröffentlichen wird: Quellen",
+        "summary": "Exklusives 100-Fuß-Dreiecks-UFO von US News über dem Stützpunkt in Colorado, aufgenommen in einem Video, das die Luftwaffe nicht veröffentlicht: Quellen Weitere Informationen zu unserer Berichterstattung finden Sie in Ihren Suchergebnissen. Fügen Sie The New York Post auf Google hinzu. Zwei geheime Videos, die angeblich ein 100 Fuß großes schwarzes dreieckiges UFO über einer Militärbasis in Colorado zeigen, bleiben trotz der neuen Anordnung von Präsident Trump, die darauf abzielt, mehr UFO-Whistleblower zu ermutigen, sich zu melden, unter Verschluss, teilten mit dem Filmmaterial vertraute Quellen der Post mit.",
+        "sourceHash": "615de8fbe7e77be42f79dd138213628d4385b624",
         "provider": "google"
       }
     },
-    "sighting-feds-declassify-two-more-uap-sightings-that-took-place-above-colorado-springs": {
+    "texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg": {
       "en": {
-        "title": "Feds declassify two more UAP sightings that took place above Colorado Springs",
-        "summary": "Feds declassify two more UAP sightings that took place above Colorado Springs On August 7, the Department of War released a fifth round of documents related to unidentified aerial phenomenon (UAP) reports – or as they were once called, UFOs – and Colorado Springs was mentioned two more times. While the reports of both Colorado Springs incidents are heavily redacted, the reports provide at least some insight into what occurred; both reports came with a rendering of what was seen.",
-        "sourceHash": "a5c72a8790795a4f9ab010c88c23c2babf0f1d1b",
+        "title": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg",
+        "summary": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg Published 5:20 am Monday, August 17, 2026 Something odd over an Amarillo nuclear weapons plant, strange lights around Camp Hood, a flying saucer hoax in Alice, an egg-shaped craft near Lackland AFB, Project Grudge and a special agent’s warning to J. Edgar Hoover are among the top Texas ties found in the Pentagon’s secret papers about unidentified flying objects and aliens.",
+        "sourceHash": "1780efd2b15fb714504a8c6d53fe8f7fd16673f2",
         "provider": "original"
       },
       "de": {
-        "title": "Die Feds geben zwei weitere UAP-Sichtungen frei, die über Colorado Springs stattfanden",
-        "summary": "Feds geben zwei weitere UAP-Sichtungen frei, die über Colorado Springs stattfanden. Am 7. August veröffentlichte das Kriegsministerium eine fünfte Runde von Dokumenten im Zusammenhang mit Berichten über nicht identifizierte Luftphänomene (UAP) – oder wie sie früher genannt wurden, UFOs – und Colorado Springs wurde noch zweimal erwähnt. Während die Berichte über beide Vorfälle in Colorado Springs stark geschwärzt sind, bieten die Berichte zumindest einen gewissen Einblick in die Ereignisse; Beide Berichte enthielten eine Darstellung dessen, was gesehen wurde.",
-        "sourceHash": "a5c72a8790795a4f9ab010c88c23c2babf0f1d1b",
+        "title": "In den UFO-Dateien von Texas steckt alles: Eine Sperre, eine falsche Untertasse und ein leuchtendes Ei",
+        "summary": "Texas-UFO-Akten enthalten alles: Eine Sperre, eine gefälschte Untertasse und ein leuchtendes Ei. Veröffentlicht am Montag, 17. August 2026, 5:20 Uhr. Etwas Seltsames über einem Atomwaffenwerk in Amarillo, seltsame Lichter rund um Camp Hood, ein Schwindel über eine fliegende Untertasse in Alice, ein eiförmiges Raumschiff in der Nähe der Lackland AFB, Project Grudge und die Warnung eines Spezialagenten an J. Edgar Hoover gehören zu den wichtigsten texanischen Verbindungen, die in den Geheimpapieren des Pentagons über Unbekannte gefunden werden Flugobjekte und Außerirdische.",
+        "sourceHash": "1780efd2b15fb714504a8c6d53fe8f7fd16673f2",
         "provider": "google"
       }
     }
   },
   "translationMeta": {
-    "prepared": 4,
+    "prepared": 5,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
