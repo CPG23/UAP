@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T03:38:49Z",
+  "timestamp": "2026-08-18T11:21:11Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -119,7 +119,11 @@
           "source": "Euronews.com",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNExDM3lIRE5xUDQxTEFoZi1JQVdkV1JjcTlDd2thVEFmWEQtcHhNeXJ4TXZPX0dyTlZ0OFgtenk1RWktZk14NGM3UklVZHVMdlg3SGJuZl91dEpzVHVFNUFkc3diMW5PVy12Qm5wUXd0UzgyeGZaVVR4MFl4WWFDUVNVRDNmbXgyMzljTkx5MWlNMWpHMWRxUXppbE9OZk4xMUpoN3pDemxVVTVxZTc0?oc=5",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNExDM3lIRE5xUDQxTEFoZi1JQVdkV1JjcTlDd2thVEFmWEQtcHhNeXJ4TXZPX0dyTlZ0OFgtenk1RWktZk14NGM3UklVZHVMdlg3SGJuZl91dEpzVHVFNUFkc3diMW5PVy12Qm5wUXd0UzgyeGZaVVR4MFl4WWFDUVNVRDNmbXgyMzljTkx5MWlNMWpHMWRxUXppbE9OZk4xMUpoN3pDemxVVTVxZTc0?oc=5",
-          "publishedAt": "2026-08-09T06:45:37Z"
+          "publishedAt": "2026-08-09T06:45:37Z",
+          "rssPublishedAt": "2026-08-09T06:45:37Z",
+          "sourcePublishedAt": "2026-08-09T06:45:37Z",
+          "displayedAt": "2026-08-17T11:21:00Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
@@ -153,10 +157,54 @@
         "SIGHTINGS"
       ],
       "sourceQuality": 45,
-      "displayedAt": "2026-08-18T03:38:49Z"
+      "displayedAt": "2026-08-09T07:10:00Z"
     },
     {
-      "id": "exclusive-brussels-keen-to-monitor-ufos-under-the-radar",
+      "id": "sighting-pilots-report-unexplained-lights-over-cyprus-as-eu-monitors-ufo-reports",
+      "title": "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
+      "source": "Cyprus Mail",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ2NVZkFmZkVqZDhMcVVWSnRyeHh5dEw3b1l6OXhLaFdfaUl0My1CMkpyR0RLRXFHc3R5Q21QY2tiT2Z1VEtvY3pPMXVGN0c3YUNzMnlydnFZTHZ0cGRpQVBLNF85blNpYW1vY1lyOEJUWFR0U3RMSXFYamFnR01DdkVxdlB0cHJrb2o2VVV6ZElEVTI2dGlTdG5rb2k1cG1mUkhjZXc4VENLZw?oc=5",
+      "date": "2026-08-09",
+      "publishedAt": "2026-08-17T11:42:16Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "SIGHTINGS"
+      ],
+      "sourceQuality": 45,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-08-18T11:21:11Z"
+    },
+    {
+      "id": "program-exclusive-brussels-keen-to-monitor-ufos-under-the-radar",
       "title": "Exclusive: Brussels keen to monitor UFOs under the radar",
       "source": "euronews.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTy1faTB3Z1VFS1oxM3BXQ1pCUFk5YVJBVFRlTmJ3ZUxqRlcwdHZmUkdWOHg3Zk9WVjNvSGNoX1dxMkpuNFk4cDVZcHhhdi1RNW5fWTgzcEJGUHVCVjZpcGppMTVqTFFiR0puckdnYk1jck0zblE2TUhIRmpHcGJaVU1qaWk2R3diVTd0ODlVTDNVblM0dlVsemVQM2xkd25qdndJ?oc=5",
@@ -194,52 +242,6 @@
         "RADAR"
       ],
       "sourceQuality": 45,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-08-18T03:38:49Z"
-    },
-    {
-      "id": "sighting-feds-declassify-two-more-uap-sightings-that-took-place-above-colorado-springs",
-      "title": "Feds declassify two more UAP sightings that took place above Colorado Springs",
-      "source": "Colorado Springs Gazette",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQXVVRXFZUjMwUDdwNGZMUHgxd0R6c1dqU2hSRWRsMmVENTVQQ056dGxEUzlQb2xJLUlKeEw4UlBWckhlZmpJUngwZDdHMl9POXotNlBjNVh6bThkc0RZVlR4dVdTdXhIWExjcU1maEdTNm4waTNqVUNsalFzdWZVem5LOVAtWVp0M0hkVHJSTGt4Mm52dWV6WHB1cnJSX1dieUlwanNIV2ZUWHRwVnc?oc=5",
-      "date": "2026-08-09",
-      "publishedAt": "2026-08-08T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "SIGHTINGS"
-      ],
-      "sourceQuality": 45,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
       "displayedAt": "2026-08-18T03:38:49Z"
     }
   ]
