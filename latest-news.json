@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T03:40:14Z",
+  "timestamp": "2026-08-19T11:22:15Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -10,7 +10,7 @@
       "date": "2026-05-22",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 12,
+      "mentions": 13,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -32,7 +32,7 @@
         },
         {
           "title": "Pentagon Releases New UFO Files Including 2025 Military Encounter",
-          "source": "koranmanado.co.id",
+          "source": "Koran Manado",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVWjBNYWtQNF9KNE9KdXNXb1JocnVCX1plaF85M09RUURxelh3Tl81dUJ4cXBzLV85NkNEMFFra1NqRTV3SENpT29TR21hZVZzSGFQWTNWMEF1eFduX3BVcXpMYVlQYlY1b2dUVA?oc=5",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVWjBNYWtQNF9KNE9KdXNXb1JocnVCX1plaF85M09RUURxelh3Tl81dUJ4cXBzLV85NkNEMFFra1NqRTV3SENpT29TR21hZVZzSGFQWTNWMEF1eFduX3BVcXpMYVlQYlY1b2dUVA?oc=5",
           "publishedAt": "2026-08-07T18:30:00Z",
@@ -111,6 +111,16 @@
           "rssPublishedAt": "2026-05-19T07:00:00Z",
           "sourcePublishedAt": "2026-05-19T16:30:23Z",
           "displayedAt": "2026-05-19T07:00:00Z"
+        },
+        {
+          "title": "Exclusive | 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources",
+          "source": "New York Post",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOFk4NkFSeTNRaGktazBZQ3VnRlRiUWNsZ0hNZHg4eVBEd3A1cmpIbnZwX2pYVlFkWUxZeEVxdklGbGpkSEJPMm0zNEkwWllMeG85VTNaSGhNal9YdzI2LTR2Wkp0cE5GZ1pUTDNndVpjSW1tZWUtV0Z6TWpfeVVrMG5Rb3AxQURkZVBNTHAxQ1JqaHgxUl9FQmFLMUFQNWxz?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOFk4NkFSeTNRaGktazBZQ3VnRlRiUWNsZ0hNZHg4eVBEd3A1cmpIbnZwX2pYVlFkWUxZeEVxdklGbGpkSEJPMm0zNEkwWllMeG85VTNaSGhNal9YdzI2LTR2Wkp0cE5GZ1pUTDNndVpjSW1tZWUtV0Z6TWpfeVVrMG5Rb3AxQURkZVBNTHAxQ1JqaHgxUl9FQmFLMUFQNWxz?oc=5",
+          "publishedAt": "2026-08-08T07:00:00Z",
+          "rssPublishedAt": "2026-08-08T07:00:00Z",
+          "sourcePublishedAt": "2026-08-08T11:36:19Z",
+          "displayedAt": "2026-08-08T07:00:00Z"
         }
       ],
       "clusterTitles": [
@@ -144,8 +154,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 55,
-          "text": "12 Quellen im aktuellen Feed."
+          "points": 60,
+          "text": "13 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -523,7 +533,6 @@
       "rssDate": "2026-08-17",
       "sourcePublishedAt": "2026-08-17T08:06:04Z",
       "sourceDisplayedAt": "2026-08-18T03:38:49Z",
-      "sourceIsNew": true,
       "translation": {
         "en": {
           "title": "Exclusive: Brussels keen to monitor UFOs under the radar",
@@ -537,7 +546,54 @@
           "sourceHash": "85e2116f1afa9ea4c9d61835153b868fe244b2ab",
           "provider": "google"
         }
-      }
+      },
+      "retainedFromPreviousScan": true
+    },
+    {
+      "id": "program-is-the-trump-administration-running-a-covert-ufo-program",
+      "title": "Is the Trump administration running a covert UFO program?",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcTFyc19CTmtiSl94Sk9KZEkyZWZJVkp2d0paNTRqNm0tQXFZcGJOdk5MaGxPWlZqWlBCTXhUUzRWTzVCa3ZiZjFFZGE2OUQ1QzRiT0Q1d1c3cXJIeHg3S0RGNjhQMTZYSXJuWXQ2d2JVT1g5S1FrZFVMczRaemwxaFJpU0E4THJXWkJzTXVjLXVacHU4R1drUmxmM3hvUERjQTlMb2Vsa9IBrAFBVV95cUxPdHpuZzljVzlmRTNUMVVrZ0lQZkZWQjR2dTJTSFRTMks0aUFCRnB1VW0yT2pNWTZmeGU4YWJpbWd0SHZJekk5ZU9kOUxMd1k4V0lFUVlwZkJ2OXAtYURsaVZ4cjQ2dXBvNWVOZ0ZQU1RqNzZMNGU1Xy1jSE5hOTl0RV91ZDY4b0dRTE9keGVVMUFaWFhDVDBOcnBYYkVNTllQNVhwZmszUDdZSk5P?oc=5",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-10T07:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "RADAR als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "RADAR"
+      ],
+      "sourceQuality": 45,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-08-19T11:22:15Z",
+      "sourceDisplayedAt": "2026-08-19T11:22:15Z",
+      "sourceIsNew": true
     },
     {
       "id": "file-release-exclusive-100-foot-triangular-ufo-over-colorado-base-captured-in-video-air-force-won-t-release-sources",
@@ -598,25 +654,25 @@
     "file-release-exclusive-100-foot-triangular-ufo-over-colorado-base-captured-in-video-air-force-won-t-release-sources": "US News exclusive 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources See more of our coverage in your search results. Add The New York Post on GoogleA pair of classified videos allegedly showing a 100-foot black triangular UFO over a Colorado military base remain locked away despite President Trump’s new order aimed at encouraging more UFO whistleblowers to come forward, sources familiar with the footage told The Post. Two videos, recorded on a service member’s personal cellphone on consecutive nights in 2023, are among the pieces of evidence whistleblowers say still cannot be discussed or released publicly because they remain classified by the Air Force, sources said."
   },
   "notificationBatch": {
-    "timestamp": "2026-08-19T03:40:14Z",
+    "timestamp": "2026-08-19T11:22:15Z",
     "ids": [
-      "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence"
+      "program-is-the-trump-administration-running-a-covert-ufo-program"
     ],
     "articles": [
       {
-        "id": "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence",
-        "title": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence'",
-        "source": "Daily Mail"
+        "id": "program-is-the-trump-administration-running-a-covert-ufo-program",
+        "title": "Is the Trump administration running a covert UFO program?",
+        "source": "NewsNation"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 390,
-    "broadTopics": 171,
+    "broadArticles": 392,
+    "broadTopics": 172,
     "notificationArticles": 1,
     "notificationTopics": 1,
-    "newNotificationTopics": 1,
-    "appTopics": 8,
+    "newNotificationTopics": 0,
+    "appTopics": 9,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
@@ -631,15 +687,15 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 2,
+      "attempts": 3,
       "repaired": 0,
       "fallbackRepaired": 0,
-      "missing": 2
+      "missing": 3
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 8,
-      "missing": 2,
+      "kept": 9,
+      "missing": 3,
       "missingItems": [
         {
           "id": "rubio-says-there-s-no-ufo-cover-up-trump-would-be-showing-the-pictures",
@@ -652,6 +708,12 @@
           "title": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence'",
           "source": "Daily Mail",
           "reason": "missing_or_mismatched_article_content_summary"
+        },
+        {
+          "id": "program-is-the-trump-administration-running-a-covert-ufo-program",
+          "title": "Is the Trump administration running a covert UFO program?",
+          "source": "NewsNation",
+          "reason": "missing_or_mismatched_article_content_summary"
         }
       ]
     },
@@ -659,13 +721,13 @@
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
       "inputArticles": 8,
       "outputArticles": 6,
-      "preservedSourceSummaries": 4
+      "preservedSourceSummaries": 3
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
       "inputArticles": 6,
       "outputArticles": 6,
-      "missingSummaries": 2,
+      "missingSummaries": 3,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -673,8 +735,8 @@
     },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
-      "updatedArticles": 2,
-      "clearedTranslations": 2,
+      "updatedArticles": 3,
+      "clearedTranslations": 3,
       "reorderedBySourceCount": true
     },
     "relatedSourceBackfill": {
@@ -713,14 +775,15 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 6,
+      "archiveCandidates": 8,
       "currentBeforeRestore": 7,
-      "restoredArticles": 1,
+      "restoredArticles": 2,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
-        "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports"
+        "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
+        "Exclusive: Brussels keen to monitor UFOs under the radar"
       ]
     },
     "finalFeedSourceConsistency": {
@@ -728,32 +791,32 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 8
+      "articlesRefreshed": 9
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 20,
+      "checkedSources": 22,
       "updatedSources": 10,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 8,
-      "newSources": 3
+      "updatedTopics": 9,
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
       "correctedExistingTopics": 8,
-      "newTopics": 0,
-      "topicsWithNewSources": 0
+      "newTopics": 1,
+      "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
       "notifications": 1,
       "freshSources": 1,
-      "correctedOldSourceMarkers": 0,
+      "correctedOldSourceMarkers": 1,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 27
+      "seededSeenFromPreviousFeed": 28
     }
   },
   "translations": {

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T03:40:14Z",
+  "timestamp": "2026-08-19T11:22:15Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -122,8 +122,7 @@
           "publishedAt": "2026-08-09T06:45:37Z",
           "rssPublishedAt": "2026-08-09T06:45:37Z",
           "sourcePublishedAt": "2026-08-09T06:45:37Z",
-          "displayedAt": "2026-08-17T11:21:00Z",
-          "isNew": true
+          "displayedAt": "2026-08-09T06:45:37Z"
         }
       ],
       "clusterTitles": [
@@ -244,7 +243,7 @@
       "sourceQuality": 45,
       "displayedAt": "2026-08-18T11:21:11Z",
       "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "summaryPolicy": "source_page_article_text",
       "rssPublishedAt": "2026-08-17T11:42:16Z",
       "rssDate": "2026-08-09",
       "sourcePublishedAt": "2026-08-17T11:42:16Z",
@@ -304,7 +303,70 @@
         "RADAR"
       ],
       "sourceQuality": 45,
-      "displayedAt": "2026-08-18T03:38:49Z"
+      "displayedAt": "2026-08-18T03:38:49Z",
+      "rssPublishedAt": "2026-08-17T08:06:04Z",
+      "rssDate": "2026-08-17",
+      "sourcePublishedAt": "2026-08-17T08:06:04Z",
+      "sourceDisplayedAt": "2026-08-18T03:38:49Z",
+      "translation": {
+        "en": {
+          "title": "Exclusive: Brussels keen to monitor UFOs under the radar",
+          "summary": "Brussels has signalled it is monitoring unidentified anomalous phenomena (UAP) and has hinted at improving capabilities, according to documents seen by Euronews. The European Commission seems to have been monitoring unidentified anomalous phenomena (UAP) under the radar since at least 2023, according to a document from the Commission's defence department seen by Euronews, which pertains to sky and space observations in Malaysia. \"We are getting better at seeing it (UAPs) and better identifying it as our technological capacities improve, but we need to get even better,\" the letter read, signalling the EU executive is actively monitoring the phenomenon more than officially stated and seems keen to investigate it.",
+          "sourceHash": "85e2116f1afa9ea4c9d61835153b868fe244b2ab",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Exklusiv: Brüssel will UFOs unter dem Radar überwachen",
+          "summary": "Laut Euronews-Dokumenten hat Brüssel signalisiert, dass es nicht identifizierte anomale Phänomene (UAP) überwacht, und angedeutet, seine Fähigkeiten zu verbessern. Laut einem von Euronews eingesehenen Dokument der Verteidigungsabteilung der Kommission, das sich auf Himmels- und Weltraumbeobachtungen in Malaysia bezieht, scheint die Europäische Kommission seit mindestens 2023 unidentifizierte anomale Phänomene (UAP) unter dem Radar zu überwachen. „Wir werden immer besser darin, es zu sehen (UAPs) und es besser zu identifizieren, während sich unsere technologischen Kapazitäten verbessern, aber wir müssen noch besser werden“, heißt es in dem Brief und signalisiert damit, dass die EU-Exekutive das Phänomen aktiver beobachtet als offiziell angegeben und offenbar daran interessiert zu sein scheint, es zu untersuchen.",
+          "sourceHash": "85e2116f1afa9ea4c9d61835153b868fe244b2ab",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
+    },
+    {
+      "id": "program-is-the-trump-administration-running-a-covert-ufo-program",
+      "title": "Is the Trump administration running a covert UFO program?",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcTFyc19CTmtiSl94Sk9KZEkyZWZJVkp2d0paNTRqNm0tQXFZcGJOdk5MaGxPWlZqWlBCTXhUUzRWTzVCa3ZiZjFFZGE2OUQ1QzRiT0Q1d1c3cXJIeHg3S0RGNjhQMTZYSXJuWXQ2d2JVT1g5S1FrZFVMczRaemwxaFJpU0E4THJXWkJzTXVjLXVacHU4R1drUmxmM3hvUERjQTlMb2Vsa9IBrAFBVV95cUxPdHpuZzljVzlmRTNUMVVrZ0lQZkZWQjR2dTJTSFRTMks0aUFCRnB1VW0yT2pNWTZmeGU4YWJpbWd0SHZJekk5ZU9kOUxMd1k4V0lFUVlwZkJ2OXAtYURsaVZ4cjQ2dXBvNWVOZ0ZQU1RqNzZMNGU1Xy1jSE5hOTl0RV91ZDY4b0dRTE9keGVVMUFaWFhDVDBOcnBYYkVNTllQNVhwZmszUDdZSk5P?oc=5",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-10T07:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "RADAR als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "RADAR"
+      ],
+      "sourceQuality": 45,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-08-19T11:22:15Z"
     },
     {
       "id": "file-release-exclusive-100-foot-triangular-ufo-over-colorado-base-captured-in-video-air-force-won-t-release-sources",
@@ -335,7 +397,7 @@
       "sourceQuality": 40,
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-08-19T03:40:14Z"
+      "displayedAt": "2026-08-08T07:00:00Z"
     }
   ]
 }
