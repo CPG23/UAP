@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T11:21:11Z",
+  "timestamp": "2026-08-19T03:40:14Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -98,10 +98,10 @@
       "matchedTerms": [
         "TRUMP"
       ],
-      "sourceQuality": 54,
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
+      "sourceQuality": 54,
       "displayedAt": "2026-08-15T03:30:26Z"
     },
     {
@@ -160,12 +160,12 @@
       "displayedAt": "2026-08-09T07:10:00Z"
     },
     {
-      "id": "sighting-pilots-report-unexplained-lights-over-cyprus-as-eu-monitors-ufo-reports",
-      "title": "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
-      "source": "Cyprus Mail",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ2NVZkFmZkVqZDhMcVVWSnRyeHh5dEw3b1l6OXhLaFdfaUl0My1CMkpyR0RLRXFHc3R5Q21QY2tiT2Z1VEtvY3pPMXVGN0c3YUNzMnlydnFZTHZ0cGRpQVBLNF85blNpYW1vY1lyOEJUWFR0U3RMSXFYamFnR01DdkVxdlB0cHJrb2o2VVV6ZElEVTI2dGlTdG5rb2k1cG1mUkhjZXc4VENLZw?oc=5",
+      "id": "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence",
+      "title": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence'",
+      "source": "Daily Mail",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUHItMWVyV05jUTU2TDJWQnZ2V256S01xR0JWU3BmbXpxRnQxVXZJWDQyaGM4Y2czYVZiczM2LWNrT25WcHRxZ0JjRWhhUW0xVXV2YkUyT0Rzb0w4MnduT0cwUU5QMnMxUXRvYTF2ZGs1VUZGSXhZUnRPVVRoUm82dzhOME9ibXNmUHljR01IeFdydGVLVVc3R1hVY0pJbmVhYzJKZ2V5WdIBrAFBVV95cUxOamxtZ0J1a3F6cXNnXzRybWRUTTY1b2kyQmJncU5ScWVBNWhQdEltODV2dktoeVVhWlh2Vl94N2I4Z1QzRTIyUWxuOUVTSktNdUxMbEpMVHlQaWRyNWZKUW5ocTVTT05STG9vcWlrZUVpY1huSFlrSG90Y2ptUFVWUG56bVF0clRTYUN5NGFXRWdzZHRzMzVyS3A0WmRBWndlRUpEaXlTS2lLbzY0?oc=5",
       "date": "2026-08-09",
-      "publishedAt": "2026-08-17T11:42:16Z",
+      "publishedAt": "2026-08-18T15:34:52Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
@@ -201,7 +201,69 @@
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "displayedAt": "2026-08-18T11:21:11Z"
+      "displayedAt": "2026-08-19T03:40:14Z"
+    },
+    {
+      "id": "sighting-pilots-report-unexplained-lights-over-cyprus-as-eu-monitors-ufo-reports",
+      "title": "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
+      "source": "Cyprus Mail",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ2NVZkFmZkVqZDhMcVVWSnRyeHh5dEw3b1l6OXhLaFdfaUl0My1CMkpyR0RLRXFHc3R5Q21QY2tiT2Z1VEtvY3pPMXVGN0c3YUNzMnlydnFZTHZ0cGRpQVBLNF85blNpYW1vY1lyOEJUWFR0U3RMSXFYamFnR01DdkVxdlB0cHJrb2o2VVV6ZElEVTI2dGlTdG5rb2k1cG1mUkhjZXc4VENLZw?oc=5",
+      "date": "2026-08-09",
+      "publishedAt": "2026-08-17T11:42:16Z",
+      "summary": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023. Ackermans said the phenomenon first appeared while the aircraft was south of Cyprus. “The strangest thing was that one of the three lights would sometimes manoeuvre around the others. It looked like a chase, what the air force calls a dogfight, and then two or all three would disappear again.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "SIGHTINGS"
+      ],
+      "sourceQuality": 45,
+      "displayedAt": "2026-08-18T11:21:11Z",
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "rssPublishedAt": "2026-08-17T11:42:16Z",
+      "rssDate": "2026-08-09",
+      "sourcePublishedAt": "2026-08-17T11:42:16Z",
+      "sourceDisplayedAt": "2026-08-18T11:21:11Z",
+      "translation": {
+        "en": {
+          "title": "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
+          "summary": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023.",
+          "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Piloten melden „unerklärliche Lichter“ über Zypern, während die EU UFO-Meldungen überwacht",
+          "summary": "Piloten haben über Zypern unerklärliche Luftphänomene (UAPs) gemeldet, darunter eine Sichtung von sechs Besatzungsmitgliedern auf einem Flug südlich der Insel. Wie Euronews berichtet, wurde der Vorfall auf Zypern vom niederländischen Piloten Rob Ackermans beschrieben, der sagte, er und fünf weitere Besatzungsmitglieder hätten während eines Fluges vom Nahen Osten in die Niederlande im Jahr 2023 mehr als zwei Stunden lang ungewöhnliche Lichter beobachtet.",
+          "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "program-exclusive-brussels-keen-to-monitor-ufos-under-the-radar",
@@ -243,6 +305,37 @@
       ],
       "sourceQuality": 45,
       "displayedAt": "2026-08-18T03:38:49Z"
+    },
+    {
+      "id": "file-release-exclusive-100-foot-triangular-ufo-over-colorado-base-captured-in-video-air-force-won-t-release-sources",
+      "title": "Exclusive | 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOFk4NkFSeTNRaGktazBZQ3VnRlRiUWNsZ0hNZHg4eVBEd3A1cmpIbnZwX2pYVlFkWUxZeEVxdklGbGpkSEJPMm0zNEkwWllMeG85VTNaSGhNal9YdzI2LTR2Wkp0cE5GZ1pUTDNndVpjSW1tZWUtV0Z6TWpfeVVrMG5Rb3AxQURkZVBNTHAxQ1JqaHgxUl9FQmFLMUFQNWxz?oc=5",
+      "date": "2026-08-08",
+      "publishedAt": "2026-08-08T07:00:00Z",
+      "summary": "US News exclusive 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources See more of our coverage in your search results. Add The New York Post on GoogleA pair of classified videos allegedly showing a 100-foot black triangular UFO over a Colorado military base remain locked away despite President Trump’s new order aimed at encouraging more UFO whistleblowers to come forward, sources familiar with the footage told The Post. Two videos, recorded on a service member’s personal cellphone on consecutive nights in 2023, are among the pieces of evidence whistleblowers say still cannot be discussed or released publicly because they remain classified by the Air Force, sources said.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-08-19T03:40:14Z"
     }
   ]
 }
