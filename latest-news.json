@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T11:20:11Z",
+  "timestamp": "2026-08-22T03:35:02Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -10,8 +10,17 @@
       "date": "2026-05-22",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 12,
+      "mentions": 16,
       "otherSources": [
+        {
+          "title": "Video Pentagon releases new trove of eerie UFO files - ABC News",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAxRVktanAxVHFKdHV5Nng4czJIdmxTc0RsdG43bjVwRUptVy1LVkVfWUEtM2JTTDRvckNXdVdJYW1NczgwZzNTY3k3a0w?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAxRVktanAxVHFKdHV5Nng4czJIdmxTc0RsdG43bjVwRUptVy1LVkVfWUEtM2JTTDRvckNXdVdJYW1NczgwZzNTY3k3a0w?oc=5",
+          "publishedAt": "2026-08-21T22:58:06Z",
+          "displayedAt": "2026-08-22T03:35:02Z",
+          "isNew": true
+        },
         {
           "title": "US releases second batch of government declassified UFO files",
           "source": "Reuters",
@@ -19,6 +28,24 @@
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "publishedAt": "2026-05-22T07:00:00Z",
           "displayedAt": "2026-05-22T07:00:00Z"
+        },
+        {
+          "title": "Watch: Pentagon Releases 50 New UFO Videos Jonas Vingegaard (Bcp32n5FNc)",
+          "source": "Mshale",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjanV2U2JoMks1RERNVzBmMHNMZG8yUTY4NDZTNTN2TFRaRmNfMDloTlN1THpxajVxQmNmdTRIWk5wcXphS1Q2c0dGazNKVGlDUFN4WlkzZFJrZWM?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjanV2U2JoMks1RERNVzBmMHNMZG8yUTY4NDZTNTN2TFRaRmNfMDloTlN1THpxajVxQmNmdTRIWk5wcXphS1Q2c0dGazNKVGlDUFN4WlkzZFJrZWM?oc=5",
+          "publishedAt": "2026-08-12T03:46:02Z",
+          "displayedAt": "2026-08-12T03:46:02Z"
+        },
+        {
+          "title": "5th batch of Pentagon UAP files: Orbs and triangles",
+          "source": "EarthSky",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXVPUjJveGhNMzg0LVBKZXE4Q01VdjJCX2xoLTVqYUJmczRjcFpOZXB3UGFTYVpXS1FUUC0yU1FjSWlGQ2Y3R1RQeWVmQnFRRGIzaHozNEM1R0RhbGZWU0pVMFZnN2pubTFybUdxZUpTb1dibTlQQ2RoeExZaXZXd1AtUVdkSkU?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXVPUjJveGhNMzg0LVBKZXE4Q01VdjJCX2xoLTVqYUJmczRjcFpOZXB3UGFTYVpXS1FUUC0yU1FjSWlGQ2Y3R1RQeWVmQnFRRGIzaHozNEM1R0RhbGZWU0pVMFZnN2pubTFybUdxZUpTb1dibTlQQ2RoeExZaXZXd1AtUVdkSkU?oc=5",
+          "publishedAt": "2026-08-11T07:00:00Z",
+          "rssPublishedAt": "2026-08-11T07:00:00Z",
+          "sourcePublishedAt": "2026-08-11T17:00:48Z",
+          "displayedAt": "2026-08-11T07:00:00Z"
         },
         {
           "title": "Watch Pentagon releases NEW batch of UFO files - FNC",
@@ -50,6 +77,16 @@
           "rssPublishedAt": "2026-08-07T18:30:00Z",
           "sourcePublishedAt": "2026-08-07T18:30:45Z",
           "displayedAt": "2026-08-07T18:30:00Z"
+        },
+        {
+          "title": "Pentagon releases new batch of UFO files: \"Did you see that?\"",
+          "source": "CBS News",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORUplRUtwT19Zek1aWDdwMllOR0cySmwxb2ZUaEJWN2dIM2E2Uks1YmhETGkzMFkxU2hCLVA1NHdpc084elFhWjN3Sjh6Yzk0QWlwQjd0U1VDZ0kyOHYyVUdkeXJmMkUwcjIwb1lMTGJQU2VuLUtVZFVuSWswcVBackpHMA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORUplRUtwT19Zek1aWDdwMllOR0cySmwxb2ZUaEJWN2dIM2E2Uks1YmhETGkzMFkxU2hCLVA1NHdpc084elFhWjN3Sjh6Yzk0QWlwQjd0U1VDZ0kyOHYyVUdkeXJmMkUwcjIwb1lMTGJQU2VuLUtVZFVuSWswcVBackpHMA?oc=5",
+          "publishedAt": "2026-08-07T07:00:00Z",
+          "rssPublishedAt": "2026-08-07T07:00:00Z",
+          "sourcePublishedAt": "2026-08-07T13:06:00Z",
+          "displayedAt": "2026-08-07T07:00:00Z"
         },
         {
           "title": "Pentagon releases new batch of declassified UFO files",
@@ -113,16 +150,16 @@
         }
       ],
       "clusterTitles": [
+        "Video Pentagon releases new trove of eerie UFO files - ABC News",
         "US releases second batch of government declassified UFO files",
+        "Watch: Pentagon Releases 50 New UFO Videos Jonas Vingegaard (Bcp32n5FNc)",
+        "5th batch of Pentagon UAP files: Orbs and triangles",
         "Watch Pentagon releases NEW batch of UFO files - FNC",
         "Pentagon releases NEW batch of UFO files",
         "Pentagon Releases New UFO Files Including 2025 Military Encounter",
+        "Pentagon releases new batch of UFO files: \"Did you see that?\"",
         "Pentagon releases new batch of declassified UFO files",
-        "New videos from Pentagon’s second batch of UFO files",
-        "Pentagon releases new batch of UFO files",
-        "Highlights From 2nd Batch of Declassified UFO Files",
-        "What does the second batch of UFO files tell us?",
-        "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment"
+        "New videos from Pentagon’s second batch of UFO files"
       ],
       "quality": 100,
       "qualityBreakdown": [
@@ -143,8 +180,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 55,
-          "text": "12 Quellen im aktuellen Feed."
+          "points": 75,
+          "text": "16 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -153,7 +190,7 @@
         "released"
       ],
       "sourceQuality": 100,
-      "displayedAt": "2026-08-21T03:42:37Z",
+      "displayedAt": "2026-08-22T03:35:02Z",
       "sourceDisplayedAt": "2026-05-22T07:00:00Z",
       "retainedFromPreviousScan": true,
       "translation": {
@@ -534,55 +571,6 @@
       "sourceDisplayedAt": "2026-08-19T11:22:15Z"
     },
     {
-      "id": "file-release-exclusive-100-foot-triangular-ufo-over-colorado-base-captured-in-video-air-force-won-t-release-sources",
-      "title": "Exclusive | 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOFk4NkFSeTNRaGktazBZQ3VnRlRiUWNsZ0hNZHg4eVBEd3A1cmpIbnZwX2pYVlFkWUxZeEVxdklGbGpkSEJPMm0zNEkwWllMeG85VTNaSGhNal9YdzI2LTR2Wkp0cE5GZ1pUTDNndVpjSW1tZWUtV0Z6TWpfeVVrMG5Rb3AxQURkZVBNTHAxQ1JqaHgxUl9FQmFLMUFQNWxz?oc=5",
-      "date": "2026-08-08",
-      "publishedAt": "2026-08-08T07:00:00Z",
-      "summary": "US News exclusive 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources See more of our coverage in your search results. Add The New York Post on GoogleA pair of classified videos allegedly showing a 100-foot black triangular UFO over a Colorado military base remain locked away despite President Trump’s new order aimed at encouraging more UFO whistleblowers to come forward, sources familiar with the footage told The Post. Two videos, recorded on a service member’s personal cellphone on consecutive nights in 2023, are among the pieces of evidence whistleblowers say still cannot be discussed or released publicly because they remain classified by the Air Force, sources said.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "displayedAt": "2026-08-08T07:00:00Z",
-      "rssPublishedAt": "2026-08-08T07:00:00Z",
-      "rssDate": "2026-08-08",
-      "sourcePublishedAt": "2026-08-08T11:36:19Z",
-      "sourceDisplayedAt": "2026-08-08T07:00:00Z",
-      "translation": {
-        "en": {
-          "title": "Exclusive | 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources",
-          "summary": "US News exclusive 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources See more of our coverage in your search results. Add The New York Post on GoogleA pair of classified videos allegedly showing a 100-foot black triangular UFO over a Colorado military base remain locked away despite President Trump’s new order aimed at encouraging more UFO whistleblowers to come forward, sources familiar with the footage told The Post.",
-          "sourceHash": "615de8fbe7e77be42f79dd138213628d4385b624",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Exklusiv | 100 Fuß großes dreieckiges UFO über dem Stützpunkt in Colorado, aufgenommen in einem Video, das die Luftwaffe nicht veröffentlichen wird: Quellen",
-          "summary": "Exklusives 100-Fuß-Dreiecks-UFO von US News über dem Stützpunkt in Colorado, aufgenommen in einem Video, das die Luftwaffe nicht veröffentlicht: Quellen Weitere Informationen zu unserer Berichterstattung finden Sie in Ihren Suchergebnissen. Fügen Sie The New York Post auf Google hinzu. Zwei geheime Videos, die angeblich ein 100 Fuß großes schwarzes dreieckiges UFO über einer Militärbasis in Colorado zeigen, bleiben trotz der neuen Anordnung von Präsident Trump, die darauf abzielt, mehr UFO-Whistleblower zu ermutigen, sich zu melden, unter Verschluss, teilten mit dem Filmmaterial vertraute Quellen der Post mit.",
-          "sourceHash": "615de8fbe7e77be42f79dd138213628d4385b624",
-          "provider": "google"
-        }
-      }
-    },
-    {
       "id": "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence",
       "title": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence'",
       "source": "Daily Mail",
@@ -653,28 +641,35 @@
     "film-cenap-germany-s-central-hub-for-ufo-sightings-and-scientific-explanations": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world. From amateur beginnings to a national clearinghouse Kohler, an amateur astronomer, said his involvement began with youthful recklessness while working at an observatory.",
     "sighting-pilots-report-unexplained-lights-over-cyprus-as-eu-monitors-ufo-reports": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023. Ackermans said the phenomenon first appeared while the aircraft was south of Cyprus. “The strangest thing was that one of the three lights would sometimes manoeuvre around the others. It looked like a chase, what the air force calls a dogfight, and then two or all three would disappear again.",
     "program-exclusive-brussels-keen-to-monitor-ufos-under-the-radar": "Brussels has signalled it is monitoring unidentified anomalous phenomena (UAP) and has hinted at improving capabilities, according to documents seen by Euronews. The European Commission seems to have been monitoring unidentified anomalous phenomena (UAP) under the radar since at least 2023, according to a document from the Commission's defence department seen by Euronews, which pertains to sky and space observations in Malaysia. \"We are getting better at seeing it (UAPs) and better identifying it as our technological capacities improve, but we need to get even better,\" the letter read, signalling the EU executive is actively monitoring the phenomenon more than officially stated and seems keen to investigate it.",
-    "file-release-exclusive-100-foot-triangular-ufo-over-colorado-base-captured-in-video-air-force-won-t-release-sources": "US News exclusive 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources See more of our coverage in your search results. Add The New York Post on GoogleA pair of classified videos allegedly showing a 100-foot black triangular UFO over a Colorado military base remain locked away despite President Trump’s new order aimed at encouraging more UFO whistleblowers to come forward, sources familiar with the footage told The Post. Two videos, recorded on a service member’s personal cellphone on consecutive nights in 2023, are among the pieces of evidence whistleblowers say still cannot be discussed or released publicly because they remain classified by the Air Force, sources said.",
     "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence' | Daily Mail Online This is an epic humiliation for Harry and Meghan. we should fear the twisted real strategy behind their UK return: MAUREEN CALLAHAN How Prince Harry and Meghan Markle's American dreams failed as family leave California after tanked million-dollar Hollywood deals Harry and Meghan will be living back in Britain THIS MONTH: Pair's sudden decision to leave California takes Charles and William by surprise - Archie and Lilibet will attend UK school but couple don't plan to be working royals Blindsided Charles only found out about Harry and Meghan's return on Sunday and it wasn't discussed when King met his son six weeks ago Lindsay Clancy's life locked in psych ward: Her unfiltered true feelings about husband Patrick."
   },
   "notificationBatch": {
-    "timestamp": "2026-08-21T11:20:11Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-08-22T03:35:02Z",
+    "ids": [
+      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
+    ],
+    "articles": [
+      {
+        "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+        "source": "U.S. Department of War (.gov)"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 407,
+    "broadArticles": 404,
     "broadTopics": 176,
     "notificationArticles": 1,
     "notificationTopics": 1,
-    "newNotificationTopics": 0,
-    "appTopics": 9,
+    "newNotificationTopics": 1,
+    "appTopics": 8,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 4,
+    "regroupedTopics": 3,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -689,7 +684,7 @@
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 9,
+      "kept": 8,
       "missing": 2,
       "missingItems": [
         {
@@ -746,8 +741,8 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 7,
-      "outputArticles": 7,
+      "inputArticles": 6,
+      "outputArticles": 6,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
@@ -758,14 +753,14 @@
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 7,
+      "inputArticles": 6,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 9,
-      "currentBeforeRestore": 7,
+      "currentBeforeRestore": 6,
       "restoredArticles": 2,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
@@ -780,30 +775,30 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 9
+      "articlesRefreshed": 8
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 21,
-      "updatedSources": 8,
+      "checkedSources": 24,
+      "updatedSources": 9,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 9,
-      "newSources": 0
+      "updatedTopics": 8,
+      "newSources": 3
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 9,
-      "newTopics": 0,
-      "topicsWithNewSources": 0
+      "correctedExistingTopics": 7,
+      "newTopics": 1,
+      "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 0,
-      "freshSources": 0,
-      "correctedOldSourceMarkers": 0,
+      "notifications": 1,
+      "freshSources": 1,
+      "correctedOldSourceMarkers": 3,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 30
     }
@@ -879,20 +874,6 @@
         "provider": "google"
       }
     },
-    "file-release-exclusive-100-foot-triangular-ufo-over-colorado-base-captured-in-video-air-force-won-t-release-sources": {
-      "en": {
-        "title": "Exclusive | 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources",
-        "summary": "US News exclusive 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources See more of our coverage in your search results. Add The New York Post on GoogleA pair of classified videos allegedly showing a 100-foot black triangular UFO over a Colorado military base remain locked away despite President Trump’s new order aimed at encouraging more UFO whistleblowers to come forward, sources familiar with the footage told The Post.",
-        "sourceHash": "615de8fbe7e77be42f79dd138213628d4385b624",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Exklusiv | 100 Fuß großes dreieckiges UFO über dem Stützpunkt in Colorado, aufgenommen in einem Video, das die Luftwaffe nicht veröffentlichen wird: Quellen",
-        "summary": "Exklusives 100-Fuß-Dreiecks-UFO von US News über dem Stützpunkt in Colorado, aufgenommen in einem Video, das die Luftwaffe nicht veröffentlicht: Quellen Weitere Informationen zu unserer Berichterstattung finden Sie in Ihren Suchergebnissen. Fügen Sie The New York Post auf Google hinzu. Zwei geheime Videos, die angeblich ein 100 Fuß großes schwarzes dreieckiges UFO über einer Militärbasis in Colorado zeigen, bleiben trotz der neuen Anordnung von Präsident Trump, die darauf abzielt, mehr UFO-Whistleblower zu ermutigen, sich zu melden, unter Verschluss, teilten mit dem Filmmaterial vertraute Quellen der Post mit.",
-        "sourceHash": "615de8fbe7e77be42f79dd138213628d4385b624",
-        "provider": "google"
-      }
-    },
     "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence": {
       "en": {
         "title": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence'",
@@ -909,7 +890,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 7,
+    "prepared": 6,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",

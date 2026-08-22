@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T11:20:11Z",
+  "timestamp": "2026-08-22T03:35:02Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -323,37 +323,6 @@
         "articleContentSummary": "missing"
       },
       "displayedAt": "2026-08-19T11:22:15Z"
-    },
-    {
-      "id": "file-release-exclusive-100-foot-triangular-ufo-over-colorado-base-captured-in-video-air-force-won-t-release-sources",
-      "title": "Exclusive | 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOFk4NkFSeTNRaGktazBZQ3VnRlRiUWNsZ0hNZHg4eVBEd3A1cmpIbnZwX2pYVlFkWUxZeEVxdklGbGpkSEJPMm0zNEkwWllMeG85VTNaSGhNal9YdzI2LTR2Wkp0cE5GZ1pUTDNndVpjSW1tZWUtV0Z6TWpfeVVrMG5Rb3AxQURkZVBNTHAxQ1JqaHgxUl9FQmFLMUFQNWxz?oc=5",
-      "date": "2026-08-08",
-      "publishedAt": "2026-08-08T07:00:00Z",
-      "summary": "US News exclusive 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources See more of our coverage in your search results. Add The New York Post on GoogleA pair of classified videos allegedly showing a 100-foot black triangular UFO over a Colorado military base remain locked away despite President Trump’s new order aimed at encouraging more UFO whistleblowers to come forward, sources familiar with the footage told The Post. Two videos, recorded on a service member’s personal cellphone on consecutive nights in 2023, are among the pieces of evidence whistleblowers say still cannot be discussed or released publicly because they remain classified by the Air Force, sources said.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-08-08T07:00:00Z"
     },
     {
       "id": "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence",
