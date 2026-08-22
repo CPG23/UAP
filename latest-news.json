@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-22T03:35:02Z",
+  "timestamp": "2026-08-22T11:15:49Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -10,7 +10,7 @@
       "date": "2026-05-22",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 16,
+      "mentions": 15,
       "otherSources": [
         {
           "title": "Video Pentagon releases new trove of eerie UFO files - ABC News",
@@ -55,8 +55,7 @@
           "publishedAt": "2026-08-08T16:51:58Z",
           "rssPublishedAt": "2026-08-08T16:51:58Z",
           "sourcePublishedAt": "2026-08-08T16:51:58Z",
-          "displayedAt": "2026-08-21T03:42:37Z",
-          "isNew": true
+          "displayedAt": "2026-08-08T16:51:58Z"
         },
         {
           "title": "Pentagon releases NEW batch of UFO files",
@@ -137,16 +136,6 @@
           "rssPublishedAt": "2026-05-19T07:00:00Z",
           "sourcePublishedAt": "2026-05-19T16:30:23Z",
           "displayedAt": "2026-05-19T07:00:00Z"
-        },
-        {
-          "title": "Exclusive | 100-foot triangular UFO over Colorado base captured in video Air Force won’t release: sources",
-          "source": "New York Post",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOFk4NkFSeTNRaGktazBZQ3VnRlRiUWNsZ0hNZHg4eVBEd3A1cmpIbnZwX2pYVlFkWUxZeEVxdklGbGpkSEJPMm0zNEkwWllMeG85VTNaSGhNal9YdzI2LTR2Wkp0cE5GZ1pUTDNndVpjSW1tZWUtV0Z6TWpfeVVrMG5Rb3AxQURkZVBNTHAxQ1JqaHgxUl9FQmFLMUFQNWxz?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOFk4NkFSeTNRaGktazBZQ3VnRlRiUWNsZ0hNZHg4eVBEd3A1cmpIbnZwX2pYVlFkWUxZeEVxdklGbGpkSEJPMm0zNEkwWllMeG85VTNaSGhNal9YdzI2LTR2Wkp0cE5GZ1pUTDNndVpjSW1tZWUtV0Z6TWpfeVVrMG5Rb3AxQURkZVBNTHAxQ1JqaHgxUl9FQmFLMUFQNWxz?oc=5",
-          "publishedAt": "2026-08-08T07:00:00Z",
-          "rssPublishedAt": "2026-08-08T07:00:00Z",
-          "sourcePublishedAt": "2026-08-08T11:36:19Z",
-          "displayedAt": "2026-08-08T07:00:00Z"
         }
       ],
       "clusterTitles": [
@@ -180,8 +169,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 75,
-          "text": "16 Quellen im aktuellen Feed."
+          "points": 70,
+          "text": "15 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -644,23 +633,15 @@
     "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence' | Daily Mail Online This is an epic humiliation for Harry and Meghan. we should fear the twisted real strategy behind their UK return: MAUREEN CALLAHAN How Prince Harry and Meghan Markle's American dreams failed as family leave California after tanked million-dollar Hollywood deals Harry and Meghan will be living back in Britain THIS MONTH: Pair's sudden decision to leave California takes Charles and William by surprise - Archie and Lilibet will attend UK school but couple don't plan to be working royals Blindsided Charles only found out about Harry and Meghan's return on Sunday and it wasn't discussed when King met his son six weeks ago Lindsay Clancy's life locked in psych ward: Her unfiltered true feelings about husband Patrick."
   },
   "notificationBatch": {
-    "timestamp": "2026-08-22T03:35:02Z",
-    "ids": [
-      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
-    ],
-    "articles": [
-      {
-        "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "source": "U.S. Department of War (.gov)"
-      }
-    ]
+    "timestamp": "2026-08-22T11:15:49Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 404,
-    "broadTopics": 176,
-    "notificationArticles": 1,
-    "notificationTopics": 1,
+    "broadArticles": 407,
+    "broadTopics": 175,
+    "notificationArticles": 2,
+    "notificationTopics": 2,
     "newNotificationTopics": 1,
     "appTopics": 8,
     "retentionDays": 14,
@@ -703,7 +684,7 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 7,
+      "inputArticles": 8,
       "outputArticles": 6,
       "preservedSourceSummaries": 4
     },
@@ -759,7 +740,7 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 9,
+      "archiveCandidates": 8,
       "currentBeforeRestore": 6,
       "restoredArticles": 2,
       "blockedUnreachableTitles": 0,
@@ -779,28 +760,28 @@
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 24,
-      "updatedSources": 9,
+      "checkedSources": 23,
+      "updatedSources": 8,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 8,
-      "newSources": 3
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 7,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 8,
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
-      "correctedOldSourceMarkers": 3,
+      "notifications": 0,
+      "freshSources": 0,
+      "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 30
+      "seededSeenFromPreviousFeed": 32
     }
   },
   "translations": {
