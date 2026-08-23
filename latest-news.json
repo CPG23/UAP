@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-23T03:40:55Z",
+  "timestamp": "2026-08-23T11:15:28Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -10,7 +10,7 @@
       "date": "2026-05-22",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 12,
+      "mentions": 13,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -109,6 +109,17 @@
           "rssPublishedAt": "2026-05-19T07:00:00Z",
           "sourcePublishedAt": "2026-05-19T16:30:23Z",
           "displayedAt": "2026-05-19T07:00:00Z"
+        },
+        {
+          "title": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg",
+          "source": "Marshall News Messenger",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPamZteFZISnljQ2FKRnBwZkh1WnpfbmxLajdSa3p5eHZIMlJHbGJxdTV6ckd4V1g4VW1Xb2E0dEF2WHJQM2F3b1R5MkVxNjZ4SlZFX21JZjV1R0lCMVN3QWxkMEpNUEtELXpVbzRHTjAzcFNoS0R2SGpDWVMtTXVnLWJRUHAxdS1zdzVoMjBnQVJVWUFPcGxXN0UtcW5oLTc0OHc4VnM3cjFfQzUzUnJERUtiazJKZjg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPamZteFZISnljQ2FKRnBwZkh1WnpfbmxLajdSa3p5eHZIMlJHbGJxdTV6ckd4V1g4VW1Xb2E0dEF2WHJQM2F3b1R5MkVxNjZ4SlZFX21JZjV1R0lCMVN3QWxkMEpNUEtELXpVbzRHTjAzcFNoS0R2SGpDWVMtTXVnLWJRUHAxdS1zdzVoMjBnQVJVWUFPcGxXN0UtcW5oLTc0OHc4VnM3cjFfQzUzUnJERUtiazJKZjg?oc=5",
+          "publishedAt": "2026-08-17T10:22:42Z",
+          "rssPublishedAt": "2026-08-17T10:22:42Z",
+          "sourcePublishedAt": "2026-08-17T10:20:27Z",
+          "displayedAt": "2026-08-23T03:40:55Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
@@ -142,8 +153,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 55,
-          "text": "12 Quellen im aktuellen Feed."
+          "points": 60,
+          "text": "13 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -154,85 +165,21 @@
       "sourceQuality": 100,
       "displayedAt": "2026-08-22T03:35:02Z",
       "sourceDisplayedAt": "2026-05-22T07:00:00Z",
-      "retainedFromPreviousScan": true
-    },
-    {
-      "id": "film-cenap-germany-s-central-hub-for-ufo-sightings-and-scientific-explanations",
-      "title": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations",
-      "source": "IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb2FhVmg3QkJsRXZVcmdaaXAtb1dSeWxBRk9nb1JNNVpRbHZuSnptQTl5cWhBa21ta0J5ZVBiYzFSYU16WEl3ZGdyak8xVmQtYTRXT3I5TVdtZ1F2QlpETG01NzU0TXB4TENUSVc2TzFHVDIwaXFDaWVWblJNSkp0X3pxTFp0Yk14WTFhN2o4OWM0bnpNVFFfYWpuNDFQN18wc0puMA?oc=5",
-      "date": "2026-08-09",
-      "publishedAt": "2026-08-09T07:10:00Z",
-      "summary": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world. From amateur beginnings to a national clearinghouse Kohler, an amateur astronomer, said his involvement began with youthful recklessness while working at an observatory.",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "14,000 UFO sightings in Germany: Reporting centre in Hesse investigates",
-          "source": "Euronews.com",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNExDM3lIRE5xUDQxTEFoZi1JQVdkV1JjcTlDd2thVEFmWEQtcHhNeXJ4TXZPX0dyTlZ0OFgtenk1RWktZk14NGM3UklVZHVMdlg3SGJuZl91dEpzVHVFNUFkc3diMW5PVy12Qm5wUXd0UzgyeGZaVVR4MFl4WWFDUVNVRDNmbXgyMzljTkx5MWlNMWpHMWRxUXppbE9OZk4xMUpoN3pDemxVVTVxZTc0?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNExDM3lIRE5xUDQxTEFoZi1JQVdkV1JjcTlDd2thVEFmWEQtcHhNeXJ4TXZPX0dyTlZ0OFgtenk1RWktZk14NGM3UklVZHVMdlg3SGJuZl91dEpzVHVFNUFkc3diMW5PVy12Qm5wUXd0UzgyeGZaVVR4MFl4WWFDUVNVRDNmbXgyMzljTkx5MWlNMWpHMWRxUXppbE9OZk4xMUpoN3pDemxVVTVxZTc0?oc=5",
-          "publishedAt": "2026-08-09T06:45:37Z",
-          "rssPublishedAt": "2026-08-09T06:45:37Z",
-          "sourcePublishedAt": "2026-08-09T06:45:37Z",
-          "displayedAt": "2026-08-09T06:45:37Z"
-        }
-      ],
-      "clusterTitles": [
-        "14,000 UFO sightings in Germany: Reporting centre in Hesse investigates"
-      ],
-      "quality": 50,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "SIGHTINGS"
-      ],
-      "sourceQuality": 50,
-      "displayedAt": "2026-08-09T07:10:00Z",
-      "rssPublishedAt": "2026-08-09T07:10:00Z",
-      "rssDate": "2026-08-09",
-      "sourcePublishedAt": "2026-08-09T07:10:00Z",
-      "sourceDisplayedAt": "2026-08-09T07:10:00Z",
+      "retainedFromPreviousScan": true,
       "translation": {
         "en": {
-          "title": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations",
-          "summary": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world.",
-          "sourceHash": "1057ab5d374d546b4d31e3ec31d00ffe38f59cd1",
+          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+          "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
+          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "original"
         },
         "de": {
-          "title": "CENAP: Deutschlands zentrale Drehscheibe für UFO-Sichtungen und wissenschaftliche Erklärungen",
-          "summary": "CENAP: Deutschlands zentrale Anlaufstelle für UFO-Sichtungen und wissenschaftliche Erklärungen Das Zentrale Forschungsnetzwerk für außergewöhnliche Himmelsphänomene (CENAP) ist in Deutschland zur ersten Anlaufstelle für Personen geworden, die wissenschaftliche Erklärungen für ungewöhnliche Himmelsbeobachtungen suchen. Laut CENAP-Direktor Hansjürgen Kohler hat die Organisation mit täglich drei bis sechs neuen Fällen noch nie so viele Meldungen erhalten wie jetzt und ist damit die am stärksten ausgelastete Meldestelle im deutschsprachigen Raum.",
-          "sourceHash": "1057ab5d374d546b4d31e3ec31d00ffe38f59cd1",
-          "provider": "google"
+          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien mit nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+          "summary": "Das Kriegsministerium sagt, dass es die zweite Veröffentlichung von freigegebenen und historischen Dateien mit nicht identifizierten anomalen Phänomenen als Teil des Entsiegelungs- und Berichtssystems des Präsidenten für UAP-Begegnungen veröffentlicht oder VERFOLGT. In der Veröffentlichung heißt es, dass die Sammlung auf WAR.GOV/UFO untergebracht bleibt und dass weitere Dateien rollierend veröffentlicht werden. Assistent des Kriegsministers für öffentliche Angelegenheiten und Chef-Pentagon-Sprecher Sean Parnell wird als Quelle der Abrechnung genannt.",
+          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+          "provider": "mymemory"
         }
-      },
-      "retainedFromPreviousScan": true
+      }
     },
     {
       "id": "ufo-disclosure-2026-why-is-nobody-paying-attention-government-secrets-alien-encounters",
@@ -286,7 +233,21 @@
       ],
       "sourceQuality": 70,
       "displayedAt": "2026-08-12T04:35:13Z",
-      "sourceDisplayedAt": "2026-08-12T04:35:13Z"
+      "sourceDisplayedAt": "2026-08-12T04:35:13Z",
+      "translation": {
+        "en": {
+          "title": "UFO Disclosure 2026: Why Is Nobody Paying Attention? | Government Secrets & Alien Encounters",
+          "summary": "Learn more Sign in # UFO Disclosure 2026: Why Is Nobody Paying Attention? | Government Secrets & Alien Encounters 371 views 2d ago 371 views • Aug 10, 2026 [](http://youtu. be/@Matrix_Fall) Matrix_Fall Matrix_Fall 256 subscribers Subscribe Subscribed 12 Download Who or what, holds Dominion over earth? UFO disclosure is happening — but why does it seem like almost nobody is paying attention? …more more ## Music 1 song # Bubbling Mystery #### EZB Pandemic Music Transcript Follow along using the transcript.",
+          "sourceHash": "037c34ea415a13af32487d47649df6131dceda06",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UFO-Offenlegung 2026: Warum schenkt niemand Aufmerksamkeit? | Regierungsgeheimnisse & Alien-Begegnungen",
+          "summary": "Mehr erfahren Melden Sie sich an # UFO Disclosure 2026: Warum schenkt niemand Aufmerksamkeit? | Government Secrets & Alien Encounters 371 views 2d ago 371 views • Aug 10, 2026 [](http://youtu. be/@Matrix_Fall) Matrix_Fall Matrix_Fall 256 subscribers Subscribe Subscribed 12 Herunterladen Wer oder was beherrscht die Erde? UFO-Enthüllung findet statt — aber warum scheint fast niemand darauf zu achten? …mehr ## Music 1 song # Bubbling Mystery #### EZB Pandemic Music Transcript Folgen Sie mit dem Transkript.",
+          "sourceHash": "037c34ea415a13af32487d47649df6131dceda06",
+          "provider": "mymemory"
+        }
+      }
     },
     {
       "id": "rubio-says-there-s-no-ufo-cover-up-trump-would-be-showing-the-pictures",
@@ -470,13 +431,25 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
       "displayedAt": "2026-08-18T11:21:11Z",
       "rssPublishedAt": "2026-08-17T11:42:16Z",
       "rssDate": "2026-08-17",
       "sourcePublishedAt": "2026-08-17T11:42:16Z",
-      "sourceDisplayedAt": "2026-08-18T11:21:11Z"
+      "sourceDisplayedAt": "2026-08-18T11:21:11Z",
+      "translation": {
+        "en": {
+          "title": "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
+          "summary": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023.",
+          "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Piloten berichten von \"unerklärlichen Lichtern\" über Zypern, während die EU UFO-Berichte überwacht",
+          "summary": "Piloten haben unerklärliche Luftphänomene (UAPs) über Zypern gemeldet, darunter eine Sichtung von sechs Besatzungsmitgliedern auf einem Flug südlich der Insel. Wie Euronews berichtet, wurde der Vorfall auf Zypern vom niederländischen Flugpiloten Rob Ackermans beschrieben, der sagte, er und fünf weitere Besatzungsmitglieder hätten während eines Fluges vom Nahen Osten in die Niederlande im Jahr 2023 mehr als zwei Stunden lang ungewöhnliche Lichter beobachtet.",
+          "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
+          "provider": "mymemory"
+        }
+      }
     },
     {
       "id": "texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg",
@@ -512,7 +485,21 @@
       "rssDate": "2026-08-17",
       "sourcePublishedAt": "2026-08-17T10:20:27Z",
       "sourceDisplayedAt": "2026-08-23T03:40:55Z",
-      "sourceIsNew": true
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg",
+          "summary": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg Published 5:20 am Monday, August 17, 2026 Something odd over an Amarillo nuclear weapons plant, strange lights around Camp Hood, a flying saucer hoax in Alice, an egg-shaped craft near Lackland AFB, Project Grudge and a special agent’s warning to J. Edgar Hoover are among the top Texas ties found in the Pentagon’s secret papers about unidentified flying objects and aliens.",
+          "sourceHash": "1780efd2b15fb714504a8c6d53fe8f7fd16673f2",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Texas UFO-Dateien haben alles: Ein Lockdown, eine gefälschte Untertasse und ein leuchtendes Ei",
+          "summary": "Texas UFO-Dateien haben alles: Ein Lockdown, eine gefälschte Untertasse und ein leuchtendes Ei Veröffentlicht um 5:20 Uhr Montag, 17. August 2026 Etwas Seltsames über einer Amarillo-Atomwaffenanlage, seltsame Lichter um Camp Hood, ein fliegender Untertassenscherz in Alice, ein eiförmiges Schiff in der Nähe von Lackland AFB, Project Grudge und die Warnung eines Spezialagenten an J. Edgar Hoover gehören zu den Top-Texas-Verbindungen, die in den geheimen Papieren des Pentagons über nicht identifizierte Flugobjekte und Außerirdische gefunden wurden.",
+          "sourceHash": "1780efd2b15fb714504a8c6d53fe8f7fd16673f2",
+          "provider": "mymemory"
+        }
+      }
     },
     {
       "id": "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence",
@@ -583,39 +570,30 @@
   "summaries": {
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
     "ufo-disclosure-2026-why-is-nobody-paying-attention-government-secrets-alien-encounters": "Learn more Sign in # UFO Disclosure 2026: Why Is Nobody Paying Attention? | Government Secrets & Alien Encounters 371 views 2d ago 371 views • Aug 10, 2026 [](http://youtu. be/@Matrix_Fall) Matrix_Fall Matrix_Fall 256 subscribers Subscribe Subscribed 12 Download Who or what, holds Dominion over earth? UFO disclosure is happening — but why does it seem like almost nobody is paying attention? …more more ## Music 1 song # Bubbling Mystery #### EZB Pandemic Music Transcript Follow along using the transcript.",
-    "film-cenap-germany-s-central-hub-for-ufo-sightings-and-scientific-explanations": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world. From amateur beginnings to a national clearinghouse Kohler, an amateur astronomer, said his involvement began with youthful recklessness while working at an observatory.",
     "program-exclusive-brussels-keen-to-monitor-ufos-under-the-radar": "Brussels has signalled it is monitoring unidentified anomalous phenomena (UAP) and has hinted at improving capabilities, according to documents seen by Euronews. The European Commission seems to have been monitoring unidentified anomalous phenomena (UAP) under the radar since at least 2023, according to a document from the Commission's defence department seen by Euronews, which pertains to sky and space observations in Malaysia. \"We are getting better at seeing it (UAPs) and better identifying it as our technological capacities improve, but we need to get even better,\" the letter read, signalling the EU executive is actively monitoring the phenomenon more than officially stated and seems keen to investigate it.",
     "sighting-pilots-report-unexplained-lights-over-cyprus-as-eu-monitors-ufo-reports": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023. Ackermans said the phenomenon first appeared while the aircraft was south of Cyprus. “The strangest thing was that one of the three lights would sometimes manoeuvre around the others. It looked like a chase, what the air force calls a dogfight, and then two or all three would disappear again.",
     "texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg Published 5:20 am Monday, August 17, 2026 Something odd over an Amarillo nuclear weapons plant, strange lights around Camp Hood, a flying saucer hoax in Alice, an egg-shaped craft near Lackland AFB, Project Grudge and a special agent’s warning to J. Edgar Hoover are among the top Texas ties found in the Pentagon’s secret papers about unidentified flying objects and aliens. The incidents were described in the thousands of records the Pentagon has been posting on its UFO website since President Donald Trump called for more transparency into what the government calls Unidentified Anomalous Phenomena.",
     "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence' | Daily Mail Online This is an epic humiliation for Harry and Meghan. we should fear the twisted real strategy behind their UK return: MAUREEN CALLAHAN How Prince Harry and Meghan Markle's American dreams failed as family leave California after tanked million-dollar Hollywood deals Harry and Meghan will be living back in Britain THIS MONTH: Pair's sudden decision to leave California takes Charles and William by surprise - Archie and Lilibet will attend UK school but couple don't plan to be working royals Blindsided Charles only found out about Harry and Meghan's return on Sunday and it wasn't discussed when King met his son six weeks ago Lindsay Clancy's life locked in psych ward: Her unfiltered true feelings about husband Patrick."
   },
   "notificationBatch": {
-    "timestamp": "2026-08-23T03:40:55Z",
-    "ids": [
-      "texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg"
-    ],
-    "articles": [
-      {
-        "id": "texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg",
-        "title": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg",
-        "source": "Marshall News Messenger"
-      }
-    ]
+    "timestamp": "2026-08-23T11:15:28Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
     "broadArticles": 407,
-    "broadTopics": 174,
+    "broadTopics": 183,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
-    "appTopics": 9,
+    "appTopics": 8,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 1,
+    "regroupedTopics": 2,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -630,7 +608,7 @@
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 9,
+      "kept": 8,
       "missing": 2,
       "missingItems": [
         {
@@ -667,7 +645,7 @@
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
       "updatedArticles": 2,
       "clearedTranslations": 2,
-      "reorderedBySourceCount": true
+      "reorderedBySourceCount": false
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
@@ -678,7 +656,7 @@
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 13,
+      "sources": 14,
       "cleanedArticles": 1,
       "removedDuplicateTopics": 0,
       "staleSummariesCleared": 0,
@@ -705,14 +683,13 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 8,
+      "archiveCandidates": 9,
       "currentBeforeRestore": 6,
-      "restoredArticles": 3,
+      "restoredArticles": 2,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
-        "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations",
         "Exclusive: Brussels keen to monitor UFOs under the radar",
         "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence'"
       ]
@@ -722,47 +699,61 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 9
+      "articlesRefreshed": 8
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 21,
-      "updatedSources": 7,
+      "checkedSources": 20,
+      "updatedSources": 8,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 9,
-      "newSources": 1
+      "updatedTopics": 8,
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 9,
-      "newTopics": 0,
-      "topicsWithNewSources": 0
+      "correctedExistingTopics": 7,
+      "newTopics": 1,
+      "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 31
+      "seededSeenFromPreviousFeed": 30
     }
   },
   "translations": {
-    "film-cenap-germany-s-central-hub-for-ufo-sightings-and-scientific-explanations": {
+    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
       "en": {
-        "title": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations",
-        "summary": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world.",
-        "sourceHash": "1057ab5d374d546b4d31e3ec31d00ffe38f59cd1",
+        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+        "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
+        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "original"
       },
       "de": {
-        "title": "CENAP: Deutschlands zentrale Drehscheibe für UFO-Sichtungen und wissenschaftliche Erklärungen",
-        "summary": "CENAP: Deutschlands zentrale Anlaufstelle für UFO-Sichtungen und wissenschaftliche Erklärungen Das Zentrale Forschungsnetzwerk für außergewöhnliche Himmelsphänomene (CENAP) ist in Deutschland zur ersten Anlaufstelle für Personen geworden, die wissenschaftliche Erklärungen für ungewöhnliche Himmelsbeobachtungen suchen. Laut CENAP-Direktor Hansjürgen Kohler hat die Organisation mit täglich drei bis sechs neuen Fällen noch nie so viele Meldungen erhalten wie jetzt und ist damit die am stärksten ausgelastete Meldestelle im deutschsprachigen Raum.",
-        "sourceHash": "1057ab5d374d546b4d31e3ec31d00ffe38f59cd1",
-        "provider": "google"
+        "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien mit nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+        "summary": "Das Kriegsministerium sagt, dass es die zweite Veröffentlichung von freigegebenen und historischen Dateien mit nicht identifizierten anomalen Phänomenen als Teil des Entsiegelungs- und Berichtssystems des Präsidenten für UAP-Begegnungen veröffentlicht oder VERFOLGT. In der Veröffentlichung heißt es, dass die Sammlung auf WAR.GOV/UFO untergebracht bleibt und dass weitere Dateien rollierend veröffentlicht werden. Assistent des Kriegsministers für öffentliche Angelegenheiten und Chef-Pentagon-Sprecher Sean Parnell wird als Quelle der Abrechnung genannt.",
+        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+        "provider": "mymemory"
+      }
+    },
+    "ufo-disclosure-2026-why-is-nobody-paying-attention-government-secrets-alien-encounters": {
+      "en": {
+        "title": "UFO Disclosure 2026: Why Is Nobody Paying Attention? | Government Secrets & Alien Encounters",
+        "summary": "Learn more Sign in # UFO Disclosure 2026: Why Is Nobody Paying Attention? | Government Secrets & Alien Encounters 371 views 2d ago 371 views • Aug 10, 2026 [](http://youtu. be/@Matrix_Fall) Matrix_Fall Matrix_Fall 256 subscribers Subscribe Subscribed 12 Download Who or what, holds Dominion over earth? UFO disclosure is happening — but why does it seem like almost nobody is paying attention? …more more ## Music 1 song # Bubbling Mystery #### EZB Pandemic Music Transcript Follow along using the transcript.",
+        "sourceHash": "037c34ea415a13af32487d47649df6131dceda06",
+        "provider": "original"
+      },
+      "de": {
+        "title": "UFO-Offenlegung 2026: Warum schenkt niemand Aufmerksamkeit? | Regierungsgeheimnisse & Alien-Begegnungen",
+        "summary": "Mehr erfahren Melden Sie sich an # UFO Disclosure 2026: Warum schenkt niemand Aufmerksamkeit? | Government Secrets & Alien Encounters 371 views 2d ago 371 views • Aug 10, 2026 [](http://youtu. be/@Matrix_Fall) Matrix_Fall Matrix_Fall 256 subscribers Subscribe Subscribed 12 Herunterladen Wer oder was beherrscht die Erde? UFO-Enthüllung findet statt — aber warum scheint fast niemand darauf zu achten? …mehr ## Music 1 song # Bubbling Mystery #### EZB Pandemic Music Transcript Folgen Sie mit dem Transkript.",
+        "sourceHash": "037c34ea415a13af32487d47649df6131dceda06",
+        "provider": "mymemory"
       }
     },
     "program-exclusive-brussels-keen-to-monitor-ufos-under-the-radar": {
@@ -777,6 +768,34 @@
         "summary": "Laut Euronews-Dokumenten hat Brüssel signalisiert, dass es nicht identifizierte anomale Phänomene (UAP) überwacht, und angedeutet, seine Fähigkeiten zu verbessern. Laut einem von Euronews eingesehenen Dokument der Verteidigungsabteilung der Kommission, das sich auf Himmels- und Weltraumbeobachtungen in Malaysia bezieht, scheint die Europäische Kommission seit mindestens 2023 unidentifizierte anomale Phänomene (UAP) unter dem Radar zu überwachen. „Wir werden immer besser darin, es zu sehen (UAPs) und es besser zu identifizieren, während sich unsere technologischen Kapazitäten verbessern, aber wir müssen noch besser werden“, heißt es in dem Brief und signalisiert damit, dass die EU-Exekutive das Phänomen aktiver beobachtet als offiziell angegeben und offenbar daran interessiert zu sein scheint, es zu untersuchen.",
         "sourceHash": "85e2116f1afa9ea4c9d61835153b868fe244b2ab",
         "provider": "google"
+      }
+    },
+    "sighting-pilots-report-unexplained-lights-over-cyprus-as-eu-monitors-ufo-reports": {
+      "en": {
+        "title": "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
+        "summary": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023.",
+        "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Piloten berichten von \"unerklärlichen Lichtern\" über Zypern, während die EU UFO-Berichte überwacht",
+        "summary": "Piloten haben unerklärliche Luftphänomene (UAPs) über Zypern gemeldet, darunter eine Sichtung von sechs Besatzungsmitgliedern auf einem Flug südlich der Insel. Wie Euronews berichtet, wurde der Vorfall auf Zypern vom niederländischen Flugpiloten Rob Ackermans beschrieben, der sagte, er und fünf weitere Besatzungsmitglieder hätten während eines Fluges vom Nahen Osten in die Niederlande im Jahr 2023 mehr als zwei Stunden lang ungewöhnliche Lichter beobachtet.",
+        "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
+        "provider": "mymemory"
+      }
+    },
+    "texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg": {
+      "en": {
+        "title": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg",
+        "summary": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg Published 5:20 am Monday, August 17, 2026 Something odd over an Amarillo nuclear weapons plant, strange lights around Camp Hood, a flying saucer hoax in Alice, an egg-shaped craft near Lackland AFB, Project Grudge and a special agent’s warning to J. Edgar Hoover are among the top Texas ties found in the Pentagon’s secret papers about unidentified flying objects and aliens.",
+        "sourceHash": "1780efd2b15fb714504a8c6d53fe8f7fd16673f2",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Texas UFO-Dateien haben alles: Ein Lockdown, eine gefälschte Untertasse und ein leuchtendes Ei",
+        "summary": "Texas UFO-Dateien haben alles: Ein Lockdown, eine gefälschte Untertasse und ein leuchtendes Ei Veröffentlicht um 5:20 Uhr Montag, 17. August 2026 Etwas Seltsames über einer Amarillo-Atomwaffenanlage, seltsame Lichter um Camp Hood, ein fliegender Untertassenscherz in Alice, ein eiförmiges Schiff in der Nähe von Lackland AFB, Project Grudge und die Warnung eines Spezialagenten an J. Edgar Hoover gehören zu den Top-Texas-Verbindungen, die in den geheimen Papieren des Pentagons über nicht identifizierte Flugobjekte und Außerirdische gefunden wurden.",
+        "sourceHash": "1780efd2b15fb714504a8c6d53fe8f7fd16673f2",
+        "provider": "mymemory"
       }
     },
     "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence": {
@@ -795,8 +814,8 @@
     }
   },
   "translationMeta": {
-    "prepared": 3,
-    "failed": 4,
+    "prepared": 6,
+    "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
     "source": "github-actions-precompute"
