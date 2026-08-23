@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-22T11:15:49Z",
+  "timestamp": "2026-08-23T03:40:55Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -128,7 +128,7 @@
       "clusterTitles": [
         "14,000 UFO sightings in Germany: Reporting centre in Hesse investigates"
       ],
-      "quality": 45,
+      "quality": 50,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -149,72 +149,34 @@
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "SIGHTINGS"
       ],
-      "sourceQuality": 45,
-      "displayedAt": "2026-08-09T07:10:00Z"
-    },
-    {
-      "id": "sighting-pilots-report-unexplained-lights-over-cyprus-as-eu-monitors-ufo-reports",
-      "title": "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
-      "source": "Cyprus Mail",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ2NVZkFmZkVqZDhMcVVWSnRyeHh5dEw3b1l6OXhLaFdfaUl0My1CMkpyR0RLRXFHc3R5Q21QY2tiT2Z1VEtvY3pPMXVGN0c3YUNzMnlydnFZTHZ0cGRpQVBLNF85blNpYW1vY1lyOEJUWFR0U3RMSXFYamFnR01DdkVxdlB0cHJrb2o2VVV6ZElEVTI2dGlTdG5rb2k1cG1mUkhjZXc4VENLZw?oc=5",
-      "date": "2026-08-09",
-      "publishedAt": "2026-08-17T11:42:16Z",
-      "summary": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023. Ackermans said the phenomenon first appeared while the aircraft was south of Cyprus. “The strangest thing was that one of the three lights would sometimes manoeuvre around the others. It looked like a chase, what the air force calls a dogfight, and then two or all three would disappear again.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "SIGHTINGS"
-      ],
-      "sourceQuality": 45,
-      "displayedAt": "2026-08-18T11:21:11Z",
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "rssPublishedAt": "2026-08-17T11:42:16Z",
+      "sourceQuality": 50,
+      "displayedAt": "2026-08-09T07:10:00Z",
+      "rssPublishedAt": "2026-08-09T07:10:00Z",
       "rssDate": "2026-08-09",
-      "sourcePublishedAt": "2026-08-17T11:42:16Z",
-      "sourceDisplayedAt": "2026-08-18T11:21:11Z",
+      "sourcePublishedAt": "2026-08-09T07:10:00Z",
+      "sourceDisplayedAt": "2026-08-09T07:10:00Z",
       "translation": {
         "en": {
-          "title": "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
-          "summary": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023.",
-          "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
+          "title": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations",
+          "summary": "CENAP: Germany's Central Hub for UFO Sightings and Scientific Explanations The Central Research Network for Extraordinary Celestial Phenomena (CENAP) has become the primary contact point in Germany for individuals seeking scientific explanations of unusual sky observations. According to CENAP director Hansjurgen Kohler, the organisation has never received as many reports as it does now, with three to six new cases arriving daily, making it the busiest reporting centre in the German-speaking world.",
+          "sourceHash": "1057ab5d374d546b4d31e3ec31d00ffe38f59cd1",
           "provider": "original"
         },
         "de": {
-          "title": "Piloten melden „unerklärliche Lichter“ über Zypern, während die EU UFO-Meldungen überwacht",
-          "summary": "Piloten haben über Zypern unerklärliche Luftphänomene (UAPs) gemeldet, darunter eine Sichtung von sechs Besatzungsmitgliedern auf einem Flug südlich der Insel. Wie Euronews berichtet, wurde der Vorfall auf Zypern vom niederländischen Piloten Rob Ackermans beschrieben, der sagte, er und fünf weitere Besatzungsmitglieder hätten während eines Fluges vom Nahen Osten in die Niederlande im Jahr 2023 mehr als zwei Stunden lang ungewöhnliche Lichter beobachtet.",
-          "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
+          "title": "CENAP: Deutschlands zentrale Drehscheibe für UFO-Sichtungen und wissenschaftliche Erklärungen",
+          "summary": "CENAP: Deutschlands zentrale Anlaufstelle für UFO-Sichtungen und wissenschaftliche Erklärungen Das Zentrale Forschungsnetzwerk für außergewöhnliche Himmelsphänomene (CENAP) ist in Deutschland zur ersten Anlaufstelle für Personen geworden, die wissenschaftliche Erklärungen für ungewöhnliche Himmelsbeobachtungen suchen. Laut CENAP-Direktor Hansjürgen Kohler hat die Organisation mit täglich drei bis sechs neuen Fällen noch nie so viele Meldungen erhalten wie jetzt und ist damit die am stärksten ausgelastete Meldestelle im deutschsprachigen Raum.",
+          "sourceHash": "1057ab5d374d546b4d31e3ec31d00ffe38f59cd1",
           "provider": "google"
         }
       },
@@ -325,6 +287,68 @@
       "displayedAt": "2026-08-19T11:22:15Z"
     },
     {
+      "id": "sighting-pilots-report-unexplained-lights-over-cyprus-as-eu-monitors-ufo-reports",
+      "title": "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
+      "source": "Cyprus Mail",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ2NVZkFmZkVqZDhMcVVWSnRyeHh5dEw3b1l6OXhLaFdfaUl0My1CMkpyR0RLRXFHc3R5Q21QY2tiT2Z1VEtvY3pPMXVGN0c3YUNzMnlydnFZTHZ0cGRpQVBLNF85blNpYW1vY1lyOEJUWFR0U3RMSXFYamFnR01DdkVxdlB0cHJrb2o2VVV6ZElEVTI2dGlTdG5rb2k1cG1mUkhjZXc4VENLZw?oc=5",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17T11:42:16Z",
+      "summary": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023. Ackermans said the phenomenon first appeared while the aircraft was south of Cyprus. “The strangest thing was that one of the three lights would sometimes manoeuvre around the others. It looked like a chase, what the air force calls a dogfight, and then two or all three would disappear again.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-08-18T11:21:11Z"
+    },
+    {
+      "id": "texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg",
+      "title": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg",
+      "source": "Marshall News Messenger",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPamZteFZISnljQ2FKRnBwZkh1WnpfbmxLajdSa3p5eHZIMlJHbGJxdTV6ckd4V1g4VW1Xb2E0dEF2WHJQM2F3b1R5MkVxNjZ4SlZFX21JZjV1R0lCMVN3QWxkMEpNUEtELXpVbzRHTjAzcFNoS0R2SGpDWVMtTXVnLWJRUHAxdS1zdzVoMjBnQVJVWUFPcGxXN0UtcW5oLTc0OHc4VnM3cjFfQzUzUnJERUtiazJKZjg?oc=5",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17T10:22:42Z",
+      "summary": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg Published 5:20 am Monday, August 17, 2026 Something odd over an Amarillo nuclear weapons plant, strange lights around Camp Hood, a flying saucer hoax in Alice, an egg-shaped craft near Lackland AFB, Project Grudge and a special agent’s warning to J. Edgar Hoover are among the top Texas ties found in the Pentagon’s secret papers about unidentified flying objects and aliens. The incidents were described in the thousands of records the Pentagon has been posting on its UFO website since President Donald Trump called for more transparency into what the government calls Unidentified Anomalous Phenomena.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-08-23T03:40:55Z"
+    },
+    {
       "id": "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence",
       "title": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence'",
       "source": "Daily Mail",
@@ -368,7 +392,26 @@
         "SIGHTINGS"
       ],
       "sourceQuality": 37,
-      "displayedAt": "2026-08-19T03:40:14Z"
+      "displayedAt": "2026-08-19T03:40:14Z",
+      "rssPublishedAt": "2026-08-18T15:34:52Z",
+      "rssDate": "2026-08-09",
+      "sourcePublishedAt": "2026-08-18T15:34:52Z",
+      "sourceDisplayedAt": "2026-08-19T03:40:14Z",
+      "translation": {
+        "en": {
+          "title": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence'",
+          "summary": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence' | Daily Mail Online This is an epic humiliation for Harry and Meghan. we should fear the twisted real strategy behind their UK return: MAUREEN CALLAHAN How Prince Harry and Meghan Markle's American dreams failed as family leave California after tanked million-dollar Hollywood deals Harry and Meghan will be living back in Britain THIS MONTH: Pair's sudden decision to leave California takes Charles and William by surprise - Archie and Lilibet will attend UK school but couple don't plan to be working royals Blindsided Charles only found out about Harry and Meghan's return on Sunday and it wasn't discussed when King met his son six weeks ago Lindsay Clancy's life locked in psych ward: Her unfiltered true feelings about husband Patrick.",
+          "sourceHash": "621cffc63ec8e9ff6df902129dced5bb23462bf8",
+          "provider": "original"
+        },
+        "de": {
+          "title": "US-Regierung versteckt Leichen von VIER außerirdischen Rassen, UFO-Wissenschaftler des Pentagon behauptet: „Ich habe die Beweise gesehen“",
+          "summary": "US-Regierung versteckt Leichen von VIER außerirdischen Rassen, UFO-Wissenschaftler des Pentagon behauptet: „Ich habe die Beweise gesehen“ | Daily Mail Online Das ist eine epische Demütigung für Harry und Meghan. Wir sollten uns vor der verdrehten wahren Strategie hinter ihrer Rückkehr nach Großbritannien fürchten: MAUREEN CALLAHAN Wie die amerikanischen Träume von Prinz Harry und Meghan Markle scheiterten, als ihre Familie Kalifornien verließ, nachdem Hollywood-Deals in Millionenhöhe scheiterten. Harry und Meghan werden DIESEN MONAT wieder in Großbritannien leben: Die plötzliche Entscheidung des Paares, Kalifornien zu verlassen, überrascht Charles und William – Archie und Lilibet werden eine britische Schule besuchen, aber das Paar hat nicht vor, im Königshaus zu arbeiten wurde nicht besprochen, als King vor sechs Wochen seinen Sohn traf. Lindsay Clancys Leben in der Psychiatrie: Ihre ungefilterten wahren Gefühle gegenüber Ehemann Patrick.",
+          "sourceHash": "621cffc63ec8e9ff6df902129dced5bb23462bf8",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     }
   ]
 }
