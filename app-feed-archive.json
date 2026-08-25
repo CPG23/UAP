@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T11:20:11Z",
+  "timestamp": "2026-08-25T03:38:11Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -53,7 +53,23 @@
         "GOVERNMENT"
       ],
       "sourceQuality": 70,
-      "displayedAt": "2026-08-12T04:35:13Z"
+      "displayedAt": "2026-08-12T04:35:13Z",
+      "sourceDisplayedAt": "2026-08-12T04:35:13Z",
+      "translation": {
+        "en": {
+          "title": "UFO Disclosure 2026: Why Is Nobody Paying Attention? | Government Secrets & Alien Encounters",
+          "summary": "Learn more Sign in # UFO Disclosure 2026: Why Is Nobody Paying Attention? | Government Secrets & Alien Encounters 371 views 2d ago 371 views • Aug 10, 2026 [](http://youtu. be/@Matrix_Fall) Matrix_Fall Matrix_Fall 256 subscribers Subscribe Subscribed 12 Download Who or what, holds Dominion over earth? UFO disclosure is happening — but why does it seem like almost nobody is paying attention? …more more ## Music 1 song # Bubbling Mystery #### EZB Pandemic Music Transcript Follow along using the transcript.",
+          "sourceHash": "037c34ea415a13af32487d47649df6131dceda06",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UFO-Offenlegung 2026: Warum schenkt niemand Aufmerksamkeit? | Regierungsgeheimnisse & Alien-Begegnungen",
+          "summary": "Mehr erfahren Melden Sie sich an # UFO Disclosure 2026: Warum schenkt niemand Aufmerksamkeit? | Government Secrets & Alien Encounters 371 views 2d ago 371 views • Aug 10, 2026 [](http://youtu. be/@Matrix_Fall) Matrix_Fall Matrix_Fall 256 subscribers Subscribe Subscribed 12 Herunterladen Wer oder was beherrscht die Erde? UFO-Enthüllung findet statt — aber warum scheint fast niemand darauf zu achten? …mehr ## Music 1 song # Bubbling Mystery #### EZB Pandemic Music Transcript Folgen Sie mit dem Transkript.",
+          "sourceHash": "037c34ea415a13af32487d47649df6131dceda06",
+          "provider": "mymemory"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "rubio-says-there-s-no-ufo-cover-up-trump-would-be-showing-the-pictures",
@@ -196,7 +212,7 @@
       "displayedAt": "2026-08-18T11:21:11Z"
     },
     {
-      "id": "texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg",
+      "id": "file-release-texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg",
       "title": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg",
       "source": "Marshall News Messenger",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPamZteFZISnljQ2FKRnBwZkh1WnpfbmxLajdSa3p5eHZIMlJHbGJxdTV6ckd4V1g4VW1Xb2E0dEF2WHJQM2F3b1R5MkVxNjZ4SlZFX21JZjV1R0lCMVN3QWxkMEpNUEtELXpVbzRHTjAzcFNoS0R2SGpDWVMtTXVnLWJRUHAxdS1zdzVoMjBnQVJVWUFPcGxXN0UtcW5oLTc0OHc4VnM3cjFfQzUzUnJERUtiazJKZjg?oc=5",
@@ -222,8 +238,6 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-08-23T03:40:55Z"
     },
     {
