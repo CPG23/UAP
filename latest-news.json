@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-25T11:20:01Z",
+  "timestamp": "2026-08-26T03:44:08Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -193,6 +193,79 @@
       }
     },
     {
+      "id": "ufo-disclosure-odds-alien-bets-live-2026-prices-updates",
+      "title": "UFO Disclosure Odds & Alien Bets: Live 2026 Prices & Updates",
+      "source": "DeFi Rate",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNUJpazRmS1BkQ2tsb0dENHhYV09nYloyUTRGOEhkUm9pVVFGTkdzX0RLS3hnYjBSTUh4OF92LWd0LUZ3OTlqQnpyVE1SSkZhaWRSQVNPNGZBOGVuQVU2NzFXQ2Q1SVFkSWc?oc=5",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25T03:45:42Z",
+      "summary": "The Pentagon has published five batches of UAP files through August 7, 2026, but none constitutes a qualifying official confirmation. US prediction markets with trading on UFO disclosure files Trade $10, Get $15 T&C’s apply. alien confirmation Current probabilities across platforms with liquidity indicators NONo Vol $1. 9% Probability Over Time Hover for details · Cursor-synced tooltips Tap \"Chart settings\" to adjust the chart. Chart settings Pentagon UFO releases have not confirmed extraterrestrial life The disclosure story has moved well beyond the Pentagon’s missed April 14 deadline.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 61,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "ALIEN, DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "ALIEN",
+        "DISCLOSURE"
+      ],
+      "sourceQuality": 61,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-08-26T03:44:08Z",
+      "rssPublishedAt": "2026-08-25T03:45:42Z",
+      "rssDate": "2026-08-25",
+      "sourcePublishedAt": "2026-08-17T01:31:53Z",
+      "sourceDisplayedAt": "2026-08-26T03:44:08Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "UFO Disclosure Odds & Alien Bets: Live 2026 Prices & Updates",
+          "summary": "The Pentagon has published five batches of UAP files through August 7, 2026, but none constitutes a qualifying official confirmation. US prediction markets with trading on UFO disclosure files Trade $10, Get $15 T&C’s apply. alien confirmation Current probabilities across platforms with liquidity indicators NONo Vol $1. 9% Probability Over Time Hover for details · Cursor-synced tooltips Tap \"Chart settings\" to adjust the chart.",
+          "sourceHash": "16afa638a199d91ff7bea97da4d58367d2103b20",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UFO-Offenlegungsquoten & Alien-Wetten: Live-Preise & Updates für 2026",
+          "summary": "Das Pentagon hat bis zum 7. August 2026 fünf Chargen von UAP-Dateien veröffentlicht, aber keine stellt eine qualifizierte offizielle Bestätigung dar. US-Prognosemärkte mit Handel auf UFO-Offenlegungsdateien Handeln Sie $ 10, erhalten Sie $ 15 AGBs. Alien-Bestätigung Aktuelle Wahrscheinlichkeiten über Plattformen mit Liquiditätsindikatoren NONo Vol $ 1. 9% Wahrscheinlichkeit über Zeit Hover für Details · Cursor-synchronisierte Tooltips Tippen Sie auf \"Chart-Einstellungen\", um das Chart anzupassen.",
+          "sourceHash": "16afa638a199d91ff7bea97da4d58367d2103b20",
+          "provider": "mymemory"
+        }
+      }
+    },
+    {
       "id": "rubio-says-there-s-no-ufo-cover-up-trump-would-be-showing-the-pictures",
       "title": "Rubio says there’s no UFO cover-up: Trump would ‘be showing the pictures’",
       "source": "NewsNation",
@@ -235,13 +308,13 @@
       "matchedTerms": [
         "TRUMP"
       ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
       "sourceQuality": 54,
       "displayedAt": "2026-08-15T03:30:26Z",
       "sourceDisplayedAt": "2026-08-15T03:30:26Z",
-      "retainedFromPreviousScan": true
+      "retainedFromPreviousScan": true,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      }
     },
     {
       "id": "program-exclusive-brussels-keen-to-monitor-ufos-under-the-radar",
@@ -342,10 +415,10 @@
         "RADAR"
       ],
       "sourceQuality": 45,
+      "displayedAt": "2026-08-19T11:22:15Z",
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "displayedAt": "2026-08-19T11:22:15Z",
       "sourceDisplayedAt": "2026-08-19T11:22:15Z"
     },
     {
@@ -391,53 +464,6 @@
           "title": "Piloten berichten von \"unerklärlichen Lichtern\" über Zypern, während die EU UFO-Berichte überwacht",
           "summary": "Piloten haben unerklärliche Luftphänomene (UAPs) über Zypern gemeldet, darunter eine Sichtung von sechs Besatzungsmitgliedern auf einem Flug südlich der Insel. Wie Euronews berichtet, wurde der Vorfall auf Zypern vom niederländischen Flugpiloten Rob Ackermans beschrieben, der sagte, er und fünf weitere Besatzungsmitglieder hätten während eines Fluges vom Nahen Osten in die Niederlande im Jahr 2023 mehr als zwei Stunden lang ungewöhnliche Lichter beobachtet.",
           "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
-          "provider": "mymemory"
-        }
-      }
-    },
-    {
-      "id": "file-release-texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg",
-      "title": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg",
-      "source": "Marshall News Messenger",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPamZteFZISnljQ2FKRnBwZkh1WnpfbmxLajdSa3p5eHZIMlJHbGJxdTV6ckd4V1g4VW1Xb2E0dEF2WHJQM2F3b1R5MkVxNjZ4SlZFX21JZjV1R0lCMVN3QWxkMEpNUEtELXpVbzRHTjAzcFNoS0R2SGpDWVMtTXVnLWJRUHAxdS1zdzVoMjBnQVJVWUFPcGxXN0UtcW5oLTc0OHc4VnM3cjFfQzUzUnJERUtiazJKZjg?oc=5",
-      "date": "2026-08-17",
-      "publishedAt": "2026-08-17T10:22:42Z",
-      "summary": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg Published 5:20 am Monday, August 17, 2026 Something odd over an Amarillo nuclear weapons plant, strange lights around Camp Hood, a flying saucer hoax in Alice, an egg-shaped craft near Lackland AFB, Project Grudge and a special agent’s warning to J. Edgar Hoover are among the top Texas ties found in the Pentagon’s secret papers about unidentified flying objects and aliens. The incidents were described in the thousands of records the Pentagon has been posting on its UFO website since President Donald Trump called for more transparency into what the government calls Unidentified Anomalous Phenomena.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "displayedAt": "2026-08-23T03:40:55Z",
-      "rssPublishedAt": "2026-08-17T10:22:42Z",
-      "rssDate": "2026-08-17",
-      "sourcePublishedAt": "2026-08-17T10:20:27Z",
-      "sourceDisplayedAt": "2026-08-17T10:22:42Z",
-      "translation": {
-        "en": {
-          "title": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg",
-          "summary": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg Published 5:20 am Monday, August 17, 2026 Something odd over an Amarillo nuclear weapons plant, strange lights around Camp Hood, a flying saucer hoax in Alice, an egg-shaped craft near Lackland AFB, Project Grudge and a special agent’s warning to J. Edgar Hoover are among the top Texas ties found in the Pentagon’s secret papers about unidentified flying objects and aliens.",
-          "sourceHash": "1780efd2b15fb714504a8c6d53fe8f7fd16673f2",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Texas UFO-Dateien haben alles: Ein Lockdown, eine gefälschte Untertasse und ein leuchtendes Ei",
-          "summary": "Texas UFO-Dateien haben alles: Ein Lockdown, eine gefälschte Untertasse und ein leuchtendes Ei Veröffentlicht um 5:20 Uhr Montag, 17. August 2026 Etwas Seltsames über einer Amarillo-Atomwaffenanlage, seltsame Lichter um Camp Hood, ein fliegender Untertassenscherz in Alice, ein eiförmiges Schiff in der Nähe von Lackland AFB, Project Grudge und die Warnung eines Spezialagenten an J. Edgar Hoover gehören zu den Top-Texas-Verbindungen, die in den geheimen Papieren des Pentagons über nicht identifizierte Flugobjekte und Außerirdische gefunden wurden.",
-          "sourceHash": "1780efd2b15fb714504a8c6d53fe8f7fd16673f2",
           "provider": "mymemory"
         }
       }
@@ -510,22 +536,30 @@
   ],
   "summaries": {
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
+    "ufo-disclosure-odds-alien-bets-live-2026-prices-updates": "The Pentagon has published five batches of UAP files through August 7, 2026, but none constitutes a qualifying official confirmation. US prediction markets with trading on UFO disclosure files Trade $10, Get $15 T&C’s apply. alien confirmation Current probabilities across platforms with liquidity indicators NONo Vol $1. 9% Probability Over Time Hover for details · Cursor-synced tooltips Tap \"Chart settings\" to adjust the chart. Chart settings Pentagon UFO releases have not confirmed extraterrestrial life The disclosure story has moved well beyond the Pentagon’s missed April 14 deadline.",
     "program-exclusive-brussels-keen-to-monitor-ufos-under-the-radar": "Brussels has signalled it is monitoring unidentified anomalous phenomena (UAP) and has hinted at improving capabilities, according to documents seen by Euronews. The European Commission seems to have been monitoring unidentified anomalous phenomena (UAP) under the radar since at least 2023, according to a document from the Commission's defence department seen by Euronews, which pertains to sky and space observations in Malaysia. \"We are getting better at seeing it (UAPs) and better identifying it as our technological capacities improve, but we need to get even better,\" the letter read, signalling the EU executive is actively monitoring the phenomenon more than officially stated and seems keen to investigate it.",
     "sighting-pilots-report-unexplained-lights-over-cyprus-as-eu-monitors-ufo-reports": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023. Ackermans said the phenomenon first appeared while the aircraft was south of Cyprus. “The strangest thing was that one of the three lights would sometimes manoeuvre around the others. It looked like a chase, what the air force calls a dogfight, and then two or all three would disappear again.",
-    "file-release-texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg Published 5:20 am Monday, August 17, 2026 Something odd over an Amarillo nuclear weapons plant, strange lights around Camp Hood, a flying saucer hoax in Alice, an egg-shaped craft near Lackland AFB, Project Grudge and a special agent’s warning to J. Edgar Hoover are among the top Texas ties found in the Pentagon’s secret papers about unidentified flying objects and aliens. The incidents were described in the thousands of records the Pentagon has been posting on its UFO website since President Donald Trump called for more transparency into what the government calls Unidentified Anomalous Phenomena.",
     "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence' | Daily Mail Online This is an epic humiliation for Harry and Meghan. we should fear the twisted real strategy behind their UK return: MAUREEN CALLAHAN How Prince Harry and Meghan Markle's American dreams failed as family leave California after tanked million-dollar Hollywood deals Harry and Meghan will be living back in Britain THIS MONTH: Pair's sudden decision to leave California takes Charles and William by surprise - Archie and Lilibet will attend UK school but couple don't plan to be working royals Blindsided Charles only found out about Harry and Meghan's return on Sunday and it wasn't discussed when King met his son six weeks ago Lindsay Clancy's life locked in psych ward: Her unfiltered true feelings about husband Patrick."
   },
   "notificationBatch": {
-    "timestamp": "2026-08-25T11:20:01Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-08-26T03:44:08Z",
+    "ids": [
+      "ufo-disclosure-odds-alien-bets-live-2026-prices-updates"
+    ],
+    "articles": [
+      {
+        "id": "ufo-disclosure-odds-alien-bets-live-2026-prices-updates",
+        "title": "UFO Disclosure Odds & Alien Bets: Live 2026 Prices & Updates",
+        "source": "DeFi Rate"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 407,
-    "broadTopics": 186,
-    "notificationArticles": 0,
-    "notificationTopics": 0,
-    "newNotificationTopics": 0,
+    "broadArticles": 362,
+    "broadTopics": 167,
+    "notificationArticles": 1,
+    "notificationTopics": 1,
+    "newNotificationTopics": 1,
     "appTopics": 7,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -533,7 +567,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 1,
+    "regroupedTopics": 2,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -541,10 +575,10 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 2,
-      "repaired": 0,
-      "fallbackRepaired": 0,
-      "missing": 2
+      "attempts": 3,
+      "repaired": 3,
+      "fallbackRepaired": 3,
+      "missing": 0
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
@@ -567,7 +601,7 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 4,
+      "inputArticles": 5,
       "outputArticles": 3,
       "preservedSourceSummaries": 2
     },
@@ -599,7 +633,7 @@
       "sources": 15,
       "cleanedArticles": 1,
       "removedDuplicateTopics": 0,
-      "staleSummariesCleared": 0,
+      "staleSummariesCleared": 1,
       "rejectedArticleSources": 0,
       "promotedPrimaryFromSource": true
     },
@@ -623,7 +657,7 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 8,
+      "archiveCandidates": 7,
       "currentBeforeRestore": 4,
       "restoredArticles": 3,
       "blockedUnreachableTitles": 0,
@@ -651,7 +685,7 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 7,
-      "newSources": 0
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -661,11 +695,11 @@
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 0,
-      "freshSources": 0,
+      "notifications": 1,
+      "freshSources": 1,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 29
+      "seededSeenFromPreviousFeed": 27
     }
   },
   "translations": {
@@ -680,6 +714,20 @@
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien mit nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
         "summary": "Das Kriegsministerium sagt, dass es die zweite Veröffentlichung von freigegebenen und historischen Dateien mit nicht identifizierten anomalen Phänomenen als Teil des Entsiegelungs- und Berichtssystems des Präsidenten für UAP-Begegnungen veröffentlicht oder VERFOLGT. In der Veröffentlichung heißt es, dass die Sammlung auf WAR.GOV/UFO untergebracht bleibt und dass weitere Dateien rollierend veröffentlicht werden. Assistent des Kriegsministers für öffentliche Angelegenheiten und Chef-Pentagon-Sprecher Sean Parnell wird als Quelle der Abrechnung genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+        "provider": "mymemory"
+      }
+    },
+    "ufo-disclosure-odds-alien-bets-live-2026-prices-updates": {
+      "en": {
+        "title": "UFO Disclosure Odds & Alien Bets: Live 2026 Prices & Updates",
+        "summary": "The Pentagon has published five batches of UAP files through August 7, 2026, but none constitutes a qualifying official confirmation. US prediction markets with trading on UFO disclosure files Trade $10, Get $15 T&C’s apply. alien confirmation Current probabilities across platforms with liquidity indicators NONo Vol $1. 9% Probability Over Time Hover for details · Cursor-synced tooltips Tap \"Chart settings\" to adjust the chart.",
+        "sourceHash": "16afa638a199d91ff7bea97da4d58367d2103b20",
+        "provider": "original"
+      },
+      "de": {
+        "title": "UFO-Offenlegungsquoten & Alien-Wetten: Live-Preise & Updates für 2026",
+        "summary": "Das Pentagon hat bis zum 7. August 2026 fünf Chargen von UAP-Dateien veröffentlicht, aber keine stellt eine qualifizierte offizielle Bestätigung dar. US-Prognosemärkte mit Handel auf UFO-Offenlegungsdateien Handeln Sie $ 10, erhalten Sie $ 15 AGBs. Alien-Bestätigung Aktuelle Wahrscheinlichkeiten über Plattformen mit Liquiditätsindikatoren NONo Vol $ 1. 9% Wahrscheinlichkeit über Zeit Hover für Details · Cursor-synchronisierte Tooltips Tippen Sie auf \"Chart-Einstellungen\", um das Chart anzupassen.",
+        "sourceHash": "16afa638a199d91ff7bea97da4d58367d2103b20",
         "provider": "mymemory"
       }
     },
@@ -708,20 +756,6 @@
         "title": "Piloten berichten von \"unerklärlichen Lichtern\" über Zypern, während die EU UFO-Berichte überwacht",
         "summary": "Piloten haben unerklärliche Luftphänomene (UAPs) über Zypern gemeldet, darunter eine Sichtung von sechs Besatzungsmitgliedern auf einem Flug südlich der Insel. Wie Euronews berichtet, wurde der Vorfall auf Zypern vom niederländischen Flugpiloten Rob Ackermans beschrieben, der sagte, er und fünf weitere Besatzungsmitglieder hätten während eines Fluges vom Nahen Osten in die Niederlande im Jahr 2023 mehr als zwei Stunden lang ungewöhnliche Lichter beobachtet.",
         "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
-        "provider": "mymemory"
-      }
-    },
-    "file-release-texas-ufo-files-have-it-all-a-lockdown-a-fake-saucer-and-a-glowing-egg": {
-      "en": {
-        "title": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg",
-        "summary": "Texas UFO files have it all: A lockdown, a fake saucer and a glowing egg Published 5:20 am Monday, August 17, 2026 Something odd over an Amarillo nuclear weapons plant, strange lights around Camp Hood, a flying saucer hoax in Alice, an egg-shaped craft near Lackland AFB, Project Grudge and a special agent’s warning to J. Edgar Hoover are among the top Texas ties found in the Pentagon’s secret papers about unidentified flying objects and aliens.",
-        "sourceHash": "1780efd2b15fb714504a8c6d53fe8f7fd16673f2",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Texas UFO-Dateien haben alles: Ein Lockdown, eine gefälschte Untertasse und ein leuchtendes Ei",
-        "summary": "Texas UFO-Dateien haben alles: Ein Lockdown, eine gefälschte Untertasse und ein leuchtendes Ei Veröffentlicht um 5:20 Uhr Montag, 17. August 2026 Etwas Seltsames über einer Amarillo-Atomwaffenanlage, seltsame Lichter um Camp Hood, ein fliegender Untertassenscherz in Alice, ein eiförmiges Schiff in der Nähe von Lackland AFB, Project Grudge und die Warnung eines Spezialagenten an J. Edgar Hoover gehören zu den Top-Texas-Verbindungen, die in den geheimen Papieren des Pentagons über nicht identifizierte Flugobjekte und Außerirdische gefunden wurden.",
-        "sourceHash": "1780efd2b15fb714504a8c6d53fe8f7fd16673f2",
         "provider": "mymemory"
       }
     },
