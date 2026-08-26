@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-08-26T03:44:08Z",
+  "timestamp": "2026-08-26T11:22:13Z",
   "retentionDays": 14,
   "articles": [
     {
-      "id": "ufo-disclosure-odds-alien-bets-live-2026-prices-updates",
+      "id": "file-release-ufo-disclosure-odds-alien-bets-live-2026-prices-updates",
       "title": "UFO Disclosure Odds & Alien Bets: Live 2026 Prices & Updates",
       "source": "DeFi Rate",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNUJpazRmS1BkQ2tsb0dENHhYV09nYloyUTRGOEhkUm9pVVFGTkdzX0RLS3hnYjBSTUh4OF92LWd0LUZ3OTlqQnpyVE1SSkZhaWRSQVNPNGZBOGVuQVU2NzFXQ2Q1SVFkSWc?oc=5",
       "date": "2026-08-25",
       "publishedAt": "2026-08-25T03:45:42Z",
-      "summary": "",
+      "summary": "The Pentagon has published five batches of UAP files through August 7, 2026, but none constitutes a qualifying official confirmation. US prediction markets with trading on UFO disclosure files Trade $10, Get $15 T&C’s apply. alien confirmation Current probabilities across platforms with liquidity indicators NONo Vol $1. 9% Probability Over Time Hover for details · Cursor-synced tooltips Tap \"Chart settings\" to adjust the chart. Chart settings Pentagon UFO releases have not confirmed extraterrestrial life The disclosure story has moved well beyond the Pentagon’s missed April 14 deadline.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -52,12 +52,20 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 61,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-08-26T03:44:08Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlaessliche Zusammenfassung verfuegbar. GitHub versucht beim naechsten Scan automatisch, diese zu ergaenzen."
+      "translation": {
+        "en": {
+          "title": "UFO Disclosure Odds & Alien Bets: Live 2026 Prices & Updates",
+          "summary": "The Pentagon has published five batches of UAP files through August 7, 2026, but none constitutes a qualifying official confirmation. US prediction markets with trading on UFO disclosure files Trade $10, Get $15 T&C’s apply. alien confirmation Current probabilities across platforms with liquidity indicators NONo Vol $1. 9% Probability Over Time Hover for details · Cursor-synced tooltips Tap \"Chart settings\" to adjust the chart.",
+          "sourceHash": "16afa638a199d91ff7bea97da4d58367d2103b20",
+          "provider": "original"
+        },
+        "de": {
+          "title": "UFO-Offenlegungsquoten & Alien-Wetten: Live-Preise & Updates für 2026",
+          "summary": "Das Pentagon hat bis zum 7. August 2026 fünf Chargen von UAP-Dateien veröffentlicht, aber keine stellt eine qualifizierte offizielle Bestätigung dar. US-Prognosemärkte mit Handel auf UFO-Offenlegungsdateien Handeln Sie $ 10, erhalten Sie $ 15 AGBs. Alien-Bestätigung Aktuelle Wahrscheinlichkeiten über Plattformen mit Liquiditätsindikatoren NONo Vol $ 1. 9% Wahrscheinlichkeit über Zeit Hover für Details · Cursor-synchronisierte Tooltips Tippen Sie auf \"Chart-Einstellungen\", um das Chart anzupassen.",
+          "sourceHash": "16afa638a199d91ff7bea97da4d58367d2103b20",
+          "provider": "mymemory"
+        }
       }
     },
     {
@@ -103,13 +111,13 @@
       "matchedTerms": [
         "TRUMP"
       ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
       "sourceQuality": 54,
       "displayedAt": "2026-08-15T03:30:26Z",
       "sourceDisplayedAt": "2026-08-15T03:30:26Z",
-      "retainedFromPreviousScan": true
+      "retainedFromPreviousScan": true,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      }
     },
     {
       "id": "program-exclusive-brussels-keen-to-monitor-ufos-under-the-radar",
