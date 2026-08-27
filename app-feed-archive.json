@@ -1,73 +1,7 @@
 {
-  "timestamp": "2026-08-27T13:16:14Z",
+  "timestamp": "2026-08-27T20:52:54Z",
   "retentionDays": 14,
   "articles": [
-    {
-      "id": "file-release-ufo-disclosure-odds-alien-bets-live-2026-prices-updates",
-      "title": "UFO Disclosure Odds & Alien Bets: Live 2026 Prices & Updates",
-      "source": "DeFi Rate",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNUJpazRmS1BkQ2tsb0dENHhYV09nYloyUTRGOEhkUm9pVVFGTkdzX0RLS3hnYjBSTUh4OF92LWd0LUZ3OTlqQnpyVE1SSkZhaWRSQVNPNGZBOGVuQVU2NzFXQ2Q1SVFkSWc?oc=5",
-      "date": "2026-08-25",
-      "publishedAt": "2026-08-25T03:45:42Z",
-      "summary": "The Pentagon has published five batches of UAP files through August 7, 2026, but none constitutes a qualifying official confirmation. US prediction markets with trading on UFO disclosure files Trade $10, Get $15 T&C’s apply. alien confirmation Current probabilities across platforms with liquidity indicators NONo Vol $1. 9% Probability Over Time Hover for details · Cursor-synced tooltips Tap \"Chart settings\" to adjust the chart. Chart settings Pentagon UFO releases have not confirmed extraterrestrial life The disclosure story has moved well beyond the Pentagon’s missed April 14 deadline.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 61,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "ALIEN, DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "ALIEN",
-        "DISCLOSURE"
-      ],
-      "sourceQuality": 61,
-      "displayedAt": "2026-08-26T03:44:08Z",
-      "translation": {
-        "en": {
-          "title": "UFO Disclosure Odds & Alien Bets: Live 2026 Prices & Updates",
-          "summary": "The Pentagon has published five batches of UAP files through August 7, 2026, but none constitutes a qualifying official confirmation. US prediction markets with trading on UFO disclosure files Trade $10, Get $15 T&C’s apply. alien confirmation Current probabilities across platforms with liquidity indicators NONo Vol $1. 9% Probability Over Time Hover for details · Cursor-synced tooltips Tap \"Chart settings\" to adjust the chart.",
-          "sourceHash": "16afa638a199d91ff7bea97da4d58367d2103b20",
-          "provider": "original"
-        },
-        "de": {
-          "title": "UFO-Offenlegungsquoten & Alien-Wetten: Live-Preise & Updates für 2026",
-          "summary": "Das Pentagon hat bis zum 7. August 2026 fünf Chargen von UAP-Dateien veröffentlicht, aber keine stellt eine qualifizierte offizielle Bestätigung dar. US-Prognosemärkte mit Handel auf UFO-Offenlegungsdateien Handeln Sie $ 10, erhalten Sie $ 15 AGBs. Alien-Bestätigung Aktuelle Wahrscheinlichkeiten über Plattformen mit Liquiditätsindikatoren NONo Vol $ 1. 9% Wahrscheinlichkeit über Zeit Hover für Details · Cursor-synchronisierte Tooltips Tippen Sie auf \"Chart-Einstellungen\", um das Chart anzupassen.",
-          "sourceHash": "16afa638a199d91ff7bea97da4d58367d2103b20",
-          "provider": "mymemory"
-        }
-      }
-    },
     {
       "id": "program-exclusive-brussels-keen-to-monitor-ufos-under-the-radar",
       "title": "Exclusive: Brussels keen to monitor UFOs under the radar",
@@ -161,7 +95,7 @@
       "displayedAt": "2026-08-27T13:16:14Z"
     },
     {
-      "id": "here-are-some-ufo-reports-from-new-jersey-residents-in-the-past-two-months",
+      "id": "sighting-here-are-some-ufo-reports-from-new-jersey-residents-in-the-past-two-months",
       "title": "Here are some UFO reports from New Jersey residents in the past two months",
       "source": "New Jersey 101.5",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6aWctaGdva1BhMkNDazB5ZkVkdEpxVEFvQ3lwMnFIeFlYY3JJUGRncUx1U212R2p2cDVqMTJEWlRoLW85ZEVkMThXeUE4VzRFUlNFNk9XY3lZQQ?oc=5",
@@ -187,8 +121,6 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-08-27T13:16:14Z"
     },
     {
@@ -218,7 +150,26 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
-      "displayedAt": "2026-08-18T11:21:11Z"
+      "displayedAt": "2026-08-18T11:21:11Z",
+      "rssPublishedAt": "2026-08-17T11:42:16Z",
+      "rssDate": "2026-08-17",
+      "sourcePublishedAt": "2026-08-17T11:42:16Z",
+      "sourceDisplayedAt": "2026-08-18T11:21:11Z",
+      "translation": {
+        "en": {
+          "title": "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
+          "summary": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023.",
+          "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Piloten berichten von \"unerklärlichen Lichtern\" über Zypern, während die EU UFO-Berichte überwacht",
+          "summary": "Piloten haben unerklärliche Luftphänomene (UAPs) über Zypern gemeldet, darunter eine Sichtung von sechs Besatzungsmitgliedern auf einem Flug südlich der Insel. Wie Euronews berichtet, wurde der Vorfall auf Zypern vom niederländischen Flugpiloten Rob Ackermans beschrieben, der sagte, er und fünf weitere Besatzungsmitglieder hätten während eines Fluges vom Nahen Osten in die Niederlande im Jahr 2023 mehr als zwei Stunden lang ungewöhnliche Lichter beobachtet.",
+          "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
+          "provider": "mymemory"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence",
