@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "2 neue Artikel",
+  "message": "──────────────\nUFO/UAP: Real, Fake, Or Demonic Delusion?\n──────────────\nHere are some UFO reports from New Jersey residents in the past two months\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
