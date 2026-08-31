@@ -1,77 +1,6 @@
 {
-  "timestamp": "2026-08-31T09:01:24Z",
+  "timestamp": "2026-08-31T17:48:08Z",
   "articles": [
-    {
-      "id": "more-americans-believe-the-government-is-withholding-information-about-ufos",
-      "title": "More Americans believe the government is withholding information about UFOs",
-      "source": "Scientific American",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZENoZ1hDLTVrRV8tNnNYY1BGQkJlZ2pJczVpWnl1ZVNMQ1FxdXR0V0c0XzQzYUF4cS1MamVIU1BOVWNUcm1oWHdhNl9nUnlraEkwdm5WWTkzTkhqMlV2YUxsb2gtNmtvMkFHempHN3NDazBBbHpmbTVCbEVNX043Qm1obGVNZ3plNTM3YXphYmRoRUJyM3NFQmxyNHB1Uk1oWDRONmFpZUdUbTNrZ0NVSjBfZlhla0FWcHpB?oc=5",
-      "date": "2026-08-26",
-      "publishedAt": "2026-08-26T17:00:00Z",
-      "summary": "The truth may be out there, but Americans are split on what the truth is: just under half of people believe all sightings of unidentified flying object (UFO), also known as unidentified anomalous phenomena (UAP), can be explained by human activity or natural phenomena, a new Gallup poll finds. The proportion of skeptics has been dropping, however: In 2019, 60 percent of Americans said they believed UAP were either human-caused or natural phenomena. That’s not to say that all those with shifting opinions are sure our planet has been visited by intelligent life from other planets: 37 percent of the poll’s respondents said some UAP were likely alien spacecraft, down from 41 percent in 2021.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 58,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "GOVERNMENT als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "GOVERNMENT als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "GOVERNMENT"
-      ],
-      "sourceQuality": 58,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "displayedAt": "2026-08-28T14:40:53Z",
-      "rssPublishedAt": "2026-08-26T17:00:00Z",
-      "rssDate": "2026-08-26",
-      "sourcePublishedAt": "2026-08-26T17:00:00Z",
-      "sourceDisplayedAt": "2026-08-28T14:40:53Z",
-      "translation": {
-        "en": {
-          "title": "More Americans believe the government is withholding information about UFOs",
-          "summary": "The truth may be out there, but Americans are split on what the truth is: just under half of people believe all sightings of unidentified flying object (UFO), also known as unidentified anomalous phenomena (UAP), can be explained by human activity or natural phenomena, a new Gallup poll finds. The proportion of skeptics has been dropping, however: In 2019, 60 percent of Americans said they believed UAP were either human-caused or natural phenomena.",
-          "sourceHash": "3fc29a1528edcb51ca800c52d8b9c81f364fcc78",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Immer mehr Amerikaner glauben, dass die Regierung Informationen über UFOs zurückhält",
-          "summary": "Die Wahrheit mag da draußen sein, aber die Amerikaner sind gespalten, was die Wahrheit ist: Knapp die Hälfte der Menschen glaubt, dass alle Sichtungen von nicht identifizierten Flugobjekten (UFO), auch bekannt als nicht identifizierte anomale Phänomene (UAP), durch menschliche Aktivitäten oder Naturphänomene erklärt werden können, findet eine neue Gallup-Umfrage. Der Anteil der Skeptiker ist jedoch gesunken: Im Jahr 2019 gaben 60 Prozent der Amerikaner an, dass sie glaubten, UAP sei entweder vom Menschen verursacht oder natürlich Phaenomen",
-          "sourceHash": "3fc29a1528edcb51ca800c52d8b9c81f364fcc78",
-          "provider": "mymemory"
-        }
-      }
-    },
     {
       "id": "rare-2026-uap-witness-footage-compilation-real-ufos-caught-on-camera-government-can-t-explain",
       "title": "RARE 2026 UAP Witness Footage Compilation - Real UFOs Caught on Camera (Government Can’t Explain)",
@@ -132,6 +61,100 @@
           "provider": "mymemory"
         }
       }
+    },
+    {
+      "id": "exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events",
+      "title": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events",
+      "source": "seacoastonline.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLWc1enZNLUJ4VUtvdE15Z1lKVmR0ZHNwZHlsYTJhMkZ2ejJSajM2OUJtNHhUcktZU0t6c3c2NmIyamMyM0IydmoxSGhpNmJIS0ZqTjEtMkRCTG1hOFNuOEN1bmYycThqN2Fkc01EV0gybmtZUmxObDJWcG1fVDNzV3VEVndzbnFHQUNGXzF5UTVZa0Y0TFBiZUlIS0JoZ2lzYmRMeFlLeERDYXYxQ2JOMi1n?oc=5",
+      "date": "2026-08-31",
+      "publishedAt": "2026-08-31T09:01:00Z",
+      "summary": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events - The Exeter UFO Festival is a Labor Day weekend tradition celebrating the 1965 \"Incident at Exeter. \" - Hosted by the Exeter-Area Kiwanis Club, the two-day event features UFO expert talks, a parade, and an alien costume contest. - Activities include trolley rides to the 1965 sighting location and continuous showings of historical videos. - Proceeds from the festival and a special police patch sale support local children's charities and scholarships. If you’ve walked through downtown Exeter lately, you may have spotted neon‑green alien faces peering from storefronts and posters — a sure sign that the UFO Festival is about to return.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-08-31T17:48:08Z",
+      "sourceDisplayedAt": "2026-08-31T17:48:08Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events",
+          "summary": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events - The Exeter UFO Festival is a Labor Day weekend tradition celebrating the 1965 \"Incident at Exeter. \" - Hosted by the Exeter-Area Kiwanis Club, the two-day event features UFO expert talks, a parade, and an alien costume contest. - Activities include trolley rides to the 1965 sighting location and continuous showings of historical videos. - Proceeds from the festival and a special police patch sale support local children's charities and scholarships. If you’ve walked through downtown Exeter lately, you may have spotted neon‑green alien faces peering from storefronts and posters — a sure sign that the UFO Festival is about to return.",
+          "sourceHash": "b46a0b8b96fbe385d3c327f3bc21dc6d3ab6e2c1",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Exeter UFO Festival 2026: Ihr kompletter Leitfaden für außergewöhnliche Redner und Veranstaltungen",
+          "summary": "Exeter UFO Festival 2026: Ihr kompletter Leitfaden für außergewöhnliche Redner und Veranstaltungen - Das Exeter UFO Festival ist eine Wochenendtradition des Labor Day, die den \"Vorfall von 1965 in Exeter\" feiert. \"- Die zweitägige Veranstaltung wird vom Exeter-Area Kiwanis Club veranstaltet und bietet UFO-Expertengespräche, eine Parade und einen Alien-Kostümwettbewerb. - Zu den Aktivitäten gehören Trolley-Fahrten zum Sightseeing-Standort von 1965 und kontinuierliche Vorführungen historischer Videos. - Erlöse aus der festival und ein spezieller Patch Sale der Polizei unterstützen lokale Kinderhilfswerke und Stipendien. Wenn Sie in letzter Zeit durch die Innenstadt von Exeter gelaufen sind, haben Sie vielleicht neongrüne Alien-Gesichter gesehen, die von Schaufenstern und Postern aus spähen — ein sicheres Zeichen dafür, dass das UFO-Festival bald zurückkehren wird.",
+          "sourceHash": "b46a0b8b96fbe385d3c327f3bc21dc6d3ab6e2c1",
+          "provider": "mymemory"
+        }
+      }
+    },
+    {
+      "id": "sighting-more-americans-believe-the-government-is-withholding-information-about-ufos",
+      "title": "More Americans believe the government is withholding information about UFOs",
+      "source": "Scientific American",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZENoZ1hDLTVrRV8tNnNYY1BGQkJlZ2pJczVpWnl1ZVNMQ1FxdXR0V0c0XzQzYUF4cS1MamVIU1BOVWNUcm1oWHdhNl9nUnlraEkwdm5WWTkzTkhqMlV2YUxsb2gtNmtvMkFHempHN3NDazBBbHpmbTVCbEVNX043Qm1obGVNZ3plNTM3YXphYmRoRUJyM3NFQmxyNHB1Uk1oWDRONmFpZUdUbTNrZ0NVSjBfZlhla0FWcHpB?oc=5",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26T17:00:00Z",
+      "summary": "The truth may be out there, but Americans are split on what the truth is: just under half of people believe all sightings of unidentified flying object (UFO), also known as unidentified anomalous phenomena (UAP), can be explained by human activity or natural phenomena, a new Gallup poll finds. The proportion of skeptics has been dropping, however: In 2019, 60 percent of Americans said they believed UAP were either human-caused or natural phenomena. That’s not to say that all those with shifting opinions are sure our planet has been visited by intelligent life from other planets: 37 percent of the poll’s respondents said some UAP were likely alien spacecraft, down from 41 percent in 2021.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "displayedAt": "2026-08-28T14:40:53Z",
+      "translation": {
+        "en": {
+          "title": "More Americans believe the government is withholding information about UFOs",
+          "summary": "The truth may be out there, but Americans are split on what the truth is: just under half of people believe all sightings of unidentified flying object (UFO), also known as unidentified anomalous phenomena (UAP), can be explained by human activity or natural phenomena, a new Gallup poll finds. The proportion of skeptics has been dropping, however: In 2019, 60 percent of Americans said they believed UAP were either human-caused or natural phenomena.",
+          "sourceHash": "3fc29a1528edcb51ca800c52d8b9c81f364fcc78",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Immer mehr Amerikaner glauben, dass die Regierung Informationen über UFOs zurückhält",
+          "summary": "Die Wahrheit mag da draußen sein, aber die Amerikaner sind gespalten, was die Wahrheit ist: Knapp die Hälfte der Menschen glaubt, dass alle Sichtungen von nicht identifizierten Flugobjekten (UFO), auch bekannt als nicht identifizierte anomale Phänomene (UAP), durch menschliche Aktivitäten oder Naturphänomene erklärt werden können, findet eine neue Gallup-Umfrage. Der Anteil der Skeptiker ist jedoch gesunken: Im Jahr 2019 gaben 60 Prozent der Amerikaner an, dass sie glaubten, UAP sei entweder vom Menschen verursacht oder natürlich Phaenomen",
+          "sourceHash": "3fc29a1528edcb51ca800c52d8b9c81f364fcc78",
+          "provider": "mymemory"
+        }
+      },
+      "rssPublishedAt": "2026-08-26T17:00:00Z",
+      "rssDate": "2026-08-26",
+      "sourcePublishedAt": "2026-08-26T17:00:00Z",
+      "sourceDisplayedAt": "2026-08-28T14:40:53Z"
     },
     {
       "id": "ufo-uap-real-fake-or-demonic-delusion",
@@ -214,53 +237,6 @@
           "sourceHash": "48ce4f783769611d4b88a8ddab7b138d7f780d4f",
           "provider": "mymemory"
         }
-      }
-    },
-    {
-      "id": "sighting-pilots-report-unexplained-lights-over-cyprus-as-eu-monitors-ufo-reports",
-      "title": "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
-      "source": "Cyprus Mail",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ2NVZkFmZkVqZDhMcVVWSnRyeHh5dEw3b1l6OXhLaFdfaUl0My1CMkpyR0RLRXFHc3R5Q21QY2tiT2Z1VEtvY3pPMXVGN0c3YUNzMnlydnFZTHZ0cGRpQVBLNF85blNpYW1vY1lyOEJUWFR0U3RMSXFYamFnR01DdkVxdlB0cHJrb2o2VVV6ZElEVTI2dGlTdG5rb2k1cG1mUkhjZXc4VENLZw?oc=5",
-      "date": "2026-08-17",
-      "publishedAt": "2026-08-17T11:42:16Z",
-      "summary": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023. Ackermans said the phenomenon first appeared while the aircraft was south of Cyprus. “The strangest thing was that one of the three lights would sometimes manoeuvre around the others. It looked like a chase, what the air force calls a dogfight, and then two or all three would disappear again.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
-      "displayedAt": "2026-08-18T11:21:11Z",
-      "rssPublishedAt": "2026-08-17T11:42:16Z",
-      "rssDate": "2026-08-17",
-      "sourcePublishedAt": "2026-08-17T11:42:16Z",
-      "sourceDisplayedAt": "2026-08-18T11:21:11Z",
-      "translation": {
-        "en": {
-          "title": "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
-          "summary": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023.",
-          "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Piloten berichten von \"unerklärlichen Lichtern\" über Zypern, während die EU UFO-Berichte überwacht",
-          "summary": "Piloten haben unerklärliche Luftphänomene (UAPs) über Zypern gemeldet, darunter eine Sichtung von sechs Besatzungsmitgliedern auf einem Flug südlich der Insel. Wie Euronews berichtet, wurde der Vorfall auf Zypern vom niederländischen Flugpiloten Rob Ackermans beschrieben, der sagte, er und fünf weitere Besatzungsmitglieder hätten während eines Fluges vom Nahen Osten in die Niederlande im Jahr 2023 mehr als zwei Stunden lang ungewöhnliche Lichter beobachtet.",
-          "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
-          "provider": "mymemory"
-        }
       },
       "retainedFromPreviousScan": true
     },
@@ -331,23 +307,31 @@
     }
   ],
   "summaries": {
-    "more-americans-believe-the-government-is-withholding-information-about-ufos": "The truth may be out there, but Americans are split on what the truth is: just under half of people believe all sightings of unidentified flying object (UFO), also known as unidentified anomalous phenomena (UAP), can be explained by human activity or natural phenomena, a new Gallup poll finds. The proportion of skeptics has been dropping, however: In 2019, 60 percent of Americans said they believed UAP were either human-caused or natural phenomena. That’s not to say that all those with shifting opinions are sure our planet has been visited by intelligent life from other planets: 37 percent of the poll’s respondents said some UAP were likely alien spacecraft, down from 41 percent in 2021.",
     "rare-2026-uap-witness-footage-compilation-real-ufos-caught-on-camera-government-can-t-explain": "Learn more Sign in # RARE 2026 UAP Witness Footage Compilation - Real UFOs Caught on Camera (Government Can’t Explain) [](http://youtu. be/@ADarkLightMedia) Dark Sky Portal Dark Sky Portal 114 subscribers Subscribe Subscribed 7 Share Save Download Download 113 views 9 days ago#UAP#Disclosure#UAP2026 113 views • Aug 20, 2026 • #UAP #Disclosure #UAP2026 Insane compilation of 2026 UAP footage from witnesses around the world. #UAP#UFO#2026UFOs#UAP2026#RealUFOFootage#UFOCompilation#UnidentifiedAerialPhenomena#UFOs2026#AlienCraft#Disclosure…. more ## Music 2 songs # Mountain Eagle Soundscape - Drone-957 #### tEdor Feral # Star trek #### Leyan Zhang Star Trek Music ### Dark Sky Portal 114 subscribers VideosAbout Show less [](http://youtu.",
+    "exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events - The Exeter UFO Festival is a Labor Day weekend tradition celebrating the 1965 \"Incident at Exeter. \" - Hosted by the Exeter-Area Kiwanis Club, the two-day event features UFO expert talks, a parade, and an alien costume contest. - Activities include trolley rides to the 1965 sighting location and continuous showings of historical videos. - Proceeds from the festival and a special police patch sale support local children's charities and scholarships. If you’ve walked through downtown Exeter lately, you may have spotted neon‑green alien faces peering from storefronts and posters — a sure sign that the UFO Festival is about to return.",
+    "sighting-more-americans-believe-the-government-is-withholding-information-about-ufos": "The truth may be out there, but Americans are split on what the truth is: just under half of people believe all sightings of unidentified flying object (UFO), also known as unidentified anomalous phenomena (UAP), can be explained by human activity or natural phenomena, a new Gallup poll finds. The proportion of skeptics has been dropping, however: In 2019, 60 percent of Americans said they believed UAP were either human-caused or natural phenomena. That’s not to say that all those with shifting opinions are sure our planet has been visited by intelligent life from other planets: 37 percent of the poll’s respondents said some UAP were likely alien spacecraft, down from 41 percent in 2021.",
     "sighting-here-are-some-ufo-reports-from-new-jersey-residents-in-the-past-two-months": "More New Jersey UFO reports keep pouring in When New Jersey residents look up to the skies over the Garden State, some of them are seeing more than birds, planes, and SpaceX launches. Not every light or shape in the New Jersey sky is a UFO, or as they are known these days, UAP, but some of the things we are seeing are not easily explained. There is a website that keeps track of reported sightings, and it's called the National UFO Reporting Center. I took a look at the reports in New Jersey recently, and some of them sent a chill up my spine. Reports Of UFO Sightings In New Jersey Here's a report of a sighting over Ewing at 10:59 PM on August 15 of this year, Mist/ fog in sky with big light in front.",
-    "sighting-pilots-report-unexplained-lights-over-cyprus-as-eu-monitors-ufo-reports": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023. Ackermans said the phenomenon first appeared while the aircraft was south of Cyprus. “The strangest thing was that one of the three lights would sometimes manoeuvre around the others. It looked like a chase, what the air force calls a dogfight, and then two or all three would disappear again.",
     "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence' | Daily Mail Online This is an epic humiliation for Harry and Meghan. we should fear the twisted real strategy behind their UK return: MAUREEN CALLAHAN How Prince Harry and Meghan Markle's American dreams failed as family leave California after tanked million-dollar Hollywood deals Harry and Meghan will be living back in Britain THIS MONTH: Pair's sudden decision to leave California takes Charles and William by surprise - Archie and Lilibet will attend UK school but couple don't plan to be working royals Blindsided Charles only found out about Harry and Meghan's return on Sunday and it wasn't discussed when King met his son six weeks ago Lindsay Clancy's life locked in psych ward: Her unfiltered true feelings about husband Patrick."
   },
   "notificationBatch": {
-    "timestamp": "2026-08-31T09:01:24Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-08-31T17:48:08Z",
+    "ids": [
+      "exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events"
+    ],
+    "articles": [
+      {
+        "id": "exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events",
+        "title": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events",
+        "source": "seacoastonline.com"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 381,
+    "broadArticles": 375,
     "broadTopics": 163,
-    "notificationArticles": 0,
-    "notificationTopics": 0,
-    "newNotificationTopics": 0,
+    "notificationArticles": 1,
+    "notificationTopics": 1,
+    "newNotificationTopics": 1,
     "appTopics": 6,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -355,7 +339,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 3,
+    "regroupedTopics": 2,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -385,13 +369,13 @@
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
       "inputArticles": 4,
       "outputArticles": 4,
-      "preservedSourceSummaries": 3
+      "preservedSourceSummaries": 2
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
       "inputArticles": 4,
       "outputArticles": 4,
-      "missingSummaries": 1,
+      "missingSummaries": 2,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -425,14 +409,14 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 8,
+      "archiveCandidates": 6,
       "currentBeforeRestore": 4,
       "restoredArticles": 2,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
-        "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
+        "Here are some UFO reports from New Jersey residents in the past two months",
         "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence'"
       ]
     },
@@ -446,13 +430,13 @@
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
       "checkedSources": 6,
-      "updatedSources": 3,
+      "updatedSources": 2,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 6,
-      "newSources": 0
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -462,28 +446,14 @@
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 0,
-      "freshSources": 0,
+      "notifications": 1,
+      "freshSources": 1,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 16
+      "seededSeenFromPreviousFeed": 12
     }
   },
   "translations": {
-    "more-americans-believe-the-government-is-withholding-information-about-ufos": {
-      "en": {
-        "title": "More Americans believe the government is withholding information about UFOs",
-        "summary": "The truth may be out there, but Americans are split on what the truth is: just under half of people believe all sightings of unidentified flying object (UFO), also known as unidentified anomalous phenomena (UAP), can be explained by human activity or natural phenomena, a new Gallup poll finds. The proportion of skeptics has been dropping, however: In 2019, 60 percent of Americans said they believed UAP were either human-caused or natural phenomena.",
-        "sourceHash": "3fc29a1528edcb51ca800c52d8b9c81f364fcc78",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Immer mehr Amerikaner glauben, dass die Regierung Informationen über UFOs zurückhält",
-        "summary": "Die Wahrheit mag da draußen sein, aber die Amerikaner sind gespalten, was die Wahrheit ist: Knapp die Hälfte der Menschen glaubt, dass alle Sichtungen von nicht identifizierten Flugobjekten (UFO), auch bekannt als nicht identifizierte anomale Phänomene (UAP), durch menschliche Aktivitäten oder Naturphänomene erklärt werden können, findet eine neue Gallup-Umfrage. Der Anteil der Skeptiker ist jedoch gesunken: Im Jahr 2019 gaben 60 Prozent der Amerikaner an, dass sie glaubten, UAP sei entweder vom Menschen verursacht oder natürlich Phaenomen",
-        "sourceHash": "3fc29a1528edcb51ca800c52d8b9c81f364fcc78",
-        "provider": "mymemory"
-      }
-    },
     "rare-2026-uap-witness-footage-compilation-real-ufos-caught-on-camera-government-can-t-explain": {
       "en": {
         "title": "RARE 2026 UAP Witness Footage Compilation - Real UFOs Caught on Camera (Government Can’t Explain)",
@@ -498,6 +468,34 @@
         "provider": "mymemory"
       }
     },
+    "exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events": {
+      "en": {
+        "title": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events",
+        "summary": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events - The Exeter UFO Festival is a Labor Day weekend tradition celebrating the 1965 \"Incident at Exeter. \" - Hosted by the Exeter-Area Kiwanis Club, the two-day event features UFO expert talks, a parade, and an alien costume contest. - Activities include trolley rides to the 1965 sighting location and continuous showings of historical videos. - Proceeds from the festival and a special police patch sale support local children's charities and scholarships. If you’ve walked through downtown Exeter lately, you may have spotted neon‑green alien faces peering from storefronts and posters — a sure sign that the UFO Festival is about to return.",
+        "sourceHash": "b46a0b8b96fbe385d3c327f3bc21dc6d3ab6e2c1",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Exeter UFO Festival 2026: Ihr kompletter Leitfaden für außergewöhnliche Redner und Veranstaltungen",
+        "summary": "Exeter UFO Festival 2026: Ihr kompletter Leitfaden für außergewöhnliche Redner und Veranstaltungen - Das Exeter UFO Festival ist eine Wochenendtradition des Labor Day, die den \"Vorfall von 1965 in Exeter\" feiert. \"- Die zweitägige Veranstaltung wird vom Exeter-Area Kiwanis Club veranstaltet und bietet UFO-Expertengespräche, eine Parade und einen Alien-Kostümwettbewerb. - Zu den Aktivitäten gehören Trolley-Fahrten zum Sightseeing-Standort von 1965 und kontinuierliche Vorführungen historischer Videos. - Erlöse aus der festival und ein spezieller Patch Sale der Polizei unterstützen lokale Kinderhilfswerke und Stipendien. Wenn Sie in letzter Zeit durch die Innenstadt von Exeter gelaufen sind, haben Sie vielleicht neongrüne Alien-Gesichter gesehen, die von Schaufenstern und Postern aus spähen — ein sicheres Zeichen dafür, dass das UFO-Festival bald zurückkehren wird.",
+        "sourceHash": "b46a0b8b96fbe385d3c327f3bc21dc6d3ab6e2c1",
+        "provider": "mymemory"
+      }
+    },
+    "sighting-more-americans-believe-the-government-is-withholding-information-about-ufos": {
+      "en": {
+        "title": "More Americans believe the government is withholding information about UFOs",
+        "summary": "The truth may be out there, but Americans are split on what the truth is: just under half of people believe all sightings of unidentified flying object (UFO), also known as unidentified anomalous phenomena (UAP), can be explained by human activity or natural phenomena, a new Gallup poll finds. The proportion of skeptics has been dropping, however: In 2019, 60 percent of Americans said they believed UAP were either human-caused or natural phenomena.",
+        "sourceHash": "3fc29a1528edcb51ca800c52d8b9c81f364fcc78",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Immer mehr Amerikaner glauben, dass die Regierung Informationen über UFOs zurückhält",
+        "summary": "Die Wahrheit mag da draußen sein, aber die Amerikaner sind gespalten, was die Wahrheit ist: Knapp die Hälfte der Menschen glaubt, dass alle Sichtungen von nicht identifizierten Flugobjekten (UFO), auch bekannt als nicht identifizierte anomale Phänomene (UAP), durch menschliche Aktivitäten oder Naturphänomene erklärt werden können, findet eine neue Gallup-Umfrage. Der Anteil der Skeptiker ist jedoch gesunken: Im Jahr 2019 gaben 60 Prozent der Amerikaner an, dass sie glaubten, UAP sei entweder vom Menschen verursacht oder natürlich Phaenomen",
+        "sourceHash": "3fc29a1528edcb51ca800c52d8b9c81f364fcc78",
+        "provider": "mymemory"
+      }
+    },
     "sighting-here-are-some-ufo-reports-from-new-jersey-residents-in-the-past-two-months": {
       "en": {
         "title": "Here are some UFO reports from New Jersey residents in the past two months",
@@ -509,20 +507,6 @@
         "title": "Hier sind einige UFO-Berichte von Bewohnern von New Jersey in den letzten zwei Monaten",
         "summary": "Immer mehr UFO-Berichte aus New Jersey strömen herein Wenn die Bewohner von New Jersey über dem Garden State in den Himmel schauen, sehen einige von ihnen mehr als Vögel, Flugzeuge und SpaceX-Starts. Nicht jedes Licht oder jede Form am Himmel von New Jersey ist ein UFO, oder wie sie heutzutage genannt werden, UAP, aber einige der Dinge, die wir sehen, sind nicht leicht zu erklären. Es gibt eine Website, die gemeldete Sichtungen verfolgt, und sie heißt National UFO Reporting übereinstimmt.",
         "sourceHash": "48ce4f783769611d4b88a8ddab7b138d7f780d4f",
-        "provider": "mymemory"
-      }
-    },
-    "sighting-pilots-report-unexplained-lights-over-cyprus-as-eu-monitors-ufo-reports": {
-      "en": {
-        "title": "Pilots report ‘unexplained lights’ over Cyprus as EU monitors UFO reports",
-        "summary": "Pilots have reported unexplained aerial phenomena (UAPs) over Cyprus, including a sighting involving six crew members on a flight south of the island. As reported by Euronews, the Cyprus incident was described by Dutch airline pilot Rob Ackermans, who said he and five other crew members observed unusual lights for more than two hours during a flight from the Middle East to the Netherlands in 2023.",
-        "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Piloten berichten von \"unerklärlichen Lichtern\" über Zypern, während die EU UFO-Berichte überwacht",
-        "summary": "Piloten haben unerklärliche Luftphänomene (UAPs) über Zypern gemeldet, darunter eine Sichtung von sechs Besatzungsmitgliedern auf einem Flug südlich der Insel. Wie Euronews berichtet, wurde der Vorfall auf Zypern vom niederländischen Flugpiloten Rob Ackermans beschrieben, der sagte, er und fünf weitere Besatzungsmitglieder hätten während eines Fluges vom Nahen Osten in die Niederlande im Jahr 2023 mehr als zwei Stunden lang ungewöhnliche Lichter beobachtet.",
-        "sourceHash": "4d6ed496b33a47ff19560d1f8a9a8293c18cb7ba",
         "provider": "mymemory"
       }
     },
