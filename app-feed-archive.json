@@ -1,179 +1,7 @@
 {
-  "timestamp": "2026-09-01T15:22:10Z",
+  "timestamp": "2026-09-02T07:23:30Z",
   "retentionDays": 14,
   "articles": [
-    {
-      "id": "file-release-pentagon-releases-declassified-ufo-files-from-various-federal-agencies-abc-news",
-      "title": "Pentagon releases declassified UFO files from various federal agencies - ABC News",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbHVBS3VqSGpNSmgxTWtIa2c3aDI2WE5vS2pfVXRFNjNZd3BlWUdILWh6b245RDMtOXk3Yk91UXktV3k4ckR1dTh1R1lVbFR4MFpLRnhXVmFMMGNsaWs3SXpaTHdzekxQNmRUQkktTHMwTjU3d3V2Z2R4akdIeEM4VGlnNFFzTVVzTXprS1AyT2l3MWdGaDJxUEFiWjBMc3BwMVHSAacBQVVfeXFMUGJvM2xwYk1mVU9OYW1haDlYZlhfaF83ekszcWZrbXRWTzMtZXNOOXNYR1loRThfWElkd3NiVllpX1ZuOGV1eDQ2NHQ5aDR2M1FKZDJmb0Y5TDYzTE53T0lNQ0FvUXQ3QmtYb09QVlRRRGV2eWFjOVJFcUVCVkF1YUlkSkRGclM0eUJVV0VLSl9UZmtBb1ZKUVRtTFhoUUFXWnFiQ1hqSzQ?oc=5",
-      "date": "2026-08-31",
-      "publishedAt": "2026-08-31T21:42:58Z",
-      "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 15,
-      "otherSources": [
-        {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "source": "U.S. Department of War (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "US releases second batch of government declassified UFO files",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "source": "U.S. Department of War (.gov)",
-          "link": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-          "publishedAt": "2026-05-22T00:00:00Z"
-        },
-        {
-          "title": "Pentagon releases NEW batch of UFO files",
-          "source": "Fox News",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aS1pnN09Ha2lNSDZqeVVWSDhLRGpkcHdKOGlOWm9XVTd6YU1QNnM4Q0NNVXRkbmdWR0Zfbm1iNDZqZm0yZzNXXzlkY09ObDh0TS0tMFFn?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aS1pnN09Ha2lNSDZqeVVWSDhLRGpkcHdKOGlOWm9XVTd6YU1QNnM4Q0NNVXRkbmdWR0Zfbm1iNDZqZm0yZzNXXzlkY09ObDh0TS0tMFFn?oc=5",
-          "publishedAt": "2026-08-08T07:00:00Z"
-        },
-        {
-          "title": "Pentagon Releases New UFO Files Including 2025 Military Encounter",
-          "source": "Koran Manado",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVWjBNYWtQNF9KNE9KdXNXb1JocnVCX1plaF85M09RUURxelh3Tl81dUJ4cXBzLV85NkNEMFFra1NqRTV3SENpT29TR21hZVZzSGFQWTNWMEF1eFduX3BVcXpMYVlQYlY1b2dUVA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVWjBNYWtQNF9KNE9KdXNXb1JocnVCX1plaF85M09RUURxelh3Tl81dUJ4cXBzLV85NkNEMFFra1NqRTV3SENpT29TR21hZVZzSGFQWTNWMEF1eFduX3BVcXpMYVlQYlY1b2dUVA?oc=5",
-          "publishedAt": "2026-08-07T18:30:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-          "source": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORUplRUtwT19Zek1aWDdwMllOR0cySmwxb2ZUaEJWN2dIM2E2Uks1YmhETGkzMFkxU2hCLVA1NHdpc084elFhWjN3Sjh6Yzk0QWlwQjd0U1VDZ0kyOHYyVUdkeXJmMkUwcjIwb1lMTGJQU2VuLUtVZFVuSWswcVBackpHMA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORUplRUtwT19Zek1aWDdwMllOR0cySmwxb2ZUaEJWN2dIM2E2Uks1YmhETGkzMFkxU2hCLVA1NHdpc084elFhWjN3Sjh6Yzk0QWlwQjd0U1VDZ0kyOHYyVUdkeXJmMkUwcjIwb1lMTGJQU2VuLUtVZFVuSWswcVBackpHMA?oc=5",
-          "publishedAt": "2026-08-07T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-          "source": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWVRCVUdyaE9xbEt3WWFLYVNncHdZaFJ6bTFSOFVBZkZLaWliNTJlUURlS1RWajhVcU5udm45clBWTjdjMG1sX0xwbDlnLUV2aEstSmdmY2Q2VUViTXlvTGhKUDlkcGxyVzViRGpWMVN4RHJ4UDNHRjV1Tkl4TXdURDRZZmVzQk5FOXc?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWVRCVUdyaE9xbEt3WWFLYVNncHdZaFJ6bTFSOFVBZkZLaWliNTJlUURlS1RWajhVcU5udm45clBWTjdjMG1sX0xwbDlnLUV2aEstSmdmY2Q2VUViTXlvTGhKUDlkcGxyVzViRGpWMVN4RHJ4UDNHRjV1Tkl4TXdURDRZZmVzQk5FOXc?oc=5",
-          "publishedAt": "2026-08-07T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-          "source": "AOL.ca",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CLWRiSmx6djJtQkJycHRFVkdLbENBRTh0X25OTmswN2JvbmFscHJTbTdNU1JfaTJsMjVfaG5aTW1yaDQ4RzM1dEZRZUFSbWc4cUJvbFI2bzl3a1RkZDcwZll4WVZudGEtc3VPbEQwMHdPTkNFS3NqdURMczV4Tm8?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CLWRiSmx6djJtQkJycHRFVkdLbENBRTh0X25OTmswN2JvbmFscHJTbTdNU1JfaTJsMjVfaG5aTW1yaDQ4RzM1dEZRZUFSbWc4cUJvbFI2bzl3a1RkZDcwZll4WVZudGEtc3VPbEQwMHdPTkNFS3NqdURMczV4Tm8?oc=5",
-          "publishedAt": "2026-08-07T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
-          "source": "LiveNOW from FOX",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "New videos from Pentagon’s second batch of UFO files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Highlights From 2nd Batch of Declassified UFO Files",
-          "source": "NTD News",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "What does the second batch of UFO files tell us?",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
-          "source": "Fox News",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
-          "publishedAt": "2026-05-19T07:00:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "US releases second batch of government declassified UFO files",
-        "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "Pentagon releases NEW batch of UFO files",
-        "Pentagon Releases New UFO Files Including 2025 Military Encounter",
-        "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-        "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-        "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-        "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
-        "New videos from Pentagon’s second batch of UFO files"
-      ],
-      "quality": 100,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DECLASSIFIED, PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "DECLASSIFIED, PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 70,
-          "text": "15 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DECLASSIFIED",
-        "PENTAGON"
-      ],
-      "sourceQuality": 100,
-      "displayedAt": "2026-09-01T15:22:10Z"
-    },
     {
       "id": "more-americans-believe-the-government-is-withholding-information-about-ufos",
       "title": "More Americans believe the government is withholding information about UFOs",
@@ -322,6 +150,41 @@
       "displayedAt": "2026-08-31T17:48:08Z"
     },
     {
+      "id": "scientists-deserve-first-hand-evidence-on-uap-materials",
+      "title": "Scientists Deserve First-Hand Evidence on UAP Materials",
+      "source": "Medium",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVUV4WVFReklKZzVMVU5SYmZjS3Y4NEFQby1sQmdyR3p2M3RXOXRYS2lva0JXb1d4QmhqRXNkSjJrZmpHSEk2VjhMNHl4TWRxQlYxWjUwYUppUnkxR01yZ29UXzFWNlRWM2ljU1h4bE94UmdDZUJydENTYTdIR2pHMVJ4ZmQ0NEJEZVZNWHppNWdKckktRWlCMnoweWo?oc=5",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26T19:52:10Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-09-02T07:23:30Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
+      }
+    },
+    {
       "id": "ufo-uap-real-fake-or-demonic-delusion",
       "title": "UFO/UAP: Real, Fake, Or Demonic Delusion?",
       "source": "Patheos",
@@ -397,71 +260,6 @@
           "summary": "Immer mehr UFO-Berichte aus New Jersey strömen herein Wenn die Bewohner von New Jersey über dem Garden State in den Himmel schauen, sehen einige von ihnen mehr als Vögel, Flugzeuge und SpaceX-Starts. Nicht jedes Licht oder jede Form am Himmel von New Jersey ist ein UFO, oder wie sie heutzutage genannt werden, UAP, aber einige der Dinge, die wir sehen, sind nicht leicht zu erklären. Es gibt eine Website, die gemeldete Sichtungen verfolgt, und sie heißt National UFO Reporting übereinstimmt.",
           "sourceHash": "48ce4f783769611d4b88a8ddab7b138d7f780d4f",
           "provider": "mymemory"
-        }
-      },
-      "retainedFromPreviousScan": true
-    },
-    {
-      "id": "sighting-us-government-hiding-bodies-of-four-alien-races-pentagon-s-ufo-scientist-claims-i-ve-seen-the-evidence",
-      "title": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence'",
-      "source": "Daily Mail",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUHItMWVyV05jUTU2TDJWQnZ2V256S01xR0JWU3BmbXpxRnQxVXZJWDQyaGM4Y2czYVZiczM2LWNrT25WcHRxZ0JjRWhhUW0xVXV2YkUyT0Rzb0w4MnduT0cwUU5QMnMxUXRvYTF2ZGs1VUZGSXhZUnRPVVRoUm82dzhOME9ibXNmUHljR01IeFdydGVLVVc3R1hVY0pJbmVhYzJKZ2V5WdIBrAFBVV95cUxOamxtZ0J1a3F6cXNnXzRybWRUTTY1b2kyQmJncU5ScWVBNWhQdEltODV2dktoeVVhWlh2Vl94N2I4Z1QzRTIyUWxuOUVTSktNdUxMbEpMVHlQaWRyNWZKUW5ocTVTT05STG9vcWlrZUVpY1huSFlrSG90Y2ptUFVWUG56bVF0clRTYUN5NGFXRWdzZHRzMzVyS3A0WmRBWndlRUpEaXlTS2lLbzY0?oc=5",
-      "date": "2026-08-09",
-      "publishedAt": "2026-08-18T15:34:52Z",
-      "summary": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence' | Daily Mail Online This is an epic humiliation for Harry and Meghan. we should fear the twisted real strategy behind their UK return: MAUREEN CALLAHAN How Prince Harry and Meghan Markle's American dreams failed as family leave California after tanked million-dollar Hollywood deals Harry and Meghan will be living back in Britain THIS MONTH: Pair's sudden decision to leave California takes Charles and William by surprise - Archie and Lilibet will attend UK school but couple don't plan to be working royals Blindsided Charles only found out about Harry and Meghan's return on Sunday and it wasn't discussed when King met his son six weeks ago Lindsay Clancy's life locked in psych ward: Her unfiltered true feelings about husband Patrick.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 37,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Quellenrisiko",
-          "points": -8,
-          "text": "Abzug, weil die einzige Quelle in diesem Themencluster eher Boulevard, Clickbait oder Unterhaltung ist."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "SIGHTINGS"
-      ],
-      "sourceQuality": 37,
-      "displayedAt": "2026-08-19T03:40:14Z",
-      "rssPublishedAt": "2026-08-18T15:34:52Z",
-      "rssDate": "2026-08-09",
-      "sourcePublishedAt": "2026-08-18T15:34:52Z",
-      "sourceDisplayedAt": "2026-08-19T03:40:14Z",
-      "translation": {
-        "en": {
-          "title": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence'",
-          "summary": "US government hiding bodies of FOUR alien races, Pentagon's UFO scientist claims: 'I've seen the evidence' | Daily Mail Online This is an epic humiliation for Harry and Meghan. we should fear the twisted real strategy behind their UK return: MAUREEN CALLAHAN How Prince Harry and Meghan Markle's American dreams failed as family leave California after tanked million-dollar Hollywood deals Harry and Meghan will be living back in Britain THIS MONTH: Pair's sudden decision to leave California takes Charles and William by surprise - Archie and Lilibet will attend UK school but couple don't plan to be working royals Blindsided Charles only found out about Harry and Meghan's return on Sunday and it wasn't discussed when King met his son six weeks ago Lindsay Clancy's life locked in psych ward: Her unfiltered true feelings about husband Patrick.",
-          "sourceHash": "621cffc63ec8e9ff6df902129dced5bb23462bf8",
-          "provider": "original"
-        },
-        "de": {
-          "title": "US-Regierung versteckt Leichen von VIER außerirdischen Rassen, UFO-Wissenschaftler des Pentagon behauptet: „Ich habe die Beweise gesehen“",
-          "summary": "US-Regierung versteckt Leichen von VIER außerirdischen Rassen, UFO-Wissenschaftler des Pentagon behauptet: „Ich habe die Beweise gesehen“ | Daily Mail Online Das ist eine epische Demütigung für Harry und Meghan. Wir sollten uns vor der verdrehten wahren Strategie hinter ihrer Rückkehr nach Großbritannien fürchten: MAUREEN CALLAHAN Wie die amerikanischen Träume von Prinz Harry und Meghan Markle scheiterten, als ihre Familie Kalifornien verließ, nachdem Hollywood-Deals in Millionenhöhe scheiterten. Harry und Meghan werden DIESEN MONAT wieder in Großbritannien leben: Die plötzliche Entscheidung des Paares, Kalifornien zu verlassen, überrascht Charles und William – Archie und Lilibet werden eine britische Schule besuchen, aber das Paar hat nicht vor, im Königshaus zu arbeiten wurde nicht besprochen, als King vor sechs Wochen seinen Sohn traf. Lindsay Clancys Leben in der Psychiatrie: Ihre ungefilterten wahren Gefühle gegenüber Ehemann Patrick.",
-          "sourceHash": "621cffc63ec8e9ff6df902129dced5bb23462bf8",
-          "provider": "google"
         }
       },
       "retainedFromPreviousScan": true
