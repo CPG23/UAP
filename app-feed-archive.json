@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-02T07:23:30Z",
+  "timestamp": "2026-09-02T14:50:57Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -150,13 +150,13 @@
       "displayedAt": "2026-08-31T17:48:08Z"
     },
     {
-      "id": "scientists-deserve-first-hand-evidence-on-uap-materials",
+      "id": "program-scientists-deserve-first-hand-evidence-on-uap-materials",
       "title": "Scientists Deserve First-Hand Evidence on UAP Materials",
       "source": "Medium",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVUV4WVFReklKZzVMVU5SYmZjS3Y4NEFQby1sQmdyR3p2M3RXOXRYS2lva0JXb1d4QmhqRXNkSjJrZmpHSEk2VjhMNHl4TWRxQlYxWjUwYUppUnkxR01yZ29UXzFWNlRWM2ljU1h4bE94UmdDZUJydENTYTdIR2pHMVJ4ZmQ0NEJEZVZNWHppNWdKckktRWlCMnoweWo?oc=5",
       "date": "2026-08-26",
       "publishedAt": "2026-08-26T19:52:10Z",
-      "summary": "",
+      "summary": "source=post_page---byline--aa40193aa1ac---------------------------------------) 5 min read 6 days ago Press enter or click to view image in full size An artist’s illustration of a UAP incident. government is in possession of dozens of intact and partially intact craft of non-human origin, including relics of biological pilots. On July 26, 2023, Grusch testified under oath before a House Oversight subcommittee, that a highly secretive, decades-long program has been actively retrieving and reverse-engineering these crashed or landed unidentified anomalous phenomena (UAPs). Our scientists could review the analysis documents within government organizations like the Central Intelligence Agency (CIA) or within corporations like Lockhead Martin or MITRE which might have been contracted by the government to analyze them.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -176,12 +176,20 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-09-02T07:23:30Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
+      "translation": {
+        "en": {
+          "title": "Scientists Deserve First-Hand Evidence on UAP Materials",
+          "summary": "source=post_page---byline--aa40193aa1ac---------------------------------------) 5 min read 6 days ago Press enter or click to view image in full size An artist’s illustration of a UAP incident. government is in possession of dozens of intact and partially intact craft of non-human origin, including relics of biological pilots. On July 26, 2023, Grusch testified under oath before a House Oversight subcommittee, that a highly secretive, decades-long program has been actively retrieving and reverse-engineering these crashed or landed unidentified anomalous phenomena (UAPs).",
+          "sourceHash": "ff56ce7d9e48ef91a11384ac19418598c32188e9",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Wissenschaftler verdienen Beweise aus erster Hand für UAP-Materialien",
+          "summary": "source=post_page---byline--aa40193aa1ac---------------------------------------) 5 min read 6 days ago Drücken Sie Enter oder klicken Sie, um das Bild in voller Größe anzuzeigen Eine Illustration eines Künstlers eines UAP-Vorfalls. Die Regierung ist im Besitz von Dutzenden von intakten und teilweise intakten Booten nicht menschlichen Ursprungs, einschließlich Relikten biologischer Piloten. Am 26. Juli 2023 bezeugte Grusch unter Eid vor einem Unterausschuss der House Oversight, dass ein hochgeheimnisvoller das jahrzehntelange Programm hat diese abgestürzten oder gelandeten unidentifizierten anomalen Phänomene (UAPs) aktiv abgerufen und rückentwickelt.",
+          "sourceHash": "ff56ce7d9e48ef91a11384ac19418598c32188e9",
+          "provider": "mymemory"
+        }
       }
     },
     {
