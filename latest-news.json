@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-03T07:27:22Z",
+  "timestamp": "2026-09-03T14:50:15Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -9,7 +9,7 @@
       "date": "2026-08-31",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 18,
+      "mentions": 22,
       "otherSources": [
         {
           "title": "Pentagon releases NEW batch of UFO files",
@@ -42,6 +42,16 @@
           "displayedAt": "2026-08-07T07:00:00Z"
         },
         {
+          "title": "Pentagon releases new batch of UFO files: \"Did you see that?\"",
+          "source": "AOL.ca",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CLWRiSmx6djJtQkJycHRFVkdLbENBRTh0X25OTmswN2JvbmFscHJTbTdNU1JfaTJsMjVfaG5aTW1yaDQ4RzM1dEZRZUFSbWc4cUJvbFI2bzl3a1RkZDcwZll4WVZudGEtc3VPbEQwMHdPTkNFS3NqdURMczV4Tm8?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CLWRiSmx6djJtQkJycHRFVkdLbENBRTh0X25OTmswN2JvbmFscHJTbTdNU1JfaTJsMjVfaG5aTW1yaDQ4RzM1dEZRZUFSbWc4cUJvbFI2bzl3a1RkZDcwZll4WVZudGEtc3VPbEQwMHdPTkNFS3NqdURMczV4Tm8?oc=5",
+          "publishedAt": "2026-08-07T07:00:00Z",
+          "rssPublishedAt": "2026-08-07T07:00:00Z",
+          "sourcePublishedAt": "2026-08-07T13:06:00Z",
+          "displayedAt": "2026-08-07T07:00:00Z"
+        },
+        {
           "title": "Pentagon releases new batch of UFO files, China's Tianwen-2 reaches its asteroid target, and more science stories",
           "source": "Engadget",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWXBobmFhU2FOaFpkTy1OT1VoNTBOMzM1RzY1cmh5Und5NGhRb1hWSENKRXgwWjRCOEpGQkllX0FmMXNpelVTeVpaRGdmX19IY0xzeHhoaHhYNnpMVTFxX2xjT2J4dFpMcnhtZk4tNWFuVnVWODMyVFphd0JlV2xEekNJcFZzMDhjMXQ0a0xtZ1pudS1CREx6MFhocklrLUxl?oc=5",
@@ -49,8 +59,7 @@
           "publishedAt": "2026-07-12T07:00:00Z",
           "rssPublishedAt": "2026-07-12T07:00:00Z",
           "sourcePublishedAt": "2026-07-12T19:58:35Z",
-          "displayedAt": "2026-09-02T07:23:30Z",
-          "isNew": true
+          "displayedAt": "2026-07-12T07:00:00Z"
         },
         {
           "title": "The Pentagon Just Released Its Third Batch of UAP Files—What Have We Learned from the PURSUE Releases So Far?",
@@ -85,9 +94,9 @@
         },
         {
           "title": "\"Meh\" Again: The Pentagon Drops Second Batch Of UAP Files [Video]",
-          "source": "2oceansvibe News",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMFA4NG5EcWNqVEJVbFI0b2dGNjc0VVlmb1VJWVlSZWZXeG1ON0ZCRnB1WGpXRmMtX3R3RkZ4LU5mdk40NXF2ZGhlMGpBWFY4bmFySDV5Nkh5RWlOLWRvUTI4VGpKNUxnSnN2ZEhDTGc5TmcxTnFsRThxbXdzQkhld1dWUEZoOThSMTRIaDJPWW5scTJpMXY2NlU2V2dZTGdFekE?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMFA4NG5EcWNqVEJVbFI0b2dGNjc0VVlmb1VJWVlSZWZXeG1ON0ZCRnB1WGpXRmMtX3R3RkZ4LU5mdk40NXF2ZGhlMGpBWFY4bmFySDV5Nkh5RWlOLWRvUTI4VGpKNUxnSnN2ZEhDTGc5TmcxTnFsRThxbXdzQkhld1dWUEZoOThSMTRIaDJPWW5scTJpMXY2NlU2V2dZTGdFekE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMFA4NG5EcWNqVEJVbFI0b2dGNjc0VVlmb1VJWVlSZWZXeG1ON0ZCRnB1WGpXRmMtX3R3RkZ4LU5mdk40NXF2ZGhlMGpBWFY4bmFySDV5Nkh5RWlOLWRvUTI4VGpKNUxnSnN2ZEhDTGc5TmcxTnFsRThxbXdzQkhld1dWUEZoOThSMTRIaDJPWW5scTJpMXY2NlU2V2dZTGdFekE?oc=5",
+          "source": "2oceansvibe News",
           "publishedAt": "2026-05-25T07:00:00Z",
           "rssPublishedAt": "2026-05-25T07:00:00Z",
           "sourcePublishedAt": "2026-05-25T08:00:14Z",
@@ -181,19 +190,46 @@
           "source": "NewsNation",
           "publishedAt": "2026-05-22T07:00:00Z",
           "displayedAt": "2026-05-22T07:00:00Z"
+        },
+        {
+          "title": "Pentagon releases new batch of UFO files detailing “green orbs” sightings",
+          "source": "Caliber.Az",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcmozSnpVTzZvanU0VEh1WFdPaGlZVW5mRU03b2V3U29hTzJXMmJvYWZhSngzZmtfdmR1Y2ZfdXJfZElXYXA3cmliLURFUWYxWXgwZzY5ai11eTdQQm5VdGJkMFpoelNsR05kWlFSUzVBLUU2TG42eUxsemZxVk81SFVYRjBvVDJmTnJnbDI1VG1laEdXdmNnZHJaQnZlNmM?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcmozSnpVTzZvanU0VEh1WFdPaGlZVW5mRU03b2V3U29hTzJXMmJvYWZhSngzZmtfdmR1Y2ZfdXJfZElXYXA3cmliLURFUWYxWXgwZzY5ai11eTdQQm5VdGJkMFpoelNsR05kWlFSUzVBLUU2TG42eUxsemZxVk81SFVYRjBvVDJmTnJnbDI1VG1laEdXdmNnZHJaQnZlNmM?oc=5",
+          "publishedAt": "2026-05-22T07:00:00Z",
+          "displayedAt": "2026-09-03T14:50:15Z",
+          "isNew": true
+        },
+        {
+          "title": "Pentagon releases new batch of UFO files",
+          "source": "CNN",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcll3OGJ0cUdWaXVya29yaXdzM1Q2T2o3SUx3aG83TlBaRVdfdWpWWlJZZ2RiakpwVy1NMmdRMlBvalhEcllQeHFNdGdtb19oRTlKVmJIbF9JYU5malpfcGZ3ZlpjeGQxcFBUMEw4UFlyTzhlZV93TWJRWmtHNF9Hald6eTAtQW1sTlpwR1JsRmNsT29BbnA3UlBJTXA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcll3OGJ0cUdWaXVya29yaXdzM1Q2T2o3SUx3aG83TlBaRVdfdWpWWlJZZ2RiakpwVy1NMmdRMlBvalhEcllQeHFNdGdtb19oRTlKVmJIbF9JYU5malpfcGZ3ZlpjeGQxcFBUMEw4UFlyTzhlZV93TWJRWmtHNF9Hald6eTAtQW1sTlpwR1JsRmNsT29BbnA3UlBJTXA?oc=5",
+          "publishedAt": "2026-05-22T07:00:00Z",
+          "displayedAt": "2026-09-03T14:50:15Z",
+          "isNew": true
+        },
+        {
+          "title": "Pentagon releases new batch of UFO files",
+          "source": "WFLA",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcGVxMzNNR1JVdHRVbnN4bHlhdTlpSmZNNllTYkZEdGpCWXZTWGpKazFmVEh4Ykg2dzFua2tqTkg4VzNVb0FCWG1aZjAzS0ZvemN0T0dPVE9mbm5yVDRXOWhkSUk2bUduQUxFYTJ0dEtvaVNaMXRNOTltNVZlb1FfWVR30gGHAUFVX3lxTE1DSi1hYnU3YkpDVTQzcHZWaUl3QmNkRGdZQnktQ29WNkx1TVdfTEc4dS10U3JlRzcyb3ktYmZVUU1YMkZmYlNhUHJjNG8yWmg4NVlTd2pjUC1zNVRFQ1BENWVKdjB6LWRLMlRnUnlzTS0wdkFjbWM5dHh4VV91eVRWTlJ5QXc0TQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcGVxMzNNR1JVdHRVbnN4bHlhdTlpSmZNNllTYkZEdGpCWXZTWGpKazFmVEh4Ykg2dzFua2tqTkg4VzNVb0FCWG1aZjAzS0ZvemN0T0dPVE9mbm5yVDRXOWhkSUk2bUduQUxFYTJ0dEtvaVNaMXRNOTltNVZlb1FfWVR30gGHAUFVX3lxTE1DSi1hYnU3YkpDVTQzcHZWaUl3QmNkRGdZQnktQ29WNkx1TVdfTEc4dS10U3JlRzcyb3ktYmZVUU1YMkZmYlNhUHJjNG8yWmg4NVlTd2pjUC1zNVRFQ1BENWVKdjB6LWRLMlRnUnlzTS0wdkFjbWM5dHh4VV91eVRWTlJ5QXc0TQ?oc=5",
+          "publishedAt": "2026-05-22T07:00:00Z",
+          "displayedAt": "2026-09-03T14:50:15Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
         "Pentagon releases NEW batch of UFO files",
         "Pentagon Releases New UFO Files Including 2025 Military Encounter",
         "Pentagon releases new batch of UFO files: \"Did you see that?\"",
+        "Pentagon releases new batch of UFO files: \"Did you see that?\"",
         "Pentagon releases new batch of UFO files, China's Tianwen-2 reaches its asteroid target, and more science stories",
         "The Pentagon Just Released Its Third Batch of UAP Files—What Have We Learned from the PURSUE Releases So Far?",
         "US Government: Pentagon Releases New UFO Files Sparking Fresh Questions as Declassified UAP Evidence Surges",
         "United States: Department of War Publishes Second Release Of Unidentified Anomalous Phenomena Files",
         "\"Meh\" Again: The Pentagon Drops Second Batch Of UAP Files [Video]",
-        "Pentagon Releases New UFO Files Describing 'Countless Orange Orbs Swarming' in US",
-        "Pentagon releases new batch of declassified UFO files"
+        "Pentagon Releases New UFO Files Describing 'Countless Orange Orbs Swarming' in US"
       ],
       "quality": 100,
       "qualityBreakdown": [
@@ -234,8 +270,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 85,
-          "text": "18 Quellen im aktuellen Feed."
+          "points": 105,
+          "text": "22 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -244,7 +280,7 @@
         "files"
       ],
       "sourceQuality": 100,
-      "displayedAt": "2026-09-03T07:27:22Z",
+      "displayedAt": "2026-09-03T14:50:15Z",
       "sourceDisplayedAt": "2026-09-01T15:22:10Z",
       "translation": {
         "en": {
@@ -257,6 +293,83 @@
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien mit nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
           "summary": "Das Kriegsministerium sagt, dass es die zweite Veröffentlichung von freigegebenen und historischen Dateien mit nicht identifizierten anomalen Phänomenen als Teil des Entsiegelungs- und Berichtssystems des Präsidenten für UAP-Begegnungen veröffentlicht oder VERFOLGT. In der Veröffentlichung heißt es, dass die Sammlung auf WAR.GOV/UFO untergebracht bleibt und dass weitere Dateien rollierend veröffentlicht werden. Assistent des Kriegsministers für öffentliche Angelegenheiten und Chef-Pentagon-Sprecher Sean Parnell wird als Quelle der Abrechnung genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+          "provider": "mymemory"
+        }
+      }
+    },
+    {
+      "id": "pentagon-seeks-access-to-vast-private-ufo-records-collection",
+      "title": "Pentagon seeks access to vast private UFO records collection",
+      "source": "DefenseScoop",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQS2lCbzZkQ1dobGtWVkFsYUQ5cmp4MDBzZDFjTlhpQ1hOWlVKTVBEY25aVWQxWTFUN2E0R2lyeTdyVlhoc3FqalFnT0pUUldlWXE4RWdnRUJTak1CR2VTUDdQTzFrS0tLazJIekpnb1dNMXpnTzR3SFFrUy1xN3ZKVEtTcFZMYjVCVjZxTUJvalN0ZlRhNXZoQ2h5ME1qQQ?oc=5",
+      "date": "2026-09-02",
+      "publishedAt": "2026-09-02T20:34:40Z",
+      "summary": "Pentagon seeks access to vast private UFO records collection The Pentagon recently moved to issue a sole-source contract to a New Mexico-based nonprofit corporation that reportedly holds North America’s largest private collection of historical records documenting unidentified anomalous phenomena, including heaps of exclusive UFO case files that exist outside of the U. Details about the All-domain Anomaly Resolution Office’s plans to buy a commercial data subscription to scrutinize the National Unidentified Flying Object Historic Records Center’s archives — and specifically, materials that pre-date 1990 — were first revealed in a recent Defense Department contracting notice.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 64,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "PENTAGON"
+      ],
+      "sourceQuality": 64,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-09-03T14:50:15Z",
+      "rssPublishedAt": "2026-09-02T20:34:40Z",
+      "rssDate": "2026-09-02",
+      "sourcePublishedAt": "2026-09-02T20:32:27Z",
+      "sourceDisplayedAt": "2026-09-03T14:50:15Z",
+      "sourceIsNew": true,
+      "translation": {
+        "en": {
+          "title": "Pentagon seeks access to vast private UFO records collection",
+          "summary": "Pentagon seeks access to vast private UFO records collection The Pentagon recently moved to issue a sole-source contract to a New Mexico-based nonprofit corporation that reportedly holds North America’s largest private collection of historical records documenting unidentified anomalous phenomena, including heaps of exclusive UFO case files that exist outside of the U. Details about the All-domain Anomaly Resolution Office’s plans to buy a commercial data subscription to scrutinize the National Unidentified Flying Object Historic Records Center’s archives — and specifically, materials that pre-date 1990 — were first revealed in a recent Defense Department contracting notice.",
+          "sourceHash": "24cc08a411c66a07401b83b3f26e2927ad15d962",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Pentagon sucht Zugang zu umfangreicher privater UFO-Datensammlung",
+          "summary": "Pentagon sucht Zugang zu einer riesigen privaten UFO-Datensammlung Das Pentagon hat kürzlich einen Alleinvertrag mit einer in New Mexico ansässigen gemeinnützigen Organisation abgeschlossen, die Berichten zufolge die größte private Sammlung historischer Aufzeichnungen Nordamerikas besitzt, die nicht identifizierte anomale Phänomene dokumentieren, einschließlich Haufen exklusiver UFO-Falldateien, die außerhalb der USA existieren Details zu den Plänen des All-Domain Anomaly Resolution Office zum Kauf eines kommerzielles Datenabonnement, um die Archive des National Unidentified Flying Object Historic Records Center zu untersuchen — und insbesondere Materialien, die vor 1990 datiert wurden — wurden erstmals in einer kürzlich veröffentlichten Auftragsbekanntmachung des Verteidigungsministeriums enthüllt.",
+          "sourceHash": "24cc08a411c66a07401b83b3f26e2927ad15d962",
           "provider": "mymemory"
         }
       }
@@ -480,8 +593,7 @@
           "provider": "mymemory"
         }
       },
-      "sourceDisplayedAt": "2026-09-02T07:23:30Z",
-      "sourceIsNew": true
+      "sourceDisplayedAt": "2026-09-02T07:23:30Z"
     },
     {
       "id": "ufo-uap-real-fake-or-demonic-delusion",
@@ -570,6 +682,7 @@
   ],
   "summaries": {
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
+    "pentagon-seeks-access-to-vast-private-ufo-records-collection": "Pentagon seeks access to vast private UFO records collection The Pentagon recently moved to issue a sole-source contract to a New Mexico-based nonprofit corporation that reportedly holds North America’s largest private collection of historical records documenting unidentified anomalous phenomena, including heaps of exclusive UFO case files that exist outside of the U. Details about the All-domain Anomaly Resolution Office’s plans to buy a commercial data subscription to scrutinize the National Unidentified Flying Object Historic Records Center’s archives — and specifically, materials that pre-date 1990 — were first revealed in a recent Defense Department contracting notice.",
     "more-americans-believe-the-government-is-withholding-information-about-ufos": "The truth may be out there, but Americans are split on what the truth is: just under half of people believe all sightings of unidentified flying object (UFO), also known as unidentified anomalous phenomena (UAP), can be explained by human activity or natural phenomena, a new Gallup poll finds. The proportion of skeptics has been dropping, however: In 2019, 60 percent of Americans said they believed UAP were either human-caused or natural phenomena. That’s not to say that all those with shifting opinions are sure our planet has been visited by intelligent life from other planets: 37 percent of the poll’s respondents said some UAP were likely alien spacecraft, down from 41 percent in 2021.",
     "rare-2026-uap-witness-footage-compilation-real-ufos-caught-on-camera-government-can-t-explain": "Learn more Sign in # RARE 2026 UAP Witness Footage Compilation - Real UFOs Caught on Camera (Government Can’t Explain) [](http://youtu. be/@ADarkLightMedia) Dark Sky Portal Dark Sky Portal 114 subscribers Subscribe Subscribed 7 Share Save Download Download 113 views 9 days ago#UAP#Disclosure#UAP2026 113 views • Aug 20, 2026 • #UAP #Disclosure #UAP2026 Insane compilation of 2026 UAP footage from witnesses around the world. #UAP#UFO#2026UFOs#UAP2026#RealUFOFootage#UFOCompilation#UnidentifiedAerialPhenomena#UFOs2026#AlienCraft#Disclosure…. more ## Music 2 songs # Mountain Eagle Soundscape - Drone-957 #### tEdor Feral # Star trek #### Leyan Zhang Star Trek Music ### Dark Sky Portal 114 subscribers VideosAbout Show less [](http://youtu.",
     "sighting-exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events - The Exeter UFO Festival is a Labor Day weekend tradition celebrating the 1965 \"Incident at Exeter. \" - Hosted by the Exeter-Area Kiwanis Club, the two-day event features UFO expert talks, a parade, and an alien costume contest. - Activities include trolley rides to the 1965 sighting location and continuous showings of historical videos. - Proceeds from the festival and a special police patch sale support local children's charities and scholarships. If you’ve walked through downtown Exeter lately, you may have spotted neon‑green alien faces peering from storefronts and posters — a sure sign that the UFO Festival is about to return.",
@@ -577,32 +690,38 @@
     "sighting-here-are-some-ufo-reports-from-new-jersey-residents-in-the-past-two-months": "More New Jersey UFO reports keep pouring in When New Jersey residents look up to the skies over the Garden State, some of them are seeing more than birds, planes, and SpaceX launches. Not every light or shape in the New Jersey sky is a UFO, or as they are known these days, UAP, but some of the things we are seeing are not easily explained. There is a website that keeps track of reported sightings, and it's called the National UFO Reporting Center. I took a look at the reports in New Jersey recently, and some of them sent a chill up my spine. Reports Of UFO Sightings In New Jersey Here's a report of a sighting over Ewing at 10:59 PM on August 15 of this year, Mist/ fog in sky with big light in front."
   },
   "notificationBatch": {
-    "timestamp": "2026-09-03T07:27:22Z",
+    "timestamp": "2026-09-03T14:50:15Z",
     "ids": [
-      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
+      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
+      "pentagon-seeks-access-to-vast-private-ufo-records-collection"
     ],
     "articles": [
       {
         "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
         "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "source": "U.S. Department of War (.gov)"
+      },
+      {
+        "id": "pentagon-seeks-access-to-vast-private-ufo-records-collection",
+        "title": "Pentagon seeks access to vast private UFO records collection",
+        "source": "DefenseScoop"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 312,
-    "broadTopics": 166,
-    "notificationArticles": 0,
-    "notificationTopics": 0,
-    "newNotificationTopics": 0,
-    "appTopics": 7,
+    "broadArticles": 154,
+    "broadTopics": 106,
+    "notificationArticles": 2,
+    "notificationTopics": 2,
+    "newNotificationTopics": 1,
+    "appTopics": 8,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 4,
+    "splitUnrelatedGroupedSources": 3,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 3,
+    "regroupedTopics": 1,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -617,7 +736,7 @@
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 7,
+      "kept": 8,
       "missing": 1,
       "missingItems": [
         {
@@ -630,14 +749,14 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 7,
-      "outputArticles": 6,
-      "preservedSourceSummaries": 4
+      "inputArticles": 9,
+      "outputArticles": 7,
+      "preservedSourceSummaries": 5
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 6,
-      "outputArticles": 6,
+      "inputArticles": 7,
+      "outputArticles": 7,
       "missingSummaries": 2,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
@@ -656,15 +775,15 @@
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 2,
+      "updatedTopics": 3,
       "addedSources": 35,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 19,
-      "cleanedArticles": 0,
+      "sources": 24,
+      "cleanedArticles": 1,
       "removedDuplicateTopics": 1,
       "staleSummariesCleared": 0,
       "rejectedArticleSources": 0,
@@ -672,22 +791,22 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 5,
-      "outputArticles": 5,
+      "inputArticles": 6,
+      "outputArticles": 6,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 5,
+      "inputArticles": 6,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 7,
-      "currentBeforeRestore": 5,
+      "currentBeforeRestore": 6,
       "restoredArticles": 2,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
@@ -702,32 +821,32 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 7
+      "articlesRefreshed": 8
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 24,
-      "updatedSources": 14,
+      "checkedSources": 29,
+      "updatedSources": 4,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 7,
-      "newSources": 10
+      "updatedTopics": 8,
+      "newSources": 13
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 6,
+      "correctedExistingTopics": 7,
       "newTopics": 1,
       "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 7,
-      "correctedOldSourceMarkers": 3,
+      "notifications": 2,
+      "freshSources": 4,
+      "correctedOldSourceMarkers": 1,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 28
+      "seededSeenFromPreviousFeed": 31
     }
   },
   "translations": {
@@ -742,6 +861,20 @@
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien mit nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
         "summary": "Das Kriegsministerium sagt, dass es die zweite Veröffentlichung von freigegebenen und historischen Dateien mit nicht identifizierten anomalen Phänomenen als Teil des Entsiegelungs- und Berichtssystems des Präsidenten für UAP-Begegnungen veröffentlicht oder VERFOLGT. In der Veröffentlichung heißt es, dass die Sammlung auf WAR.GOV/UFO untergebracht bleibt und dass weitere Dateien rollierend veröffentlicht werden. Assistent des Kriegsministers für öffentliche Angelegenheiten und Chef-Pentagon-Sprecher Sean Parnell wird als Quelle der Abrechnung genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+        "provider": "mymemory"
+      }
+    },
+    "pentagon-seeks-access-to-vast-private-ufo-records-collection": {
+      "en": {
+        "title": "Pentagon seeks access to vast private UFO records collection",
+        "summary": "Pentagon seeks access to vast private UFO records collection The Pentagon recently moved to issue a sole-source contract to a New Mexico-based nonprofit corporation that reportedly holds North America’s largest private collection of historical records documenting unidentified anomalous phenomena, including heaps of exclusive UFO case files that exist outside of the U. Details about the All-domain Anomaly Resolution Office’s plans to buy a commercial data subscription to scrutinize the National Unidentified Flying Object Historic Records Center’s archives — and specifically, materials that pre-date 1990 — were first revealed in a recent Defense Department contracting notice.",
+        "sourceHash": "24cc08a411c66a07401b83b3f26e2927ad15d962",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Pentagon sucht Zugang zu umfangreicher privater UFO-Datensammlung",
+        "summary": "Pentagon sucht Zugang zu einer riesigen privaten UFO-Datensammlung Das Pentagon hat kürzlich einen Alleinvertrag mit einer in New Mexico ansässigen gemeinnützigen Organisation abgeschlossen, die Berichten zufolge die größte private Sammlung historischer Aufzeichnungen Nordamerikas besitzt, die nicht identifizierte anomale Phänomene dokumentieren, einschließlich Haufen exklusiver UFO-Falldateien, die außerhalb der USA existieren Details zu den Plänen des All-Domain Anomaly Resolution Office zum Kauf eines kommerzielles Datenabonnement, um die Archive des National Unidentified Flying Object Historic Records Center zu untersuchen — und insbesondere Materialien, die vor 1990 datiert wurden — wurden erstmals in einer kürzlich veröffentlichten Auftragsbekanntmachung des Verteidigungsministeriums enthüllt.",
+        "sourceHash": "24cc08a411c66a07401b83b3f26e2927ad15d962",
         "provider": "mymemory"
       }
     },
@@ -817,7 +950,7 @@
     }
   },
   "translationMeta": {
-    "prepared": 6,
+    "prepared": 7,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
