@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-04T14:40:51Z",
+  "timestamp": "2026-09-05T07:11:47Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -59,8 +59,27 @@
       ],
       "sourceQuality": 73,
       "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-09-03T14:50:15Z"
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-09-03T14:50:15Z",
+      "rssPublishedAt": "2026-09-02T20:34:40Z",
+      "rssDate": "2026-08-31",
+      "sourcePublishedAt": "2026-09-02T20:32:27Z",
+      "sourceDisplayedAt": "2026-09-03T14:50:15Z",
+      "translation": {
+        "en": {
+          "title": "Pentagon seeks access to vast private UFO records collection",
+          "summary": "Pentagon seeks access to vast private UFO records collection The Pentagon recently moved to issue a sole-source contract to a New Mexico-based nonprofit corporation that reportedly holds North America’s largest private collection of historical records documenting unidentified anomalous phenomena, including heaps of exclusive UFO case files that exist outside of the U. Details about the All-domain Anomaly Resolution Office’s plans to buy a commercial data subscription to scrutinize the National Unidentified Flying Object Historic Records Center’s archives — and specifically, materials that pre-date 1990 — were first revealed in a recent Defense Department contracting notice.",
+          "sourceHash": "24cc08a411c66a07401b83b3f26e2927ad15d962",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Pentagon sucht Zugang zu umfangreicher privater UFO-Datensammlung",
+          "summary": "Pentagon sucht Zugang zu einer riesigen privaten UFO-Datensammlung Das Pentagon hat kürzlich einen Alleinvertrag mit einer in New Mexico ansässigen gemeinnützigen Organisation abgeschlossen, die Berichten zufolge die größte private Sammlung historischer Aufzeichnungen Nordamerikas besitzt, die nicht identifizierte anomale Phänomene dokumentieren, einschließlich Haufen exklusiver UFO-Falldateien, die außerhalb der USA existieren Details zu den Plänen des All-Domain Anomaly Resolution Office zum Kauf eines kommerzielles Datenabonnement, um die Archive des National Unidentified Flying Object Historic Records Center zu untersuchen — und insbesondere Materialien, die vor 1990 datiert wurden — wurden erstmals in einer kürzlich veröffentlichten Auftragsbekanntmachung des Verteidigungsministeriums enthüllt.",
+          "sourceHash": "24cc08a411c66a07401b83b3f26e2927ad15d962",
+          "provider": "mymemory"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "more-americans-believe-the-government-is-withholding-information-about-ufos",
