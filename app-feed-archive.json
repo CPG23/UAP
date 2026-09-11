@@ -1,7 +1,65 @@
 {
-  "timestamp": "2026-09-10T14:43:08Z",
+  "timestamp": "2026-09-11T07:34:05Z",
   "retentionDays": 14,
   "articles": [
+    {
+      "id": "dr-phil-accuses-us-government-of-lying-straight-to-our-face-for-ignoring-legitimate-ufo-reports",
+      "title": "Dr. Phil accuses US government of lying ‘straight to our face’ for ignoring legitimate UFO reports",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX0tEbVR3c19yRF93LWdvdHY0dTR4Tm9WaEtjdklkT0lUVTNyLW5EM29USkJUc1d0dEE1dnhJTEYyc1NiTDJLS25HVFFUcVR3MFY0QnlSYUxEbHVreG1JQVk5a1hfNVVNZVJlYm5PZlRZX0l4d3ppOXZUaHZiMEU4NHg2QkhHUGlRZ3djZ2s0NlpTMmRpTTBWbUc2aDZVU19IcWk1TlhWckVrSzFWOTdaQ3lvNTg?oc=5",
+      "date": "2026-08-31",
+      "publishedAt": "2026-09-04T06:21:00Z",
+      "summary": "Phil accuses US government of lying ‘straight to our face’ for ignoring legitimate UFO reports See more of our coverage in your search results. Phil McGraw accused the Pentagon of lying “straight to our face” and ignoring the massive number of UFO sightings reported by the general public — despite civilians being responsible for seeing the majority of the activity. The famed TV host sensationally claimed Wednesday that there has been “a conscious, policy-driven decision to deceive the American people about what was going on in the skies” for decades — and that “we’re not getting the truth from our government. ” “[The government] has turned a blind eye to sightings by most Americans,” McGraw said in a video posted on his X account.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 73,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DECLASSIFIED, PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "DECLASSIFIED, PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "government"
+      ],
+      "sourceQuality": 73,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-09-04T14:40:51Z"
+    },
     {
       "id": "pentagon-seeks-access-to-vast-private-ufo-records-collection",
       "title": "Pentagon seeks access to vast private UFO records collection",
@@ -63,17 +121,35 @@
       "displayedAt": "2026-09-03T14:50:15Z"
     },
     {
-      "id": "dr-phil-accuses-us-government-of-lying-straight-to-our-face-for-ignoring-legitimate-ufo-reports",
-      "title": "Dr. Phil accuses US government of lying ‘straight to our face’ for ignoring legitimate UFO reports",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX0tEbVR3c19yRF93LWdvdHY0dTR4Tm9WaEtjdklkT0lUVTNyLW5EM29USkJUc1d0dEE1dnhJTEYyc1NiTDJLS25HVFFUcVR3MFY0QnlSYUxEbHVreG1JQVk5a1hfNVVNZVJlYm5PZlRZX0l4d3ppOXZUaHZiMEU4NHg2QkhHUGlRZ3djZ2s0NlpTMmRpTTBWbUc2aDZVU19IcWk1TlhWckVrSzFWOTdaQ3lvNTg?oc=5",
-      "date": "2026-09-04",
-      "publishedAt": "2026-09-04T06:21:00Z",
-      "summary": "Phil accuses US government of lying ‘straight to our face’ for ignoring legitimate UFO reports See more of our coverage in your search results. Phil McGraw accused the Pentagon of lying “straight to our face” and ignoring the massive number of UFO sightings reported by the general public — despite civilians being responsible for seeing the majority of the activity. The famed TV host sensationally claimed Wednesday that there has been “a conscious, policy-driven decision to deceive the American people about what was going on in the skies” for decades — and that “we’re not getting the truth from our government. ” “[The government] has turned a blind eye to sightings by most Americans,” McGraw said in a video posted on his X account.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 49,
+      "id": "disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker",
+      "title": "Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker!",
+      "source": "Scified",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUjZ5TnFtenUwNEJGZnZzLVBvcUZycnhQd2M5WEtjb0xrakNSTGxwbXRMSGZ6ellUNUJXLUR2ZklzTGs4S3B6N2dYenJFSFhlSWM4ZlFRbmZFb3c5blRCaV9QdG5OT21WTE0xeVRsY1Q4QXJBdm5pUE5kVmw1YzBlRHZyTnJyNXF6dzZiUldUVE5EOWxHTDdmSFgyTzcxSFBMZVNOMFViNTRmNnVjWjR2cHJ4OW5HQ2ZkLXBZY2szVQ?oc=5",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T14:09:59Z",
+      "summary": "Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! | Disclosure Day Movie News Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! Concept artist Daniel Baker provided a number of alternative designs for Disclosure Day's take on the classic Grey Alien and THEIR UFO/UAP occupants. One of the prominent concept artists who got to work on Steven Spielberg's Disclosure Day was Daniel Baker and recently he's taken to social media to debut some of the phenomenal artwork he provided for the film! Below are a few explorations he shared of the film's take on the classic Grey Alien – a slender humanoid extraterrestrial with large eyes, pale skin and a frail body.",
+      "mentions": 3,
+      "otherSources": [
+        {
+          "title": "Occupant Grey Alien Designs by Daniel Baker (Disclosure Day Concept Art Images)",
+          "source": "Scified",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mZVA2bFF0MVJoSUV5MS1oT2NobGtYWHZBZW5leHNQXzUtNm9hemV4NWNRc3hoWDBVajViWVpVYjRaYi1aM2FSb0ZsalhXSHJ5T1pKVA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mZVA2bFF0MVJoSUV5MS1oT2NobGtYWHZBZW5leHNQXzUtNm9hemV4NWNRc3hoWDBVajViWVpVYjRaYi1aM2FSb0ZsalhXSHJ5T1pKVA?oc=5",
+          "publishedAt": "2026-09-10T19:57:56Z"
+        },
+        {
+          "title": "Disclosure Day Grey Alien (Disclosure Day Movie Images)",
+          "source": "Scified",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvd2xYOXI2cTFENGltbHpuUjVkT2NOaGZtTGN1SUcxVXhCYXhRdjhtUmFwQmFwU1phOHRJbWZuOU96MVMyNEU1Z2RmckZGLTFPUElwRA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvd2xYOXI2cTFENGltbHpuUjVkT2NOaGZtTGN1SUcxVXhCYXhRdjhtUmFwQmFwU1phOHRJbWZuOU96MVMyNEU1Z2RmckZGLTFPUElwRA?oc=5",
+          "publishedAt": "2026-05-27T07:00:00Z"
+        }
+      ],
+      "clusterTitles": [
+        "Occupant Grey Alien Designs by Daniel Baker (Disclosure Day Concept Art Images)",
+        "Disclosure Day Grey Alien (Disclosure Day Movie Images)"
+      ],
+      "quality": 71,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -82,18 +158,62 @@
         },
         {
           "label": "Begriffe",
-          "points": 3,
-          "text": "GOVERNMENT als relevante Themenbegriffe erkannt."
+          "points": 6,
+          "text": "ALIEN, DISCLOSURE als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
           "points": 4,
-          "text": "GOVERNMENT als offizieller Kontext erkannt."
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
-          "points": 2,
+          "points": 4,
           "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 10,
+          "text": "3 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "ALIEN",
+        "DISCLOSURE"
+      ],
+      "sourceQuality": 71,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
+      "displayedAt": "2026-09-11T07:34:05Z"
+    },
+    {
+      "id": "the-evidence-around-uaps-is-getting-harder-to-ignore",
+      "title": "The Evidence Around UAPs Is Getting Harder to Ignore",
+      "source": "Metatrends",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxU1pkTHhBZGtqWWs5OHcxQXdfa2M2V2QzbVZ6c1VrQnBGamJfT1UyWEpNdi1BLWVoVEl0di1KQk1hMnJiN3QwSkxjckgzOUR2Wk5FNFBrQWtWeGp6dC0zNlRmYWN2RFRJQlVXdzVPWWxnTHdGN2pxdA?oc=5",
+      "date": "2026-09-07",
+      "publishedAt": "2026-09-07T15:12:45Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
         {
           "label": "Starker Titel",
@@ -102,13 +222,15 @@
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "GOVERNMENT"
-      ],
-      "sourceQuality": 49,
+      "matchedTerms": [],
+      "sourceQuality": 40,
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-09-04T14:40:51Z"
+      "displayedAt": "2026-09-11T07:34:05Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing",
+        "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
+      }
     },
     {
       "id": "sighting-exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events",
