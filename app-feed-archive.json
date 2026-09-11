@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T07:34:05Z",
+  "timestamp": "2026-09-11T14:45:32Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -121,7 +121,7 @@
       "displayedAt": "2026-09-03T14:50:15Z"
     },
     {
-      "id": "disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker",
+      "id": "film-disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker",
       "title": "Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker!",
       "source": "Scified",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUjZ5TnFtenUwNEJGZnZzLVBvcUZycnhQd2M5WEtjb0xrakNSTGxwbXRMSGZ6ellUNUJXLUR2ZklzTGs4S3B6N2dYenJFSFhlSWM4ZlFRbmZFb3c5blRCaV9QdG5OT21WTE0xeVRsY1Q4QXJBdm5pUE5kVmw1YzBlRHZyTnJyNXF6dzZiUldUVE5EOWxHTDdmSFgyTzcxSFBMZVNOMFViNTRmNnVjWjR2cHJ4OW5HQ2ZkLXBZY2szVQ?oc=5",
@@ -135,14 +135,22 @@
           "source": "Scified",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mZVA2bFF0MVJoSUV5MS1oT2NobGtYWHZBZW5leHNQXzUtNm9hemV4NWNRc3hoWDBVajViWVpVYjRaYi1aM2FSb0ZsalhXSHJ5T1pKVA?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mZVA2bFF0MVJoSUV5MS1oT2NobGtYWHZBZW5leHNQXzUtNm9hemV4NWNRc3hoWDBVajViWVpVYjRaYi1aM2FSb0ZsalhXSHJ5T1pKVA?oc=5",
-          "publishedAt": "2026-09-10T19:57:56Z"
+          "publishedAt": "2026-09-10T19:57:56Z",
+          "rssPublishedAt": "2026-09-10T19:57:56Z",
+          "sourcePublishedAt": "2026-09-10T00:00:00Z",
+          "displayedAt": "2026-09-11T07:34:05Z",
+          "isNew": true
         },
         {
           "title": "Disclosure Day Grey Alien (Disclosure Day Movie Images)",
           "source": "Scified",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvd2xYOXI2cTFENGltbHpuUjVkT2NOaGZtTGN1SUcxVXhCYXhRdjhtUmFwQmFwU1phOHRJbWZuOU96MVMyNEU1Z2RmckZGLTFPUElwRA?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvd2xYOXI2cTFENGltbHpuUjVkT2NOaGZtTGN1SUcxVXhCYXhRdjhtUmFwQmFwU1phOHRJbWZuOU96MVMyNEU1Z2RmckZGLTFPUElwRA?oc=5",
-          "publishedAt": "2026-05-27T07:00:00Z"
+          "publishedAt": "2026-05-27T07:00:00Z",
+          "rssPublishedAt": "2026-05-27T07:00:00Z",
+          "sourcePublishedAt": "2026-05-27T00:00:00Z",
+          "displayedAt": "2026-09-11T07:34:05Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
@@ -193,8 +201,6 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 71,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-09-11T07:34:05Z"
     },
     {
@@ -204,7 +210,7 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxU1pkTHhBZGtqWWs5OHcxQXdfa2M2V2QzbVZ6c1VrQnBGamJfT1UyWEpNdi1BLWVoVEl0di1KQk1hMnJiN3QwSkxjckgzOUR2Wk5FNFBrQWtWeGp6dC0zNlRmYWN2RFRJQlVXdzVPWWxnTHdGN2pxdA?oc=5",
       "date": "2026-09-07",
       "publishedAt": "2026-09-07T15:12:45Z",
-      "summary": "",
+      "summary": "png) 0:00 -10:15 Audio 3 Extraordinary claims require extraordinary evidence – such is the case on Non-Human Intelligence (NHI) and Unidentified Anomalous Phenomena (UAPs). I have had no personal firsthand experience with either, but there is evidence mounting, and it has been significant enough that it has captured my attention. I want to share the way I think about this — not as a believer, not as a skeptic, but as someone who takes data seriously enough to know when too much is happening not to pay attention. On August 31, 2026, at the Office of the Director of National Intelligence, the UAP Science Advisory Council was informed that the United States government has a ‘**preparedness plan in place’** should the existence of nonhuman intelligence (NHI) be confirmed.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -227,10 +233,22 @@
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-09-11T07:34:05Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
-      }
+      "sourceDisplayedAt": "2026-09-11T07:34:05Z",
+      "translation": {
+        "en": {
+          "title": "The Evidence Around UAPs Is Getting Harder to Ignore",
+          "summary": "png) 0:00 -10:15 Audio 3 Extraordinary claims require extraordinary evidence – such is the case on Non-Human Intelligence (NHI) and Unidentified Anomalous Phenomena (UAPs). I have had no personal firsthand experience with either, but there is evidence mounting, and it has been significant enough that it has captured my attention. I want to share the way I think about this — not as a believer, not as a skeptic, but as someone who takes data seriously enough to know when too much is happening not to pay attention.",
+          "sourceHash": "729526ca558f26643d9da0f02d965748ab5e8cc1",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Die Beweise für UAPs werden immer schwerer zu ignorieren",
+          "summary": "png) 0:00 -10:15 Audio 3 Außergewöhnliche Ansprüche erfordern außergewöhnliche Beweise – dies ist der Fall bei nicht-menschlicher Intelligenz (nhi) und nicht identifizierten anomalen Phänomenen (UAPs). Ich habe keine persönlichen Erfahrungen aus erster Hand mit beiden gemacht, aber es gibt immer mehr Beweise, und es war signifikant genug, dass es meine Aufmerksamkeit erregt hat. Ich möchte die Art und Weise teilen, wie ich darüber denke — nicht als Gläubiger, nicht als Skeptiker, sondern als jemand, der Daten aufnimmt ernst genug, um zu wissen, wann zu viel passiert, um nicht darauf zu achten.",
+          "sourceHash": "729526ca558f26643d9da0f02d965748ab5e8cc1",
+          "provider": "mymemory"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events",
