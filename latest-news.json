@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-13T07:43:49Z",
+  "timestamp": "2026-09-13T14:45:16Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -9,7 +9,7 @@
       "date": "2026-08-31",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 15,
+      "mentions": 14,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -128,16 +128,6 @@
           "rssPublishedAt": "2026-05-19T07:00:00Z",
           "sourcePublishedAt": "2026-05-19T16:30:23Z",
           "displayedAt": "2026-05-19T07:00:00Z"
-        },
-        {
-          "title": "Dr. Phil accuses US government of lying ‘straight to our face’ for ignoring legitimate UFO reports",
-          "source": "nypost.com",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX0tEbVR3c19yRF93LWdvdHY0dTR4Tm9WaEtjdklkT0lUVTNyLW5EM29USkJUc1d0dEE1dnhJTEYyc1NiTDJLS25HVFFUcVR3MFY0QnlSYUxEbHVreG1JQVk5a1hfNVVNZVJlYm5PZlRZX0l4d3ppOXZUaHZiMEU4NHg2QkhHUGlRZ3djZ2s0NlpTMmRpTTBWbUc2aDZVU19IcWk1TlhWckVrSzFWOTdaQ3lvNTg?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX0tEbVR3c19yRF93LWdvdHY0dTR4Tm9WaEtjdklkT0lUVTNyLW5EM29USkJUc1d0dEE1dnhJTEYyc1NiTDJLS25HVFFUcVR3MFY0QnlSYUxEbHVreG1JQVk5a1hfNVVNZVJlYm5PZlRZX0l4d3ppOXZUaHZiMEU4NHg2QkhHUGlRZ3djZ2s0NlpTMmRpTTBWbUc2aDZVU19IcWk1TlhWckVrSzFWOTdaQ3lvNTg?oc=5",
-          "publishedAt": "2026-09-04T07:00:00Z",
-          "rssPublishedAt": "2026-09-04T07:00:00Z",
-          "sourcePublishedAt": "2026-09-04T06:21:06Z",
-          "displayedAt": "2026-09-04T07:00:00Z"
         }
       ],
       "clusterTitles": [
@@ -191,8 +181,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 70,
-          "text": "15 Quellen im aktuellen Feed."
+          "points": 65,
+          "text": "14 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -368,7 +358,9 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "government"
+        "files",
+        "pentagon",
+        "videos"
       ],
       "sourceQuality": 73,
       "displayedAt": "2026-09-11T07:34:05Z",
@@ -391,10 +383,10 @@
     {
       "id": "dr-phil-accuses-us-government-of-lying-straight-to-our-face-for-ignoring-legitimate-ufo-reports",
       "title": "Dr. Phil accuses US government of lying ‘straight to our face’ for ignoring legitimate UFO reports",
-      "source": "New York Post",
+      "source": "nypost.com",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX0tEbVR3c19yRF93LWdvdHY0dTR4Tm9WaEtjdklkT0lUVTNyLW5EM29USkJUc1d0dEE1dnhJTEYyc1NiTDJLS25HVFFUcVR3MFY0QnlSYUxEbHVreG1JQVk5a1hfNVVNZVJlYm5PZlRZX0l4d3ppOXZUaHZiMEU4NHg2QkhHUGlRZ3djZ2s0NlpTMmRpTTBWbUc2aDZVU19IcWk1TlhWckVrSzFWOTdaQ3lvNTg?oc=5",
       "date": "2026-08-31",
-      "publishedAt": "2026-09-04T06:21:00Z",
+      "publishedAt": "2026-09-04T07:00:00Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
@@ -446,10 +438,10 @@
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "rssPublishedAt": "2026-09-04T06:21:00Z",
+      "rssPublishedAt": "2026-09-04T07:00:00Z",
       "rssDate": "2026-08-31",
       "sourcePublishedAt": "2026-09-04T06:21:06Z",
-      "sourceDisplayedAt": "2026-09-04T06:21:00Z"
+      "sourceDisplayedAt": "2026-09-04T07:00:00Z"
     },
     {
       "id": "pentagon-seeks-access-to-vast-private-ufo-records-collection",
@@ -502,7 +494,9 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "government"
+        "files",
+        "pentagon",
+        "videos"
       ],
       "sourceQuality": 73,
       "displayedAt": "2026-09-03T14:50:15Z",
@@ -526,9 +520,9 @@
       "sourceDisplayedAt": "2026-09-03T14:50:15Z"
     },
     {
-      "id": "sighting-exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events",
+      "id": "exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events",
       "title": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events",
-      "source": "seacoastonline.com",
+      "source": "Seacoastonline.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLWc1enZNLUJ4VUtvdE15Z1lKVmR0ZHNwZHlsYTJhMkZ2ejJSajM2OUJtNHhUcktZU0t6c3c2NmIyamMyM0IydmoxSGhpNmJIS0ZqTjEtMkRCTG1hOFNuOEN1bmYycThqN2Fkc01EV0gybmtZUmxObDJWcG1fVDNzV3VEVndzbnFHQUNGXzF5UTVZa0Y0TFBiZUlIS0JoZ2lzYmRMeFlLeERDYXYxQ2JOMi1n?oc=5",
       "date": "2026-08-31",
       "publishedAt": "2026-08-31T09:01:00Z",
@@ -536,7 +530,7 @@
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 40,
+      "quality": 73,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -544,14 +538,43 @@
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
         {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DECLASSIFIED, PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "DECLASSIFIED, PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "sourceQuality": 40,
+      "matchedTerms": [
+        "files",
+        "pentagon",
+        "videos"
+      ],
+      "sourceQuality": 73,
       "displayedAt": "2026-08-31T17:48:08Z",
       "sourceDisplayedAt": "2026-08-31T17:48:08Z",
       "translation": {
@@ -574,17 +597,17 @@
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
     "the-evidence-around-uaps-is-getting-harder-to-ignore": "png) 0:00 -10:15 Audio 3 Extraordinary claims require extraordinary evidence – such is the case on Non-Human Intelligence (NHI) and Unidentified Anomalous Phenomena (UAPs). I have had no personal firsthand experience with either, but there is evidence mounting, and it has been significant enough that it has captured my attention. I want to share the way I think about this — not as a believer, not as a skeptic, but as someone who takes data seriously enough to know when too much is happening not to pay attention. On August 31, 2026, at the Office of the Director of National Intelligence, the UAP Science Advisory Council was informed that the United States government has a ‘**preparedness plan in place’** should the existence of nonhuman intelligence (NHI) be confirmed.",
     "pentagon-seeks-access-to-vast-private-ufo-records-collection": "Pentagon seeks access to vast private UFO records collection The Pentagon recently moved to issue a sole-source contract to a New Mexico-based nonprofit corporation that reportedly holds North America’s largest private collection of historical records documenting unidentified anomalous phenomena, including heaps of exclusive UFO case files that exist outside of the U. Details about the All-domain Anomaly Resolution Office’s plans to buy a commercial data subscription to scrutinize the National Unidentified Flying Object Historic Records Center’s archives — and specifically, materials that pre-date 1990 — were first revealed in a recent Defense Department contracting notice.",
-    "film-disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker": "Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! | Disclosure Day Movie News Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! Concept artist Daniel Baker provided a number of alternative designs for Disclosure Day's take on the classic Grey Alien and THEIR UFO/UAP occupants. One of the prominent concept artists who got to work on Steven Spielberg's Disclosure Day was Daniel Baker and recently he's taken to social media to debut some of the phenomenal artwork he provided for the film! Below are a few explorations he shared of the film's take on the classic Grey Alien – a slender humanoid extraterrestrial with large eyes, pale skin and a frail body.",
-    "sighting-exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events - The Exeter UFO Festival is a Labor Day weekend tradition celebrating the 1965 \"Incident at Exeter. \" - Hosted by the Exeter-Area Kiwanis Club, the two-day event features UFO expert talks, a parade, and an alien costume contest. - Activities include trolley rides to the 1965 sighting location and continuous showings of historical videos. - Proceeds from the festival and a special police patch sale support local children's charities and scholarships. If you’ve walked through downtown Exeter lately, you may have spotted neon‑green alien faces peering from storefronts and posters — a sure sign that the UFO Festival is about to return."
+    "exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events - The Exeter UFO Festival is a Labor Day weekend tradition celebrating the 1965 \"Incident at Exeter. \" - Hosted by the Exeter-Area Kiwanis Club, the two-day event features UFO expert talks, a parade, and an alien costume contest. - Activities include trolley rides to the 1965 sighting location and continuous showings of historical videos. - Proceeds from the festival and a special police patch sale support local children's charities and scholarships. If you’ve walked through downtown Exeter lately, you may have spotted neon‑green alien faces peering from storefronts and posters — a sure sign that the UFO Festival is about to return.",
+    "film-disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker": "Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! | Disclosure Day Movie News Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! Concept artist Daniel Baker provided a number of alternative designs for Disclosure Day's take on the classic Grey Alien and THEIR UFO/UAP occupants. One of the prominent concept artists who got to work on Steven Spielberg's Disclosure Day was Daniel Baker and recently he's taken to social media to debut some of the phenomenal artwork he provided for the film! Below are a few explorations he shared of the film's take on the classic Grey Alien – a slender humanoid extraterrestrial with large eyes, pale skin and a frail body."
   },
   "notificationBatch": {
-    "timestamp": "2026-09-13T07:43:49Z",
+    "timestamp": "2026-09-13T14:45:16Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
     "broadArticles": 394,
-    "broadTopics": 183,
+    "broadTopics": 185,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -593,9 +616,9 @@
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 5,
+    "splitUnrelatedGroupedSources": 6,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 5,
+    "regroupedTopics": 8,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -616,22 +639,22 @@
         {
           "id": "dr-phil-accuses-us-government-of-lying-straight-to-our-face-for-ignoring-legitimate-ufo-reports",
           "title": "Dr. Phil accuses US government of lying ‘straight to our face’ for ignoring legitimate UFO reports",
-          "source": "New York Post",
+          "source": "nypost.com",
           "reason": "missing_or_mismatched_article_content_summary"
         }
       ]
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 8,
-      "outputArticles": 7,
+      "inputArticles": 7,
+      "outputArticles": 6,
       "preservedSourceSummaries": 3
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 7,
-      "outputArticles": 7,
-      "missingSummaries": 4,
+      "inputArticles": 6,
+      "outputArticles": 6,
+      "missingSummaries": 3,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -649,8 +672,8 @@
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 3,
-      "addedSources": 54,
+      "updatedTopics": 2,
+      "addedSources": 36,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
@@ -658,7 +681,7 @@
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
       "sources": 17,
       "cleanedArticles": 1,
-      "removedDuplicateTopics": 1,
+      "removedDuplicateTopics": 0,
       "staleSummariesCleared": 0,
       "rejectedArticleSources": 0,
       "promotedPrimaryFromSource": false
@@ -696,28 +719,28 @@
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 22,
-      "updatedSources": 11,
+      "checkedSources": 21,
+      "updatedSources": 10,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 6,
-      "newSources": 2
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 5,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 6,
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
       "notifications": 0,
       "freshSources": 0,
-      "correctedOldSourceMarkers": 2,
+      "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 26
+      "seededSeenFromPreviousFeed": 27
     }
   },
   "translations": {
@@ -777,7 +800,7 @@
         "provider": "mymemory"
       }
     },
-    "sighting-exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events": {
+    "exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events": {
       "en": {
         "title": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events",
         "summary": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events - The Exeter UFO Festival is a Labor Day weekend tradition celebrating the 1965 \"Incident at Exeter. \" - Hosted by the Exeter-Area Kiwanis Club, the two-day event features UFO expert talks, a parade, and an alien costume contest. - Activities include trolley rides to the 1965 sighting location and continuous showings of historical videos. - Proceeds from the festival and a special police patch sale support local children's charities and scholarships. If you’ve walked through downtown Exeter lately, you may have spotted neon‑green alien faces peering from storefronts and posters — a sure sign that the UFO Festival is about to return.",
