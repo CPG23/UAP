@@ -1,213 +1,6 @@
 {
-  "timestamp": "2026-09-13T14:45:16Z",
+  "timestamp": "2026-09-14T08:10:38Z",
   "articles": [
-    {
-      "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-      "source": "U.S. Department of War (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
-      "date": "2026-08-31",
-      "publishedAt": "2026-05-22T07:00:00Z",
-      "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 14,
-      "otherSources": [
-        {
-          "title": "US releases second batch of government declassified UFO files",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases NEW batch of UFO files",
-          "source": "Fox News",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aS1pnN09Ha2lNSDZqeVVWSDhLRGpkcHdKOGlOWm9XVTd6YU1QNnM4Q0NNVXRkbmdWR0Zfbm1iNDZqZm0yZzNXXzlkY09ObDh0TS0tMFFn?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aS1pnN09Ha2lNSDZqeVVWSDhLRGpkcHdKOGlOWm9XVTd6YU1QNnM4Q0NNVXRkbmdWR0Zfbm1iNDZqZm0yZzNXXzlkY09ObDh0TS0tMFFn?oc=5",
-          "publishedAt": "2026-08-08T07:00:00Z",
-          "rssPublishedAt": "2026-08-08T07:00:00Z",
-          "sourcePublishedAt": "2026-08-08T16:48:21Z",
-          "displayedAt": "2026-08-08T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-          "source": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORUplRUtwT19Zek1aWDdwMllOR0cySmwxb2ZUaEJWN2dIM2E2Uks1YmhETGkzMFkxU2hCLVA1NHdpc084elFhWjN3Sjh6Yzk0QWlwQjd0U1VDZ0kyOHYyVUdkeXJmMkUwcjIwb1lMTGJQU2VuLUtVZFVuSWswcVBackpHMA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORUplRUtwT19Zek1aWDdwMllOR0cySmwxb2ZUaEJWN2dIM2E2Uks1YmhETGkzMFkxU2hCLVA1NHdpc084elFhWjN3Sjh6Yzk0QWlwQjd0U1VDZ0kyOHYyVUdkeXJmMkUwcjIwb1lMTGJQU2VuLUtVZFVuSWswcVBackpHMA?oc=5",
-          "publishedAt": "2026-08-07T07:00:00Z",
-          "rssPublishedAt": "2026-08-07T07:00:00Z",
-          "sourcePublishedAt": "2026-08-07T13:06:00Z",
-          "displayedAt": "2026-08-07T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-          "source": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWVRCVUdyaE9xbEt3WWFLYVNncHdZaFJ6bTFSOFVBZkZLaWliNTJlUURlS1RWajhVcU5udm45clBWTjdjMG1sX0xwbDlnLUV2aEstSmdmY2Q2VUViTXlvTGhKUDlkcGxyVzViRGpWMVN4RHJ4UDNHRjV1Tkl4TXdURDRZZmVzQk5FOXc?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWVRCVUdyaE9xbEt3WWFLYVNncHdZaFJ6bTFSOFVBZkZLaWliNTJlUURlS1RWajhVcU5udm45clBWTjdjMG1sX0xwbDlnLUV2aEstSmdmY2Q2VUViTXlvTGhKUDlkcGxyVzViRGpWMVN4RHJ4UDNHRjV1Tkl4TXdURDRZZmVzQk5FOXc?oc=5",
-          "publishedAt": "2026-08-07T07:00:00Z",
-          "displayedAt": "2026-08-07T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-          "source": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUmNEV0xYRkJLWDh6QmdBbXU5Rnl1NG1yLU8tMGdFTUp1R1hoT2N3Mm8tSUYxOG5PVnRXMDlDSUdGdGoyQzA2Z3pnRElHOFdLWm5LN2V1VWpEV2QxOWlLc3oyd0IwMWxqOUpRTEJDZXdyUHlGLXIxLXQtV21leDB2M1J1MWtKck5tTVRucHJhMkwxS0dlVXlOSHJ6Nzg?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUmNEV0xYRkJLWDh6QmdBbXU5Rnl1NG1yLU8tMGdFTUp1R1hoT2N3Mm8tSUYxOG5PVnRXMDlDSUdGdGoyQzA2Z3pnRElHOFdLWm5LN2V1VWpEV2QxOWlLc3oyd0IwMWxqOUpRTEJDZXdyUHlGLXIxLXQtV21leDB2M1J1MWtKck5tTVRucHJhMkwxS0dlVXlOSHJ6Nzg?oc=5",
-          "publishedAt": "2026-08-07T07:00:00Z",
-          "rssPublishedAt": "2026-08-07T07:00:00Z",
-          "sourcePublishedAt": "2026-08-07T22:35:00Z",
-          "displayedAt": "2026-08-07T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-          "source": "AOL.ca",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CLWRiSmx6djJtQkJycHRFVkdLbENBRTh0X25OTmswN2JvbmFscHJTbTdNU1JfaTJsMjVfaG5aTW1yaDQ4RzM1dEZRZUFSbWc4cUJvbFI2bzl3a1RkZDcwZll4WVZudGEtc3VPbEQwMHdPTkNFS3NqdURMczV4Tm8?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CLWRiSmx6djJtQkJycHRFVkdLbENBRTh0X25OTmswN2JvbmFscHJTbTdNU1JfaTJsMjVfaG5aTW1yaDQ4RzM1dEZRZUFSbWc4cUJvbFI2bzl3a1RkZDcwZll4WVZudGEtc3VPbEQwMHdPTkNFS3NqdURMczV4Tm8?oc=5",
-          "publishedAt": "2026-08-07T07:00:00Z",
-          "rssPublishedAt": "2026-08-07T07:00:00Z",
-          "sourcePublishedAt": "2026-08-07T13:06:00Z",
-          "displayedAt": "2026-08-07T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files, China's Tianwen-2 reaches its asteroid target, and more science stories",
-          "source": "Engadget",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWXBobmFhU2FOaFpkTy1OT1VoNTBOMzM1RzY1cmh5Und5NGhRb1hWSENKRXgwWjRCOEpGQkllX0FmMXNpelVTeVpaRGdmX19IY0xzeHhoaHhYNnpMVTFxX2xjT2J4dFpMcnhtZk4tNWFuVnVWODMyVFphd0JlV2xEekNJcFZzMDhjMXQ0a0xtZ1pudS1CREx6MFhocklrLUxl?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWXBobmFhU2FOaFpkTy1OT1VoNTBOMzM1RzY1cmh5Und5NGhRb1hWSENKRXgwWjRCOEpGQkllX0FmMXNpelVTeVpaRGdmX19IY0xzeHhoaHhYNnpMVTFxX2xjT2J4dFpMcnhtZk4tNWFuVnVWODMyVFphd0JlV2xEekNJcFZzMDhjMXQ0a0xtZ1pudS1CREx6MFhocklrLUxl?oc=5",
-          "publishedAt": "2026-07-12T07:00:00Z",
-          "rssPublishedAt": "2026-07-12T07:00:00Z",
-          "sourcePublishedAt": "2026-07-12T19:58:35Z",
-          "displayedAt": "2026-07-12T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
-          "source": "LiveNOW from FOX",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "rssPublishedAt": "2026-05-22T07:00:00Z",
-          "sourcePublishedAt": "2026-05-22T15:16:21Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "New videos from Pentagon’s second batch of UFO files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Highlights From 2nd Batch of Declassified UFO Files",
-          "source": "NTD News",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "What does the second batch of UFO files tell us?",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
-          "source": "Fox News",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
-          "publishedAt": "2026-05-19T07:00:00Z",
-          "rssPublishedAt": "2026-05-19T07:00:00Z",
-          "sourcePublishedAt": "2026-05-19T16:30:23Z",
-          "displayedAt": "2026-05-19T07:00:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "US releases second batch of government declassified UFO files",
-        "Pentagon releases NEW batch of UFO files",
-        "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-        "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-        "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-        "Pentagon releases new batch of UFO files: \"Did you see that?\"",
-        "Pentagon releases new batch of UFO files, China's Tianwen-2 reaches its asteroid target, and more science stories",
-        "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
-        "New videos from Pentagon’s second batch of UFO files",
-        "Pentagon releases new batch of UFO files"
-      ],
-      "quality": 100,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DECLASSIFIED, PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "DECLASSIFIED, PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 65,
-          "text": "14 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "declassified",
-        "files"
-      ],
-      "sourceQuality": 100,
-      "displayedAt": "2026-09-04T07:31:28Z",
-      "sourceDisplayedAt": "2026-09-01T15:22:10Z",
-      "translation": {
-        "en": {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien mit nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium sagt, dass es die zweite Veröffentlichung von freigegebenen und historischen Dateien mit nicht identifizierten anomalen Phänomenen als Teil des Entsiegelungs- und Berichtssystems des Präsidenten für UAP-Begegnungen veröffentlicht oder VERFOLGT. In der Veröffentlichung heißt es, dass die Sammlung auf WAR.GOV/UFO untergebracht bleibt und dass weitere Dateien rollierend veröffentlicht werden. Assistent des Kriegsministers für öffentliche Angelegenheiten und Chef-Pentagon-Sprecher Sean Parnell wird als Quelle der Abrechnung genannt.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-          "provider": "mymemory"
-        }
-      }
-    },
     {
       "id": "film-disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker",
       "title": "Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker!",
@@ -216,7 +9,7 @@
       "date": "2026-09-10",
       "publishedAt": "2026-09-10T14:09:59Z",
       "summary": "Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! | Disclosure Day Movie News Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! Concept artist Daniel Baker provided a number of alternative designs for Disclosure Day's take on the classic Grey Alien and THEIR UFO/UAP occupants. One of the prominent concept artists who got to work on Steven Spielberg's Disclosure Day was Daniel Baker and recently he's taken to social media to debut some of the phenomenal artwork he provided for the film! Below are a few explorations he shared of the film's take on the classic Grey Alien – a slender humanoid extraterrestrial with large eyes, pale skin and a frail body.",
-      "mentions": 3,
+      "mentions": 4,
       "otherSources": [
         {
           "title": "Occupant Grey Alien Designs by Daniel Baker (Disclosure Day Concept Art Images)",
@@ -237,13 +30,24 @@
           "rssPublishedAt": "2026-05-27T07:00:00Z",
           "sourcePublishedAt": "2026-05-27T00:00:00Z",
           "displayedAt": "2026-05-27T07:00:00Z"
+        },
+        {
+          "title": "Disclosure Day Grey Alien (Disclosure Day Movie Images)",
+          "source": "Scified",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KRldGaFc4TFpJWmhOQ2ZqdlZqSUNick9rcDlGNjlhVHR3Y1RfM3ZWZkFCX0F3RGpJeGMtN3pPTG80NmJXMlJjVXlMeUhlSG50WlR2Xw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KRldGaFc4TFpJWmhOQ2ZqdlZqSUNick9rcDlGNjlhVHR3Y1RfM3ZWZkFCX0F3RGpJeGMtN3pPTG80NmJXMlJjVXlMeUhlSG50WlR2Xw?oc=5",
+          "publishedAt": "2026-05-27T07:00:00Z",
+          "rssPublishedAt": "2026-05-27T07:00:00Z",
+          "sourcePublishedAt": "2026-05-27T00:00:00Z",
+          "displayedAt": "2026-05-27T07:00:00Z"
         }
       ],
       "clusterTitles": [
         "Occupant Grey Alien Designs by Daniel Baker (Disclosure Day Concept Art Images)",
+        "Disclosure Day Grey Alien (Disclosure Day Movie Images)",
         "Disclosure Day Grey Alien (Disclosure Day Movie Images)"
       ],
-      "quality": 71,
+      "quality": 76,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -277,8 +81,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
+          "points": 15,
+          "text": "4 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -286,7 +90,7 @@
         "ALIEN",
         "DISCLOSURE"
       ],
-      "sourceQuality": 71,
+      "sourceQuality": 76,
       "displayedAt": "2026-09-11T07:34:05Z",
       "rssPublishedAt": "2026-09-10T14:09:59Z",
       "rssDate": "2026-09-10",
@@ -306,79 +110,6 @@
           "provider": "mymemory"
         }
       }
-    },
-    {
-      "id": "the-evidence-around-uaps-is-getting-harder-to-ignore",
-      "title": "The Evidence Around UAPs Is Getting Harder to Ignore",
-      "source": "Metatrends",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxU1pkTHhBZGtqWWs5OHcxQXdfa2M2V2QzbVZ6c1VrQnBGamJfT1UyWEpNdi1BLWVoVEl0di1KQk1hMnJiN3QwSkxjckgzOUR2Wk5FNFBrQWtWeGp6dC0zNlRmYWN2RFRJQlVXdzVPWWxnTHdGN2pxdA?oc=5",
-      "date": "2026-08-31",
-      "publishedAt": "2026-09-07T15:12:45Z",
-      "summary": "png) 0:00 -10:15 Audio 3 Extraordinary claims require extraordinary evidence – such is the case on Non-Human Intelligence (NHI) and Unidentified Anomalous Phenomena (UAPs). I have had no personal firsthand experience with either, but there is evidence mounting, and it has been significant enough that it has captured my attention. I want to share the way I think about this — not as a believer, not as a skeptic, but as someone who takes data seriously enough to know when too much is happening not to pay attention. On August 31, 2026, at the Office of the Director of National Intelligence, the UAP Science Advisory Council was informed that the United States government has a ‘**preparedness plan in place’** should the existence of nonhuman intelligence (NHI) be confirmed.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 73,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DECLASSIFIED, PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "DECLASSIFIED, PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "pentagon",
-        "videos"
-      ],
-      "sourceQuality": 73,
-      "displayedAt": "2026-09-11T07:34:05Z",
-      "translation": {
-        "en": {
-          "title": "The Evidence Around UAPs Is Getting Harder to Ignore",
-          "summary": "png) 0:00 -10:15 Audio 3 Extraordinary claims require extraordinary evidence – such is the case on Non-Human Intelligence (NHI) and Unidentified Anomalous Phenomena (UAPs). I have had no personal firsthand experience with either, but there is evidence mounting, and it has been significant enough that it has captured my attention. I want to share the way I think about this — not as a believer, not as a skeptic, but as someone who takes data seriously enough to know when too much is happening not to pay attention.",
-          "sourceHash": "729526ca558f26643d9da0f02d965748ab5e8cc1",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Die Beweise für UAPs werden immer schwerer zu ignorieren",
-          "summary": "png) 0:00 -10:15 Audio 3 Außergewöhnliche Ansprüche erfordern außergewöhnliche Beweise – dies ist der Fall bei nicht-menschlicher Intelligenz (nhi) und nicht identifizierten anomalen Phänomenen (UAPs). Ich habe keine persönlichen Erfahrungen aus erster Hand mit beiden gemacht, aber es gibt immer mehr Beweise, und es war signifikant genug, dass es meine Aufmerksamkeit erregt hat. Ich möchte die Art und Weise teilen, wie ich darüber denke — nicht als Gläubiger, nicht als Skeptiker, sondern als jemand, der Daten aufnimmt ernst genug, um zu wissen, wann zu viel passiert, um nicht darauf zu achten.",
-          "sourceHash": "729526ca558f26643d9da0f02d965748ab5e8cc1",
-          "provider": "mymemory"
-        }
-      },
-      "sourceDisplayedAt": "2026-09-11T07:34:05Z"
     },
     {
       "id": "dr-phil-accuses-us-government-of-lying-straight-to-our-face-for-ignoring-legitimate-ufo-reports",
@@ -435,13 +166,14 @@
       ],
       "sourceQuality": 73,
       "displayedAt": "2026-09-04T14:40:51Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
       "rssPublishedAt": "2026-09-04T07:00:00Z",
       "rssDate": "2026-08-31",
       "sourcePublishedAt": "2026-09-04T06:21:06Z",
-      "sourceDisplayedAt": "2026-09-04T07:00:00Z"
+      "sourceDisplayedAt": "2026-09-04T07:00:00Z",
+      "retainedFromPreviousScan": true,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      }
     },
     {
       "id": "pentagon-seeks-access-to-vast-private-ufo-records-collection",
@@ -517,7 +249,8 @@
       "rssPublishedAt": "2026-09-02T07:00:00Z",
       "rssDate": "2026-08-31",
       "sourcePublishedAt": "2026-09-02T20:32:27Z",
-      "sourceDisplayedAt": "2026-09-03T14:50:15Z"
+      "sourceDisplayedAt": "2026-09-03T14:50:15Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events",
@@ -590,20 +323,163 @@
           "sourceHash": "b46a0b8b96fbe385d3c327f3bc21dc6d3ab6e2c1",
           "provider": "mymemory"
         }
-      }
+      },
+      "retainedFromPreviousScan": true
+    },
+    {
+      "id": "14-000-ufo-sightings-in-germany-reporting-centre-in-hesse-investigates",
+      "title": "14,000 UFO sightings in Germany: Reporting centre in Hesse investigates",
+      "source": "Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNExDM3lIRE5xUDQxTEFoZi1JQVdkV1JjcTlDd2thVEFmWEQtcHhNeXJ4TXZPX0dyTlZ0OFgtenk1RWktZk14NGM3UklVZHVMdlg3SGJuZl91dEpzVHVFNUFkc3diMW5PVy12Qm5wUXd0UzgyeGZaVVR4MFl4WWFDUVNVRDNmbXgyMzljTkx5MWlNMWpHMWRxUXppbE9OZk4xMUpoN3pDemxVVTVxZTc0?oc=5",
+      "date": "2026-09-02",
+      "publishedAt": "2026-09-08T06:45:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 64,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "PENTAGON"
+      ],
+      "sourceQuality": 64,
+      "displayedAt": "2026-09-14T08:10:38Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "rssPublishedAt": "2026-09-08T06:45:00Z",
+      "rssDate": "2026-09-02",
+      "sourcePublishedAt": "2026-08-09T06:45:37Z",
+      "sourceDisplayedAt": "2026-09-14T08:10:38Z",
+      "sourceIsNew": true
+    },
+    {
+      "id": "the-evidence-around-uaps-is-getting-harder-to-ignore",
+      "title": "The Evidence Around UAPs Is Getting Harder to Ignore",
+      "source": "Metatrends",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxU1pkTHhBZGtqWWs5OHcxQXdfa2M2V2QzbVZ6c1VrQnBGamJfT1UyWEpNdi1BLWVoVEl0di1KQk1hMnJiN3QwSkxjckgzOUR2Wk5FNFBrQWtWeGp6dC0zNlRmYWN2RFRJQlVXdzVPWWxnTHdGN2pxdA?oc=5",
+      "date": "2026-09-02",
+      "publishedAt": "2026-09-07T15:12:45Z",
+      "summary": "png) 0:00 -10:15 Audio 3 Extraordinary claims require extraordinary evidence – such is the case on Non-Human Intelligence (NHI) and Unidentified Anomalous Phenomena (UAPs). I have had no personal firsthand experience with either, but there is evidence mounting, and it has been significant enough that it has captured my attention. I want to share the way I think about this — not as a believer, not as a skeptic, but as someone who takes data seriously enough to know when too much is happening not to pay attention. On August 31, 2026, at the Office of the Director of National Intelligence, the UAP Science Advisory Council was informed that the United States government has a ‘**preparedness plan in place’** should the existence of nonhuman intelligence (NHI) be confirmed.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 64,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "PENTAGON"
+      ],
+      "sourceQuality": 64,
+      "displayedAt": "2026-09-11T07:34:05Z",
+      "translation": {
+        "en": {
+          "title": "The Evidence Around UAPs Is Getting Harder to Ignore",
+          "summary": "png) 0:00 -10:15 Audio 3 Extraordinary claims require extraordinary evidence – such is the case on Non-Human Intelligence (NHI) and Unidentified Anomalous Phenomena (UAPs). I have had no personal firsthand experience with either, but there is evidence mounting, and it has been significant enough that it has captured my attention. I want to share the way I think about this — not as a believer, not as a skeptic, but as someone who takes data seriously enough to know when too much is happening not to pay attention.",
+          "sourceHash": "729526ca558f26643d9da0f02d965748ab5e8cc1",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Die Beweise für UAPs werden immer schwerer zu ignorieren",
+          "summary": "png) 0:00 -10:15 Audio 3 Außergewöhnliche Ansprüche erfordern außergewöhnliche Beweise – dies ist der Fall bei nicht-menschlicher Intelligenz (nhi) und nicht identifizierten anomalen Phänomenen (UAPs). Ich habe keine persönlichen Erfahrungen aus erster Hand mit beiden gemacht, aber es gibt immer mehr Beweise, und es war signifikant genug, dass es meine Aufmerksamkeit erregt hat. Ich möchte die Art und Weise teilen, wie ich darüber denke — nicht als Gläubiger, nicht als Skeptiker, sondern als jemand, der Daten aufnimmt ernst genug, um zu wissen, wann zu viel passiert, um nicht darauf zu achten.",
+          "sourceHash": "729526ca558f26643d9da0f02d965748ab5e8cc1",
+          "provider": "mymemory"
+        }
+      },
+      "sourceDisplayedAt": "2026-09-11T07:34:05Z"
     }
   ],
   "summaries": {
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-    "the-evidence-around-uaps-is-getting-harder-to-ignore": "png) 0:00 -10:15 Audio 3 Extraordinary claims require extraordinary evidence – such is the case on Non-Human Intelligence (NHI) and Unidentified Anomalous Phenomena (UAPs). I have had no personal firsthand experience with either, but there is evidence mounting, and it has been significant enough that it has captured my attention. I want to share the way I think about this — not as a believer, not as a skeptic, but as someone who takes data seriously enough to know when too much is happening not to pay attention. On August 31, 2026, at the Office of the Director of National Intelligence, the UAP Science Advisory Council was informed that the United States government has a ‘**preparedness plan in place’** should the existence of nonhuman intelligence (NHI) be confirmed.",
+    "film-disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker": "Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! | Disclosure Day Movie News Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! Concept artist Daniel Baker provided a number of alternative designs for Disclosure Day's take on the classic Grey Alien and THEIR UFO/UAP occupants. One of the prominent concept artists who got to work on Steven Spielberg's Disclosure Day was Daniel Baker and recently he's taken to social media to debut some of the phenomenal artwork he provided for the film! Below are a few explorations he shared of the film's take on the classic Grey Alien – a slender humanoid extraterrestrial with large eyes, pale skin and a frail body.",
     "pentagon-seeks-access-to-vast-private-ufo-records-collection": "Pentagon seeks access to vast private UFO records collection The Pentagon recently moved to issue a sole-source contract to a New Mexico-based nonprofit corporation that reportedly holds North America’s largest private collection of historical records documenting unidentified anomalous phenomena, including heaps of exclusive UFO case files that exist outside of the U. Details about the All-domain Anomaly Resolution Office’s plans to buy a commercial data subscription to scrutinize the National Unidentified Flying Object Historic Records Center’s archives — and specifically, materials that pre-date 1990 — were first revealed in a recent Defense Department contracting notice.",
     "exeter-ufo-festival-2026-your-complete-guide-to-out-of-this-world-speakers-and-events": "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events - The Exeter UFO Festival is a Labor Day weekend tradition celebrating the 1965 \"Incident at Exeter. \" - Hosted by the Exeter-Area Kiwanis Club, the two-day event features UFO expert talks, a parade, and an alien costume contest. - Activities include trolley rides to the 1965 sighting location and continuous showings of historical videos. - Proceeds from the festival and a special police patch sale support local children's charities and scholarships. If you’ve walked through downtown Exeter lately, you may have spotted neon‑green alien faces peering from storefronts and posters — a sure sign that the UFO Festival is about to return.",
-    "film-disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker": "Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! | Disclosure Day Movie News Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! Concept artist Daniel Baker provided a number of alternative designs for Disclosure Day's take on the classic Grey Alien and THEIR UFO/UAP occupants. One of the prominent concept artists who got to work on Steven Spielberg's Disclosure Day was Daniel Baker and recently he's taken to social media to debut some of the phenomenal artwork he provided for the film! Below are a few explorations he shared of the film's take on the classic Grey Alien – a slender humanoid extraterrestrial with large eyes, pale skin and a frail body."
+    "the-evidence-around-uaps-is-getting-harder-to-ignore": "png) 0:00 -10:15 Audio 3 Extraordinary claims require extraordinary evidence – such is the case on Non-Human Intelligence (NHI) and Unidentified Anomalous Phenomena (UAPs). I have had no personal firsthand experience with either, but there is evidence mounting, and it has been significant enough that it has captured my attention. I want to share the way I think about this — not as a believer, not as a skeptic, but as someone who takes data seriously enough to know when too much is happening not to pay attention. On August 31, 2026, at the Office of the Director of National Intelligence, the UAP Science Advisory Council was informed that the United States government has a ‘**preparedness plan in place’** should the existence of nonhuman intelligence (NHI) be confirmed."
   },
   "notificationBatch": {
-    "timestamp": "2026-09-13T14:45:16Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-09-14T08:10:38Z",
+    "ids": [
+      "14-000-ufo-sightings-in-germany-reporting-centre-in-hesse-investigates"
+    ],
+    "articles": [
+      {
+        "id": "14-000-ufo-sightings-in-germany-reporting-centre-in-hesse-investigates",
+        "title": "14,000 UFO sightings in Germany: Reporting centre in Hesse investigates",
+        "source": "Euronews.com"
+      }
+    ]
   },
   "scanMeta": {
     "broadArticles": 394,
@@ -616,99 +492,88 @@
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 6,
+    "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 8,
+    "regroupedTopics": 2,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
     "dedupedTitles": "normalized_title_v1",
     "qualityBalance": "source_strength_event_type_v1",
-    "summaryRepair": {
-      "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 1,
-      "repaired": 1,
-      "fallbackRepaired": 0,
-      "missing": 0
-    },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
       "kept": 6,
-      "missing": 1,
+      "missing": 2,
       "missingItems": [
         {
           "id": "dr-phil-accuses-us-government-of-lying-straight-to-our-face-for-ignoring-legitimate-ufo-reports",
           "title": "Dr. Phil accuses US government of lying ‘straight to our face’ for ignoring legitimate UFO reports",
           "source": "nypost.com",
           "reason": "missing_or_mismatched_article_content_summary"
+        },
+        {
+          "id": "14-000-ufo-sightings-in-germany-reporting-centre-in-hesse-investigates",
+          "title": "14,000 UFO sightings in Germany: Reporting centre in Hesse investigates",
+          "source": "Euronews.com",
+          "reason": "missing_or_mismatched_article_content_summary"
         }
       ]
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 7,
-      "outputArticles": 6,
-      "preservedSourceSummaries": 3
+      "inputArticles": 4,
+      "outputArticles": 3,
+      "preservedSourceSummaries": 1
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 6,
-      "outputArticles": 6,
-      "missingSummaries": 3,
+      "inputArticles": 3,
+      "outputArticles": 3,
+      "missingSummaries": 2,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
       "notification": "new_visible_topics_or_new_sources_inside_visible_topics"
     },
-    "warReleaseSummaryGuard": {
-      "policy": "department_of_war_pursue_release_summary_from_release_page_v4_second_batch_clusters",
-      "updatedArticles": 1
-    },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
-      "updatedArticles": 1,
-      "clearedTranslations": 1,
-      "reorderedBySourceCount": true
+      "updatedArticles": 2,
+      "clearedTranslations": 2,
+      "reorderedBySourceCount": false
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 2,
-      "addedSources": 36,
+      "updatedTopics": 1,
+      "addedSources": 1,
       "maxSourcesPerArticle": 18
-    },
-    "fileReleaseConsolidation": {
-      "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
-      "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 17,
-      "cleanedArticles": 1,
-      "removedDuplicateTopics": 0,
-      "staleSummariesCleared": 0,
-      "rejectedArticleSources": 0,
-      "promotedPrimaryFromSource": false
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 6,
-      "outputArticles": 6,
+      "inputArticles": 3,
+      "outputArticles": 3,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 6,
+      "inputArticles": 3,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 6,
-      "currentBeforeRestore": 6,
-      "restoredArticles": 0,
+      "currentBeforeRestore": 3,
+      "restoredArticles": 3,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
-      "restoredTitles": []
+      "restoredTitles": [
+        "Dr. Phil accuses US government of lying ‘straight to our face’ for ignoring legitimate UFO reports",
+        "Pentagon seeks access to vast private UFO records collection",
+        "Exeter UFO Festival 2026: Your complete guide to out-of-this-world speakers and events"
+      ]
     },
     "finalFeedSourceConsistency": {
       "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v5_restore_department_sources",
@@ -717,47 +582,40 @@
       "restoredDepartmentFileReleaseSources": 0,
       "articlesRefreshed": 6
     },
+    "summaryRepair": {
+      "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
+      "attempts": 2,
+      "repaired": 2,
+      "fallbackRepaired": 0,
+      "missing": 0
+    },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 21,
-      "updatedSources": 10,
+      "checkedSources": 9,
+      "updatedSources": 3,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 6,
-      "newSources": 0
+      "newSources": 2
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 6,
-      "newTopics": 0,
-      "topicsWithNewSources": 0
+      "correctedExistingTopics": 5,
+      "newTopics": 1,
+      "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 0,
-      "freshSources": 0,
-      "correctedOldSourceMarkers": 0,
+      "notifications": 1,
+      "freshSources": 1,
+      "correctedOldSourceMarkers": 1,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 27
+      "seededSeenFromPreviousFeed": 26
     }
   },
   "translations": {
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
-      "en": {
-        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien mit nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium sagt, dass es die zweite Veröffentlichung von freigegebenen und historischen Dateien mit nicht identifizierten anomalen Phänomenen als Teil des Entsiegelungs- und Berichtssystems des Präsidenten für UAP-Begegnungen veröffentlicht oder VERFOLGT. In der Veröffentlichung heißt es, dass die Sammlung auf WAR.GOV/UFO untergebracht bleibt und dass weitere Dateien rollierend veröffentlicht werden. Assistent des Kriegsministers für öffentliche Angelegenheiten und Chef-Pentagon-Sprecher Sean Parnell wird als Quelle der Abrechnung genannt.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-        "provider": "mymemory"
-      }
-    },
     "film-disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker": {
       "en": {
         "title": "Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker!",
@@ -769,20 +627,6 @@
         "title": "Disclosure Day Grey Alien UFO / UAP Insassen-Design-Erkundungen, die vom Konzeptkünstler Daniel Baker geteilt werden!",
         "summary": "Disclosure Day Grey Alien UFO / UAP Insassen-Design-Erkundungen, die vom Konzeptkünstler Daniel Baker geteilt werden! | Disclosure Day Filmnachrichten Disclosure Day Grey Alien UFO / UAP Insassen-Design-Erkundungen, die vom Konzeptkünstler Daniel Baker geteilt werden! Der Konzeptkünstler Daniel Baker lieferte eine Reihe alternativer Designs für die Interpretation des klassischen Grey Aliens und SEINER UFO/UAP-Insassen am Disclosure Day.",
         "sourceHash": "47c588fc966609d82629a6201071dc2f34e63a6c",
-        "provider": "mymemory"
-      }
-    },
-    "the-evidence-around-uaps-is-getting-harder-to-ignore": {
-      "en": {
-        "title": "The Evidence Around UAPs Is Getting Harder to Ignore",
-        "summary": "png) 0:00 -10:15 Audio 3 Extraordinary claims require extraordinary evidence – such is the case on Non-Human Intelligence (NHI) and Unidentified Anomalous Phenomena (UAPs). I have had no personal firsthand experience with either, but there is evidence mounting, and it has been significant enough that it has captured my attention. I want to share the way I think about this — not as a believer, not as a skeptic, but as someone who takes data seriously enough to know when too much is happening not to pay attention.",
-        "sourceHash": "729526ca558f26643d9da0f02d965748ab5e8cc1",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Die Beweise für UAPs werden immer schwerer zu ignorieren",
-        "summary": "png) 0:00 -10:15 Audio 3 Außergewöhnliche Ansprüche erfordern außergewöhnliche Beweise – dies ist der Fall bei nicht-menschlicher Intelligenz (nhi) und nicht identifizierten anomalen Phänomenen (UAPs). Ich habe keine persönlichen Erfahrungen aus erster Hand mit beiden gemacht, aber es gibt immer mehr Beweise, und es war signifikant genug, dass es meine Aufmerksamkeit erregt hat. Ich möchte die Art und Weise teilen, wie ich darüber denke — nicht als Gläubiger, nicht als Skeptiker, sondern als jemand, der Daten aufnimmt ernst genug, um zu wissen, wann zu viel passiert, um nicht darauf zu achten.",
-        "sourceHash": "729526ca558f26643d9da0f02d965748ab5e8cc1",
         "provider": "mymemory"
       }
     },
@@ -813,10 +657,24 @@
         "sourceHash": "b46a0b8b96fbe385d3c327f3bc21dc6d3ab6e2c1",
         "provider": "mymemory"
       }
+    },
+    "the-evidence-around-uaps-is-getting-harder-to-ignore": {
+      "en": {
+        "title": "The Evidence Around UAPs Is Getting Harder to Ignore",
+        "summary": "png) 0:00 -10:15 Audio 3 Extraordinary claims require extraordinary evidence – such is the case on Non-Human Intelligence (NHI) and Unidentified Anomalous Phenomena (UAPs). I have had no personal firsthand experience with either, but there is evidence mounting, and it has been significant enough that it has captured my attention. I want to share the way I think about this — not as a believer, not as a skeptic, but as someone who takes data seriously enough to know when too much is happening not to pay attention.",
+        "sourceHash": "729526ca558f26643d9da0f02d965748ab5e8cc1",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Die Beweise für UAPs werden immer schwerer zu ignorieren",
+        "summary": "png) 0:00 -10:15 Audio 3 Außergewöhnliche Ansprüche erfordern außergewöhnliche Beweise – dies ist der Fall bei nicht-menschlicher Intelligenz (nhi) und nicht identifizierten anomalen Phänomenen (UAPs). Ich habe keine persönlichen Erfahrungen aus erster Hand mit beiden gemacht, aber es gibt immer mehr Beweise, und es war signifikant genug, dass es meine Aufmerksamkeit erregt hat. Ich möchte die Art und Weise teilen, wie ich darüber denke — nicht als Gläubiger, nicht als Skeptiker, sondern als jemand, der Daten aufnimmt ernst genug, um zu wissen, wann zu viel passiert, um nicht darauf zu achten.",
+        "sourceHash": "729526ca558f26643d9da0f02d965748ab5e8cc1",
+        "provider": "mymemory"
+      }
     }
   },
   "translationMeta": {
-    "prepared": 5,
+    "prepared": 4,
     "failed": 0,
     "summary": "compact app translation only; source summaries are not overwritten",
     "target": "de for English articles, en for German articles",
