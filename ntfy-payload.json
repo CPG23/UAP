@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "3 neue Artikel",
+  "message": "──────────────\nJournalist says UAP waiver may allow disclosures on recovered non-human craft\n──────────────\nPentagon issues waiver to allow personnel to come forward on UAPs\n──────────────\nDepartment of War Issues Legal Waiver to Authorize Unidentified Anomalous Phenomena (UAP)\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
