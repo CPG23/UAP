@@ -1,108 +1,7 @@
 {
-  "timestamp": "2026-09-16T07:59:33Z",
+  "timestamp": "2026-09-16T15:13:55Z",
   "retentionDays": 14,
   "articles": [
-    {
-      "id": "journalist-says-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-2026-justice-iustitia-bg-2025",
-      "title": "Journalist says UAP waiver may allow disclosures on recovered non-human craft 2026 | JUSTICE - IUSTITIA.BG 2025",
-      "source": "iustitia.bg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVmNsRWREemVHZzF1ZWp5Z1pRM2tERkl4Q1ZNQVZ4NFdUWF9xdjZ0eFdQZVp3WUxwS21qMS0wamU4U1dEWlZyRThEajlIUm56cHNTTGFrT0xSMDlfNGlnNzlTdlN3RVhtME1KSC1CM2ZteG9MMlNtUHRRelcwSzJvN09ENWhNQQ?oc=5",
-      "date": "2026-09-14",
-      "publishedAt": "2026-09-15T00:08:30Z",
-      "summary": "",
-      "mentions": 4,
-      "otherSources": [
-        {
-          "title": "Journalist says UAP waiver may allow disclosures on recovered non-human craft",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSS1IdG15NG5ZNDAtdURUa2xPcU1ES2trdlZ0cVVSdG9CT0hwVzM2NDBpcno5Y2FTOVJMTnpNS3RoclpDUFBUZmdBdlhCanBndDE2MGZBT1NxY0lDSTh0dEJMMHg5Nm1CbVo0UGVNRTZWRVVfcFMySFg0TDdmRlVNNHlaVXBZSmZJR0dQNmo1QnE4d9IBlwFBVV95cUxOaFNldk5wcDN0eHdFZmdqUFNUSTR5eDh1RE0zVXF0bXhoMEpRWmFWc2NOSXB4a3VCOGFlajkxX3k0SXk0bXRISjNNamhlTE5hc0t1dkdaUVdRLVhOZVVpZjNCOWtpN1BKdlZjYlFJb0lMMkZnX2VJSE9IN29QUVAyQzNjTERJMHJJYXh1dTMxbmY2NnZGZmVF?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSS1IdG15NG5ZNDAtdURUa2xPcU1ES2trdlZ0cVVSdG9CT0hwVzM2NDBpcno5Y2FTOVJMTnpNS3RoclpDUFBUZmdBdlhCanBndDE2MGZBT1NxY0lDSTh0dEJMMHg5Nm1CbVo0UGVNRTZWRVVfcFMySFg0TDdmRlVNNHlaVXBZSmZJR0dQNmo1QnE4d9IBlwFBVV95cUxOaFNldk5wcDN0eHdFZmdqUFNUSTR5eDh1RE0zVXF0bXhoMEpRWmFWc2NOSXB4a3VCOGFlajkxX3k0SXk0bXRISjNNamhlTE5hc0t1dkdaUVdRLVhOZVVpZjNCOWtpN1BKdlZjYlFJb0lMMkZnX2VJSE9IN29QUVAyQzNjTERJMHJJYXh1dTMxbmY2NnZGZmVF?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-09-15T04:43:20Z",
-          "displayedAt": "2026-09-15T08:06:27Z",
-          "isNew": true
-        },
-        {
-          "title": "Pentagon issues waiver to allow personnel to come forward on UAPs 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObkZPRHRrUHl5ZV9RUmwzNGZOUk5VMXRVYklRNVBjV3ZGLUNOZ0txV2dXM3RkbUtjaFdua1l5aS1qaGxRVjg5X3hBemYwcDB6RDdFRWMzQjdHSGZUWUxPUVREeE9icm5DM3JTV2N4QnpvaXV2ckppSzlJVTI4VDRPUnZSd1FEUQ?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObkZPRHRrUHl5ZV9RUmwzNGZOUk5VMXRVYklRNVBjV3ZGLUNOZ0txV2dXM3RkbUtjaFdua1l5aS1qaGxRVjg5X3hBemYwcDB6RDdFRWMzQjdHSGZUWUxPUVREeE9icm5DM3JTV2N4QnpvaXV2ckppSzlJVTI4VDRPUnZSd1FEUQ?oc=5",
-          "source": "iustitia.bg",
-          "publishedAt": "2026-09-14T15:11:39Z",
-          "displayedAt": "2026-09-15T08:06:27Z",
-          "isNew": true
-        },
-        {
-          "title": "Pentagon issues waiver to allow personnel to come forward on UAPs",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94Y3BGbnowZmVBZFUtY21wbDBoeV82MVF2SEZNbWVPLUR1b2hMT2luY3oza2RseFVPZkUwUWV6Tml4OHEzSXVLenJaWGlYcDJ3SVpVNE9TUWNBc3BVLURTNVVqUkZXYkhuRmwwMFdB0gFzQVVfeXFMT2NTYXNoR1A3c0F4MU1tSzhJclRJRkR4SFpaUm5jUllMWFVmb2tQU0NxcXRyem5pb2tUcnpqbktpM0ZMR3B4N0NFNE9ROHdVX0xaeWpMN0l3RnBHNkdYWUFZSjRCM2RudFFKaTItclZodlJJcw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94Y3BGbnowZmVBZFUtY21wbDBoeV82MVF2SEZNbWVPLUR1b2hMT2luY3oza2RseFVPZkUwUWV6Tml4OHEzSXVLenJaWGlYcDJ3SVpVNE9TUWNBc3BVLURTNVVqUkZXYkhuRmwwMFdB0gFzQVVfeXFMT2NTYXNoR1A3c0F4MU1tSzhJclRJRkR4SFpaUm5jUllMWFVmb2tQU0NxcXRyem5pb2tUcnpqbktpM0ZMR3B4N0NFNE9ROHdVX0xaeWpMN0l3RnBHNkdYWUFZSjRCM2RudFFKaTItclZodlJJcw?oc=5",
-          "publishedAt": "2026-09-14T20:56:00Z",
-          "displayedAt": "2026-09-15T08:06:27Z",
-          "isNew": true
-        }
-      ],
-      "clusterTitles": [
-        "Journalist says UAP waiver may allow disclosures on recovered non-human craft",
-        "Pentagon issues waiver to allow personnel to come forward on UAPs 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "Pentagon issues waiver to allow personnel to come forward on UAPs"
-      ],
-      "quality": 90,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DISCLOSURE, PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "DISCLOSURE, PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files"
-      ],
-      "sourceQuality": 90,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "displayedAt": "2026-09-15T00:08:30Z"
-    },
     {
       "id": "film-disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker",
       "title": "Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker!",
@@ -128,14 +27,22 @@
           "source": "Scified",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSVI1UzdtTEFoUHA0NVZlVlAtRzhCX3ZERjFqcm1aN0g0bTdKbXZtMkl6SVh1OEo3RDFFakZmZF83Y3ZlUi1xN0FIbHcxYUdCTFZVLVI1RGI0TlhJZnJRVzdTczA2Vm5mZGtLUDhWRmNpdENyU2pWZ1dSUHJKaEc0aVBNWE5ZS1d6eW51Y0dlcGFsQl9w?oc=5",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSVI1UzdtTEFoUHA0NVZlVlAtRzhCX3ZERjFqcm1aN0g0bTdKbXZtMkl6SVh1OEo3RDFFakZmZF83Y3ZlUi1xN0FIbHcxYUdCTFZVLVI1RGI0TlhJZnJRVzdTczA2Vm5mZGtLUDhWRmNpdENyU2pWZ1dSUHJKaEc0aVBNWE5ZS1d6eW51Y0dlcGFsQl9w?oc=5",
-          "publishedAt": "2026-09-05T07:00:00Z"
+          "publishedAt": "2026-09-05T07:00:00Z",
+          "rssPublishedAt": "2026-09-05T07:00:00Z",
+          "sourcePublishedAt": "2026-09-05T12:35:26Z",
+          "displayedAt": "2026-09-16T07:59:33Z",
+          "isNew": true
         },
         {
           "title": "New Disclosure Day Concept Art Reveals Early Alien and UAP Designs!",
           "source": "Scified",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVXNmZDdrenR0REtWOXJGeFVUSUlIaWZ3MmVJaFhmbUswMTlmUlJHWU45VzR5aTh0TTdkMl9JUk1mV1VTVzhvVl9PN1ZwUmV1TmdZTXJjZS1wUnl0M1FFdWo4YjBzU0xDM3VKbk83N1lvNWR6cmV3UlMxX0pXQm5GcDc0VzhabWRWamlQNkRyNUE?oc=5",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVXNmZDdrenR0REtWOXJGeFVUSUlIaWZ3MmVJaFhmbUswMTlmUlJHWU45VzR5aTh0TTdkMl9JUk1mV1VTVzhvVl9PN1ZwUmV1TmdZTXJjZS1wUnl0M1FFdWo4YjBzU0xDM3VKbk83N1lvNWR6cmV3UlMxX0pXQm5GcDc0VzhabWRWamlQNkRyNUE?oc=5",
-          "publishedAt": "2026-09-04T07:00:00Z"
+          "publishedAt": "2026-09-04T07:00:00Z",
+          "rssPublishedAt": "2026-09-04T07:00:00Z",
+          "sourcePublishedAt": "2026-09-04T20:15:25Z",
+          "displayedAt": "2026-09-16T07:59:33Z",
+          "isNew": true
         },
         {
           "title": "Disclosure Day Grey Alien (Disclosure Day Movie Images)",
@@ -209,30 +116,60 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 86,
-      "displayedAt": "2026-09-11T07:34:05Z"
+      "displayedAt": "2026-09-16T07:59:33Z"
     },
     {
-      "id": "pentagon-creates-legal-waiver-allowing-personnel-sworn-to-ufo-secrecy-to-come-forward",
-      "title": "Pentagon creates legal waiver allowing personnel sworn to UFO secrecy to come forward",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZHpZRHl3cjFsNHhxWjZndk9WQjRuS1VMZEtlMm10OGdnRzJUbmVrMER4Sm4ySGJUSkVGaWx5MzIxN1RXV3FodDVDWUd5TDFNVloyQ0hZbUhsam5xNzFLMkZiQU9wR2JCeVlsMGZXQWZweUZfTHZ5cjZndE1SeUpaYXJ5anNxTEZjSmpwa2R0ZFkwU1dSTmtGYUhlVlphS3llMTRkVUdIQ2RLejRab2lDSm5PZS16eEdfbXdsSEkyaE8wZw?oc=5",
+      "id": "journalist-says-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-2026-justice-iustitia-bg-2025",
+      "title": "Journalist says UAP waiver may allow disclosures on recovered non-human craft 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVmNsRWREemVHZzF1ZWp5Z1pRM2tERkl4Q1ZNQVZ4NFdUWF9xdjZ0eFdQZVp3WUxwS21qMS0wamU4U1dEWlZyRThEajlIUm56cHNTTGFrT0xSMDlfNGlnNzlTdlN3RVhtME1KSC1CM2ZteG9MMlNtUHRRelcwSzJvN09ENWhNQQ?oc=5",
       "date": "2026-09-14",
-      "publishedAt": "2026-09-15T06:19:00Z",
-      "summary": "",
-      "mentions": 2,
+      "publishedAt": "2026-09-15T00:08:30Z",
+      "summary": "A new waiver lets UAP whistleblowers—including current and former military personnel and contractors—disclose information without legal risk, superseding existing nondisclosure and Special Access Program agreements. Avi Loeb, head of the UAP Science Advisory Council, said the waiver will allow sharing of previously undisclosed data with the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE), though some details may still remain confidential. Loeb indicated that the waiver could reveal recovered non‑human craft if the information qualifies, and that it may help determine whether the U.S. government possesses non‑human‑made technologies. He stressed that new firsthand accounts and scientific evidence are needed to move beyond inconclusive footage, and that the waiver could be crucial if the government holds undisclosed tangible evidence.",
+      "mentions": 5,
       "otherSources": [
         {
-          "title": "Pentagon issues waiver to allow personnel to come forward on UAPs",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94Y3BGbnowZmVBZFUtY21wbDBoeV82MVF2SEZNbWVPLUR1b2hMT2luY3oza2RseFVPZkUwUWV6Tml4OHEzSXVLenJaWGlYcDJ3SVpVNE9TUWNBc3BVLURTNVVqUkZXYkhuRmwwMFdB0gFzQVVfeXFMT2NTYXNoR1A3c0F4MU1tSzhJclRJRkR4SFpaUm5jUllMWFVmb2tQU0NxcXRyem5pb2tUcnpqbktpM0ZMR3B4N0NFNE9ROHdVX0xaeWpMN0l3RnBHNkdYWUFZSjRCM2RudFFKaTItclZodlJJcw?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94Y3BGbnowZmVBZFUtY21wbDBoeV82MVF2SEZNbWVPLUR1b2hMT2luY3oza2RseFVPZkUwUWV6Tml4OHEzSXVLenJaWGlYcDJ3SVpVNE9TUWNBc3BVLURTNVVqUkZXYkhuRmwwMFdB0gFzQVVfeXFMT2NTYXNoR1A3c0F4MU1tSzhJclRJRkR4SFpaUm5jUllMWFVmb2tQU0NxcXRyem5pb2tUcnpqbktpM0ZMR3B4N0NFNE9ROHdVX0xaeWpMN0l3RnBHNkdYWUFZSjRCM2RudFFKaTItclZodlJJcw?oc=5",
+          "title": "Journalist says UAP waiver may allow disclosures on recovered non-human craft",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSS1IdG15NG5ZNDAtdURUa2xPcU1ES2trdlZ0cVVSdG9CT0hwVzM2NDBpcno5Y2FTOVJMTnpNS3RoclpDUFBUZmdBdlhCanBndDE2MGZBT1NxY0lDSTh0dEJMMHg5Nm1CbVo0UGVNRTZWRVVfcFMySFg0TDdmRlVNNHlaVXBZSmZJR0dQNmo1QnE4d9IBlwFBVV95cUxOaFNldk5wcDN0eHdFZmdqUFNUSTR5eDh1RE0zVXF0bXhoMEpRWmFWc2NOSXB4a3VCOGFlajkxX3k0SXk0bXRISjNNamhlTE5hc0t1dkdaUVdRLVhOZVVpZjNCOWtpN1BKdlZjYlFJb0lMMkZnX2VJSE9IN29QUVAyQzNjTERJMHJJYXh1dTMxbmY2NnZGZmVF?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSS1IdG15NG5ZNDAtdURUa2xPcU1ES2trdlZ0cVVSdG9CT0hwVzM2NDBpcno5Y2FTOVJMTnpNS3RoclpDUFBUZmdBdlhCanBndDE2MGZBT1NxY0lDSTh0dEJMMHg5Nm1CbVo0UGVNRTZWRVVfcFMySFg0TDdmRlVNNHlaVXBZSmZJR0dQNmo1QnE4d9IBlwFBVV95cUxOaFNldk5wcDN0eHdFZmdqUFNUSTR5eDh1RE0zVXF0bXhoMEpRWmFWc2NOSXB4a3VCOGFlajkxX3k0SXk0bXRISjNNamhlTE5hc0t1dkdaUVdRLVhOZVVpZjNCOWtpN1BKdlZjYlFJb0lMMkZnX2VJSE9IN29QUVAyQzNjTERJMHJJYXh1dTMxbmY2NnZGZmVF?oc=5",
           "source": "NewsNation",
-          "publishedAt": "2026-09-14T20:56:00Z"
+          "publishedAt": "2026-09-15T04:43:20Z",
+          "displayedAt": "2026-09-15T08:06:27Z",
+          "isNew": true
+        },
+        {
+          "title": "Pentagon issues waiver to allow personnel to come forward on UAPs 2026 | JUSTICE - IUSTITIA.BG 2025",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObkZPRHRrUHl5ZV9RUmwzNGZOUk5VMXRVYklRNVBjV3ZGLUNOZ0txV2dXM3RkbUtjaFdua1l5aS1qaGxRVjg5X3hBemYwcDB6RDdFRWMzQjdHSGZUWUxPUVREeE9icm5DM3JTV2N4QnpvaXV2ckppSzlJVTI4VDRPUnZSd1FEUQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObkZPRHRrUHl5ZV9RUmwzNGZOUk5VMXRVYklRNVBjV3ZGLUNOZ0txV2dXM3RkbUtjaFdua1l5aS1qaGxRVjg5X3hBemYwcDB6RDdFRWMzQjdHSGZUWUxPUVREeE9icm5DM3JTV2N4QnpvaXV2ckppSzlJVTI4VDRPUnZSd1FEUQ?oc=5",
+          "source": "iustitia.bg",
+          "publishedAt": "2026-09-14T15:11:39Z",
+          "displayedAt": "2026-09-15T08:06:27Z",
+          "isNew": true
+        },
+        {
+          "title": "Pentagon issues waiver to allow personnel to come forward on UAPs",
+          "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94Y3BGbnowZmVBZFUtY21wbDBoeV82MVF2SEZNbWVPLUR1b2hMT2luY3oza2RseFVPZkUwUWV6Tml4OHEzSXVLenJaWGlYcDJ3SVpVNE9TUWNBc3BVLURTNVVqUkZXYkhuRmwwMFdB0gFzQVVfeXFMT2NTYXNoR1A3c0F4MU1tSzhJclRJRkR4SFpaUm5jUllMWFVmb2tQU0NxcXRyem5pb2tUcnpqbktpM0ZMR3B4N0NFNE9ROHdVX0xaeWpMN0l3RnBHNkdYWUFZSjRCM2RudFFKaTItclZodlJJcw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94Y3BGbnowZmVBZFUtY21wbDBoeV82MVF2SEZNbWVPLUR1b2hMT2luY3oza2RseFVPZkUwUWV6Tml4OHEzSXVLenJaWGlYcDJ3SVpVNE9TUWNBc3BVLURTNVVqUkZXYkhuRmwwMFdB0gFzQVVfeXFMT2NTYXNoR1A3c0F4MU1tSzhJclRJRkR4SFpaUm5jUllMWFVmb2tQU0NxcXRyem5pb2tUcnpqbktpM0ZMR3B4N0NFNE9ROHdVX0xaeWpMN0l3RnBHNkdYWUFZSjRCM2RudFFKaTItclZodlJJcw?oc=5",
+          "publishedAt": "2026-09-14T20:56:00Z",
+          "displayedAt": "2026-09-15T08:06:27Z",
+          "isNew": true
+        },
+        {
+          "title": "Pentagon creates legal waiver allowing personnel sworn to UFO secrecy to come forward",
+          "source": "New York Post",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZHpZRHl3cjFsNHhxWjZndk9WQjRuS1VMZEtlMm10OGdnRzJUbmVrMER4Sm4ySGJUSkVGaWx5MzIxN1RXV3FodDVDWUd5TDFNVloyQ0hZbUhsam5xNzFLMkZiQU9wR2JCeVlsMGZXQWZweUZfTHZ5cjZndE1SeUpaYXJ5anNxTEZjSmpwa2R0ZFkwU1dSTmtGYUhlVlphS3llMTRkVUdIQ2RLejRab2lDSm5PZS16eEdfbXdsSEkyaE8wZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZHpZRHl3cjFsNHhxWjZndk9WQjRuS1VMZEtlMm10OGdnRzJUbmVrMER4Sm4ySGJUSkVGaWx5MzIxN1RXV3FodDVDWUd5TDFNVloyQ0hZbUhsam5xNzFLMkZiQU9wR2JCeVlsMGZXQWZweUZfTHZ5cjZndE1SeUpaYXJ5anNxTEZjSmpwa2R0ZFkwU1dSTmtGYUhlVlphS3llMTRkVUdIQ2RLejRab2lDSm5PZS16eEdfbXdsSEkyaE8wZw?oc=5",
+          "publishedAt": "2026-09-15T06:19:00Z"
         }
       ],
       "clusterTitles": [
-        "Pentagon issues waiver to allow personnel to come forward on UAPs"
+        "Journalist says UAP waiver may allow disclosures on recovered non-human craft",
+        "Pentagon issues waiver to allow personnel to come forward on UAPs 2026 | JUSTICE - IUSTITIA.BG 2025",
+        "Pentagon issues waiver to allow personnel to come forward on UAPs",
+        "Pentagon creates legal waiver allowing personnel sworn to UFO secrecy to come forward"
       ],
-      "quality": 85,
+      "quality": 80,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -273,22 +210,16 @@
           "label": "Behörde im Titel",
           "points": 6,
           "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
         "files"
       ],
-      "sourceQuality": 85,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "displayedAt": "2026-09-16T07:59:33Z"
+      "sourceQuality": 80,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
+      "displayedAt": "2026-09-15T00:08:30Z"
     },
     {
       "id": "new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb",
@@ -349,10 +280,12 @@
         "files"
       ],
       "sourceQuality": 80,
+      "displayedAt": "2026-09-16T07:59:33Z",
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "displayedAt": "2026-09-16T07:59:33Z"
+      "sourceDisplayedAt": "2026-09-16T07:59:33Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "pentagon-issues-new-waiver-to-expand-ufo-disclosure-efforts",
@@ -477,10 +410,15 @@
         "files"
       ],
       "sourceQuality": 80,
+      "displayedAt": "2026-09-14T11:44:39Z",
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "displayedAt": "2026-09-14T11:44:39Z"
+      "rssPublishedAt": "2026-09-14T11:44:39Z",
+      "rssDate": "2026-09-14",
+      "sourcePublishedAt": "2026-08-27T20:49:38Z",
+      "sourceDisplayedAt": "2026-09-15T08:06:27Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-14-000-ufo-sightings-in-germany-reporting-centre-in-hesse-investigates",
@@ -552,7 +490,7 @@
       "source": "Metatrends",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxU1pkTHhBZGtqWWs5OHcxQXdfa2M2V2QzbVZ6c1VrQnBGamJfT1UyWEpNdi1BLWVoVEl0di1KQk1hMnJiN3QwSkxjckgzOUR2Wk5FNFBrQWtWeGp6dC0zNlRmYWN2RFRJQlVXdzVPWWxnTHdGN2pxdA?oc=5",
       "date": "2026-09-14",
-      "publishedAt": "2026-09-07T15:12:45Z",
+      "publishedAt": "2026-09-07T07:00:00Z",
       "summary": "png) 0:00 -10:15 Audio 3 Extraordinary claims require extraordinary evidence – such is the case on Non-Human Intelligence (NHI) and Unidentified Anomalous Phenomena (UAPs). I have had no personal firsthand experience with either, but there is evidence mounting, and it has been significant enough that it has captured my attention. I want to share the way I think about this — not as a believer, not as a skeptic, but as someone who takes data seriously enough to know when too much is happening not to pay attention. On August 31, 2026, at the Office of the Director of National Intelligence, the UAP Science Advisory Council was informed that the United States government has a ‘**preparedness plan in place’** should the existence of nonhuman intelligence (NHI) be confirmed.",
       "mentions": 1,
       "otherSources": [],
