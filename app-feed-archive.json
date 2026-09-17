@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-17T08:04:00Z",
+  "timestamp": "2026-09-17T15:24:43Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -125,33 +125,9 @@
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZHpZRHl3cjFsNHhxWjZndk9WQjRuS1VMZEtlMm10OGdnRzJUbmVrMER4Sm4ySGJUSkVGaWx5MzIxN1RXV3FodDVDWUd5TDFNVloyQ0hZbUhsam5xNzFLMkZiQU9wR2JCeVlsMGZXQWZweUZfTHZ5cjZndE1SeUpaYXJ5anNxTEZjSmpwa2R0ZFkwU1dSTmtGYUhlVlphS3llMTRkVUdIQ2RLejRab2lDSm5PZS16eEdfbXdsSEkyaE8wZw?oc=5",
       "date": "2026-09-14",
       "publishedAt": "2026-09-15T06:19:00Z",
-      "summary": "The U.S. government has released five batches of UAP files through August 7 2026, totaling 162 documents, but none of them constitutes an official confirmation that extraterrestrial life or technology exists. Prediction markets on Kalshi, Polymarket, and Polymarket US currently price the probability of a definitive alien confirmation before 2027 at about 4.5 % overall, with the No outcome favored at 95.5 %. The markets define a Yes settlement as a definitive statement by a qualifying U.S. official or agency that extraterrestrial life or technology exists by December 31 2026, and a No settlement if no such statement occurs before January 1 2027. Recent releases and statements, including the PURSUE system launches and remarks by Secretary of State Marco Rubio, have only caused short‑lived price movements and have not met the resolution criteria, leaving the confirmation outcome uncertain.",
-      "mentions": 6,
+      "summary": "",
+      "mentions": 2,
       "otherSources": [
-        {
-          "title": "Journalist says UAP waiver may allow disclosures on recovered non-human craft 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVmNsRWREemVHZzF1ZWp5Z1pRM2tERkl4Q1ZNQVZ4NFdUWF9xdjZ0eFdQZVp3WUxwS21qMS0wamU4U1dEWlZyRThEajlIUm56cHNTTGFrT0xSMDlfNGlnNzlTdlN3RVhtME1KSC1CM2ZteG9MMlNtUHRRelcwSzJvN09ENWhNQQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVmNsRWREemVHZzF1ZWp5Z1pRM2tERkl4Q1ZNQVZ4NFdUWF9xdjZ0eFdQZVp3WUxwS21qMS0wamU4U1dEWlZyRThEajlIUm56cHNTTGFrT0xSMDlfNGlnNzlTdlN3RVhtME1KSC1CM2ZteG9MMlNtUHRRelcwSzJvN09ENWhNQQ?oc=5",
-          "publishedAt": "2026-09-15T00:08:30Z",
-          "displayedAt": "2026-09-15T00:08:30Z"
-        },
-        {
-          "title": "Journalist says UAP waiver may allow disclosures on recovered non-human craft",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSS1IdG15NG5ZNDAtdURUa2xPcU1ES2trdlZ0cVVSdG9CT0hwVzM2NDBpcno5Y2FTOVJMTnpNS3RoclpDUFBUZmdBdlhCanBndDE2MGZBT1NxY0lDSTh0dEJMMHg5Nm1CbVo0UGVNRTZWRVVfcFMySFg0TDdmRlVNNHlaVXBZSmZJR0dQNmo1QnE4d9IBlwFBVV95cUxOaFNldk5wcDN0eHdFZmdqUFNUSTR5eDh1RE0zVXF0bXhoMEpRWmFWc2NOSXB4a3VCOGFlajkxX3k0SXk0bXRISjNNamhlTE5hc0t1dkdaUVdRLVhOZVVpZjNCOWtpN1BKdlZjYlFJb0lMMkZnX2VJSE9IN29QUVAyQzNjTERJMHJJYXh1dTMxbmY2NnZGZmVF?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSS1IdG15NG5ZNDAtdURUa2xPcU1ES2trdlZ0cVVSdG9CT0hwVzM2NDBpcno5Y2FTOVJMTnpNS3RoclpDUFBUZmdBdlhCanBndDE2MGZBT1NxY0lDSTh0dEJMMHg5Nm1CbVo0UGVNRTZWRVVfcFMySFg0TDdmRlVNNHlaVXBZSmZJR0dQNmo1QnE4d9IBlwFBVV95cUxOaFNldk5wcDN0eHdFZmdqUFNUSTR5eDh1RE0zVXF0bXhoMEpRWmFWc2NOSXB4a3VCOGFlajkxX3k0SXk0bXRISjNNamhlTE5hc0t1dkdaUVdRLVhOZVVpZjNCOWtpN1BKdlZjYlFJb0lMMkZnX2VJSE9IN29QUVAyQzNjTERJMHJJYXh1dTMxbmY2NnZGZmVF?oc=5",
-          "source": "NewsNation",
-          "publishedAt": "2026-09-15T04:43:20Z",
-          "displayedAt": "2026-09-15T04:43:20Z"
-        },
-        {
-          "title": "Pentagon issues waiver to allow personnel to come forward on UAPs 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObkZPRHRrUHl5ZV9RUmwzNGZOUk5VMXRVYklRNVBjV3ZGLUNOZ0txV2dXM3RkbUtjaFdua1l5aS1qaGxRVjg5X3hBemYwcDB6RDdFRWMzQjdHSGZUWUxPUVREeE9icm5DM3JTV2N4QnpvaXV2ckppSzlJVTI4VDRPUnZSd1FEUQ?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObkZPRHRrUHl5ZV9RUmwzNGZOUk5VMXRVYklRNVBjV3ZGLUNOZ0txV2dXM3RkbUtjaFdua1l5aS1qaGxRVjg5X3hBemYwcDB6RDdFRWMzQjdHSGZUWUxPUVREeE9icm5DM3JTV2N4QnpvaXV2ckppSzlJVTI4VDRPUnZSd1FEUQ?oc=5",
-          "source": "iustitia.bg",
-          "publishedAt": "2026-09-14T15:11:39Z",
-          "displayedAt": "2026-09-14T15:11:39Z"
-        },
         {
           "title": "Pentagon issues waiver to allow personnel to come forward on UAPs",
           "source": "NewsNation",
@@ -159,21 +135,10 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94Y3BGbnowZmVBZFUtY21wbDBoeV82MVF2SEZNbWVPLUR1b2hMT2luY3oza2RseFVPZkUwUWV6Tml4OHEzSXVLenJaWGlYcDJ3SVpVNE9TUWNBc3BVLURTNVVqUkZXYkhuRmwwMFdB0gFzQVVfeXFMT2NTYXNoR1A3c0F4MU1tSzhJclRJRkR4SFpaUm5jUllMWFVmb2tQU0NxcXRyem5pb2tUcnpqbktpM0ZMR3B4N0NFNE9ROHdVX0xaeWpMN0l3RnBHNkdYWUFZSjRCM2RudFFKaTItclZodlJJcw?oc=5",
           "publishedAt": "2026-09-14T20:56:00Z",
           "displayedAt": "2026-09-14T20:56:00Z"
-        },
-        {
-          "title": "UFO Disclosure Odds & Alien Bets: Live 2026 Prices & Updates",
-          "source": "DeFi Rate",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNUJpazRmS1BkQ2tsb0dENHhYV09nYloyUTRGOEhkUm9pVVFGTkdzX0RLS3hnYjBSTUh4OF92LWd0LUZ3OTlqQnpyVE1SSkZhaWRSQVNPNGZBOGVuQVU2NzFXQ2Q1SVFkSWc?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNUJpazRmS1BkQ2tsb0dENHhYV09nYloyUTRGOEhkUm9pVVFGTkdzX0RLS3hnYjBSTUh4OF92LWd0LUZ3OTlqQnpyVE1SSkZhaWRSQVNPNGZBOGVuQVU2NzFXQ2Q1SVFkSWc?oc=5",
-          "publishedAt": "2026-09-14T11:44:39Z"
         }
       ],
       "clusterTitles": [
-        "Journalist says UAP waiver may allow disclosures on recovered non-human craft 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "Journalist says UAP waiver may allow disclosures on recovered non-human craft",
-        "Pentagon issues waiver to allow personnel to come forward on UAPs 2026 | JUSTICE - IUSTITIA.BG 2025",
-        "Pentagon issues waiver to allow personnel to come forward on UAPs",
-        "UFO Disclosure Odds & Alien Bets: Live 2026 Prices & Updates"
+        "Pentagon issues waiver to allow personnel to come forward on UAPs"
       ],
       "quality": 85,
       "qualityBreakdown": [
@@ -228,21 +193,10 @@
         "pentagon"
       ],
       "sourceQuality": 85,
-      "displayedAt": "2026-09-17T08:04:00Z",
-      "translation": {
-        "en": {
-          "title": "UFO Disclosure Odds & Alien Bets: Live 2026 Prices & Updates",
-          "summary": "The U.S. government has released five batches of UAP files through August 7 2026, totaling 162 documents, but none of them constitutes an official confirmation that extraterrestrial life or technology exists. Prediction markets on Kalshi, Polymarket, and Polymarket US currently price the probability of a definitive alien confirmation before 2027 at about 4.5 % overall, with the No outcome favored at 95.5 %.",
-          "sourceHash": "f51e2604035d6d88de56225c2238cfb36178047d",
-          "provider": "original"
-        },
-        "de": {
-          "title": "UFO-Offenlegungsquoten & Alien-Wetten: Live-Preise & Updates für 2026",
-          "summary": "Die US-Regierung hat bis zum 7. August 2026 fünf Chargen von UAP-Dateien mit insgesamt 162 Dokumenten veröffentlicht, aber keines davon stellt eine offizielle Bestätigung dar, dass außerirdisches Leben oder Technologie existiert. Die Prognosemärkte für Kalshi, Polymarket und Polymarket US bewerten die Wahrscheinlichkeit einer endgültigen Bestätigung durch Außerirdische vor 2027 derzeit mit insgesamt etwa 4,5 %, wobei das Ergebnis „Kein Ergebnis“ mit 95,5 % favorisiert wird.",
-          "sourceHash": "f51e2604035d6d88de56225c2238cfb36178047d",
-          "provider": "mymemory"
-        }
-      }
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-09-15T06:19:00Z"
     },
     {
       "id": "new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb",
@@ -250,7 +204,7 @@
       "source": "NewsNation",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaWg2YTRoc0FLRWJleGd2TVFoNkFBQXUwTTNVbWlaTjFQWjFwR013SmU1Mmh6dE52Z3NFOFVxOGgyQ1RDM0dLbnB1S3lKZm92aDNJUFQ3d1VqMTdKYlRNRUpwMnpjT1hZa0t6dEJPQTJBZUZjMDUxUXNmSE5ZZUlNdGNJaktfd0tXZW50N9IBkgFBVV95cUxNNjJUNGpWYUlWT3BLZ2IxN2gwUlRhcDFDUjhmRnkzY3NrODBlQzI1cHpmYUo5aGJ1aHNnV3hzWWtLbkxmbXIyaElGdXM0dmI4ZDVJbDFmcDN5V0syamVzV2hGUFU3S28xMGVYNHdWQmp4TFZfaEZZWGlzQ2Q4R3QxYWdLcUs4cGp0d2dzTG5vdkZpdw?oc=5",
       "date": "2026-09-14",
-      "publishedAt": "2026-09-15T06:12:39Z",
+      "publishedAt": "2026-09-16T07:33:22Z",
       "summary": "The Pentagon’s new waiver allows current and former service members, personnel and contractors with access to UAP‑related National Defense Information to speak openly about what they know, superseding nondisclosure and Special Access Program agreements. Avi Loeb, head of the UAP Science Advisory Council, said the information would still need to be disclosed behind closed doors, so some details could remain off‑limits. He noted the waiver could enable disclosures on recovered non‑human craft, but that depends on the nature of the information and that the government may still hold undisclosed evidence. The waiver is seen as a potential key step toward full UAP disclosure, though it is unclear what evidence the government actually possesses and what will remain classified.",
       "mentions": 1,
       "otherSources": [],
@@ -299,29 +253,68 @@
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files"
-      ],
+      "matchedTerms": [],
       "sourceQuality": 80,
-      "displayedAt": "2026-09-16T07:59:33Z",
-      "sourceDisplayedAt": "2026-09-16T07:59:33Z",
-      "retainedFromPreviousScan": true,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "translation": {
-        "en": {
-          "title": "New waivers may provide critical insight into UAP claims: Avi Loeb",
-          "summary": "The Pentagon’s new waiver allows current and former service members, personnel and contractors with access to UAP‑related National Defense Information to speak openly about what they know, superseding nondisclosure and Special Access Program agreements. Avi Loeb, head of the UAP Science Advisory Council, said the information would still need to be disclosed behind closed doors, so some details could remain off‑limits.",
-          "sourceHash": "01655fa1741b82d887d1be990e70066663320fcd",
-          "provider": "original"
+      "displayedAt": "2026-09-16T07:59:33Z"
+    },
+    {
+      "id": "journalist-says-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-2026-justice-iustitia-bg-2025",
+      "title": "Journalist says UAP waiver may allow disclosures on recovered non-human craft 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVmNsRWREemVHZzF1ZWp5Z1pRM2tERkl4Q1ZNQVZ4NFdUWF9xdjZ0eFdQZVp3WUxwS21qMS0wamU4U1dEWlZyRThEajlIUm56cHNTTGFrT0xSMDlfNGlnNzlTdlN3RVhtME1KSC1CM2ZteG9MMlNtUHRRelcwSzJvN09ENWhNQQ?oc=5",
+      "date": "2026-09-14",
+      "publishedAt": "2026-09-15T00:08:30Z",
+      "summary": "A journalist claims that a UAP waiver could allow disclosures about recovered non‑human craft. The journalist says the waiver would go to Stephen Miller’s task force, which is specifically addressing the issue. The article was published on 2026‑09‑15.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 80,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
-        "de": {
-          "title": "Neue Verzichtserklärungen können einen kritischen Einblick in UAP-Ansprüche geben: Avi Loeb",
-          "summary": "Die neue Verzichtserklärung des Pentagons ermöglicht es aktuellen und ehemaligen Dienstmitgliedern, Mitarbeitern und Auftragnehmern mit Zugang zu UAP-bezogenen Informationen zur Landesverteidigung, offen über ihr Wissen zu sprechen, und ersetzt Geheimhaltungs- und Special Access Program-Vereinbarungen. Avi Loeb, Leiter des wissenschaftlichen Beirats der UAP, sagte, dass die Informationen immer noch hinter verschlossenen Türen offengelegt werden müssten, so dass einige Details tabu bleiben könnten.",
-          "sourceHash": "01655fa1741b82d887d1be990e70066663320fcd",
-          "provider": "mymemory"
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DISCLOSURE, PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "DISCLOSURE, PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
         }
-      }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 80,
+      "displayedAt": "2026-09-17T15:24:43Z"
     },
     {
       "id": "pentagon-issues-new-waiver-to-expand-ufo-disclosure-efforts",
@@ -386,6 +379,68 @@
         "articleContentSummary": "missing"
       },
       "displayedAt": "2026-09-15T15:22:28Z"
+    },
+    {
+      "id": "ufo-disclosure-odds-alien-bets-live-2026-prices-updates",
+      "title": "UFO Disclosure Odds & Alien Bets: Live 2026 Prices & Updates",
+      "source": "DeFi Rate",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNUJpazRmS1BkQ2tsb0dENHhYV09nYloyUTRGOEhkUm9pVVFGTkdzX0RLS3hnYjBSTUh4OF92LWd0LUZ3OTlqQnpyVE1SSkZhaWRSQVNPNGZBOGVuQVU2NzFXQ2Q1SVFkSWc?oc=5",
+      "date": "2026-09-14",
+      "publishedAt": "2026-09-14T11:44:39Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 80,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DISCLOSURE, PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "DISCLOSURE, PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 80,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-09-17T15:24:43Z"
     },
     {
       "id": "sighting-14-000-ufo-sightings-in-germany-reporting-centre-in-hesse-investigates",
