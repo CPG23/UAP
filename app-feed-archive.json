@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-20T07:58:46Z",
+  "timestamp": "2026-09-20T14:24:05Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -253,10 +253,15 @@
         "disclosure"
       ],
       "sourceQuality": 61,
+      "displayedAt": "2026-09-15T06:19:00Z",
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "displayedAt": "2026-09-15T06:19:00Z"
+      "rssPublishedAt": "2026-09-15T06:19:00Z",
+      "rssDate": "2026-09-16",
+      "sourcePublishedAt": "2026-09-15T06:19:00Z",
+      "sourceDisplayedAt": "2026-09-15T06:19:00Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "we-are-not-alone-coalition-of-ufo-whistleblowers-call-on-trump-to-let-them-publicly-reveal-secrets",
@@ -374,7 +379,7 @@
       }
     },
     {
-      "id": "new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb",
+      "id": "program-new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb",
       "title": "New waivers may provide critical insight into UAP claims: Avi Loeb",
       "source": "NewsNation",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaWg2YTRoc0FLRWJleGd2TVFoNkFBQXUwTTNVbWlaTjFQWjFwR013SmU1Mmh6dE52Z3NFOFVxOGgyQ1RDM0dLbnB1S3lKZm92aDNJUFQ3d1VqMTdKYlRNRUpwMnpjT1hZa0t6dEJPQTJBZUZjMDUxUXNmSE5ZZUlNdGNJaktfd0tXZW50N9IBkgFBVV95cUxNNjJUNGpWYUlWT3BLZ2IxN2gwUlRhcDFDUjhmRnkzY3NrODBlQzI1cHpmYUo5aGJ1aHNnV3hzWWtLbkxmbXIyaElGdXM0dmI4ZDVJbDFmcDN5V0syamVzV2hGUFU3S28xMGVYNHdWQmp4TFZfaEZZWGlzQ2Q4R3QxYWdLcUs4cGp0d2dzTG5vdkZpdw?oc=5",

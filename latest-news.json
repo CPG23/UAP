@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-20T07:58:46Z",
+  "timestamp": "2026-09-20T14:24:05Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -9,8 +9,17 @@
       "date": "2026-09-16",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 14,
+      "mentions": 19,
       "otherSources": [
+        {
+          "title": "Department of War Publishes Sixth Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+          "source": "U.S. Department of War (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS0FkZ25aMzJXZEFfMFdlYkhLUmhVUkc0dlpLbkNvbGw0YWt5SHRkME9EWkxtMHNWU3JKTEdmSmpKTEV4VnpIT19KNVl2XzFORDNUMG9uVkF3Q2JLMFQ2MV9zbDdnX05ya2s4Vm5OTkJZV0Nna3gyZ3RYa2Nodi1sa2dwdzVqVTBBbkJHeUo2bzFyVDl0R21EU0V3ZUluRGFJQXlxemJWVFhMSU5rYkp3dnlManJNdmJsWFhmT0lBV0tqWnlaRUljUnF5S0RncGhfaUpQMw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS0FkZ25aMzJXZEFfMFdlYkhLUmhVUkc0dlpLbkNvbGw0YWt5SHRkME9EWkxtMHNWU3JKTEdmSmpKTEV4VnpIT19KNVl2XzFORDNUMG9uVkF3Q2JLMFQ2MV9zbDdnX05ya2s4Vm5OTkJZV0Nna3gyZ3RYa2Nodi1sa2dwdzVqVTBBbkJHeUo2bzFyVDl0R21EU0V3ZUluRGFJQXlxemJWVFhMSU5rYkp3dnlManJNdmJsWFhmT0lBV0tqWnlaRUljUnF5S0RncGhfaUpQMw?oc=5",
+          "publishedAt": "2026-09-18T12:29:29Z",
+          "displayedAt": "2026-09-20T14:24:05Z",
+          "isNew": true
+        },
         {
           "title": "US releases second batch of government declassified UFO files",
           "source": "Reuters",
@@ -18,6 +27,39 @@
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "publishedAt": "2026-05-22T07:00:00Z",
           "displayedAt": "2026-05-22T07:00:00Z"
+        },
+        {
+          "title": "6th batch of Pentagon UAP files: Air Force talk and more",
+          "source": "earthsky.org",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV21udmVvN08yLVdmQnQyRUlHX0ltMXJqeGVIUmdVLWVNdUd4RmpxdEdhVzlFQXBLZWdKQkFoS1ZXN2gwWDRVMDJSQUwzWDFBQnNWZjAzQnlSb2R6bzhNRUFuWVNjZHZrQnBwUnAySUlONl8wM2ZDekhzNHU3eDJNS2hqMA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV21udmVvN08yLVdmQnQyRUlHX0ltMXJqeGVIUmdVLWVNdUd4RmpxdEdhVzlFQXBLZWdKQkFoS1ZXN2gwWDRVMDJSQUwzWDFBQnNWZjAzQnlSb2R6bzhNRUFuWVNjZHZrQnBwUnAySUlONl8wM2ZDekhzNHU3eDJNS2hqMA?oc=5",
+          "publishedAt": "2026-09-20T11:29:45Z",
+          "displayedAt": "2026-09-20T14:24:05Z",
+          "rssPublishedAt": "2026-09-20T11:29:45Z",
+          "sourcePublishedAt": "2026-09-20T11:29:29Z",
+          "isNew": true
+        },
+        {
+          "title": "Pentagon releases another batch of UFO files, including documents from secretive government program",
+          "source": "WSAZ",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYUNHSzNvVVlMeVRKeEZmUExibkNqeWk4SlBQd0VPZXBWSXVHQVBtMUpFUjNuZTlMLXpicjJCNkpZUktyeE1uU3UxcGZyMVZpSFY3REpmYnVtV0pZWWFuNHJoZFZlR0ZDQndnck1NSUJ4ZjRnaUFrQXk4RlI2NEJrNko4NEFFYlJVVmlkcDM2d2JvMVFiQ2pISzJCNEw3TXhrb0ZKbWkyWUl0Y1FpN3BmdVdzel93RkFHblhPRzlNbDjSAdQBQVVfeXFMT0x6SnlzQy1NUmRuNUZVbDJ3c2tRVGZaM0c3QXlraW44TDhSSUVRelZ5Mk0xYWdsLWFXeU9qRlNMT1JFbE9ua2w1Z3hLdEhqdjQxekFjSlcxNzg3alFYNnY1UWNDZEtPRWtkU01zX3JmSTk5N0xmYkhlMWZ6Y0tCak5QeVpxMnJyc0Nid0xDT3VJOU9ZRVcwRktpcUJFM2tRVTU5UDNIUF9VNTl5bEE0ZXRuNmEwQXdNbDZUbHp0QWRIYUZGSUY4dWVhQ2p6Z09lQ0U5MzQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYUNHSzNvVVlMeVRKeEZmUExibkNqeWk4SlBQd0VPZXBWSXVHQVBtMUpFUjNuZTlMLXpicjJCNkpZUktyeE1uU3UxcGZyMVZpSFY3REpmYnVtV0pZWWFuNHJoZFZlR0ZDQndnck1NSUJ4ZjRnaUFrQXk4RlI2NEJrNko4NEFFYlJVVmlkcDM2d2JvMVFiQ2pISzJCNEw3TXhrb0ZKbWkyWUl0Y1FpN3BmdVdzel93RkFHblhPRzlNbDjSAdQBQVVfeXFMT0x6SnlzQy1NUmRuNUZVbDJ3c2tRVGZaM0c3QXlraW44TDhSSUVRelZ5Mk0xYWdsLWFXeU9qRlNMT1JFbE9ua2w1Z3hLdEhqdjQxekFjSlcxNzg3alFYNnY1UWNDZEtPRWtkU01zX3JmSTk5N0xmYkhlMWZ6Y0tCak5QeVpxMnJyc0Nid0xDT3VJOU9ZRVcwRktpcUJFM2tRVTU5UDNIUF9VNTl5bEE0ZXRuNmEwQXdNbDZUbHp0QWRIYUZGSUY4dWVhQ2p6Z09lQ0U5MzQ?oc=5",
+          "publishedAt": "2026-09-19T18:27:00Z",
+          "rssPublishedAt": "2026-09-19T18:27:00Z",
+          "sourcePublishedAt": "2026-09-19T18:27:26Z",
+          "displayedAt": "2026-09-20T14:24:05Z",
+          "isNew": true
+        },
+        {
+          "title": "Pentagon releases another batch of UFO files, including documents from secretive government program",
+          "source": "WDBJ7",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPd1IwR1Rna19JOU5TRXoxaktwaEdFWVM0WkVWMW5oeVNFMlYtZmthRVNNM1gzR1ZxcnllSHlhTk9pLW84NzdLbGFjWWFxODFRdzBZZEdLWkNuQ3doLWVzeGdMUEJsU3NtcmdwM0FWQlJsdU5SNGVINDk2cWVvUG1tbzZCaFMwOFNiTmlyRy01VDZxWWh4eHBzWWVYcGJWNUh0dDlBZk5ic3N2dXhMVkFyTGZpZ3V6SG9YNjRVZl9LTlZ6Ulh2STRlWEdR?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPd1IwR1Rna19JOU5TRXoxaktwaEdFWVM0WkVWMW5oeVNFMlYtZmthRVNNM1gzR1ZxcnllSHlhTk9pLW84NzdLbGFjWWFxODFRdzBZZEdLWkNuQ3doLWVzeGdMUEJsU3NtcmdwM0FWQlJsdU5SNGVINDk2cWVvUG1tbzZCaFMwOFNiTmlyRy01VDZxWWh4eHBzWWVYcGJWNUh0dDlBZk5ic3N2dXhMVkFyTGZpZ3V6SG9YNjRVZl9LTlZ6Ulh2STRlWEdR?oc=5",
+          "publishedAt": "2026-09-19T18:18:00Z",
+          "rssPublishedAt": "2026-09-19T18:18:00Z",
+          "sourcePublishedAt": "2026-09-19T18:18:14Z",
+          "displayedAt": "2026-09-20T14:24:05Z",
+          "isNew": true
         },
         {
           "title": "Watch: Pentagon Releases New Batch of UFO Files",
@@ -38,7 +80,17 @@
           "publishedAt": "2026-09-19T04:00:54Z",
           "rssPublishedAt": "2026-09-19T04:00:54Z",
           "sourcePublishedAt": "2026-09-19T03:58:17Z",
-          "displayedAt": "2026-09-19T07:37:47Z",
+          "displayedAt": "2026-09-19T04:00:54Z"
+        },
+        {
+          "title": "Pentagon releases new batch of UFO files",
+          "source": "Yahoo",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWnBLRWJERzVNSlYzTUJzc2NSNHE4ZlZ3QnBOTmpPWEdYYWZwOHFIdXNESUVhSFYzRFZ4eklTeS1oVXRLWWRDdXpiY05SMVlOZ1Z3Z2FCR3dGZW56TGh3YmdWRWJEN05EYjVvdkY0TFhrVFRFWk82T1lNdWd6Vjl1SXhuOVlFc25FS1E?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWnBLRWJERzVNSlYzTUJzc2NSNHE4ZlZ3QnBOTmpPWEdYYWZwOHFIdXNESUVhSFYzRFZ4eklTeS1oVXRLWWRDdXpiY05SMVlOZ1Z3Z2FCR3dGZW56TGh3YmdWRWJEN05EYjVvdkY0TFhrVFRFWk82T1lNdWd6Vjl1SXhuOVlFc25FS1E?oc=5",
+          "publishedAt": "2026-09-19T03:31:30Z",
+          "rssPublishedAt": "2026-09-19T03:31:30Z",
+          "sourcePublishedAt": "2026-09-19T03:31:30Z",
+          "displayedAt": "2026-09-20T14:24:05Z",
           "isNew": true
         },
         {
@@ -47,18 +99,15 @@
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWmphY0VOZFVTRVdocWFaOVBDVE83QTRISkJlN3c0cV9qZ1ctWmJqS05GVGZiajFXVGplN1JNdS1HblRrUnVBQUFLODlGWnRWYTRmMXQ5MkI1YTVXT1BYaTdDLXhpVldiQVAtR0puR210WXRpSnQ1MzJLN1FjZWlXQnNTS01RYllNT3RKSWcwR1FRLTE1R25yUHdmSHhHTUZldnduZTdDZ0FLR0JrcjluV25xMHpzdm1FQmNtelBRNA?oc=5",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWmphY0VOZFVTRVdocWFaOVBDVE83QTRISkJlN3c0cV9qZ1ctWmJqS05GVGZiajFXVGplN1JNdS1HblRrUnVBQUFLODlGWnRWYTRmMXQ5MkI1YTVXT1BYaTdDLXhpVldiQVAtR0puR210WXRpSnQ1MzJLN1FjZWlXQnNTS01RYllNT3RKSWcwR1FRLTE1R25yUHdmSHhHTUZldnduZTdDZ0FLR0JrcjluV25xMHpzdm1FQmNtelBRNA?oc=5",
           "publishedAt": "2026-09-19T03:31:00Z",
-          "displayedAt": "2026-09-19T07:37:47Z",
-          "isNew": true
+          "displayedAt": "2026-09-19T03:31:00Z"
         },
         {
-          "title": "Pentagon releases more UFO files, including documents on secretive military program",
-          "source": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GenVudndBakoyT05oTDltSnppZTlzM3lKeUJtNE5CVUN1WW5hYkRsLS1hN3FHTm1DNG9hdFJJMkFqSDhzRWNMam91eldxdDBvSzB6NGszeWJOV3hjY2F1aUNueHRzcElFRi1tTGRzZmRFUQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GenVudndBakoyT05oTDltSnppZTlzM3lKeUJtNE5CVUN1WW5hYkRsLS1hN3FHTm1DNG9hdFJJMkFqSDhzRWNMam91eldxdDBvSzB6NGszeWJOV3hjY2F1aUNueHRzcElFRi1tTGRzZmRFUQ?oc=5",
-          "publishedAt": "2026-09-18T15:13:00Z",
-          "rssPublishedAt": "2026-09-18T15:13:00Z",
-          "sourcePublishedAt": "2026-09-18T15:13:00Z",
-          "displayedAt": "2026-09-20T07:58:46Z",
+          "title": "Pentagon releases sixth batch of UFO files",
+          "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yUXZRWEVFaXhkNjA1MjJlOVRMUkZNQmdjNm5id25OLThoT1J0V3p3MWxYU0tUR2VZOUhIdF9BLWZKU0hkX1ZvTHIwb01VU21OR0dKUXcxS0Z1eFhKZnBQdGNjX0xSQVItRkJreHZoRGlpTDBYbXlubWtSX0VhQdIBgwFBVV95cUxPVzZxWjNHMFJVZzZHd2xzd1dacU5lMHI1c3NEdW9ZZ1NGUENPR2xNNE1ZY1N6UmRYYm9feUtqMTJ2ZXBjdlItSExwYW1BaGlERFU4UUdnRUgyUGlQYXFYemkxLUtmcldDWDlYQ3VuOThWcGp6YV9scG1fandYbVRlc3NpMA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yUXZRWEVFaXhkNjA1MjJlOVRMUkZNQmdjNm5id25OLThoT1J0V3p3MWxYU0tUR2VZOUhIdF9BLWZKU0hkX1ZvTHIwb01VU21OR0dKUXcxS0Z1eFhKZnBQdGNjX0xSQVItRkJreHZoRGlpTDBYbXlubWtSX0VhQdIBgwFBVV95cUxPVzZxWjNHMFJVZzZHd2xzd1dacU5lMHI1c3NEdW9ZZ1NGUENPR2xNNE1ZY1N6UmRYYm9feUtqMTJ2ZXBjdlItSExwYW1BaGlERFU4UUdnRUgyUGlQYXFYemkxLUtmcldDWDlYQ3VuOThWcGp6YV9scG1fandYbVRlc3NpMA?oc=5",
+          "publishedAt": "2026-09-18T19:59:58Z",
+          "displayedAt": "2026-09-20T14:24:05Z",
           "isNew": true
         },
         {
@@ -72,6 +121,16 @@
           "displayedAt": "2026-08-08T07:00:00Z"
         },
         {
+          "title": "Pentagon releases NEW batch of UFO files",
+          "source": "Fox News",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aS1pnN09Ha2lNSDZqeVVWSDhLRGpkcHdKOGlOWm9XVTd6YU1QNnM4Q0NNVXRkbmdWR0Zfbm1iNDZqZm0yZzNXXzlkY09ObDh0TS0tMFFn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aS1pnN09Ha2lNSDZqeVVWSDhLRGpkcHdKOGlOWm9XVTd6YU1QNnM4Q0NNVXRkbmdWR0Zfbm1iNDZqZm0yZzNXXzlkY09ObDh0TS0tMFFn?oc=5",
+          "publishedAt": "2026-08-08T07:00:00Z",
+          "rssPublishedAt": "2026-08-08T07:00:00Z",
+          "sourcePublishedAt": "2026-08-08T16:48:21Z",
+          "displayedAt": "2026-08-08T07:00:00Z"
+        },
+        {
           "title": "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
           "source": "LiveNOW from FOX",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
@@ -79,14 +138,6 @@
           "publishedAt": "2026-05-22T07:00:00Z",
           "rssPublishedAt": "2026-05-22T07:00:00Z",
           "sourcePublishedAt": "2026-05-22T15:16:21Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "New videos from Pentagon’s second batch of UFO files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
           "displayedAt": "2026-05-22T07:00:00Z"
         },
         {
@@ -133,16 +184,16 @@
         }
       ],
       "clusterTitles": [
+        "Department of War Publishes Sixth Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "US releases second batch of government declassified UFO files",
+        "6th batch of Pentagon UAP files: Air Force talk and more",
+        "Pentagon releases another batch of UFO files, including documents from secretive government program",
+        "Pentagon releases another batch of UFO files, including documents from secretive government program",
         "Watch: Pentagon Releases New Batch of UFO Files",
         "Pentagon Releases New Batch of UFO Files",
         "Pentagon releases new batch of UFO files",
-        "Pentagon releases more UFO files, including documents on secretive military program",
-        "Watch Pentagon releases NEW batch of UFO files - FNC",
-        "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
-        "New videos from Pentagon’s second batch of UFO files",
         "Pentagon releases new batch of UFO files",
-        "Highlights From 2nd Batch of Declassified UFO Files"
+        "Pentagon releases sixth batch of UFO files"
       ],
       "quality": 100,
       "qualityBreakdown": [
@@ -178,8 +229,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 65,
-          "text": "14 Quellen im aktuellen Feed."
+          "points": 90,
+          "text": "19 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -187,7 +238,7 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 100,
-      "displayedAt": "2026-09-20T07:58:46Z",
+      "displayedAt": "2026-09-20T14:24:05Z",
       "sourceDisplayedAt": "2026-09-15T15:22:28Z",
       "translation": {
         "en": {
@@ -397,13 +448,14 @@
       ],
       "sourceQuality": 61,
       "displayedAt": "2026-09-15T06:19:00Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
       "rssPublishedAt": "2026-09-15T06:19:00Z",
       "rssDate": "2026-09-16",
       "sourcePublishedAt": "2026-09-15T06:19:00Z",
-      "sourceDisplayedAt": "2026-09-15T06:19:00Z"
+      "sourceDisplayedAt": "2026-09-15T06:19:00Z",
+      "retainedFromPreviousScan": true,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      }
     },
     {
       "id": "the-evidence-around-uaps-is-getting-harder-to-ignore",
@@ -603,7 +655,7 @@
       }
     },
     {
-      "id": "new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb",
+      "id": "program-new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb",
       "title": "New waivers may provide critical insight into UAP claims: Avi Loeb",
       "source": "NewsNation",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaWg2YTRoc0FLRWJleGd2TVFoNkFBQXUwTTNVbWlaTjFQWjFwR013SmU1Mmh6dE52Z3NFOFVxOGgyQ1RDM0dLbnB1S3lKZm92aDNJUFQ3d1VqMTdKYlRNRUpwMnpjT1hZa0t6dEJPQTJBZUZjMDUxUXNmSE5ZZUlNdGNJaktfd0tXZW50N9IBkgFBVV95cUxNNjJUNGpWYUlWT3BLZ2IxN2gwUlRhcDFDUjhmRnkzY3NrODBlQzI1cHpmYUo5aGJ1aHNnV3hzWWtLbkxmbXIyaElGdXM0dmI4ZDVJbDFmcDN5V0syamVzV2hGUFU3S28xMGVYNHdWQmp4TFZfaEZZWGlzQ2Q4R3QxYWdLcUs4cGp0d2dzTG5vdkZpdw?oc=5",
@@ -717,6 +769,9 @@
       "matchedTerms": [],
       "sourceQuality": 56,
       "displayedAt": "2026-09-15T00:08:30Z",
+      "rssPublishedAt": "2026-09-15T00:08:30Z",
+      "rssDate": "2026-09-16",
+      "sourcePublishedAt": "2026-09-15T00:08:30Z",
       "sourceDisplayedAt": "2026-09-15T00:08:30Z",
       "translation": {
         "en": {
@@ -856,31 +911,25 @@
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
     "the-evidence-around-uaps-is-getting-harder-to-ignore": "png) 0:00 -10:15 Audio 3 Extraordinary claims require extraordinary evidence – such is the case on Non-Human Intelligence (NHI) and Unidentified Anomalous Phenomena (UAPs). I have had no personal firsthand experience with either, but there is evidence mounting, and it has been significant enough that it has captured my attention. I want to share the way I think about this — not as a believer, not as a skeptic, but as someone who takes data seriously enough to know when too much is happening not to pay attention. On August 31, 2026, at the Office of the Director of National Intelligence, the UAP Science Advisory Council was informed that the United States government has a ‘**preparedness plan in place’** should the existence of nonhuman intelligence (NHI) be confirmed.",
     "film-disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker": "Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! | Disclosure Day Movie News Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! Concept artist Daniel Baker provided a number of alternative designs for Disclosure Day's take on the classic Grey Alien and THEIR UFO/UAP occupants. One of the prominent concept artists who got to work on Steven Spielberg's Disclosure Day was Daniel Baker and recently he's taken to social media to debut some of the phenomenal artwork he provided for the film! Below are a few explorations he shared of the film's take on the classic Grey Alien – a slender humanoid extraterrestrial with large eyes, pale skin and a frail body.",
-    "new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb": "The Pentagon’s new waiver allows current and former service members, personnel and contractors with access to UAP‑related National Defense Information to speak openly about what they know, superseding nondisclosure and Special Access Program agreements. Avi Loeb, head of the UAP Science Advisory Council, said the information would still need to be disclosed behind closed doors, so some details could remain off‑limits. He noted the waiver could enable disclosures on recovered non‑human craft, but that depends on the nature of the information and that the government may still hold undisclosed evidence. The waiver is seen as a potential key step toward full UAP disclosure, though it is unclear what evidence the government actually possesses and what will remain classified.",
+    "program-new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb": "The Pentagon’s new waiver allows current and former service members, personnel and contractors with access to UAP‑related National Defense Information to speak openly about what they know, superseding nondisclosure and Special Access Program agreements. Avi Loeb, head of the UAP Science Advisory Council, said the information would still need to be disclosed behind closed doors, so some details could remain off‑limits. He noted the waiver could enable disclosures on recovered non‑human craft, but that depends on the nature of the information and that the government may still hold undisclosed evidence. The waiver is seen as a potential key step toward full UAP disclosure, though it is unclear what evidence the government actually possesses and what will remain classified.",
     "journalist-says-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-2026-justice-iustitia-bg-2025": "A journalist claims that a UAP waiver could allow disclosures about recovered non‑human craft. The journalist says the waiver would go to Stephen Miller’s task force, which is specifically addressing the issue. The article was published on 2026‑09‑15."
   },
   "notificationBatch": {
-    "timestamp": "2026-09-20T07:58:46Z",
+    "timestamp": "2026-09-20T14:24:05Z",
     "ids": [
-      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "we-are-not-alone-coalition-of-ufo-whistleblowers-call-on-trump-to-let-them-publicly-reveal-secrets"
+      "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo"
     ],
     "articles": [
       {
         "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
         "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "source": "U.S. Department of War (.gov)"
-      },
-      {
-        "id": "we-are-not-alone-coalition-of-ufo-whistleblowers-call-on-trump-to-let-them-publicly-reveal-secrets",
-        "title": "‘We are not alone:’ Coalition of UFO whistleblowers call on Trump to let them publicly reveal secrets",
-        "source": "New York Post"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 403,
-    "broadTopics": 178,
+    "broadArticles": 401,
+    "broadTopics": 185,
     "notificationArticles": 1,
     "notificationTopics": 1,
     "newNotificationTopics": 1,
@@ -891,7 +940,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 6,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 7,
+    "regroupedTopics": 8,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -943,15 +992,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 12,
+      "inputArticles": 11,
       "outputArticles": 10,
-      "preservedSourceSummaries": 4
+      "preservedSourceSummaries": 5
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
       "inputArticles": 10,
       "outputArticles": 10,
-      "missingSummaries": 6,
+      "missingSummaries": 5,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -969,15 +1018,15 @@
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 2,
-      "addedSources": 35,
+      "updatedTopics": 3,
+      "addedSources": 54,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 14,
-      "cleanedArticles": 0,
+      "sources": 15,
+      "cleanedArticles": 1,
       "removedDuplicateTopics": 1,
       "staleSummariesCleared": 0,
       "rejectedArticleSources": 0,
@@ -985,27 +1034,28 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 9,
-      "outputArticles": 9,
+      "inputArticles": 8,
+      "outputArticles": 8,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 9,
+      "inputArticles": 8,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 9,
-      "currentBeforeRestore": 8,
-      "restoredArticles": 2,
+      "archiveCandidates": 10,
+      "currentBeforeRestore": 7,
+      "restoredArticles": 3,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 1,
       "retentionDays": 14,
       "restoredTitles": [
+        "Pentagon creates legal waiver allowing personnel sworn to UFO secrecy to come forward",
         "The Evidence Around UAPs Is Getting Harder to Ignore",
         "The Wrap: AI Safeguards Stay Center Stage ; OPM Goes AI Shopping; UAP Whistleblowers Get Cover"
       ]
@@ -1019,14 +1069,14 @@
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 29,
-      "updatedSources": 11,
+      "checkedSources": 34,
+      "updatedSources": 15,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 10,
-      "newSources": 4
+      "newSources": 6
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -1036,9 +1086,9 @@
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 2,
-      "freshSources": 2,
-      "correctedOldSourceMarkers": 2,
+      "notifications": 1,
+      "freshSources": 6,
+      "correctedOldSourceMarkers": 1,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 38
     }
@@ -1086,7 +1136,7 @@
         "provider": "mymemory"
       }
     },
-    "new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb": {
+    "program-new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb": {
       "en": {
         "title": "New waivers may provide critical insight into UAP claims: Avi Loeb",
         "summary": "The Pentagon’s new waiver allows current and former service members, personnel and contractors with access to UAP‑related National Defense Information to speak openly about what they know, superseding nondisclosure and Special Access Program agreements. Avi Loeb, head of the UAP Science Advisory Council, said the information would still need to be disclosed behind closed doors, so some details could remain off‑limits.",
