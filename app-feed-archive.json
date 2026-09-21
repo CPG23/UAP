@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-21T08:19:17Z",
+  "timestamp": "2026-09-21T16:45:14Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -185,61 +185,6 @@
       "summaryStatus": {
         "articleContentSummary": "missing"
       }
-    },
-    {
-      "id": "sighting-drone-plane-or-ufo-videos-said-to-show-mystery-lights-over-tehran-go-viral-watch",
-      "title": "Drone, plane or UFO? Videos said to show mystery lights over Tehran go viral | Watch",
-      "source": "Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQTJFak1YWlpXQWE3eTBrYTRNd2EzSGhCOEFDc3NiOHR3aFp5Unhobnc5MzJLNzd6TE5XSFFtUDF0UktxMjZnRjZIWHNkdXZFRExIeG5iRVlaYzJBUzdxYlFWX3BkMUV5SGM3TzF2V1hBTFU5SVRWMVNKdzgtclVhZ1ZwNXI3azVkdUE1cUlHTGlaTFB5SVMwSGlpQmFyQW05dGZNdzdSYlBPQUxPMEdQUENxbFpOLU5aVDBnSTQ2ODdackxzY3dZMmF6Ync2MHpvamVN0gHYAUFVX3lxTFBLRlNSS1p0XzdaS3BxbFZ3SkFlY1NqZFozTWtqTWFvZzVVSkZaNTk1RENCcUZ1Sm1xd0sxRFR4NXBocTZsZ2NxSjFUSk14bWFKOUFvRGM0RjV2MWxiU3llTEI2SFd0ei1ickdXQzJQZHR0dUxHTVdKcl9VekhJbnRVZllFaFBLUW1KekVybTlvRHRfYm5XejlhWmJiZmVJU0NXSVh2WFoydnQ4N3ZObURQZG9FRzVFUHNTZjZ2T0hEVGRKYktlYVdFbnpTUm1IMEVaU0hDWTh5OA?oc=5",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-21T02:24:25Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 56,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "pentagon"
-      ],
-      "sourceQuality": 56,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "displayedAt": "2026-09-21T08:19:17Z"
     },
     {
       "id": "we-are-not-alone-coalition-of-ufo-whistleblowers-call-on-trump-to-let-them-publicly-reveal-secrets",
@@ -563,14 +508,43 @@
       ],
       "sourceQuality": 56,
       "displayedAt": "2026-09-14T08:10:38Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
       "rssPublishedAt": "2026-09-08T06:45:00Z",
       "rssDate": "2026-09-16",
       "sourcePublishedAt": "2026-08-09T06:45:37Z",
       "sourceDisplayedAt": "2026-09-14T08:10:38Z",
-      "retainedFromPreviousScan": true
+      "retainedFromPreviousScan": true,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      }
+    },
+    {
+      "id": "sighting-drone-or-ufo-unidentified-object-spotted-over-tehran-leaves-internet-searching-for-answers",
+      "title": "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers",
+      "source": "News18",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQXzVfNHJVWDdJdGQ4cDJZYmV3Tng5RXFfVDJ6bTRRalpSYkxWQ21Hd2U0STdBXzZBdFNUNng2MTBMUFJsZnJSNFZLQ0dFTlRpblZMWmROSzFlNGwtdlBGZi1fMVVSSS1wcjF4WTl3ejRPTTRhU3BFVFNkZUpXQVlMU2xfTk14SVlSaFl4eDBjVWttdXBLZVowbDR6YWFXenc1SjNxV0otOFV4djBKc0tMdnpxRVF5MHZHbGhqcTdnWFZqTUMyYWpUM3BSMUhZTlFvNmJIUtIB2gFBVV95cUxNUGFlY0RwNkJEM2dLWWQ4TFBIQWZ1X3FOb19MOHlYZVJtUXcyZGxnUlQ0T05ETU9Md0lwV0RDWmdzZ1NyUDRnMkc4LTEzZzIzQk1YRWk1Snk4TVlCNENBbTlJQ2VyVk9Ha3RyWEtRbm9IdmIwNF9pNVoxRFpSQlpkNFotdk9SajljMXB3R19sOXJZRXdJNU9oQ0xEN0duNTBGMW9EUjBkWldCVVZ2dlpWVmlZXzJtQm1JZXJ0UG5uemVYZmM1aGktWTRERk5xRjhGWDFuRl94Z21EUQ?oc=5",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21T08:45:03Z",
+      "summary": "In September 2026, videos of an illuminated object moving across Tehran’s night sky were shared on social media, showing bright lights but lacking detail on size, speed, or height. The footage has prompted speculation that the object could be a drone, an aircraft, or a UFO, but no reliable evidence confirms its origin or affiliation. Iranian authorities have not publicly identified the object, and the videos do not provide enough information to determine its exact location or nature. Some viewers suggested it might be a drone, a distant plane, or an LED‑lit kite, while others linked it to military activity amid heightened tensions with the US. The sighting coincides with the 50th anniversary of a 1976 Tehran incident involving an unidentified object that was investigated by fighter jets, but no evidence connects the two events.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "displayedAt": "2026-09-21T16:45:14Z"
     }
   ]
 }
