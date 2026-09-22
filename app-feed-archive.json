@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-21T16:45:14Z",
+  "timestamp": "2026-09-22T08:00:55Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -109,6 +109,61 @@
       ],
       "sourceQuality": 74,
       "displayedAt": "2026-09-16T07:59:33Z"
+    },
+    {
+      "id": "in-may-pastor-perry-stone-revealed-secret-government-meetings-with-leading-pastors-ahead-of-ufo-disclosure-what-have-we-learned-since",
+      "title": "In May, Pastor Perry Stone Revealed Secret Government Meetings With Leading Pastors Ahead of UFO Disclosure — What Have We Learned Since?",
+      "source": "USA Herald",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdjU5WTlsazByZ2R6MFotRERnTEJLM1BhYjVFaHpDTDhMdXRfLUF4U1M2aVgtdTZmcGQyQmZVdTR0OGZ0VjlHR3BVX3J4UWJ1M1N4eUxxQmNOd0w4TFRKa2psckZUdzhMUjZ1dlozRlR6cTJFMVpjazJ2NkFhbmFBWjg4NDVSb2NiaHJtTHhndEtBWXpQcXRacmhVUXI5MWItZGJiZUlJQ2YwVlNvcWoxY3BSTmlHaXBEQ0xGSUxiQ0s3VVlJNzI3dEhURVpuOGlJeDJNQ1lFZlJ1Y05yZ05NMDI0S1ZMVTB2VlVPSw?oc=5",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22T04:35:11Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 65,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "DISCLOSURE, GOVERNMENT als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 8,
+          "text": "DISCLOSURE, GOVERNMENT als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE",
+        "GOVERNMENT"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 65,
+      "displayedAt": "2026-09-22T08:00:55Z"
     },
     {
       "id": "pentagon-creates-legal-waiver-allowing-personnel-sworn-to-ufo-secrecy-to-come-forward",
@@ -458,66 +513,6 @@
       "displayedAt": "2026-09-15T15:22:28Z"
     },
     {
-      "id": "sighting-14-000-ufo-sightings-in-germany-reporting-centre-in-hesse-investigates",
-      "title": "14,000 UFO sightings in Germany: Reporting centre in Hesse investigates",
-      "source": "Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNExDM3lIRE5xUDQxTEFoZi1JQVdkV1JjcTlDd2thVEFmWEQtcHhNeXJ4TXZPX0dyTlZ0OFgtenk1RWktZk14NGM3UklVZHVMdlg3SGJuZl91dEpzVHVFNUFkc3diMW5PVy12Qm5wUXd0UzgyeGZaVVR4MFl4WWFDUVNVRDNmbXgyMzljTkx5MWlNMWpHMWRxUXppbE9OZk4xMUpoN3pDemxVVTVxZTc0?oc=5",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-08T06:45:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 56,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "alien",
-        "disclosure"
-      ],
-      "sourceQuality": 56,
-      "displayedAt": "2026-09-14T08:10:38Z",
-      "rssPublishedAt": "2026-09-08T06:45:00Z",
-      "rssDate": "2026-09-16",
-      "sourcePublishedAt": "2026-08-09T06:45:37Z",
-      "sourceDisplayedAt": "2026-09-14T08:10:38Z",
-      "retainedFromPreviousScan": true,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      }
-    },
-    {
       "id": "sighting-drone-or-ufo-unidentified-object-spotted-over-tehran-leaves-internet-searching-for-answers",
       "title": "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers",
       "source": "News18",
@@ -544,7 +539,21 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
-      "displayedAt": "2026-09-21T16:45:14Z"
+      "displayedAt": "2026-09-21T16:45:14Z",
+      "translation": {
+        "en": {
+          "title": "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers",
+          "summary": "In September 2026, videos of an illuminated object moving across Tehran’s night sky were shared on social media, showing bright lights but lacking detail on size, speed, or height. The footage has prompted speculation that the object could be a drone, an aircraft, or a UFO, but no reliable evidence confirms its origin or affiliation. Iranian authorities have not publicly identified the object, and the videos do not provide enough information to determine its exact location or nature.",
+          "sourceHash": "d1c05c75cbf47555a0fb381ee61d1751ec8435df",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Drohne oder UFO? Unbekanntes Objekt über Teheran gesichtet verlässt das Internet auf der Suche nach Antworten",
+          "summary": "Im September 2026 wurden in den sozialen Medien Videos eines beleuchteten Objekts geteilt, das sich über den Nachthimmel Teherans bewegte und helle Lichter zeigte, aber keine Details zu Größe, Geschwindigkeit oder Höhe enthielt. Das Filmmaterial hat zu Spekulationen geführt, dass es sich bei dem Objekt um eine Drohne, ein Flugzeug oder ein UFO handeln könnte, aber es gibt keine verlässlichen Beweise für seine Herkunft oder Zugehörigkeit. Die iranischen Behörden haben das Objekt nicht öffentlich identifiziert und die Videos liefern nicht genügend Informationen, um seinen genauen Standort oder seine Natur zu bestimmen.",
+          "sourceHash": "d1c05c75cbf47555a0fb381ee61d1751ec8435df",
+          "provider": "google"
+        }
+      }
     }
   ]
 }
