@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-22T08:00:55Z",
+  "timestamp": "2026-09-22T15:19:05Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -539,21 +539,7 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
-      "displayedAt": "2026-09-21T16:45:14Z",
-      "translation": {
-        "en": {
-          "title": "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers",
-          "summary": "In September 2026, videos of an illuminated object moving across Tehran’s night sky were shared on social media, showing bright lights but lacking detail on size, speed, or height. The footage has prompted speculation that the object could be a drone, an aircraft, or a UFO, but no reliable evidence confirms its origin or affiliation. Iranian authorities have not publicly identified the object, and the videos do not provide enough information to determine its exact location or nature.",
-          "sourceHash": "d1c05c75cbf47555a0fb381ee61d1751ec8435df",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Drohne oder UFO? Unbekanntes Objekt über Teheran gesichtet verlässt das Internet auf der Suche nach Antworten",
-          "summary": "Im September 2026 wurden in den sozialen Medien Videos eines beleuchteten Objekts geteilt, das sich über den Nachthimmel Teherans bewegte und helle Lichter zeigte, aber keine Details zu Größe, Geschwindigkeit oder Höhe enthielt. Das Filmmaterial hat zu Spekulationen geführt, dass es sich bei dem Objekt um eine Drohne, ein Flugzeug oder ein UFO handeln könnte, aber es gibt keine verlässlichen Beweise für seine Herkunft oder Zugehörigkeit. Die iranischen Behörden haben das Objekt nicht öffentlich identifiziert und die Videos liefern nicht genügend Informationen, um seinen genauen Standort oder seine Natur zu bestimmen.",
-          "sourceHash": "d1c05c75cbf47555a0fb381ee61d1751ec8435df",
-          "provider": "google"
-        }
-      }
+      "displayedAt": "2026-09-22T15:19:05Z"
     }
   ]
 }
