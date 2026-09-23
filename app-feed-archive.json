@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-23T08:03:55Z",
+  "timestamp": "2026-09-23T15:15:45Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -117,7 +117,7 @@
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdjU5WTlsazByZ2R6MFotRERnTEJLM1BhYjVFaHpDTDhMdXRfLUF4U1M2aVgtdTZmcGQyQmZVdTR0OGZ0VjlHR3BVX3J4UWJ1M1N4eUxxQmNOd0w4TFRKa2psckZUdzhMUjZ1dlozRlR6cTJFMVpjazJ2NkFhbmFBWjg4NDVSb2NiaHJtTHhndEtBWXpQcXRacmhVUXI5MWItZGJiZUlJQ2YwVlNvcWoxY3BSTmlHaXBEQ0xGSUxiQ0s3VVlJNzI3dEhURVpuOGlJeDJNQ1lFZlJ1Y05yZ05NMDI0S1ZMVTB2VlVPSw?oc=5",
       "date": "2026-09-22",
       "publishedAt": "2026-09-22T04:35:11Z",
-      "summary": "",
+      "summary": "Austin ICE Shooting Raises Questions Over… AUSTIN, Texas — A delivery driver wounded by an Immigration… By – Michallie HarrisonGilbert Goons Defendant Arrested Again for… A Gilbert Goons defendant awaiting trial in the 2023 death… By – Jackie AllenEgyptian Archeologists Discover Rare Rock-Cut Tombs… Egyptian Archeologists have uncovered a group of rare rock-cut tombs… By – Jackie AllenTikTok to Pay $400 Million to… TikTok and its parent company, ByteDance, have agreed to pay… By – Jackie AllenCaleb Williams Injury Ends Bears QB’s… Some plays end with a first down. This one ended… By – Rachel MooreTrump Announces AI Force as Debate… President Donald Trump says he is creating an “AI Force”… By – Jackie AllenTrump Announces AI Force as Debate… President Donald Trump says he is creating an “AI Force”… By – Jackie AllenElon Musk $1M McLaren Totaling Reveals… Landing rockets on floating platforms in the middle of the… By – Tyler BrooksCalifornia Home Insurance Crisis Creeps Into… For years, California’s insurance troubles seemed to live mostly in… By – Tyler BrooksNew Jersey Restaurant Crash Kills One,… A patio full of diners enjoying a Saturday brunch is… By – Tyler BrooksGeorgetown Hunting Incident Turns Fatal After… An open field can hold very different meanings for the… By – Tyler BrooksSaquon Barkley Injury Sidelines Eagles Star… Football fortunes can flip on a single play — and… By – Tyler BrooksMeta Connect 2026: AI Glasses, Mixed… Meta Connect 2026 is set to bring CEO Mark Zuckerberg… By – Jackie AllenStrait of Hormuz Oil Shipments Reach… Oil and liquefied natural gas shipments through the Strait of… By – Jackie AllenKelsey Mitchell Breaks WNBA Scoring Record… Kelsey Mitchell made WNBA history Friday night, scoring 33 points… By – Jackie AllenCharged with Murder: Ohio Father Indicted… An Ohio father has been charged with murder in connection… By – Jackie AllenIranian Government Holds Rally as War… The Iranian Government organized its allegedly largest rally since the… By – Jackie AllenBusinesses Face Rising ADA Lawsuits Over… Key Takeaways Website-accessibility litigation is surging, with 432 new digital… By – Samuel LopezTexas Shuts Down Houston-Area ‘Birth Tourism’… Key Takeaways Texas Attorney General Ken Paxton announced that De’Ai… By – Samuel LopezAcquitted Michigan Brothers Sue FBI Agents… Factual Background Michael and William Null, acquitted in 2023 of… By – Samuel LopezBusinesses Face Rising ADA Lawsuits Over… Key Takeaways Website-accessibility litigation is surging, with 432 new digital… By – Samuel LopezMaurene Comey Wants Her Job Back… Key Takeaways Maurene Comey is challenging DOJ’s argument that Assistant… By – Samuel LopezAgreement Entered Into With Denmark And… Key Takeaways The Trump administration announced a new Greenland agreement… By – Samuel LopezDiddy’s Lawyers Seek To Exit $100… Key Takeaways Attorneys representing Sean “Diddy” Combs have asked a… By – Samuel LopezDC Productions Narrow as HBO Chief… DC Productions are entering a more selective phase, according to… By – Jackie AllenPrincess Diana Wanted to End Engagement… Princess Diana wanted to call off her engagement to then-Prince… By – Jackie AllenPentagon Drops 6th Tranche of UAP… Key Takeaways Among the most extraordinary documents in the Pentagon’s… By – Samuel LopezPentagon Recognized Religions List Sparks Debate… A revised Pentagon list of recognized religions in the U.",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
@@ -163,10 +163,25 @@
       "summarySource": "source_page",
       "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-09-22T08:00:55Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing",
-        "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
-      }
+      "rssPublishedAt": "2026-09-22T04:35:11Z",
+      "rssDate": "2026-09-22",
+      "sourcePublishedAt": "2026-09-22T04:32:13Z",
+      "sourceDisplayedAt": "2026-09-22T08:00:55Z",
+      "translation": {
+        "en": {
+          "title": "In May, Pastor Perry Stone Revealed Secret Government Meetings With Leading Pastors Ahead of UFO Disclosure — What Have We Learned Since?",
+          "summary": "Austin ICE Shooting Raises Questions Over… AUSTIN, Texas — A delivery driver wounded by an Immigration… By – Michallie HarrisonGilbert Goons Defendant Arrested Again for… A Gilbert Goons defendant awaiting trial in the 2023 death… By – Jackie AllenEgyptian Archeologists Discover Rare Rock-Cut Tombs… Egyptian Archeologists have uncovered a group of rare rock-cut tombs… By – Jackie AllenTikTok to Pay $400 Million to… TikTok and its parent company, ByteDance, have agreed to pay… By – Jackie AllenCaleb Williams Injury Ends Bears QB’s… Some plays end with a first down. This one ended… By – Rachel MooreTrump Announces AI Force as Debate… President Donald Trump says he is creating an “AI Force”… By – Jackie AllenTrump Announces AI Force as Debate… President Donald Trump says he is creating an “AI Force”… By – Jackie AllenElon Musk $1M McLaren Totaling Reveals… Landing rockets on floating platforms in the middle of the… By – Tyler BrooksCalifornia Home Insurance Crisis Creeps Into… For years, California’s insurance troubles seemed to live mostly in… By – Tyler BrooksNew Jersey Restaurant Crash Kills One,… A patio full of diners enjoying a Saturday brunch is… By – Tyler BrooksGeorgetown Hunting Incident Turns Fatal After… An open field can hold very different meanings for the… By – Tyler BrooksSaquon Barkley Injury Sidelines Eagles Star… Football fortunes can flip on a single play — and… By – Tyler BrooksMeta Connect 2026: AI Glasses, Mixed… Meta Connect 2026 is set to bring CEO Mark Zuckerberg… By – Jackie AllenStrait of Hormuz Oil Shipments Reach… Oil and liquefied natural gas shipments through the Strait of… By – Jackie AllenKelsey Mitchell Breaks WNBA Scoring Record… Kelsey Mitchell made WNBA history Friday night, scoring 33 points… By – Jackie AllenCharged with Murder: Ohio Father Indicted… An Ohio father has been charged with murder in connection… By – Jackie AllenIranian Government Holds Rally as War… The Iranian Government organized its allegedly largest rally since the… By – Jackie AllenBusinesses Face Rising ADA Lawsuits Over… Key Takeaways Website-accessibility litigation is surging, with 432 new digital… By – Samuel LopezTexas Shuts Down Houston-Area ‘Birth Tourism’… Key Takeaways Texas Attorney General Ken Paxton announced that De’Ai… By – Samuel LopezAcquitted Michigan Brothers Sue FBI Agents… Factual Background Michael and William Null, acquitted in 2023 of… By – Samuel LopezBusinesses Face Rising ADA Lawsuits Over… Key Takeaways Website-accessibility litigation is surging, with 432 new digital… By – Samuel LopezMaurene Comey Wants Her Job Back… Key Takeaways Maurene Comey is challenging DOJ’s argument that Assistant… By – Samuel LopezAgreement Entered Into With Denmark And… Key Takeaways The Trump administration announced a new Greenland agreement… By – Samuel LopezDiddy’s Lawyers Seek To Exit $100… Key Takeaways Attorneys representing Sean “Diddy” Combs have asked a… By – Samuel LopezDC Productions Narrow as HBO Chief… DC Productions are entering a more selective phase, according to… By – Jackie AllenPrincess Diana Wanted to End Engagement… Princess Diana wanted to call off her engagement to then-Prince… By – Jackie AllenPentagon Drops 6th Tranche of UAP… Key Takeaways Among the most extraordinary documents in the Pentagon’s… By – Samuel LopezPentagon Recognized Religions List Sparks Debate… A revised Pentagon list of recognized religions in the U.",
+          "sourceHash": "219a3fec921897cc2d6931168cdcc23735a6fd94",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Im Mai enthüllte Pastor Perry Stone geheime Regierungstreffen mit führenden Pastoren im Vorfeld der UFO-Enthüllung – was haben wir seitdem gelernt?",
+          "summary": "Schießerei im ICE in Austin wirft Fragen auf über … AUSTIN, Texas – Ein Lieferfahrer wurde von einer Einwanderungsbehörde verwundet … Von – Michallie Harrison Angeklagter von Gilbert Goons wurde erneut verhaftet wegen … Ein Angeklagter von Gilbert Goons wartet auf seinen Prozess im Todesfall von 2023 … Von – Jackie Allen Ägyptische Archäologen entdecken seltene Felsengräber … Ägyptische Archäologen haben eine Gruppe seltener Felsengräber entdeckt … Von – Jackie AllenTikTok zahlt 400 Millionen US-Dollar an … TikTok und seine Muttergesellschaft ByteDance haben sich bereit erklärt, … zu zahlen. Von – Jackie AllenCaleb Williams Verletzung endet Bears QBs … Einige Spiele enden mit einem First Down. Dieser endete … Von – Rachel MooreTrump kündigt KI-Streitkräfte als Debatte an … Präsident Donald Trump sagt, dass er eine „KI-Streitmacht“ aufbaut … Von – Jackie AllenTrump kündigt KI-Streitkräfte als Debatte an … Von – Jackie AllenElon Musk McLaren-Gesamtsumme im Wert von 1 Mio. US-Dollar enthüllt … Landung von Raketen auf schwimmenden Plattformen mitten in der … Von – Tyler BrooksDie kalifornische Hausversicherungskrise schleicht sich ein in … Für Jahrelang schienen Kaliforniens Versicherungsprobleme hauptsächlich in … Von – Tyler BrooksNew Jersey Restaurant Crash Kills One, … Eine Terrasse voller Gäste, die einen Samstagsbrunch genießen, ist … Von – Tyler BrooksGeorgetown Ein Jagdvorfall wird tödlich, nachdem… Ein offenes Feld kann sehr unterschiedliche Bedeutungen für die… Von – Tyler BrooksSaquon Barkley Injury Sidelines Eagles Star… Das Fußballgeschick kann sich in einem einzigen Spiel ändern – und… Von – Tyler BrooksMeta Connect 2026: KI-Brille, gemischt… Meta Connect 2026 soll CEO Mark Zuckerberg bringen… Von – Jackie AllenÖllieferungen in der Straße von Hormuz erreichen… Öl- und Flüssigerdgaslieferungen durch die Meerenge von… Von – Jackie AllenKelsey Mitchell bricht WNBA-Score-Rekord… Kelsey Mitchell hat am Freitagabend mit 33 Punkten WNBA-Geschichte geschrieben… Von – Jackie AllenWegen Mordes angeklagt: Vater aus Ohio angeklagt… Ein Vater aus Ohio wurde im Zusammenhang mit Mord angeklagt… Von – Jackie AllenIranische Regierung hält Kundgebung als Krieg ab… Die iranische Regierung organisierte ihre angeblich größte Kundgebung seit dem… Von – Jackie AllenUnternehmen stehen vor steigenden ADA-Klagen wegen… Wichtige Erkenntnisse Der Rechtsstreit um Website-Barrierefreiheit nimmt zu, mit 432 neuen digitalen… Von – Samuel LopezTexas schließt „Geburtstourismus“ im Raum Houston… Wichtige Erkenntnisse Der Generalstaatsanwalt von Texas, Ken Paxton, gab bekannt, dass De’Ai… Von – Samuel LopezFreigesprochen Michigan Brothers verklagen FBI-Agenten… Sachverhalt Michael und William Null, freigesprochen im Jahr 2023 von… Von – Samuel LopezUnternehmen stehen vor steigenden ADA-Klagen wegen… Wichtige Erkenntnisse Rechtsstreitigkeiten im Bereich der Website-Zugänglichkeit nehmen zu, mit 432 neuen digitalen… Von – Samuel LopezMaurene Comey will ihren Job zurück… Wichtige Erkenntnisse Maurene Comey stellt das Argument des DOJ in Frage, dass Assistant… Von – Samuel LopezVereinbarung mit Dänemark geschlossen wurde und… Wichtige Erkenntnisse Die Trump-Administration kündigte ein neues Grönland-Abkommen an… Von – Samuel LopezDiddys Anwälte streben Abzug aus 100 US-Dollar an … Wichtige Erkenntnisse Anwälte, die Sean „Diddy“ Combs vertreten, haben eine … Von – Samuel LopezDC Productions Narrow als HBO-Chef … DC Productions tritt in eine selektivere Phase ein, laut … Von – Jackie AllenPrinzessin Diana wollte ihre Verlobung beenden … Prinzessin Diana wollte ihre Verlobung mit dem damaligen Prinzen kündigen … Von – Jackie AllenPentagon fällt auf den 6. Platz Tranche von UAP… Wichtige Erkenntnisse Zu den außergewöhnlichsten Dokumenten im Pentagon… Von – Samuel LopezDie Liste der anerkannten Religionen des Pentagon löst eine Debatte aus… Eine überarbeitete Pentagon-Liste der anerkannten Religionen in den USA.",
+          "sourceHash": "219a3fec921897cc2d6931168cdcc23735a6fd94",
+          "provider": "google"
+        }
+      },
+      "retainedFromPreviousScan": true
     },
     {
       "id": "pentagon-creates-legal-waiver-allowing-personnel-sworn-to-ufo-secrecy-to-come-forward",
@@ -461,66 +476,6 @@
       "displayedAt": "2026-09-15T00:08:30Z"
     },
     {
-      "id": "pentagon-issues-new-waiver-to-expand-ufo-disclosure-efforts",
-      "title": "Pentagon Issues New Waiver to Expand UFO Disclosure Efforts",
-      "source": "Newsweek",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNelZKSG1uWjdDTFN3Ym1TcFNDdWUyeWhvQjBsUmFnWFR2cDF2UmRUa0o1S2NZYnB0ckpyLVdhODdTRjdlMHhnOURUN3ZZdklCQnM0Nm5aMnNJbDlOYVVqMHFFZnA0UkkzbTR1VkZtMU5TUDJBTjRjQU5fcDdDaUVsSWxXVGxyUkVhbDJyeXc1cw?oc=5",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-14T20:56:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 56,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "alien",
-        "disclosure"
-      ],
-      "sourceQuality": 56,
-      "displayedAt": "2026-09-15T15:22:28Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "rssPublishedAt": "2026-09-14T20:56:00Z",
-      "rssDate": "2026-09-16",
-      "sourcePublishedAt": "2026-09-14T20:56:49Z",
-      "sourceDisplayedAt": "2026-09-15T15:22:28Z",
-      "retainedFromPreviousScan": true
-    },
-    {
       "id": "sighting-drone-or-ufo-unidentified-object-spotted-over-tehran-leaves-internet-searching-for-answers",
       "title": "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers",
       "source": "News18",
@@ -547,6 +502,8 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-09-21T16:45:14Z",
       "translation": {
         "en": {
