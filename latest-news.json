@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-24T07:53:57Z",
+  "timestamp": "2026-09-24T15:37:30Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -8,8 +8,8 @@
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb0RFLTJRTjE2SG4yNkdMSmZsN2ZPMjZweFBESVpyNjhfTUF6TmN1cnJKZTlkV0R1cEJGSWZKSHRZMHlqRzk2Nkg5MS1VM2Y2U1NtT3dGSlRhMGJuYVpYbFdBX3VMNm5UeFVtdHJwemZGNFJiLTI0NXlNNU9PM0NsTmJtVnN3OGhkdFF2TG11ekxBcXJxWHFDcllPVkg2b3VnQkw3OEhRbHVQakVZdm1BOGJiODc5ODY1OFhxYkRpQlFxWTZyeHRBcmdtSm03OV9NRlkw?oc=5",
       "date": "2026-09-16",
       "publishedAt": "2026-05-22T07:00:00Z",
-      "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 17,
+      "summary": "The Defense Department has issued a waiver that allows current and former personnel with access to UAP‑related National Defense Information to share information with officials in the Presidential Unsealing and Reporting System for UAP Encounters. The waiver supersedes any NDAs or Special Access Program Indoctrination Agreements and is intended to create a pipeline for review and possible declassification of documents through the PURSUE program. The move comes amid concerns that fear of legal liability or loss of security clearance has kept potential whistleblowers silent, and several members of Congress have urged the White House to protect UFO whistleblowers and waive NDAs. The waiver follows whistleblower David Grusch’s claims that the Pentagon has operated a secret UFO‑retrieval program, which prompted multiple congressional hearings and bipartisan calls for UAP disclosure. While the Pentagon has released several batches of UAP files under the PURSUE program, some lawmakers worry that the agency is using private contractors to avoid disclosing certain information.",
+      "mentions": 19,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -65,8 +65,7 @@
           "publishedAt": "2026-09-18T22:22:00Z",
           "rssPublishedAt": "2026-09-18T22:22:00Z",
           "sourcePublishedAt": "2026-09-18T22:22:00Z",
-          "displayedAt": "2026-09-23T08:03:55Z",
-          "isNew": true
+          "displayedAt": "2026-09-18T22:22:00Z"
         },
         {
           "title": "Pentagon releases sixth batch of UFO files",
@@ -147,6 +146,24 @@
           "displayedAt": "2026-05-19T07:00:00Z"
         },
         {
+          "title": "Pentagon issues waiver to allow personnel to come forward on UAPs",
+          "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94Y3BGbnowZmVBZFUtY21wbDBoeV82MVF2SEZNbWVPLUR1b2hMT2luY3oza2RseFVPZkUwUWV6Tml4OHEzSXVLenJaWGlYcDJ3SVpVNE9TUWNBc3BVLURTNVVqUkZXYkhuRmwwMFdB0gFzQVVfeXFMT2NTYXNoR1A3c0F4MU1tSzhJclRJRkR4SFpaUm5jUllMWFVmb2tQU0NxcXRyem5pb2tUcnpqbktpM0ZMR3B4N0NFNE9ROHdVX0xaeWpMN0l3RnBHNkdYWUFZSjRCM2RudFFKaTItclZodlJJcw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94Y3BGbnowZmVBZFUtY21wbDBoeV82MVF2SEZNbWVPLUR1b2hMT2luY3oza2RseFVPZkUwUWV6Tml4OHEzSXVLenJaWGlYcDJ3SVpVNE9TUWNBc3BVLURTNVVqUkZXYkhuRmwwMFdB0gFzQVVfeXFMT2NTYXNoR1A3c0F4MU1tSzhJclRJRkR4SFpaUm5jUllMWFVmb2tQU0NxcXRyem5pb2tUcnpqbktpM0ZMR3B4N0NFNE9ROHdVX0xaeWpMN0l3RnBHNkdYWUFZSjRCM2RudFFKaTItclZodlJJcw?oc=5",
+          "publishedAt": "2026-09-14T20:56:00Z",
+          "displayedAt": "2026-09-14T20:56:00Z"
+        },
+        {
+          "title": "Pentagon creates legal waiver allowing personnel sworn to UFO secrecy to come forward",
+          "source": "New York Post",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZHpZRHl3cjFsNHhxWjZndk9WQjRuS1VMZEtlMm10OGdnRzJUbmVrMER4Sm4ySGJUSkVGaWx5MzIxN1RXV3FodDVDWUd5TDFNVloyQ0hZbUhsam5xNzFLMkZiQU9wR2JCeVlsMGZXQWZweUZfTHZ5cjZndE1SeUpaYXJ5anNxTEZjSmpwa2R0ZFkwU1dSTmtGYUhlVlphS3llMTRkVUdIQ2RLejRab2lDSm5PZS16eEdfbXdsSEkyaE8wZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZHpZRHl3cjFsNHhxWjZndk9WQjRuS1VMZEtlMm10OGdnRzJUbmVrMER4Sm4ySGJUSkVGaWx5MzIxN1RXV3FodDVDWUd5TDFNVloyQ0hZbUhsam5xNzFLMkZiQU9wR2JCeVlsMGZXQWZweUZfTHZ5cjZndE1SeUpaYXJ5anNxTEZjSmpwa2R0ZFkwU1dSTmtGYUhlVlphS3llMTRkVUdIQ2RLejRab2lDSm5PZS16eEdfbXdsSEkyaE8wZw?oc=5",
+          "publishedAt": "2026-09-15T06:19:00Z",
+          "rssPublishedAt": "2026-09-15T06:19:00Z",
+          "sourcePublishedAt": "2026-09-15T06:19:00Z",
+          "displayedAt": "2026-09-15T06:19:00Z"
+        },
+        {
           "title": "Department of War Issues Legal Waiver to Authorize Unidentified Anomalous Phenomena (UAP)",
           "source": "U.S. Department of War (.gov)",
           "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOd3JMZWxBQ1FLdHlodjZEQW9XN3M4cmwxUGNDT0dhbkJrN3JHQ3BXeS1kMlRjNUdKY3RZUEs2THA0UndNeGVyS0tqVG9CT1hPejRwcjUtS0VybDdXdENVRFdpMV94RTZxVGwyeFdNOGxpWXExTzJ3ZlVxeVROTXZoRTlKVE44NTMxWDFteXo0RS1EWUQzdnFEckdKQTJqdzdLQ3VocEJlV0s1LTR3ZHlZNnNrOUFPQ2N4RG1ldTJPZmNGZk03NVdMNGo4XzJVWEduTVE4YQ?oc=5",
@@ -201,8 +218,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 80,
-          "text": "17 Quellen im aktuellen Feed."
+          "points": 90,
+          "text": "19 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -211,21 +228,21 @@
       ],
       "sourceQuality": 100,
       "displayedAt": "2026-09-23T15:15:45Z",
-      "sourceDisplayedAt": "2026-09-15T15:22:28Z",
       "translation": {
         "en": {
           "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+          "summary": "The Defense Department has issued a waiver that allows current and former personnel with access to UAP‑related National Defense Information to share information with officials in the Presidential Unsealing and Reporting System for UAP Encounters. The waiver supersedes any NDAs or Special Access Program Indoctrination Agreements and is intended to create a pipeline for review and possible declassification of documents through the PURSUE program.",
+          "sourceHash": "4270c07e2ac4457c7414d665f89d492b609d8cee",
           "provider": "original"
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+          "summary": "Das Verteidigungsministerium hat eine Ausnahmegenehmigung erlassen, die es aktuellen und ehemaligen Mitarbeitern mit Zugang zu UAP-bezogenen nationalen Verteidigungsinformationen ermöglicht, Informationen mit Beamten im Presidential Unsealing and Reporting System für UAP-Begegnungen auszutauschen. Der Verzicht ersetzt alle Geheimhaltungsvereinbarungen oder Indoktrinationsvereinbarungen für Sonderzugangsprogramme und soll eine Pipeline für die Überprüfung und mögliche Freigabe von Dokumenten durch das PURSUE-Programm schaffen.",
+          "sourceHash": "4270c07e2ac4457c7414d665f89d492b609d8cee",
           "provider": "google"
         }
-      }
+      },
+      "sourceDisplayedAt": "2026-09-15T15:22:28Z"
     },
     {
       "id": "film-disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker",
@@ -354,15 +371,24 @@
       }
     },
     {
-      "id": "program-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-journalist-says",
-      "title": "UAP waiver may allow disclosures on recovered non-human craft, journalist says",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSS1IdG15NG5ZNDAtdURUa2xPcU1ES2trdlZ0cVVSdG9CT0hwVzM2NDBpcno5Y2FTOVJMTnpNS3RoclpDUFBUZmdBdlhCanBndDE2MGZBT1NxY0lDSTh0dEJMMHg5Nm1CbVo0UGVNRTZWRVVfcFMySFg0TDdmRlVNNHlaVXBZSmZJR0dQNmo1QnE4d9IBlwFBVV95cUxOaFNldk5wcDN0eHdFZmdqUFNUSTR5eDh1RE0zVXF0bXhoMEpRWmFWc2NOSXB4a3VCOGFlajkxX3k0SXk0bXRISjNNamhlTE5hc0t1dkdaUVdRLVhOZVVpZjNCOWtpN1BKdlZjYlFJb0lMMkZnX2VJSE9IN29QUVAyQzNjTERJMHJJYXh1dTMxbmY2NnZGZmVF?oc=5",
+      "id": "journalist-says-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-2026-justice-iustitia-bg-2025",
+      "title": "Journalist says UAP waiver may allow disclosures on recovered non-human craft 2026 | JUSTICE - IUSTITIA.BG 2025",
+      "source": "iustitia.bg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVmNsRWREemVHZzF1ZWp5Z1pRM2tERkl4Q1ZNQVZ4NFdUWF9xdjZ0eFdQZVp3WUxwS21qMS0wamU4U1dEWlZyRThEajlIUm56cHNTTGFrT0xSMDlfNGlnNzlTdlN3RVhtME1KSC1CM2ZteG9MMlNtUHRRelcwSzJvN09ENWhNQQ?oc=5",
       "date": "2026-09-16",
-      "publishedAt": "2026-09-15T07:00:00Z",
+      "publishedAt": "2026-09-15T00:08:30Z",
       "summary": "The Pentagon’s new waiver allows current and former service members, personnel and contractors with access to UAP‑related National Defense Information to speak openly about what they know, superseding nondisclosure and Special Access Program agreements. Avi Loeb, head of the UAP Science Advisory Council, said the information would still need to be disclosed behind closed doors, so some details could remain off‑limits. He noted the waiver could enable disclosures on recovered non‑human craft, but that depends on the nature of the information and that the government may still hold undisclosed evidence. The waiver is seen as a potential key step toward full UAP disclosure, though it is unclear what evidence the government actually possesses and what will remain classified.",
       "mentions": 3,
       "otherSources": [
+        {
+          "title": "UAP waiver may allow disclosures on recovered non-human craft, journalist says",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSS1IdG15NG5ZNDAtdURUa2xPcU1ES2trdlZ0cVVSdG9CT0hwVzM2NDBpcno5Y2FTOVJMTnpNS3RoclpDUFBUZmdBdlhCanBndDE2MGZBT1NxY0lDSTh0dEJMMHg5Nm1CbVo0UGVNRTZWRVVfcFMySFg0TDdmRlVNNHlaVXBZSmZJR0dQNmo1QnE4d9IBlwFBVV95cUxOaFNldk5wcDN0eHdFZmdqUFNUSTR5eDh1RE0zVXF0bXhoMEpRWmFWc2NOSXB4a3VCOGFlajkxX3k0SXk0bXRISjNNamhlTE5hc0t1dkdaUVdRLVhOZVVpZjNCOWtpN1BKdlZjYlFJb0lMMkZnX2VJSE9IN29QUVAyQzNjTERJMHJJYXh1dTMxbmY2NnZGZmVF?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSS1IdG15NG5ZNDAtdURUa2xPcU1ES2trdlZ0cVVSdG9CT0hwVzM2NDBpcno5Y2FTOVJMTnpNS3RoclpDUFBUZmdBdlhCanBndDE2MGZBT1NxY0lDSTh0dEJMMHg5Nm1CbVo0UGVNRTZWRVVfcFMySFg0TDdmRlVNNHlaVXBZSmZJR0dQNmo1QnE4d9IBlwFBVV95cUxOaFNldk5wcDN0eHdFZmdqUFNUSTR5eDh1RE0zVXF0bXhoMEpRWmFWc2NOSXB4a3VCOGFlajkxX3k0SXk0bXRISjNNamhlTE5hc0t1dkdaUVdRLVhOZVVpZjNCOWtpN1BKdlZjYlFJb0lMMkZnX2VJSE9IN29QUVAyQzNjTERJMHJJYXh1dTMxbmY2NnZGZmVF?oc=5",
+          "source": "NewsNation",
+          "publishedAt": "2026-09-15T12:12:36Z",
+          "displayedAt": "2026-09-24T07:53:57Z",
+          "isNew": true
+        },
         {
           "title": "New waivers may provide critical insight into UAP claims: Avi Loeb",
           "source": "NewsNation",
@@ -370,19 +396,11 @@
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaWg2YTRoc0FLRWJleGd2TVFoNkFBQXUwTTNVbWlaTjFQWjFwR013SmU1Mmh6dE52Z3NFOFVxOGgyQ1RDM0dLbnB1S3lKZm92aDNJUFQ3d1VqMTdKYlRNRUpwMnpjT1hZa0t6dEJPQTJBZUZjMDUxUXNmSE5ZZUlNdGNJaktfd0tXZW50N9IBkgFBVV95cUxNNjJUNGpWYUlWT3BLZ2IxN2gwUlRhcDFDUjhmRnkzY3NrODBlQzI1cHpmYUo5aGJ1aHNnV3hzWWtLbkxmbXIyaElGdXM0dmI4ZDVJbDFmcDN5V0syamVzV2hGUFU3S28xMGVYNHdWQmp4TFZfaEZZWGlzQ2Q4R3QxYWdLcUs4cGp0d2dzTG5vdkZpdw?oc=5",
           "publishedAt": "2026-09-15T12:16:00Z",
           "displayedAt": "2026-09-15T12:16:00Z"
-        },
-        {
-          "title": "Journalist says UAP waiver may allow disclosures on recovered non-human craft 2026 | JUSTICE - IUSTITIA.BG 2025",
-          "source": "iustitia.bg",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVmNsRWREemVHZzF1ZWp5Z1pRM2tERkl4Q1ZNQVZ4NFdUWF9xdjZ0eFdQZVp3WUxwS21qMS0wamU4U1dEWlZyRThEajlIUm56cHNTTGFrT0xSMDlfNGlnNzlTdlN3RVhtME1KSC1CM2ZteG9MMlNtUHRRelcwSzJvN09ENWhNQQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVmNsRWREemVHZzF1ZWp5Z1pRM2tERkl4Q1ZNQVZ4NFdUWF9xdjZ0eFdQZVp3WUxwS21qMS0wamU4U1dEWlZyRThEajlIUm56cHNTTGFrT0xSMDlfNGlnNzlTdlN3RVhtME1KSC1CM2ZteG9MMlNtUHRRelcwSzJvN09ENWhNQQ?oc=5",
-          "publishedAt": "2026-09-15T00:08:30Z",
-          "displayedAt": "2026-09-15T00:08:30Z"
         }
       ],
       "clusterTitles": [
-        "New waivers may provide critical insight into UAP claims: Avi Loeb",
-        "Journalist says UAP waiver may allow disclosures on recovered non-human craft 2026 | JUSTICE - IUSTITIA.BG 2025"
+        "UAP waiver may allow disclosures on recovered non-human craft, journalist says",
+        "New waivers may provide critical insight into UAP claims: Avi Loeb"
       ],
       "quality": 66,
       "qualityBreakdown": [
@@ -424,53 +442,39 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "alien",
-        "disclosure"
+        "files",
+        "released"
       ],
       "sourceQuality": 66,
-      "displayedAt": "2026-09-24T07:53:57Z",
-      "sourceDisplayedAt": "2026-09-24T07:53:57Z",
-      "sourceIsNew": true,
+      "displayedAt": "2026-09-15T00:08:30Z",
       "translation": {
         "en": {
-          "title": "UAP waiver may allow disclosures on recovered non-human craft, journalist says",
+          "title": "Journalist says UAP waiver may allow disclosures on recovered non-human craft 2026 | JUSTICE - IUSTITIA.BG 2025",
           "summary": "The Pentagon’s new waiver allows current and former service members, personnel and contractors with access to UAP‑related National Defense Information to speak openly about what they know, superseding nondisclosure and Special Access Program agreements. Avi Loeb, head of the UAP Science Advisory Council, said the information would still need to be disclosed behind closed doors, so some details could remain off‑limits.",
-          "sourceHash": "89b47e966e857602fd4f2a8549a65600ce1caf9c",
+          "sourceHash": "dd6c5dd16429de4d828636843a7f96cf8ff8501c",
           "provider": "original"
         },
         "de": {
-          "title": "Der UAP-Verzicht könnte die Offenlegung von geborgenen nichtmenschlichen Fahrzeugen ermöglichen, sagt ein Journalist",
+          "title": "Journalist sagt, UAP-Verzicht könnte Offenlegung von geborgenen nichtmenschlichen Fahrzeugen ermöglichen 2026 | GERECHTIGKEIT - IUSTITIA.BG 2025",
           "summary": "Die neue Ausnahmegenehmigung des Pentagons ermöglicht es aktuellen und ehemaligen Militärangehörigen, Mitarbeitern und Auftragnehmern mit Zugang zu UAP-bezogenen Informationen der Nationalen Verteidigung, offen über ihr Wissen zu sprechen, und ersetzt damit Geheimhaltungsvereinbarungen und Vereinbarungen des Special Access Program. Avi Loeb, Leiter des Wissenschaftlichen Beirats der UAP, sagte, die Informationen müssten weiterhin hinter verschlossenen Türen offengelegt werden, sodass einige Details möglicherweise tabu bleiben.",
-          "sourceHash": "89b47e966e857602fd4f2a8549a65600ce1caf9c",
+          "sourceHash": "dd6c5dd16429de4d828636843a7f96cf8ff8501c",
           "provider": "google"
         }
-      }
+      },
+      "sourceDisplayedAt": "2026-09-15T00:08:30Z"
     },
     {
-      "id": "pentagon-issues-waiver-to-allow-personnel-to-come-forward-on-uaps",
-      "title": "Pentagon issues waiver to allow personnel to come forward on UAPs",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94Y3BGbnowZmVBZFUtY21wbDBoeV82MVF2SEZNbWVPLUR1b2hMT2luY3oza2RseFVPZkUwUWV6Tml4OHEzSXVLenJaWGlYcDJ3SVpVNE9TUWNBc3BVLURTNVVqUkZXYkhuRmwwMFdB0gFzQVVfeXFMT2NTYXNoR1A3c0F4MU1tSzhJclRJRkR4SFpaUm5jUllMWFVmb2tQU0NxcXRyem5pb2tUcnpqbktpM0ZMR3B4N0NFNE9ROHdVX0xaeWpMN0l3RnBHNkdYWUFZSjRCM2RudFFKaTItclZodlJJcw?oc=5",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-14T20:56:00Z",
-      "summary": "The Defense Department has issued a waiver that allows current and former personnel with access to UAP‑related National Defense Information to share information with officials in the Presidential Unsealing and Reporting System for UAP Encounters. The waiver supersedes any NDAs or Special Access Program Indoctrination Agreements and is intended to create a pipeline for review and possible declassification of documents through the PURSUE program. The move comes amid concerns that fear of legal liability or loss of security clearance has kept potential whistleblowers silent, and several members of Congress have urged the White House to protect UFO whistleblowers and waive NDAs. The waiver follows whistleblower David Grusch’s claims that the Pentagon has operated a secret UFO‑retrieval program, which prompted multiple congressional hearings and bipartisan calls for UAP disclosure. While the Pentagon has released several batches of UAP files under the PURSUE program, some lawmakers worry that the agency is using private contractors to avoid disclosing certain information.",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "Pentagon creates legal waiver allowing personnel sworn to UFO secrecy to come forward",
-          "source": "New York Post",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZHpZRHl3cjFsNHhxWjZndk9WQjRuS1VMZEtlMm10OGdnRzJUbmVrMER4Sm4ySGJUSkVGaWx5MzIxN1RXV3FodDVDWUd5TDFNVloyQ0hZbUhsam5xNzFLMkZiQU9wR2JCeVlsMGZXQWZweUZfTHZ5cjZndE1SeUpaYXJ5anNxTEZjSmpwa2R0ZFkwU1dSTmtGYUhlVlphS3llMTRkVUdIQ2RLejRab2lDSm5PZS16eEdfbXdsSEkyaE8wZw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZHpZRHl3cjFsNHhxWjZndk9WQjRuS1VMZEtlMm10OGdnRzJUbmVrMER4Sm4ySGJUSkVGaWx5MzIxN1RXV3FodDVDWUd5TDFNVloyQ0hZbUhsam5xNzFLMkZiQU9wR2JCeVlsMGZXQWZweUZfTHZ5cjZndE1SeUpaYXJ5anNxTEZjSmpwa2R0ZFkwU1dSTmtGYUhlVlphS3llMTRkVUdIQ2RLejRab2lDSm5PZS16eEdfbXdsSEkyaE8wZw?oc=5",
-          "publishedAt": "2026-09-15T06:19:00Z",
-          "rssPublishedAt": "2026-09-15T06:19:00Z",
-          "sourcePublishedAt": "2026-09-15T06:19:00Z",
-          "displayedAt": "2026-09-15T06:19:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "Pentagon creates legal waiver allowing personnel sworn to UFO secrecy to come forward"
-      ],
-      "quality": 61,
+      "id": "we-are-not-alone-coalition-of-ufo-whistleblowers-call-on-trump-to-let-them-publicly-reveal-secrets",
+      "title": "‘We are not alone:’ Coalition of UFO whistleblowers call on Trump to let them publicly reveal secrets",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYVU2ZWE3TG9tVU93RXZMMG5MdWRXUG5yWWVhWFhlSUdrZmlMcUVuY1hCdnJNWnl0QnhkWHNYY2gwOG42eVNEckpISHBMM3o1RzQ5V3dWWWJOVGp6eTJQOXo3YzFPM2Y4cExWSVVQQVk1d1B5RlpObzVhNEdwU203cmtuZ2dnQjBfa2JubGVTRF9IWmVVeXQ4T3ZWb2ZkNjZfa01jdnc5dw?oc=5",
+      "date": "2026-09-14",
+      "publishedAt": "2026-09-19T12:24:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 69,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -479,18 +483,23 @@
         },
         {
           "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+          "points": 6,
+          "text": "PENTAGON, TRUMP als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
           "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
+          "text": "PENTAGON als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
-          "points": 2,
+          "points": 4,
           "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
         },
         {
           "label": "Starker Titel",
@@ -498,40 +507,89 @@
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
         },
         {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "alien",
-        "disclosure"
+        "PENTAGON",
+        "TRUMP"
       ],
-      "sourceQuality": 61,
-      "displayedAt": "2026-09-14T20:56:00Z",
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "sourceDisplayedAt": "2026-09-14T20:56:00Z",
-      "translation": {
-        "en": {
-          "title": "Pentagon issues waiver to allow personnel to come forward on UAPs",
-          "summary": "The Defense Department has issued a waiver that allows current and former personnel with access to UAP‑related National Defense Information to share information with officials in the Presidential Unsealing and Reporting System for UAP Encounters. The waiver supersedes any NDAs or Special Access Program Indoctrination Agreements and is intended to create a pipeline for review and possible declassification of documents through the PURSUE program.",
-          "sourceHash": "09f6f77ac9f9ee5f8c595b0da924c35c04c3c8a3",
-          "provider": "original"
+      "sourceQuality": 69,
+      "displayedAt": "2026-09-20T07:58:46Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "rssPublishedAt": "2026-09-19T12:24:00Z",
+      "rssDate": "2026-09-14",
+      "sourcePublishedAt": "2026-09-19T12:24:17Z",
+      "sourceDisplayedAt": "2026-09-20T07:58:46Z"
+    },
+    {
+      "id": "pentagon-creates-legal-waiver-allowing-personnel-sworn-to-ufo-secrecy-to-come-forward",
+      "title": "Pentagon creates legal waiver allowing personnel sworn to UFO secrecy to come forward",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZHpZRHl3cjFsNHhxWjZndk9WQjRuS1VMZEtlMm10OGdnRzJUbmVrMER4Sm4ySGJUSkVGaWx5MzIxN1RXV3FodDVDWUd5TDFNVloyQ0hZbUhsam5xNzFLMkZiQU9wR2JCeVlsMGZXQWZweUZfTHZ5cjZndE1SeUpaYXJ5anNxTEZjSmpwa2R0ZFkwU1dSTmtGYUhlVlphS3llMTRkVUdIQ2RLejRab2lDSm5PZS16eEdfbXdsSEkyaE8wZw?oc=5",
+      "date": "2026-09-14",
+      "publishedAt": "2026-09-15T07:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 69,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
-        "de": {
-          "title": "Das Pentagon erlässt eine Ausnahmegenehmigung, um Mitarbeitern die Möglichkeit zu geben, sich zu UAPs zu äußern",
-          "summary": "Das Verteidigungsministerium hat eine Ausnahmegenehmigung erlassen, die es aktuellen und ehemaligen Mitarbeitern mit Zugang zu UAP-bezogenen nationalen Verteidigungsinformationen ermöglicht, Informationen mit Beamten im Presidential Unsealing and Reporting System für UAP-Begegnungen auszutauschen. Der Verzicht ersetzt alle Geheimhaltungsvereinbarungen oder Indoktrinationsvereinbarungen für Sonderzugangsprogramme und soll eine Pipeline für die Überprüfung und mögliche Freigabe von Dokumenten durch das PURSUE-Programm schaffen.",
-          "sourceHash": "09f6f77ac9f9ee5f8c595b0da924c35c04c3c8a3",
-          "provider": "google"
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "PENTAGON, TRUMP als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
         }
-      }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "PENTAGON",
+        "TRUMP"
+      ],
+      "sourceQuality": 69,
+      "displayedAt": "2026-09-15T07:00:00Z",
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "rssPublishedAt": "2026-09-15T07:00:00Z",
+      "rssDate": "2026-09-14",
+      "sourcePublishedAt": "2026-09-15T06:19:00Z",
+      "sourceDisplayedAt": "2026-09-15T06:19:00Z"
     },
     {
       "id": "in-may-pastor-perry-stone-revealed-secret-government-meetings-with-leading-pastors-ahead-of-ufo-disclosure-what-have-we-learned-since",
@@ -607,65 +665,6 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "we-are-not-alone-coalition-of-ufo-whistleblowers-call-on-trump-to-let-them-publicly-reveal-secrets",
-      "title": "‘We are not alone:’ Coalition of UFO whistleblowers call on Trump to let them publicly reveal secrets",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYVU2ZWE3TG9tVU93RXZMMG5MdWRXUG5yWWVhWFhlSUdrZmlMcUVuY1hCdnJNWnl0QnhkWHNYY2gwOG42eVNEckpISHBMM3o1RzQ5V3dWWWJOVGp6eTJQOXo3YzFPM2Y4cExWSVVQQVk1d1B5RlpObzVhNEdwU203cmtuZ2dnQjBfa2JubGVTRF9IWmVVeXQ4T3ZWb2ZkNjZfa01jdnc5dw?oc=5",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-19T12:24:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 56,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "alien",
-        "disclosure"
-      ],
-      "sourceQuality": 56,
-      "displayedAt": "2026-09-20T07:58:46Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "rssPublishedAt": "2026-09-19T12:24:00Z",
-      "rssDate": "2026-09-16",
-      "sourcePublishedAt": "2026-09-19T12:24:17Z",
-      "sourceDisplayedAt": "2026-09-20T07:58:46Z"
-    },
-    {
       "id": "the-wrap-ai-safeguards-stay-center-stage-opm-goes-ai-shopping-uap-whistleblowers-get-cover",
       "title": "The Wrap: AI Safeguards Stay Center Stage ; OPM Goes AI Shopping; UAP Whistleblowers Get Cover",
       "source": "LinkedIn",
@@ -726,6 +725,75 @@
       }
     },
     {
+      "id": "new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb",
+      "title": "New waivers may provide critical insight into UAP claims: Avi Loeb",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaWg2YTRoc0FLRWJleGd2TVFoNkFBQXUwTTNVbWlaTjFQWjFwR013SmU1Mmh6dE52Z3NFOFVxOGgyQ1RDM0dLbnB1S3lKZm92aDNJUFQ3d1VqMTdKYlRNRUpwMnpjT1hZa0t6dEJPQTJBZUZjMDUxUXNmSE5ZZUlNdGNJaktfd0tXZW50N9IBkgFBVV95cUxNNjJUNGpWYUlWT3BLZ2IxN2gwUlRhcDFDUjhmRnkzY3NrODBlQzI1cHpmYUo5aGJ1aHNnV3hzWWtLbkxmbXIyaElGdXM0dmI4ZDVJbDFmcDN5V0syamVzV2hGUFU3S28xMGVYNHdWQmp4TFZfaEZZWGlzQ2Q4R3QxYWdLcUs4cGp0d2dzTG5vdkZpdw?oc=5",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-15T12:16:00Z",
+      "summary": "The Pentagon has issued a waiver that allows current and former U.S. military personnel, contractors, and others with access to UAP‑related classified information to speak publicly about what they know without fear of legal retaliation. The waiver overrides existing nondisclosure and Special Access Program agreements and lets whistleblowers share information with the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE). Avi Loeb, head of the UAP Science Advisory Council, said the new policy could enable disclosures about recovered non‑human craft, but that some details may still need to remain confidential and would be shared only in closed‑door settings. He added that firsthand accounts and scientific evidence could help determine whether the U.S. government possesses non‑human‑made technology, and that the waivers could be “extremely important” if the government holds undisclosed tangible evidence. The extent of the information that can be released and how it will be handled remains uncertain.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 56,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "files",
+        "released"
+      ],
+      "sourceQuality": 56,
+      "displayedAt": "2026-09-15T12:16:00Z",
+      "summarySource": "source_page",
+      "summaryPolicy": "source_page_article_text",
+      "sourceDisplayedAt": "2026-09-15T12:16:00Z",
+      "translation": {
+        "en": {
+          "title": "New waivers may provide critical insight into UAP claims: Avi Loeb",
+          "summary": "The Pentagon has issued a waiver that allows current and former U.S. military personnel, contractors, and others with access to UAP‑related classified information to speak publicly about what they know without fear of legal retaliation. The waiver overrides existing nondisclosure and Special Access Program agreements and lets whistleblowers share information with the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE).",
+          "sourceHash": "dfdc9586562324d53469b82846fd257f8c2d979c",
+          "provider": "original"
+        },
+        "de": {
+          "title": "Neue Verzichtserklärungen könnten wichtige Einblicke in UAP-Ansprüche liefern: Avi Loeb",
+          "summary": "Das Pentagon hat eine Ausnahmegenehmigung erlassen, die es aktuellen und ehemaligen US-Militärangehörigen, Auftragnehmern und anderen mit Zugang zu UAP-bezogenen Verschlusssachen ermöglicht, öffentlich über ihr Wissen zu sprechen, ohne rechtliche Vergeltungsmaßnahmen befürchten zu müssen. Der Verzicht setzt bestehende Geheimhaltungs- und Special Access Program-Vereinbarungen außer Kraft und ermöglicht Whistleblowern die Weitergabe von Informationen an das Presidential Unsealing and Reporting System for UAP Encounters (PURSUE).",
+          "sourceHash": "dfdc9586562324d53469b82846fd257f8c2d979c",
+          "provider": "google"
+        }
+      }
+    },
+    {
       "id": "sighting-drone-or-ufo-unidentified-object-spotted-over-tehran-leaves-internet-searching-for-answers",
       "title": "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers",
       "source": "News18",
@@ -766,7 +834,7 @@
         },
         "de": {
           "title": "Drohne oder UFO? Unbekanntes Objekt über Teheran gesichtet verlässt das Internet auf der Suche nach Antworten",
-          "summary": "Im September 2026 wurden in den sozialen Medien Videos eines beleuchteten Objekts geteilt, das sich über den Nachthimmel von Teheran bewegte und helle Lichter zeigte, aber keine Details zu Größe, Geschwindigkeit oder Höhe enthielt. Das Filmmaterial hat zu Spekulationen geführt, dass es sich bei dem Objekt um eine Drohne, ein Flugzeug oder ein UFO handeln könnte, aber es gibt keine verlässlichen Beweise für seine Herkunft oder Zugehörigkeit. Die iranischen Behörden haben das Objekt nicht öffentlich identifiziert und die Videos liefern nicht genügend Informationen, um seinen genauen Standort oder seine Natur zu bestimmen.",
+          "summary": "Im September 2026 wurden in den sozialen Medien Videos eines beleuchteten Objekts geteilt, das sich über den Nachthimmel Teherans bewegte und helle Lichter zeigte, aber keine Details zu Größe, Geschwindigkeit oder Höhe enthielt. Das Filmmaterial hat zu Spekulationen geführt, dass es sich bei dem Objekt um eine Drohne, ein Flugzeug oder ein UFO handeln könnte, aber es gibt keine verlässlichen Beweise für seine Herkunft oder Zugehörigkeit. Die iranischen Behörden haben das Objekt nicht öffentlich identifiziert und die Videos liefern nicht genügend Informationen, um seinen genauen Standort oder seine Natur zu bestimmen.",
           "sourceHash": "d1c05c75cbf47555a0fb381ee61d1751ec8435df",
           "provider": "google"
         }
@@ -774,40 +842,32 @@
     }
   ],
   "summaries": {
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
+    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Defense Department has issued a waiver that allows current and former personnel with access to UAP‑related National Defense Information to share information with officials in the Presidential Unsealing and Reporting System for UAP Encounters. The waiver supersedes any NDAs or Special Access Program Indoctrination Agreements and is intended to create a pipeline for review and possible declassification of documents through the PURSUE program. The move comes amid concerns that fear of legal liability or loss of security clearance has kept potential whistleblowers silent, and several members of Congress have urged the White House to protect UFO whistleblowers and waive NDAs. The waiver follows whistleblower David Grusch’s claims that the Pentagon has operated a secret UFO‑retrieval program, which prompted multiple congressional hearings and bipartisan calls for UAP disclosure. While the Pentagon has released several batches of UAP files under the PURSUE program, some lawmakers worry that the agency is using private contractors to avoid disclosing certain information.",
     "film-disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker": "Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! | Disclosure Day Movie News Disclosure Day Grey Alien UFO / UAP Occupant design explorations shared by Concept Artist Daniel Baker! Concept artist Daniel Baker provided a number of alternative designs for Disclosure Day's take on the classic Grey Alien and THEIR UFO/UAP occupants. One of the prominent concept artists who got to work on Steven Spielberg's Disclosure Day was Daniel Baker and recently he's taken to social media to debut some of the phenomenal artwork he provided for the film! Below are a few explorations he shared of the film's take on the classic Grey Alien – a slender humanoid extraterrestrial with large eyes, pale skin and a frail body.",
-    "program-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-journalist-says": "The Pentagon’s new waiver allows current and former service members, personnel and contractors with access to UAP‑related National Defense Information to speak openly about what they know, superseding nondisclosure and Special Access Program agreements. Avi Loeb, head of the UAP Science Advisory Council, said the information would still need to be disclosed behind closed doors, so some details could remain off‑limits. He noted the waiver could enable disclosures on recovered non‑human craft, but that depends on the nature of the information and that the government may still hold undisclosed evidence. The waiver is seen as a potential key step toward full UAP disclosure, though it is unclear what evidence the government actually possesses and what will remain classified.",
+    "journalist-says-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-2026-justice-iustitia-bg-2025": "The Pentagon’s new waiver allows current and former service members, personnel and contractors with access to UAP‑related National Defense Information to speak openly about what they know, superseding nondisclosure and Special Access Program agreements. Avi Loeb, head of the UAP Science Advisory Council, said the information would still need to be disclosed behind closed doors, so some details could remain off‑limits. He noted the waiver could enable disclosures on recovered non‑human craft, but that depends on the nature of the information and that the government may still hold undisclosed evidence. The waiver is seen as a potential key step toward full UAP disclosure, though it is unclear what evidence the government actually possesses and what will remain classified.",
     "in-may-pastor-perry-stone-revealed-secret-government-meetings-with-leading-pastors-ahead-of-ufo-disclosure-what-have-we-learned-since": "Austin ICE Shooting Raises Questions Over… AUSTIN, Texas — A delivery driver wounded by an Immigration… By – Michallie HarrisonGilbert Goons Defendant Arrested Again for… A Gilbert Goons defendant awaiting trial in the 2023 death… By – Jackie AllenEgyptian Archeologists Discover Rare Rock-Cut Tombs… Egyptian Archeologists have uncovered a group of rare rock-cut tombs… By – Jackie AllenTikTok to Pay $400 Million to… TikTok and its parent company, ByteDance, have agreed to pay… By – Jackie AllenCaleb Williams Injury Ends Bears QB’s… Some plays end with a first down. This one ended… By – Rachel MooreTrump Announces AI Force as Debate… President Donald Trump says he is creating an “AI Force”… By – Jackie AllenTrump Announces AI Force as Debate… President Donald Trump says he is creating an “AI Force”… By – Jackie AllenElon Musk $1M McLaren Totaling Reveals… Landing rockets on floating platforms in the middle of the… By – Tyler BrooksCalifornia Home Insurance Crisis Creeps Into… For years, California’s insurance troubles seemed to live mostly in… By – Tyler BrooksNew Jersey Restaurant Crash Kills One,… A patio full of diners enjoying a Saturday brunch is… By – Tyler BrooksGeorgetown Hunting Incident Turns Fatal After… An open field can hold very different meanings for the… By – Tyler BrooksSaquon Barkley Injury Sidelines Eagles Star… Football fortunes can flip on a single play — and… By – Tyler BrooksMeta Connect 2026: AI Glasses, Mixed… Meta Connect 2026 is set to bring CEO Mark Zuckerberg… By – Jackie AllenStrait of Hormuz Oil Shipments Reach… Oil and liquefied natural gas shipments through the Strait of… By – Jackie AllenKelsey Mitchell Breaks WNBA Scoring Record… Kelsey Mitchell made WNBA history Friday night, scoring 33 points… By – Jackie AllenCharged with Murder: Ohio Father Indicted… An Ohio father has been charged with murder in connection… By – Jackie AllenIranian Government Holds Rally as War… The Iranian Government organized its allegedly largest rally since the… By – Jackie AllenBusinesses Face Rising ADA Lawsuits Over… Key Takeaways Website-accessibility litigation is surging, with 432 new digital… By – Samuel LopezTexas Shuts Down Houston-Area ‘Birth Tourism’… Key Takeaways Texas Attorney General Ken Paxton announced that De’Ai… By – Samuel LopezAcquitted Michigan Brothers Sue FBI Agents… Factual Background Michael and William Null, acquitted in 2023 of… By – Samuel LopezBusinesses Face Rising ADA Lawsuits Over… Key Takeaways Website-accessibility litigation is surging, with 432 new digital… By – Samuel LopezMaurene Comey Wants Her Job Back… Key Takeaways Maurene Comey is challenging DOJ’s argument that Assistant… By – Samuel LopezAgreement Entered Into With Denmark And… Key Takeaways The Trump administration announced a new Greenland agreement… By – Samuel LopezDiddy’s Lawyers Seek To Exit $100… Key Takeaways Attorneys representing Sean “Diddy” Combs have asked a… By – Samuel LopezDC Productions Narrow as HBO Chief… DC Productions are entering a more selective phase, according to… By – Jackie AllenPrincess Diana Wanted to End Engagement… Princess Diana wanted to call off her engagement to then-Prince… By – Jackie AllenPentagon Drops 6th Tranche of UAP… Key Takeaways Among the most extraordinary documents in the Pentagon’s… By – Samuel LopezPentagon Recognized Religions List Sparks Debate… A revised Pentagon list of recognized religions in the U.",
-    "pentagon-issues-waiver-to-allow-personnel-to-come-forward-on-uaps": "The Defense Department has issued a waiver that allows current and former personnel with access to UAP‑related National Defense Information to share information with officials in the Presidential Unsealing and Reporting System for UAP Encounters. The waiver supersedes any NDAs or Special Access Program Indoctrination Agreements and is intended to create a pipeline for review and possible declassification of documents through the PURSUE program. The move comes amid concerns that fear of legal liability or loss of security clearance has kept potential whistleblowers silent, and several members of Congress have urged the White House to protect UFO whistleblowers and waive NDAs. The waiver follows whistleblower David Grusch’s claims that the Pentagon has operated a secret UFO‑retrieval program, which prompted multiple congressional hearings and bipartisan calls for UAP disclosure. While the Pentagon has released several batches of UAP files under the PURSUE program, some lawmakers worry that the agency is using private contractors to avoid disclosing certain information.",
+    "new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb": "The Pentagon has issued a waiver that allows current and former U.S. military personnel, contractors, and others with access to UAP‑related classified information to speak publicly about what they know without fear of legal retaliation. The waiver overrides existing nondisclosure and Special Access Program agreements and lets whistleblowers share information with the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE). Avi Loeb, head of the UAP Science Advisory Council, said the new policy could enable disclosures about recovered non‑human craft, but that some details may still need to remain confidential and would be shared only in closed‑door settings. He added that firsthand accounts and scientific evidence could help determine whether the U.S. government possesses non‑human‑made technology, and that the waivers could be “extremely important” if the government holds undisclosed tangible evidence. The extent of the information that can be released and how it will be handled remains uncertain.",
     "sighting-drone-or-ufo-unidentified-object-spotted-over-tehran-leaves-internet-searching-for-answers": "In September 2026, videos of an illuminated object moving across Tehran’s night sky were shared on social media, showing bright lights but lacking detail on size, speed, or height. The footage has prompted speculation that the object could be a drone, an aircraft, or a UFO, but no reliable evidence confirms its origin or affiliation. Iranian authorities have not publicly identified the object, and the videos do not provide enough information to determine its exact location or nature. Some viewers suggested it might be a drone, a distant plane, or an LED‑lit kite, while others linked it to military activity amid heightened tensions with the US. The sighting coincides with the 50th anniversary of a 1976 Tehran incident involving an unidentified object that was investigated by fighter jets, but no evidence connects the two events."
   },
   "notificationBatch": {
-    "timestamp": "2026-09-24T07:53:57Z",
-    "ids": [
-      "program-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-journalist-says"
-    ],
-    "articles": [
-      {
-        "id": "program-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-journalist-says",
-        "title": "UAP waiver may allow disclosures on recovered non-human craft, journalist says",
-        "source": "NewsNation"
-      }
-    ]
+    "timestamp": "2026-09-24T15:37:30Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 413,
-    "broadTopics": 187,
+    "broadArticles": 403,
+    "broadTopics": 186,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
-    "appTopics": 8,
+    "appTopics": 9,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 9,
+    "splitUnrelatedGroupedSources": 10,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 13,
+    "regroupedTopics": 14,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -815,19 +875,25 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 3,
-      "repaired": 3,
+      "attempts": 4,
+      "repaired": 4,
       "fallbackRepaired": 0,
       "missing": 0
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 8,
-      "missing": 2,
+      "kept": 9,
+      "missing": 3,
       "missingItems": [
         {
           "id": "we-are-not-alone-coalition-of-ufo-whistleblowers-call-on-trump-to-let-them-publicly-reveal-secrets",
           "title": "‘We are not alone:’ Coalition of UFO whistleblowers call on Trump to let them publicly reveal secrets",
+          "source": "New York Post",
+          "reason": "missing_or_mismatched_article_content_summary"
+        },
+        {
+          "id": "pentagon-creates-legal-waiver-allowing-personnel-sworn-to-ufo-secrecy-to-come-forward",
+          "title": "Pentagon creates legal waiver allowing personnel sworn to UFO secrecy to come forward",
           "source": "New York Post",
           "reason": "missing_or_mismatched_article_content_summary"
         },
@@ -841,15 +907,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 14,
+      "inputArticles": 12,
       "outputArticles": 10,
-      "preservedSourceSummaries": 5
+      "preservedSourceSummaries": 4
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
       "inputArticles": 10,
       "outputArticles": 10,
-      "missingSummaries": 5,
+      "missingSummaries": 6,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -861,44 +927,44 @@
     },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
-      "updatedArticles": 2,
-      "clearedTranslations": 2,
+      "updatedArticles": 3,
+      "clearedTranslations": 3,
       "reorderedBySourceCount": true
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 5,
-      "addedSources": 89,
+      "updatedTopics": 4,
+      "addedSources": 72,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 16,
+      "sources": 17,
       "cleanedArticles": 2,
-      "removedDuplicateTopics": 2,
+      "removedDuplicateTopics": 1,
       "staleSummariesCleared": 0,
       "rejectedArticleSources": 0,
       "promotedPrimaryFromSource": false
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 7,
-      "outputArticles": 7,
+      "inputArticles": 8,
+      "outputArticles": 8,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 7,
+      "inputArticles": 8,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 9,
-      "currentBeforeRestore": 6,
+      "archiveCandidates": 8,
+      "currentBeforeRestore": 7,
       "restoredArticles": 2,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 1,
@@ -913,46 +979,46 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 8
+      "articlesRefreshed": 9
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 32,
+      "checkedSources": 34,
       "updatedSources": 11,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 8,
-      "newSources": 2
+      "updatedTopics": 9,
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 6,
-      "newTopics": 2,
+      "correctedExistingTopics": 8,
+      "newTopics": 1,
       "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
-      "correctedOldSourceMarkers": 1,
+      "notifications": 0,
+      "freshSources": 0,
+      "correctedOldSourceMarkers": 2,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 40
+      "seededSeenFromPreviousFeed": 39
     }
   },
   "translations": {
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
       "en": {
         "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+        "summary": "The Defense Department has issued a waiver that allows current and former personnel with access to UAP‑related National Defense Information to share information with officials in the Presidential Unsealing and Reporting System for UAP Encounters. The waiver supersedes any NDAs or Special Access Program Indoctrination Agreements and is intended to create a pipeline for review and possible declassification of documents through the PURSUE program.",
+        "sourceHash": "4270c07e2ac4457c7414d665f89d492b609d8cee",
         "provider": "original"
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
+        "summary": "Das Verteidigungsministerium hat eine Ausnahmegenehmigung erlassen, die es aktuellen und ehemaligen Mitarbeitern mit Zugang zu UAP-bezogenen nationalen Verteidigungsinformationen ermöglicht, Informationen mit Beamten im Presidential Unsealing and Reporting System für UAP-Begegnungen auszutauschen. Der Verzicht ersetzt alle Geheimhaltungsvereinbarungen oder Indoktrinationsvereinbarungen für Sonderzugangsprogramme und soll eine Pipeline für die Überprüfung und mögliche Freigabe von Dokumenten durch das PURSUE-Programm schaffen.",
+        "sourceHash": "4270c07e2ac4457c7414d665f89d492b609d8cee",
         "provider": "google"
       }
     },
@@ -970,31 +1036,17 @@
         "provider": "google"
       }
     },
-    "program-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-journalist-says": {
+    "journalist-says-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-2026-justice-iustitia-bg-2025": {
       "en": {
-        "title": "UAP waiver may allow disclosures on recovered non-human craft, journalist says",
+        "title": "Journalist says UAP waiver may allow disclosures on recovered non-human craft 2026 | JUSTICE - IUSTITIA.BG 2025",
         "summary": "The Pentagon’s new waiver allows current and former service members, personnel and contractors with access to UAP‑related National Defense Information to speak openly about what they know, superseding nondisclosure and Special Access Program agreements. Avi Loeb, head of the UAP Science Advisory Council, said the information would still need to be disclosed behind closed doors, so some details could remain off‑limits.",
-        "sourceHash": "89b47e966e857602fd4f2a8549a65600ce1caf9c",
+        "sourceHash": "dd6c5dd16429de4d828636843a7f96cf8ff8501c",
         "provider": "original"
       },
       "de": {
-        "title": "Der UAP-Verzicht könnte die Offenlegung von geborgenen nichtmenschlichen Fahrzeugen ermöglichen, sagt ein Journalist",
+        "title": "Journalist sagt, UAP-Verzicht könnte Offenlegung von geborgenen nichtmenschlichen Fahrzeugen ermöglichen 2026 | GERECHTIGKEIT - IUSTITIA.BG 2025",
         "summary": "Die neue Ausnahmegenehmigung des Pentagons ermöglicht es aktuellen und ehemaligen Militärangehörigen, Mitarbeitern und Auftragnehmern mit Zugang zu UAP-bezogenen Informationen der Nationalen Verteidigung, offen über ihr Wissen zu sprechen, und ersetzt damit Geheimhaltungsvereinbarungen und Vereinbarungen des Special Access Program. Avi Loeb, Leiter des Wissenschaftlichen Beirats der UAP, sagte, die Informationen müssten weiterhin hinter verschlossenen Türen offengelegt werden, sodass einige Details möglicherweise tabu bleiben.",
-        "sourceHash": "89b47e966e857602fd4f2a8549a65600ce1caf9c",
-        "provider": "google"
-      }
-    },
-    "pentagon-issues-waiver-to-allow-personnel-to-come-forward-on-uaps": {
-      "en": {
-        "title": "Pentagon issues waiver to allow personnel to come forward on UAPs",
-        "summary": "The Defense Department has issued a waiver that allows current and former personnel with access to UAP‑related National Defense Information to share information with officials in the Presidential Unsealing and Reporting System for UAP Encounters. The waiver supersedes any NDAs or Special Access Program Indoctrination Agreements and is intended to create a pipeline for review and possible declassification of documents through the PURSUE program.",
-        "sourceHash": "09f6f77ac9f9ee5f8c595b0da924c35c04c3c8a3",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Das Pentagon erlässt eine Ausnahmegenehmigung, um Mitarbeitern die Möglichkeit zu geben, sich zu UAPs zu äußern",
-        "summary": "Das Verteidigungsministerium hat eine Ausnahmegenehmigung erlassen, die es aktuellen und ehemaligen Mitarbeitern mit Zugang zu UAP-bezogenen nationalen Verteidigungsinformationen ermöglicht, Informationen mit Beamten im Presidential Unsealing and Reporting System für UAP-Begegnungen auszutauschen. Der Verzicht ersetzt alle Geheimhaltungsvereinbarungen oder Indoktrinationsvereinbarungen für Sonderzugangsprogramme und soll eine Pipeline für die Überprüfung und mögliche Freigabe von Dokumenten durch das PURSUE-Programm schaffen.",
-        "sourceHash": "09f6f77ac9f9ee5f8c595b0da924c35c04c3c8a3",
+        "sourceHash": "dd6c5dd16429de4d828636843a7f96cf8ff8501c",
         "provider": "google"
       }
     },
@@ -1012,6 +1064,20 @@
         "provider": "google"
       }
     },
+    "new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb": {
+      "en": {
+        "title": "New waivers may provide critical insight into UAP claims: Avi Loeb",
+        "summary": "The Pentagon has issued a waiver that allows current and former U.S. military personnel, contractors, and others with access to UAP‑related classified information to speak publicly about what they know without fear of legal retaliation. The waiver overrides existing nondisclosure and Special Access Program agreements and lets whistleblowers share information with the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE).",
+        "sourceHash": "dfdc9586562324d53469b82846fd257f8c2d979c",
+        "provider": "original"
+      },
+      "de": {
+        "title": "Neue Verzichtserklärungen könnten wichtige Einblicke in UAP-Ansprüche liefern: Avi Loeb",
+        "summary": "Das Pentagon hat eine Ausnahmegenehmigung erlassen, die es aktuellen und ehemaligen US-Militärangehörigen, Auftragnehmern und anderen mit Zugang zu UAP-bezogenen Verschlusssachen ermöglicht, öffentlich über ihr Wissen zu sprechen, ohne rechtliche Vergeltungsmaßnahmen befürchten zu müssen. Der Verzicht setzt bestehende Geheimhaltungs- und Special Access Program-Vereinbarungen außer Kraft und ermöglicht Whistleblowern die Weitergabe von Informationen an das Presidential Unsealing and Reporting System for UAP Encounters (PURSUE).",
+        "sourceHash": "dfdc9586562324d53469b82846fd257f8c2d979c",
+        "provider": "google"
+      }
+    },
     "sighting-drone-or-ufo-unidentified-object-spotted-over-tehran-leaves-internet-searching-for-answers": {
       "en": {
         "title": "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers",
@@ -1021,7 +1087,7 @@
       },
       "de": {
         "title": "Drohne oder UFO? Unbekanntes Objekt über Teheran gesichtet verlässt das Internet auf der Suche nach Antworten",
-        "summary": "Im September 2026 wurden in den sozialen Medien Videos eines beleuchteten Objekts geteilt, das sich über den Nachthimmel von Teheran bewegte und helle Lichter zeigte, aber keine Details zu Größe, Geschwindigkeit oder Höhe enthielt. Das Filmmaterial hat zu Spekulationen geführt, dass es sich bei dem Objekt um eine Drohne, ein Flugzeug oder ein UFO handeln könnte, aber es gibt keine verlässlichen Beweise für seine Herkunft oder Zugehörigkeit. Die iranischen Behörden haben das Objekt nicht öffentlich identifiziert und die Videos liefern nicht genügend Informationen, um seinen genauen Standort oder seine Natur zu bestimmen.",
+        "summary": "Im September 2026 wurden in den sozialen Medien Videos eines beleuchteten Objekts geteilt, das sich über den Nachthimmel Teherans bewegte und helle Lichter zeigte, aber keine Details zu Größe, Geschwindigkeit oder Höhe enthielt. Das Filmmaterial hat zu Spekulationen geführt, dass es sich bei dem Objekt um eine Drohne, ein Flugzeug oder ein UFO handeln könnte, aber es gibt keine verlässlichen Beweise für seine Herkunft oder Zugehörigkeit. Die iranischen Behörden haben das Objekt nicht öffentlich identifiziert und die Videos liefern nicht genügend Informationen, um seinen genauen Standort oder seine Natur zu bestimmen.",
         "sourceHash": "d1c05c75cbf47555a0fb381ee61d1751ec8435df",
         "provider": "google"
       }
