@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-24T15:37:30Z",
+  "timestamp": "2026-09-25T08:16:13Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -117,10 +117,15 @@
         "TRUMP"
       ],
       "sourceQuality": 69,
+      "displayedAt": "2026-09-15T07:00:00Z",
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "displayedAt": "2026-09-24T15:37:30Z"
+      "rssPublishedAt": "2026-09-15T07:00:00Z",
+      "rssDate": "2026-09-14",
+      "sourcePublishedAt": "2026-09-15T06:19:00Z",
+      "sourceDisplayedAt": "2026-09-15T06:19:00Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "in-may-pastor-perry-stone-revealed-secret-government-meetings-with-leading-pastors-ahead-of-ufo-disclosure-what-have-we-learned-since",
@@ -210,7 +215,9 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSS1IdG15NG5ZNDAtdURUa2xPcU1ES2trdlZ0cVVSdG9CT0hwVzM2NDBpcno5Y2FTOVJMTnpNS3RoclpDUFBUZmdBdlhCanBndDE2MGZBT1NxY0lDSTh0dEJMMHg5Nm1CbVo0UGVNRTZWRVVfcFMySFg0TDdmRlVNNHlaVXBZSmZJR0dQNmo1QnE4d9IBlwFBVV95cUxOaFNldk5wcDN0eHdFZmdqUFNUSTR5eDh1RE0zVXF0bXhoMEpRWmFWc2NOSXB4a3VCOGFlajkxX3k0SXk0bXRISjNNamhlTE5hc0t1dkdaUVdRLVhOZVVpZjNCOWtpN1BKdlZjYlFJb0lMMkZnX2VJSE9IN29QUVAyQzNjTERJMHJJYXh1dTMxbmY2NnZGZmVF?oc=5",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSS1IdG15NG5ZNDAtdURUa2xPcU1ES2trdlZ0cVVSdG9CT0hwVzM2NDBpcno5Y2FTOVJMTnpNS3RoclpDUFBUZmdBdlhCanBndDE2MGZBT1NxY0lDSTh0dEJMMHg5Nm1CbVo0UGVNRTZWRVVfcFMySFg0TDdmRlVNNHlaVXBZSmZJR0dQNmo1QnE4d9IBlwFBVV95cUxOaFNldk5wcDN0eHdFZmdqUFNUSTR5eDh1RE0zVXF0bXhoMEpRWmFWc2NOSXB4a3VCOGFlajkxX3k0SXk0bXRISjNNamhlTE5hc0t1dkdaUVdRLVhOZVVpZjNCOWtpN1BKdlZjYlFJb0lMMkZnX2VJSE9IN29QUVAyQzNjTERJMHJJYXh1dTMxbmY2NnZGZmVF?oc=5",
           "source": "NewsNation",
-          "publishedAt": "2026-09-15T12:12:36Z"
+          "publishedAt": "2026-09-15T12:12:36Z",
+          "displayedAt": "2026-09-24T07:53:57Z",
+          "isNew": true
         },
         {
           "title": "New waivers may provide critical insight into UAP claims: Avi Loeb",
@@ -265,22 +272,21 @@
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "files",
-        "released"
+        "pentagon"
       ],
       "sourceQuality": 61,
-      "displayedAt": "2026-09-24T15:37:30Z",
+      "displayedAt": "2026-09-15T00:08:30Z",
       "translation": {
         "en": {
-          "title": "UAP waiver may allow disclosures on recovered non-human craft, journalist says",
+          "title": "Journalist says UAP waiver may allow disclosures on recovered non-human craft 2026 | JUSTICE - IUSTITIA.BG 2025",
           "summary": "The Pentagon’s new waiver allows current and former service members, personnel and contractors with access to UAP‑related National Defense Information to speak openly about what they know, superseding nondisclosure and Special Access Program agreements. Avi Loeb, head of the UAP Science Advisory Council, said the information would still need to be disclosed behind closed doors, so some details could remain off‑limits.",
-          "sourceHash": "89b47e966e857602fd4f2a8549a65600ce1caf9c",
+          "sourceHash": "dd6c5dd16429de4d828636843a7f96cf8ff8501c",
           "provider": "original"
         },
         "de": {
-          "title": "Der UAP-Verzicht könnte die Offenlegung von geborgenen nichtmenschlichen Fahrzeugen ermöglichen, sagt ein Journalist",
+          "title": "Journalist sagt, UAP-Verzicht könnte Offenlegung von geborgenen nichtmenschlichen Fahrzeugen ermöglichen 2026 | GERECHTIGKEIT - IUSTITIA.BG 2025",
           "summary": "Die neue Ausnahmegenehmigung des Pentagons ermöglicht es aktuellen und ehemaligen Militärangehörigen, Mitarbeitern und Auftragnehmern mit Zugang zu UAP-bezogenen Informationen der Nationalen Verteidigung, offen über ihr Wissen zu sprechen, und ersetzt damit Geheimhaltungsvereinbarungen und Vereinbarungen des Special Access Program. Avi Loeb, Leiter des Wissenschaftlichen Beirats der UAP, sagte, die Informationen müssten weiterhin hinter verschlossenen Türen offengelegt werden, sodass einige Details möglicherweise tabu bleiben.",
-          "sourceHash": "89b47e966e857602fd4f2a8549a65600ce1caf9c",
+          "sourceHash": "dd6c5dd16429de4d828636843a7f96cf8ff8501c",
           "provider": "google"
         }
       }
@@ -350,13 +356,13 @@
       "title": "New waivers may provide critical insight into UAP claims: Avi Loeb",
       "source": "NewsNation",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaWg2YTRoc0FLRWJleGd2TVFoNkFBQXUwTTNVbWlaTjFQWjFwR013SmU1Mmh6dE52Z3NFOFVxOGgyQ1RDM0dLbnB1S3lKZm92aDNJUFQ3d1VqMTdKYlRNRUpwMnpjT1hZa0t6dEJPQTJBZUZjMDUxUXNmSE5ZZUlNdGNJaktfd0tXZW50N9IBkgFBVV95cUxNNjJUNGpWYUlWT3BLZ2IxN2gwUlRhcDFDUjhmRnkzY3NrODBlQzI1cHpmYUo5aGJ1aHNnV3hzWWtLbkxmbXIyaElGdXM0dmI4ZDVJbDFmcDN5V0syamVzV2hGUFU3S28xMGVYNHdWQmp4TFZfaEZZWGlzQ2Q4R3QxYWdLcUs4cGp0d2dzTG5vdkZpdw?oc=5",
-      "date": "2026-09-16",
+      "date": "2026-09-15",
       "publishedAt": "2026-09-15T12:16:00Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 56,
+      "quality": 49,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -364,41 +370,23 @@
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
         {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
         },
         {
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "released"
-      ],
-      "sourceQuality": 56,
+      "matchedTerms": [],
+      "sourceQuality": 49,
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "displayedAt": "2026-09-24T15:37:30Z"
+      "displayedAt": "2026-09-15T12:16:00Z"
     },
     {
       "id": "sighting-drone-or-ufo-unidentified-object-spotted-over-tehran-leaves-internet-searching-for-answers",
