@@ -1,137 +1,7 @@
 {
-  "timestamp": "2026-09-26T08:06:10Z",
+  "timestamp": "2026-09-26T14:51:40Z",
   "retentionDays": 14,
   "articles": [
-    {
-      "id": "we-are-not-alone-coalition-of-ufo-whistleblowers-call-on-trump-to-let-them-publicly-reveal-secrets",
-      "title": "‘We are not alone:’ Coalition of UFO whistleblowers call on Trump to let them publicly reveal secrets",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYVU2ZWE3TG9tVU93RXZMMG5MdWRXUG5yWWVhWFhlSUdrZmlMcUVuY1hCdnJNWnl0QnhkWHNYY2gwOG42eVNEckpISHBMM3o1RzQ5V3dWWWJOVGp6eTJQOXo3YzFPM2Y4cExWSVVQQVk1d1B5RlpObzVhNEdwU203cmtuZ2dnQjBfa2JubGVTRF9IWmVVeXQ4T3ZWb2ZkNjZfa01jdnc5dw?oc=5",
-      "date": "2026-09-14",
-      "publishedAt": "2026-09-19T12:24:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 69,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "PENTAGON, TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "PENTAGON",
-        "TRUMP"
-      ],
-      "sourceQuality": 69,
-      "displayedAt": "2026-09-20T07:58:46Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "rssPublishedAt": "2026-09-19T12:24:00Z",
-      "rssDate": "2026-09-14",
-      "sourcePublishedAt": "2026-09-19T12:24:17Z",
-      "sourceDisplayedAt": "2026-09-20T07:58:46Z",
-      "retainedFromPreviousScan": true
-    },
-    {
-      "id": "pentagon-creates-legal-waiver-allowing-personnel-sworn-to-ufo-secrecy-to-come-forward",
-      "title": "Pentagon creates legal waiver allowing personnel sworn to UFO secrecy to come forward",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZHpZRHl3cjFsNHhxWjZndk9WQjRuS1VMZEtlMm10OGdnRzJUbmVrMER4Sm4ySGJUSkVGaWx5MzIxN1RXV3FodDVDWUd5TDFNVloyQ0hZbUhsam5xNzFLMkZiQU9wR2JCeVlsMGZXQWZweUZfTHZ5cjZndE1SeUpaYXJ5anNxTEZjSmpwa2R0ZFkwU1dSTmtGYUhlVlphS3llMTRkVUdIQ2RLejRab2lDSm5PZS16eEdfbXdsSEkyaE8wZw?oc=5",
-      "date": "2026-09-14",
-      "publishedAt": "2026-09-15T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 69,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "PENTAGON, TRUMP als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "PENTAGON",
-        "TRUMP"
-      ],
-      "sourceQuality": 69,
-      "displayedAt": "2026-09-15T07:00:00Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "rssPublishedAt": "2026-09-15T07:00:00Z",
-      "rssDate": "2026-09-14",
-      "sourcePublishedAt": "2026-09-15T06:19:00Z",
-      "sourceDisplayedAt": "2026-09-15T06:19:00Z",
-      "retainedFromPreviousScan": true
-    },
     {
       "id": "in-may-pastor-perry-stone-revealed-secret-government-meetings-with-leading-pastors-ahead-of-ufo-disclosure-what-have-we-learned-since",
       "title": "In May, Pastor Perry Stone Revealed Secret Government Meetings With Leading Pastors Ahead of UFO Disclosure — What Have We Learned Since?",
@@ -206,7 +76,7 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "journalist-says-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-2026-justice-iustitia-bg-2025",
+      "id": "program-journalist-says-uap-waiver-may-allow-disclosures-on-recovered-non-human-craft-2026-justice-iustitia-bg-2025",
       "title": "Journalist says UAP waiver may allow disclosures on recovered non-human craft 2026 | JUSTICE - IUSTITIA.BG 2025",
       "source": "iustitia.bg",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVmNsRWREemVHZzF1ZWp5Z1pRM2tERkl4Q1ZNQVZ4NFdUWF9xdjZ0eFdQZVp3WUxwS21qMS0wamU4U1dEWlZyRThEajlIUm56cHNTTGFrT0xSMDlfNGlnNzlTdlN3RVhtME1KSC1CM2ZteG9MMlNtUHRRelcwSzJvN09ENWhNQQ?oc=5",
@@ -220,21 +90,23 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSS1IdG15NG5ZNDAtdURUa2xPcU1ES2trdlZ0cVVSdG9CT0hwVzM2NDBpcno5Y2FTOVJMTnpNS3RoclpDUFBUZmdBdlhCanBndDE2MGZBT1NxY0lDSTh0dEJMMHg5Nm1CbVo0UGVNRTZWRVVfcFMySFg0TDdmRlVNNHlaVXBZSmZJR0dQNmo1QnE4d9IBlwFBVV95cUxOaFNldk5wcDN0eHdFZmdqUFNUSTR5eDh1RE0zVXF0bXhoMEpRWmFWc2NOSXB4a3VCOGFlajkxX3k0SXk0bXRISjNNamhlTE5hc0t1dkdaUVdRLVhOZVVpZjNCOWtpN1BKdlZjYlFJb0lMMkZnX2VJSE9IN29QUVAyQzNjTERJMHJJYXh1dTMxbmY2NnZGZmVF?oc=5",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSS1IdG15NG5ZNDAtdURUa2xPcU1ES2trdlZ0cVVSdG9CT0hwVzM2NDBpcno5Y2FTOVJMTnpNS3RoclpDUFBUZmdBdlhCanBndDE2MGZBT1NxY0lDSTh0dEJMMHg5Nm1CbVo0UGVNRTZWRVVfcFMySFg0TDdmRlVNNHlaVXBZSmZJR0dQNmo1QnE4d9IBlwFBVV95cUxOaFNldk5wcDN0eHdFZmdqUFNUSTR5eDh1RE0zVXF0bXhoMEpRWmFWc2NOSXB4a3VCOGFlajkxX3k0SXk0bXRISjNNamhlTE5hc0t1dkdaUVdRLVhOZVVpZjNCOWtpN1BKdlZjYlFJb0lMMkZnX2VJSE9IN29QUVAyQzNjTERJMHJJYXh1dTMxbmY2NnZGZmVF?oc=5",
           "source": "NewsNation",
-          "publishedAt": "2026-09-15T07:00:00Z"
+          "publishedAt": "2026-09-15T07:00:00Z",
+          "displayedAt": "2026-09-15T07:00:00Z"
         },
         {
           "title": "New waivers may provide critical insight into UAP claims: Avi Loeb",
           "source": "NewsNation",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaWg2YTRoc0FLRWJleGd2TVFoNkFBQXUwTTNVbWlaTjFQWjFwR013SmU1Mmh6dE52Z3NFOFVxOGgyQ1RDM0dLbnB1S3lKZm92aDNJUFQ3d1VqMTdKYlRNRUpwMnpjT1hZa0t6dEJPQTJBZUZjMDUxUXNmSE5ZZUlNdGNJaktfd0tXZW50N9IBkgFBVV95cUxNNjJUNGpWYUlWT3BLZ2IxN2gwUlRhcDFDUjhmRnkzY3NrODBlQzI1cHpmYUo5aGJ1aHNnV3hzWWtLbkxmbXIyaElGdXM0dmI4ZDVJbDFmcDN5V0syamVzV2hGUFU3S28xMGVYNHdWQmp4TFZfaEZZWGlzQ2Q4R3QxYWdLcUs4cGp0d2dzTG5vdkZpdw?oc=5",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaWg2YTRoc0FLRWJleGd2TVFoNkFBQXUwTTNVbWlaTjFQWjFwR013SmU1Mmh6dE52Z3NFOFVxOGgyQ1RDM0dLbnB1S3lKZm92aDNJUFQ3d1VqMTdKYlRNRUpwMnpjT1hZa0t6dEJPQTJBZUZjMDUxUXNmSE5ZZUlNdGNJaktfd0tXZW50N9IBkgFBVV95cUxNNjJUNGpWYUlWT3BLZ2IxN2gwUlRhcDFDUjhmRnkzY3NrODBlQzI1cHpmYUo5aGJ1aHNnV3hzWWtLbkxmbXIyaElGdXM0dmI4ZDVJbDFmcDN5V0syamVzV2hGUFU3S28xMGVYNHdWQmp4TFZfaEZZWGlzQ2Q4R3QxYWdLcUs4cGp0d2dzTG5vdkZpdw?oc=5",
-          "publishedAt": "2026-09-15T12:16:00Z"
+          "publishedAt": "2026-09-15T12:16:00Z",
+          "displayedAt": "2026-09-15T12:16:00Z"
         }
       ],
       "clusterTitles": [
         "UAP waiver may allow disclosures on recovered non-human craft, journalist says",
         "New waivers may provide critical insight into UAP claims: Avi Loeb"
       ],
-      "quality": 61,
+      "quality": 56,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -265,11 +137,6 @@
           "label": "Kernaussage",
           "points": 7,
           "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -277,19 +144,71 @@
         "files",
         "released"
       ],
-      "sourceQuality": 61,
-      "displayedAt": "2026-09-26T08:06:10Z",
+      "sourceQuality": 56,
+      "displayedAt": "2026-09-15T00:08:30Z"
+    },
+    {
+      "id": "sighting-drone-or-ufo-unidentified-object-spotted-over-tehran-leaves-internet-searching-for-answers",
+      "title": "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers",
+      "source": "News18",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQXzVfNHJVWDdJdGQ4cDJZYmV3Tng5RXFfVDJ6bTRRalpSYkxWQ21Hd2U0STdBXzZBdFNUNng2MTBMUFJsZnJSNFZLQ0dFTlRpblZMWmROSzFlNGwtdlBGZi1fMVVSSS1wcjF4WTl3ejRPTTRhU3BFVFNkZUpXQVlMU2xfTk14SVlSaFl4eDBjVWttdXBLZVowbDR6YWFXenc1SjNxV0otOFV4djBKc0tMdnpxRVF5MHZHbGhqcTdnWFZqTUMyYWpUM3BSMUhZTlFvNmJIUtIB2gFBVV95cUxNUGFlY0RwNkJEM2dLWWQ4TFBIQWZ1X3FOb19MOHlYZVJtUXcyZGxnUlQ0T05ETU9Md0lwV0RDWmdzZ1NyUDRnMkc4LTEzZzIzQk1YRWk1Snk4TVlCNENBbTlJQ2VyVk9Ha3RyWEtRbm9IdmIwNF9pNVoxRFpSQlpkNFotdk9SajljMXB3R19sOXJZRXdJNU9oQ0xEN0duNTBGMW9EUjBkWldCVVZ2dlpWVmlZXzJtQm1JZXJ0UG5uemVYZmM1aGktWTRERk5xRjhGWDFuRl94Z21EUQ?oc=5",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-21T08:45:03Z",
+      "summary": "In September 2026, videos of an illuminated object moving across Tehran’s night sky were shared on social media, showing bright lights but lacking detail on size, speed, or height. The footage has prompted speculation that the object could be a drone, an aircraft, or a UFO, but no reliable evidence confirms its origin or affiliation. Iranian authorities have not publicly identified the object, and the videos do not provide enough information to determine its exact location or nature. Some viewers suggested it might be a drone, a distant plane, or an LED‑lit kite, while others linked it to military activity amid heightened tensions with the US. The sighting coincides with the 50th anniversary of a 1976 Tehran incident involving an unidentified object that was investigated by fighter jets, but no evidence connects the two events.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 56,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "files",
+        "released"
+      ],
+      "sourceQuality": 56,
+      "displayedAt": "2026-09-21T16:45:14Z",
       "translation": {
         "en": {
-          "title": "New waivers may provide critical insight into UAP claims: Avi Loeb",
-          "summary": "The Pentagon’s new waiver allows current and former service members, personnel and contractors with access to UAP‑related National Defense Information to speak openly about what they know, superseding nondisclosure and Special Access Program agreements. Avi Loeb, head of the UAP Science Advisory Council, said the information would still need to be disclosed behind closed doors, so some details could remain off‑limits.",
-          "sourceHash": "01655fa1741b82d887d1be990e70066663320fcd",
+          "title": "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers",
+          "summary": "In September 2026, videos of an illuminated object moving across Tehran’s night sky were shared on social media, showing bright lights but lacking detail on size, speed, or height. The footage has prompted speculation that the object could be a drone, an aircraft, or a UFO, but no reliable evidence confirms its origin or affiliation. Iranian authorities have not publicly identified the object, and the videos do not provide enough information to determine its exact location or nature.",
+          "sourceHash": "d1c05c75cbf47555a0fb381ee61d1751ec8435df",
           "provider": "original"
         },
         "de": {
-          "title": "Neue Verzichtserklärungen könnten wichtige Einblicke in UAP-Ansprüche liefern: Avi Loeb",
-          "summary": "Die neue Ausnahmegenehmigung des Pentagons ermöglicht es aktuellen und ehemaligen Militärangehörigen, Mitarbeitern und Auftragnehmern mit Zugang zu UAP-bezogenen Informationen der Nationalen Verteidigung, offen über ihr Wissen zu sprechen, und ersetzt damit Geheimhaltungsvereinbarungen und Vereinbarungen des Special Access Program. Avi Loeb, Leiter des Wissenschaftlichen Beirats der UAP, sagte, die Informationen müssten weiterhin hinter verschlossenen Türen offengelegt werden, sodass einige Details möglicherweise tabu bleiben.",
-          "sourceHash": "01655fa1741b82d887d1be990e70066663320fcd",
+          "title": "Drohne oder UFO? Unbekanntes Objekt über Teheran gesichtet verlässt das Internet auf der Suche nach Antworten",
+          "summary": "Im September 2026 wurden in den sozialen Medien Videos eines beleuchteten Objekts geteilt, das sich über den Nachthimmel Teherans bewegte und helle Lichter zeigte, aber keine Details zu Größe, Geschwindigkeit oder Höhe enthielt. Das Filmmaterial hat zu Spekulationen geführt, dass es sich bei dem Objekt um eine Drohne, ein Flugzeug oder ein UFO handeln könnte, aber es gibt keine verlässlichen Beweise für seine Herkunft oder Zugehörigkeit. Die iranischen Behörden haben das Objekt nicht öffentlich identifiziert und die Videos liefern nicht genügend Informationen, um seinen genauen Standort oder seine Natur zu bestimmen.",
+          "sourceHash": "d1c05c75cbf47555a0fb381ee61d1751ec8435df",
           "provider": "google"
         }
       }
@@ -355,17 +274,17 @@
       }
     },
     {
-      "id": "sighting-drone-or-ufo-unidentified-object-spotted-over-tehran-leaves-internet-searching-for-answers",
-      "title": "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers",
-      "source": "News18",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQXzVfNHJVWDdJdGQ4cDJZYmV3Tng5RXFfVDJ6bTRRalpSYkxWQ21Hd2U0STdBXzZBdFNUNng2MTBMUFJsZnJSNFZLQ0dFTlRpblZMWmROSzFlNGwtdlBGZi1fMVVSSS1wcjF4WTl3ejRPTTRhU3BFVFNkZUpXQVlMU2xfTk14SVlSaFl4eDBjVWttdXBLZVowbDR6YWFXenc1SjNxV0otOFV4djBKc0tMdnpxRVF5MHZHbGhqcTdnWFZqTUMyYWpUM3BSMUhZTlFvNmJIUtIB2gFBVV95cUxNUGFlY0RwNkJEM2dLWWQ4TFBIQWZ1X3FOb19MOHlYZVJtUXcyZGxnUlQ0T05ETU9Md0lwV0RDWmdzZ1NyUDRnMkc4LTEzZzIzQk1YRWk1Snk4TVlCNENBbTlJQ2VyVk9Ha3RyWEtRbm9IdmIwNF9pNVoxRFpSQlpkNFotdk9SajljMXB3R19sOXJZRXdJNU9oQ0xEN0duNTBGMW9EUjBkWldCVVZ2dlpWVmlZXzJtQm1JZXJ0UG5uemVYZmM1aGktWTRERk5xRjhGWDFuRl94Z21EUQ?oc=5",
-      "date": "2026-09-21",
-      "publishedAt": "2026-09-21T08:45:03Z",
-      "summary": "In September 2026, videos of an illuminated object moving across Tehran’s night sky were shared on social media, showing bright lights but lacking detail on size, speed, or height. The footage has prompted speculation that the object could be a drone, an aircraft, or a UFO, but no reliable evidence confirms its origin or affiliation. Iranian authorities have not publicly identified the object, and the videos do not provide enough information to determine its exact location or nature. Some viewers suggested it might be a drone, a distant plane, or an LED‑lit kite, while others linked it to military activity amid heightened tensions with the US. The sighting coincides with the 50th anniversary of a 1976 Tehran incident involving an unidentified object that was investigated by fighter jets, but no evidence connects the two events.",
+      "id": "new-waivers-may-provide-critical-insight-into-uap-claims-avi-loeb",
+      "title": "New waivers may provide critical insight into UAP claims: Avi Loeb",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaWg2YTRoc0FLRWJleGd2TVFoNkFBQXUwTTNVbWlaTjFQWjFwR013SmU1Mmh6dE52Z3NFOFVxOGgyQ1RDM0dLbnB1S3lKZm92aDNJUFQ3d1VqMTdKYlRNRUpwMnpjT1hZa0t6dEJPQTJBZUZjMDUxUXNmSE5ZZUlNdGNJaktfd0tXZW50N9IBkgFBVV95cUxNNjJUNGpWYUlWT3BLZ2IxN2gwUlRhcDFDUjhmRnkzY3NrODBlQzI1cHpmYUo5aGJ1aHNnV3hzWWtLbkxmbXIyaElGdXM0dmI4ZDVJbDFmcDN5V0syamVzV2hGUFU3S28xMGVYNHdWQmp4TFZfaEZZWGlzQ2Q4R3QxYWdLcUs4cGp0d2dzTG5vdkZpdw?oc=5",
+      "date": "2026-09-15",
+      "publishedAt": "2026-09-15T07:00:00Z",
+      "summary": "",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 45,
+      "quality": 49,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -373,14 +292,9 @@
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
         {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "SIGHTING als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
         },
         {
           "label": "Starker Titel",
@@ -389,27 +303,12 @@
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "SIGHTING"
-      ],
-      "sourceQuality": 45,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
-      "displayedAt": "2026-09-26T08:06:10Z",
-      "translation": {
-        "en": {
-          "title": "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers",
-          "summary": "In September 2026, videos of an illuminated object moving across Tehran’s night sky were shared on social media, showing bright lights but lacking detail on size, speed, or height. The footage has prompted speculation that the object could be a drone, an aircraft, or a UFO, but no reliable evidence confirms its origin or affiliation. Iranian authorities have not publicly identified the object, and the videos do not provide enough information to determine its exact location or nature.",
-          "sourceHash": "d1c05c75cbf47555a0fb381ee61d1751ec8435df",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Drohne oder UFO? Unbekanntes Objekt über Teheran gesichtet verlässt das Internet auf der Suche nach Antworten",
-          "summary": "Im September 2026 wurden in den sozialen Medien Videos eines beleuchteten Objekts geteilt, das sich über den Nachthimmel Teherans bewegte und helle Lichter zeigte, aber keine Details zu Größe, Geschwindigkeit oder Höhe enthielt. Das Filmmaterial hat zu Spekulationen geführt, dass es sich bei dem Objekt um eine Drohne, ein Flugzeug oder ein UFO handeln könnte, aber es gibt keine verlässlichen Beweise für seine Herkunft oder Zugehörigkeit. Die iranischen Behörden haben das Objekt nicht öffentlich identifiziert und die Videos liefern nicht genügend Informationen, um seinen genauen Standort oder seine Natur zu bestimmen.",
-          "sourceHash": "d1c05c75cbf47555a0fb381ee61d1751ec8435df",
-          "provider": "google"
-        }
-      }
+      "matchedTerms": [],
+      "sourceQuality": 49,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-09-26T14:51:40Z"
     }
   ]
 }
