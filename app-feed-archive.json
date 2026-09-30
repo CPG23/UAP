@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-29T16:42:34Z",
+  "timestamp": "2026-09-30T09:05:12Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -76,61 +76,6 @@
       "retainedFromPreviousScan": true
     },
     {
-      "id": "other-worlders-launches-2026-ufo-statistics-hub-with-downloadable-data",
-      "title": "Other Worlders Launches 2026 UFO Statistics Hub With Downloadable Data",
-      "source": "financialcontent.com",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOd0RNUndQbzdyNlZfamNHalZkODhaR1NUMFFwRkRieWZydWl0QTVuZzZ5NGlyRXYycDRzTjRTdkFyV0ZnUUY0THYzYUVzSHUxdDRlRHdFcWs4SGsxYXA1WkhQRzkyY3BwdTJrLV9feVlVM05DaGp2TWxVR1I2dmhqVFBfZVU5Qnh3Q1lkRk1nRkdnV0xycjVCTmJUSVhFZkJ1d080TUNnZVN6TUZLZHQ3b2NLdktud2kxNnpvN3A1cEs4YlBYUjNYaUh1ci11bHdDNGc?oc=5",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-29T02:32:00Z",
-      "summary": "Other Worlders launched a new UFO statistics hub, providing downloadable government and civilian data with clear evidentiary limits and source-linked reporting. source-linked UFO statistics hub that brings official United States government records, civilian reporting totals, reported locations, shapes and historical comparisons into one downloadable resource. -- Other Worlders has launched a newThe new resource reports that the National UFO Reporting Center, known as NUFORC, listed 4,578 reports with sighting dates in calendar year 2025. Its live Reports by Month index listed another 1,886 reports dated from January through 21 August 2026 when checked by Other Worlders.",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 56,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "declassified",
-        "files",
-        "government"
-      ],
-      "sourceQuality": 56,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
-      "displayedAt": "2026-09-29T09:11:24Z"
-    },
-    {
       "id": "we-are-not-alone-coalition-of-ufo-whistleblowers-call-on-trump-to-let-them-publicly-reveal-secrets",
       "title": "‘We are not alone:’ Coalition of UFO whistleblowers call on Trump to let them publicly reveal secrets",
       "source": "New York Post",
@@ -194,7 +139,12 @@
           "sourceHash": "56f02207c4f90237e52d7fe0ed7a2e421a221ded",
           "provider": "google"
         }
-      }
+      },
+      "rssPublishedAt": "2026-09-19T07:00:00Z",
+      "rssDate": "2026-09-16",
+      "sourcePublishedAt": "2026-09-19T08:24:17Z",
+      "sourceDisplayedAt": "2026-09-19T12:24:00Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "the-wrap-ai-safeguards-stay-center-stage-opm-goes-ai-shopping-uap-whistleblowers-get-cover",
@@ -257,6 +207,50 @@
       }
     },
     {
+      "id": "sighting-spacex-starship-ufo-mystery-what-was-the-strange-streak-spotted-during-historic-livestream-on-september",
+      "title": "SpaceX Starship UFO Mystery: What was the strange streak spotted during historic livestream on September...",
+      "source": "Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZ1NCOURFMjVaUjlRX2pfano0cTFrM2NUNUdhUmVCSTVXREZsdVhjeW14OGxsSmVDelh5OFl6aU9xdnR0em9sQ3FrRFdmaC1XdXVhY2lCWlVZN2pzbWMySGx4TU1ZU0xLQWtpNXkwRlNYN3F6dGEyRVdydkpuQ0FPVVNrUDRpNG5RdkdyMFh6OG5wZ2lucjlMUWhuSk1xNWhBcDYwU19tbWJNSFpYX1NHRkVZZzJHNmRaSmRnZHNZa2x1dEJzLUpxa3NMSTdSN3B6UDEtRkJ5SExjR29aOEt2RWpZOFk5R0JDX1h3S1NnWDB4V1huZ1pEMdIB_gFBVV95cUxNLXdBT1cxRlEySGJ6V3MzT1lQclUtc1NvdUpFNDdDZWFWTDZPbThEUHctclByZ19ZbF94VF8xZ0dRYlY3Y2l5dkhxQk96RWhtNDZJT1FIekxKdG5pcjd2b0tvMkt6MlhJVjg2aXFUaDdtR1RGR2VSTkZYamxmWTZpTGdnU2lHTlRaeHg3bjZqNmtKVHR3ZW5SMmVyQmo2cnU5V1Fqc05xWmhTMVRwdUNtZzlQVnh4c3ZoM0NrSHEyMlExdE9OMExpSWE3T256UEZBQzd5NkhBWEhrTFBlQTYxUjNGWUNpQ3ZyZ3VQWkZqZnBkSXVVR1dUT25mNlpLZw?oc=5",
+      "date": "2026-09-26",
+      "publishedAt": "2026-09-29T09:09:46Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "ORBS als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "ORBS"
+      ],
+      "sourceQuality": 45,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-09-30T09:05:12Z"
+    },
+    {
       "id": "sighting-drone-or-ufo-unidentified-object-spotted-over-tehran-leaves-internet-searching-for-answers",
       "title": "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers",
       "source": "News18",
@@ -309,7 +303,41 @@
           "sourceHash": "d1c05c75cbf47555a0fb381ee61d1751ec8435df",
           "provider": "google"
         }
-      }
+      },
+      "rssPublishedAt": "2026-09-21T08:45:03Z",
+      "rssDate": "2026-09-26",
+      "sourcePublishedAt": "2026-09-21T08:45:03Z",
+      "sourceDisplayedAt": "2026-09-21T16:45:14Z",
+      "retainedFromPreviousScan": true
+    },
+    {
+      "id": "file-release-other-worlders-launches-2026-ufo-statistics-hub-with-downloadable-data",
+      "title": "Other Worlders Launches 2026 UFO Statistics Hub With Downloadable Data",
+      "source": "FinancialContent",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOd0RNUndQbzdyNlZfamNHalZkODhaR1NUMFFwRkRieWZydWl0QTVuZzZ5NGlyRXYycDRzTjRTdkFyV0ZnUUY0THYzYUVzSHUxdDRlRHdFcWs4SGsxYXA1WkhQRzkyY3BwdTJrLV9feVlVM05DaGp2TWxVR1I2dmhqVFBfZVU5Qnh3Q1lkRk1nRkdnV0xycjVCTmJUSVhFZkJ1d080TUNnZVN6TUZLZHQ3b2NLdktud2kxNnpvN3A1cEs4YlBYUjNYaUh1ci11bHdDNGc?oc=5",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T02:32:00Z",
+      "summary": "Other Worlders launched a UFO statistics hub that aggregates official U.S. government records, civilian reporting totals, locations, shapes, and historical comparisons into a single downloadable resource. The hub shows that the National UFO Reporting Center (NUFORC) listed 4,578 reports in 2025 and 1,886 reports from January to 21 August 2026, a figure that may change as late or backdated reports are processed, and these numbers are civilian totals, not confirmations of extraterrestrial craft. The Department of Defense’s All‑domain Anomaly Resolution Office (AARO) had 1,870 unidentified anomalous phenomena reports as of 30 May 2025, and during its latest period it received 319 reports, resolving 114 as prosaic and archiving 191 pending corroboration. California led NUFORC’s cumulative U.S. location index with 17,262 reports as of 21 August 2026, a raw count that does not imply a higher rate of unexplained objects in the state. The hub provides charts, source‑linked tables, downloadable CSV and JSON files, and an interactive map of 184 curated archive records, and will be reviewed quarterly or sooner if primary sources publish material changes.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "sourceQuality": 40,
+      "displayedAt": "2026-09-29T09:11:24Z"
     }
   ]
 }
