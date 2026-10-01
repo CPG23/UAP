@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-01T09:31:15Z",
+  "timestamp": "2026-10-01T17:17:31Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -251,6 +251,47 @@
       "retainedFromPreviousScan": true
     },
     {
+      "id": "file-release-50-years-after-1976-ufo-sighting-another-mystery-object-hovers-over-tehran",
+      "title": "50 Years After '1976 UFO Sighting', Another Mystery Object Hovers Over Tehran",
+      "source": "ndtv.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQanZmTVFvV3YtcDRGWGszNmpWNk5XY3BHbnJmQWhUOUh2cmlxZ01XaUxRTkZDX3hNQVFGdXNGSHZDQUdPc01yVnE4ZHRXaTZ3Z3VldkdJUVU5eDdMOGFZVFNyNEd1TFk5WmZXejdIT2tOQ2J0U0cwQldla3A2NElaU3FKMlR1M2JhVXdheE5QVUd0SGR6QnBLd2pMUlN4MmM2TmJ3b1ZIRjQ1c1dET2fSAbYBQVVfeXFMTmV1NlZMbEVIT1ZlRklqSFZ0SVY0c0RzcFpDT3J3aVc2SFVDNFhydEIzMTR4UHMtRjRxaHBqV0plb0JaUmZYbkNHZDVIbEdtbEF3aEptMkxSeTh0S3NOMTFUaHVTUE5DNzZlYW1KZDRvZkltQTRrU2lpMTdoZC1WTHR0V0c2bU1fMm8yMEVVbWRmdjdzNy1vRDVYWDVQOHdGN2RKUmR4TjhFUHhzLS1ONV8xYnV2Q0E?oc=5",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21T07:00:00Z",
+      "summary": "On September 20, 2026, multiple phone videos showing a low‑flying object with bright, multicolored lights hovering over Tehran were posted on social media, with one claim that it was near the Azadegan Expressway. The footage depicts an unidentified object moving in the night sky, but Iranian authorities have not released any official statement identifying the object or assessing it as a threat. The videos have sparked speculation that the lights could be from a military drone, multiple drones, a kite, or another distant object, but no independent verification has confirmed the nature of the object. The incident coincided with heightened tensions between Iran, the United States, and Israel, during which Iran warned it could retaliate against U.S. bases and the U.S. State Department cautioned travelers about possible flight disruptions. The sighting also recalled the 1976 Tehran UFO event, which was officially reported and investigated by Iranian and U.S. agencies, though there is no evidence linking the 1976 object to the current videos.",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "SIGHTING als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "SIGHTING"
+      ],
+      "sourceQuality": 45,
+      "displayedAt": "2026-10-01T17:17:31Z"
+    },
+    {
       "id": "we-are-not-alone-coalition-of-ufo-whistleblowers-call-on-trump-to-let-them-publicly-reveal-secrets",
       "title": "‘We are not alone:’ Coalition of UFO whistleblowers call on Trump to let them publicly reveal secrets",
       "source": "New York Post",
@@ -290,7 +331,7 @@
       ],
       "sourceQuality": 45,
       "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
+      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-09-19T07:00:00Z",
       "translation": {
         "en": {
@@ -305,12 +346,7 @@
           "sourceHash": "56f02207c4f90237e52d7fe0ed7a2e421a221ded",
           "provider": "google"
         }
-      },
-      "rssPublishedAt": "2026-09-19T07:00:00Z",
-      "rssDate": "2026-09-19",
-      "sourcePublishedAt": "2026-09-19T05:24:17Z",
-      "sourceDisplayedAt": "2026-09-19T12:24:00Z",
-      "retainedFromPreviousScan": true
+      }
     },
     {
       "id": "nhi-vs-nhi-david-grusch-tells-joe-rogan-we-have-records-some-uap-crashes-may-be-evidence-of-nhi-at-war-with-each-other",
