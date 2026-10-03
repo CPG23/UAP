@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "2 neue Artikel",
+  "message": "──────────────\nDavid Grusch Tells Joe Rogan a 2004 Study Found Contractor Fraud Liability, Not Public Panic, Was the Real Reason for UAP Secrecy\n──────────────\nMysterious object hovering over Tehran ignites UFO debate\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
