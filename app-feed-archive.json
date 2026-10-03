@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-03T08:39:47Z",
+  "timestamp": "2026-10-03T15:00:18Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -90,7 +90,9 @@
           "source": "finance.biggo.com",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByY1JITmFreDlZUG90TDFONHBuM0VIYThfQ2pBWFUzbjZIUEpRdFV3NWJucm5FSzYtVU01NG9hUS15d1lRU2ZBdzg5RFhmTTR4NGJXRUJCcWdIU2QyYW4w?oc=5",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByY1JITmFreDlZUG90TDFONHBuM0VIYThfQ2pBWFUzbjZIUEpRdFV3NWJucm5FSzYtVU01NG9hUS15d1lRU2ZBdzg5RFhmTTR4NGJXRUJCcWdIU2QyYW4w?oc=5",
-          "publishedAt": "2026-10-01T02:26:14Z"
+          "publishedAt": "2026-10-01T02:26:14Z",
+          "displayedAt": "2026-10-03T08:39:47Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
@@ -117,8 +119,6 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 45,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text_extractive_fallback",
       "displayedAt": "2026-10-03T08:39:47Z"
     },
     {
@@ -208,10 +208,15 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 40,
+      "displayedAt": "2026-10-01T09:31:15Z",
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "displayedAt": "2026-10-01T09:31:15Z"
+      "rssPublishedAt": "2026-10-01T03:31:20Z",
+      "rssDate": "2026-10-01",
+      "sourcePublishedAt": "2026-10-01T03:27:57Z",
+      "sourceDisplayedAt": "2026-10-01T09:31:15Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-spacex-starship-ufo-mystery-what-was-the-strange-streak-spotted-during-historic-livestream-on-september",

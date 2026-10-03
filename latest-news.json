@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-03T08:39:47Z",
+  "timestamp": "2026-10-03T15:00:18Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -10,11 +10,11 @@
       "date": "2026-05-22",
       "publishedAt": "2026-05-22T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 11,
+      "mentions": 12,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
-          "source": "reuters.com",
+          "source": "Reuters",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
           "publishedAt": "2026-05-22T07:00:00Z",
@@ -99,6 +99,15 @@
           "rssPublishedAt": "2026-05-19T07:00:00Z",
           "sourcePublishedAt": "2026-05-19T16:30:23Z",
           "displayedAt": "2026-05-19T07:00:00Z"
+        },
+        {
+          "title": "Mysterious object hovering over Tehran ignites UFO debate",
+          "source": "www.israelhayom.com",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOY2FYaVp5clo5dHVlRTliY2dlT1F4czVVSW1RSzh4QWRKMGtjTTRURXZUYlZPdHlQQWpDZ0h1Z0dtNkNsbEJoQjNGeWxoNWh0cXV0R1JYUDlrNHZoYlZINXlNSlRuYjhBTC1TblFmVVdxdUJmTjVSNVpKTXYtR2ZJZm9pZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOY2FYaVp5clo5dHVlRTliY2dlT1F4czVVSW1RSzh4QWRKMGtjTTRURXZUYlZPdHlQQWpDZ0h1Z0dtNkNsbEJoQjNGeWxoNWh0cXV0R1JYUDlrNHZoYlZINXlNSlRuYjhBTC1TblFmVVdxdUJmTjVSNVpKTXYtR2ZJZm9pZw?oc=5",
+          "publishedAt": "2026-09-22T07:00:00Z",
+          "displayedAt": "2026-10-03T08:39:47Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
@@ -113,7 +122,7 @@
         "What does the second batch of UFO files tell us?",
         "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment"
       ],
-      "quality": 99,
+      "quality": 100,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -132,8 +141,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 50,
-          "text": "11 Quellen im aktuellen Feed."
+          "points": 55,
+          "text": "12 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -141,7 +150,7 @@
         "files",
         "released"
       ],
-      "sourceQuality": 99,
+      "sourceQuality": 100,
       "displayedAt": "2026-09-28T18:20:25Z",
       "sourceDisplayedAt": "2026-05-22T07:00:00Z",
       "retainedFromPreviousScan": true,
@@ -153,10 +162,10 @@
           "provider": "original"
         },
         "de": {
-          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien mit nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium sagt, dass es die zweite Veröffentlichung von freigegebenen und historischen Dateien mit nicht identifizierten anomalen Phänomenen als Teil des Entsiegelungs- und Berichtssystems des Präsidenten für UAP-Begegnungen veröffentlicht oder VERFOLGT. In der Veröffentlichung heißt es, dass die Sammlung auf WAR.GOV/UFO untergebracht bleibt und dass weitere Dateien rollierend veröffentlicht werden. Assistent des Kriegsministers für öffentliche Angelegenheiten und Chef-Pentagon-Sprecher Sean Parnell wird als Quelle der Abrechnung genannt.",
+          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-          "provider": "mymemory"
+          "provider": "google"
         }
       }
     },
@@ -274,10 +283,10 @@
           "provider": "original"
         },
         "de": {
-          "title": "Disclosure Day Grey Alien UFO / UAP Insassen-Design-Erkundungen, die vom Konzeptkünstler Daniel Baker geteilt werden!",
-          "summary": "Disclosure Day Grey Alien UFO / UAP Insassen-Design-Erkundungen, die vom Konzeptkünstler Daniel Baker geteilt werden! | Disclosure Day Filmnachrichten Disclosure Day Grey Alien UFO / UAP Insassen-Design-Erkundungen, die vom Konzeptkünstler Daniel Baker geteilt werden! Der Konzeptkünstler Daniel Baker lieferte eine Reihe alternativer Designs für die Interpretation des klassischen Grey Aliens und SEINER UFO/UAP-Insassen am Disclosure Day.",
+          "title": "Disclosure Day Grey Alien UFO / UAP Insassendesign-Erkundungen, geteilt vom Konzeptkünstler Daniel Baker!",
+          "summary": "Disclosure Day Grey Alien UFO / UAP Insassendesign-Erkundungen, geteilt vom Konzeptkünstler Daniel Baker! | Disclosure Day Film News Disclosure Day Grey Alien UFO / UAP Insassendesign-Erkundungen geteilt vom Konzeptkünstler Daniel Baker! Der Konzeptkünstler Daniel Baker lieferte eine Reihe alternativer Designs für Disclosure Days Interpretation des klassischen Grey Alien und IHRER UFO/UAP-Insassen.",
           "sourceHash": "47c588fc966609d82629a6201071dc2f34e63a6c",
-          "provider": "mymemory"
+          "provider": "google"
         }
       }
     },
@@ -325,8 +334,6 @@
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [],
       "sourceQuality": 45,
-      "summarySource": "source_page",
-      "summaryPolicy": "source_page_article_text",
       "displayedAt": "2026-10-03T08:39:47Z",
       "rssPublishedAt": "2026-09-30T19:08:00Z",
       "rssDate": "2026-09-30",
@@ -341,10 +348,10 @@
           "provider": "original"
         },
         "de": {
-          "title": "David Grusch teilt Joe Rogan mit, dass eine Studie aus dem Jahr 2004 ergab, dass die Haftung des Auftragnehmers für Betrug und nicht die öffentliche Panik der wahre Grund für die UAP-Geheimhaltung war",
-          "summary": "David Grusch teilt Joe Rogan mit, dass eine Studie aus dem Jahr 2004 ergab, dass die Haftung von Auftragnehmern für Betrug, nicht für öffentliche Panik, der wahre Grund für das UAP-Geheimnis war. David Grusch möchte, dass Sie verstehen, dass das Schweigen der Regierung zu nicht identifizierten anomalen Phänomenen nie wirklich darauf abzielte, Sie zu schützen. Der wahre Grund, sagt er, sei viel banaler und viel explosiver: Eine unter der Bush-Regierung in Auftrag gegebene Studie aus dem Jahr 2004 kam zu dem Schluss, dass die Offenlegung vertragsbetrug so umfangreich, dass er den Obersten Gerichtshof erreichen und die Regierung Milliarden an Haftung kosten könnte. \"Diese Gruppe von Auftragnehmern erhielt alleinige Quellverträge und exklusiven Zugang zu diesem für interne Forschung und Entwicklung, wo sie etwas herausfinden und es dann an die Regierung zurückverkaufen\", sagte Grusch zu Joe Rogan auf The Joe Rogan Experience und beschrieb, was er als Pro-und-Cons-Übung im November 2004 bei einer vom Bund finanzierten forschungs- und Entwicklungszentrum in Nord-Virginia.",
+          "title": "David Grusch erzählt Joe Rogan, dass in einer Studie aus dem Jahr 2004 festgestellt wurde, dass die Haftung von Auftragnehmern und nicht öffentliche Panik der wahre Grund für die UAP-Geheimhaltung war",
+          "summary": "David Grusch erzählt Joe Rogan in einer Studie aus dem Jahr 2004, dass die Haftung von Auftragnehmern und nicht öffentliche Panik der wahre Grund für die UAP-Geheimhaltung war. David Grusch möchte, dass Sie verstehen, dass es beim Schweigen der Regierung zu nicht identifizierten anomalen Phänomenen nie wirklich um Ihren Schutz ging. Der wahre Grund, sagt er, sei weitaus profaner und weitaus brisanter: Eine 2004 unter der Bush-Regierung in Auftrag gegebene Studie kam zu dem Schluss, dass die Offenlegung einen Vertragsbetrug auf Bundesebene aufdecken würde, der so weitreichend sei, dass er bis zum Obersten Gerichtshof gelangen und die Regierung Milliarden an Haftung kosten könnte. „Diese Gruppe von Auftragnehmern erhielt Alleinlieferantenverträge und exklusiven Zugriff darauf für interne Forschung und Entwicklung, wo sie etwas austüftelten und es dann an die Regierung zurückverkauften“, sagte Grusch zu Joe Rogan in „The Joe Rogan Experience“ und beschrieb, was er seiner Meinung nach als Pro-und-Contra-Übung im November 2004 in einem staatlich finanzierten Forschungs- und Entwicklungszentrum in Nord-Virginia bestätigt hatte.",
           "sourceHash": "0687097c67c859b0ecb6c02a05c62ee7014b8fd5",
-          "provider": "mymemory"
+          "provider": "google"
         }
       }
     },
@@ -509,13 +516,14 @@
       "matchedTerms": [],
       "sourceQuality": 40,
       "displayedAt": "2026-10-01T09:31:15Z",
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
       "rssPublishedAt": "2026-10-01T03:31:20Z",
       "rssDate": "2026-10-01",
       "sourcePublishedAt": "2026-10-01T03:27:57Z",
-      "sourceDisplayedAt": "2026-10-01T09:31:15Z"
+      "sourceDisplayedAt": "2026-10-01T09:31:15Z",
+      "retainedFromPreviousScan": true,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      }
     },
     {
       "id": "sighting-spacex-starship-ufo-mystery-what-was-the-strange-streak-spotted-during-historic-livestream-on-september",
@@ -605,9 +613,9 @@
         },
         "de": {
           "title": "Other Worlders startet 2026 UFO-Statistik-Hub mit herunterladbaren Daten",
-          "summary": "Other Worlders hat ein UFO-Statistikzentrum ins Leben gerufen, das offizielle Aufzeichnungen der US-Regierung, zivile Berichtssummen, Standorte, Formen und historische Vergleiche in einer einzigen herunterladbaren Ressource zusammenfasst. Der Hub zeigt, dass das National UFO Reporting Center (NUFORC) im Jahr 2025 4.578 Berichte und von Januar bis 21. August 2026 1.886 Berichte aufgelistet hat, eine Zahl, die sich ändern kann, wenn verspätete oder rückdatierte Berichte verarbeitet werden, und diese Zahlen sind zivile summen, nicht Bestätigungen von außerirdischen Schiffen.",
+          "summary": "Other Worlders hat einen UFO-Statistik-Hub gestartet, der offizielle Aufzeichnungen der US-Regierung, zivile Meldezahlen, Standorte, Formen und historische Vergleiche in einer einzigen herunterladbaren Ressource zusammenfasst. Der Hub zeigt, dass das National UFO Reporting Center (NUFORC) 4.578 Berichte im Jahr 2025 und 1.886 Berichte von Januar bis 21. August 2026 aufgelistet hat. Diese Zahl kann sich ändern, wenn verspätete oder rückdatierte Berichte verarbeitet werden. Bei diesen Zahlen handelt es sich um zivile Gesamtzahlen und nicht um Bestätigungen außerirdischer Raumschiffe.",
           "sourceHash": "b6ebf3a003773f8805f175cf68f925262d765141",
-          "provider": "mymemory"
+          "provider": "google"
         }
       }
     },
@@ -650,9 +658,9 @@
         },
         "de": {
           "title": "Mysteriöses Objekt, das über Teheran schwebt, entfacht UFO-Debatte",
-          "summary": "Videoaufnahmen, die in sozialen Medien gepostet wurden, zeigen ein leuchtendes, mehrfarbiges Objekt, das über Teheran schwebt, aber das Filmmaterial ist zu niedrig aufgelöst, um es zu identifizieren. Die iranischen Behörden haben sich nicht öffentlich zu der Sichtung geäußert. Die Zuschauer spekulieren, dass das Objekt alles sein könnte, von einem entfernten Flugzeug oder einem LED-beleuchteten Drachen bis hin zu einer einzelnen Drohne oder einem Schwarm, aber fehlende Daten zu Geschwindigkeit, Höhe und Größe verhindern eine Verifizierung.",
+          "summary": "In sozialen Medien veröffentlichte Videoaufnahmen zeigen ein leuchtendes, mehrfarbiges Objekt, das über Teheran schwebt, aber die Auflösung ist zu niedrig, um es zu identifizieren. Die iranischen Behörden haben die Sichtung nicht öffentlich kommentiert. Zuschauer spekulieren, dass es sich bei dem Objekt um ein weit entferntes Flugzeug, einen LED-beleuchteten Drachen, eine einzelne Drohne oder einen Schwarm handeln könnte, aber fehlende Daten zu Geschwindigkeit, Höhe und Größe verhindern eine Überprüfung.",
           "sourceHash": "5599a0b29973f9982d624abebaa5489d71dd10fc",
-          "provider": "mymemory"
+          "provider": "google"
         }
       }
     }
@@ -668,30 +676,16 @@
     "file-release-mysterious-object-hovering-over-tehran-ignites-ufo-debate": "Video recordings posted on social media show a glowing, multicolored object hovering above Tehran, but the footage is too low‑resolution to identify it. Iranian authorities have not commented publicly on the sighting. Viewers speculate the object could be anything from a distant airplane or LED‑lit kite to a single drone or a swarm, but missing data on speed, altitude, and size prevent verification. The incident coincides with Tehran’s recent warnings of retaliation against U.S. assets and U.S. State Department alerts about possible airspace disruptions, heightening public concern. The videos appeared around the 50th anniversary of a 1976 Iranian UFO incident, but no connection has been established between the two events. Without original footage, precise location data, or official statements, the nature of the object remains an unsolved mystery."
   },
   "notificationBatch": {
-    "timestamp": "2026-10-03T08:39:47Z",
-    "ids": [
-      "program-david-grusch-tells-joe-rogan-a-2004-study-found-contractor-fraud-liability-not-public-panic-was-the-real-reason-for-uap-secrecy",
-      "file-release-mysterious-object-hovering-over-tehran-ignites-ufo-debate"
-    ],
-    "articles": [
-      {
-        "id": "program-david-grusch-tells-joe-rogan-a-2004-study-found-contractor-fraud-liability-not-public-panic-was-the-real-reason-for-uap-secrecy",
-        "title": "David Grusch Tells Joe Rogan a 2004 Study Found Contractor Fraud Liability, Not Public Panic, Was the Real Reason for UAP Secrecy",
-        "source": "finance.biggo.com"
-      },
-      {
-        "id": "file-release-mysterious-object-hovering-over-tehran-ignites-ufo-debate",
-        "title": "Mysterious object hovering over Tehran ignites UFO debate",
-        "source": "www.israelhayom.com"
-      }
-    ]
+    "timestamp": "2026-10-03T15:00:18Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 401,
-    "broadTopics": 186,
+    "broadArticles": 399,
+    "broadTopics": 178,
     "notificationArticles": 1,
     "notificationTopics": 1,
-    "newNotificationTopics": 1,
+    "newNotificationTopics": 0,
     "appTopics": 9,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -699,7 +693,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 3,
+    "regroupedTopics": 4,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -727,15 +721,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 7,
-      "outputArticles": 6,
+      "inputArticles": 8,
+      "outputArticles": 5,
       "preservedSourceSummaries": 4
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 6,
-      "outputArticles": 6,
-      "missingSummaries": 2,
+      "inputArticles": 5,
+      "outputArticles": 5,
+      "missingSummaries": 1,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -749,8 +743,8 @@
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 2,
-      "addedSources": 19,
+      "updatedTopics": 1,
+      "addedSources": 18,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
@@ -765,8 +759,8 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 7,
-      "outputArticles": 7,
+      "inputArticles": 6,
+      "outputArticles": 6,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
@@ -777,21 +771,22 @@
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 7,
+      "inputArticles": 6,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 8,
-      "currentBeforeRestore": 7,
-      "restoredArticles": 2,
+      "archiveCandidates": 9,
+      "currentBeforeRestore": 6,
+      "restoredArticles": 3,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
         "In May, Pastor Perry Stone Revealed Secret Government Meetings With Leading Pastors Ahead of UFO Disclosure — What Have We Learned Since?",
-        "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers"
+        "Drone Or UFO? Unidentified Object Spotted Over Tehran Leaves Internet Searching For Answers",
+        "“NHI vs. NHI” David Grusch Tells Joe Rogan ‘We Have Records’ Some UAP Crashes May Be Evidence of NHI at War with Each Other"
       ]
     },
     "finalFeedSourceConsistency": {
@@ -803,28 +798,28 @@
     },
     "sourceDateEnrichment": {
       "policy": "publisher_sourcePublishedAt_from_resolved_or_discovered_article_url_with_plausibility_window",
-      "checkedSources": 25,
-      "updatedSources": 9,
+      "checkedSources": 26,
+      "updatedSources": 8,
       "maxSourceAgeBeforeRssDays": 60
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 9,
-      "newSources": 3
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 9,
-      "newTopics": 0,
-      "topicsWithNewSources": 0
+      "correctedExistingTopics": 8,
+      "newTopics": 1,
+      "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 2,
-      "freshSources": 3,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 30
+      "seededSeenFromPreviousFeed": 33
     }
   },
   "translations": {
@@ -836,10 +831,10 @@
         "provider": "original"
       },
       "de": {
-        "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien mit nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium sagt, dass es die zweite Veröffentlichung von freigegebenen und historischen Dateien mit nicht identifizierten anomalen Phänomenen als Teil des Entsiegelungs- und Berichtssystems des Präsidenten für UAP-Begegnungen veröffentlicht oder VERFOLGT. In der Veröffentlichung heißt es, dass die Sammlung auf WAR.GOV/UFO untergebracht bleibt und dass weitere Dateien rollierend veröffentlicht werden. Assistent des Kriegsministers für öffentliche Angelegenheiten und Chef-Pentagon-Sprecher Sean Parnell wird als Quelle der Abrechnung genannt.",
+        "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-        "provider": "mymemory"
+        "provider": "google"
       }
     },
     "film-disclosure-day-grey-alien-ufo-uap-occupant-design-explorations-shared-by-concept-artist-daniel-baker": {
@@ -850,10 +845,10 @@
         "provider": "original"
       },
       "de": {
-        "title": "Disclosure Day Grey Alien UFO / UAP Insassen-Design-Erkundungen, die vom Konzeptkünstler Daniel Baker geteilt werden!",
-        "summary": "Disclosure Day Grey Alien UFO / UAP Insassen-Design-Erkundungen, die vom Konzeptkünstler Daniel Baker geteilt werden! | Disclosure Day Filmnachrichten Disclosure Day Grey Alien UFO / UAP Insassen-Design-Erkundungen, die vom Konzeptkünstler Daniel Baker geteilt werden! Der Konzeptkünstler Daniel Baker lieferte eine Reihe alternativer Designs für die Interpretation des klassischen Grey Aliens und SEINER UFO/UAP-Insassen am Disclosure Day.",
+        "title": "Disclosure Day Grey Alien UFO / UAP Insassendesign-Erkundungen, geteilt vom Konzeptkünstler Daniel Baker!",
+        "summary": "Disclosure Day Grey Alien UFO / UAP Insassendesign-Erkundungen, geteilt vom Konzeptkünstler Daniel Baker! | Disclosure Day Film News Disclosure Day Grey Alien UFO / UAP Insassendesign-Erkundungen geteilt vom Konzeptkünstler Daniel Baker! Der Konzeptkünstler Daniel Baker lieferte eine Reihe alternativer Designs für Disclosure Days Interpretation des klassischen Grey Alien und IHRER UFO/UAP-Insassen.",
         "sourceHash": "47c588fc966609d82629a6201071dc2f34e63a6c",
-        "provider": "mymemory"
+        "provider": "google"
       }
     },
     "program-david-grusch-tells-joe-rogan-a-2004-study-found-contractor-fraud-liability-not-public-panic-was-the-real-reason-for-uap-secrecy": {
@@ -864,10 +859,10 @@
         "provider": "original"
       },
       "de": {
-        "title": "David Grusch teilt Joe Rogan mit, dass eine Studie aus dem Jahr 2004 ergab, dass die Haftung des Auftragnehmers für Betrug und nicht die öffentliche Panik der wahre Grund für die UAP-Geheimhaltung war",
-        "summary": "David Grusch teilt Joe Rogan mit, dass eine Studie aus dem Jahr 2004 ergab, dass die Haftung von Auftragnehmern für Betrug, nicht für öffentliche Panik, der wahre Grund für das UAP-Geheimnis war. David Grusch möchte, dass Sie verstehen, dass das Schweigen der Regierung zu nicht identifizierten anomalen Phänomenen nie wirklich darauf abzielte, Sie zu schützen. Der wahre Grund, sagt er, sei viel banaler und viel explosiver: Eine unter der Bush-Regierung in Auftrag gegebene Studie aus dem Jahr 2004 kam zu dem Schluss, dass die Offenlegung vertragsbetrug so umfangreich, dass er den Obersten Gerichtshof erreichen und die Regierung Milliarden an Haftung kosten könnte. \"Diese Gruppe von Auftragnehmern erhielt alleinige Quellverträge und exklusiven Zugang zu diesem für interne Forschung und Entwicklung, wo sie etwas herausfinden und es dann an die Regierung zurückverkaufen\", sagte Grusch zu Joe Rogan auf The Joe Rogan Experience und beschrieb, was er als Pro-und-Cons-Übung im November 2004 bei einer vom Bund finanzierten forschungs- und Entwicklungszentrum in Nord-Virginia.",
+        "title": "David Grusch erzählt Joe Rogan, dass in einer Studie aus dem Jahr 2004 festgestellt wurde, dass die Haftung von Auftragnehmern und nicht öffentliche Panik der wahre Grund für die UAP-Geheimhaltung war",
+        "summary": "David Grusch erzählt Joe Rogan in einer Studie aus dem Jahr 2004, dass die Haftung von Auftragnehmern und nicht öffentliche Panik der wahre Grund für die UAP-Geheimhaltung war. David Grusch möchte, dass Sie verstehen, dass es beim Schweigen der Regierung zu nicht identifizierten anomalen Phänomenen nie wirklich um Ihren Schutz ging. Der wahre Grund, sagt er, sei weitaus profaner und weitaus brisanter: Eine 2004 unter der Bush-Regierung in Auftrag gegebene Studie kam zu dem Schluss, dass die Offenlegung einen Vertragsbetrug auf Bundesebene aufdecken würde, der so weitreichend sei, dass er bis zum Obersten Gerichtshof gelangen und die Regierung Milliarden an Haftung kosten könnte. „Diese Gruppe von Auftragnehmern erhielt Alleinlieferantenverträge und exklusiven Zugriff darauf für interne Forschung und Entwicklung, wo sie etwas austüftelten und es dann an die Regierung zurückverkauften“, sagte Grusch zu Joe Rogan in „The Joe Rogan Experience“ und beschrieb, was er seiner Meinung nach als Pro-und-Contra-Übung im November 2004 in einem staatlich finanzierten Forschungs- und Entwicklungszentrum in Nord-Virginia bestätigt hatte.",
         "sourceHash": "0687097c67c859b0ecb6c02a05c62ee7014b8fd5",
-        "provider": "mymemory"
+        "provider": "google"
       }
     },
     "in-may-pastor-perry-stone-revealed-secret-government-meetings-with-leading-pastors-ahead-of-ufo-disclosure-what-have-we-learned-since": {
@@ -921,9 +916,9 @@
       },
       "de": {
         "title": "Other Worlders startet 2026 UFO-Statistik-Hub mit herunterladbaren Daten",
-        "summary": "Other Worlders hat ein UFO-Statistikzentrum ins Leben gerufen, das offizielle Aufzeichnungen der US-Regierung, zivile Berichtssummen, Standorte, Formen und historische Vergleiche in einer einzigen herunterladbaren Ressource zusammenfasst. Der Hub zeigt, dass das National UFO Reporting Center (NUFORC) im Jahr 2025 4.578 Berichte und von Januar bis 21. August 2026 1.886 Berichte aufgelistet hat, eine Zahl, die sich ändern kann, wenn verspätete oder rückdatierte Berichte verarbeitet werden, und diese Zahlen sind zivile summen, nicht Bestätigungen von außerirdischen Schiffen.",
+        "summary": "Other Worlders hat einen UFO-Statistik-Hub gestartet, der offizielle Aufzeichnungen der US-Regierung, zivile Meldezahlen, Standorte, Formen und historische Vergleiche in einer einzigen herunterladbaren Ressource zusammenfasst. Der Hub zeigt, dass das National UFO Reporting Center (NUFORC) 4.578 Berichte im Jahr 2025 und 1.886 Berichte von Januar bis 21. August 2026 aufgelistet hat. Diese Zahl kann sich ändern, wenn verspätete oder rückdatierte Berichte verarbeitet werden. Bei diesen Zahlen handelt es sich um zivile Gesamtzahlen und nicht um Bestätigungen außerirdischer Raumschiffe.",
         "sourceHash": "b6ebf3a003773f8805f175cf68f925262d765141",
-        "provider": "mymemory"
+        "provider": "google"
       }
     },
     "file-release-mysterious-object-hovering-over-tehran-ignites-ufo-debate": {
@@ -935,9 +930,9 @@
       },
       "de": {
         "title": "Mysteriöses Objekt, das über Teheran schwebt, entfacht UFO-Debatte",
-        "summary": "Videoaufnahmen, die in sozialen Medien gepostet wurden, zeigen ein leuchtendes, mehrfarbiges Objekt, das über Teheran schwebt, aber das Filmmaterial ist zu niedrig aufgelöst, um es zu identifizieren. Die iranischen Behörden haben sich nicht öffentlich zu der Sichtung geäußert. Die Zuschauer spekulieren, dass das Objekt alles sein könnte, von einem entfernten Flugzeug oder einem LED-beleuchteten Drachen bis hin zu einer einzelnen Drohne oder einem Schwarm, aber fehlende Daten zu Geschwindigkeit, Höhe und Größe verhindern eine Verifizierung.",
+        "summary": "In sozialen Medien veröffentlichte Videoaufnahmen zeigen ein leuchtendes, mehrfarbiges Objekt, das über Teheran schwebt, aber die Auflösung ist zu niedrig, um es zu identifizieren. Die iranischen Behörden haben die Sichtung nicht öffentlich kommentiert. Zuschauer spekulieren, dass es sich bei dem Objekt um ein weit entferntes Flugzeug, einen LED-beleuchteten Drachen, eine einzelne Drohne oder einen Schwarm handeln könnte, aber fehlende Daten zu Geschwindigkeit, Höhe und Größe verhindern eine Überprüfung.",
         "sourceHash": "5599a0b29973f9982d624abebaa5489d71dd10fc",
-        "provider": "mymemory"
+        "provider": "google"
       }
     }
   },
