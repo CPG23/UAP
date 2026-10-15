@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-15T07:46:50Z",
+  "timestamp": "2026-10-15T15:24:43Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -68,7 +68,7 @@
       "displayedAt": "2026-10-12T20:03:38Z"
     },
     {
-      "id": "ufo-whistleblower-david-grusch-makes-wild-alien-claims-on-joe-rogan-podcast-greek-gods-and-gorilla-lizards",
+      "id": "program-ufo-whistleblower-david-grusch-makes-wild-alien-claims-on-joe-rogan-podcast-greek-gods-and-gorilla-lizards",
       "title": "UFO whistleblower David Grusch makes wild alien claims on Joe Rogan podcast: ‘Greek gods’ and ‘gorilla lizards’",
       "source": "New York Post",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNnh6M29fV2Q0cVdpZ1JxVThtRVh0RDhPempucE9wMUVva1laLTVHNXdoOTE2TDFEaUt4SjdicUxtTUtzUXlQQ091SW9NeHFoZm83dno0ZVFEOHRCTkoybjA5WUVQbEtvR3JFWGh5d0NQYWpqdy1OMEhBUjF3M0podF9DcDJsRW9SNmZQeFk0cGdURTBhNlZxT0tNMzJpNmdmVjNtbGRR?oc=5",
@@ -82,7 +82,8 @@
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNaTBoQkFQT09PZjhZVnBlSkJiZ1pjRjRhcEowN1BWY2ZPdnNNYl9URmg3SHAybHVyUUZ3UlJqREdYdlpTOFEyRW1vNGpOUld0TkhHTGZvTW9DMnlSMTA1UnR1bVo0M1VsaFFGYUR5TjlfT1NoUy1PaU55LV9aWVVrMXJYcFdQRHRmcl9neFRWYlliTVlxSE84STBBaHA3Si1ySmtCMmpDU3Y4YXNMX1F2MGQxUFdrMXA5TWxKb3AxSS1OX1VackF5R2ozSTlFSWZBS3p3WkJSX0tsanPSAeABQVVfeXFMT1VrZVlJVEdfeEc3NFQ0MUF4SnV3RkFLQXFWLVN2eFZ5UVRHUjFPdElqNDk0Ry0wM1JlaXlGcnFRWWpWNVNlUGxrTFJhaGVxRFVZN3VWQi1QWFhLV0huMzZucXN6cUlMWkJ2QmRGSVZ3SzVRMi0tVXdndklTZnZUTHcyaHM2czhGMlh3X3dDdF9sWkR4aEI3dDREcTBHRm5MX2FHaG5kWkJRdmpmUzBoZkZQdlVnQXhFcGg5aTVyTUROVl9yVGw0YU10TTNtMGNuRFFvQXNNMTNZWndSdk4xcGU?oc=5",
           "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNaTBoQkFQT09PZjhZVnBlSkJiZ1pjRjRhcEowN1BWY2ZPdnNNYl9URmg3SHAybHVyUUZ3UlJqREdYdlpTOFEyRW1vNGpOUld0TkhHTGZvTW9DMnlSMTA1UnR1bVo0M1VsaFFGYUR5TjlfT1NoUy1PaU55LV9aWVVrMXJYcFdQRHRmcl9neFRWYlliTVlxSE84STBBaHA3Si1ySmtCMmpDU3Y4YXNMX1F2MGQxUFdrMXA5TWxKb3AxSS1OX1VackF5R2ozSTlFSWZBS3p3WkJSX0tsanPSAeABQVVfeXFMT1VrZVlJVEdfeEc3NFQ0MUF4SnV3RkFLQXFWLVN2eFZ5UVRHUjFPdElqNDk0Ry0wM1JlaXlGcnFRWWpWNVNlUGxrTFJhaGVxRFVZN3VWQi1QWFhLV0huMzZucXN6cUlMWkJ2QmRGSVZ3SzVRMi0tVXdndklTZnZUTHcyaHM2czhGMlh3X3dDdF9sWkR4aEI3dDREcTBHRm5MX2FHaG5kWkJRdmpmUzBoZkZQdlVnQXhFcGg5aTVyTUROVl9yVGw0YU10TTNtMGNuRFFvQXNNMTNZWndSdk4xcGU?oc=5",
           "source": "LatestLY",
-          "publishedAt": "2026-10-04T15:38:54Z"
+          "publishedAt": "2026-10-04T15:38:54Z",
+          "displayedAt": "2026-10-04T15:38:54Z"
         },
         {
           "title": "Joe Rogan Experience #2560 - David Grusch",
@@ -141,9 +142,7 @@
         "whistleblower"
       ],
       "sourceQuality": 71,
-      "summarySource": "related_visible_article",
-      "summaryPolicy": "same_story_summary_reuse",
-      "displayedAt": "2026-10-15T07:46:50Z"
+      "displayedAt": "2026-10-03T15:40:00Z"
     },
     {
       "id": "nasa-chief-jared-isaacman-says-we-should-stay-open-minded-about-ufos",
