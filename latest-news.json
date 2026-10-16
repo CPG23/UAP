@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-16T07:35:10Z",
+  "timestamp": "2026-10-16T15:04:28Z",
   "articles": [
     {
       "id": "program-ufo-whistleblower-david-grusch-makes-wild-alien-claims-on-joe-rogan-podcast-greek-gods-and-gorilla-lizards",
@@ -94,6 +94,83 @@
       }
     },
     {
+      "id": "nasa-chief-jared-isaacman-thinks-ufo-sightings-could-lead-to-another-sputnik-moment-for-the-u-s",
+      "title": "NASA Chief Jared Isaacman thinks UFO sightings could lead to another 'Sputnik moment' for the U.S.",
+      "source": "Starlust.org",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ3VjN1o2dEZyX3BoejY3c2tjUmE1R2ZYUUFHRWxqYUZEODZDd1hPa19QV1JmVHg1VVZxVlhZS2lPajh0R3FyVUphQTh0WGFvR0xId0laU3VnRTl3WTV2dkQ1Y3VPaHBTNElrT0pUTjJCZ29sX3R6UU50ZXhMVXRubEdLLWNwUV9yY19MUVdEV3BUYk5jX2dTVlUybFdXTGY5a3VRWFV1R2FwRDJyeXcyTTdNY0J0Mk9W?oc=5",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-09T15:03:00Z",
+      "summary": "",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "NASA chief Jared Isaacman says we should stay 'open-minded' about UFOs",
+          "source": "USA Today",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS2I1MVVXczV3YXcxOFJaNVFJMElQeS1aS0FvelByTjRjTTUzalV4QnNnSy1YLU1Rd3JpcVc0SVdzV2JGNW5aYmgzYllxNTBDR0ljRWI2cS04aXd4SmRRdFRnNkxGZ2N0eUVQVUNucS1mcVhUUkg5VnYzVEdtOGJQeGFfVU15bXpJc3o3Sm56Uk9MVVJ4X1RwejJJYXU1Z1Y2bFdCc3RlbUl5YnNHM0R3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS2I1MVVXczV3YXcxOFJaNVFJMElQeS1aS0FvelByTjRjTTUzalV4QnNnSy1YLU1Rd3JpcVc0SVdzV2JGNW5aYmgzYllxNTBDR0ljRWI2cS04aXd4SmRRdFRnNkxGZ2N0eUVQVUNucS1mcVhUUkg5VnYzVEdtOGJQeGFfVU15bXpJc3o3Sm56Uk9MVVJ4X1RwejJJYXU1Z1Y2bFdCc3RlbUl5YnNHM0R3?oc=5",
+          "publishedAt": "2026-10-09T15:03:00Z",
+          "displayedAt": "2026-10-09T15:03:00Z"
+        }
+      ],
+      "clusterTitles": [
+        "NASA chief Jared Isaacman says we should stay 'open-minded' about UFOs"
+      ],
+      "quality": 69,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "NASA als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "NASA als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "NASA"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 69,
+      "displayedAt": "2026-10-16T15:04:28Z",
+      "sourceDisplayedAt": "2026-10-16T15:04:28Z",
+      "sourceIsNew": true
+    },
+    {
       "id": "why-ross-coulthart-says-nasa-s-uap-disclosure-isn-t-complete",
       "title": "Why Ross Coulthart says NASA’s UAP disclosure isn’t complete",
       "source": "NewsNation",
@@ -160,66 +237,6 @@
       "sourceDisplayedAt": "2026-10-12T20:03:38Z"
     },
     {
-      "id": "nasa-chief-jared-isaacman-says-we-should-stay-open-minded-about-ufos",
-      "title": "NASA chief Jared Isaacman says we should stay 'open-minded' about UFOs",
-      "source": "USA Today",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS2I1MVVXczV3YXcxOFJaNVFJMElQeS1aS0FvelByTjRjTTUzalV4QnNnSy1YLU1Rd3JpcVc0SVdzV2JGNW5aYmgzYllxNTBDR0ljRWI2cS04aXd4SmRRdFRnNkxGZ2N0eUVQVUNucS1mcVhUUkg5VnYzVEdtOGJQeGFfVU15bXpJc3o3Sm56Uk9MVVJ4X1RwejJJYXU1Z1Y2bFdCc3RlbUl5YnNHM0R3?oc=5",
-      "date": "2026-10-09",
-      "publishedAt": "2026-10-09T15:03:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 64,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "NASA als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "NASA als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "NASA"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 64,
-      "displayedAt": "2026-10-10T09:09:55Z",
-      "sourceDisplayedAt": "2026-10-10T09:09:55Z"
-    },
-    {
       "id": "questions-outweigh-answers-in-ufo-tome",
       "title": "Questions outweigh answers in UFO tome",
       "source": "Winnipeg Free Press",
@@ -257,13 +274,21 @@
     "program-ufo-whistleblower-david-grusch-makes-wild-alien-claims-on-joe-rogan-podcast-greek-gods-and-gorilla-lizards": "David Grusch Tells Joe Rogan a 2004 Study Found Contractor Fraud Liability, Not Public Panic, Was the Real Reason for UAP Secrecy David Grusch wants you to understand that the government's silence on unidentified anomalous phenomena was never really about protecting you. The real reason, he says, is far more mundane and far more explosive: a 2004 study commissioned under the Bush administration concluded that disclosure would expose federal contract fraud so extensive it could reach the Supreme Court and cost the government billions in liability. \"These set of contractors got sole source contracts and exclusive access to this for internal research and development where they figure out something then sell it back to the government,\" Grusch told Joe Rogan on The Joe Rogan Experience, describing what he says he verified as a November 2004 pros-and-cons exercise at a federally funded research and development center in Northern Virginia."
   },
   "notificationBatch": {
-    "timestamp": "2026-10-16T07:35:10Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-10-16T15:04:28Z",
+    "ids": [
+      "nasa-chief-jared-isaacman-thinks-ufo-sightings-could-lead-to-another-sputnik-moment-for-the-u-s"
+    ],
+    "articles": [
+      {
+        "id": "nasa-chief-jared-isaacman-thinks-ufo-sightings-could-lead-to-another-sputnik-moment-for-the-u-s",
+        "title": "NASA Chief Jared Isaacman thinks UFO sightings could lead to another 'Sputnik moment' for the U.S.",
+        "source": "Starlust.org"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 400,
-    "broadTopics": 185,
+    "broadArticles": 398,
+    "broadTopics": 182,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -299,9 +324,9 @@
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
-          "id": "nasa-chief-jared-isaacman-says-we-should-stay-open-minded-about-ufos",
-          "title": "NASA chief Jared Isaacman says we should stay 'open-minded' about UFOs",
-          "source": "USA Today",
+          "id": "nasa-chief-jared-isaacman-thinks-ufo-sightings-could-lead-to-another-sputnik-moment-for-the-u-s",
+          "title": "NASA Chief Jared Isaacman thinks UFO sightings could lead to another 'Sputnik moment' for the U.S.",
+          "source": "Starlust.org",
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
@@ -374,7 +399,7 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 4,
-      "newSources": 0
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -384,8 +409,8 @@
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 0,
-      "freshSources": 0,
+      "notifications": 1,
+      "freshSources": 1,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 10
