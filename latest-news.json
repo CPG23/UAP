@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T08:10:09Z",
+  "timestamp": "2026-10-19T17:16:07Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -154,7 +154,7 @@
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
@@ -442,13 +442,13 @@
     "program-nhi-vs-nhi-david-grusch-tells-joe-rogan-we-have-records-some-uap-crashes-may-be-evidence-of-nhi-at-war-with-each-other": "David Grusch Tells Joe Rogan a 2004 Study Found Contractor Fraud Liability, Not Public Panic, Was the Real Reason for UAP Secrecy David Grusch wants you to understand that the government's silence on unidentified anomalous phenomena was never really about protecting you. The real reason, he says, is far more mundane and far more explosive: a 2004 study commissioned under the Bush administration concluded that disclosure would expose federal contract fraud so extensive it could reach the Supreme Court and cost the government billions in liability. \"These set of contractors got sole source contracts and exclusive access to this for internal research and development where they figure out something then sell it back to the government,\" Grusch told Joe Rogan on The Joe Rogan Experience, describing what he says he verified as a November 2004 pros-and-cons exercise at a federally funded research and development center in Northern Virginia."
   },
   "notificationBatch": {
-    "timestamp": "2026-10-19T08:10:09Z",
+    "timestamp": "2026-10-19T17:16:07Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 401,
-    "broadTopics": 185,
+    "broadArticles": 400,
+    "broadTopics": 181,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -459,7 +459,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 2,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 4,
+    "regroupedTopics": 3,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -600,7 +600,7 @@
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }
