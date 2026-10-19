@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-18T14:12:37Z",
+  "timestamp": "2026-10-19T08:10:09Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -244,7 +244,7 @@
       "source": "Starlust.org",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ3VjN1o2dEZyX3BoejY3c2tjUmE1R2ZYUUFHRWxqYUZEODZDd1hPa19QV1JmVHg1VVZxVlhZS2lPajh0R3FyVUphQTh0WGFvR0xId0laU3VnRTl3WTV2dkQ1Y3VPaHBTNElrT0pUTjJCZ29sX3R6UU50ZXhMVXRubEdLLWNwUV9yY19MUVdEV3BUYk5jX2dTVlUybFdXTGY5a3VRWFV1R2FwRDJyeXcyTTdNY0J0Mk9W?oc=5",
       "date": "2026-10-08",
-      "publishedAt": "2026-10-09T15:03:00Z",
+      "publishedAt": "2026-10-09T07:00:00Z",
       "summary": "",
       "mentions": 2,
       "otherSources": [
@@ -442,13 +442,13 @@
     "program-nhi-vs-nhi-david-grusch-tells-joe-rogan-we-have-records-some-uap-crashes-may-be-evidence-of-nhi-at-war-with-each-other": "David Grusch Tells Joe Rogan a 2004 Study Found Contractor Fraud Liability, Not Public Panic, Was the Real Reason for UAP Secrecy David Grusch wants you to understand that the government's silence on unidentified anomalous phenomena was never really about protecting you. The real reason, he says, is far more mundane and far more explosive: a 2004 study commissioned under the Bush administration concluded that disclosure would expose federal contract fraud so extensive it could reach the Supreme Court and cost the government billions in liability. \"These set of contractors got sole source contracts and exclusive access to this for internal research and development where they figure out something then sell it back to the government,\" Grusch told Joe Rogan on The Joe Rogan Experience, describing what he says he verified as a November 2004 pros-and-cons exercise at a federally funded research and development center in Northern Virginia."
   },
   "notificationBatch": {
-    "timestamp": "2026-10-18T14:12:37Z",
+    "timestamp": "2026-10-19T08:10:09Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 360,
-    "broadTopics": 173,
+    "broadArticles": 401,
+    "broadTopics": 185,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -555,7 +555,7 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 4,
+      "archiveCandidates": 5,
       "currentBeforeRestore": 5,
       "restoredArticles": 0,
       "blockedUnreachableTitles": 0,
@@ -573,7 +573,7 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 5,
-      "newSources": 11
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -587,7 +587,7 @@
       "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 12
+      "seededSeenFromPreviousFeed": 25
     }
   },
   "translations": {
