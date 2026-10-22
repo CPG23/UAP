@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-22T08:01:27Z",
+  "timestamp": "2026-10-22T15:44:25Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -154,7 +154,7 @@
         },
         "de": {
           "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
           "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
           "provider": "google"
         }
@@ -436,6 +436,62 @@
       "sourceQuality": 64,
       "displayedAt": "2026-10-17T07:14:54Z",
       "sourceDisplayedAt": "2026-10-17T07:14:54Z"
+    },
+    {
+      "id": "sighting-ex-government-uap-hunter-pens-book-describes-aliens-he-s-seen",
+      "title": "Ex-government UAP hunter pens book, describes aliens he’s seen",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON19PLU9Mb1hSeFBDNUNLaFM5UWpqbGVGTVR6bHdwWk43OXEzYTBYMHhzcjZJaDdVM0pEbjFSSE44ME5sN1d2QVZzdlhpWXdackM2SW1BZEMtOW5QUS03Z1I4aUhOaGVxRWNYSDM2aDJ4eGU2WDQ0X0N3TkduY2dUcVlyVFp6d9IBiwFBVV95cUxPckNKZV9jT092TGtKRElCVHNOSjFYaE83Tm84bzNUVU1MTEhmNkNoVS1GWWwtbW1zWU56YTZqaHA2V01OSWNGQ0dZY1BYZFExQnlXZklUMmRkeTdZX1I5d2JIMDJocGpIcVV2ZHg5RXNiRm56d0hERHBoY3A3V3BuN1A5VFFPalF6TWZB?oc=5",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T18:29:33Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 58,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "GOVERNMENT als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "GOVERNMENT als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "GOVERNMENT"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 58,
+      "displayedAt": "2026-10-22T15:44:25Z",
+      "sourceDisplayedAt": "2026-10-22T15:44:25Z",
+      "sourceIsNew": true
     }
   ],
   "summaries": {
@@ -443,17 +499,25 @@
     "program-nhi-vs-nhi-david-grusch-tells-joe-rogan-we-have-records-some-uap-crashes-may-be-evidence-of-nhi-at-war-with-each-other": "David Grusch Tells Joe Rogan a 2004 Study Found Contractor Fraud Liability, Not Public Panic, Was the Real Reason for UAP Secrecy David Grusch wants you to understand that the government's silence on unidentified anomalous phenomena was never really about protecting you. The real reason, he says, is far more mundane and far more explosive: a 2004 study commissioned under the Bush administration concluded that disclosure would expose federal contract fraud so extensive it could reach the Supreme Court and cost the government billions in liability. \"These set of contractors got sole source contracts and exclusive access to this for internal research and development where they figure out something then sell it back to the government,\" Grusch told Joe Rogan on The Joe Rogan Experience, describing what he says he verified as a November 2004 pros-and-cons exercise at a federally funded research and development center in Northern Virginia."
   },
   "notificationBatch": {
-    "timestamp": "2026-10-22T08:01:27Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-10-22T15:44:25Z",
+    "ids": [
+      "sighting-ex-government-uap-hunter-pens-book-describes-aliens-he-s-seen"
+    ],
+    "articles": [
+      {
+        "id": "sighting-ex-government-uap-hunter-pens-book-describes-aliens-he-s-seen",
+        "title": "Ex-government UAP hunter pens book, describes aliens he’s seen",
+        "source": "NewsNation"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 363,
-    "broadTopics": 165,
-    "notificationArticles": 0,
-    "notificationTopics": 0,
-    "newNotificationTopics": 0,
-    "appTopics": 5,
+    "broadArticles": 357,
+    "broadTopics": 169,
+    "notificationArticles": 1,
+    "notificationTopics": 1,
+    "newNotificationTopics": 1,
+    "appTopics": 6,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
@@ -468,15 +532,15 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 3,
+      "attempts": 4,
       "repaired": 0,
       "fallbackRepaired": 0,
-      "missing": 3
+      "missing": 4
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 5,
-      "missing": 3,
+      "kept": 6,
+      "missing": 4,
       "missingItems": [
         {
           "id": "why-ross-coulthart-says-nasa-s-uap-disclosure-isn-t-complete",
@@ -495,20 +559,26 @@
           "title": "Recently Obtained FOIA Records Reveal AARO Quietly Built UAP Partnership With Uruguay",
           "source": "USA Herald",
           "reason": "missing_or_mismatched_article_content_summary"
+        },
+        {
+          "id": "sighting-ex-government-uap-hunter-pens-book-describes-aliens-he-s-seen",
+          "title": "Ex-government UAP hunter pens book, describes aliens he’s seen",
+          "source": "NewsNation",
+          "reason": "missing_or_mismatched_article_content_summary"
         }
       ]
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 5,
-      "outputArticles": 3,
+      "inputArticles": 6,
+      "outputArticles": 4,
       "preservedSourceSummaries": 1
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 3,
-      "outputArticles": 3,
-      "missingSummaries": 2,
+      "inputArticles": 4,
+      "outputArticles": 4,
+      "missingSummaries": 3,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -516,8 +586,8 @@
     },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
-      "updatedArticles": 3,
-      "clearedTranslations": 3,
+      "updatedArticles": 4,
+      "clearedTranslations": 4,
       "reorderedBySourceCount": true
     },
     "relatedSourceBackfill": {
@@ -538,8 +608,8 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 4,
-      "outputArticles": 4,
+      "inputArticles": 5,
+      "outputArticles": 5,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
@@ -550,14 +620,14 @@
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 4,
+      "inputArticles": 5,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 5,
-      "currentBeforeRestore": 4,
+      "currentBeforeRestore": 5,
       "restoredArticles": 1,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
@@ -571,26 +641,26 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 5
+      "articlesRefreshed": 6
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 5,
+      "updatedTopics": 6,
       "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 4,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 6,
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 0,
-      "freshSources": 0,
-      "correctedOldSourceMarkers": 1,
+      "notifications": 1,
+      "freshSources": 1,
+      "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 24
+      "seededSeenFromPreviousFeed": 25
     }
   },
   "translations": {
@@ -603,7 +673,7 @@
       },
       "de": {
         "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
         "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
         "provider": "google"
       }

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-22T08:01:27Z",
+  "timestamp": "2026-10-22T15:44:25Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -198,6 +198,60 @@
       },
       "sourceQuality": 64,
       "displayedAt": "2026-10-17T07:14:54Z"
+    },
+    {
+      "id": "sighting-ex-government-uap-hunter-pens-book-describes-aliens-he-s-seen",
+      "title": "Ex-government UAP hunter pens book, describes aliens he’s seen",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON19PLU9Mb1hSeFBDNUNLaFM5UWpqbGVGTVR6bHdwWk43OXEzYTBYMHhzcjZJaDdVM0pEbjFSSE44ME5sN1d2QVZzdlhpWXdackM2SW1BZEMtOW5QUS03Z1I4aUhOaGVxRWNYSDM2aDJ4eGU2WDQ0X0N3TkduY2dUcVlyVFp6d9IBiwFBVV95cUxPckNKZV9jT092TGtKRElCVHNOSjFYaE83Tm84bzNUVU1MTEhmNkNoVS1GWWwtbW1zWU56YTZqaHA2V01OSWNGQ0dZY1BYZFExQnlXZklUMmRkeTdZX1I5d2JIMDJocGpIcVV2ZHg5RXNiRm56d0hERHBoY3A3V3BuN1A5VFFPalF6TWZB?oc=5",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T18:29:33Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 58,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "GOVERNMENT als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "GOVERNMENT als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "GOVERNMENT"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 58,
+      "displayedAt": "2026-10-22T15:44:25Z"
     },
     {
       "id": "program-nhi-vs-nhi-david-grusch-tells-joe-rogan-we-have-records-some-uap-crashes-may-be-evidence-of-nhi-at-war-with-each-other",
