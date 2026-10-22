@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T15:45:18Z",
+  "timestamp": "2026-10-22T08:01:27Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -10,7 +10,7 @@
       "date": "2026-05-22",
       "publishedAt": "2026-05-22T00:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 11,
+      "mentions": 12,
       "otherSources": [
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -77,6 +77,14 @@
           "displayedAt": "2026-05-22T07:00:00Z"
         },
         {
+          "title": "Highlights From 2nd Batch of Declassified UFO Files",
+          "source": "NTD News",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
+          "publishedAt": "2026-05-22T07:00:00Z",
+          "displayedAt": "2026-05-22T07:00:00Z"
+        },
+        {
           "title": "What does the second batch of UFO files tell us?",
           "source": "NewsNation",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
@@ -102,10 +110,10 @@
         "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
         "New videos from Pentagon’s second batch of UFO files",
         "Pentagon releases new batch of UFO files",
-        "What does the second batch of UFO files tell us?",
-        "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment"
+        "Highlights From 2nd Batch of Declassified UFO Files",
+        "What does the second batch of UFO files tell us?"
       ],
-      "quality": 99,
+      "quality": 100,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -124,8 +132,8 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 50,
-          "text": "11 Quellen im aktuellen Feed."
+          "points": 55,
+          "text": "12 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -133,9 +141,9 @@
         "files",
         "released"
       ],
-      "sourceQuality": 99,
+      "sourceQuality": 100,
       "displayedAt": "2026-05-22T07:00:00Z",
-      "sourceDisplayedAt": "2026-10-21T15:45:18Z",
+      "sourceDisplayedAt": "2026-05-22T00:00:00Z",
       "retainedFromPreviousScan": true,
       "translation": {
         "en": {
@@ -304,7 +312,8 @@
       },
       "sourceQuality": 69,
       "displayedAt": "2026-10-16T15:04:28Z",
-      "sourceDisplayedAt": "2026-10-16T15:04:28Z"
+      "sourceDisplayedAt": "2026-10-16T15:04:28Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "why-ross-coulthart-says-nasa-s-uap-disclosure-isn-t-complete",
@@ -434,13 +443,13 @@
     "program-nhi-vs-nhi-david-grusch-tells-joe-rogan-we-have-records-some-uap-crashes-may-be-evidence-of-nhi-at-war-with-each-other": "David Grusch Tells Joe Rogan a 2004 Study Found Contractor Fraud Liability, Not Public Panic, Was the Real Reason for UAP Secrecy David Grusch wants you to understand that the government's silence on unidentified anomalous phenomena was never really about protecting you. The real reason, he says, is far more mundane and far more explosive: a 2004 study commissioned under the Bush administration concluded that disclosure would expose federal contract fraud so extensive it could reach the Supreme Court and cost the government billions in liability. \"These set of contractors got sole source contracts and exclusive access to this for internal research and development where they figure out something then sell it back to the government,\" Grusch told Joe Rogan on The Joe Rogan Experience, describing what he says he verified as a November 2004 pros-and-cons exercise at a federally funded research and development center in Northern Virginia."
   },
   "notificationBatch": {
-    "timestamp": "2026-10-21T15:45:18Z",
+    "timestamp": "2026-10-22T08:01:27Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 349,
-    "broadTopics": 151,
+    "broadArticles": 363,
+    "broadTopics": 165,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -491,15 +500,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 7,
-      "outputArticles": 4,
+      "inputArticles": 5,
+      "outputArticles": 3,
       "preservedSourceSummaries": 1
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 4,
-      "outputArticles": 4,
-      "missingSummaries": 3,
+      "inputArticles": 3,
+      "outputArticles": 3,
+      "missingSummaries": 2,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -520,7 +529,7 @@
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 13,
+      "sources": 14,
       "cleanedArticles": 1,
       "removedDuplicateTopics": 0,
       "staleSummariesCleared": 0,
@@ -529,8 +538,8 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 5,
-      "outputArticles": 5,
+      "inputArticles": 4,
+      "outputArticles": 4,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
@@ -541,19 +550,21 @@
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 5,
+      "inputArticles": 4,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 5,
-      "currentBeforeRestore": 5,
-      "restoredArticles": 0,
+      "currentBeforeRestore": 4,
+      "restoredArticles": 1,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
-      "restoredTitles": []
+      "restoredTitles": [
+        "NASA Chief Jared Isaacman thinks UFO sightings could lead to another 'Sputnik moment' for the U.S."
+      ]
     },
     "finalFeedSourceConsistency": {
       "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v5_restore_department_sources",
@@ -565,7 +576,7 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 5,
-      "newSources": 0
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -577,7 +588,7 @@
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
       "notifications": 0,
       "freshSources": 0,
-      "correctedOldSourceMarkers": 0,
+      "correctedOldSourceMarkers": 1,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 24
     }

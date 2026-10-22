@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T15:45:18Z",
+  "timestamp": "2026-10-22T08:01:27Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -89,7 +89,7 @@
       "clusterTitles": [
         "NASA chief Jared Isaacman says we should stay 'open-minded' about UFOs"
       ],
-      "quality": 64,
+      "quality": 69,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -125,6 +125,11 @@
           "label": "Behörde im Titel",
           "points": 6,
           "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
@@ -134,8 +139,10 @@
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "sourceQuality": 64,
-      "displayedAt": "2026-10-16T15:04:28Z"
+      "sourceQuality": 69,
+      "displayedAt": "2026-10-16T15:04:28Z",
+      "sourceDisplayedAt": "2026-10-16T15:04:28Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "recently-obtained-foia-records-reveal-aaro-quietly-built-uap-partnership-with-uruguay",
