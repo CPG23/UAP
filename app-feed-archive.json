@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T08:01:03Z",
+  "timestamp": "2026-10-23T15:32:30Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -174,7 +174,9 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 58,
-      "displayedAt": "2026-10-22T15:44:25Z"
+      "displayedAt": "2026-10-22T15:44:25Z",
+      "sourceDisplayedAt": "2026-10-22T15:44:25Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "program-nhi-vs-nhi-david-grusch-tells-joe-rogan-we-have-records-some-uap-crashes-may-be-evidence-of-nhi-at-war-with-each-other",
@@ -254,6 +256,55 @@
         }
       },
       "retainedFromPreviousScan": true
+    },
+    {
+      "id": "sighting-mysterious-black-triangles-spotted-going-1-800-mph-over-secret-us-military-bases-latest-ufo-file-dump-reveals",
+      "title": "Mysterious black triangles spotted going 1,800 mph over secret US military bases, latest UFO file dump reveals",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQjRrN2h3YTZxamhJcFBqNTNJLTNhSDZadlVKYW5tV3ladERncEJSTkNxbXRXWkpmSXVSajlwQTQ2czFMS0x2Sm1yVUdLbmFzMHFucEdUXzlqU2hjQWk5MEhuQUVIY0tfM1EwU0ROTUxubXJDcVdpVWRzU3J0UDZvVW5NNGE2MGxBYVVRV0N5aDlSdzU5Qm1DTUVvNV93QWotdHV3UFY3ZWtRMmlxYVhjZUc3c2pubTNia2NTd3JJOHRuUnJNOTl2S05UR2Y?oc=5",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T12:02:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 49,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "MILITARY als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "MILITARY als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "MILITARY"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 49,
+      "displayedAt": "2026-10-23T15:32:30Z"
     }
   ]
 }
