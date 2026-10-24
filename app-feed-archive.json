@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24T07:40:34Z",
+  "timestamp": "2026-10-24T14:10:41Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -73,7 +73,7 @@
       "source": "NewsNation",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1eXpOZmU5SGE4WkczMzdLekVteFN6UnRTUG00dENoRkRTWWZfalhqaml2alNPSWdvOFRxUmh4OXZZSXpQYnVrclZFclJpbmEwSHZOMVA0aE8tbzR5UFJpRm9zODB6VE54QTJpU19acllGd9IBd0FVX3lxTE5KQnJJbWp6Q3llRFY5azBVZ0F2d2tsZUpNRXZWeEhDNzE1RXJYV2V0dUZsV1NJdEdOV0dnaHlpc1BaWnVTV1VlUmZUMnlyWW9YZzBKODdNSmNhV3RWel9xSHhQVlQzdWItdUVWLTFBSlRsSnJVVWl3?oc=5",
       "date": "2026-10-24",
-      "publishedAt": "2026-10-24T05:05:58Z",
+      "publishedAt": "2026-10-24T06:04:29Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
@@ -180,10 +180,10 @@
       "matchedTerms": [
         "military"
       ],
-      "sourceQuality": 64,
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
+      "sourceQuality": 64,
       "displayedAt": "2026-10-23T15:32:30Z"
     },
     {
@@ -246,7 +246,7 @@
       "title": "Strange triangular craft reported in new U.S. government UFO release",
       "source": "Scientific American",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdjZyLVZwVDVqT1Q0SnNEV0I2VXVBeXpUMm5pbWFqdVNTQWJBMXVGdHhkY3l3bUZBczJQN0k2eDRHbDRSQ09YUjZlUzRneV9wY24tc2xYUW9EVm1IYmlYN0RlOGh4cE9SdVNBUmdEMW94T2ZmWklzdzhuU21YUGFzNUl2UWdqT2o4cVdSWFVCTjVRNmRDbGNJUmRoN21NUHU1VlBTUzZFRFluZzlvS3AwWQ?oc=5",
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "publishedAt": "2026-10-23T18:30:00Z",
       "summary": "",
       "mentions": 1,
