@@ -1,19 +1,29 @@
 {
-  "timestamp": "2026-10-26T17:04:24Z",
+  "timestamp": "2026-10-27T08:26:43Z",
   "retentionDays": 14,
   "articles": [
     {
-      "id": "why-ross-coulthart-says-nasa-s-uap-disclosure-isn-t-complete",
-      "title": "Why Ross Coulthart says NASA’s UAP disclosure isn’t complete",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ3FRODNlSzVONkdSRl9TcDdScUtJdHRBV0ZIRkpXMEJwR1FWajAzM2Nsdk1BYVlJQUJtM2c0bDdxQkUyRFpmOGpUTllBakZlMXl2al8zRFZjUzAzTklsdWpKMTRYM3Z1UElfMWhCOEhZbFFRNzRtSzB6RDV4elJNR3h1aEtTZVNLNUgxN2xxWdIBlAFBVV95cUxPZHRqbG1wSFhQRGR3M0xIV3lqcGdkU1JzTng2cDZKYXhYUXA3LWRFNFdaSUU3UXhodk5GbDM4clUybkEwUVlSS3dIMjV1OFE0aXlBNy1sSFgycDNsVE1IcG5zbVpvUEV4SEowYUZiNEdHX1ZQQzFJNUhWUUw0d1V6eVg3R3YxMkdoZjhkc1hMaTkwVFpN?oc=5",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T05:17:41Z",
+      "id": "pentagon-s-ufo-files-reveal-black-triangles-over-military-sites",
+      "title": "Pentagon's UFO files reveal black triangles over military sites",
+      "source": "USA Today",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHdfVE5jbmVSejdNbEtqdl9xSE02RWJJTWowNUFhWXk1dDJkTHp2QlNjWVJqX1MzaExBYlFETVZ6MElLUzJralptbl9Jc1ZMMnBpcEE5QTNNcUJTRFlnSGlGbjY5WEYxRmRvejZkMlUxS1gzZUI1UklNZmE5Q09KUGVnOTdib2ZtbUZNTEU3eU9vVXdwS1hicEtsNDR6ZjVYYXk3T2ZKajYyQVBWWlE?oc=5",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-26T14:56:00Z",
       "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 80,
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "Pentagon UAP files part 7: Silent black triangles",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56UTZJeUJSM1RLQklheXNvWWlyY050ZnJZV2gzQ3QxaENudkpORDdWc3g5a1NzcllxVjE1NDAtbVl4R0paamlCZFFUZFFfREZodHhwWnFkWkQwZHFQQy10LVNtdlMwUnpLVDRBRmw3b2tFc1U?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56UTZJeUJSM1RLQklheXNvWWlyY050ZnJZV2gzQ3QxaENudkpORDdWc3g5a1NzcllxVjE1NDAtbVl4R0paamlCZFFUZFFfREZodHhwWnFkWkQwZHFQQy10LVNtdlMwUnpLVDRBRmw3b2tFc1U?oc=5",
+          "source": "EarthSky",
+          "publishedAt": "2026-10-25T10:00:43Z"
+        }
+      ],
+      "clusterTitles": [
+        "Pentagon UAP files part 7: Silent black triangles"
+      ],
+      "quality": 83,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -22,17 +32,17 @@
         },
         {
           "label": "Begriffe",
-          "points": 6,
-          "text": "DISCLOSURE, NASA als relevante Themenbegriffe erkannt."
+          "points": 9,
+          "text": "FBI, PENTAGON, SIGHTING als relevante Themenbegriffe erkannt."
         },
         {
           "label": "Offiziell",
           "points": 8,
-          "text": "DISCLOSURE, NASA als offizieller Kontext erkannt."
+          "text": "FBI, PENTAGON als offizieller Kontext erkannt."
         },
         {
           "label": "Titel",
-          "points": 4,
+          "points": 6,
           "text": "Relevante Begriffe stehen direkt im Titel."
         },
         {
@@ -46,26 +56,27 @@
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
         },
         {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
           "label": "Behörde im Titel",
           "points": 6,
           "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        },
+        {
+          "label": "Mehrere Quellen",
+          "points": 5,
+          "text": "2 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "DISCLOSURE",
-        "NASA"
+        "FBI",
+        "PENTAGON",
+        "SIGHTING"
       ],
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "sourceQuality": 80,
-      "displayedAt": "2026-10-12T20:03:38Z"
+      "sourceQuality": 83,
+      "displayedAt": "2026-10-27T08:26:43Z"
     },
     {
       "id": "new-ufo-files-include-details-of-strange-triangular-craft-absolute-acoustic-silence",
@@ -139,67 +150,6 @@
         "articleContentSummary": "missing",
         "message": "Keine verlÃ¤ssliche Zusammenfassung verfÃ¼gbar. GitHub versucht beim nÃ¤chsten Scan automatisch, diese zu ergÃ¤nzen."
       }
-    },
-    {
-      "id": "pentagon-uap-files-part-7-silent-black-triangles",
-      "title": "Pentagon UAP files part 7: Silent black triangles",
-      "source": "EarthSky",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56UTZJeUJSM1RLQklheXNvWWlyY050ZnJZV2gzQ3QxaENudkpORDdWc3g5a1NzcllxVjE1NDAtbVl4R0paamlCZFFUZFFfREZodHhwWnFkWkQwZHFQQy10LVNtdlMwUnpLVDRBRmw3b2tFc1U?oc=5",
-      "date": "2026-10-25",
-      "publishedAt": "2026-10-25T10:00:43Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 78,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 9,
-          "text": "FBI, PENTAGON, SIGHTING als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "FBI, PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 6,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "FBI",
-        "PENTAGON",
-        "SIGHTING"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 78,
-      "displayedAt": "2026-10-26T08:12:06Z"
     },
     {
       "id": "sighting-mysterious-black-triangles-spotted-going-1-800-mph-over-secret-us-military-bases-latest-ufo-file-dump-reveals",
@@ -486,6 +436,55 @@
       "displayedAt": "2026-10-22T15:44:25Z",
       "sourceDisplayedAt": "2026-10-22T15:44:25Z",
       "retainedFromPreviousScan": true
+    },
+    {
+      "id": "fbi-agents-witnessed-eerie-silent-ufo-over-national-security-site-in-june",
+      "title": "FBI Agents Witnessed Eerie Silent UFO Over 'National Security Site' In June",
+      "source": "HuffPost",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWWhpZUpCZTllek5RYlZsSVdKZVNjYVFybUFVQlNXUWRBVkNlaEJ4WXBJdXdyeEtIdG5SVEZsVEVJZTNHMjF3T0ZuT215SGxfdU5xd1JLcmxjVzZQVzJQMXNRTXpMMjVhdWdsb3VLMWlZeDRnUjE4VWdBcTBZYUdUYW9OSnRHNUtRYXNXMjVHdlgwcDDSAZgBQVVfeXFMUFlFWlNpdTBLWkkzT0ExMDZpX1dqZ2dYVVZPUkx0Z3RjbTAwOVFVU1pPSWVSSGJVekxfS1h3UFVwcWVYLWZ3cUtIQUJYYUlWRWl0eU93UWJ2NnpDb3RCTzMtMG5yWndmUTV0UmlqT2VyV1dLU2NQRWxBNlBZVFhFeFBVbzA0aWVkNk1OalZTckpMQ2RnNGF3YjM?oc=5",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T07:27:32Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 49,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "FBI als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "FBI als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "FBI"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 49,
+      "displayedAt": "2026-10-27T08:26:43Z"
     },
     {
       "id": "sighting-glowing-ufos-spotted-racing-over-the-atlantic-at-hypersonic-speeds-as-sailors-describe-them-vanishing-and-reappearing",
