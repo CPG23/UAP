@@ -1,175 +1,24 @@
 {
-  "timestamp": "2026-10-27T16:07:16Z",
+  "timestamp": "2026-10-28T09:03:59Z",
   "articles": [
     {
-      "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-      "source": "U.S. Department of War (.gov)",
-      "link": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-      "url": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
-      "date": "2026-05-22",
-      "publishedAt": "2026-05-22T00:00:00Z",
-      "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 12,
-      "otherSources": [
-        {
-          "title": "US releases second batch of government declassified UFO files",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDNibGFMdkpoM3Y0Tk1TbHNXRl9YdVlmakdWS2stc2hDeUxTSzRkWnhWZHBFc2FsbTNiZ1VFTlBwcWVNTW01UHE0RzZMS1BGNERSY1Z4eHlpa3lZZDZNWUliMmEzb2M2U0VrMlNQQkpGS0s5Zi1TdHc0VWEyNXVFUFpzMnpYRUtJaVllWjVZYjZkNkVqQk9zbFJNYjZoUFVFTlRfZnB3?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Watch: Pentagon Releases New Batch of UFO Files",
-          "source": "MTV Lebanon",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUTBuNkl6UlVEdVhySDBrcFczTy0wR0xtQ1N0Vnk5RFUxQTd1c01nY21oUi1uMjJfRnU2VjU3U1lEMnlseG9DQ3RxYVc2dEdGbHpHT2szcTlEaFlSWXdtQWJ4Nl8tc2lOcXNyZ2wxNXJSbkhlLVBhY19oa0ZNSHFRaE8zel9qdDhscm1HNFNUTVBuYWNkN1doaDU3QjJpNm1DMkE?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUTBuNkl6UlVEdVhySDBrcFczTy0wR0xtQ1N0Vnk5RFUxQTd1c01nY21oUi1uMjJfRnU2VjU3U1lEMnlseG9DQ3RxYVc2dEdGbHpHT2szcTlEaFlSWXdtQWJ4Nl8tc2lOcXNyZ2wxNXJSbkhlLVBhY19oa0ZNSHFRaE8zel9qdDhscm1HNFNUTVBuYWNkN1doaDU3QjJpNm1DMkE?oc=5",
-          "publishedAt": "2026-09-19T07:00:00Z",
-          "displayedAt": "2026-09-19T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases sixth batch of declassified UFO files including video of swarm of objects over Utah in 1952",
-          "source": "LiveNOW from FOX",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbGRja0xDazdIR2FJOGI1WWQ1Y25qRE4tSDNwUEFkYzdCQ0FMLXBQZFpKV2hMY0xyV2RhcGo2bXNmVVloYjRpeEZUZFR5aUM2VXBuSTdTNmFINVlDeWY5dkVaVG5CbDB3UlVWNEsybmtteXRnajBTUnI1bkQtaWR5TndjZ3VLVGtiaG9QNw?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbGRja0xDazdIR2FJOGI1WWQ1Y25qRE4tSDNwUEFkYzdCQ0FMLXBQZFpKV2hMY0xyV2RhcGo2bXNmVVloYjRpeEZUZFR5aUM2VXBuSTdTNmFINVlDeWY5dkVaVG5CbDB3UlVWNEsybmtteXRnajBTUnI1bkQtaWR5TndjZ3VLVGtiaG9QNw?oc=5",
-          "publishedAt": "2026-09-18T07:00:00Z",
-          "displayedAt": "2026-09-18T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases more UFO files, including documents on secretive military program",
-          "source": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GenVudndBakoyT05oTDltSnppZTlzM3lKeUJtNE5CVUN1WW5hYkRsLS1hN3FHTm1DNG9hdFJJMkFqSDhzRWNMam91eldxdDBvSzB6NGszeWJOV3hjY2F1aUNueHRzcElFRi1tTGRzZmRFUQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GenVudndBakoyT05oTDltSnppZTlzM3lKeUJtNE5CVUN1WW5hYkRsLS1hN3FHTm1DNG9hdFJJMkFqSDhzRWNMam91eldxdDBvSzB6NGszeWJOV3hjY2F1aUNueHRzcElFRi1tTGRzZmRFUQ?oc=5",
-          "publishedAt": "2026-09-18T07:00:00Z",
-          "displayedAt": "2026-09-18T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases NEW batch of UFO files",
-          "source": "Fox News",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aS1pnN09Ha2lNSDZqeVVWSDhLRGpkcHdKOGlOWm9XVTd6YU1QNnM4Q0NNVXRkbmdWR0Zfbm1iNDZqZm0yZzNXXzlkY09ObDh0TS0tMFFn?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aS1pnN09Ha2lNSDZqeVVWSDhLRGpkcHdKOGlOWm9XVTd6YU1QNnM4Q0NNVXRkbmdWR0Zfbm1iNDZqZm0yZzNXXzlkY09ObDh0TS0tMFFn?oc=5",
-          "publishedAt": "2026-08-08T07:00:00Z",
-          "displayedAt": "2026-08-08T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
-          "source": "LiveNOW from FOX",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0lXR2ZwYW56QncwLWg1UEdOT1FPTXdhSThEdll6RVF1RWpBTlVFaGt2NmNlN3czaURFbWV2bjlubGo5TUFMSDNqci03V0t6OWFKWWhBRlBRLWdxcWpFSlhGUWU5c1VRck81VzBNdXE4dmhoQTNyMjRBbG15dWpfM0tNU0dGUXlFcFHSAY8BQVVfeXFMT3E0MjFpLTZGWkpGZ1pGanljSGNrMEU0NlluY0JLSEM0Q2xCRGp4RDdLRXRpdHVxYlBpUTRSS29sV0FwWi1tc0wyWnFXd2MzWlhJbFYxdmpwOXhwUmk1SS16Q25fVm13Nl9qQkxsSHhvVU9PRUUyTHY2WGRTbzUyaXpiZi1wd05uSzRUU2l6Nkk?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "New videos from Pentagon’s second batch of UFO files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ3E2QUl1MnFNVG1LQVBvc25YOWdXWDY3dHIzbnVEcHRyTzFnVnh0VUxiTXFGZ0MwWmplRUtqUnV1STFGSVNzSGNBWmotT08tUWdoYzdnN2l6SWxFWFVFWnZ4TnozOWVVYU16TUVxQU14WHFsX3BGdktscHJtdnZjYUZRSFd0clVpZ3I2aThBNGVWRFZ0Z1lBdUdLSGRrUVY4T090WEdMYU9SUQ?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Pentagon releases new batch of UFO files",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMy1CX0k2RGthdEVjd0FoNmU3LTNGYzRuUi1BRktrOGNmTFdvTF9qMGduZndzeXU0dmI2OUFLWWx2N19MMVdTZjByLTZUS3d2elRDdnJXaGJ4ek5ZVkozSThvZVFfMS1lbXIyc2NWd3p6U09fMWdnVk5ueG5ISHZIZzhqcHg0eWNRV0JwS1J4LXB2ZnPSAZgBQVVfeXFMTVgwU1UxUnkyckduQ1FBQzMwa2w3SWxtVTIyOTB4ejVfNUZPQUpDRWRpa3VhX2RIQ3VxWXJyS2s0YV9UN3lkNEs5RXMyWWFhblQyT3JweF9LemY4bFhCdmJ1X1pHRFNsY0V6X0tfbFRxYWVqRnZET2tWWHFVRFl3X0pCMWY4cTZxMG1adk1MeWdvVUhjdWtYVDQ?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Highlights From 2nd Batch of Declassified UFO Files",
-          "source": "NTD News",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "What does the second batch of UFO files tell us?",
-          "source": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NZ0UybXdhYTlsM3pnbWprQmhZWW1qaGctdUdjaDB6b1BTTTNkdmpOVWJxdGJBUU9BcjNqZE1BaDF4SVNGdm1LT2xaUEZCUk1LUEEwQzk1TThtNTNueTRpWUJmX0ZBWUJBamFSUUE3LXAwOXNpS3cwZUw3OE1BSlnSAYQBQVVfeXFMTkpRcFBWUXdEMUpBcVlaSjVmWTF1dzk1ZzljcHA3Z3hNdF94QVhkRGlWejlVdFY1ZlVEQ3RIVmgyb2JxYmg3dDFVb1JRanFwbEhCajltblBlVWdYc3dXVzFzZWxQX0hUbUpWZHBOYzFnRFE1bjFIejJOX2ZVSmNfM0FiMFRB?oc=5",
-          "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-05-22T07:00:00Z"
-        },
-        {
-          "title": "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
-          "source": "Fox News",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmJQXzBVTDBVc0ZtX080YjRVRHNxbEVHUnJ0anlYc2p3amtPSHBucVAtY3lHY09GM2w1RkFpQ1RES1VUWHdNbThET2tKMFlNNXVkdEtfRW1yXzVmeVU5OTNRc1QyVGowOGRicDc3M3RHTm04Y0FXLTZDMkFCb1lVZnN0eldVbGIwQ2k0S3JMSTBuRkxkcVBzQktGY9IBoAFBVV95cUxQbHJFclV3NG54THkzdjdmSXJpQkh3T1hTUU94UUxHOEhkWTFZUDNsUW83cTgybTgyOGh4cHdDcjRSa0lQa056X3VYUEg5UUM3ME1XbzhQSmFjZERKU2thVE9KOFJZa3JpaW9XN2NzaHpiUXJvR1Q5UnpkeEFjdU5kc2l0OHlmOHJxNXNTVWM0dGtXTUFPQlJnZ19GbTNoMXRv?oc=5",
-          "publishedAt": "2026-05-19T07:00:00Z",
-          "displayedAt": "2026-05-19T07:00:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "US releases second batch of government declassified UFO files",
-        "Watch: Pentagon Releases New Batch of UFO Files",
-        "Pentagon releases sixth batch of declassified UFO files including video of swarm of objects over Utah in 1952",
-        "Pentagon releases more UFO files, including documents on secretive military program",
-        "Pentagon releases NEW batch of UFO files",
-        "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
-        "New videos from Pentagon’s second batch of UFO files",
-        "Pentagon releases new batch of UFO files",
-        "Highlights From 2nd Batch of Declassified UFO Files",
-        "What does the second batch of UFO files tell us?"
-      ],
-      "quality": 100,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthaelt einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 55,
-          "text": "12 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "released"
-      ],
-      "sourceQuality": 100,
-      "displayedAt": "2026-05-22T00:00:00Z",
-      "sourceDisplayedAt": "2026-05-22T00:00:00Z",
-      "retainedFromPreviousScan": true,
-      "translation": {
-        "en": {
-          "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-          "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-          "provider": "original"
-        },
-        "de": {
-          "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-          "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-          "provider": "google"
-        }
-      }
-    },
-    {
-      "id": "latest-pentagon-ufo-files-include-reports-of-triangular-craft-over-military-sites",
-      "title": "Latest Pentagon UFO files include reports of triangular craft over military sites",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1eXpOZmU5SGE4WkczMzdLekVteFN6UnRTUG00dENoRkRTWWZfalhqaml2alNPSWdvOFRxUmh4OXZZSXpQYnVrclZFclJpbmEwSHZOMVA0aE8tbzR5UFJpRm9zODB6VE54QTJpU19acllGd9IBd0FVX3lxTE5KQnJJbWp6Q3llRFY5azBVZ0F2d2tsZUpNRXZWeEhDNzE1RXJYV2V0dUZsV1NJdEdOV0dnaHlpc1BaWnVTV1VlUmZUMnlyWW9YZzBKODdNSmNhV3RWel9xSHhQVlQzdWItdUVWLTFBSlRsSnJVVWl3?oc=5",
+      "id": "new-ufo-files-include-details-of-strange-triangular-craft-absolute-acoustic-silence",
+      "title": "New UFO files include details of strange triangular craft: \"Absolute acoustic silence\"",
+      "source": "CBS News",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Eb0dKY01WYTFnWWxjbVZOMFRwNU12d1UwSmUtLTZFbm82OEJmT3FsYmJqQXJJZ1c3TFliQ3hoeU1WLTlOdVhLMG1JZWswNUkzZTU4ZVEyRTRlWUFORWVlNDB6ZHlNUzN0cDJDOUJhc3ZTU1k?oc=5",
       "date": "2026-10-25",
-      "publishedAt": "2026-10-24T18:36:55Z",
+      "publishedAt": "2026-10-23T21:02:00Z",
       "summary": "",
       "mentions": 4,
       "otherSources": [
+        {
+          "title": "Latest Pentagon UFO files include reports of triangular craft over military sites",
+          "source": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1eXpOZmU5SGE4WkczMzdLekVteFN6UnRTUG00dENoRkRTWWZfalhqaml2alNPSWdvOFRxUmh4OXZZSXpQYnVrclZFclJpbmEwSHZOMVA0aE8tbzR5UFJpRm9zODB6VE54QTJpU19acllGd9IBd0FVX3lxTE5KQnJJbWp6Q3llRFY5azBVZ0F2d2tsZUpNRXZWeEhDNzE1RXJYV2V0dUZsV1NJdEdOV0dnaHlpc1BaWnVTV1VlUmZUMnlyWW9YZzBKODdNSmNhV3RWel9xSHhQVlQzdWItdUVWLTFBSlRsSnJVVWl3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1eXpOZmU5SGE4WkczMzdLekVteFN6UnRTUG00dENoRkRTWWZfalhqaml2alNPSWdvOFRxUmh4OXZZSXpQYnVrclZFclJpbmEwSHZOMVA0aE8tbzR5UFJpRm9zODB6VE54QTJpU19acllGd9IBd0FVX3lxTE5KQnJJbWp6Q3llRFY5azBVZ0F2d2tsZUpNRXZWeEhDNzE1RXJYV2V0dUZsV1NJdEdOV0dnaHlpc1BaWnVTV1VlUmZUMnlyWW9YZzBKODdNSmNhV3RWel9xSHhQVlQzdWItdUVWLTFBSlRsSnJVVWl3?oc=5",
+          "publishedAt": "2026-10-24T18:36:55Z",
+          "displayedAt": "2026-10-24T18:36:55Z"
+        },
         {
           "title": "Pentagon's UFO files reveal black triangles over military sites",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHdfVE5jbmVSejdNbEtqdl9xSE02RWJJTWowNUFhWXk1dDJkTHp2QlNjWVJqX1MzaExBYlFETVZ6MElLUzJralptbl9Jc1ZMMnBpcEE5QTNNcUJTRFlnSGlGbjY5WEYxRmRvejZkMlUxS1gzZUI1UklNZmE5Q09KUGVnOTdib2ZtbUZNTEU3eU9vVXdwS1hicEtsNDR6ZjVYYXk3T2ZKajYyQVBWWlE?oc=5",
@@ -186,20 +35,12 @@
           "source": "EarthSky",
           "publishedAt": "2026-10-25T10:00:43Z",
           "displayedAt": "2026-10-25T10:00:43Z"
-        },
-        {
-          "title": "New UFO files include details of strange triangular craft: \"Absolute acoustic silence\"",
-          "source": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Eb0dKY01WYTFnWWxjbVZOMFRwNU12d1UwSmUtLTZFbm82OEJmT3FsYmJqQXJJZ1c3TFliQ3hoeU1WLTlOdVhLMG1JZWswNUkzZTU4ZVEyRTRlWUFORWVlNDB6ZHlNUzN0cDJDOUJhc3ZTU1k?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Eb0dKY01WYTFnWWxjbVZOMFRwNU12d1UwSmUtLTZFbm82OEJmT3FsYmJqQXJJZ1c3TFliQ3hoeU1WLTlOdVhLMG1JZWswNUkzZTU4ZVEyRTRlWUFORWVlNDB6ZHlNUzN0cDJDOUJhc3ZTU1k?oc=5",
-          "publishedAt": "2026-10-23T21:02:00Z",
-          "displayedAt": "2026-10-23T21:02:00Z"
         }
       ],
       "clusterTitles": [
+        "Latest Pentagon UFO files include reports of triangular craft over military sites",
         "Pentagon's UFO files reveal black triangles over military sites",
-        "Pentagon UAP files part 7: Silent black triangles",
-        "New UFO files include details of strange triangular craft: \"Absolute acoustic silence\""
+        "Pentagon UAP files part 7: Silent black triangles"
       ],
       "quality": 93,
       "qualityBreakdown": [
@@ -250,12 +91,12 @@
         "PENTAGON",
         "SIGHTING"
       ],
+      "sourceQuality": 93,
+      "displayedAt": "2026-10-23T21:02:00Z",
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "sourceQuality": 93,
-      "displayedAt": "2026-10-24T18:36:55Z",
-      "sourceDisplayedAt": "2026-10-24T18:36:55Z"
+      "sourceDisplayedAt": "2026-10-23T21:02:00Z"
     },
     {
       "id": "sighting-glowing-ufos-spotted-racing-over-the-atlantic-at-hypersonic-speeds-as-sailors-describe-them-vanishing-and-reappearing",
@@ -477,66 +318,6 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 63,
-      "displayedAt": "2026-10-24T07:40:34Z",
-      "sourceDisplayedAt": "2026-10-24T07:40:34Z"
-    },
-    {
-      "id": "former-pentagon-ufo-chief-claims-roswell-included-non-human-bodies-that-were-refusing-food-or-contact",
-      "title": "Former Pentagon UFO Chief Claims Roswell Included 'Non-Human Bodies' That Were 'Refusing Food or Contact'",
-      "source": "International Business Times UK",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPay1JSGJMTU1sbllBMUxvOEoxaENWcDMzU2JQRG5SbUhBVmp3TWJ3M1h6Wjl5SzYzLTFEMHhXelN6d1U3ci1NdDVhTHpFdDlSVUdHRDM1aFFtTER6OEloQlpxOWJ1RElsVHJRLXJqMzZKdHBieFo2c05HbGRCUEpYdVBkYlZUY3JndnFYV2RiSXlkNEs0ZGxtd1BUSmc0Snk1aUk3RFh4Tnh0NC1tT2s4bmxlYTBKU1Q1dG1jbVZZLVVZUQ?oc=5",
-      "date": "2026-10-14",
-      "publishedAt": "2026-10-14T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 62,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "PENTAGON"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 62,
       "displayedAt": "2026-10-24T07:40:34Z",
       "sourceDisplayedAt": "2026-10-24T07:40:34Z"
     },
@@ -780,36 +561,26 @@
       "sourceDisplayedAt": "2026-10-24T07:40:34Z"
     }
   ],
-  "summaries": {
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
-  },
+  "summaries": {},
   "notificationBatch": {
-    "timestamp": "2026-10-27T16:07:16Z",
-    "ids": [
-      "sighting-glowing-ufos-spotted-racing-over-the-atlantic-at-hypersonic-speeds-as-sailors-describe-them-vanishing-and-reappearing"
-    ],
-    "articles": [
-      {
-        "id": "sighting-glowing-ufos-spotted-racing-over-the-atlantic-at-hypersonic-speeds-as-sailors-describe-them-vanishing-and-reappearing",
-        "title": "Glowing UFOs spotted racing over the Atlantic at ‘hypersonic speeds’ as sailors describe them vanishing and reappearing",
-        "source": "LankaWeb"
-      }
-    ]
+    "timestamp": "2026-10-28T09:03:59Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 327,
-    "broadTopics": 169,
-    "notificationArticles": 1,
-    "notificationTopics": 1,
+    "broadArticles": 313,
+    "broadTopics": 146,
+    "notificationArticles": 0,
+    "notificationTopics": 0,
     "newNotificationTopics": 0,
-    "appTopics": 13,
+    "appTopics": 11,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 5,
+    "regroupedTopics": 4,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -817,20 +588,20 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 12,
+      "attempts": 11,
       "repaired": 0,
       "fallbackRepaired": 0,
-      "missing": 12
+      "missing": 11
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 13,
-      "missing": 12,
+      "kept": 11,
+      "missing": 11,
       "missingItems": [
         {
-          "id": "latest-pentagon-ufo-files-include-reports-of-triangular-craft-over-military-sites",
-          "title": "Latest Pentagon UFO files include reports of triangular craft over military sites",
-          "source": "NewsNation",
+          "id": "new-ufo-files-include-details-of-strange-triangular-craft-absolute-acoustic-silence",
+          "title": "New UFO files include details of strange triangular craft: \"Absolute acoustic silence\"",
+          "source": "CBS News",
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
@@ -849,12 +620,6 @@
           "id": "strange-triangular-craft-reported-in-new-u-s-government-ufo-release",
           "title": "Strange triangular craft reported in new U.S. government UFO release",
           "source": "Scientific American",
-          "reason": "missing_or_mismatched_article_content_summary"
-        },
-        {
-          "id": "former-pentagon-ufo-chief-claims-roswell-included-non-human-bodies-that-were-refusing-food-or-contact",
-          "title": "Former Pentagon UFO Chief Claims Roswell Included 'Non-Human Bodies' That Were 'Refusing Food or Contact'",
-          "source": "International Business Times UK",
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
@@ -903,15 +668,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 11,
-      "outputArticles": 10,
+      "inputArticles": 9,
+      "outputArticles": 9,
       "preservedSourceSummaries": 0
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 10,
-      "outputArticles": 10,
-      "missingSummaries": 10,
+      "inputArticles": 9,
+      "outputArticles": 9,
+      "missingSummaries": 9,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -919,48 +684,44 @@
     },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
-      "updatedArticles": 12,
-      "clearedTranslations": 12,
+      "updatedArticles": 11,
+      "clearedTranslations": 11,
       "reorderedBySourceCount": true
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 2,
-      "addedSources": 18,
+      "updatedTopics": 1,
+      "addedSources": 17,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
-      "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 12,
-      "cleanedArticles": 1,
+      "primaryId": "new-ufo-files-include-details-of-strange-triangular-craft-absolute-acoustic-silence",
+      "sources": 11,
+      "cleanedArticles": 0,
       "removedDuplicateTopics": 0,
       "staleSummariesCleared": 0,
       "rejectedArticleSources": 0,
-      "promotedPrimaryFromSource": true
+      "promotedPrimaryFromSource": false
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 11,
-      "outputArticles": 11,
+      "inputArticles": 9,
+      "outputArticles": 9,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
-    "warReleaseSummaryGuard": {
-      "policy": "department_of_war_pursue_release_summary_from_release_page_v4_second_batch_clusters",
-      "updatedArticles": 1
-    },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 11,
+      "inputArticles": 9,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 13,
-      "currentBeforeRestore": 11,
+      "currentBeforeRestore": 9,
       "restoredArticles": 2,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
@@ -975,49 +736,26 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 13
+      "articlesRefreshed": 11
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 13,
-      "newSources": 13
+      "updatedTopics": 11,
+      "newSources": 2
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 12,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 11,
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 28
+      "seededSeenFromPreviousFeed": 41
     }
-  },
-  "translations": {
-    "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": {
-      "en": {
-        "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
-        "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-        "provider": "original"
-      },
-      "de": {
-        "title": "Das Kriegsministerium veröffentlicht die zweite Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert ist und dass nach und nach weitere Dateien veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
-        "sourceHash": "1eabc4bbacd83720981740a2605ebb783b94c015",
-        "provider": "google"
-      }
-    }
-  },
-  "translationMeta": {
-    "prepared": 1,
-    "failed": 0,
-    "summary": "compact app translation only; source summaries are not overwritten",
-    "target": "de for English articles, en for German articles",
-    "source": "github-actions-precompute"
   }
 }
