@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-30T16:53:38Z",
+  "timestamp": "2026-10-31T09:00:30Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -9,7 +9,7 @@
       "date": "2026-10-23",
       "publishedAt": "2026-05-22T00:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
-      "mentions": 14,
+      "mentions": 15,
       "otherSources": [
         {
           "title": "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WA",
@@ -18,6 +18,14 @@
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcENDUkVWRDV1NmQwekhBTHZtTGY4bWh4RlAyVkxOMWgySE9fQnVCYVdaMlRWN1lGT081YmFiRmlodHBmY29DbTMtYi1kTWMxMFR4UW10S2taYWlNQnVhR094U3JiUFZXaDNyaHloMFZXUnJkVF9KOUZKUzRXMDZDSjNSelRSamdWOS1UUVFURjJucXN5ZnIyVE5MWWdQX1hiQmVDZy10ZEtVVGl6WTlDYnI2ZE45dW5wZ0VLWXA5d2h1aU54NWs2a21YdE9rYkp2Ymtj?oc=5",
           "publishedAt": "2026-10-28T05:03:16Z",
           "displayedAt": "2026-10-28T05:03:16Z"
+        },
+        {
+          "title": "Department of War Publishes Sixth Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
+          "source": "U.S. Department of War (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS0FkZ25aMzJXZEFfMFdlYkhLUmhVUkc0dlpLbkNvbGw0YWt5SHRkME9EWkxtMHNWU3JKTEdmSmpKTEV4VnpIT19KNVl2XzFORDNUMG9uVkF3Q2JLMFQ2MV9zbDdnX05ya2s4Vm5OTkJZV0Nna3gyZ3RYa2Nodi1sa2dwdzVqVTBBbkJHeUo2bzFyVDl0R21EU0V3ZUluRGFJQXlxemJWVFhMSU5rYkp3dnlManJNdmJsWFhmT0lBV0tqWnlaRUljUnF5S0RncGhfaUpQMw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS0FkZ25aMzJXZEFfMFdlYkhLUmhVUkc0dlpLbkNvbGw0YWt5SHRkME9EWkxtMHNWU3JKTEdmSmpKTEV4VnpIT19KNVl2XzFORDNUMG9uVkF3Q2JLMFQ2MV9zbDdnX05ya2s4Vm5OTkJZV0Nna3gyZ3RYa2Nodi1sa2dwdzVqVTBBbkJHeUo2bzFyVDl0R21EU0V3ZUluRGFJQXlxemJWVFhMSU5rYkp3dnlManJNdmJsWFhmT0lBV0tqWnlaRUljUnF5S0RncGhfaUpQMw?oc=5",
+          "publishedAt": "2026-09-18T07:00:00Z",
+          "displayedAt": "2026-09-18T07:00:00Z"
         },
         {
           "title": "US releases second batch of government declassified UFO files",
@@ -118,6 +126,7 @@
       ],
       "clusterTitles": [
         "Department of War Publishes Second Release of Unidentified Anomalous Phenomena Files on WA",
+        "Department of War Publishes Sixth Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
         "US releases second batch of government declassified UFO files",
         "Pentagon releases bombshell new UFO files - alien corpses and egg shaped aircraft",
         "Watch: Pentagon Releases New Batch of UFO Files",
@@ -125,8 +134,7 @@
         "Pentagon releases NEW batch of UFO files",
         "Pentagon releases second set of videos as part of Trump's UFO transparency directive",
         "Pentagon releases new batch of declassified UFO files",
-        "New videos from Pentagon’s second batch of UFO files",
-        "Pentagon releases new batch of UFO files"
+        "New videos from Pentagon’s second batch of UFO files"
       ],
       "quality": 100,
       "qualityBreakdown": [
@@ -162,13 +170,14 @@
         },
         {
           "label": "Mehrere Quellen",
-          "points": 65,
-          "text": "14 Quellen im aktuellen Feed."
+          "points": 70,
+          "text": "15 Quellen im aktuellen Feed."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
       "matchedTerms": [
-        "DISCLOSURE"
+        "files",
+        "released"
       ],
       "sourceQuality": 100,
       "summarySource": "source_page",
@@ -370,63 +379,6 @@
       "sourceQuality": 64,
       "displayedAt": "2026-10-23T15:32:30Z",
       "sourceDisplayedAt": "2026-10-23T15:32:30Z",
-      "retainedFromPreviousScan": true
-    },
-    {
-      "id": "recently-obtained-foia-records-reveal-aaro-quietly-built-uap-partnership-with-uruguay",
-      "title": "Recently Obtained FOIA Records Reveal AARO Quietly Built UAP Partnership With Uruguay",
-      "source": "USA Herald",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUnJpRDlDelhPZVlkc0pGdm5tekhvem83djA4bV9jRlpJcFJ2QUJVOFJxY3RES1JaZzBFRUlrUkdvMlJkZnJLUTRIV2V4WmZEVDlwaGd0SGJGRTVjc2Z4Z1doeGVwc2lNLUlrNWdpUDZ6ODBRMWIwOHl3Uzdtbi1jNzlKNmxrbWlNQXE3bUE0ZjFzd0c2VDA2NEZxaUxFRm1GNmN2MDBaeGRaRTdk?oc=5",
-      "date": "2026-10-16",
-      "publishedAt": "2026-10-16T20:38:42Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 64,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "AARO, FOIA als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "AARO, FOIA als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "AARO",
-        "FOIA"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 64,
-      "displayedAt": "2026-10-17T07:14:54Z",
-      "sourceDisplayedAt": "2026-10-17T07:14:54Z",
       "retainedFromPreviousScan": true
     },
     {
@@ -791,32 +743,24 @@
     "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
   },
   "notificationBatch": {
-    "timestamp": "2026-10-30T16:53:38Z",
-    "ids": [
-      "dems-will-shut-down-uap-committees-if-they-win-in-midterms-burlison"
-    ],
-    "articles": [
-      {
-        "id": "dems-will-shut-down-uap-committees-if-they-win-in-midterms-burlison",
-        "title": "Dems will shut down UAP committees if they win in midterms: Burlison",
-        "source": "NewsNation"
-      }
-    ]
+    "timestamp": "2026-10-31T09:00:30Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 181,
-    "broadTopics": 95,
-    "notificationArticles": 0,
-    "notificationTopics": 0,
-    "newNotificationTopics": 0,
-    "appTopics": 13,
+    "broadArticles": 281,
+    "broadTopics": 131,
+    "notificationArticles": 1,
+    "notificationTopics": 1,
+    "newNotificationTopics": 1,
+    "appTopics": 12,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 5,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 6,
+    "regroupedTopics": 7,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -824,26 +768,20 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 12,
+      "attempts": 11,
       "repaired": 0,
       "fallbackRepaired": 0,
-      "missing": 12
+      "missing": 11
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 13,
-      "missing": 12,
+      "kept": 12,
+      "missing": 11,
       "missingItems": [
         {
           "id": "sighting-mysterious-black-triangles-spotted-going-1-800-mph-over-secret-us-military-bases-latest-ufo-file-dump-reveals",
           "title": "Mysterious black triangles spotted going 1,800 mph over secret US military bases, latest UFO file dump reveals",
           "source": "New York Post",
-          "reason": "missing_or_mismatched_article_content_summary"
-        },
-        {
-          "id": "recently-obtained-foia-records-reveal-aaro-quietly-built-uap-partnership-with-uruguay",
-          "title": "Recently Obtained FOIA Records Reveal AARO Quietly Built UAP Partnership With Uruguay",
-          "source": "USA Herald",
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
@@ -930,20 +868,20 @@
     },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
-      "updatedArticles": 12,
-      "clearedTranslations": 12,
+      "updatedArticles": 11,
+      "clearedTranslations": 11,
       "reorderedBySourceCount": true
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
       "updatedTopics": 4,
-      "addedSources": 60,
+      "addedSources": 61,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 15,
+      "sources": 16,
       "cleanedArticles": 0,
       "removedDuplicateTopics": 3,
       "staleSummariesCleared": 0,
@@ -966,16 +904,15 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 12,
+      "archiveCandidates": 13,
       "currentBeforeRestore": 8,
-      "restoredArticles": 5,
+      "restoredArticles": 4,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
         "Latest Pentagon UFO files include reports of triangular craft over military sites",
         "Mysterious black triangles spotted going 1,800 mph over secret US military bases, latest UFO file dump reveals",
-        "Recently Obtained FOIA Records Reveal AARO Quietly Built UAP Partnership With Uruguay",
         "Ex-government UAP hunter pens book, describes aliens he’s seen",
         "UFO Files Released Friday Match Wyoming Hunter’s Silent Black Triangle Encounter"
       ]
@@ -985,26 +922,26 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 13
+      "articlesRefreshed": 12
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 13,
-      "newSources": 2
+      "updatedTopics": 12,
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 13,
-      "newTopics": 0,
-      "topicsWithNewSources": 0
+      "correctedExistingTopics": 11,
+      "newTopics": 1,
+      "topicsWithNewSources": 1
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
-      "correctedOldSourceMarkers": 0,
+      "notifications": 0,
+      "freshSources": 0,
+      "correctedOldSourceMarkers": 1,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 41
+      "seededSeenFromPreviousFeed": 43
     }
   },
   "translations": {
