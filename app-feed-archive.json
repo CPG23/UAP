@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-01T09:51:08Z",
+  "timestamp": "2026-11-01T16:57:49Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -40,7 +40,8 @@
           "url": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
           "link": "https://www.war.gov/News/Releases/Release/Article/4499305/department-of-war-publishes-second-release-of-unidentified-anomalous-phenomena/",
           "source": "U.S. Department of War (.gov)",
-          "publishedAt": "2026-05-22T00:00:00Z"
+          "publishedAt": "2026-05-22T00:00:00Z",
+          "displayedAt": "2026-05-22T00:00:00Z"
         },
         {
           "title": "Pentagon releases bombshell new UFO files - alien corpses and egg shaped aircraft",
@@ -117,7 +118,7 @@
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFdsUG5aUndQM0VLTGUxXzdRX3F6WDhXWS1LYW4tMTRDRGtuclhyZmZheURING5vYURnS0hyanJSQkh3RzZ3UWdRVmVjWG13SklHSGN0VEFDMG00NHV1VW11dTV4ZHdaX1AwcVByaE9VUkZfdTJ0a21jVXFXRGVyQ3h6dFNqRDlkTlhCWA?oc=5",
           "publishedAt": "2026-05-22T07:00:00Z",
-          "displayedAt": "2026-11-01T09:51:08Z"
+          "displayedAt": "2026-11-01T16:57:49Z"
         },
         {
           "title": "Second batch of UFO files set to be released after lawmaker teased ‘Holy Crap’ moment",
@@ -182,7 +183,7 @@
         "DISCLOSURE"
       ],
       "sourceQuality": 100,
-      "displayedAt": "2026-11-01T09:51:08Z"
+      "displayedAt": "2026-11-01T16:57:49Z"
     },
     {
       "id": "sighting-mysterious-black-triangles-spotted-going-1-800-mph-over-secret-us-military-bases-latest-ufo-file-dump-reveals",
@@ -355,6 +356,60 @@
       "displayedAt": "2026-10-22T15:44:25Z",
       "sourceDisplayedAt": "2026-10-22T15:44:25Z",
       "retainedFromPreviousScan": true
+    },
+    {
+      "id": "dems-gearing-up-to-seize-ufo-disclosure-issue-from-gop-after-midterms",
+      "title": "Dems gearing up to seize UFO disclosure issue from GOP after midterms",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOVVTYUhMZVNWNFVrV2d4bjdMdllNZ3hfMnJFNDU4UmtuUXd6c0Q1bi1nS18xZVUxbVFEWGpCTGJxb1NhbW92bjlPbDZUbERaak1LMldVem5GRkpDZWhWYkZPdkxLWTN5Umk5b0ViMndJY291SHZjc2xJV0Q0aXVXMzdtU1VCUFRYT01RTVBqY3RPVEVQMHBCNGRVTmNuakFlSWNLQVh1dGs?oc=5",
+      "date": "2026-11-01",
+      "publishedAt": "2026-11-01T03:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 56,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "DISCLOSURE"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 56,
+      "displayedAt": "2026-11-01T16:57:49Z"
     },
     {
       "id": "latest-pentagon-ufo-files-include-reports-of-triangular-craft-over-military-sites",
