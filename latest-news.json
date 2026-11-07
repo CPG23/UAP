@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-06T17:44:59Z",
+  "timestamp": "2026-11-07T09:21:08Z",
   "articles": [
     {
       "id": "latest-pentagon-ufo-files-include-reports-of-triangular-craft-over-military-sites",
@@ -121,67 +121,6 @@
       "sourceQuality": 45,
       "displayedAt": "2026-10-27T16:07:16Z",
       "sourceDisplayedAt": "2026-10-26T08:12:06Z"
-    },
-    {
-      "id": "sighting-mysterious-black-triangles-spotted-going-1-800-mph-over-secret-us-military-bases-latest-ufo-file-dump-reveals",
-      "title": "Mysterious black triangles spotted going 1,800 mph over secret US military bases, latest UFO file dump reveals",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQjRrN2h3YTZxamhJcFBqNTNJLTNhSDZadlVKYW5tV3ladERncEJSTkNxbXRXWkpmSXVSajlwQTQ2czFMS0x2Sm1yVUdLbmFzMHFucEdUXzlqU2hjQWk5MEhuQUVIY0tfM1EwU0ROTUxubXJDcVdpVWRzU3J0UDZvVW5NNGE2MGxBYVVRV0N5aDlSdzU5Qm1DTUVvNV93QWotdHV3UFY3ZWtRMmlxYVhjZUc3c2pubTNia2NTd3JJOHRuUnJNOTl2S05UR2Y?oc=5",
-      "date": "2026-10-23",
-      "publishedAt": "2026-10-23T20:23:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 64,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "military"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 64,
-      "displayedAt": "2026-10-23T15:32:30Z",
-      "sourceDisplayedAt": "2026-10-23T15:32:30Z",
-      "retainedFromPreviousScan": true
     },
     {
       "id": "dems-gearing-up-to-seize-ufo-disclosure-issue-from-gop-after-midterms",
@@ -420,46 +359,12 @@
       "sourceDisplayedAt": "2026-10-27T08:26:43Z"
     },
     {
-      "id": "file-release-ufo-files-released-friday-match-wyoming-hunter-s-silent-black-triangle-encounter",
-      "title": "UFO Files Released Friday Match Wyoming Hunter’s Silent Black Triangle Encounter",
-      "source": "Cowboy State Daily",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0Y2NnphcWoyVkhVS3FFMkZ1bzNNalljQkhXWDg3UmRoZmtOSUg4Y3ptQmUtempkVXJIQUdYVHhYTnM0SHpHV3hlVGV5bndaVTV4bVZhOFhxcEVYZzRBQ0FoWmZwYUEtWWs0MXlQVWhtbFE5RUZGQ1Jpd250VnFRcHpGVl80MVJmWnBsNS1UN0xkMDRGYS1jNmdoajVjTGFEOEk0bXJ6dGxmVlFMbWtRX0ZqdHBfTHo4cG84bA?oc=5",
-      "date": "2026-10-23",
-      "publishedAt": "2026-10-23T22:10:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 40,
-      "displayedAt": "2026-10-25T07:52:05Z",
-      "sourceDisplayedAt": "2026-10-25T07:52:05Z",
-      "retainedFromPreviousScan": true
-    },
-    {
       "id": "pilots-stunned-after-spotting-mysterious-ufo-shaped-like-a-pill-while-flying-across-america",
       "title": "Pilots stunned after spotting mysterious UFO shaped like a pill while flying across America",
       "source": "LADbible",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSmJEbFdBcDFlYjIzdm9xTWFaZVltUzB0MHY3OFRsMUNPU0tHS1BWZ2dXYUxQLTJNZW5vOTZic2RCTmhPSGhVWUN5SHdkQ2dVcnZxejNOa2dOa3hXd3pIMm5NQTVHUDFXR0RjdnNybThJeW02R2l5cmh6bmFYSUlSN0NFMjBWYjFq?oc=5",
       "date": "2026-10-29",
-      "publishedAt": "2026-10-29T17:43:23Z",
+      "publishedAt": "2026-10-29T07:00:00Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
@@ -506,17 +411,17 @@
   ],
   "summaries": {},
   "notificationBatch": {
-    "timestamp": "2026-11-06T17:44:59Z",
+    "timestamp": "2026-11-07T09:21:08Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 127,
-    "broadTopics": 62,
-    "notificationArticles": 1,
-    "notificationTopics": 1,
+    "broadArticles": 128,
+    "broadTopics": 60,
+    "notificationArticles": 0,
+    "notificationTopics": 0,
     "newNotificationTopics": 0,
-    "appTopics": 10,
+    "appTopics": 8,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
@@ -531,22 +436,16 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 10,
+      "attempts": 8,
       "repaired": 0,
       "fallbackRepaired": 0,
-      "missing": 10
+      "missing": 8
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 10,
-      "missing": 10,
+      "kept": 8,
+      "missing": 8,
       "missingItems": [
-        {
-          "id": "sighting-mysterious-black-triangles-spotted-going-1-800-mph-over-secret-us-military-bases-latest-ufo-file-dump-reveals",
-          "title": "Mysterious black triangles spotted going 1,800 mph over secret US military bases, latest UFO file dump reveals",
-          "source": "New York Post",
-          "reason": "missing_or_mismatched_article_content_summary"
-        },
         {
           "id": "dems-gearing-up-to-seize-ufo-disclosure-issue-from-gop-after-midterms",
           "title": "Dems gearing up to seize UFO disclosure issue from GOP after midterms",
@@ -590,12 +489,6 @@
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
-          "id": "file-release-ufo-files-released-friday-match-wyoming-hunter-s-silent-black-triangle-encounter",
-          "title": "UFO Files Released Friday Match Wyoming Hunter’s Silent Black Triangle Encounter",
-          "source": "Cowboy State Daily",
-          "reason": "missing_or_mismatched_article_content_summary"
-        },
-        {
           "id": "pilots-stunned-after-spotting-mysterious-ufo-shaped-like-a-pill-while-flying-across-america",
           "title": "Pilots stunned after spotting mysterious UFO shaped like a pill while flying across America",
           "source": "LADbible",
@@ -621,8 +514,8 @@
     },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
-      "updatedArticles": 10,
-      "clearedTranslations": 10,
+      "updatedArticles": 8,
+      "clearedTranslations": 8,
       "reorderedBySourceCount": true
     },
     "relatedSourceBackfill": {
@@ -647,16 +540,14 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 11,
+      "archiveCandidates": 10,
       "currentBeforeRestore": 7,
-      "restoredArticles": 3,
+      "restoredArticles": 1,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
-        "Latest Pentagon UFO files include reports of triangular craft over military sites",
-        "Mysterious black triangles spotted going 1,800 mph over secret US military bases, latest UFO file dump reveals",
-        "UFO Files Released Friday Match Wyoming Hunter’s Silent Black Triangle Encounter"
+        "Latest Pentagon UFO files include reports of triangular craft over military sites"
       ]
     },
     "finalFeedSourceConsistency": {
@@ -664,16 +555,16 @@
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 10
+      "articlesRefreshed": 8
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 10,
+      "updatedTopics": 8,
       "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 10,
+      "correctedExistingTopics": 8,
       "newTopics": 0,
       "topicsWithNewSources": 0
     },
@@ -683,7 +574,7 @@
       "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 46
+      "seededSeenFromPreviousFeed": 24
     }
   }
 }
