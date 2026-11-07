@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07T09:21:08Z",
+  "timestamp": "2026-11-07T16:41:29Z",
   "articles": [
     {
       "id": "latest-pentagon-ufo-files-include-reports-of-triangular-craft-over-military-sites",
@@ -411,13 +411,13 @@
   ],
   "summaries": {},
   "notificationBatch": {
-    "timestamp": "2026-11-07T09:21:08Z",
+    "timestamp": "2026-11-07T16:41:29Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 128,
-    "broadTopics": 60,
+    "broadArticles": 129,
+    "broadTopics": 62,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -540,7 +540,7 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 10,
+      "archiveCandidates": 8,
       "currentBeforeRestore": 7,
       "restoredArticles": 1,
       "blockedUnreachableTitles": 0,
@@ -574,7 +574,7 @@
       "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 24
+      "seededSeenFromPreviousFeed": 20
     }
   }
 }
