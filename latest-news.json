@@ -1,78 +1,6 @@
 {
-  "timestamp": "2026-11-07T16:41:29Z",
+  "timestamp": "2026-11-08T09:38:43Z",
   "articles": [
-    {
-      "id": "latest-pentagon-ufo-files-include-reports-of-triangular-craft-over-military-sites",
-      "title": "Latest Pentagon UFO files include reports of triangular craft over military sites",
-      "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1eXpOZmU5SGE4WkczMzdLekVteFN6UnRTUG00dENoRkRTWWZfalhqaml2alNPSWdvOFRxUmh4OXZZSXpQYnVrclZFclJpbmEwSHZOMVA0aE8tbzR5UFJpRm9zODB6VE54QTJpU19acllGd9IBd0FVX3lxTE5KQnJJbWp6Q3llRFY5azBVZ0F2d2tsZUpNRXZWeEhDNzE1RXJYV2V0dUZsV1NJdEdOV0dnaHlpc1BaWnVTV1VlUmZUMnlyWW9YZzBKODdNSmNhV3RWel9xSHhQVlQzdWItdUVWLTFBSlRsSnJVVWl3?oc=5",
-      "date": "2026-10-23",
-      "publishedAt": "2026-10-24T18:36:55Z",
-      "summary": "",
-      "mentions": 4,
-      "otherSources": [
-        {
-          "title": "Pentagon's UFO files reveal black triangles over military sites",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHdfVE5jbmVSejdNbEtqdl9xSE02RWJJTWowNUFhWXk1dDJkTHp2QlNjWVJqX1MzaExBYlFETVZ6MElLUzJralptbl9Jc1ZMMnBpcEE5QTNNcUJTRFlnSGlGbjY5WEYxRmRvejZkMlUxS1gzZUI1UklNZmE5Q09KUGVnOTdib2ZtbUZNTEU3eU9vVXdwS1hicEtsNDR6ZjVYYXk3T2ZKajYyQVBWWlE?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHdfVE5jbmVSejdNbEtqdl9xSE02RWJJTWowNUFhWXk1dDJkTHp2QlNjWVJqX1MzaExBYlFETVZ6MElLUzJralptbl9Jc1ZMMnBpcEE5QTNNcUJTRFlnSGlGbjY5WEYxRmRvejZkMlUxS1gzZUI1UklNZmE5Q09KUGVnOTdib2ZtbUZNTEU3eU9vVXdwS1hicEtsNDR6ZjVYYXk3T2ZKajYyQVBWWlE?oc=5",
-          "source": "USA Today",
-          "publishedAt": "2026-10-26T14:56:00Z",
-          "displayedAt": "2026-10-26T14:56:00Z"
-        },
-        {
-          "title": "Pentagon UAP files part 7: Silent black triangles",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56UTZJeUJSM1RLQklheXNvWWlyY050ZnJZV2gzQ3QxaENudkpORDdWc3g5a1NzcllxVjE1NDAtbVl4R0paamlCZFFUZFFfREZodHhwWnFkWkQwZHFQQy10LVNtdlMwUnpLVDRBRmw3b2tFc1U?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56UTZJeUJSM1RLQklheXNvWWlyY050ZnJZV2gzQ3QxaENudkpORDdWc3g5a1NzcllxVjE1NDAtbVl4R0paamlCZFFUZFFfREZodHhwWnFkWkQwZHFQQy10LVNtdlMwUnpLVDRBRmw3b2tFc1U?oc=5",
-          "source": "EarthSky",
-          "publishedAt": "2026-10-25T10:00:43Z",
-          "displayedAt": "2026-10-25T10:00:43Z"
-        },
-        {
-          "title": "New UFO files include details of strange triangular craft: \"Absolute acoustic silence\"",
-          "source": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Eb0dKY01WYTFnWWxjbVZOMFRwNU12d1UwSmUtLTZFbm82OEJmT3FsYmJqQXJJZ1c3TFliQ3hoeU1WLTlOdVhLMG1JZWswNUkzZTU4ZVEyRTRlWUFORWVlNDB6ZHlNUzN0cDJDOUJhc3ZTU1k?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Eb0dKY01WYTFnWWxjbVZOMFRwNU12d1UwSmUtLTZFbm82OEJmT3FsYmJqQXJJZ1c3TFliQ3hoeU1WLTlOdVhLMG1JZWswNUkzZTU4ZVEyRTRlWUFORWVlNDB6ZHlNUzN0cDJDOUJhc3ZTU1k?oc=5",
-          "publishedAt": "2026-10-23T21:02:00Z",
-          "displayedAt": "2026-10-23T21:02:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "Pentagon's UFO files reveal black triangles over military sites",
-        "Pentagon UAP files part 7: Silent black triangles",
-        "New UFO files include details of strange triangular craft: \"Absolute acoustic silence\""
-      ],
-      "quality": 55,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 15,
-          "text": "4 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "pentagon",
-        "videos"
-      ],
-      "sourceQuality": 55,
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "displayedAt": "2026-10-24T18:36:55Z",
-      "sourceDisplayedAt": "2026-10-24T18:36:55Z",
-      "retainedFromPreviousScan": true
-    },
     {
       "id": "sighting-glowing-ufos-spotted-racing-over-the-atlantic-at-hypersonic-speeds-as-sailors-describe-them-vanishing-and-reappearing",
       "title": "Glowing UFOs spotted racing over the Atlantic at ‘hypersonic speeds’ as sailors describe them vanishing and reappearing",
@@ -120,7 +48,8 @@
       },
       "sourceQuality": 45,
       "displayedAt": "2026-10-27T16:07:16Z",
-      "sourceDisplayedAt": "2026-10-26T08:12:06Z"
+      "sourceDisplayedAt": "2026-10-26T08:12:06Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "dems-gearing-up-to-seize-ufo-disclosure-issue-from-gop-after-midterms",
@@ -359,6 +288,40 @@
       "sourceDisplayedAt": "2026-10-27T08:26:43Z"
     },
     {
+      "id": "pilots-report-a-mysterious-pill-shaped-ufo-at-41-000-feet-over-ohio-and-the-case-remains-unexplained",
+      "title": "Pilots report a mysterious pill-shaped UFO at 41,000 feet over Ohio, and the case remains unexplained",
+      "source": "Starlust.org",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMWVxU2Fjci03LUVvWEY2elE1UjN6RnpwbHZvbzlwOEhMdnYtRkU5dFk4TzB0U2d6bXpfQnRXbWVCaDh6NGNUaVZ6VHdKSTJwWUNTMk4tcWFyWDVpREpfOVdvWXlfZTVxMklGNjZsRzVpdDN6VW1YOENBX3h4QlBNWGh5LWJiQjJFZGRLSy1OSWxoMDNxd3RkRjdPSFE1TU01MG1wamVSNTl4STZKZW1pNVJsYVpIR1Y2dEdFNk9RU1NjLUEyajhYbWFfcnlXWG91NWFtcThn?oc=5",
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T20:52:57Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 40,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 40,
+      "displayedAt": "2026-11-08T09:38:43Z",
+      "sourceDisplayedAt": "2026-11-08T09:38:43Z",
+      "sourceIsNew": true
+    },
+    {
       "id": "pilots-stunned-after-spotting-mysterious-ufo-shaped-like-a-pill-while-flying-across-america",
       "title": "Pilots stunned after spotting mysterious UFO shaped like a pill while flying across America",
       "source": "LADbible",
@@ -411,16 +374,24 @@
   ],
   "summaries": {},
   "notificationBatch": {
-    "timestamp": "2026-11-07T16:41:29Z",
-    "ids": [],
-    "articles": []
+    "timestamp": "2026-11-08T09:38:43Z",
+    "ids": [
+      "pilots-report-a-mysterious-pill-shaped-ufo-at-41-000-feet-over-ohio-and-the-case-remains-unexplained"
+    ],
+    "articles": [
+      {
+        "id": "pilots-report-a-mysterious-pill-shaped-ufo-at-41-000-feet-over-ohio-and-the-case-remains-unexplained",
+        "title": "Pilots report a mysterious pill-shaped UFO at 41,000 feet over Ohio, and the case remains unexplained",
+        "source": "Starlust.org"
+      }
+    ]
   },
   "scanMeta": {
-    "broadArticles": 129,
+    "broadArticles": 128,
     "broadTopics": 62,
-    "notificationArticles": 0,
-    "notificationTopics": 0,
-    "newNotificationTopics": 0,
+    "notificationArticles": 1,
+    "notificationTopics": 1,
+    "newNotificationTopics": 1,
     "appTopics": 8,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -428,7 +399,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 0,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 3,
+    "regroupedTopics": 2,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -450,12 +421,6 @@
           "id": "dems-gearing-up-to-seize-ufo-disclosure-issue-from-gop-after-midterms",
           "title": "Dems gearing up to seize UFO disclosure issue from GOP after midterms",
           "source": "New York Post",
-          "reason": "missing_or_mismatched_article_content_summary"
-        },
-        {
-          "id": "latest-pentagon-ufo-files-include-reports-of-triangular-craft-over-military-sites",
-          "title": "Latest Pentagon UFO files include reports of triangular craft over military sites",
-          "source": "NewsNation",
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
@@ -486,6 +451,12 @@
           "id": "sighting-glowing-ufos-spotted-racing-over-the-atlantic-at-hypersonic-speeds-as-sailors-describe-them-vanishing-and-reappearing",
           "title": "Glowing UFOs spotted racing over the Atlantic at ‘hypersonic speeds’ as sailors describe them vanishing and reappearing",
           "source": "LankaWeb",
+          "reason": "missing_or_mismatched_article_content_summary"
+        },
+        {
+          "id": "pilots-report-a-mysterious-pill-shaped-ufo-at-41-000-feet-over-ohio-and-the-case-remains-unexplained",
+          "title": "Pilots report a mysterious pill-shaped UFO at 41,000 feet over Ohio, and the case remains unexplained",
+          "source": "Starlust.org",
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
@@ -547,7 +518,7 @@
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
-        "Latest Pentagon UFO files include reports of triangular craft over military sites"
+        "Glowing UFOs spotted racing over the Atlantic at ‘hypersonic speeds’ as sailors describe them vanishing and reappearing"
       ]
     },
     "finalFeedSourceConsistency": {
@@ -560,7 +531,7 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 8,
-      "newSources": 0
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
@@ -570,8 +541,8 @@
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 0,
-      "freshSources": 0,
+      "notifications": 1,
+      "freshSources": 1,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 20
