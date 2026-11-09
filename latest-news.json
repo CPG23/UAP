@@ -1,56 +1,6 @@
 {
-  "timestamp": "2026-11-08T16:52:36Z",
+  "timestamp": "2026-11-09T10:30:07Z",
   "articles": [
-    {
-      "id": "sighting-glowing-ufos-spotted-racing-over-the-atlantic-at-hypersonic-speeds-as-sailors-describe-them-vanishing-and-reappearing",
-      "title": "Glowing UFOs spotted racing over the Atlantic at ‘hypersonic speeds’ as sailors describe them vanishing and reappearing",
-      "source": "LankaWeb",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQX05KeENuemJkdUdyTmVzOE5RSlRPTXZFeWRoN2U2M0pEVmY2c3NIS2c3Rk5PaXBQc0lNSFY0ZzV4SmNJbDRsSEZWeTA5WndpaldmX192YXB6aW93OHBFT3Mya2FRQzZvZXdzSG55Mk9JbGhPRGRwWmdvdWpwaGhBbUdMZVllT3NSUGZGSV9Xeno2TFl5Z056bnZrdm1jaEZON25WWVVTemVaYVZ1VzVhbWVjck5WSkZjd2hacjI0QW4zMzRNSWZUOGhtVFF2bHltc2Fqd1JWSjlHQXlFQks4Sm9YMzFkTXM2dkJiVnk4ZzE1bFB5RFl3eg?oc=5",
-      "date": "2026-10-25",
-      "publishedAt": "2026-10-25T21:15:49Z",
-      "summary": "",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "Glowing UFOs spotted racing over the Atlantic at 'hypersonic speeds'",
-          "source": "Daily Mail",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORmlLMVpVVmlGU2pLenNVejUwX0RqeWluSS1NQkluRGtKTTgtdmJwTTFVWXRKTkNzU2xmUzdOaDRCVVc5WUlRaEFVRHlPMms4bVRlMC1VWE55VmxUdnhJaDRVdi1BUGpSM1JhUzBLMWJFNlQtcWY4cGhEbVpuNXYweHZzZmREMEhSSFdPbE5PWEZVWGtaWmJJNmQ1V0g?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORmlLMVpVVmlGU2pLenNVejUwX0RqeWluSS1NQkluRGtKTTgtdmJwTTFVWXRKTkNzU2xmUzdOaDRCVVc5WUlRaEFVRHlPMms4bVRlMC1VWE55VmxUdnhJaDRVdi1BUGpSM1JhUzBLMWJFNlQtcWY4cGhEbVpuNXYweHZzZmREMEhSSFdPbE5PWEZVWGtaWmJJNmQ1V0g?oc=5",
-          "publishedAt": "2026-10-22T23:46:02Z",
-          "displayedAt": "2026-10-22T23:46:02Z"
-        }
-      ],
-      "clusterTitles": [
-        "Glowing UFOs spotted racing over the Atlantic at 'hypersonic speeds'"
-      ],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 5,
-          "text": "2 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 45,
-      "displayedAt": "2026-10-27T16:07:16Z",
-      "sourceDisplayedAt": "2026-10-26T08:12:06Z",
-      "retainedFromPreviousScan": true
-    },
     {
       "id": "dems-gearing-up-to-seize-ufo-disclosure-issue-from-gop-after-midterms",
       "title": "Dems gearing up to seize UFO disclosure issue from GOP after midterms",
@@ -238,56 +188,6 @@
       "sourceDisplayedAt": "2026-10-30T16:53:38Z"
     },
     {
-      "id": "fbi-agents-witnessed-eerie-silent-ufo-over-national-security-site-in-june",
-      "title": "FBI Agents Witnessed Eerie Silent UFO Over 'National Security Site' In June",
-      "source": "HuffPost",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWWhpZUpCZTllek5RYlZsSVdKZVNjYVFybUFVQlNXUWRBVkNlaEJ4WXBJdXdyeEtIdG5SVEZsVEVJZTNHMjF3T0ZuT215SGxfdU5xd1JLcmxjVzZQVzJQMXNRTXpMMjVhdWdsb3VLMWlZeDRnUjE4VWdBcTBZYUdUYW9OSnRHNUtRYXNXMjVHdlgwcDDSAZgBQVVfeXFMUFlFWlNpdTBLWkkzT0ExMDZpX1dqZ2dYVVZPUkx0Z3RjbTAwOVFVU1pPSWVSSGJVekxfS1h3UFVwcWVYLWZ3cUtIQUJYYUlWRWl0eU93UWJ2NnpDb3RCTzMtMG5yWndmUTV0UmlqT2VyV1dLU2NQRWxBNlBZVFhFeFBVbzA0aWVkNk1OalZTckpMQ2RnNGF3YjM?oc=5",
-      "date": "2026-10-26",
-      "publishedAt": "2026-10-26T07:27:32Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 49,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "FBI als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "FBI als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "FBI"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 49,
-      "displayedAt": "2026-10-27T08:26:43Z",
-      "sourceDisplayedAt": "2026-10-27T08:26:43Z"
-    },
-    {
       "id": "sighting-ufo-map-shows-nearly-2-000-sightings-across-uk-13-were-in-newcastle",
       "title": "UFO map shows nearly 2,000 sightings across UK - 13 were in Newcastle",
       "source": "Chronicle Live",
@@ -420,25 +320,17 @@
   ],
   "summaries": {},
   "notificationBatch": {
-    "timestamp": "2026-11-08T16:52:36Z",
-    "ids": [
-      "sighting-ufo-map-shows-nearly-2-000-sightings-across-uk-13-were-in-newcastle"
-    ],
-    "articles": [
-      {
-        "id": "sighting-ufo-map-shows-nearly-2-000-sightings-across-uk-13-were-in-newcastle",
-        "title": "UFO map shows nearly 2,000 sightings across UK - 13 were in Newcastle",
-        "source": "Chronicle Live"
-      }
-    ]
+    "timestamp": "2026-11-09T10:30:07Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 128,
+    "broadArticles": 127,
     "broadTopics": 63,
-    "notificationArticles": 1,
-    "notificationTopics": 1,
+    "notificationArticles": 0,
+    "notificationTopics": 0,
     "newNotificationTopics": 0,
-    "appTopics": 9,
+    "appTopics": 7,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
@@ -453,15 +345,15 @@
     "qualityBalance": "source_strength_event_type_v1",
     "summaryRepair": {
       "policy": "repair_after_cluster_normalization_v7_reuse_same_story_summary",
-      "attempts": 9,
+      "attempts": 7,
       "repaired": 0,
       "fallbackRepaired": 0,
-      "missing": 9
+      "missing": 7
     },
     "summaryQualityGate": {
       "policy": "reject_extraction_noise_and_cross_article_summary_mismatches_v4",
-      "kept": 9,
-      "missing": 9,
+      "kept": 7,
+      "missing": 7,
       "missingItems": [
         {
           "id": "dems-gearing-up-to-seize-ufo-disclosure-issue-from-gop-after-midterms",
@@ -488,18 +380,6 @@
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
-          "id": "fbi-agents-witnessed-eerie-silent-ufo-over-national-security-site-in-june",
-          "title": "FBI Agents Witnessed Eerie Silent UFO Over 'National Security Site' In June",
-          "source": "HuffPost",
-          "reason": "missing_or_mismatched_article_content_summary"
-        },
-        {
-          "id": "sighting-glowing-ufos-spotted-racing-over-the-atlantic-at-hypersonic-speeds-as-sailors-describe-them-vanishing-and-reappearing",
-          "title": "Glowing UFOs spotted racing over the Atlantic at ‘hypersonic speeds’ as sailors describe them vanishing and reappearing",
-          "source": "LankaWeb",
-          "reason": "missing_or_mismatched_article_content_summary"
-        },
-        {
           "id": "sighting-ufo-map-shows-nearly-2-000-sightings-across-uk-13-were-in-newcastle",
           "title": "UFO map shows nearly 2,000 sightings across UK - 13 were in Newcastle",
           "source": "Chronicle Live",
@@ -521,15 +401,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 8,
-      "outputArticles": 8,
+      "inputArticles": 7,
+      "outputArticles": 7,
       "preservedSourceSummaries": 0
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 8,
-      "outputArticles": 8,
-      "missingSummaries": 8,
+      "inputArticles": 7,
+      "outputArticles": 7,
+      "missingSummaries": 7,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -537,9 +417,9 @@
     },
     "finalVisibleSummarySync": {
       "policy": "validated_summaries_then_source_count_quality_date_sort_v3",
-      "updatedArticles": 9,
-      "clearedTranslations": 9,
-      "reorderedBySourceCount": true
+      "updatedArticles": 7,
+      "clearedTranslations": 7,
+      "reorderedBySourceCount": false
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
@@ -549,55 +429,53 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 8,
-      "outputArticles": 8,
+      "inputArticles": 7,
+      "outputArticles": 7,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 8,
+      "inputArticles": 7,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 8,
-      "currentBeforeRestore": 8,
-      "restoredArticles": 1,
+      "archiveCandidates": 9,
+      "currentBeforeRestore": 7,
+      "restoredArticles": 0,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
-      "restoredTitles": [
-        "Glowing UFOs spotted racing over the Atlantic at ‘hypersonic speeds’ as sailors describe them vanishing and reappearing"
-      ]
+      "restoredTitles": []
     },
     "finalFeedSourceConsistency": {
       "policy": "relocate_alien_gov_immigration_sources_prune_unrelated_sources_and_refresh_linear_source_scores_v5_restore_department_sources",
       "relocatedAlienGovImmigrationSources": 0,
       "removedUnrelatedAlienGovClusterSources": 0,
       "restoredDepartmentFileReleaseSources": 0,
-      "articlesRefreshed": 9
+      "articlesRefreshed": 7
     },
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
-      "updatedTopics": 9,
-      "newSources": 1
+      "updatedTopics": 7,
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 9,
+      "correctedExistingTopics": 7,
       "newTopics": 0,
       "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 17
+      "seededSeenFromPreviousFeed": 19
     }
   }
 }
