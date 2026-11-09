@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T10:30:07Z",
+  "timestamp": "2026-11-09T21:12:27Z",
   "articles": [
     {
       "id": "dems-gearing-up-to-seize-ufo-disclosure-issue-from-gop-after-midterms",
@@ -264,8 +264,7 @@
       },
       "sourceQuality": 40,
       "displayedAt": "2026-11-08T09:38:43Z",
-      "sourceDisplayedAt": "2026-11-08T09:38:43Z",
-      "sourceIsNew": true
+      "sourceDisplayedAt": "2026-11-08T09:38:43Z"
     },
     {
       "id": "pilots-stunned-after-spotting-mysterious-ufo-shaped-like-a-pill-while-flying-across-america",
@@ -320,13 +319,13 @@
   ],
   "summaries": {},
   "notificationBatch": {
-    "timestamp": "2026-11-09T10:30:07Z",
+    "timestamp": "2026-11-09T21:12:27Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 127,
-    "broadTopics": 63,
+    "broadArticles": 122,
+    "broadTopics": 61,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -443,7 +442,7 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 9,
+      "archiveCandidates": 7,
       "currentBeforeRestore": 7,
       "restoredArticles": 0,
       "blockedUnreachableTitles": 0,
@@ -475,7 +474,7 @@
       "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 19
+      "seededSeenFromPreviousFeed": 14
     }
   }
 }
