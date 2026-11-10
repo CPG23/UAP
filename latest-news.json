@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T21:12:27Z",
+  "timestamp": "2026-11-10T10:32:57Z",
   "articles": [
     {
       "id": "dems-gearing-up-to-seize-ufo-disclosure-issue-from-gop-after-midterms",
@@ -193,7 +193,7 @@
       "source": "Chronicle Live",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX2VjRl9ERGJ4QWQ0anpKRUhPOWhjcEdPc3VIU3NOQkZJMUZvNm1BTWRRTl9tOW1RZV9jNllPdGhockgzcDE2RkEwcFlaaklXWlIxNEZKeUZ3QzBsOThDSWRtQUxFRzVmS25LR2VkcTk3NGNkbHJLMk9ZNUhxcHMxQ3RrVGdCZ3ZHTVJiTmJ3REfSAZYBQVVfeXFMTjljWTg0aU5XRWZsOWJtOHpyaHNLcm00NU5YajZDeVNTYTB2OXZFOEhLR25DVURGNnU5RG9nYzlyVDdvbXctV1YzYlR0Z0k2TmhQdEZ4Q0h6MzgtWkw1QktZRkZTV1RpczY0VmFMZnJQUGxpSGl1cU5RM2RVenNGZXphckdENjFlRklBZGkwZkpVYzNIejVB?oc=5",
       "date": "2026-11-01",
-      "publishedAt": "2026-11-01T17:14:00Z",
+      "publishedAt": "2026-11-01T07:00:00Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
@@ -230,8 +230,7 @@
       },
       "sourceQuality": 45,
       "displayedAt": "2026-11-08T16:52:36Z",
-      "sourceDisplayedAt": "2026-11-08T16:52:36Z",
-      "sourceIsNew": true
+      "sourceDisplayedAt": "2026-11-08T16:52:36Z"
     },
     {
       "id": "pilots-report-a-mysterious-pill-shaped-ufo-at-41-000-feet-over-ohio-and-the-case-remains-unexplained",
@@ -319,13 +318,13 @@
   ],
   "summaries": {},
   "notificationBatch": {
-    "timestamp": "2026-11-09T21:12:27Z",
+    "timestamp": "2026-11-10T10:32:57Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 122,
-    "broadTopics": 61,
+    "broadArticles": 123,
+    "broadTopics": 60,
     "notificationArticles": 0,
     "notificationTopics": 0,
     "newNotificationTopics": 0,
@@ -334,7 +333,7 @@
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 0,
+    "splitUnrelatedGroupedSources": 1,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
     "regroupedTopics": 3,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
