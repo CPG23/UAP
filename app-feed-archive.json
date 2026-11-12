@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11T18:13:43Z",
+  "timestamp": "2026-11-12T10:24:48Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -108,7 +108,9 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 55,
-      "displayedAt": "2026-10-30T09:10:30Z"
+      "displayedAt": "2026-10-30T09:10:30Z",
+      "sourceDisplayedAt": "2026-10-30T09:10:30Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "key-uap-advocates-reelected-in-2026-midterms",
@@ -189,7 +191,9 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 45,
-      "displayedAt": "2026-11-08T16:52:36Z"
+      "displayedAt": "2026-11-08T16:52:36Z",
+      "sourceDisplayedAt": "2026-11-08T16:52:36Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "pilots-report-a-mysterious-pill-shaped-ufo-at-41-000-feet-over-ohio-and-the-case-remains-unexplained",
@@ -224,17 +228,17 @@
       "displayedAt": "2026-11-08T09:38:43Z"
     },
     {
-      "id": "pilots-stunned-after-spotting-mysterious-ufo-shaped-like-a-pill-while-flying-across-america",
-      "title": "Pilots stunned after spotting mysterious UFO shaped like a pill while flying across America",
-      "source": "LADbible",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSmJEbFdBcDFlYjIzdm9xTWFaZVltUzB0MHY3OFRsMUNPU0tHS1BWZ2dXYUxQLTJNZW5vOTZic2RCTmhPSGhVWUN5SHdkQ2dVcnZxejNOa2dOa3hXd3pIMm5NQTVHUDFXR0RjdnNybThJeW02R2l5cmh6bmFYSUlSN0NFMjBWYjFq?oc=5",
-      "date": "2026-10-29",
-      "publishedAt": "2026-10-29T07:00:00Z",
+      "id": "sighting-ufo-investigator-stumped-by-gillette-woman-s-video-of-rotating-lights-in-night-sky",
+      "title": "UFO Investigator Stumped By Gillette Woman’s Video Of Rotating Lights In Night Sky",
+      "source": "Cowboy State Daily",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQmE5NkVBcWxLN3d5R3VGb2hsQ0tjZmxSSlFEek1RNmdCMVBoeWZWZEM5UUFJYUpaS3VwSlRLdHAwRlNQa3BSOGpxRWczQUxLNEFySldGVGVYQk5faGRlRW80OWdmejdpRjczQUhySVlaWnFaR3FWY29CNHc4X1lqUVVVWXBGRm1RaU1EQjdsZlhJekotUUwyMjdpbGlYR3NObFl4X21ZTW9SYjB1SlVLVE1JalRuY1p0V3I4bU5n?oc=5",
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T21:04:00Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 37,
+      "quality": 40,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -242,35 +246,18 @@
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
         {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "AMERICA als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Quellenrisiko",
-          "points": -8,
-          "text": "Abzug, weil die einzige Quelle in diesem Themencluster eher Boulevard, Clickbait oder Unterhaltung ist."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "AMERICA"
-      ],
+      "matchedTerms": [],
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "sourceQuality": 37,
-      "displayedAt": "2026-11-04T10:02:32Z"
+      "sourceQuality": 40,
+      "displayedAt": "2026-11-12T10:24:48Z"
     }
   ]
 }
