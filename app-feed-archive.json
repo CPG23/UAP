@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12T10:24:48Z",
+  "timestamp": "2026-11-12T18:38:59Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -57,17 +57,17 @@
       "displayedAt": "2026-11-01T16:57:49Z"
     },
     {
-      "id": "skinwalkers-and-a-silent-black-triangle-the-pentagon-s-latest-ufo-revelations",
-      "title": "‘Skinwalkers’ and a Silent Black Triangle: The Pentagon’s Latest UFO Revelations",
-      "source": "LAmag",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdHk5UnJMaDMwRWszcXhSOWdpeUdhVXA5dXFtUmxnTDhHQ2I1Z0lJUVl3VW16cFhHSE11WENmZnJFQnRhamNhZWlxQ3ROWGtXTC1hbFdhX3BQWlRhVHdqZFdrWXJDM3JnVmJ6NXV2YnpLajZZMnVXV2hBc0xrcHVZdmpsWjA0M05jVFIxRjdaN1BKQWhHbGFfdXJyRXpYbE1sT0E?oc=5",
-      "date": "2026-10-29",
-      "publishedAt": "2026-10-29T14:32:50Z",
+      "id": "tentacled-ufo-over-alaska-experts-have-explanation-for-bizarre-video",
+      "title": "Tentacled UFO over Alaska? Experts have explanation for bizarre video",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9hZXc5ck9OZGJ4LUpwdWJaaGJSc2hZdUFCcnlxSFItamJpekNlbXZYYWlVM1NQVUFDSEVnMGE1NW82akxfMkdxa2Z6bVFMb1RXYktxNmpZbFZGT0dEZEpzay1HTUNqdHJ1SlJ1LTZR0gFzQVVfeXFMTXJXTUxBbnFNcUNlUjJGRm5PVDVoT1dOM2k1bnhXX0dUUThQd1Vyei13ZFdfX1lnekFFSWVYb0JqeG9fZ2JuWFJ1X1l3aUlhWkp6UXZqNDgtMDNsTUJMRldkWW5PYkxXdUtuckJnQ19sZWZ1VQ?oc=5",
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-12T14:22:05Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 55,
+      "quality": 49,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -75,42 +75,23 @@
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
         {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
         },
         {
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "PENTAGON"
-      ],
+      "matchedTerms": [],
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "sourceQuality": 55,
-      "displayedAt": "2026-10-30T09:10:30Z",
-      "sourceDisplayedAt": "2026-10-30T09:10:30Z",
-      "retainedFromPreviousScan": true
+      "sourceQuality": 49,
+      "displayedAt": "2026-11-12T18:38:59Z"
     },
     {
       "id": "key-uap-advocates-reelected-in-2026-midterms",

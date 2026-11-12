@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12T10:24:48Z",
+  "timestamp": "2026-11-12T18:38:59Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-seventh-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -227,10 +227,10 @@
           "provider": "original"
         },
         "de": {
-          "title": "Das Kriegsministerium veröffentlicht die siebte Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "title": "Das Verteidigungsministerium veröffentlicht die siebte Ausgabe der Akten zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+          "summary": "Das Kriegsministerium gibt an, die zweite Veröffentlichung von freigegebenen und historischen Akten zu nicht identifizierten anomalen Phänomenen im Rahmen des Presidential Unsealing and Reporting System for UAP Encounters, kurz PURSUE, zu veröffentlichen. In der Mitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO zu finden ist und dass weitere Akten nach und nach freigegeben werden. Sean Parnell, Assistent des Kriegsministers für Öffentlichkeitsarbeit und Hauptsprecher des Pentagons als Quelle der Aussage genannt wird.",
           "sourceHash": "4bb758d01ddb20b33b3a9e479df8b0c1850065d6",
-          "provider": "google"
+          "provider": "mymemory"
         }
       }
     },
@@ -290,17 +290,17 @@
       "sourceDisplayedAt": "2026-11-01T16:57:49Z"
     },
     {
-      "id": "skinwalkers-and-a-silent-black-triangle-the-pentagon-s-latest-ufo-revelations",
-      "title": "‘Skinwalkers’ and a Silent Black Triangle: The Pentagon’s Latest UFO Revelations",
-      "source": "LAmag",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdHk5UnJMaDMwRWszcXhSOWdpeUdhVXA5dXFtUmxnTDhHQ2I1Z0lJUVl3VW16cFhHSE11WENmZnJFQnRhamNhZWlxQ3ROWGtXTC1hbFdhX3BQWlRhVHdqZFdrWXJDM3JnVmJ6NXV2YnpLajZZMnVXV2hBc0xrcHVZdmpsWjA0M05jVFIxRjdaN1BKQWhHbGFfdXJyRXpYbE1sT0E?oc=5",
-      "date": "2026-10-29",
-      "publishedAt": "2026-10-29T14:32:50Z",
+      "id": "tentacled-ufo-over-alaska-experts-have-explanation-for-bizarre-video",
+      "title": "Tentacled UFO over Alaska? Experts have explanation for bizarre video",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9hZXc5ck9OZGJ4LUpwdWJaaGJSc2hZdUFCcnlxSFItamJpekNlbXZYYWlVM1NQVUFDSEVnMGE1NW82akxfMkdxa2Z6bVFMb1RXYktxNmpZbFZGT0dEZEpzay1HTUNqdHJ1SlJ1LTZR0gFzQVVfeXFMTXJXTUxBbnFNcUNlUjJGRm5PVDVoT1dOM2k1bnhXX0dUUThQd1Vyei13ZFdfX1lnekFFSWVYb0JqeG9fZ2JuWFJ1X1l3aUlhWkp6UXZqNDgtMDNsTUJMRldkWW5PYkxXdUtuckJnQ19sZWZ1VQ?oc=5",
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-12T14:22:05Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
       "clusterTitles": [],
-      "quality": 55,
+      "quality": 49,
       "qualityBreakdown": [
         {
           "label": "Basis",
@@ -308,42 +308,25 @@
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
         {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
         },
         {
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "PENTAGON"
-      ],
+      "matchedTerms": [],
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "sourceQuality": 55,
-      "displayedAt": "2026-10-30T09:10:30Z",
-      "sourceDisplayedAt": "2026-10-30T09:10:30Z",
-      "retainedFromPreviousScan": true
+      "sourceQuality": 49,
+      "displayedAt": "2026-11-12T18:38:59Z",
+      "sourceDisplayedAt": "2026-11-12T18:38:59Z",
+      "sourceIsNew": true
     },
     {
       "id": "key-uap-advocates-reelected-in-2026-midterms",
@@ -501,24 +484,24 @@
     "file-release-department-of-war-publishes-seventh-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
   },
   "notificationBatch": {
-    "timestamp": "2026-11-12T10:24:48Z",
+    "timestamp": "2026-11-12T18:38:59Z",
     "ids": [
-      "sighting-ufo-investigator-stumped-by-gillette-woman-s-video-of-rotating-lights-in-night-sky"
+      "tentacled-ufo-over-alaska-experts-have-explanation-for-bizarre-video"
     ],
     "articles": [
       {
-        "id": "sighting-ufo-investigator-stumped-by-gillette-woman-s-video-of-rotating-lights-in-night-sky",
-        "title": "UFO Investigator Stumped By Gillette Woman’s Video Of Rotating Lights In Night Sky",
-        "source": "Cowboy State Daily"
+        "id": "tentacled-ufo-over-alaska-experts-have-explanation-for-bizarre-video",
+        "title": "Tentacled UFO over Alaska? Experts have explanation for bizarre video",
+        "source": "NewsNation"
       }
     ]
   },
   "scanMeta": {
-    "broadArticles": 119,
-    "broadTopics": 60,
-    "notificationArticles": 0,
-    "notificationTopics": 0,
-    "newNotificationTopics": 0,
+    "broadArticles": 123,
+    "broadTopics": 63,
+    "notificationArticles": 1,
+    "notificationTopics": 1,
+    "newNotificationTopics": 1,
     "appTopics": 7,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -526,7 +509,7 @@
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
     "splitUnrelatedGroupedSources": 4,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 0,
+    "regroupedTopics": 1,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -551,9 +534,9 @@
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
-          "id": "skinwalkers-and-a-silent-black-triangle-the-pentagon-s-latest-ufo-revelations",
-          "title": "‘Skinwalkers’ and a Silent Black Triangle: The Pentagon’s Latest UFO Revelations",
-          "source": "LAmag",
+          "id": "tentacled-ufo-over-alaska-experts-have-explanation-for-bizarre-video",
+          "title": "Tentacled UFO over Alaska? Experts have explanation for bizarre video",
+          "source": "NewsNation",
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
@@ -584,15 +567,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 7,
-      "outputArticles": 6,
+      "inputArticles": 8,
+      "outputArticles": 7,
       "preservedSourceSummaries": 1
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 6,
-      "outputArticles": 6,
-      "missingSummaries": 5,
+      "inputArticles": 7,
+      "outputArticles": 7,
+      "missingSummaries": 6,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -610,15 +593,15 @@
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 2,
-      "addedSources": 20,
+      "updatedTopics": 3,
+      "addedSources": 38,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-seventh-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 20,
-      "cleanedArticles": 0,
+      "sources": 21,
+      "cleanedArticles": 1,
       "removedDuplicateTopics": 1,
       "staleSummariesCleared": 0,
       "rejectedArticleSources": 0,
@@ -626,28 +609,27 @@
     },
     "finalClusterGuard": {
       "policy": "title_summary_cluster_guard_v3_linear_source_scoring",
-      "inputArticles": 5,
-      "outputArticles": 5,
+      "inputArticles": 6,
+      "outputArticles": 6,
       "mergedTopics": 0,
       "prunedSources": 0,
       "clearedSummaries": 0
     },
     "unreachableArticleFilter": {
       "policy": "remove_unavailable_source_pages_before_retention_v1",
-      "inputArticles": 5,
+      "inputArticles": 6,
       "removedArticles": 0,
       "removedTitles": []
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
       "archiveCandidates": 7,
-      "currentBeforeRestore": 5,
-      "restoredArticles": 2,
+      "currentBeforeRestore": 6,
+      "restoredArticles": 1,
       "blockedUnreachableTitles": 0,
       "mergedDuplicateVisibleArticles": 0,
       "retentionDays": 14,
       "restoredTitles": [
-        "‘Skinwalkers’ and a Silent Black Triangle: The Pentagon’s Latest UFO Revelations",
         "UFO map shows nearly 2,000 sightings across UK - 13 were in Newcastle"
       ]
     },
@@ -661,19 +643,19 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 7,
-      "newSources": 9
+      "newSources": 1
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 6,
-      "newTopics": 1,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 7,
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
       "notifications": 1,
       "freshSources": 1,
-      "correctedOldSourceMarkers": 1,
+      "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 30
     }
@@ -687,10 +669,10 @@
         "provider": "original"
       },
       "de": {
-        "title": "Das Kriegsministerium veröffentlicht die siebte Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "title": "Das Verteidigungsministerium veröffentlicht die siebte Ausgabe der Akten zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+        "summary": "Das Kriegsministerium gibt an, die zweite Veröffentlichung von freigegebenen und historischen Akten zu nicht identifizierten anomalen Phänomenen im Rahmen des Presidential Unsealing and Reporting System for UAP Encounters, kurz PURSUE, zu veröffentlichen. In der Mitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO zu finden ist und dass weitere Akten nach und nach freigegeben werden. Sean Parnell, Assistent des Kriegsministers für Öffentlichkeitsarbeit und Hauptsprecher des Pentagons als Quelle der Aussage genannt wird.",
         "sourceHash": "4bb758d01ddb20b33b3a9e479df8b0c1850065d6",
-        "provider": "google"
+        "provider": "mymemory"
       }
     }
   },
