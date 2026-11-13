@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13T10:11:58Z",
+  "timestamp": "2026-11-13T18:17:59Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -91,7 +91,7 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 49,
-      "displayedAt": "2026-11-13T10:11:58Z"
+      "displayedAt": "2026-11-12T18:38:59Z"
     },
     {
       "id": "key-uap-advocates-reelected-in-2026-midterms",
@@ -214,7 +214,7 @@
       "source": "Cowboy State Daily",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQmE5NkVBcWxLN3d5R3VGb2hsQ0tjZmxSSlFEek1RNmdCMVBoeWZWZEM5UUFJYUpaS3VwSlRLdHAwRlNQa3BSOGpxRWczQUxLNEFySldGVGVYQk5faGRlRW80OWdmejdpRjczQUhySVlaWnFaR3FWY29CNHc4X1lqUVVVWXBGRm1RaU1EQjdsZlhJekotUUwyMjdpbGlYR3NObFl4X21ZTW9SYjB1SlVLVE1JalRuY1p0V3I4bU5n?oc=5",
       "date": "2026-11-05",
-      "publishedAt": "2026-11-05T21:04:00Z",
+      "publishedAt": "2026-11-05T08:00:00Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],

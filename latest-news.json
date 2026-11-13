@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13T10:11:58Z",
+  "timestamp": "2026-11-13T18:17:59Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-seventh-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -451,7 +451,7 @@
       "source": "Cowboy State Daily",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQmE5NkVBcWxLN3d5R3VGb2hsQ0tjZmxSSlFEek1RNmdCMVBoeWZWZEM5UUFJYUpaS3VwSlRLdHAwRlNQa3BSOGpxRWczQUxLNEFySldGVGVYQk5faGRlRW80OWdmejdpRjczQUhySVlaWnFaR3FWY29CNHc4X1lqUVVVWXBGRm1RaU1EQjdsZlhJekotUUwyMjdpbGlYR3NObFl4X21ZTW9SYjB1SlVLVE1JalRuY1p0V3I4bU5n?oc=5",
       "date": "2026-11-05",
-      "publishedAt": "2026-11-05T21:04:00Z",
+      "publishedAt": "2026-11-05T08:00:00Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
@@ -476,23 +476,22 @@
       },
       "sourceQuality": 40,
       "displayedAt": "2026-11-12T10:24:48Z",
-      "sourceDisplayedAt": "2026-11-12T10:24:48Z",
-      "sourceIsNew": true
+      "sourceDisplayedAt": "2026-11-12T10:24:48Z"
     }
   ],
   "summaries": {
     "file-release-department-of-war-publishes-seventh-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
   },
   "notificationBatch": {
-    "timestamp": "2026-11-13T10:11:58Z",
+    "timestamp": "2026-11-13T18:17:59Z",
     "ids": [],
     "articles": []
   },
   "scanMeta": {
-    "broadArticles": 122,
+    "broadArticles": 119,
     "broadTopics": 60,
-    "notificationArticles": 2,
-    "notificationTopics": 1,
+    "notificationArticles": 0,
+    "notificationTopics": 0,
     "newNotificationTopics": 0,
     "appTopics": 7,
     "retentionDays": 14,
@@ -635,19 +634,19 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 7,
-      "newSources": 1
+      "newSources": 0
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
-      "correctedExistingTopics": 5,
-      "newTopics": 2,
-      "topicsWithNewSources": 1
+      "correctedExistingTopics": 7,
+      "newTopics": 0,
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
       "notifications": 0,
       "freshSources": 0,
-      "correctedOldSourceMarkers": 1,
+      "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
       "seededSeenFromPreviousFeed": 30
     }
