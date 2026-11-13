@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12T18:38:59Z",
+  "timestamp": "2026-11-13T10:11:58Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -91,7 +91,7 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 49,
-      "displayedAt": "2026-11-12T18:38:59Z"
+      "displayedAt": "2026-11-13T10:11:58Z"
     },
     {
       "id": "key-uap-advocates-reelected-in-2026-midterms",
@@ -99,7 +99,7 @@
       "source": "NewsNation",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMHh0dWZzUUwtclZvVG1MYmszWHlFSDZXUkg5WVhQbzg0dUJROGF3NUZqRXBqR2NSVzBtUlJYVzhJT3ZvYlZIdTB4VGpQZXZsVV9JZDBjUUttcGM1Z1J1LUtjUEpYdllxVnQ3Szk5LUIwbFMwbUE2SjRodU9sNWhHSmZYVzhZUko4YVIyclctSmpXWmRzalc2MUprcXZRbkNQNmFMMDBid9IBrAFBVV95cUxQUDJXTnZlV3NDR1JiekNZeFZtV045eEk3R3RTc3dWTlM4QkhsZFVqT3IwcTBjbXN2WHZQTkhSckxuRXNXNTlRbVJ2ZURPNjJzd3lBeHF6RXdRZ3pKN1VvNmVfd2k4ZGxJNnRDbmlPY3dzMWVGd0paR19VMVVNVjFrb2xzUzBxbnYwWGg2aFQ4bjFPeFdmWHdudlFrZWRnbkZ2UjZlZEdaaHd0MUUx?oc=5",
       "date": "2026-11-04",
-      "publishedAt": "2026-11-04T22:34:39Z",
+      "publishedAt": "2026-11-04T08:00:00Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
