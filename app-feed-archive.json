@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14T09:34:49Z",
+  "timestamp": "2026-11-14T16:47:51Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -61,7 +61,66 @@
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "displayedAt": "2026-11-14T09:34:49Z"
+      "displayedAt": "2026-11-14T16:47:51Z"
+    },
+    {
+      "id": "sighting-pentagon-s-former-ufo-investigator-offers-simple-theory-for-mysterious-jellyfish-shaped-object-on-video",
+      "title": "Pentagon's former UFO investigator offers simple theory for mysterious jellyfish-shaped object on video",
+      "source": "Fox News",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWWIwNk1HZlZ2MDhLc0gydG94NXFrMTJLeGlsSU1tWGlZZk0wWFRVZG41WW5QcU1BcEM5Yk1ETTl1cjdaOVJ0d0liSHNLMC1hZUQyTmd1VFBfMUxGTlJXdGRWZGRDR1lfeWEwUXlFa1gzLWYxNUpYNUg2bjlDek5XbEZSZHdCUkJJc2RRd1B4ODBGMmVISThFenpxdFRVRVZrTzdIcDhoOTQwM0o5bHlfaWtmSTRSN1hCLXB4ZUE5VdIBxAFBVV95cUxPVE9EaFppZXJ4aUNEQ25tN2M0NTVicmVlX3Qyb0U4TUxVdDY0ajNRaV9zMzdzUEVQQ2l3UkZmcW0zeFFLZHFaakYzbERqYW5LNnBkckdaMWgyT3RZQ1FzRENudVRYc28zNG9DSmhmMndPRXVNcmxIb0ZuRkg5UkpEc2RiMExGNGFicVJCczdMQTRrM2o3VW41S3JNQTAxc0IzUWFDSWtwQkhTaDBLM24yeWtZeWtNV1VvOHVLYjlSdVB4WUt3?oc=5",
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-14T14:00:38Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 64,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "PENTAGON als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "PENTAGON als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Quelle",
+          "points": 9,
+          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Behörde im Titel",
+          "points": 6,
+          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "PENTAGON"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 64,
+      "displayedAt": "2026-11-14T16:47:51Z"
     },
     {
       "id": "dems-gearing-up-to-seize-ufo-disclosure-issue-from-gop-after-midterms",
@@ -165,7 +224,9 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 54,
-      "displayedAt": "2026-11-14T09:34:49Z"
+      "displayedAt": "2026-11-14T09:34:49Z",
+      "sourceDisplayedAt": "2026-11-14T09:34:49Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "tentacled-ufo-over-alaska-experts-have-explanation-for-bizarre-video",
