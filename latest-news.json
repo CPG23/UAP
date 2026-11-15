@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15T10:01:57Z",
+  "timestamp": "2026-11-15T17:30:15Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-seventh-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
@@ -235,10 +235,10 @@
           "provider": "original"
         },
         "de": {
-          "title": "Das Kriegsministerium veröffentlicht die siebte Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-          "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+          "title": "Das Verteidigungsministerium veröffentlicht die siebte Ausgabe der Akten zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+          "summary": "Das Kriegsministerium gibt an, die zweite Veröffentlichung von freigegebenen und historischen Akten zu nicht identifizierten anomalen Phänomenen im Rahmen des „Presidential Unsealing and Reporting System for UAP Encounters“ (Präsidentielles System zur Freigabe und Meldung von UAP-Begegnungen) bzw. PURSUE zu veröffentlichen. In der Mitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO zu finden ist und dass weitere Akten nach und nach freigegeben werden. Sean Parnell, Assistent des Kriegsministers für Öffentlichkeitsarbeit und Hauptsprecher des Pentagons als Quelle der Aussage genannt wird.",
           "sourceHash": "4bb758d01ddb20b33b3a9e479df8b0c1850065d6",
-          "provider": "google"
+          "provider": "mymemory"
         }
       }
     },
@@ -258,8 +258,7 @@
           "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
           "publishedAt": "2026-11-12T09:48:48Z",
-          "displayedAt": "2026-11-14T09:34:49Z",
-          "isNew": true
+          "displayedAt": "2026-11-12T09:48:48Z"
         }
       ],
       "clusterTitles": [
@@ -371,8 +370,7 @@
         "articleContentSummary": "missing"
       },
       "displayedAt": "2026-11-14T09:34:49Z",
-      "sourceDisplayedAt": "2026-11-14T09:34:49Z",
-      "sourceIsNew": true
+      "sourceDisplayedAt": "2026-11-14T09:34:49Z"
     },
     {
       "id": "sighting-pentagon-s-former-ufo-investigator-offers-simple-theory-for-mysterious-jellyfish-shaped-object-on-video",
@@ -583,24 +581,16 @@
     "file-release-department-of-war-publishes-seventh-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
   },
   "notificationBatch": {
-    "timestamp": "2026-11-15T10:01:57Z",
-    "ids": [
-      "aliens-near-us-military-base-woman-captures-bizarre-jellyfish-like-ufo-in-alaska-watch"
-    ],
-    "articles": [
-      {
-        "id": "aliens-near-us-military-base-woman-captures-bizarre-jellyfish-like-ufo-in-alaska-watch",
-        "title": "Aliens near US military base? Woman captures bizarre jellyfish-like UFO in Alaska | WATCH",
-        "source": "WION"
-      }
-    ]
+    "timestamp": "2026-11-15T17:30:15Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 129,
-    "broadTopics": 68,
-    "notificationArticles": 3,
-    "notificationTopics": 3,
-    "newNotificationTopics": 1,
+    "broadArticles": 130,
+    "broadTopics": 69,
+    "notificationArticles": 2,
+    "notificationTopics": 2,
+    "newNotificationTopics": 0,
     "appTopics": 8,
     "retentionDays": 14,
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
@@ -728,7 +718,7 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 10,
+      "archiveCandidates": 8,
       "currentBeforeRestore": 7,
       "restoredArticles": 1,
       "blockedUnreachableTitles": 0,
@@ -758,11 +748,11 @@
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 1,
-      "freshSources": 1,
+      "notifications": 0,
+      "freshSources": 0,
       "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 37
+      "seededSeenFromPreviousFeed": 34
     }
   },
   "translations": {
@@ -774,10 +764,10 @@
         "provider": "original"
       },
       "de": {
-        "title": "Das Kriegsministerium veröffentlicht die siebte Veröffentlichung von Dateien zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
-        "summary": "Das Kriegsministerium gibt bekannt, dass es die zweite Veröffentlichung freigegebener und historischer Dateien zu nicht identifizierten anomalen Phänomenen als Teil des Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) veröffentlicht. In der Pressemitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO gespeichert bleibt und dass weitere Dateien fortlaufend veröffentlicht werden. Als Quelle der Aussage wird der Assistent des Kriegsministers für öffentliche Angelegenheiten und Chefsprecher des Pentagons, Sean Parnell, genannt.",
+        "title": "Das Verteidigungsministerium veröffentlicht die siebte Ausgabe der Akten zu nicht identifizierten anomalen Phänomenen auf WAR.GOV/UFO",
+        "summary": "Das Kriegsministerium gibt an, die zweite Veröffentlichung von freigegebenen und historischen Akten zu nicht identifizierten anomalen Phänomenen im Rahmen des „Presidential Unsealing and Reporting System for UAP Encounters“ (Präsidentielles System zur Freigabe und Meldung von UAP-Begegnungen) bzw. PURSUE zu veröffentlichen. In der Mitteilung heißt es, dass die Sammlung weiterhin auf WAR.GOV/UFO zu finden ist und dass weitere Akten nach und nach freigegeben werden. Sean Parnell, Assistent des Kriegsministers für Öffentlichkeitsarbeit und Hauptsprecher des Pentagons als Quelle der Aussage genannt wird.",
         "sourceHash": "4bb758d01ddb20b33b3a9e479df8b0c1850065d6",
-        "provider": "google"
+        "provider": "mymemory"
       }
     }
   },

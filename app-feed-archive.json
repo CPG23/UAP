@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15T10:01:57Z",
+  "timestamp": "2026-11-15T17:30:15Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -137,7 +137,9 @@
           "source": "GhanaWeb",
           "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
-          "publishedAt": "2026-11-12T09:48:48Z"
+          "publishedAt": "2026-11-12T09:48:48Z",
+          "displayedAt": "2026-11-14T09:34:49Z",
+          "isNew": true
         }
       ],
       "clusterTitles": [
