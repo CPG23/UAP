@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14T16:47:51Z",
+  "timestamp": "2026-11-15T10:01:57Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -61,7 +61,7 @@
       "summaryStatus": {
         "articleContentSummary": "missing"
       },
-      "displayedAt": "2026-11-14T16:47:51Z"
+      "displayedAt": "2026-11-14T09:34:49Z"
     },
     {
       "id": "sighting-pentagon-s-former-ufo-investigator-offers-simple-theory-for-mysterious-jellyfish-shaped-object-on-video",
@@ -123,70 +123,26 @@
       "displayedAt": "2026-11-14T16:47:51Z"
     },
     {
-      "id": "dems-gearing-up-to-seize-ufo-disclosure-issue-from-gop-after-midterms",
-      "title": "Dems gearing up to seize UFO disclosure issue from GOP after midterms",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOVVTYUhMZVNWNFVrV2d4bjdMdllNZ3hfMnJFNDU4UmtuUXd6c0Q1bi1nS18xZVUxbVFEWGpCTGJxb1NhbW92bjlPbDZUbERaak1LMldVem5GRkpDZWhWYkZPdkxLWTN5Umk5b0ViMndJY291SHZjc2xJV0Q0aXVXMzdtU1VCUFRYT01RTVBqY3RPVEVQMHBCNGRVTmNuakFlSWNLQVh1dGs?oc=5",
-      "date": "2026-11-01",
-      "publishedAt": "2026-11-01T03:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 56,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "DISCLOSURE als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Kernaussage",
-          "points": 7,
-          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "DISCLOSURE"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 56,
-      "displayedAt": "2026-11-01T16:57:49Z"
-    },
-    {
-      "id": "sighting-watch-as-alien-jellyfish-like-ufo-is-spotted-hovering-near-us-military-base-before-vanishing",
-      "title": "Watch as ‘alien jellyfish-like UFO’ is spotted hovering near US military base before vanishing",
-      "source": "GhanaWeb",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
-      "date": "2026-11-12",
+      "id": "aliens-near-us-military-base-woman-captures-bizarre-jellyfish-like-ufo-in-alaska-watch",
+      "title": "Aliens near US military base? Woman captures bizarre jellyfish-like UFO in Alaska | WATCH",
+      "source": "WION",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVUlWNWItU0NnbTFMOEFJUld3M0x0dFdzRllGMnh6RTFzcFA1OVVXR2pFUFFIYklKYnNBZ01FX1ppdGZneXk2ZjdfQWJtT1JKdEJCY1A2U1NSenZHX1hxeWNwYTl5a3pqbUkxZkpwaHhqZGJRWU55Qy1OM3l4M25CbTVXMkdZN1NoNDYySzhWLVk3OFZsRjZJOW1rdzdFZ0dLOGRHaGF1UVc2YXI3OFpFMV9fRW5makx0UU1RZWRWMEHSAcYBQVVfeXFMTjFjM2xVR3IyNzR2OXpBS1QxVUdwT3kxRzcwVEY4TzA5SnBpS0NkbU9rTkJ2Mm9tMHZNZ1luaGxCUHJPYlExNVlkb3lfVlJtdFAwVGhPZmhEdElKM19hdTN1RV9NM0NwN0w4dFVUbUpXdU1FeHBPTDU5SS1xT213Q051TmVsdnQxNERrZl83TWJIT1pSX3lwUlBWMVBNVEpOVVY1c0R1MXBGeVVNZmwxTG1JUHh4YU1QaUdkakR5R3Eyd1dYNHdR?oc=5",
+      "date": "2026-11-11",
       "publishedAt": "2026-11-12T09:48:48Z",
       "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "Watch as ‘alien jellyfish-like UFO’ is spotted hovering near US military base before vanishing",
+          "source": "GhanaWeb",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
+          "publishedAt": "2026-11-12T09:48:48Z"
+        }
+      ],
+      "clusterTitles": [
+        "Watch as ‘alien jellyfish-like UFO’ is spotted hovering near US military base before vanishing"
+      ],
       "quality": 54,
       "qualityBreakdown": [
         {
@@ -224,9 +180,7 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 54,
-      "displayedAt": "2026-11-14T09:34:49Z",
-      "sourceDisplayedAt": "2026-11-14T09:34:49Z",
-      "retainedFromPreviousScan": true
+      "displayedAt": "2026-11-15T10:01:57Z"
     },
     {
       "id": "tentacled-ufo-over-alaska-experts-have-explanation-for-bizarre-video",
@@ -301,52 +255,6 @@
       },
       "sourceQuality": 49,
       "displayedAt": "2026-11-05T09:58:33Z"
-    },
-    {
-      "id": "sighting-ufo-map-shows-nearly-2-000-sightings-across-uk-13-were-in-newcastle",
-      "title": "UFO map shows nearly 2,000 sightings across UK - 13 were in Newcastle",
-      "source": "Chronicle Live",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX2VjRl9ERGJ4QWQ0anpKRUhPOWhjcEdPc3VIU3NOQkZJMUZvNm1BTWRRTl9tOW1RZV9jNllPdGhockgzcDE2RkEwcFlaaklXWlIxNEZKeUZ3QzBsOThDSWRtQUxFRzVmS25LR2VkcTk3NGNkbHJLMk9ZNUhxcHMxQ3RrVGdCZ3ZHTVJiTmJ3REfSAZYBQVVfeXFMTjljWTg0aU5XRWZsOWJtOHpyaHNLcm00NU5YajZDeVNTYTB2OXZFOEhLR25DVURGNnU5RG9nYzlyVDdvbXctV1YzYlR0Z0k2TmhQdEZ4Q0h6MzgtWkw1QktZRkZTV1RpczY0VmFMZnJQUGxpSGl1cU5RM2RVenNGZXphckdENjFlRklBZGkwZkpVYzNIejVB?oc=5",
-      "date": "2026-11-01",
-      "publishedAt": "2026-11-01T07:00:00Z",
-      "summary": "",
-      "mentions": 1,
-      "otherSources": [],
-      "clusterTitles": [],
-      "quality": 45,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 3,
-          "text": "SIGHTINGS als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 2,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "SIGHTINGS"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 45,
-      "displayedAt": "2026-11-08T16:52:36Z",
-      "sourceDisplayedAt": "2026-11-08T16:52:36Z",
-      "retainedFromPreviousScan": true
     },
     {
       "id": "pilots-report-a-mysterious-pill-shaped-ufo-at-41-000-feet-over-ohio-and-the-case-remains-unexplained",
