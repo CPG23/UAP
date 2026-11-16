@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15T17:30:15Z",
+  "timestamp": "2026-11-16T10:16:04Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -138,8 +138,7 @@
           "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
           "publishedAt": "2026-11-12T09:48:48Z",
-          "displayedAt": "2026-11-14T09:34:49Z",
-          "isNew": true
+          "displayedAt": "2026-11-12T09:48:48Z"
         }
       ],
       "clusterTitles": [
@@ -257,6 +256,50 @@
       },
       "sourceQuality": 49,
       "displayedAt": "2026-11-05T09:58:33Z"
+    },
+    {
+      "id": "trump-says-air-force-pilots-described-a-round-ufo-flying-three-times-faster-than-an-f-22-fighter-jet",
+      "title": "Trump says Air Force pilots described a round UFO flying three times faster than an F-22 fighter jet",
+      "source": "FOX 5 New York",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWmxYYkdxZy1DN05GWUJuV05pWjAzdEFsMjF5Nm1wanFBUkRBcjZTTGRyOEtrZTJEN1J4bk82VjhCblJmcnpHQnhlOUdldXQ3TkhpVHVpWWl4UWFiNUZaR3RIY1BrZDVEZUluV3NMTmVkZzdROVFBY3V4RFE2ckNPSDhWcDF4bHRjczgySVZ6V2xSR3lBSFlGck5xVU9fdlVhRnZ1VGF3dExEaGVsMzQtbWlWZng5dm1ITk9aalhHN1k?oc=5",
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T23:11:08Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 45,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "TRUMP als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "TRUMP"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 45,
+      "displayedAt": "2026-11-16T10:16:04Z"
     },
     {
       "id": "pilots-report-a-mysterious-pill-shaped-ufo-at-41-000-feet-over-ohio-and-the-case-remains-unexplained",
