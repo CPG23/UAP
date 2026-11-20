@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-11-20T10:39:46Z",
+  "timestamp": "2026-11-20T18:55:37Z",
   "articles": [
     {
       "id": "file-release-department-of-war-publishes-seventh-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
       "title": "Department of War Publishes Seventh Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO",
       "source": "U.S. Department of War (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcm1rdGlKMWR5dEJnRWR0dWVDZ3p3VVd4aFpsWHhIQXliaHBneEJ5WExmNWdPbHBZbDhhQXVrMjFNR19ka1ZpSEpoUXJtRkZtc1dITzIyWi1nOE1xeG9DVmluSzBzTHVwVkZWSWdXZThraFFTdlFWT2M5ektxczRXekEtTC0yLTFNS2lGZFBLai05eVNtb1BETHJ6TE1EN0tJUjNrRnl5THdRZVJvVnhMSWtsZmFCRU1jRVJxOWQ2ZmZOa2N3TmFYRk9mbnk1M1FMWFNpXw?oc=5",
-      "date": "2026-11-10",
+      "date": "2026-11-20",
       "publishedAt": "2026-10-23T07:00:00Z",
       "summary": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future.",
       "mentions": 22,
@@ -200,34 +200,14 @@
           "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
         },
         {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "DECLASSIFIED, PENTAGON als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 8,
-          "text": "DECLASSIFIED, PENTAGON als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Quelle",
-          "points": 9,
-          "text": "Quelle ist offiziell oder ein etabliertes Nachrichtenmedium."
-        },
-        {
           "label": "Starker Titel",
           "points": 13,
           "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
         },
         {
-          "label": "Behörde im Titel",
-          "points": 6,
-          "text": "Eine wichtige offizielle Stelle steht direkt im Titel."
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
         },
         {
           "label": "Mehrere Quellen",
@@ -236,10 +216,7 @@
         }
       ],
       "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "files",
-        "released"
-      ],
+      "matchedTerms": [],
       "sourceQuality": 100,
       "displayedAt": "2026-11-19T10:50:14Z",
       "sourceDisplayedAt": "2026-11-10T18:22:56Z",
@@ -259,15 +236,23 @@
       }
     },
     {
-      "id": "watch-as-alien-jellyfish-like-ufo-is-spotted-hovering-near-us-military-base-before-vanishing",
-      "title": "Watch as ‘alien jellyfish-like UFO’ is spotted hovering near US military base before vanishing",
-      "source": "GhanaWeb",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
+      "id": "aliens-near-us-military-base-woman-captures-bizarre-jellyfish-like-ufo-in-alaska-watch",
+      "title": "Aliens near US military base? Woman captures bizarre jellyfish-like UFO in Alaska | WATCH",
+      "source": "WION",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVUlWNWItU0NnbTFMOEFJUld3M0x0dFdzRllGMnh6RTFzcFA1OVVXR2pFUFFIYklKYnNBZ01FX1ppdGZneXk2ZjdfQWJtT1JKdEJCY1A2U1NSenZHX1hxeWNwYTl5a3pqbUkxZkpwaHhqZGJRWU55Qy1OM3l4M25CbTVXMkdZN1NoNDYySzhWLVk3OFZsRjZJOW1rdzdFZ0dLOGRHaGF1UVc2YXI3OFpFMV9fRW5makx0UU1RZWRWMEHSAcYBQVVfeXFMTjFjM2xVR3IyNzR2OXpBS1QxVUdwT3kxRzcwVEY4TzA5SnBpS0NkbU9rTkJ2Mm9tMHZNZ1luaGxCUHJPYlExNVlkb3lfVlJtdFAwVGhPZmhEdElKM19hdTN1RV9NM0NwN0w4dFVUbUpXdU1FeHBPTDU5SS1xT213Q051TmVsdnQxNERrZl83TWJIT1pSX3lwUlBWMVBNVEpOVVY1c0R1MXBGeVVNZmwxTG1JUHh4YU1QaUdkakR5R3Eyd1dYNHdR?oc=5",
       "date": "2026-11-11",
       "publishedAt": "2026-11-12T09:48:48Z",
       "summary": "",
       "mentions": 4,
       "otherSources": [
+        {
+          "title": "Watch as ‘alien jellyfish-like UFO’ is spotted hovering near US military base before vanishing",
+          "source": "GhanaWeb",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
+          "publishedAt": "2026-11-12T09:48:48Z",
+          "displayedAt": "2026-11-12T09:48:48Z"
+        },
         {
           "title": "Jellyfish-like UFO spotted near US military base in Alaska: Report",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSVk3SVRzZVBfNUJIbVZpWVVTZmprdUtNNXZTNnIxdmpBSVg2ZG1kWVVJbHVMdjhVS1R5V0ttNU9NOVF0V0JNNjhDdmRfYWdLeTRWd1QzY1NhNHFiWE1XcEcyMU1iMW9oNlpmLUwxS3FIMXJqSC1XUjhlWE03VHRFck9Jb21QN01IZnNkOGJ1YnRsUXc4OWtoRUdzWFFuakNYTHJRVw?oc=5",
@@ -283,20 +268,12 @@
           "title": "'Jellyfish UFO' seen hovering near Alaska military base before vanishing",
           "displayedAt": "2026-11-20T10:39:46Z",
           "isNew": true
-        },
-        {
-          "title": "Aliens near US military base? Woman captures bizarre jellyfish-like UFO in Alaska | WATCH",
-          "source": "WION",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVUlWNWItU0NnbTFMOEFJUld3M0x0dFdzRllGMnh6RTFzcFA1OVVXR2pFUFFIYklKYnNBZ01FX1ppdGZneXk2ZjdfQWJtT1JKdEJCY1A2U1NSenZHX1hxeWNwYTl5a3pqbUkxZkpwaHhqZGJRWU55Qy1OM3l4M25CbTVXMkdZN1NoNDYySzhWLVk3OFZsRjZJOW1rdzdFZ0dLOGRHaGF1UVc2YXI3OFpFMV9fRW5makx0UU1RZWRWMEHSAcYBQVVfeXFMTjFjM2xVR3IyNzR2OXpBS1QxVUdwT3kxRzcwVEY4TzA5SnBpS0NkbU9rTkJ2Mm9tMHZNZ1luaGxCUHJPYlExNVlkb3lfVlJtdFAwVGhPZmhEdElKM19hdTN1RV9NM0NwN0w4dFVUbUpXdU1FeHBPTDU5SS1xT213Q051TmVsdnQxNERrZl83TWJIT1pSX3lwUlBWMVBNVEpOVVY1c0R1MXBGeVVNZmwxTG1JUHh4YU1QaUdkakR5R3Eyd1dYNHdR?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVUlWNWItU0NnbTFMOEFJUld3M0x0dFdzRllGMnh6RTFzcFA1OVVXR2pFUFFIYklKYnNBZ01FX1ppdGZneXk2ZjdfQWJtT1JKdEJCY1A2U1NSenZHX1hxeWNwYTl5a3pqbUkxZkpwaHhqZGJRWU55Qy1OM3l4M25CbTVXMkdZN1NoNDYySzhWLVk3OFZsRjZJOW1rdzdFZ0dLOGRHaGF1UVc2YXI3OFpFMV9fRW5makx0UU1RZWRWMEHSAcYBQVVfeXFMTjFjM2xVR3IyNzR2OXpBS1QxVUdwT3kxRzcwVEY4TzA5SnBpS0NkbU9rTkJ2Mm9tMHZNZ1luaGxCUHJPYlExNVlkb3lfVlJtdFAwVGhPZmhEdElKM19hdTN1RV9NM0NwN0w4dFVUbUpXdU1FeHBPTDU5SS1xT213Q051TmVsdnQxNERrZl83TWJIT1pSX3lwUlBWMVBNVEpOVVY1c0R1MXBGeVVNZmwxTG1JUHh4YU1QaUdkakR5R3Eyd1dYNHdR?oc=5",
-          "publishedAt": "2026-11-12T09:48:48Z",
-          "displayedAt": "2026-11-12T09:48:48Z"
         }
       ],
       "clusterTitles": [
+        "Watch as ‘alien jellyfish-like UFO’ is spotted hovering near US military base before vanishing",
         "Jellyfish-like UFO spotted near US military base in Alaska: Report",
-        "'Jellyfish UFO' seen hovering near Alaska military base before vanishing",
-        "Aliens near US military base? Woman captures bizarre jellyfish-like UFO in Alaska | WATCH"
+        "'Jellyfish UFO' seen hovering near Alaska military base before vanishing"
       ],
       "quality": 69,
       "qualityBreakdown": [
@@ -340,7 +317,7 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 69,
-      "displayedAt": "2026-11-20T10:39:46Z",
+      "displayedAt": "2026-11-12T09:48:48Z",
       "sourceDisplayedAt": "2026-11-12T09:48:48Z"
     },
     {
@@ -402,8 +379,7 @@
       },
       "sourceQuality": 50,
       "displayedAt": "2026-11-19T10:50:14Z",
-      "sourceDisplayedAt": "2026-11-19T10:50:14Z",
-      "sourceIsNew": true
+      "sourceDisplayedAt": "2026-11-19T10:50:14Z"
     },
     {
       "id": "what-was-the-jellyfish-ufo-in-alaska-nobody-knows-but-the-video-is-from-june-and-may-show-a-kite",
@@ -583,7 +559,7 @@
       "source": "NewsNation",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9hZXc5ck9OZGJ4LUpwdWJaaGJSc2hZdUFCcnlxSFItamJpekNlbXZYYWlVM1NQVUFDSEVnMGE1NW82akxfMkdxa2Z6bVFMb1RXYktxNmpZbFZGT0dEZEpzay1HTUNqdHJ1SlJ1LTZR0gFzQVVfeXFMTXJXTUxBbnFNcUNlUjJGRm5PVDVoT1dOM2k1bnhXX0dUUThQd1Vyei13ZFdfX1lnekFFSWVYb0JqeG9fZ2JuWFJ1X1l3aUlhWkp6UXZqNDgtMDNsTUJMRldkWW5PYkxXdUtuckJnQ19sZWZ1VQ?oc=5",
       "date": "2026-11-12",
-      "publishedAt": "2026-11-12T14:22:05Z",
+      "publishedAt": "2026-11-12T08:00:00Z",
       "summary": "",
       "mentions": 1,
       "otherSources": [],
@@ -751,35 +727,20 @@
       },
       "sourceQuality": 32,
       "displayedAt": "2026-11-19T10:50:14Z",
-      "sourceDisplayedAt": "2026-11-19T10:50:14Z",
-      "sourceIsNew": true
+      "sourceDisplayedAt": "2026-11-19T10:50:14Z"
     }
   ],
   "summaries": {
     "file-release-department-of-war-publishes-seventh-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo": "The Department of War says it is publishing the second release of declassified and historical Unidentified Anomalous Phenomena files as part of the Presidential Unsealing and Reporting System for UAP Encounters, or PURSUE. The release states that the collection remains housed on WAR.GOV/UFO and that additional files will be released on a rolling basis. Assistant to the Secretary of War for Public Affairs and Chief Pentagon Spokesman Sean Parnell is named as the source of the statement. The Department says WAR.GOV/UFO has received over 1 billion hits worldwide since its May 8, 2026 launch, which it frames as evidence of major public interest in the topic and in the Trump administration's transparency effort. The statement adds that the Department of War and agency partners are working on a third UAP file release, which will be announced in the near future."
   },
   "notificationBatch": {
-    "timestamp": "2026-11-20T10:39:46Z",
-    "ids": [
-      "watch-as-alien-jellyfish-like-ufo-is-spotted-hovering-near-us-military-base-before-vanishing",
-      "alleged-ufo-sighted-in-portugal"
-    ],
-    "articles": [
-      {
-        "id": "watch-as-alien-jellyfish-like-ufo-is-spotted-hovering-near-us-military-base-before-vanishing",
-        "title": "Watch as ‘alien jellyfish-like UFO’ is spotted hovering near US military base before vanishing",
-        "source": "GhanaWeb"
-      },
-      {
-        "id": "alleged-ufo-sighted-in-portugal",
-        "title": "Alleged UFO sighted in Portugal",
-        "source": "The Portugal News"
-      }
-    ]
+    "timestamp": "2026-11-20T18:55:37Z",
+    "ids": [],
+    "articles": []
   },
   "scanMeta": {
-    "broadArticles": 163,
-    "broadTopics": 93,
+    "broadArticles": 189,
+    "broadTopics": 101,
     "notificationArticles": 2,
     "notificationTopics": 2,
     "newNotificationTopics": 1,
@@ -788,9 +749,9 @@
     "summaryPolicy": "Only article-content summaries are app-eligible; metadata/headline fallback text is rejected later by summary_quality_gate.py.",
     "filters": "UAP relevance plus entertainment/gaming/fiction exclusion",
     "quality": "Exact point breakdown per article: UAP relevance, official institutions, source trust, independent source count, topic clustering",
-    "splitUnrelatedGroupedSources": 3,
+    "splitUnrelatedGroupedSources": 4,
     "splitGroupedSourcesPolicy": "specific_story_signature_or_title_description_summary_similarity_before_enrichment_v7",
-    "regroupedTopics": 7,
+    "regroupedTopics": 6,
     "topicRegrouping": "title_summary_story_signature_v8_distinctive_moon_uap",
     "topicGroupingPolicy": "specific_story_signature_or_title_summary_similarity; broad_disclosure_terms_do_not_group_ukraine_japan_us_file_release_or_avi_moon_lights",
     "normalizedClusters": "generic_story_similarity_v3_dedupe_summary",
@@ -815,9 +776,9 @@
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
-          "id": "watch-as-alien-jellyfish-like-ufo-is-spotted-hovering-near-us-military-base-before-vanishing",
-          "title": "Watch as ‘alien jellyfish-like UFO’ is spotted hovering near US military base before vanishing",
-          "source": "GhanaWeb",
+          "id": "aliens-near-us-military-base-woman-captures-bizarre-jellyfish-like-ufo-in-alaska-watch",
+          "title": "Aliens near US military base? Woman captures bizarre jellyfish-like UFO in Alaska | WATCH",
+          "source": "WION",
           "reason": "missing_or_mismatched_article_content_summary"
         },
         {
@@ -872,15 +833,15 @@
     },
     "finalFeedIntegrity": {
       "policy": "prune_unrelated_sources_merge_same_story_recalculate_quality_v12_lake_huron_la_sighting_signatures",
-      "inputArticles": 10,
-      "outputArticles": 10,
-      "preservedSourceSummaries": 1
+      "inputArticles": 11,
+      "outputArticles": 11,
+      "preservedSourceSummaries": 0
     },
     "finalAppFeedContract": {
       "policy": "display_ready_feed_v4_keep_war_release_source_summary",
-      "inputArticles": 10,
-      "outputArticles": 10,
-      "missingSummaries": 9,
+      "inputArticles": 11,
+      "outputArticles": 11,
+      "missingSummaries": 11,
       "sort": "quality_desc_then_publishedAt_desc",
       "summary": "article_content_summary_preferred_missing_summary_placeholder_allowed",
       "newBadge": "displayedAt_24h_window",
@@ -898,16 +859,16 @@
     },
     "relatedSourceBackfill": {
       "policy": "same_story_google_news_and_official_source_backfill_v2_strict_existing_sources",
-      "updatedTopics": 3,
-      "addedSources": 35,
+      "updatedTopics": 4,
+      "addedSources": 53,
       "maxSourcesPerArticle": 18
     },
     "fileReleaseConsolidation": {
       "policy": "second_uap_file_release_single_visible_topic_v5_direct_release_primary_only",
       "primaryId": "file-release-department-of-war-publishes-seventh-release-of-unidentified-anomalous-phenomena-files-on-war-gov-ufo",
-      "sources": 23,
+      "sources": 24,
       "cleanedArticles": 2,
-      "removedDuplicateTopics": 0,
+      "removedDuplicateTopics": 1,
       "staleSummariesCleared": 0,
       "rejectedArticleSources": 0,
       "promotedPrimaryFromSource": false
@@ -928,7 +889,7 @@
     },
     "retainedAppArticles": {
       "policy": "visible_app_articles_retained_for_14_days_after_final_cluster_cleanup_v4_merge_same_story_retained_duplicates",
-      "archiveCandidates": 10,
+      "archiveCandidates": 11,
       "currentBeforeRestore": 10,
       "restoredArticles": 1,
       "blockedUnreachableTitles": 0,
@@ -948,21 +909,21 @@
     "sourceNewBadge": {
       "policy": "source_displayedAt_24h_window",
       "updatedTopics": 11,
-      "newSources": 4
+      "newSources": 2
     },
     "newMarkerNormalization": {
       "policy": "new_only_for_notification_topics_or_sources_new_vs_previous_feed",
       "correctedExistingTopics": 10,
       "newTopics": 1,
-      "topicsWithNewSources": 1
+      "topicsWithNewSources": 0
     },
     "finalNewEvents": {
       "policy": "new_marker_for_stable_topics_or_sources_not_seen_before_v2_ignore_rss_date_resurface",
-      "notifications": 2,
-      "freshSources": 3,
-      "correctedOldSourceMarkers": 1,
+      "notifications": 0,
+      "freshSources": 0,
+      "correctedOldSourceMarkers": 0,
       "resurfacedSeenItemsSuppressed": 0,
-      "seededSeenFromPreviousFeed": 42
+      "seededSeenFromPreviousFeed": 46
     }
   },
   "translations": {
