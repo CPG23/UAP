@@ -1,88 +1,7 @@
 {
-  "timestamp": "2026-11-24T13:00:37Z",
+  "timestamp": "2026-11-24T21:00:37Z",
   "retentionDays": 14,
   "articles": [
-    {
-      "id": "watch-as-alien-jellyfish-like-ufo-is-spotted-hovering-near-us-military-base-before-vanishing",
-      "title": "Watch as ‘alien jellyfish-like UFO’ is spotted hovering near US military base before vanishing",
-      "source": "GhanaWeb",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
-      "date": "2026-11-11",
-      "publishedAt": "2026-11-12T09:48:48Z",
-      "summary": "",
-      "mentions": 4,
-      "otherSources": [
-        {
-          "title": "Jellyfish-like UFO spotted near US military base in Alaska: Report",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSVk3SVRzZVBfNUJIbVZpWVVTZmprdUtNNXZTNnIxdmpBSVg2ZG1kWVVJbHVMdjhVS1R5V0ttNU9NOVF0V0JNNjhDdmRfYWdLeTRWd1QzY1NhNHFiWE1XcEcyMU1iMW9oNlpmLUwxS3FIMXJqSC1XUjhlWE03VHRFck9Jb21QN01IZnNkOGJ1YnRsUXc4OWtoRUdzWFFuakNYTHJRVw?oc=5",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSVk3SVRzZVBfNUJIbVZpWVVTZmprdUtNNXZTNnIxdmpBSVg2ZG1kWVVJbHVMdjhVS1R5V0ttNU9NOVF0V0JNNjhDdmRfYWdLeTRWd1QzY1NhNHFiWE1XcEcyMU1iMW9oNlpmLUwxS3FIMXJqSC1XUjhlWE03VHRFck9Jb21QN01IZnNkOGJ1YnRsUXc4OWtoRUdzWFFuakNYTHJRVw?oc=5",
-          "source": "The Business Standard",
-          "publishedAt": "2026-11-12T08:10:00Z",
-          "displayedAt": "2026-11-12T08:10:00Z"
-        },
-        {
-          "source": "Metro.co.uk",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ2xGZTZrVFpveTRRM3BjejZxMHZNdEpoYWRaVUxEMjdQUnhRbHhiWjd4RV9YVGEtMnJrakJKQWVIUUpQQ0hpZ1NXbEVsUFduWmNqYnNXZWljbE93UDd4ZjZMTDFoOGFrNWNFekM1dVBoMGJWcFJZdEtCSHhteTFmckQ2c2Z0djRRdjc1NEJXTWktQ3NFQVNILVRkSXRZd9IBowFBVV95cUxNT3hHOXhWX2paYmo1b0VQX2U4M0tGM1VFcEx4WkhydG5mM0prV3I2YTlYRFR0N2YzVURTbjR1bnlyQ2RrN2hTSzB1WExESmpHLXNLNjJWbXh4WmpLeGpVanhtaVdhVzlHZEJocnJXcTFLQ2IyT3ZEcDJPZVM2a2NKU3VzeVU3ZXE5bEtxT1NNQW5KWlJ3Q0ktVU4yZ1JtQ1NJdnZ3?oc=5",
-          "title": "'Jellyfish UFO' seen hovering near Alaska military base before vanishing",
-          "displayedAt": "2026-11-12T09:48:48Z"
-        },
-        {
-          "title": "Aliens near US military base? Woman captures bizarre jellyfish-like UFO in Alaska | WATCH",
-          "source": "WION",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVUlWNWItU0NnbTFMOEFJUld3M0x0dFdzRllGMnh6RTFzcFA1OVVXR2pFUFFIYklKYnNBZ01FX1ppdGZneXk2ZjdfQWJtT1JKdEJCY1A2U1NSenZHX1hxeWNwYTl5a3pqbUkxZkpwaHhqZGJRWU55Qy1OM3l4M25CbTVXMkdZN1NoNDYySzhWLVk3OFZsRjZJOW1rdzdFZ0dLOGRHaGF1UVc2YXI3OFpFMV9fRW5makx0UU1RZWRWMEHSAcYBQVVfeXFMTjFjM2xVR3IyNzR2OXpBS1QxVUdwT3kxRzcwVEY4TzA5SnBpS0NkbU9rTkJ2Mm9tMHZNZ1luaGxCUHJPYlExNVlkb3lfVlJtdFAwVGhPZmhEdElKM19hdTN1RV9NM0NwN0w4dFVUbUpXdU1FeHBPTDU5SS1xT213Q051TmVsdnQxNERrZl83TWJIT1pSX3lwUlBWMVBNVEpOVVY1c0R1MXBGeVVNZmwxTG1JUHh4YU1QaUdkakR5R3Eyd1dYNHdR?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVUlWNWItU0NnbTFMOEFJUld3M0x0dFdzRllGMnh6RTFzcFA1OVVXR2pFUFFIYklKYnNBZ01FX1ppdGZneXk2ZjdfQWJtT1JKdEJCY1A2U1NSenZHX1hxeWNwYTl5a3pqbUkxZkpwaHhqZGJRWU55Qy1OM3l4M25CbTVXMkdZN1NoNDYySzhWLVk3OFZsRjZJOW1rdzdFZ0dLOGRHaGF1UVc2YXI3OFpFMV9fRW5makx0UU1RZWRWMEHSAcYBQVVfeXFMTjFjM2xVR3IyNzR2OXpBS1QxVUdwT3kxRzcwVEY4TzA5SnBpS0NkbU9rTkJ2Mm9tMHZNZ1luaGxCUHJPYlExNVlkb3lfVlJtdFAwVGhPZmhEdElKM19hdTN1RV9NM0NwN0w4dFVUbUpXdU1FeHBPTDU5SS1xT213Q051TmVsdnQxNERrZl83TWJIT1pSX3lwUlBWMVBNVEpOVVY1c0R1MXBGeVVNZmwxTG1JUHh4YU1QaUdkakR5R3Eyd1dYNHdR?oc=5",
-          "publishedAt": "2026-11-12T09:48:48Z"
-        }
-      ],
-      "clusterTitles": [
-        "Jellyfish-like UFO spotted near US military base in Alaska: Report",
-        "'Jellyfish UFO' seen hovering near Alaska military base before vanishing",
-        "Aliens near US military base? Woman captures bizarre jellyfish-like UFO in Alaska | WATCH"
-      ],
-      "quality": 64,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Begriffe",
-          "points": 6,
-          "text": "ALIEN, MILITARY als relevante Themenbegriffe erkannt."
-        },
-        {
-          "label": "Offiziell",
-          "points": 4,
-          "text": "MILITARY als offizieller Kontext erkannt."
-        },
-        {
-          "label": "Titel",
-          "points": 4,
-          "text": "Relevante Begriffe stehen direkt im Titel."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        },
-        {
-          "label": "Mehrere Quellen",
-          "points": 10,
-          "text": "3 Quellen im aktuellen Feed."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [
-        "ALIEN",
-        "MILITARY"
-      ],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 64,
-      "displayedAt": "2026-11-24T13:00:37Z"
-    },
     {
       "id": "sighting-pentagon-s-former-ufo-investigator-offers-simple-theory-for-mysterious-jellyfish-shaped-object-on-video",
       "title": "Pentagon's former UFO investigator offers simple theory for mysterious jellyfish-shaped object on video",
@@ -143,6 +62,149 @@
       "displayedAt": "2026-11-14T16:47:51Z",
       "sourceDisplayedAt": "2026-11-14T16:47:51Z",
       "retainedFromPreviousScan": true
+    },
+    {
+      "id": "pentagon-ufo-files-2026-pentagon-ufo-files-reveal-a-1956-encounter-that-lasted-minutes-the-pilot-saw-something-strange-but-other-radar-systems-saw-nothing",
+      "title": "Pentagon UFO Files 2026: Pentagon UFO Files Reveal a 1956 Encounter That Lasted Minutes – The Pilot Saw Something Strange, But Other Radar Systems Saw Nothing",
+      "source": "The Sunday Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNOVBmd1RmS2JMSlNLRHJtazhUNXoyaGFEc2YxUUk5MGplcEtoMXVFUGJyNVdlRXBWdm5BZVk5d29Ia0dnMGlRVTJrUFpXZmFpb1FqR19tRmhpcG8zaDJYckdWMWZfZ3o0SU9mMnN6N1VnR0tJUE1hMlZuYm9JT2pNQWRmM090OXUxNnRCQnBUNkJCRk5hLVdxUVZJUE5jMi02OFZoMEJsaGlESy1JLWtnYzRXX1hlb0d6V0pkZzZvZUJyZmJQaFRGekNqblhjeHJLcFlZVGlISG4tS0V3OGFtY1Q5cnlab0piSnhSZnhJRkRmYnFIQ1ltSWlDMUZJV1hjbDJEX3hDMTVZc0NkZ0hXZUpYNEtQNzhUY3JhYmh5TF9ENHFfZExkaUtn0gGvAkFVX3lxTE9RTk9YSDU2cDhkaGs3YzJ3UWZLbnFtcEhJNlZULWxmSVNueXQ1OHIwQjJ6N0pkVWhvcVR3UG9ndXp1YzRzb1dhQWhYV3Z4dlBkVjNUMWpSOTVEeWFoNjZQQkV0bXZwUzYxdkRBa1laeHFvTGFfM21BN084a2Z0MlE2aUc3dW9KLXVBb0pEYTVMYjdaRXhkLWVPOEstZENqNE9EV1FtRGpHYlQ3UWRqY21FVHVxVGxTZHJsSk9zbUZEY1M3OEE2VmRldGtzNFFSVElCOWp1ek5HaXRUTHhGcnJYZ0owbXhOVm4tSFNQYzZmUW13V014eDgyZmdTamZyai04dnR4eGxrYU5MT0tONm1EWW9RbDY5Wk12ajFXOVFJVFJPZzJmN19kYW9Na0l1QQ?oc=5",
+      "date": "2026-11-21",
+      "publishedAt": "2026-11-22T17:55:30Z",
+      "summary": "",
+      "mentions": 2,
+      "otherSources": [
+        {
+          "title": "Pentagon UFO files reveal mysterious radar detections suggesting Mach 2.5 flight -- but there's a catch",
+          "source": "New York Post",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVWJQa2ZDaG5IX1ZGampHVzVoeUszSlFNWDJQRjhybjBrb0tRa0V6c05Td0JJenFkSElYaTMzbkd6dU1oV0cwMXBKWWhtendsTVBORGlpMmI1X3FqZTZxd3BfY2dSa0JfbUh2RVJ6NURfWHVIOF93THRRTWU5TUVIY090WWQ3ZkpQRTYwWXlWaVdKamxoN0QtUWJrNU5BZDB6a3p3NzMxbnNYd0RFdTBYdUhQUmd2S2hITFFmU09UTDJFaUZuYVlfWXYxbU9oaExFWF9fZQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVWJQa2ZDaG5IX1ZGampHVzVoeUszSlFNWDJQRjhybjBrb0tRa0V6c05Td0JJenFkSElYaTMzbkd6dU1oV0cwMXBKWWhtendsTVBORGlpMmI1X3FqZTZxd3BfY2dSa0JfbUh2RVJ6NURfWHVIOF93THRRTWU5TUVIY090WWQ3ZkpQRTYwWXlWaVdKamxoN0QtUWJrNU5BZDB6a3p3NzMxbnNYd0RFdTBYdUhQUmd2S2hITFFmU09UTDJFaUZuYVlfWXYxbU9oaExFWF9fZQ?oc=5",
+          "publishedAt": "2026-11-21T04:26:00Z",
+          "displayedAt": "2026-11-21T04:26:00Z"
+        }
+      ],
+      "clusterTitles": [
+        "Pentagon UFO files reveal mysterious radar detections suggesting Mach 2.5 flight -- but there's a catch"
+      ],
+      "quality": 56,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "DISCLOSURE als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "DISCLOSURE als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "files",
+        "pentagon",
+        "videos"
+      ],
+      "sourceQuality": 56,
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "displayedAt": "2026-11-23T11:25:58Z"
+    },
+    {
+      "id": "aliens-near-us-military-base-woman-captures-bizarre-jellyfish-like-ufo-in-alaska-watch",
+      "title": "Aliens near US military base? Woman captures bizarre jellyfish-like UFO in Alaska | WATCH",
+      "source": "WION",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVUlWNWItU0NnbTFMOEFJUld3M0x0dFdzRllGMnh6RTFzcFA1OVVXR2pFUFFIYklKYnNBZ01FX1ppdGZneXk2ZjdfQWJtT1JKdEJCY1A2U1NSenZHX1hxeWNwYTl5a3pqbUkxZkpwaHhqZGJRWU55Qy1OM3l4M25CbTVXMkdZN1NoNDYySzhWLVk3OFZsRjZJOW1rdzdFZ0dLOGRHaGF1UVc2YXI3OFpFMV9fRW5makx0UU1RZWRWMEHSAcYBQVVfeXFMTjFjM2xVR3IyNzR2OXpBS1QxVUdwT3kxRzcwVEY4TzA5SnBpS0NkbU9rTkJ2Mm9tMHZNZ1luaGxCUHJPYlExNVlkb3lfVlJtdFAwVGhPZmhEdElKM19hdTN1RV9NM0NwN0w4dFVUbUpXdU1FeHBPTDU5SS1xT213Q051TmVsdnQxNERrZl83TWJIT1pSX3lwUlBWMVBNVEpOVVY1c0R1MXBGeVVNZmwxTG1JUHh4YU1QaUdkakR5R3Eyd1dYNHdR?oc=5",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-12T09:48:48Z",
+      "summary": "",
+      "mentions": 4,
+      "otherSources": [
+        {
+          "title": "Watch as ‘alien jellyfish-like UFO’ is spotted hovering near US military base before vanishing",
+          "source": "GhanaWeb",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXNvNUx4NFNhLVp6aWNOZlJuM3JabnJ5elVWUmxPbUlBZUg1Vm1tSUoxU3d0MWJsXzBDQmc1cUw4eGNwcVh4OWVvWWJ6X3dWT2lVR2xyZFZ2dmVRbFRsWU12U0NaTDlvRDF5ZllXSHJnVnNsYk9rWjVLV243WHN6cFNnUDhlZ0wzNTZwMW5vSVo1VWRDLVBkUl9pMG9ydkdFaUZ4SmowQzhUMURzLVV1S3NELXUwVEpSOFBSRGFGUjZCMk5aTDhDQ2p0bmNqYzFId2E3Z040clZrRmhWNmhQRjdLb2tqUQ?oc=5",
+          "publishedAt": "2026-11-12T09:48:48Z"
+        },
+        {
+          "title": "Jellyfish-like UFO spotted near US military base in Alaska: Report",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSVk3SVRzZVBfNUJIbVZpWVVTZmprdUtNNXZTNnIxdmpBSVg2ZG1kWVVJbHVMdjhVS1R5V0ttNU9NOVF0V0JNNjhDdmRfYWdLeTRWd1QzY1NhNHFiWE1XcEcyMU1iMW9oNlpmLUwxS3FIMXJqSC1XUjhlWE03VHRFck9Jb21QN01IZnNkOGJ1YnRsUXc4OWtoRUdzWFFuakNYTHJRVw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSVk3SVRzZVBfNUJIbVZpWVVTZmprdUtNNXZTNnIxdmpBSVg2ZG1kWVVJbHVMdjhVS1R5V0ttNU9NOVF0V0JNNjhDdmRfYWdLeTRWd1QzY1NhNHFiWE1XcEcyMU1iMW9oNlpmLUwxS3FIMXJqSC1XUjhlWE03VHRFck9Jb21QN01IZnNkOGJ1YnRsUXc4OWtoRUdzWFFuakNYTHJRVw?oc=5",
+          "source": "The Business Standard",
+          "publishedAt": "2026-11-12T08:10:00Z",
+          "displayedAt": "2026-11-12T08:10:00Z"
+        },
+        {
+          "source": "Metro.co.uk",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ2xGZTZrVFpveTRRM3BjejZxMHZNdEpoYWRaVUxEMjdQUnhRbHhiWjd4RV9YVGEtMnJrakJKQWVIUUpQQ0hpZ1NXbEVsUFduWmNqYnNXZWljbE93UDd4ZjZMTDFoOGFrNWNFekM1dVBoMGJWcFJZdEtCSHhteTFmckQ2c2Z0djRRdjc1NEJXTWktQ3NFQVNILVRkSXRZd9IBowFBVV95cUxNT3hHOXhWX2paYmo1b0VQX2U4M0tGM1VFcEx4WkhydG5mM0prV3I2YTlYRFR0N2YzVURTbjR1bnlyQ2RrN2hTSzB1WExESmpHLXNLNjJWbXh4WmpLeGpVanhtaVdhVzlHZEJocnJXcTFLQ2IyT3ZEcDJPZVM2a2NKU3VzeVU3ZXE5bEtxT1NNQW5KWlJ3Q0ktVU4yZ1JtQ1NJdnZ3?oc=5",
+          "title": "'Jellyfish UFO' seen hovering near Alaska military base before vanishing",
+          "displayedAt": "2026-11-12T09:48:48Z"
+        }
+      ],
+      "clusterTitles": [
+        "Watch as ‘alien jellyfish-like UFO’ is spotted hovering near US military base before vanishing",
+        "Jellyfish-like UFO spotted near US military base in Alaska: Report",
+        "'Jellyfish UFO' seen hovering near Alaska military base before vanishing"
+      ],
+      "quality": 54,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 6,
+          "text": "ALIEN, MILITARY als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "MILITARY als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 4,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "ALIEN",
+        "MILITARY"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 54,
+      "displayedAt": "2026-11-24T21:00:37Z"
     },
     {
       "id": "ufo-files-mysterious-implants-removed-from-witness-cuomo",
@@ -281,49 +343,6 @@
       },
       "sourceQuality": 45,
       "displayedAt": "2026-11-18T10:49:02Z"
-    },
-    {
-      "id": "sighting-pentagon-ufo-files-2026-pentagon-ufo-files-reveal-a-1956-encounter-that-lasted-minutes-the-pilot-saw-something-strange-but-other-radar-systems-saw-nothing",
-      "title": "Pentagon UFO Files 2026: Pentagon UFO Files Reveal a 1956 Encounter That Lasted Minutes – The Pilot Saw Something Strange, But Other Radar Systems Saw Nothing",
-      "source": "The Sunday Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNOVBmd1RmS2JMSlNLRHJtazhUNXoyaGFEc2YxUUk5MGplcEtoMXVFUGJyNVdlRXBWdm5BZVk5d29Ia0dnMGlRVTJrUFpXZmFpb1FqR19tRmhpcG8zaDJYckdWMWZfZ3o0SU9mMnN6N1VnR0tJUE1hMlZuYm9JT2pNQWRmM090OXUxNnRCQnBUNkJCRk5hLVdxUVZJUE5jMi02OFZoMEJsaGlESy1JLWtnYzRXX1hlb0d6V0pkZzZvZUJyZmJQaFRGekNqblhjeHJLcFlZVGlISG4tS0V3OGFtY1Q5cnlab0piSnhSZnhJRkRmYnFIQ1ltSWlDMUZJV1hjbDJEX3hDMTVZc0NkZ0hXZUpYNEtQNzhUY3JhYmh5TF9ENHFfZExkaUtn0gGvAkFVX3lxTE9RTk9YSDU2cDhkaGs3YzJ3UWZLbnFtcEhJNlZULWxmSVNueXQ1OHIwQjJ6N0pkVWhvcVR3UG9ndXp1YzRzb1dhQWhYV3Z4dlBkVjNUMWpSOTVEeWFoNjZQQkV0bXZwUzYxdkRBa1laeHFvTGFfM21BN084a2Z0MlE2aUc3dW9KLXVBb0pEYTVMYjdaRXhkLWVPOEstZENqNE9EV1FtRGpHYlQ3UWRqY21FVHVxVGxTZHJsSk9zbUZEY1M3OEE2VmRldGtzNFFSVElCOWp1ek5HaXRUTHhGcnJYZ0owbXhOVm4tSFNQYzZmUW13V014eDgyZmdTamZyai04dnR4eGxrYU5MT0tONm1EWW9RbDY5Wk12ajFXOVFJVFJPZzJmN19kYW9Na0l1QQ?oc=5",
-      "date": "2026-11-16",
-      "publishedAt": "2026-11-22T17:55:30Z",
-      "summary": "",
-      "mentions": 2,
-      "otherSources": [
-        {
-          "title": "Pentagon UFO files reveal mysterious radar detections suggesting Mach 2.5 flight -- but there's a catch",
-          "source": "New York Post",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVWJQa2ZDaG5IX1ZGampHVzVoeUszSlFNWDJQRjhybjBrb0tRa0V6c05Td0JJenFkSElYaTMzbkd6dU1oV0cwMXBKWWhtendsTVBORGlpMmI1X3FqZTZxd3BfY2dSa0JfbUh2RVJ6NURfWHVIOF93THRRTWU5TUVIY090WWQ3ZkpQRTYwWXlWaVdKamxoN0QtUWJrNU5BZDB6a3p3NzMxbnNYd0RFdTBYdUhQUmd2S2hITFFmU09UTDJFaUZuYVlfWXYxbU9oaExFWF9fZQ?oc=5",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVWJQa2ZDaG5IX1ZGampHVzVoeUszSlFNWDJQRjhybjBrb0tRa0V6c05Td0JJenFkSElYaTMzbkd6dU1oV0cwMXBKWWhtendsTVBORGlpMmI1X3FqZTZxd3BfY2dSa0JfbUh2RVJ6NURfWHVIOF93THRRTWU5TUVIY090WWQ3ZkpQRTYwWXlWaVdKamxoN0QtUWJrNU5BZDB6a3p3NzMxbnNYd0RFdTBYdUhQUmd2S2hITFFmU09UTDJFaUZuYVlfWXYxbU9oaExFWF9fZQ?oc=5",
-          "publishedAt": "2026-11-21T04:26:00Z",
-          "displayedAt": "2026-11-21T04:26:00Z"
-        }
-      ],
-      "clusterTitles": [
-        "Pentagon UFO files reveal mysterious radar detections suggesting Mach 2.5 flight -- but there's a catch"
-      ],
-      "quality": 40,
-      "qualityBreakdown": [
-        {
-          "label": "Basis",
-          "points": 27,
-          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
-        },
-        {
-          "label": "Starker Titel",
-          "points": 13,
-          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
-        }
-      ],
-      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
-      "matchedTerms": [],
-      "summaryStatus": {
-        "articleContentSummary": "missing"
-      },
-      "sourceQuality": 40,
-      "displayedAt": "2026-11-23T11:25:58Z"
     },
     {
       "id": "are-jellyfish-ufo-videos-real",
