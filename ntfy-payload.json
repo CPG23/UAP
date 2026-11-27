@@ -1,0 +1,17 @@
+{
+  "topic": "UAP-News26",
+  "title": "5 neue Artikel",
+  "message": "──────────────\nDepartment of War Publishes Seventh Release of Unidentified Anomalous Phenomena Files on WAR.GOV/UFO\n──────────────\nUFO and UAP Disclosure Timeline: Every Official Release, 1947–2026\n──────────────\nPentagon planned deep Nevada bunker for 'exotic material or tissue' related to UFOs: new docs\n──────────────\nWatch: US declassifies more UFO footage filmed in the Middle East\n──────────────\nWhite House UAP advisor says aliens may not stop work\n──────────────",
+  "priority": 3,
+  "tags": [
+    "flying_saucer"
+  ],
+  "click": "https://cpg23.github.io/UAP/",
+  "actions": [
+    {
+      "action": "view",
+      "label": "App öffnen",
+      "url": "https://cpg23.github.io/UAP/"
+    }
+  ]
+}
