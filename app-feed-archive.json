@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-27T19:44:56Z",
+  "timestamp": "2026-11-28T11:00:17Z",
   "retentionDays": 14,
   "articles": [
     {
@@ -170,6 +170,60 @@
       },
       "sourceQuality": 56,
       "displayedAt": "2026-11-27T11:31:14Z"
+    },
+    {
+      "id": "uap-whistleblower-barber-joins-burlison-s-office-as-a-senior-adviser-on-uaps",
+      "title": "UAP whistleblower Barber joins Burlison's office as a senior adviser on UAPs",
+      "source": "Newstalk KZRG",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNd2dNTXJ5ZF9jdnlrY0RLSEJ5WmFTNUwtSnpvNUlWYi1hOWtfb2ttdElkQTJsUzB6NmpaUnRNMG90bzBBRm9NUm1MRGo1QW5DeUxZSWdMNWpjbmt4aHctYlRZcWlJMFVJRjZMTGdjMWZKNFFaU1B2Z2xmNm9YSWFfRFRBUy1DMHB4Ui0wNTlFRTZmR3lUVDZmaV9scUk5RGlSVnUzRDdWSHQyZllVZlFqLXVhS0VfRFU?oc=5",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T08:00:00Z",
+      "summary": "",
+      "mentions": 1,
+      "otherSources": [],
+      "clusterTitles": [],
+      "quality": 56,
+      "qualityBreakdown": [
+        {
+          "label": "Basis",
+          "points": 27,
+          "text": "UAP/UFO-Bezug erkannt und Unterhaltung/Gaming herausgefiltert."
+        },
+        {
+          "label": "Begriffe",
+          "points": 3,
+          "text": "WHISTLEBLOWER als relevante Themenbegriffe erkannt."
+        },
+        {
+          "label": "Offiziell",
+          "points": 4,
+          "text": "WHISTLEBLOWER als offizieller Kontext erkannt."
+        },
+        {
+          "label": "Titel",
+          "points": 2,
+          "text": "Relevante Begriffe stehen direkt im Titel."
+        },
+        {
+          "label": "Starker Titel",
+          "points": 13,
+          "text": "Der Titel enthält einen klaren UAP/UFO-Bezug."
+        },
+        {
+          "label": "Kernaussage",
+          "points": 7,
+          "text": "Ein besonders relevantes UAP-Thema wird erkannt."
+        }
+      ],
+      "qualityExplanation": "Die Punkte zeigen UAP-Bezug, starke Begriffe, offizielle Stellen, Quellenvertrauen, mehrere Quellen und bei schwachen Einzelquellen einen vorsichtigen Abzug.",
+      "matchedTerms": [
+        "WHISTLEBLOWER"
+      ],
+      "summaryStatus": {
+        "articleContentSummary": "missing"
+      },
+      "sourceQuality": 56,
+      "displayedAt": "2026-11-28T11:00:17Z"
     },
     {
       "id": "pentagon-planned-deep-nevada-bunker-for-exotic-material-or-tissue-related-to-ufos-new-docs",
@@ -415,7 +469,9 @@
         "articleContentSummary": "missing"
       },
       "sourceQuality": 45,
-      "displayedAt": "2026-11-18T10:49:02Z"
+      "displayedAt": "2026-11-18T10:49:02Z",
+      "sourceDisplayedAt": "2026-11-18T10:49:02Z",
+      "retainedFromPreviousScan": true
     },
     {
       "id": "sighting-pentagon-ufo-files-2026-pentagon-ufo-files-reveal-a-1956-encounter-that-lasted-minutes-the-pilot-saw-something-strange-but-other-radar-systems-saw-nothing",
